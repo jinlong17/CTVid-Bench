@@ -10,6 +10,8 @@ for studying the effect of video quality on text-centric multimodal reasoning.
 
 > 📄 [Paper](https://arxiv.org/abs/XXXX.XXXXX) | 🌐 [Project Page](https://CTVid.github.io) | 🤗 [Dataset](https://huggingface.co/datasets/CTVid/CTVid-Bench) | 🏆 [Leaderboard](https://CTVid.github.io/#leaderboard)
 
+![CTVid benchmark overview](project_page/static/images/main_figure.png)
+
 ---
 
 ## Highlights
@@ -79,6 +81,24 @@ python evaluation/temporal/metrics.py \
     --results_dir outputs/temporal/ \
     --dataset GT
 ```
+
+---
+
+## Dataset Visualizations
+
+### Annotation Pipeline
+![Annotation process](project_page/static/images/annotation_process.png)
+
+### Sample Video Clips
+![Sample clips](project_page/static/images/videoclips.png)
+
+### Qualitative Restoration Results
+| Chinese | English |
+|:--:|:--:|
+| ![CHN comparison](project_page/static/images/qualitative_chn.png) | ![EN comparison](project_page/static/images/qualitative_en.png) |
+
+### MLLM Performance Radar
+<img src="project_page/static/images/radar_results.png" alt="Radar" width="600">
 
 ---
 

@@ -84,6 +84,26 @@ a:hover { text-decoration: underline; }
   text-align: center;
 }
 
+/* ── PAPER FIGURES ── */
+.paper-figure {
+  margin: 1.5rem 0;
+}
+.paper-figure img {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background: #fff;
+}
+.paper-figure figcaption {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+  line-height: 1.5;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ── ABSTRACT ── */
 .abstract-text { margin-bottom: 1rem; color: #374151; font-size: 1rem; }
 

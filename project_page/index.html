@@ -59,13 +59,15 @@
 <!-- ====================================================================== -->
 <section class="section" id="teaser">
   <div class="container">
-    <!-- TODO: Replace with actual teaser image/video -->
-    <div class="teaser-placeholder">
-      <p style="color:#888;font-size:1.1rem;">
-        [Teaser figure: side-by-side comparison of GT · blur · restored frames with QA annotations]<br>
-        Replace this with <code>static/images/teaser.png</code> or a comparison video.
-      </p>
-    </div>
+    <figure class="paper-figure">
+      <img src="static/images/main_figure.png" alt="CTVid benchmark overview"
+           style="width:100%;max-width:1100px;display:block;margin:0 auto;">
+      <figcaption>
+        <strong>Figure 1.</strong> Overview of the ClearText-Video (CTVid) benchmark — text-rich
+        egocentric video clips evaluated across High-Quality, Degraded-Quality, and Restored-Quality
+        regimes for spatial / temporal scene-text understanding.
+      </figcaption>
+    </figure>
   </div>
 </section>
 
@@ -91,6 +93,24 @@
       Degraded-Quality, and Restored-Quality. We comprehensively evaluate 18 representative
       restoration methods and 16 state-of-the-art MLLMs on our test set.
     </p>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- ANNOTATION PIPELINE                                                     -->
+<!-- ====================================================================== -->
+<section class="section" id="pipeline">
+  <div class="container">
+    <h2 class="section-title">Annotation Pipeline</h2>
+    <p class="section-subtitle">Multi-stage hybrid pipeline combining automated detection with human verification.</p>
+    <figure class="paper-figure">
+      <img src="static/images/annotation_process.png" alt="Annotation process"
+           style="width:100%;max-width:1000px;display:block;margin:0 auto;">
+      <figcaption>
+        <strong>Figure 2.</strong> Annotation workflow — scene-text detection, tracking,
+        bounding-box refinement, and QA-pair generation.
+      </figcaption>
+    </figure>
   </div>
 </section>
 
@@ -147,6 +167,24 @@
         </div>
       </div>
     </div>
+
+    <figure class="paper-figure" style="margin-top:3rem;">
+      <img src="static/images/videoclips.png" alt="Sample video clips"
+           style="width:100%;max-width:1000px;display:block;margin:0 auto;">
+      <figcaption>
+        <strong>Figure 3.</strong> Representative video clips from CTVid covering diverse scenes,
+        languages (Chinese / English), and text carriers.
+      </figcaption>
+    </figure>
+
+    <figure class="paper-figure" style="margin-top:2rem;">
+      <img src="static/images/attributes.png" alt="Dataset attributes"
+           style="width:100%;max-width:900px;display:block;margin:0 auto;">
+      <figcaption>
+        <strong>Figure 4.</strong> Dataset attribute distribution — scene type, text carrier,
+        font, and language coverage.
+      </figcaption>
+    </figure>
   </div>
 </section>
 
@@ -182,6 +220,46 @@
         <div class="task-metrics">Acc_rec · NED_rec</div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- QUALITATIVE RESULTS                                                     -->
+<!-- ====================================================================== -->
+<section class="section" id="qualitative">
+  <div class="container">
+    <h2 class="section-title">Qualitative Results</h2>
+    <p class="section-subtitle">Side-by-side comparison of restoration methods on degraded text-rich frames.</p>
+
+    <figure class="paper-figure">
+      <img src="static/images/qualitative_chn.png" alt="Qualitative comparison (Chinese)"
+           style="width:100%;max-width:1100px;display:block;margin:0 auto;">
+      <figcaption><strong>Figure 5.</strong> Chinese text restoration — original vs degraded vs multiple restoration methods.</figcaption>
+    </figure>
+
+    <figure class="paper-figure" style="margin-top:2rem;">
+      <img src="static/images/qualitative_en.png" alt="Qualitative comparison (English)"
+           style="width:100%;max-width:1100px;display:block;margin:0 auto;">
+      <figcaption><strong>Figure 6.</strong> English text restoration — comparison across restoration backbones.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- MLLM PERFORMANCE                                                        -->
+<!-- ====================================================================== -->
+<section class="section bg-light" id="results">
+  <div class="container">
+    <h2 class="section-title">MLLM Performance Analysis</h2>
+    <p class="section-subtitle">Accuracy and uncertainty profiles across 16 evaluated MLLMs.</p>
+    <figure class="paper-figure">
+      <img src="static/images/radar_results.png" alt="Accuracy / uncertainty radar"
+           style="width:100%;max-width:900px;display:block;margin:0 auto;">
+      <figcaption>
+        <strong>Figure 7.</strong> Per-model accuracy and uncertainty radar across CTVid evaluation
+        dimensions (presence / localization / motion / size / boundary).
+      </figcaption>
+    </figure>
   </div>
 </section>
 
