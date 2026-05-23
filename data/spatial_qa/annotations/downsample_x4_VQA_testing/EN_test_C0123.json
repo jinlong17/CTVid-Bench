@@ -1,0 +1,519 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[523, 195], [1322, 195], [1322, 683], [523, 683]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUEMOMENTS",
+                "View Menu",
+                "Your seasonal favorites are back along with new dishes crafted",
+                "with a True twist.Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area marked by the coordinates [[1209,415], [1322,436], [1317,466], [1204,445]], what is missing in this phrase: \"View ____\"?",
+              "answer": "Menu"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[523, 299], [1322, 299], [1322, 683], [523, 683]]. Options:\nA. TRUEMOMENTS, RoalFood, View Menu, with a True twist.Gather your people and savor the moments of Fall.\nB. with a True twist.Gather your people and savor the moments of Fall., TRUE, TRUEMOMENTS, Your seasonal favorites are back along with new dishes crafted\nC. Xour seasonal favorites are back along with new dishes crafted, View Menu, RealFood, TRUEMOMENTS\nD. Your seasonal favorites are back along with new dishes crafted, with a True twist.Gather your people and savor the moments of Fall., View Menu, TRUEMOMENTS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'TRUE, TRUEMOMENTS, View Menu, RealFeod, with a True twist.Gather your people and savor the moments of Fall., Your seasonal favorites are back along with new dishes crafted, KITCHEN, FOOD' located within the bounding box [[523.0, 195.0], [1322.0, 195.0], [1322.0, 683.0], [523.0, 683.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[525, 153], [1325, 153], [1325, 645], [525, 645]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUEMOMENTS",
+                "View Menu",
+                "Your seasonal favorites are back along with new dishes crafted",
+                "with a True twist.Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the obscured portion in the word(s) in the coordinates [[959,188], [1131,215], [1121,272], [950,246]]: KITCH____.",
+              "answer": "EN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[525, 153], [1325, 153], [1325, 645], [525, 645]]. Options:\nA. RealFood, TRUEMOMENTS, FOOD, KITCHEN, with a True twist.Gather your people and savor the moments of Fall., TRUE, Your seasonal favorites are back along with new dishes crafted\nB. Your seasonal favorites are back along with new dishes crafted, RealFood, TRUE, TRUEMOMENTS, FOOD, View Menu, wtth a True twist.Gather your people and savor the moments of Fall.\nC. with a True twist.Gather your people and savor the moments of Fall., View Menu, RealFood, TRUE, FOOD, KITCNEN, Your seasonal favorites are back along with new dishes crafted\nD. with a True twist.Gather your people and savor the moments of Fall., Viow Menu, RealFood, TRUE, KITCHEN, Your seasonal favorites are back along with new dishes crafted, FOOD",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'KITCHEN, View Menu, with a True twist.Gather your people and savor the moments of Fall., RealFood, TRUE, FOOD' fall within the bounding box [[525.2050482132728, 153.0], [1325.0, 153.0], [1325.0, 645.1951219512194], [525.2050482132728, 645.1951219512194]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[516, 121], [1323, 121], [1323, 620], [516, 620]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "View Menu",
+                "TRUEMOMENTS",
+                "Your seasonal favorites are back along with new dishes crafted",
+                "with a True twist.Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the section surrounded by the coordinates [[1177,505], [1298,525], [1293,553], [1172,533]], determine the missing character(s) in the phrase \"Vi____ Menu.\"",
+              "answer": "ew"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) present in the area [[516, 121], [1323, 121], [1323, 620], [516, 620]]? Please choose the correct answer. Options:\nA. TRUE, TRUEMOMENTS, EOOD, Your seasonal favorites are back along with new dishes crafted, with a True twist.Gather your people and savor the moments of Fall., KITCHEN, View Menu\nB. RealFood, Your seasonal favorites are back along with new dishes crafted, FOOD, KITCHEN, View Menu, TRUE, TRUEMOMENTS\nC. with a True twist.Gather your people and savor the moments of Fall., KITCHEN, FOOD, TRUEMOMENTS, Viow Menu, TRUE, Your seasonal favorites are back along with new dishes crafted\nD. View Menu, FOOD, TRUEMOMENTS, Your seasonal favorites are back along with new dishes crafted, TRUE, wtth a True twist.Gather your people and savor the moments of Fall., KITCHEN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'KITCHEN, TRUEMOMENTS, View Menu, with a True twist.Gather your people and savor the moments of Fall., Your seasonal favorites are back along with new dishes crafted, IRUE, RealFood, FOOD' contained within the bounding box [[515.737592591971, 121.0], [1323.0, 121.0], [1323.0, 619.5266272189349], [515.737592591971, 619.5266272189349]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[506, 91], [1323, 91], [1323, 592], [506, 592]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUEMOMENTS",
+                "View Menu",
+                "Your seasonal favorites are back along with new dishes crafted",
+                "with a True twist.Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the part that completes the message found at the location [[400,601], [1224,774], [1217,808], [393,635]]: \"with a ____ twist. Gather your people and savor the moments of Fall.\"",
+              "answer": "True"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that includes the text(s) located within [[506, 91], [1323, 91], [1323, 592], [506, 592]]. Options:\nA. FOOD, View Menu, TRUE, KITCHEN, Your seasonal favorites are back along with new dishes crafted, TRUEMOMENTS, wtth a True twist.Gather your people and savor the moments of Fall.\nB. EOOD, RealFood, KITCHEN, TRUE, Your seasonal favorites are back along with new dishes crafted, with a True twist.Gather your people and savor the moments of Fall., TRUEMOMENTS\nC. Your seasonal favorites are back along with new dishes crafted, with a True twist.Gather your people and savor the moments of Fall., TRUEMOMENTS, TRUE, RoalFood, FOOD, View Menu\nD. TRUEMOMENTS, FOOD, RealFood, Your seasonal favorites are back along with new dishes crafted, KITCHEN, with a True twist.Gather your people and savor the moments of Fall., TRUE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'View Menu, Your seasonal favorites are back along with new dishes crafted, KITCHEN, FOOD, TRUEMOMENTS, RealFood, TRUE, witb a True twist.Gather your people and savor the moments of Fall.' positioned within the bounding box [[505.73248407643314, 91.0], [1323.0, 91.0], [1323.0, 592.138092187088], [505.73248407643314, 592.138092187088]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[497, 71], [1324, 71], [1324, 570], [497, 570]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUE MOMENTS",
+                "View Menu",
+                "Your seasonal favorites are back, along with new dishes crafted",
+                "with a True twist.Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the segment outlined by the coordinates [[389,619], [1213,792], [1206,826], [382,653]], identify the missing letter(s): \"with a Tr____ twist. Gather your people and savor the moments of Fall.\"",
+              "answer": "ue"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[497, 71], [1324, 71], [1324, 570], [497, 570]]. Options:\nA. KITCHEN, View Menu, TRUE MOMENTS, RoalFood, with a True twist.Gather your people and savor the moments of Fall., FOOD, Your seasonal favorites are back, along with new dishes crafted\nB. TRUE, View Menu, with a True twist.Gather your people and savor the moments of Fall., Your seasonal favorites are back, along with new dishes crafted, FOOD, TRUE MOMENTS, RealFood\nC. View Menu, FOOD, KITCNEN, RealFood, TRUE MOMENTS, with a True twist.Gather your people and savor the moments of Fall., Your seasonal favorites are back, along with new dishes crafted\nD. FOOD, Your seasonal favorites are back, along with new dishes crafted, RealFood, View Menu, KITCHEN, with a True twist.Gather your people and savor the moments of Fall., IRUE MOMENTS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'with a True twist.Gather your people and savor the moments of Fall., RealFeod, TRUE, Your seasonal favorites are back, along with new dishes crafted, KITCHEN, View Menu, FOOD, TRUE MOMENTS' found within the bounding box [[497.0, 71.0], [1324.0, 71.0], [1324.0, 570.0], [497.0, 570.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[495, 61], [1330, 61], [1330, 566], [495, 566]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUEMOMENTS",
+                "View Menu",
+                "Your seasonal favorites are back along with new dishes crafted",
+                "with a True twist.Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text located at [[416,516], [1234,667], [1227,703], [408,546]], what word(s) completes this phrase: \"with a ____ twist. Gather your people and savor the moments of Fall.\"?",
+              "answer": "True"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that contains the text(s) located within [[495, 172], [1330, 172], [1330, 566], [495, 566]]. Options:\nA. RoalFood, TRUEMOMENTS, with a True twist.Gather your people and savor the moments of Fall., Your seasonal favorites are back along with new dishes crafted\nB. RealFood, Your seasonal favorites are back along with new dishes crafted, TRUEMOMENTS, FOOD\nC. TRUEMOMENTS, View Menu, TRUE, Your seasonal favorites are back along with new dishes crafted\nD. View Menu, with a True twist.Gather your people and savor the moments of Fall., Your seasonal favorites are back along with new dishes crafted, TRUEMOMENTS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'KITCHEN, with a True twist.Gather your people and savor the moments of Fall., View Menu, Your seasonal favorites are back along with new dishes crafted, IRUE, TRUEMOMENTS, RealFood, FOOD' located within the bounding box [[495.0, 61.0], [1330.0, 61.0], [1330.0, 566.0], [495.0, 566.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[496, 64], [1336, 64], [1336, 572], [496, 572]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUE MOMENTS",
+                "View Menu",
+                "with a True twist.Gather your people and savor the moments of Fall",
+                "Your seasonal favorites are back along with new dishes crafted"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the text box at [[542,555], [1266,691], [1261,721], [535,589]], find the missing segment in this phrase: \"Your seasonal favorites are back, a____ with new dishes crafted.\"",
+              "answer": "long"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[496, 172], [1336, 172], [1336, 572], [496, 572]]. Options:\nA. IRUE MOMENTS, with a True twist.Gather your people and savor the moments of Fall, RealFood, Your seasonal favorites are back along with new dishes crafted\nB. TRUE MOMENTS, with a True twist.Gather your people and savor the moments of Fall, RealFood, Your seasonal favorites are back along with new dishes crafted\nC. Xour seasonal favorites are back along with new dishes crafted, RealFood, TRUE MOMENTS, View Menu\nD. TRUE, with a True twist.Gather your people and savor the moments of Fall, TRUE MOMENTS, Your seasonal favorites are back along with new dishes crafted",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'FOOD, Your seasonal favorites are back along with new dishes crafted, TRUE, RealFood, TRUE MOMENTS, View Menu' situated within the bounding box [[496.0, 64.0], [1336.0, 64.0], [1336.0, 572.0], [496.0, 572.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[502, 71], [1344, 71], [1344, 584], [502, 584]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUE MOMENTS",
+                "View Menu",
+                "Your seasonal favorites are back, along with new dishes crafted",
+                "with a True twist.Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word(s) is incomplete in this text found at coordinates [[563,411], [1238,519], [1233,552], [557,445]]: \"Your seasonal favorites ____ back, along with new dishes crafted\"?",
+              "answer": "are"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) located within [[502, 179], [1344, 179], [1344, 584], [502, 584]]. Options:\nA. TRUE, with a True twist.Gather your people and savor the moments of Fall., Your seasonal favorites are back, along with new dishes crafted, RealFood\nB. TRUE MOMENTS, with a True twist.Gather your people and savor the moments of Fall., View Menu, FOOD\nC. Your seasonal favorites are back, along with new dishes crafted, RealFood, with a True twist.Gather your people and savor the moments of Fall., View Menu\nD. with a True twist.Gather your people and savor the moments of Fall., Xour seasonal favorites are back, along with new dishes crafted, View Menu, RealFood",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'View Menu, TRUE, TRUE MOMENTS, FOOD, KITCHEN, Your seasonal favorites are back, along with new dishes crafted' within the bounding box [[502.0, 71.0], [1344.0, 71.0], [1344.0, 584.0], [502.0, 584.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[499, 97], [1346, 97], [1346, 617], [499, 617]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUEMOMENTS",
+                "View Menu",
+                "with a True twist. Gather your people and savor the moments of Fall.",
+                "Your seasonal favorites are back, along with new dishes crafted"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the coordinates [[957,165], [1105,180], [1101,228], [953,213]], what word(s) should fill in the blank: KIT____N?",
+              "answer": "CHE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[499, 97], [1346, 97], [1346, 617], [499, 617]]. Options:\nA. with a True twist. Gather your people and savor the moments of Fall., KITCHEN, Your seasonal favorites are back, along with new dishes crafted, RealFood, IRUE, FOOD, TRUEMOMENTS\nB. KITCHEN, TRUEMOMENTS, FOOD, Your seasonal favorites are back, along with new dishes crafted, with a True twist. Gather your people and savor the moments of Fall., View Menu, TRUE\nC. KITCHEN, View Menu, RealFood, TRUE, TRUEMOMENTS, FOOD, Xour seasonal favorites are back, along with new dishes crafted\nD. RealFood, with a True twist. Gather your people and savor the moments of Fall., View Menu, KITCHEN, Your seasonal favorites are back, along with new dishes crafted, TRUE, EOOD",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'TRUEMOMENTS, TRUE, KITCHEN, RealFood, View Menu, with a True twist. Gather your people and savor the moments of Fall.' located within the bounding box [[499.0, 97.0], [1346.0, 97.0], [1346.0, 617.0], [499.0, 617.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[497, 133], [1344, 133], [1344, 651], [497, 651]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUEMOMENTS",
+                "View Menu",
+                "Your seasonal favorites are back along with new dishes crafted",
+                "with a True twist. Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the location with coordinates [[923,212], [1018,223], [1013,266], [918,256]], what is the missing portion of this text: \"FO____\"?",
+              "answer": "OD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[497, 133], [1344, 133], [1344, 651], [497, 651]]. Options:\nA. Your seasonal favorites are back along with new dishes crafted, RealFood, TRUEMOMENTS, with a True twist. Gather your people and savor the moments of Fall., KITCHEN, View Menu, IRUE\nB. Xour seasonal favorites are back along with new dishes crafted, View Menu, TRUEMOMENTS, with a True twist. Gather your people and savor the moments of Fall., RealFood, TRUE, FOOD\nC. with a True twist. Gather your people and savor the moments of Fall., View Menu, TRUE, FOOD, RealFood, Your seasonal favorites are back along with new dishes crafted, KITCNEN\nD. with a True twist. Gather your people and savor the moments of Fall., TRUE, KITCHEN, RealFood, Your seasonal favorites are back along with new dishes crafted, FOOD, TRUEMOMENTS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'FOOD, with a True twist. Gather your people and savor the moments of Fall., Your seasonal favorites are back along with new dishes crafted, TRUE, KITCHEN, RealFood' located within the bounding box [[497.37864077669906, 133.0], [1344.0, 133.0], [1344.0, 651.0], [497.37864077669906, 651.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[493, 161], [1340, 161], [1340, 685], [493, 685]]? ________",
+              "answer": [
+                "TRUE",
+                "FOOD",
+                "KITCHEN",
+                "RealFood",
+                "TRUEMOMENTS",
+                "View Menu",
+                "Your seasonal favorites are back along with new dishes crafted",
+                "with a True twist. Gather your people and savor the moments of Fall."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the text situated at coordinates [[1183,195], [1321,210], [1317,253], [1178,238]]. What letter(s) fill the blank in \"KITC____\"?",
+              "answer": "HEN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[493, 161], [1340, 161], [1340, 685], [493, 685]]. Options:\nA. with a True twist. Gather your people and savor the moments of Fall., View Menu, RealFood, IRUE, KITCHEN, FOOD, TRUEMOMENTS\nB. RealFood, TRUE, TRUEMOMENTS, KITCHEN, EOOD, with a True twist. Gather your people and savor the moments of Fall., View Menu\nC. TRUE, with a True twist. Gather your people and savor the moments of Fall., FOOD, Xour seasonal favorites are back along with new dishes crafted, View Menu, TRUEMOMENTS, RealFood\nD. RealFood, View Menu, Your seasonal favorites are back along with new dishes crafted, FOOD, with a True twist. Gather your people and savor the moments of Fall., TRUE, KITCHEN",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'with a True twist. Gather your people and savor the moments of Fall., TRUEMOMENTS, RealFood, Your seasonal favorites are back along with new dishes crafted, View Menu, TRUE, EOOD, KITCHEN' located within the bounding box [[492.52427184466023, 161.0], [1340.0, 161.0], [1340.0, 685.0], [492.52427184466023, 685.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0123/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0123/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What portion completes the sentence starting at the coordinates [[620,442], [1225,511], [1222,537], [617,467]] in \"Your seasonal ____ are back along with new dishes crafted\"?",
+              "answer": "favorites"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that contains the text(s) located within [[491, 190], [1340, 190], [1340, 715], [491, 715]]. Options:\nA. wtth a True twist. Gather your people and savor the moments of Fall., TRUE, KITCHEN, RealFood, TRUEMOMENTS, Your seasonal favorites are back, along with new dishes crafted, FOOD\nB. TRUEMOMENTS, FOOD, TRUE, KITCNEN, with a True twist. Gather your people and savor the moments of Fall., Your seasonal favorites are back, along with new dishes crafted, View Menu\nC. View Menu, RealFood, FOOD, IRUEMOMENTS, Your seasonal favorites are back, along with new dishes crafted, with a True twist. Gather your people and savor the moments of Fall., KITCHEN\nD. View Menu, RealFood, Your seasonal favorites are back, along with new dishes crafted, TRUE, with a True twist. Gather your people and savor the moments of Fall., FOOD, TRUEMOMENTS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'TRUEMOMENTS, View Menu, TRUE, RealFood, KITCHEN, with a True twist. Gather your people and savor the moments of Fall.' located within the bounding box [[490.5825242718447, 190.0], [1340.0, 190.0], [1340.0, 715.0], [490.5825242718447, 715.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0123"
+  }
+]

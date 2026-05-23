@@ -1,0 +1,521 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are located within the bounding box [[134, 200], [1586, 200], [1586, 1064], [134, 1064]]? The word(s) is/are ________.",
+              "answer": [
+                "贵宾候机室",
+                "安全检查",
+                "VIP lounge",
+                "出发",
+                "Security Check",
+                "Departures",
+                "安全检查",
+                "Security Check",
+                "问讯",
+                "Information",
+                "美好生活 美妙出行",
+                "运通国际旅行社",
+                "VIP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在矩形框 [[135,998], [472,1003], [471,1064], [134,1060]] 内标识的公司名称中，填入缺少的部分：运通国____旅行社。",
+              "answer": "际"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[560, 200], [1586, 200], [1586, 915], [560, 915]]. Options:\nA. Departures, 贵宾候机室, VIP lounge, 问讯, 安全检查, 安全检查, VIP, Security Check, 出发\nB. 贵宾候机室, 问讯, VIP lounge, 安全检查, Security Check, Security Check, Information, 美好生活 美妙出行, Departures\nC. VIP, 美好生活 美妙出行, 贵宾候机室, 出发, VIP lounge, 问讯, Information, Security Check, Departures\nD. VIP lounge, Departures, 出发, 贵宾倏机室, VIP, Information, 问讯, Security Check, 美好生活 美妙出行",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '运通国际旅行社, 安全检查, 安全检查, VIP lounge, Departures, 贵宾候机室, Security Check, 出发, 美好生活 美妙出行, VIP' located within the bounding box [[134.0, 200.0], [1586.0, 200.0], [1586.0, 1064.0], [134.0, 1064.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can be found in the bounding box [[131, 200], [1586, 200], [1586, 1069], [131, 1069]]? The word(s) is/are ________.",
+              "answer": [
+                "贵宾候机室",
+                "安全检查",
+                "VIP lounge",
+                "出发",
+                "Security Check",
+                "Departures",
+                "安全检查",
+                "Security Check",
+                "问讯",
+                "Information",
+                "美好生活 美妙出行",
+                "运通国际旅行社",
+                "VIP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在矩形框 [[932,872], [1160,872], [1160,905], [932,905]] 中，什么词补全“美好生活 ____出行”？",
+              "answer": "美妙"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct answer that includes the text(s) found within [[139, 200], [1586, 200], [1586, 786], [139, 786]]. Options:\nA. VIP lounge, Departures, 问讯, 出发, 运通国际旅行社, 贵宾候机室, Security Check, 安全检查, Information, VIP\nB. 问讯, 安全检查, 安全检查, Security Check, Security Check, 贵宾候机室, VIP lounge, Departures, 出发, VIP\nC. VIP lounge, 出发, 问讯, 安全检查, 美好生活 美妙出行, Security Check, Security Check, 安全检查, Departures, VIP\nD. 凵发, Departures, 贵宾候机室, VIP lounge, Security Check, 安全检查, 安全检查, Security Check, Information, VIP",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'VIP, VIP lounge, 美好生活 美妙出行, 贵宾候机室' inside the bounding box [[910.0, 200.0], [1586.0, 200.0], [1586.0, 913.0], [910.0, 913.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据矩形框 [[1054,282], [1234,252], [1242,303], [1062,334]] 内的信息，填写缺少的“安全____”一词。",
+              "answer": "检查"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) present in the region [[138, 198], [1588, 198], [1588, 786], [138, 786]]? Please choose the correct answer. Options:\nA. 问讯, Security Check, Departures, Security Check, 贵宾候机室, Information, VIP lounge, VIP, 出发\nB. Departures, 贵宾候机室, Information, 出发, Seourity Check, 安全检查, 问讯, 安全检查, VIP, VIP lounge\nC. Security Check, 问讯, 安全检查, 出发, Departures, VIP lounge, 美好生活 美妙出行, 贵宾候机室, Information, VIP\nD. 贵宾候机室, 出发, 问讯, VIP lounge, VID, Information, Security Check, 安全检查, Departures, 安全检查",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '出发, Departures, Security Check, 安全检查, 间讯, VIP lounge, 贵宾候机室, 美好生活 美妙出行, 安全检查, Security Check' fall within the bounding box [[136.0, 198.0], [1588.0, 198.0], [1588.0, 1064.0], [136.0, 1064.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be found in the bounding box [[138.0, 994.0], [474.0, 994.0], [474.0, 1060.0], [138.0, 1060.0]]? The word(s) is/are ________.",
+              "answer": [
+                "运通国际旅行社"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在指定矩形区域 [[675,616], [769,622], [765,690], [671,684]] 内，填写“问____”的缺失部分。",
+              "answer": "讯"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[138, 270], [1196, 270], [1196, 1060], [138, 1060]]? Please choose the correct option. Options:\nA. Infermation, 美好生活 美妙出行, Security Check, 运通国际旅行社, Departures, 安全检查, 出发, Security Check, 问讯\nB. 安全检查, 问讯, 运通国际旅行社, 安全检查, 出发, Departures, Security Check, Information, Security Check\nC. Security Check, 安全检查, VIP lounge, Departures, 美好生活 美妙出行, 出发, 安全检查, 运通国际旅行社, 问讯\nD. 问讯, Security Check, Security Check, Departures, 美好生活 美妙出行, 出发, 贵宾候机室, 安全检查, 安全检查",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '问讯, 贵宾候机室, VIP lounge, VIP, Information, 出发, 安全检查, 安全检查' located within the bounding box [[138, 198], [1591, 198], [1591, 784], [138, 784]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within the bounding box [[138.0, 196.0], [1592.0, 196.0], [1592.0, 1063.0], [138.0, 1063.0]]? The word(s) is/are ________.",
+              "answer": [
+                "贵宾候机室",
+                "VIP lounge",
+                "安全检查",
+                "出发",
+                "Security Check",
+                "Departures",
+                "安全检查",
+                "问讯",
+                "Information",
+                "美好生活 美妙出行",
+                "运通国际旅行社",
+                "VIP",
+                "Security Check"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察矩形框 [[270,947], [598,947], [598,1009], [270,1009]]，补充公司名称中缺少的一部分：“运通国际旅____社”。",
+              "answer": "行"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[138, 327], [847, 327], [847, 1063], [138, 1063]]? Please choose the correct answer. Options:\nA. Security Check, 出发, VIP lounge, 安全检查, Information, Departures\nB. 贵宾候机室, 问讯, Security Check, 出发, 运通国际旅行社, Departures\nC. Security Check, 安全检查, Information, Departures, 问讯, 运通国际旅行社\nD. 出发, Security Check, Departures, 安全检查, Infermation, 运通国际旅行社",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'VIP lounge, 出发, 问讯, 贵宾候机室, 运通国际旅行社, 安全检查, 安全检查, Information, Security Check, Departures' located within the bounding box [[138, 196], [1592, 196], [1592, 786], [138, 786]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within the bounding box [[142.0, 571.0], [1142.0, 571.0], [1142.0, 1058.0], [142.0, 1058.0]]? The word(s) is/are ________.",
+              "answer": [
+                "安全检查",
+                "Security Check",
+                "问讯",
+                "Information",
+                "美好生活 美妙出行",
+                "运通国际旅行社"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请填补矩形区域 [[846,331], [987,312], [992,348], [851,367]] 内标识的“D____artures”缺漏部分。",
+              "answer": "ep"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[142, 268], [1199, 268], [1199, 1058], [142, 1058]]. Options:\nA. 美好生活 美妙出行, 出发, Information, 问讯, Seourity Check, Departures, 安全检查, 运通国际旅行社, 安全检查\nB. 运通国际旅行社, 安全检查, Security Check, 安全检查, Security Check, 美好生活 美妙出行, 出发, 问讯, Information\nC. Departures, 问讯, Security Check, 美好生活 美妙出行, Information, 出发, 安全检查, 安全检查, 贵宾候机室\nD. 凵发, Departures, 美好生活 美妙出行, 问讯, 安全检查, Security Check, Security Check, Information, 运通国际旅行社",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '安全检查, 运通国际旅行社, Departures, Security Check, VIP lounge, Security Check, 出发, VIP, Information, 贵宾候机室' located within the bounding box [[145, 194], [1594, 194], [1594, 784], [145, 784]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within the bounding box [[144.0, 192.0], [1596.0, 192.0], [1596.0, 1061.0], [144.0, 1061.0]]? The word(s) is/are ________.",
+              "answer": [
+                "贵宾候机室",
+                "VIP lounge",
+                "安全检查",
+                "出发",
+                "Security Check",
+                "Departures",
+                "安全检查",
+                "问讯",
+                "Information",
+                "美好生活 美妙出行",
+                "运通国际旅行社",
+                "VIP",
+                "Security Check"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在指定的矩形框 [[293,917], [620,921], [619,983], [292,978]] 内，补全“运通国____旅行社”的缺失部分。",
+              "answer": "际"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) found within [[144, 192], [1596, 192], [1596, 909], [144, 909]]. Options:\nA. 美好生活 美妙出行, VIP lounge, VIP, 贵宾候机室, 运通国际旅行社, Security Check, 出发, Information, 安全检查, Security Check\nB. Security Check, Departures, 安全检查, 出发, 美好生活 美妙出行, 问讯, 贵宾候机室, Security Check, VIP, VIP lounge\nC. Information, 美好生活 美妙出行, VIP, 安全检查, 安全检查, 问讯, Departures, Seourity Check, VIP lounge, 贵宾候机室\nD. 美好生涽 美妙出行, 问讯, VIP lounge, 出发, Security Check, VIP, Departures, 安全检查, 安全检查, Security Check",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '安全检查, 贵宾候机室, VIP lounge, 安全检查, Security Check, Information, 问讯, 运通国际旅行社, VIP, Security Check' located within the bounding box [[144.0, 192.0], [1596.0, 192.0], [1596.0, 1061.0], [144.0, 1061.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within the bounding box [[1241.2043351273996, 192.0], [1598.0, 192.0], [1598.0, 325.0], [1241.2043351273996, 325.0]]? The word(s) is/are ________.",
+              "answer": [
+                "贵宾候机室",
+                "VIP lounge",
+                "VIP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在矩形框 [[1501,201], [1687,185], [1691,227], [1505,243]] 内，找到并补全“VIP lo____ge”中缺失的部分。",
+              "answer": "un"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[704, 192], [1598, 192], [1598, 426], [704, 426]]. Options:\nA. 安全检查, Departures, 出发, VIP, VIP lounge, Security Check\nB. 出发, 寠全检查, VIP lounge, Departures, VIP, 贵宾候机室\nC. 安全检查, 安全检查, Departures, Security Check, VIP lounge, VIP\nD. Security Check, VIP lounge, VID, 安全检查, Departures, 贵宾候机室",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'VIP, 安全检查, 美好生活 美妙出行, Security Check, 问讯, 出发, 贵宾候机室, 运通国际旅行社, Departures, 安全检查' located within the bounding box [[148.0, 192.0], [1598.0, 192.0], [1598.0, 1056.0], [148.0, 1056.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within the bounding box [[151.48414510076879, 567.0], [1150.0, 567.0], [1150.0, 1057.0], [151.48414510076879, 1057.0]]? The word(s) is/are ________.",
+              "answer": [
+                "安全检查",
+                "问讯",
+                "Information",
+                "美好生活 美妙出行",
+                "运通国际旅行社",
+                "Security Check"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在矩形区域 [[854,297], [995,278], [1000,315], [859,333]] 中找出用作机场信息的词，填写缺少的部分“Depa____ures”。",
+              "answer": "rt"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[151, 192], [1604, 192], [1604, 782], [151, 782]]. Options:\nA. VIP, 安全检查, 贵宾候机室, Security Check, VIP lounge, 安全检查, 问讯, 出发, Departures, Security Check\nB. VIP, Security Check, 贵宾候机室, 问讯, 安全检查, Information, Security Check, 安全检查, Dopartures, 出发\nC. Departures, Security Check, 出发, VIP lounge, Security Check, 安全检查, VIP, 贵宾候机室, 运通国际旅行社, 安全检查\nD. Security Check, VIP, 安全检查, Information, 出发, 贵宾候机室, Departures, 问讯, 美好生活 美妙出行, VIP lounge",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '美好生活 美妙出行, VIP, Departures, 问讯, 贵宾候机室, 安全检查, Security Check, 安全检查, VIP lounge, Information' located within the bounding box [[151, 192], [1604, 192], [1604, 782], [151, 782]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within the bounding box [[928.0, 190.0], [1606.0, 190.0], [1606.0, 907.0], [928.0, 907.0]]? The word(s) is/are ________.",
+              "answer": [
+                "贵宾候机室",
+                "VIP lounge",
+                "安全检查",
+                "Security Check",
+                "美好生活 美妙出行",
+                "VIP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在矩形框 [[287,887], [613,896], [611,957], [285,948]] 内，提供“运通国____旅行社”中缺少的字符符。",
+              "answer": "际"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[156, 266], [1214, 266], [1214, 1054], [156, 1054]]? Please choose the correct option. Options:\nA. Information, 运通国际旅行社, 安全检查, VIP lounge, 美好生活 美妙出行, Departures, Security Check, 出发, 问讯\nB. Departures, 出发, 安全检查, 问讯, Security Check, 美好生活 美妙出行, 运通国际旅行社, 安全检查, Security Check\nC. Security Check, 运通国际旅行社, 出发, Dopartures, 安全检查, 美好生活 美妙出行, Security Check, 安全检查, 问讯\nD. Departures, 贵宾候机室, Information, 出发, Security Check, 美好生活 美妙出行, 安全检查, 运通国际旅行社, 问讯",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Security Check, Security Check, 安全检查, 贵宾候机室, VIP lounge, 美好生活 美妙出行, VIP, Information, 安全检查, 运通国际旅行社' located within the bounding box [[158, 190], [1606, 190], [1606, 907], [158, 907]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within the bounding box [[162.0, 564.0], [494.0, 564.0], [494.0, 1056.0], [162.0, 1056.0]]? The word(s) is/are ________.",
+              "answer": [
+                "安全检查",
+                "运通国际旅行社",
+                "Security Check"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在矩形框 [[1056,786], [1276,786], [1276,814], [1056,814]] 中，补全“美好生活 美____出行”这个短语中的缺失部分。",
+              "answer": "妙"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[587, 190], [1614, 190], [1614, 905], [587, 905]]. Options:\nA. 美好生涽 美妙出行, 出发, VIP lounge, Departures, 贵宾候机室, Information, 安全检查, Security Check, VIP\nB. Departures, VIP lounge, 出发, 贵宾候机室, VIP, 美好生活 美妙出行, Seourity Check, 安全检查, 问讯\nC. 出发, Security Check, 问讯, Departures, Information, VIP lounge, VIP, 安全检查, 贵宾候机室\nD. 美好生活 美妙出行, Information, 安全检查, VIP, 安全检查, Security Check, 问讯, VIP lounge, Departures",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '运通国际旅行社, Information, 贵宾候机室, Security Check, Dopartures, 安全检查, Security Check, VIP lounge, 安全检查, VIP' located within the bounding box [[162.0, 190.0], [1614.0, 190.0], [1614.0, 1056.0], [162.0, 1056.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0270/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0270/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within the bounding box [[170.0, 188.0], [1622.0, 188.0], [1622.0, 1052.0], [170.0, 1052.0]]? The word(s) is/are ________.",
+              "answer": [
+                "贵宾候机室",
+                "VIP lounge",
+                "安全检查",
+                "出发",
+                "Security Check",
+                "Departures",
+                "安全检查",
+                "问讯",
+                "Information",
+                "美好生活 美妙出行",
+                "运通国际旅行社",
+                "VIP",
+                "Security Check"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在此矩形框 [[1435,148], [1507,143], [1509,201], [1438,205]] 内补全“V____P”中的缺失部分。",
+              "answer": "I"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[590, 188], [1622, 188], [1622, 906], [590, 906]]. Options:\nA. 出发, VIP lounge, VIP, 美好生活 美妙出行, 问讯, 贵宾候机室, 安全检查, Departures, Security Check\nB. VIP lounge, Information, 安全检查, Departures, 贵宾候机室, 问讯, 出发, 美好生活 美妙出行, Security Check\nC. VIP, VIP lounge, 美好生活 美妙出行, Dopartures, 贵宾候机室, 问讯, 安全检查, Security Check, Information\nD. VID lounge, 贵宾候机室, Departures, Security Check, 问讯, 安全检查, 出发, 美好生活 美妙出行, VIP",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '安全检查, 美好生活 美妙出行, 安全检查, VIP lounge, Security Check, Security Check, 问讯, Information, 出发, 运週国际旅行社' located within the bounding box [[170.0, 188.0], [1622.0, 188.0], [1622.0, 1052.0], [170.0, 1052.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0270"
+  }
+]

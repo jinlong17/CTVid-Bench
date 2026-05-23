@@ -1,0 +1,495 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[1199, 237], [1728, 237], [1728, 568], [1199, 568]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "此柜为自助售卖",
+                "请顾客按照货品"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "识别出位于[[1213,734], [1513,729], [1515,807], [1214,813]]位置的文本，并填补空白部分：\"____谢合作\"。",
+              "answer": "谢"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within the area [[1199, 237], [1728, 237], [1728, 813], [1199, 813]]. Options:\nA. 对应价格扫砀付款, 谢谢合作, 请顾客按照货品, 此柜为自助售卖\nB. 请顾客按照货品, 对应价格扫码付款, 温馨提示, 此柜为自助售卖\nC. 如需协助, 谢谢合作, 对应价格扫码付款, 此柜为自助售卖\nD. 请顾客按照货品, 对应价格扫码付款, 湿馨提示, 此柜为自助售卖",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '谢谢合佂, 温馨提示, 对应价格扫码付款, 如需协助, 此柜为自助售卖, 请顾客按照货品' located within the bounding box [[1199.4851390872611, 236.59171597633133], [1918.0, 236.59171597633133], [1918.0, 876.0], [1199.4851390872611, 876.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) found in the region [[1746, 825], [1920, 825], [1920, 875], [1746, 875]]? The answer is ________.",
+              "answer": [
+                "如需协助"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在位置[[1798,834], [1893,832], [1893,882], [1798,883]]处，填入文本中的缺少部分：\"如____\"。",
+              "answer": "需"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[1207, 237], [1728, 237], [1728, 695], [1207, 695]]? Please choose the correct answer. Options:\nA. 谢谢合作, 请顾客按照货品, 此柜为自助售卖\nB. 对应价格扫码付款, 温馨提示, 请颀客按照货品\nC. 此柜为自助售卖, 对应价格扫码付款, 请顾客按照货品\nD. 请颀客按照货品, 温馨提示, 对应价格扫码付款",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '此柜为自助售卖, 如需协助, 对应价格扫码付款, 谢谢合作, 湿馨提示, 请顾客按照货品' fall within the bounding box [[1207.2078402366865, 236.59171597633133], [1920.0, 236.59171597633133], [1920.0, 875.2248062015505], [1207.2078402366865, 875.2248062015505]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located in the area [[1211, 237], [1890, 237], [1890, 880], [1211, 880]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "请顾客按照货品",
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需协",
+                "此柜为自助售卖"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据位于[[1223,319], [1728,307], [1729,402], [1224,413]]的文本填空：\"此柜为自____售卖\"",
+              "answer": "助"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1211, 237], [1732, 237], [1732, 814], [1211, 814]]? Please choose the correct answer. Options:\nA. 谢谢合作, 请顾客按照货品, 对应价格扫码付款, 温馨提示\nB. 对应价格扫码付款, 谢谢合作, 请顾客按照货品, 此椃为自助售卖\nC. 对应价格扫码付款, 温馨提示, 如需协, 谢谢合作\nD. 谢谢合作, 请顾客按照货品, 对应价格扫码付款, 此椃为自助售卖",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '如需协, 温馨提示, 此柜为自助售卖, 谢谢合作' contained within the bounding box [[1210.8317517025791, 236.59171597633133], [1890.08547008547, 236.59171597633133], [1890.08547008547, 879.6887159533073], [1210.8317517025791, 879.6887159533073]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1215, 237], [1893, 237], [1893, 880], [1215, 880]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "请顾客按照货品",
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需协",
+                "此柜为自助售卖"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据在位置[[1279,286], [1799,276], [1800,373], [1282,382]]找到的文本，为句子补全:\"此柜为____助售卖\"",
+              "answer": "自"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1215, 237], [1732, 237], [1732, 814], [1215, 814]]? Please choose the correct answer. Options:\nA. 谢谢合作, 此柜为自助售卖, 温馨提示, 对应价格扫砀付款\nB. 谢谢合作, 请顾客按照货品, 此柜为自助售卖, 对应价格扫码付款\nC. 请顾客按照货品, 对应价格扫码付款, 温馨提示, 如需协\nD. 温馨提示, 对应价格扫码付款, 请顾客按照货品, 谢谢合佂",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '对应价格扫码付款, 如需协, 此柜为自助售卖, 请顾客按照货品, 谢谢合佂, 温馨提示' positioned within the bounding box [[1215.1939513477976, 236.59171597633133], [1892.6495726495725, 236.59171597633133], [1892.6495726495725, 879.6887159533073], [1215.1939513477976, 879.6887159533073]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1218, 237], [1899, 237], [1899, 880], [1218, 880]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "请顾客按照货品",
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需协",
+                "此柜为自助售卖"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框[[1265,533], [1818,529], [1820,639], [1265,640]]内，完整文本中缺失了一部分。请填补空白：\"对应价格扫码付____\"",
+              "answer": "款"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[1218, 237], [1745, 237], [1745, 814], [1218, 814]]. Options:\nA. 谢谢合作, 此柜为自助售卖, 如需协, 请顾客按照货品\nB. 对应价格扫码付款, 谢谢合作, 请颀客按照货品, 温馨提示\nC. 对应价格扫码付款, 谢谢合作, 请顾客按照货品, 此柜为自助售卖\nD. 温馨提示, 请顾客按照货品, 此柜为自助售卖, 对应价格扫砀付款",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '谢谢合佂, 温馨提示, 如需协, 请顾客按照货品, 此柜为自助售卖, 对应价格扫码付款' located within the bounding box [[1218.2673959910098, 236.59171597633133], [1898.8995726495725, 236.59171597633133], [1898.8995726495725, 879.6887159533073], [1218.2673959910098, 879.6887159533073]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1228, 237], [1908, 237], [1908, 880], [1228, 880]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "请顾客按照货品",
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需协",
+                "此柜为自助售卖"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[1276,424], [1846,417], [1848,518], [1276,525]]的文本中缺少一个部分，请填补：\"请顾客按____货品\"",
+              "answer": "照"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1237, 483], [1908, 483], [1908, 880], [1237, 880]]? Please choose the correct answer. Options:\nA. 如需协, 请顾客按照货品, 谢谢合佂\nB. 谢谢合作, 请顾客按照货品, 对应价格扫砀付款\nC. 如需协, 温馨提示, 谢谢合作\nD. 如需协, 谢谢合作, 对应价格扫码付款",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '如需协, 请顾客按照货品, 谢谢合作, 此柜为自助售卖, 对应价格扫码付款, 温馨提示' found within the bounding box [[1237, 363], [1908, 363], [1908, 880], [1237, 880]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1237, 237], [1562, 237], [1562, 321], [1237, 321]]? The answer is ________.",
+              "answer": [
+                "温馨提示"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据坐标[[1259,152], [1613,143], [1615,242], [1261,249]]中可见的文本，填补缺失的字符母：\"温____提示\"。",
+              "answer": "馨"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located within [[1237, 237], [1761, 237], [1761, 570], [1237, 570]]? Please choose the correct answer. Options:\nA. 湿馨提示, 请顾客按照货品\nB. 对应价格扫码付款, 此柜为自助售卖\nC. 此柜为自助售卖, 请顾客按照货品\nD. 此柜为自助售卖, 谢谢合作",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '此柜为自助售卖, 谢谢合作, 请顾客按照货品, 温馨提示' located within the bounding box [[1236.8282716332942, 236.59171597633133], [1760.9286653517422, 236.59171597633133], [1760.9286653517422, 569.6766107823801], [1236.8282716332942, 569.6766107823801]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1241, 237], [1882, 237], [1882, 883], [1241, 883]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "请顾客按照货品",
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需",
+                "此柜为自助售卖"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在文本中找到位于[[1829,804], [1879,804], [1879,857], [1829,857]]的内容，并填充空缺：\"____\"",
+              "answer": "如"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[1251, 363], [1882, 363], [1882, 883], [1251, 883]]. Options:\nA. 对应价格扫码付款, 如需, 此柜为自助售卖, 请顾客按照货品\nB. 对应价格扫码付款, 此椃为自助售卖, 如需, 请顾客按照货品\nC. 谢谢合作, 此柜为自助售卖, 对应价格扫砀付款, 请顾客按照货品\nD. 温馨提示, 请顾客按照货品, 如需, 谢谢合作",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '谢谢合作, 请顾客按照货品, 此柜为自助售卖, 温馨提示' located within the bounding box [[1241.018514245034, 236.59171597633133], [1882.232905982906, 236.59171597633133], [1882.232905982906, 882.6855123674911], [1241.018514245034, 882.6855123674911]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1245, 237], [1888, 237], [1888, 883], [1245, 883]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "请顾客按照货品",
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需",
+                "此柜为自助售卖"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在边界框[[1241,692], [1568,695], [1569,787], [1241,786]]内的文本中，填入缺失的中间部分：\"谢____合作\"。",
+              "answer": "谢"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located within [[1245, 237], [1774, 237], [1774, 818], [1245, 818]]? Please choose the correct answer. Options:\nA. 谢谢合作, 温馨提示, 请顾客按照货品, 对应价格扫码付款\nB. 温馨提示, 请颀客按照货品, 此柜为自助售卖, 对应价格扫码付款\nC. 温馨提示, 对应价格扫码付款, 此柜为自助售卖, 请颀客按照货品\nD. 谢谢合作, 如需, 温馨提示, 请顾客按照货品",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '此柜为自助售卖, 谢谢合作, 如需, 温馨提示' located within the bounding box [[1245.108269851666, 236.59171597633133], [1887.9800324196876, 236.59171597633133], [1887.9800324196876, 882.6855123674911], [1245.108269851666, 882.6855123674911]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1246, 237], [1888, 237], [1888, 883], [1246, 883]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "请顾客按照货品",
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需",
+                "此柜为自助售卖"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据坐标[[1255,335], [1806,329], [1808,452], [1257,454]]的内容，补全以下句子：\"此柜为____助售卖\"。",
+              "answer": "自"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located within [[1246, 237], [1774, 237], [1774, 818], [1246, 818]]? Please choose the correct answer. Options:\nA. 谢谢合作, 此柜为自助售卖, 如需, 请顾客按照货品\nB. 此柜为自助售卖, 谢谢合作, 请顾客按照货品, 湿馨提示\nC. 温馨提示, 谢谢合作, 请顾客按照货品, 此柜为自助售卖\nD. 对应价格扫砀付款, 请顾客按照货品, 温馨提示, 此柜为自助售卖",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '对应价格扫码付款, 此柜为自助售卖, 如需, 谢谢合作, 请顾客按照货品, 湿馨提示' located within the bounding box [[1246.3821552019842, 236.59171597633133], [1887.9800324196876, 236.59171597633133], [1887.9800324196876, 882.6855123674911], [1246.3821552019842, 882.6855123674911]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1260, 611], [1893, 611], [1893, 883], [1260, 883]]? The answer is ________.",
+              "answer": [
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在以下坐标中的文本[[1273,481], [1843,474], [1844,583], [1273,588]]中，填补缺失的部分：\"请顾客按照____品\"",
+              "answer": "货"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1257, 363], [1893, 363], [1893, 883], [1257, 883]]? Please choose the correct answer. Options:\nA. 请顾客按照货品, 谢谢合作, 温馨提示, 此柜为自助售卖\nB. 谢谢合作, 对应价格扫砀付款, 请顾客按照货品, 此柜为自助售卖\nC. 请顾客按照货品, 此椃为自助售卖, 谢谢合作, 如需\nD. 请顾客按照货品, 谢谢合作, 对应价格扫码付款, 如需",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '请顾客按照货品, 如需, 此柜为自助售卖, 温馨提示' located within the bounding box [[1249.0644912565283, 236.59171597633133], [1892.577733569113, 236.59171597633133], [1892.577733569113, 882.6855123674911], [1249.0644912565283, 882.6855123674911]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0283/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0283/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1247, 237], [1898, 237], [1898, 880], [1247, 880]]? The answer is ________.",
+              "answer": [
+                "温馨提示",
+                "请顾客按照货品",
+                "对应价格扫码付款",
+                "谢谢合作",
+                "如需",
+                "此柜为自助售卖"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请查看位于[[1306,606], [1875,599], [1875,726], [1308,724]]坐标的文本，为以下句子补充缺失的成分：\"对应价格扫码____\"",
+              "answer": "付款"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located within [[1247, 237], [1778, 237], [1778, 818], [1247, 818]]? Please choose the correct answer. Options:\nA. 谢谢合佂, 此柜为自助售卖, 请顾客按照货品, 温馨提示\nB. 此柜为自助售卖, 如需, 温馨提示, 请顾客按照货品\nC. 谢谢合作, 对应价格扫码付款, 温馨提示, 此柜为自助售卖\nD. 此椃为自助售卖, 请顾客按照货品, 温馨提示, 对应价格扫码付款",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '请顾客按照货品, 谢谢合作, 此椃为自助售卖, 对应价格扫码付款, 温馨提示, 如需' located within the bounding box [[1247.2826603634162, 236.59171597633133], [1898.336895872778, 236.59171597633133], [1898.336895872778, 879.5441511109467], [1247.2826603634162, 879.5441511109467]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0283"
+  }
+]

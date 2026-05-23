@@ -1,0 +1,151 @@
+{
+  "video_id": "C0121",
+  "frames": 120,
+  "word": "PARKING ONLY\nMINIMUM\nFINE $250",
+  "video_path": "/nfs.auto/flash_VideoAlg/project/SR/VSR_text/video_test_set/downsample_x4/videos/EN_C0121.mp4",
+  "questions": [
+    {
+      "question_type": "presence_q1",
+      "q": "Is \"PARKING ONLY\nMINIMUM\nFINE $250\" always present in the video?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "presence_q2",
+      "q": "In how many frames is \"PARKING ONLY\nMINIMUM\nFINE $250\" visible? (Answer with a number)",
+      "a": 120
+    },
+    {
+      "question_type": "presence_q3",
+      "q": "How many times does \"PARKING ONLY\nMINIMUM\nFINE $250\" disappear?\n Options:\n0 times\n1 time\n2 times\n3 or more times",
+      "a": "0 times"
+    },
+    {
+      "question_type": "presence_q4",
+      "q": "What is the overall appearance pattern of \"PARKING ONLY\nMINIMUM\nFINE $250\"?\n Options:\nalways present\nappears mid-way\ndisappears mid-way\nappears and then disappears",
+      "a": "always present"
+    },
+    {
+      "question_type": "presence_q5",
+      "q": "In which frame does \"PARKING ONLY\nMINIMUM\nFINE $250\" first appear? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "presence_q6",
+      "q": "In which frame does \"PARKING ONLY\nMINIMUM\nFINE $250\" last appear? (Answer with a number)",
+      "a": 119
+    },
+    {
+      "question_type": "localization_q1",
+      "q": "Which region of the screen is \"PARKING ONLY\nMINIMUM\nFINE $250\" in when it first appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "bottom-left"
+    },
+    {
+      "question_type": "localization_q2",
+      "q": "Which region of the screen is \"PARKING ONLY\nMINIMUM\nFINE $250\" in when it last appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "center"
+    },
+    {
+      "question_type": "localization_q3",
+      "q": "In which region does \"PARKING ONLY\nMINIMUM\nFINE $250\" spend most of its time?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right\nno dominant region",
+      "a": "no dominant region"
+    },
+    {
+      "question_type": "localization_q4",
+      "q": "How many frames does \"PARKING ONLY\nMINIMUM\nFINE $250\" cross the horizontal center line of the screen?\n Options:\n118 frames\n124 frames\n122 frames\n120 frames",
+      "a": "120 frames"
+    },
+    {
+      "question_type": "localization_q5",
+      "q": "Does \"PARKING ONLY\nMINIMUM\nFINE $250\" cross the horizontal center line of the screen?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "localization_q6",
+      "q": "The screen is divided into a 3x3 grid (9 regions): top-left, top-center, top-right, middle-left, middle-center, middle-right, bottom-left, bottom-center, bottom-right. How many different regions does \"PARKING ONLY\nMINIMUM\nFINE $250\" pass through? (Answer with a number 1-9)",
+      "a": 4
+    },
+    {
+      "question_type": "motion_q1",
+      "q": "From first to last appearance, what is the main motion direction of \"PARKING ONLY\nMINIMUM\nFINE $250\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "left-to-right"
+    },
+    {
+      "question_type": "motion_q2",
+      "q": "In which frame does \"PARKING ONLY\nMINIMUM\nFINE $250\" move at maximum speed? (Answer with a number)",
+      "a": 44
+    },
+    {
+      "question_type": "motion_q3",
+      "q": "In which frame does \"PARKING ONLY\nMINIMUM\nFINE $250\" have maximum acceleration? (Answer with a number)",
+      "a": 5
+    },
+    {
+      "question_type": "motion_q4",
+      "q": "During which period does \"PARKING ONLY\nMINIMUM\nFINE $250\" move fastest?\n Options:\nstart\nmiddle\nend",
+      "a": "middle"
+    },
+    {
+      "question_type": "motion_q5",
+      "q": "What trajectory shape(s) does \"PARKING ONLY\nMINIMUM\nFINE $250\" exhibit? (Select all that apply)\n Options:\nstraight line\ncurve\ncircular\nzigzag",
+      "a": [
+        "straight line",
+        "zigzag"
+      ]
+    },
+    {
+      "question_type": "motion_q6",
+      "q": "From frame 23 to frame 35, what is the trajectory shape of \"PARKING ONLY\nMINIMUM\nFINE $250\"?\n Options:\nstraight line\ncurve\ncircular\nzigzag\nrandom",
+      "a": "straight line"
+    },
+    {
+      "question_type": "motion_q7",
+      "q": "From frame 23 to frame 35, what is the main motion direction of \"PARKING ONLY\nMINIMUM\nFINE $250\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "left-to-right"
+    },
+    {
+      "question_type": "motion_q8",
+      "q": "In which frame does \"PARKING ONLY\nMINIMUM\nFINE $250\" deviate most from the main trajectory? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "motion_q9",
+      "q": "What is the average speed of \"PARKING ONLY\nMINIMUM\nFINE $250\" movement approximately?\n Options:\n20.2 pixels/frame\n19.8 pixels/frame\n20.0 pixels/frame\n20.4 pixels/frame",
+      "a": "20.0 pixels/frame"
+    },
+    {
+      "question_type": "size_q1",
+      "q": "In which frame does \"PARKING ONLY\nMINIMUM\nFINE $250\" have the largest area (appear closest)? (Answer with a number)",
+      "a": 66
+    },
+    {
+      "question_type": "size_q2",
+      "q": "In which frame does \"PARKING ONLY\nMINIMUM\nFINE $250\" have the smallest area (appear farthest)? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "size_q3",
+      "q": "From frame 23 to frame 35, is \"PARKING ONLY\nMINIMUM\nFINE $250\" approaching or receding?\n Options:\napproaching\nreceding\ndistance unchanged",
+      "a": "distance unchanged"
+    },
+    {
+      "question_type": "size_q4",
+      "q": "What is the overall area trend of \"PARKING ONLY\nMINIMUM\nFINE $250\"?\n Options:\nincreasing\ndecreasing\nfluctuating",
+      "a": "fluctuating"
+    },
+    {
+      "question_type": "size_q5",
+      "q": "Does the width of \"PARKING ONLY\nMINIMUM\nFINE $250\" ever exceed half the screen width?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "size_q6",
+      "q": "How many frames does the width of \"PARKING ONLY\nMINIMUM\nFINE $250\" exceed half the screen width?\n Options:\nNever\n2 frames\n4 frames\n6 frames",
+      "a": "Never"
+    },
+    {
+      "question_type": "boundary_q1",
+      "q": "Does \"PARKING ONLY\nMINIMUM\nFINE $250\" touch the edge of the frame during its movement?\n Options:\nYes\nNo",
+      "a": "No"
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[244, 782], [2412, 782], [2412, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在文本框坐标 [[244,782], [1344,782], [1344,1410], [244,1410]] 里的词中，把其中一个字符符替换为 \"____\", 请完成词语: 实____.",
+              "answer": "用"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within the area [[244, 774], [3620, 774], [3620, 1781], [244, 1781]]. Options:\nA. 实用, ebSurf, 简单, 轻松体验上MCP\nB. ebSurf, 实用, Easily experience MCP, G\nC. 简单, G, o, 实用\nD. 实用, G, 简单, ehSurf",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Easily experience MCP, 轻松体验上MCP, G, o' located within the bounding box [[1439, 1534], [2412, 1534], [2412, 2128], [1439, 2128]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图像中坐标为 [[244,782], [1344,782], [1344,1410], [244,1410]] 的位置，找出缺少的部分以完成词语: 实____。",
+              "answer": "用"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[1439, 1534], [2412, 1534], [2412, 2128], [1439, 2128]]. Options:\nA. Easily experience MCP, e, 轻松体验上MCP, ebSurf\nB. Easily experience MCP, O, 轻松体验上MCP, o\nC. G, 实用, ebSurf, Easily experience MCP\nD. o, Easily experience MCP, ebSurf, G",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Easily experience MCP, G, 简单, 实用, o' located within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1439, 1875], [2412, 1875], [2412, 2128], [1439, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "轻松体验上MCP",
+                "Easily experience MCP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据图像中坐标 [[2536,774], [3620,774], [3620,1410], [2536,1410]] 所在区域的文本，找出并填写缺失的字符符来补全下面的短语: ____单",
+              "answer": "简"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) present in the region [[244, 774], [3620, 774], [3620, 1781], [244, 1781]]? Please choose the correct answer. Options:\nA. 实用, o, Easily experience MCP, 简单\nB. G, ebSurf, 轻松体验上MCP, 实用\nC. 实用, o, ehSurf, G\nD. ebSurf, 简单, 实用, o",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '简单, G, e, 实用, 轻松体验上MCP, Easily experience MCP, ebSurf' fall within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be found in the region [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在给定图像的坐标 [[1430,1875], [2409,1882], [2409,2006], [1430,2003]] 中，有一段文字符缺失了一部分，填写丢失的字符符：而且是几____实用的工具。",
+              "answer": "个"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that includes the text(s) found in the area [[244, 774], [3620, 774], [3620, 1781], [244, 1781]]. Choose the correct answer. Options:\nA. G, 简单, 轻松体验上MCP, ebSurf\nB. G, 实用, ebSurf, e\nC. o, Easily experience MCP, G, ebSurf\nD. 实用, o, 简单, G",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'o, Easily experience MCP, 简单, 轻松体验上MCP, 宊用, ebSurf, G' contained within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be identified within [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the missing part in the following phrase located at [[1198,2002], [2631,2003], [2632,2131], [1199,2129]]: \"And we'll ____ some practical tools.\"",
+              "answer": "use"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that contains the text(s) located in the area [[1439, 1534], [2412, 1534], [2412, 2128], [1439, 2128]]. Options:\nA. ebSurf, 实用, G, 轻松体验上MCP\nB. ebSurf, O, 轻松体验上MCP, Easily experience MCP\nC. o, Easily experience MCP, ebSurf, G\nD. Easily experience MCP, O, o, 轻松体验上MCP",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'o, Easily experience MCP, ebSurf, G, 轻松体验上MCP' positioned within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) appear in the specified area [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text located at [[2010,1553], [2116,1562], [2105,1682], [1999,1673]], a part of the character(s) sequence is obscured. Please fill in the missing character(s): \"____\".",
+              "answer": "G"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) found in the area [[244, 782], [2412, 782], [2412, 2128], [244, 2128]]. Options:\nA. ehSurf, G, 轻松体验上MCP, 实用, o\nB. G, ebSurf, Easily experience MCP, 轻松体验上MCP, 实用\nC. G, 轻松体验上MCP, ebSurf, Fasily experience MCP, o\nD. 实用, 简单, G, Easily experience MCP, ebSurf",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ebSurf, 轻松体验上MCP, 筲单, 实用, Easily experience MCP, G, o' found within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are present in the area [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the image at coordinates [[2172,1615], [2239,1639], [2211,1717], [2147,1695]], identify the missing character(s) to complete the sequence: \"____\"",
+              "answer": "o"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1439, 1524], [2412, 1524], [2412, 2128], [1439, 2128]]? Please choose the correct answer. Options:\nA. o, G, Easily experience MCP, 实用\nB. 轻松体验上MCP, Fasily experience MCP, ebSurf, G\nC. G, ebSurf, o, Fasily experience MCP\nD. G, 轻松体验上MCP, Easily experience MCP, ebSurf",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'O, Easily experience MCP, ebSurf, 简单, o, 实用, 轻松体验上MCP' present within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1439, 1523], [2412, 1523], [2412, 2128], [1439, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[1198,2002], [2631,2003], [2632,2131], [1199,2129]], find the missing component to complete: \"And we'll ____ some practical tools.\"",
+              "answer": "use"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) found in the area [[244, 774], [3620, 774], [3620, 1770], [244, 1770]]. Options:\nA. e, G, ebSurf, 实用\nB. e, 实用, G, 简单\nC. ebSurf, G, 实用, 轻松体验上MCP\nD. o, 简单, G, ebSurf",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'o, 轻松体验上MCP, 实用, 简单, Easily experience MCP' located in the area [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be found within [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图像的坐标 [[2562,338], [2966,342], [2968,565], [2562,562]] 中，将以下拼音补充完整 \"____芝\"。",
+              "answer": "秋"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) present in the region [[244, 774], [3620, 774], [3620, 1765], [244, 1765]]? Choose the correct answer. Options:\nA. o, 筩单, 实用, G\nB. 轻松体验上MCP, o, 简单, 实用\nC. G, 实用, 筩单, o\nD. ebSurf, 简单, 实用, o",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'G, 轻松体验上MCP, 简单, Fasily experience MCP, ebSurf, 实用, o' situated within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are contained within [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标 [[2562,338], [3518,348], [3515,557], [2562,562]] 识别缺失的部分，补全此标签: 秋____2046",
+              "answer": "芝"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) present in the region [[244, 774], [3620, 774], [3620, 1768], [244, 1768]]? Choose the correct answer. Options:\nA. ehSurf, 简单, o, 实用\nB. 简单, 轻松体验上MCP, o, 实用\nC. o, 实用, 简单, ebSurf\nD. G, 简单, e, 实用",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ebSurf, G, o, 轻松体验上MCP, Easily experience MCP, 筲单, 实用' within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are displayed within [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在指定坐标[[234,730], [3617,735], [3622,1167], [235,1168]]中，找到并补全缺失的字符符: MC____上下文协议",
+              "answer": "P模型"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) present in the region [[244, 782], [2412, 782], [2412, 2128], [244, 2128]]? Choose the correct answer. Options:\nA. ehSurf, Easily experience MCP, o, 轻松体验上MCP, G\nB. Easily experience MCP, 实用, e, G, 轻松体验上MCP\nC. 轻松体验上MCP, 实用, ebSurf, Easily experience MCP, o\nD. o, Easily experience MCP, 简单, 轻松体验上MCP, G",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '简单, o, ebSurf, G, 轻松体验上MCP' inside the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/clip_006/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_006/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are visible within [[244, 774], [3620, 774], [3620, 2128], [244, 2128]]? The word(s) is/are ________.",
+              "answer": [
+                "实用",
+                "简单",
+                "G",
+                "ebSurf",
+                "轻松体验上MCP",
+                "Easily experience MCP",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图像的坐标 [[234,730], [3617,735], [3622,1167], [235,1168]] 中，找出并填写缺失部分以完整表达: MCP____上下文协议",
+              "answer": "模型"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within the area [[1439, 774], [3620, 774], [3620, 2128], [1439, 2128]]. Options:\nA. 轻松体验上MCP, 实用, G, Easily experience MCP, o\nB. o, Easily experience MCP, 简单, ebSurf, G\nC. Fasily experience MCP, 简单, 轻松体验上MCP, ebSurf, G\nD. Easily experience MCP, 轻柃体验上MCP, o, 简单, ebSurf",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'G, 轻松体验上MCP, 实用, o, Easily experience MCP' enclosed within the bounding box [[244.0, 774.0], [3620.0, 774.0], [3620.0, 2128.22695035461], [244.0, 2128.22695035461]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_006"
+  }
+]

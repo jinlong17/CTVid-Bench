@@ -1,0 +1,474 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_001.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[736, 308], [1437, 308], [1437, 716], [736, 716]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Identify the missing character(s) from the word(s) located at coordinates [[875,309], [1437,308], [1436,453], [876,453]]: Sta____rd",
+                            "answer": "nfo"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[736, 308], [1437, 308], [1437, 716], [736, 716]]. Options:\nA. Stonford, Children's Health\nB. MEDICINE, Stanford\nC. Children's Health, MEOICINE\nD. Cbildren's Health, Stanford",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Stanford, MFDICINE, Children's Health' located within the bounding box [[736.3636363636363, 307.6923076923077], [1437.2189349112425, 307.6923076923077], [1437.2189349112425, 716.3636363636363], [736.3636363636363, 716.3636363636363]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_011.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[734, 308], [1437, 308], [1437, 719], [734, 719]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Can you fill in the missing letter(s) from the word(s) at coordinates [[798,458], [1358,461], [1357,545], [798,544]]? MED____NE",
+                            "answer": "ICI"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[734, 308], [1437, 308], [1437, 719], [734, 719]]? Please choose the correct answer. Options:\nA. Children's Health, Stanford\nB. Stanford, Cbildren's Health\nC. Stonford, Children's Health\nD. MEOICINE, Stanford",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Does the label 'MFDICINE, Children's Health, Stanford' fall within the bounding box [[733.982683982684, 307.6923076923077], [1437.2189349112425, 307.6923076923077], [1437.2189349112425, 718.7445887445886], [733.982683982684, 718.7445887445886]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_021.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[863, 316], [1428, 316], [1428, 561], [863, 561]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "There's a phrase partly hidden at the coordinates [[681,613], [1372,609], [1373,699], [684,704]]. Can you fill in the blank to complete it? Child____'s Health",
+                            "answer": "ren"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[725, 316], [1428, 316], [1428, 729], [725, 729]]? Please choose the correct answer. Options:\nA. MEOICINE, Children's Health\nB. MEDICINE, Cbildren's Health\nC. Stonford, MEDICINE\nD. Stanford, MEDICINE",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Children's Health, Stanford' contained within the bounding box [[725.3495904575041, 316.46253728724344], [1427.9856115107914, 316.46253728724344], [1427.9856115107914, 729.4964028776978], [725.3495904575041, 729.4964028776978]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_031.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[711, 316], [1413, 316], [1413, 729], [711, 729]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the text located at [[887,483], [1407,474], [1409,553], [888,561]], what letter(s) are needed to fill in the blank: M____ICINE?",
+                            "answer": "ED"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[848, 316], [1413, 316], [1413, 561], [848, 561]]? Please choose the correct option. Options:\nA. Stanford\nB. Children's Health\nC. Stonford\nD. MEOICINE",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Cbildren's Health, MEDICINE, Stanford' positioned within the bounding box [[710.7864836613876, 316.46253728724344], [1413.422504714675, 316.46253728724344], [1413.422504714675, 729.4964028776978], [710.7864836613876, 729.4964028776978]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_041.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[700, 314], [1403, 314], [1403, 727], [700, 727]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "There's a word(s) obscured in the text located at [[787,576], [1383,576], [1385,658], [788,661]]. Fill in the missing letter(s): ____ildren's Health",
+                            "answer": "Ch"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[700, 314], [1403, 314], [1403, 727], [700, 727]]? Please choose the correct answer. Options:\nA. Stonford, MEDICINE\nB. MEOICINE, Stanford\nC. Stanferd, Children's Health\nD. MEDICINE, Stanford",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Stanford, Children's Health, MEDICINE' located within the bounding box [[838, 314], [1403, 314], [1403, 559], [838, 559]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_051.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[691, 314], [1394, 314], [1394, 727], [691, 727]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What letter(s) complete the word(s) at coordinates [[731,563], [1299,570], [1299,639], [730,630]]? C____ren's Health",
+                            "answer": "hild"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[691, 314], [1394, 314], [1394, 727], [691, 727]]? Please choose the correct option. Options:\nA. MEDICINE, Stonford\nB. Stanford, MEOICINE\nC. Children's Health, Stanferd\nD. Children's Health, Stanford",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'MEDICINE, Children's Health' found within the bounding box [[690.9452138201177, 314.0815849062911], [1393.581234873405, 314.0815849062911], [1393.581234873405, 727.1154504967453], [690.9452138201177, 727.1154504967453]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_061.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[681, 314], [1384, 314], [1384, 727], [681, 727]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "There's a prominent word(s) missing a portion in the scene at coordinates [[821,367], [1276,362], [1276,481], [821,489]]. Can you fill in the blank to complete it? ____nford",
+                            "answer": "Sta"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[681, 314], [1384, 314], [1384, 727], [681, 727]]? Please choose the correct answer. Options:\nA. MEDICINE, Children's Health\nB. Cbildren's Health, Stanford\nC. MEOICINE, Stanford\nD. MEDICINE, Childron's Health",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Stanford, MFDICINE, Children's Health' situated within the bounding box [[681.4214042963083, 314.0815849062911], [1384.0574253495956, 314.0815849062911], [1384.0574253495956, 727.1154504967453], [681.4214042963083, 727.1154504967453]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_071.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[672, 312], [1374, 312], [1374, 725], [672, 725]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "A word(s) is partially masked at the location [[802,481], [1260,476], [1260,540], [802,543]]. Can you figure out what letter(s) fill the blanks? MEDI____",
+                            "answer": "CINE"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[672, 312], [1374, 312], [1374, 725], [672, 725]]? Please choose the correct option. Options:\nA. Stanfard, MEDICINE\nB. Stanford, MEDICINE\nC. Stonford, MEDICINE\nD. MEDICINE, Stanferd",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'MEDICINE, Children's Health' present within the bounding box [[671.7722814892909, 312.32719894137875], [1374.4083025425782, 312.32719894137875], [1374.4083025425782, 725.361064531833], [671.7722814892909, 725.361064531833]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_081.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[670, 308], [1372, 308], [1372, 721], [670, 721]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "There's an expression at coordinates [[697,622], [1273,620], [1274,689], [697,690]]. What's the missing piece in this? Childr____'s Health",
+                            "answer": "en"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[670, 308], [1372, 308], [1372, 721], [670, 721]]? Please choose the correct option. Options:\nA. Children's Health, Stonford\nB. MEDICINE, Cbildren's Health\nC. MEDICINE, Stanferd\nD. MEDICINE, Children's Health",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Stanford, Children's Health' located within the bounding box [[669.6140081079959, 308.01065217878875], [1372.2500291612832, 308.01065217878875], [1372.2500291612832, 721.0445177692429], [669.6140081079959, 721.0445177692429]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_091.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[667, 305], [1366, 305], [1366, 713], [667, 713]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "At the location with coordinates [[810,386], [1266,381], [1265,500], [811,508]], there's a word(s) partially obscured. What letter(s) complete the missing part? St____ord",
+                            "answer": "anf"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[801, 305], [1366, 305], [1366, 547], [801, 547]]? Please choose the correct option. Options:\nA. Children's Health\nB. Stonford\nC. Stonford\nD. Stanford",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Stanford, Children's Health' located within the bounding box [[666.5359477124182, 305.37907323142036], [1366.1096782840903, 305.37907323142036], [1366.1096782840903, 713.0718954248366], [666.5359477124182, 713.0718954248366]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_101.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[663, 304], [1362, 304], [1362, 706], [663, 706]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the image, there's a notable word(s) at coordinates [[824,393], [1280,388], [1280,507], [825,515]]. What letter(s) should fill in the blank? Sta____d",
+                            "answer": "nfor"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[663, 304], [1362, 304], [1362, 706], [663, 706]]. Options:\nA. MEDICINE, Children's Health\nB. MEOICINE, Children's Health\nC. Stonford, Children's Health\nD. Stanford, MEPICINE",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Stenford, Children's Health, MEDICINE' located within the bounding box [[662.5676937441642, 303.79177164411874], [1362.1414243158363, 303.79177164411874], [1362.1414243158363, 706.2698412698413], [662.5676937441642, 706.2698412698413]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0167/frame_111.png",
+                "relative_path": "test_batch_1/EN_test/C0167/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[662, 299], [1359, 299], [1359, 703], [662, 703]]? The word(s) is/are ________.",
+                            "answer": [
+                                "Stanford",
+                                "MEDICINE",
+                                "Children's Health"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Examine the location with coordinates [[854,486], [1312,472], [1312,542], [855,554]]. What letter(s) complete this word(s): M____INE?",
+                            "answer": "EDIC"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[662, 299], [1359, 299], [1359, 703], [662, 703]]? Please choose the correct answer. Options:\nA. MEDICINE, Stonford\nB. MEDICINE, Cbildren's Health\nC. Stanferd, MEDICINE\nD. Stanford, Children's Health",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'MEDICINE, Stanford, Cbildren's Health' located within the bounding box [[662.3655913978495, 299.40860215053766], [1359.1397849462364, 299.40860215053766], [1359.1397849462364, 703.1720430107526], [662.3655913978495, 703.1720430107526]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0167"
+    }
+]

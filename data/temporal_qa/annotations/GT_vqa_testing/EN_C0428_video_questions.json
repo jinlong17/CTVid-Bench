@@ -1,0 +1,151 @@
+{
+  "video_id": "C0428",
+  "frames": 120,
+  "word": "VALLCO PARK",
+  "video_path": "/nfs.auto/flash_VideoAlg/project/SR/VSR_text/video_test_set/GT/videos/EN_C0428.mp4",
+  "questions": [
+    {
+      "question_type": "presence_q1",
+      "q": "Is \"VALLCO PARK\" always present in the video?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "presence_q2",
+      "q": "In how many frames is \"VALLCO PARK\" visible? (Answer with a number)",
+      "a": 120
+    },
+    {
+      "question_type": "presence_q3",
+      "q": "How many times does \"VALLCO PARK\" disappear?\n Options:\n0 times\n1 time\n2 times\n3 or more times",
+      "a": "0 times"
+    },
+    {
+      "question_type": "presence_q4",
+      "q": "What is the overall appearance pattern of \"VALLCO PARK\"?\n Options:\nalways present\nappears mid-way\ndisappears mid-way\nappears and then disappears",
+      "a": "always present"
+    },
+    {
+      "question_type": "presence_q5",
+      "q": "In which frame does \"VALLCO PARK\" first appear? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "presence_q6",
+      "q": "In which frame does \"VALLCO PARK\" last appear? (Answer with a number)",
+      "a": 119
+    },
+    {
+      "question_type": "localization_q1",
+      "q": "Which region of the screen is \"VALLCO PARK\" in when it first appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "top-left"
+    },
+    {
+      "question_type": "localization_q2",
+      "q": "Which region of the screen is \"VALLCO PARK\" in when it last appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "bottom-left"
+    },
+    {
+      "question_type": "localization_q3",
+      "q": "In which region does \"VALLCO PARK\" spend most of its time?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right\nno dominant region",
+      "a": "no dominant region"
+    },
+    {
+      "question_type": "localization_q4",
+      "q": "How many frames does \"VALLCO PARK\" cross the horizontal center line of the screen?\n Options:\n49 frames\n51 frames\n47 frames\n53 frames",
+      "a": "49 frames"
+    },
+    {
+      "question_type": "localization_q5",
+      "q": "Does \"VALLCO PARK\" cross the horizontal center line of the screen?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "localization_q6",
+      "q": "The screen is divided into a 3x3 grid (9 regions): top-left, top-center, top-right, middle-left, middle-center, middle-right, bottom-left, bottom-center, bottom-right. How many different regions does \"VALLCO PARK\" pass through? (Answer with a number 1-9)",
+      "a": 3
+    },
+    {
+      "question_type": "motion_q1",
+      "q": "From first to last appearance, what is the main motion direction of \"VALLCO PARK\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "bottom-right"
+    },
+    {
+      "question_type": "motion_q2",
+      "q": "In which frame does \"VALLCO PARK\" move at maximum speed? (Answer with a number)",
+      "a": 75
+    },
+    {
+      "question_type": "motion_q3",
+      "q": "In which frame does \"VALLCO PARK\" have maximum acceleration? (Answer with a number)",
+      "a": 2
+    },
+    {
+      "question_type": "motion_q4",
+      "q": "During which period does \"VALLCO PARK\" move fastest?\n Options:\nstart\nmiddle\nend",
+      "a": "middle"
+    },
+    {
+      "question_type": "motion_q5",
+      "q": "What trajectory shape(s) does \"VALLCO PARK\" exhibit? (Select all that apply)\n Options:\nstraight line\ncurve\ncircular\nzigzag",
+      "a": [
+        "straight line",
+        "curve"
+      ]
+    },
+    {
+      "question_type": "motion_q6",
+      "q": "From frame 23 to frame 35, what is the trajectory shape of \"VALLCO PARK\"?\n Options:\nstraight line\ncurve\ncircular\nzigzag\nrandom",
+      "a": "straight line"
+    },
+    {
+      "question_type": "motion_q7",
+      "q": "From frame 23 to frame 35, what is the main motion direction of \"VALLCO PARK\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "top-right"
+    },
+    {
+      "question_type": "motion_q8",
+      "q": "In which frame does \"VALLCO PARK\" deviate most from the main trajectory? (Answer with a number)",
+      "a": 25
+    },
+    {
+      "question_type": "motion_q9",
+      "q": "What is the average speed of \"VALLCO PARK\" movement approximately?\n Options:\n18.0 pixels/frame\n17.4 pixels/frame\n17.8 pixels/frame\n17.6 pixels/frame",
+      "a": "17.8 pixels/frame"
+    },
+    {
+      "question_type": "size_q1",
+      "q": "In which frame does \"VALLCO PARK\" have the largest area (appear closest)? (Answer with a number)",
+      "a": 60
+    },
+    {
+      "question_type": "size_q2",
+      "q": "In which frame does \"VALLCO PARK\" have the smallest area (appear farthest)? (Answer with a number)",
+      "a": 15
+    },
+    {
+      "question_type": "size_q3",
+      "q": "From frame 23 to frame 35, is \"VALLCO PARK\" approaching or receding?\n Options:\napproaching\nreceding\ndistance unchanged",
+      "a": "distance unchanged"
+    },
+    {
+      "question_type": "size_q4",
+      "q": "What is the overall area trend of \"VALLCO PARK\"?\n Options:\nincreasing\ndecreasing\nfluctuating",
+      "a": "fluctuating"
+    },
+    {
+      "question_type": "size_q5",
+      "q": "Does the width of \"VALLCO PARK\" ever exceed half the screen width?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "size_q6",
+      "q": "How many frames does the width of \"VALLCO PARK\" exceed half the screen width?\n Options:\nNever\n2 frames\n4 frames\n6 frames",
+      "a": "Never"
+    },
+    {
+      "question_type": "boundary_q1",
+      "q": "Does \"VALLCO PARK\" touch the edge of the frame during its movement?\n Options:\nYes\nNo",
+      "a": "No"
+    }
+  ]
+}

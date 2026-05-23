@@ -1,0 +1,488 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be found within [[1265.3895781637716, 34.30232558139535], [1895.610465116279, 34.30232558139535], [1895.610465116279, 601.5186104218362], [1265.3895781637716, 601.5186104218362]]? ________",
+              "answer": [
+                "ByteByteGo.com",
+                "Model",
+                "Language"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the missing sequence in the text found at the coordinates [[1628,34], [1896,35], [1896,83], [1628,81]]: ByteB____teGo.com",
+              "answer": "y"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[388, 232], [1393, 232], [1393, 738], [388, 738]]. Options:\nA. Task Description, Exmaple 2, Prompt, Model, Language, Input, Exmaple 1, Output Indicator, Completion\nB. Model, Exmaple 2, Task Description, Prompt, Completion, Output Indicator, Exmaple 1, How ChatGPT Works Technically, Language\nC. Exmaple 1, Prompt, Input, Task Description, ByteByteGo.com, Model, Output, Completion, Exmaple 2\nD. Output Indicator, Language, Completion, Iask Description, Prompt, Model, Exmaple 2, Exmaple 1, Input",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Completion, Exmaple 2, Task Description, Output Indicator, Prompt' located within the bounding box [[49, 47], [657, 47], [657, 702], [49, 702]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can be found within the bounding box [[1265, 34], [1896, 34], [1896, 602], [1265, 602]]? The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "Model",
+                "Language"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What is the missing letter(s)(s) in \"____tput Indicator\" found at the coordinates [[386,554], [598,555], [598,588], [386,588]]?",
+              "answer": "Ou"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[49, 47], [1393, 47], [1393, 738], [49, 738]]. Options:\nA. Exmaple 2, How ChatGPT Works Technically, Completion, Prompt, Model, Output Indicator, Output, Task Description, Language, Inpvt\nB. Input, Exmaple 1, Task Description, Prompt, Output Indicator, Language, Model, Output, How ChatGPT Works Technically, Exmeple 2\nC. How ChatGPT Works Technically, Output, Model, Exmaple 2, Exmaple 1, Completion, Output Indicator, Language, Input, Task Description\nD. Task Description, Exmaple 2, Language, Output Indicator, Prompt, How ChatGPT Works Technically, Model, ByteByteGo.com, Exmaple 1, Completion",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Exmaple 1, Output Indicator, Output, How ChatGPT Works Technically, Language, Task Description, Model, ByteByteGo.com, Prompt, Exmople 2' located within the bounding box [[49.0173410404624, 34.30232558139535], [1895.610465116279, 34.30232558139535], [1895.610465116279, 738.4886649874055], [49.0173410404624, 738.4886649874055]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are located in the bounding box [[389, 668], [992, 668], [992, 738], [389, 738]]? The word(s) is/are ________.",
+              "answer": [
+                "Completion",
+                "Output"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What fills the gap \"Co____ion\" within the text area at coordinates [[382,669], [534,669], [534,703], [382,703]]?",
+              "answer": "mplet"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[388, 397], [1393, 397], [1393, 738], [388, 738]]? Please choose the correct answer. Options:\nA. Exmaple 1, Exmaple 2, Input, Output, Language, Completion, Qutput Indicator\nB. Exmaple 2, Completion, Output Indicator, Language, Model, Input, Output\nC. Output Indicator, Output, Completion, ByteByteGo.com, Input, Language, Exmaple 2\nD. Output, Completion, Input, Qutput Indicator, Language, Exmaple 2, Exmaple 1",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Output Indicator, Input, Prompt, Output, Task Description, Completion, Exmaple 2, How ChatGPT Works Technically, Exmaple 1, Model' located within the bounding box [[388, 232], [1393, 232], [1393, 738], [388, 738]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are visible in the area [[1627.8779069767443, 34.30232558139535], [1895.610465116279, 34.30232558139535], [1895.610465116279, 82.84883720930233], [1627.8779069767443, 82.84883720930233]]? ________",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What should replace \"Out____\" in the text displayed at the coordinates [[901,709], [991,709], [991,740], [901,741]]?",
+              "answer": "put"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[388, 232], [1393, 232], [1393, 738], [388, 738]]? Please choose the correct answer. Options:\nA. Output Indicator, ByteByteGo.com, Exmaple 1, Model, Input, Completion, Exmaple 2, Language, Prompt\nB. Completion, Input, Prompt, Output Indicator, Task Description, Language, Output, Model, How ChatGPT Works Technically\nC. Model, Exmaple 2, Exmaple 1, Language, Output Indicator, Input, Completion, Task Description, Prompt\nD. Language, Model, Qutput, Exmaple 2, Prompt, Output Indicator, Completion, Exmaple 1, Input",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Input, Prompt, Task Description, Output, How ChatGPT Works Technically, Exmaple 1, Exmaple 2, Model, Completion, Output Indicator' located within the bounding box [[49, 47], [992, 47], [992, 738], [49, 738]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are present in the bounding box [[49, 34], [1896, 34], [1896, 94], [49, 94]]? The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the provided text at coordinates [[899,400], [973,400], [973,432], [899,432]], what is the missing sequence in \"In____\"?",
+              "answer": "put"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[49, 34], [1896, 34], [1896, 602], [49, 602]]. Options:\nA. Prompt, Task Description, Language, Input, How ChatGPT Works Technically, Output Indicator, Medel, Exmaple 1, Exmaple 2\nB. Exmaple 2, Prompt, Task Description, Input, Output Indicator, Model, How ChatGPT Works Technically, ByteByteGo.com, Exmaple 1\nC. Prompt, Output Indicator, How ChatGPT Works Technically, Exmaple 2, Language, Completion, Model, Task Description, Input\nD. Model, Prompt, Task Description, Exmaple 2, How ChatGPT Works Technically, Language, Inpvt, Output Indicator, ByteByteGo.com",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Model, Output Indicator, Task Description, Prompt, Output, How ChatGPT Works Technically, Completion, Exmaple 1, Input, Exmaple 2' located within the area [[49, 47], [992, 47], [992, 738], [49, 738]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are located in the area defined by [[49, 34], [1896, 34], [1896, 602], [49, 602]]? The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "Task Description",
+                "Input",
+                "Exmaple 2",
+                "Output Indicator",
+                "Model",
+                "Exmaple 1",
+                "Prompt",
+                "Language"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Complete the term \"Mo____\" located at the coordinates [[1289,574], [1377,574], [1377,602], [1289,602]].",
+              "answer": "del"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[49, 47], [992, 47], [992, 738], [49, 738]]. Options:\nA. How ChatGPT Works Technically, Input, Prompt, Exmaple 2, Exmaple 1, Output, Output Indicator, Task Description\nB. Output Indicator, Model, Exmaple 1, How ChatGPT Works Technically, Task Description, Input, Exmaple 2, Completion\nC. Output Indicator, Prompt, How ChatGPT Works Technically, Output, Completion, Task Description, Inpvt, Exmaple 1\nD. How ChatGPT Works Technically, Output Indicator, Task Description, Exmaple 2, Prompt, Exmaple 1, Output, ByteByteGo.com",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Completion, How ChatGPT Works Technically, Output Indicator, Exmaple 1, Exmaple 2, Task Description, Output' located within the area [[49, 47], [992, 47], [992, 738], [49, 738]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are found in the specified area [[1627.8779069767443, 34.30232558139535], [1895.610465116279, 34.30232558139535], [1895.610465116279, 82.84883720930233], [1627.8779069767443, 82.84883720930233]]? ________",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What letter(s) are missing in the word(s) \"Mo____\" at the location [[1289,574], [1377,574], [1377,602], [1289,602]]?",
+              "answer": "del"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[49, 47], [657, 47], [657, 702], [49, 702]]. Options:\nA. How ChatGPT Works Technically, Prompt, Output Indicator, Iask Description, Exmaple 1, Exmaple 2\nB. Exmaple 2, Task Description, ByteByteGo.com, Prompt, How ChatGPT Works Technically, Output Indicator\nC. Completion, Prompt, Exmaple 1, Exmaple 2, Input, Output Indicator\nD. Prompt, Exmaple 2, Exmaple 1, How ChatGPT Works Technically, Completion, Output Indicator",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Model, Exmaple 1, ByteByteGo.com, Language, Output Indicator, How ChatGPT Works Technically, Input, Prompt, Completion, Task Description' located within the area [[49, 47], [1393, 47], [1393, 738], [49, 738]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are located in the area defined by [[49, 47], [657, 47], [657, 702], [49, 702]]? The word(s) is/are ________.",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "Task Description",
+                "Exmaple 2",
+                "Output Indicator",
+                "Completion",
+                "Exmaple 1",
+                "Prompt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What completes the phrase \"How Cha____T Works Technically\" in the text located at [[49,49], [658,49], [659,92], [49,91]]?",
+              "answer": "tGP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[49, 47], [992, 47], [992, 738], [49, 738]]? Please choose the correct answer. Options:\nA. Exmaple 2, Output, Haw ChatGPT Works Technically, Prompt, Input, Exmaple 1, Completion, Output Indicator\nB. Exmaple 2, Input, Exmaple 1, How ChatGPT Works Technically, Task Description, Completion, Prompt, Output\nC. Exmaple 2, Task Description, How ChatGPT Works Technically, ByteByteGo.com, Input, Output, Prompt, Completion\nD. Completion, Exmaple 2, Exmaple 1, Qutput Indicator, Input, Output, Prompt, Task Description",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Completion, Language, ByteByteGo.com, Exmaple 2, Input, Task Description, Model, Exmaple 1, Prompt, How ChatGPT Works Technically' located within the area [[49, 34], [1896, 34], [1896, 602], [49, 602]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are located in the bounding box [[1628, 34], [1896, 34], [1896, 83], [1628, 83]]? The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What completes the sequence \"How Ch____ Works Technically\" in the text located at [[49,49], [658,49], [659,92], [49,91]]?",
+              "answer": "atGPT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that contains the text(s) located within [[49, 47], [1393, 47], [1393, 738], [49, 738]]. Options:\nA. Task Description, Output Indicator, Language, Completion, How ChatGPT Works Technically, ByteByteGo.com, Prompt, Input, Exmaple 1, Model\nB. Qutput Indicator, Completion, Prompt, Task Description, Language, Exmaple 1, Model, How ChatGPT Works Technically, Input, Exmaple 2\nC. Completion, Task Description, Exmaple 2, Output Indicator, Model, Language, How ChatGPT Works Technically, Exmaple 1, Prompt, Output\nD. Output Indicator, How ChatGPT Works Technically, Exmaple 1, Input, Completion, Prompt, Model, Iask Description, Output, Exmaple 2",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ByteByteGo.com, Output, Exmaple 2, Exmaple 1, How ChatGPT Works Technically, Completion, Input, Prompt, Output Indicator, Task Description' located within the area [[49, 47], [992, 47], [992, 738], [49, 738]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are located in the bounding box [[901, 34], [1896, 34], [1896, 739], [901, 739]]? The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "Input",
+                "Model",
+                "Output",
+                "Language"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text positioned at [[49,49], [658,49], [659,92], [49,91]], find the missing word(s): \"How ____ Works Technically.\"",
+              "answer": "ChatGPT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[49, 47], [1393, 47], [1393, 739], [49, 739]]. Options:\nA. Model, Output Indicator, ByteByteGo.com, Input, Task Description, Language, Prompt, Completion, How ChatGPT Works Technically, Exmaple 2\nB. Task Description, Exmaple 2, Completion, How ChatGPT Works Technically, Exmaple 1, Model, Output Indicator, Prompt, Language, Output\nC. Language, Output Indicator, Completion, Exmaple 2, Prompt, Input, How ChatGPT Works Technically, Output, Exmeple 1, Task Description\nD. Model, Prompt, Completion, How ChatGPT Works Technically, Input, Exmaple 1, Output Indicator, Lenguage, Exmaple 2, Task Description",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Exmaple 1, Completion, Prompt, Output Indicator, Exmaple 2' located within the area [[49, 47], [657, 47], [657, 702], [49, 702]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[1265.3895781637716, 34.30232558139535], [1895.610465116279, 34.30232558139535], [1895.610465116279, 601.5186104218362], [1265.3895781637716, 601.5186104218362]]? ________",
+              "answer": [
+                "ByteByteGo.com",
+                "Model",
+                "Language"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Please fill in the missing portion of the phrase \"How ____GPT Works Technically\" found at coordinates [[49,49], [658,49], [659,92], [49,91]].",
+              "answer": "Chat"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[385, 232], [1393, 232], [1393, 738], [385, 738]]? Please choose the correct answer. Options:\nA. Exmaple 2, Model, Prompt, Input, Language, Task Description, Qutput Indicator, Completion, Output\nB. Output Indicator, Output, Model, Exmaple 1, Completion, Exmaple 2, Input, Task Description, ByteByteGo.com\nC. Model, Task Description, Exmaple 2, Output, Prompt, Language, Input, Exmaple 1, Completian\nD. Language, Task Description, Completion, Exmaple 1, Output Indicator, Input, Exmaple 2, Output, Prompt",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Prompt, Completion, Task Description, How ChatGPT Works Technically, Input, Output, ByteByteGo.com, Exmaple 2, Output Indicator, Exmaple 1' located within the area [[49, 47], [992, 47], [992, 738], [49, 738]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_026/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_026/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are located in the area defined by [[49, 47], [1393, 47], [1393, 738], [49, 738]]? The word(s) is/are ________.",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "Task Description",
+                "Input",
+                "Exmaple 2",
+                "Output Indicator",
+                "Model",
+                "Completion",
+                "Exmaple 1",
+                "Prompt",
+                "Output",
+                "Language"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Can you identify what completes the word(s) \"Revi____\" captured at the coordinates [[745,258], [842,259], [842,282], [745,281]]?",
+              "answer": "ewer"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[384, 232], [1393, 232], [1393, 738], [384, 738]]? Please choose the correct answer. Options:\nA. Output, Task Description, Language, Exmaple 1, Exmaple 2, Qutput Indicator, Model, Prompt, Completion\nB. Output, Input, Task Description, ByteByteGo.com, Exmaple 1, Exmaple 2, Output Indicator, Completion, Prompt\nC. Input, Output, Completion, Exmaple 2, Model, Output Indicator, Prompt, Language, Task Description\nD. Task Description, Model, Input, Exmaple 2, Output Indicator, How ChatGPT Works Technically, Exmaple 1, Completion, Language",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Completion, Output Indicator, How ChatGPT Works Technically, Exmaple 1, Task Description, Exmaple 2, ByteByteGo.com, Prompt' located within the area [[49, 47], [657, 47], [657, 701], [49, 701]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_026"
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "video_id": "C0438",
+  "frames": 120,
+  "word": "AUTHORIZED VEHICLES ONLY",
+  "video_path": "/nfs.auto/flash_VideoAlg/project/SR/VSR_text/video_test_set/GT/videos/EN_C0438.mp4",
+  "questions": [
+    {
+      "question_type": "presence_q1",
+      "q": "Is \"AUTHORIZED VEHICLES ONLY\" always present in the video?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "presence_q2",
+      "q": "In how many frames is \"AUTHORIZED VEHICLES ONLY\" visible? (Answer with a number)",
+      "a": 120
+    },
+    {
+      "question_type": "presence_q3",
+      "q": "How many times does \"AUTHORIZED VEHICLES ONLY\" disappear?\n Options:\n0 times\n1 time\n2 times\n3 or more times",
+      "a": "0 times"
+    },
+    {
+      "question_type": "presence_q4",
+      "q": "What is the overall appearance pattern of \"AUTHORIZED VEHICLES ONLY\"?\n Options:\nalways present\nappears mid-way\ndisappears mid-way\nappears and then disappears",
+      "a": "always present"
+    },
+    {
+      "question_type": "presence_q5",
+      "q": "In which frame does \"AUTHORIZED VEHICLES ONLY\" first appear? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "presence_q6",
+      "q": "In which frame does \"AUTHORIZED VEHICLES ONLY\" last appear? (Answer with a number)",
+      "a": 119
+    },
+    {
+      "question_type": "localization_q1",
+      "q": "Which region of the screen is \"AUTHORIZED VEHICLES ONLY\" in when it first appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "top-left"
+    },
+    {
+      "question_type": "localization_q2",
+      "q": "Which region of the screen is \"AUTHORIZED VEHICLES ONLY\" in when it last appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "top-left"
+    },
+    {
+      "question_type": "localization_q3",
+      "q": "In which region does \"AUTHORIZED VEHICLES ONLY\" spend most of its time?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right\nno dominant region",
+      "a": "no dominant region"
+    },
+    {
+      "question_type": "localization_q4",
+      "q": "How many frames does \"AUTHORIZED VEHICLES ONLY\" cross the horizontal center line of the screen?\n Options:\n116 frames\n118 frames\n112 frames\n114 frames",
+      "a": "114 frames"
+    },
+    {
+      "question_type": "localization_q5",
+      "q": "Does \"AUTHORIZED VEHICLES ONLY\" cross the horizontal center line of the screen?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "localization_q6",
+      "q": "The screen is divided into a 3x3 grid (9 regions): top-left, top-center, top-right, middle-left, middle-center, middle-right, bottom-left, bottom-center, bottom-right. How many different regions does \"AUTHORIZED VEHICLES ONLY\" pass through? (Answer with a number 1-9)",
+      "a": 3
+    },
+    {
+      "question_type": "motion_q1",
+      "q": "From first to last appearance, what is the main motion direction of \"AUTHORIZED VEHICLES ONLY\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "top-right"
+    },
+    {
+      "question_type": "motion_q2",
+      "q": "In which frame does \"AUTHORIZED VEHICLES ONLY\" move at maximum speed? (Answer with a number)",
+      "a": 14
+    },
+    {
+      "question_type": "motion_q3",
+      "q": "In which frame does \"AUTHORIZED VEHICLES ONLY\" have maximum acceleration? (Answer with a number)",
+      "a": 72
+    },
+    {
+      "question_type": "motion_q4",
+      "q": "During which period does \"AUTHORIZED VEHICLES ONLY\" move fastest?\n Options:\nstart\nmiddle\nend",
+      "a": "start"
+    },
+    {
+      "question_type": "motion_q5",
+      "q": "What trajectory shape(s) does \"AUTHORIZED VEHICLES ONLY\" exhibit? (Select all that apply)\n Options:\nstraight line\ncurve\ncircular\nzigzag",
+      "a": [
+        "straight line",
+        "curve"
+      ]
+    },
+    {
+      "question_type": "motion_q6",
+      "q": "From frame 19 to frame 29, what is the trajectory shape of \"AUTHORIZED VEHICLES ONLY\"?\n Options:\nstraight line\ncurve\ncircular\nzigzag\nrandom",
+      "a": "curve"
+    },
+    {
+      "question_type": "motion_q7",
+      "q": "From frame 19 to frame 29, what is the main motion direction of \"AUTHORIZED VEHICLES ONLY\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "top-right"
+    },
+    {
+      "question_type": "motion_q8",
+      "q": "In which frame does \"AUTHORIZED VEHICLES ONLY\" deviate most from the main trajectory? (Answer with a number)",
+      "a": 98
+    },
+    {
+      "question_type": "motion_q9",
+      "q": "What is the average speed of \"AUTHORIZED VEHICLES ONLY\" movement approximately?\n Options:\n17.3 pixels/frame\n17.5 pixels/frame\n17.7 pixels/frame\n17.9 pixels/frame",
+      "a": "17.5 pixels/frame"
+    },
+    {
+      "question_type": "size_q1",
+      "q": "In which frame does \"AUTHORIZED VEHICLES ONLY\" have the largest area (appear closest)? (Answer with a number)",
+      "a": 114
+    },
+    {
+      "question_type": "size_q2",
+      "q": "In which frame does \"AUTHORIZED VEHICLES ONLY\" have the smallest area (appear farthest)? (Answer with a number)",
+      "a": 26
+    },
+    {
+      "question_type": "size_q3",
+      "q": "From frame 19 to frame 29, is \"AUTHORIZED VEHICLES ONLY\" approaching or receding?\n Options:\napproaching\nreceding\ndistance unchanged",
+      "a": "distance unchanged"
+    },
+    {
+      "question_type": "size_q4",
+      "q": "What is the overall area trend of \"AUTHORIZED VEHICLES ONLY\"?\n Options:\nincreasing\ndecreasing\nfluctuating",
+      "a": "fluctuating"
+    },
+    {
+      "question_type": "size_q5",
+      "q": "Does the width of \"AUTHORIZED VEHICLES ONLY\" ever exceed half the screen width?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "size_q6",
+      "q": "How many frames does the width of \"AUTHORIZED VEHICLES ONLY\" exceed half the screen width?\n Options:\nNever\n2 frames\n4 frames\n6 frames",
+      "a": "Never"
+    },
+    {
+      "question_type": "boundary_q1",
+      "q": "Does \"AUTHORIZED VEHICLES ONLY\" touch the edge of the frame during its movement?\n Options:\nYes\nNo",
+      "a": "No"
+    }
+  ]
+}

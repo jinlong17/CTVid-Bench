@@ -1,0 +1,38 @@
+# CTVid-Bench default configuration
+# ──────────────────────────────────
+# image_root / video_root use data/ symlinks in this repo, which point to
+# CTVid-Bench-Research/open_source/ (GT, blur, downsample_x4 only).
+# On NFS machines: works out of the box via symlinks.
+# External users: run `python tools/download_data.py` to populate data/ locally,
+#   then change these paths to your download directory (e.g. "./data").
+
+spatial_qa:
+  annotation_dir: "data/spatial_qa/annotations"
+  image_root: "data/spatial_qa/images"
+  datasets:
+    - GT
+    - blur
+    - downsample_x4
+  dataset_to_annotation_folder:
+    GT:            "GT_VQA_testing"
+    blur:          "blur_VQA_testing"
+    downsample_x4: "downsample_x4_VQA_testing"
+
+temporal_qa:
+  annotation_dir: "data/temporal_qa/annotations"
+  video_root: "data/temporal_qa/videos_vqa"
+  image_root: "data/temporal_qa/images"
+  datasets:
+    - GT
+    - blur
+    - downsample_x4
+  dataset_to_annotation_folder:
+    GT:            "GT_vqa_testing"
+    blur:          "blur_vqa_testing"
+    downsample_x4: "downsample_x4_vqa_testing"
+
+# Model for spatial QA text-only baseline
+model:
+  name: "Qwen/Qwen2.5-7B-Instruct"
+  local_path: ""   # leave empty to download from HuggingFace on first run
+  device_id: 0

@@ -1,0 +1,471 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_001.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[894.0040180126387, 877.6796288003185], [1011.8611608697815, 877.6796288003185], [1011.8611608697815, 924.1082002288898], [894.0040180126387, 924.1082002288898]]? ________",
+                            "answer": [
+                                "车"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在位于[[897,878], [1012,883], [1010,924], [894,919]]的框内，有一个文字符中缺失的部分，请补充：\"____\"。",
+                            "answer": "车"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1293, 179], [1497, 179], [1497, 283], [1293, 283]]. Options:\nA. 上皇包车旅行, 车\nB. 上皇包车旍行, 想怎么玩就怎么玩\nC. 想怎么玩就怎么玩, 上皇包车旅行\nD. 想怎么玩就怎么玩, 当地人幇你",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '当地人带你, 想恙么玩就怎么玩, 上皇包车旅行, 车' located within the bounding box [[894.0040180126387, 179.36062465698745], [1496.9274809160306, 179.36062465698745], [1496.9274809160306, 924.1082002288898], [894.0040180126387, 924.1082002288898]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_011.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[894.6369294050437, 180.61753767860637], [1496.9274809160306, 180.61753767860637], [1496.9274809160306, 927.2727571909151], [894.6369294050437, 927.2727571909151]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩",
+                                "车"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在框位于[[1275,197], [1424,188], [1426,219], [1277,228]]中，填补空缺的字符符, \"____皇包车旅行\"。",
+                            "answer": "上"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[1293, 181], [1497, 181], [1497, 283], [1293, 283]]? Please choose the correct answer. Options:\nA. 上皇包车旅行, 当地人幇你\nB. 当地人带你, 上皇包车旅行\nC. 上皇包车旍行, 想怎么玩就怎么玩\nD. 当地人带你, 车",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '上皇包车旅行, 想怎么玩就怎么玩, 车, 当地人带你' inside the bounding box [[1293, 181], [1497, 181], [1497, 283], [1293, 283]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_021.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the missing word(s) located within [[894.6369294050437, 880.8441857623437], [1012.4940722621866, 880.8441857623437], [1012.4940722621866, 927.2727571909151], [894.6369294050437, 927.2727571909151]]? ________",
+                            "answer": [
+                                "车"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在边界框[[842,873], [956,878], [955,919], [839,914]]内补充缺少的字符：\"____\"。",
+                            "answer": "车"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1291, 180], [1495, 180], [1495, 285], [1291, 285]]? Choose the correct answer. Options:\nA. 上皇包车旅行, 想恙么玩就怎么玩\nB. 当地人带你, 上皇包车旅行\nC. 车, 想怎么玩就怎么玩\nD. 当地人幇你, 想怎么玩就怎么玩",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Do the label(s) '想怎么玩就怎么玩, 上皇包车旅行, 车' fall within the bounding box [[894.6369294050437, 180.37901650985265], [1495.3770933191313, 180.37901650985265], [1495.3770933191313, 927.2727571909151], [894.6369294050437, 927.2727571909151]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_031.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1290, 181], [1494, 181], [1494, 284], [1290, 284]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在框[[1226,181], [1374,172], [1376,206], [1228,215]]中，填补以下短语缺失的字符符：\"上____包车旅行\"",
+                            "answer": "皇"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1290, 181], [1494, 181], [1494, 284], [1290, 284]]? Choose the correct answer. Options:\nA. 想怎么玩就怎么玩, 上皇包车旅行\nB. 车, 想怎么玩就怎么玩\nC. 当地人带你, 想恙么玩就怎么玩\nD. 上皇包车旅行, 当地人幇你",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '上皇包车旅行, 想怎么玩就怎么玩' located within the bounding box [[1290, 181], [1494, 181], [1494, 284], [1290, 284]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_041.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[892, 880], [1010, 880], [1010, 927], [892, 927]]? ________",
+                            "answer": [
+                                "车"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在框[[838,865], [953,870], [951,912], [835,906]]内，有一个需要填充的汉字符，请写出完整的\"____\"。",
+                            "answer": "车"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1289, 179], [1492, 179], [1492, 284], [1289, 284]]? Choose the correct answer. Options:\nA. 当地人带你, 想怎么玩就怎么玩\nB. 上皇包车旅行, 车\nC. 上皇包车旅行, 当地人幇你\nD. 当地人幇你, 上皇包车旅行",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '车, 上皇包车旅行, 想怎么玩就怎么玩' located within the bounding box [[892.2272908508269, 179.4205500561785], [1492.371198525449, 179.4205500561785], [1492.371198525449, 926.8711507652122], [892.2272908508269, 926.8711507652122]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_051.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[889, 183], [1491, 183], [1491, 927], [889, 927]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩",
+                                "车"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在位于[[1267,232], [1469,224], [1471,258], [1269,267]]中的文本中，补全以下短语：\"想怎____玩就怎么玩\"。",
+                            "answer": "么"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct answer that includes the text(s) located within [[1286, 183], [1491, 183], [1491, 288], [1286, 288]]. Options:\nA. 想恙么玩就怎么玩, 上皇包车旅行\nB. 车, 想怎么玩就怎么玩\nC. 上皇包车旍行, 想怎么玩就怎么玩\nD. 想怎么玩就怎么玩, 上皇包车旅行",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '想怎么玩就怎么玩, 当地人带你' located within the bounding box [[1286, 183], [1491, 183], [1491, 288], [1286, 288]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_061.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1285, 184], [1488, 184], [1488, 286], [1285, 286]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在边界框[[1290,203], [1419,198], [1420,232], [1291,237]]内填补以下短语所缺的部分：\"当地____带你\"",
+                            "answer": "人"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1285, 184], [1488, 184], [1488, 286], [1285, 286]]. Options:\nA. 想怎么玩就怎么玩, 车\nB. 想恙么玩就怎么玩, 上皇包车旅行\nC. 当地人带你, 想怎么玩就怎么玩\nD. 上皇包车旅行, 想恙么玩就怎么玩",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '上皇包车旅行, 当地人带你, 想怎么玩就怎么玩, 车' located within the bounding box [[1285, 184], [1488, 184], [1488, 286], [1285, 286]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_071.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1282, 184], [1487, 184], [1487, 288], [1282, 288]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在边界框[[1291,243], [1493,232], [1495,266], [1293,277]]内，请解答以下文字符中的缺失部分：\"想怎____玩就怎么玩\"",
+                            "answer": "么"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1282, 184], [1487, 184], [1487, 288], [1282, 288]]. Options:\nA. 上皇包车旅行, 想恙么玩就怎么玩\nB. 当地人带你, 上皇包车旅行\nC. 当地人带你, 上皇包车旍行\nD. 想怎么玩就怎么玩, 车",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '想怎么玩就怎么玩, 当地人带你, 上皇包车旅行, 车' located within the bounding box [[1282, 184], [1487, 184], [1487, 288], [1282, 288]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_081.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1282, 185], [1485, 185], [1485, 288], [1282, 288]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在[[1289,244], [1489,236], [1491,270], [1291,278]]位置的文本中，填补\"想怎____玩就怎么玩\"中的缺失部分。",
+                            "answer": "么"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1282, 185], [1485, 185], [1485, 288], [1282, 288]]? Choose the correct answer. Options:\nA. 当地人带你, 上皇包车旍行\nB. 想怎么玩就怎么玩, 车\nC. 上皇包车旍行, 想怎么玩就怎么玩\nD. 当地人带你, 上皇包车旅行",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '上皇包车旅行, 想怎么玩就怎么玩' located within the bounding box [[1282, 185], [1485, 185], [1485, 288], [1282, 288]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_091.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1276, 184], [1481, 184], [1481, 288], [1276, 288]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在边界框[[1282,185], [1428,178], [1430,212], [1284,219]]内，请完成以下短语中缺失的部分：\"____皇包车旅行\"",
+                            "answer": "上"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1276, 184], [1481, 184], [1481, 288], [1276, 288]]. Options:\nA. 上皇包车旅行, 当地人带你\nB. 当地人带你, 想恙么玩就怎么玩\nC. 上皇包车旍行, 想怎么玩就怎么玩\nD. 车, 当地人带你",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '上皇包车旅行, 想怎么玩就怎么玩' located within the bounding box [[1276, 184], [1481, 184], [1481, 288], [1276, 288]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_101.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1275, 188], [1479, 188], [1479, 291], [1275, 291]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在边界框[[1275,186], [1423,179], [1425,213], [1277,220]]中，寻找并补全以下短语：\"上____车旅行\"。",
+                            "answer": "皇包"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1275, 188], [1479, 188], [1479, 291], [1275, 291]]. Options:\nA. 当地人幇你, 上皇包车旅行\nB. 上皇包车旅行, 车\nC. 想恙么玩就怎么玩, 上皇包车旅行\nD. 当地人带你, 上皇包车旅行",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '想怎么玩就怎么玩, 车, 上皇包车旅行' located within the bounding box [[878.9229658364883, 187.7260525559034], [1479.1213967540918, 187.7260525559034], [1479.1213967540918, 930.1078573176703], [878.9229658364883, 930.1078573176703]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0310/frame_111.png",
+                "relative_path": "test_batch_1/CHN_test/C0310/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1274, 187], [1478, 187], [1478, 291], [1274, 291]]? ________",
+                            "answer": [
+                                "上皇包车旅行",
+                                "当地人带你",
+                                "想怎么玩就怎么玩"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在指定的边界框[[1271,219], [1403,212], [1405,246], [1273,253]]中，找出并填入以下短语中的缺失部分：\"当地____带你\"。",
+                            "answer": "人"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1274, 187], [1478, 187], [1478, 291], [1274, 291]]? Choose the correct answer. Options:\nA. 上皇包车旅行, 车\nB. 当地人幇你, 上皇包车旅行\nC. 上皇包车旅行, 想怎么玩就怎么玩\nD. 当地人幇你, 想怎么玩就怎么玩",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '上皇包车旅行, 车, 想怎么玩就怎么玩, 当地人带你' located within the bounding box [[1274, 187], [1478, 187], [1478, 291], [1274, 291]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0310"
+    }
+]

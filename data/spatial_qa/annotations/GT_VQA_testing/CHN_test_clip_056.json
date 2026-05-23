@@ -1,0 +1,532 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_001.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[77.6923076923079, 1877.9527559055118], [2840.5405405405404, 1877.9527559055118], [2840.5405405405404, 2142.5844594594596], [77.6923076923079, 2142.5844594594596]]? The word(s) is/are ________.",
+                            "answer": [
+                                "好给它打个逗号",
+                                "Right, add a comma (to the previous entry)",
+                                "大纲"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the specified bounding box coordinates [[1292,252], [2058,258], [2057,327], [1292,320]], can you complete the software version mentioned: \"@smithery/____@latest\"?",
+                            "answer": "cli"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[844, 11], [2841, 11], [2841, 2143], [844, 2143]]. Options:\nA. \"/c\",, 98, Right, add a comma (to the previous entry), \"@smithery/cli@latest\", 90, 97, 91, 93, 99, 94\nB. 安装新工具, 90, 98, 99, \"/c\",, 88, \"@smithery/cli@latest\", 96, 89, 97\nC. 64, 88, 91, \"@nickclyde/duckduckgo-mcp-server\", 90, 93, \"run\",, 97, Right, add a comma (to the previous entry), 99\nD. 90, 好给它打个逗号, \"@nickclyde/duckduckgo-mcp-server\", 91, 94, \"npx\",, 89, 93, 98, 95",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '好给它打个逗号, \"run\",, \"npx\",, 96, 98, 97, 安装新工具, 95, 93, \"/c\",' located within the bounding box [[104, 11], [2430, 11], [2430, 973], [104, 973]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_011.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) can be found in the region [[77.6923076923079, 1877.9527559055118], [2840.5405405405404, 1877.9527559055118], [2840.5405405405404, 2142.5844594594596], [77.6923076923079, 2142.5844594594596]]? The word(s) is/are ________.",
+                            "answer": [
+                                "好给它打个逗号",
+                                "Right, add a comma (to the previous entry)",
+                                "大纲"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Observe the text that lies within the coordinates [[1292,252], [2058,258], [2057,327], [1292,320]]. Fill in the blank in the label: \"@smi____/cli@latest\".",
+                            "answer": "thery"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[104, 11], [2430, 11], [2430, 973], [104, 973]]? Please choose the correct answer. Options:\nA. 94, \"run\",, \"npx\",, \"@nickclyde/duckduckgo-mcp-server\", \"/c\",, 89, 91, 96, 99, 93\nB. 90, 98, \"/c\",, 96, 安装新工具, 97, \"@smithery/cli@latest\", 95, \"rvn\",, 93\nC. 96, 好给它打个逗号, 89, 90, 91, 98, \"npx\",, \"@smithery/cli@latest\", \"@nickclyde/duckduckgo-mcp-server\", 97\nD. Right, add a comma (to the previous entry), \"npx\",, 94, 91, 95, \"@nickclyde/duckduckgo-mcp-server\", 90, \"run\",, 88, 96",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '95, \"@smithery/cli@latest\", 90, 89, 98, 93, 安装新工具, 96, \"-y\",, 97' inside the bounding box [[104, 11], [2430, 11], [2430, 973], [104, 973]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_021.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What word(s) can be found within the bounding box [[78, 1878], [2841, 1878], [2841, 2143], [78, 2143]]? ________",
+                            "answer": [
+                                "好给它打个逗号",
+                                "Right, add a comma (to the previous entry)",
+                                "大纲"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the text region delineated by [[1292,252], [2058,258], [2057,327], [1292,320]], fill in the missing character(s) in the application identifier: \"@smi____ery/cli@latest\".",
+                            "answer": "th"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) present in the region [[844, 11], [2841, 11], [2841, 2143], [844, 2143]]? Please choose the correct answer. Options:\nA. 98, Right, add a comma (to the previous entry), 89, 好给它打个逗号, 90, 95, 91, 93, \"-y\",, \"npx\",\nB. 96, 93, \"@nickclyde/duckduckgo-mcp-server\", \"-y\",, 91, Right, add a comma (to the previous entry), 99, \"npx\",, 安装新工具, \"/c\",\nC. \"@nickclyde/duckduckgo-mcp-server\", \"/o\",, 97, 93, Right, add a comma (to the previous entry), \"@smithery/cli@latest\", 95, 99, \"-y\",, \"npx\",\nD. 98, 97, 93, 91, 好给它打个逗号, \"@smithery/cli@latest\", \"/c\",, 96, \"mpx\",, 90",
+                            "answer": "A"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_031.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located in the region [[78, 1878], [2841, 1878], [2841, 2143], [78, 2143]]? ________",
+                            "answer": [
+                                "好给它打个逗号",
+                                "Right, add a comma (to the previous entry)",
+                                "大纲"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Examine the text within the coordinates [[1294,163], [1470,163], [1469,241], [1294,243]] and supply the missing piece in the text: \"-____\"",
+                            "answer": "y"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[78, 75], [2841, 75], [2841, 2143], [78, 2143]]? Please choose the correct answer. Options:\nA. 90, 好给它打个逗号, \"@smithery/cli@latest\", 大纲, 99, 安装新工具, \"npx\",, 93, \"run\",, \"@nickclyde/duckduckgo-mcp-server\"\nB. \"npx\",, 99, 97, 大纲, 93, 好给它打个逗号, 98, 寠装新工具, 95, \"run\",\nC. 99, Right, add a comma (to the previous entry), 98, 65, 大纲, \"-y\",, 安装新工具, 91, 96, \"@nickclyde/duckduckgo-mcp-server\"\nD. 安装新工具, \"npx\",, 大纲, 91, \"@nickclyde/duckduckgo-mcp-server\", Right, add a comma (to the previous entry), 99, 88, 95, 好给它打个逗号",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Do the label(s) '96, 89, 90, 97, 安装新工具, 95, \"@nickclyde/duckduckgo-mcp-server\", 99, \"/c\",, \"npx\",' appear within the bounding box [[104, 11], [2430, 11], [2430, 973], [104, 973]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_041.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "Identify the word(s) present in the bounding box [[78, 1878], [2841, 1878], [2841, 2143], [78, 2143]]. The answer is ________.",
+                            "answer": [
+                                "好给它打个逗号",
+                                "Right, add a comma (to the previous entry)",
+                                "大纲"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the given coordinates [[1224,743], [1800,743], [1800,822], [1224,822]], complete the following configuration snippet: \"command\": \"____d\",",
+                            "answer": "cm"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[104, 11], [2430, 11], [2430, 973], [104, 973]]? Please choose the correct answer. Options:\nA. 93, 96, \"mpx\",, 97, 95, \"/c\",, \"@smithery/cli@latest\", 99, 94, \"-y\",\nB. 98, 99, 94, 89, 好给它打个逗号, 96, 91, \"run\",, 93, \"npx\",\nC. 99, 94, 93, \"npx\",, 96, 91, Right, add a comma (to the previous entry), 88, \"@smithery/cli@latest\", 安装新工具\nD. 91, \"-y\",, \"@nickclyde/duckduckgo-mcp-server\", 88, 99, \"npx\",, 97, 94, 98, 95",
+                            "answer": "D"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_051.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) contained in the bounding box [[78, 11], [2841, 11], [2841, 2143], [78, 2143]]? The missing word(s) is/are ________.",
+                            "answer": [
+                                "88",
+                                "\"/c\",",
+                                "安装新工具",
+                                "89",
+                                "90",
+                                "91",
+                                "\"@smithery/cli@latest\"",
+                                "\"run\",",
+                                "93",
+                                "\"@nickclyde/duckduckgo-mcp-server\"",
+                                "94",
+                                "95",
+                                "96",
+                                "97",
+                                "98",
+                                "99",
+                                "好给它打个逗号",
+                                "Right, add a comma (to the previous entry)",
+                                "大纲",
+                                "\"-y\",",
+                                "\"npx\","
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Analyze the text within the bounds [[1297,1401], [1573,1404], [1573,1476], [1294,1474]] and complete the following fragment: --k____\",",
+                            "answer": "ey"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[104, 11], [2430, 11], [2430, 973], [104, 973]]? Please choose the correct answer. Options:\nA. 安装新工具, 97, 95, 93, 88, 91, \"run\",, \"-y\",, 99, \"@nickclyde/duckduckgo-mcp-server\"\nB. 98, \"@nickclyde/duckduckgo-mcp-server\", 88, 91, 89, \"/c\",, 97, 94, \"-y\",, 安装新工具\nC. 98, \"-y\",, \"/c\",, 94, 06, 89, \"run\",, 97, 95, 93\nD. \"npx\",, 93, 89, 97, \"@smithery/cli@latest\", 94, 88, 好给它打个逗号, 98, \"@nickclyde/duckduckgo-mcp-server\"",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '\"@nickclyde/duckduckgo-mcp-server\", \"@smithery/cli@latest\", \"npx\",, \"run\",, \"-y\",, 93, 98, 94, \"/c\",, 89' located within the bounding box [[104, 11], [2430, 11], [2430, 973], [104, 973]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_061.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "The word(s) inside the bounding box [[104, 11], [2430, 11], [2430, 973], [104, 973]] is/are ________.",
+                            "answer": [
+                                "88",
+                                "\"/c\",",
+                                "安装新工具",
+                                "89",
+                                "90",
+                                "91",
+                                "\"@smithery/cli@latest\"",
+                                "\"run\",",
+                                "93",
+                                "\"@nickclyde/duckduckgo-mcp-server\"",
+                                "94",
+                                "95",
+                                "96",
+                                "97",
+                                "98",
+                                "99",
+                                "\"-y\",",
+                                "\"npx\","
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Can you determine the missing number(s) within the box coordinates [[812,1489], [928,1489], [928,1549], [812,1549]]: 1____?",
+                            "answer": "06"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) found in the area [[104, 11], [2430, 11], [2430, 973], [104, 973]]. Options:\nA. \"@nickclyde/duckduckgo-mcp-server\", 91, \"-y\",, 89, 95, 98, 90, 88, 97, \"npx\",\nB. 98, 90, \"@niokclyde/duckduckgo-mcp-server\", \"@smithery/cli@latest\", \"run\",, \"-y\",, 97, 88, 安装新工具, 91\nC. 97, 95, Right, add a comma (to the previous entry), \"/c\",, 91, 93, 96, 88, 89, \"@nickclyde/duckduckgo-mcp-server\"\nD. 90, \"/c\",, 93, 好给它打个逗号, 99, 安装新工具, 88, 97, 95, 96",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '91, 安装新工具, \"-y\",, 99, 98, 89, 90, Right, add a comma (to the previous entry), \"@smithery/cli@latest\", \"run\",' located within the area [[104, 11], [2430, 11], [2430, 973], [104, 973]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_071.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are present in the area [[852.0, 10.550610820244327], [1470.0, 10.550610820244327], [1470.0, 69.16666666666667], [852.0, 69.16666666666667]]? The word(s) is/are ________.",
+                            "answer": [
+                                "88",
+                                "\"/c\","
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Identify the missing portion from the numerical sequence visible within the coordinates [[812,1489], [928,1489], [928,1549], [812,1549]]: 1____",
+                            "answer": "06"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) found in the region [[104, 11], [2430, 11], [2430, 973], [104, 973]]? Please choose the correct option. Options:\nA. \"npx\",, 93, 94, \"run\",, \"/c\",, 97, 90, \"-y\",, \"@nickclyde/duckduckgo-mcp-server\", 65\nB. 95, \"-y\",, 98, 94, 88, 99, 91, 90, \"/c\",, \"run\",\nC. 好给它打个逗号, 94, \"/c\",, 88, 89, \"-y\",, \"run\",, 91, \"@nickclyde/duckduckgo-mcp-server\", 97\nD. 88, 89, 98, \"/c\",, 安装新工具, 95, 93, 96, 90, 97",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '95, 99, 安装新工具, 90, 97, 94, \"-y\",, Right, add a comma (to the previous entry), \"npx\",, 93' located within the area [[104, 11], [2430, 11], [2430, 973], [104, 973]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_081.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located in the area [[844, 11], [2841, 11], [2841, 2143], [844, 2143]]? The answer is ________.",
+                            "answer": [
+                                "88",
+                                "\"/c\",",
+                                "89",
+                                "90",
+                                "91",
+                                "\"@smithery/cli@latest\"",
+                                "\"run\",",
+                                "93",
+                                "\"@nickclyde/duckduckgo-mcp-server\"",
+                                "94",
+                                "95",
+                                "96",
+                                "97",
+                                "98",
+                                "99",
+                                "好给它打个逗号",
+                                "Right, add a comma (to the previous entry)",
+                                "\"-y\",",
+                                "\"npx\","
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What is the missing term in the text located at coordinates [[1285,88], [1497,89], [1496,159], [1285,159]] where the visible part is \"____px\"?",
+                            "answer": "n"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[104, 11], [2430, 11], [2430, 973], [104, 973]]. Options:\nA. \"npx\",, 88, 96, \"-y\",, 90, 88, 91, \"/c\",, 95, 98\nB. \"npx\",, 96, 好给它打个逗号, \"-y\",, 安装新工具, 94, \"@nickclyde/duckduckgo-mcp-server\", 97, \"@smithery/cli@latest\", 93\nC. \"-y\",, \"@smithery/cli@latest\", 90, 88, \"@nickclyde/duckduckgo-mcp-server\", 89, 安装新工具, \"/c\",, 95, 93\nD. \"/c\",, 88, 93, \"run\",, 91, \"-y\",, \"@nickclyde/duckduckgo-mcp-server\", \"mpx\",, \"@smithery/cli@latest\", 97",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '\"npx\",, 96, 89, 大纲, \"run\",, \"@smithery/cli@latest\", \"-y\",, 95, 94, 98' located within the area [[104, 11], [2430, 11], [2430, 973], [104, 973]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_091.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "The word(s) found in the region [[104, 11], [2430, 11], [2430, 973], [104, 973]] is/are ________.",
+                            "answer": [
+                                "88",
+                                "\"/c\",",
+                                "安装新工具",
+                                "89",
+                                "90",
+                                "91",
+                                "\"@smithery/cli@latest\"",
+                                "\"run\",",
+                                "93",
+                                "\"@nickclyde/duckduckgo-mcp-server\"",
+                                "94",
+                                "95",
+                                "96",
+                                "97",
+                                "98",
+                                "99",
+                                "\"-y\",",
+                                "\"npx\","
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Can you identify the missing character(s) in the sequence within the area defined by [[1294,1068], [1470,1068], [1469,1146], [1294,1148]]: \"-____\",?",
+                            "answer": "y"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[104, 11], [2430, 11], [2430, 973], [104, 973]]? Please choose the correct answer. Options:\nA. 91, 95, 99, \"/c\",, 安装新工具, \"run\",, 97, \"-y\",, 好给它打个逗号, 98\nB. \"-y\",, \"@smithery/cli@latest\", 90, 寠装新工具, 89, 98, 96, \"npx\",, \"@nickclyde/duckduckgo-mcp-server\", \"run\",\nC. 安装新工具, 89, 97, \"npx\",, 90, 88, 99, \"-y\",, \"@nickclyde/duckduckgo-mcp-server\", 96\nD. 99, \"/c\",, 98, \"@smithory/cli@latest\", 94, 安装新工具, 93, \"-y\",, \"@nickclyde/duckduckgo-mcp-server\", \"npx\",",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '99, 90, 大纲, \"npx\",, \"run\",, 95, \"/c\",, 94, 98, 96' located within the area [[104, 11], [2430, 11], [2430, 99, 90, 大纲, \"npx\",, \"run\",, 95, \"/c\",, 94, 98, 963], [104, 99, 90, 大纲, \"npx\",, \"run\",, 95, \"/c\",, 94, 98, 963]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_101.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the text present in the specified region [[844, 11], [2841, 11], [2841, 2143], [844, 2143]]? The text is ________.",
+                            "answer": [
+                                "88",
+                                "\"/c\",",
+                                "89",
+                                "90",
+                                "91",
+                                "\"@smithery/cli@latest\"",
+                                "\"run\",",
+                                "93",
+                                "\"@nickclyde/duckduckgo-mcp-server\"",
+                                "94",
+                                "95",
+                                "96",
+                                "97",
+                                "98",
+                                "99",
+                                "好给它打个逗号",
+                                "Right, add a comma (to the previous entry)",
+                                "\"-y\",",
+                                "\"npx\","
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Determine the missing digit(s) in the number(s) sequence seen at coordinates [[814,1819], [926,1819], [926,1878], [814,1878]]: \"____0\".",
+                            "answer": "11"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) present in the region [[844, 11], [2841, 11], [2841, 2143], [844, 2143]]? Please choose the correct answer. Options:\nA. 90, 95, 96, \"@nickclyde/duckduckgo-mcp-server\", \"run\",, 89, 88, \"-y\",, 97, \"npx\",\nB. 93, 97, 91, \"-y\",, \"/c\",, 安装新工具, \"@smithery/cli@latest\", \"npx\",, 89, 好给它打个逗号\nC. \"/c\",, \"-y\",, 好给它打个逗号, \"@smithery/cli@latest\", 99, 94, 93, 88, 97, 96\nD. \"npx\",, \"run\",, 93, \"/o\",, 99, \"@smithery/cli@latest\", \"@nickclyde/duckduckgo-mcp-server\", 97, 95, Right, add a comma (to the previous entry)",
+                            "answer": "A"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/clip_056/frame_111.png",
+                "relative_path": "test_batch_1/CHN_test/clip_056/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located in the region [[78, 75], [604, 75], [604, 2120], [78, 2120]]? ________",
+                            "answer": [
+                                "安装新工具",
+                                "大纲"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What is the missing part in the numerical data located within [[811,1076], [923,1076], [923,1140], [811,1140]]: \"1____\"?",
+                            "answer": "01"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[104, 11], [2430, 11], [2430, 973], [104, 973]]? Please choose the correct answer. Options:\nA. \"-u\",, 88, \"npx\",, \"run\",, 89, 98, \"/c\",, 95, 91, 99\nB. 89, 95, \"npx\",, 97, \"@smithery/cli@latest\", \"@nickclyde/duckduckgo-mcp-server\", \"/c\",, 94, 90, 88\nC. \"-y\",, 88, 好给它打个逗号, 89, 91, \"@nickclyde/duckduckgo-mcp-server\", 94, 99, 安装新工具, \"/c\",\nD. 安装新工具, 94, 93, 90, 88, \"@nickclyde/duckduckgo-mcp-server\", 95, \"run\",, 90, \"@smithery/cli@latest\"",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '\"run\",, 安装新工具, 好给它打个逗号, 95, 99, \"npx\",, \"-y\",, \"@smithery/cli@latest\", 91, 93' located within the area [[104, 11], [2430, 11], [2430, 973], [104, 973]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "clip_056"
+    }
+]

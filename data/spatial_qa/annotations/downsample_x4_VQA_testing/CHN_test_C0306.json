@@ -1,0 +1,504 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[634, 691], [1278, 691], [1278, 887], [634, 887]]? ________",
+              "answer": [
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[932,381], [1566,375], [1566,431], [932,437]], what character(s) complete the product name \"HUAWEI Pu____ X 典藏版\"?",
+              "answer": "ra"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[634, 22], [1566, 22], [1566, 785], [634, 785]]. Options:\nA. HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, 阔很有坔, 10, XMAGE\nB. 10, 阔很有坔, 广州白云国际机场T2航站楼B279登机口旁, HUAWEI Pura X 典藏版, XMAGE\nC. HUAWEI Pura X 典藏版, XMAGE, dwp, 广州白云国际机场T2航站楼B279登机口旁, 10\nD. HUAWEI Pura X 典藏版, 10, 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, XMAGE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '阔很有型, 10, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, HUAWEI Pura X 典藏版' located within the bounding box [[932, 22], [1566, 22], [1566, 564], [932, 564]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1140, 23], [1198, 23], [1198, 70], [1140, 70]]? ________",
+              "answer": [
+                "10"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "从坐标[[606,731], [958,749], [958,783], [606,766]]读取信息，填写缺失的部分：广州白云国际机场T2____楼B279登机口旁。",
+              "answer": "航站"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[629, 376], [1561, 376], [1561, 887], [629, 887]]. Options:\nA. dwp, 华为臻选店·广州白云国际机场, HUAWEI Pura X 典藏版, 广州白云国际机场T2航站楼B279登机口旁, 10\nB. 广州白云国际机场T2航站楼B279登机口旁, 阔很有型, dwp, XMAGE, HUAWEI Pura X 典藏版\nC. XMAGE, 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, dwp, 阔很有坔\nD. HUAWEI Pura X 典藏版, 广州白云国际机场T2航站楼B279登机口旁, 阔很有型, dup, XMAGE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'HUAWEI Pura X 典藏版, XMAGE, dwp, 广州白云国际机场T2航站楼B279登机口旁' located within the bounding box [[629, 376], [1561, 376], [1561, 887], [629, 887]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[623, 24], [1555, 24], [1555, 888], [623, 888]]? ________",
+              "answer": [
+                "10",
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "从以下坐标[[588,731], [940,748], [940,782], [588,765]]提供的信息中，补全缺失的部分：广州白云国际机场T2____楼B279登机口旁。",
+              "answer": "航站"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[921, 24], [1555, 24], [1555, 566], [921, 566]]? Please choose the correct answer. Options:\nA. 阔很有型, HUAWEI Pura X 典藏版, 10\nB. HUAWEI Pura X 典藏版, 1O, 阔很有型\nC. 华为臻选店·广州白云国际机场, 阔很有型, XMAGE\nD. 阔很有型, 10, HUAWEI Pura X 典薎版",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, dwp, 10, XMAGE' appear within the bounding box [[622.9486155022063, 23.89814438575HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, dwp, 10, XMAGE53], [1554.785046728972, 23.89814438575HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, dwp, 10, XMAGE53], [1554.785046728972, 888.4282053078917], [622.9486155022063, 888.4282053078917]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[619, 24], [1551, 24], [1551, 888], [619, 888]]? ________",
+              "answer": [
+                "10",
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标[[856,374], [1490,368], [1490,424], [856,430]]处找到的产品名称中，\"HUAWEI ____ X 典藏版\"中的缺失部分是什么？",
+              "answer": "Pura"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that contains the text(s) located within [[619, 24], [1551, 24], [1551, 888], [619, 888]]. Options:\nA. 10, 阔很有坔, 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, HUAWEI Pura X 典藏版\nB. 1O, 华为臻选店·广州白云国际机场, 阔很有型, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, dwp\nC. 阔很有型, 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, XMAOE, dwp, 10\nD. XMAGE, 阔很有型, HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, dwp, 10",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '阔很有型, 华为臻选店·广州白云国际机场, XMAGE, HUAWEI Pura X 典藏版, 10, dwp, 广州白云国际机场T2航站楼B279登机口旁' located within the bounding box [[619, 377], [1551, 377], [1551, 888], [619, 888]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[615, 25], [1547, 25], [1547, 889], [615, 889]]? ________",
+              "answer": [
+                "10",
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标[[952,478], [1341,485], [1340,548], [951,542]]处，补全\"阔很____\"中的缺失部分。",
+              "answer": "有型"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[615, 25], [1547, 25], [1547, 889], [615, 889]]. Options:\nA. XMAGE, HUAWEI Pura X 典藏版, 广州白云国际机场T2航站楼B279登机口旁, dwp, 华为臻选店·广州白云国际机场, 10\nB. XMAGE, HUAWEI Pura X 典薎版, 华为臻选店·广州白云国际机场, dwp, 阔很有型, 广州白云国际机场T2航站楼B279登机口旁\nC. HUAWEI Pura X 典藏版, 华为臻逇店·广州白云国际机场, 10, 广州白云国际机场T2航站楼B279登机口旁, 阔很有型, XMAGE\nD. XMAGE, 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, 10, HUAWEI Pura X 典薉版, 阔很有型",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '1O, HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, 阔很有型, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, dwp' located within the bounding box [[614.8651735204593, 25.436605924212593], [1546.701604747225, 25.436605924212593], [1546.701604747225, 889.3684685992542], [614.8651735204593, 889.3684685992542]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[613, 380], [1545, 380], [1545, 889], [613, 889]]? ________",
+              "answer": [
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标[[912,485], [1301,492], [1300,555], [911,549]]处，完成短语 \"阔____有型\" 中的空白部分。",
+              "answer": "很"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[613, 27], [1545, 27], [1545, 889], [613, 889]]? Please choose the correct answer. Options:\nA. 1O, 阔很有型, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, dwp, HUAWEI Pura X 典藏版\nB. HUAWEI Pura X 典藏版, XMAGE, 10, 阔很肴型, 广州白云国际机场T2航站楼B279登机口旁, dwp\nC. 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, HUAWEI Pura X 典藏版, 10, 阔很有型, dwp\nD. dwp, 阔很有坔, XMAGE, HUAWEI Pura X 典藏版, 广州白云国际机场T2航站楼B279登机口旁, 华为臻选店·广州白云国际机场",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '广州白云国际机场T2航站楼B279登机口旁, 华为臻选店·广州白云国际机场, dwp, 阔很有型, XMAGE, 10, HUAWEI Pura X 典藏版' located within the bounding box [[613, 380], [1545, 380], [1545, 889], [613, 889]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[609, 27], [1543, 27], [1543, 787], [609, 787]]? ________",
+              "answer": [
+                "10",
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在以下坐标[[448,752], [800,769], [801,803], [448,786]]中补全信息：“广州白云国际机场T2____楼B279登机口旁”的空缺部分。",
+              "answer": "航站"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[609, 27], [1543, 27], [1543, 890], [609, 890]]. Options:\nA. 广州白云国际机场T2航站楼B279登机口旁, HUAWEI Pura X 典藏版, XMAGE, 10, dup, 阔很有型\nB. 阔很有型, 广州白云国际机场T2航站楼B279登机口旁, dwp, XMAGE, 华为臻选店·广州白云国际机场, 1O\nC. dwp, 广州白云国际机场T2航站楼B279登机口旁, 阔很有型, 华为臻选店·广州白云国际机场, XMAOE, HUAWEI Pura X 典藏版\nD. 华为臻选店·广州白云国际机场, HUAWEI Pura X 典藏版, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, dwp, 10",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '广州白云国际机场T2航站楼B279登机口旁, 华为臻选店·广州白云国际机场, HUAWEI Pura X 典藏版, dwp' located within the bounding box [[609, 379], [1543, 379], [1543, 890], [609, 890]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[606, 379], [1539, 379], [1539, 890], [606, 890]]? ________",
+              "answer": [
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标[[1288,477], [1362,477], [1362,505], [1288,505]]处，要完成 \"XM____\" 的空缺部分是什么？",
+              "answer": "AGE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, select the correct option that includes the text(s) located within [[606, 27], [1539, 27], [1539, 890], [606, 890]]. Options:\nA. dwp, HUAWEI Pura X 典藏版, 广州白云国际机场T2航站楼B279登机口旁, 10, 华为臻选店·广州白云国际机场, 阔很有坔\nB. 广州白云国际机场T2航站楼B279登机口旁, dwp, 阔很有型, HUAWEI Pura X 典薎版, XMAGE, 10\nC. XMAGE, 广州白云国际机场T2航站楼B279登机口旁, dwp, 阔很有型, 华为臻选店·广州白云国际机场, 1O\nD. 阔很有型, XMAGE, dwp, 广州白云国际机场T2航站楼B279登机口旁, 华为臻选店·广州白云国际机场, 10",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'XMAGE, dup, 10, HUAWEI Pura X 典藏版, 阔很有型, 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁' located within the bounding box [[605.6352157145521, 27.223262042356055], [1539.49184896152, 27.223262042356055], [1539.49184896152, 889.7668749737562], [605.6352157145521, 889.7668749737562]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[604, 26], [1538, 26], [1538, 890], [604, 890]]? ________",
+              "answer": [
+                "10",
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在指定的坐标[[897,41], [953,41], [953,88], [897,87]]处，填写完整 \"1____\" 中的空白部分。",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[604, 378], [1538, 378], [1538, 890], [604, 890]]. Options:\nA. 阔很有型, 华为臻选店·广州白云国际机场, dwp, HUAWEI Pura X 典藏版, XMAOE\nB. 阔很有型, 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, HUAWEI Pura X 典藏版, XMAOE\nC. 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, HUAWEI Pura X 典藏版, dwp\nD. XMAGE, HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, 10, dwp",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'dwp, HUAWEI Pura X 典藏版, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, 华为臻选店·广州白云国际机场, 阔很有型, 10' located within the bounding box [[604, 378], [1538, 378], [1538, 890], [604, 890]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1187, 845], [1247, 845], [1247, 885], [1187, 885]]? ________",
+              "answer": [
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the specified location [[884,894], [941,900], [939,939], [882,933]], the sequence \"d____p\" is found. What character(s) complete the blanks?",
+              "answer": "w"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located within [[605, 23], [1539, 23], [1539, 885], [605, 885]]? Please choose the correct answer. Options:\nA. HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, 阔很有型, 10, XMAGE, 广州白云国际机场T2航站楼B279登机口旁\nB. 10, HUAWEI Pura X 典藏版, 阔很肴型, dwp, 广州白云国际机场T2航站楼B279登机口旁, 华为臻选店·广州白云国际机场\nC. 阔很有型, 华为臻选店·广州白云国际机场, 广州白云国际机场T2航站楼B279登机口旁, 10, dwp, HUAWEI Pura X 典薎版\nD. 10, 华为臻选店·广州白云国际机场, XMAGE, dwp, 阔很有坔, HUAWEI Pura X 典藏版",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'XMAGE, 阔很有型, 10, HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场' located within the bounding box [[905, 23], [1539, 23], [1539, 561], [905, 561]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[605, 23], [1539, 23], [1539, 885], [605, 885]]? ________",
+              "answer": [
+                "10",
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标[[221,801], [579,829], [579,858], [220,832]]中，请补全“广州白云国际机场T2____楼B279登机口旁”中的空缺部分。",
+              "answer": "航站"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located within [[605, 23], [1539, 23], [1539, 885], [605, 885]]? Please choose the correct answer. Options:\nA. 10, HUAWEI Pura X 典藏版, 华为臻选店·广州白云国际机场, 阔很有型, XMAOE, dwp\nB. HUAWEI Pura X 典薎版, 广州白云国际机场T2航站楼B279登机口旁, 10, 阔很有型, 华为臻选店·广州白云国际机场, dwp\nC. 华为臻选店·广州白云国际机场, HUAWEI Pura X 典藏版, 阔很有型, dup, 广州白云国际机场T2航站楼B279登机口旁, XMAGE\nD. XMAGE, HUAWEI Pura X 典藏版, 阔很有型, dwp, 10, 广州白云国际机场T2航站楼B279登机口旁",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '阔很有型, 广州白云国际机场T2航站楼B279登机口旁, XMAGE, 10, 华为臻选店·广州白云国际机场, HUAWEI Pura X 典藏版, dwp' located within the bounding box [[605, 375], [1539, 375], [1539, 885], [605, 885]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0306/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0306/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[604, 23], [1538, 23], [1538, 885], [604, 885]]? ________",
+              "answer": [
+                "10",
+                "HUAWEI Pura X 典藏版",
+                "XMAGE",
+                "阔很有型",
+                "华为臻选店·广州白云国际机场",
+                "广州白云国际机场T2航站楼B279登机口旁",
+                "dwp"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the area designated by [[738,85], [794,85], [794,132], [738,131]], fill in the missing number(s) in \"1____\".",
+              "answer": "6"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[604, 23], [1538, 23], [1538, 885], [604, 885]]? Please choose the correct answer. Options:\nA. 10, HUAWEI Pura X 典藏版, 阔很有型, dwp, XMAOE, 广州白云国际机场T2航站楼B279登机口旁\nB. 10, HUAWEI Pura X 典藏版, 阔很有型, 广州白云国际杋场T2航站楼B279登机口旁, dwp, 华为臻选店·广州白云国际机场\nC. 华为臻选店·广州白云国际机场, 阔很有型, HUAWEI Pura X 典藏版, XMAGE, 10, 广州白云国际机场T2航站楼B279登机口旁\nD. 10, XMAGE, HUAWEI Pura X 典薎版, 广州白云国际机场T2航站楼B279登机口旁, dwp, 阔很有型",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'XMAGE, 10, HUAWEI Pura X 典藏版' located within the bounding box [[904, 23], [1538, 23], [1538, 561], [904, 561]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0306"
+  }
+]

@@ -1,0 +1,523 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_001.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[494, 569], [1655, 569], [1655, 921], [494, 921]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "At the coordinates [[1362,874], [1608,874], [1608,915], [1362,915]], identify the missing section in the word(s) that appears: \"CHAM____S\".",
+                            "answer": "PION"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[494, 569], [1655, 569], [1655, 921], [494, 921]]. Options:\nA. OnlyHere, HOME, THE, STANFORD, CHAMPIONS, ATHLETICS\nB. STANFORD, THE, OnlyHore, HOME, ATHLETICS, CHAMPIONS\nC. HOME, OnlyHere, CHAMPIONS, OF, IHE, ATHLETICS\nD. OnlyHere, ATNLETICS, OF, STANFORD, CHAMPIONS, HOME",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'ATNLETICS, CHAMPIONS, OnlyHere, HOME, OF, THE, STANFORD' located within the bounding box [[494.1666666666667, 569.0], [1655.0, 569.0], [1655.0, 921.0], [494.1666666666667, 921.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_011.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[489, 568], [1648, 568], [1648, 916], [489, 916]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the area defined by the coordinates [[708,887], [942,887], [942,927], [708,927]], what letter(s) fill in the blank to complete the word(s) \"AT____ICS\"?",
+                            "answer": "HLET"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[489, 568], [1648, 568], [1648, 916], [489, 916]]? Please choose the correct answer. Options:\nA. CHAMPIONS, OnlyHere, STANFORD, ATHLETICS, HDME, THE\nB. ATHLETICS, CHAMPIONS, THE, OnlyHere, OF, STANFORD\nC. OF, OnlyHere, ATHLETICS, CHAMPIONS, STANFOPD, THE\nD. OF, HOME, CHAMPIONS, STANFORD, THE, ATNLETICS",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Does the label 'CHAMPIONS, THE, STANFORD, HOME, OnlyHere' fall within the bounding box [[489.1666666666667, 568.2051282051282], [1648.0, 568.2051282051282], [1648.0, 916.0], [489.1666666666667, 916.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_021.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[484, 564], [1632, 564], [1632, 912], [484, 912]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the text located at bounding box coordinates [[468,919], [670,919], [670,959], [468,959]], fill in the blank to complete the word(s) \"ST____ORD\".",
+                            "answer": "ANF"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[504, 865], [1592, 865], [1592, 912], [504, 912]]? Please choose the correct answer. Options:\nA. OF, CHAMPIONS, ATHLETICS, STANFORD, THE\nB. THE, OF, CHAMRIONS, ATHLETICS, STANFORD\nC. OF, CHAMRIONS, STANFORD, THE, HOME\nD. OnlyHere, THE, HOME, ATHLETICS, OF",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'CHAMPIONS, OnlyHere, ATNLETICS, HOME, STANFORD, THE, OF' contained within the bounding box [[484.1666666666667, 564.0], [1632.0, 564.0], [1632.0, 912.0], [484.1666666666667, 912.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_031.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[486, 562], [1628, 562], [1628, 907], [486, 907]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "At the coordinates [[1072,856], [1184,856], [1184,897], [1072,897]], what completes the word(s) \"HO____E\"?",
+                            "answer": "M"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[486, 562], [1628, 562], [1628, 907], [486, 907]]? Please choose the correct option. Options:\nA. OnlyHere, CHAMPIONS, ATHLETICS, STANFORD, THE, HOME\nB. STANFOPD, OF, THE, OnlyHere, HOME, ATHLETICS\nC. ATHLETICS, STANFORD, OnlyHere, OF, CHAMPIONS, IHE\nD. OF, OnlyHere, STANFORO, THE, CHAMPIONS, ATHLETICS",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'THE, HOME, OF, OnlyHere, ATHLETICS' located within the bounding box [[485.83333333333337, 562.0], [1627.5000000000002, 562.0], [1627.5000000000002, 907.0], [485.83333333333337, 907.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_041.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[469, 565], [1623, 565], [1623, 908], [469, 908]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Which letter(s) are needed to complete the word(s) \"STAN____\" at the bounding box coordinates [[500,798], [692,798], [692,834], [500,834]]?",
+                            "answer": "FORD"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[500, 864], [1582, 864], [1582, 908], [500, 908]]? Please choose the correct option. Options:\nA. ATHLETICS, OnlyHere, OF, CHAMPIONS, THE\nB. STANFORD, OF, ATNLETICS, CHAMPIONS, HOME\nC. ATNLETICS, HOME, OF, CHAMPIONS, THE\nD. OF, ATHLETICS, HOME, THE, STANFORD",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'OF, ATHLETICS, STANFORD, OnlyHere, THE, CNAMPIONS, HOME' located within the bounding box [[469.1666666666667, 565.0], [1623.0, 565.0], [1623.0, 908.0], [469.1666666666667, 908.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_051.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[476, 560], [1624, 560], [1624, 913], [476, 913]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Determine the missing letter(s) in the word(s) \"A____C\" located at the coordinates [[915,1038], [948,1038], [947,1049], [914,1049]].",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[476, 560], [1624, 560], [1624, 913], [476, 913]]? Please choose the correct answer. Options:\nA. CHAMPIONS, HOME, OnlyHore, THE, ATHLETICS, OF\nB. STANFORD, OnlyHere, OF, THE, ATHLETICS, CHAMPIONS\nC. CHAMRIONS, OF, THE, ATHLETICS, STANFORD, OnlyHere\nD. HOME, ATHLETICS, CHAMPIONS, THE, STANFOPD, OF",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'THE, CHAMPIONS, OnlyHere, ATHLETICS, OF' located within the bounding box [[475.83333333333337, 560.0], [1624.0, 560.0], [1624.0, 913.0], [475.83333333333337, 913.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_061.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[478, 579], [1620, 579], [1620, 923], [478, 923]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the text confined by the coordinates [[704,621], [926,621], [926,663], [704,663]], what term completes this sequence \"____ETICS\"?",
+                            "answer": "ATHL"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[478, 579], [1620, 579], [1620, 923], [478, 923]]? Please choose the correct option. Options:\nA. HDME, OnlyHere, ATHLETICS, THE, STANFORD, OF\nB. THE, OnlyHere, ATHLETICS, OF, CHAMPIONS, HOME\nC. OF, CHAMPIONS, IHE, OnlyHere, ATHLETICS, STANFORD\nD. ATHLETICS, CHAMPIONS, OnlyHere, STANFORD, HCME, OF",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'OnlyHere, OF, THE, CHAMPIONS, ATHLETICS' located within the bounding box [[477.50000000000006, 579.0], [1620.0, 579.0], [1620.0, 923.0], [477.50000000000006, 923.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_071.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[471, 579], [1614, 579], [1614, 929], [471, 929]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What digit(s) is covered by the blank in the sequence \"____\" that is located at the coordinates [[1572,977], [1618,977], [1618,1052], [1572,1052]]?",
+                            "answer": "8"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[471, 579], [1614, 579], [1614, 929], [471, 929]]? Please choose the correct option. Options:\nA. ATHLETICS, OnlyHere, HOME, CHAMPIONS, DF, STANFORD\nB. ATHLETICS, THE, CHAMPIONS, OF, HOME, STANFOPD\nC. CHAMRIONS, STANFORD, OF, HOME, OnlyHere, ATHLETICS\nD. ATHLETICS, HOME, CHAMPIONS, OnlyHere, STANFORD, THE",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'ATHLETICS, CHAMPIONS, OF, OnlyHere, HOME' located within the bounding box [[470.83333333333337, 579.0], [1614.1666666666667, 579.0], [1614.1666666666667, 929.0], [470.83333333333337, 929.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_081.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[473, 589], [1611, 589], [1611, 933], [473, 933]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What letter(s) are obscured in the middle of this partial text \"A____C\" found at coordinates [[991,764], [1024,764], [1023,775], [991,775]]?",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[473, 589], [1611, 589], [1611, 933], [473, 933]]? Please choose the correct answer. Options:\nA. OnlyHere, HOME, THE, OF, ATHLETICS, CHAMPIONS\nB. OnlyHere, HOME, THE, ATHLETIOS, OF, CHAMPIONS\nC. ATNLETICS, OnlyHere, CHAMPIONS, THE, HOME, OF\nD. OnlyHere, STANFORD, CHAMPIONS, HDME, OF, ATHLETICS",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'STANFORD, THE, OnlyHere, CHAMPIONS, OF' located within the bounding box [[472.50000000000006, 589.0], [1610.8333333333335, 589.0], [1610.8333333333335, 933.0], [472.50000000000006, 933.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_091.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[466, 585], [1602, 585], [1602, 935], [466, 935]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What letter(s) combination is missing from \"CHAMP____\" at the coordinates [[1356,360], [1587,353], [1588,393], [1357,399]]?",
+                            "answer": "IONS"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[488, 889], [1562, 889], [1562, 935], [488, 935]]? Please choose the correct option. Options:\nA. OF, THE, STANFORD, HOME, ATHLETICS\nB. ATHLETICS, CHAMRIONS, THE, STANFORD, HOME\nC. OF, OnlyHere, CHAMPIONS, THE, STANFORD\nD. ATHLETICS, THE, OF, CHAMRIONS, STANFORD",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'HOME, STANFORD, ATHLETICS, CHAMPIONS, OF' located within the bounding box [[465.76923076923083, 585.0], [1601.6666666666667, 585.0], [1601.6666666666667, 935.0], [465.76923076923083, 935.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_101.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[463, 591], [1595, 591], [1595, 931], [463, 931]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Can you complete the word(s) \"WOME____\" based on the text found in the area defined by [[789,1061], [881,1062], [882,1080], [789,1080]]?",
+                            "answer": "N'S"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[463, 591], [1595, 591], [1595, 931], [463, 931]]? Please choose the correct answer. Options:\nA. OF, IHE, STANFORD, ATHLETICS, HOME, CHAMPIONS\nB. THE, CHAMPIONS, HOME, OnlyHore, STANFORD, ATHLETICS\nC. STANFORD, HDME, OF, ATHLETICS, OnlyHere, THE\nD. OF, ATHLETICS, OnlyHere, THE, STANFORD, CHAMPIONS",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'STANFORD, CHAMPIONS, THE, OF, ATHLETICS' located within the bounding box [[463.26923076923083, 591.2820512820513], [1595.4358974358975, 591.2820512820513], [1595.4358974358975, 931.0], [463.26923076923083, 931.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0107/frame_111.png",
+                "relative_path": "test_batch_1/EN_test/C0107/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[463, 585], [1595, 585], [1595, 929], [463, 929]]? ________",
+                            "answer": [
+                                "OnlyHere",
+                                "STANFORD",
+                                "ATHLETICS",
+                                "THE",
+                                "HOME",
+                                "OF",
+                                "CHAMPIONS"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Complete the sequence \"____3\" based on the number(s) found at the bounding box [[996,764], [1187,757], [1193,924], [1001,930]]",
+                            "answer": "1"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[463, 585], [1595, 585], [1595, 929], [463, 929]]? Please choose the correct answer. Options:\nA. HOME, OF, ATHLETICS, CHAMPIONS, TNE, STANFORD\nB. THE, ATHLETICS, CHAMRIONS, STANFORD, OnlyHere, HOME\nC. HOME, OnlyHere, STANFORD, OF, ATHLETICS, CHAMPIONS\nD. ATHLETICS, OF, HOME, CHAMPIONS, OnlyHere, IHE",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'CHAMPIONS, OF, ATNLETICS, OnlyHere, THE, HOME, STANFORD' located within the bounding box [[463.26923076923083, 585.4358974358973], [1595.4358974358975, 585.4358974358973], [1595.4358974358975, 929.0], [463.26923076923083, 929.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0107"
+    }
+]

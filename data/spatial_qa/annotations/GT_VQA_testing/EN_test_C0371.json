@@ -1,0 +1,511 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_001.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1253, 99], [1877, 99], [1877, 459], [1253, 459]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the given bounding box coordinates [[1330,239], [1375,271], [1361,289], [1318,260]], identify the label where \"____PKR\" occurs, and fill in the missing character(s).",
+                            "answer": "S"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1253, 234], [1681, 234], [1681, 459], [1253, 459]]. Options:\nA. DEPT, SRKR, AUTO\nB. DEPT, FDC, SPKR\nC. FDC, DERT, AUTO\nD. SPKR, FDC SERVES, DEPT",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'FDC, 45258 TDM BLALOCK ST., AUTO, DEPT, FDC SERVES, SPKR' located within the bounding box [[1253.4520578923564, 99.0], [1877.0, 99.0], [1877.0, 459.0], [1253.4520578923564, 459.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_011.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1255, 103], [1875, 103], [1875, 461], [1255, 461]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the rectangular area defined by the coordinates [[1338,166], [1857,193], [1854,241], [1335,214]], complete the partial address: \"45258 ____ BLALOCK ST.\"",
+                            "answer": "TOM"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[1255, 103], [1875, 103], [1875, 291], [1255, 291]]? Please choose the correct answer. Options:\nA. FDC, FDC SERVES, 45258 TOM BLALOCK ST., SPKR\nB. 45258 TOM BLALOCK ST., AUTO, SPKR, DEPT\nC. 45258 TOM BLALOCK ST., SRKR, FDC SERVES, AUTO\nD. 45258 TOM BLALOCK ST., DEPT, EDC SERVES, SPKR",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'FDC, SPKR, FDC SERVES, DERT, AUTO, 45258 TOM BLALOCK ST.' contained within the bounding box [[1255.2040794556985, 103.0], [1875.0, 103.0], [1875.0, 461.0], [1255.2040794556985, 461.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_021.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1252, 107], [1873, 107], [1873, 465], [1252, 465]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the area defined by the coordinates [[1453,236], [1727,247], [1725,294], [1451,283]], what completes the label \"FD____ERVES\"?",
+                            "answer": "C S"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1314, 107], [1873, 107], [1873, 465], [1314, 465]]? Please choose the correct answer. Options:\nA. FDC, EDC SERVES, SPKR\nB. SPKR, FDC, FDC SERVES\nC. AUTO, SPKR, FDC SERVES\nD. SPKR, EDC, 45258 TOM BLALOCK ST.",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Do the label(s) 'DEPT, 45258 TOM BLALOCK ST., SPKR, FDC' fall within the bounding box [[1252.0357626240154, 107.0], [1873.0, 107.0], [1873.0, 465.0], [1252.0357626240154, 465.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_031.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1251, 111], [1871, 111], [1871, 465], [1251, 465]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What fills the blank spot in the address \"45258 ____ BLALOCK ST.\" found in the region enclosed by [[1295,399], [1808,432], [1801,478], [1292,447]]?",
+                            "answer": "TOM"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1311, 111], [1871, 111], [1871, 465], [1311, 465]]? Please choose the correct answer. Options:\nA. SPKR, FDC, 45258 TOM BLALOCK ST.\nB. 45258 TOM BLALOCK ST., SRKR, FDC\nC. SPKR, 45258 TOM BLALOCK ST., AUTO\nD. SPKR, 45258 TOM BLALOCK ST., DEPT",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'SPKR, AUTO, 45258 TOM BLALOCK ST., DEPT' positioned within the bounding box [[1250.6893733951292, 111.0], [1871.0, 111.0], [1871.0, 465.0], [1250.6893733951292, 465.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_041.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1250, 113], [1869, 113], [1869, 469], [1250, 469]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the text located at coordinates [[1271,568], [1756,607], [1753,649], [1268,610]], fill in the missing substring: \"45258 TOM B____ ST.\"",
+                            "answer": "LALOCK"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1309, 113], [1869, 113], [1869, 469], [1309, 469]]. Options:\nA. FDC SERVES, SPKR, FDC\nB. FDC SERVES, FDC, SRKR\nC. FDC, EDC SERVES, 45258 TOM BLALOCK ST.\nD. 45258 TOM BLALOCK ST., SPKR, AUTO",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'SPKR, AUTO, FDC, DEPT' located within the bounding box [[1249.688261048077, 113.0], [1869.0, 113.0], [1869.0, 469.0], [1249.688261048077, 469.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_051.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1249, 115], [1867, 115], [1867, 469], [1249, 469]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What is the word(s) missing from \"45258 ____ BLALOCK ST.\" that is enclosed within the coordinates [[1257,662], [1758,699], [1752,756], [1252,714]]?",
+                            "answer": "TOM"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1309, 115], [1867, 115], [1867, 469], [1309, 469]]. Options:\nA. AUTO, FDC, SPKR\nB. FDC SERVES, SRKR, 45258 TOM BLALOCK ST.\nC. FDC, FDC SERVES, SRKR\nD. SPKR, FDC SERVES, FDC",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'AUTO, SRKR, DEPT, FDC, FDC SERVES, 45258 TOM BLALOCK ST.' found within the bounding box [[1248.7889804725373, 115.0], [1867.0, 115.0], [1867.0, 469.0], [1248.7889804725373, 469.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_061.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1247, 115], [1865, 115], [1865, 469], [1247, 469]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the space defined by the coordinates [[1262,752], [1307,783], [1292,802], [1249,772]], what fills the missing part in \"S____KR\"?",
+                            "answer": "P"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1308, 115], [1865, 115], [1865, 469], [1308, 469]]. Options:\nA. FDC SERVES, SPKR, 45258 TDM BLALOCK ST.\nB. 45258 TOM BLALOCK ST., FDC, SPKR\nC. FDC, 45258 TOM BLALOCK ST., DEPT\nD. 45258 TOM BLALOCK ST., AUTO, SPKR",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '45258 TOM BLALOCK ST., AUTO, FDC SERVES, FDC' within the bounding box [[1246.6107626507553, 115.0], [1865.0, 115.0], [1865.0, 469.0], [1246.6107626507553, 469.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_071.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1245, 117], [1865, 117], [1865, 474], [1245, 474]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the coordinates [[1278,560], [1779,596], [1773,654], [1274,611]], identify the missing portion in \"45258 T____ BLALOCK ST.\"",
+                            "answer": "OM"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1306, 117], [1865, 117], [1865, 474], [1306, 474]]. Options:\nA. FDC, 45258 TDM BLALOCK ST., SPKR\nB. SPKR, FDC, EDC SERVES\nC. FDC, AUTO, FDC SERVES\nD. FDC, SPKR, 45258 TOM BLALOCK ST.",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '45258 TOM BLALOCK ST., FDC SERVES, AUTO, DEPT' inside the bounding box [[1245.4117218833692, 117.0], [1865.0, 117.0], [1865.0, 474.0], [1245.4117218833692, 474.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_081.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1243, 114], [1863, 114], [1863, 476], [1243, 476]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What is the missing section in \"____ SERVES\" captured within the bounding box [[1396,341], [1647,358], [1644,400], [1393,382]]?",
+                            "answer": "FDC"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1243, 249], [1669, 249], [1669, 476], [1243, 476]]? Please choose the correct answer. Options:\nA. DEPT, SPKR, AUIO\nB. SPKR, 45258 TOM BLALOCK ST., FDC\nC. DEPT, FDC SERVES, AUTO\nD. AUTO, DEPT, FDC",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'DEPT, SPKR, 45258 TOM BLALOCK ST., EDC, FDC SERVES, AUTO' within the bounding box [[1243.433304617182, 114.0], [1863.0, 114.0], [1863.0, 476.0], [1243.433304617182, 476.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_091.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1243, 123], [1861, 123], [1861, 479], [1243, 479]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the text area at coordinates [[1233,415], [1259,407], [1263,418], [1237,426]], what letter(s) complete \"D____T\"?",
+                            "answer": "EP"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1243, 254], [1667, 254], [1667, 479], [1243, 479]]. Options:\nA. SPKR, FDC, DEPT\nB. SPKR, FDC SERVES, FDC\nC. DERT, AUTO, SPKR\nD. AUIO, FDC, SPKR",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'FDC SERVES, DEPT, 45258 TOM BLALOCK ST., FDC' within the bounding box [[1242.624679280255, 123.0], [1861.0, 123.0], [1861.0, 479.0], [1242.624679280255, 479.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_101.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1242, 130], [1857, 130], [1857, 487], [1242, 487]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Identify the missing word(s) in the street name \"45258 TOM ____.\" located at the coordinates [[1300,287], [1797,323], [1794,370], [1297,335]]",
+                            "answer": "BLALOCK ST"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1242, 130], [1857, 130], [1857, 315], [1242, 315]]. Options:\nA. DEPT, FDC, AUTO, SPKR\nB. FDC SERVES, AUTO, 45258 TOM BLALOCK ST., DEPT\nC. AUTO, FDC SERVES, SRKR, 45258 TOM BLALOCK ST.\nD. SPKR, 45258 TOM BLALOCK ST., EDC SERVES, AUTO",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'DEPT, FDC SERVES, AUTO, SPKR' within the bounding box [[1242.2574822178315, 130.0], [1857.0, 130.0], [1857.0, 487.0], [1242.2574822178315, 487.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0371/frame_111.png",
+                "relative_path": "test_batch_1/EN_test/C0371/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[1241, 142], [1855, 142], [1855, 499], [1241, 499]]? ________",
+                            "answer": [
+                                "FDC SERVES",
+                                "45258 TOM BLALOCK ST.",
+                                "FDC",
+                                "AUTO",
+                                "SPKR",
+                                "DEPT"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the area defined by [[1252,317], [1297,348], [1283,367], [1240,338]], complete the label: \"____KR\".",
+                            "answer": "SP"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1301, 142], [1855, 142], [1855, 499], [1301, 499]]. Options:\nA. SRKR, FDC SERVES, 45258 TOM BLALOCK ST.\nB. FDC SERVES, AUTO, 45258 TOM BLALOCK ST.\nC. 45258 TOM BLALOCK ST., FDC, SRKR\nD. FDC, FDC SERVES, SPKR",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'FDC SERVES, 45258 TOM BLALOCK ST., FDC, SRKR, DEPT, AUTO' within the bounding box [[1240.5438959265218, 142.0], [1855.0, 142.0], [1855.0, 499.0], [1240.5438959265218, 499.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0371"
+    }
+]

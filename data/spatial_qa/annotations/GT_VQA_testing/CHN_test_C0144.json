@@ -1,0 +1,450 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_001.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[781, 655], [1411, 655], [1411, 829], [781, 829]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡",
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在给定的边界框[[1120,766], [1406,757], [1406,819], [1116,829]]中，填入缺失的字符符以完整显示“健身+____啡”的词语。",
+                            "answer": "咖"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[881, 655], [1411, 655], [1411, 829], [881, 829]]. Options:\nA. Pt\nB. PanemerFit\nC. 俦身+咖啡\nD. PanemorFit",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '健身+咖啡, Pt' located within the bounding box [[780.6443914081146, 655.0], [1410.625, 655.0], [1410.625, 829.375], [780.6443914081146, 829.375]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_011.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[781, 655], [1411, 655], [1411, 829], [781, 829]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡",
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请根据边界框[[790,706], [836,705], [833,747], [788,749]]的内容填写缺失的部分：P____",
+                            "answer": "t"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, choose the correct option that includes the text(s) found within [[781, 655], [1411, 655], [1411, 755], [781, 755]]. Options:\nA. Pt\nB. Rt\nC. 健身+咖啡\nD. Rt",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Does the label 'PanemorFit, 健身+咖啡' appear within the bounding box [[780.6443914081146, 655.0], [1410.625, 655.0], [1410.625, 829.375], [780.6443914081146, 829.375]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_021.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "观察边界框[[1135,784], [1421,775], [1421,837], [1131,848]]，填写空缺部分以补全短语“健身+咖____”。",
+                            "answer": "啡"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option correctly identifies the text(s) present in the region [[881, 655], [1411, 655], [1411, 829], [881, 829]]? Please choose the correct answer. Options:\nA. 健身+咖啡\nB. 俦身+咖啡\nC. Pt\nD. PanemerFit",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '俦身+咖啡, PanemorFit, Pt' present in the region defined by [[780.6443914081146, 655.0], [1410.625, 655.0], [1410.625, 829.375], [780.6443914081146, 829.375]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_031.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "识别位于[[834,728], [879,726], [876,769], [832,771]]处的字符符，填写正确的缺失部分“P____”。",
+                            "answer": "t"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Select the correct option that includes the text(s) located within [[781, 655], [1411, 655], [1411, 755], [781, 755]]. Options:\nA. PanemorFit\nB. PanemerFit\nC. 健身+咖啡\nD. PanemerFit",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Pt, PanemorFit' found within the bounding box [[780.6443914081146, 655.0], [1410.625, 655.0], [1410.625, 829.375], [780.6443914081146, 829.375]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_041.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[784, 657], [1414, 657], [1414, 831], [784, 831]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡",
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请查看在坐标[[1191,801], [1477,793], [1477,854], [1187,865]]区域内的文字符，并填写完整：健身+____啡",
+                            "answer": "咖"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Identify the correct option that contains the text(s) found within [[784, 657], [1414, 657], [1414, 757], [784, 757]]. Options:\nA. 健身+咖啡\nB. Rt\nC. PanemerFit\nD. PanemorFit",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'PanemorFit, Pt' contained within the bounding box [[784.2807550444784, 656.8181818181818], [1414.2613636363637, 656.8181818181818], [1414.2613636363637, 831.1931818181818], [784.2807550444784, 831.1931818181818]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_051.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[784, 658], [1414, 658], [1414, 832], [784, 832]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡",
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在边界框[[880,720], [926,718], [922,761], [878,762]]中，请填写缺失的字符符以补充完整字符符 “P____”",
+                            "answer": "t"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[784, 658], [1414, 658], [1414, 758], [784, 758]]. Options:\nA. Rt\nB. 健身+咖啡\nC. PanemorFit\nD. PanemerFit",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '健身+咖啡, Pt' located within the area [[784.3943914081146, 657.5], [1414.375, 657.5], [1414.375, 831.875], [784.3943914081146, 831.875]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_061.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[787, 664], [1417, 664], [1417, 838], [787, 838]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡",
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请参考图像边界框[[907,719], [953,717], [950,760], [905,761]]内，填写缺失的部分以补全短语“P____”",
+                            "answer": "t"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[887, 664], [1417, 664], [1417, 838], [887, 838]]. Options:\nA. PanemerFit\nB. 健身+咖啡\nC. Pt\nD. 俦身+咖啡",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Pt, PanemorFit' located within the bounding box [[786.8943914081146, 663.75], [1416.875, 663.75], [1416.875, 838.125], [786.8943914081146, 838.125]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_071.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[788, 705], [836, 705], [836, 749], [788, 749]]? ________",
+                            "answer": [
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在边界框[[932,752], [977,750], [974,793], [929,794]]中，猜测缺失的两个字符母以完成“P____”字符符。",
+                            "answer": "t"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Select the correct option that contains the text(s) located within [[888, 665], [1418, 665], [1418, 839], [888, 839]]. Options:\nA. 俦身+咖啡\nB. 俦身+咖啡\nC. Pt\nD. 健身+咖啡",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'PanemorFit, Pt, 俦身+咖啡' located within the bounding box [[788.1443914081146, 665.0], [1418.125, 665.0], [1418.125, 839.375], [788.1443914081146, 839.375]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_081.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[788, 665], [1418, 665], [1418, 839], [788, 839]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡",
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在边界框[[1042,757], [1564,734], [1562,812], [1034,834]]中，请补全“Pane____”以还原完整词汇。",
+                            "answer": "morFit"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option accurately represents the text(s) present in the area [[888, 665], [1418, 665], [1418, 839], [888, 839]]? Please choose the correct answer. Options:\nA. 俦身+咖啡\nB. Pt\nC. 健身+咖啡\nD. PanemerFit",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '健身+咖啡, PanemorFit' located within the bounding box [[788.1443914081146, 665.0], [1418.125, 665.0], [1418.125, 839.375], [788.1443914081146, 839.375]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_091.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[788, 665], [1418, 665], [1418, 839], [788, 839]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡",
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请查看位于[[905,784], [951,783], [948,826], [903,827]]的文本内容，并填写缺少的部分以完成字符符“P____”。",
+                            "answer": "t"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, select the correct option that includes the text(s) located within [[788, 665], [1418, 665], [1418, 765], [788, 765]]. Options:\nA. PanemerFit\nB. PanemorFit\nC. 健身+咖啡\nD. PanemerFit",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'PanemorFit' located within the bounding box [[888, 665], [1418, 665], [1418, 839], [888, 839]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_101.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[788, 665], [1418, 665], [1418, 839], [788, 839]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡",
+                                "Pt"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在区域[[948,760], [1471,737], [1469,815], [941,837]]内，补全字符母以完成词语“Pane____Fit”。",
+                            "answer": "mor"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, choose the correct option that includes the text(s) located within [[788, 665], [1418, 665], [1418, 765], [788, 765]]. Options:\nA. Rt\nB. Pt\nC. 健身+咖啡\nD. PanemerFit",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Pt, PanemorFit, 俦身+咖啡' located within the bounding box [[788.1443914081146, 665.0], [1418.125, 665.0], [1418.125, 839.375], [788.1443914081146, 839.375]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0144/frame_111.png",
+                "relative_path": "test_batch_1/CHN_test/C0144/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[891, 667], [1420, 667], [1420, 842], [891, 842]]? ________",
+                            "answer": [
+                                "PanemorFit",
+                                "健身+咖啡"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "根据边界框[[831,778], [876,776], [873,819], [829,820]]中的文字符，填写缺失的部分：P____",
+                            "answer": "t"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[891, 667], [1420, 667], [1420, 842], [891, 842]]. Options:\nA. PanemerFit\nB. Pt\nC. PanemerFit\nD. PanemorFit",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Pt, PanemorFit' located within the bounding box [[790.3915824193507, 667.2471910112359], [1420.372191011236, 667.2471910112359], [1420.372191011236, 841.6221910112359], [790.3915824193507, 841.6221910112359]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0144"
+    }
+]

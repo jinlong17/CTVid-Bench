@@ -1,0 +1,472 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[510, 912], [1415, 912], [1415, 973], [510, 973]]? ________",
+              "answer": [
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the missing character(s) in the term represented within the coordinates [[761,98], [884,98], [884,134], [762,134]]: 機器學____",
+              "answer": "習"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[484, 97], [1424, 97], [1424, 163], [484, 163]]. Options:\nA. 深度學習, Machine Learning, 機器學習, Deop Learning, 人工智慧, 未來, Future\nB. Deep Learning, Future, AI, Machine Learning, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧\nC. AI, 機器學習, Deep Learning, 深度學習, Machine Learning, 未來, Future\nD. Maohine Learning, 人工智慧, 機器學習, 深度學習, Future, 未來, AI",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '機器學習, 深度學習, 未來, Deep Learning, Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧, AI, Future' located within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[484, 97], [1424, 97], [1424, 973], [484, 973]]? ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "單純貝氏分類器（Naïve Bayes Classifier）",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Find and fill in the missing character(s) in the term depicted within the region [[761,98], [884,98], [884,134], [762,134]]: 機____學習",
+              "answer": "器"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found in the region [[484, 97], [1424, 97], [1424, 163], [484, 163]]? Please choose the correct answer. Options:\nA. AI, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Future, 深度學習, 未來, Deep Learning\nB. Future, AI, 機器學習, 人工智慧, Machine Learning, 深度學習, Deep Learning\nC. 機器學習, Machine Learning, 人工智慧, Future, 未來, AI, Deop Learning\nD. 深度學習, Deep Learning, Future, 機器學習, RI, 人工智慧, 未來",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Deep Learning, 人工智慧, 深度學習, 機器學習, AI, Future, 單純貝氏分類器（Naïve Bayes Classifier）, Machine Learning, 未來' appear within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) present in the bounding box [[510.3636363636364, 912.2549019607843], [1414.6568627450981, 912.2549019607843], [1414.6568627450981, 972.5490196078431], [510.3636363636364, 972.5490196078431]]: ________",
+              "answer": [
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在給定的座標 [[1356,97], [1424,97], [1424,135], [1356,135]] 中，填寫缺失的漢字符：未____",
+              "answer": "來"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text(s) present in the area [[484, 97], [1424, 97], [1424, 163], [484, 163]]? Please choose the correct answer. Options:\nA. 未來, AI, Machine Learning, Future, 人工智慧, 渘度學習, Deep Learning\nB. AI, 機器學習, Deep Learning, 深度學習, Maohine Learning, 人工智慧, Future\nC. 機器學習, Deep Learning, 深度學習, AI, 未來, 人工智慧, Machine Learning\nD. Deep Learning, 未來, 深度學習, 機器學習, Machine Learning, Future, 單純貝氏分類器（Naïve Bayes Classifier）",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '未來, AI, Future, 深度學習, 機器學習, Machine Learning' contained within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) contained in the specified area [[510.3636363636364, 912.2549019607843], [1414.6568627450981, 912.2549019607843], [1414.6568627450981, 972.5490196078431], [510.3636363636364, 972.5490196078431]]? ________",
+              "answer": [
+                "單純貝氏分類器（Naive Bayes Classifier）",
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the coordinates [[928,434], [1219,435], [1219,492], [928,493]] and fill in the missing segment in P(____|A) P(A).",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option accurately represents the text(s) within the area [[484, 97], [1424, 97], [1424, 163], [484, 163]]? Choose the correct answer. Options:\nA. Future, Deep Learning, 單純貝氏分類器（Naive Bayes Classifier）, AI, Machine Learning, 未來, 人工智慧\nB. Deep Learning, AI, Future, 未來, 機器學習, 人工智慧, 渘度學習\nC. 機器學習, 深度學習, Machine Learning, Deep Learning, RI, 人工智慧, Future\nD. Machine Learning, 機器學習, 未來, AI, 深度學習, 人工智慧, Deep Learning",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Deep Learning, 機器學習, Future, AI, 未來, 深度學習' located within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[484, 97], [1424, 97], [1424, 163], [484, 163]]? ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐標 [[654,588], [1270,590], [1270,651], [655,649]] 中，補全缺失的部分：貝氏定理（Bayes'____)",
+              "answer": "Theorem"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) found within [[484, 97], [1424, 97], [1424, 973], [484, 973]]? Choose the correct answer. Options:\nA. 未來, 人工智慧, Deep Learning, 深度學習, 機器學習, Machine Learning, Future, 單純貝氏分類器（Naïve Bayes Classifier）\nB. 機器學習, 未來, 單紈貝氏分類器（Naïve Bayes Classifier）, AI, Deep Learning, 人工智慧, 深度學習, Machine Learning\nC. AI, 渘度學習, Future, 人工智慧, 機器學習, Deep Learning, 單純貝氏分類器（Naïve Bayes Classifier）, Machine Learning\nD. Deep Learning, Machine Learning, 深度學習, 末來, 人工智慧, Future, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Deep Learning, Future, 深度學習, Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧, 未來, 機器學習, AI' found within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the missing word(s) found within [[484, 97], [1424, 97], [1424, 163], [484, 163]]? ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "請根據坐標 [[762,98], [884,98], [884,134], [762,134]] 填寫完整的詞句：____器學習",
+              "answer": "機"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that includes the text(s) located in the region [[484, 97], [1424, 97], [1424, 163], [484, 163]]. Choose the correct answer. Options:\nA. Machine Learning, AI, 機器學習, 未來, 人工智憃, 深度學習, Future\nB. 人工智慧, Machine Learning, Deep Learning, Future, 未來, 機器學習, RI\nC. 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Machine Learning, Deep Learning, AI, 深度學習, Future\nD. 人工智慧, 機器學習, 未來, Machine Learning, AI, Future, Deep Learning",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '未來, Deep Learning, Future, 深度學習, AI, 機器學習' present within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is the text displayed in the area [[510.3636363636364, 912.2549019607843], [1414.6568627450981, 912.2549019607843], [1414.6568627450981, 972.5490196078431], [510.3636363636364, 972.5490196078431]]? ________",
+              "answer": [
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看位於座標 [[484,98], [607,98], [607,134], [485,134]] 的詞語，補全其中缺失的部分：人____智慧",
+              "answer": "工"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) found within [[484, 97], [1424, 97], [1424, 973], [484, 973]]? Choose the correct answer. Options:\nA. Machine Learning, Deop Learning, 機器學習, 深度學習, 單純貝氏分類器（Naïve Bayes Classifier）, AI, 人工智慧, 未來\nB. AI, Future, Deep Learning, 人工智慧, 機器學習, 未來, 深度學習, 單紈貝氏分類器（Naïve Bayes Classifier）\nC. AI, 深度學習, 人工智慧, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Future, Deep Learning, Machine Learning\nD. 機器學習, Deep Learning, Future, 深度學習, 未來, Maohine Learning, 人工智慧, AI",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '深度學習, 人工智慧, Machine Learning, 機器學習, Deep Learning, 單純貝氏分類器（Naïve Bayes Classifier）, AI' located within the bounding box [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is the text located in the specified area [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]? ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "AI",
+                "機器學習",
+                "Machine Learning",
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What segment is missing in the term located at [[1037,98], [1159,98], [1159,134], [1037,134]]: ____學習?",
+              "answer": "深度"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option accurately captures the text(s) present in the area [[484, 97], [1424, 97], [1424, 163], [484, 163]]? Choose the correct option. Options:\nA. 深度學習, 未來, 人工智慧, AI, 機器學習, Future, 單純貝氏分類器（Naïve Bayes Classifier）\nB. Deep Learning, 機器學習, 深度學習, 人工智慧, RI, Future, Machine Learning\nC. Deep Learning, 末來, 人工智慧, AI, Machine Learning, 深度學習, Future\nD. Deep Learning, 人工智慧, Future, 機器學習, 未來, Machine Learning, AI",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '深度學習, 未來, 人工智慧, 單純貝氏分類器（Naïve Bayes Classifier）, Future, AI, Deep Learning' inside the bounding box [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is the text visible in the area [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]? ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "AI",
+                "機器學習",
+                "Machine Learning",
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What is the missing segment in the formula visualized at [[931,434], [1223,434], [1222,491], [932,492]]: P(B|____) P(A)?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that accurately represents the text(s) within the area [[484, 97], [1424, 97], [1424, 973], [484, 973]]. Options:\nA. Future, 單純貝氏分類器（Naïve Bayes Classifier）, Machine Learning, 人工智慧, 深度學習, RI, Deep Learning, 未來\nB. Machine Learning, 機器學習, Euture, Deep Learning, 未來, AI, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧\nC. 未來, Machine Learning, 人工智慧, 單純貝氏分類器（Naïve Bayes Classifier）, Deep Learning, AI, Future, 深度學習\nD. 單純貝氏分類器（Naïve Bayes Classifier）, AI, Machine Learning, 未來, Future, 人工智憃, 深度學習, Deep Learning",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Deep Learning, Future, 未來, 深度學習, 人工智慧, 機器學習, AI, 單純貝氏分類器（Naïve Bayes Classifier）, Maohine Learning' within the bounding box [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is the text present in the area [[510.3636363636364, 912.2549019607843], [1414.6568627450981, 912.2549019607843], [1414.6568627450981, 972.5490196078431], [510.3636363636364, 972.5490196078431]]? ________",
+              "answer": [
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "請填寫座標 [[510,912], [1414,912], [1415,973], [511,966]] 中，缺少的部分：單純____氏分類器（Naïve Bayes Classifier）",
+              "answer": "貝"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text(s) present in the area [[484, 97], [1424, 97], [1424, 163], [484, 163]]? Choose the correct answer. Options:\nA. Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）, Future, 未來, AI, 深度學習, 人工智慧\nB. AI, Deep Learning, 機器學習, 人工智慧, Future, Machine Learning, 渘度學習\nC. Deep Learning, Machine Learning, 人工智慧, 未來, AI, 機器學習, 深度學習\nD. 未來, Machine Learning, 人工智憃, Deep Learning, 機器學習, AI, 深度學習",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Deep Learning, AI, 未來, Machine Learning, 人工智慧, 深度學習, Future, 機器孯習, 單純貝氏分類器（Naïve Bayes Classifier）' situated within the bounding box [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the coordinates [[47,757], [92,758], [92,803], [48,803]], identify the missing segment in the notation: ____(",
+              "answer": "P"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[484, 97], [1424, 97], [1424, 973], [484, 973]]. Options:\nA. AI, Deep Learning, Future, 人工智慧, 未來, 機器學習, Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）\nB. 人工智慧, 深度學習, Future, Deep Learning, 機器孯習, 未來, 單純貝氏分類器（Naïve Bayes Classifier）, AI\nC. Machine Learning, 機器學習, 深度學習, Future, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧, AI, 末來\nD. Euture, 單純貝氏分類器（Naïve Bayes Classifier）, AI, 人工智慧, 機器學習, Deep Learning, 未來, 深度學習",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '機器學習, Deep Learning, Future, 單純貝氏分類器（Naïve Bayes Classifier）, 未來, Machine Learning, 人工智慧, AI, 深度學習' located within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/clip_041/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在給定的座標[[654,588], [1270,590], [1270,651], [655,649]]內，填寫詞語空缺的部分：貝____定理（Bayes' Theorem)?",
+              "answer": "氏"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) found within [[484, 97], [1424, 97], [1424, 973], [484, 973]]? Choose the correct answer. Options:\nA. 未來, AI, 人工智慧, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Futuro, Machine Learning, Deep Learning\nB. Deep Learning, 機器學習, AI, Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）, Future, 深度學習, 未來\nC. AI, 未來, 單純貝氏分類器（Naïve Bayes Classifier）, 機器孯習, 人工智慧, Machine Learning, 深度學習, Future\nD. 深度學習, Deep Learning, 人工智慧, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Euture, 未來, Machine Learning",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'AI, Machine Learning, 機器學習, Future, 深度學習, Deep Learning, 單純貝氏分類器（Naïve Bayes Classifier）, 未來, 人工智慧' positioned within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_041"
+  }
+]

@@ -1,0 +1,517 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[511.27098321342925, 975.7314148681055], [1274.5797598627787, 975.7314148681055], [1274.5797598627787, 1030.8747855917668], [511.27098321342925, 1030.8747855917668]]? ________",
+              "answer": [
+                "13.99",
+                "17.69",
+                "1867646"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What is the complete label found in the bounding box coordinates [[647,896], [707,896], [707,912], [646,911]], where the visible portion reads as \"DU ____ S\"?",
+              "answer": "STER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[434, 0], [983, 0], [983, 1015], [434, 1015]]. Options:\nA. prescriptions at, 13.99, 32, to learn how., 22, DUSTERS, 17.69, PHARMACY, Step by the pharmacy, Costco Pharmacy\nB. to learn how., Stop by the pharmacy, 13.99, Fill your pet's, COSTCO, 17.69, prescriptions at, 32, PHARMACY, 1867646\nC. 22, Stop by the pharmacy, to learn how., 13.99, COSTCO, DUSTERS, Eill your pet's, prescriptions at, Costco Pharmacy, 17.69\nD. 13.99, prescriptions at, COSTCO, PHARMACY, 22, DUSTERS, Costco Pharmacy, Fill your pet's, Stop by the pharmacy, 32",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'to learn how., 22, 1867646, Stop by the pharmacy, Costco Pharmacy, 17.69, COSTCO, prescriptions at, DUSTERS, PHARMACY' located within the bounding box [[434, 347], [1275, 347], [1275, 1031], [434, 1031]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[807.8182266414661, 0.0], [992.2705234612541, 0.0], [992.2705234612541, 104.94699646643109], [807.8182266414661, 104.94699646643109]]? ________",
+              "answer": [
+                "32",
+                "22"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inspect the section highlighted by the bounding box [[834,989], [920,993], [919,1026], [833,1022]] and supply the missing part of the sequence, which is represented as \"1____9\".",
+              "answer": "7.6"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[444, 0], [992, 0], [992, 1015], [444, 1015]]. Options:\nA. to learn how., PHARMACY, Stop by the pharmacy, prescriptions at, COSTCO, Fill your pet's, Cestco Pharmacy, 17.69, DUSTERS, 13.99\nB. Stop by the pharmacy, Fill your pet's, 13.99, 32, PHARMACY, 22, COSTCO, 17.69, to learn how., prescriptions at\nC. Fill your pet's, 32, PHARMACY, prescriptions at, 13.99, to learn how., 17.89, Stop by the pharmacy, COSTCO, DUSTERS\nD. 22, prescriptions at, Stop by the pharmacy, Costco Pharmacy, Fill your pet's, COSTCO, 17.69, PHARMACY, DUSTERS, 1867646",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'PHARMACY, COSTCO, 32, DUSTERS, Stop by the pharmacy, Fill your pet's, 22, prescriptions at' located within the bounding box [[444, 0], [992, 0], [992, 911], [444, 911]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[533.906642128158, 975.7314148681055], [1299.9285970720805, 975.7314148681055], [1299.9285970720805, 1030.487188692542], [533.906642128158, 1030.487188692542]]? ________",
+              "answer": [
+                "13.99",
+                "17.69",
+                "1867646"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the text within the coordinates [[789,701], [979,704], [979,747], [789,743]] and determine the missing letter(s): \"C____CO\".",
+              "answer": "OST"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[457, 0], [1006, 0], [1006, 911], [457, 911]]? Please choose the correct answer. Options:\nA. Fill your pet's, Stop by the pharmacy, DUSTERS, PHARMACY, 22, 32, te learn how., COSTCO, prescriptions at\nB. 22, DUSTERS, prescriptions at, Costco Pharmacy, 32, to learn how., COSTCO, PHAPMACY, Fill your pet's\nC. DUSTERS, 32, Fill your pet's, 22, 13.99, to learn how., Stop by the pharmacy, COSTCO, PHARMACY\nD. Costco Pharmacy, prescriptions at, Stop by the pharmacy, COSTCO, DUSTERS, PHARMACY, Fill your pet's, to learn how., 22",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'to learn how., Fill your pet's, 22, Stop by the pharmacy, 13.99, COSTCO, 32, prescriptions at, Costco Pharmacy, PHARMACY' located within the bounding box [[457, 0], [1006, 0], [1006, 740], [457, 740]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[547.7034423920536, 894.9330212984631], [1313.7253973359768, 894.9330212984631], [1313.7253973359768, 1030.487188692542], [547.7034423920536, 1030.487188692542]]? ________",
+              "answer": [
+                "13.99",
+                "17.69",
+                "1867646",
+                "DUSTERS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What phrase needs completion at the coordinates [[902,567], [1266,573], [1265,621], [900,614]], where it is partially visible as \"Stop by the ____\"?",
+              "answer": "pharmacy"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[471, 347], [1314, 347], [1314, 1030], [471, 1030]]? Choose the correct answer. Options:\nA. 22, to learn how., 1867646, DUSTERS, Costco Pharmacy, PHARMACY, prescriptions at, Fill your pet's, Stop by the pharmacy, COSTCO\nB. Stop by the pharmacy, 13.99, Cestco Pharmacy, prescriptions at, PHARMACY, 17.69, COSTCO, DUSTERS, 1867646, to learn how.\nC. prescriptions at, COSTCO, Costco Pharmacy, 17.69, Fill your pet's, 1867646, DUSTERS, to learn how., PHARMACY, Stop by the pharmacy\nD. PHARMACY, Fill your pet's, Costco Pharmacy, prescriptions at, 32, 17.69, Stop by the pharmacy, to learn how., DUSTERS, 13.99",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'PHARMACY, Stop by the pharmacy, to learn how., Fill your pet's, DUSTERS, Costco Pharmacy, prescriptions at, COSTCO, 1867646' located within the area [[471, 347], [1314, 347], [1314, 1030], [471, 1030]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[845, 1], [1036, 1], [1036, 105], [845, 105]]? ________",
+              "answer": [
+                "32",
+                "22"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the bounding box coordinates [[860,641], [1332,645], [1333,704], [859,699]], identify the word(s) partially hidden here as \"Cost____ Pharmacy\".",
+              "answer": "co"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[485, 1], [1036, 1], [1036, 1016], [485, 1016]]. Options:\nA. 13.89, prescriptions at, to learn how., Stop by the pharmacy, DUSTERS, COSTCO, Fill your pet's, 32, Costco Pharmacy, PHARMACY\nB. Costco Pharmacy, 22, Step by the pharmacy, DUSTERS, 32, PHARMACY, to learn how., prescriptions at, 17.69, 13.99\nC. DUSTERS, Stop by the pharmacy, PHARMACY, 17.69, 22, COSTCO, Costco Pharmacy, 13.99, prescriptions at, 32\nD. PHARMACY, Fill your pet's, 32, Costco Pharmacy, COSTCO, 22, prescriptions at, 1867646, DUSTERS, Stop by the pharmacy",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '22, prescriptions at, Costco Pharmacy, COSTCO, Fill your pet's, Stop by the pharmacy, to learn how., 1867646, PHARMACY, 32' located within the bounding box [[485, 1], [1036, 1], [1036, 740], [485, 740]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[577, 895], [1343, 895], [1343, 1030], [577, 1030]]? ________",
+              "answer": [
+                "13.99",
+                "17.69",
+                "1867646",
+                "DUSTERS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Find the missing number(s) visible in the bounding box [[1227,268], [1336,324], [1331,435], [1230,377]], where the sequence appears as \"3____\".",
+              "answer": "22"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[500, 0], [1051, 0], [1051, 740], [500, 740]]. Options:\nA. Costco Pharmacy, Fill your pet's, te learn how., 32, 22, Stop by the pharmacy, prescriptions at, COSTCO\nB. to learn how., 22, COSTCO, Costco Pharmacy, Fill your pet's, 13.99, prescriptions at, 32\nC. COSTCO, prescriptions at, PHARMACY, Costco Pharmacy, 32, Fill your pet's, Stop by the pharmacy, to learn how.\nD. 32, Stop by the pharmacy, prescriptions at, PHARMACY, COSTCO, Costco Pharmacy, te learn how., 22",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'PHARMACY, 1867646, DUSTERS, to learn how., Costco Pharmacy, 13.99, COSTCO, 32, Fill your pet's, 17.69' appear within the bounding box [[500, 347], [1343, 347], [1343, 1030], [500, 1030]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[519, 0], [1362, 0], [1362, 1030], [519, 1030]]? ________",
+              "answer": [
+                "32",
+                "22",
+                "Fill your pet's",
+                "prescriptions at",
+                "Costco Pharmacy",
+                "Stop by the pharmacy",
+                "to learn how.",
+                "COSTCO",
+                "PHARMACY",
+                "13.99",
+                "17.69",
+                "1867646",
+                "DUSTERS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the section within the coordinates [[781,744], [1253,747], [1253,806], [780,801]], where the phrase appears as \"____co Pharmacy\" and supply the missing portion.",
+              "answer": "Cost"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[519, 0], [1070, 0], [1070, 740], [519, 740]]. Options:\nA. PHARMACY, Costco Pharmacy, to learn how., Stop by the pharmacy, COSTCO, 32, prescriptions at, 22\nB. 17.69, Stop by the pharmacy, PHARMACY, to learn how., prescriptions at, Fill your pet's, 22, Costco Pharmacy\nC. prescriptions at, 32, Stop by the pharmacy, Fill your pet's, to learn how., PHARMACY, Costco Pharmacy, CDSTCO\nD. 13.99, to learn how., 32, Costco Pharmacy, Fill your pet's, 22, COSTCO, Stop by the pharmacy",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Stop by the pharmacy, PHARMACY, Fill your pet's, to learn how., 22, Costco Pharmacy, COSTCO' located within the bounding box [[519, 0], [1070, 0], [1070, 740], [519, 740]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[538, 679], [1381, 679], [1381, 1031], [538, 1031]]? ________",
+              "answer": [
+                "COSTCO",
+                "PHARMACY",
+                "13.99",
+                "17.69",
+                "1867646",
+                "DUSTERS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Refer to the content positioned at the coordinates [[727,573], [1150,577], [1150,635], [726,630]]. Fill in the missing letter(s): \"p____riptions at\"",
+              "answer": "resc"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[538, 347], [1381, 347], [1381, 1031], [538, 1031]]. Options:\nA. Stop by the pharmacy, prescriptions at, to learn how., PHARMACY, COSTCO, DUSTERS, Costco Pharmacy, 1867640, 13.99, 17.69\nB. prescriptions at, to learn how., 13.99, COSTCO, Stop by the pharmacy, 1867646, DUSIERS, Fill your pet's, PHARMACY, Costco Pharmacy\nC. 17.69, 13.99, 1867646, Stop by the pharmacy, PHARMACY, DUSTERS, prescriptions at, to learn how., COSTCO, Costco Pharmacy\nD. COSTCO, 13.99, 17.69, PHARMACY, 32, 1867646, to learn how., DUSTERS, prescriptions at, Stop by the pharmacy",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '32, COSTCO, Stop by the pharmacy, PHARMACY, 22, prescriptions at, to learn how., Fill your pet's, Costco Pharmacy, 1867646' located within the bounding box [[538, 0], [1083, 0], [1083, 740], [538, 740]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[558, 0], [1402, 0], [1402, 1035], [558, 1035]]? ________",
+              "answer": [
+                "32",
+                "22",
+                "Fill your pet's",
+                "prescriptions at",
+                "Costco Pharmacy",
+                "Stop by the pharmacy",
+                "to learn how.",
+                "COSTCO",
+                "PHARMACY",
+                "13.99",
+                "17.69",
+                "1867646",
+                "DUSTERS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the missing character(s) in the text located at coordinates [[645,449], [1117,461], [1116,521], [643,508]], where the segment shows \"C____co Pharmacy\".",
+              "answer": "ost"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[558, 0], [1102, 0], [1102, 915], [558, 915]]. Options:\nA. DUSTERS, Fill your pet's, COSTCO, Costco Pharmacy, prescriptions at, PHARMACY, 32, to learn how., Stop by the pharmacy\nB. COSTCO, DUSTERS, Stop by the pharmacy, to learn how., 13.99, 32, Costco Pharmacy, Fill your pet's, PHARMACY\nC. to learn how., Costco Pharmacy, prescriptions at, 22, PHARMACY, Stop by the pharmacy, COSTCO, 32, Eill your pet's\nD. 32, DUSTERS, COSTCO, PHAPMACY, Stop by the pharmacy, Fill your pet's, Costco Pharmacy, prescriptions at, to learn how.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'COSTCO, Fill your pet's, Costco Pharmacy, PHARMACY, 22, to learn how., 32' located within the area [[558, 0], [1102, 0], [1102, 745], [558, 745]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[579, 0], [1423, 0], [1423, 1039], [579, 1039]]? ________",
+              "answer": [
+                "32",
+                "22",
+                "Fill your pet's",
+                "prescriptions at",
+                "Costco Pharmacy",
+                "Stop by the pharmacy",
+                "to learn how.",
+                "COSTCO",
+                "PHARMACY",
+                "13.99",
+                "17.69",
+                "1867646",
+                "DUSTERS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Which sequence of letter(s) completes the text within the coordinates [[439,573], [629,576], [629,618], [438,615]], where it is displayed as \"C____CO\"?",
+              "answer": "OST"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[579, 0], [1123, 0], [1123, 1024], [579, 1024]]. Options:\nA. COSTCO, 22, Fill your pet's, 17.69, 1867646, to learn how., 32, prescriptions at, Costco Pharmacy, 13.99\nB. COSTCO, prescriptions at, 17.69, PHARMACY, to learn how., 32, Step by the pharmacy, Costco Pharmacy, 22, 13.99\nC. PHARMACY, 13.99, DUSTERS, prescriptions at, 32, COSTCO, Stop by the pharmacy, Costco Pharmacy, Fill your pet's, 17.69\nD. to learn how., 17.69, 32, PHAPMACY, 13.99, Costco Pharmacy, COSTCO, prescriptions at, Fill your pet's, Stop by the pharmacy",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'to learn how., PHARMACY, COSTCO, 1867646, 22, 13.99, Stop by the pharmacy, 17.69, Fill your pet's, Costco Pharmacy' located within the area [[579, 354], [1423, 354], [1423, 1039], [579, 1039]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[598, 0], [1446, 0], [1446, 1041], [598, 1041]]? ________",
+              "answer": [
+                "32",
+                "22",
+                "Fill your pet's",
+                "prescriptions at",
+                "Costco Pharmacy",
+                "Stop by the pharmacy",
+                "to learn how.",
+                "COSTCO",
+                "PHARMACY",
+                "13.99",
+                "17.69",
+                "1867646",
+                "DUSTERS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What is the missing word(s) at the specified location [[346,245], [706,251], [705,315], [343,306]], disguised as \"Fill your ____\"?",
+              "answer": "pet's"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[598, 360], [1446, 360], [1446, 1041], [598, 1041]]? Choose the correct answer. Options:\nA. Stop by the pharmacy, DUSTERS, PHARMACY, 1867646, Costco Pharmacy, 13.99, Fill your pet's, to learn how., prescriptions at, 17.69\nB. 13.89, to learn how., PHARMACY, COSTCO, Fill your pet's, Stop by the pharmacy, Costco Pharmacy, DUSTERS, prescriptions at, 1867646\nC. DUSTERS, PHARMACY, Stop by the pharmacy, prescriptions at, COSTCO, 32, Fill your pet's, 17.69, 1867646, Costco Pharmacy\nD. DUSTERS, Fill your pet's, COSTCO, 1867646, prescriptions at, Stop by the pharmacy, 13.99, 17.89, PHARMACY, Costco Pharmacy",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Stop by the pharmacy, COSTCO, prescriptions at, PHARMACY, 22, 32, Costco Pharmacy' located within the area [[598, 0], [1141, 0], [1141, 750], [598, 750]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/C0308/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0308/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[971, 0], [1161, 0], [1161, 114], [971, 114]]? ________",
+              "answer": [
+                "32",
+                "22"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Analyze the label within the coordinates [[388,1042], [482,1042], [482,1063], [387,1063]] and fill in the blank to complete \"KILLS CO____ &\".",
+              "answer": "LD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[619, 0], [1161, 0], [1161, 1028], [619, 1028]]? Choose the correct answer. Options:\nA. prescriptions at, PHAPMACY, 22, 17.69, Stop by the pharmacy, Costco Pharmacy, COSTCO, 13.99, Fill your pet's, DUSTERS\nB. COSTCO, 32, 1867646, to learn how., Stop by the pharmacy, PHARMACY, DUSTERS, Fill your pet's, 22, 17.69\nC. Fill your pet's, 13.99, Costco Pharmacy, to learn how., 17.69, prescriptions at, COSTCO, Stop by the pharmacy, PHARMACY, 32\nD. prescriptions at, PHARMACY, 22, Costco Pharmacy, 13.99, 17.69, COSTCO, Fill your pet's, 32, DUSIERS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Stop by the pharmacy, 32, 13.99, 17.69, Costco Pharmacy, PHARMACY, DUSTERS, 1867646, COSTCO, to learn how.' located within the area [[619, 363], [1467, 363], [1467, 1044], [619, 1044]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0308"
+  }
+]

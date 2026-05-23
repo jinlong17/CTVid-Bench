@@ -1,0 +1,404 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[200, 532], [1105, 532], [1105, 706], [200, 706]]? ________",
+              "answer": [
+                "EXIT 414A",
+                "Hillsdale Blvd",
+                "ONLY",
+                "FASTRAK",
+                "EXIT ONLY",
+                "5AM-8PM",
+                "MON-FRI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[200, 607], [364, 607], [364, 706], [200, 706]]. Options:\nA. FASTRAK, EXIT 414A, ONLY\nB. MON-FRI, ONLY, FASTRAK\nC. ONLY, 5AM-8PM, MCN-FRI\nD. MON-FRI, Hillsdale Blvd, 5AM-8PM",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Hillsdale Blvd, FXIT 414A, FASTRAK, ONLY, MON-FRI, EXIT ONLY, 5AM-8PM' located within the bounding box [[200.2089552238806, 532.1465968586388], [1104.7120418848167, 532.1465968586388], [1104.7120418848167, 705.7649253731342], [200.2089552238806, 705.7649253731342]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[915, 482], [1156, 482], [1156, 885], [915, 885]]? ________",
+              "answer": [
+                "EXIT 414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY",
+                "35"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[140, 482], [1156, 482], [1156, 678], [140, 678]]. Options:\nA. Hillsdale Blvd, EXIT ONLY, MON-FRI, EXIT 414A, FASTRAK, 5AM-8PM\nB. EXIT ONLY, ONLY, Hillsdale Blvd, FASTRAK, 35, MON-FRI\nC. EXIT 414A, 5AM-8PM, Hillsdale Blvd, FXIT ONLY, ONLY, FASTRAK\nD. MON-FRI, FASTPAK, Hillsdale Blvd, EXIT ONLY, 5AM-8PM, EXIT 414A",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the label 'EXIT 414A, ONLY, EXIT ONLY, MON-FRI, Hillsdale Blvd, 35' appear within the bounding box [[139.88051074044867, 481.9812615371638], [1156.2848845445533, 481.9812615371638], [1156.2848845445533, 884.9644231638397], [139.88051074044867, 884.9644231638397]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[25, 435], [1196, 435], [1196, 899], [25, 899]]? ________",
+              "answer": [
+                "EXIT 414A",
+                "Hillsdale Blvd",
+                "ONLY",
+                "FASTRAK",
+                "EXIT ONLY",
+                "5AM-8PM",
+                "MON-FRI",
+                "35"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) present in the area [[25, 435], [1196, 435], [1196, 663], [25, 663]]? Please choose the correct answer. Options:\nA. MCN-FRI, ONLY, FASTRAK, EXIT 414A, Hillsdale Blvd, 5AM-8PM\nB. EXIT ONLY, Hillsdale Blvd, 35, 5AM-8PM, ONLY, MON-FRI\nC. Hillsdale Blvd, EXIT ONLY, DNLY, EXIT 414A, FASTRAK, 5AM-8PM\nD. EXIT 414A, Hillsdale Blvd, MON-FRI, EXIT ONLY, ONLY, 5AM-8PM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ONLY, MON-FRI, 5AM-8PM' found within the bounding box [[25.128987855226377, 534.8680351906158], [236.36363636363635, 534.8680351906158], [236.36363636363635, 663.4604105571848], [25.128987855226377, 663.4604105571848]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[3, 476], [150, 476], [150, 617], [3, 617]]? ________",
+              "answer": [
+                "ONLY",
+                "-8PM",
+                "-FRI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[3, 356], [1560, 356], [1560, 702], [3, 702]]? Choose the correct answer. Options:\nA. ONLY, -FRI, EXIT 414A, EXIT ONLY, Hillsdale Blvd, 650 577 2964\nB. ONLY, -8PM, EXIT 414A, EXIT ONLY, -FRI, Hillsdele Blvd\nC. 650 577 2964, 35, -8PM, EXIT 414A, EXIT ONLY, -FRI\nD. DNLY, EXIT ONLY, Hillsdale Blvd, EXIT 414A, -FRI, -8PM",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'EXIT 414A, 35, 650 577 2964, Hillsdale Blvd' located within the bounding box [[947, 356], [1560, 356], [1560, 909], [947, 909]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1152, 655], [1603, 655], [1603, 895], [1152, 895]]? ________",
+              "answer": [
+                "35",
+                "650 577 2964"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[6, 217], [1603, 217], [1603, 677], [6, 677]]. Options:\nA. Hillsdale Blvd, 650 577 2964, 35, EXIT ONLY\nB. EXIT 414A, LY, Hillsdele Blvd, EXIT ONLY\nC. EXIT 414A, Hillsdale Blvd, LY, FXIT ONLY\nD. LY, EXIT 414A, Hillsdale Blvd, 650 577 2964",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Hillsdale Blvd, EXIT 414A, EXIT ONLY, 650 577 2964, LY, 35' located within the bounding box [[6, 217], [1406, 217], [1406, 895], [6, 895]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1101, 103], [1586, 103], [1586, 366], [1101, 366]]? ________",
+              "answer": [
+                "EXIT 414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1101, 103], [1586, 103], [1586, 366], [1101, 366]]? Choose the correct answer. Options:\nA. EXIT 414A, Hillsdele Blvd\nB. 414 A, EXIT ONLY\nC. EXIT 414A, Hillsdale Blvd\nD. 35, EXIT ONLY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'EXIT 414A, 650 577 2964, Hillsdale Blvd' located within the bounding box [[1101, 103], [1640, 103], [1640, 733], [1101, 733]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[848, 744], [1709, 744], [1709, 1030], [848, 1030]]? ________",
+              "answer": [
+                "35",
+                "414 A",
+                "50 577 2964",
+                "RAMP",
+                "CLOSED"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[1229, 0], [1920, 0], [1920, 1003], [1229, 1003]]. Options:\nA. 35, EXIT ONLY, RAMP, CLOSED, 414 A\nB. 50 577 2964, CLOSED, EXIT ONLY, 35, RAMP\nC. EXIT ONLY, 85, 50 577 2964, CLOSED, RAMP\nD. RAMP, 50 577 2994, EXIT ONLY, CLOSED, Hillsdale Blv",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '50 577 2964, RAMP, CLOSED, 35, EXIT ONLY' located within the bounding box [[848.1576375588673, 0.0], [1920.0, 0.0], [1920.0, 1030.2145523610047], [848.1576375588673, 1030.2145523610047]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[872, 695], [1725, 695], [1725, 983], [872, 983]]? ________",
+              "answer": [
+                "35",
+                "414 A",
+                "RAMP",
+                "CLOSED",
+                "6"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[1419, 695], [1725, 695], [1725, 855], [1419, 855]]? Please choose the correct answer. Options:\nA. 6, CLOSFD\nB. 35, CLOSED\nC. 6, CLOSED\nD. CLOSED, PAMP",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '414 A, RAMP, CLOSED, 6, 35' located within the bounding box [[1284, 695], [1725, 695], [1725, 952], [1284, 952]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[886, 629], [1844, 629], [1844, 942], [886, 942]]? ________",
+              "answer": [
+                "35",
+                "414 A",
+                "RAMP",
+                "CLOSED",
+                "650 577 2964"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[886, 768], [1562, 768], [1562, 942], [886, 942]]? Choose the correct answer. Options:\nA. 414 A, 650 577 2964, 35\nB. RAMP, 414 A, 35\nC. RAMP, 85, 414 A\nD. RAMP, CLOSFD, 35",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '414 A, 650 577 2964, 35, CLOSED, RAMP' located within the bounding box [[1332, 629], [1844, 629], [1844, 908], [1332, 908]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[897, 637], [1912, 637], [1912, 970], [897, 970]]? ________",
+              "answer": [
+                "35",
+                "414 A",
+                "RAMP",
+                "CLOSED",
+                "650 577 2964"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[1630, 637], [1912, 637], [1912, 801], [1630, 801]]? Please choose the correct answer. Options:\nA. RAMP, CLOSED\nB. 35, 650 577 2964\nC. 650 577 2994, CLOSED\nD. 650 577 2964, CLOSFD",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '414 A, RAMP, CLOSED, 650 577 2964, 35' located within the bounding box [[897, 768], [1684, 768], [1684, 970], [897, 970]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[900, 974], [934, 974], [934, 990], [900, 990]]? ________",
+              "answer": [
+                "414 A"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1771, 650], [1920, 650], [1920, 894], [1771, 894]]? Choose the correct answer. Options:\nA. UR, D, 35, 650, CLOSED, HIL\nB. E, HIL, D, CLOSED, RAMP, 414 A\nC. HIL, D, UR, 650, E, RAMP\nD. D, CLOSED, UR, 650, F, RAMP",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '414 A, 35, RAMP, D, UR, E, HIL, CLOSED, 650' located within the bounding box [[1432, 650], [1920, 650], [1920, 951], [1432, 951]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/Hardcase/C0484_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[919, 928], [956, 928], [956, 944], [919, 944]]? ________",
+              "answer": [
+                "414 A"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1509, 862], [1540, 862], [1540, 901], [1509, 901]]? Choose the correct answer. Options:\nA. EXIT\nB. 414 A\nC. 85\nD. 85",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'EXIT, 414 R, 35' located within the bounding box [[919.301134420393, 861.7515107758948], [1540.2807402241785, 861.7515107758948], [1540.2807402241785, 943.83184377174EXIT, 414 R, 35], [919.301134420393, 943.83184377174EXIT, 414 R, 35]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0484_2"
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "video_id": "C0039",
+  "frames": 116,
+  "word": "直供百果园",
+  "video_path": "/nfs.auto/flash_VideoAlg/project/SR/VSR_text/video_test_set/blur/videos/CHN_C0039.mp4",
+  "questions": [
+    {
+      "question_type": "presence_q1",
+      "q": "Is \"直供百果园\" always present in the video?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "presence_q2",
+      "q": "In how many frames is \"直供百果园\" visible? (Answer with a number)",
+      "a": 116
+    },
+    {
+      "question_type": "presence_q3",
+      "q": "How many times does \"直供百果园\" disappear?\n Options:\n0 times\n1 time\n2 times\n3 or more times",
+      "a": "0 times"
+    },
+    {
+      "question_type": "presence_q4",
+      "q": "What is the overall appearance pattern of \"直供百果园\"?\n Options:\nalways present\nappears mid-way\ndisappears mid-way\nappears and then disappears",
+      "a": "always present"
+    },
+    {
+      "question_type": "presence_q5",
+      "q": "In which frame does \"直供百果园\" first appear? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "presence_q6",
+      "q": "In which frame does \"直供百果园\" last appear? (Answer with a number)",
+      "a": 115
+    },
+    {
+      "question_type": "localization_q1",
+      "q": "Which region of the screen is \"直供百果园\" in when it first appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "bottom-right"
+    },
+    {
+      "question_type": "localization_q2",
+      "q": "Which region of the screen is \"直供百果园\" in when it last appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "bottom-right"
+    },
+    {
+      "question_type": "localization_q3",
+      "q": "In which region does \"直供百果园\" spend most of its time?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right\nno dominant region",
+      "a": "bottom-right"
+    },
+    {
+      "question_type": "localization_q4",
+      "q": "How many frames does \"直供百果园\" cross the horizontal center line of the screen?\n Options:\n2 frames\n0 frames\n0 frames\n4 frames",
+      "a": "0 frames"
+    },
+    {
+      "question_type": "localization_q5",
+      "q": "Does \"直供百果园\" cross the horizontal center line of the screen?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "localization_q6",
+      "q": "The screen is divided into a 3x3 grid (9 regions): top-left, top-center, top-right, middle-left, middle-center, middle-right, bottom-left, bottom-center, bottom-right. How many different regions does \"直供百果园\" pass through? (Answer with a number 1-9)",
+      "a": 1
+    },
+    {
+      "question_type": "motion_q1",
+      "q": "From first to last appearance, what is the main motion direction of \"直供百果园\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "right-to-left"
+    },
+    {
+      "question_type": "motion_q2",
+      "q": "In which frame does \"直供百果园\" move at maximum speed? (Answer with a number)",
+      "a": 13
+    },
+    {
+      "question_type": "motion_q3",
+      "q": "In which frame does \"直供百果园\" have maximum acceleration? (Answer with a number)",
+      "a": 6
+    },
+    {
+      "question_type": "motion_q4",
+      "q": "During which period does \"直供百果园\" move fastest?\n Options:\nstart\nmiddle\nend",
+      "a": "start"
+    },
+    {
+      "question_type": "motion_q5",
+      "q": "What trajectory shape(s) does \"直供百果园\" exhibit? (Select all that apply)\n Options:\nstraight line\ncurve\ncircular\nzigzag",
+      "a": [
+        "zigzag",
+        "straight line"
+      ]
+    },
+    {
+      "question_type": "motion_q6",
+      "q": "From frame 7 to frame 17, what is the trajectory shape of \"直供百果园\"?\n Options:\nstraight line\ncurve\ncircular\nzigzag\nrandom",
+      "a": "straight line"
+    },
+    {
+      "question_type": "motion_q7",
+      "q": "From frame 7 to frame 17, what is the main motion direction of \"直供百果园\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "right-to-left"
+    },
+    {
+      "question_type": "motion_q8",
+      "q": "In which frame does \"直供百果园\" deviate most from the main trajectory? (Answer with a number)",
+      "a": 115
+    },
+    {
+      "question_type": "motion_q9",
+      "q": "What is the average speed of \"直供百果园\" movement approximately?\n Options:\n4.0 pixels/frame\n4.4 pixels/frame\n4.2 pixels/frame\n3.8 pixels/frame",
+      "a": "4.0 pixels/frame"
+    },
+    {
+      "question_type": "size_q1",
+      "q": "In which frame does \"直供百果园\" have the largest area (appear closest)? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "size_q2",
+      "q": "In which frame does \"直供百果园\" have the smallest area (appear farthest)? (Answer with a number)",
+      "a": 79
+    },
+    {
+      "question_type": "size_q3",
+      "q": "From frame 7 to frame 17, is \"直供百果园\" approaching or receding?\n Options:\napproaching\nreceding\ndistance unchanged",
+      "a": "distance unchanged"
+    },
+    {
+      "question_type": "size_q4",
+      "q": "What is the overall area trend of \"直供百果园\"?\n Options:\nincreasing\ndecreasing\nfluctuating",
+      "a": "decreasing"
+    },
+    {
+      "question_type": "size_q5",
+      "q": "Does the width of \"直供百果园\" ever exceed half the screen width?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "size_q6",
+      "q": "How many frames does the width of \"直供百果园\" exceed half the screen width?\n Options:\nNever\n2 frames\n4 frames\n6 frames",
+      "a": "Never"
+    },
+    {
+      "question_type": "boundary_q1",
+      "q": "Does \"直供百果园\" touch the edge of the frame during its movement?\n Options:\nYes\nNo",
+      "a": "No"
+    }
+  ]
+}

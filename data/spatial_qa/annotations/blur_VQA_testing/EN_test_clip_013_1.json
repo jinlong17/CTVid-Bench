@@ -1,0 +1,501 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[599.0502700212684, 804.2346783757558], [1010.5515587529976, 804.2346783757558], [1010.5515587529976, 840.2548295092571], [599.0502700212684, 840.2548295092571]]? ________",
+              "answer": [
+                "input layer",
+                "input layer 1",
+                "in"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text located at coordinates [[46,46], [657,45], [658,94], [47,93]], fill in the missing portion: \"How ChatG____T Works Technically\".",
+              "answer": "P"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[46, 45], [1079, 45], [1079, 840], [46, 840]]. Options:\nA. ByteByteGo.com, 175, How ChatGPT Works Technically, input layer, Bi, input layer 1, in\nB. input layer, Bi, LLM(GPT-3.5), in, (Large Language, How ChatGPT Works Technically, input layer 1\nC. in, input layer 1, LLM(GPT-3.5), 175, How ChatGPT Works Technically, Bi, imput layer\nD. in, Bi, imput layer, How ChatGPT Works Technically, 175, (Large Language, input layer 1",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '175, input layer 1, input layer, Bi' located within the bounding box [[397, 534], [1011, 534], [1011, 840], [397, 840]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1628, 37], [1894, 37], [1894, 81], [1628, 81]]? ________",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[396,566], [459,566], [459,594], [396,594]], what is the correct word(s) that completes the partial text \"Bil____\"?",
+              "answer": "lio"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[397, 534], [1011, 534], [1011, 840], [397, 840]]. Options:\nA. input layer 1, in, ByteByteGo.com, Bi\nB. Bi, input layer 1, 175, input layer\nC. imput layer 1, input layer, Bi, 175\nD. input layer 1, in, 175, How ChatGPT Works Technically",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '175, in, input layer 1, Bi' contained within the bounding box [[397, 534], [1011, 534], [1011, 840], [397, 840]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[46, 37], [1894, 37], [1894, 840], [46, 840]]? ________",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language",
+                "175",
+                "input layer",
+                "input layer 1",
+                "inp",
+                "Bi"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the box coordinates [[599,804], [745,804], [745,840], [600,840]]. What is the missing text for \"inp____ layer\"?",
+              "answer": "ut"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text(s) present within [[397, 534], [1024, 534], [1024, 840], [397, 840]]? Please choose the correct answer. Options:\nA. input layer, input layer 1, imp, Bi\nB. ByteByteGo.com, input layer, Bi, inp\nC. inp, Bi, input layer 1, input layer\nD. 175, inp, Pi, input layer",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Bi, 175, ByteByteGo.com, (Large Language' located inside the bounding box [[46, 37], [1894, 37], [1894, 594], [46, 594]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) found in the region [[1628, 37], [1894, 37], [1894, 81], [1628, 81]]. The answer is ________.",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the specified location [[46,46], [657,45], [658,94], [47,93]], determine the missing sequence in \"How ChatGPT W____ks Technically\".",
+              "answer": "or"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option accurately represents the text(s) located within [[46, 37], [1894, 37], [1894, 594], [46, 594]]? Choose the correct answer. Options:\nA. Bil, ByteByteGo.com, How ChatGPT Works Technically, 125, LLM(GPT-3.5)\nB. (Large Language M, How ChatGPT Works Technically, input layer, 175, Bil\nC. 175, LLM(GPT-3.5), How ChatGPT Works Technically, (Large Language M, Bil\nD. ByteByteGo.com, 125, Bil, LLM(GPT-3.5), How ChatGPT Works Technically",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'How ChatGPT Works Technically, (Large Language M, 175, Bil, inpu, LLM(GPT-3.5), ByteByteGo.com, input layer 1, input layer' located within the bounding box [[46, 45], [1079, 45], [1079, 840], [46, 840]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[46, 45], [1079, 45], [1079, 840], [46, 840]]? ________",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language M",
+                "175",
+                "input layer",
+                "input layer 1",
+                "inpu",
+                "Bil"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text found within the coordinates [[987,810], [1136,811], [1136,844], [987,843]], complete the phrase: \"i____ layer 2\".",
+              "answer": "nput"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) found within [[397, 534], [1039, 534], [1039, 840], [397, 840]]? Choose the correct answer. Options:\nA. input layer 1, 175, input layer, Bil\nB. input layer, 175, impu, Bil\nC. input layer 1, inpu, 175, imput layer\nD. inpu, Bil, 175, ByteByteGo.com",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'LLM(GPT-3.5), 175, (Large Language M, How ChatGPT Works Technically' located within the bounding box [[46, 37], [1894, 37], [1894, 594], [46, 594]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[1628, 37], [1894, 37], [1894, 81], [1628, 81]]? ________",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Discover the text concealed within the location [[766,222], [1154,222], [1154,265], [766,264]], specifically the missing segment representing \"Large ____anguage Model\".",
+              "answer": "L"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[397, 183], [1093, 183], [1093, 840], [397, 840]]. Options:\nA. LLN(GPT-3.5), input layer 1, input, input layer, (Large Language Mo, 175\nB. (Large Language Mo, input, LLM(GPT-3.5), 175, input layer, ByteByteGo.com\nC. How ChatGPT Works Technically, input, input layer, (Large Language Mo, LLM(GPT-3.5), 175\nD. (Large Language Mo, Bill, input layer, input, 175, input layer 1",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'input layer 1, (Large Language Mo, ByteByteGo.com, LLM(GPT-3.5)' located within the bounding box [[767, 37], [1894, 37], [1894, 840], [767, 840]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[46, 37], [1894, 37], [1894, 840], [46, 840]]? ________",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Mo",
+                "175",
+                "input layer",
+                "input layer 1",
+                "input",
+                "Bill"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What number(s) is partly hidden here: 1____5, as seen in the bounded box coordinates [[400,535], [445,535], [445,566], [400,566]]?",
+              "answer": "7"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[46, 45], [1093, 45], [1093, 840], [46, 840]]. Options:\nA. How ChatGPT Works Technically, imput, input layer 1, (Large Language Mo, input layer, LLM(GPT-3.5), Bill\nB. input, 175, How ChatGPT Works Technically, Bill, LLM(GPT-3.5), input layer, (Large Language Mo\nC. LLM(GPT-3.5), Bi1l, (Large Language Mo, input layer, input, How ChatGPT Works Technically, input layer 1\nD. LLM(GPT-3.5), How ChatGPT Works Technically, ByteByteGo.com, (Large Language Mo, Bill, 175, input",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '(Large Language Mo, LLM(GPT-3.5), 175, ByteByteGo.com, input, Bill, input layer, input layer 1' located within the bounding box [[397, 183], [1093, 183], [1093, 840], [397, 840]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[46, 45], [1112, 45], [1112, 840], [46, 840]]? ________",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Mod",
+                "175",
+                "input layer",
+                "input layer 1",
+                "input l",
+                "Bill"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the missing character(s) in the phrase \"inp____ layer\" located at coordinates [[591,812], [737,813], [737,848], [592,848]].",
+              "answer": "ut"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text(s) present within [[397, 533], [1062, 533], [1062, 840], [397, 840]]? Choose the correct answer. Options:\nA. input layer 1, Bill, input layer, 175\nB. input l, input layer, input layer 1, 125\nC. imput layer 1, input layer, Bill, input l\nD. 175, input layer, input l, ByteByteGo.com",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'input l, How ChatGPT Works Technically, input layer, Bill, 175, input layer 1' contained within the bounding box [[397, 533], [1062, 533], [1062, 840], [397, 840]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) inside [[46, 45], [1112, 45], [1112, 840], [46, 840]] is/are ________?",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Mod",
+                "175",
+                "input layer",
+                "input layer 1",
+                "input l",
+                "Billi"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In examining the content at coordinates [[1628,37], [1894,38], [1894,81], [1629,79]], determine what the placeholder \"Byte____Go.com\" stands for.",
+              "answer": "Byte"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[397, 533], [1062, 533], [1062, 840], [397, 840]]. Options:\nA. input layer, Billi, input l, ByteByteGo.com\nB. input l, Billi, imput layer, 175\nC. input layer, 175, input l, Billi\nD. input layer, 175, input layer 1, Bil1i",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'LLM(GPT-3.5), ByteByteGo.com, How ChatGPT Works Technically, (Large Language Mod' located within the bounding box [[46, 37], [1894, 37], [1894, 594], [46, 594]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word or phrase found in the specified area [[1628, 37], [1894, 37], [1894, 81], [1628, 81]]? The answer is ________.",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the coordinates [[777,818], [939,818], [939,851], [777,851]], uncover the hidden text in \"inpu____ layer 1\".",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[46, 45], [1131, 45], [1131, 840], [46, 840]]. Options:\nA. input layer 1, input la, Billi, input layer, How ChatGPT Works Technically, (Large Language Mode, LLM(GPT-3.5)\nB. Billi, LLM(GPT-3.5), How ChatGPT Works Technically, ByteByteGo.com, input layer, input la, 175\nC. Haw ChatGPT Works Technically, input la, (Large Language Mode, 175, LLM(GPT-3.5), input layer 1, Billi\nD. input layer, How ChatGPT Works Technically, 125, (Large Language Mode, Billi, input layer 1, LLM(GPT-3.5)",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '175, How ChatGPT Works Technically, Billi, LLM(GPT-3.5), input layer 1, (Large Language Mode, input la, ByteByteGo.com, input layer' appear within the bounding box [[46, 45], [1131, 45], [1131, 840], [46, 840]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) located in the area [[396, 533], [1091, 533], [1091, 840], [396, 840]] is/are ________?",
+              "answer": [
+                "175",
+                "input layer",
+                "input layer 1",
+                "input lay",
+                "Billio"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the specific coordinate range [[1189,822], [1345,823], [1346,852], [1190,851]], complete the missing letter(s) for \"out____ layer\".",
+              "answer": "put"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option accurately represents the text(s) located within [[46, 37], [1894, 37], [1894, 594], [46, 594]]? Choose the correct answer. Options:\nA. Billio, ByteByteGo.com, How ChatGPT Works Technically, (Large Language Mode, input layer\nB. 175, ByteByteGo.com, (Large Language Mode, How ChatGPT Works Technically, Billio\nC. (Large Language Mode, input layer 1, How ChatGPT Works Technically, LLM(GPT-3.5), Billio\nD. 175, How ChatGPT Works Technically, Billio, BytoByteGo.com, LLM(GPT-3.5)",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '(Large Language Mode, input layer 1, Billio, ByteByteGo.com, How ChatGPT Works Technically, input lay, LLM(GPT-3.5), input layer, 175' located within the area [[46, 45], [1131, 45], [1131, 840], [46, 840]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/EN/clip_013_1/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_013_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) inside [[46, 45], [1131, 45], [1131, 840], [46, 840]] is/are ________?",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Mode",
+                "175",
+                "input layer",
+                "input layer 1",
+                "input laye",
+                "Billio"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[46,46], [657,45], [658,94], [47,93]], identify the missing letter(s) in the phrase \"How Ch____T Works Technically\".",
+              "answer": "atGP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[46, 37], [1894, 37], [1894, 594], [46, 594]]. Options:\nA. 175, LLM(GPT-3.5), ByteByteGo.com, (Large Language Mode, Haw ChatGPT Works Technically\nB. Billio, (Large Language Mode, How ChatGPT Works Technically, ByteByteGo.com, input layer\nC. (Large Language Mode, LLM(GPT-3.5), 175, Billio, ByteByteGo.com\nD. 175, (Lerge Language Mode, Billio, LLM(GPT-3.5), ByteByteGo.com",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'LLM(GPT-3.5), How ChatGPT Works Technically, (Large Language Mode, input layer, ByteByteGo.com, Billio, 175, input laye, input layer 1' located within the area [[46, 45], [1131, 45], [1131, 840], [46, 840]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_013_1"
+  }
+]

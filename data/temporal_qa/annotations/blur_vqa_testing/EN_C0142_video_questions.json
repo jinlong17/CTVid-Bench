@@ -1,0 +1,151 @@
+{
+  "video_id": "C0142",
+  "frames": 116,
+  "word": "Apple Intelligence is here.",
+  "video_path": "/nfs.auto/flash_VideoAlg/project/SR/VSR_text/video_test_set/blur/videos/EN_C0142.mp4",
+  "questions": [
+    {
+      "question_type": "presence_q1",
+      "q": "Is \"Apple Intelligence is here.\" always present in the video?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "presence_q2",
+      "q": "In how many frames is \"Apple Intelligence is here.\" visible? (Answer with a number)",
+      "a": 116
+    },
+    {
+      "question_type": "presence_q3",
+      "q": "How many times does \"Apple Intelligence is here.\" disappear?\n Options:\n0 times\n1 time\n2 times\n3 or more times",
+      "a": "0 times"
+    },
+    {
+      "question_type": "presence_q4",
+      "q": "What is the overall appearance pattern of \"Apple Intelligence is here.\"?\n Options:\nalways present\nappears mid-way\ndisappears mid-way\nappears and then disappears",
+      "a": "always present"
+    },
+    {
+      "question_type": "presence_q5",
+      "q": "In which frame does \"Apple Intelligence is here.\" first appear? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "presence_q6",
+      "q": "In which frame does \"Apple Intelligence is here.\" last appear? (Answer with a number)",
+      "a": 115
+    },
+    {
+      "question_type": "localization_q1",
+      "q": "Which region of the screen is \"Apple Intelligence is here.\" in when it first appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "center"
+    },
+    {
+      "question_type": "localization_q2",
+      "q": "Which region of the screen is \"Apple Intelligence is here.\" in when it last appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "top-right"
+    },
+    {
+      "question_type": "localization_q3",
+      "q": "In which region does \"Apple Intelligence is here.\" spend most of its time?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right\nno dominant region",
+      "a": "center"
+    },
+    {
+      "question_type": "localization_q4",
+      "q": "How many frames does \"Apple Intelligence is here.\" cross the horizontal center line of the screen?\n Options:\n114 frames\n116 frames\n120 frames\n118 frames",
+      "a": "116 frames"
+    },
+    {
+      "question_type": "localization_q5",
+      "q": "Does \"Apple Intelligence is here.\" cross the horizontal center line of the screen?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "localization_q6",
+      "q": "The screen is divided into a 3x3 grid (9 regions): top-left, top-center, top-right, middle-left, middle-center, middle-right, bottom-left, bottom-center, bottom-right. How many different regions does \"Apple Intelligence is here.\" pass through? (Answer with a number 1-9)",
+      "a": 2
+    },
+    {
+      "question_type": "motion_q1",
+      "q": "From first to last appearance, what is the main motion direction of \"Apple Intelligence is here.\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "left-to-right"
+    },
+    {
+      "question_type": "motion_q2",
+      "q": "In which frame does \"Apple Intelligence is here.\" move at maximum speed? (Answer with a number)",
+      "a": 63
+    },
+    {
+      "question_type": "motion_q3",
+      "q": "In which frame does \"Apple Intelligence is here.\" have maximum acceleration? (Answer with a number)",
+      "a": 62
+    },
+    {
+      "question_type": "motion_q4",
+      "q": "During which period does \"Apple Intelligence is here.\" move fastest?\n Options:\nstart\nmiddle\nend",
+      "a": "middle"
+    },
+    {
+      "question_type": "motion_q5",
+      "q": "What trajectory shape(s) does \"Apple Intelligence is here.\" exhibit? (Select all that apply)\n Options:\nstraight line\ncurve\ncircular\nzigzag",
+      "a": [
+        "curve",
+        "zigzag"
+      ]
+    },
+    {
+      "question_type": "motion_q6",
+      "q": "From frame 20 to frame 30, what is the trajectory shape of \"Apple Intelligence is here.\"?\n Options:\nstraight line\ncurve\ncircular\nzigzag\nrandom",
+      "a": "random"
+    },
+    {
+      "question_type": "motion_q7",
+      "q": "From frame 20 to frame 30, what is the main motion direction of \"Apple Intelligence is here.\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "bottom-to-top"
+    },
+    {
+      "question_type": "motion_q8",
+      "q": "In which frame does \"Apple Intelligence is here.\" deviate most from the main trajectory? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "motion_q9",
+      "q": "What is the average speed of \"Apple Intelligence is here.\" movement approximately?\n Options:\n10.6 pixels/frame\n10.8 pixels/frame\n11.0 pixels/frame\n10.4 pixels/frame",
+      "a": "10.6 pixels/frame"
+    },
+    {
+      "question_type": "size_q1",
+      "q": "In which frame does \"Apple Intelligence is here.\" have the largest area (appear closest)? (Answer with a number)",
+      "a": 53
+    },
+    {
+      "question_type": "size_q2",
+      "q": "In which frame does \"Apple Intelligence is here.\" have the smallest area (appear farthest)? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "size_q3",
+      "q": "From frame 20 to frame 30, is \"Apple Intelligence is here.\" approaching or receding?\n Options:\napproaching\nreceding\ndistance unchanged",
+      "a": "distance unchanged"
+    },
+    {
+      "question_type": "size_q4",
+      "q": "What is the overall area trend of \"Apple Intelligence is here.\"?\n Options:\nincreasing\ndecreasing\nfluctuating",
+      "a": "fluctuating"
+    },
+    {
+      "question_type": "size_q5",
+      "q": "Does the width of \"Apple Intelligence is here.\" ever exceed half the screen width?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "size_q6",
+      "q": "How many frames does the width of \"Apple Intelligence is here.\" exceed half the screen width?\n Options:\nNever\n2 frames\n4 frames\n6 frames",
+      "a": "Never"
+    },
+    {
+      "question_type": "boundary_q1",
+      "q": "Does \"Apple Intelligence is here.\" touch the edge of the frame during its movement?\n Options:\nYes\nNo",
+      "a": "No"
+    }
+  ]
+}

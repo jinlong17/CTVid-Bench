@@ -1,0 +1,528 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[935, 368], [1381, 368], [1381, 882], [935, 882]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label within the coordinates [[1054,773], [1264,761], [1266,815], [1058,826]] is missing a portion in the word(s) \"CH____GING\". Can you fill in the blank?",
+              "answer": "AR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[935, 368], [1381, 368], [1381, 882], [935, 882]]. Options:\nA. ONLY WHILE ACTIVELY, V, VEHICLES NOT CHARGING MAY BETOWED, STATION, ELECTRIC VEHICLE USE, E\nB. V, VEHICLES NOT CHARGING MAY BETOWED, DNLY WHILE ACTIVELY, ELECTRIC VEHICLE USE, CHARGING, STATION, CHARGING\nC. V, STATIDN, E, ELECTRIC VEHICLE USE, CHARGING, ONLY WHILE ACTIVELY, CHARGING\nD. CHARGING, V, CHARGING, ELECTRIC VEHICLE USE, F, STATION, VEHICLES NOT CHARGING MAY BETOWED",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'STATION, E, ONLY WHILE ACTIVELY, V, CHAROING, ELECTRIC VEHICLE USE, VEHICLES NOT CHARGING MAY BETOWED' located within the bounding box [[935.438596491228, 367.946127946128], [1381.0526315789473, 367.946127946128], [1381.0526315789473, 882.4561403508771], [935.438596491228, 882.4561403508771]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[946, 362], [1392, 362], [1392, 873], [946, 873]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the sign enclosed within the coordinates [[1042,757], [1476,733], [1478,773], [1044,795]] and identify the missing portion in \"VEHICLES  ____ CHARGING MAY BE TOWED\".",
+              "answer": "NOT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[947, 362], [1357, 362], [1357, 611], [947, 611]]. Options:\nA. ONLY WHILE ACTIVELY, CHARGING, V\nB. ELECTRIC VEHICLE USE, V, CHARGING\nC. E, CHARGING, STATION\nD. E, CHARGING, U",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'CHARGING, E, STATION, DNLY WHILE ACTIVELY, CHARGING, ELECTRIC VEHICLE USE, V, VEHICLES NOT CHARGING MAY BETOWED' located within the bounding box [[945.516115871073, 361.7445775585311], [1391.905344757242, 361.7445775585311], [1391.905344757242, 873.1538147694814], [945.516115871073, 873.1538147694814]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[955, 349], [1401, 349], [1401, 854], [955, 854]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What phrase at coordinates [[1113,777], [1547,754], [1549,793], [1115,815]] needs completion: \"VEHICLES N____ CHARGING MAY BETOWED\"?",
+              "answer": "OT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text(s) present within [[955, 349], [1401, 349], [1401, 854], [955, 854]]? Please choose the correct answer. Options:\nA. STATION, VEHICLES NOT CHARGING MAY BETOWED, FLECTRIC VEHICLE USE, CHARGING, ONLY WHILE ACTIVELY, CHARGING, E\nB. VEHICLES NOT CHARGING MAY BETOWED, E, STATION, V, ONLY WHILE ACTIVELY, ELECTRIC VEHICLE USE, CNARGING\nC. E, CHARGING, DNLY WHILE ACTIVELY, VEHICLES NOT CHARGING MAY BETOWED, V, ELECTRIC VEHICLE USE, STATION\nD. ONLY WHILE ACTIVELY, E, V, CHARGING, STATION, CHARGING, ELECTRIC VEHICLE USE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'VEHICLES NOT CHARGING MAY BETOWED, CHAROING, V, ONLY WHILE ACTIVELY, STATION, E, ELECTRIC VEHICLE USE' fall within the bounding box [[954.9755753305326, 349.13196494591847], [1400.8061449988245, 349.13196494591847], [1400.8061449988245, 854.3959507602201], [954.9755753305326, 854.3959507602201]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[964, 337], [1410, 337], [1410, 839], [964, 839]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the text located at [[1141,775], [1575,751], [1577,790], [1142,812]], complete the phrase by identifying the section hidden as \"VEH____S NOT CHARGING MAY BE TOWED\".",
+              "answer": "ICLE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that includes the text(s) located within [[966, 337], [1375, 337], [1375, 583], [966, 583]]. Options:\nA. V, STATION, ELECTRIC VEHICLE USE\nB. V, STATION, ONLY WHILE ACTIVELY\nC. E, STATION, V\nD. CHARGING, STATION, U",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'F, ONLY WHILE ACTIVELY, ELECTRIC VEHICLE USE, STATION, CHARGING, CHARGING, VEHICLES NOT CHARGING MAY BETOWED, V' located within the area [[964.0664844214416, 337.01075282470634], [1409.8970540897335, 337.01075282470634], [1409.8970540897335, 838.5710349353043], [964.0664844214416, 838.5710349353043]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[977, 328], [1422, 328], [1422, 830], [977, 830]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the letter(s) missing from the partial word(s) \"____\" found at these coordinates: [[1301,326], [1327,324], [1329,352], [1303,354]].",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[977, 328], [1422, 328], [1422, 830], [977, 830]]. Options:\nA. E, ELECTRIC VEHICLE USE, VEHICLES NOT CHARGING MAY BETOWED, CHARGING, U, CHARGING, ONLY WHILE ACTIVELY\nB. ONLY WHILE ACTIVELY, CHARGING, E, V, VEHICLES NOT CHARGING MAY BETOWED, STATION, CHARGING\nC. E, STATIDN, VEHICLES NOT CHARGING MAY BETOWED, CHARGING, V, ELECTRIC VEHICLE USE, ONLY WHILE ACTIVELY\nD. DNLY WHILE ACTIVELY, CHARGING, E, V, ELECTRIC VEHICLE USE, STATION, CHARGING",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ELECTRIC VEHICLE USE, CHARGING, CHARGING, V, STATION, VEHICLES NOT CHARGING MAY BETOWED' located within the area [[976.6522967784208, 328.3151006507933], [1422.4828664467127, 328.3151006507933], [1422.4828664467127, 829.8753827613912], [976.6522967784208, 829.8753827613912]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[987, 322], [1433, 322], [1433, 824], [987, 824]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area marked by [[968,468], [1287,463], [1286,532], [968,536]], part of the word(s) \"____ATION\" is missing. Can you identify it?",
+              "answer": "ST"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[987, 400], [1433, 400], [1433, 824], [987, 824]]. Options:\nA. V, STATION, ELECTRIC VEHICLE USE, CHARGING, CHARGING\nB. CHARGING, CHARGING, ONLY WHILE ACTIVELY, FLECTRIC VEHICLE USE, STATION\nC. STATION, CHARGING, VEHICLES NOT CHARGING MAY BETOWED, CHARGING, E\nD. CHARGING, CHARGING, STATION, ONLY WHILE ACTIVELY, ELECTRIC VEHICLE USE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ONLY WHILE ACTIVELY, CHARGING, STATION, CHARGING, VEHICLES NOT CHARGING MAY BETOWED, V' located within the area [[986.7440398976869, 322.19889269972293], [1432.5746095659788, 322.19889269972293], [1432.5746095659788, 823.7591748103207], [986.7440398976869, 823.7591748103207]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[994, 316], [1444, 316], [1444, 811], [994, 811]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the specified coordinates [[980,151], [1006,150], [1006,179], [981,178]], there is a character(s) missing in \"____\". Could you identify and fill in the blank?",
+              "answer": "V"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[994, 393], [1444, 393], [1444, 811], [994, 811]]. Options:\nA. ELECTRIC VEHICLE USE, VEHICLES NOT CHARGING MAY BETOWED, ONLY WHILE ACTIVELY, STATION\nB. CHARGING, CHARGING, E, STATION, ELECTRIC VEHICLE USE\nC. ELECTRIC VEHICLE USE, STATION, ONLY WHILE ACTIVELY, CNARGING, VEHICLES NOT CHARGING MAY BETOWED\nD. CHARGING, CHARGING, STATION, FLECTRIC VEHICLE USE, VEHICLES NOT CHARGING MAY BETOWED",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ELECTRIC VEHICLE USE, V, CHARGING, VEHICLES NOT CHARGING MAY BETOWED, STATION, CHARGING, ONLY WHILE ACTIVELY, F' located within the area [[993.6884843421315, 315.53222603305625], [1444.397102790911, 315.53222603305625], [1444.397102790911, 811.401451233084], [993.6884843421315, 811.401451233084]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[1002, 311], [1452, 311], [1452, 806], [1002, 806]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the text at coordinates [[666,394], [1031,400], [1029,450], [664,442]] and fill in the missing letter(s) in \"EL____IC VEHICLE USE\".",
+              "answer": "ECTR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, select the correct option that contains the text(s) located within [[1002, 388], [1452, 388], [1452, 806], [1002, 806]]. Options:\nA. ELECTRIC VEHICLE USE, CHARGING, CHARGING, STATION, DNLY WHILE ACTIVELY\nB. E, VEHICLES NOT CHARGING MAY BETOWED, ONLY WHILE ACTIVELY, ELECTRIC VEHICLE USE, CHARGING\nC. CHARGING, VEHICLES NOT CHARGING MAY BETOWED, STATION, FLECTRIC VEHICLE USE, ONLY WHILE ACTIVELY\nD. ELECTRIC VEHICLE USE, CHARGING, VEHICLES NOT CHARGING MAY BETOWED, CHARGING, ONLY WHILE ACTIVELY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'V, STATION, CHARGING, ELECTRIC VEHICLE USE, VEHICLES NOT CHARGING MAY BETOWED, CHARGING' located within the area [[1001.7440398976871, 310.53222603305625], [1452.4526583464667, 310.53222603305625], [1452.4526583464667, 806.4014512330837], [1001.7440398976871, 806.4014512330837]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[1010, 308], [1461, 308], [1461, 804], [1010, 804]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Identify the missing portion in the phrase \"ONLY WH____ ACTIVELY\" located at coordinates [[651,433], [1005,441], [1002,490], [650,482]].",
+              "answer": "ILE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[1010, 385], [1461, 385], [1461, 804], [1010, 804]]. Options:\nA. CHARGING, E, VEHICLES NOT CHARGING MAY BETOWED, ELECTRIC VEHICLE USE, STATION\nB. STATION, ELECTRIC VEHICLE USE, VEHICLES NOT CHARGING MAY BETOWED, ONLY WHILE ACTIVELY\nC. STATION, ONLY WHILE ACTIVELY, VEHICLES NOT CHARGING MAY BETOWED, ELECTRIC VEHICLE USE, CNARGING\nD. CHARGING, FLECTRIC VEHICLE USE, VEHICLES NOT CHARGING MAY BETOWED, CHARGING, ONLY WHILE ACTIVELY",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'E, CHARGING, STATION, CHARGING, ONLY WHILE ACTIVELY, ELECTRIC VEHICLE USE' located within the area [[1010.2108591196552, 307.7862306097153], [1460.9194775684348, 307.7862306097153], [1460.9194775684348, 803.6554558097425], [1010.2108591196552, 803.6554558097425]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[1018, 303], [1469, 303], [1469, 798], [1018, 798]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the specified location [[396,368], [761,374], [758,424], [394,416]], part of the phrase is missing: \"ELECTRIC VEHICLE U____\". Can you complete it?",
+              "answer": "SE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option accurately represents the text(s) found within [[1018, 380], [1469, 380], [1469, 798], [1018, 798]]? Please choose the correct answer. Options:\nA. VEHICLES NOT CHARGING MAY BETOWED, CHARGING, ELECTRIC VEHICLE USE, ONLY WHILE ACTIVELY, E\nB. DNLY WHILE ACTIVELY, CHARGING, CHARGING, ELECTRIC VEHICLE USE, STATION\nC. ELECTRIC VEHICLE USE, CHARGING, VEHICLES NOT CHARGING MAY BETOWED, CHARGING, ONLY WHILE ACTIVELY\nD. CNARGING, ELECTRIC VEHICLE USE, STATION, VEHICLES NOT CHARGING MAY BETOWED, ONLY WHILE ACTIVELY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'V, ONLY WHILE ACTIVELY, E, VEHICLES NOT CHARGING MAY BETOWED, ELECTRIC VEHICLE USE' located within the area [[1017.988636897433, 302.60104542453007], [1468.6972553462126, 302.60104542453007], [1468.6972553462126, 798.470270624557], [1017.988636897433, 798.470270624557]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[1028, 299], [1478, 299], [1478, 795], [1028, 795]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[1028, 376], [1478, 376], [1478, 795], [1028, 795]]. Options:\nA. STATION, ONLY WHILE ACTIVELY, ELECTRIC VEHICLE USE, CNARGING, VEHICLES NOT CHARGING MAY BETOWED\nB. VEHICLES NOT CHARGING MAY BETOWED, FLECTRIC VEHICLE USE, ONLY WHILE ACTIVELY, CHARGING, CHARGING\nC. VEHICLES NOT CHARGING MAY BETOWED, STATION, CHARGING, E, ONLY WHILE ACTIVELY\nD. CHARGING, CHARGING, ONLY WHILE ACTIVELY, ELECTRIC VEHICLE USE, VEHICLES NOT CHARGING MAY BETOWED",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ELECTRIC VEHICLE USE, ONLY WHILE ACTIVELY, STATION, V, VEHICLES NOT CHARGING MAY BETOWED' located within the area [[1027.5604253105314, 298.8227078930439], [1478.269043759311, 298.8227078930439], [1478.269043759311, 794.6919330930709], [1027.5604253105314, 794.6919330930709]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0199/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0199/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is the word(s) located within [[1036, 298], [1488, 298], [1488, 791], [1036, 791]]? The word(s) is/are ________.",
+              "answer": [
+                "CHARGING",
+                "STATION",
+                "ELECTRIC VEHICLE USE",
+                "ONLY WHILE ACTIVELY",
+                "CHARGING",
+                "VEHICLES NOT CHARGING MAY BETOWED",
+                "E",
+                "V"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text delimited by the coordinates [[384,405], [411,404], [411,434], [385,434]], what character(s) completes the partial word(s) \"____\"?",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) located within [[1036, 298], [1488, 298], [1488, 791], [1036, 791]]. Options:\nA. VEHICLES NOT CHARGING MAY BETOWED, ONLY WHILE ACTIVELY, OHARGING, E, V, ELECTRIC VEHICLE USE, STATION\nB. E, GHARGING, ONLY WHILE ACTIVELY, V, VEHICLES NOT CHARGING MAY BETOWED, STATION, ELECTRIC VEHICLE USE\nC. ELECTRIC VEHICLE USE, E, VEHICLES NOT CHARGING MAY BETOWED, CNARGING, ONLY WHILE ACTIVELY, V, STATION\nD. CHARGING, V, CHARGING, STATION, VEHICLES NOT CHARGING MAY BETOWED, ELECTRIC VEHICLE USE, ONLY WHILE ACTIVELY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'FLECTRIC VEHICLE USE, V, CHARGING, CHARGING, STATION, E, VEHICLES NOT CHARGING MAY BETOWED, ONLY WHILE ACTIVELY' located within the area [[1035.8937586438647, 298.26715233748837], [1487.8144983047655, 298.26715233748837], [1487.8144983047655, 790.5000139011516], [1035.8937586438647, 790.5000139011516]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0199"
+  }
+]

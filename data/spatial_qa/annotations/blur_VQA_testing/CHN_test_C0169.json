@@ -1,0 +1,492 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are located within the bounding box [[436, 112], [1370, 112], [1370, 900], [436, 900]]? The answer is ________.",
+              "answer": [
+                "Van Cleef & Arpels",
+                "东",
+                "E",
+                "大阮府胡同",
+                "DARUANFU HUTONG",
+                "西",
+                "W"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the bounding box coordinates [[436,112], [1363,197], [1370,346], [440,269]], identify the exquisite brand where the fifth character(s) is missing: Van Cl____f & Arpels.",
+              "answer": "ee"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[436, 112], [1370, 112], [1370, 900], [436, 900]]. Options:\nA. E, Van Cleef & Arpels, 大阮府胡同, 不, DARUANFU HUTONG, W\nB. 西, 大阨府胡同, W, E, DARUANFU HUTONG, 东\nC. 东, E, 大阮府胡同, 西, Van Cleef & Arpels, W\nD. 大阮府胡同, 西, W, F, 东, Van Cleef & Arpels",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'DARUANFU HUTONG, 大阮府胡同, E, W' located within the bounding box [[473, 656], [1268, 656], [1268, 900], [473, 900]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) found in the region [[436, 112], [1370, 112], [1370, 900], [436, 900]]? The answer is ________.",
+              "answer": [
+                "Van Cleef & Arpels",
+                "东",
+                "E",
+                "大阮府胡同",
+                "DARUANFU HUTONG",
+                "西",
+                "W"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the location specified by the bounding box [[580,768], [1156,780], [1158,857], [580,852]], identify the street name where the second character(s) is missing: D____UANFU HUTONG.",
+              "answer": "AR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[473, 656], [1268, 656], [1268, 900], [473, 900]]. Options:\nA. 大阮府胡同, 覀, DARUANFU HUTONG, W, 东\nB. E, W, 大阮府胡同, 东, DARUANEU HUTONG\nC. DARUANFU HUTONG, E, W, 东, 西\nD. E, DARUANFU HUTONG, 东, 大阮府胡同, Van Cleef & Arpels",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Van Cleef & Arpels, E, 东, 西, DARUANFU HUTONG, W, 大阮府胡同' fall within the bounding box [[473, 656], [1268, 656], [1268, 900], [473, 900]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) present in the bounding box [[436, 112], [1370, 112], [1370, 346], [436, 346]]? The answer is ________.",
+              "answer": [
+                "Van Cleef & Arpels"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the context of this scene and located within the bounding box [[451,718], [513,719], [512,791], [451,791]], identify the letter(s) ____.",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text(s) present in the region [[436, 112], [1370, 112], [1370, 900], [436, 900]] of the entire image? Please choose the correct answer. Options:\nA. W, 西, 不, 大阮府胡同, Van Cleef & Arpels, DARUANFU HUTONG\nB. 东, 大阮府胡同, E, 西, Van Cleef & Arpels, W\nC. 西, Van Cleef & Arpels, 专, W, E, DARUANFU HUTONG\nD. Van Cleef & Arpels, E, DARUANFU HUTONG, V, 大阮府胡同, 西",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '西, 大阨府胡同, Van Cleef & Arpels, 东, W, E, DARUANFU HUTONG' contained within the bounding box [[436.2237762237762, 111.8881118881119], [1369.7014925373135, 111.8881118881119], [1369.7014925373135, 899.8425196850393], [436.2237762237762, 899.8425196850393]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) inside the bounding box [[430, 103], [1363, 103], [1363, 891], [430, 891]] is/are ________.",
+              "answer": [
+                "Van Cleef & Arpels",
+                "东",
+                "E",
+                "大阮府胡同",
+                "DARUANFU HUTONG",
+                "西",
+                "W"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the scene, find the missing letter(s) within the coordinates [[437,710], [499,712], [498,784], [437,783]] in the sequence: \"____\".",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, which option contains the text(s) located within [[466, 647], [1262, 647], [1262, 891], [466, 891]]? Please choose the correct option. Options:\nA. DARUANFU HUTONG, 西, 大阨府胡同, W, E\nB. 东, Van Cleef & Arpels, 大阮府胡同, 西, W\nC. 东, 大阮府胡同, W, E, 覀\nD. 东, W, DARUANFU HUTONG, E, 西",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '东, W, Van Cleef & Arpels, 西, E, DARUANFU HUTONG, 大阨府胡同' located within the bounding box [[429.9737762237762, 103.1381118881119], [1363.4514925373135, 103.1381118881119], [1363.4514925373135, 891.0925196850393], [429.9737762237762, 891.0925196850393]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) contained in the region [[427, 98], [1361, 98], [1361, 332], [427, 332]] is/are ________.",
+              "answer": [
+                "Van Cleef & Arpels"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the coordinate range of [[625,966], [712,966], [712,1004], [624,1004]], can you complete the luxury brand name that is shown as: ____pels?",
+              "answer": "Ar"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) found within [[427, 98], [1361, 98], [1361, 886], [427, 886]] from the entire image. Options:\nA. 大阮府胡同, 西, E, 东, W, Van Cleef & Arpels\nB. 大阮府胡同, W, Van Cleef & Arpels, DARUANEU HUTONG, E, 东\nC. 东, 西, W, Van Cleef & Arpels, 大阮府胡同, B\nD. Van Cleef & Arpels, F, 大阮府胡同, 西, DARUANFU HUTONG, W",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'W, 西, E, 大阮府胡同, 东, Van Cleef & Arpels, DARUANFU HUTONG' located within the bounding box [[464, 642], [1259, 642], [1259, 886], [464, 886]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) located in the area [[463, 638], [1258, 638], [1258, 882], [463, 882]] is/are ________.",
+              "answer": [
+                "东",
+                "E",
+                "大阮府胡同",
+                "DARUANFU HUTONG",
+                "西",
+                "W"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the text located within the bounding box [[551,878], [575,879], [574,905], [551,904]] and supply the missing letter(s) in this sequence: \" ____ \".",
+              "answer": "a"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) located within [[463, 638], [1258, 638], [1258, 882], [463, 882]]. Options:\nA. E, Van Cleef & Arpels, 东, 大阮府胡同, W\nB. E, 东, W, 覀, DARUANFU HUTONG\nC. W, 大阮府胡同, 西, DARUANFU HUTONG, E\nD. 覀, W, E, DARUANFU HUTONG, 大阮府胡同",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'DARUANFU HUTONG, E, Van Cleef & Arpels, W, 东, 大阨府胡同, 西' located within the bounding box [[426.2237762237762, 94.3881118881119], [1359.7014925373135, 94.3881118881119], [1359.7014925373135, 882.3425196850393], [426.2237762237762, 882.3425196850393]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) found in the area [[422, 94], [1356, 94], [1356, 882], [422, 882]] is/are ________.",
+              "answer": [
+                "Van Cleef & Arpels",
+                "东",
+                "E",
+                "大阮府胡同",
+                "DARUANFU HUTONG",
+                "西",
+                "W"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在给定的坐标 [[1049,620], [1122,623], [1124,707], [1051,705]] 内的小部分为 \"____\"，请填入正确的汉字符。",
+              "answer": "西"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, which option contains the text(s) located within [[459, 638], [1254, 638], [1254, 882], [459, 882]]? Please choose the correct option. Options:\nA. 大阮府胡同, E, W, 西, DARUANFU HUTONG\nB. 大阮府胡同, 西, DARUANFU HUTONG, F, 东\nC. E, 西, V, 东, 大阮府胡同\nD. W, 西, Van Cleef & Arpels, E, 东",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '西, E, 大阮府胡同, DARUANFU HUTONG' located within the bounding box [[459, 638], [1254, 638], [1254, 882], [459, 882]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) present in the area [[421, 88], [1355, 88], [1355, 1074], [421, 1074]]? The answer is ________.",
+              "answer": [
+                "Van Cleef & Arpels",
+                "东",
+                "E",
+                "大阮府胡同",
+                "DARUANFU HUTONG",
+                "西",
+                "W",
+                "Arpels"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the region defined by [[551,925], [575,926], [575,952], [551,951]], identify the missing character(s) in the sequence: \"____\".",
+              "answer": "a"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, which option contains the text(s) located within [[421, 88], [1355, 88], [1355, 1074], [421, 1074]]? Choose the correct option. Options:\nA. 大阮府胡同, Arpels, DARUANFU HUTONG, 东, Van Cleef & Arpels, E, W\nB. DARUANFU HUTONG, 西, Arpe1s, E, Van Cleef & Arpels, W, 东\nC. Van Cleef & Arpels, 东, 大阨府胡同, E, Arpels, 西, W\nD. Van Cleef & Arpels, 西, 大阮府胡同, E, DARUANFU HUTONG, Arpcls, 东",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '西, 大阮府胡同, E, 东, W' located within the bounding box [[458, 632], [1253, 632], [1253, 1074], [458, 1074]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) inside the area [[421, 83], [1355, 83], [1355, 317], [421, 317]] is/are ________.",
+              "answer": [
+                "Van Cleef & Arpels"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the area within the coordinates [[1819,987], [1878,987], [1884,1054], [1825,1054]]. What is the character(s) that completes this pattern: \"____\"?",
+              "answer": "王"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, which option contains the text(s) located within [[458, 627], [1253, 627], [1253, 1072], [458, 1072]]? Choose the correct option. Options:\nA. W, 大阮府胡同, 西, E, DARUANFU HUTONG, 不\nB. Arpels, E, W, 西, DARUANFU HUTONG, Van Cleef & Arpels\nC. 大阮府胡同, 东, DARUANFU HUTONG, W, 西, E\nD. DARUANFU HUTONG, 东, V, 西, 大阮府胡同, Arpels",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '大阮府胡同, 东, W, Arpels, 西, DARUANFU HUTONG, Van Cleef & Arpels, E' located within the bounding box [[458, 627], [1253, 627], [1253, 1072], [458, 1072]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within the bounding box [[455, 618], [1250, 618], [1250, 1067], [455, 1067]]? The answer is ________.",
+              "answer": [
+                "东",
+                "E",
+                "大阮府胡同",
+                "DARUANFU HUTONG",
+                "西",
+                "W",
+                "Arpels"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the coordinates [[971,820], [1026,819], [1027,885], [974,885]], determine the letter(s) that fills the blank to complete this sequence: \"____ ____ ____ ____ ____ \".",
+              "answer": "W"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, which option contains the text(s) located within [[419, 74], [1352, 74], [1352, 1067], [419, 1067]]? Choose the correct option. Options:\nA. 大阮府胡同, DARUANFU HUTONG, Van Cleef & Arpels, W, Arpels, 西, 东\nB. Arpels, DARUANFU HUTONG, Ven Cleef & Arpels, 大阮府胡同, 西, 东, E\nC. 大阮府胡同, Van Cleef & Arpels, Arpels, W, 东, DARUANEU HUTONG, 西\nD. 大阨府胡同, Van Cleef & Arpels, DARUANFU HUTONG, 东, Arpels, E, W",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'W, DARUANFU HUTONG, Van Cleef & Arpels, 大阮府胡同, E, 东' located within the bounding box [[418.7237762237762, 74.3881118881119], [1352.2014925373135, 74.3881118881119], [1352.2014925373135, 1067.0875139353398], [418.7237762237762, 1067.0875139353398]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within the bounding box [[693, 1024], [781, 1024], [781, 1062], [693, 1062]]? The answer is ________.",
+              "answer": [
+                "Arpels"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标 [[927,702], [1000,705], [1002,789], [929,787]]内，找出缺失的汉字符：\"____ \"。",
+              "answer": "西"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) located within [[454, 613], [1249, 613], [1249, 1062], [454, 1062]]. Options:\nA. W, E, DARUANFU HUTONG, 西, 东, Arpels\nB. DARUANFU HUTONG, V, E, 西, 东, 大阮府胡同\nC. E, 大阮府胡同, DARUANEU HUTONG, 西, W, Arpels\nD. W, Arpels, 西, Van Cleef & Arpels, E, 大阮府胡同",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'DARUANFU HUTONG, E, W, 西, 大阮府胡同, 东' located within the bounding box [[417.4737762237762, 69.3881118881119], [1350.9514925373135, 69.3881118881119], [1350.9514925373135, 1062.0875139353398], [417.4737762237762, 1062.0875139353398]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0169/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0169/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within the bounding box [[451, 611], [1247, 611], [1247, 1060], [451, 1060]]? The answer is ________.",
+              "answer": [
+                "东",
+                "E",
+                "大阮府胡同",
+                "DARUANFU HUTONG",
+                "西",
+                "W",
+                "Arpels"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, which option contains the text(s) located within [[415, 67], [1348, 67], [1348, 1060], [415, 1060]]? Choose the correct option. Options:\nA. Van Cleef & Arpels, Arpels, 东, 大阮府胡同, DARUANFU HUTONG, E, W\nB. F, 东, Arpels, 西, Van Cleef & Arpels, DARUANFU HUTONG, W\nC. 西, E, 东, DARUANFU HUTONG, Ven Cleef & Arpels, W, 大阮府胡同\nD. E, W, 东, 覀, Arpels, DARUANFU HUTONG, Van Cleef & Arpels",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '西, DARUANFU HUTONG, 大阮府胡同, 东, W, E, Van Cleef & Arpels, Arpels' located within the bounding box [[451, 611], [1247, 611], [1247, 1060], [451, 1060]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0169"
+  }
+]

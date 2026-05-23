@@ -1,0 +1,534 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1056, 34], [1917, 34], [1917, 749], [1056, 749]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "1号航站",
+                "微信购票的旅客",
+                "2号航",
+                "请出示证件和车票验票",
+                "发车区",
+                "请到柜台换票上车",
+                "母"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在以下的边界框内找到短语，并填空：请到柜台换票上____.",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[1056, 34], [1917, 34], [1917, 567], [1056, 567]]. Options:\nA. 发车区, 检票处, 1号航站\nB. 1号航站, 母, 发车匥\nC. 微信购票的旅客, 发车区, 检票处\nD. 凹, 1号航站, 检票处",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '检票处, 2号航, 发车区, 请出示证件和车票验票, 微信购票的旅客, 母, 请到柜台换票上车' located within the bounding box [[1056, 34], [1655, 34], [1655, 749], [1056, 749]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1056, 34], [1917, 34], [1917, 749], [1056, 749]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "1号航站",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "2号航",
+                "请出示证件和车票验票",
+                "母",
+                "发车区"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[1224,48], [1400,35], [1426,548], [1244,558]] 内查找，并填入缺失的字符母: 发车____",
+              "answer": "区"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[1056, 34], [1655, 34], [1655, 749], [1056, 749]]? Please choose the correct answer. Options:\nA. 发车匥, 检票处, 请到柜台换票上车, 请出示证件和车票验票, 母\nB. 2号航, 请出示证件和车票验票, 微信购票的旅客, 母, 请到柜台换票上车\nC. 微信购票的旅客, 请到柜台换票上车, 母, 发车区, 请出示证件和车票验票\nD. 请出示证件和车票验票, 母, 检票处, 微信购票的旅客, 1号航站",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '母, 1号航站, 检票处, 2号航, 请到柜台换票上车, 请出示证件和车票验票' located within the bounding box [[1056.1483679525224, 34.0], [1917.0243902439026, 34.0], [1917.0243902439026, 749.0], [1056.1483679525224, 749.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be found in the region [[1056, 34], [1918, 34], [1918, 749], [1056, 749]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "1号航站",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "2号航",
+                "请出示证件和车票验票",
+                "发车区",
+                "母"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请查看边界框 [[1141,201], [1160,200], [1161,223], [1141,223]] 内的文字符，并填入缺失的文字符：____",
+              "answer": "母"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1193, 34], [1918, 34], [1918, 749], [1193, 749]]? Please choose the correct answer. Options:\nA. 请出示证件和车票验票, 请到柜台换票上车, 发车区, 2号航, 微信购票的旅客, 检票处\nB. 请到柜台换票上车, 请出示证件和车票验票, 检票处, 2号航, 徴信购票的旅客, 发车区\nC. 1号航站, 请刯柜台换票上车, 微信购票的旅客, 检票处, 发车区, 2号航\nD. 1号航站, 发车区, 检票处, 2号航, 母, 微信购票的旅客",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '请出示证件和车票验票, 发车区, 检票处, 请到柜台换票上车, 2叧航, 微信购票的旅客, 1号航站, 母' fall within the bounding box [[1056.3483679525225, 34.0], [1917.837398373984, 34.0], [1917.837398373984, 749.0], [1056.3483679525225, 749.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are present in the bounding box [[1058, 28], [1919, 28], [1919, 749], [1058, 749]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "1号航站",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "2号航",
+                "请出示证件和车票验票",
+                "发车区",
+                "母"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[1338,628], [1699,619], [1701,672], [1337,682]] 中找到合适的词，填补：请到____换票上车",
+              "answer": "柜台"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1058, 28], [1655, 28], [1655, 749], [1058, 749]]? Please choose the correct answer. Options:\nA. 母, 请到柜台换票上车, 请出示证件和车票验票, 2号航, 发车区\nB. 检票处, 微信购票的旅客, 请出示证件和车票验票, 1号航站, 请到柜台换票上车\nC. 请到柜台换票上车, 发车区, 请出示证件和车票验票, 微信购票的旅客, 检票处\nD. 请到柜台换票上车, 发车匥, 检票处, 请出示证件和车票验票, 母",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '1号航站, 发车区, 请到柜台换票上车, 母, 2号航, 微信购票的旅客' contained within the bounding box [[1057.6483679525224, 27.75], [1918.8, 27.75], [1918.8, 749.0], [1057.6483679525224, 749.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are visible in the area [[1059, 28], [1920, 28], [1920, 749], [1059, 749]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "请出示证件和车票验票",
+                "发车区",
+                "母",
+                "2号航",
+                "1号航站"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[1269,56], [1446,48], [1472,559], [1293,568]] 内的文字符中，将缺失的部分补全：____车区",
+              "answer": "发"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1059, 28], [1655, 28], [1655, 749], [1059, 749]]? Please choose the correct answer. Options:\nA. 母, 发车区, 微信购票的旅客, 请出示证仹和车票验票, 请到柜台换票上车\nB. 微信购票的旅客, 请到柜台换票上车, 检票处, 2号航, 母\nC. 请出示证件和车票验票, 请到柜台换票上车, 发车匥, 母, 检票处\nD. 请到柜台换票上车, 发车区, 微信购票的旅客, 请出示证件和车票验票, 母",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '请刯柜台换票上车, 1号航站, 发车区, 微信购票的旅客, 2号航, 母, 请出示证件和车票验票, 检票处' located within the bounding box [[1059.2407246404205, 27.75], [1920.0, 27.75], [1920.0, 749.0], [1059.2407246404205, 749.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1063, 25], [1906, 25], [1906, 744], [1063, 744]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "请出示证件和车票验票",
+                "发车区",
+                "母",
+                "1号航",
+                "2号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在边界框 [[1263,73], [1440,65], [1466,576], [1287,585]] 内找出缺失的文字符并填入：发____区",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1063, 25], [1906, 25], [1906, 559], [1063, 559]]? Please choose the correct answer. Options:\nA. 检票处, 发车区, 母\nB. 发车区, 梲票处, 1号航\nC. 1号航, 发车区, 梲票处\nD. 微信购票的旅客, 1号航, 检票处",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '1号航, 2号, 请出示证件和车票验票, 微信购票的旅客, 发车区' located within the bounding box [[1205, 25], [1906, 25], [1906, 744], [1205, 744]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1068, 25], [1911, 25], [1911, 744], [1068, 744]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "请出示证件和车票验票",
+                "发车区",
+                "母",
+                "1号航",
+                "2号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[1305,598], [1625,584], [1628,637], [1303,651]] 内寻找，填入缺失部分：____购票的旅客",
+              "answer": "微信"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1068, 25], [1911, 25], [1911, 559], [1068, 559]]? Please choose the correct answer. Options:\nA. 1号航, 发车区, 梲票处\nB. 母, 发车匥, 检票处\nC. 母, 检票处, 微信购票的旅客\nD. 检票处, 1号航, 母",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '发车区, 请出示证件和车票验票, 2号, 请到柜台换票上车, 微信购票的旅客' located within the bounding box [[1206, 25], [1911, 25], [1911, 744], [1206, 744]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1071, 25], [1914, 25], [1914, 744], [1071, 744]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "请出示证件和车票验票",
+                "1号航",
+                "2号",
+                "母",
+                "发车区"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[1818,284], [1907,277], [1909,297], [1819,305]] 中找到正确的词语，并填空：1号航____",
+              "answer": "站楼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[1071, 25], [1668, 25], [1668, 744], [1071, 744]]? Please choose the correct answer. Options:\nA. 请到柜台换票上车, 请出示证仹和车票验票, 发车区, 母, 检票处\nB. 请出示证件和车票验票, 微信购票的旅客, 发车区, 检票处, 请到柜台换票上车\nC. 1号航, 发车区, 请到柜台换票上车, 母, 检票处\nD. 请到柜台换票上车, 凹, 发车区, 微信购票的旅客, 请出示证件和车票验票",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '请到柜台换票上车, 凹, 请出示证件和车票验票, 1号航, 发车区, 微信购票的旅客, 检票处, 2号' located within the bounding box [[1071.314575944528, 24.625], [1914.3006371841573, 24.625], [1914.3006371841573, 744.3125], [1071.314575944528, 744.3125]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1075, 25], [1918, 25], [1918, 743], [1075, 743]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "请出示证件和车票验票",
+                "1号航",
+                "2号",
+                "母",
+                "发车区"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请观察边界框 [[1169,12], [1311,3], [1316,28], [1174,35]] 中的内容，并填写缺失部分：中山____机楼",
+              "answer": "侯"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[1075, 25], [1680, 25], [1680, 743], [1075, 743]]? Please choose the correct answer. Options:\nA. 微信购票的旅客, 请到柜台换票上车, 2号, 请出示证件和车票验票, 发车区\nB. 检票处, 请出示证件和车票验票, 1号航, 母, 微信购票的旅客\nC. 发车区, 母, 微信购票的旅客, 请到柜台换票上车, 请出示证件和车票验票\nD. 请出示证件和车票验票, 请到柜台换票上车, 微信购票的旅客, 检票处, 发车匥",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '母, 请到柜台换票上车, 检票处, 2号, 请出示证件和车票验票, 微信购票的旅客, 发车匥, 1号航' located within the bounding box [[1074.7523919202613, 24.625], [1917.8006371841573, 24.625], [1917.8006371841573, 742.75], [1074.7523919202613, 742.75]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1080, 25], [1904, 25], [1904, 743], [1080, 743]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "请出示证件和车票验票",
+                "母",
+                "发车区",
+                "2",
+                "1号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在边界框 [[1665,353], [1799,343], [1799,372], [1665,379]] 中找到正确字符词，完成句子：1号航____（T1）",
+              "answer": "站楼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1080, 25], [1903, 25], [1903, 558], [1080, 558]]? Please choose the correct answer. Options:\nA. 凹, 检票处, 发车区\nB. 发车区, 1号, 检票处\nC. 检票处, 微信购票的旅客, 发车区\nD. 发车区, 1号, 梲票处",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '发车区, 母, 请出示证件和车票验票, 请到柜台换票上车, 微信购票的旅客, 2' located within the bounding box [[1079.8080036492806, 24.625], [1904.5, 24.625], [1904.5, 742.75], [1079.8080036492806, 742.75]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1218, 25], [1910, 25], [1910, 738], [1218, 738]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "请出示证件和车票验票",
+                "发车区",
+                "2",
+                "1号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请查看边界框 [[1010,732], [1376,715], [1379,771], [1010,785]] 中的内容，并在空格处填写缺失的字符符：请到柜台换票上____",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1218, 25], [1910, 25], [1910, 738], [1218, 738]]? Please choose the correct answer. Options:\nA. 2, 请出示证件和车票验票, 1号, 发车匥, 微信购票的旅客, 检票处\nB. 发车区, 1号, 2, 请出示证件和车票验票, 请到柜台换票上车, 梲票处\nC. 请出示证件和车票验票, 1号, 请到柜台换票上车, 2, 微信购票的旅客, 检票处\nD. 2, 发车区, 1号, 请到柜台换票上车, 母, 微信购票的旅客",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '请到柜台换票上车, 微信购票的旅客, 母, 检票处, 发车区, 2' located within the bounding box [[1084.1080036492806, 24.625], [1909.7, 24.625], [1909.7, 738.0625], [1084.1080036492806, 738.0625]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0269/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0269/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[1090, 20], [1917, 20], [1917, 736], [1090, 736]]? The answer is ________.",
+              "answer": [
+                "检票处",
+                "微信购票的旅客",
+                "请到柜台换票上车",
+                "请出示证件和车票验票",
+                "母",
+                "发车区",
+                "2",
+                "1号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "问题：请查看边界框 [[1873,534], [1918,534], [1918,559], [1873,558]] 内的信息，并填入缺少的字符符：____州",
+              "answer": "广"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[1090, 20], [1915, 20], [1915, 617], [1090, 617]]? Please choose the correct answer. Options:\nA. 1号, 发车区, 微信购票的旅客, 母\nB. 微信购票的旅客, 请到柜台换票上车, 检票处, 1号\nC. 1号, 微信购票的旅客, 检票处, 凹\nD. 检票处, 凹, 发车区, 1号",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '发车区, 检票处, 母, 2, 1号, 请到柜台换票上车' located within the bounding box [[1090.3080036492806, 19.93749999999997], [1916.8999999999999, 19.93749999999997], [1916.8999999999999, 736.5], [1090.3080036492806, 736.5]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0269"
+  }
+]

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Evaluation outputs (never commit)
+outputs/
+results/
+*.json.bak
+logs/
+*.log
+
+# Model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Large data (images/videos — hosted on HuggingFace)
+data/spatial_qa/images/
+data/temporal_qa/images/
+data/temporal_qa/videos/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

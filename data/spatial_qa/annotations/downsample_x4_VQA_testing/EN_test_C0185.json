@@ -1,0 +1,546 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are located within the region defined by [[790, 90], [1763, 90], [1763, 858], [790, 858]]? ________",
+              "answer": [
+                "Parking",
+                "Prohibited",
+                "515792",
+                "RESERVED",
+                "Parking",
+                "Commercial",
+                "Vehicle",
+                "Loading",
+                "ONLY",
+                "Ride",
+                "Share/Food",
+                "Delivery",
+                "06032X3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the given scene at coordinates [[834,572], [1066,570], [1068,634], [833,636]], a key term used pertains to establishments for trade, partially hidden as \"Comm____cial\". Can you identify the missing portion?",
+              "answer": "er"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[790, 251], [1259, 251], [1259, 858], [790, 858]]. Options:\nA. Commercial, Parking, Delivery, ONLY, Ride, Share/Food, Loading, Parking, Prohibited, Vehicle\nB. Prohibited, Ride, ONLY, Parking, Delivery, PESERVED, Loading, Share/Food, Parking, Commercial\nC. Vehicle, 515792, Delivery, Ride, Commercial, Loading, Parking, ONLY, RESERVED, Parking\nD. Loading, Vehicle, Parking, Delivery, RESERVED, Commercial, ONLY, Ride, Sbare/Food, Parking",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Loading, Share/Food, Darking, 515792, 06032X3, Vehicle, Ride, ONLY, Commercial' located within the bounding box [[790.2816901408451, 89.69957081545064], [1762.7817529877934, 89.69957081545064], [1762.7817529877934, 858.0], [790.2816901408451, 858.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can be found in the bounding box [[790, 251], [1770, 251], [1770, 861], [790, 861]]? ________",
+              "answer": [
+                "Parking",
+                "Prohibited",
+                "RESERVED",
+                "Parking",
+                "Commercial",
+                "Vehicle",
+                "Loading",
+                "ONLY",
+                "Ride",
+                "Share/Food",
+                "Delivery",
+                "06032X3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign in the scene located at coordinates [[823,258], [1280,259], [1274,412], [814,410]] reads \"RESER____D\". Can you determine the missing part?",
+              "answer": "VE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct answer that includes the text(s) found within [[790, 251], [1770, 251], [1770, 861], [790, 861]]. Options:\nA. Leading, 06032X3, RESERVED, Prohibited, Commercial, Parking, Delivery, Ride, Vehicle, ONLY\nB. RESERVED, Ride, Delivery, Parking, Loading, Commercial, Parking, Share/Food, 515792, Vehicle\nC. Share/Food, 06032X3, Commercial, Vehicle, Rarking, Ride, RESERVED, Delivery, Prohibited, ONLY\nD. RESERVED, Commercial, Share/Food, ONLY, Ride, Loading, Prohibited, Parking, 06032X3, Parking",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'ONLY, 515792, Ride, Parking, RESERVED, Sbare/Food, 06032X3, Delivery, Vehicle, Loading' contained within the bounding box [[790.2816901408451, 89.69957081545064], [1770.3179848718514, 89.69957081545064], [1770.3179848718514, 860.8901734104046], [790.2816901408451, 860.8901734104046]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are present in the area [[795.8223269578559, 89.69957081545064], [1776.8539325842696, 89.69957081545064], [1776.8539325842696, 861.6683835271361], [795.8223269578559, 861.6683835271361]]? The word(s) is/are ________.",
+              "answer": [
+                "Prohibited",
+                "515792",
+                "RESERVED",
+                "Parking",
+                "Commercial",
+                "Vehicle",
+                "Loading",
+                "ONLY",
+                "Ride",
+                "Share/Food",
+                "Delivery",
+                "Parking",
+                "06032X3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Observing the area demarcated by the coordinates [[862,639], [1023,638], [1022,715], [862,712]], what word(s) completes \"Loa____g\"?",
+              "answer": "din"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) present in the area [[796, 242], [1262, 242], [1262, 862], [796, 862]]? Please choose the correct answer. Options:\nA. Parking, Prohibited, Share/Food, RESERVED, Vehicle, Commercial, 06032X3, Delivery, Parking, Ride\nB. 515792, Parking, ONLY, Prohibited, Parking, Vehicle, Share/Food, Delivery, Commercial, Ride\nC. Parking, Vehicle, ONLY, Prohibited, Parking, Ride, RESERVED, Delivery, Share/Food, Commercial\nD. Share/Food, Loading, ONLY, Ride, Prohibited, Parking, RESERVED, Vehicle, Delivcry, Parking",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Darking, Vehicle, Prohibited, Delivery, Share/Food, Loading, Commercial, ONLY, RESERVED' fall within the bounding box [[795.8223269578559, 89.69957081545064], [1776.8539325842696, 89.69957081545064], [1776.8539325842696, 861.6683835271361], [795.8223269578559, 861.6683835271361]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[1343.7483350599377, 93.1478466775196], [1464.3491934290366, 93.1478466775196], [1464.3491934290366, 135.2079325144294], [1343.7483350599377, 135.2079325144294]]? The word(s) is/are ________.",
+              "answer": [
+                "515792"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the coordinates [[1117,88], [1233,93], [1234,130], [1114,125]], identify the missing part of the numerical sequence \"5____792\".",
+              "answer": "15"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that contains the text(s) located within [[793, 93], [1464, 93], [1464, 867], [793, 867]]. Options:\nA. Delivery, Parking, Share/Food, RESERVED, 06032X3, Loading, Prohibited, Commercial, Ride, Vehicle\nB. Delivery, Commercial, Vehicle, Prohibited, ONLY, PESERVED, Ride, Share/Food, 515792, Parking\nC. Ride, Parking, Loading, Prohibited, 515792, RESERVED, Delivery, Share/Food, ONLY, Parking\nD. Ride, ONLY, Loading, Delivery, RESERVED, Share/Food, Parking, Prohibited, Commeroial, Parking",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Commercial, Delivery, Prohibited, ONLY, Parking, Vehicle, Loading, 06032X3, Ride, Share/Food' located within the bounding box [[793.0985915492956, 93.1478466775196], [1783.4714081602071, 93.1478466775196], [1783.4714081602071, 866.5603112840467], [793.0985915492956, 866.5603112840467]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[1345.5082173139328, 96.04103423008479], [1466.1090756830317, 96.04103423008479], [1466.1090756830317, 138.10112006699478], [1345.5082173139328, 138.10112006699478]]? The word(s) is/are ________.",
+              "answer": [
+                "515792"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the visual scene described, at the coordinates [[868,720], [1095,694], [1099,752], [874,780]], there's a sign featuring a phrase with a missing component: \"S____e/Food\". Can you supply the missing letter(s)?",
+              "answer": "har"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) found within [[797, 249], [1790, 249], [1790, 869], [797, 869]]? Please choose the correct answer. Options:\nA. Parking, Ride, Commercial, Prohibited, 515792, ONLY, 06032X3, Share/Food, Loading, Vehicle\nB. Share/Food, Prohibitod, Delivery, Commercial, ONLY, RESERVED, Ride, 06032X3, Parking, Loading\nC. Delivery, Prohibited, Pide, Parking, Vehicle, RESERVED, ONLY, Loading, Parking, 06032X3\nD. Parking, Prohibited, RESERVED, ONLY, Commercial, Vehicle, Delivery, 06032X3, Ride, Share/Food",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'RESERVED, Commercial, 06032X3, Share/Food, Parking, ONLY, Parking, Ride, Loading, Prohibited' located within the bounding box [[797.4888354517348, 96.04103423008479], [1790.098826158525, 96.04103423008479], [1790.098826158525, 869.219512195122], [797.4888354517348, 869.219512195122]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[798.0865681896257, 97.20834940518208], [1795.9354020340115, 97.20834940518208], [1795.9354020340115, 871.1650374869508], [798.0865681896257, 871.1650374869508]]? The word(s) is/are ________.",
+              "answer": [
+                "Parking",
+                "Prohibited",
+                "515792",
+                "RESERVED",
+                "Parking",
+                "Commercial",
+                "Vehicle",
+                "Loading",
+                "ONLY",
+                "Ride",
+                "Share/Food",
+                "Delivery",
+                "06032X3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Referencing the coordinates [[777,457], [1127,434], [1132,553], [790,586]], identify the missing letter(s) in this word(s): \"Par____g\".",
+              "answer": "kin"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct answer that includes the text(s) located within [[798, 97], [1472, 97], [1472, 871], [798, 871]]. Options:\nA. Loading, Delivery, Parking, Commercial, DNLY, Prohibited, 515792, Parking, Vehicle, RESERVED\nB. Ride, Vehicle, Loading, Parking, RESERVED, 06032X3, ONLY, 515792, Share/Food, Parking\nC. 515792, ONLY, Prohibited, Share/Food, Ride, Parking, Loading, RESERVED, Delivery, Commercial\nD. Vehiole, Parking, Ride, Delivery, Commercial, Loading, Parking, Prohibited, RESERVED, Share/Food",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Ride, ONLY, Delivery, RESERVED, Prohibited, 515792, Parking, Loading, Share/Food, Commercial' located within the bounding box [[798.0865681896257, 97.20834940518208], [1795.9354020340115, 97.20834940518208], [1795.9354020340115, 871.1650374869508], [798.0865681896257, 871.1650374869508]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[1354.5701459623788, 98.41316868229052], [1475.1710043314777, 98.41316868229052], [1475.1710043314777, 140.47325451920057], [1354.5701459623788, 140.47325451920057]]? The word(s) is/are ________.",
+              "answer": [
+                "515792"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the defined area at coordinates [[812,172], [929,176], [929,214], [809,208]], part of a number(s) is visible as \"51____2\". Can you provide the missing digit(s)?",
+              "answer": "579"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[798, 253], [1803, 253], [1803, 872], [798, 872]]. Options:\nA. ONLY, Ride, Delivery, Parking, Commercial, Vehicle, Loading, 06032X3, Prohibited, Parking\nB. ONLY, Loading, Parking, Ride, Prohibited, Share/Food, Vehicle, Delivcry, Commercial, 06032X3\nC. Vehicle, 515792, Delivery, Share/Food, 06032X3, Parking, Ride, Parking, RESERVED, ONLY\nD. Delivery, Prohibited, Commercial, Loading, Share/Food, Rarking, ONLY, Vehicle, Ride, RESERVED",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '06032X3, Commercial, Share/Food, Parking, Ride, Loading, Prohibited, Parking, RESERVED, Vehicle' located within the bounding box [[798, 253], [1803, 253], [1803, 872], [798, 872]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[804.6592851909143, 99.26132380349844], [1809.3952988045266, 99.26132380349844], [1809.3952988045266, 873.547703180212], [804.6592851909143, 873.547703180212]]? The word(s) is/are ________.",
+              "answer": [
+                "Parking",
+                "Prohibited",
+                "515792",
+                "RESERVED",
+                "Parking",
+                "Commercial",
+                "Vehicle",
+                "Loading",
+                "ONLY",
+                "Ride",
+                "Share/Food",
+                "Delivery",
+                "06032X3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[896,766], [1044,740], [1047,782], [901,811]], there's a word(s) missing a segment of its letter(s): \"Pr____bited\". What are the missing letter(s)?",
+              "answer": "ohi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[805, 99], [1482, 99], [1482, 874], [805, 874]]. Options:\nA. Parking, Vehicle, Loading, ONLY, Share/Food, Delivery, Ride, RESERVED, 515792, Prohibitod\nB. 06032X3, Commercial, Delivery, 515792, Loading, ONLY, Prohibited, Share/Food, Parking, Parking\nC. RESERVED, Ride, Vehicle, ONLY, Commercial, Delivery, Parking, Share/Food, Prohibited, 515792\nD. Pide, Loading, Prohibited, Parking, Parking, Share/Food, RESERVED, Vehicle, 515792, Delivery",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Loading, Delivery, Ride, ONLY, Vehiole, 515792, Parking, Share/Food, Parking, Commercial' located within the bounding box [[804.6592851909143, 99.26132380349844], [1809.3952988045266, 99.26132380349844], [1809.3952988045266, 873.547703180212], [804.6592851909143, 873.547703180212]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[804.6592851909143, 99.97391287713265], [1813.6708332463318, 99.97391287713265], [1813.6708332463318, 873.7655681039593], [804.6592851909143, 873.7655681039593]]? The word(s) is/are ________.",
+              "answer": [
+                "Parking",
+                "Prohibited",
+                "515792",
+                "RESERVED",
+                "Parking",
+                "Commercial",
+                "Vehicle",
+                "Loading",
+                "ONLY",
+                "Ride",
+                "Share/Food",
+                "Delivery",
+                "06032X3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign in the scene, located within the area defined by [[894,672], [1051,647], [1053,690], [896,715]], displays the phrase \"Sha____\". What letter(s) complete it?",
+              "answer": "re/Food"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[805, 258], [1814, 258], [1814, 874], [805, 874]]. Options:\nA. ONLY, Share/Food, Parking, Commercial, Loading, Parking, RESERVED, Ride, 06032X3, Vehicle\nB. 515792, Ride, Loading, Prohibited, RESERVED, Parking, Share/Food, Commercial, Vehicle, Parking\nC. Delivery, Ride, Loading, Share/Food, Vehicle, PESERVED, Commercial, ONLY, Parking, 06032X3\nD. Vehicle, Ride, Parking, ONLY, Loading, Sbare/Food, Delivery, Parking, 06032X3, RESERVED",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Delivery, Prohibited, 06032X3, Vehicle, Parking, 515792, Loading, Commercial, Share/Food, Ride' located within the bounding box [[805, 258], [1814, 258], [1814, 874], [805, 874]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[813.5481740798032, 99.7100606343886], [1822.905661742374, 99.7100606343886], [1822.905661742374, 874.4412437796349], [813.5481740798032, 874.4412437796349]]? The word(s) is/are ________.",
+              "answer": [
+                "Parking",
+                "Prohibited",
+                "515792",
+                "RESERVED",
+                "Parking",
+                "Commercial",
+                "Vehicle",
+                "Loading",
+                "ONLY",
+                "Ride",
+                "Share/Food",
+                "Delivery",
+                "06032X3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the location specified by the coordinates [[943,545], [1039,528], [1042,576], [950,592]], you will find a word(s) that needs completion: \"Vehi____e\". What letter(s) fit in this gap?",
+              "answer": "cl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[814, 100], [1493, 100], [1493, 874], [814, 874]]. Options:\nA. Commercial, Parking, Share/Food, RESERVED, Vehicle, Delivery, Parking, DNLY, Loading, Prohibited\nB. Parking, 515792, Delivery, Loading, Share/Food, RESERVED, 06032X3, Ride, Parking, ONLY\nC. Vehicle, Parking, Commercial, ONLY, Ride, RESERVED, Loading, Share/Food, Delivery, Parking\nD. RESERVED, Parking, Share/Food, Parking, Delivery, Ride, Prohibitod, Loading, ONLY, Vehicle",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Parking, Loading, 515792, Ride, Parking, RESERVED, ONLY, Prohibited, Delivery, Commercial' located within the bounding box [[813.5481740798032, 99.7100606343886], [1822.905661742374, 99.7100606343886], [1822.905661742374, 874.4412437796349], [813.5481740798032, 874.4412437796349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[813.5481740798032, 98.22491211953711], [1829.2028909615174, 98.22491211953711], [1829.2028909615174, 874.4412437796349], [813.5481740798032, 874.4412437796349]]? The word(s) is/are ________.",
+              "answer": [
+                "Parking",
+                "Prohibited",
+                "515792",
+                "RESERVED",
+                "Parking",
+                "Commercial",
+                "Vehicle",
+                "Loading",
+                "ONLY",
+                "Ride",
+                "Share/Food",
+                "Delivery",
+                "06032X3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the defined bounds of [[800,539], [978,507], [981,560], [806,595]], a text contains the partially obscured phrase \"Com____ial\". Can you determine the correct letter(s) missing?",
+              "answer": "merc"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[814, 258], [1829, 258], [1829, 874], [814, 874]]. Options:\nA. RESERVED, Rarking, Loading, Delivery, 06032X3, Share/Food, Vehicle, Commercial, ONLY, Ride\nB. Loading, Parking, Delivery, ONLY, Commercial, PESERVED, Vehicle, Share/Food, Prohibited, 06032X3\nC. RESERVED, Delivery, 06032X3, Parking, Commercial, Loading, Parking, Vehicle, Prohibited, 515792\nD. ONLY, 06032X3, Vehicle, Delivery, Ride, Share/Food, Parking, Prohibited, Loading, Parking",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Share/Food, 06032X3, Vehicle, Prohibited, 515792, Commercial, ONLY, RESERVED, Parking, Loading' located within the bounding box [[813.5481740798032, 98.22491211953711], [1829.2028909615174, 98.22491211953711], [1829.2028909615174, 874.4412437796349], [813.5481740798032, 874.4412437796349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/C0185/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0185/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[1383.3917977780561, 97.9191017219836], [1503.992656147155, 97.9191017219836], [1503.992656147155, 139.97918755889344], [1383.3917977780561, 139.97918755889344]]? The word(s) is/are ________.",
+              "answer": [
+                "515792"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the image section marked by coordinates [[994,579], [1095,562], [1096,620], [1000,640]], there is a word(s) \"O____Y\" that needs completing. Can you figure out the missing letter(s)?",
+              "answer": "NL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that includes the text(s) located within [[825, 260], [1291, 260], [1291, 877], [825, 877]]. Options:\nA. Prohibited, RESERVED, ONLY, Parking, Delivery, Pide, Loading, Share/Food, Vehicle, Parking\nB. Commercial, Parking, ONLY, 515792, Prohibited, Vehicle, Ride, Share/Food, Loading, RESERVED\nC. Parking, Sbare/Food, Parking, Prohibited, Loading, Delivery, ONLY, RESERVED, Commercial, Vehicle\nD. Prohibited, Commercial, Parking, Vehicle, Loading, Ride, Parking, RESERVED, Delivery, Share/Food",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Commeroial, Share/Food, 06032X3, Vehicle, Loading, Ride, Prohibited, ONLY, RESERVED, Parking' located within the bounding box [[825.0664986871332, 97.9191017219836], [1839.6004444783368, 97.9191017219836], [1839.6004444783368, 876.5354846173311], [825.0664986871332, 876.5354846173311]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0185"
+  }
+]

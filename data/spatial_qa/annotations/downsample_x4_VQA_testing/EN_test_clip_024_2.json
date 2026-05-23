@@ -1,0 +1,481 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are located within the bounding box [[121, 32], [1264, 32], [1264, 981], [121, 981]]? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "THIS PART",
+                "BASES ALL STICK OUT",
+                "THESE ARE WHAT HOLD",
+                "THE TWO STRANDS",
+                "TOGETHER",
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the bounding box with coordinates [[205,67], [416,68], [416,109], [205,108]], fill in the missing syllable of the reference: T____S PART.",
+              "answer": "HI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[205, 32], [1264, 32], [1264, 349], [205, 349]]. Options:\nA. THIS PART, BASES ALL STICK OUT, THE TWO STRANDS, 'DOUBLE HELIX', THE STRUCTURE OF DNA\nB. TOGETHER, THESE ARE WHAT HOLD, BASES ALL STICK OUT, THE STRUCTURE OF DNA, THE TWO STRANDS\nC. THESE ARE WHAT HOLD, THE STRUCTURE OF DNA, IHIS PART, THE TWO STRANDS, TOGETHER\nD. THIS PART, THESE ARE WHAT HOLD, IHE TWO STRANDS, THE STRUCTURE OF DNA, BASES ALL STICK OUT",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'THE TWO STRANDS, THESE ARE WHAT HOLD, TOGETHER, THIS PART, THE STRUCTURE OF DNA, BASES ALL STICK OUT' located within the bounding box [[691, 32], [1264, 32], [1264, 349], [691, 349]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be found in the region [[121.31182795698925, 67.22178988326849], [486.5591397849462, 67.22178988326849], [486.5591397849462, 981.1290322580645], [121.31182795698925, 981.1290322580645]]? The word(s) is/are ________.",
+              "answer": [
+                "THIS PART",
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the bounding box coordinates [[714,225], [1102,224], [1102,262], [714,263]], complete the phrase: THESE ARE W____T HOLD.",
+              "answer": "HA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[121, 224], [1102, 224], [1102, 981], [121, 981]]. Options:\nA. THE STRUCTURE OF DNA, THESE ARE WHAT HOLD, 'DOUBLE HELIX'\nB. TOGETHER, THE TWO STRANDS, 'DDUBLE HELIX'\nC. 'DOUBLE HELIX', TOOETHER, THESE ARE WHAT HOLD\nD. TOGETHER, 'DOUBLE HELIX', THESE ARE WHAT HOLD",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'TOGETHER, THIS PART, THE STRUCTURE OF DNA, THE TWO STRANDS, THESE ARE WHAT HOLD, BASES ALL STICK OUT, 'DOUBLE HELIX'' located within the bounding box [[205, 32], [1264, 32], [1264, 349], [205, 349]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are present in the area [[121.31182795698925, 929.0], [486.5591397849462, 929.0], [486.5591397849462, 981.1290322580645], [121.31182795698925, 981.1290322580645]]? The word(s) is/are ________.",
+              "answer": [
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the specified region with coordinates [[814,309], [996,309], [996,349], [815,349]], fill in the missing portion of the phrase T____GETHER.",
+              "answer": "O"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[691, 32], [1264, 32], [1264, 349], [691, 349]]? Please choose the correct answer. Options:\nA. THESE ARE WHAT HOLD, TOGETHER, THE STRUCTURE OF DNA, BASES ALL STICK OUT\nB. THE TWO STRANDS, THE STRUCTURE OF DNA, THESE ARE WHAT HOLD, THIS PART\nC. IHE STRUCTURE OF DNA, TOGETHER, THE TWO STRANDS, THESE ARE WHAT HOLD\nD. THE STRUCTURE OF DNA, BASES ALL STICK OUT, TOOETHER, THE TWO STRANDS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'THIS PART, 'DOUBLE HELIX', THE TWO STRANDS, TOGETHER, THESE ARE WHAT HOLD, THE STRUCTURE OF DNA, BASES ALL STICK OUT' located within the bounding box [[205, 32], [1264, 32], [1264, 349], [205, 349]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can be found in the bounding box [[205, 32], [1264, 32], [1264, 192], [205, 192]]? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "THIS PART",
+                "BASES ALL STICK OUT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area defined by coordinates [[715,150], [1128,150], [1128,190], [715,192]], identify the part that completes the phrase: BASES ALL ST____K OUT.",
+              "answer": "IC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct option that includes the text(s) present within [[205, 32], [1264, 32], [1264, 349], [205, 349]]. Options:\nA. THE STRUCTURE OF DNA, THE TWO STRANDS, 'DOUBLE HELIX', THIS PART, BASES ALL STICK OUT\nB. THE STRUCTURE OF DNA, BASES ALL STICK OUT, THESE ARE WHAT HOLD, TOOETHER, THE TWO STRANDS\nC. THIS PART, THESE ARE WHAT HOLD, THE STRUCTURE OF DNA, TOGETHER, THE TWO STRANDS\nD. TOGETHER, THE TWO STRANDS, THESE ARE WHAT HOLD, THIS PART, BASFS ALL STICK OUT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'THE TWO STRANDS, TOGETHER, THESE ARE WHAT HOLD, THIS PART' appear within the bounding box [[205, 32], [1264, 32], [1264, 349], [205, 349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[205.3307392996109, 32.18390804597701], [1264.3103448275863, 32.18390804597701], [1264.3103448275863, 191.95402298850576], [205.3307392996109, 191.95402298850576]]? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "THIS PART",
+                "BASES ALL STICK OUT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the boundary of [[121,929], [487,932], [486,981], [121,977]], what word(s) completes the partially hidden structure: DOUBL____?",
+              "answer": "E HELIX"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the correct option that includes the text(s) located within [[205, 32], [1264, 32], [1264, 349], [205, 349]]. Options:\nA. THE STRUCTURE OF DNA, THE TWO STRANDS, THESE ARE WHAT HOLD, TOOETHER, BASES ALL STICK OUT\nB. THESE ARE WHAT HOLD, THE STRUCTURE OF DNA, TOGETHER, BASES ALL STICK OUT, 'DOUBLE HELIX'\nC. THE TWO STRANDS, THESE ARE WHAT HOLD, TOGETHER, THIS PART, BASES ALL STICK OUT\nD. THESE ARE WHAT HOLD, THE STRUCTURE OF DNA, BASES ALL STICK OUT, TOOETHER, THE TWO STRANDS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'BASES ALL STICK OUT, TOGETHER, THE TWO STRANDS, THE STRUCTURE OF DNA' located within the bounding box [[205, 32], [1264, 32], [1264, 349], [205, 349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are displayed in the coordinates [[121.31182795698925, 929.0], [486.5591397849462, 929.0], [486.5591397849462, 981.1290322580645], [121.31182795698925, 981.1290322580645]]? The word(s) is/are ________.",
+              "answer": [
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What letter(s) complete the word(s) \"TO____HER\" found at the bounding box coordinates [[814,309], [996,309], [996,349], [815,349]]?",
+              "answer": "GET"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) found within [[121, 150], [1128, 150], [1128, 981], [121, 981]]. Options:\nA. THIS PART, 'DOUBLE HELIX', BASES ALL STICK OUT, THE TWO STRANDS\nB. 'DOUBLE HELIX', BASES ALL STICK OUT, TOGETHER, THE STRUCTURE OF DNA\nC. BASES ALL STICK OUT, TOOETHER, THE TWO STRANDS, THESE ARE WHAT HOLD\nD. TOGETHER, THE TWO STRANDS, THESE ARE WHAT HOLD, BASES ALL STICK OUT",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) BASES ALL STICK OUT, THE TWO STRANDS, TOGETHER, THIS PART located within the bounding box [[205, 32], [1264, 32], [1264, 349], [205, 349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are located within the bounding box [[121, 929], [487, 929], [487, 981], [121, 981]]? The word(s) is/are ________.",
+              "answer": [
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the coordinates [[121,929], [487,932], [486,981], [121,977]], find the missing five letter(s) in the phrase \"DOUBLE ____ELIX.\"",
+              "answer": "H"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) that are present within [[205, 32], [1264, 32], [1264, 349], [205, 349]]? Please choose the correct answer. Options:\nA. THESE ARE WHAT HOLD, 'DOUBLE HELIX', BASES ALL STICK OUT, THE TWO STRANDS, THE STRUCTURE OF DNA\nB. THIS PART, THE STRUCTURE OF DNA, THE TWO STRANDS, TOGETHER, BASES ALL STICK OUT\nC. BASES ALL STICK OUT, THESE ARE WHAT HOLD, TOGETHER, THE STRUCTURE OF DNA, IHIS PART\nD. THESE ARE WHAT HOLD, BASES ALL STICK OUT, THE STRUCTURE OF DNA, IHE TWO STRANDS, THIS PART",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'THESE ARE WHAT HOLD, BASES ALL STICK OUT, THE STRUCTURE OF DNA, THE TWO STRANDS' located within the bounding box [[205, 32], [1264, 32], [1264, 349], [205, 349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are present in the bounding box [[691, 32], [1264, 32], [1264, 349], [691, 349]]? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "BASES ALL STICK OUT",
+                "THESE ARE WHAT HOLD",
+                "THE TWO STRANDS",
+                "TOGETHER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area specified by the coordinates [[691,34], [1264,32], [1264,86], [691,86]], complete the phrase: THE STRUC____E OF DNA",
+              "answer": "TUR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) that are located within [[205, 32], [1264, 32], [1264, 349], [205, 349]]? Please choose the correct answer. Options:\nA. BASES ALL STICK OUT, THESE ARE WHAT HOLD, TOGETHER, THE STRUCTURE OF DNA, IHE TWO STRANDS\nB. THE STRUCTURE OF DNA, 'DOUBLE HELIX', THE TWO STRANDS, BASES ALL STICK OUT, THESE ARE WHAT HOLD\nC. IHE TWO STRANDS, THESE ARE WHAT HOLD, THE STRUCTURE OF DNA, THIS PART, TOGETHER\nD. THE STRUCTURE OF DNA, TOGETHER, THESE ARE WHAT HOLD, BASES ALL STICK OUT, THE TWO STRANDS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'THE STRUCTURE OF DNA, THESE ARE WHAT HOLD, BASES ALL STICK OUT, THIS PART' located within the bounding box [[205, 32], [1264, 32], [1264, 349], [205, 349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can be identified within the area [[121, 929], [487, 929], [487, 981], [121, 981]]? The word(s) is/are ________.",
+              "answer": [
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the space outlined by [[121,929], [487,932], [486,981], [121,977]], determine the missing letter(s) so \"DOUBLE HE____X\" is complete.",
+              "answer": "LI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the correct answer that includes the text(s) found within [[691, 32], [1264, 32], [1264, 349], [691, 349]]. Options:\nA. THESE ARE WHAT HOLD, IHE TWO STRANDS, THE STRUCTURE OF DNA, BASES ALL STICK OUT\nB. BASFS ALL STICK OUT, TOGETHER, THESE ARE WHAT HOLD, THE TWO STRANDS\nC. TOGETHER, THIS PART, THE TWO STRANDS, BASES ALL STICK OUT\nD. BASES ALL STICK OUT, THE STRUCTURE OF DNA, TOGETHER, THESE ARE WHAT HOLD",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'THE STRUCTURE OF DNA, THE TWO STRANDS, THESE ARE WHAT HOLD, BASES ALL STICK OUT' located within the bounding box [[205, 32], [1264, 32], [1264, 349], [205, 349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are found in the region [[205, 32], [1264, 32], [1264, 349], [205, 349]]? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "THIS PART",
+                "BASES ALL STICK OUT",
+                "THESE ARE WHAT HOLD",
+                "THE TWO STRANDS",
+                "TOGETHER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the bounding box [[743,267], [1068,267], [1069,305], [742,306]], complete the phrase with the missing part: THE ____ STRANDS.",
+              "answer": "TWO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) that are located within [[205, 32], [1264, 32], [1264, 349], [205, 349]]? Please choose the correct answer. Options:\nA. THESE ARE WHAT HOLD, TOGETHER, THIS PART, THE STRUCTURE OF DNA, BASFS ALL STICK OUT\nB. TOGETHER, THE TWO STRANDS, 'DOUBLE HELIX', THIS PART, BASES ALL STICK OUT\nC. IHE STRUCTURE OF DNA, THE TWO STRANDS, THESE ARE WHAT HOLD, TOGETHER, THIS PART\nD. THE STRUCTURE OF DNA, THE TWO STRANDS, THESE ARE WHAT HOLD, TOGETHER, THIS PART",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'THESE ARE WHAT HOLD, THE STRUCTURE OF DNA, BASES ALL STICK OUT, THE TWO STRANDS' located within the bounding box [[691, 32], [1264, 32], [1264, 349], [691, 349]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are located in the specified area [[121, 32], [1264, 32], [1264, 981], [121, 981]]? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "THIS PART",
+                "BASES ALL STICK OUT",
+                "THESE ARE WHAT HOLD",
+                "THE TWO STRANDS",
+                "TOGETHER",
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area marked by the coordinates [[121,929], [487,932], [486,981], [121,977]], what completes the term \"DO____ HELIX\"?",
+              "answer": "UBLE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[691, 32], [1264, 32], [1264, 349], [691, 349]]. Options:\nA. TOGETHER, THE TWO STRANDS, IHE STRUCTURE OF DNA, BASES ALL STICK OUT\nB. TOGETHER, BASES ALL STICK OUT, THESE ARE WHAT HOLD, THE STRUCTURE OF DNA\nC. TOOETHER, THE STRUCTURE OF DNA, THE TWO STRANDS, THESE ARE WHAT HOLD\nD. THESE ARE WHAT HOLD, TOGETHER, BASES ALL STICK OUT, THIS PART",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'THE TWO STRANDS, THE STRUCTURE OF DNA, 'DOUBLE HELIX', THESE ARE WHAT HOLD, BASES ALL STICK OUT' located within the bounding box [[121.31182795698925, 32.18390804597701], [1264.3103448275863, 32.18390804597701], [1264.3103448275863, 981.1290322580645], [121.31182795698925, 981.1290322580645]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/EN/clip_024_2/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) is/are located in the specified area [[691, 32], [1264, 32], [1264, 349], [691, 349]]? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "BASES ALL STICK OUT",
+                "THESE ARE WHAT HOLD",
+                "THE TWO STRANDS",
+                "TOGETHER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine the word(s) found within the coordinates [[691,34], [1264,32], [1264,86], [691,86]] and determine what completes the phrase \"THE ____URE OF DNA\".",
+              "answer": "STRUCT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) that appear within [[205, 32], [1264, 32], [1264, 349], [205, 349]]? Choose the correct answer. Options:\nA. BASFS ALL STICK OUT, TOGETHER, THESE ARE WHAT HOLD, THE TWO STRANDS, THE STRUCTURE OF DNA\nB. BASFS ALL STICK OUT, THESE ARE WHAT HOLD, THE STRUCTURE OF DNA, THE TWO STRANDS, TOGETHER\nC. THE STRUCTURE OF DNA, BASES ALL STICK OUT, THIS PART, TOGETHER, THESE ARE WHAT HOLD\nD. TOGETHER, BASES ALL STICK OUT, 'DOUBLE HELIX', THIS PART, THESE ARE WHAT HOLD",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'TOGETHER, THIS PART, THESE ARE WHAT HOLD, 'DOUBLE HELIX', THE TWO STRANDS' located within the bounding box [[121, 224], [1102, 224], [1102, 981], [121, 981]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_024_2"
+  }
+]

@@ -1,0 +1,473 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_001.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[1176, 628], [1454, 628], [1454, 863], [1176, 863]]? ________",
+                            "answer": [
+                                "坡道停车",
+                                "注意溜车",
+                                "RAMPPARKING",
+                                "PAY ATTENTION TOCAR SLIPPING"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在以下坐标的图像中，[[1722,50], [1787,109], [1776,138], [1714,78]]，请填入缺失的字符符“____”来完成标识：“可回____物”。",
+                            "answer": "收"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1176, 628], [1454, 628], [1454, 863], [1176, 863]]. Options:\nA. RAMPPARKING, 坡遒停车, PAY ATTENTION TOCAR SLIPPING\nB. 坡道停车, PAY ATTENTION TOCAR SLIPPING, 注意溜车\nC. 注意漝车, PAY ATTENTION TOCAR SLIPPING, 坡道停车\nD. 坡道停车, 可回收物, RAMPPARKING",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '坡道停车, 可回收物, PAY ATTENTION TOCAR SLIPPING, 注意溜车, RAMPPARKING' located within the bounding box [[1176, 628], [1454, 628], [1454, 863], [1176, 863]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_011.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) found in the region [[1178, 49], [1787, 49], [1787, 858], [1178, 858]]? ________",
+                            "answer": [
+                                "坡道停车",
+                                "注意溜车",
+                                "RAMPPARKING",
+                                "PAY ATTENTION TOCAR SLIPPING",
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在图像坐标[[1180,663], [1437,618], [1450,689], [1193,734]]处的标识中填入正确字符符以补全“坡道____车”的信息。",
+                            "answer": "停"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[1178, 625], [1453, 625], [1453, 858], [1178, 858]]? Please choose the correct answer. Options:\nA. RAMPPARKING, 注意溜车, 坡遒停车\nB. 坡道停车, 注意溜车, 可回收物\nC. 注意溜车, 坡道停车, RAMPPARKING\nD. 注意漝车, RAMPPARKING, 坡道停车",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '坡道停车, PAY ATTENTION TOCAR SLIPPING, 可回收物, RAMPPARKING, 注意溜车' located within the bounding box [[1178, 625], [1453, 625], [1453, 858], [1178, 858]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_021.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[1714.37125748503, 49.58083832335327], [1786.8263473053894, 49.58083832335327], [1786.8263473053894, 135.8083832335329], [1714.37125748503, 135.8083832335329]]? ________",
+                            "answer": [
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the marked area of the image at coordinates [[1144,830], [1407,778], [1412,801], [1149,851]], fill in the missing character(s) in this caution: PAY ATTENTION TO____ SLIPPING.",
+                            "answer": "CAR"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1178, 625], [1454, 625], [1454, 862], [1178, 862]]? Please choose the correct answer. Options:\nA. 注意漝车, PAY ATTENTION TOCAR SLIPPING, 坡道停车\nB. 坡道停车, 注意溜车, RAMPPARKING\nC. 坡道停车, 可回收物, 注意溜车\nD. 注意溜车, RAMPPARKING, 坡遒停车",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'RAMPPARKING, 注意溜车, 坡道停车, 可回收物' located within the bounding box [[1178.0, 49.58083832335327], [1786.8263473053894, 49.58083832335327], [1786.8263473053894, 861.9924812030074], [1178.0, 861.9924812030074]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_031.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the text inside [[1180, 48], [1787, 48], [1787, 858], [1180, 858]]? ________",
+                            "answer": [
+                                "坡道停车",
+                                "注意溜车",
+                                "RAMPPARKING",
+                                "PAY ATTENTION TOCAR SLIPPING",
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Examine the text located at the coordinates [[1102,862], [1365,810], [1370,833], [1106,882]]. What missing letter(s) complete the phrase \"PAY ____ENTION TOCAR SLIPPING\"?",
+                            "answer": "ATT"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1180, 623], [1454, 623], [1454, 858], [1180, 858]]? Please choose the correct answer. Options:\nA. PAY ATTENTION TOCAR SLIPPING, 可回收物, 坡道停车\nB. 坡道停车, RAMPPARKING, RAY ATTENTION TOCAR SLIPPING\nC. 注意溜车, PAY ATTENTION TOCAR SLIPPING, 坡道停车\nD. 注意溜车, 坡遒停车, RAMPPARKING",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'RAMPPARKING, 坡遒停车, 可回收物, 注意溜车, PAY ATTENTION TOCAR SLIPPING' located within the bounding box [[1180.0, 47.826086956521735], [1786.9021739130433, 47.826086956521735], [1786.9021739130433, 857.6086956521739], [1180.0, 857.6086956521739]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_041.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[1716.2234645741448, 45.73468447719943], [1788.6785543945043, 45.73468447719943], [1788.6785543945043, 131.9622293873791], [1716.2234645741448, 131.9622293873791]]? ________",
+                            "answer": [
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在图像的坐标[[1604,155], [1597,185], [1661,249], [1669,218]]处，请完成此语句：“可____物”。",
+                            "answer": "回收"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1184, 625], [1456, 625], [1456, 858], [1184, 858]]? Please choose the correct answer. Options:\nA. 坡道停车, 注意溜车, RAY ATTENTION TOCAR SLIPPING\nB. RAMPPARKING, 可回收物, 注意溜车\nC. RAMPPARKING, RAY ATTENTION TOCAR SLIPPING, 注意溜车\nD. RAMPPARKING, PAY ATTENTION TOCAR SLIPPING, 注意溜车",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '坡道停车, PAY ATTENTION TOCAR SLIPPING, 注意溜车, RAMPPARKING' located within the bounding box [[1184.225680933852, 45.73468447719943], [1788.6785543945043, 45.73468447719943], [1788.6785543945043, 857.753079706748], [1184.225680933852, 857.753079706748]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_051.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[1716.2234645741448, 45.73468447719943], [1788.6785543945043, 45.73468447719943], [1788.6785543945043, 131.9622293873791], [1716.2234645741448, 131.9622293873791]]? ________",
+                            "answer": [
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在图像边界 [[1592,215], [1585,245], [1649,309], [1657,278]] 内，请补充完整的术语中缺失的部分：“可____物”。",
+                            "answer": "回收"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1184, 625], [1456, 625], [1456, 858], [1184, 858]]? Please choose the correct answer. Options:\nA. PAY ATTENTION TOCAR SLIPPING, RAMPPARKING, 可回收物\nB. PAY ATTENTION TOCAR SLIPPING, 注意溜车, RAMPPAPKING\nC. 坡道停车, RAMPPARKING, 注意溜车\nD. 坡道停车, RAMPPARKING, RAY ATTENTION TOCAR SLIPPING",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'RAMPPARKING, PAY ATTENTION TOCAR SLIPPING, 坡道停车' located within the bounding box [[1184, 625], [1456, 625], [1456, 858], [1184, 858]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_061.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) present in the bounding box [[1716, 46], [1789, 46], [1789, 132], [1716, 132]]? ________",
+                            "answer": [
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[1073,970], [1327,925], [1339,993], [1085,1038]]处的标识中，将“注____溜车”中的缺失部分补充完整。",
+                            "answer": "意"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1184, 625], [1456, 625], [1456, 858], [1184, 858]]? Please choose the correct answer. Options:\nA. 可回收物, RAMPPARKING, PAY ATTENTION TOCAR SLIPPING\nB. PAY ATTENTION TOCAR SLIPPING, RAMPPARKING, 坡遒停车\nC. 坡道停车, PAY ATTENTION TOCAR SLIPPING, 注意漝车\nD. 注意溜车, PAY ATTENTION TOCAR SLIPPING, 坡道停车",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '可回收物, 注意溜车, 坡道停车, RAMPPARKING' located within the bounding box [[1183.7517472845627, 45.73468447719943], [1788.6785543945043, 45.73468447719943], [1788.6785543945043, 857.753079706748], [1183.7517472845627, 857.753079706748]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_071.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located in the area [[1184, 625], [1456, 625], [1456, 858], [1184, 858]]? ________",
+                            "answer": [
+                                "坡道停车",
+                                "注意溜车",
+                                "RAMPPARKING",
+                                "PAY ATTENTION TOCAR SLIPPING"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在以下坐标[[1611,303], [1604,333], [1668,397], [1676,366]]的图像中，请填写短语“可____物”中缺失的部分。",
+                            "answer": "回收"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) found within [[1184, 625], [1456, 625], [1456, 858], [1184, 858]]? Please choose the correct answer. Options:\nA. 注意溜车, 可回收物, 坡道停车\nB. 坡道停车, PAY ATTENTION TOCAR SLIPPING, 注意溜车\nC. RAMPPARKING, PAY ATTENTION TOCAR SLIPPING, 注意漝车\nD. RAMPPAPKING, 坡道停车, 注意溜车",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'PAY ATTENTION TOCAR SLIPPING, RAMPPARKING, 坡道停车' located within the bounding box [[1184, 625], [1456, 625], [1456, 858], [1184, 858]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_081.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) present in the bounding box [[1716, 46], [1789, 46], [1789, 132], [1716, 132]]? ________",
+                            "answer": [
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在图像的坐标[[1161,1003], [1357,974], [1365,1051], [1172,1076]]，找出并填写缺失部分以完成“道停____”中的短语。",
+                            "answer": "车"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1184, 625], [1456, 625], [1456, 858], [1184, 858]]? Please choose the correct answer. Options:\nA. 注意溜车, PAY ATTENTION TOCAR SLIPPING, 可回收物\nB. PAY ATTENTION TOCAR SLIPPING, 注意漝车, RAMPPARKING\nC. RAMPPARKING, RAY ATTENTION TOCAR SLIPPING, 坡道停车\nD. 坡道停车, RAMPPARKING, 注意溜车",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '可回收物, 注意溜车, 坡道停车, PAY ATTENTION TOCAR SLIPPING, RAMPRARKING' located within the bounding box [[1183.7517472845627, 45.73468447719943], [1788.6785543945043, 45.73468447719943], [1788.6785543945043, 857.753079706748], [1183.7517472845627, 857.753079706748]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_091.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located in the region [[1180, 40], [1789, 40], [1789, 857], [1180, 857]]? ________",
+                            "answer": [
+                                "坡道停车",
+                                "注意溜车",
+                                "RAMPPARKING",
+                                "PAYATTENTIONTOCARSLIPPING",
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在标记坐标[[1629,442], [1622,472], [1686,536], [1694,505]]处，找出缺失的部分以完成短语：“可回____物”。",
+                            "answer": "收"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1180, 618], [1458, 618], [1458, 857], [1180, 857]]? Please choose the correct answer. Options:\nA. RAMPPARKING, PAYATTENTIONIOCARSLIPPING, 注意溜车\nB. 注意溜车, 坡道停车, RAMPPARKING\nC. 注意溜车, 可回收物, PAYATTENTIONTOCARSLIPPING\nD. PAYATTENTIONIOCARSLIPPING, 注意溜车, RAMPPARKING",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'RAMPPARKING, PAYATTENTIONTOCARSLIPPING, 坡遒停车, 注意溜车, 可回收物' located within the bounding box [[1180.0, 39.922480620155035], [1789.0697674418604, 39.922480620155035], [1789.0697674418604, 857.0781834501123], [1180.0, 857.0781834501123]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_101.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) found within [[1180, 40], [1789, 40], [1789, 857], [1180, 857]]? ________",
+                            "answer": [
+                                "坡道停车",
+                                "注意溜车",
+                                "RAMPPARKING",
+                                "PAYATTENTIONTOCARSLIPPING",
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请查看位于坐标[[1640,517], [1633,547], [1697,611], [1704,580]]处的字符，并填写缺失的部分：“可____物”。",
+                            "answer": "回收"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1180, 618], [1458, 618], [1458, 857], [1180, 857]]? Please choose the correct answer. Options:\nA. 可回收物, RAMPPARKING, PAYATTENTIONTOCARSLIPPING\nB. RAMPPARKING, 注意溜车, 坡道停车\nC. RAMPPARKING, PAYATTENTIONTOCARSLIPPING, 坡遒停车\nD. 坡遒停车, RAMPPARKING, 注意溜车",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'RAMPPARKING, 坡道停车, 可回收物, 注意溜车, PAYATTENTIONTOCARSLIPPING' located within the bounding box [[1180, 618], [1458, 618], [1458, 857], [1180, 857]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0022/frame_111.png",
+                "relative_path": "test_batch_1/CHN_test/C0022/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located in [[1717, 40], [1789, 40], [1789, 134], [1717, 134]]? ________",
+                            "answer": [
+                                "可回收物"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在图像中坐标[[1625,534], [1618,564], [1682,629], [1689,598]]处，找出并填写短语“可回____物”中缺失的部分。",
+                            "answer": "收"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1180, 618], [1458, 618], [1458, 857], [1180, 857]]? Please choose the correct answer. Options:\nA. 注意溜车, 可回收物, PAYATTENTIONTOCARSLIPPING\nB. 坡道停车, 注意溜车, RAMPPAPKING\nC. RAMPPARKING, PAYATTENTIONIOCARSLIPPING, 注意溜车\nD. 注意溜车, 坡道停车, PAYATTENTIONTOCARSLIPPING",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '注意溜车, RAMPPARKING, 可回收物, PAYATTENTIONTOCARSLIPPING, 坡道停车' located within the bounding box [[1180, 618], [1458, 618], [1458, 857], [1180, 857]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0022"
+    }
+]

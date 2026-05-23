@@ -1,0 +1,579 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_001.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[568, 238], [1373, 238], [1373, 873], [568, 873]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "杨日韶、杨日暲故居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "IntangibleCulturalHeritageExhibionAreas"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the bounding box coordinates [[574,576], [1036,568], [1036,601], [574,610]], identify the missing character(s) to complete the missing part of \"FomerResiceliceofYangXinru 杨____如旧居\"?",
+                            "answer": "心"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[568, 238], [1182, 238], [1182, 873], [568, 873]]. Options:\nA. LaresidenceanciennedeYangRishaoetYangRizhang, 杨日韶、杨日暲故居, 杨心如故居, LaresidenceanciennedeYangXinru, IntangibleCulturalHeritageExhibionAreas, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 非物质文化遗产展示区, FomerResiceliceofYangXinru 杨心如旧居\nB. Zonedexpositiondupatrimoineculturelimmateriel, LaresidenceenciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 杨日韶、杨日暲故居, LaresidenceanciennedeYangRishaoetYangRizhang, 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas\nC. LaresidenceanciennedeYangRishaoetYangRizhang, 杨日韶、杨日暲故居, FomerResidenceofYangRishaoandYangRizang 杩日韶·杨日暲旧居, IntangibleCulturalHeritageExhibionAreas, Zonedexpositiondupatrimoineculturelimmateriel, 非物质文化遗产展示区, LaresidenceanciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居\nD. LaresidenceanciennedeYangXinru, 非物质文化遗产展示区, 50米, IntangibleCulturalHeritageExhibionAreas, LaresidenceanciennedeYangRishaoetYangRizhang, 杨心如故居, 杨日韶、杨日暲故居, FomerResiceliceofYangXinru 杨心如旧居",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas, 50米, 90米, 100米, FomerResiceliceofYangXinru 杨心如旧居, 杨日韶、杨日暲故居, LaresidenceanciennedeYangRishaoetYangRizhang, Zonedexpositiondupatrimoineculturelimmateriel' located within the bounding box [[568.0, 238.25599029420687], [1373.0, 238.25599029420687], [1373.0, 872.6190476190477], [568.0, 872.6190476190477]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_011.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[558, 232], [1363, 232], [1363, 865], [558, 865]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "IntangibleCulturalHeritageExhibionAreas",
+                                "杨日韶、杨日暲故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the context depicted, what character(s) complete the name at position [[513,707], [1106,692], [1108,777], [511,786]]: 杨日韶、____故居?",
+                            "answer": "杨日暲"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, choose the correct option that includes the text(s) found within [[569, 232], [1361, 232], [1361, 627], [569, 627]]. Options:\nA. LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel, 50米, FomerResiceliceofYangXinru 杨心如旧居, 杩心如故居, 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas\nB. 非物质文化遗产展示区, 50米, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangXinru, 100米, IntangibleCulturalHeritageExhibionAreas, 杨心如故居\nC. 杨心如故居, 90米, Zonedexpositiondupatrimoineculturelimmateriel, 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas, LaresidenceanciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居\nD. LaresidenceanciennedeYangXinru, 90米, 50米, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, FomerResiceliceofYangXinru 杨心如旧居, Zonedexpositiondupatrimoineculturelimmateriel, 杨心如故居",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '50米, FomerResiceliceofYangXinru 杨心如旧居, 90米, LaresidenceanciennedeYangRishaoetYangRizhang, LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel, 杨心如故居, IntangibleCulturalHeritageExhibionAreas, 非物质文化遗产展示区' located within the bounding box [[569, 232], [1361, 232], [1361, 627], [569, 627]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_021.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[554, 478], [1363, 478], [1363, 864], [554, 864]]? ________",
+                            "answer": [
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "杨日韶、杨日暲故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the specified area [[348,167], [936,166], [934,242], [345,247]], can you fill in the missing part to complete the text: \"非物质文化遗产展示____\"?",
+                            "answer": "区"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) present in the area [[554, 230], [1168, 230], [1168, 864], [554, 864]]? Please choose the correct answer. Options:\nA. LaresidenceanciennedeYangRishaoetYangRizhang, FomerResiceliceofYangXinru 杨心如旧居, Zonedexpositiondupatrimoineculturelimmateriel, 50米, LaresidenceanciennedeYangXinru, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 杨日韶、杨日暲故居, IntangibleCulturalHeritageExhibionAreas\nB. 非物质文化遗产展示区, LaresidenceanciennedeYangXinru, LaresidenceanciennedeYangRishaoetYangRizhang, Zonedexpositiondupatrimoineculturelimmateriel, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, IntangibleCulturalHeritageExhibionAreas, 杨心如故居, 杨日韶、杨日暲故居\nC. LaresidenceanciennedeYangRishaoetYangRizhang, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, IntangibleCulturalHeritageExhibionAreas, 非物质文化遗产展示区, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceenciennedeYangXinru, 杨心如故居, 杨日韶、杨日暲故居\nD. IntangibleCulturalHeritageExhibionAreas, 杨心如故居, 杨日韶、杨日暲故居, Zonedexpositiondupatrimoineculturelimmateriel, LaresidenceanciennedeYangRishaoetYangRizhang, FomerResiceliceofYangXinru 杨心如旧居, FomerResidenceofYangRishaoandYangRizang 杩日韶·杨日暲旧居, 非物质文化遗产展示区",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '90米, LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel, IntangibleCulturalHeritageExhibionAroas, FomerResiceliceofYangXinru 杨心如旧居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 50米, LaresidenceanciennedeYangRishaoetYangRizhang, 杨日韶、杨日暲故居, 杨心如故居' located within the bounding box [[553.7142857142857, 230.20791415157612], [1363.4761904761906, 230.20791415157612], [1363.4761904761906, 864.2857142857144], [553.7142857142857, 864.2857142857144]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_031.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[548, 228], [1350, 228], [1350, 862], [548, 862]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "杨日韶、杨日暲故居",
+                                "IntangibleCulturalHeritageExhibionAreas",
+                                "Zonedexpositiondupatrimoineculturelimmateriel"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What character(s) should replace \"____\" in the number(s) visible at [[985,264], [1087,264], [1087,316], [985,316]] to complete \"50____\"?",
+                            "answer": "米"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Select the correct option that includes the text(s) located within [[548, 228], [1162, 228], [1162, 862], [548, 862]]. Options:\nA. 非物质文化遗产展示区, FomerResiceliceofYangXinru 杨心如旧居, 杨心如故居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 杨日韶、杨日暲故居, Zonedexpositiondupatrimoineculturelimmateriel, LaresidenceanciennedeYangRishaoetYangRizhang, IntangibleCulturalHeritageExhibionAreas\nB. 杨心如故居, 50米, Zonedexpositiondupatrimoineculturelimmateriel, IntangibleCulturalHeritageExhibionAreas, LaresidenceanciennedeYangXinru, 杨日韶、杨日暲故居, LaresidenceanciennedeYangRishaoetYangRizhang, FomerResiceliceofYangXinru 杨心如旧居\nC. Zonedexpositiondupatrimoineculturelimmateriel, LaresidenceanciennedeYangXinru, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, LaresidenceanciennedeYangRishaoetYangRizhang, FomerResiceliceofYangXinru 杨心如旧居, IntangibleCulturalHeritageExhibionAreas, 杨心如故居, 杩日韶、杨日暲故居\nD. 杨心如故居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, LaresidenceanciennedeYangRishaoetYangRizhang, 杨日韶、杨日暲故居, FomerResiceliceofYangXinru 杩心如旧居, LaresidenceanciennedeYangXinru, 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'LaresidenceanciennedeYangXinru, 非物质文化遗产展示区, Zonedexpositiondupatrimoineculturelimmateriel, 90米, 50米, 杨心如故居, FomerResiceliceofYangXinru 杨心如旧居, IntangibleCulturalHeritageExhibionAreas, LaresidenceanciennedeYangRishaoetYangRizhang' located within the bounding box [[554, 228], [1347, 228], [1347, 625], [554, 625]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_041.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[535, 233], [1342, 233], [1342, 868], [535, 868]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "杨日韶、杨日暲故居",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "IntangibleCulturalHeritageExhibionAreas",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标 [[410,468], [774,474], [771,552], [399,549]] 中揭示“杨____如故居”中的空缺字符符。",
+                            "answer": "心"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[535, 233], [1154, 233], [1154, 868], [535, 868]]. Options:\nA. IntangibleCulturalHeritageExhibionAreas, 非物质文化遗产展示区, 杨心如故居, LaresidenceanciennedeYangXinru, 杨日韶、杨日暲故居, LaresidenceanciennedeYangRishaoetYangRizhan6, Zonedexpositiondupatrimoineculturelimmateriel, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居\nB. FomerResiceliceofYangXinru 杨心如旧居, 非物质文化遗产展示区, 杨心如故居, LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel, 杨日韶、杨日暲故居, IntangibleCulturalHeritageExhibionAreas, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居\nC. IntangibleCulturalHeritageExhibionAreas, 杨日韶、杨日暲故居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 50米, LaresidenceanciennedeYangRishaoetYangRizhang, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel\nD. Zonedexpositiondupatrimoineculturelimmateriel, LaresidenceanciennedeYangXinru, FomerResidenceofYangRishaoandYangRizang 杩日韶·杨日暲旧居, 杨心如故居, FomerResiceliceofYangXinru 杨心如旧居, 杨日韶、杨日暲故居, LaresidenceanciennedeYangRishaoetYangRizhang, IntangibleCulturalHeritageExhibionAreas",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Zonedexpositiondupatrimoineculturelimmateriel, 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas, LaresidenceanciennedeYangRishaoetYangRizhang, 杨心如故居, 50米, 杨日韶、杨日暲故居, 100米, 90米, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居' located within the bounding box [[535.2619047619046, 233.48766344415077], [1342.1220238095239, 233.48766344415077], [1342.1220238095239, 868.125], [535.2619047619046, 868.125]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_051.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[529, 235], [1331, 235], [1331, 867], [529, 867]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "杨日韶、杨日暲故居",
+                                "IntangibleCulturalHeritageExhibionAreas"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在位置 [[925,650], [1062,655], [1059,713], [922,707]] 中，需要填写哪个数字值以完成“____米”?",
+                            "answer": "100"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[531, 235], [1326, 235], [1326, 631], [531, 631]]. Options:\nA. FomerResiceliceofYangXinru 杨心如旧居, 90米, 50粛, 杨心如故居, 非物质文化遗产展示区, Zonedexpositiondupatrimoineculturelimmateriel, LaresidenceanciennedeYangXinru\nB. FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangXinru, IntangibleCulturalHeritageExhibionAreas, 杨心如故居, 90米, 100米, Zonedexpositiondupatrimoineculturelimmateriel\nC. 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas, FomerResiceliceofYangXinru 杨心如旧居, 90米, Zonedexpositiondupatrimoineculturelimmateriel, 50米, 杨心如故居\nD. Zonedexpositiondupatrimoineculturelimmateriel, FomerResiceliceofYangXinru 杨心如旧居, 杩心如故居, IntangibleCulturalHeritageExhibionAreas, 50米, LaresidenceanciennedeYangXinru, 非物质文化遗产展示区",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '杛心如故居, 100米, LaresidenceanciennedeYangXinru, IntangibleCulturalHeritageExhibionAreas, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 90米, 杨日韶、杨日暲故居, FomerResiceliceofYangXinru 杨心如旧居, 非物质文化遗产展示区, Zonedexpositiondupatrimoineculturelimmateriel' located within the bounding box [[528.8382936507933, 234.92132435399594], [1331.304716117216, 234.92132435399594], [1331.304716117216, 866.7391636141638], [528.8382936507933, 866.7391636141638]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_061.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[529, 234], [1331, 234], [1331, 867], [529, 867]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "杨日韶、杨日暲故居",
+                                "IntangibleCulturalHeritageExhibionAreas"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标 [[305,674], [860,673], [857,701], [301,696]] 中，补全\"FomerResidenceofYangR____andYangRizang 杨日韶·杨日暲旧居\"中缺失的部分。",
+                            "answer": "ish"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[529, 234], [1143, 234], [1143, 867], [529, 867]]. Options:\nA. LaresidenceanciennedeYangRishaoetYangRizhang, 非物质文化遗产展示区, LaresidenceanciennedeYangXinru, IntangibleCulturalHeritageExhibionAreas, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, Zonedexpositiondupatrimoineculturelimmateriel, 杨日韶、杨日暲故居, FomerResiceliceofYangXinru 杨心如旧居\nB. LaresidenceanciennedeYangRishaoetYangRizhang, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangXinru, IntangibleCulturalHeritageExhibionAreas, Zonedexpositiondupatrimoineculturelimmateriel, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 非物质文化遗产展示区, 杩日韶、杨日暲故居\nC. IntangibleCulturalHeritageExhibionAreas, 非物质文化遗产展示区, FomerResiceliceofYangXinru 杨心如旧居, 50米, 杨日韶、杨日暲故居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, LaresidenceanciennedeYangXinru, 杨心如故居\nD. 杨心如故居, FomerResiceliceofYangXinru 杨心如旧居, Zonedexpositiondupatrimoineculturelimmateriel, IntangibleCulturalHeritageExhibionAreas, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, LaresidenceanciennedeYangXinru, 非物质文化遗产屒示区, LaresidenceanciennedeYangRishaoetYangRizhang",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '100米, 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangRishaoetYangRizhang, 90米, 杨日韶、杨日暲故居, LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居' located within the bounding box [[528.8382936507933, 234.49213980463975], [1331.304716117216, 234.49213980463975], [1331.304716117216, 866.7391636141638], [528.8382936507933, 866.7391636141638]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_071.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[524, 236], [1322, 236], [1322, 867], [524, 867]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "杨日韶、杨日暲故居",
+                                "IntangibleCulturalHeritageExhibionAreas",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标 [[780,602], [891,606], [889,661], [777,659]] 中，补全 \"____米\" 的空缺部分。",
+                            "answer": "100"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, select the correct option that contains the text(s) located within [[524, 483], [1322, 483], [1322, 867], [524, 867]]. Options:\nA. LaresidenceanciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居, 杨日韶、杨日暲故居, 杨心如故居, 90米, 100米, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居\nB. 100米, LaresidenceanciennedeYangRishaoetYangRizhang, 杨心如故居, 90米, FomerResidenceofYangRishaoandYangRizang 杩日韶·杨日暲旧居, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangXinru\nC. 杨日韶、杨日暲故居, FomerResiceliceofYangXinru 杨心如旧居, 100米, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 杨心如故居, LaresidenceanciennedeYangRishaoetYangRizhan6, LaresidenceanciennedeYangXinru\nD. 杨日韶、杨日暲故居, 100米, 杨心如故居, 50米, LaresidenceanciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居, 90米",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '杨日韶、杨日暲故居, 50米, 杨心如故居, LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel, LaresidenceanciennedeYangRishaoetYangRizhang, IntangibleCulturalHeritageExhibionAreas, FomerResiceliceofYangXinru 杨心如旧居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 非物质文化遗产展示区' located within the bounding box [[524, 236], [1137, 236], [1137, 867], [524, 867]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_081.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[515, 233], [1317, 233], [1317, 862], [515, 862]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "杨日韶、杨日暲故居",
+                                "IntangibleCulturalHeritageExhibionAreas",
+                                "Zonedexpositiondupatrimoineculturelimmateriel"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标 [[114,546], [641,545], [639,629], [112,626]] 中，填补“杨日韶、杨日____故居”中的空缺。",
+                            "answer": "暲"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[520, 233], [1313, 233], [1313, 626], [520, 626]]. Options:\nA. 50米, FomerResiceliceofYangXinru 杩心如旧居, IntangibleCulturalHeritageExhibionAreas, 杨心如故居, LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel, 90米\nB. 非物质文化遗产展示区, 50米, IntangibleCulturalHeritageExhibionAreas, 100米, 90米, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangXinru\nC. IntangibleCulturalHeritageExhibionAreas, 非物质文化遗产展示区, 90米, 50米, LaresidenceanciennedeYangXinru, 杨心如故居, Zonedexpositiondupatrimoineculturelimmateriel\nD. LaresidenceanciennedeYangXinru, 90米, IntangibleCulturalHeritageExhibionAreas, 非物质文化遗产展示区, 杨心如故居, Zonedexpositiondupatrimoineculturelimmateriel, FomerResiceliceofYangXinru 杩心如旧居",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '杨日韶、杨日暲故居, 杨心如故居, 100米, LaresidenceanciennedeYangXinru, 50米, LaresidenceanciennedeYangRishaoetYangRizhang, Zonedexpositiondupatrimoineculturelimmateriel, IntangibleCulturalHeritageExhibionAreas, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 非物质文化遗产展示区' located within the bounding box [[514.7757936507933, 232.92963980463975], [1317.242216117216, 232.92963980463975], [1317.242216117216, 862.0516636141638], [514.7757936507933, 862.0516636141638]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_091.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[516, 225], [1313, 225], [1313, 853], [516, 853]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "FomerResiceliceofYangXinru 杨心如旧居",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "杨日韶、杨日暲故居",
+                                "IntangibleCulturalHeritageExhibionAreas"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标 [[263,670], [613,679], [615,702], [260,692]] 中，请补全句子“____nceanciennedeYangRishaoetYangRizhang”中的空白部分。",
+                            "answer": "Lareside"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[516, 225], [1129, 225], [1129, 853], [516, 853]]. Options:\nA. LaresidenceanciennedeYangXinru, Zonedexpositiondupatrimoineculturelimmateriel, 杨日韶、杨日暲故居, LaresidenceanciennedeYangRishaoetYangRizhang, 杨心如故居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 1ntangibleCulturalHeritageExhibionAreas, FomerResiceliceofYangXinru 杨心如旧居\nB. FomerResiceliceofYangXinru 杨心如旧居, 非物质文化遗产展示区, 杨日韶、杨日暲故居, 杨心如故居, LaresidenceanciennedeYangRishaoetYangRizhang, Zonedexpositiondupatrimoineculturelimmateriel, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, LaresidenceanciennedeYangXinru\nC. LaresidenceanciennedeYangRishaoetYangRizhang, IntangibleCulturalHeritageExhibionAreas, 杨日韶、杨日暲故居, 非物质文化遗产展示区, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, LaresidenceanciennedeYangXinru, 50米, FomerResiceliceofYangXinru 杨心如旧居\nD. 非物质文化遗产展示区, Zonedexpositiondupatrimoineculturelimmateriel, IntangibleCulturalHeritageExhibionAreas, 杨心如故居, LaresidenceanciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 90米",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '100米, 杨日韶、杨日暲故居, 非物质文化遗产展示区, 90米, 50米, LaresidenceanciennedeYangXinru, 杨心如故居, FomerResiceliceofYangXinru 杨心如旧居, Zonedexpositiondupatrimoineculturelimmateriel, IntangibleCulturalHeritageExhibionAreas' located within the bounding box [[516.3382936507933, 225.11713980463975], [1312.554716117216, 225.11713980463975], [1312.554716117216, 852.6766636141638], [516.3382936507933, 852.6766636141638]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_101.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[505, 221], [1306, 221], [1306, 848], [505, 848]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "杨日韶、杨日暲故居",
+                                "IntangibleCulturalHeritageExhibionAreas",
+                                "FomerResiceliceofYangXinru 杨心如旧居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the given coordinates [[694,381], [744,384], [742,421], [693,419]], determine the missing number(s) in the sequence \"9____\" to complete it.",
+                            "answer": "0"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[505, 221], [1122, 221], [1122, 848], [505, 848]]. Options:\nA. 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas, Zonedexpositiondupatrimoineculturelimmateriel, LaresidenceenciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangRishaoetYangRizhang, 杨日韶、杨日暲故居, 杨心如故居\nB. FomerResiceliceofYangXinru 杨心如旧居, 杨心如故居, 2onedexpositiondupatrimoineculturelimmateriel, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, IntangibleCulturalHeritageExhibionAreas, 非物质文化遗产展示区, LaresidenceanciennedeYangXinru, LaresidenceanciennedeYangRishaoetYangRizhang\nC. Zonedexpositiondupatrimoineculturelimmateriel, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 非物质文化遗产展示区, 杨心如故居, IntangibleCulturalHeritageExhibionAreas, LaresidenceanciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居, LaresidenceanciennedeYangRishaoetYangRizhang\nD. IntangibleCulturalHeritageExhibionAreas, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, Zonedexpositiondupatrimoineculturelimmateriel, 非物质文化遗产展示区, LaresidenceanciennedeYangRishaoetYangRizhang, 杨心如故居, 50米, FomerResiceliceofYangXinru 杨心如旧居",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '90米, 100米, 杨日韶、杨日暲故居, FomerResiceliceofYangXinru 杨心如旧居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, LaresidenceanciennedeYangRishaoetYangRizhang' located within the bounding box [[505, 464], [1306, 464], [1306, 848], [505, 848]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0255/frame_111.png",
+                "relative_path": "test_batch_1/CHN_test/C0255/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[496, 214], [1298, 214], [1298, 842], [496, 842]]? ________",
+                            "answer": [
+                                "50米",
+                                "杨心如故居",
+                                "90米",
+                                "100米",
+                                "FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居",
+                                "Zonedexpositiondupatrimoineculturelimmateriel",
+                                "非物质文化遗产展示区",
+                                "LaresidenceanciennedeYangXinru",
+                                "LaresidenceanciennedeYangRishaoetYangRizhang",
+                                "杨日韶、杨日暲故居",
+                                "IntangibleCulturalHeritageExhibionAreas",
+                                "FomerResiceliceofYangXinru 杨心如旧居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Explore the sequence found within the coordinates [[582,460], [632,463], [630,500], [581,498]]. What number(s) completes the pattern \"9____\"?",
+                            "answer": "0"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, choose the correct option that includes the text(s) found within [[496, 461], [1298, 461], [1298, 842], [496, 842]]. Options:\nA. 杨心如故居, 90米, 100米, FomerResiceliceofYangXinru 杨心如旧居, 杨日韶、杨日暲故居, LaresidenceanciennedeYangRishaoetYangRizhan6, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居\nB. 杨心如故居, LaresidenceanciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 杨日韶、杨日暲故居, 100米, 50米\nC. FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, LaresidenceanciennedeYangXinru, 100米, FomerResiceliceofYangXinru 杨心如旧居, 90米, 杨心如故居, LaresidenceanciennedeYangRishaoetYangRizhang\nD. 100米, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, FomerResiceliceofYangXinru 杨心如旧居, 杨心如故居, LaresidenceanciennedeYangXinru, LaresidenceanciennedeYangRishaoetYangRizhang, 90粛",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'LaresidenceanciennedeYangXinru, FomerResiceliceofYangXinru 杨心如旧居, Zohedexpositiondupatrimoineculturelimmateriel, LaresidenceanciennedeYangRishaoetYangRizhang, 杨心如故居, 非物质文化遗产展示区, IntangibleCulturalHeritageExhibionAreas, 杨日韶、杨日暲故居, FomerResidenceofYangRishaoandYangRizang 杨日韶·杨日暲旧居, 100米' located within the bounding box [[496.0257936507933, 214.02559050886506], [1298.492216117216, 214.02559050886506], [1298.492216117216, 841.7391636141638], [496.0257936507933, 841.7391636141638]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0255"
+    }
+]

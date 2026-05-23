@@ -1,0 +1,478 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are located within the bounding box [[252, 191], [1623, 191], [1623, 641], [252, 641]]? ________",
+              "answer": [
+                "泸粤匯贸易有限公司",
+                "名烟 名酒 名茶 礼品",
+                "烟酒",
+                "福",
+                "福",
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图像的指定位置 [[1126,604], [1160,604], [1160,641], [1126,641]] 填写完整字符符“福”的第一个部分： “____”。",
+              "answer": "福"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[560, 191], [1623, 191], [1623, 641], [560, 641]]. Options:\nA. 福, 福, 30, 泸粤匯贸易有限公司\nB. 福, 泸粤匯贸易有限公司, 福, 焑酒\nC. 泸粤匯贸易有限公司, 焑酒, 名烟 名酒 名茶 礼品, 福\nD. 名烟 名酒 名茶 礼品, 福, 福, 泸粤匯贸易有限公司",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '福, 烟酒, 30, 名烟 名酒 名茶 礼品, 泸粤匯贸易有限公司, 福' located within the bounding box [[560, 191], [1623, 191], [1623, 628], [560, 628]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[251.89189189189187, 581.8918918918919], [272.16216216216213, 581.8918918918919], [272.16216216216213, 614.5945945945946], [251.89189189189187, 614.5945945945946]]? The word(s) is/are ________.",
+              "answer": [
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据图片中的坐标 [[547,546], [593,547], [592,578], [547,577]]，填写“酒”字符前的部分是“____”。",
+              "answer": "烟"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[560, 191], [1623, 191], [1623, 641], [560, 641]]? Please choose the correct answer. Options:\nA. 烟酒, 泸粤匯贸易有限公司, 禎, 名烟 名酒 名茶 礼品\nB. 烟酒, 福, 名焑 名酒 名茶 礼品, 泸粤匯贸易有限公司\nC. 福, 泸粤匯贸易有限公司, 30, 福\nD. 名烟 名酒 名茶 礼品, 烟酒, 泸粤匯贸易有限公司",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '泸粤匯贸易有限公司, 名烟 名酒 名茶 礼品, 烟酒' located within the bounding box [[251.89189189189187, 191.1290322580645], [1623.3064516129034, 191.1290322580645], [1623.3064516129034, 641.1764705882352], [251.89189189189187, 641.1764705882352]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can be found in the bounding box [[250, 581], [270, 581], [270, 613], [250, 613]]? ________",
+              "answer": [
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Observe the image at coordinates [[269,573], [289,573], [288,605], [269,605]]. What number(s) fills in the blank: \"3____\"?",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) present in the area [[559, 190], [1620, 190], [1620, 642], [559, 642]]? Choose the correct answer. Options:\nA. 福, 烟酒, 福, 名烟 名酒 名茶 礼品\nB. 名焑 名酒 名茶 礼品, 泸粤匯贸易有限公司, 烟酒, 福\nC. 30, 烟酒, 福, 泸粤匯贸易有限公司\nD. 泸粤匯贸易有限公司, 名烟 名酒 名茶 礼品, 禎, 烟酒",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '福, 烟酒, 名烟 名酒 名茶 礼品, 福' located within the bounding box [[559, 190], [1620, 190], [1620, 627], [559, 627]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) found in [[249.86602982292635, 580.6418918918919], [270.1363000931966, 580.6418918918919], [270.1363000931966, 613.3445945945946], [249.86602982292635, 613.3445945945946]]. The word(s) is/are ________.",
+              "answer": [
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标 [[1184,624], [1218,624], [1218,661], [1185,660]] 的位置，补全字符符“____”。",
+              "answer": "福"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located in the area [[559, 190], [1620, 190], [1620, 640], [559, 640]]? Choose the correct answer. Options:\nA. 30, 名烟 名酒 名茶 礼品, 泸粤匯贸易有限公司, 福\nB. 泸粤匯贸易有限公司, 烟酒, 名烟 名酒 名茶 礼品\nC. 焑酒, 名烟 名酒 名茶 礼品, 福, 泸粤匯贸易有限公司\nD. 泸粤匯贸易有限公司, 名烟 名酒 名茶 礼品, 福, 焑酒",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '30, 烟酒, 泸粤匯贸易有限公司, 名烟 名酒 名茶 礼品' appear within the bounding box [[249.86602982292635, 189.8790322580645], [1619.5564516129034, 189.8790322580645], [1619.5564516129034, 640.1971201471767], [249.86602982292635, 640.1971201471767]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[248.82436315625972, 578.6076693939598], [269.09463342653, 578.6076693939598], [269.09463342653, 611.3103720966625], [248.82436315625972, 611.3103720966625]]? The word(s) is/are ________.",
+              "answer": [
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请注视图像中通过坐标 [[1622,622], [1664,621], [1664,666], [1623,666]] 确定的位置，补上这个字符：“____”。",
+              "answer": "福"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) found in the area [[558, 189], [1621, 189], [1621, 639], [558, 639]]? Choose the correct answer. Options:\nA. 福, 福, 烟酒, 泸粤匯贸易有限公司\nB. 名焑 名酒 名茶 礼品, 泸粤匯贸易有限公司, 福, 烟酒\nC. 焑酒, 福, 福, 名烟 名酒 名茶 礼品\nD. 烟酒, 名烟 名酒 名茶 礼品, 30, 泸粤匯贸易有限公司",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '福, 泸粤匯贸昘有限公司, 福, 烟酒, 名烟 名酒 名茶 礼品, 30' located within the bounding box [[248.82436315625972, 188.83736559139788], [1620.5349869664387, 188.83736559139788], [1620.5349869664387, 639.1554534805101], [248.82436315625972, 639.1554534805101]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[248.82436315625972, 578.6076693939598], [269.09463342653, 578.6076693939598], [269.09463342653, 611.3103720966625], [248.82436315625972, 611.3103720966625]]? The word(s) is/are ________.",
+              "answer": [
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "查看位于坐标[[930,463], [1540,404], [1544,480], [932,531]]处的内容，它包含了“名烟 ____酒 名茶 礼品”。请填写缺失的部分。",
+              "answer": "名"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[249, 549], [1579, 549], [1579, 639], [249, 639]]? Choose the correct answer. Options:\nA. 烟酒, 30\nB. 福, 名烟 名酒 名茶 礼品, 烟酒\nC. 泸粤匯贸易有限公司, 烟酒, 福\nD. 30, 禎, 烟酒",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '泸粤匯贸易有限公司, 烟酒, 名烟 名酒 名茶 礼品' located within the bounding box [[558, 189], [1621, 189], [1621, 626], [558, 626]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[246.26845261312872, 188.83736559139788], [1620.5349869664387, 188.83736559139788], [1620.5349869664387, 639.1554534805101], [246.26845261312872, 639.1554534805101]]? The word(s) is/are ________.",
+              "answer": [
+                "泸粤匯贸易有限公司",
+                "名烟 名酒 名茶 礼品",
+                "烟酒",
+                "福",
+                "福",
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Look closely at the part of the image indicated by the coordinates [[440,570], [460,570], [459,602], [440,602]]. Fill in the missing digit(s): \"____0\".",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found in the area [[246, 549], [1576, 549], [1576, 639], [246, 639]]? Choose the correct answer. Options:\nA. 30, 烟酒\nB. 焑酒, 30, 福\nC. 泸粤匯贸易有限公司, 福, 30\nD. 焑酒, 福, 30",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '泸粤匯贸易有限公司, 30, 名烟 名酒 名茶 礼品' located within the bounding box [[246.26845261312872, 188.83736559139788], [1620.5349869664387, 188.83736559139788], [1620.5349869664387, 639.1554534805101], [246.26845261312872, 639.1554534805101]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[244.5590509037271, 188.41001516404742], [1618.8255852570371, 188.41001516404742], [1618.8255852570371, 638.7281030531597], [244.5590509037271, 638.7281030531597]]? The word(s) is/are ________.",
+              "answer": [
+                "泸粤匯贸易有限公司",
+                "名烟 名酒 名茶 礼品",
+                "烟酒",
+                "福",
+                "福",
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在制定区域 [[869,310], [1835,189], [1843,332], [875,431]] 中，补全公司名称“泸粤匯贸____有限公司”。",
+              "answer": "易"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[245, 549], [1575, 549], [1575, 639], [245, 639]]? Choose the correct answer. Options:\nA. 福, 30, 焑酒\nB. 烟酒, 30\nC. 福, 福, 名烟 名酒 名茶 礼品\nD. 30, 福, 泸粤匯贸易有限公司",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '泸粤匯贸易有限公司, 烟酒, 名烟 名酒 名茶 礼品' located within the bounding box [[554, 188], [1619, 188], [1619, 625], [554, 625]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[641.8029906322162, 189.94847670250897], [1616.5178929493447, 189.94847670250897], [1616.5178929493447, 503.8929738562092], [641.8029906322162, 503.8929738562092]]? The word(s) is/are ________.",
+              "answer": [
+                "泸粤匯贸易有限公司",
+                "名烟 名酒 名茶 礼品"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图片坐标 [[1763,595], [1804,594], [1805,638], [1764,638]] 的位置，缺少的汉字符部分是“____”吗？",
+              "answer": "福"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located within [[242, 548], [1572, 548], [1572, 640], [242, 640]]? Choose the correct answer. Options:\nA. 泸粤匯贸易有限公司, 烟酒, 30\nB. 禎, 30, 烟酒\nC. 30, 焑酒, 福\nD. 烟酒, 30",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '福, 名烟 名酒 名茶 礼品, 福, 泸粤匯贸易有限公司' located within the bounding box [[551, 190], [1617, 190], [1617, 627], [551, 627]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[241.08856789836034, 188.78568600483447], [1615.3551022516704, 188.78568600483447], [1615.3551022516704, 639.1037738939466], [241.08856789836034, 639.1037738939466]]? The word(s) is/are ________.",
+              "answer": [
+                "泸粤匯贸易有限公司",
+                "名烟 名酒 名茶 礼品",
+                "烟酒",
+                "福",
+                "福",
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在坐标 [[494,566], [514,565], [513,597], [494,598]] 处查看，并填写数字字符 \"____0\" 来补全信息。",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[241, 546], [1571, 546], [1571, 639], [241, 639]]? Choose the correct answer. Options:\nA. 30, 福, 泸粤匯贸易有限公司\nB. 福, 30, 焑酒\nC. 30, 福, 烟酒\nD. 烟酒, 福, 福",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '名烟 名酒 名茶 礼品, 烟酒, 泸粤匯贸易有限公司' located within the bounding box [[241.08856789836034, 188.78568600483447], [1615.3551022516704, 188.78568600483447], [1615.3551022516704, 639.1037738939466], [241.08856789836034, 639.1037738939466]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[238.76972731865018, 188.78568600483447], [1613.0362616719603, 188.78568600483447], [1613.0362616719603, 638.2857779839261], [238.76972731865018, 638.2857779839261]]? The word(s) is/are ________.",
+              "answer": [
+                "泸粤匯贸易有限公司",
+                "名烟 名酒 名茶 礼品",
+                "烟酒",
+                "福",
+                "福",
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图像的坐标 [[1801,603], [1842,603], [1843,647], [1802,647]] 处，漏失字符符是“____”？",
+              "answer": "福"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found in the area [[239, 546], [1569, 546], [1569, 638], [239, 638]]? Choose the correct answer. Options:\nA. 30, 名烟 名酒 名茶 礼品, 福\nB. 焑酒, 福, 福\nC. 30, 烟酒\nD. 福, 30, 泸粤匯贸易有限公司",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '名烟 名酒 名茶 礼品, 烟酒, 30' located within the bounding box [[238.76972731865018, 188.78568600483447], [1613.0362616719603, 188.78568600483447], [1613.0362616719603, 638.2857779839261], [238.76972731865018, 638.2857779839261]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0180/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0180/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[235.03140956164086, 546.2398969777041], [589.2364685423013, 546.2398969777041], [589.2364685423013, 609.1460164537609], [235.03140956164086, 609.1460164537609]]? The word(s) is/are ________.",
+              "answer": [
+                "烟酒",
+                "30"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标 [[817,551], [862,552], [861,583], [816,582]] 的位置，你能将漏掉的字符符“____酒”补全吗？",
+              "answer": "烟"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) located within [[235, 546], [1565, 546], [1565, 638], [235, 638]]? Choose the correct answer. Options:\nA. 烟酒, 30, 福\nB. 烟酒, 泸粤匯贸易有限公司, 福\nC. 福, 30, 福\nD. 30, 烟酒",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '泸粤匯贸易有限公司, 烟酒, 名烟 名酒 名茶 礼品' located within the bounding box [[543, 189], [1609, 189], [1609, 625], [543, 625]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0180"
+  }
+]

@@ -1,0 +1,451 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_001.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[374.2937083980433, 655.6962025316456], [726.1924425752586, 655.6962025316456], [726.1924425752586, 744.3037974683544], [374.2937083980433, 744.3037974683544]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在图像的区域[[374,656], [722,668], [726,744], [377,737]]，请填入缺失的字符符：\"孙中____故居\"。",
+                            "answer": "山"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[374, 656], [726, 656], [726, 744], [374, 744]]. Options:\nA. 孙中山敬居\nB. 孙中山故居\nC. 孙中山故屠\nD. 孙串山故居",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山故居' located within the bounding box [[374.2937083980433, 655.6962025316456], [726.1924425752586, 655.6962025316456], [726.1924425752586, 744.3037974683544], [374.2937083980433, 744.3037974683544]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_011.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[371.8513450336152, 655.6962025316456], [723.7500792108303, 655.6962025316456], [723.7500792108303, 744.3037974683544], [371.8513450336152, 744.3037974683544]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[360,613], [708,625], [712,701], [363,694]]的文本中，补充完整缺失部分：\"孙中山____\"。",
+                            "answer": "故居"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[372, 656], [724, 656], [724, 744], [372, 744]]? Please choose the correct answer. Options:\nA. 孙中山故屠\nB. 孙中山故居\nC. 孙串山故居\nD. 孙中山敬居",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Does the label '孙中山故居' fall within the bounding box [[371.8513450336152, 655.6962025316456], [723.7500792108303, 655.6962025316456], [723.7500792108303, 744.3037974683544], [371.8513450336152, 744.3037974683544]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_021.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[367, 652], [719, 652], [719, 741], [367, 741]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[388,528], [736,540], [740,617], [391,609]]的位置中，填补完整的名称：“孙____故居”。",
+                            "answer": "中山"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[367, 652], [719, 652], [719, 741], [367, 741]]? Choose the correct answer. Options:\nA. 孙中山故屠\nB. 孙中山敬居\nC. 孙中山故居\nD. 孙串山故居",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山敬居' contained within the bounding box [[366.93721064075095, 652.2479266695766], [718.835944817966, 652.2479266695766], [718.835944817966, 740.8555216062855], [366.93721064075095, 740.8555216062855]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_031.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[358, 650], [710, 650], [710, 738], [358, 738]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在[[386,546], [734,558], [738,634], [389,627]]位置，填写缺失的部分以完成名称：“____中山故居”。",
+                            "answer": "孙"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[358, 650], [710, 650], [710, 738], [358, 738]]? Choose the correct option. Options:\nA. 孙中山故居\nB. 孙中山故屠\nC. 孙串山故居\nD. 孙中山敬居",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山故居' located within the bounding box [[358.40024517231654, 649.7639523106022], [710.2989793495317, 649.7639523106022], [710.2989793495317, 738.3715472473111], [358.40024517231654, 738.3715472473111]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_041.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[354, 650], [706, 650], [706, 738], [354, 738]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在位于[[480,549], [827,561], [831,637], [482,630]]的文本处填入缺失的部分：“孙____故居”。",
+                            "answer": "中山"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[354, 650], [706, 650], [706, 738], [354, 738]]? Choose the correct answer. Options:\nA. 孙中山敬居\nB. 孙中山故屠\nC. 孙串山故居\nD. 孙中山故居",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山故居' located within the bounding box [[353.67862620291373, 649.7009613516575], [705.577360380129, 649.7009613516575], [705.577360380129, 738.3085562883664], [353.67862620291373, 738.3085562883664]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_051.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[348, 646], [700, 646], [700, 734], [348, 734]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[581,494], [929,506], [933,582], [584,575]]的区域中，补充完整名称：“孙中____故居”。",
+                            "answer": "山"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[348, 646], [700, 646], [700, 734], [348, 734]]. Options:\nA. 孙中山故屠\nB. 孙中山敬居\nC. 孙中山故居\nD. 孙串山故居",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山敬居' located within the bounding box [[347.88089864728096, 645.6201055995338], [699.779632824496, 645.6201055995338], [699.779632824496, 734.2277005362427], [347.88089864728096, 734.2277005362427]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_061.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[351, 640], [703, 640], [703, 728], [351, 728]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在坐标[[683,457], [1031,469], [1035,546], [686,538]]处的文本中，填入缺失的字符符来还原地名：\"孙中山____\"。",
+                            "answer": "故居"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[351, 640], [703, 640], [703, 728], [351, 728]]. Options:\nA. 孙中山故屠\nB. 孙中山敬居\nC. 孙串山故居\nD. 孙中山故居",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山敬居' located within the bounding box [[351.31848744481334, 639.5018338745012], [703.2172216220285, 639.5018338745012], [703.2172216220285, 728.1094288112101], [351.31848744481334, 728.1094288112101]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_071.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[348, 634], [700, 634], [700, 723], [348, 723]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[763,401], [1108,409], [1115,490], [768,489]]处，填写缺失的部分内容：“孙中____故居”，以补全名称。",
+                            "answer": "山"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[348, 634], [700, 634], [700, 723], [348, 723]]. Options:\nA. 孙中山故屠\nB. 孙串山故居\nC. 孙中山故居\nD. 孙中山敬居",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山敬居' located within the bounding box [[348.04473516786754, 633.8932439666643], [699.9434693450828, 633.8932439666643], [699.9434693450828, 722.5008389033732], [348.04473516786754, 722.5008389033732]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_081.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[349, 627], [701, 627], [701, 715], [349, 715]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在给出的坐标[[827,363], [1173,370], [1179,452], [832,451]]中，填写缺失部分以完成建筑名称：“孙____故居”。",
+                            "answer": "中山"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[349, 627], [701, 627], [701, 715], [349, 715]]. Options:\nA. 孙串山故居\nB. 孙中山故居\nC. 孙中山敬居\nD. 孙中山故屠",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山敬居' located within the bounding box [[348.72094949757536, 626.5817034797684], [700.6196836747904, 626.5817034797684], [700.6196836747904, 715.1892984164773], [348.72094949757536, 715.1892984164773]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_091.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[350, 623], [702, 623], [702, 712], [350, 712]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[842,319], [1187,326], [1193,407], [847,403]]所示的文本中，补充缺失内容以完整该建筑名称：“孙中山____”。",
+                            "answer": "故居"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[350, 623], [702, 623], [702, 712], [350, 712]]? Choose the correct option. Options:\nA. 孙中山故居\nB. 孙中山故屠\nC. 孙串山故居\nD. 孙中山敬居",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山故居' located within the bounding box [[350.3908135056898, 623.3629041116799], [702.2895476829049, 623.3629041116799], [702.2895476829049, 711.9704990483888], [350.3908135056898, 711.9704990483888]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_101.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[360, 613], [712, 613], [712, 701], [360, 701]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在位于[[714,291], [1061,306], [1067,387], [719,376]]的文本中，查找并填入漏掉的部分：“孙中____故居”。",
+                            "answer": "山"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[360, 613], [712, 613], [712, 701], [360, 701]]? Choose the correct answer. Options:\nA. 孙中山敬居\nB. 孙中山故屠\nC. 孙中山故居\nD. 孙串山故居",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山故居' located within the bounding box [[360.39355173975963, 612.8442213624579], [712.2922859169748, 612.8442213624579], [712.2922859169748, 701.4518162991668], [360.39355173975963, 701.4518162991668]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0264/frame_111.png",
+                "relative_path": "test_batch_1/CHN_test/C0264/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[363, 602], [715, 602], [715, 691], [363, 691]]? ________",
+                            "answer": [
+                                "孙中山故居"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请查看位于[[563,297], [908,313], [911,395], [565,385]]的文本，并填补缺少的部分：\"孙____故居\"。",
+                            "answer": "中山"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[363, 602], [715, 602], [715, 691], [363, 691]]. Options:\nA. 孙中山故屠\nB. 孙串山故居\nC. 孙中山故居\nD. 孙中山敬居",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '孙中山敬居' located within the bounding box [[362.68054338316057, 602.4150368131017], [714.5792775603758, 602.4150368131017], [714.5792775603758, 691.0226317498106], [362.68054338316057, 691.0226317498106]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0264"
+    }
+]

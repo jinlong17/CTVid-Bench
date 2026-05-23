@@ -1,0 +1,481 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are located within the bounding box [[150, 36], [1651, 36], [1651, 1057], [150, 1057]]? ________",
+              "answer": [
+                "正明汽车维修",
+                "轮胎",
+                "电话：0760-88808519",
+                "喷漆 钣金 机油 自动波箱油",
+                "新能源",
+                "电动汽",
+                "elf"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word(s) is partially hidden within the bounding box [[1338,959], [1376,963], [1371,984], [1333,979]], visible as \"e____f\"?",
+              "answer": "l"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[150, 36], [1651, 36], [1651, 1057], [150, 1057]]. Options:\nA. elf, 新能源, 电动汽, 电, 轮胎, 喷漆 钣金 机油 自动波箱油\nB. 喷漆 钣金 机油 自动波箱油, 轮胎, 电动汽, 电话：0760-88808519, 新能源, olf\nC. 电话：0760-88808519, 轮胎, 正明汽车维修, 新能源, 电动汽, elf\nD. elf, 电话：0760-88808519, 喷漆 钣金 机油 自动波箱油, 新能溧, 正明汽车维修, 电动汽",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '喷漆 钣金 机油 自动波箱油, 电, elf, 新能源, 电动汽, 快速, 正明汽车维修, 轮胎' located within the bounding box [[150, 599], [1908, 599], [1908, 1071], [150, 1071]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be found in the region [[192.86713286713285, 36.36363636363637], [1400.0, 36.36363636363637], [1400.0, 500.0], [192.86713286713285, 500.0]]? The word(s) is/are ________.",
+              "answer": [
+                "正明汽车维修",
+                "电话：0760-88808519"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在[[1867,737], [1910,737], [1909,764], [1866,764]]位置，填入缺失部分以构成完整的词语：“电____”",
+              "answer": "脑"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[150, 36], [1904, 36], [1904, 794], [150, 794]]? Please choose the correct answer. Options:\nA. 电话：0760-88808519, 正明汽车维修, 轮胎, 喷漮 钣金 机油 自动波箱油\nB. 喷漆 钣金 机油 自动波箱油, 电, 新能源, 电话：0760-88808519\nC. 轭胎, 喷漆 钣金 机油 自动波箱油, 电, 电话：0760-88808519\nD. 喷漆 钣金 机油 自动波箱油, 正明汽车维修, 轮胎, 电话：0760-88808519",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '电话：0760-88808519, 电, 正明汽车维修, 轮胎' located within the bounding box [[150, 36], [1904, 36], [1904, 794], [150, 794]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are present in the area [[1857.6694936736365, 749.1279069767442], [1919.0, 749.1279069767442], [1919.0, 1070.8445532435742], [1857.6694936736365, 1070.8445532435742]]? The word(s) is/are ________.",
+              "answer": [
+                "电脑",
+                "快速"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "如何填补边界框[[335,816], [420,818], [411,875], [323,873]]中的缺口以形成完整的词语：“____能源”？",
+              "answer": "新"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[150, 599], [1919, 599], [1919, 1071], [150, 1071]]? Please choose the correct answer. Options:\nA. 轭胎, 电脑, 新能源, elf, 喷漆 钣金 机油 自动波箱油, 快速\nB. 电脑, 新能溧, 喷漆 钣金 机油 自动波箱油, elf, 快速, 轮胎\nC. 快速, 轮胎, elf, 新能源, 电脑, 电动汽\nD. elf, 轮胎, 喷漆 钣金 机油 自动波箱油, 电脑, 快速, 正明汽车维修",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '新能源, 正明汽车维修, 喷漆 钣金 机油 自动波箱油, 电话：0760-88808519, elf, 电动汽, 轮胎, 电脑' located within the bounding box [[150, 36], [1651, 36], [1651, 1056], [150, 1056]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[1855.1923076923076, 749.1758241758241], [1919.2747252747254, 749.1758241758241], [1919.2747252747254, 1069.7802197802198], [1855.1923076923076, 1069.7802197802198]]? The word(s) is/are ________.",
+              "answer": [
+                "电脑",
+                "快速维"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在给定的边界框[[127,555], [310,597], [293,699], [105,662]]中，\"____胎\"中的缺失部分是什么？",
+              "answer": "轮"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[140, 601], [1919, 601], [1919, 1070], [140, 1070]]? Please choose the correct answer. Options:\nA. elf, 快逮维, 轮胎, 喷漆 钣金 机油 自动波箱油, 电脑, 电动汽\nB. 新能源, elf, 喷漆 钣金 机油 自动波箱油, 电脑, 快逮维, 轮胎\nC. 正明汽车维修, 轮胎, 喷漆 钣金 机油 自动波箱油, 电动汽, 新能源, elf\nD. 快速维, 喷漆 钣金 机油 自动波箱油, 轮胎, elf, 电动汽, 电脑",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '新能源, elf, 喷漆 钣金 机油 自动波箱油, 电脑, 电话：0760-88808519, 电动汽, 轮胎, 正明汽车维修' located within the bounding box [[140, 39], [1641, 39], [1641, 1060], [140, 1060]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are found in the area [[343.71001676398777, 853.4645199761478], [1918.885754583921, 853.4645199761478], [1918.885754583921, 1069.5345557122707], [343.71001676398777, 1069.5345557122707]]? The word(s) is/are ________.",
+              "answer": [
+                "新能源",
+                "电动汽",
+                "elf",
+                "快速维"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框[[315,793], [399,794], [390,851], [303,849]]内，完成以下词语：\"新____源\"。",
+              "answer": "能"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[140, 39], [1915, 39], [1915, 797], [140, 797]]? Please choose the correct answer. Options:\nA. 轮胎, 正明汽车维修, 电话：0760-88808519, 电胲\nB. 正昀汽车维修, 喷漆 钣金 机油 自动波箱油, 电脑, 轮胎\nC. 电话：0760-88808519, 新能源, 轮胎, 喷漆 钣金 机油 自动波箱油\nD. 正明汽车维修, 轮胎, 电话：0760-88808519, 电脑",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '喷漆 钣金 机油 自动波箱油, 正明汽车维修, 电话：0760-88808519, 快速维, 轮胎, 电脑' located within the bounding box [[140, 39], [1915, 39], [1915, 797], [140, 797]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[341.35152619795025, 851.5777275233177], [1915.7055425697868, 851.5777275233177], [1915.7055425697868, 1067.4144143695146], [341.35152619795025, 1067.4144143695146]]? The word(s) is/are ________.",
+              "answer": [
+                "新能源",
+                "电动汽",
+                "elf",
+                "快速维"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框[[1643,958], [1761,962], [1760,1028], [1641,1023]]内，填入缺失部分以补全词语：“买____”。",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[138, 600], [1916, 600], [1916, 1067], [138, 1067]]? Please choose the correct answer. Options:\nA. 电脑, 快速维, 喷漆 钣金 机油 自动波箱油, 轮胎, 新能溧, elf\nB. 电脑, 快速维, 新能源, 电动汽, 轮胎, 喷漆 钣金 机油 自动波箱油\nC. 轮胎, 电脑, 电动汽, olf, 快速维, 喷漆 钣金 机油 自动波箱油\nD. 快速维, 喷漆 钣金 机油 自动波箱油, 电动汽, 正明汽车维修, 轮胎, 新能源",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '电动汽, 轮胎, 正明汽车维修, 电话：0760-88808519, 新能源, elf, 快速维, 喷漆 钣金 机油 自动波箱油' located within the bounding box [[138, 37], [1639, 37], [1639, 1056], [138, 1056]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[339.7725788295292, 851.5777275233177], [1914.8990909568836, 851.5777275233177], [1914.8990909568836, 1067.4144143695146], [339.7725788295292, 1067.4144143695146]]? The word(s) is/are ________.",
+              "answer": [
+                "新能源",
+                "电动汽",
+                "elf",
+                "快速维"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框[[915,258], [1335,170], [1334,230], [910,317]]内，电话号码的正确前缀是“____：0760-88808519”吗？",
+              "answer": "电话"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[136, 37], [1637, 37], [1637, 1056], [136, 1056]]? Please choose the correct answer. Options:\nA. 轮胎, 电脑, 新能源, elf, 电动汽, 喷漆 钣金 机油 自动波箱油\nB. 新能源, 电动汽, 喷漮 钣金 机油 自动波箱油, 正明汽车维修, 轮胎, 电话：0760-88808519\nC. 电话：0760-88808519, 新能源, 喷漆 钣金 机油 自动波箱油, elf, 轮胎, 电动汽\nD. elf, 电动汽, 电话：0760-88808519, 喷漮 钣金 机油 自动波箱油, 轮胎, 正明汽车维修",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '电脑, 正明汽车维修, 电话：0760-88808519, 喷漆 钣金 机油 自动波箱油' located within the bounding box [[136, 37], [1910, 37], [1910, 795], [136, 795]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are present in the area [[176.61755620435048, 36.97684391080622], [1383.7504233372176, 36.97684391080622], [1383.7504233372176, 500.61320754716985], [176.61755620435048, 500.61320754716985]]? The word(s) is/are ________.",
+              "answer": [
+                "正明汽车维修",
+                "电话：0760-88808519"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "遮挡矩形[[1659,907], [1778,911], [1776,976], [1657,971]]中缺少的部分是什么，以便完整表示为“买____”?",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[134, 37], [1635, 37], [1635, 1056], [134, 1056]]? Please choose the correct answer. Options:\nA. 喷漆 钣金 机油 自动波箱油, 新能源, 电动汽, 正明汽车维修, elf, 电话：0760-88808519\nB. 新能源, 喷漆 钣金 机油 自动波箱油, 电动汽, elf, 电脑, 电话：0760-88808519\nC. 正明汽车维修, 喷漆 钣金 机油 自动波箱油, 电动汔, elf, 新能源, 轮胎\nD. 电动汽, 正明汽车维修, elf, 电话：0760-88808519, 轮胎, 新能溧",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '轮胎, 电动汽, 新能源, 喷漆 钣金 机油 自动波箱油, 电话：0760-88808519' located within the bounding box [[134, 37], [1635, 37], [1635, 1056], [134, 1056]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[175.16828084203172, 34.90060930083859], [1382.3011479748989, 34.90060930083859], [1382.3011479748989, 498.5369729372022], [175.16828084203172, 498.5369729372022]]? The word(s) is/are ________.",
+              "answer": [
+                "正明汽车维修",
+                "电话：0760-88808519"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在矩形区域[[116,547], [299,588], [282,690], [94,653]]中，填写缺失的部分以完成这个词：“轮____”。",
+              "answer": "胎"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[133, 35], [1633, 35], [1633, 1054], [133, 1054]]? Please choose the correct answer. Options:\nA. 新能源, 电话：0760-88808519, 轮胎, 正明汽车维修, 喷漆 钣金 机油 自动波箱油, 电动汽\nB. 轮胎, 新能源, 正明汽车维修, 喷漮 钣金 机油 自动波箱油, 电话：0760-88808519, elf\nC. 新能源, 电话：0760-88808519, 喷漆 钣金 机油 自动波箱油, 电脑, 正明汽车维修, 轮胎\nD. 新能溧, 喷漆 钣金 机油 自动波箱油, 轮胎, 电动汽, 正明汽车维修, 电话：0760-88808519",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '新能源, 轮胎, elf, 快速维, 喷漆 钣金 机油 自动波箱油' located within the bounding box [[133, 597], [1912, 597], [1912, 1066], [133, 1066]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[176.2246188702007, 30.323144512106403], [1383.3574860030678, 30.323144512106403], [1383.3574860030678, 493.95950814847004], [176.2246188702007, 493.95950814847004]]? The word(s) is/are ________.",
+              "answer": [
+                "正明汽车维修",
+                "电话：0760-88808519"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框[[1661,991], [1779,995], [1777,1060], [1659,1056]]中，完整的词是“买____”吗？",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[134, 30], [1634, 30], [1634, 1055], [134, 1055]]? Please choose the correct answer. Options:\nA. 新能源, 喷漆 钣金 机油 自动波箱油, 轮胎, elf, 正明汽车维修, 电话：0760-88808519\nB. 喷漆 钣金 机油 自动波箱油, 电动汽, 新能源, 轮胎, 正明汽车维修, olf\nC. 新能源, 喷漆 钣金 机油 自动波箱油, 电动汽, 电脑, elf, 轮胎\nD. 轮胎, 电话：0760-88808519, 快速维, 喷漆 钣金 机油 自动波箱油, 电动汽, elf",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '喷漆 钣金 机油 自动波箱油, 电脑, 新能源, elf, 轮胎' located within the bounding box [[134, 593], [1913, 593], [1913, 1062], [134, 1062]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[176.2246188702007, 30.323144512106403], [1383.3574860030678, 30.323144512106403], [1383.3574860030678, 493.95950814847004], [176.2246188702007, 493.95950814847004]]? The word(s) is/are ________.",
+              "answer": [
+                "正明汽车维修",
+                "电话：0760-88808519"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the given scene, there's a word(s) inside the bounding box [[1304,964], [1342,969], [1337,990], [1299,985]] where the middle part is missing: \"e____f\". What should fill in the blank?",
+              "answer": "l"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[141, 30], [1634, 30], [1634, 1055], [141, 1055]]? Please choose the correct answer. Options:\nA. 正昀汽车维修, 电话：0760-88808519, 新能源, 电动汽, elf, 轮胎\nB. 新能源, 电动汽, 喷漆 钣金 机油 自动波箱油, 电脑, 电话：0760-88808519, elf\nC. 快速维, 新能源, 喷漆 钣金 机油 自动波箱油, 正明汽车维修, elf, 轮胎\nD. 新能源, 电动汽, elf, 喷漆 钣金 机油 自动波箱油, 正明汽车维修, 轮胎",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '电脑, 电话：0760-88808519, elf, 正明汽车维修, 电动汽, 喷漆 钣金 机油 自动波箱油, 新能源, 轮胎' located within the bounding box [[141, 30], [1634, 30], [1634, 1055], [141, 1055]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/blur/CHN/C0221/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0221/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) is/are located in the area [[141.1743874115184, 22.823144512106403], [1916.848596450712, 22.823144512106403], [1916.848596450712, 1052.1359571483529], [141.1743874115184, 1052.1359571483529]]? The word(s) is/are ________.",
+              "answer": [
+                "正明汽车维修",
+                "轮胎",
+                "电话：0760-88808519",
+                "喷漆 钣金 机油 自动波箱油",
+                "新能源",
+                "电动汽",
+                "elf",
+                "电脑",
+                "快速维"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the image, what word(s) is partially hidden by the box at [[1330,1013], [1368,1017], [1363,1038], [1325,1033]]? It appears as \"____lf\".",
+              "answer": "e"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[141, 23], [1911, 23], [1911, 781], [141, 781]]? Please choose the correct answer. Options:\nA. 轮胎, 新能源, 正明汽车维修, 电话：0760-88808519\nB. 喷漮 钣金 机油 自动波箱油, 正明汽车维修, 电脑, 轮胎\nC. 电脑, 正明汽车维修, 喷漆 钣金 机油 自动波箱油, 电话：0760-88808519\nD. 喷漆 钣金 机油 自动波箱油, 电胲, 电话：0760-88808519, 正明汽车维修",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '电脑, 轮胎, 喷漆 钣金 机油 自动波箱油, 电动汽, elf' located within the bounding box [[141, 588], [1917, 588], [1917, 1052], [141, 1052]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0221"
+  }
+]

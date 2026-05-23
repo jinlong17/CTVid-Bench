@@ -1,0 +1,461 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_001.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[1113, 573], [1434, 573], [1434, 729], [1113, 729]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the image bounding box at coordinates [[1184,701], [1432,699], [1432,727], [1184,729]], complete the vehicle service name: Qian____ Autonomous RoboBus.",
+                            "answer": "hai"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1113, 573], [1434, 573], [1434, 729], [1113, 729]]. Options:\nA. 前海自动, Qianbai Autonomous RoboBus\nB. 前涕自动, 驾驶公交\nC. 驾驶公交, Qianhai Autonomous RoboBus\nD. Qienhai Autonomous RoboBus, 驾驶公交",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '前海自动, 驾驶公交' located within the bounding box [[1113.0, 573.0], [1434.0, 573.0], [1434.0, 729.0], [1113.0, 729.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_011.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) found in the region [[1111, 571], [1432, 571], [1432, 727], [1111, 727]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[1176,641], [1432,641], [1432,705], [1176,705]]区域内，请填写“____公”以完成自动驾驶公交的名称。",
+                            "answer": "驾驶公"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[1111, 571], [1432, 571], [1432, 727], [1111, 727]]? Please choose the correct answer. Options:\nA. Qianbai Autonomous RoboBus, 驾驶公交\nB. 前涕自动, 驾驶公交\nC. 前淨自动, Qianhai Autonomous RoboBus\nD. 驾驶公交, 前海自动",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Do the label(s) 'Qianbai Autonomous RoboBus, 前海自动, 驾驶公交' fall within the bounding box [[1111.0, 571.0], [1432.0, 571.0], [1432.0, 727.0], [1111.0, 727.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_021.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What word(s) can be identified within [[1112, 574], [1430, 574], [1430, 725], [1112, 725]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "At location [[1356,723], [1438,723], [1438,750], [1359,750]], fill in the correct substring to complete the word(s): ____oBus.",
+                            "answer": "Rob"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1112, 574], [1430, 574], [1430, 725], [1112, 725]]? Please choose the correct answer. Options:\nA. 前海自动, Qienhai Autonomous RoboBus\nB. Qianbai Autonomous RoboBus, 前海自动\nC. 前海自动, Qionhai Autonomous RoboBus\nD. 前海自动, Qianhai Autonomous RoboBus",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '驽驶公交, Qianhai Autonomous RoboBus, 前海自动' contained within the bounding box [[1112.0, 574.0], [1430.0, 574.0], [1430.0, 725.0], [1112.0, 725.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_031.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[1108.0, 569.0], [1426.0, 569.0], [1426.0, 725.0], [1108.0, 725.0]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Identify the missing portion of the text within coordinates [[1206,741], [1454,738], [1454,766], [1206,768]] by filling in: Qian____ Autonomous RoboBus.",
+                            "answer": "hai"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1108, 569], [1426, 569], [1426, 725], [1108, 725]]? Please choose the correct option. Options:\nA. 前海自动, Qianbai Autonomous RoboBus\nB. Qianhai Autonomous RoboBus, 前涕自动\nC. 驾驶公交, 前淨自动\nD. 驾驶公交, Qianhai Autonomous RoboBus",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Qianhai Autonomous RoboBus, 驽驶公交, 前海自动' positioned within the bounding box [[1108.0, 569.0], [1426.0, 569.0], [1426.0, 725.0], [1108.0, 725.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_041.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) present in [[1106, 572], [1424, 572], [1424, 721], [1106, 721]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Can you determine the missing part in \"Qian____ Autonomous RoboBus\" found in the area with coordinates [[1230,746], [1480,749], [1480,776], [1230,774]]?",
+                            "answer": "hai"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1106, 572], [1424, 572], [1424, 721], [1106, 721]]. Options:\nA. 前海自动, Qianhai Autonomous RoboBus\nB. Qianbai Autonomous RoboBus, 前海自动\nC. Qianhai Autonomous RoboBus, 驽驶公交\nD. 驾驶公交, 前涕自动",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '前海自动, 驾驶公交' located inside the bounding box [[1106.0, 572.0], [1424.0, 572.0], [1424.0, 721.0], [1106.0, 721.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_051.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[1106.0, 570.0], [1424.0, 570.0], [1424.0, 721.0], [1106.0, 721.0]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1168, 635], [1424, 635], [1424, 721], [1168, 721]]? Please choose the correct answer. Options:\nA. 驽驶公交\nB. Qianhai Autonomous RoboBus\nC. 前海自动\nD. 驽驶公交",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '驾驶公交, 前海自动' found within the bounding box [[1106.0, 570.0], [1424.0, 570.0], [1424.0, 721.0], [1106.0, 721.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_061.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the text located in the area [[1106, 568], [1424, 568], [1424, 721], [1106, 721]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在坐标[[1166,623], [1418,623], [1418,679], [1166,679]]区域内填入中文短语中的缺失部分，补全为“前____动”。",
+                            "answer": "海自"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1170, 635], [1424, 635], [1424, 721], [1170, 721]]? Please choose the correct answer. Options:\nA. Qianbai Autonomous RoboBus\nB. 前海自动\nC. 驽驶公交\nD. 驾驶公交",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '驾驶公交, 前海自动' situated within the bounding box [[1106.0, 568.0], [1424.0, 568.0], [1424.0, 721.0], [1106.0, 721.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_071.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located in [[1112, 574], [1428, 574], [1428, 721], [1112, 721]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1112, 574], [1428, 574], [1428, 721], [1112, 721]]. Options:\nA. Qianbai Autonomous RoboBus, 前海自动\nB. 前涕自动, Qianhai Autonomous RoboBus\nC. 驾驶公交, Qianhai Autonomous RoboBus\nD. 前海自动, Qienhai Autonomous RoboBus",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Qianhai Autonomous RoboBus, 驾驶公交' enclosed within the bounding box [[1112.0, 574.0], [1428.0, 574.0], [1428.0, 721.0], [1112.0, 721.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_081.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the text found within [[1114, 576], [1428, 576], [1428, 725], [1114, 725]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the image at coordinates [[1246,748], [1496,751], [1496,778], [1246,776]], find the missing letter(s) in the phrase: Qianh____ Autonomous RoboBus.",
+                            "answer": "ai"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[1114, 576], [1428, 576], [1428, 725], [1114, 725]]? Please choose the correct answer. Options:\nA. 前海自动, 驾驶公交\nB. Qianbai Autonomous RoboBus, 驾驶公交\nC. 驽驶公交, 前海自动\nD. Qianhai Autonomous RoboBus, 骂驶公交",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '前海自动, Qianhai Autonomous RoboBus' within the bounding box [[1114.0, 576.0], [1428.0, 576.0], [1428.0, 725.0], [1114.0, 725.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_091.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[1112.0, 576.0], [1430.0, 576.0], [1430.0, 727.0], [1112.0, 727.0]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在给定的坐标[[1252,643], [1504,643], [1504,707], [1252,707]]，填写“前____动”中的缺失部分来完整此短语。",
+                            "answer": "海自"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[1112, 576], [1430, 576], [1430, 727], [1112, 727]]. Options:\nA. Qianbai Autonomous RoboBus, 驾驶公交\nB. 前海自动, 骂驶公交\nC. 驾驶公交, Qianhai Autonomous RoboBus\nD. 驽驶公交, Qianhai Autonomous RoboBus",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Qianhai Autonomous RoboBus, 驾驶公交' present within the bounding box [[1112.0, 576.0], [1430.0, 576.0], [1430.0, 727.0], [1112.0, 727.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_101.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[1116.0, 578.0], [1432.0, 578.0], [1432.0, 729.0], [1116.0, 729.0]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在给定坐标[[1362,717], [1618,717], [1618,778], [1362,778]]的区域内，补充“驾驶____”以完成此短语。",
+                            "answer": "公交"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[1116, 578], [1432, 578], [1432, 729], [1116, 729]]. Options:\nA. 驽驶公交, 前海自动\nB. 前海自动, Qianhai Autonomous RoboBus\nC. 驾驶公交, 前涕自动\nD. 驾驶公交, Qianbai Autonomous RoboBus",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Qianhai Autonomous RoboBus, 驾驶公交' located within the bounding box [[1116.0, 578.0], [1432.0, 578.0], [1432.0, 729.0], [1116.0, 729.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0035/frame_111.png",
+                "relative_path": "test_batch_1/CHN_test/C0035/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What is/are the word(s) located within [[1118.0, 582.0], [1436.0, 582.0], [1436.0, 733.0], [1118.0, 733.0]]? ________",
+                            "answer": [
+                                "前海自动",
+                                "驾驶公交",
+                                "Qianhai Autonomous RoboBus"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[1383,722], [1644,727], [1643,789], [1382,784]]处，请填补以下短语中的空白：驾驶____。",
+                            "answer": "公交"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) located within [[1180, 645], [1436, 645], [1436, 733], [1180, 733]]? Please choose the correct option. Options:\nA. 前海自动\nB. 驽驶公交\nC. Qianhai Autonomous RoboBus\nD. 驽驶公交",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Qianbai Autonomous RoboBus, 前海自动, 驾驶公交' inside the bounding box [[1118.0, 582.0], [1436.0, 582.0], [1436.0, 733.0], [1118.0, 733.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0035"
+    }
+]

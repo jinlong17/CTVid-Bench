@@ -1,0 +1,486 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_001.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) can be found within [[492.74074074074065, 47.79005537110156], [1006.0, 47.79005537110156], [1006.0, 762.0], [492.74074074074065, 762.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "bloom",
+                                "ups",
+                                "1800 PICK UPS",
+                                "www.ups.com",
+                                "06114X3",
+                                "213402"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the text located at bounding box [[820,606], [1006,606], [1006,633], [820,633]], can you fill in the missing character(s) for this label: \"1800 PI____ UPS\"?",
+                            "answer": "CK"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[493, 281], [1006, 281], [1006, 762], [493, 762]]. Options:\nA. 213402, 1800 PICK UPS, ups, www.ups.com\nB. 1800 PICK UPS, 213402, 06114X3, bloom\nC. 06114X3, www.ups.com, ups, 21340Z\nD. 213402, ups, wuw.ups.com, 1800 PICK UPS",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '213402, www.ups.com, 06114Z3, 1800 PICK UPS, bloom, ups' located within the bounding box [[492.74074074074065, 47.79005537110156], [1006.0, 47.79005537110156], [1006.0, 762.0], [492.74074074074065, 762.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_011.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) is/are located in the region [[568.5385901451683, 49.524159417344336], [782.6408265668936, 49.524159417344336], [782.6408265668936, 128.43789743651365], [568.5385901451683, 128.43789743651365]]? The answer is ________.",
+                            "answer": [
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Please determine the missing character(s) from the text at position [[313,742], [393,742], [393,772], [313,772]]: \"06____4X3\".",
+                            "answer": "114"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, choose the correct option that includes the text(s) found within [[476, 50], [783, 50], [783, 768], [476, 768]]. Options:\nA. ups, 06114Z3, bloom\nB. ups, bloom, 21340Z\nC. 06114X3, bloom, 1800 PICK UPS\nD. bloom, 213402, 06114X3",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'www.ups.com, vps, 06114X3, bloom, 213402, 1800 PICK UPS' located within the bounding box [[476.0194174757282, 49.524159417344336], [993.6806722689075, 49.524159417344336], [993.6806722689075, 768.1553398058253], [476.0194174757282, 768.1553398058253]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_021.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[555, 50], [769, 50], [769, 129], [555, 129]]? It is ________.",
+                            "answer": [
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "For the text located at [[152,281], [213,277], [212,300], [152,303]], identify the missing segment in \"21____2\".",
+                            "answer": "340"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) present in the area [[510, 50], [976, 50], [976, 710], [510, 710]]? Please choose the correct answer. Options:\nA. wuw.ups.com, ups, 213402, bloom\nB. 213402, bloom, 1800PICK UPS, vps\nC. 1800PICK UPS, 213402, bloom, ups\nD. www.ups.com, 213402, 06114X3, ups",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'www.ups.com, 1800PICK UPS, ups' located within the bounding box [[464, 607], [976, 607], [976, 766], [464, 766]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_031.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) found in the region [[541, 51], [755, 51], [755, 130], [541, 130]]? It is ________.",
+                            "answer": [
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the text present in the bounding box area [[206,742], [290,742], [290,772], [206,772]], what sequence completes \"06____X3\"?",
+                            "answer": "114"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct answer that includes the text(s) located within [[445, 606], [963, 606], [963, 769], [445, 769]]. Options:\nA. 213402, 06114X3, www.ups.com\nB. ups, 1800 PICK UPS, www.ups.com\nC. www.ups.com, ups, 06114Z3\nD. 06114X3, 1800 RICK UPS, www.ups.com",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'bloom, www.ups.com, 06114X3, ups, 1800 PICK UPS' located within the bounding box [[445, 606], [963, 606], [963, 769], [445, 769]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_041.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is the word(s) located within [[479, 50], [945, 50], [945, 705], [479, 705]]? It is ________.",
+                            "answer": [
+                                "ups",
+                                "1800 PICK UPS",
+                                "www.ups.com",
+                                "213402",
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What is the missing part of the label found at position [[788,617], [978,617], [978,645], [788,645]]: \"1800 P____PS\"?",
+                            "answer": "ICKU"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[479, 50], [945, 50], [945, 705], [479, 705]]. Options:\nA. bloom, 1800 PICK UPS, 06114X3, ups\nB. ups, 1800 PICK UPS, 21340Z, www.ups.com\nC. bloom, ups, www.ups.com, 213402\nD. 1800 PICK UPS, www.ups.com, 21340Z, ups",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'www.ups.com, 06114X3, ups' located within the bounding box [[432, 609], [945, 609], [945, 768], [432, 768]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_051.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) inside [[410, 51], [926, 51], [926, 771], [410, 771]]? The answer is ________.",
+                            "answer": [
+                                "ups",
+                                "1800 PICK UPS",
+                                "www.ups.com",
+                                "06114X3",
+                                "213402",
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the textual content at the bounding box [[944,637], [1130,637], [1131,668], [944,667]], what filled sequence completes \"www.____ps.com\"?",
+                            "answer": "u"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[410, 51], [724, 51], [724, 771], [410, 771]]. Options:\nA. 1800 PICK UPS, 213402, bloom\nB. bloom, 06114X3, 213402\nC. bloom, ups, www.ups.com\nD. ups, 21340Z, 06114X3",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'bloom, 213402, www.ups.com, ups' located within the bounding box [[410.4553014553015, 51.33819845569553], [926.4024024024023, 51.33819845569553], [926.4024024024023, 771.0], [410.4553014553015, 771.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_061.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[395, 286], [910, 286], [910, 770], [395, 770]]? The missing word(s) is/are ________.",
+                            "answer": [
+                                "ups",
+                                "1800 PICK UPS",
+                                "www.ups.com",
+                                "06114X3",
+                                "213402"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the text confined by coordinates [[674,733], [758,733], [758,768], [674,768]], identify the missing character(s) in \"06____X3\".",
+                            "answer": "114"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[395, 613], [910, 613], [910, 770], [395, 770]]. Options:\nA. 06114X3, 1800 RICK UPS, ups\nB. 1800 PICK UPS, 06114X3, vps\nC. 1800 PICK UPS, 06114X3, 213402\nD. www.ups.com, 1800 PICK UPS, 06114X3",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'www.ups.com, 1800 PICK UPS, 06114X3, bloom, ups' located within the bounding box [[395, 613], [910, 613], [910, 770], [395, 770]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_071.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[377, 51], [893, 51], [893, 770], [377, 770]]? The missing word(s) is/are ________.",
+                            "answer": [
+                                "ups",
+                                "1800 PICK UPS",
+                                "www.ups.com",
+                                "06114X3",
+                                "213402",
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "From the text situated at coordinates [[700,812], [782,812], [782,848], [700,848]], complete the missing segment: \"06____X3\".",
+                            "answer": "114"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct answer that includes the text(s) located within [[377, 51], [689, 51], [689, 770], [377, 770]]. Options:\nA. 213402, ups, 06114X3\nB. 213402, 06114X3, hloom\nC. ups, 21340Z, 06114X3\nD. 1800 PICK UPS, ups, bloom",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '1800 PICK UPS, 213402, www.ups.com, ups' located within the bounding box [[377, 286], [893, 286], [893, 770], [377, 770]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_081.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[406, 53], [671, 53], [671, 305], [406, 305]]? The missing word(s) is/are ________.",
+                            "answer": [
+                                "213402",
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "At the coordinates [[807,197], [1022,195], [1022,274], [807,274]], what character(s) complete the label \"blo____\"?",
+                            "answer": "om"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[357, 611], [874, 611], [874, 772], [357, 772]]. Options:\nA. ups, 213402, 1800 PICK UPS\nB. ups, 1800 PICK UPS, www.ups.com\nC. 06114Z3, www.ups.com, 1800 PICK UPS\nD. ups, 1800 PICK UPS, bloom",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '213402, 1800 PICK UPS, 06114X3, ups' located within the bounding box [[357.4168797953964, 52.505513630792805], [874.1479713603818, 52.505513630792805], [874.1479713603818, 772.0971867007672], [357.4168797953964, 772.0971867007672]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_091.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[336, 54], [853, 54], [853, 772], [336, 772]]? The missing word(s) is/are ________.",
+                            "answer": [
+                                "ups",
+                                "1800 PICK UPS",
+                                "www.ups.com",
+                                "06114X3",
+                                "213402",
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Fill in the missing letter(s) for the text at bounding box [[880,806], [998,806], [998,901], [880,901]]: \"u____\".",
+                            "answer": "ps"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct answer that includes the text(s) located within [[336, 611], [853, 611], [853, 772], [336, 772]]. Options:\nA. 06114X3, ups, 1800 RICK UPS\nB. www.ups.com, vps, 06114X3\nC. 213402, ups, 06114X3\nD. www.ups.com, 06114X3, ups",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'www.ups.com, ups, 06114X3, 1800 PICK UPS, 213402' located within the bounding box [[336, 611], [853, 611], [853, 772], [336, 772]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_101.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[360, 54], [627, 54], [627, 307], [360, 307]]? The missing word(s) is/are ________.",
+                            "answer": [
+                                "213402",
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the text enclosed by the bounding box [[793,555], [850,550], [852,571], [793,575]], what fills in the gap in \"2____02\"?",
+                            "answer": "134"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[360, 54], [831, 54], [831, 709], [360, 709]]. Options:\nA. www.ups.com, 21340Z, bloom, ups\nB. bloom, www.ups.com, 1800PICK UPS, 213402\nC. 213402, ups, bloom, wuw.ups.com\nD. 06114X3, www.ups.com, 213402, bloom",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '1800PICK UPS, ups, www.ups.com, 06114X3' located within the bounding box [[313, 285], [831, 285], [831, 772], [313, 772]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0115/frame_111.png",
+                "relative_path": "test_batch_1/EN_test/C0115/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[283, 52], [809, 52], [809, 779], [283, 779]]? The missing word(s) is/are ________.",
+                            "answer": [
+                                "ups",
+                                "1800 PICK UPS",
+                                "www.ups.com",
+                                "06114X3",
+                                "213402",
+                                "bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the text bounded by [[1059,933], [1245,933], [1246,963], [1059,962]], which character(s) complete the sequence \"www.____.com\"?",
+                            "answer": "ups"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[283, 52], [608, 52], [608, 779], [283, 779]]. Options:\nA. hloom, 06114X3, 213402\nB. bloom, ups, 213402\nC. 1800 PICK UPS, 06114X3, 213402\nD. hloom, 06114X3, 213402",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'ups, www.ups.com, 1800 PICK UPS' located within the bounding box [[283, 615], [809, 615], [809, 779], [283, 779]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0115"
+    }
+]

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearText-Video (CTVid) Benchmark</title>
+  <meta name="description" content="ClearText-Video (CTVid): A Large-Scale Text-Centric Video Dataset for Evaluating MLLMs under Quality Variation. CVPR 2026.">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<!-- ====================================================================== -->
+<!-- HEADER / HERO                                                           -->
+<!-- ====================================================================== -->
+<section class="hero">
+  <div class="container">
+    <h1 class="title">ClearText-Video</h1>
+    <h2 class="subtitle">A Large-Scale Text-Centric Video Benchmark<br>Bridging Video Restoration and Scene-Text Enhancement</h2>
+
+    <div class="venue-badge">CVPR 2026</div>
+
+    <div class="authors">
+      <!-- TODO: Replace with actual author names and links -->
+      <span class="author">Author One<sup>1</sup></span>,
+      <span class="author">Author Two<sup>1</sup></span>,
+      <span class="author">Author Three<sup>2</sup></span>
+    </div>
+    <div class="affiliations">
+      <span><sup>1</sup>Institution A</span> &nbsp;
+      <span><sup>2</sup>Institution B</span>
+    </div>
+
+    <!-- Action buttons -->
+    <div class="links">
+      <a class="btn btn-primary" href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank">
+        <i class="fas fa-file-alt"></i> Paper
+      </a>
+      <a class="btn" href="https://github.com/CTVid/CTVid-Bench" target="_blank">
+        <i class="fab fa-github"></i> Code
+      </a>
+      <a class="btn" href="https://huggingface.co/datasets/CTVid/CTVid-Bench" target="_blank">
+        <i class="fas fa-database"></i> Dataset
+      </a>
+      <a class="btn" href="#leaderboard">
+        <i class="fas fa-trophy"></i> Leaderboard
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- TEASER                                                                  -->
+<!-- ====================================================================== -->
+<section class="section" id="teaser">
+  <div class="container">
+    <!-- TODO: Replace with actual teaser image/video -->
+    <div class="teaser-placeholder">
+      <p style="color:#888;font-size:1.1rem;">
+        [Teaser figure: side-by-side comparison of GT · blur · restored frames with QA annotations]<br>
+        Replace this with <code>static/images/teaser.png</code> or a comparison video.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- ABSTRACT                                                                -->
+<!-- ====================================================================== -->
+<section class="section bg-light" id="abstract">
+  <div class="container narrow">
+    <h2 class="section-title">Abstract</h2>
+    <p class="abstract-text">
+      Multimodal Large Language Models (MLLMs) have recently demonstrated strong progress in
+      visual–linguistic understanding, yet their performance on text-centric video reasoning
+      remains highly sensitive to input quality. Real-world user-provided videos frequently contain
+      motion blur, compression artifacts, noise, and low-resolution text, substantially impairing
+      reliable text reading and downstream reasoning. Whether MLLMs can robustly read and reason
+      over in-the-wild text under diverse quality conditions remains an unanswered fundamental question.
+    </p>
+    <p class="abstract-text">
+      To bridge this gap, we present <strong>ClearText-Video (CTVid)</strong>, a large-scale benchmark
+      designed to evaluate text-centric video understanding under controlled quality variation. CTVid
+      comprises more than 4.6K real-world text-rich egocentric videos, 550K+ frames, and 1.6M
+      scene-text annotations, enabling comprehensive evaluation across three regimes: High-Quality,
+      Degraded-Quality, and Restored-Quality. We comprehensively evaluate 18 representative
+      restoration methods and 16 state-of-the-art MLLMs on our test set.
+    </p>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- DATASET STATS                                                           -->
+<!-- ====================================================================== -->
+<section class="section" id="dataset">
+  <div class="container">
+    <h2 class="section-title">Dataset at a Glance</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">4,639</div>
+        <div class="stat-label">Text-rich Videos</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">550K+</div>
+        <div class="stat-label">Frames</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">1.6M</div>
+        <div class="stat-label">Text Annotations</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">220K+</div>
+        <div class="stat-label">QA Pairs</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3</div>
+        <div class="stat-label">Quality Regimes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">2</div>
+        <div class="stat-label">Languages (ZH / EN)</div>
+      </div>
+    </div>
+
+    <div class="quality-regimes">
+      <h3>Three Quality Regimes</h3>
+      <div class="regime-grid">
+        <div class="regime-card hq">
+          <div class="regime-icon">🎥</div>
+          <div class="regime-name">High-Quality (HQ)</div>
+          <div class="regime-desc">Original Sony A7R V recordings, 4K resolution</div>
+        </div>
+        <div class="regime-card dq">
+          <div class="regime-icon">🌫</div>
+          <div class="regime-name">Degraded-Quality (DQ)</div>
+          <div class="regime-desc">4× bicubic downsampling · local motion blur synthesis</div>
+        </div>
+        <div class="regime-card rq">
+          <div class="regime-icon">✨</div>
+          <div class="regime-name">Restored-Quality (RQ)</div>
+          <div class="regime-desc">18 restoration methods applied to DQ videos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- TASKS                                                                   -->
+<!-- ====================================================================== -->
+<section class="section bg-light" id="tasks">
+  <div class="container">
+    <h2 class="section-title">Benchmark Tasks</h2>
+    <div class="tasks-grid">
+      <div class="task-card">
+        <div class="task-number">Task 1</div>
+        <h3>Spatial QA</h3>
+        <p>Text recognition within bounding boxes. Three question types: fill-in-blank, multiple-choice, true/false.</p>
+        <div class="task-metrics">Acc · UAcc · OC Ratio</div>
+      </div>
+      <div class="task-card">
+        <div class="task-number">Task 2</div>
+        <h3>Temporal QA</h3>
+        <p>Text motion, visibility, and dynamics across 120-frame clips. Five categories: presence, localization, motion, size, boundary.</p>
+        <div class="task-metrics">Category Accuracy (±2 frame tolerance)</div>
+      </div>
+      <div class="task-card">
+        <div class="task-number">Task 3</div>
+        <h3>Text Detection</h3>
+        <p>Evaluate restoration methods on scene-text detection quality (precision, recall, F1).</p>
+        <div class="task-metrics">P · R · F1</div>
+      </div>
+      <div class="task-card">
+        <div class="task-number">Task 4</div>
+        <h3>Text Recognition</h3>
+        <p>Character-level recognition accuracy after restoration. Measures end-to-end text fidelity.</p>
+        <div class="task-metrics">Acc_rec · NED_rec</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- LEADERBOARD                                                             -->
+<!-- ====================================================================== -->
+<section class="section" id="leaderboard">
+  <div class="container">
+    <h2 class="section-title">Leaderboard</h2>
+    <p class="section-subtitle">Results on the HQ test set. Submit your model: open a GitHub Issue.</p>
+
+    <table class="leaderboard-table">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Model</th>
+          <th>Type</th>
+          <th>Spatial Acc (HQ)</th>
+          <th>Temporal Acc (HQ)</th>
+          <th>Spatial Acc (DQ-blur)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="gold">
+          <td>🥇</td><td>Gemini-2.5-flash</td><td>Closed</td><td>57.14%</td><td>40.12%</td><td>49.31%</td>
+        </tr>
+        <tr class="silver">
+          <td>🥈</td><td>Gemini-2.5-pro</td><td>Closed</td><td>55.83%</td><td>42.19%</td><td>47.82%</td>
+        </tr>
+        <tr>
+          <td>3</td><td>Qwen2.5-VL-7B</td><td>Open</td><td>51.21%</td><td>35.67%</td><td>44.17%</td>
+        </tr>
+        <tr>
+          <td>4</td><td>Kimi-VL-16B</td><td>Open</td><td>49.38%</td><td>38.31%</td><td>42.95%</td>
+        </tr>
+        <tr class="baseline">
+          <td>—</td><td>blur (DQ baseline)</td><td>—</td><td>—</td><td>—</td><td>—</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size:0.85rem;color:#888;text-align:center;margin-top:1rem;">
+      Full results in Table 2 of the paper. Numbers are approximate; see paper for full details.
+    </p>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- DOWNLOAD                                                                -->
+<!-- ====================================================================== -->
+<section class="section bg-light" id="download">
+  <div class="container narrow">
+    <h2 class="section-title">Download</h2>
+    <p>Annotation JSONs are included in this repository. Images and videos are hosted on HuggingFace.</p>
+    <pre class="code-block">
+# Clone the repository (includes all annotation JSONs)
+git clone https://github.com/CTVid/CTVid-Bench.git
+cd CTVid-Bench
+
+# Download images and videos from HuggingFace
+python tools/download_data.py --variants GT blur downsample_x4</pre>
+
+    <div class="download-sizes">
+      <div class="size-item"><strong>Spatial QA annotations</strong>: ~33 MB (in repo)</div>
+      <div class="size-item"><strong>Temporal QA annotations</strong>: ~2.4 MB (in repo)</div>
+      <div class="size-item"><strong>Spatial QA images</strong>: 18.8 GB (HuggingFace)</div>
+      <div class="size-item"><strong>Temporal QA images</strong>: 54.8 GB (HuggingFace)</div>
+      <div class="size-item"><strong>Temporal QA videos</strong>: 663 MB (HuggingFace)</div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- BIBTEX                                                                  -->
+<!-- ====================================================================== -->
+<section class="section" id="bibtex">
+  <div class="container narrow">
+    <h2 class="section-title">Citation</h2>
+    <pre class="code-block">
+@inproceedings{ctvid2026,
+  title     = {ClearText-Video: A Large-Scale Text-Centric Video Dataset
+               Bridging Video Restoration and Scene-Text Enhancement},
+  booktitle = {CVPR},
+  year      = {2026},
+}</pre>
+  </div>
+</section>
+
+<!-- ====================================================================== -->
+<!-- FOOTER                                                                  -->
+<!-- ====================================================================== -->
+<footer>
+  <div class="container">
+    <p>
+      CTVid-Bench · CVPR 2026 ·
+      Code: <a href="https://github.com/CTVid/CTVid-Bench">MIT License</a> ·
+      Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+    </p>
+    <p style="font-size:0.8rem;color:#aaa;margin-top:0.5rem;">
+      Page template adapted from
+      <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" style="color:#aaa;">
+        Academic-project-page-template</a>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

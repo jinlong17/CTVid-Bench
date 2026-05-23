@@ -1,0 +1,469 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are located within the bounding box [[22, 291], [1078, 291], [1078, 508], [22, 508]]? ________",
+              "answer": [
+                "藤椒鱼皮",
+                "今日",
+                "美好"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图像中的位置 [[801,801], [1101,777], [1105,831], [805,855]]，填写缺失部分：凉拌青瓜____藕。",
+              "answer": "莲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within the area [[0, 314], [196, 314], [196, 840], [0, 840]]. Options:\nA. 女, 美好, 花\nB. 美好, 女, 茌\nC. 美好, 花, 藤椒鱼皮\nD. 美姄, 花, 女",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '女, 凉拌青瓜莲藕, 花' located within the bounding box [[0, 425], [1105, 425], [1105, 855], [0, 855]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[0.0, 286.0], [1108.75, 286.0], [1108.75, 852.5], [0.0, 852.5]]? The word(s) is/are ________.",
+              "answer": [
+                "藤椒鱼皮",
+                "今日",
+                "美好",
+                "女",
+                "凉拌青瓜莲藕",
+                "花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[93,302], [169,303], [170,393], [93,391]] 填写缺失的字符符，完成“____”。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[23, 286], [1084, 286], [1084, 502], [23, 502]]. Options:\nA. 女, 今日\nB. 藤椒鱼皮, 美好\nC. 今日, 美姄\nD. 凉拌青瓜莲藕, 美好",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '凉拌青瓜莲藕, 花, 今日, 藤椒鱼皮' fall within the bounding box [[0.0, 286.0], [1108.75, 286.0], [1108.75, 852.5], [0.0, 852.5]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can be found in the bounding box [[810, 282], [1114, 282], [1114, 849], [810, 849]]? ________",
+              "answer": [
+                "藤椒鱼皮",
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在坐标 [[70,372], [155,372], [154,455], [70,455]]填写字符符以完成 \"____\" 字符。",
+              "answer": "好"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[0, 306], [196, 306], [196, 828], [0, 828]]? Please choose the correct answer. Options:\nA. 今日, 茌, 美好\nB. 今日, 藤椒鱼皮, 美好\nC. 美好, 花, 女\nD. 女, 花, 美姄",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '女, 花, 凉拌青瓜莲藕, 美好' contained within the bounding box [[0.0, 282.25], [1113.75, 282.25], [1113.75, 848.75], [0.0, 848.75]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be found in the region [[808.5, 283.5], [1112.5, 283.5], [1112.5, 855.0], [808.5, 855.0]]? The word(s) is/are ________.",
+              "answer": [
+                "藤椒鱼皮",
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细查看图像中边界框 [[863,762], [1188,743], [1191,803], [865,820]] 位于“凉拌青瓜____藕”中的缺失部分并填写它是什么。",
+              "answer": "莲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[0, 309], [190, 309], [190, 837], [0, 837]]? Please choose the correct answer. Options:\nA. 美好, 藤椒鱼皮\nB. 美姄, 花\nC. 凉拌青瓜莲藕, 今日\nD. 今日, 花",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '美好, 今日' located within the bounding box [[13, 284], [1083, 284], [1083, 498], [13, 498]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[3.25, 306.5], [179.75, 306.5], [179.75, 499.25], [3.25, 499.25]]? The word(s) is/are ________.",
+              "answer": [
+                "今日",
+                "美好"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标 [[30,135], [98,135], [98,214], [30,214]] 的文字符中，“____”是什么字符符？",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[3, 284], [1079, 284], [1079, 499], [3, 499]]. Options:\nA. 藤棷鱼皮, 今日\nB. 藤椒鱼皮, 今日\nC. 今日, 美姄\nD. 凉拌青瓜莲藕, 美好",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '美姄, 今日, 藤椒鱼皮, 凉拌青瓜莲藕' positioned within the bounding box [[3.25, 283.5], [1102.5, 283.5], [1102.5, 857.5], [3.25, 857.5]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[0.0, 305.25], [172.0, 305.25], [172.0, 494.25], [0.0, 494.25]]? The word(s) is/are ________.",
+              "answer": [
+                "今日",
+                "美好"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[902,69], [1132,69], [1132,125], [902,125]] 中，填写缺失的部分以完成“藤椒____皮”。",
+              "answer": "鱼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, which option includes the text(s) located within [[0, 282], [1074, 282], [1074, 494], [0, 494]]? Please choose the correct answer. Options:\nA. 美好, 今日\nB. 美好, 凉拌青瓜莲藕\nC. 侖日, 美好\nD. 侖日, 藤椒鱼皮",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '今日, 美好, 藤椒鱼皮, 凉拌青瓜莲藕' situated within the bounding box [[0, 282], [1074, 282], [1074, 494], [0, 494]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[0.0, 277.25], [1098.75, 277.25], [1098.75, 855.0], [0.0, 855.0]]? The word(s) is/are ________.",
+              "answer": [
+                "藤椒鱼皮",
+                "今日",
+                "美好",
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图像的边界框 [[886,54], [1126,54], [1126,115], [886,115]] 中，填入缺失的部分，以完成“藤____鱼皮”这个短语。",
+              "answer": "椒"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[0, 300], [172, 300], [172, 489], [0, 489]]. Options:\nA. 藤椒鱼皮\nB. 美姄\nC. 美好\nD. 侖日",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '美好, 今日, 藤椒鱼皮' located within the bounding box [[0.0, 300.25], [172.0, 300.25], [172.0, 489.25], [0.0, 489.25]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[0.0, 274.75], [1102.5, 274.75], [1102.5, 857.5], [0.0, 857.5]]? The word(s) is/are ________.",
+              "answer": [
+                "藤椒鱼皮",
+                "今日",
+                "美好",
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标 [[761,646], [1138,633], [1141,694], [764,707]] 中，“凉拌青瓜____藕”中的缺失字符符是什么？",
+              "answer": "莲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the entire image, choose the correct option that includes the text(s) found within [[0, 298], [172, 298], [172, 487], [0, 487]]. Options:\nA. 藤椒鱼皮\nB. 美好\nC. 凉拌青瓜莲藕\nD. 侖日",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '藤椒鱼皮, 美好, 今日' found within the bounding box [[0.0, 297.75], [172.0, 297.75], [172.0, 486.75], [0.0, 486.75]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[794.9850427350427, 782.4786324786326], [1117.051282051282, 782.4786324786326], [1117.051282051282, 864.1025641025642], [794.9850427350427, 864.1025641025642]]? The word(s) is/are ________.",
+              "answer": [
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[42,111], [141,113], [140,210], [42,209]]，请完善留空部分字符符“____”。",
+              "answer": "好"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[0, 279], [1090, 279], [1090, 492], [0, 492]]. Options:\nA. 今日, 凉拌青瓜莲藕\nB. 藤椒鱼皮, 美好\nC. 今日, 美姄\nD. 藤椒鱼皮, 美姄",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '美好' located within the bounding box [[0.0, 298.3382352941176], [173.25, 298.3382352941176], [173.25, 492.0441176470588], [0.0, 492.0441176470588]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[0.0, 300.8382352941176], [173.25, 300.8382352941176], [173.25, 494.5441176470588], [0.0, 494.5441176470588]]? The word(s) is/are ________.",
+              "answer": [
+                "今日",
+                "美好"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请查看坐标[[70,154], [168,156], [167,252], [69,252]]，并填写完整字符符 “____”。",
+              "answer": "好"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that includes the text(s) located within [[0, 301], [173, 301], [173, 495], [0, 495]]. Options:\nA. 美姄\nB. 藤椒鱼皮\nC. 凉拌青瓜莲藕\nD. 美好",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '今日, 美好' located within the bounding box [[0, 281], [1090, 281], [1090, 495], [0, 495]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are located within [[794.9850427350427, 789.1744366744367], [1117.051282051282, 789.1744366744367], [1117.051282051282, 870.7983682983684], [794.9850427350427, 870.7983682983684]]? The word(s) is/are ________.",
+              "answer": [
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在图像坐标 [[931,659], [1326,652], [1327,718], [930,725]] 内，填写缺失部分以补全“凉拌青____藕”。",
+              "answer": "瓜莲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[90, 280], [1092, 280], [1092, 494], [90, 494]]? Please choose the correct answer. Options:\nA. 曰, 好\nB. 凉拌青瓜莲藕, 好\nC. 日, 藤棷鱼皮\nD. 日, 好",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '日, 凉拌青瓜莲藕, 藤椒鱼皮, 好' located within the bounding box [[90, 280], [1092, 280], [1092, 494], [90, 494]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0171/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can be identified in the specified area [[794.9850427350427, 789.1744366744367], [1117.051282051282, 789.1744366744367], [1117.051282051282, 870.7983682983684], [794.9850427350427, 870.7983682983684]]? The word(s) is/are ________.",
+              "answer": [
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标[[42,208], [252,204], [256,306], [44,312]]中，补全下列短语：“美____”",
+              "answer": "好"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[85, 280], [1092, 280], [1092, 494], [85, 494]]. Options:\nA. 藤椒鱼皮, 凉拌青瓜莲藕\nB. 姄, 日\nC. 日, 姄\nD. 日, 好",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '好' located within the bounding box [[85.20979020979021, 297.23683669271907], [169.68531468531467, 297.23683669271907], [169.68531468531467, 493.8448169477581], [85.20979020979021, 493.8448169477581]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0171"
+  }
+]

@@ -1,0 +1,588 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_001.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[217.0, 160.23809523809518], [1487.0, 160.23809523809518], [1487.0, 526.0], [217.0, 526.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "城市醒春运动会",
+                                "好吃"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "找到在坐标[[1185,876], [1456,774], [1485,851], [1214,953]]处缺失的部分：“1平____挑战”中的字符符。",
+                            "answer": "衡"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within the area [[0, 651], [1485, 651], [1485, 1033], [0, 1033]]. Options:\nA. 11:30, 13:30, 1, 城市醒春运动会, 运动挑战, 1平衡挑战, 分钟, 费并积分, 运动挑战, 积分兑换\nB. 1平衡挑战, 11：30, 积分兑换, 运动挑战, 1, 城市醒春运动会, 分钟, 运动挑战, 1, 分钟\nC. 运动挑战, 豆花酸菜, 1平衡挑战, 1, 积分兑换, 运动挑战, 分钟, 分钟, 1, 11：30\nD. 域市醒春运动会, 1平衡挑战, 1, 分钟, 1, 费并积分, 运动挑战, 积分兑换, 11：30, 运动挑战",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '分钟, 分钟, 1平衡挑战, 城市醒春运动会, 城市醒春运动会, 费并积分, 好吃, 1, 11：30, 积分兑换' located within the bounding box [[0.0, 160.23809523809518], [1487.0, 160.23809523809518], [1487.0, 1033.0], [0.0, 1033.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_011.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) can be found in the region [[11.190476190476161, 161.4285714285714], [1524.2857142857142, 161.4285714285714], [1524.2857142857142, 1049.5238095238094], [11.190476190476161, 1049.5238095238094]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "好吃",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "1平衡挑战",
+                                "1",
+                                "分钟",
+                                "运动挑战",
+                                "1",
+                                "分钟",
+                                "11：30",
+                                "13：30",
+                                "运动挑战",
+                                "城市醒春运动会",
+                                "费并积分",
+                                "积分兑换",
+                                "获得随机礼品1份"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[535,857], [837,888], [827,981], [525,950]]处的标签中，填写“运____挑战”中的缺失部分。",
+                            "answer": "动"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, choose the correct option that includes the text(s) found within [[11, 161], [1524, 161], [1524, 1050], [11, 1050]]. Options:\nA. 卓悦INTOWN, 城市醒春运动会, 好吃, 城市醒春运动会, i, 费并积分, 分钟, 豆花酸菜, 11：30\nB. 运动挑战, 运动挑战, 城市醒春运动会, 1, 积分兑换, 城市醒春运动会, 1, 费并积分, 分钟, 1平衡挑战\nC. 11：30, 城市醒春运动会, 豆花酸菜, 好吃, 1, 费并积分, 卓悦INTOWN, 逐动挑战, 城市醒春运动会\nD. 运动挑战, 卓悦INTOWN, 11：30, 豆花酸菜, 城市醒春运动会, 分钟, 好吃, l, 费并积分",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '分钟, 1平衠挑战, 1, 费并积分, 获得随机礼品1份, 城市醒春运动会, 运动挑战, 运动挑战, 豆花酸菜, 13：30' located within the bounding box [[11.190476190476161, 161.4285714285714], [1524.2857142857142, 161.4285714285714], [1524.2857142857142, 1049.5238095238094], [11.190476190476161, 1049.5238095238094]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_021.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are present in the area [[0.0, 161.4285714285714], [1488.5714285714284, 161.4285714285714], [1488.5714285714284, 1029.0], [0.0, 1029.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "分钟",
+                                "运动挑战",
+                                "城市醒春运动会",
+                                "分钟",
+                                "费并积分",
+                                "1平衡挑战",
+                                "运动挑战",
+                                "积分兑换",
+                                "获得随机礼品1份",
+                                "豆花酸菜",
+                                "好吃",
+                                "11：30",
+                                "13：30",
+                                "1",
+                                "1"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在坐标[[60,706], [267,685], [272,733], [65,754]]处找到“城市醒春____会”的缺失部分。",
+                            "answer": "运动"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) found within [[0, 161], [1489, 161], [1489, 1029], [0, 1029]]? Please choose the correct answer. Options:\nA. 11：30, 好吃, 分钟, 1, 运动挑战, 获得随机礼品1份, 费并积分, 13：30, 分钟, 卓悦INTOWN\nB. 费并积分, 好吃, 1, 卓悦INTOWN, 运动挑战, 13:30, 城市醒春运动会, 城市醒春运动会, 豆花酸菜\nC. 好吃, 城市醒春运动会, 运动挑战, 13：30, 卓悅INTOWN, 运动挑战, 费并积分, 城市醒春运动会, 豆花酸菜\nD. 好吃, 费并积分, 城市醒春运动会, 卓悦INTOWN, 城市醒春运动会, 1, 豆花酸菜, 13：30, 逐动挑战",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '获得随机礼品1份, 费并积分, 分钟, 运动挑战, 卓悦INTOWN, 11：30, 1平衡挑战, 积分兑换, 1, 1' located within the bounding box [[0, 658], [1474, 658], [1474, 1029], [0, 1029]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_031.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What word(s) are located within the bounding box [[207, 154], [1481, 154], [1481, 517], [207, 517]]? ________",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "好吃"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在给定的坐标[[468,662], [559,654], [541,907], [447,909]]处，试着填入“____”以完成标签“1”。",
+                            "answer": "1"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[0, 635], [1470, 635], [1470, 1023], [0, 1023]]? Choose the correct answer. Options:\nA. 分钟, 城市醒春运动会, 1, 运动挑战, 积分兑换, 获得随机礼品1份, 费并积分, 11：30, 1平衠挑战, 运动挑战\nB. 积分兑换, 城市醒春运动会, 获得随机礼品1份, 1平衡挑战, 11：30, 费并积分, 豆花酸菜, 1, 1, 分钟\nC. 分钟, 11:30, 1, 城市醒春运动会, 分钟, 费并积分, 1平衡挑战, 13：30, 运动挑战, 积分兑换\nD. 运动挑战, 积分兑换, 分钟, 运动挑战, 城市醒春运动会, 费并积分, 分钟, 1平衡挑战, 13：30, 获得随机礼品1份",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Do the label(s) '卓悦INTOWN, 城市醒春运动会, 豆花酸菜, 分钟, 好吃, 13：30, 积分兑换, 1, 运动挑战, 城市醒春运动会' appear within the bounding box [[0.0, 154.28571428571425], [1480.7619047619046, 154.28571428571425], [1480.7619047619046, 1023.0], [0.0, 1023.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_041.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[0.0, 149.52380952380946], [1472.428571428571, 149.52380952380946], [1472.428571428571, 1013.0], [0.0, 1013.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "分钟",
+                                "运动挑战",
+                                "城市醒春运动会",
+                                "分钟",
+                                "费并积分",
+                                "1平衡挑战",
+                                "运动挑战",
+                                "积分兑换",
+                                "获得随机礼品1份",
+                                "好吃",
+                                "11：30",
+                                "13：30",
+                                "1",
+                                "1"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在图中坐标[[0,559], [159,549], [162,604], [0,606]]处，填入“运____挑战”中的缺失部分。",
+                            "answer": "动"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[0, 633], [1467, 633], [1467, 1013], [0, 1013]]. Options:\nA. 运动挑战, 13：30, 分钟, 积分兑换, 城市醒春运动会, 获得随机礼品1份, 1, 豆花酸菜, 费并积分, 11：30\nB. 获得随机礼品1份, 13：30, 卓悦INTOWN, 分钟, 城市醒春运动会, 费并积分, 分钟, 1, 积分兑换, 运动挑战\nC. 分钟, 分钟, 费并积分, 13：30, 1, 11：30, 获得随机礼品1份, 运动挑战, 积分兑换, 1\nD. 运动挑战, 费并积分, 分钟, 11：30, 积分兑换, 获得随机礼品1份, l, 城市醒春运动会, 13：30, 分钟",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '1, 11：30, 运动挑战, 豆花酸菜, 获得随机礼品1份, 好吃, 积分兑换, 运动挑战, 剪钟, 13：30' located within the area [[0.0, 149.52380952380946], [1472.428571428571, 149.52380952380946], [1472.428571428571, 1013.0], [0.0, 1013.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_051.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[0.0, 147.1428571428571], [1473.0, 147.1428571428571], [1473.0, 1009.0], [0.0, 1009.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "分钟",
+                                "运动挑战",
+                                "城市醒春运动会",
+                                "分钟",
+                                "费并积分",
+                                "1平衡挑战",
+                                "运动挑战",
+                                "积分兑换",
+                                "获得随机礼品1份",
+                                "好吃",
+                                "1",
+                                "11：30",
+                                "13：30",
+                                "1"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请补全在坐标[[3,779], [52,777], [45,805], [3,811]]处的标签，填上“____”。",
+                            "answer": "份"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[0, 628], [1466, 628], [1466, 1009], [0, 1009]]. Options:\nA. 运动挑战, 1, 1平衡挑战, 费并积分, 运动挑战, 1, 获得随机礼品1份, 积分兑换, 11：30, 城市醒春运动会\nB. 1, 1, 获得随机礼品1份, 费并积分, 豆花酸菜, 分钟, 13：30, 运动挑战, 积分兑换, 城市醒春运动会\nC. 1, 1, 分钟, 运动挑战, 城市醒春运动会, 分钟, 13：30, 积分兑揳, 费并积分, 1平衡挑战\nD. 运动挑战, 积分兑换, 13：30, 1平衠挑战, 费并积分, 分钟, 获得随机礼品1份, 11：30, 城市醒春运动会, 分钟",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '好吃, 城市醒春运动会, 积分兑换, 1, 1平衡挑战, 豆花酸菓, 1, 获得随机礼品1份, 运动挑战, 城市醒春运动会' located within the area [[0.0, 147.1428571428571], [1473.0, 147.1428571428571], [1473.0, 1009.0], [0.0, 1009.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_061.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[0.0, 136.4285714285714], [1472.0, 136.4285714285714], [1472.0, 1003.0], [0.0, 1003.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "分钟",
+                                "运动挑战",
+                                "城市醒春运动会",
+                                "分钟",
+                                "费并积分",
+                                "1平衡挑战",
+                                "运动挑战",
+                                "积分兑换",
+                                "获得随机礼品1份",
+                                "好吃",
+                                "1",
+                                "1",
+                                "11：30",
+                                "13：30"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[231,128], [1320,0], [1350,180], [255,312]]处，填补“城市醒____运动会”的空白部分。",
+                            "answer": "春"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[0, 616], [1464, 616], [1464, 1003], [0, 1003]]. Options:\nA. 1, 1, 获得随机礼品1份, 运动挑战, 卓悦INTOWN, 费并积分, 积分兑换, 13：30, 11：30, 分钟\nB. 分钟, 城市醒春运动会, 11：30, l, 运动挑战, 13：30, 积分兑换, 获得随机礼品1份, 运动挑战, 费并积分\nC. 费并积分, 积分兑换, 11：30, 运动挑战, 1, 1平衡挑战, 获得随机礼品1份, 城市醒春运动会, 13：30, 运动挑战\nD. 积分兑换, 1, 分钟, 运动挑战, 11：30, 运动挑战, 1平衡挑战, 13：30, 1, 豆花酸菜",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '分钟, 13：30, 1平衡挑战, 积分兑换, 城市醒春运动会, 费并积分, 分钟, 1, 1, 11：30' located within the bounding box [[0, 6分钟, 13：30, 1平衡挑战, 积分兑换, 城市醒春运动会, 费并积分, 分钟, 1, 1, 11：306], [分钟, 13：30, 1平衡挑战, 积分兑换, 城市醒春运动会, 费并积分, 分钟, 1, 1, 11：30464, 6分钟, 13：30, 1平衡挑战, 积分兑换, 城市醒春运动会, 费并积分, 分钟, 1, 1, 11：306], [分钟, 13：30, 1平衡挑战, 积分兑换, 城市醒春运动会, 费并积分, 分钟, 1, 1, 11：30464, 分钟, 13：30, 1平衡挑战, 积分兑换, 城市醒春运动会, 费并积分, 分钟, 1, 1, 11：30003], [0, 分钟, 13：30, 1平衡挑战, 积分兑换, 城市醒春运动会, 费并积分, 分钟, 1, 1, 11：30003]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_071.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[203.0, 124.52380952380948], [1472.0, 124.52380952380948], [1472.0, 490.0], [203.0, 490.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "好吃"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请在坐标[[394,516], [558,534], [546,645], [382,627]]处找到并填补“分____”中的缺失部分。",
+                            "answer": "钟"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, choose the correct option that includes the text(s) found within [[0, 125], [1472, 125], [1472, 999], [0, 999]]. Options:\nA. 费并积分, 获得随机礼品1份, 分钟, 运动挑战, 豆花酸菒, 积分兑换, 城市醒春运动会, 分钟, 好吃\nB. 积分兑换, 豆花酸菜, 运动挑战, 域市醒春运动会, 分钟, 运动挑战, 费并积分, 好吃, 分钟\nC. 城市醒春运动会, 好吃, 豆花酸菜, 积分兑换, 1, 运动挑战, 分钟, 获得随机礼品1份, 运动挑战, 1\nD. 姄吃, 获得随机礼品1份, 分钟, 运动挑战, 城市醒春运动会, 费并积分, 运动挑战, 豆花酸菜, 积分兑换",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '分钟, 1, 城市醒春运动会, 运动挑战, 卓悦INTOWN, 城市醒春运动会, 1平衠挑战, 费并积分, 积分兑换, 运动挑战' located within the area [[0.0, 124.52380952380948], [1472.0, 124.52380952380948], [1472.0, 999.0], [0.0, 999.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_081.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[0.0, 128.09523809523805], [1471.0, 128.09523809523805], [1471.0, 993.0], [0.0, 993.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "分钟",
+                                "运动挑战",
+                                "城市醒春运动会",
+                                "分钟",
+                                "费并积分",
+                                "1平衡挑战",
+                                "运动挑战",
+                                "积分兑换",
+                                "获得随机礼品1份",
+                                "好吃",
+                                "1",
+                                "1"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "请查看位于坐标[[14,361], [37,359], [39,376], [16,377]]处的标签，填上正确的字符符使“3____”完整。",
+                            "answer": "0"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[0, 128], [1471, 128], [1471, 993], [0, 993]]. Options:\nA. 获得随机礼品1份, 城市醒春运动会, 卓悦INTOWN, 好吃, 运动挑战, 1平衡挑战, 运动挑战, 费并积分, 1, 城市醒春运动会\nB. 1, 分钟, 好吃, 积分兑换, 获得随机礼品1份, 1平衡挑战, 贽并积分, 1, 分钟\nC. 分钟, 1, 积分兑揳, 1平衡挑战, 1, 获得随机礼品1份, 好吃, 费并积分, 城市醒春运动会\nD. 积分兑换, 1平衡挑战, 域市醒春运动会, 1, 费并积分, 好吃, 1, 分钟, 分钟",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '城市醒春运动会, 分钟, 豆花酸菜, 1, 卓悦INTOWN, 运动挑战, 运动挑战, 城市醒春运动会, 好吃, 分钟' located within the area [[0.0, 128.09523809523805], [1471.0, 128.09523809523805], [1471.0, 993.0], [0.0, 993.0]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_091.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[0.0, 129.28571428571425], [1467.0, 129.28571428571425], [1467.0, 989.0], [0.0, 989.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "分钟",
+                                "运动挑战",
+                                "城市醒春运动会",
+                                "分钟",
+                                "费并积分",
+                                "1平衡挑战",
+                                "运动挑战",
+                                "积分兑换",
+                                "获得随机礼品1份",
+                                "好吃",
+                                "1",
+                                "1",
+                                "11：30",
+                                "13：30"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在指定的坐标[[393,443], [557,461], [545,572], [381,554]]，补全词语“分____”中的空白部分。",
+                            "answer": "钟"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[0, 129], [1467, 129], [1467, 989], [0, 989]]? Please choose the correct answer. Options:\nA. 积分兑换, 运动挑战, 费并积分, 好吃, 城市醒春运动会, 13：30, 1, 1, 分钟, 1平衡挑战\nB. 域市醒春运动会, 运动挑战, 13：30, 1, 分钟, 分钟, 获得随机礼品1份, 积分兑换, 1平衡挑战\nC. 分钟, 积分兑换, 城市醒春运动会, 13：30, 1平衡挑战, 分钟, 获得随机礼品1份, 1, 卓悅INTOWN\nD. 城市醒春运动会, 1平衡挑战, 积分兑换, 分钟, 卓悦INTOWN, 分钟, 运动挑战, l, 13：30",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '积分兑换, 1, 11：30, 1平衡挑战, 13：30, 运动挑战, 分钟, 获得随机礼品1份, 分钟, 运动挑战' located within the area [[0, 626], [1464, 626], [1464, 989], [0, 989]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_101.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[0.0, 118.57142857142853], [1468.0, 118.57142857142853], [1468.0, 981.0], [0.0, 981.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "分钟",
+                                "运动挑战",
+                                "城市醒春运动会",
+                                "分钟",
+                                "费并积分",
+                                "1平衡挑战",
+                                "运动挑战",
+                                "积分兑换",
+                                "获得随机礼品1份",
+                                "好吃",
+                                "1",
+                                "1",
+                                "11：30",
+                                "13：30"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "在坐标[[14,307], [68,304], [68,321], [14,325]]处找到并填写“13____30”中缺失的部分。",
+                            "answer": "："
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[0, 598], [1460, 598], [1460, 981], [0, 981]]. Options:\nA. 获得随机礼品1份, 13：30, 11：30, 运动挑战, 1平衡挑战, 分钟, 积分兑换, 运动挑战, 豆花酸菜, 1\nB. 1, 1, 城市醒春运动会, 11：30, 运动挑战, 积分兑换, 分钟, 获得随机礼品1份, 分钟, 费并积分\nC. 11：30, 1, 获得随机礼品1份, 积分兑换, 卓悦INTOWN, 13：30, 分钟, 分钟, 运动挑战, 运动挑战\nD. 分钟, 运动挑战, 13：30, 1, 费并积分, 分钟, 积分兑换, 11:30, 获得随机礼品1份, 城市醒春运动会",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '分钟, 1, 分钟, 13:30, 费并积分, 运动挑战, 卓悦INTOWN, 积分兑换, 好吃, 1' located within the area [[0.0, 118.57142857142853], [1468.0, 118.57142857142853], [1468.0, 981.0], [0.0, 981.0]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/CHN/C0062/frame_111.png",
+                "relative_path": "test_batch_1/CHN_test/C0062/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) are located within [[205.0, 111.42857142857139], [1474.0, 111.42857142857139], [1474.0, 468.0], [205.0, 468.0]]? The word(s) is/are ________.",
+                            "answer": [
+                                "豆花酸菜",
+                                "卓悦INTOWN",
+                                "城市醒春运动会",
+                                "好吃"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "确认坐标[[414,432], [578,450], [566,561], [402,543]]上的时间单位，其中“____钟”需要补全。",
+                            "answer": "分"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) located within [[0, 596], [1464, 596], [1464, 978], [0, 978]]? Choose the correct answer. Options:\nA. 费并积分, 积分兑换, 13：30, 1, 运动挑战, 1, 获得随机礼品1份, 运动挑战, 分钟, 11：30\nB. 积分兑换, 运动挑战, 13：30, 运动挑战, 11：30, 分钟, 城市醒春运动会, 1平衡挑战, 费并积分, 卓悦INTOWN\nC. 1平衡挑战, 积分兑换, 贽并积分, 11：30, 分钟, 城市醒春运动会, 运动挑战, 1, 运动挑战, 获得随机礼品1份\nD. 1平衡挑战, 城市醒春运动会, 获得随机礼品1份, 运动挑战, 运动挑战, 13：30, 分钟, 豆花酸菜, 分钟, 费并积分",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) '运动挑战, 分钟, 获得随机礼品1份, 积分兑换, 分钟, 1, 11：30, 1, 1平衡挑战, 费并积分' located within the bounding box [[0, 608], [运动挑战, 分钟, 获得随机礼品1份, 积分兑换, 分钟, 1, 11：30, 1, 1平衡挑战, 费并积分464, 608], [运动挑战, 分钟, 获得随机礼品1份, 积分兑换, 分钟, 1, 11：30, 1, 1平衡挑战, 费并积分464, 978], [0, 978]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0062"
+    }
+]

@@ -1,0 +1,495 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[457,719], [510,714], [510,737], [456,741]] 的位置，填充 \"写字符____\" 中的空白部分。",
+              "answer": "楼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the correct option that contains the text(s) located within [[448, 688], [995, 688], [995, 948], [448, 948]]. Options:\nA. 在前海 见世界, 销售电话, 约580-2500㎡ 写字楼现楼热销中, 3666 7383\nB. 写字楼, 销售电话, 3666 7333, 在前海 见世界\nC. 约580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 3666 7333, 写字楆\nD. P, 写字楼, 销售电话, 在前海 见世界",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'D, 3666 7333, 约580-2500㎡ 写字楼现楼热销中, 销售电话, 写字楼, 在前海 见世界' located within the bounding box [[343.83561643835617, 688.268156424581], [995.0276243093922, 688.268156424581], [995.0276243093922, 1079.0], [343.83561643835617, 1079.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[343.83561643835617, 687.9614079583233], [995.0276243093922, 687.9614079583233], [995.0276243093922, 1079.0], [343.83561643835617, 1079.0]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[451,726], [504,722], [504,744], [450,748]] 内，将 \"写字符____\" 中的空填上。",
+              "answer": "楼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[448, 688], [995, 688], [995, 948], [448, 948]]? Please choose the correct answer. Options:\nA. 在前海 见世界, 写字楼, 约580-2500㎡ 写字楼现楼热销中, 3666 7383\nB. 约580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 3666 7333, 写字楼\nC. 3666 7333, 在前涕 见世界, 写字楼, 约580-2500㎡ 写字楼现楼热销中\nD. 写字楼, 3666 7333, P, 约580-2500㎡ 写字楼现楼热销中",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '在前海 见世界, P, 写字楼, 销售电话' contained within the bounding box [[343.83561643835617, 687.9614079583233], [995.0276243093922, 687.9614079583233], [995.0276243093922, 1079.0], [343.83561643835617, 1079.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[346.19251879525854, 687.6247076216231], [997.3845266662945, 687.6247076216231], [997.3845266662945, 1078.6632996632998], [346.19251879525854, 1078.6632996632998]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[449,783], [519,777], [519,796], [449,802]] 内，找出 \"销____电话\" 中的缺失部分。",
+              "answer": "售"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[450, 688], [997, 688], [997, 948], [450, 948]]? Please choose the correct answer. Options:\nA. 在前海 见世界, 3666 7333, 锔售电话, 约580-2500㎡ 写字楼现楼热销中\nB. 3666 7333, 约580-2500㎡ 写字楼现楼热销中, 销售电话, 在前海 见世界\nC. 销售电话, 在前海 见世界, P, 约580-2500㎡ 写字楼现楼热销中\nD. 销售电话, 纫580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 3666 7333",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'P, 3666 7333, 销售电话, 约580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 写字楆' fall within the bounding box [[346.19251879525854, 687.6247076216231], [997.3845266662945, 687.6247076216231], [997.3845266662945, 1078.6632996632998], [346.19251879525854, 1078.6632996632998]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[346.37466815773575, 686.5318114467598], [997.5666760287718, 686.5318114467598], [997.5666760287718, 1077.5704034884366], [346.37466815773575, 1077.5704034884366]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[429,821], [956,777], [957,822], [428,864]] 中，填补 \"____0-2500㎡ 写字符楼现楼热销中\" 中的空缺部分以完成该短语。",
+              "answer": "约58"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[450, 687], [998, 687], [998, 947], [450, 947]]? Please choose the correct answer. Options:\nA. 约580-2500㎡ 写字楼现楼热销中, 销售电话, 在前海 见世界, 3666 7333\nB. 在前涕 见世界, 销售电话, 约580-2500㎡ 写字楼现楼热销中, 3666 7333\nC. 写字楼, 3666 7383, 约580-2500㎡ 写字楼现楼热销中, 销售电话\nD. 约580-2500㎡ 写字楼现楼热销中, 销售电话, 写字楼, P",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '在前海 见世界, P, 销售电话, 约580-2500㎡ 写字楼现楼热销中' located within the bounding box [[346.37466815773575, 686.5318114467598], [997.5666760287718, 686.5318114467598], [997.5666760287718, 1077.5704034884366], [346.37466815773575, 1077.5704034884366]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[343.20006498313256, 688.1191130340613], [994.3920728541684, 688.1191130340613], [994.3920728541684, 1079.1577050757382], [343.20006498313256, 1079.1577050757382]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[450,807], [520,801], [520,820], [450,826]] 中，请补全词组 \"销____电话\" 中的缺失部分。",
+              "answer": "售"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[447, 688], [994, 688], [994, 948], [447, 948]]? Please choose the correct answer. Options:\nA. 3666 7333, 销售电话, 写字楼, 约580-2500㎡ 写字楼现楼热销中\nB. 约580-2500㎡ 写字楼现楼热销中, 3666 7333, 在前涕 见世界, 销售电话\nC. 在前海 见世界, 销售电话, 3666 7333, 写字楆\nD. 约580-2500㎡ 写字楼现楼热销中, P, 3666 7333, 在前海 见世界",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '写字楼, 在前海 见世界, 3666 7333, P' appear within the bounding box [[343.20006498313256, 688.1191130340613], [994.3920728541684, 688.1191130340613], [994.3920728541684, 1079.1577050757382], [343.20006498313256, 1079.1577050757382]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[342.1399943117545, 688.1191130340613], [993.3320021827903, 688.1191130340613], [993.3320021827903, 1079.1577050757382], [342.1399943117545, 1079.1577050757382]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[460,817], [530,812], [530,831], [460,837]] 里，将“销____电话”中空缺的部分填写完整。",
+              "answer": "售"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[446, 688], [993, 688], [993, 948], [446, 948]]? Please choose the correct answer. Options:\nA. 纫580-2500㎡ 写字楼现楼热销中, 3666 7333, 在前海 见世界, 写字楼\nB. 在前海 见世界, 销售电话, 写字楼, 约580-2500㎡ 写字楼现楼热销中\nC. 约580-2500㎡ 写字楼现楼热销中, P, 3666 7333, 在前海 见世界\nD. 写字楼, 3666 7333, 在前涕 见世界, 约580-2500㎡ 写字楼现楼热销中",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '在前海 见世界, P, 写字楼, 约580-2500㎡ 写字楼现楼热销中, 3666 7383, 销售电话' positioned within the bounding box [[342.1399943117545, 688.1191130340613], [993.3320021827903, 688.1191130340613], [993.3320021827903, 1079.1577050757382], [342.1399943117545, 1079.1577050757382]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[342.8752884294015, 688.364211073277], [994.0672963004374, 688.364211073277], [994.0672963004374, 1079.402803114954], [342.8752884294015, 1079.402803114954]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在边界框 [[475,864], [1002,820], [1003,865], [474,907]] 中，填写短语 \"约580-____㎡ 写字符楼现楼热销中\" 中的空白部分。",
+              "answer": "2500"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[447, 688], [994, 688], [994, 948], [447, 948]]? Please choose the correct option. Options:\nA. P, 写字楼, 约580-2500㎡ 写字楼现楼热销中, 在前海 见世界\nB. 在前海 见世界, 3666 7333, 写字楼, 约580-2500㎡ 写字楼现楼热销中\nC. 在前涕 见世界, 销售电话, 3666 7333, 写字楼\nD. 写字楆, 在前海 见世界, 销售电话, 约580-2500㎡ 写字楼现楼热销中",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '销售电话, 写字楼, 3666 7333, 约580-2500㎡ 写字楼现楼热销中' found within the bounding box [[342.8752884294015, 688.364211073277], [994.0672963004374, 688.364211073277], [994.0672963004374, 1079.402803114954], [342.8752884294015, 1079.402803114954]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[342.4298541309605, 688.809645371718], [993.6218620019965, 688.809645371718], [993.6218620019965, 1079.848237413395], [342.4298541309605, 1079.848237413395]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[588,794], [834,773], [834,821], [587,840]] 中，填补电话号码 \"3____6 7333\" 中空缺的部分。",
+              "answer": "66"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[446, 689], [994, 689], [994, 949], [446, 949]]? Please choose the correct option. Options:\nA. 3666 7333, 在前海 见世界, 写字楼, 销售电话\nB. 约580-2500㎡ 写字楼现楼热销中, 3666 7383, 销售电话, 在前海 见世界\nC. 写字楆, 约580-2500㎡ 写字楼现楼热销中, 销售电话, 在前海 见世界\nD. 约580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 3666 7333, P",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '销售电话, 写字楼, 3666 7333, P' within the bounding box [[342.4298541309605, 688.809645371718], [993.6218620019965, 688.809645371718], [993.6218620019965, 1079.848237413395], [342.4298541309605, 1079.848237413395]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[342.4298541309605, 688.9614079583232], [993.6218620019965, 688.9614079583232], [993.6218620019965, 1080.0], [342.4298541309605, 1080.0]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[600,778], [847,756], [847,804], [599,824]] 中，把电话号码 \"3____ 7333\" 的空白部分填上。",
+              "answer": "666"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[446, 689], [994, 689], [994, 949], [446, 949]]? Please choose the correct option. Options:\nA. 在前涕 见世界, 3666 7333, 写字楼, 销售电话\nB. 纫580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 3666 7333, 写字楼\nC. 在前海 见世界, 销售电话, 3666 7333, 写字楼\nD. 在前海 见世界, 销售电话, P, 约580-2500㎡ 写字楼现楼热销中",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '约580-2500㎡ 写字楼现楼热销中, 3666 7333, 写字楼, 销售电话' located within the bounding box [[342.4298541309605, 688.9614079583232], [993.6218620019965, 688.9614079583232], [993.6218620019965, 1080.0], [342.4298541309605, 1080.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What is/are the word(s) located within [[342.6136363636364, 691.5504047220772], [993.6218620019965, 691.5504047220772], [993.6218620019965, 1080.0], [342.6136363636364, 1080.0]]? The word(s) is/are ________.",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[524,918], [1064,875], [1068,972], [521,1011]] 中，找出 \"在前____ 见世界\" 中的缺失部分。",
+              "answer": "海"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[446, 692], [994, 692], [994, 949], [446, 949]]? Please choose the correct option. Options:\nA. 纫580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 写字楼, 销售电话\nB. P, 销售电话, 在前海 见世界, 3666 7333\nC. 约580-2500㎡ 写字楼现楼热销中, 3666 7333, 锔售电话, 在前海 见世界\nD. 销售电话, 写字楼, 在前海 见世界, 约580-2500㎡ 写字楼现楼热销中",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '写字楼, 销售电话, 在前海 见世界, 3666 7333, 纫580-2500㎡ 写字楼现楼热销中, P' inside the bounding box [[342.6136363636364, 691.5504047220772], [993.6218620019965, 691.5504047220772], [993.6218620019965, 1080.0], [342.6136363636364, 1080.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[443, 695], [990, 695], [990, 952], [443, 952]]? ________",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在边界框 [[522,774], [575,770], [575,792], [521,796]] 中，请补全短语 \"写字符____\"。",
+              "answer": "楼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option contains the text(s) located within [[443, 695], [990, 695], [990, 952], [443, 952]]? Please choose the correct option. Options:\nA. 写字楼, 约580-2500㎡ 写字楼现楼热销中, 在前涕 见世界, 销售电话\nB. 写字楼, 销售电话, 3666 7333, 在前海 见世界\nC. 在前海 见世界, 销售电话, 纫580-2500㎡ 写字楼现楼热销中, 3666 7333\nD. 写字楼, 约580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 3666 7383",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '纫580-2500㎡ 写字楼现楼热销中, 在前海 见世界, 3666 7333, 写字楼, 销售电话' within the bounding box [[442.646511385762, 695.0119431836157], [990.1603235404583, 695.0119431836157], [990.1603235404583, 952.4725881852952], [442.646511385762, 952.4725881852952]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/downsample_x4/CHN/C0101/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0101/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What is/are the word(s) located within [[440, 697], [987, 697], [987, 955], [440, 955]]? ________",
+              "answer": [
+                "写字楼",
+                "销售电话",
+                "3666 7333",
+                "约580-2500㎡ 写字楼现楼热销中",
+                "在前海 见世界"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在坐标 [[520,780], [590,774], [590,793], [520,800]] 所绘边界框内，请填上“销____电话”中的缺失部分。",
+              "answer": "售"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option includes the text(s) found within [[440, 697], [987, 697], [987, 955], [440, 955]]? Please choose the correct answer. Options:\nA. 3666 7383, 销售电话, 在前海 见世界, 写字楼\nB. 在前淨 见世界, 写字楼, 3666 7333, 约580-2500㎡ 写字楼现楼热销中\nC. 销售电话, 在前涕 见世界, 3666 7333, 写字楼\nD. 销售电话, 3666 7333, 在前海 见世界, 写字楼",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) '写字楼, 在前海 见世界, 约580-2500㎡ 写字楼现楼热销中, 销售电话' contained within the bounding box [[439.9291200814142, 697.185856227094], [987.4429322361106, 697.185856227094], [987.4429322361106, 954.6465012287734], [439.9291200814142, 954.6465012287734]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0101"
+  }
+]

@@ -1,0 +1,150 @@
+{
+  "video_id": "C0314",
+  "frames": 120,
+  "word": "PHARMACY",
+  "video_path": "/nfs.auto/flash_VideoAlg/project/SR/VSR_text/video_test_set/downsample_x4/videos/EN_C0314.mp4",
+  "questions": [
+    {
+      "question_type": "presence_q1",
+      "q": "Is \"PHARMACY\" always present in the video?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "presence_q2",
+      "q": "In how many frames is \"PHARMACY\" visible? (Answer with a number)",
+      "a": 120
+    },
+    {
+      "question_type": "presence_q3",
+      "q": "How many times does \"PHARMACY\" disappear?\n Options:\n0 times\n1 time\n2 times\n3 or more times",
+      "a": "0 times"
+    },
+    {
+      "question_type": "presence_q4",
+      "q": "What is the overall appearance pattern of \"PHARMACY\"?\n Options:\nalways present\nappears mid-way\ndisappears mid-way\nappears and then disappears",
+      "a": "always present"
+    },
+    {
+      "question_type": "presence_q5",
+      "q": "In which frame does \"PHARMACY\" first appear? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "presence_q6",
+      "q": "In which frame does \"PHARMACY\" last appear? (Answer with a number)",
+      "a": 119
+    },
+    {
+      "question_type": "localization_q1",
+      "q": "Which region of the screen is \"PHARMACY\" in when it first appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "top-right"
+    },
+    {
+      "question_type": "localization_q2",
+      "q": "Which region of the screen is \"PHARMACY\" in when it last appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "top-right"
+    },
+    {
+      "question_type": "localization_q3",
+      "q": "In which region does \"PHARMACY\" spend most of its time?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right\nno dominant region",
+      "a": "no dominant region"
+    },
+    {
+      "question_type": "localization_q4",
+      "q": "How many frames does \"PHARMACY\" cross the horizontal center line of the screen?\n Options:\n42 frames\n40 frames\n38 frames\n36 frames",
+      "a": "38 frames"
+    },
+    {
+      "question_type": "localization_q5",
+      "q": "Does \"PHARMACY\" cross the horizontal center line of the screen?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "localization_q6",
+      "q": "The screen is divided into a 3x3 grid (9 regions): top-left, top-center, top-right, middle-left, middle-center, middle-right, bottom-left, bottom-center, bottom-right. How many different regions does \"PHARMACY\" pass through? (Answer with a number 1-9)",
+      "a": 4
+    },
+    {
+      "question_type": "motion_q1",
+      "q": "From first to last appearance, what is the main motion direction of \"PHARMACY\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "bottom-right"
+    },
+    {
+      "question_type": "motion_q2",
+      "q": "In which frame does \"PHARMACY\" move at maximum speed? (Answer with a number)",
+      "a": 105
+    },
+    {
+      "question_type": "motion_q3",
+      "q": "In which frame does \"PHARMACY\" have maximum acceleration? (Answer with a number)",
+      "a": 32
+    },
+    {
+      "question_type": "motion_q4",
+      "q": "During which period does \"PHARMACY\" move fastest?\n Options:\nstart\nmiddle\nend",
+      "a": "end"
+    },
+    {
+      "question_type": "motion_q5",
+      "q": "What trajectory shape(s) does \"PHARMACY\" exhibit? (Select all that apply)\n Options:\nstraight line\ncurve\ncircular\nzigzag",
+      "a": [
+        "curve"
+      ]
+    },
+    {
+      "question_type": "motion_q6",
+      "q": "From frame 23 to frame 35, what is the trajectory shape of \"PHARMACY\"?\n Options:\nstraight line\ncurve\ncircular\nzigzag\nrandom",
+      "a": "curve"
+    },
+    {
+      "question_type": "motion_q7",
+      "q": "From frame 23 to frame 35, what is the main motion direction of \"PHARMACY\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "top-to-bottom"
+    },
+    {
+      "question_type": "motion_q8",
+      "q": "In which frame does \"PHARMACY\" deviate most from the main trajectory? (Answer with a number)",
+      "a": 97
+    },
+    {
+      "question_type": "motion_q9",
+      "q": "What is the average speed of \"PHARMACY\" movement approximately?\n Options:\n17.3 pixels/frame\n17.5 pixels/frame\n17.1 pixels/frame\n17.9 pixels/frame",
+      "a": "17.5 pixels/frame"
+    },
+    {
+      "question_type": "size_q1",
+      "q": "In which frame does \"PHARMACY\" have the largest area (appear closest)? (Answer with a number)",
+      "a": 65
+    },
+    {
+      "question_type": "size_q2",
+      "q": "In which frame does \"PHARMACY\" have the smallest area (appear farthest)? (Answer with a number)",
+      "a": 2
+    },
+    {
+      "question_type": "size_q3",
+      "q": "From frame 23 to frame 35, is \"PHARMACY\" approaching or receding?\n Options:\napproaching\nreceding\ndistance unchanged",
+      "a": "distance unchanged"
+    },
+    {
+      "question_type": "size_q4",
+      "q": "What is the overall area trend of \"PHARMACY\"?\n Options:\nincreasing\ndecreasing\nfluctuating",
+      "a": "fluctuating"
+    },
+    {
+      "question_type": "size_q5",
+      "q": "Does the width of \"PHARMACY\" ever exceed half the screen width?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "size_q6",
+      "q": "How many frames does the width of \"PHARMACY\" exceed half the screen width?\n Options:\n124 frames\n120 frames\n122 frames\n118 frames",
+      "a": "120 frames"
+    },
+    {
+      "question_type": "boundary_q1",
+      "q": "Does \"PHARMACY\" touch the edge of the frame during its movement?\n Options:\nYes\nNo",
+      "a": "Yes"
+    }
+  ]
+}

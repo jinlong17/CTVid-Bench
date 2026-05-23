@@ -1,0 +1,506 @@
+[
+    {
+        "questions": [
+            {
+                "frame": "frame_001.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_001.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_001.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) can be found within [[808.5549132947978, 331.7919075144509], [1032.2543352601156, 331.7919075144509], [1032.2543352601156, 824.8484848484848], [808.5549132947978, 824.8484848484848]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What completes the label found within the coordinates [[836,788], [1018,787], [1016,825], [833,825]], starting with \"char____\"?",
+                            "answer": "gepoin"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[809, 332], [1032, 332], [1032, 673], [809, 673]]. Options:\nA. Temporarily, ohargepoin, Parking, Allowed\nB. NON-EV, chargepoin, Temporarily, Allowed\nC. Parking, chargepoin, Allowed, Temperarily\nD. Parking, Allowed, chargepoin, Temporarily",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Temporarily, Allowed, Parking' located within the bounding box [[808.5549132947978, 331.7919075144509], [1032.2543352601156, 331.7919075144509], [1032.2543352601156, 824.8484848484848], [808.5549132947978, 824.8484848484848]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_002.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_011.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_002.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "What word(s) is/are located in the region [[774.561319539045, 329.88107948897317], [999.251132137992, 329.88107948897317], [999.251132137992, 826.1223701988033], [774.561319539045, 826.1223701988033]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What text fits in the blank of the word(s) visible at location [[475,525], [694,521], [696,570], [474,573]], shown as \"Park____g\"?",
+                            "answer": "in"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "From the entire image, choose the correct option that includes the text(s) found within [[775, 330], [999, 330], [999, 673], [775, 673]]. Options:\nA. Parking, Temperarily, NON-EV, Allowed\nB. Temporarily, chargepoin, NON-EV, Allowed\nC. Parking, NON-EV, Temperarily, Allowed\nD. Allowed, chargepoin, NON-EV, Parking",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'chargepoin, Allowed, Temporarily, Parking' located within the bounding box [[775, 503], [999, 503], [999, 673], [775, 673]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_003.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_021.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_003.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[735, 333], [963, 333], [963, 826], [735, 826]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Within the boundary coordinates [[314,539], [533,535], [534,584], [313,588]], identify the missing part in \"____king\".",
+                            "answer": "Par"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option includes the text(s) present in the area [[735, 333], [963, 333], [963, 826], [735, 826]]? Please choose the correct answer. Options:\nA. ohargepoin, Temporarily, Parking, Allowed, NON-EV\nB. chargepoin, chargepoin, Temporarily, NON-EV, Parking\nC. Parking, chargepoin, NON-EV, chargepoin, Temperarily\nD. Parking, NON-EV, Allowed, Temporarily, chargopoin",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Do the label(s) 'Allowed, Parking, NON-EV' fall within the bounding box [[735.2549611575421, 332.7712528993778], [963.4129818489747, 332.7712528993778], [963.4129818489747, 826.1223701988033], [735.2549611575421, 826.1223701988033]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_004.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_031.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_004.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[705, 332], [930, 332], [930, 829], [705, 829]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What is the missing section in the text at coordinates [[330,670], [512,670], [511,715], [330,715]], represented as \"A____wed\"?",
+                            "answer": "llo"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct answer that includes the text(s) located within [[705, 332], [928, 332], [928, 558], [705, 558]]. Options:\nA. NON-EV, chargepoin\nB. Temporarily, NON-EV\nC. ohargepoin, NON-EV\nD. Rarking, chargepoin",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Temporerily, chargepoin, Parking, NON-EV, chargepoin, Allowed' located within the bounding box [[704.8547549795665, 331.615183535216], [930.465004970362, 331.615183535216], [930.465004970362, 829.0125436092079], [704.8547549795665, 829.0125436092079]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_005.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_041.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_005.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[701, 794], [886, 794], [886, 832], [701, 832]]? ________",
+                            "answer": [
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "At the coordinates [[388,488], [600,484], [600,541], [390,547]], identify the missing middle part in \"N____V\".",
+                            "answer": "ON-E"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Which option contains the text(s) found within [[672, 336], [896, 336], [896, 675], [672, 675]]? Choose the correct answer. Options:\nA. NON-EV, chargepoin, Allawed, Temporarily\nB. Temporarily, Parking, Allowed, chargepoin\nC. Rarking, chargepoin, Temporarily, Allowed\nD. chargepoin, Temporarily, Parking, Allowed",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Parking, Temporarily, Allowed' located within the bounding box [[671.8527277041632, 335.80366521060864], [895.9100311483725, 335.80366521060864], [895.9100311483725, 832.1539048657523], [671.8527277041632, 832.1539048657523]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_006.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_051.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_006.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[634, 341], [859, 341], [859, 834], [634, 834]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "At location [[599,378], [801,375], [801,420], [598,423]], fill in the missing portion in \"cha____epoin\".",
+                            "answer": "rg"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[634, 341], [859, 341], [859, 834], [634, 834]]. Options:\nA. Temperarily, NON-EV, Allowed, chargepoin, chargepoin\nB. ohargepoin, Temporarily, Parking, Allowed, NON-EV\nC. Parking, Allowed, chargepoin, chargepoin, Temporarily\nD. Temporarily, NON-EV, chargepoin, Rarking, chargepoin",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Temporarily, Parking, NON-EV' located within the bounding box [[634.0844873608155, 341.3830643522395], [859.4293444530934, 341.3830643522395], [859.4293444530934, 834.2998276125335], [634.0844873608155, 834.2998276125335]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_007.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_061.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_007.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[592, 342], [815, 342], [815, 838], [592, 838]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "Insert the missing character(s) found in the section displayed at coordinates [[903,831], [1085,830], [1083,868], [900,868]] where the text should read as \"char____epoin\".",
+                            "answer": "g"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[592, 342], [815, 342], [815, 838], [592, 838]]. Options:\nA. Parking, NON-EV, chargepoin, chargepoin, Allawed\nB. NON-EV, Tomporarily, Parking, chargepoin, Allowed\nC. Allowed, Temperarily, Parking, chargepoin, NON-EV\nD. chargepoin, NON-EV, Temporarily, Allowed, chargepoin",
+                            "answer": "D"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Allowed, Temporarily, Parking' located within the bounding box [[592.2507987188902, 342.24143345095194], [815.1284229583247, 342.24143345095194], [815.1284229583247, 838.1624885567395], [592.2507987188902, 838.1624885567395]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_008.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_071.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_008.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[558, 345], [784, 345], [784, 842], [558, 842]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What is the middle missing sequence in the text located at [[1141,783], [1324,782], [1322,820], [1139,820]], shown as \"char____epoin\"?",
+                            "answer": "g"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[558, 447], [784, 447], [784, 842], [558, 842]]. Options:\nA. Temporarily, chargepoin, Parking, Allowed\nB. Allowed, NON-EV, chargepoin, Temperarily\nC. chargepoin, chargepoin, Temporarily, Parking\nD. NDN-EV, Parking, Allowed, Temporarily",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Parking, NON-EV, chargepoin, chargepoin' located within the bounding box [[558.0095535827035, 345.354273917878], [783.6109132306982, 345.354273917878], [783.6109132306982, 842.0535391403971], [558.0095535827035, 842.0535391403971]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_009.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_081.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_009.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[530, 347], [755, 347], [755, 844], [530, 844]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What text fills in the blank shown at coordinates [[1246,750], [1429,748], [1427,786], [1244,786]], displayed as \"charg____in\"?",
+                            "answer": "epo"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct answer that includes the text(s) located within [[530, 450], [755, 450], [755, 844], [530, 844]]. Options:\nA. NON-EV, Parking, Allowed, Temporarily\nB. NON-EV, Temporarily, Parking, ohargepoin\nC. Parking, chargepoin, Allowed, chargepoin\nD. Allawed, Parking, NON-EV, chargepoin",
+                            "answer": "A"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'chargepoin, Temporarily, Allowed, chargepoin' located within the bounding box [[529.6293351772822, 347.1210583701748], [754.7578531803258, 347.1210583701748], [754.7578531803258, 844.1736804831532], [529.6293351772822, 844.1736804831532]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_010.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_091.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_010.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[502, 349], [729, 349], [729, 844], [502, 844]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "In the text located at [[1297,526], [1563,524], [1564,583], [1300,584]], which reads \"Pa____ing\", what sequence completes the word(s)?",
+                            "answer": "rk"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct answer that contains the text(s) located within [[502, 349], [729, 349], [729, 688], [502, 688]]. Options:\nA. NON-EV, chargepoin, chargepoin, Temporarily\nB. Temporarily, Allawed, Parking, NON-EV\nC. chargepoin, Parking, Allowed, Temporarily\nD. Allowed, Temporarily, Rarking, NON-EV",
+                            "answer": "C"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Parking, Allowed, Temporarily, NON-EV, chargepoin' located within the bounding box [[502, 450], [729, 450], [729, 688], [502, 688]]?",
+                            "answer": "False"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_011.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_101.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_011.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[473, 348], [696, 348], [696, 846], [473, 846]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "What is the missing character(s)(s) of the label located at [[1469,894], [1696,908], [1694,955], [1467,938]], shown as \"chargepo____n\"?",
+                            "answer": "i"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that includes the text(s) located within [[473, 348], [696, 348], [696, 846], [473, 846]]. Options:\nA. NON-EV, Temporarily, chargepoin, Darking, Allowed\nB. NON-EV, Allowed, chargepoin, Temporarily, chargepoin\nC. Temporarily, Allowed, NON-EV, Rarking, chargepoin\nD. Temporarily, chargepoin, Allowed, Parking, NDN-EV",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Temporarily, chargepoin, NON-EV, chargepoin' located within the bounding box [[472.70513099263667, 348.0247463942731], [696.2257356194693, 348.0247463942731], [696.2257356194693, 846.2863565394912], [472.70513099263667, 846.2863565394912]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            },
+            {
+                "frame": "frame_012.png",
+                "frame_path": "/nfs/flash/VideoAlg/project/SR/VSR_text/test_set_final/VQA_img/GT/EN/C0197/frame_111.png",
+                "relative_path": "test_batch_1/EN_test/C0197/frame_012.png",
+                "qa_pairs": [
+                    {
+                        "question": {
+                            "question_type": "fill_in",
+                            "question": "What is/are the word(s) located within [[447, 347], [670, 347], [670, 846], [447, 846]]? ________",
+                            "answer": [
+                                "chargepoin",
+                                "NON-EV",
+                                "Parking",
+                                "Temporarily",
+                                "Allowed",
+                                "chargepoin"
+                            ]
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "fill_in_blank",
+                            "question": "At coordinates [[1452,291], [1733,288], [1733,339], [1450,343]], what completes the label depicted as \"char____poin\"?",
+                            "answer": "ge"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "multiple_choice",
+                            "question": "Choose the correct option that contains the text(s) located within [[447, 347], [670, 347], [670, 690], [447, 690]]. Options:\nA. NON-EV, Allowed, Temporarily, chargepoin\nB. Parking, Allowed, Temporarily, NON-EV\nC. Temporarily, Allowed, ohargepoin, Parking\nD. NON-EV, Allawed, Parking, Temporarily",
+                            "answer": "B"
+                        }
+                    },
+                    {
+                        "question": {
+                            "question_type": "true_false",
+                            "question": "Are the label(s) 'Temporarily, chargepoin, Allowed, chargepoin' located within the bounding box [[446.5147529605099, 347.4467117121922], [669.5618770869171, 347.4467117121922], [669.5618770869171, 845.7083218574102], [446.5147529605099, 845.7083218574102]]?",
+                            "answer": "True"
+                        }
+                    }
+                ]
+            }
+        ],
+        "video_clip": "C0197"
+    }
+]

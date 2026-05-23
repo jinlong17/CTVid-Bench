@@ -1,0 +1,152 @@
+{
+  "video_id": "C0130",
+  "frames": 120,
+  "word": "Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor",
+  "video_path": "/nfs.auto/flash_VideoAlg/project/SR/VSR_text/video_test_set/GT/videos/EN_C0130.mp4",
+  "questions": [
+    {
+      "question_type": "presence_q1",
+      "q": "Is \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" always present in the video?\n Options:\nYes\nNo",
+      "a": "Yes"
+    },
+    {
+      "question_type": "presence_q2",
+      "q": "In how many frames is \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" visible? (Answer with a number)",
+      "a": 120
+    },
+    {
+      "question_type": "presence_q3",
+      "q": "How many times does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" disappear?\n Options:\n0 times\n1 time\n2 times\n3 or more times",
+      "a": "0 times"
+    },
+    {
+      "question_type": "presence_q4",
+      "q": "What is the overall appearance pattern of \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\"?\n Options:\nalways present\nappears mid-way\ndisappears mid-way\nappears and then disappears",
+      "a": "always present"
+    },
+    {
+      "question_type": "presence_q5",
+      "q": "In which frame does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" first appear? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "presence_q6",
+      "q": "In which frame does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" last appear? (Answer with a number)",
+      "a": 119
+    },
+    {
+      "question_type": "localization_q1",
+      "q": "Which region of the screen is \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" in when it first appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "center"
+    },
+    {
+      "question_type": "localization_q2",
+      "q": "Which region of the screen is \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" in when it last appears?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right",
+      "a": "bottom-left"
+    },
+    {
+      "question_type": "localization_q3",
+      "q": "In which region does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" spend most of its time?\n Options:\ncenter\ntop-left\ntop-right\nbottom-left\nbottom-right\nno dominant region",
+      "a": "bottom-left"
+    },
+    {
+      "question_type": "localization_q4",
+      "q": "How many frames does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" cross the horizontal center line of the screen?\n Options:\n5 frames\n1 frames\n0 frames\n3 frames",
+      "a": "1 frames"
+    },
+    {
+      "question_type": "localization_q5",
+      "q": "Does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" cross the horizontal center line of the screen?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "localization_q6",
+      "q": "The screen is divided into a 3x3 grid (9 regions): top-left, top-center, top-right, middle-left, middle-center, middle-right, bottom-left, bottom-center, bottom-right. How many different regions does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" pass through? (Answer with a number 1-9)",
+      "a": 3
+    },
+    {
+      "question_type": "motion_q1",
+      "q": "From first to last appearance, what is the main motion direction of \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "bottom-left"
+    },
+    {
+      "question_type": "motion_q2",
+      "q": "In which frame does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" move at maximum speed? (Answer with a number)",
+      "a": 1
+    },
+    {
+      "question_type": "motion_q3",
+      "q": "In which frame does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" have maximum acceleration? (Answer with a number)",
+      "a": 2
+    },
+    {
+      "question_type": "motion_q4",
+      "q": "During which period does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" move fastest?\n Options:\nstart\nmiddle\nend",
+      "a": "middle"
+    },
+    {
+      "question_type": "motion_q5",
+      "q": "What trajectory shape(s) does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" exhibit? (Select all that apply)\n Options:\nstraight line\ncurve\ncircular\nzigzag",
+      "a": [
+        "straight line",
+        "curve",
+        "zigzag"
+      ]
+    },
+    {
+      "question_type": "motion_q6",
+      "q": "From frame 23 to frame 35, what is the trajectory shape of \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\"?\n Options:\nstraight line\ncurve\ncircular\nzigzag\nrandom",
+      "a": "straight line"
+    },
+    {
+      "question_type": "motion_q7",
+      "q": "From frame 23 to frame 35, what is the main motion direction of \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\"?\n Options:\nleft-to-right\nright-to-left\ntop-to-bottom\nbottom-to-top\ntop-left\ntop-right\nbottom-left\nbottom-right\nalmost stationary",
+      "a": "bottom-right"
+    },
+    {
+      "question_type": "motion_q8",
+      "q": "In which frame does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" deviate most from the main trajectory? (Answer with a number)",
+      "a": 0
+    },
+    {
+      "question_type": "motion_q9",
+      "q": "What is the average speed of \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" movement approximately?\n Options:\n12.4 pixels/frame\n12.8 pixels/frame\n12.6 pixels/frame\n13.0 pixels/frame",
+      "a": "12.6 pixels/frame"
+    },
+    {
+      "question_type": "size_q1",
+      "q": "In which frame does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" have the largest area (appear closest)? (Answer with a number)",
+      "a": 52
+    },
+    {
+      "question_type": "size_q2",
+      "q": "In which frame does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" have the smallest area (appear farthest)? (Answer with a number)",
+      "a": 1
+    },
+    {
+      "question_type": "size_q3",
+      "q": "From frame 23 to frame 35, is \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" approaching or receding?\n Options:\napproaching\nreceding\ndistance unchanged",
+      "a": "distance unchanged"
+    },
+    {
+      "question_type": "size_q4",
+      "q": "What is the overall area trend of \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\"?\n Options:\nincreasing\ndecreasing\nfluctuating",
+      "a": "increasing"
+    },
+    {
+      "question_type": "size_q5",
+      "q": "Does the width of \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" ever exceed half the screen width?\n Options:\nYes\nNo",
+      "a": "No"
+    },
+    {
+      "question_type": "size_q6",
+      "q": "How many frames does the width of \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" exceed half the screen width?\n Options:\nNever\n2 frames\n4 frames\n6 frames",
+      "a": "Never"
+    },
+    {
+      "question_type": "boundary_q1",
+      "q": "Does \"Stanford Shopping Center\nPublic Restrooms\nMen’s, Women’s, Family\nLocated on 2nd Floor\" touch the edge of the frame during its movement?\n Options:\nYes\nNo",
+      "a": "No"
+    }
+  ]
+}
