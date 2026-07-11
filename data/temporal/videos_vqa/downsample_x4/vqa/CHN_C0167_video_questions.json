@@ -1,0 +1,313 @@
+{
+  "video_id": "C0167",
+  "frames": 120,
+  "word": "禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0167.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" likely to be?\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. event or poster information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text",
+      "q": "写着「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」的这段文字，看起来像是哪种类型的标牌？\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. event or poster information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text",
+      "a": "A",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. warning or prohibition sign",
+        "B. menu or commercial information",
+        "C. event or poster information",
+        "D. address or street sign",
+        "E. storefront or brand sign",
+        "F. direction or navigation sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」的这段文字，看起来像是哪种类型的标牌？\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. event or poster information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" appear in?\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. restaurant or menu\nE. road or street\nF. warning / rule sign\nG. event poster or display\nH. transportation / station",
+      "q": "「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字，出现在什么样的场景里？\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. restaurant or menu\nE. road or street\nF. warning / rule sign\nG. event poster or display\nH. transportation / station",
+      "a": "A",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. other public sign",
+        "B. storefront",
+        "C. campus or office",
+        "D. restaurant or menu",
+        "E. road or street",
+        "F. warning / rule sign",
+        "G. event poster or display",
+        "H. transportation / station"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字，出现在什么样的场景里？\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. restaurant or menu\nE. road or street\nF. warning / rule sign\nG. event poster or display\nH. transportation / station"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. center (middle of the frame)\nE. bottom-right (lower-right area)",
+      "q": "视频播放时，写着「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」的文字，大多数时候出现在画面的哪个区域？\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. center (middle of the frame)\nE. bottom-right (lower-right area)",
+      "a": "D",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. top-left (upper-left area)",
+        "C. bottom-left (lower-left area)",
+        "D. center (middle of the frame)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播放时，写着「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」的文字，大多数时候出现在画面的哪个区域？\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. center (middle of the frame)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "整段视频里，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字的位置变动幅度大不大？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "B",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整段视频里，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字的位置变动幅度大不大？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" move?\n Options:\nA. stays roughly in place\nB. changes direction partway\nC. moves up\nD. moves right\nE. moves left\nF. moves diagonally\nG. moves down",
+      "q": "总体来看，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这行字朝哪个方向在移动？\n Options:\nA. stays roughly in place\nB. changes direction partway\nC. moves up\nD. moves right\nE. moves left\nF. moves diagonally\nG. moves down",
+      "a": "C",
+      "a_text": "moves up",
+      "answer_key": "moves up",
+      "options": [
+        "A. stays roughly in place",
+        "B. changes direction partway",
+        "C. moves up",
+        "D. moves right",
+        "E. moves left",
+        "F. moves diagonally",
+        "G. moves down"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这行字朝哪个方向在移动？\n Options:\nA. stays roughly in place\nB. changes direction partway\nC. moves up\nD. moves right\nE. moves left\nF. moves diagonally\nG. moves down"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> center\nB. center -> center -> top-left\nC. center -> bottom-right -> center\nD. bottom-right -> center -> center",
+      "q": "随着视频推进，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字在靠前、居中、靠后三个时段分别在画面什么位置？\n Options:\nA. center -> center -> center\nB. center -> center -> top-left\nC. center -> bottom-right -> center\nD. bottom-right -> center -> center",
+      "a": "A",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> center -> center",
+        "B. center -> center -> top-left",
+        "C. center -> bottom-right -> center",
+        "D. bottom-right -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频推进，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字在靠前、居中、靠后三个时段分别在画面什么位置？\n Options:\nA. center -> center -> center\nB. center -> center -> top-left\nC. center -> bottom-right -> center\nD. bottom-right -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)",
+      "q": "你觉得「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字在画面里占多大？算大、中还是小？\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)",
+      "a": "C",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. large (a major part of the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你觉得「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字在画面里占多大？算大、中还是小？\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "q": "在这段视频里，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」的字体大小有没有变化——是越来越大、越来越小，还是基本保持不变？\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "a": "C",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. size fluctuates (goes up and down)",
+        "C. stays about the same size",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在这段视频里，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」的字体大小有没有变化——是越来越大、越来越小，还是基本保持不变？\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "画面里，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字是处于画面中央，还是偏向某一侧边缘？\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里，「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字是处于画面中央，还是偏向某一侧边缘？\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶\" and how it appears in the video.",
+      "q": "能说说「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字是什么样的，以及它在视频中是怎么呈现的吗？",
+      "a": "The target text is printed in red on a white rectangular sticker affixed to the side panel of an escalator.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能说说「禁止推车乘扶梯，推车请换乘直梯。老人、儿童及行动不便者乘扶梯需有人搀扶」这段文字是什么样的，以及它在视频中是怎么呈现的吗？"
+    }
+  ],
+  "method": "downsample_x4"
+}

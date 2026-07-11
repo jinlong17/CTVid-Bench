@@ -1,0 +1,502 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible inside [[208.57359279091025, 69.72704714640199], [1509.5934959349593, 69.72704714640199], [1509.5934959349593, 953.3333333333334], [208.57359279091025, 953.3333333333334]]: ________",
+              "answer": [
+                "LDWRAPPS",
+                "515792",
+                "RESERVED",
+                "PARKING",
+                "Commercial Vehicle",
+                "Loading ONLY",
+                "Ride Share/Food",
+                "Delivery Parking",
+                "Prohibited",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's been cut out of the word(s) at [[1119,505], [1488,461], [1488,581], [1127,630]] — fill in what's missing: PA____ING.",
+              "answer": "RK"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and select the option that matches the text(s) you see in [[1105, 137], [1510, 137], [1510, 953], [1105, 953]]. Options:\nA. Prohibited, Ride Share/Food, 515792, PARKING, RESERVED, Commercial Vehicle, Loading ONLY\nB. PARKING, Loading ONLY, RESERVED, 515792, Prohibited, Commeroial Vehicle, Delivery Parking\nC. Ride Share/Food, Prohibited, RLDWRAPPS, Delivery Parking, Commercial Vehicle, Loading ONLY, PARKING\nD. LDWRAPPS, Commercial Vehicle, PARKING, Delivery Parking, Prohibited, Ride Share/Food, 515792",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[208.57359279091025, 69.72704714640199], [1509.5934959349593, 69.72704714640199], [1509.5934959349593, 953.3333333333334], [208.57359279091025, 953.3333333333334]], does the label 'Commercial Vehicle, Prohibited, Delivery Parking, Loading ONLY, 515792, Ride Share/Food, RESERVED, PARKING, RLDWRAPPS, LDWRAPRS' match what's actually there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) you see inside [[205, 70], [1502, 70], [1502, 954], [205, 954]]: ________",
+              "answer": [
+                "LDWRAPPS",
+                "515792",
+                "RESERVED",
+                "PARKING",
+                "Commercial Vehicle",
+                "Loading ONLY",
+                "Ride Share/Food",
+                "Delivery Parking",
+                "Prohibited",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What goes in the blank to finish the text at [[1090,734], [1337,695], [1337,760], [1097,803]]: Loa____g ONLY?",
+              "answer": "din"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices listed, which one correctly captures the text at [[1097, 317], [1502, 317], [1502, 954], [1097, 954]]? Options:\nA. Ride Share/Food, RESERVED, Commercial Vehicle, Loading ONLY, Prohibited, Delivery Parking\nB. RESERVED, PARKING, Prohibited, Ride Share/Food, Loading ONLY, Commeroial Vehicle\nC. Loading ONLY, Prohibited, Pide Share/Food, RESERVED, Delivery Parking, PARKING\nD. Commercial Vehicle, Delivery Parking, RESERVED, Loading ONLY, LDWRAPPS, PARKING",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "If you check the bounding box [[1097, 317], [1502, 317], [1502, 954], [1097, 954]], will you find 'PARKING, RESERVED, Delivery Parking, Commercial Vehicle, Ride Share/Food, Loading ONLY, 515792, Prohibited' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the word(s) that appear in the area [[200.00296279482345, 70.22455958421293], [1194.3709793972298, 70.22455958421293], [1194.3709793972298, 165.07645980623198], [200.00296279482345, 165.07645980623198]] — what are they? ________",
+              "answer": [
+                "LDWRAPPS",
+                "515792",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a word missing from the phrase at [[923,686], [1256,632], [1258,679], [928,738]]: Comm____ Vehicle — what completes it?",
+              "answer": "ercial"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1092, 137], [1497, 137], [1497, 954], [1092, 954]] and tell me — which of these options has the right text? Options:\nA. Probibited, 515792, PARKING, RESERVED, Delivery Parking, Loading ONLY, Ride Share/Food\nB. 515792, Commercial Vehicle, Prohibited, Loading ONLY, Ride Share/Food, RESERVED, PARKING\nC. PARKING, Prohibited, RESERVED, Pide Share/Food, Delivery Parking, 515792, Commercial Vehicle\nD. RESERVED, Loading ONLY, Commercial Vehicle, LDWRAPPS, PARKING, Delivery Parking, 515792",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just to verify: is 'RESERVED, Delivery Parking, Prohibited, PARKING, Ride Share/Food, Commercial Vehicle' actually inside the region [[1092, 137], [1497, 137], [1497, 954], [1092, 954]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the word(s) you see inside [[1086, 321], [1491, 321], [1491, 957], [1086, 957]]. ________",
+              "answer": [
+                "RESERVED",
+                "PARKING",
+                "Commercial Vehicle",
+                "Loading ONLY",
+                "Ride Share/Food",
+                "Delivery Parking",
+                "Prohibited"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examining [[1225,505], [1281,503], [1282,546], [1226,549]], what number or dimension should replace ____X3?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that matches the text visible inside [[1086, 140], [1491, 140], [1491, 957], [1086, 957]]. Options:\nA. RESERVED, Commercial Vehicle, PARKING, 515792, Prohibited, Delivery Parking, Loading ONLY\nB. Ride Share/Food, LDWRAPPS, Delivery Parking, 515792, RESERVED, Commercial Vehicle, PARKING\nC. Ride Share/Food, 515792, Delivery Parking, PARKING, RESERVED, Loading ONLY, Commeroial Vehicle\nD. PARKING, 515792, Prohibited, RESERVED, Delivery Parking, Loading ONLY, Ride Share/Food",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'LDWRAPPS, 515792, Delivery Parking, Prohibited, RESERVED, Ride Share/Food, Commercial Vehicle, PARKING, Loading ONLY' appearing inside the region [[1086, 140], [1491, 140], [1491, 957], [1086, 957]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text sits inside [[187.11325990512054, 69.03881464531939], [327.05034668263266, 69.03881464531939], [327.05034668263266, 120.52495667516696], [187.11325990512054, 120.52495667516696]] — the word(s) you're looking for: ________",
+              "answer": [
+                "LDWRAPPS",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How would you finish the term shown at [[671,262], [1109,223], [1109,359], [682,407]]: R____VED?",
+              "answer": "ESER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[1071, 140], [1476, 140], [1476, 957], [1071, 957]], which choice correctly lists the text found there? Options:\nA. RESERVED, PARKING, Delivery Parking, Ride Share/Food, Loading ONLY, LDWRAPPS, 515792\nB. Ride Share/Food, Delivery Parking, RESERVED, 515792, Loading ONLY, PARKING, Commercial Vehicle\nC. Delivery Parking, Prohibited, PARKING, 515792, Ride Share/Food, RLDWRAPPS, Commercial Vehicle\nD. Delivery Parking, Loading ONLY, Ride Share/Food, 515792, PARKING, RESERVED, Probibited",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'RESERVED, Loading ONLY, PARKING, Commercial Vehicle, Ride Share/Food, Prohibited, Delivery Parking, LDWRAPPS' the text you'd find if you looked inside [[1071, 321], [1476, 321], [1476, 957], [1071, 957]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) shown inside [[181.0567518152871, 68.00685779109737], [1463.6155010106477, 68.00685779109737], [1463.6155010106477, 955.464088770241], [181.0567518152871, 955.464088770241]]: ________",
+              "answer": [
+                "LDWRAPPS",
+                "515792",
+                "RESERVED",
+                "PARKING",
+                "Commercial Vehicle",
+                "Loading ONLY",
+                "Ride Share/Food",
+                "Delivery Parking",
+                "Prohibited",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign visible at [[531,795], [910,709], [920,785], [545,868]] reads ____ery Parking — what's the missing word?",
+              "answer": "Deliv"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly captures the text inside [[1059, 140], [1464, 140], [1464, 955], [1059, 955]]. Options:\nA. PARKING, Commercial Vehicle, Ride Share/Food, RESERVED, Loading ONLY, Delivery Parking, Prohibited\nB. Delivery Parking, Commercial Vehicle, 515792, DARKING, RESERVED, Ride Share/Food, Loading ONLY\nC. Commercial Vehicle, Delivery Parking, Probibited, Loading ONLY, Ride Share/Food, 515792, PARKING\nD. Prohibited, RESERVED, Loading ONLY, Ride Share/Food, 515792, LDWRAPPS, Commercial Vehicle",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Prohibited, RESERVED, Ride Share/Food, PARKING, Commercial Vehicle, Delivery Parking' is the text that appears at [[1059, 140], [1464, 140], [1464, 955], [1059, 955]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the word(s) enclosed by [[174.51469574052075, 69.40872694997589], [313.9712297898628, 69.40872694997589], [313.9712297898628, 120.30080957388287], [174.51469574052075, 120.30080957388287]] and write them here: ________",
+              "answer": [
+                "LDWRAPPS",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[349,350], [813,293], [817,452], [363,516]], a word starting with 'P' and ending in 'ING' has some letters missing — can you fill them in: P____ING?",
+              "answer": "ARK"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text shown at [[1059, 144], [1464, 144], [1464, 957], [1059, 957]]? Options:\nA. Delivery Parking, Loading ONLY, RESERVED, Prohibited, 515792, Commercial Vehicle, PARKING\nB. 515792, Prohibited, Delivory Parking, Commercial Vehicle, Loading ONLY, RESERVED, Ride Share/Food\nC. Commercial Vehicle, Prohibited, RESERVED, Delivery Parking, Leading ONLY, PARKING, 515792\nD. Commercial Vehicle, LDWRAPPS, Ride Share/Food, Loading ONLY, Prohibited, RESERVED, PARKING",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the text 'Loading ONLY, Prohibited, Commercial Vehicle, 515792, Delivery Parking, Ride Share/Food' appears within the box [[1059, 144], [1464, 144], [1464, 957], [1059, 957]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) does [[166.1813624071875, 69.13094917219809], [305.6378964565295, 69.13094917219809], [305.6378964565295, 120.02303179610507], [166.1813624071875, 120.02303179610507]] contain? Fill in: ________",
+              "answer": [
+                "LDWRAPPS",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere at [[486,698], [800,623], [807,680], [496,756]] is the phrase \"Ride Sha____/Food?\" — what word completes it?",
+              "answer": "re/"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which correctly identifies the text found inside [[1050, 144], [1455, 144], [1455, 957], [1050, 957]]? Options:\nA. RESERVED, Delivery Parking, PARKING, Loading ONLY, Prohibited, Commeroial Vehicle, Ride Share/Food\nB. PARKING, LDWRAPPS, Ride Share/Food, RESERVED, Prohibited, Loading ONLY, 515792\nC. Loading ONLY, Ride Share/Food, RESERVED, 515792, Delivery Parking, Commercial Vehicle, PARKING\nD. Pide Share/Food, Commercial Vehicle, Delivery Parking, Loading ONLY, PARKING, 515792, RESERVED",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'PARKING, Loading ONLY, Ride Share/Food, RESERVED, Delivery Parking, Prohibited, Commercial Vehicle, RLDWRAPPS' describe what's written inside [[1050, 319], [1455, 319], [1455, 957], [1050, 957]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "There are word(s) inside [[158.84191286590303, 68.65133286524365], [296.6197898409045, 68.65133286524365], [296.6197898409045, 120.02303179610507], [158.84191286590303, 120.02303179610507]] — what are they? ________",
+              "answer": [
+                "LDWRAPPS",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[463,258], [842,234], [848,357], [478,391]], what word or letters complete R____VED?",
+              "answer": "ESER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at [[1043, 319], [1448, 319], [1448, 957], [1043, 957]] and pick the option that matches the text there. Options:\nA. Delivery Parking, PARKING, RESERVED, 515792, Loading ONLY, Ride Share/Food\nB. Prohibited, Commercial Vehicle, Delivory Parking, PARKING, Loading ONLY, RESERVED\nC. Prohibited, Delivery Parking, Loading ONLY, RESERVED, Commercial Vehicle, Ride Share/Food\nD. Loading ONLY, Prohibited, RESERVED, LDWRAPPS, Delivery Parking, Ride Share/Food",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it accurate to say that 'Loading ONLY, Commercial Vehicle, Prohibited, Ride Share/Food, Delivery Parking, PARKING' is located at [[1043, 144], [1448, 144], [1448, 957], [1043, 957]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and name the word(s) you find at [[150.311132384584, 69.26295366035068], [289.53828472190435, 69.26295366035068], [289.53828472190435, 120.6346525912121], [150.311132384584, 120.6346525912121]]: ________",
+              "answer": [
+                "LDWRAPPS",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within [[658,354], [972,326], [977,426], [672,468]], which letter(s) need to be filled in to complete RE____ED.?",
+              "answer": "SERV"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you pick the option that matches the text shown in [[1035, 144], [1440, 144], [1440, 957], [1035, 957]]? Options:\nA. 515792, Delivery Parking, RESERVED, DARKING, Commercial Vehicle, Ride Share/Food, Loading ONLY\nB. Commeroial Vehicle, Delivery Parking, Prohibited, Loading ONLY, PARKING, RESERVED, Ride Share/Food\nC. RESERVED, Ride Share/Food, Loading ONLY, Commercial Vehicle, Delivery Parking, Prohibited, 515792\nD. Delivery Parking, RESERVED, LDWRAPPS, Loading ONLY, Commercial Vehicle, Prohibited, Ride Share/Food",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Prohibited, Delivery Parking, RESERVED, Commercial Vehicle, Loading ONLY, Ride Share/Food' visible inside the region marked by [[1035, 144], [1440, 144], [1440, 957], [1035, 957]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[143.27409534754705, 69.26295366035068], [1137.1552843811505, 69.26295366035068], [1137.1552843811505, 172.2086123186397], [143.27409534754705, 172.2086123186397]] — what word(s) do you see there? ________",
+              "answer": [
+                "LDWRAPPS",
+                "515792",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[834,706], [1049,660], [1057,704], [842,752]], can you figure out the hidden word in: Deliv____ Parking?",
+              "answer": "ery"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text in [[1010, 324], [1415, 324], [1415, 957], [1010, 957]] matches which of the following options? Options:\nA. 515792, Loading ONLY, Ride Share/Food, Prohibited, PARKING, RESERVED\nB. Loading ONLY, RESERVED, Prohibited, PARKING, Commercial Vehicle, Ride Share/Food\nC. Delivery Parking, RESERVED, LDWRAPPS, Commercial Vehicle, Ride Share/Food, Prohibited\nD. Loading ONLY, Prohibited, Commeroial Vehicle, RESERVED, Delivery Parking, Ride Share/Food",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'RESERVED, Delivery Parking, Prohibited, Commercial Vehicle, Loading ONLY, PARKING, 515792, Ride Share/Food, LDWRAPPS' appears within the region bounded by [[1010, 144], [1415, 144], [1415, 957], [1010, 957]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0186/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0186/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and read [[133.5379148597097, 70.01321734719019], [1405.8379340510678, 70.01321734719019], [1405.8379340510678, 959.2588104330538], [133.5379148597097, 959.2588104330538]] — what word(s) can you find there? ________",
+              "answer": [
+                "LDWRAPPS",
+                "515792",
+                "RESERVED",
+                "PARKING",
+                "Commercial Vehicle",
+                "Loading ONLY",
+                "Ride Share/Food",
+                "Delivery Parking",
+                "Prohibited",
+                "RLDWRAPPS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the coordinates [[873,463], [1102,434], [1108,526], [883,559]], which letter(s) are needed to complete: PARK____.?",
+              "answer": "ING"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[1001, 146], [1406, 146], [1406, 959], [1001, 959]] and select the option that reflects the text there. Options:\nA. RESERVED, Loading ONLY, Delivery Parking, Prohibited, 515792, Commercial Vehicle, PARKING\nB. Prohibited, Leading ONLY, Ride Share/Food, RESERVED, Commercial Vehicle, Delivery Parking, PARKING\nC. PESERVED, 515792, Loading ONLY, Ride Share/Food, Prohibited, Delivery Parking, Commercial Vehicle\nD. 515792, Ride Share/Food, LDWRAPPS, RESERVED, Loading ONLY, PARKING, Prohibited",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'Delivery Parking, Prohibited, LDWRAPPS, Loading ONLY, PARKING, Ride Share/Food, Commercial Vehicle, RESERVED' appears inside the bounding box at [[1001, 326], [1406, 326], [1406, 959], [1001, 959]].",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0186"
+  }
+]

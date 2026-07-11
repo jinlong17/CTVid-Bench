@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[1153.0, 505.61290322580646], [1435.4545454545453, 505.61290322580646], [1435.4545454545453, 602.0], [1153.0, 602.0]] — write the word(s) you see: ________.",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign at [[1261,513], [1429,506], [1431,545], [1262,552]] shows \"Ga____ St\" — what street name does it refer to?",
+              "answer": "lvez"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Match the text(s) inside [[1261, 506], [1431, 506], [1431, 552], [1261, 552]] to the correct answer option. Options:\nA. Embarcadero Rd\nB. Oalvez St\nC. Oalvez St\nD. Galvez St",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the region [[1153.0, 505.61290322580646], [1435.4545454545453, 505.61290322580646], [1435.4545454545453, 602.0], [1153.0, 602.0]], are 'Embaroadero Rd, Galvez St' among the labels visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside the box [[1152, 502], [1432, 502], [1432, 594], [1152, 594]] — what word(s) appear there? ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The street sign at [[1196,567], [1378,558], [1380,594], [1198,603]] reads \"G____z St\" — what letters complete the name?",
+              "answer": "alve"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text(s) visible inside [[1152, 502], [1432, 502], [1432, 594], [1152, 594]]. Options:\nA. Oalvez St\nB. Calvez St\nC. Galvez St\nD. Gelvez St",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[1152.0, 502.0], [1432.0, 502.0], [1432.0, 594.0], [1152.0, 594.0]] — does it contain the label(s) 'Galvez St'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the region [[1148, 497], [1431, 497], [1431, 592], [1148, 592]] and tell me what word(s) you find there. ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1021,612], [1301,601], [1302,637], [1023,648]], the display reads \"Embarcadero ____\" — what letters fill in the rest?",
+              "answer": "Rd"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that lists the text(s) visible at [[1148, 497], [1431, 497], [1431, 592], [1148, 592]]. Options:\nA. Galvez St\nB. Emborcadero Rd\nC. Embarcodero Rd\nD. Embaroadero Rd",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the bounding box at [[1148.235294117647, 496.8627450980392], [1430.5882352941176, 496.8627450980392], [1430.5882352941176, 591.9607843137254], [1148.235294117647, 591.9607843137254]], can you spot the label(s) 'Embarcadero Rd, Oalvez St'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word visible inside the area [[1145, 497], [1430, 497], [1430, 593], [1145, 593]]. ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A street sign near [[1165,590], [1340,581], [1343,621], [1168,630]] partially reads \"Ga____ St\" — what is the full name?",
+              "answer": "lvez"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of the options below matches the text(s) at [[1247, 497], [1430, 497], [1430, 539], [1247, 539]] — which is it? Options:\nA. Oalvez St\nB. Embarcadero Rd\nC. Oalvez St\nD. Galvez St",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[1144.560975609756, 497.04878048780483], [1429.9268292682927, 497.04878048780483], [1429.9268292682927, 592.609756097561], [1144.560975609756, 592.609756097561]], verify whether 'Embarcadero Rd, Oalvez St' is/are among the labels shown there.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word you can read inside the area [[1146, 494], [1425, 494], [1425, 590], [1146, 590]]. ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word(s) complete the street name \"Gal____ St\" visible at [[1068,484], [1257,475], [1256,514], [1070,524]]?",
+              "answer": "vez"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options lists the text(s) you can read inside [[1243, 494], [1421, 494], [1421, 539], [1243, 539]]? Options:\nA. Embarcadero Rd\nB. Oalvez St\nC. Galvez St\nD. Oalvez St",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at the area [[1146.0, 494.0], [1425.0, 494.0], [1425.0, 590.2222222222222], [1146.0, 590.2222222222222]] — do the label(s) 'Embarcadero Rd' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over at [[1138.530864197531, 496.0], [1430.530864197531, 496.0], [1430.530864197531, 594.469135802469], [1138.530864197531, 594.469135802469]], what word(s) can be found? The word(s) is/are ________.",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A road sign at [[970,520], [1265,512], [1266,549], [970,557]] displays \"Emb____ Rd\" — what is the complete road name?",
+              "answer": "arcadero"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out which option correctly names the text(s) found at [[1245, 496], [1416, 496], [1416, 539], [1245, 539]]. Options:\nA. Galvez St\nB. Embarcadero Rd\nC. Oalvez St\nD. Oalvez St",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focusing on [[1138.530864197531, 496.0], [1430.530864197531, 496.0], [1430.530864197531, 594.469135802469], [1138.530864197531, 594.469135802469]], are the label(s) 'Embarcadero Rd, Oalvez St' visible within that area?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "In the area [[1138, 500], [1416, 500], [1416, 594], [1138, 594]], what text can you make out? ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "With \"Galvez S____\" appearing at [[1004,542], [1196,535], [1198,578], [1006,584]], what letters are missing from the end?",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options given, identify the one that captures the text(s) inside [[1138, 500], [1416, 500], [1416, 594], [1138, 594]]. Options:\nA. Embarcodero Rd\nB. Emborcadero Rd\nC. Embaroadero Rd\nD. Embarcadero Rd",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The area [[1138.0, 500.0], [1416.0, 500.0], [1416.0, 594.0], [1138.0, 594.0]] — does it include the label(s) 'Galvez St, Embaroadero Rd'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can see inside [[1129, 510], [1417, 510], [1417, 608], [1129, 608]]. ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1174,647], [1371,643], [1372,683], [1175,687]], the street sign shows \"Galv____ St\" with part of the name hidden — what are the missing characters?",
+              "answer": "ez"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options correctly identifies the text visible inside [[1226, 510], [1406, 510], [1406, 552], [1226, 552]]? Options:\nA. Embarcadero Rd\nB. Oalvez St\nC. Oalvez St\nD. Galvez St",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Oalvez St, Embarcadero Rd' appears within the region [[1129.0, 510.0], [1417.0, 510.0], [1417.0, 608.0], [1129.0, 608.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the region [[1122, 521], [1407, 521], [1407, 620], [1122, 620]] — what text do you see there? ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The road marker at [[838,437], [1159,431], [1160,472], [839,479]] reads \"Emb____ Rd\" — what characters should replace the blank?",
+              "answer": "arcadero"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[1224, 521], [1397, 521], [1397, 569], [1224, 569]], pick the answer that matches the text shown there. Options:\nA. Oalvez St\nB. Oalvez St\nC. Embarcadero Rd\nD. Galvez St",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Galvez St, Embaroadero Rd' visible somewhere inside the area [[1122.0, 521.0], [1407.0, 521.0], [1407.0, 620.0], [1122.0, 620.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify all words you can spot within the region [[1105, 548], [1393, 548], [1393, 644], [1105, 644]]. ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A street sign inside [[1107,587], [1310,576], [1313,618], [1110,628]] shows \"Ga____z St\" with some letters obscured — what do the missing letters spell out?",
+              "answer": "lve"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the choice that accurately captures the text found at [[1105, 548], [1393, 548], [1393, 644], [1105, 644]]. Options:\nA. Oalvez St\nB. Calvez St\nC. Gelvez St\nD. Galvez St",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Galvez St' fall inside the bounding region [[1105.0, 548.1858407079645], [1393.0, 548.1858407079645], [1393.0, 644.0], [1105.0, 644.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears at position [[1097, 558], [1381, 558], [1381, 658], [1097, 658]]. ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You'll notice the road name \"Emb____ Rd\" at [[1175,800], [1523,787], [1525,834], [1177,847]] has letters missing — can you work out the missing word?",
+              "answer": "arcadero"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one lists the text visible in [[1196, 558], [1380, 558], [1380, 603], [1196, 603]]? Options:\nA. Oalvez St\nB. Galvez St\nC. Oalvez St\nD. Embarcadero Rd",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Galvez St, Embaroadero Rd' is contained within [[1097.0, 558.3274336283187], [1380.9734513274334, 558.3274336283187], [1380.9734513274334, 658.0], [1097.0, 658.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0086/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0086/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and type out whatever text you find at [[1089, 563], [1377, 563], [1377, 666], [1089, 666]]. ________",
+              "answer": [
+                "Galvez St",
+                "Embarcadero Rd"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The street marker at [[1300,595], [1516,595], [1516,636], [1300,636]] shows \"____vez St\" with certain letters missing — what's the complete word?",
+              "answer": "Gal"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text in [[1089, 563], [1377, 563], [1377, 666], [1089, 666]] matches one of these options — which is it? Options:\nA. Oalvez St\nB. Gelvez St\nC. Embarcadero Rd\nD. Embaroadero Rd",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check if the label(s) 'Galvez St' can be found inside [[1089.0, 563.4538152610442], [1377.0, 563.4538152610442], [1377.0, 666.0], [1089.0, 666.0]]. Yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0086"
+  }
+]

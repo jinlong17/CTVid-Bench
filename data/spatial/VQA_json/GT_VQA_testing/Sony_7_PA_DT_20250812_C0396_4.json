@@ -1,0 +1,393 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Enclosed by [[611, 0], [1056, 0], [1056, 270], [611, 270]], what word(s) can you read? ________",
+              "answer": [
+                "PLAN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one reflects the text in [[611, 0], [1056, 0], [1056, 270], [611, 270]]? Options:\nA. DLAN\nB. PLAN\nC. RLAN\nD. PLRN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Somewhere inside [[611.4492753623189, 0.0], [1056.376811594203, 0.0], [1056.376811594203, 269.5652173913043], [611.4492753623189, 269.5652173913043]], are the label(s) 'RLAN' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out in [[440, 0], [1278, 0], [1278, 571], [440, 571]]? ________",
+              "answer": [
+                "PLANET",
+                "PRO",
+                "OUR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which answer option captures the text in [[440, 0], [1278, 0], [1278, 571], [440, 571]]? Options:\nA. PRO, RLANET\nB. PRO, DLANET\nC. OUR, PRO\nD. PRO, PLANFT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You're asked whether 'PRO, PLANET, DUR' are present inside [[439.8060272050339, 0.0], [1278.4204033647402, 0.0], [1278.4204033647402, 570.8412259678433], [439.8060272050339, 570.8412259678433]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in: the word(s) you'd find at [[352, 157], [1250, 157], [1250, 873], [352, 873]] are ________",
+              "answer": [
+                "PLANET",
+                "PROTECT",
+                "OUR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text visible in the region [[352, 157], [1250, 157], [1250, 873], [352, 873]], which of the following is the right answer? Options:\nA. OUR, PROTECT\nB. PROTECT, DUR\nC. PLANET, RROTECT\nD. OUR, RLANET",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is/are 'PROTECT, DUR, PLANET' among the text labels shown in [[352.16867469879514, 156.62650602409633], [1249.5047407141365, 156.62650602409633], [1249.5047407141365, 873.2508645220602], [352.16867469879514, 873.2508645220602]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and jot down the word(s) you see at [[250, 77], [1440, 77], [1440, 1080], [250, 1080]]. ________",
+              "answer": [
+                "LANET",
+                "PROTECT",
+                "OUR",
+                "LOOSELY IN A BAG TIED TOGETHER",
+                "ITEMS CAN BE DONATED"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you find in [[299, 461], [1145, 461], [1145, 1080], [299, 1080]]? Pick the matching option. Options:\nA. LANET, ITEMS CAN BE DONATED\nB. LANET, PROTECT\nC. OUR, RROTECT\nD. LOOSELY IN A BAG TIED TOGETHER, OUR",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'ITFMS CAN BE DONATED, OUR, LANET, LOOSELY IN A BAG TIED TOGETHER, PROTECT' appearing inside the region [[249.53460902433278, 76.90361445783178], [1439.9717388070796, 76.90361445783178], [1439.9717388070796, 1080.0], [249.53460902433278, 1080.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "All text visible in [[296, 704], [1055, 704], [1055, 1080], [296, 1080]] — what does it say? ________",
+              "answer": [
+                "PROTECT",
+                "OUR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For [[207, 449], [1383, 449], [1383, 1080], [207, 1080]], which of the answer choices correctly reflects what's written there? Options:\nA. DUR, PROTECT\nB. RROTECT, LOOSELY IN A BAG TIED TOGETHER\nC. LOOSELY IN A BAG TIED TOGETHER, ITEMS CAN BE DONATED\nD. PROTECT, LOOSELY IN A BAG TIED TOGETHER",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can the text 'OUR, LOOSELY IN A BAG TIED TOGETHER, ITEMS CAN BE DONATED, YOU, PROTECT' be found within [[194, 257], [1383, 257], [1383, 1080], [194, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[503, 0], [912, 0], [912, 218], [503, 218]] and fill in the blank. ________",
+              "answer": [
+                "YOU",
+                "HANK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[212, 0], [1400, 0], [1400, 1080], [212, 1080]], which option correctly lists what's written there? Options:\nA. ROTECT, HANK, UR, ITEMS CAN BE DONATED, YOU\nB. UR, LODSELY IN A BAG TIED TOGETHER, ROTECT, YOU, ITEMS CAN BE DONATED\nC. UR, RDTECT, HANK, ITEMS CAN BE DONATED, LOOSELY IN A BAG TIED TOGETHER\nD. ROTECT, LOOSFLY IN A BAG TIED TOGETHER, ITEMS CAN BE DONATED, HANK, UR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Somewhere in [[212, 0], [1400, 0], [1400, 602], [212, 602]], do you spot the label(s) 'ROTECT, LOOSELY IN A BAG TIED TOGETHER, ITEMS CAN BE DONATED, HANK, YOU'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Examining [[208, 409], [1399, 409], [1399, 1080], [208, 1080]], what word(s) do you read? ________",
+              "answer": [
+                "OTECT",
+                "LOOSELY IN A BAG TIED TOGETHER",
+                "ITEMS CAN BE DONATED"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one matches the text found in [[208, 43], [1399, 43], [1399, 1080], [208, 1080]]? Options:\nA. ITEMS CAN BE DONATED, LODSELY IN A BAG TIED TOGETHER, OTECT, YOU\nB. OTECT, ITEMS CAN BE DONATED, LOOSELY IN A BAG TIED TOGETHER, YOU\nC. IHANK, YOU, OTECT, ITEMS CAN BE DONATED\nD. THANK, LOOSFLY IN A BAG TIED TOGETHER, OTECT, YOU",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would 'ITEMS CAN BE DONATED, OTECT' be found inside the bounding box [[208, 409], [1399, 409], [1399, 1080], [208, 1080]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank: the text in [[406, 11], [893, 11], [893, 257], [406, 257]] reads ________",
+              "answer": [
+                "YOU",
+                "THANK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly captures the text visible in [[214, 11], [1396, 11], [1396, 1080], [214, 1080]]. Options:\nA. THANK, ROTECT, YOU, ITEMS CAN BE DONATED\nB. ITEMS CAN BE DONATED, RDTECT, LOOSELY IN A BAG TIED TOGETHER, THANK\nC. ROTECT, IHANK, LOOSELY IN A BAG TIED TOGETHER, YOU\nD. LOOSFLY IN A BAG TIED TOGETHER, ITEMS CAN BE DONATED, THANK, YOU",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm or deny: the label(s) 'THANK, ITEMS CAN BE DONATED, LOOSELY IN A BAG TIED TOGETHER, YOU' appear within [[214, 11], [1396, 11], [1396, 492], [214, 492]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "From [[246, 0], [1432, 0], [1432, 1080], [246, 1080]], what text can you make out? ________",
+              "answer": [
+                "PROTECT",
+                "LOOSELY IN A BAG TIED TOGETHER",
+                "ITEMS CAN BE DONATED",
+                "YOU",
+                "OUR",
+                "NET"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text shown in [[246, 211], [1432, 211], [1432, 1080], [246, 1080]]. Options:\nA. OUR, NET, PROTECT, LOOSELY IN A BAG TIED TOGETHER\nB. RROTECT, NET, LOOSELY IN A BAG TIED TOGETHER, OUR\nC. YOU, PROTECT, ITEMS CAN BE DONATED, OUR\nD. NET, PROTECT, ITEMS CAN BE DONATED, DUR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[246, 211], [1432, 211], [1432, 1080], [246, 1080]], can you find the label(s) 'LOOSELY IN A BAG TIED TOGETHER, ITEMS CAN BE DONATED, OUR, NET'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[302, 125], [1488, 125], [1488, 1080], [302, 1080]], what text is visible there? ________",
+              "answer": [
+                "PROTECT",
+                "LOOSELY IN A BAG TIED TOGETHER",
+                "ITEMS CAN BE DONATED",
+                "OUR",
+                "ANET"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[344, 502], [1194, 502], [1194, 1080], [344, 1080]] — which answer choice matches it? Options:\nA. OUR, RROTECT\nB. PROTECT, ANET\nC. OUR, LOOSELY IN A BAG TIED TOGETHER\nD. DUR, ANET",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'PROTECT, ANET, OUR, LOOSELY IN A BAG TIED TOGETHER, ITFMS CAN BE DONATED' can be seen within [[301.7462963802507, 125.449404589023], [1487.6672229458393, 125.449404589023], [1487.6672229458393, 1080.0], [301.7462963802507, 1080.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Noting the region [[303, 217], [1479, 217], [1479, 1080], [303, 1080]], what word(s) appear there? ________",
+              "answer": [
+                "PROTECT",
+                "LOOSELY IN A BAG TIED TOGETHER",
+                "OUR",
+                "LANET"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the region [[337, 399], [1191, 399], [1191, 1080], [337, 1080]], go ahead and pick the option that shows the right text. Options:\nA. LOOSELY IN A BAG TIED TOGETHER, PROTECT\nB. DUR, PROTECT\nC. OUR, LANET\nD. DUR, PROTECT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At [[337, 399], [1191, 399], [1191, 1080], [337, 1080]], are the label(s) 'LANET, OUR' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0396_4/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0396_4/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down what you read in [[257, 0], [1462, 0], [1462, 252], [257, 252]]. ________",
+              "answer": [
+                "LOOSELY IN A BAG TIED TOGETHER",
+                "CAN BE DONATED"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice best captures the text visible in [[257, 156], [1443, 156], [1443, 1079], [257, 1079]]? Options:\nA. LOOSELY IN A BAG TIED TOGETHER, PROTECT, LANFT\nB. RROTECT, LOOSELY IN A BAG TIED TOGETHER, OUR\nC. OUR, LOOSELY IN A BAG TIED TOGETHER, PROTECT\nD. OUR, CAN BE DONATED, PROTECT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'PROTECT, LANET' appears within the region marked by [[303, 352], [1148, 352], [1148, 1079], [303, 1079]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0396_4"
+  }
+]

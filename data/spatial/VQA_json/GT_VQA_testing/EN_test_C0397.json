@@ -1,0 +1,509 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[0.0, 129.91452991452994], [858.076923076923, 129.91452991452994], [858.076923076923, 1080.0], [0.0, 1080.0]] and record what word(s) appear. The word(s) is/are ________.",
+              "answer": [
+                "rprise",
+                "travelessentials",
+                "travel",
+                "essentials",
+                "accessories"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a word at [[429,497], [648,489], [648,557], [428,562]] meaning the act of going from place to place over a long distance; it starts with 'tr' and ends with 'el'. Fill in the missing middle portion: \"tr____el\".",
+              "answer": "av"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option whose text matches what's in [[1123, 222], [1916, 222], [1916, 1071], [1123, 1071]]. Options:\nA. thrifty, travelessentials, express, fastbraek, service, pleaseproceed, hertz, avispreferred, programmembers, nationalemeraldclub\nB. DLLAR, avispreferred, service, express, hertz, fastbraek, thrifty, pleaseprocoed, toelevators, budget\nC. ri, toelevators, thrifty, avispreferred, fastbraek, express, budget, hertz, DLLAR, nationalemeraldclub\nD. hertz, toelevators, rprise, service, express, thrifty, avispreferred, budget, DLLAR, pleaseproceed",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'fastbraek, ri, pleaseproceed, hertz, service, rprise, programmembers, nationalemeraldclub, pleaseproceed, budget' appear anywhere inside the region marked by [[0, 130], [1639, 130], [1639, 1080], [0, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text shows up inside the region [[0, 128], [1904, 128], [1904, 894], [0, 894]]? ________",
+              "answer": [
+                "prise",
+                "avispreferred",
+                "service",
+                "hri",
+                "travelessentials",
+                "travel",
+                "essentials",
+                "toelevators",
+                "pleaseproceed",
+                "budget",
+                "fastbraek",
+                "DLLAR",
+                "express",
+                "hertz",
+                "nationalemeraldclub",
+                "programmembers"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word \"fa____raek\" appears at [[1233,607], [1401,607], [1401,643], [1233,644]] — what letters are missing?",
+              "answer": "stb"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text visible in the region [[0, 128], [1904, 128], [1904, 894], [0, 894]]? Options:\nA. service, thrifty, DLLAR, fastbraek, hertz, programmembers, budget, travel, pleaseproceed, essentials\nB. toelevators, hri, essentials, nationalemeraldclub, travel, pleaseproceed, avispreferred, budget, service, programmembers\nC. budget, fastbraek, travel, hri, hertz, pleaseprocoed, service, DLLAR, prise, travelessentials\nD. DLLAR, essentials, programmembers, travelessentials, pleaseproceed, accessories, budget, hri, nationalemeraldclub, avispreferred",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'pleaseproceed, nationalemeraldclub, pleaseproceed, express, hri, travel, DLLAR, essentials, travelessentials, hertz' falls inside the box at [[0, 128], [1623, 128], [1623, 1080], [0, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text present in the region [[321.19501499082634, 128.20512820512823], [1605.5988315481984, 128.20512820512823], [1605.5988315481984, 311.31450827653356], [321.19501499082634, 311.31450827653356]]. The missing word(s) is/are ________.",
+              "answer": [
+                "travelessentials",
+                "programmembers"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phrase about things you need for travel appears at [[15,128], [566,126], [563,209], [15,210]] — fill in the missing letter(s) to complete \"trav____sentials\".",
+              "answer": "eles"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly identifies the text found in region [[321, 128], [1911, 128], [1911, 1080], [321, 1080]]. Options:\nA. essentials, budget, nationalemeraldclub, avispreferred, hrif, toelevators, pleaseproceed, fastbreek, travelessentials, accessories\nB. accessories, programmembers, travelessentials, service, budget, thrifty, avispreferred, express, toelevators, hrif\nC. express, accessories, fastbraek, programmembers, DLLAR, avispreferred, travelessontials, service, hrif, travel\nD. nationalemeraldclub, rise, fastbraek, budget, express, toelevators, DLLAR, pleaseproceed, pleaseproceed, hertz",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given bounding box [[1089, 224], [1911, 224], [1911, 1070], [1089, 1070]], would 'fastbraek, pleaseproceed, budget, toelevators, express, rise, thrifty, service, hertz, programmembers' be found inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text in the area [[316.4093500033804, 696.7508700350014], [1537.7667129981187, 696.7508700350014], [1537.7667129981187, 1080.0], [316.4093500033804, 1080.0]]. The missing word(s) is/are ________.",
+              "answer": [
+                "accessories",
+                "DLLAR",
+                "express",
+                "hertz",
+                "nationalemeraldclub",
+                "thrifty",
+                "pleaseproceed"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Beginning with \"fa\" and ending with \"raek\", the word at [[1135,611], [1292,609], [1293,646], [1135,648]] has a gap — fill it in to complete \"fa____raek\".",
+              "answer": "stb"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches what's written in the area [[1076, 227], [1915, 227], [1915, 1070], [1076, 1070]]. Options:\nA. ise, service, hertz, express, DLLAR, fastbraek, programmembers, toelevators, pleaseproceed, avispreferred\nB. DLLAR, pleaseproceed, thrifty, hertz, toelevators, fastbraek, nationalemeraldclub, pleaseproceed, avispreferred, sorvice\nC. avispreferred, hertz, service, fastbraek, nationalemeraldclub, express, toelevators, hrift, tbrifty, pleaseproceed\nD. pleaseproceed, hrift, avispreferred, service, budget, nationalemeraldclub, thrifty, express, fastbraek, hertz",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Considering the box at [[1076, 227], [1915, 227], [1915, 1070], [1076, 1070]], do you see 'toelevators, avispreferred, hertz, DLLAR, fastbraek, hrift, nationalemeraldclub, programmembers, budget, pleaseproceed' there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[1747.3333333333333, 563.2136111539097], [1920.0, 563.2136111539097], [1920.0, 656.5469444872431], [1747.3333333333333, 656.5469444872431]]. The missing word(s) is/are ________.",
+              "answer": [
+                "hrifty"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere at [[1259,723], [1347,722], [1346,742], [1255,741]] you'll find a word meaning rapid service. What letters complete \"____ress\"?",
+              "answer": "exp"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the image, what option correctly represents the text at [[0, 423], [1920, 423], [1920, 1069], [0, 1069]]? Options:\nA. nationalemeraldclub, pleaseproceed, se, fastbraek, hertz, trevel, pleaseproceed, service, essentials, express\nB. fastbraek, express, travel, DLLAR, thrifty, travelessentials, nationalemeraldclub, pleaseproceed, service, hertz\nC. se, travel, nationalemeraldclub, fastbreek, hrifty, toelevators, budget, essentials, DLLAR, pleaseproceed\nD. DLLAR, hertz, toelevators, travel, thrifty, fastbraek, avispreferred, se, nationalemeraldclub, express",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[0, 128], [1920, 128], [1920, 746], [0, 746]] — does 'toelevators, DLLAR, hrifty, service, se, essentials, budget, fastbraek, avispreferred, programmembers' appear inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Examine the contents of [[275.95632270086463, 125.61699006837819], [780.2298269743687, 125.61699006837819], [780.2298269743687, 651.1417133910869], [275.95632270086463, 651.1417133910869]]. The missing word(s) is/are ________.",
+              "answer": [
+                "travelessentials",
+                "travel",
+                "essentials"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You'll notice a club-related term at [[1260,854], [1526,854], [1526,891], [1255,889]]. Fill in the blank to complete \"nationalem____ldclub\".",
+              "answer": "era"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Going by what's written at [[293, 424], [1905, 424], [1905, 1071], [293, 1071]], which of these options is correct? Options:\nA. thrifty, nationalemeraldclub, fastbraek, DLLAR, express, travel, pleaseproceed, pleaseproceed, budget, sorvice\nB. budget, essentials, hrifty, pleaseproceed, nationalemeraldclub, travel, avispreferred, DLLAR, thrifty, fastbraek\nC. service, pleaseproceed, budget, nationalemeraldclub, hrifty, fastbraek, express, travelessentials, toelevators, hertz\nD. avispreferred, nationalemeraldclub, express, hertz, cssentials, pleaseproceed, DLLAR, thrifty, toelevators, fastbraek",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At the position [[276, 126], [1905, 126], [1905, 811], [276, 811]], can 'hrifty, service, travel, programmembers, toelevators, avispreferred, express, budget, hertz, travelessentials' be found?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the area [[1135.873943404476, 696.4687819302605], [1479.0332020320723, 696.4687819302605], [1479.0332020320723, 1068.220272914948], [1135.873943404476, 1068.220272914948]], what word(s) can you make out? The missing word(s) is/are ________.",
+              "answer": [
+                "DLLAR",
+                "express",
+                "hertz",
+                "nationalemeraldclub",
+                "thrifty",
+                "pleaseproceed"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's an incomplete term \"f____raek\" at location [[1400,598], [1558,597], [1559,634], [1401,636]] — fill in what's missing.",
+              "answer": "astb"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking over the image, which option correctly names the text at [[1018, 228], [1891, 228], [1891, 1068], [1018, 1068]]? Options:\nA. service, avispreferred, pleaseproceed, thrifty, toelevators, DLLAR, express, nationalemeraldclub, budget, fastbraek\nB. hertz, budget, DLLAR, avispreferred, nationalemeraldclub, fastbraek, service, toelevators, pleaseproceed, travelessentials\nC. express, service, toelevators, nationalemeraldclub, budget, fastbraek, DLLAR, pleaseprocoed, hrifty, avispreferred\nD. hertz, travel, programmembers, hrifty, nationalemeraldclub, pleaseproceed, express, toelevators, fastbraek, pleaseproceed",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "How about 'service, express, budget, thrifty, avispreferred, pleaseproceed, DLLAR, pleaseproceed, toelevators, nationalemeraldclub' — does it sit inside the box defined by [[1018, 228], [1891, 228], [1891, 1068], [1018, 1068]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown in [[238.76443979491432, 123.9354828264322], [743.0379440684186, 123.9354828264322], [743.0379440684186, 651.6453555490656], [238.76443979491432, 651.6453555490656]] — what word(s) appear there? Fill in: ________.",
+              "answer": [
+                "travelessentials",
+                "travel",
+                "essentials"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Spotted at [[-3.552713678800501e-15, 610.2995992261457], [123,607], [122,657], [0,659]] is a word meaning an unexpected event — fill in the missing letters to complete \"r____ise\".",
+              "answer": "pr"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text visible inside [[260, 425], [1873, 425], [1873, 1066], [260, 1066]]? Options:\nA. fastbraek, service, hertz, budget, express, DLLAR, avispreferred, pleaseproceed, programmembers, essentials\nB. express, pleaseproceed, budget, thrifty, DLLAR, service, essentials, avispreferred, fastbraek, toelevators\nC. brifty, budget, DLLAR, pleaseproceed, thrifty, hertz, express, toelevators, essentials, nationalemeraldclub\nD. fastbraek, toelevators, travelessentials, service, express, nationalemeraldclub, pleaseproceed, pleaseproceed, hertz, essentials",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'essentials, service, programmembers, travelessentials, thrifty, fastbraek, DLLAR, hrifty, express, avispreferred' appears inside the region marked by [[239, 124], [1873, 124], [1873, 811], [239, 811]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the highlighted box [[219.9610209914955, 122.2260811170305], [1852.813852813853, 122.2260811170305], [1852.813852813853, 1067.109663207768], [219.9610209914955, 1067.109663207768]] — what word(s) can you make out? ________.",
+              "answer": [
+                "avispreferred",
+                "service",
+                "hrifty",
+                "travelessentials",
+                "travel",
+                "essentials",
+                "toelevators",
+                "pleaseproceed",
+                "budget",
+                "fastbraek",
+                "DLLAR",
+                "express",
+                "hertz",
+                "nationalemeraldclub",
+                "thrifty",
+                "programmembers",
+                "pleaseproceed"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region at [[1426,515], [1543,513], [1542,533], [1425,535]] contains a word related to giving help — what letters fill the gap in \"____vice\"?",
+              "answer": "ser"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text you see within [[239, 424], [1853, 424], [1853, 1067], [239, 1067]]. Options:\nA. avispreferred, hrifty, pleaseproceed, travelessentials, toelevators, fastbraek, thrifty, DLLAR, pleaseproceed, budget\nB. hertz, nationalemeraldclub, fastbraek, hrifty, DLLAR, express, toelevators, avispreferred, pleaseproceed, travel\nC. pleaseproceed, essentials, avispreferred, hertz, DLLAR, travel, sorvice, thrifty, express, fastbraek\nD. DLLAR, cssentials, fastbraek, thrifty, express, service, hrifty, budget, toelevators, nationalemeraldclub",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'budget, hrifty, toelevators, travel, fastbraek, travelessentials, avispreferred, DLLAR, thrifty, hertz' falls within the bounding box [[220, 122], [1500, 122], [1500, 1067], [220, 1067]]? Yes or no?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[1084.956513799801, 697.7244354595549], [1423.3723376920984, 697.7244354595549], [1423.3723376920984, 1067.7778146554297], [1084.956513799801, 1067.7778146554297]] and write it out: ________.",
+              "answer": [
+                "DLLAR",
+                "express",
+                "hertz",
+                "nationalemeraldclub",
+                "thrifty",
+                "pleaseproceed"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Travel essentials — that's the theme of the word at [[361,74], [864,48], [867,119], [360,139]]. Complete \"____velessentials\" by supplying the missing characters.",
+              "answer": "tra"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one correctly captures the text inside [[965, 228], [1833, 228], [1833, 1068], [965, 1068]]? Options:\nA. fastbraek, pleaseproceed, hertz, avispreferred, thrifty, service, budget, hrifty, pleaseproceed, DLLAR\nB. pleaseprocoed, hertz, programmembers, service, toelevators, express, thrifty, avispreferred, fastbraek, hrifty\nC. hrifty, natianalemeraldclub, budget, service, programmembers, DLLAR, fastbraek, avispreferred, hertz, toelevators\nD. DLLAR, hrifty, express, travelessentials, pleaseproceed, thrifty, nationalemeraldclub, toelevators, avispreferred, budget",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'pleaseproceed, nationalemeraldclub, express, hertz, toelevators, hrifty, pleaseproceed, budget, programmembers, essentials' visible within the bounding box [[965, 228], [1833, 228], [1833, 1068], [965, 1068]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can read in the box at [[184, 121], [1467, 121], [1467, 315], [184, 315]]. ________.",
+              "answer": [
+                "travelessentials",
+                "programmembers"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word at [[1284,965], [1519,965], [1519,1003], [1283,1003]] starts with \"to\" and ends with \"r\" — what fills the middle to complete \"to____r\"?",
+              "answer": "count"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches exactly what's written inside [[204, 228], [1820, 228], [1820, 1067], [204, 1067]]. Options:\nA. thrifty, pleaseproceed, service, trevel, hertz, nationalemeraldclub, toelevators, express, budget, pleaseproceed\nB. fastbraek, express, thrifty, nationalemeraldclub, service, toelevators, pleaseproceed, pleaseproceed, budget, hertz\nC. thrifty, toelevators, fastbraek, service, nationalemeraldclub, programmembers, pleaseproceed, travelessentials, avispreferred, essentials\nD. thrifty, fastbraek, pleaseproceed, essentials, DLLAR, teelevators, pleaseproceed, express, hertz, thrifty",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) 'fastbraek, thrifty, service, travel, travelessentials, programmembers, budget, hertz, DLLAR, avispreferred' sit inside the bounding box [[184, 121], [1467, 121], [1467, 891], [184, 891]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0397/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0397/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write out the word(s) you see inside [[1049.6802737042838, 920.6888547351291], [1338.996513020523, 920.6888547351291], [1338.996513020523, 1066.8769137545287], [1049.6802737042838, 1066.8769137545287]]: ________.",
+              "answer": [
+                "thrifty",
+                "pleaseproceed"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word sits at [[1328,982], [1563,983], [1563,1020], [1327,1020]] — fill in the blanks to complete \"toc____r\".",
+              "answer": "ounte"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and pick the one that correctly reflects the text at [[156, 129], [1802, 129], [1802, 812], [156, 812]]. Options:\nA. avispreferred, travel, thrifty, travelessentials, pleaseproceed, express, cssentials, programmembers, service, fastbraek\nB. toelevators, pleaseproceed, express, thrifty, DLLAR, nationalemeraldclub, travelessentials, essentials, programmembers, service\nC. thrifty, fastbraek, hertz, service, DLLAR, toelevators, travelessentials, express, travel, pleaseproceed\nD. avispreferred, service, toelevators, thrifty, budget, hertz, fastbreek, pleaseproceed, express, programmembers",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'DLLAR, travel, budget, programmembers, nationalemeraldclub, express, pleaseproceed, thrifty, pleaseproceed, fastbraek' falls inside the bounding box [[933, 230], [1449, 230], [1449, 1067], [933, 1067]].",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0397"
+  }
+]

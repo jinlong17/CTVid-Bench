@@ -1,0 +1,476 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box at [[425.4761904761905, 513.8095238095237], [1580.2380952380952, 513.8095238095237], [1580.2380952380952, 991.1904761904761], [425.4761904761905, 991.1904761904761]] contains certain words — name them. The word(s) is/are ________.",
+              "answer": [
+                "晟源置业",
+                "明欣足浴",
+                "一二手房交易",
+                "足疗",
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[775,514], [1139,539], [1133,641], [771,621]]处有一家建筑公司，其名称中存在空缺，完整形式为\"晟____置业\"，请补全缺失部分。",
+              "answer": "源"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does [[771, 514], [1580, 514], [1580, 991], [771, 991]] show? Match it to one of the options. Options:\nA. 晟源罝业, 一二手房交易, 足疗\nB. 西装客高级定, 晟源置业, 明欣足浴\nC. 足疖, 明欣足浴, 晟源置业\nD. 一二手房交易, 明欣足浴, 足疗",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Enclosed within [[425.4761904761905, 513.8095238095237], [1580.2380952380952, 513.8095238095237], [1580.2380952380952, 991.1904761904761], [425.4761904761905, 991.1904761904761]] — are those the label(s) '晟源置业, 西装客高级定, 足疗, 明欣足浴'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[425, 514], [1580, 514], [1580, 991], [425, 991]], what text is written there? ________",
+              "answer": [
+                "晟源置业",
+                "明欣足浴",
+                "一二手房交易",
+                "足疗",
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察 [[1203,892], [1266,891], [1258,995], [1197,994]] 处的文字，填写下面的空缺：\"足____\"。",
+              "answer": "疗"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[425, 514], [1580, 514], [1580, 684], [425, 684]], which option correctly captures the text(s) found there? Options:\nA. 西装客高级定, 昒欣足浴, 一二手房交易\nB. 西装客高级定, 一二手房交昘, 明欣足浴\nC. 足疗, 西装客高级定, 晟源置业\nD. 晟源置业, 一二手房交易, 西装客高级定",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '明欣足浴, 一二手房交易, 足疗, 西装客高级定' appear inside the bounding box [[425.4761904761905, 513.8095238095237], [1580.2380952380952, 513.8095238095237], [1580.2380952380952, 991.1904761904761], [425.4761904761905, 991.1904761904761]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text in region [[412.3809523809524, 513.8095238095237], [1567.142857142857, 513.8095238095237], [1567.142857142857, 991.1904761904761], [412.3809523809524, 991.1904761904761]], fill in: the word(s) is/are ________.",
+              "answer": [
+                "晟源置业",
+                "明欣足浴",
+                "一二手房交易",
+                "足疗",
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细查看 [[303,652], [479,655], [478,703], [303,694]] 处的内容，补上空缺，完成这个短语：\"西装客____定\"。",
+              "answer": "高级"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text(s) at [[412, 514], [1567, 514], [1567, 684], [412, 684]] — which answer option matches? Options:\nA. 一二手房交昘, 西装客高级定, 明欣足浴\nB. 明欣足浴, 一二手房交易, 晟源置业\nC. 明欣足浴, 足疗, 一二手房交易\nD. 明欣足浴, 西装客高级定, 晟源罝业",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[412, 514], [1567, 514], [1567, 684], [412, 684]], can the label(s) '晟源置业, 明欣足浴, 西装客高级定' actually be found?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Shown in the area [[404.04761904761915, 517.3809523809523], [1558.8095238095239, 517.3809523809523], [1558.8095238095239, 994.7619047619047], [404.04761904761915, 994.7619047619047]] is some text — what word(s) is/are there? The word(s) is/are ________.",
+              "answer": [
+                "晟源置业",
+                "明欣足浴",
+                "一二手房交易",
+                "足疗",
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看一下坐标 [[1150,544], [1423,563], [1424,666], [1148,659]] 的区域，把 \"明欣____浴\" 中的空白填上。",
+              "answer": "足"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text(s) show up in [[749, 517], [1559, 517], [1559, 995], [749, 995]]? Select the option that lists them correctly. Options:\nA. 晟源置业, 明欣足浴, 足疖\nB. 明欣足浴, 晟源置业, 一二手房交易\nC. 一二手房交易, 足疗, 昒欣足浴\nD. 晟源置业, 西装客高级定, 明欣足浴",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '一二手房交易, 西装客高级定, 明欣足浴, 晟源罝业, 足疗' — are they enclosed within the bounding box [[404.04761904761915, 517.3809523809523], [1558.8095238095239, 517.3809523809523], [1558.8095238095239, 994.7619047619047], [404.04761904761915, 994.7619047619047]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at the bounding box [[1249, 892], [1318, 892], [1318, 996], [1249, 996]], what word(s) do you see there? ________",
+              "answer": [
+                "足疗"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据坐标 [[262,641], [439,645], [437,692], [262,683]] 中的文字，把正确的词填进来，完成这句话：\"____装客高级定\"。",
+              "answer": "西"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, which one lists the text(s) you can read inside [[391, 519], [1546, 519], [1546, 689], [391, 689]]? Options:\nA. 一二手房交易, 晟源罝业, 明欣足浴\nB. 昒欣足浴, 一二手房交易, 晟源置业\nC. 明欣足浴, 足疗, 西装客高级定\nD. 西装客高级定, 一二手房交易, 晟源置业",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '晟源置业, 西装客高级定, 一二手房交易' sit(s) inside the region marked by bounding box [[391, 519], [1546, 519], [1546, 689], [391, 689]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[379.04761904761915, 632.8571428571429], [568.3333333333335, 632.8571428571429], [568.3333333333335, 691.1904761904763], [379.04761904761915, 691.1904761904763]], what text can you read? The word(s) is/are ________.",
+              "answer": [
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1096,887], [1142,887], [1142,969], [1096,969]] 的位置有一些字符，请将缺失部分补全：\"足____\"。",
+              "answer": "疗"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the area at [[379, 521], [1534, 521], [1534, 691], [379, 691]], which answer option correctly captures all the text(s) there? Options:\nA. 西装客高级宾, 一二手房交易, 明欣足浴\nB. 足疗, 明欣足浴, 晟源置业\nC. 一二手房交易, 西装客高级定, 昒欣足浴\nD. 一二手房交易, 晟源置业, 西装客高级定",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Thinking about bounding box [[379.04761904761915, 520.952380952381], [1533.8095238095239, 520.952380952381], [1533.8095238095239, 998.3333333333334], [379.04761904761915, 998.3333333333334]], does it contain the label(s) '西装客高级定, 晟源置业, 一二手房交易, 明欣足浴, 足疖'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at area [[1237.3809523809525, 894.7619047619048], [1306.4285714285716, 894.7619047619048], [1306.4285714285716, 998.3333333333334], [1237.3809523809525, 998.3333333333334]] — what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "足疗"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "对照坐标 [[1080,530], [1330,535], [1331,632], [1074,623]] 的区域内容，找出并填写短语 \"明____足浴\" 里缺少的字。",
+              "answer": "欣"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over at region [[379, 521], [1534, 521], [1534, 691], [379, 691]], some text is visible — which option below matches it? Options:\nA. 晟源置业, 一二手房交易, 明欣足浴\nB. 西装客高级定, 足疗, 一二手房交易\nC. 一二手房交昘, 明欣足浴, 西装客高级定\nD. 晟源置业, 明欣足浴, 西装客高级宾",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "How about '西装客高级定, 明欣足浴, 一二手房交易, 足疗' — do those labels fall inside bounding box [[379.04761904761915, 520.952380952381], [1533.8095238095239, 520.952380952381], [1533.8095238095239, 998.3333333333334], [379.04761904761915, 998.3333333333334]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text in area [[360.0000000000001, 635.2380952380953], [549.2857142857144, 635.2380952380953], [549.2857142857144, 693.5714285714287], [360.0000000000001, 693.5714285714287]]: the word(s) is/are ________.",
+              "answer": [
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "找找坐标 [[1045,528], [1295,533], [1296,629], [1039,621]] 处的内容，把 \"____欣足浴\" 中的空白填上。",
+              "answer": "明"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) found inside [[360, 523], [1515, 523], [1515, 694], [360, 694]]? Options:\nA. 明欣足浴, 足疗, 晟源置业\nB. 明欣足浴, 晟源置业, 西装客高级宾\nC. 明欣足浴, 晟源置业, 一二手房交易\nD. 一二手房交易, 明欣足浴, 晟源罝业",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[360, 523], [1096, 523], [1096, 694], [360, 694]] contain the label(s) '晟源置业, 西装客高级定, 一二手房交易, 明欣足浴'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[1218.3333333333335, 540.0], [1514.7619047619048, 540.0], [1514.7619047619048, 1000.7142857142858], [1218.3333333333335, 1000.7142857142858]] contains which word(s)? The word(s) is/are ________.",
+              "answer": [
+                "明欣足浴",
+                "足疗"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[125,630], [311,638], [310,680], [127,671]]处的短语中有空缺，请补全：\"西装客____定\"。",
+              "answer": "高级"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text(s) inside [[705, 523], [1515, 523], [1515, 1001], [705, 1001]] — then pick the matching option. Options:\nA. 明欣足浴, 一二手房交易, 西装客高级定\nB. 明欣足浴, 足疗, 晟源置业\nC. 一二手房交昘, 足疗, 晟源置业\nD. 明欣足浴, 足疗, 晟源罝业",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '一二手房交易, 明欣足浴, 西装客高级定, 晟源置业' is/are the label(s) shown inside bounding box [[360, 523], [1096, 523], [1096, 694], [360, 694]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you read in the area marked by [[345.71428571428567, 522.1428571428572], [1500.4761904761904, 522.1428571428572], [1500.4761904761904, 999.5238095238096], [345.71428571428567, 999.5238095238096]]? The word(s) is/are ________.",
+              "answer": [
+                "晟源置业",
+                "明欣足浴",
+                "一二手房交易",
+                "足疗",
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察[[116,655], [302,663], [300,705], [117,696]]区域，在短语\"西装客高____定\"中填入缺失的字符。",
+              "answer": "级"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Somewhere in [[346, 522], [1081, 522], [1081, 692], [346, 692]] there's readable text — which option captures it correctly? Options:\nA. 西装客高级宾, 晟源置业\nB. 西装客高级宾, 晟源置业\nC. 西装客高级定, 晟源置业\nD. 晟源置业, 明欣足浴",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '明欣足浴, 足疗, 一二手房交易, 西装客高级定, 晟源置业' can be found within the bounding box [[346, 522], [1500, 522], [1500, 692], [346, 692]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible in the area [[346.9047619047615, 520.952380952381], [1484.9999999999973, 520.952380952381], [1484.9999999999973, 994.7619047619048], [346.9047619047615, 994.7619047619048]]. The word(s) is/are ________.",
+              "answer": [
+                "晟源置业",
+                "明欣足浴",
+                "一二手房交易",
+                "足疗",
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[484,561], [831,585], [824,680], [479,669]]区域里的短语有缺失，请把\"____源置业\"补充完整。",
+              "answer": "晟"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text is visible at [[347, 521], [1485, 521], [1485, 697], [347, 697]] — tell me which option below matches it. Options:\nA. 西装客高级定, 一二手房交易, 明欣足浴\nB. 一二手房交易, 西装客高级定, 晟源罝业\nC. 西装客高级定, 足疗, 一二手房交易\nD. 一二手房交易, 晟源置业, 西装客高级宾",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '足疗, 一二手房交易, 明欣足浴' is/are the label(s) present in bounding box [[680, 521], [1485, 521], [1485, 995], [680, 995]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0238/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0238/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at the area [[332.61904761904725, 645.952380952381], [508.80952380952345, 645.952380952381], [508.80952380952345, 697.1428571428571], [332.61904761904725, 697.1428571428571]] — what word(s) do you see there? The word(s) is/are ________.",
+              "answer": [
+                "西装客高级定"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在[[1031,968], [1067,972], [1059,1045], [1023,1041]]处的图像区域里，短语\"足____\"中缺少了什么？请补全。",
+              "answer": "疗"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region [[333, 521], [1471, 521], [1471, 697], [333, 697]], which option best captures the text(s) there? Options:\nA. 西装客高级定, 一二手房交昘, 明欣足浴\nB. 足疗, 晟源置业, 一二手房交易\nC. 晟源置业, 一二手房交易, 西装客高级定\nD. 一二手房交易, 明欣足浴, 西装客高级宾",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that '西装客高级定, 一二手房交易, 晟源置业, 明欣足浴' appears as a label inside the box [[332.61904761904725, 520.952380952381], [1470.7142857142835, 520.952380952381], [1470.7142857142835, 994.7619047619048], [332.61904761904725, 994.7619047619048]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0238"
+  }
+]

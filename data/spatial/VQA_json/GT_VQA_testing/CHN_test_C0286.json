@@ -1,0 +1,510 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside the bounding box [[1175, 845], [1363, 845], [1363, 1075], [1175, 1075]]. ________",
+              "answer": [
+                "易登机休息室",
+                "图机场",
+                "各大银行会员接待",
+                "四川航空"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中[[1211,1045], [1340,1032], [1343,1061], [1214,1075]]位置有段文字，当前可见内容为\"各大银____会员接待\"，请填写缺失的部分。",
+              "answer": "行"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[1175, 296], [1910, 296], [1910, 1075], [1175, 1075]], what text is written there? Pick the right answer. Options:\nA. 四川航空, 图机场, 白云, 白云机场易登机休, BAIYUNPORT, 易登机休息室, EASY-BOARDINGLOU\nB. 易登机休息室, 白云机场易登机休, 各大银行会员接待, 图杋场, BAIYUNPORT, EASY-BOARDINGLOU, 白云\nC. 白云机场易登机休, 易登机休息室, 白云, 四川航空, Enquiry, 各大银行会员接待, EASY-BOARDINGLOU\nD. EASY-BOARDINGLOU, 图机场, 白云机场易登机休, 各大银行会员接待, 白云, 四川航空, 问询",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Enquiry, 四川航空, 图机场, 问询, 各大银行会员接待, 易登机休息室, BAIYUNPORT, 白云' visible inside the bounding box [[344.1227957815635, 139.0], [1910.4705882352941, 139.0], [1910.4705882352941, 1075.0], [344.1227957815635, 1075.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown in the area [[1171, 785], [1692, 785], [1692, 1079], [1171, 1079]]. ________",
+              "answer": [
+                "易登机休息室",
+                "机场通",
+                "各大银行会员接待",
+                "四川航空",
+                "EASYBOARDINGLOUNGE",
+                "易登机",
+                "限量发售"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[1147,925], [1303,913], [1303,931], [1148,940]], the text shows up as \"EASYBOAR____LOUNGE\" with some characters missing — what's the complete word?",
+              "answer": "DING"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at the area marked [[1171, 298], [1903, 298], [1903, 1079], [1171, 1079]] — which answer correctly captures what's written there? Options:\nA. 各大银行会员接待, 易登机, 四川航空, 机场通, BAIYUNPORT, 白云机场易登机休, 易登机休息室, EASYBOARDINGLOUNGE, 白云, EASY-BOARDINGLOU\nB. 各大银行会员接待, BAIYUNPORT, EASYBOARDINGLOUNGE, EASY-BOARDINGLOU, 白云, Enquiry, 易登机休息室, 机场通, 白云机场易登机休, 易登机\nC. 机场通, 易登机休息室, 白云, 白云机场易登机休, BAIYUNPORT, 各大银行会员接待, 园川航空, EASY-BOARDINGLOU, 限量发售, EASYBOARDINGLOUNGE\nD. 各大银行会员接待, BAIYUNPORT, EASY-BOARDINGLOU, 机场通, 易登机, 四川航空, 易登机休息室, 白云机场易登机休, 问询, 白云",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '易登机, 问询, 易登机休息室, 白云, EASYBOARDINGLOUNGE, Enquiry, EASY-BOARDINGLOU, 白云机场易登机休' can be found within the bounding box [[338, 139], [1903, 139], [1903, 921], [338, 921]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text does the region [[336, 147], [1901, 147], [1901, 400], [336, 400]] display? ________",
+              "answer": [
+                "问询",
+                "Enquiry",
+                "白云机场易登机休",
+                "白云",
+                "EASY-BOARDINGLOU",
+                "BAIYUNPORT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label at [[1129,929], [1285,916], [1285,935], [1130,944]] reads \"EASY____INGLOUNGE\" with a gap — can you figure out what's missing?",
+              "answer": "BOARD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text in region [[1171, 787], [1690, 787], [1690, 1078], [1171, 1078]] and match it to the right option below. Options:\nA. 各大银行会员接待, 机场通, EASYBOARDINGLOUNGE, 易登机, 园川航空, 易登机休息室\nB. 问询, 易登机休息室, 各大银行会员接待, 机场通, EASYBOARDINGLOUNGE, 四川航空\nC. 四川航空, 各大银行会员接待, 限里发售, 易登机, 机场通, EASYBOARDINGLOUNGE\nD. 易登机休息室, 易登机, 四川航空, EASYBOARDINGLOUNGE, 机场通, 各大银行会员接待",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find '易登机休息室, 问询, Enquiry, 四川航空, 白云, EASYBOARDINGLOUNGE, 机场通, 限量发售, 白云机场易登机休, EASY-BOARDINGLOU' inside the bounding box [[336, 147], [1901, 147], [1901, 1026], [336, 1026]] — agree or disagree?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at [[332, 147], [556, 147], [556, 307], [332, 307]] and write down the word(s) you see there. ________",
+              "answer": [
+                "问询",
+                "Enquiry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请补全[[1306,381], [1347,380], [1346,404], [1306,403]]区域内标识文字的空缺部分，当前显示的是\"白____\"。",
+              "answer": "云"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the content at [[1171, 787], [1690, 787], [1690, 1078], [1171, 1078]], which answer option best describes the text there? Options:\nA. 易登机, 限量发售, 各大银行会员接待, 机场通, EASYBOARDINGLOUNGE, 易登机休息室\nB. 机场過, 各大银行会员接待, 四川航空, 限量发售, EASYBOARDINGLOUNGE, 易登机\nC. 机场通, 易登机, 各大银行会员接待, 四川航空, 易登机休息室, Enquiry\nD. 问询, 四川航空, 机场通, 各大银行会员接待, 限量发售, 易登机休息室",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the text label '四川航空, EASYBOARDINGLOUNGE, 白云, 易登机休息室, 限量发售, 各大银行会员接待, 易登机, 机场通' fall inside the region marked by [[1171, 787], [1690, 787], [1690, 1078], [1171, 1078]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside [[332, 147], [1901, 147], [1901, 1080], [332, 1080]] and write it down. ________",
+              "answer": [
+                "问询",
+                "Enquiry",
+                "白云机场易登机休",
+                "白云",
+                "EASY-BOARDINGLOU",
+                "易登机休息室",
+                "机场通",
+                "各大银行会员接待",
+                "四川航空",
+                "BAIYUNPORT",
+                "EASYBOARDINGLOUNGE",
+                "易登机",
+                "限量发售"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1440,336], [1805,337], [1805,373], [1440,372]] reads \"EASY-BOARD____LOUNGE\" — what fills in the missing part?",
+              "answer": "ING"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[1170, 307], [1901, 307], [1901, 1080], [1170, 1080]], which answer choice matches the text you see there? Options:\nA. 易登机, 易登机休息室, EASYBOARDINGLOUNGE, 白云机场易登机休, EASY-BOARDINGLOU, 园川航空, 各大银行会员接待, BAIYUNPORT, 白云, 机场通\nB. 白云, EASYBOARDINGLOUNGE, 易登机, BAIYUNPORT, 白云机场易登机休, EASY-BOARDINGLOU, 限量发售, 机场通, 各大银行会员接待, 易登机休息室\nC. BAIYUNPORT, 白云, 限量发售, EASYBOARDINGLOUNGE, 易登机, 问询, 各大银行会员接待, 四川航空, EASY-BOARDINGLOU, 易登机休息室\nD. 易登机休息室, EASYBOARDINGLOUNGE, Enquiry, 易登机, 白云, EASY-BOARDINGLOU, 白云机场易登机休, 限量发售, 机场通, 各大银行会员接待",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '易登机, Enquiry, 限量发售, 机场通, 各大银行会员接待, 白云, BAIYUNPORT, 白云机场易登机休, EASYBOARDINGLOUNGE, 易登机休息室' appears inside the bounding box [[1170, 307], [1901, 307], [1901, 1080], [1170, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out whatever text you can see inside the box at [[1162, 308], [1920, 308], [1920, 1080], [1162, 1080]]. ________",
+              "answer": [
+                "白云机场易登机休息",
+                "白云",
+                "EASY-BOARDINGLOUN",
+                "易登机休息室",
+                "机场通",
+                "大银行会员接待",
+                "BAIYUNPORT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1458,738], [1509,735], [1510,756], [1459,759]]处的文字内容是\"限量____售\"，缺失部分应该填什么？",
+              "answer": "发"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which of these options contains the text found at [[327, 151], [1920, 151], [1920, 410], [327, 410]]. Options:\nA. 白云, 易登机休息室, 白云机场易登机休息, Enquiry, EASY-BOARDINGLOUN\nB. 白云机场易登机休息, Enquiry, FASY-BOARDINGLOUN, BAIYUNPORT, 问询\nC. Enquiry, EASY-BOARDINGLOUN, BAIYUNPOPT, 白云机场易登机休息, 问询\nD. 白云机场易登机休息, EASY-BOARDINGLOUN, 白云, Enquiry, 问询",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '易登机休息室, Enquiry, 白云机场易登机休息, 机场通, BAIYUNPORT, 问询, EASY-BOARDINGLOUN' visible somewhere inside the area defined by [[327.2931307809039, 151.15548750370445], [1920.0, 151.15548750370445], [1920.0, 1080.0], [327.2931307809039, 1080.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text shown inside the region [[322, 156], [1913, 156], [1913, 1080], [322, 1080]]. ________",
+              "answer": [
+                "问询",
+                "Enquiry",
+                "白云机场易登机休息",
+                "白云",
+                "EASY-BOARDINGLOUN",
+                "易登机休息室",
+                "机场通",
+                "会员接待",
+                "BAIYUNPORT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1227,266], [1393,270], [1393,294], [1226,290]]区域内出现了\"____YUNPORT\"这段文字，空白处该填入什么内容？",
+              "answer": "BAI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Head to region [[322, 156], [1913, 156], [1913, 414], [322, 414]] and match the text to one of these options. Options:\nA. BAIYUNPORT, 白云机场易登机休息, 白云, Enquiry, 问询\nB. 问询, 白云, 白云机场易登机休息, EASY-BOARDINGLOUN, Fnquiry\nC. EASY-BOARDINGLOUN, 易登机休息室, BAIYUNPORT, 白云, 问询\nD. 问询, 白云机场易登机休息, 白云, Enquiry, BAIYUNPOPT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label 'BAIYUNPORT, 问询, EASY-BOARDINGLOUN, 白云机场易登机休息' sits inside the bounding box [[322, 156], [1913, 156], [1913, 414], [322, 414]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you find inside [[316, 159], [538, 159], [538, 315], [316, 315]]. ________",
+              "answer": [
+                "问询",
+                "Enquiry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[121,103], [339,104], [339,177], [120,174]], the partial text reads \"En____ry\" — what goes in the blank?",
+              "answer": "qui"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[316, 159], [1918, 159], [1918, 416], [316, 416]] and identify which answer choice correctly shows its text. Options:\nA. 问询, 白云, EASY-BOARDINGLOUNG, BAIYUNPORT, 白云机场易登机休息\nB. BAIYUNPORT, 问询, Enquiry, 机场通, 白云\nC. Enquiry, 白云机场昘登机休息, BAIYUNPORT, EASY-BOARDINGLOUNG, 白云\nD. Enquiry, BAIYUNPORT, 易登机休息室, 问询, 白云",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Enquiry, BAIYUNPORT, EASY-BOARDINGLOUNG, 问询, 白云机场易登机休息, 机场通, 白云' is contained within the bounding box [[316.0302005253268, 158.9219022065353], [1918.4415035662375, 158.9219022065353], [1918.4415035662375, 415.8433637822138], [316.0302005253268, 415.8433637822138]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What words can be read from the region bounded by [[308, 159], [531, 159], [531, 318], [308, 318]]? ________",
+              "answer": [
+                "问询",
+                "Enquiry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1429,235], [1801,242], [1801,298], [1431,296]]位置的文字部分残缺，目前能看到\"白云机____易登机休息室\"，你觉得完整内容是什么？",
+              "answer": "场"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Narrow it down — which answer option accurately reflects the text found at [[1139, 803], [1661, 803], [1661, 1080], [1139, 1080]]? Options:\nA. 限量发售, EASYBOARDINGLOUNCE, 易登机休息室, 接待, 机场通, 四川航空\nB. 问询, 易登机休息室, 机场通, 四川航空, EASYBOARDINGLOUNGE, 接待\nC. 接待, 限量发售, 四川航空, 机场通, EASYBOARDINGLOUNGE, 易登机\nD. 易登机休息室, EASYBOARDINGLOUNCE, 限量发售, 易登机, 四川航空, 接待",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[1139, 321], [1914, 321], [1914, 1080], [1139, 1080]]: does it contain the label '接待, 易登机, 机场通, 限量发售, 白云, 白云机场易登机休息, 易登机休息室, BAIYUNPORT, 四川航空'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Every word inside [[1136, 321], [1910, 321], [1910, 1080], [1136, 1080]] counts — write them all out. ________",
+              "answer": [
+                "白云机场易登机休息",
+                "白云",
+                "EASY-BOARDINGLOUNG",
+                "易登机休息室",
+                "机场通",
+                "待",
+                "四川航空",
+                "BAIYUNPORT",
+                "易登机",
+                "EASYBOARDINGLOUNGE",
+                "限量发售"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[1132,1062], [1257,1052], [1257,1070], [1134,1080]]处的标识，其中文字显示\"____商旅服务有限公司\"，将缺失内容补充完整。",
+              "answer": "场"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to the text inside [[1136, 803], [1656, 803], [1656, 1080], [1136, 1080]], which answer choice is the right match? Options:\nA. 昘登机, EASYBOARDINGLOUNGE, 机场通, 四川航空, 易登机休息室, 限量发售\nB. 易登机休息室, 限量发售, 问询, 待, 易登机, 机场通\nC. 四川航空, 机场通, 易登机休息室, 易登机, EASYBOARDINGLOUNGE, 待\nD. 四川航空, 待, 限量发售, 昘登机, 易登机休息室, 机场通",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[1136, 803], [1656, 803], [1656, 1080], [1136, 1080]], is '机场通, 限量发售, 易登机休息室, 易登机, 待, 四川航空, EASYBOARDINGLOUNGE, 问询' actually inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can see inside [[301, 159], [523, 159], [523, 318], [301, 318]]. ________",
+              "answer": [
+                "问询",
+                "Enquiry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[1545,368], [1910,372], [1909,413], [1545,407]] shows text that reads \"EASY-BOARD____LOUNGE\" — what word or characters fill in the gap?",
+              "answer": "ING"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over at [[301, 159], [1920, 159], [1920, 940], [301, 940]], which answer choice correctly lists the text found there? Options:\nA. 限里发售, 白云机场易登机休息室, 易登机休息室, BAIYUNPORT, 问询, Enquiry, 易登机, EASYBOARDINGLOUNGE, EASY-BOARDINGLOUNGE\nB. Enquiry, 限量发售, 问询, 白云机场易登机休息室, 白云, 易登机, EASY-BOARDINGLOUNGE, BAIYUNPORT, 机场通\nC. BAIYUNPORT, 易登机, 白云, Enquiry, 限量发售, 白云机场易登机休息室, 易登机休息室, EASYBOARDINGLOUNGE, 问询\nD. 问询, 易登机休息室, 四川航空, 限量发售, 白云机场易登机休息室, EASYBOARDINGLOUNGE, 白云, Enquiry, 易登机",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[300.8670017121351, 158.9219022065353], [1920.0, 158.9219022065353], [1920.0, 1042.5713425718702], [300.8670017121351, 1042.5713425718702]] actually contain the label(s) '易登机, 易登机休息室, Enquiry, 机场通, 问询, EASY-BOARDINGLOUNGE, BAIYUNPORT, EASYBOARDINGLOUNGE, 四川航空, 白云机场易登机休息室'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0286/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0286/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears inside [[1125, 808], [1648, 808], [1648, 1044], [1125, 1044]]. ________",
+              "answer": [
+                "易登机休息室",
+                "机场通",
+                "四川航空",
+                "易登机",
+                "EASYBOARDINGLOUNGE",
+                "限量发售"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[390,261], [609,262], [605,336], [390,331]] is partially obscured and reads \"____quiry\" — fill in what's missing.",
+              "answer": "En"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Taking a look at [[296, 159], [1920, 159], [1920, 425], [296, 425]], which of these options matches the text visible there? Options:\nA. BAIYUNPORT, EASY-BOARDINGLOUNGE, 白云, Enquiry, 问询\nB. EASY-BOARDINGLOUNGE, BAIYUNPORT, 白元, 白云机场易登机休息室, 问询\nC. Enquiry, EASY-BOARDINGLOUNGE, 白云, 白云机场易登机休息室, 易登机休息室\nD. FASY-BOARDINGLOUNGE, Enquiry, 白云机场易登机休息室, 问询, BAIYUNPORT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '白云机场易登机休息室, EASY-BOARDINGLOUNGE, 白云, Enquiry' falls within the box region [[296.0151776699231, 159.26605962818888], [1920.0, 159.26605962818888], [1920.0, 424.6558418637422], [296.0151776699231, 424.6558418637422]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0286"
+  }
+]

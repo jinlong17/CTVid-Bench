@@ -1,0 +1,464 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the region marked by [[1294, 1875], [2543, 1875], [2543, 2113], [1294, 2113]] — what word or words appear there? ________",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察 [[1431,1875], [2410,1875], [2410,2005], [1432,2007]] 区域内的文字，请填写句子中缺少的词语：\"我们上哪去找这些工____\"。",
+              "answer": "具"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text found at [[1294, 1875], [2543, 1875], [2543, 2113], [1294, 2113]]. Options:\nA. Wbere do we find these tools\nB. Where do we find these tools\nC. 我仢上哪去找这些工具\nD. 我仞上哪去找这些工具",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'Where do we find these tools' show up inside the bounded region [[1293.9130434782608, 1874.782608695652], [2543.478260869565, 1874.782608695652], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text sitting inside [[1294, 1875], [2543, 1875], [2543, 2113], [1294, 2113]]. The answer is ________.",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1296,2002], [2543,2003], [2543,2113], [1294,2112]] contains a blank: \"Where do we ____ these tools\" — which word goes there?",
+              "answer": "find"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best reflects what's written in the [[1294, 1875], [2543, 1875], [2543, 2113], [1294, 2113]] region. Options:\nA. 我们上哪去找这些工具\nB. Whore do we find these tools\nC. 我仞上哪去找这些工具\nD. Wbere do we find these tools",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '我们上哪去找这些工具' enclosed within [[1293.9130434782608, 1874.782608695652], [2543.478260869565, 1874.782608695652], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[1294, 1531], [2543, 1531], [2543, 2113], [1294, 2113]] — what text do you see there? ________",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "u",
+                "o",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following matches what's written inside [[1294, 1737], [2543, 1737], [2543, 2113], [1294, 2113]]? Options:\nA. u, 我们上哪去找这些工具\nB. 我们上哪去找这些工具, e\nC. o, 我仞上哪去找这些工具\nD. Where do we find these tools, o",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "'我们上哪去找这些工具, o, u' 是否出现在 [[1758.2608695652173, 1530.754716981132], [2146.037735849057, 1530.754716981132], [2146.037735849057, 1628.9855072463768], [1758.2608695652173, 1628.9855072463768]] 所标注的区域内？",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[1293.9130434782608, 1530.754716981132], [2543.478260869565, 1530.754716981132], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]] and identify the word(s) displayed there. ________",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "ur",
+                "ou",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately captures the text within [[1294, 1531], [2543, 1531], [2543, 2113], [1294, 2113]]. Options:\nA. ur, Where do we find these tools, au, o\nB. Where do we find these tools, vr, 我们上哪去找这些工具, ou\nC. ur, eu, 我们上哪去找这些工具, Where do we find these tools\nD. ou, o, Where do we find these tools, ur",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[1293.9130434782608, 1530.754716981132], [2543.478260869565, 1530.754716981132], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]], can you spot the label(s) 'Where do we find these tools, ou, o, ur'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text is written inside the box at [[1294, 1496], [2543, 1496], [2543, 2113], [1294, 2113]]? Fill in: ________",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "Surf",
+                "ou",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one reflects the text you can read at [[1294, 1496], [2543, 1496], [2543, 2113], [1294, 2113]]? Options:\nA. Where do we find these tools, o, Svrf, 我们上哪去找这些工具\nB. o, 我们上哪去找这些工具, Where do we find these tools, ou\nC. eu, o, Where do we find these tools, Surf\nD. Where do we find these tools, o, Surf, au",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Where do we find these tools, o, Surf, ou' can be found inside [[1293.9130434782608, 1496.4310954063603], [2543.478260869565, 1496.4310954063603], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) visible at [[1294, 1496], [2543, 1496], [2543, 2113], [1294, 2113]]: ________",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "Surf",
+                "ou",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考 [[105,68], [607,75], [608,203], [105,197]] 处的文字，补全这个句子中缺失的词语，使\"安____新工具\"读起来完整通顺。",
+              "answer": "装"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given what appears in the region [[1441, 1496], [2197, 1496], [2197, 1804], [1441, 1804]], which answer is correct? Options:\nA. ou, 我们上哪去找这些工具\nB. e, Surf\nC. Surf, ou\nD. Svrf, ou",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'o, 我们上哪去找这些工具, Surf, Wbere do we find these tools, ou' inside the area marked by [[1293.9130434782608, 1496.4310954063603], [2543.478260869565, 1496.4310954063603], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can you read at the location [[1293.9130434782608, 1496.4310954063603], [2543.478260869565, 1496.4310954063603], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]]? ________",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "Surf",
+                "u",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Spotted at [[1922,413], [2822,415], [2824,617], [1923,617]] is the phrase \"Gl____ MCP\" — what goes in the blank?",
+              "answer": "ama"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text shown inside [[1442, 1496], [2197, 1496], [2197, 1806], [1442, 1806]] — which of the following options matches it? Options:\nA. 我们上哪去找这些工具, u\nB. e, u\nC. v, Surf\nD. o, u",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'o, u, Surf, Where do we find these tools' appear as the text inside the region marked by [[1442, 1496], [2197, 1496], [2197, 1806], [1442, 1806]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) you can read inside [[1293.9130434782608, 1496.4310954063603], [2543.478260869565, 1496.4310954063603], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]]: ________",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "Surf",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1922,625], [3194,620], [3196,835], [1923,830]] has a gap — what word belongs in \"cur____.directory\"?",
+              "answer": "sor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly identifies the text visible at [[1294, 1740], [2543, 1740], [2543, 2113], [1294, 2113]]. Options:\nA. 我们上哪去找这些工具, Wbere do we find these tools\nB. Where do we find these tools, Surf\nC. 我们上哪去找这些工具, Where do we find these tools\nD. Wbere do we find these tools, o",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1293.9130434782608, 1496.4310954063603], [2543.478260869565, 1496.4310954063603], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]] actually contain 'Surf, o, Wbere do we find these tools, 我们上哪去找这些工具'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[1294, 1517], [2543, 1517], [2543, 2113], [1294, 2113]] and write what you see: ________.",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "Su",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[869,611], [1657,608], [1660,806], [871,800]] 处的文字有一处空白，请填入缺失的内容：\"阿里云____炼\"。",
+              "answer": "百"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1294, 1517], [2543, 1517], [2543, 2113], [1294, 2113]] — which of these options lists the text you find there? Options:\nA. 我们上哪去找这些工具, Su, Where do we find these tools\nB. Where do we find these tools, o, 我仞上哪去找这些工具\nC. Su, e, Where do we find these tools\nD. 我仢上哪去找这些工具, o, Where do we find these tools",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'o, 我们上哪去找这些工具, Where do we find these tools, Du' shows up inside [[1293.9130434782608, 1517.4528301886792], [2543.478260869565, 1517.4528301886792], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out within the box at [[1693, 1535], [1784, 1535], [1784, 1652], [1693, 1652]]? ________.",
+              "answer": [
+                "S"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word fills the gap to complete \"G____a MCP\" in the text at [[1922,413], [2822,415], [2824,617], [1923,617]]?",
+              "answer": "lam"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that matches the text appearing inside [[1448, 1535], [1784, 1535], [1784, 1807], [1448, 1807]]. Options:\nA. 我们上哪去找这些工具\nB. D\nC. D\nD. S",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the text '我们上哪去找这些工具, S, o' is enclosed by [[1293.9130434782608, 1534.84496124031], [2543.478260869565, 1534.84496124031], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Which word(s) does [[1294, 1535], [2543, 1535], [2543, 2113], [1294, 2113]] enclose? Fill in: ________.",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "S",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[1914,1367], [2900,1363], [2901,1544], [1917,1548]], you'll see \"MCPSe____rs\" with a missing piece — what goes in the blank?",
+              "answer": "rve"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly names the text visible within [[1294, 1535], [2543, 1535], [2543, 2113], [1294, 2113]]. Options:\nA. 我们上哪去找这些工具, S, Where do we find these tools\nB. 我仞上哪去找这些工具, o, S\nC. Where do we find these tools, e, S\nD. o, Wbere do we find these tools, S",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Where do we find these tools, S, 我们上哪去找这些工具' the text you'd find if you looked inside [[1293.9130434782608, 1534.84496124031], [2543.478260869565, 1534.84496124031], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_001/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_001/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the area at [[1294, 1535], [2543, 1535], [2543, 2113], [1294, 2113]] — what word or words are displayed there? ________.",
+              "answer": [
+                "我们上哪去找这些工具",
+                "Where do we find these tools",
+                "S",
+                "o"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The incomplete text \"____.directory\" sits at [[1922,625], [3194,620], [3196,835], [1923,830]] — what's missing to finish it?",
+              "answer": "cursor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices listed, which one correctly represents the text at [[1294, 1535], [2543, 1535], [2543, 2113], [1294, 2113]]? Options:\nA. 我们上哪去找这些工具, S, e\nB. S, 我们上哪去找这些工具, Where do we find these tools\nC. 我们上哪去找这些工具, Wbere do we find these tools, S\nD. Whore do we find these tools, S, 我们上哪去找这些工具",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '我们上哪去找这些工具, S, Where do we find these tools' falls inside the region defined by [[1293.9130434782608, 1534.84496124031], [2543.478260869565, 1534.84496124031], [2543.478260869565, 2113.0434782608695], [1293.9130434782608, 2113.0434782608695]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_001"
+  }
+]

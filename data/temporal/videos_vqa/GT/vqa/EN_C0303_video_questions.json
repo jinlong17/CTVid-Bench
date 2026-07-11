@@ -1,0 +1,312 @@
+{
+  "video_id": "C0303",
+  "frames": 120,
+  "word": "NO SUPRISES!",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0303.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"NO SUPRISES!\" likely to be?\n Options:\nA. address or street sign\nB. warning or prohibition sign\nC. direction or navigation sign\nD. event or poster information\nE. storefront or brand sign\nF. menu or commercial information\nG. general scene text",
+      "q": "What kind of sign would you say the text \"NO SUPRISES!\" is — a warning notice, a storefront banner, or something else entirely?\n Options:\nA. address or street sign\nB. warning or prohibition sign\nC. direction or navigation sign\nD. event or poster information\nE. storefront or brand sign\nF. menu or commercial information\nG. general scene text",
+      "a": "G",
+      "a_text": "general scene text",
+      "answer_key": "general scene text",
+      "options": [
+        "A. address or street sign",
+        "B. warning or prohibition sign",
+        "C. direction or navigation sign",
+        "D. event or poster information",
+        "E. storefront or brand sign",
+        "F. menu or commercial information",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of sign would you say the text \"NO SUPRISES!\" is — a warning notice, a storefront banner, or something else entirely?\n Options:\nA. address or street sign\nB. warning or prohibition sign\nC. direction or navigation sign\nD. event or poster information\nE. storefront or brand sign\nF. menu or commercial information\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"NO SUPRISES!\" appear in?\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. road or street\nD. storefront\nE. campus or office\nF. event poster or display\nG. transportation / station\nH. other public sign",
+      "q": "The text \"NO SUPRISES!\" shows up in this clip — what kind of setting or scene does that placement suggest?\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. road or street\nD. storefront\nE. campus or office\nF. event poster or display\nG. transportation / station\nH. other public sign",
+      "a": "H",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. warning / rule sign",
+        "B. restaurant or menu",
+        "C. road or street",
+        "D. storefront",
+        "E. campus or office",
+        "F. event poster or display",
+        "G. transportation / station",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text \"NO SUPRISES!\" shows up in this clip — what kind of setting or scene does that placement suggest?\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. road or street\nD. storefront\nE. campus or office\nF. event poster or display\nG. transportation / station\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"NO SUPRISES!\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. bottom-right (lower-right area)\nD. center (middle of the frame)\nE. top-left (upper-left area)",
+      "q": "For most of the clip, where in the frame does the text \"NO SUPRISES!\" tend to sit?\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. bottom-right (lower-right area)\nD. center (middle of the frame)\nE. top-left (upper-left area)",
+      "a": "B",
+      "a_text": "bottom-left (lower-left area)",
+      "answer_key": "bottom-left",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. bottom-left (lower-left area)",
+        "C. bottom-right (lower-right area)",
+        "D. center (middle of the frame)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "For most of the clip, where in the frame does the text \"NO SUPRISES!\" tend to sit?\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. bottom-right (lower-right area)\nD. center (middle of the frame)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"NO SUPRISES!\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "Does the text \"NO SUPRISES!\" shift noticeably from where it starts, or does it barely move at all?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does the text \"NO SUPRISES!\" shift noticeably from where it starts, or does it barely move at all?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"NO SUPRISES!\" move?\n Options:\nA. changes direction partway\nB. moves up\nC. moves right\nD. moves left\nE. moves down\nF. stays roughly in place\nG. moves diagonally",
+      "q": "Which direction does \"NO SUPRISES!\" drift — left, right, up, down, or does it essentially stay put?\n Options:\nA. changes direction partway\nB. moves up\nC. moves right\nD. moves left\nE. moves down\nF. stays roughly in place\nG. moves diagonally",
+      "a": "F",
+      "a_text": "stays roughly in place",
+      "answer_key": "stays roughly in place",
+      "options": [
+        "A. changes direction partway",
+        "B. moves up",
+        "C. moves right",
+        "D. moves left",
+        "E. moves down",
+        "F. stays roughly in place",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"NO SUPRISES!\" drift — left, right, up, down, or does it essentially stay put?\n Options:\nA. changes direction partway\nB. moves up\nC. moves right\nD. moves left\nE. moves down\nF. stays roughly in place\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"NO SUPRISES!\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> center -> bottom-left\nD. bottom-left -> top-right -> bottom-left",
+      "q": "Where is \"NO SUPRISES!\" positioned near the start of the clip, in the middle, and toward the end?\n Options:\nA. top-right -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> center -> bottom-left\nD. bottom-left -> top-right -> bottom-left",
+      "a": "B",
+      "a_text": "bottom-left -> bottom-left -> bottom-left",
+      "answer_key": "bottom-left -> bottom-left -> bottom-left",
+      "options": [
+        "A. top-right -> bottom-left -> bottom-left",
+        "B. bottom-left -> bottom-left -> bottom-left",
+        "C. bottom-left -> center -> bottom-left",
+        "D. bottom-left -> top-right -> bottom-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Where is \"NO SUPRISES!\" positioned near the start of the clip, in the middle, and toward the end?\n Options:\nA. top-right -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> center -> bottom-left\nD. bottom-left -> top-right -> bottom-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"NO SUPRISES!\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. large (a major part of the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "How big does the text \"NO SUPRISES!\" appear in the frame — small, medium-sized, or quite large?\n Options:\nA. very large (dominates the frame)\nB. large (a major part of the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "C",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. large (a major part of the frame)",
+        "C. small (a minor part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How big does the text \"NO SUPRISES!\" appear in the frame — small, medium-sized, or quite large?\n Options:\nA. very large (dominates the frame)\nB. large (a major part of the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"NO SUPRISES!\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "q": "Does \"NO SUPRISES!\" grow bigger, shrink, or hold roughly the same size as the video runs?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. stays about the same size",
+        "C. size fluctuates (goes up and down)",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"NO SUPRISES!\" grow bigger, shrink, or hold roughly the same size as the video runs?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"NO SUPRISES!\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "Is the text \"NO SUPRISES!\" sitting comfortably within the frame, or is it close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"NO SUPRISES!\" sitting comfortably within the frame, or is it close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"NO SUPRISES!\" and how it appears in the video.",
+      "q": "Give a quick description of the text \"NO SUPRISES!\" — what it looks like and how it behaves in the video.",
+      "a": "The text \"NO SUPRISES!\" is written in blue capital letters at the bottom of a white sign attached to a construction fence.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick description of the text \"NO SUPRISES!\" — what it looks like and how it behaves in the video."
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "video_id": "C0368",
+  "frames": 120,
+  "word": "OPEN HOUSE>",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0368.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"OPEN HOUSE>\" likely to be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. warning or prohibition sign\nD. general scene text\nE. address or street sign\nF. event or poster information\nG. direction or navigation sign",
+      "q": "The text that says \"OPEN HOUSE>\" — what type of sign would that be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. warning or prohibition sign\nD. general scene text\nE. address or street sign\nF. event or poster information\nG. direction or navigation sign",
+      "a": "G",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. menu or commercial information",
+        "B. storefront or brand sign",
+        "C. warning or prohibition sign",
+        "D. general scene text",
+        "E. address or street sign",
+        "F. event or poster information",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text that says \"OPEN HOUSE>\" — what type of sign would that be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. warning or prohibition sign\nD. general scene text\nE. address or street sign\nF. event or poster information\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"OPEN HOUSE>\" appear in?\n Options:\nA. road or street\nB. storefront\nC. warning / rule sign\nD. restaurant or menu\nE. campus or office\nF. other public sign\nG. transportation / station\nH. event poster or display",
+      "q": "What sort of setting or scene does the text \"OPEN HOUSE>\" seem to belong to?\n Options:\nA. road or street\nB. storefront\nC. warning / rule sign\nD. restaurant or menu\nE. campus or office\nF. other public sign\nG. transportation / station\nH. event poster or display",
+      "a": "A",
+      "a_text": "road or street",
+      "answer_key": "road or street",
+      "options": [
+        "A. road or street",
+        "B. storefront",
+        "C. warning / rule sign",
+        "D. restaurant or menu",
+        "E. campus or office",
+        "F. other public sign",
+        "G. transportation / station",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What sort of setting or scene does the text \"OPEN HOUSE>\" seem to belong to?\n Options:\nA. road or street\nB. storefront\nC. warning / rule sign\nD. restaurant or menu\nE. campus or office\nF. other public sign\nG. transportation / station\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"OPEN HOUSE>\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. center (middle of the frame)\nE. top-right (upper-right area)",
+      "q": "Roughly where on screen does \"OPEN HOUSE>\" spend most of its time?\n Options:\nA. bottom-left (lower-left area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. center (middle of the frame)\nE. top-right (upper-right area)",
+      "a": "D",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. bottom-right (lower-right area)",
+        "C. top-left (upper-left area)",
+        "D. center (middle of the frame)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Roughly where on screen does \"OPEN HOUSE>\" spend most of its time?\n Options:\nA. bottom-left (lower-left area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. center (middle of the frame)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"OPEN HOUSE>\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "Over the course of the clip, how far does \"OPEN HOUSE>\" travel?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "B",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Over the course of the clip, how far does \"OPEN HOUSE>\" travel?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"OPEN HOUSE>\" move?\n Options:\nA. moves right\nB. moves left\nC. stays roughly in place\nD. moves diagonally\nE. moves down\nF. moves up\nG. changes direction partway",
+      "q": "In which direction does \"OPEN HOUSE>\" generally drift — left, right, up, down, or somewhere else?\n Options:\nA. moves right\nB. moves left\nC. stays roughly in place\nD. moves diagonally\nE. moves down\nF. moves up\nG. changes direction partway",
+      "a": "G",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves right",
+        "B. moves left",
+        "C. stays roughly in place",
+        "D. moves diagonally",
+        "E. moves down",
+        "F. moves up",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In which direction does \"OPEN HOUSE>\" generally drift — left, right, up, down, or somewhere else?\n Options:\nA. moves right\nB. moves left\nC. stays roughly in place\nD. moves diagonally\nE. moves down\nF. moves up\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"OPEN HOUSE>\" at the beginning, the middle, and the end?\n Options:\nA. bottom-left -> center -> center\nB. bottom-left -> center -> top-left\nC. bottom-left -> center -> top-right\nD. bottom-left -> center -> bottom-right",
+      "q": "Can you track \"OPEN HOUSE>\" through the clip — where is it near the start, in the middle, and toward the end?\n Options:\nA. bottom-left -> center -> center\nB. bottom-left -> center -> top-left\nC. bottom-left -> center -> top-right\nD. bottom-left -> center -> bottom-right",
+      "a": "A",
+      "a_text": "bottom-left -> center -> center",
+      "answer_key": "bottom-left -> center -> center",
+      "options": [
+        "A. bottom-left -> center -> center",
+        "B. bottom-left -> center -> top-left",
+        "C. bottom-left -> center -> top-right",
+        "D. bottom-left -> center -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you track \"OPEN HOUSE>\" through the clip — where is it near the start, in the middle, and toward the end?\n Options:\nA. bottom-left -> center -> center\nB. bottom-left -> center -> top-left\nC. bottom-left -> center -> top-right\nD. bottom-left -> center -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"OPEN HOUSE>\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "q": "Relative to the frame, how big does \"OPEN HOUSE>\" appear?\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "a": "B",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Relative to the frame, how big does \"OPEN HOUSE>\" appear?\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"OPEN HOUSE>\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "q": "Gets bigger, smaller, or stays about the same — how does the size of \"OPEN HOUSE>\" change through the clip?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "a": "D",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. stays about the same size",
+        "B. size fluctuates (goes up and down)",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Gets bigger, smaller, or stays about the same — how does the size of \"OPEN HOUSE>\" change through the clip?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"OPEN HOUSE>\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "q": "Does \"OPEN HOUSE>\" sit comfortably within the frame, or is it hugging one of the edges?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. touches or runs off an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"OPEN HOUSE>\" sit comfortably within the frame, or is it hugging one of the edges?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"OPEN HOUSE>\" and how it appears in the video.",
+      "q": "Give a short description of \"OPEN HOUSE>\" — what it looks like and how it behaves over the clip.",
+      "a": "The text \"OPEN HOUSE>\" appears in large black letters with an arrow on a white A-frame sign on a sidewalk.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a short description of \"OPEN HOUSE>\" — what it looks like and how it behaves over the clip."
+    }
+  ],
+  "method": "blur"
+}

@@ -1,0 +1,471 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text visible inside [[827, 238], [1138, 238], [1138, 552], [827, 552]]. ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[827,238], [1138,240], [1138,339], [827,342]], an institution's name reads \"____ibank\" — what's the complete name?",
+              "answer": "cit"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text you see inside [[828, 372], [1098, 372], [1098, 552], [828, 552]]. Options:\nA. Rarking\nB. Carpool\nC. Rarking\nD. citibank",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 552.2685185185185], [826.8518518518518, 552.2685185185185]], is 'citibank, Carpool' actually present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears inside [[827, 238], [1138, 238], [1138, 552], [827, 552]]. ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region at [[817,463], [1087,461], [1086,550], [818,554]] shows text with a hidden portion reading \"P____ing\" — what's the full word?",
+              "answer": "ark"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly lists the text visible at [[828, 372], [1098, 372], [1098, 552], [828, 552]]. Options:\nA. citibank\nB. Carpool\nC. Carpoel\nD. Carpoel",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the bounding box [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 552.2685185185185], [826.8518518518518, 552.2685185185185]], would 'oitibank, Carpool, Parking' be among the labels it contains?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which words can be spotted inside [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 341.6203703703704], [826.8518518518518, 341.6203703703704]]? ________",
+              "answer": [
+                "citibank"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A financial institution's name at [[810,251], [1120,252], [1121,355], [810,354]] appears as \"citib____\" — fill in the complete name.",
+              "answer": "ank"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one captures the text shown in [[828, 372], [1098, 372], [1098, 552], [828, 552]]? Options:\nA. Carpoel\nB. Parking\nC. citibank\nD. Rarking",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 552.2685185185185], [826.8518518518518, 552.2685185185185]] — are the label(s) 'citibank, Parking, Cerpool' inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the text appearing in region [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 552.2685185185185], [826.8518518518518, 552.2685185185185]]. ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially hidden at [[867,382], [1136,381], [1136,470], [869,470]], the text shows \"Car____l\" — what does the full text say?",
+              "answer": "poo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one correctly shows the text found at [[828, 372], [1098, 372], [1098, 552], [828, 552]]? Options:\nA. citibank\nB. Parking\nC. Carpoel\nD. Carpoel",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 552.2685185185185], [826.8518518518518, 552.2685185185185]], do the label(s) 'citibank, Carpool, Rarking' sit inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible in the region [[827, 238], [1138, 238], [1138, 342], [827, 342]]: ________",
+              "answer": [
+                "citibank"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere at [[1032,484], [1302,482], [1301,573], [1033,575]], text appears obscured as \"P____ng\" — what's the actual word?",
+              "answer": "arki"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and find which one matches the text at [[827, 238], [1138, 238], [1138, 552], [827, 552]]. Options:\nA. Carpool, citihank\nB. citibank, Parking\nC. Parking, oitibank\nD. Carpool, Rarking",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot 'Carpool, citibank, Rarking' — do they show up within the area [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 552.2685185185185], [826.8518518518518, 552.2685185185185]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in what's written inside [[827, 238], [1138, 238], [1138, 552], [827, 552]]: ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Visible at [[1211,483], [1482,487], [1478,580], [1208,575]] is a garage label with a missing section reading \"Pa____ng\" — what's missing?",
+              "answer": "rki"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Match the text inside [[828, 372], [1098, 372], [1098, 552], [828, 552]] to the correct answer. Options:\nA. citibank\nB. Carpoel\nC. Carpoel\nD. Parking",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over in [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 552.2685185185185], [826.8518518518518, 552.2685185185185]], can the label(s) 'citibank, Parking, Cerpool' be spotted?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Just write down the word(s) you see in [[827, 238], [1138, 238], [1138, 552], [827, 552]]. ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1363,265], [1712,267], [1711,375], [1361,371]] appears partially obscured — fill in the full word(s) for \"cit____ank.\".",
+              "answer": "ib"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[827, 238], [1138, 238], [1138, 552], [827, 552]] and pick the matching option. Options:\nA. oitibank, Carpool\nB. citibank, Rarking\nC. Carpool, citibank\nD. Carpool, Perking",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Rarking, citibank, Carpool' inside the region [[826.8518518518518, 238.37962962962968], [1137.9629629629628, 238.37962962962968], [1137.9629629629628, 552.2685185185185], [826.8518518518518, 552.2685185185185]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever word(s) appear inside [[819, 238], [1130, 238], [1130, 552], [819, 552]]: ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1375,380], [1676,384], [1675,477], [1373,471]], a word is partly obscured and shown as \"Ca____ool\" — what is the complete word?",
+              "answer": "rp"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[820, 372], [1090, 372], [1090, 552], [820, 552]] — which of the following matches the text you find there? Options:\nA. citibank\nB. Rarking\nC. Carpoel\nD. Carpool",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that 'citibank, Parking, Cerpool' appears inside the box [[819.4444444444445, 238.37962962962968], [1130.0925925925922, 238.37962962962968], [1130.0925925925922, 552.2685185185185], [819.4444444444445, 552.2685185185185]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over at [[815, 238], [1126, 238], [1126, 552], [815, 552]], the text reads: ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The blurred text \"Par____\" inside [[1304,465], [1608,470], [1606,564], [1303,557]] refers to a facility where vehicles are parked — what's the full word?",
+              "answer": "king"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box [[815, 372], [1085, 372], [1085, 552], [815, 552]] contains some text — which answer choice matches it exactly? Options:\nA. citibank\nB. Carpool\nC. Rarking\nD. Rarking",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Parking, citibank' the text you'd find if you looked inside [[814.5061728395061, 238.37962962962968], [1125.6172839506166, 238.37962962962968], [1125.6172839506166, 552.2685185185185], [814.5061728395061, 552.2685185185185]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and read the word(s) visible in [[811, 246], [1122, 246], [1122, 560], [811, 560]]: ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A name at [[1207,225], [1538,237], [1530,350], [1201,339]] is rendered as \"citi____\" with letters missing — write out the full name.",
+              "answer": "bank"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[811, 246], [1122, 246], [1122, 560], [811, 560]] and tell me — which option lists the correct text? Options:\nA. Rarking, citibank\nB. citihank, Parking\nC. oitibank, Carpool\nD. citibank, Parking",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would 'Parking, citibank' be the right label for what's inside [[810.8024691358025, 245.78703703703707], [1121.9135802469127, 245.78703703703707], [1121.9135802469127, 559.675925925926], [810.8024691358025, 559.675925925926]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) you see at [[811, 243], [1122, 243], [1122, 554], [811, 554]] and write them here: ________",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "\"Car____l\" appears at [[1057,349], [1339,357], [1334,457], [1053,449]] with its middle letters dropped — can you restore the full word?",
+              "answer": "poo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly names the text visible at [[811, 243], [1122, 243], [1122, 554], [811, 554]]? Options:\nA. Carpool, citibank\nB. Carpoel, citibank\nC. Carpool, Rarking\nD. Cerpool, Parking",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[810.8024691358024, 243.31790123456796], [1121.9135802469132, 243.31790123456796], [1121.9135802469132, 553.503086419753], [810.8024691358024, 553.503086419753]] — does 'Carpool, citibank' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0347/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0347/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "________ — fill in the word(s) displayed at [[810, 243], [1121, 243], [1121, 554], [810, 554]].",
+              "answer": [
+                "citibank",
+                "Carpool",
+                "Parking"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Hidden letters make the word at [[858,241], [1187,241], [1186,349], [858,350]] read as \"citi____\" — restore it fully.",
+              "answer": "bank"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of all the options listed, which best describes the text found in [[815, 372], [1085, 372], [1085, 554], [815, 554]]? Options:\nA. Carpoel\nB. citibank\nC. Rarking\nD. Carpool",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My reading says 'Parking, Carpool, oitibank' is inside [[809.5679012345679, 243.31790123456796], [1120.6060606060605, 243.31790123456796], [1120.6060606060605, 553.503086419753], [809.5679012345679, 553.503086419753]] — agree or disagree?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0347"
+  }
+]

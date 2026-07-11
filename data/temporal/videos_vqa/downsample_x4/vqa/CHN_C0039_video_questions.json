@@ -1,0 +1,313 @@
+{
+  "video_id": "C0039",
+  "frames": 120,
+  "word": "直供百果园",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0039.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"直供百果园\" likely to be?\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. warning or prohibition sign\nD. storefront or brand sign\nE. event or poster information\nF. general scene text\nG. address or street sign",
+      "q": "你觉得\"直供百果园\"这几个字，像是哪一类的标牌或招牌？\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. warning or prohibition sign\nD. storefront or brand sign\nE. event or poster information\nF. general scene text\nG. address or street sign",
+      "a": "D",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. direction or navigation sign",
+        "B. menu or commercial information",
+        "C. warning or prohibition sign",
+        "D. storefront or brand sign",
+        "E. event or poster information",
+        "F. general scene text",
+        "G. address or street sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你觉得\"直供百果园\"这几个字，像是哪一类的标牌或招牌？\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. warning or prohibition sign\nD. storefront or brand sign\nE. event or poster information\nF. general scene text\nG. address or street sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"直供百果园\" appear in?\n Options:\nA. transportation / station\nB. warning / rule sign\nC. road or street\nD. restaurant or menu\nE. storefront\nF. event poster or display\nG. campus or office\nH. other public sign",
+      "q": "写着\"直供百果园\"的那段文字，出现在什么样的场景环境里？\n Options:\nA. transportation / station\nB. warning / rule sign\nC. road or street\nD. restaurant or menu\nE. storefront\nF. event poster or display\nG. campus or office\nH. other public sign",
+      "a": "E",
+      "a_text": "storefront",
+      "answer_key": "storefront",
+      "options": [
+        "A. transportation / station",
+        "B. warning / rule sign",
+        "C. road or street",
+        "D. restaurant or menu",
+        "E. storefront",
+        "F. event poster or display",
+        "G. campus or office",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着\"直供百果园\"的那段文字，出现在什么样的场景环境里？\n Options:\nA. transportation / station\nB. warning / rule sign\nC. road or street\nD. restaurant or menu\nE. storefront\nF. event poster or display\nG. campus or office\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"直供百果园\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "q": "整段视频里，\"直供百果园\"大多出现在画面的哪个位置？\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "a": "B",
+      "a_text": "bottom-right (lower-right area)",
+      "answer_key": "bottom-right",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-right (lower-right area)",
+        "C. bottom-left (lower-left area)",
+        "D. top-right (upper-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整段视频里，\"直供百果园\"大多出现在画面的哪个位置？\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"直供百果园\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "片段播放过程中，\"直供百果园\"这段文字的移动幅度大概有多大？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "A",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "片段播放过程中，\"直供百果园\"这段文字的移动幅度大概有多大？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"直供百果园\" move?\n Options:\nA. moves down\nB. moves left\nC. moves diagonally\nD. stays roughly in place\nE. moves up\nF. moves right\nG. changes direction partway",
+      "q": "整体而言，\"直供百果园\"是朝哪个方向运动的？\n Options:\nA. moves down\nB. moves left\nC. moves diagonally\nD. stays roughly in place\nE. moves up\nF. moves right\nG. changes direction partway",
+      "a": "B",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves down",
+        "B. moves left",
+        "C. moves diagonally",
+        "D. stays roughly in place",
+        "E. moves up",
+        "F. moves right",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整体而言，\"直供百果园\"是朝哪个方向运动的？\n Options:\nA. moves down\nB. moves left\nC. moves diagonally\nD. stays roughly in place\nE. moves up\nF. moves right\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"直供百果园\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> bottom-right -> bottom-right\nB. bottom-right -> top-left -> bottom-right\nC. bottom-right -> bottom-left -> bottom-right\nD. bottom-right -> bottom-right -> top-left",
+      "q": "从片头到中段再到收尾，\"直供百果园\"分别出现在画面的哪个位置？\n Options:\nA. bottom-right -> bottom-right -> bottom-right\nB. bottom-right -> top-left -> bottom-right\nC. bottom-right -> bottom-left -> bottom-right\nD. bottom-right -> bottom-right -> top-left",
+      "a": "A",
+      "a_text": "bottom-right -> bottom-right -> bottom-right",
+      "answer_key": "bottom-right -> bottom-right -> bottom-right",
+      "options": [
+        "A. bottom-right -> bottom-right -> bottom-right",
+        "B. bottom-right -> top-left -> bottom-right",
+        "C. bottom-right -> bottom-left -> bottom-right",
+        "D. bottom-right -> bottom-right -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从片头到中段再到收尾，\"直供百果园\"分别出现在画面的哪个位置？\n Options:\nA. bottom-right -> bottom-right -> bottom-right\nB. bottom-right -> top-left -> bottom-right\nC. bottom-right -> bottom-left -> bottom-right\nD. bottom-right -> bottom-right -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"直供百果园\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "q": "画面里\"直供百果园\"这行字，字号大概算大、中还是小？\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "a": "B",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里\"直供百果园\"这行字，字号大概算大、中还是小？\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"直供百果园\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. gets larger\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "q": "视频里\"直供百果园\"的字体大小有没有变化——是越来越大、越来越小，还是一直差不多？\n Options:\nA. stays about the same size\nB. gets larger\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. gets larger",
+        "C. size fluctuates (goes up and down)",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里\"直供百果园\"的字体大小有没有变化——是越来越大、越来越小，还是一直差不多？\n Options:\nA. stays about the same size\nB. gets larger\nC. size fluctuates (goes up and down)\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"直供百果园\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "q": "看视频时，\"直供百果园\"这行字更多是处于画面内部，还是偏向某条边缘？\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "comes close to an edge",
+      "answer_key": "comes close to an edge",
+      "options": [
+        "A. comes close to an edge",
+        "B. fully inside, away from the edges",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看视频时，\"直供百果园\"这行字更多是处于画面内部，还是偏向某条边缘？\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"直供百果园\" and how it appears in the video.",
+      "q": "能简单描述一下\"直供百果园\"这行文字的样子，以及它在视频中是怎么呈现的吗？",
+      "a": "The text appears in green characters on a white sign located above the window of a storefront.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能简单描述一下\"直供百果园\"这行文字的样子，以及它在视频中是怎么呈现的吗？"
+    }
+  ],
+  "method": "downsample_x4"
+}

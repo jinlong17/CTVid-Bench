@@ -1,0 +1,313 @@
+{
+  "video_id": "C0370",
+  "frames": 120,
+  "word": "FDC SERVES\n45258 TOM BLALOCK ST.",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/EN_C0370.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" likely to be?\n Options:\nA. warning or prohibition sign\nB. event or poster information\nC. storefront or brand sign\nD. general scene text\nE. address or street sign\nF. menu or commercial information\nG. direction or navigation sign",
+      "q": "The text reading \"FDC SERVES\n45258 TOM BLALOCK ST.\" — what type of sign does it look like?\n Options:\nA. warning or prohibition sign\nB. event or poster information\nC. storefront or brand sign\nD. general scene text\nE. address or street sign\nF. menu or commercial information\nG. direction or navigation sign",
+      "a": "E",
+      "a_text": "address or street sign",
+      "answer_key": "address or street sign",
+      "options": [
+        "A. warning or prohibition sign",
+        "B. event or poster information",
+        "C. storefront or brand sign",
+        "D. general scene text",
+        "E. address or street sign",
+        "F. menu or commercial information",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text reading \"FDC SERVES\n45258 TOM BLALOCK ST.\" — what type of sign does it look like?\n Options:\nA. warning or prohibition sign\nB. event or poster information\nC. storefront or brand sign\nD. general scene text\nE. address or street sign\nF. menu or commercial information\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" appear in?\n Options:\nA. road or street\nB. campus or office\nC. warning / rule sign\nD. event poster or display\nE. other public sign\nF. restaurant or menu\nG. transportation / station\nH. storefront",
+      "q": "What kind of setting does the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" appear in?\n Options:\nA. road or street\nB. campus or office\nC. warning / rule sign\nD. event poster or display\nE. other public sign\nF. restaurant or menu\nG. transportation / station\nH. storefront",
+      "a": "E",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. road or street",
+        "B. campus or office",
+        "C. warning / rule sign",
+        "D. event poster or display",
+        "E. other public sign",
+        "F. restaurant or menu",
+        "G. transportation / station",
+        "H. storefront"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of setting does the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" appear in?\n Options:\nA. road or street\nB. campus or office\nC. warning / rule sign\nD. event poster or display\nE. other public sign\nF. restaurant or menu\nG. transportation / station\nH. storefront"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. top-left (upper-left area)\nE. bottom-right (lower-right area)",
+      "q": "Thinking about its position in the frame, where does the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" tend to sit?\n Options:\nA. center (middle of the frame)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. top-left (upper-left area)\nE. bottom-right (lower-right area)",
+      "a": "C",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-left (lower-left area)",
+        "C. top-right (upper-right area)",
+        "D. top-left (upper-left area)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Thinking about its position in the frame, where does the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" tend to sit?\n Options:\nA. center (middle of the frame)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. top-left (upper-left area)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "How far does the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How far does the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" move?\n Options:\nA. changes direction partway\nB. moves down\nC. stays roughly in place\nD. moves up\nE. moves left\nF. moves diagonally\nG. moves right",
+      "q": "Which direction does \"FDC SERVES\n45258 TOM BLALOCK ST.\" tend to travel over the video?\n Options:\nA. changes direction partway\nB. moves down\nC. stays roughly in place\nD. moves up\nE. moves left\nF. moves diagonally\nG. moves right",
+      "a": "A",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. changes direction partway",
+        "B. moves down",
+        "C. stays roughly in place",
+        "D. moves up",
+        "E. moves left",
+        "F. moves diagonally",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"FDC SERVES\n45258 TOM BLALOCK ST.\" tend to travel over the video?\n Options:\nA. changes direction partway\nB. moves down\nC. stays roughly in place\nD. moves up\nE. moves left\nF. moves diagonally\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> top-right -> top-left\nB. top-right -> top-right -> bottom-left\nC. top-right -> top-right -> top-right\nD. bottom-left -> top-right -> top-right",
+      "q": "Near the start, middle, and end of the clip, where is the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" positioned?\n Options:\nA. top-right -> top-right -> top-left\nB. top-right -> top-right -> bottom-left\nC. top-right -> top-right -> top-right\nD. bottom-left -> top-right -> top-right",
+      "a": "C",
+      "a_text": "top-right -> top-right -> top-right",
+      "answer_key": "top-right -> top-right -> top-right",
+      "options": [
+        "A. top-right -> top-right -> top-left",
+        "B. top-right -> top-right -> bottom-left",
+        "C. top-right -> top-right -> top-right",
+        "D. bottom-left -> top-right -> top-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Near the start, middle, and end of the clip, where is the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" positioned?\n Options:\nA. top-right -> top-right -> top-left\nB. top-right -> top-right -> bottom-left\nC. top-right -> top-right -> top-right\nD. bottom-left -> top-right -> top-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "Size-wise, how would you describe the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" relative to the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "D",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Size-wise, how would you describe the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" relative to the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. gets larger\nD. stays about the same size",
+      "q": "Over the clip, does \"FDC SERVES\n45258 TOM BLALOCK ST.\" appear to grow, shrink, or stay roughly the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. gets larger\nD. stays about the same size",
+      "a": "D",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets smaller",
+        "B. size fluctuates (goes up and down)",
+        "C. gets larger",
+        "D. stays about the same size"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Over the clip, does \"FDC SERVES\n45258 TOM BLALOCK ST.\" appear to grow, shrink, or stay roughly the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. gets larger\nD. stays about the same size"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "Is the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" generally well within the frame or does it sit close to an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "A",
+      "a_text": "touches or runs off an edge",
+      "answer_key": "touches or runs off an edge",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" generally well within the frame or does it sit close to an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"FDC SERVES\n45258 TOM BLALOCK ST.\" and how it appears in the video.",
+      "q": "In a sentence or two, describe how the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" looks and behaves in the video.",
+      "a": "The text is written in red capital letters on a white rectangular sign mounted on a textured exterior wall.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In a sentence or two, describe how the text \"FDC SERVES\n45258 TOM BLALOCK ST.\" looks and behaves in the video."
+    }
+  ],
+  "method": "downsample_x4"
+}

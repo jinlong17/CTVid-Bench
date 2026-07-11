@@ -1,0 +1,313 @@
+{
+  "video_id": "C0309",
+  "frames": 120,
+  "word": "52TOYS PLAY FOR FUN 玩点有趣的",
+  "video_path": "temporal/videos_vqa/blur/videos/CHN_C0309.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "mixed",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" likely to be?\n Options:\nA. general scene text\nB. storefront or brand sign\nC. direction or navigation sign\nD. warning or prohibition sign\nE. menu or commercial information\nF. address or street sign\nG. event or poster information",
+      "q": "写着「52TOYS PLAY FOR FUN 玩点有趣的」的那段文字，你觉得更像是哪种类型的标识？\n Options:\nA. general scene text\nB. storefront or brand sign\nC. direction or navigation sign\nD. warning or prohibition sign\nE. menu or commercial information\nF. address or street sign\nG. event or poster information",
+      "a": "B",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. general scene text",
+        "B. storefront or brand sign",
+        "C. direction or navigation sign",
+        "D. warning or prohibition sign",
+        "E. menu or commercial information",
+        "F. address or street sign",
+        "G. event or poster information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「52TOYS PLAY FOR FUN 玩点有趣的」的那段文字，你觉得更像是哪种类型的标识？\n Options:\nA. general scene text\nB. storefront or brand sign\nC. direction or navigation sign\nD. warning or prohibition sign\nE. menu or commercial information\nF. address or street sign\nG. event or poster information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" appear in?\n Options:\nA. transportation / station\nB. restaurant or menu\nC. other public sign\nD. road or street\nE. warning / rule sign\nF. storefront\nG. campus or office\nH. event poster or display",
+      "q": "「52TOYS PLAY FOR FUN 玩点有趣的」这段文字，一般会出现在什么样的场景里？\n Options:\nA. transportation / station\nB. restaurant or menu\nC. other public sign\nD. road or street\nE. warning / rule sign\nF. storefront\nG. campus or office\nH. event poster or display",
+      "a": "A",
+      "a_text": "transportation / station",
+      "answer_key": "transportation / station",
+      "options": [
+        "A. transportation / station",
+        "B. restaurant or menu",
+        "C. other public sign",
+        "D. road or street",
+        "E. warning / rule sign",
+        "F. storefront",
+        "G. campus or office",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「52TOYS PLAY FOR FUN 玩点有趣的」这段文字，一般会出现在什么样的场景里？\n Options:\nA. transportation / station\nB. restaurant or menu\nC. other public sign\nD. road or street\nE. warning / rule sign\nF. storefront\nG. campus or office\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. top-right (upper-right area)",
+      "q": "写有「52TOYS PLAY FOR FUN 玩点有趣的」的那行字，大多数时候处于画面的哪个区域？\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. top-right (upper-right area)",
+      "a": "D",
+      "a_text": "bottom-right (lower-right area)",
+      "answer_key": "bottom-right",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. center (middle of the frame)",
+        "C. top-left (upper-left area)",
+        "D. bottom-right (lower-right area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写有「52TOYS PLAY FOR FUN 玩点有趣的」的那行字，大多数时候处于画面的哪个区域？\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "这段视频里，「52TOYS PLAY FOR FUN 玩点有趣的」移动幅度有多大？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「52TOYS PLAY FOR FUN 玩点有趣的」移动幅度有多大？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" move?\n Options:\nA. moves down\nB. moves diagonally\nC. moves right\nD. moves up\nE. moves left\nF. stays roughly in place\nG. changes direction partway",
+      "q": "看完整段视频，「52TOYS PLAY FOR FUN 玩点有趣的」总体是往哪个方向移动的？\n Options:\nA. moves down\nB. moves diagonally\nC. moves right\nD. moves up\nE. moves left\nF. stays roughly in place\nG. changes direction partway",
+      "a": "A",
+      "a_text": "moves down",
+      "answer_key": "moves down",
+      "options": [
+        "A. moves down",
+        "B. moves diagonally",
+        "C. moves right",
+        "D. moves up",
+        "E. moves left",
+        "F. stays roughly in place",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看完整段视频，「52TOYS PLAY FOR FUN 玩点有趣的」总体是往哪个方向移动的？\n Options:\nA. moves down\nB. moves diagonally\nC. moves right\nD. moves up\nE. moves left\nF. stays roughly in place\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" at the beginning, the middle, and the end?\n Options:\nA. center -> bottom-right -> bottom-right\nB. top-right -> top-left -> bottom-right\nC. top-right -> center -> bottom-right\nD. top-right -> bottom-right -> bottom-right",
+      "q": "在视频前段、中段、后段，「52TOYS PLAY FOR FUN 玩点有趣的」分别在画面什么位置？\n Options:\nA. center -> bottom-right -> bottom-right\nB. top-right -> top-left -> bottom-right\nC. top-right -> center -> bottom-right\nD. top-right -> bottom-right -> bottom-right",
+      "a": "D",
+      "a_text": "top-right -> bottom-right -> bottom-right",
+      "answer_key": "top-right -> bottom-right -> bottom-right",
+      "options": [
+        "A. center -> bottom-right -> bottom-right",
+        "B. top-right -> top-left -> bottom-right",
+        "C. top-right -> center -> bottom-right",
+        "D. top-right -> bottom-right -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在视频前段、中段、后段，「52TOYS PLAY FOR FUN 玩点有趣的」分别在画面什么位置？\n Options:\nA. center -> bottom-right -> bottom-right\nB. top-right -> top-left -> bottom-right\nC. top-right -> center -> bottom-right\nD. top-right -> bottom-right -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "q": "以画面比例来看，「52TOYS PLAY FOR FUN 玩点有趣的」这段文字属于大字、中等大小还是小字？\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "a": "C",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "以画面比例来看，「52TOYS PLAY FOR FUN 玩点有趣的」这段文字属于大字、中等大小还是小字？\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. gets smaller\nC. gets larger\nD. size fluctuates (goes up and down)",
+      "q": "随着视频进行，「52TOYS PLAY FOR FUN 玩点有趣的」有没有变大或变小，还是一直保持差不多的尺寸？\n Options:\nA. stays about the same size\nB. gets smaller\nC. gets larger\nD. size fluctuates (goes up and down)",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. gets smaller",
+        "C. gets larger",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频进行，「52TOYS PLAY FOR FUN 玩点有趣的」有没有变大或变小，还是一直保持差不多的尺寸？\n Options:\nA. stays about the same size\nB. gets smaller\nC. gets larger\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "q": "靠近画面边缘还是在画面内部——「52TOYS PLAY FOR FUN 玩点有趣的」的位置通常是哪种情况？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. fully inside, away from the edges",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "靠近画面边缘还是在画面内部——「52TOYS PLAY FOR FUN 玩点有趣的」的位置通常是哪种情况？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"52TOYS PLAY FOR FUN 玩点有趣的\" and how it appears in the video.",
+      "q": "请简单说说「52TOYS PLAY FOR FUN 玩点有趣的」这段文字长什么样，以及它在视频里是怎样呈现的。",
+      "a": "The text is printed in black on a bright yellow vertical panel, featuring a brand name and a bilingual slogan.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "请简单说说「52TOYS PLAY FOR FUN 玩点有趣的」这段文字长什么样，以及它在视频里是怎样呈现的。"
+    }
+  ],
+  "method": "blur"
+}

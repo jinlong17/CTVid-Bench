@@ -1,0 +1,313 @@
+{
+  "video_id": "C0460",
+  "frames": 120,
+  "word": "Happy Lunar New Year 2025\nCUPERTINO VILLAGE",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0460.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" likely to be?\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. menu or commercial information\nD. warning or prohibition sign\nE. storefront or brand sign\nF. address or street sign\nG. general scene text",
+      "q": "What type of sign would you say \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" is?\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. menu or commercial information\nD. warning or prohibition sign\nE. storefront or brand sign\nF. address or street sign\nG. general scene text",
+      "a": "B",
+      "a_text": "event or poster information",
+      "answer_key": "event or poster information",
+      "options": [
+        "A. direction or navigation sign",
+        "B. event or poster information",
+        "C. menu or commercial information",
+        "D. warning or prohibition sign",
+        "E. storefront or brand sign",
+        "F. address or street sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you say \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" is?\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. menu or commercial information\nD. warning or prohibition sign\nE. storefront or brand sign\nF. address or street sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" appear in?\n Options:\nA. warning / rule sign\nB. event poster or display\nC. storefront\nD. road or street\nE. other public sign\nF. campus or office\nG. transportation / station\nH. restaurant or menu",
+      "q": "Looking at where \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" shows up — what kind of setting or scene surrounds it?\n Options:\nA. warning / rule sign\nB. event poster or display\nC. storefront\nD. road or street\nE. other public sign\nF. campus or office\nG. transportation / station\nH. restaurant or menu",
+      "a": "B",
+      "a_text": "event poster or display",
+      "answer_key": "event poster or display",
+      "options": [
+        "A. warning / rule sign",
+        "B. event poster or display",
+        "C. storefront",
+        "D. road or street",
+        "E. other public sign",
+        "F. campus or office",
+        "G. transportation / station",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Looking at where \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" shows up — what kind of setting or scene surrounds it?\n Options:\nA. warning / rule sign\nB. event poster or display\nC. storefront\nD. road or street\nE. other public sign\nF. campus or office\nG. transportation / station\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "q": "Whereabouts does \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" mostly sit in the frame — center, top, bottom, or toward one side?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-right (lower-right area)",
+        "C. bottom-left (lower-left area)",
+        "D. top-right (upper-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Whereabouts does \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" mostly sit in the frame — center, top, bottom, or toward one side?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "How far does \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" travel across the clip — a lot, a little, or barely at all?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How far does \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" travel across the clip — a lot, a little, or barely at all?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" move?\n Options:\nA. moves diagonally\nB. moves right\nC. stays roughly in place\nD. changes direction partway\nE. moves up\nF. moves left\nG. moves down",
+      "q": "Judging by its movement, which direction does \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" generally head?\n Options:\nA. moves diagonally\nB. moves right\nC. stays roughly in place\nD. changes direction partway\nE. moves up\nF. moves left\nG. moves down",
+      "a": "D",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves diagonally",
+        "B. moves right",
+        "C. stays roughly in place",
+        "D. changes direction partway",
+        "E. moves up",
+        "F. moves left",
+        "G. moves down"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Judging by its movement, which direction does \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" generally head?\n Options:\nA. moves diagonally\nB. moves right\nC. stays roughly in place\nD. changes direction partway\nE. moves up\nF. moves left\nG. moves down"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" at the beginning, the middle, and the end?\n Options:\nA. top-left -> center -> bottom-left\nB. bottom-right -> center -> center\nC. top-left -> center -> center\nD. bottom-left -> center -> center",
+      "q": "Can you describe where \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" is positioned near the start, in the middle, and toward the end of the clip?\n Options:\nA. top-left -> center -> bottom-left\nB. bottom-right -> center -> center\nC. top-left -> center -> center\nD. bottom-left -> center -> center",
+      "a": "C",
+      "a_text": "top-left -> center -> center",
+      "answer_key": "top-left -> center -> center",
+      "options": [
+        "A. top-left -> center -> bottom-left",
+        "B. bottom-right -> center -> center",
+        "C. top-left -> center -> center",
+        "D. bottom-left -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you describe where \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" is positioned near the start, in the middle, and toward the end of the clip?\n Options:\nA. top-left -> center -> bottom-left\nB. bottom-right -> center -> center\nC. top-left -> center -> center\nD. bottom-left -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "How would you size up \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" relative to the whole frame — small, medium, or large?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "D",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. large (a major part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How would you size up \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" relative to the whole frame — small, medium, or large?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "q": "Does \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" appear to grow, shrink, or stay roughly the same size as the video progresses?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "a": "D",
+      "a_text": "gets smaller",
+      "answer_key": "gets smaller",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" appear to grow, shrink, or stay roughly the same size as the video progresses?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "q": "Is \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" sitting comfortably within the frame, or does it hug one of the edges?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "a": "C",
+      "a_text": "comes close to an edge",
+      "answer_key": "comes close to an edge",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. fully inside, away from the edges",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" sitting comfortably within the frame, or does it hug one of the edges?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" and how it appears in the video.",
+      "q": "Give a quick rundown of \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" — what it looks like and how it moves or stays put in the video.",
+      "a": "The target text is written in white and gold on a red freestanding event sign located outdoors.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick rundown of \"Happy Lunar New Year 2025\nCUPERTINO VILLAGE\" — what it looks like and how it moves or stays put in the video."
+    }
+  ],
+  "method": "blur"
+}

@@ -1,0 +1,474 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text visible in the area [[1172, 476], [1490, 476], [1490, 832], [1172, 832]]. ________",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1178,745], [1484,776], [1478,832], [1172,800]], the text reads \"R____VED\" with a gap — how should it be completed?",
+              "answer": "ESER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across all choices, which one correctly names the text found in [[1172, 645], [1490, 645], [1490, 832], [1172, 832]]? Options:\nA. P\nB. 专用车位\nC. 专用车傡\nD. PESERVED",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: do 'RESEPVED, P, 专用车位' appear within the bounding box [[1172.0, 475.7142857142857], [1490.0, 475.7142857142857], [1490.0, 832.0], [1172.0, 832.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible in region [[193, 0], [1486, 0], [1486, 858], [193, 858]]. ________",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "起步点",
+                "务中心",
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign in the area [[1122,757], [1426,790], [1420,846], [1116,812]] shows \"RES____\" — what letters fill the blank?",
+              "answer": "ERVED"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning just the [[209, 476], [1486, 476], [1486, 858], [209, 858]] region, which answer correctly captures the text there? Options:\nA. P, RESERVED, 讲庬聚会, 会计税务 年检, 创业办公, 公司\nB. 创业办公, RESERVED, 讲座聚会, 会计税务 年检, P, 起步点\nC. 创业办公, 专用车位, 公司, 会计稅务 年检, RESERVED, 讲座聚会\nD. 专用车位, 公司, P, 创业办公, 会计税务 年检, 讲座聚会",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '公司, 务中心, 专用车位, RESERVED, 起步点, 创业办公, P' actually appear(s) inside [[193.33333333333337, -2.1316282072803006e-14], [1486.0, -2.1316282072803006e-14], [1486.0, 857.6190476190474], [193.33333333333337, 857.6190476190474]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can be read from inside [[1164, 476], [1484, 476], [1484, 828], [1164, 828]]? ________",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1127,704], [1428,742], [1417,827], [1116,789]] 的标记牌上写着\"专用____\"，空缺的部分是什么？",
+              "answer": "车位"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The [[1164, 476], [1484, 476], [1484, 828], [1164, 828]] region contains text — which answer matches it? Options:\nA. 专用车住, P\nB. RESERVED, 专用车位\nC. 专用车傡, RESERVED\nD. P, PESERVED",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given [[1164.0, 475.7142857142857], [1484.0, 475.7142857142857], [1484.0, 828.0], [1164.0, 828.0]], is 'P, RESERVED' visible inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you see inside [[1162, 476], [1480, 476], [1480, 828], [1162, 828]]. ________",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1112,672], [1409,710], [1398,795], [1101,757]] 坐标区域中，\"专用____\"里空着的字是什么？",
+              "answer": "车位"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[1162, 639], [1480, 639], [1480, 828], [1162, 828]], what text is written there? Options:\nA. 专用车位\nB. P\nC. PESERVED\nD. PESERVED",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "I'm wondering if 'P, 专用车傡, RESERVED' sits inside [[1162.0, 475.7142857142857], [1480.0, 475.7142857142857], [1480.0, 828.0], [1162.0, 828.0]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[1154, 476], [1472, 476], [1472, 830], [1154, 830]] — what word(s) does it contain? ________",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "标识出现了残缺，[[1089,704], [1386,742], [1375,825], [1078,787]] 处的 专用车____？ 中空缺的是哪个字？",
+              "answer": "位"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you zoom in on [[1154, 643], [1472, 643], [1472, 830], [1154, 830]], which answer lists the text found there? Options:\nA. P\nB. PESERVED\nC. PESERVED\nD. RESERVED",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is simple: does '专用车位, RESERVED' appear anywhere inside [[1154.0, 475.7142857142857], [1472.0, 475.7142857142857], [1472.0, 830.0], [1154.0, 830.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[1146, 479], [1464, 479], [1464, 835], [1146, 835]] and write it down: ________.",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1062,738], [1359,779], [1352,834], [1055,794]], the sequence \"RES____VED\" has a gap — what letter(s) should fill it?",
+              "answer": "ER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[1146, 479], [1464, 479], [1464, 835], [1146, 835]], which answer correctly identifies the text there? Options:\nA. PESERVED, 专用车位\nB. 专用车位, D\nC. P, 专用车位\nD. 专用车傡, RESERVED",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'RESERVED, P, 专用车傡' appears inside the region [[1146.0, 479.2857142857143], [1464.0, 479.2857142857143], [1464.0, 835.0], [1146.0, 835.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text you see inside [[1136, 479], [1455, 479], [1455, 841], [1136, 841]]: ________.",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图示坐标 [[1058,596], [1349,634], [1338,720], [1047,682]] 处的文字 \"专用____\"，空缺部分应填入什么？",
+              "answer": "车位"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[1136, 657], [1455, 657], [1455, 841], [1136, 841]] matches which of the options below? Options:\nA. 专用车傡\nB. PESERVED\nC. P\nD. 专用车位",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '专用车傡, P, RESERVED' actually visible within the area [[1136.0, 479.2857142857143], [1455.0, 479.2857142857143], [1455.0, 841.0], [1136.0, 841.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you can read in [[1130, 479], [1447, 479], [1447, 843], [1130, 843]]: ________.",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is missing from \"RESER____\" at coordinates [[1044,681], [1332,721], [1324,777], [1036,736]] — which characters are absent?",
+              "answer": "VED"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that matches what's written inside [[1130, 479], [1447, 479], [1447, 843], [1130, 843]]. Options:\nA. RESERVED, D\nB. R, 专用车位\nC. P, 专用车傡\nD. 专用车位, RESERVED",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'RESERVED, 专用车傡, P' fall within the bounding area [[1130.0, 479.2857142857143], [1447.0, 479.2857142857143], [1447.0, 843.0], [1130.0, 843.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[1126, 488], [1443, 488], [1443, 843], [1126, 843]], what word(s) can you make out? ________.",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at coordinates [[1211,447], [1328,457], [1298,592], [1185,582]], the partial string \"____\" has gaps — what fills them?",
+              "answer": "P"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the option that accurately captures the text in [[1126, 488], [1443, 488], [1443, 843], [1126, 843]]. Options:\nA. P, RESERVED\nB. 专用车位, D\nC. R, 专用车位\nD. 专用车位, PESERVED",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '专用车傡, P, RESERVED' show up somewhere inside [[1126.0, 487.61904761904754], [1443.0, 487.61904761904754], [1443.0, 843.0], [1126.0, 843.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down whatever word(s) you can read inside [[1120, 488], [1439, 488], [1439, 843], [1120, 843]]: ________.",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options correctly states the text found in [[1120, 488], [1439, 488], [1439, 843], [1120, 843]] — which one? Options:\nA. 专用车位, P\nB. 专用车傡, P\nC. P, PESERVED\nD. D, 专用车位",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'RESERVED, D, 专用车位' are present within [[1120.0, 487.61904761904754], [1439.0, 487.61904761904754], [1439.0, 843.0], [1120.0, 843.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[1116, 488], [1435, 488], [1435, 846], [1116, 846]], write down the word(s) you see there: ________.",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标 [[1021,572], [1303,615], [1290,699], [1008,655]] 处的文字，补全空缺：专用车____这部分需要补全。",
+              "answer": "位"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer below reflects what's written in the area [[1116, 488], [1435, 488], [1435, 846], [1116, 846]]? Options:\nA. RESERVED, R\nB. RESERVED, O\nC. P, RESERVED\nD. RESERVED, D",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) '专用车位, RESERVED' appear within [[1116.0, 487.61904761904754], [1435.0, 487.61904761904754], [1435.0, 846.0], [1116.0, 846.0]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0220/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0220/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Peer into [[1112, 488], [1432, 488], [1432, 846], [1112, 846]] — what word or words do you find there? ________.",
+              "answer": [
+                "专用车位",
+                "RESERVED",
+                "P"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1021,594], [1302,637], [1289,720], [1008,677]] 区域内有不完整的文字 \"专用____\"，缺失的部分是什么？",
+              "answer": "车位"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[1112, 488], [1432, 488], [1432, 846], [1112, 846]] — which option matches it? Options:\nA. R, RESERVED\nB. RESERVED, 专用车位\nC. RESERVED, D\nD. RESERVED, 专用车傡",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[1112.0, 487.61904761904754], [1432.0, 487.61904761904754], [1432.0, 846.0], [1112.0, 846.0]] actually contain the label(s) 'P, RESERVED'?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0220"
+  }
+]

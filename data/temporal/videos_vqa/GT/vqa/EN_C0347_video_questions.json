@@ -1,0 +1,312 @@
+{
+  "video_id": "C0347",
+  "frames": 120,
+  "word": "citibank\nCarpool\nParking",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0347.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"citibank\nCarpool\nParking\" likely to be?\n Options:\nA. general scene text\nB. address or street sign\nC. direction or navigation sign\nD. event or poster information\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information",
+      "q": "The sign reading \"citibank\nCarpool\nParking\" — what type of sign would that typically be?\n Options:\nA. general scene text\nB. address or street sign\nC. direction or navigation sign\nD. event or poster information\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information",
+      "a": "C",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. general scene text",
+        "B. address or street sign",
+        "C. direction or navigation sign",
+        "D. event or poster information",
+        "E. warning or prohibition sign",
+        "F. storefront or brand sign",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The sign reading \"citibank\nCarpool\nParking\" — what type of sign would that typically be?\n Options:\nA. general scene text\nB. address or street sign\nC. direction or navigation sign\nD. event or poster information\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"citibank\nCarpool\nParking\" appear in?\n Options:\nA. transportation / station\nB. storefront\nC. restaurant or menu\nD. road or street\nE. warning / rule sign\nF. other public sign\nG. campus or office\nH. event poster or display",
+      "q": "What kind of setting or environment does the sign \"citibank\nCarpool\nParking\" seem to belong to?\n Options:\nA. transportation / station\nB. storefront\nC. restaurant or menu\nD. road or street\nE. warning / rule sign\nF. other public sign\nG. campus or office\nH. event poster or display",
+      "a": "F",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. transportation / station",
+        "B. storefront",
+        "C. restaurant or menu",
+        "D. road or street",
+        "E. warning / rule sign",
+        "F. other public sign",
+        "G. campus or office",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of setting or environment does the sign \"citibank\nCarpool\nParking\" seem to belong to?\n Options:\nA. transportation / station\nB. storefront\nC. restaurant or menu\nD. road or street\nE. warning / rule sign\nF. other public sign\nG. campus or office\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"citibank\nCarpool\nParking\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)",
+      "q": "Which part of the frame does \"citibank\nCarpool\nParking\" occupy for most of the clip?\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)",
+      "a": "C",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. top-right (upper-right area)",
+        "C. center (middle of the frame)",
+        "D. top-left (upper-left area)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which part of the frame does \"citibank\nCarpool\nParking\" occupy for most of the clip?\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"citibank\nCarpool\nParking\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "Overall, how much does \"citibank\nCarpool\nParking\" shift position during the video?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "C",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Overall, how much does \"citibank\nCarpool\nParking\" shift position during the video?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"citibank\nCarpool\nParking\" move?\n Options:\nA. moves down\nB. moves diagonally\nC. moves left\nD. moves up\nE. changes direction partway\nF. moves right\nG. stays roughly in place",
+      "q": "In what general direction does \"citibank\nCarpool\nParking\" move as the clip runs?\n Options:\nA. moves down\nB. moves diagonally\nC. moves left\nD. moves up\nE. changes direction partway\nF. moves right\nG. stays roughly in place",
+      "a": "E",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves down",
+        "B. moves diagonally",
+        "C. moves left",
+        "D. moves up",
+        "E. changes direction partway",
+        "F. moves right",
+        "G. stays roughly in place"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In what general direction does \"citibank\nCarpool\nParking\" move as the clip runs?\n Options:\nA. moves down\nB. moves diagonally\nC. moves left\nD. moves up\nE. changes direction partway\nF. moves right\nG. stays roughly in place"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"citibank\nCarpool\nParking\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-left -> center\nB. center -> top-right -> center\nC. center -> bottom-right -> center\nD. center -> bottom-left -> center",
+      "q": "At the start, partway through, and near the end, where in the frame is \"citibank\nCarpool\nParking\"?\n Options:\nA. center -> top-left -> center\nB. center -> top-right -> center\nC. center -> bottom-right -> center\nD. center -> bottom-left -> center",
+      "a": "B",
+      "a_text": "center -> top-right -> center",
+      "answer_key": "center -> top-right -> center",
+      "options": [
+        "A. center -> top-left -> center",
+        "B. center -> top-right -> center",
+        "C. center -> bottom-right -> center",
+        "D. center -> bottom-left -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "At the start, partway through, and near the end, where in the frame is \"citibank\nCarpool\nParking\"?\n Options:\nA. center -> top-left -> center\nB. center -> top-right -> center\nC. center -> bottom-right -> center\nD. center -> bottom-left -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"citibank\nCarpool\nParking\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "q": "How large does \"citibank\nCarpool\nParking\" appear relative to the frame as a whole?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "a": "A",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How large does \"citibank\nCarpool\nParking\" appear relative to the frame as a whole?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"citibank\nCarpool\nParking\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. gets larger\nD. stays about the same size",
+      "q": "Does \"citibank\nCarpool\nParking\" grow bigger, shrink, or hold roughly the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. gets larger\nD. stays about the same size",
+      "a": "D",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. gets smaller",
+        "C. gets larger",
+        "D. stays about the same size"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"citibank\nCarpool\nParking\" grow bigger, shrink, or hold roughly the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. gets larger\nD. stays about the same size"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"citibank\nCarpool\nParking\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "Is \"citibank\nCarpool\nParking\" sitting comfortably within the frame, or does it hug one of the edges?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"citibank\nCarpool\nParking\" sitting comfortably within the frame, or does it hug one of the edges?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"citibank\nCarpool\nParking\" and how it appears in the video.",
+      "q": "Give a quick rundown of the text \"citibank\nCarpool\nParking\" — what it looks like and how it appears throughout the clip.",
+      "a": "A blue sign on a metal post displays the Citibank logo and designates the area for carpool parking.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick rundown of the text \"citibank\nCarpool\nParking\" — what it looks like and how it appears throughout the clip."
+    }
+  ]
+}

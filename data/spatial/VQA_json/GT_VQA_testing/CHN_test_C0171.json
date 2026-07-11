@@ -1,0 +1,469 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down everything written at [[22, 291], [1078, 291], [1078, 508], [22, 508]]: ________",
+              "answer": [
+                "藤椒鱼皮",
+                "今日",
+                "美好"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中 [[801,801], [1101,777], [1105,831], [805,855]] 处有一段文字，请补全：凉拌青瓜____藕。",
+              "answer": "莲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following best matches the text visible in [[0, 314], [196, 314], [196, 840], [0, 840]]? Options:\nA. 女, 美好, 花\nB. 美好, 女, 茌\nC. 美好, 花, 藤椒鱼皮\nD. 美姄, 花, 女",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The text '女, 凉拌青瓜莲藕, 花' — would you say it appears inside [[0, 425], [1105, 425], [1105, 855], [0, 855]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text shown in [[0.0, 286.0], [1108.75, 286.0], [1108.75, 852.5], [0.0, 852.5]]. The word(s) is/are ________.",
+              "answer": [
+                "藤椒鱼皮",
+                "今日",
+                "美好",
+                "女",
+                "凉拌青瓜莲藕",
+                "花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据 [[93,302], [169,303], [170,393], [93,391]] 区域内容，补全以下文字：\"____\"。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which answer choice captures what's written at [[23, 286], [1084, 286], [1084, 502], [23, 502]]? Options:\nA. 女, 今日\nB. 藤椒鱼皮, 美好\nC. 今日, 美姄\nD. 凉拌青瓜莲藕, 美好",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[0.0, 286.0], [1108.75, 286.0], [1108.75, 852.5], [0.0, 852.5]] — is '凉拌青瓜莲藕, 花, 今日, 藤椒鱼皮' the text you find there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text visible at [[810, 282], [1114, 282], [1114, 849], [810, 849]]: ________",
+              "answer": [
+                "藤椒鱼皮",
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[70,372], [155,372], [154,455], [70,455]] 处缺了什么字符？请填入使\"____\"完整。",
+              "answer": "好"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text is visible at [[0, 306], [196, 306], [196, 828], [0, 828]] — which answer option matches it? Options:\nA. 今日, 茌, 美好\nB. 今日, 藤椒鱼皮, 美好\nC. 美好, 花, 女\nD. 女, 花, 美姄",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '女, 花, 凉拌青瓜莲藕, 美好' appears inside the region marked by [[0.0, 282.25], [1113.75, 282.25], [1113.75, 848.75], [0.0, 848.75]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the text occupying [[808.5, 283.5], [1112.5, 283.5], [1112.5, 855.0], [808.5, 855.0]]. The word(s) is/are ________.",
+              "answer": [
+                "藤椒鱼皮",
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请仔细检视 [[863,762], [1188,743], [1191,803], [865,820]] 区域，找出\"凉拌青瓜____藕\"中缺失的字符并填入。",
+              "answer": "莲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly names the text at [[0, 309], [190, 309], [190, 837], [0, 837]]. Options:\nA. 美好, 藤椒鱼皮\nB. 美姄, 花\nC. 凉拌青瓜莲藕, 今日\nD. 今日, 花",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '美好, 今日' is found inside [[13, 284], [1083, 284], [1083, 498], [13, 498]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[3.25, 306.5], [179.75, 306.5], [179.75, 499.25], [3.25, 499.25]] — what text is there? The word(s) is/are ________.",
+              "answer": [
+                "今日",
+                "美好"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[30,135], [98,135], [98,214], [30,214]] 区域里的文字不完整，\"____\"中缺少的是哪个字符？",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text you see in [[3, 284], [1079, 284], [1079, 499], [3, 499]]? Options:\nA. 藤棷鱼皮, 今日\nB. 藤椒鱼皮, 今日\nC. 今日, 美姄\nD. 凉拌青瓜莲藕, 美好",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '美姄, 今日, 藤椒鱼皮, 凉拌青瓜莲藕' sits within the region [[3.25, 283.5], [1102.5, 283.5], [1102.5, 857.5], [3.25, 857.5]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the text at [[0.0, 305.25], [172.0, 305.25], [172.0, 494.25], [0.0, 494.25]] and complete the blank. The word(s) is/are ________.",
+              "answer": [
+                "今日",
+                "美好"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察 [[902,69], [1132,69], [1132,125], [902,125]] 内的文字，将\"藤椒____皮\"中空缺的内容填写完整。",
+              "answer": "鱼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "After examining the whole image, tell me which choice correctly reflects the text at [[0, 282], [1074, 282], [1074, 494], [0, 494]]. Options:\nA. 美好, 今日\nB. 美好, 凉拌青瓜莲藕\nC. 侖日, 美好\nD. 侖日, 藤椒鱼皮",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify this for me: '今日, 美好, 藤椒鱼皮, 凉拌青瓜莲藕' shows up inside [[0, 282], [1074, 282], [1074, 494], [0, 494]] — yes or no?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Zoom in on [[0.0, 277.25], [1098.75, 277.25], [1098.75, 855.0], [0.0, 855.0]] — what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "藤椒鱼皮",
+                "今日",
+                "美好",
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中 [[886,54], [1126,54], [1126,115], [886,115]] 区域里有一个短语，其中部分文字缺失——请补全\"藤____鱼皮\"。",
+              "answer": "椒"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text visible inside [[0, 300], [172, 300], [172, 489], [0, 489]]? Options:\nA. 藤椒鱼皮\nB. 美姄\nC. 美好\nD. 侖日",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot [[0.0, 300.25], [172.0, 300.25], [172.0, 489.25], [0.0, 489.25]] in the image — do you find the label(s) '美好, 今日, 藤椒鱼皮' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text appears inside the region [[0.0, 274.75], [1102.5, 274.75], [1102.5, 857.5], [0.0, 857.5]]. The word(s) is/are ________.",
+              "answer": [
+                "藤椒鱼皮",
+                "今日",
+                "美好",
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[761,646], [1138,633], [1141,694], [764,707]] 处的文字有空缺，\"凉拌青瓜____藕\"里少了哪个字符？",
+              "answer": "莲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which answer option correctly lists the text(s) found at [[0, 298], [172, 298], [172, 487], [0, 487]]? Options:\nA. 藤椒鱼皮\nB. 美好\nC. 凉拌青瓜莲藕\nD. 侖日",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[0.0, 297.75], [172.0, 297.75], [172.0, 486.75], [0.0, 486.75]] — is the label(s) '藤椒鱼皮, 美好, 今日' present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text that appears in area [[794.9850427350427, 782.4786324786326], [1117.051282051282, 782.4786324786326], [1117.051282051282, 864.1025641025642], [794.9850427350427, 864.1025641025642]]. The word(s) is/are ________.",
+              "answer": [
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[42,111], [141,113], [140,210], [42,209]] 内的文字有缺漏，请将\"____\"补充完整。",
+              "answer": "好"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that accurately reflects the text(s) you can read at [[0, 279], [1090, 279], [1090, 492], [0, 492]]. Options:\nA. 今日, 凉拌青瓜莲藕\nB. 藤椒鱼皮, 美好\nC. 今日, 美姄\nD. 藤椒鱼皮, 美姄",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The region [[0.0, 298.3382352941176], [173.25, 298.3382352941176], [173.25, 492.0441176470588], [0.0, 492.0441176470588]] is highlighted — does it contain the label(s) '美好'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you read at position [[0.0, 300.8382352941176], [173.25, 300.8382352941176], [173.25, 494.5441176470588], [0.0, 494.5441176470588]]? The word(s) is/are ________.",
+              "answer": [
+                "今日",
+                "美好"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请找到 [[70,154], [168,156], [167,252], [69,252]] 的位置，那里的短语有空缺，试着把\"____\"补全。",
+              "answer": "好"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one captures the text found at [[0, 301], [173, 301], [173, 495], [0, 495]]? Options:\nA. 美姄\nB. 藤椒鱼皮\nC. 凉拌青瓜莲藕\nD. 美好",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At the marked region [[0, 281], [1090, 281], [1090, 495], [0, 495]], can you see the label(s) '今日, 美好'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) visible inside [[794.9850427350427, 789.1744366744367], [1117.051282051282, 789.1744366744367], [1117.051282051282, 870.7983682983684], [794.9850427350427, 870.7983682983684]]. The word(s) is/are ________.",
+              "answer": [
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看图中 [[931,659], [1326,652], [1327,718], [930,725]] 坐标处，这里的文字不完整，请填入缺失部分使\"凉拌青____藕\"完整。",
+              "answer": "瓜莲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[90, 280], [1092, 280], [1092, 494], [90, 494]] matches exactly one of the options — which is it? Options:\nA. 曰, 好\nB. 凉拌青瓜莲藕, 好\nC. 日, 藤棷鱼皮\nD. 日, 好",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the area bounded by [[90, 280], [1092, 280], [1092, 494], [90, 494]]: is the label(s) '日, 凉拌青瓜莲藕, 藤椒鱼皮, 好' visible inside?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0171/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0171/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at the specified region [[794.9850427350427, 789.1744366744367], [1117.051282051282, 789.1744366744367], [1117.051282051282, 870.7983682983684], [794.9850427350427, 870.7983682983684]] and tell me what you see. The word(s) is/are ________.",
+              "answer": [
+                "凉拌青瓜莲藕"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据坐标 [[42,208], [252,204], [256,306], [44,312]] 所示区域的内容，请补全这个短语：\"美____\"",
+              "answer": "好"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the option that correctly names the text inside [[85, 280], [1092, 280], [1092, 494], [85, 494]]. Options:\nA. 藤椒鱼皮, 凉拌青瓜莲藕\nB. 姄, 日\nC. 日, 姄\nD. 日, 好",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focus on [[85.20979020979021, 297.23683669271907], [169.68531468531467, 297.23683669271907], [169.68531468531467, 493.8448169477581], [85.20979020979021, 493.8448169477581]] — would you say that label(s) '好' appear(s) in that area?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0171"
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Something is written at [[55, 174], [1262, 174], [1262, 1057], [55, 1057]] — what does it say? ________",
+              "answer": [
+                "EMBRACE",
+                "THAT YOU ARE",
+                "ALL",
+                "BE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[487, 174], [1262, 174], [1262, 446], [487, 446]] and choose which option best represents its text content. Options:\nA. BE, ALL\nB. EMBRACE, THAT YOU ARE\nC. EMBRACE, IHAT YOU ARE\nD. EMBPACE, ALL",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'THAT YOU ARE, BE, ALL' within the bounding box [[54.6938775510204, 173.52941176470588], [1261.6260162601627, 173.52941176470588], [1261.6260162601627, 1057.1428571428569], [54.6938775510204, 1057.1428571428569]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At location [[70.87694517719628, 914.3675234358462], [189.65245538127806, 914.3675234358462], [189.65245538127806, 1049.4695642521724], [70.87694517719628, 1049.4695642521724]], what word or words are shown? ________",
+              "answer": [
+                "BE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the image, which answer option correctly captures the text in [[509, 171], [1279, 171], [1279, 437], [509, 437]]? Options:\nA. THAT YOU ARE, EMBPACE\nB. BE, EMBRACE\nC. THAT YOU ARE, ALL\nD. IHAT YOU ARE, ALL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) 'THAT YOU ARE, EMBRACE' sit within the box at [[509, 171], [1279, 171], [1279, 437], [509, 437]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the bounding box [[209.8487572254081, 944.8979591836727], [328.6242674294901, 944.8979591836727], [328.6242674294901, 1080.0], [209.8487572254081, 1080.0]], what word(s) are shown inside? ________",
+              "answer": [
+                "BE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the given choices, which best describes the text found in [[632, 215], [1404, 215], [1404, 485], [632, 485]]? Options:\nA. ALL, IHAT YOU ARE\nB. EMBRACE, ALL\nC. EMBRACE, RLL\nD. THAT YOU ARE, BE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at region [[632, 215], [1404, 215], [1404, 485], [632, 485]], do you see the label(s) 'ALL, THAT YOU ARE' appearing there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you read inside [[393.56122140263324, 995.3897822217143], [474.83612180103967, 995.3897822217143], [474.83612180103967, 1075.0710571221127], [393.56122140263324, 1075.0710571221127]]? ________",
+              "answer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text found inside [[765, 258], [1545, 258], [1545, 524], [765, 524]]? Options:\nA. B, THAT YOU ARE\nB. ALL, EMBRACE\nC. ALL, EMBPACE\nD. EMBRACE, IHAT YOU ARE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[765, 258], [1545, 258], [1545, 524], [765, 524]] — does it actually contain the label(s) 'THAT YOU ARE, ALL'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside the region [[447.1661328335575, 1000.3187250996015], [528.4410332319628, 1000.3187250996015], [528.4410332319628, 1080.0], [447.1661328335575, 1080.0]]. ________",
+              "answer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one correctly shows the text inside [[821, 272], [1600, 272], [1600, 537], [821, 537]]? Options:\nA. EMBPACE, ALL\nB. RLL, EMBRACE\nC. THAT YOU ARE, EMBRACE\nD. ALL, B",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — are 'B, ALL, THAT YOU ARE, EMBRACE' the label(s) found inside [[821, 272], [1600, 272], [1600, 537], [821, 537]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text in the area marked [[754.7846980496328, 337.7861057197882], [1524.3633511057678, 337.7861057197882], [1524.3633511057678, 602.0276281615207], [754.7846980496328, 602.0276281615207]] and write what you see. ________",
+              "answer": [
+                "EMBRACE",
+                "THAT YOU ARE",
+                "ALL"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options given, which best represents what's written inside [[755, 338], [1524, 338], [1524, 602], [755, 602]]? Options:\nA. EMBRACE, TNAT YOU ARE\nB. RLL, EMBRACE\nC. ALL, THAT YOU ARE\nD. ALL, IHAT YOU ARE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'THAT YOU ARE, RLL, EMBRACE' actually appear inside [[754.7846980496328, 337.7861057197882], [1524.3633511057678, 337.7861057197882], [1524.3633511057678, 602.0276281615207], [754.7846980496328, 602.0276281615207]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the text content you find inside [[628.202723571527, 303.0131800843586], [1395.4160528402815, 303.0131800843586], [1395.4160528402815, 587.011749176394], [628.202723571527, 587.011749176394]]. ________",
+              "answer": [
+                "EMBRACE",
+                "THAT YOU ARE",
+                "ALL"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Examine [[628, 303], [1395, 303], [1395, 587], [628, 587]] closely — which answer choice correctly captures the text there? Options:\nA. ALL, THAT YOU ARE\nB. ALL, EMBPACE\nC. RLL, EMBRACE\nD. EMBRACE, IHAT YOU ARE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For region [[628.202723571527, 303.0131800843586], [1395.4160528402815, 303.0131800843586], [1395.4160528402815, 587.011749176394], [628.202723571527, 587.011749176394]], the label(s) shown are 'IHAT YOU ARE, ALL, EMBRACE' — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the text that appears inside [[23.500754016454948, 1031.2987012987007], [97.526728042429, 1031.2987012987007], [97.526728042429, 1080.0], [23.500754016454948, 1080.0]]. ________",
+              "answer": [
+                "B"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option captures the text found inside [[471, 270], [1242, 270], [1242, 566], [471, 566]]? Options:\nA. ALL, THAT YOU ARE\nB. EMBPACE, THAT YOU ARE\nC. ALL, B\nD. EMBRACE, IHAT YOU ARE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are you seeing 'THAT YOU ARE, ALL' as the label(s) inside bounding box [[471, 270], [1242, 270], [1242, 566], [471, 566]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[360.72662866902414, 277.93584713394074], [1126.5249549943724, 277.93584713394074], [1126.5249549943724, 575.1840134667094], [360.72662866902414, 575.1840134667094]] — what word(s) can you make out in that area? ________",
+              "answer": [
+                "EMBRACE",
+                "THAT YOU ARE",
+                "ALL"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Figure out which answer option best matches the text visible inside [[361, 278], [1127, 278], [1127, 575], [361, 575]]. Options:\nA. IHAT YOU ARE, EMBRACE\nB. THAT YOU ARE, EMBRAOE\nC. EMBPACE, THAT YOU ARE\nD. ALL, THAT YOU ARE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focusing on [[360.72662866902414, 277.93584713394074], [1126.5249549943724, 277.93584713394074], [1126.5249549943724, 575.1840134667094], [360.72662866902414, 575.1840134667094]], would 'EMBRACE, THAT YOU ARE' be the correct label(s) for that region?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you describe the word(s) you see inside [[1881.0737179487178, 940.9322571044444], [1913.4455128205127, 940.9322571044444], [1913.4455128205127, 967.1474358974359], [1881.0737179487178, 967.1474358974359]]? ________",
+              "answer": [
+                "PO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text inside [[230, 256], [1017, 256], [1017, 574], [230, 574]], which of these options is correct? Options:\nA. EMBRACE, ALL\nB. PO, THAT YOU ARE\nC. THAT YOU ARE, RLL\nD. IHAT YOU ARE, EMBRACE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the bounding box [[230, 256], [1017, 256], [1017, 574], [230, 574]], is 'THAT YOU ARE, EMBRACE' the set of label(s) present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the word(s) that appear in [[1741.726618705036, 598.2832618025751], [1920.0, 598.2832618025751], [1920.0, 978.3693045563549], [1741.726618705036, 978.3693045563549]]. ________",
+              "answer": [
+                "DR",
+                "POWER YOUR DRE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, find the one that matches the text in region [[111, 259], [890, 259], [890, 582], [111, 582]]. Options:\nA. DR, THAT YOU ARE\nB. THAT YOU ARE, EMBPACE\nC. EMBRACE, ALL\nD. RLL, THAT YOU ARE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just checking — are 'THAT YOU ARE, ALL' the label(s) you'd expect to find in [[111, 259], [890, 259], [890, 582], [111, 582]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0682_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_ValleyFair_20250814/C0682_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the text shown in [[1666.6176470588236, 934.5588235294117], [1920.0, 934.5588235294117], [1920.0, 1080.0], [1666.6176470588236, 1080.0]]? ________",
+              "answer": [
+                "POWER YOUR DREAM LIFE",
+                "Cordless Stick Vacuums"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following matches what's written in [[32, 266], [826, 266], [826, 593], [32, 593]]? Options:\nA. THAT YOU ARE, DREA\nB. RLL, EMBRACE\nC. ALL, THAT YOU ARE\nD. POWER YOUR DREAM LIFE, EMBRACE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[32, 266], [1917, 266], [1917, 733], [32, 733]] contain the label(s) 'THAT YOU ARE, EMBRACE, DREA'?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0682_2"
+  }
+]

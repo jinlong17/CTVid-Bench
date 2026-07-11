@@ -1,0 +1,313 @@
+{
+  "video_id": "C0260",
+  "frames": 120,
+  "word": "危险勿近",
+  "video_path": "temporal/videos_vqa/blur/videos/CHN_C0260.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"危险勿近\" likely to be?\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information",
+      "q": "「危险勿近」这几个字，看起来像是什么类型的标识？\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information",
+      "a": "D",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. event or poster information",
+        "B. address or street sign",
+        "C. storefront or brand sign",
+        "D. warning or prohibition sign",
+        "E. direction or navigation sign",
+        "F. general scene text",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「危险勿近」这几个字，看起来像是什么类型的标识？\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"危险勿近\" appear in?\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. road or street\nD. campus or office\nE. storefront\nF. transportation / station\nG. other public sign\nH. event poster or display",
+      "q": "出现「危险勿近」的画面，大概属于哪种场景？\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. road or street\nD. campus or office\nE. storefront\nF. transportation / station\nG. other public sign\nH. event poster or display",
+      "a": "A",
+      "a_text": "warning / rule sign",
+      "answer_key": "warning / rule sign",
+      "options": [
+        "A. warning / rule sign",
+        "B. restaurant or menu",
+        "C. road or street",
+        "D. campus or office",
+        "E. storefront",
+        "F. transportation / station",
+        "G. other public sign",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "出现「危险勿近」的画面，大概属于哪种场景？\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. road or street\nD. campus or office\nE. storefront\nF. transportation / station\nG. other public sign\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"危险勿近\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. center (middle of the frame)\nC. top-left (upper-left area)\nD. top-right (upper-right area)\nE. bottom-left (lower-left area)",
+      "q": "视频里那段写着「危险勿近」的文字，大多数时候出现在画面的哪个位置？\n Options:\nA. bottom-right (lower-right area)\nB. center (middle of the frame)\nC. top-left (upper-left area)\nD. top-right (upper-right area)\nE. bottom-left (lower-left area)",
+      "a": "B",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. center (middle of the frame)",
+        "C. top-left (upper-left area)",
+        "D. top-right (upper-right area)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里那段写着「危险勿近」的文字，大多数时候出现在画面的哪个位置？\n Options:\nA. bottom-right (lower-right area)\nB. center (middle of the frame)\nC. top-left (upper-left area)\nD. top-right (upper-right area)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"危险勿近\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "播放过程中，「危险勿近」这段文字的位置变动幅度大不大？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "B",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "播放过程中，「危险勿近」这段文字的位置变动幅度大不大？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"危险勿近\" move?\n Options:\nA. moves left\nB. moves down\nC. changes direction partway\nD. stays roughly in place\nE. moves up\nF. moves right\nG. moves diagonally",
+      "q": "总体来看，「危险勿近」是朝哪个方向移动的？\n Options:\nA. moves left\nB. moves down\nC. changes direction partway\nD. stays roughly in place\nE. moves up\nF. moves right\nG. moves diagonally",
+      "a": "A",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves left",
+        "B. moves down",
+        "C. changes direction partway",
+        "D. stays roughly in place",
+        "E. moves up",
+        "F. moves right",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「危险勿近」是朝哪个方向移动的？\n Options:\nA. moves left\nB. moves down\nC. changes direction partway\nD. stays roughly in place\nE. moves up\nF. moves right\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"危险勿近\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> center -> center\nB. bottom-right -> center -> center\nC. top-left -> center -> center\nD. top-right -> center -> bottom-right",
+      "q": "能说说「危险勿近」在视频前段、中段和后段分别出现在画面哪个位置吗？\n Options:\nA. top-right -> center -> center\nB. bottom-right -> center -> center\nC. top-left -> center -> center\nD. top-right -> center -> bottom-right",
+      "a": "A",
+      "a_text": "top-right -> center -> center",
+      "answer_key": "top-right -> center -> center",
+      "options": [
+        "A. top-right -> center -> center",
+        "B. bottom-right -> center -> center",
+        "C. top-left -> center -> center",
+        "D. top-right -> center -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能说说「危险勿近」在视频前段、中段和后段分别出现在画面哪个位置吗？\n Options:\nA. top-right -> center -> center\nB. bottom-right -> center -> center\nC. top-left -> center -> center\nD. top-right -> center -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"危险勿近\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里「危险勿近」的字体，算大还是算小？\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "D",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. small (a minor part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里「危险勿近」的字体，算大还是算小？\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"危险勿近\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger",
+      "q": "写着「危险勿近」的文字，在视频里是越来越大、越来越小，还是大小基本没变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「危险勿近」的文字，在视频里是越来越大、越来越小，还是大小基本没变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"危险勿近\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "q": "在这段视频里，「危险勿近」离画面边缘近，还是基本处于画框内侧？\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. fully inside, away from the edges",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在这段视频里，「危险勿近」离画面边缘近，还是基本处于画框内侧？\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"危险勿近\" and how it appears in the video.",
+      "q": "请简单描述一下，写着「危险勿近」的文字在视频中是如何呈现的。",
+      "a": "The red text is displayed on a white rectangular warning sign hanging above a dark doorway in a grey brick wall.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "请简单描述一下，写着「危险勿近」的文字在视频中是如何呈现的。"
+    }
+  ],
+  "method": "blur"
+}

@@ -1,0 +1,313 @@
+{
+  "video_id": "C0100",
+  "frames": 120,
+  "word": "Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0100.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" likely to be?\n Options:\nA. storefront or brand sign\nB. event or poster information\nC. warning or prohibition sign\nD. direction or navigation sign\nE. address or street sign\nF. general scene text\nG. menu or commercial information",
+      "q": "The sign reading \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" — what type of sign would you say that is?\n Options:\nA. storefront or brand sign\nB. event or poster information\nC. warning or prohibition sign\nD. direction or navigation sign\nE. address or street sign\nF. general scene text\nG. menu or commercial information",
+      "a": "D",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. storefront or brand sign",
+        "B. event or poster information",
+        "C. warning or prohibition sign",
+        "D. direction or navigation sign",
+        "E. address or street sign",
+        "F. general scene text",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The sign reading \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" — what type of sign would you say that is?\n Options:\nA. storefront or brand sign\nB. event or poster information\nC. warning or prohibition sign\nD. direction or navigation sign\nE. address or street sign\nF. general scene text\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" appear in?\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. transportation / station\nD. storefront\nE. campus or office\nF. event poster or display\nG. other public sign\nH. road or street",
+      "q": "What kind of environment or setting does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" appear to belong to?\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. transportation / station\nD. storefront\nE. campus or office\nF. event poster or display\nG. other public sign\nH. road or street",
+      "a": "G",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. warning / rule sign",
+        "B. restaurant or menu",
+        "C. transportation / station",
+        "D. storefront",
+        "E. campus or office",
+        "F. event poster or display",
+        "G. other public sign",
+        "H. road or street"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of environment or setting does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" appear to belong to?\n Options:\nA. warning / rule sign\nB. restaurant or menu\nC. transportation / station\nD. storefront\nE. campus or office\nF. event poster or display\nG. other public sign\nH. road or street"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. top-right (upper-right area)\nE. bottom-left (lower-left area)",
+      "q": "If you had to point to it on screen, where does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" tend to sit in the frame throughout the clip?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. top-right (upper-right area)\nE. bottom-left (lower-left area)",
+      "a": "D",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-right (lower-right area)",
+        "C. top-left (upper-left area)",
+        "D. top-right (upper-right area)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "If you had to point to it on screen, where does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" tend to sit in the frame throughout the clip?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. top-right (upper-right area)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "As the clip plays, how much does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" shift position overall?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "B",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "As the clip plays, how much does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" shift position overall?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" move?\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves right\nD. moves up\nE. moves down\nF. moves left\nG. moves diagonally",
+      "q": "In what general direction does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" drift over the course of the video?\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves right\nD. moves up\nE. moves down\nF. moves left\nG. moves diagonally",
+      "a": "A",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. changes direction partway",
+        "B. stays roughly in place",
+        "C. moves right",
+        "D. moves up",
+        "E. moves down",
+        "F. moves left",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In what general direction does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" drift over the course of the video?\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves right\nD. moves up\nE. moves down\nF. moves left\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> bottom-left -> top-right\nB. top-right -> bottom-right -> top-right\nC. top-right -> center -> top-right\nD. top-right -> top-right -> top-right",
+      "q": "Can you track the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" through the clip — where is it near the start, in the middle, and toward the end?\n Options:\nA. top-right -> bottom-left -> top-right\nB. top-right -> bottom-right -> top-right\nC. top-right -> center -> top-right\nD. top-right -> top-right -> top-right",
+      "a": "D",
+      "a_text": "top-right -> top-right -> top-right",
+      "answer_key": "top-right -> top-right -> top-right",
+      "options": [
+        "A. top-right -> bottom-left -> top-right",
+        "B. top-right -> bottom-right -> top-right",
+        "C. top-right -> center -> top-right",
+        "D. top-right -> top-right -> top-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you track the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" through the clip — where is it near the start, in the middle, and toward the end?\n Options:\nA. top-right -> bottom-left -> top-right\nB. top-right -> bottom-right -> top-right\nC. top-right -> center -> top-right\nD. top-right -> top-right -> top-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "q": "Compared to the overall frame, how large does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" appear on screen?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "a": "A",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Compared to the overall frame, how large does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" appear on screen?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. gets larger\nD. stays about the same size",
+      "q": "Over the duration of the clip, does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" grow larger, shrink, or stay roughly the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. gets larger\nD. stays about the same size",
+      "a": "A",
+      "a_text": "gets smaller",
+      "answer_key": "gets smaller",
+      "options": [
+        "A. gets smaller",
+        "B. size fluctuates (goes up and down)",
+        "C. gets larger",
+        "D. stays about the same size"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Over the duration of the clip, does the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" grow larger, shrink, or stay roughly the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. gets larger\nD. stays about the same size"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "Is the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" comfortably within the frame, or does it sit close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" comfortably within the frame, or does it sit close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" and how it appears in the video.",
+      "q": "Give a brief description of the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" — what it looks like and how it behaves throughout the video.",
+      "a": "The target text appears in white lettering with directional arrows on a black freestanding directory sign in an outdoor shopping area.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of the text \"Bloomingdale's →\n↑ RH\n← Macy's\n← Neiman Marcus\n← Nordstrom\" — what it looks like and how it behaves throughout the video."
+    }
+  ],
+  "method": "blur"
+}

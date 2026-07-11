@@ -1,0 +1,458 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text found inside [[6, 388], [1485, 388], [1485, 480], [6, 480]]: ________.",
+              "answer": [
+                "欢迎光临",
+                "ant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[6,416], [325,421], [327,480], [6,477]] begins with some missing letters — complete it: \"a____ Hong Kong\".",
+              "answer": "nt"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following reflects the text visible in [[6, 416], [327, 416], [327, 480], [6, 480]]? Options:\nA. 欢迎光临\nB. ent Hong Kong\nC. ant Hong Kong\nD. ent Hong Kong",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '欢迎光临' sits within the region [[6.185567010309279, 388.4536082474226], [1484.5360824742268, 388.4536082474226], [1484.5360824742268, 480.20618556701027], [6.185567010309279, 480.20618556701027]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the region [[9, 388], [1485, 388], [1485, 477], [9, 477]] and note any words you see there: ________.",
+              "answer": [
+                "欢迎光临",
+                "ant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于坐标[[850,373], [1508,368], [1508,461], [850,455]]的文本有一处空缺，试着把它填上：\"欢迎光____\"",
+              "answer": "临"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[9, 388], [1485, 388], [1485, 477], [9, 477]], which answer choice captures the text shown there? Options:\nA. ent Hong Kong\nB. ont Hong Kong\nC. 欢迌光临\nD. ant Hong Kong",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "I'm curious — is 'ant Hong Kong, 欢迌光临' actually contained inside [[8.76543209876546, 388.14814814814815], [1485.3086419753088, 388.14814814814815], [1485.3086419753088, 477.03703703703707], [8.76543209876546, 477.03703703703707]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word or phrase you spot in the area [[8, 385], [1484, 385], [1484, 477], [8, 477]]: ________.",
+              "answer": [
+                "欢迎光临",
+                "ant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据图像坐标[[841,325], [1503,328], [1503,421], [840,407]]处出现的文字，将以下短语补充完整：\"欢迎光____\"",
+              "answer": "临"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At region [[8, 410], [327, 410], [327, 477], [8, 477]], which of these answer choices has the correct text? Options:\nA. ant Hong Kong\nB. 欢迎光临\nC. ent Hong Kong\nD. ent Hong Kong",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Taking a look at [[7.530864197530894, 410.37037037037044], [327.0, 410.37037037037044], [327.0, 477.03703703703707], [7.530864197530894, 477.03703703703707]], would you say 'ant Hong Kong' is enclosed within it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you see inside [[0, 408], [330, 408], [330, 475], [0, 475]]. The answer is ________.",
+              "answer": [
+                "rant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[843,284], [1506,290], [1505,377], [842,371]]处的文字有一处空缺，请填入缺失内容：\"欢迎____临\"",
+              "answer": "光"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[0, 383], [1488, 383], [1488, 475], [0, 475]]? Options:\nA. rznt Hong Kong\nB. 欢迎光临\nC. ront Hong Kong\nD. rent Hong Kong",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '欢迎光临, rent Hong Kong' appears inside the region [[0.0, 383.0], [1488.0, 383.0], [1488.0, 474.7037037037037], [0.0, 474.7037037037037]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The text visible in the region [[0, 381], [1490, 381], [1490, 469], [0, 469]] reads: ________.",
+              "answer": [
+                "欢迎光临",
+                "rant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[889,268], [1554,272], [1552,363], [888,351]]区域显示的文字，将下列句子中缺失的字填完整：\"欢____光临\"",
+              "answer": "迎"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text shown at [[0, 381], [1490, 381], [1490, 469], [0, 469]]. Options:\nA. ront Hong Kong\nB. rant Hong Kong\nC. rent Hong Kong\nD. 欢迌光临",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '欢迎光临' the text contained within the box at [[0.0, 381.0], [1490.0, 381.0], [1490.0, 469.0], [0.0, 469.0]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the word(s) found at [[0, 379], [1492, 379], [1492, 469], [0, 469]]: ________.",
+              "answer": [
+                "欢迎光临",
+                "rant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标[[927,278], [1594,286], [1593,374], [926,365]]处的文字，判断并填入缺失的汉字：\"欢____临\"",
+              "answer": "迎光"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following best matches what's written at [[0, 404], [335, 404], [335, 469], [0, 469]]? Options:\nA. rent Hong Kong\nB. rant Hong Kong\nC. 欢迎光临\nD. rent Hong Kong",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The text 'rant Hong Kong' — is it found inside the box [[0.0, 404.1975308641976], [335.0, 404.1975308641976], [335.0, 469.0], [0.0, 469.0]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you read the text at [[6, 403], [345, 403], [345, 465], [6, 465]]? Fill in: ________.",
+              "answer": [
+                "rant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察坐标[[937,293], [1605,306], [1603,394], [935,381]]的文本，其中空缺处应填写什么？\"欢迎____临\"",
+              "answer": "光"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options matches the text at [[6, 403], [345, 403], [345, 465], [6, 465]] — which is it? Options:\nA. rant Hong Kong\nB. rent Hong Kong\nC. 欢迎光临\nD. rent Hong Kong",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the box defined by [[5.938271604938265, 379.0], [1496.0, 379.0], [1496.0, 464.69135802469134], [5.938271604938265, 464.69135802469134]], is the text 'rent Hong Kong, 欢迎光临' visible? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down whatever text you can see at [[7, 375], [1502, 375], [1502, 463], [7, 463]]: ________.",
+              "answer": [
+                "欢迎光临",
+                "rant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is missing from the text at [[8,308], [452,318], [452,385], [10,372]] — fill in the blank: \"estaur____t Hong Kong\".",
+              "answer": "an"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text at [[7, 375], [1502, 375], [1502, 463], [7, 463]] matches exactly one of the options below — which one? Options:\nA. 欢逈光临\nB. rant Hong Kong\nC. 欢迥光临\nD. 欢迌光临",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find 'rant Hong Kong, 欢迎光临' inside the bounding box [[7.407407407407419, 400.4938271604939], [346.40740740740745, 400.4938271604939], [346.40740740740745, 463.4567901234568], [7.407407407407419, 463.4567901234568]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "There's text sitting at [[846, 370], [1504, 370], [1504, 465], [846, 465]] — what does it say? ________.",
+              "answer": [
+                "欢迎光临"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "这句出现在坐标[[929,335], [1592,344], [1591,433], [928,425]]处的问候语还差一部分，你能补全它吗？\"欢____光临\"",
+              "answer": "迎"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you were to read the text at [[6, 370], [1504, 370], [1504, 465], [6, 465]], which option would it match? Options:\nA. rznt Hong Kong\nB. rent Hong Kong\nC. ront Hong Kong\nD. rant Hong Kong",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm whether 'rant Hong Kong' sits within the region [[6.296296296296324, 390.6172839506173], [342.70370370370375, 390.6172839506173], [342.70370370370375, 458.7037037037037], [6.296296296296324, 458.7037037037037]]: true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you see at [[11, 388], [345, 388], [345, 457], [11, 457]]: ________.",
+              "answer": [
+                "rant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The greeting \"欢____光临\" — what does the text at [[907,351], [1568,362], [1567,449], [906,438]] contribute to finish it?",
+              "answer": "迎"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly identifies the text(s) shown in [[11, 370], [1508, 370], [1508, 462], [11, 462]]? Options:\nA. rent Hong Kong\nB. ront Hong Kong\nC. 欢迎光临\nD. 欢迌光临",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'rant Hong Kong, 欢迎光临' the text you see inside [[11.234567901234596, 388.14814814814815], [344.5679012345679, 388.14814814814815], [344.5679012345679, 457.28395061728395], [11.234567901234596, 457.28395061728395]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text visible in the region [[10, 388], [348, 388], [348, 454], [10, 454]]: ________",
+              "answer": [
+                "rant Hong Kong"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[0,342], [359,362], [356,424], [0,404]], the text reads \"u____ant Hong Kong\" — what fills the blank?",
+              "answer": "r"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Visible in [[10, 388], [348, 388], [348, 454], [10, 454]] is some text — which answer matches it? Options:\nA. rent Hong Kong\nB. rant Hong Kong\nC. 欢迎光临\nD. rent Hong Kong",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '欢迎光临, rant Hong Kong' accurately describes what's written inside [[10.000000000000027, 388.14814814814815], [348.2716049382716, 388.14814814814815], [348.2716049382716, 453.58024691358025], [10.000000000000027, 453.58024691358025]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0200/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0200/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[12, 367], [1511, 367], [1511, 459], [12, 459]] — what word or words are written there? ________",
+              "answer": [
+                "rant Hong Kong",
+                "欢迎光临"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Based on what's shown at [[12,355], [304,365], [303,431], [12,420]], what goes in the middle of \"nt Ho____ Kong\"?",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written inside [[12, 367], [1511, 367], [1511, 459], [12, 459]]? Choose the answer that fits. Options:\nA. 欢迌光临\nB. rent Hong Kong\nC. 欢迥光临\nD. rant Hong Kong",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '欢迎光临' appear within [[12.469135802469163, 367.1604938271605], [1511.2345679012346, 367.1604938271605], [1511.2345679012346, 458.5185185185186], [12.469135802469163, 458.5185185185186]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0200"
+  }
+]

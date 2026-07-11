@@ -1,0 +1,312 @@
+{
+  "video_id": "C0032",
+  "frames": 120,
+  "word": "想你的风还是吹到了花台",
+  "video_path": "temporal/videos_vqa/GT/videos/CHN_C0032.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"想你的风还是吹到了花台\" likely to be?\n Options:\nA. warning or prohibition sign\nB. address or street sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. event or poster information\nG. direction or navigation sign",
+      "q": "写着「想你的风还是吹到了花台」的这段文字，看起来像是哪种类型的标牌或文案？\n Options:\nA. warning or prohibition sign\nB. address or street sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. event or poster information\nG. direction or navigation sign",
+      "a": "G",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. warning or prohibition sign",
+        "B. address or street sign",
+        "C. menu or commercial information",
+        "D. general scene text",
+        "E. storefront or brand sign",
+        "F. event or poster information",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「想你的风还是吹到了花台」的这段文字，看起来像是哪种类型的标牌或文案？\n Options:\nA. warning or prohibition sign\nB. address or street sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. event or poster information\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"想你的风还是吹到了花台\" appear in?\n Options:\nA. other public sign\nB. event poster or display\nC. warning / rule sign\nD. transportation / station\nE. restaurant or menu\nF. campus or office\nG. road or street\nH. storefront",
+      "q": "「想你的风还是吹到了花台」这行字出现时，视频里大概是什么样的场景？\n Options:\nA. other public sign\nB. event poster or display\nC. warning / rule sign\nD. transportation / station\nE. restaurant or menu\nF. campus or office\nG. road or street\nH. storefront",
+      "a": "A",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. other public sign",
+        "B. event poster or display",
+        "C. warning / rule sign",
+        "D. transportation / station",
+        "E. restaurant or menu",
+        "F. campus or office",
+        "G. road or street",
+        "H. storefront"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「想你的风还是吹到了花台」这行字出现时，视频里大概是什么样的场景？\n Options:\nA. other public sign\nB. event poster or display\nC. warning / rule sign\nD. transportation / station\nE. restaurant or menu\nF. campus or office\nG. road or street\nH. storefront"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"想你的风还是吹到了花台\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. center (middle of the frame)",
+      "q": "整个视频里，「想你的风还是吹到了花台」这段文字大多出现在画面的哪个位置？\n Options:\nA. top-left (upper-left area)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. center (middle of the frame)",
+      "a": "D",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. bottom-right (lower-right area)",
+        "C. bottom-left (lower-left area)",
+        "D. top-right (upper-right area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整个视频里，「想你的风还是吹到了花台」这段文字大多出现在画面的哪个位置？\n Options:\nA. top-left (upper-left area)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"想你的风还是吹到了花台\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "视频播放的过程中，「想你的风还是吹到了花台」移动的幅度大概有多大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播放的过程中，「想你的风还是吹到了花台」移动的幅度大概有多大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"想你的风还是吹到了花台\" move?\n Options:\nA. moves up\nB. moves down\nC. moves right\nD. moves diagonally\nE. moves left\nF. changes direction partway\nG. stays roughly in place",
+      "q": "总体来看，「想你的风还是吹到了花台」是朝哪个方向移动的？\n Options:\nA. moves up\nB. moves down\nC. moves right\nD. moves diagonally\nE. moves left\nF. changes direction partway\nG. stays roughly in place",
+      "a": "B",
+      "a_text": "moves down",
+      "answer_key": "moves down",
+      "options": [
+        "A. moves up",
+        "B. moves down",
+        "C. moves right",
+        "D. moves diagonally",
+        "E. moves left",
+        "F. changes direction partway",
+        "G. stays roughly in place"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「想你的风还是吹到了花台」是朝哪个方向移动的？\n Options:\nA. moves up\nB. moves down\nC. moves right\nD. moves diagonally\nE. moves left\nF. changes direction partway\nG. stays roughly in place"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"想你的风还是吹到了花台\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> bottom-left -> center\nB. top-right -> center -> center\nC. top-right -> center -> bottom-right\nD. bottom-left -> center -> center",
+      "q": "视频开头、中间和结尾，「想你的风还是吹到了花台」分别出现在画面的什么位置？\n Options:\nA. top-right -> bottom-left -> center\nB. top-right -> center -> center\nC. top-right -> center -> bottom-right\nD. bottom-left -> center -> center",
+      "a": "B",
+      "a_text": "top-right -> center -> center",
+      "answer_key": "top-right -> center -> center",
+      "options": [
+        "A. top-right -> bottom-left -> center",
+        "B. top-right -> center -> center",
+        "C. top-right -> center -> bottom-right",
+        "D. bottom-left -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频开头、中间和结尾，「想你的风还是吹到了花台」分别出现在画面的什么位置？\n Options:\nA. top-right -> bottom-left -> center\nB. top-right -> center -> center\nC. top-right -> center -> bottom-right\nD. bottom-left -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"想你的风还是吹到了花台\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "从画面比例来看，「想你的风还是吹到了花台」这行字占多大的面积，算大还是小？\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "B",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. large (a major part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从画面比例来看，「想你的风还是吹到了花台」这行字占多大的面积，算大还是小？\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"想你的风还是吹到了花台\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "q": "在视频播放期间，「想你的风还是吹到了花台」的大小有没有明显变化——是变大了、变小了，还是基本保持不变？\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "a": "C",
+      "a_text": "gets smaller",
+      "answer_key": "gets smaller",
+      "options": [
+        "A. gets larger",
+        "B. stays about the same size",
+        "C. gets smaller",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在视频播放期间，「想你的风还是吹到了花台」的大小有没有明显变化——是变大了、变小了，还是基本保持不变？\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"想你的风还是吹到了花台\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "这个视频里，写有「想你的风还是吹到了花台」的文字，是出现在画面边缘附近，还是偏向画面内侧？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这个视频里，写有「想你的风还是吹到了花台」的文字，是出现在画面边缘附近，还是偏向画面内侧？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"想你的风还是吹到了花台\" and how it appears in the video.",
+      "q": "能说说「想你的风还是吹到了花台」这行文字在视频里的整体样子和出现方式吗？",
+      "a": "The target text is displayed in white characters on the upper red section of a rectangular signpost.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能说说「想你的风还是吹到了花台」这行文字在视频里的整体样子和出现方式吗？"
+    }
+  ]
+}

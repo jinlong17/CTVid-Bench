@@ -1,0 +1,545 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible in the area [[761, 200], [1552, 200], [1552, 737], [761, 737]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[761,535], [843,534], [843,546], [761,548]], the phrase reads \"PUBLIC LI____ARY\" — what's the missing text that completes it?",
+              "answer": "BR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly captures the text(s) inside [[761, 506], [1552, 506], [1552, 737], [761, 737]]? Options:\nA. IS WELCOME, HOURS, EVERYONE, SUNNYVALE, HOURS, PUBLIC LIBRARY, SUNNYVALE, PUBLIC LIBRARY\nB. SUNNYVALE, EVERYONE, PUBLIC LIBRARY, SUNNYVALE, AT THE LIBRARY, PUBLIC LIBRARY, HOUPS, IS WELCOME\nC. Entrance, SUNNYVALE, EVERYONE, PUBLIC LIBRARY, PUBLIC LIBRARY, HOURS, HOURS, AT THE LIBRARY\nD. PUBLIC LIBRARY, SUNNYVALE PUBLIC LIBRARY, SUNNYVALE, EVERYONE, SUNNYVALE, HOURS, PUBLIC LIBRARY, HOURS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[760.9863429438543, 200.0], [1552.0, 200.0], [1552.0, 737.3362445414847], [760.9863429438543, 737.3362445414847]], do you find the label(s) 'PUBLIC LIBRARY, Entrance, IS WELCOME, PUBLIC LIBRARY, SUNNYVALE PUBLIC LIBRARY, EVERYONE, SUNNYVALE, AT THE LIBRARY, SUNNYVALE'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) that appear inside region [[764, 195], [1558, 195], [1558, 734], [764, 734]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text(s) found in [[764, 502], [1558, 502], [1558, 734], [764, 734]]. Options:\nA. PUBLIC LIBRARY, IS WELCOME, EVERYONE, SUNNYVALE PUBLIC LIBRARY, SUNNYVALE, HOURS, AT THE LIBRARY, SUNNYVALE\nB. HOURS, PUBLIC LIBRARY, PUBLIC LIBRARY, EVERYONE, SUNNYVRLE, HOURS, AT THE LIBRARY, IS WELCOME\nC. PUBLIC LIBRARY, PUBLIC LIBRARY, SUNNYVALE, IS WELCOME, AT THE LIBRARY, SUNNYVALE, EVERYONE\nD. SUNNYVALE, EVERYONE, PUBLIC LIBRARY, PUBLIC LIBRARY, HOURS, SUNNYVALE, 1S WELCOME, AT THE LIBRARY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'EVERYONE, PUBLIC LIBRARY, Entrance, IS WELCOME, SUNNYVRLE, HOURS, HOURS, PUBLIC LIBRARY, SUNNYVALE PUBLIC LIBRARY' sit inside the box defined by [[763.9080677749301, 195.19650655021826], [1557.7033340264775, 195.19650655021826], [1557.7033340264775, 734.3105288694808], [763.9080677749301, 734.3105288694808]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can be read from within the region [[764, 193], [1559, 193], [1559, 731], [764, 731]]? ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1329,735], [1444,735], [1443,753], [1330,754]], the text shows \"AT THE LIBR____Y\" — what letter(s) complete it?",
+              "answer": "AR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the given options, which one matches the text(s) you see inside [[764, 193], [1559, 193], [1559, 731], [764, 731]]? Options:\nA. SUNNYVALF, EVERYONE, HOURS, SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY, HOURS, Entrance, IS WELCOME, PUBLIC LIBRARY, AT THE LIBRARY\nB. PUBLIC LIBRARY, EVERYONE, PUBLIC LIBRARY, SUNNYVALE, AT THE LIBRARY, SUNNYVALE PUBLIC LIBRARY, IS WELCOME, Entrance, SUNNYVALE\nC. HOURS, SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY, PUBLIC LIBRARY, SUNNYVRLE, HOURS, Entrance, AT THE LIBRARY, IS WELCOME, EVERYONE\nD. EVERYONE, HOURS, SUNNYVALE PUBLIC LIBRARY, IS WELCOME, RUBLIC LIBRARY, Entrance, SUNNYVALE, AT THE LIBRARY, SUNNYVALE, HOURS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at the bounding box [[764.2986927749301, 192.85275655021826], [1558.530640249185, 192.85275655021826], [1558.530640249185, 731.3117570354196], [764.2986927749301, 731.3117570354196]], are the label(s) 'PUBLIC LIBRARY, PUBLIC LIBRARY, HOURS, SUNNYVALE, SUNNYVALE, 1S WELCOME, Entrance, HOURS, AT THE LIBRARY, EVERYONE' present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) that occupy region [[773, 189], [1329, 189], [1329, 289], [773, 289]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Seen at [[1185,498], [1297,494], [1297,510], [1186,515]], the text reads \"PUB____ LIBRARY\" — what letter(s) follow \"PUB\" to complete the word?",
+              "answer": "LIC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options provided, which correctly identifies the text(s) within [[762, 189], [1557, 189], [1557, 728], [762, 728]]? Options:\nA. AT THE LIBRARY, IS WELCOME, HOURS, Entrance, SUNNYVALE, SUNNYVALE, SUNNYVALE PUBLIC LIBRARY, RUBLIC LIBRARY, EVERYONE, HOURS\nB. HOURS, IS WELCOME, SUNNYVALE, Entranoe, SUNNYVALE PUBLIC LIBRARY, AT THE LIBRARY, HOURS, PUBLIC LIBRARY, EVERYONE, SUNNYVALE\nC. SUNNYVALE PUBLIC LIBRARY, IS WELCOME, HOURS, PUBLIO LIBRARY, SUNNYVALE, AT THE LIBRARY, HOURS, EVERYONE, SUNNYVALE, Entrance\nD. HOURS, AT THE LIBRARY, HOURS, PUBLIC LIBRARY, PUBLIC LIBRARY, SUNNYVALE PUBLIC LIBRARY, EVERYONE, IS WELCOME, Entrance",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the label 'PUBLIC LIBRARY, 1S WELCOME, Entrance, EVERYONE, SUNNYVALE, AT THE LIBRARY, HOURS, HOURS, SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY' somewhere within [[762.4468409230783, 189.41360311106473], [1556.678788397333, 189.41360311106473], [1556.678788397333, 727.8726035962661], [762.4468409230783, 727.8726035962661]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown inside [[760, 187], [1554, 187], [1554, 725], [760, 725]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The bounding box [[1336,735], [1487,737], [1487,764], [1336,762]] contains a partially visible text reading \"EVER____E\" — what's the missing portion?",
+              "answer": "YON"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Only one option below correctly lists the text(s) found in [[760, 187], [1554, 187], [1554, 725], [760, 725]] — which is it? Options:\nA. AT THE LIBRARY, PUBLIC LIBRARY, EVERYDNE, SUNNYVALE, SUNNYVALE PUBLIC LIBRARY, SUNNYVALE, HOURS, IS WELCOME, Entrance, PUBLIC LIBRARY\nB. HOURS, AT THE LIBRARY, EVERYONE, IS WELCOME, PUBLIC LIBRARY, SUNNYVALE PUBLIC LIBRARY, SUNNYVALE, Entranoe, SUNNYVALE, HOURS\nC. 1S WELCOME, HOURS, EVERYONE, PUBLIC LIBRARY, SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY, Entrance, SUNNYVALE, AT THE LIBRARY, HOURS\nD. HOURS, IS WELCOME, Entrance, AT THE LIBRARY, HOURS, SUNNYVALE PUBLIC LIBRARY, EVERYONE, PUBLIC LIBRARY, PUBLIC LIBRARY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area defined by [[759.5622255384629, 186.7693723418339], [1553.7941730127172, 186.7693723418339], [1553.7941730127172, 725.2283728270353], [759.5622255384629, 725.2283728270353]], do the label(s) 'PUBLIC LIBRARY, IS WELCOME, AT THE LIBRARY, SUNNYVALE, Entrance, SUNNYVALE, PUBLIC LIBRARY, SUNNYVALE PUBLIC LIBRARY' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) you can read from region [[756, 181], [1551, 181], [1551, 720], [756, 720]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word shown as \"SU____VALE\" appears inside [[733,561], [799,560], [799,576], [733,576]] — which letter(s) are absent?",
+              "answer": "NNY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text visible in [[756, 181], [1425, 181], [1425, 544], [756, 544]]. Options:\nA. SUNNYVALE, SUNNYVALE, RUBLIC LIBRARY, HOURS, HOURS, Entrance, SUNNYVALE PUBLIC LIBRARY\nB. PUBLIC LIBRARY, HOURS, HOURS, SUNNYVALE, SUNNYVALE PUBLIC LIBRARY, SUNNYVALE, PUBLIC LIBRARY\nC. HOURS, SUNNYVALE, PUBLIC LIBRARY, EVERYONE, SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY, HOURS\nD. SUNNYVALE PUBLIC LIBRARY, HOURS, SUNNYVALE, IS WELCOME, SUNNYVALE, Entrance, HOURS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SUNNYVALE PUBLIC LIBRARY, HOURS, RT THE LIBRARY, PUBLIC LIBRARY, HOURS, SUNNYVALE, SUNNYVALE, PUBLIC LIBRARY, Entrance, EVERYONE' actually inside the region marked by [[756.3552284539148, 181.2300137412508], [1550.587175928169, 181.2300137412508], [1550.587175928169, 719.6890142264522], [756.3552284539148, 719.6890142264522]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you see inside [[750, 179], [1544, 179], [1544, 715], [750, 715]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[1380,700], [1498,706], [1497,722], [1378,715]] reads \"AT ____ LIBRARY\" — what letter(s) belong in the gap?",
+              "answer": "THE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify which choice correctly lists the text inside [[750, 485], [1544, 485], [1544, 715], [750, 715]]. Options:\nA. HOURS, IS WELCOME, EVERYONE, SUNNYVALE PUBLIC LIBRARY, SUNNYVALE, AT THE LIBRARY, PUBLIC LIBRARY, HOURS\nB. EVERYONE, SUNNYVALE, HOURS, RT THE LIBRARY, PUBLIC LIBRARY, IS WELCOME, HOURS, SUNNYVALE\nC. EVERYONE, IS WELCOME, PUBLIC LIBRARY, AT THE LIBRARY, HOURS, PUBLIC LIBRARY, HOURS\nD. SUNNYVALE, PUBLIC LIBRARY, EVERYONE, RT THE LIBRARY, HOURS, IS WELCOME, SUNNYVALE, PUBLIC LIBRARY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'PUBLIC LIBRARY, IS WELCOME, PUBLIC LIBRARY, SUNNYVALE, SUNNYVALE PUBLIC LIBRARY, SUNNYVALE, Entrance, AT THE LIBRARY' within the box defined by [[749.8897112125355, 178.64380684469904], [1544.12165868679, 178.64380684469904], [1544.12165868679, 715.3636768951179], [749.8897112125355, 715.3636768951179]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text appears inside [[744, 175], [1539, 175], [1539, 711], [744, 711]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[625,491], [692,490], [692,506], [625,507]], the text shows \"SUN____LE\" with a gap — which letter(s) go there?",
+              "answer": "NYVA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one captures the text found in [[744, 481], [1539, 481], [1539, 711], [744, 711]]? Options:\nA. HOURS, AT THE LIBRARY, HOURS, IS WELCOME, EVERYONE, SUNNYVALE, SUNNYVALE\nB. PUBLIC LIBRARY, EVERYONE, SUNNYVALE PUBLIC LIBRARY, HOURS, HOURS, AT THE LIBRARY, SUNNYVALE, PUBLIC LIBRARY\nC. AT THE LIBRARY, RUBLIC LIBRARY, SUNNYVALE, EVERYONE, IS WELCOME, HOURS, HOURS, SUNNYVALE\nD. Entrance, AT THE LIBRARY, PUBLIC LIBRARY, PUBLIC LIBRARY, EVERYONE, SUNNYVALE, HOURS, IS WELCOME",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Entrance, PUBLIC LIBRARY, SUNNYVALE, SUNNYVALE, AT THE LIBRARY, IS WELCOME, EVERYONE, HOURS, HOURS, PUBLIC LIBRARY' can be found within [[1300, 481], [1539, 481], [1539, 711], [1300, 711]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) visible at [[1385, 643], [1533, 643], [1533, 707], [1385, 707]]. ________",
+              "answer": [
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[1205,485], [1322,484], [1322,501], [1205,502]], a title reads \"____ LIBRARY\" — what word(s) fill in the blank?",
+              "answer": "PUBLIC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text inside [[738, 170], [1407, 170], [1407, 533], [738, 533]]. Options:\nA. RUBLIC LIBRARY, SUNNYVALE, HOURS, SUNNYVALE PUBLIC LIBRARY, HOURS, SUNNYVALE, Entrance\nB. SUNNYVALE, SUNNYVALE, SUNNYVALE PUBLIC LIBRARY, HOURS, HOURS, Entrance\nC. PUBLIC LIBRARY, PUBLIC LIBRARY, SUNNYVALE PUBLIC LIBRARY, EVERYONE, Entrance, SUNNYVALE, SUNNYVALE\nD. SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY, SUNNYVRLE, HOURS, HOURS, Entrance, PUBLIC LIBRARY",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the region [[1295, 477], [1533, 477], [1533, 707], [1295, 707]] — is 'HOURS, IS WELCOME, AT THE LIBRARY, EVERYONE, SUNNYVALE, PUBLIC LIBRARY, HOURS, Entrance, PUBLIC LIBRARY, SUNNYVALE' present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the text that's sitting inside [[730, 169], [1524, 169], [1524, 706], [730, 706]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[617,142], [1233,79], [1236,125], [623,185]] reads \"SUNNY____ PUBLIC LIBRARY\" — what's the missing piece?",
+              "answer": "VALE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that lists what's written inside [[730, 169], [1524, 169], [1524, 706], [730, 706]]. Options:\nA. PUBLIC LIBRARY, Entrance, AT THE LIBRARY, EVERYONE, HOUPS, SUNNYVALE, IS WELCOME, SUNNYVALE, SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY\nB. PUBLIC LIBRARY, HOURS, IS WELCOME, EVERYONE, AT THE LIBRARY, SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY, HOURS, Entrance, SUNNYVRLE\nC. Entrance, SUNNYVALE, SUNNYVALE, HOURS, IS WELCOME, SUNNYVRLE PUBLIC LIBRARY, PUBLIC LIBRARY, HOURS, PUBLIC LIBRARY, EVERYONE\nD. HOURS, SUNNYVALE PUBLIC LIBRARY, SUNNYVALE, EVERYONE, PUBLIC LIBRARY, PUBLIC LIBRARY, SUNNYVALE, IS WELCOME, HOURS, Entrance",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'AT THE LIBRARY, PUBLIC LIBRARY, SUNNYVALE, Entrance, SUNNYVALE, HOURS, EVERYONE, IS WELCOME, PUBLIC LIBRARY, HOURS' falls inside the bounding box [[1286, 476], [1524, 476], [1524, 706], [1286, 706]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down every word you can read inside [[714, 172], [1508, 172], [1508, 711], [714, 711]]. ________",
+              "answer": [
+                "SUNNYVALE PUBLIC LIBRARY",
+                "Entrance",
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of \"SUNNY____\" has been obscured at [[717,485], [784,484], [784,500], [718,500]] — which letter(s) are gone?",
+              "answer": "VALE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices given, which best describes the text you find at [[714, 172], [1508, 172], [1508, 711], [714, 711]]? Options:\nA. HOURS, SUNNYVALE PUBLIC LIBRARY, Entrance, SUNNYVALE, HOURS, AT THE LIBRARY, EVERYONE, IS WELCOME, RUBLIC LIBRARY, SUNNYVALE\nB. SUNNYVALF, SUNNYVALE PUBLIC LIBRARY, EVERYONE, HOURS, HOURS, PUBLIC LIBRARY, Entrance, PUBLIC LIBRARY, IS WELCOME, AT THE LIBRARY\nC. HOURS, PUBLIC LIBRARY, HOURS, IS WELCOME, SUNNYVALE PUBLIC LIBRARY, AT THE LIBRARY, Entrance, PUBLIC LIBRARY, SUNNYVRLE, EVERYONE\nD. AT THE LIBRARY, EVERYONE, Entrance, IS WELCOME, HOURS, PUBLIC LIBRARY, SUNNYVALE, SUNNYVALE, HOURS, PUBLIC LIBRARY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scan the area at [[714.1437684220375, 171.51916334007467], [1508.3757158962953, 171.51916334007467], [1508.3757158962953, 710.8412638737648], [714.1437684220375, 710.8412638737648]] — does it contain 'RT THE LIBRARY, PUBLIC LIBRARY, SUNNYVALE, EVERYONE, HOURS, SUNNYVALE PUBLIC LIBRARY, Entrance, PUBLIC LIBRARY, HOURS, IS WELCOME'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0263/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0263/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out the word(s) you see at [[706, 486], [1500, 486], [1500, 719], [706, 719]]. ________",
+              "answer": [
+                "EVERYONE",
+                "IS WELCOME",
+                "AT THE LIBRARY",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS",
+                "SUNNYVALE",
+                "PUBLIC LIBRARY",
+                "HOURS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1494,704], [1672,711], [1670,737], [1493,729]], the ending of the phrase is written as \"IS ____\" — which letter(s) complete it?",
+              "answer": "WELCOME"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) visible inside [[706, 486], [1500, 486], [1500, 719], [706, 719]]? Options:\nA. IS WELCOME, SUNNYVALE, EVERYONE, PUBLIC LIBRARY, SUNNYVALE, HOURS, PUBLIC LIBRARY, RT THE LIBRARY\nB. HOURS, AT THE LIBRARY, EVERYONE, PUBLIC LIBRARY, HOURS, SUNNYVALE, SUNNYVALE PUBLIC LIBRARY, PUBLIC LIBRARY\nC. PUBLIC LIBRARY, SUNNYVALE, SUNNYVALE, HOURS, AT THE LIBRARY, IS WELCOME, EVERYDNE, PUBLIC LIBRARY\nD. AT THE LIBRARY, IS WELCOME, SUNNYVALE, PUBLIC LIBRARY, PUBLIC LIBRARY, SUNNYVALE, HOURS, HOURS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'HOURS, SUNNYVALE, IS WELCOME, HOURS, SUNNYVALE PUBLIC LIBRARY, AT THE LIBRARY, PUBLIC LIBRARY, PUBLIC LIBRARY, SUNNYVALE, EVERYONE' appearing inside the region marked [[1263, 486], [1500, 486], [1500, 719], [1263, 719]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0263"
+  }
+]

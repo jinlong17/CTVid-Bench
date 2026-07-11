@@ -1,0 +1,312 @@
+{
+  "video_id": "C0296",
+  "frames": 120,
+  "word": "磨现磨现蒸才好吃",
+  "video_path": "temporal/videos_vqa/GT/videos/CHN_C0296.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"磨现磨现蒸才好吃\" likely to be?\n Options:\nA. address or street sign\nB. menu or commercial information\nC. direction or navigation sign\nD. storefront or brand sign\nE. warning or prohibition sign\nF. general scene text\nG. event or poster information",
+      "q": "写着「磨现磨现蒸才好吃」的这段文字，你觉得它更可能是什么类型的招牌或标识？\n Options:\nA. address or street sign\nB. menu or commercial information\nC. direction or navigation sign\nD. storefront or brand sign\nE. warning or prohibition sign\nF. general scene text\nG. event or poster information",
+      "a": "D",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. address or street sign",
+        "B. menu or commercial information",
+        "C. direction or navigation sign",
+        "D. storefront or brand sign",
+        "E. warning or prohibition sign",
+        "F. general scene text",
+        "G. event or poster information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「磨现磨现蒸才好吃」的这段文字，你觉得它更可能是什么类型的招牌或标识？\n Options:\nA. address or street sign\nB. menu or commercial information\nC. direction or navigation sign\nD. storefront or brand sign\nE. warning or prohibition sign\nF. general scene text\nG. event or poster information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"磨现磨现蒸才好吃\" appear in?\n Options:\nA. other public sign\nB. storefront\nC. restaurant or menu\nD. event poster or display\nE. campus or office\nF. transportation / station\nG. road or street\nH. warning / rule sign",
+      "q": "出现「磨现磨现蒸才好吃」这段文字的时候，背景看起来是什么样的场合？\n Options:\nA. other public sign\nB. storefront\nC. restaurant or menu\nD. event poster or display\nE. campus or office\nF. transportation / station\nG. road or street\nH. warning / rule sign",
+      "a": "B",
+      "a_text": "storefront",
+      "answer_key": "storefront",
+      "options": [
+        "A. other public sign",
+        "B. storefront",
+        "C. restaurant or menu",
+        "D. event poster or display",
+        "E. campus or office",
+        "F. transportation / station",
+        "G. road or street",
+        "H. warning / rule sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "出现「磨现磨现蒸才好吃」这段文字的时候，背景看起来是什么样的场合？\n Options:\nA. other public sign\nB. storefront\nC. restaurant or menu\nD. event poster or display\nE. campus or office\nF. transportation / station\nG. road or street\nH. warning / rule sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"磨现磨现蒸才好吃\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)",
+      "q": "注意看写着「磨现磨现蒸才好吃」的那段文字，它在画面中大多出现在哪个位置？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)",
+      "a": "A",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. bottom-right (lower-right area)",
+        "C. top-left (upper-left area)",
+        "D. bottom-left (lower-left area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "注意看写着「磨现磨现蒸才好吃」的那段文字，它在画面中大多出现在哪个位置？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"磨现磨现蒸才好吃\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "纵观整段视频，「磨现磨现蒸才好吃」这行字有没有明显的位移？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "C",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "纵观整段视频，「磨现磨现蒸才好吃」这行字有没有明显的位移？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"磨现磨现蒸才好吃\" move?\n Options:\nA. stays roughly in place\nB. moves left\nC. moves up\nD. changes direction partway\nE. moves diagonally\nF. moves right\nG. moves down",
+      "q": "整体来看，「磨现磨现蒸才好吃」这段文字朝哪个方向运动的？\n Options:\nA. stays roughly in place\nB. moves left\nC. moves up\nD. changes direction partway\nE. moves diagonally\nF. moves right\nG. moves down",
+      "a": "E",
+      "a_text": "moves diagonally",
+      "answer_key": "moves diagonally",
+      "options": [
+        "A. stays roughly in place",
+        "B. moves left",
+        "C. moves up",
+        "D. changes direction partway",
+        "E. moves diagonally",
+        "F. moves right",
+        "G. moves down"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整体来看，「磨现磨现蒸才好吃」这段文字朝哪个方向运动的？\n Options:\nA. stays roughly in place\nB. moves left\nC. moves up\nD. changes direction partway\nE. moves diagonally\nF. moves right\nG. moves down"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"磨现磨现蒸才好吃\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> top-right -> top-right\nB. center -> top-right -> top-right\nC. center -> center -> top-right\nD. bottom-left -> top-right -> top-right",
+      "q": "「磨现磨现蒸才好吃」这行字在视频前段、中段、后段分别出现在画面的什么位置？\n Options:\nA. top-right -> top-right -> top-right\nB. center -> top-right -> top-right\nC. center -> center -> top-right\nD. bottom-left -> top-right -> top-right",
+      "a": "B",
+      "a_text": "center -> top-right -> top-right",
+      "answer_key": "center -> top-right -> top-right",
+      "options": [
+        "A. top-right -> top-right -> top-right",
+        "B. center -> top-right -> top-right",
+        "C. center -> center -> top-right",
+        "D. bottom-left -> top-right -> top-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「磨现磨现蒸才好吃」这行字在视频前段、中段、后段分别出现在画面的什么位置？\n Options:\nA. top-right -> top-right -> top-right\nB. center -> top-right -> top-right\nC. center -> center -> top-right\nD. bottom-left -> top-right -> top-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"磨现磨现蒸才好吃\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "q": "「磨现磨现蒸才好吃」在画面里占多大？算是大字还是小字？\n Options:\nA. medium (a noticeable block of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "a": "A",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. large (a major part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「磨现磨现蒸才好吃」在画面里占多大？算是大字还是小字？\n Options:\nA. medium (a noticeable block of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"磨现磨现蒸才好吃\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. stays about the same size\nD. gets larger",
+      "q": "随着视频播放，「磨现磨现蒸才好吃」这行字的大小有没有明显变化——是变大了、变小了，还是基本保持不变？\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. stays about the same size\nD. gets larger",
+      "a": "C",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. gets smaller",
+        "C. stays about the same size",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「磨现磨现蒸才好吃」这行字的大小有没有明显变化——是变大了、变小了，还是基本保持不变？\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. stays about the same size\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"磨现磨现蒸才好吃\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "你看「磨现磨现蒸才好吃」这段文字，它在画面里是居中靠内的位置，还是偏向某个边缘？\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你看「磨现磨现蒸才好吃」这段文字，它在画面里是居中靠内的位置，还是偏向某个边缘？\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"磨现磨现蒸才好吃\" and how it appears in the video.",
+      "q": "简单说说「磨现磨现蒸才好吃」这行文字——它长什么样，在视频里是怎么呈现的？",
+      "a": "The text appears in red characters on a white illuminated sign above the glass window of a restaurant.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "简单说说「磨现磨现蒸才好吃」这行文字——它长什么样，在视频里是怎么呈现的？"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "video_id": "C0132",
+  "frames": 120,
+  "word": "深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0132.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "mixed",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" likely to be?\n Options:\nA. event or poster information\nB. general scene text\nC. menu or commercial information\nD. warning or prohibition sign\nE. address or street sign\nF. storefront or brand sign\nG. direction or navigation sign",
+      "q": "写着「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的这段文字，看起来像是哪一类指示牌？\n Options:\nA. event or poster information\nB. general scene text\nC. menu or commercial information\nD. warning or prohibition sign\nE. address or street sign\nF. storefront or brand sign\nG. direction or navigation sign",
+      "a": "G",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. event or poster information",
+        "B. general scene text",
+        "C. menu or commercial information",
+        "D. warning or prohibition sign",
+        "E. address or street sign",
+        "F. storefront or brand sign",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的这段文字，看起来像是哪一类指示牌？\n Options:\nA. event or poster information\nB. general scene text\nC. menu or commercial information\nD. warning or prohibition sign\nE. address or street sign\nF. storefront or brand sign\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" appear in?\n Options:\nA. storefront\nB. transportation / station\nC. warning / rule sign\nD. road or street\nE. campus or office\nF. other public sign\nG. event poster or display\nH. restaurant or menu",
+      "q": "「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」这段文字出现在什么样的场景里？\n Options:\nA. storefront\nB. transportation / station\nC. warning / rule sign\nD. road or street\nE. campus or office\nF. other public sign\nG. event poster or display\nH. restaurant or menu",
+      "a": "B",
+      "a_text": "transportation / station",
+      "answer_key": "transportation / station",
+      "options": [
+        "A. storefront",
+        "B. transportation / station",
+        "C. warning / rule sign",
+        "D. road or street",
+        "E. campus or office",
+        "F. other public sign",
+        "G. event poster or display",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」这段文字出现在什么样的场景里？\n Options:\nA. storefront\nB. transportation / station\nC. warning / rule sign\nD. road or street\nE. campus or office\nF. other public sign\nG. event poster or display\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "q": "视频里写有「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字，大多数时候在画面的哪个位置？\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "a": "B",
+      "a_text": "bottom-right (lower-right area)",
+      "answer_key": "bottom-right",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-right (lower-right area)",
+        "C. bottom-left (lower-left area)",
+        "D. top-right (upper-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里写有「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字，大多数时候在画面的哪个位置？\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "播放这段视频时，写着「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字在画面里移动了多大幅度？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "C",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "播放这段视频时，写着「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字在画面里移动了多大幅度？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" move?\n Options:\nA. moves down\nB. moves diagonally\nC. changes direction partway\nD. moves left\nE. moves up\nF. stays roughly in place\nG. moves right",
+      "q": "这段视频里，「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」整体上是往哪个方向移动的？\n Options:\nA. moves down\nB. moves diagonally\nC. changes direction partway\nD. moves left\nE. moves up\nF. stays roughly in place\nG. moves right",
+      "a": "D",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves down",
+        "B. moves diagonally",
+        "C. changes direction partway",
+        "D. moves left",
+        "E. moves up",
+        "F. stays roughly in place",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」整体上是往哪个方向移动的？\n Options:\nA. moves down\nB. moves diagonally\nC. changes direction partway\nD. moves left\nE. moves up\nF. stays roughly in place\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> bottom-right -> center\nB. bottom-right -> bottom-right -> bottom-left\nC. top-left -> bottom-right -> center\nD. bottom-right -> bottom-right -> top-left",
+      "q": "开头、中间、结尾三个时刻，写着「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字分别在画面哪个位置？\n Options:\nA. bottom-right -> bottom-right -> center\nB. bottom-right -> bottom-right -> bottom-left\nC. top-left -> bottom-right -> center\nD. bottom-right -> bottom-right -> top-left",
+      "a": "A",
+      "a_text": "bottom-right -> bottom-right -> center",
+      "answer_key": "bottom-right -> bottom-right -> center",
+      "options": [
+        "A. bottom-right -> bottom-right -> center",
+        "B. bottom-right -> bottom-right -> bottom-left",
+        "C. top-left -> bottom-right -> center",
+        "D. bottom-right -> bottom-right -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "开头、中间、结尾三个时刻，写着「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字分别在画面哪个位置？\n Options:\nA. bottom-right -> bottom-right -> center\nB. bottom-right -> bottom-right -> bottom-left\nC. top-left -> bottom-right -> center\nD. bottom-right -> bottom-right -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里写着「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字，占屏幕多大比例——算大字还是小字？\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "B",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. large (a major part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里写着「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字，占屏幕多大比例——算大字还是小字？\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "q": "在这段视频里，「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」是变大了、缩小了，还是大小基本保持不变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在这段视频里，「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」是变大了、缩小了，还是大小基本保持不变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "q": "写有「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字，是稳稳处在画面内侧，还是靠近某条边缘？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. fully inside, away from the edges",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写有「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」的文字，是稳稳处在画面内侧，还是靠近某条边缘？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus\" and how it appears in the video.",
+      "q": "能不能简单说说「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」这段文字在视频里的样子和动态？",
+      "a": "A white and green station sign displays the target text in black, indicating a bus route and asking passengers to queue.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能不能简单说说「深中跨市TO1A  \n(中山博览中心枢纽)  \n请自觉排队上车  \nPlease queue up for the bus」这段文字在视频里的样子和动态？"
+    }
+  ],
+  "method": "downsample_x4"
+}

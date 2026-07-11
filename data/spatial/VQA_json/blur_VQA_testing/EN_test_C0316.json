@@ -1,0 +1,607 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out whatever text appears inside [[373, 165], [1172, 165], [1172, 846], [373, 846]]: ________",
+              "answer": [
+                "Prescription and",
+                "Immunization",
+                "Services",
+                "New Year,No Hassle.",
+                "Flu Shots",
+                "Book a $29 Same-Day",
+                "Virtual Doctor Visit Through",
+                "Sesame to Get Your",
+                "Prescription Refiis!",
+                "No Cost on Most Insurance",
+                "Walk-ins Welcome or",
+                "Scan the OR Code to Book Later",
+                "Costco now",
+                "accepts",
+                "Medi-Cal RX",
+                "PRESCRIPTION PICK-UP",
+                "SUDAFED",
+                "SUDAFED",
+                "itin·D",
+                "Claritin·D",
+                "ritin·D",
+                "Flu Shots Today",
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Appearing at [[946,396], [1172,397], [1172,443], [946,442]] is the partial text \"Medi-C____ RX\" — what characters are missing?",
+              "answer": "al"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer choice that correctly identifies the text visible at [[517, 165], [1172, 165], [1172, 846], [517, 846]]. Options:\nA. itin·D, Book a $29 Same-Day, New Year,No Hassle., Virtual Doctor Visit Through, Sesame to Get Your, PRESCRIPTION PICK-UP, SUDAFED, Walk-ins Welcome or, No Cost on Most Insurance, Prescription and\nB. ritin·D, Scan the OR Code to Book Later, No Cost on Most Insurance, Book a $29 Same-Day, Costco now, Claritin·D, Walk-ins Welcome or, Flu Shots, Medi-Cal RX, Prescription and\nC. SUDAFED, Allegra-D, New Year,No Hassle., Book a $29 Same-Day, Services, Welk-ins Welcome or, SUDAFED, Sesame to Get Your, Prescription and, No Cost on Most Insurance\nD. Claritin·D, SUDAFED, Services, Medi-Cal RX, SUDAFED, Flu Shots Today, Prescription and, Book a $29 Same-Day, Scan the OR Code to Book Later, accepts",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Thinking about [[372.819216182048, 164.80468750000003], [1172.4324324324323, 164.80468750000003], [1172.4324324324323, 846.0], [372.819216182048, 846.0]], is 'Virtual Doctor Visit Through, Flu Shots Today, Walk-ins Welcome or, No Cost on Most Insurance, Prescription and, Immunization, accepts, Scan the OR Code to Book Later, SUDAFED, PRESCRIPTION PICK-UP' the text shown in that region?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[387.662966182048, 162.85156250000003], [1187.2761824324323, 162.85156250000003], [1187.2761824324323, 844.046875], [387.662966182048, 844.046875]], what word(s) do you see? ________",
+              "answer": [
+                "Prescription and",
+                "Immunization",
+                "Services",
+                "New Year,No Hassle.",
+                "Flu Shots",
+                "Book a $29 Same-Day",
+                "Virtual Doctor Visit Through",
+                "Sesame to Get Your",
+                "Prescription Refiis!",
+                "No Cost on Most Insurance",
+                "Walk-ins Welcome or",
+                "Scan the OR Code to Book Later",
+                "Costco now",
+                "accepts",
+                "Medi-Cal RX",
+                "PRESCRIPTION PICK-UP",
+                "SUDAFED",
+                "SUDAFED",
+                "itin·D",
+                "Claritin·D",
+                "ritin·D",
+                "Flu Shots Today",
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1039,288], [1249,289], [1250,334], [1039,333]] reads \"Cos____ now\" — fill in what's missing.",
+              "answer": "tco"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the image, which option below matches the text you see at [[660, 163], [1187, 163], [1187, 513], [660, 513]]? Options:\nA. Scan the OR Code to Book Later, Virtual Doctor Visit Through, Immunization, No Cost on Most Insurance, Prescription Refiis!, Modi-Cal RX, accepts, New Year,No Hassle., Book a $29 Same-Day, Services\nB. Immunization, SUDAFED, accepts, Book a $29 Same-Day, Virtual Doctor Visit Through, New Year,No Hassle., No Cost on Most Insurance, Medi-Cal RX, Walk-ins Welcome or, Prescription Refiis!\nC. Medi-Cal RX, Book a $29 Same-Day, Virtual Doctor Visit Through, Costco now, PRESCRIRTION PICK-UP, Sesame to Get Your, Prescription and, No Cost on Most Insurance, Services, Walk-ins Welcome or\nD. Prescription Refiis!, Scan the OR Code to Book Later, accepts, Medi-Cal RX, PRESCRIPTION PICK-UP, Immunization, Sesame to Get Your, Prescription and, New Year,No Hassle., Costco now",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the region marked [[387.662966182048, 162.85156250000003], [1187.2761824324323, 162.85156250000003], [1187.2761824324323, 844.046875], [387.662966182048, 844.046875]], is 'itin·D, SUDAFED, Scan the OR Code to Book Later, Sorvices, Allegra-D, ritin·D, Virtual Doctor Visit Through, Sesame to Get Your, Walk-ins Welcome or, PRESCRIPTION PICK-UP' really the text inside?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible within [[395.9964855781628, 157.0314566798942], [1197.5936427498928, 157.0314566798942], [1197.5936427498928, 836.5941161186694], [395.9964855781628, 836.5941161186694]]: ________",
+              "answer": [
+                "Prescription and",
+                "Immunization",
+                "Services",
+                "New Year,No Hassle.",
+                "Flu Shots",
+                "Book a $29 Same-Day",
+                "Virtual Doctor Visit Through",
+                "Sesame to Get Your",
+                "Prescription Refiis!",
+                "No Cost on Most Insurance",
+                "Walk-ins Welcome or",
+                "Scan the OR Code to Book Later",
+                "Costco now",
+                "accepts",
+                "Medi-Cal RX",
+                "PRESCRIPTION PICK-UP",
+                "SUDAFED",
+                "SUDAFED",
+                "itin·D",
+                "Claritin·D",
+                "ritin·D",
+                "Flu Shots Today",
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You can see \"SU____ED\" at [[788,526], [862,526], [863,544], [788,545]], but it's incomplete — what letter(s) are needed?",
+              "answer": "DAF"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best describes the text at [[472, 157], [1198, 157], [1198, 679], [472, 679]]. Options:\nA. Flu Shots, aocepts, Claritin·D, Prescription and, Prescription Refiis!, Immunization, Costco now, Book a $29 Same-Day, Scan the OR Code to Book Later, Medi-Cal RX\nB. Scan the OR Code to Book Later, itin·D, Prescription Refiis!, Presoription and, accepts, No Cost on Most Insurance, New Year,No Hassle., Immunization, Flu Shots, Claritin·D\nC. New Year,No Hassle., Scan the OR Code to Book Later, SUDAFED, Walk-ins Welcome or, Sesame to Get Your, Prescription and, ritin·D, Costco now, Immunization, Claritin·D\nD. PRESCRIPTION PICK-UP, Flu Shots, SUDAFED, itin·D, Sesame to Get Your, Services, Scan the OR Code to Book Later, Costco now, Prescription Refiis!, Immunization",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would 'Scan the OR Code to Book Later, New Year,No Hassle., Walk-ins Welcome or, Sesame to Get Your, SUDAFED, Prescription Refiis!, Book a $29 Same-Day, Flu Shots, No Cost on Most Insurance, Immunization' be the right label for what's shown in [[659, 157], [1198, 157], [1198, 567], [659, 567]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focus on the region [[405.38276716661034, 648.0160031537591], [661.8066755793774, 648.0160031537591], [661.8066755793774, 831.9009753244455], [405.38276716661034, 831.9009753244455]] — what word(s) appear there? ________",
+              "answer": [
+                "itin·D",
+                "Claritin·D",
+                "ritin·D",
+                "Flu Shots Today",
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially hidden at [[703,642], [778,641], [778,666], [703,667]] is \"____·D\" — what character(s) complete it?",
+              "answer": "Claritin"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the given choices, which one correctly captures the text in [[669, 152], [1207, 152], [1207, 562], [669, 562]]? Options:\nA. Scan the OR Code to Book Later, Book a $29 Same-Day, Costco now, SUDAFED, Immunization, Medi-Cal RX, Prescription and, Sesame to Get Your, Virtual Doctor Visit Through, No Cost on Most Insurance\nB. accepts, Immunization, Walk-ins Welcome or, PRESCRIPTION PICK-UP, Scan the OR Code to Book Later, Medi-Cal RX, New Year,No Hassle., Costco now, Book a $29 Same-Day, SUDAFED\nC. SUDAFED, Flu Shots, Scan the OR Code to Book Later, Walk-ins Welcome or, No Cost on Most Insurance, Prescription Refiis!, Prescription and, accepts, Now Year,No Hassle., Costco now\nD. Sesame to Get Your, Walk-ins Welcome or, Flu Shots, Presoription Refiis!, Services, Immunization, Scan the OR Code to Book Later, Medi-Cal RX, Costco now, PRESCRIPTION PICK-UP",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[405.38276716661034, 152.33831588567037], [1206.97992433834, 152.33831588567037], [1206.97992433834, 831.9009753244455], [405.38276716661034, 831.9009753244455]], does 'Prescription Refiis!, PRESCRIPTION PICK-UP, ritin·D, itin·D, Book a $29 Same-Day, Claritin·D, Services, Medi-Cal RX, Costco now, Soan the OR Code to Book Later' accurately describe what's inside?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text visible at [[413.25448728322834, 147.09050247459166], [1214.8516444549577, 147.09050247459166], [1214.8516444549577, 826.6531619133668], [413.25448728322834, 826.6531619133668]] — what word or words appear there? The word(s) is/are ________.",
+              "answer": [
+                "Prescription and",
+                "Immunization",
+                "Services",
+                "New Year,No Hassle.",
+                "Flu Shots",
+                "Book a $29 Same-Day",
+                "Virtual Doctor Visit Through",
+                "Sesame to Get Your",
+                "Prescription Refiis!",
+                "No Cost on Most Insurance",
+                "Walk-ins Welcome or",
+                "Scan the OR Code to Book Later",
+                "Costco now",
+                "accepts",
+                "Medi-Cal RX",
+                "PRESCRIPTION PICK-UP",
+                "SUDAFED",
+                "SUDAFED",
+                "itin·D",
+                "Claritin·D",
+                "ritin·D",
+                "Flu Shots Today",
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The bounding box [[1194,381], [1420,382], [1420,428], [1193,427]] shows a name written as \"M____-Cal RX\" — what word fills the blank?",
+              "answer": "edi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text found inside [[558, 147], [1215, 147], [1215, 827], [558, 827]]? Options:\nA. Virtual Doctor Visit Through, Costco now, SUDAFED, Sesame to Get Your, Medi-Cal RX, Boek a $29 Same-Day, SUDAFED, Walk-ins Welcome or, New Year,No Hassle., Immunization\nB. Allegra-D, accepts, SUDAFED, PRESCRIPTION PICK-UP, New Year,No Hassle., Book a $29 Same-Day, ritin·D, Services, Costco now, No Cost on Most Insurance\nC. SUDAFED, Allegra-D, Medi-Cal RX, SUDAFED, Costco now, Claritin·D, accepts, Virtual Doctor Visit Through, Walk-ins Welcome or, Presoription and\nD. SUDAFED, Walk-ins Welcome or, No Cost on Most Insurance, itin·D, accepts, Sesame to Get Your, Book a $29 Same-Day, New Year,No Hassle., Medi-Cal RX, Prescription Refiis!",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Prescription Refiis!, SUDAFED, PRESCRIPTION PICK-UP, New Year,No Hassle., accepts, Prescription and, Claritin·D, ritin·D, Allegra-D, Flu Shots' appear inside the region [[413, 147], [1215, 147], [1215, 773], [413, 773]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word or words visible at [[696, 142], [1223, 142], [1223, 420], [696, 420]]. ________",
+              "answer": [
+                "Prescription and",
+                "Immunization",
+                "Services",
+                "New Year,No Hassle.",
+                "Flu Shots",
+                "Book a $29 Same-Day",
+                "Virtual Doctor Visit Through",
+                "Sesame to Get Your",
+                "Prescription Refiis!",
+                "No Cost on Most Insurance",
+                "Walk-ins Welcome or",
+                "Scan the OR Code to Book Later",
+                "Costco now",
+                "accepts",
+                "Medi-Cal RX"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Pinpoint the missing word: the text at [[993,334], [1141,335], [1141,374], [993,373]] reads \"Flu ____ \".",
+              "answer": "Shots"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly lists the text shown at [[566, 142], [1223, 142], [1223, 822], [566, 822]]. Options:\nA. Prescription and, Walk-ins Welcome or, Flu Shots, No Cost on Most Insurance, Costco now, PRESCRIPTION PICK-UP, accepts, Allegra-D, itin·D, Sesame to Get Your\nB. Sesame to Get Your, Presoription Refiis!, Book a $29 Same-Day, SUDAFED, SUDAFED, Medi-Cal RX, Services, New Year,No Hassle., Virtual Doctor Visit Through, Costco now\nC. Costco now, Claritin·D, Prescription Refiis!, ritin·D, Book a $29 Same-Day, Prescription and, Sesame to Get Your, accepts, Medi-Cal RX, No Cost on Most Insurance\nD. SUDAFED, ritin·D, Medi-Cal RX, Book a $29 Same-Day, Scan the OR Code to Book Later, Services, PRESCRIRTION PICK-UP, Virtual Doctor Visit Through, Immunization, New Year,No Hassle.",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Book a $29 Same-Day, No Cost on Most Insurance, accepts, Medi-Cal RX, Flu Shots, Allegra-D, Costco now, PRESCRIPTION PICK-UP, Welk-ins Welcome or, Sesame to Get Your' within the boundaries of [[421.72009574883674, 142.32859771268684], [1223.3172529205663, 142.32859771268684], [1223.3172529205663, 821.891257151462], [421.72009574883674, 821.891257151462]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word or words show up at [[606.4387131563128, 798.4103047705097], [687.1387131563127, 798.4103047705097], [687.1387131563127, 819.5103047705097], [606.4387131563128, 819.5103047705097]]? The word(s) is/are ________.",
+              "answer": [
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A brand name at [[974,646], [1051,646], [1051,663], [974,663]] is partially obscured — what is the full text of \"SU____ED\"?",
+              "answer": "DAF"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that captures the text visible inside [[591, 140], [1232, 140], [1232, 551], [591, 551]]. Options:\nA. Prescription and, Scan the OR Code to Book Later, SUDAFED, Medi-Cal RX, Walk-ins Welcome or, Costco now, Book a $29 Same-Day, Immunization, New Year,No Hassle., Sesame to Get Your\nB. Virtual Doctor Visit Through, New Year,No Hassle., No Cost on Most Insurance, accepts, Book a $29 Same-Day, Immunization, Services, SUDAFED, Soan the OR Code to Book Later, Prescription and\nC. Prescription Refiis!, Immunization, Medi-Cal RX, accepts, itin·D, Services, SUDAFED, SUDAFED, Virtual Doctor Visit Through, Sesame to Get Your\nD. Walk-ins Welcome or, Immunization, New Year,No Hassle., PRESCRIPTION PICK-UP, Services, Virtual Doctor Visit Through, Medi-Cal RX, Elu Shots, SUDAFED, Prescription Refiis!",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'Prescription and, Virtual Doctor Visit Through, accepts, Scan the OR Code to Book Later, Claritin·D, PRESCRIPTION PICK-UP, itin·D, Allegra-D, Flu Shots, Costco now' can be found within the box at [[430.7148047435457, 139.94764533173455], [1232.3119619152749, 139.94764533173455], [1232.3119619152749, 819.5103047705097], [430.7148047435457, 819.5103047705097]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text sits at the region [[614.3104332729308, 797.827214391501], [695.0104332729308, 797.827214391501], [695.0104332729308, 818.927214391501], [614.3104332729308, 818.927214391501]]. The word(s) is/are ________.",
+              "answer": [
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1175,584], [1465,582], [1466,621], [1176,624]] you can see \"PRESCRIP____ PICK-UP\" — what word is hidden there?",
+              "answer": "TION"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the answer that names the text inside [[584, 139], [1240, 139], [1240, 819], [584, 819]]. Options:\nA. Immunization, Walk-ins Welcome or, Medi-Cal RX, Virtual Doctor Visit Through, SUDAFED, Book a $29 Same-Day, Claritin·D, ritin·D, Prescription and, Allegra-D\nB. Medi-Cal RX, Scan the OR Code to Book Later, No Cost on Most Insurance, accepts, Walk-ins Welcome or, Flu Shots, PRESCRIPTION PICK-UP, itin·D, Book a $29 Same-Day, Costco now\nC. Book a $29 Same-Day, Claritin·D, Prescription and, PRESCRIPTION PICK-UP, ritin·D, accepts, Walk-ins Welcome or, Scan the OR Code to Book Later, No Cost on Most Insurance, SUDAFFD\nD. Book a $29 Same-Day, Sesame to Get Your, Services, Prescription and, Allegra-D, Medi-Cal RX, Immunization, Welk-ins Welcome or, Virtual Doctor Visit Through, Claritin·D",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'itin·D, Costco now, Immunization, Sesame to Get Your, ritin·D, SUDAFED, accepts, Prescription and, Allegra-D, Medi-Cal RX' falls inside the bounding box [[438.5865248601637, 139.36455495272585], [1240.183682031893, 139.36455495272585], [1240.183682031893, 818.927214391501], [438.5865248601637, 818.927214391501]]? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[446.3246200982589, 137.7772533654243], [1247.921777269988, 137.7772533654243], [1247.921777269988, 817.3399128041995], [446.3246200982589, 817.3399128041995]] — what word or words are written there? The word(s) is/are ________.",
+              "answer": [
+                "Prescription and",
+                "Immunization",
+                "Services",
+                "New Year,No Hassle.",
+                "Flu Shots",
+                "Book a $29 Same-Day",
+                "Virtual Doctor Visit Through",
+                "Sesame to Get Your",
+                "Prescription Refiis!",
+                "No Cost on Most Insurance",
+                "Walk-ins Welcome or",
+                "Scan the OR Code to Book Later",
+                "Costco now",
+                "accepts",
+                "Medi-Cal RX",
+                "PRESCRIPTION PICK-UP",
+                "SUDAFED",
+                "SUDAFED",
+                "itin·D",
+                "Claritin·D",
+                "ritin·D",
+                "Flu Shots Today",
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Coordinates [[1061,825], [1106,824], [1106,846], [1062,847]] mark a partially visible term \"____·D\" — what's the full word?",
+              "answer": "itin"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one accurately reflects the text at [[522, 138], [1248, 138], [1248, 660], [522, 660]]? Options:\nA. SUDAFED, New Year,No Hassle., Virtual Doctor Visit Through, Claritin·D, Services, itin·D, SUDAFED, Walk-ins Welcome or, PRESCRIPTION PICK-UP, Scan the OR Code to Book Later\nB. Sesame to Get Your, Claritin·D, accepts, Book a $29 Same-Day, Prescription Refiis!, Costco now, Prescription and, PRESCRIPTION PICK-UP, Welk-ins Welcome or, SUDAFED\nC. New Year,No Hassle., Walk-ins Welcome or, SUDAFED, SUDAFED, Immunization, Prescription and, Flu Shots, Book a $29 Same-Day, Cloritin·D, Medi-Cal RX\nD. Services, SUDAFED, Claritin·D, Prescription Refiis!, accepts, Scan the OR Code to Book Later, PRESCRIPTION PICK-UP, Prescription and, itin·D, ritin·D",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'No Cost on Most Insurance, Book a $29 Same-Day, Services, Scan the OR Code to Book Later, Walk-ins Welcome or, Prescription and, SUDAFED, itin·D, Immunization, Medi-Cal RX' sits within [[446.3246200982589, 137.7772533654243], [1247.921777269988, 137.7772533654243], [1247.921777269988, 817.3399128041995], [446.3246200982589, 817.3399128041995]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text do you read at [[454.6847487156222, 137.7772533654243], [1256.2819058873527, 137.7772533654243], [1256.2819058873527, 817.3399128041995], [454.6847487156222, 817.3399128041995]]? The word(s) is/are ________.",
+              "answer": [
+                "Prescription and",
+                "Immunization",
+                "Services",
+                "New Year,No Hassle.",
+                "Flu Shots",
+                "Book a $29 Same-Day",
+                "Virtual Doctor Visit Through",
+                "Sesame to Get Your",
+                "Prescription Refiis!",
+                "No Cost on Most Insurance",
+                "Walk-ins Welcome or",
+                "Scan the OR Code to Book Later",
+                "Costco now",
+                "accepts",
+                "Medi-Cal RX",
+                "PRESCRIPTION PICK-UP",
+                "SUDAFED",
+                "SUDAFED",
+                "itin·D",
+                "Claritin·D",
+                "ritin·D",
+                "Flu Shots Today",
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Finish the phrase spotted at [[1594,511], [1709,509], [1709,526], [1594,528]]: \"Sesame to Get ____\".",
+              "answer": "Your"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the answer that best represents the text shown at [[455, 138], [1256, 138], [1256, 763], [455, 763]]. Options:\nA. Flu Shots, Services, Medi-Cal RX, Scan the OR Code to Book Later, Sesame to Get Your, SUDAFED, Immunization, Virtual Doctor Visit Through, Elu Shots Today, Walk-ins Welcome or\nB. Prescription Refiis!, Virtuel Doctor Visit Through, itin·D, No Cost on Most Insurance, Book a $29 Same-Day, Costco now, New Year,No Hassle., Immunization, Medi-Cal RX, Services\nC. SUDAFED, Prescription and, Scan the OR Code to Book Later, accepts, Flu Shots Today, Claritin·D, Allegra-D, Sesame to Get Your, Walk-ins Welcome or, Prescription Refiis!\nD. Prescription Refiis!, No Cost on Most Insurance, Immunization, New Year,No Hassle., SUDAFED, Scan the OR Code to Book Later, itin·D, Costco now, accepts, SUDAFED",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'Claritin·D, Walk-ins Welcome or, Scan the OR Code to Book Later, Flu Shots Today, SUDAFED, Costco now, Flu Shots, Allegra-D, Book a $29 Same-Day, SUDAFED' is positioned within [[454.6847487156222, 137.7772533654243], [1256.2819058873527, 137.7772533654243], [1256.2819058873527, 817.3399128041995], [454.6847487156222, 817.3399128041995]] — is that true?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name what's written at [[463.13955921124904, 529.0283943025294], [801.7957056032499, 529.0283943025294], [801.7957056032499, 817.048367614695], [463.13955921124904, 817.048367614695]]. The word(s) is/are ________.",
+              "answer": [
+                "SUDAFED",
+                "SUDAFED",
+                "itin·D",
+                "Claritin·D",
+                "ritin·D",
+                "Flu Shots Today",
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1077,824], [1183,824], [1184,839], [1077,840]] reads \"W____-ins Welcome\" — what word belongs in the blank?",
+              "answer": "alk"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text shown inside [[727, 137], [1265, 137], [1265, 549], [727, 549]]? Options:\nA. PRESCRIPTION PICK-UP, Costoo now, Book a $29 Same-Day, Services, Scan the OR Code to Book Later, Walk-ins Welcome or, New Year,No Hassle., Prescription Refiis!, Virtual Doctor Visit Through, accepts\nB. Prescription and, SUDAFED, Costco now, Walk-ins Welcome or, Flu Shots, Immunization, New Year,No Hassle., Book a $29 Same-Day, PRESCRIPTION PICK-UP, accepts\nC. Virtual Doctor Visit Through, SUDAFED, Prescription and, Flu Shots, No Cost on Most Insurance, Immunization, Prescription Refiis!, PRESCRIPTION PICK-UP, Medi-Cal RX, Costco now\nD. Welk-ins Welcome or, Prescription Refiis!, New Year,No Hassle., Costco now, PRESCRIPTION PICK-UP, Book a $29 Same-Day, Virtual Doctor Visit Through, Scan the OR Code to Book Later, Sesame to Get Your, Immunization",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'Services, SUDAFED, Flu Shots Today, Book a $29 Same-Day, Medi-Cal RX, Allegra-D, Scan the OR Code to Book Later, Prescription and, PRESCRIPTION PICK-UP, Flu Shots' appear somewhere inside the bounding box [[463.13955921124904, 137.48570817591988], [1264.7367163829795, 137.48570817591988], [1264.7367163829795, 817.048367614695], [463.13955921124904, 817.048367614695]]? Yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0316/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0316/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off whatever text is visible inside [[645.9556662055764, 795.5937576856171], [726.6556662055764, 795.5937576856171], [726.6556662055764, 816.6937576856171], [645.9556662055764, 816.6937576856171]] — what word or words do you see? ________",
+              "answer": [
+                "Allegra-D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At region [[895,635], [1133,637], [1133,676], [894,675]], the word is partially obscured — fill in the missing piece: Imm____on",
+              "answer": "unizati"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately captures the text visible in [[470, 137], [1272, 137], [1272, 763], [470, 763]]. Options:\nA. Prescription and, accepts, Services, Immunization, Book a $29 Same-Day, Scan the OR Code to Book Later, Flu Shots, No Cost on Most Insurance, SUDAFED, Sesame to Get Your\nB. Virtual Doctor Visit Through, SUDAFED, Flu Shots Today, No Cost on Most Insurance, Scan the OR Code to Book Later, New Year,No Hassle., Walk-ins Welcome or, Sesame to Get Your, Services, Cloritin·D\nC. Medi-Cal RX, Sesame to Get Your, Scan the OR Code to Book Later, Virtual Doctor Visit Through, Services, Claritin·D, Allegra-D, ritin·D, Walk-ins Welcome or, No Cost on Most Insurance\nD. SUDAFED, Claritin·D, accepts, No Cost on Most Insurance, Book a $29 Same-Day, ritin·D, Presoription and, Immunization, Walk-ins Welcome or, SUDAFED",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SUDAFED, Services, Medi-Cal RX, New Year,No Hassle., ritin·D, Prescription and, Virtual Doctor Visit Through, Claritin·D, Book a $29 Same-Day, Walk-ins Welcome or' the text you'd find inside the bounding box [[470.23175779280933, 137.13109824684196], [1271.8289149645384, 137.13109824684196], [1271.8289149645384, 816.6937576856171], [470.23175779280933, 816.6937576856171]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0316"
+  }
+]

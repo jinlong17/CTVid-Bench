@@ -1,0 +1,472 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text do you see inside the region [[510, 912], [1415, 912], [1415, 973], [510, 973]]? ________",
+              "answer": [
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What character(s) are missing from the term shown at [[761,98], [884,98], [884,134], [762,134]]? Complete it: 機器學____",
+              "answer": "習"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[484, 97], [1424, 97], [1424, 163], [484, 163]] and pick the answer that includes the text shown there. Options:\nA. 深度學習, Machine Learning, 機器學習, Deop Learning, 人工智慧, 未來, Future\nB. Deep Learning, Future, AI, Machine Learning, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧\nC. AI, 機器學習, Deep Learning, 深度學習, Machine Learning, 未來, Future\nD. Maohine Learning, 人工智慧, 機器學習, 深度學習, Future, 未來, AI",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does box [[484, 97], [1424, 97], [1424, 163], [484, 163]] actually enclose the label(s) '機器學習, 深度學習, 未來, Deep Learning, Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧, AI, Future'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you can read within the bounding box [[484, 97], [1424, 97], [1424, 973], [484, 973]]. ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "單純貝氏分類器（Naïve Bayes Classifier）",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's missing from the term shown in region [[761,98], [884,98], [884,134], [762,134]] — can you complete it? 機____學習",
+              "answer": "器"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[484, 97], [1424, 97], [1424, 163], [484, 163]] — which of these options lists the text(s) shown there? Options:\nA. AI, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Future, 深度學習, 未來, Deep Learning\nB. Future, AI, 機器學習, 人工智慧, Machine Learning, 深度學習, Deep Learning\nC. 機器學習, Machine Learning, 人工智慧, Future, 未來, AI, Deop Learning\nD. 深度學習, Deep Learning, Future, 機器學習, RI, 人工智慧, 未來",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]] actually contain the label(s) 'Deep Learning, 人工智慧, 深度學習, 機器學習, AI, Future, 單純貝氏分類器（Naïve Bayes Classifier）, Machine Learning, 未來'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can you read inside the bounding box [[510.3636363636364, 912.2549019607843], [1414.6568627450981, 912.2549019607843], [1414.6568627450981, 972.5490196078431], [510.3636363636364, 972.5490196078431]]? ________",
+              "answer": [
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "座標 [[1356,97], [1424,97], [1424,135], [1356,135]] 所標示的區域裡有個字符缺失，請把它補上：未____",
+              "answer": "來"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area [[484, 97], [1424, 97], [1424, 163], [484, 163]], which answer choice correctly names the text(s) visible there? Options:\nA. 未來, AI, Machine Learning, Future, 人工智慧, 渘度學習, Deep Learning\nB. AI, 機器學習, Deep Learning, 深度學習, Maohine Learning, 人工智慧, Future\nC. 機器學習, Deep Learning, 深度學習, AI, 未來, 人工智慧, Machine Learning\nD. Deep Learning, 未來, 深度學習, 機器學習, Machine Learning, Future, 單純貝氏分類器（Naïve Bayes Classifier）",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you find the label(s) '未來, AI, Future, 深度學習, 機器學習, Machine Learning' inside the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) sit inside the specified area [[510.3636363636364, 912.2549019607843], [1414.6568627450981, 912.2549019607843], [1414.6568627450981, 972.5490196078431], [510.3636363636364, 972.5490196078431]]. ________",
+              "answer": [
+                "單純貝氏分類器（Naive Bayes Classifier）",
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What goes in the blank at [[928,434], [1219,435], [1219,492], [928,493]] to complete the expression P(____|A) P(A)?",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly reflects the text(s) shown in [[484, 97], [1424, 97], [1424, 163], [484, 163]]? Options:\nA. Future, Deep Learning, 單純貝氏分類器（Naive Bayes Classifier）, AI, Machine Learning, 未來, 人工智慧\nB. Deep Learning, AI, Future, 未來, 機器學習, 人工智慧, 渘度學習\nC. 機器學習, 深度學習, Machine Learning, Deep Learning, RI, 人工智慧, Future\nD. Machine Learning, 機器學習, 未來, AI, 深度學習, 人工智慧, Deep Learning",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'Deep Learning, 機器學習, Future, AI, 未來, 深度學習' when you look inside the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can find within [[484, 97], [1424, 97], [1424, 163], [484, 163]]. ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "這段文字在 [[654,588], [1270,590], [1270,651], [655,649]] 位置有缺損，請補全：貝氏定理（Bayes'____)",
+              "answer": "Theorem"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, which one accurately lists the text(s) visible in [[484, 97], [1424, 97], [1424, 973], [484, 973]]? Options:\nA. 未來, 人工智慧, Deep Learning, 深度學習, 機器學習, Machine Learning, Future, 單純貝氏分類器（Naïve Bayes Classifier）\nB. 機器學習, 未來, 單紈貝氏分類器（Naïve Bayes Classifier）, AI, Deep Learning, 人工智慧, 深度學習, Machine Learning\nC. AI, 渘度學習, Future, 人工智慧, 機器學習, Deep Learning, 單純貝氏分類器（Naïve Bayes Classifier）, Machine Learning\nD. Deep Learning, Machine Learning, 深度學習, 末來, 人工智慧, Future, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]] contains the label(s) 'Deep Learning, Future, 深度學習, Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧, 未來, 機器學習, AI'.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Pinpoint any word(s) that seem to be missing from the content within [[484, 97], [1424, 97], [1424, 163], [484, 163]]. ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔細觀察 [[762,98], [884,98], [884,134], [762,134]] 位置，把缺少的詞語補充完整：____器學習",
+              "answer": "機"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text(s) you see in the region [[484, 97], [1424, 97], [1424, 163], [484, 163]]? Options:\nA. Machine Learning, AI, 機器學習, 未來, 人工智憃, 深度學習, Future\nB. 人工智慧, Machine Learning, Deep Learning, Future, 未來, 機器學習, RI\nC. 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Machine Learning, Deep Learning, AI, 深度學習, Future\nD. 人工智慧, 機器學習, 未來, Machine Learning, AI, Future, Deep Learning",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '未來, Deep Learning, Future, 深度學習, AI, 機器學習' fall inside the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the content in the area [[510.3636363636364, 912.2549019607843], [1414.6568627450981, 912.2549019607843], [1414.6568627450981, 972.5490196078431], [510.3636363636364, 972.5490196078431]] and write down the text you see. ________",
+              "answer": [
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[484,98], [607,98], [607,134], [485,134]] 處的文字有所殘缺，試著把它補完整：人____智慧",
+              "answer": "工"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that gives an accurate list of the text(s) inside [[484, 97], [1424, 97], [1424, 973], [484, 973]]. Options:\nA. Machine Learning, Deop Learning, 機器學習, 深度學習, 單純貝氏分類器（Naïve Bayes Classifier）, AI, 人工智慧, 未來\nB. AI, Future, Deep Learning, 人工智慧, 機器學習, 未來, 深度學習, 單紈貝氏分類器（Naïve Bayes Classifier）\nC. AI, 深度學習, 人工智慧, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Future, Deep Learning, Machine Learning\nD. 機器學習, Deep Learning, Future, 深度學習, 未來, Maohine Learning, 人工智慧, AI",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the bounding box [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]] the location where you'd find the label(s) '深度學習, 人工智慧, Machine Learning, 機器學習, Deep Learning, 單純貝氏分類器（Naïve Bayes Classifier）, AI'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the specified area [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]] and identify the text shown there. ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "AI",
+                "機器學習",
+                "Machine Learning",
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The term at [[1037,98], [1159,98], [1159,134], [1037,134]] has a gap — what word or phrase belongs in ____學習??",
+              "answer": "深度"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options given, which best captures all the text(s) you can see in the area [[484, 97], [1424, 97], [1424, 163], [484, 163]]? Options:\nA. 深度學習, 未來, 人工智慧, AI, 機器學習, Future, 單純貝氏分類器（Naïve Bayes Classifier）\nB. Deep Learning, 機器學習, 深度學習, 人工智慧, RI, Future, Machine Learning\nC. Deep Learning, 末來, 人工智慧, AI, Machine Learning, 深度學習, Future\nD. Deep Learning, 人工智慧, Future, 機器學習, 未來, Machine Learning, AI",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]] contain the label(s) '深度學習, 未來, 人工智慧, 單純貝氏分類器（Naïve Bayes Classifier）, Future, AI, Deep Learning'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the text shown at [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]. ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "AI",
+                "機器學習",
+                "Machine Learning",
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the formula at [[931,434], [1223,434], [1222,491], [932,492]], what goes in the blank to complete it: P(B|____) P(A)?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you describe the text(s) inside [[484, 97], [1424, 97], [1424, 973], [484, 973]]? Pick the best match. Options:\nA. Future, 單純貝氏分類器（Naïve Bayes Classifier）, Machine Learning, 人工智慧, 深度學習, RI, Deep Learning, 未來\nB. Machine Learning, 機器學習, Euture, Deep Learning, 未來, AI, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧\nC. 未來, Machine Learning, 人工智慧, 單純貝氏分類器（Naïve Bayes Classifier）, Deep Learning, AI, Future, 深度學習\nD. 單純貝氏分類器（Naïve Bayes Classifier）, AI, Machine Learning, 未來, Future, 人工智憃, 深度學習, Deep Learning",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'Deep Learning, Future, 未來, 深度學習, 人工智慧, 機器學習, AI, 單純貝氏分類器（Naïve Bayes Classifier）, Maohine Learning' inside the box at [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you tell me what text appears at [[510.3636363636364, 912.2549019607843], [1414.6568627450981, 912.2549019607843], [1414.6568627450981, 972.5490196078431], [510.3636363636364, 972.5490196078431]]? ________",
+              "answer": [
+                "單純貝氏分類器（Naïve Bayes Classifier）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "座標 [[510,912], [1414,912], [1415,973], [511,966]] 的位置有個詞語不完整，請補上缺少的部分：單純____氏分類器（Naïve Bayes Classifier）",
+              "answer": "貝"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text(s) you can see at [[484, 97], [1424, 97], [1424, 163], [484, 163]]. Options:\nA. Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）, Future, 未來, AI, 深度學習, 人工智慧\nB. AI, Deep Learning, 機器學習, 人工智慧, Future, Machine Learning, 渘度學習\nC. Deep Learning, Machine Learning, 人工智慧, 未來, AI, 機器學習, 深度學習\nD. 未來, Machine Learning, 人工智憃, Deep Learning, 機器學習, AI, 深度學習",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'Deep Learning, AI, 未來, Machine Learning, 人工智慧, 深度學習, Future, 機器孯習, 單純貝氏分類器（Naïve Bayes Classifier）' appear inside the bounding box [[484.49612403100775, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [484.49612403100775, 972.5490196078431]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The notation at [[47,757], [92,758], [92,803], [48,803]] has a gap — what belongs in the blank: ____(",
+              "answer": "P"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following matches the text shown at [[484, 97], [1424, 97], [1424, 973], [484, 973]]? Options:\nA. AI, Deep Learning, Future, 人工智慧, 未來, 機器學習, Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）\nB. 人工智慧, 深度學習, Future, Deep Learning, 機器孯習, 未來, 單純貝氏分類器（Naïve Bayes Classifier）, AI\nC. Machine Learning, 機器學習, 深度學習, Future, 單純貝氏分類器（Naïve Bayes Classifier）, 人工智慧, AI, 末來\nD. Euture, 單純貝氏分類器（Naïve Bayes Classifier）, AI, 人工智慧, 機器學習, Deep Learning, 未來, 深度學習",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[484, 97], [1424, 97], [1424, 163], [484, 163]], are the label(s) '機器學習, Deep Learning, Future, 單純貝氏分類器（Naïve Bayes Classifier）, 未來, Machine Learning, 人工智慧, AI, 深度學習' present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_041/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_041/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "請看 [[654,588], [1270,590], [1270,651], [655,649]] 位置的詞語，把空缺的部分填上：貝____定理（Bayes' Theorem)?",
+              "answer": "氏"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly lists every text visible at [[484, 97], [1424, 97], [1424, 973], [484, 973]]. Options:\nA. 未來, AI, 人工智慧, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Futuro, Machine Learning, Deep Learning\nB. Deep Learning, 機器學習, AI, Machine Learning, 單純貝氏分類器（Naïve Bayes Classifier）, Future, 深度學習, 未來\nC. AI, 未來, 單純貝氏分類器（Naïve Bayes Classifier）, 機器孯習, 人工智慧, Machine Learning, 深度學習, Future\nD. 深度學習, Deep Learning, 人工智慧, 機器學習, 單純貝氏分類器（Naïve Bayes Classifier）, Euture, 未來, Machine Learning",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'AI, Machine Learning, 機器學習, Future, 深度學習, Deep Learning, 單純貝氏分類器（Naïve Bayes Classifier）, 未來, 人工智慧' fall inside the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_041"
+  }
+]

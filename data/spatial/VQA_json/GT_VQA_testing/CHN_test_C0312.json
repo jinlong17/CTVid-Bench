@@ -1,0 +1,481 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can read in the box [[1115, 126], [1617, 126], [1617, 671], [1115, 671]]. ________",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text at [[1368,164], [1543,160], [1543,184], [1368,189]], the letter \"N\" in \"CHINA SOUTHERN\" has been replaced — what character appears as ____?",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan region [[1368, 126], [1544, 126], [1544, 189], [1368, 189]] and tell me which option lists the text(s) shown there. Options:\nA. OHINA SOUTHERN\nB. 串国南方航空\nC. 经济舱\nD. 中国南方航空",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'CHINA SOUTHERN' is found inside the bounding box [[1367.9485617287833, 125.58139534883723], [1543.6314847942754, 125.58139534883723], [1543.6314847942754, 188.55098389982112], [1367.9485617287833, 188.55098389982112]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Carefully look at the area [[1113, 126], [1615, 126], [1615, 671], [1113, 671]] — what word(s) can you read there? ________",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[1187,425], [1520,410], [1523,524], [1192,538]]的中文词汇，末尾两个字符是什么？请以\"____舱\"的形式给出答案。",
+              "answer": "经济"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one matches the text(s) visible in [[1113, 126], [1615, 126], [1615, 671], [1113, 671]]? Options:\nA. 经济舱, CHINA SOUTHERN, Econamy Class\nB. CHINA SOUTHERN, Ecenomy Class, 中国南方航空\nC. 组济舱, Economy Class, 中国南方航空\nD. 经济舱, 中国南方航空, Economy Class",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Economy Class, CHINA SOUTHERN, 中国南方航空' sits inside the bounding box [[1113.3516483516485, 126.13084589828786], [1615.1029173871814, 126.13084589828786], [1615.1029173871814, 670.6289618023144], [1113.3516483516485, 670.6289618023144]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank: ________ is the text you see in [[1113, 126], [1615, 126], [1615, 672], [1113, 672]].",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1105,578], [1604,554], [1607,631], [1107,656]], the phrase reads \"E____nomy Class\" — what letter(s) should go in the blank?",
+              "answer": "co"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which answer option matches the text you can see in area [[1113, 126], [1615, 126], [1615, 672], [1113, 672]]. Options:\nA. Economy Class, 经济舱, CHINA SOUTHERN\nB. Economy Class, 组济舱, CHINA SOUTHERN\nC. Ecenomy Class, 经济舱, 中国南方航空\nD. 经济舱, 中国南方航空, OHINA SOUTHERN",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '中国南方航空, Economy Class, CHINA SOUTHERN' falls inside bounding box [[1364.2383544103286, 126.13084589828786], [1539.9212774758207, 126.13084589828786], [1539.9212774758207, 189.10043444927175], [1364.2383544103286, 189.10043444927175]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe whatever word(s) appear inside [[1115, 126], [1617, 126], [1617, 667], [1115, 667]]: ________.",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The airline name shown at [[1381,153], [1556,149], [1556,173], [1382,178]] is \"CHINA SO____N\" — what letters complete it?",
+              "answer": "UTHER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "My question is simple: what text does [[1364, 126], [1540, 126], [1540, 189], [1364, 189]] contain, and which option lists it? Options:\nA. 经济舱\nB. Economy Class\nC. 串国南方航空\nD. 中国南方航空",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check bounding box [[1364.2383544103286, 126.13084589828786], [1539.9212774758207, 126.13084589828786], [1539.9212774758207, 189.10043444927175], [1364.2383544103286, 189.10043444927175]] — is '经济舱, 中国南方航空, CHINA SOUTHERN' really in there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text is hiding inside [[1105, 127], [1607, 127], [1607, 670], [1105, 670]]? Write it in the blank: ________.",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请将[[1212,417], [1545,402], [1548,516], [1217,530]]区域中\"经____\"这两个字符的余下部分补全。",
+              "answer": "济舱"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices given, which one captures the text(s) you see in [[1362, 127], [1538, 127], [1538, 191], [1362, 191]]? Options:\nA. CHINA SOUTHERN\nB. 串国南方航空\nC. 串国南方航空\nD. 经济舱",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at bounding box [[1362.0, 127.0], [1538.0, 127.0], [1538.0, 191.0], [1362.0, 191.0]], do you see the label(s) 'CHINA SOUTHERN, 中国南方航空, 经济舱' inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[1107.2601600989924, 126.13084589828786], [1609.0114291345253, 126.13084589828786], [1609.0114291345253, 665.7335707337176], [1107.2601600989924, 665.7335707337176]], what word(s) can you read? ________",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1151,566], [1650,542], [1652,619], [1152,644]], the text reads \"____ Class\" — what word(s) come before \"Class\" to complete it?",
+              "answer": "Economy"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text found inside [[1191, 126], [1537, 126], [1537, 540], [1191, 540]]? Options:\nA. CHINA SOUTHERN, 串国南方航空\nB. Economy Class, 中国南方航空\nC. CHINA SOUTHERN, 经济舱\nD. CHINA SOUTHERN, 组济舱",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[1107.2601600989924, 126.13084589828786], [1609.0114291345253, 126.13084589828786], [1609.0114291345253, 665.7335707337176], [1107.2601600989924, 665.7335707337176]], do the label(s) '中国南方航空, Eoonomy Class, CHINA SOUTHERN, 经济舱' appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) you can find inside [[1359.2668890940356, 124.73224449968647], [1534.9498121595277, 124.73224449968647], [1534.9498121595277, 187.70183305067036], [1359.2668890940356, 187.70183305067036]]. ________",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1435,116], [1608,113], [1608,148], [1435,152]]所指区域内，\"中____南方航空\"中缺失的内容是什么？",
+              "answer": "国"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that matches the text visible in [[1108, 125], [1609, 125], [1609, 666], [1108, 666]]. Options:\nA. CHINA SOUTHERN, 经济舱, 串国南方航空\nB. Economy Class, CHINA SOUTHERN, 中国南方航空\nC. CHINA SOUTHERN, 经济舱, Ecenomy Class\nD. 中国南方航空, 组济舱, Economy Class",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box at [[1107.7267780694776, 124.73224449968647], [1609.4780471050105, 124.73224449968647], [1609.4780471050105, 665.8899640432493], [1107.7267780694776, 665.8899640432493]] — does it contain the label(s) 'CHINA SOUTHERN, 经济舱, 中国南方航空'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up inside the box [[1105.3617206730762, 124.73224449968647], [1607.1129897086091, 124.73224449968647], [1607.1129897086091, 666.069073381359], [1105.3617206730762, 666.069073381359]]? The answer is ________.",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In [[1449,144], [1624,140], [1625,165], [1450,169]], the partial text reads \"CHINA ____THERN\". What letter(s) fill the blank?",
+              "answer": "SOU"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly shows what's written in [[1357, 125], [1533, 125], [1533, 188], [1357, 188]]. Options:\nA. 经济舱\nB. CHINA SOUTHERN\nC. Economy Class\nD. OHINA SOUTHERN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot the label(s) '经济舱, CHINA SOUTHERN, 中国南方航空' inside [[1105.3617206730762, 124.73224449968647], [1607.1129897086091, 124.73224449968647], [1607.1129897086091, 666.069073381359], [1105.3617206730762, 666.069073381359]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside the region [[1357.1542130376977, 124.73224449968647], [1532.8371361031898, 124.73224449968647], [1532.8371361031898, 187.70183305067036], [1357.1542130376977, 187.70183305067036]] — what word(s) do you see? ________",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text in [[1478,159], [1653,155], [1653,179], [1479,183]] spells out an airline name as \"____ SOUTHERN\". What letter(s) are hidden in the blank?",
+              "answer": "CHINA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one captures the text at [[1357, 125], [1533, 125], [1533, 188], [1357, 188]]? Options:\nA. CHINA SOUTHERN\nB. 经济舱\nC. 串国南方航空\nD. 串国南方航空",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "How about the label(s) 'CHINA SOUTHERN' — are they found inside [[1357.1542130376977, 124.73224449968647], [1532.8371361031898, 124.73224449968647], [1532.8371361031898, 187.70183305067036], [1357.1542130376977, 187.70183305067036]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible within the bounding box [[1106.5177900372382, 124.73224449968647], [1608.2690590727711, 124.73224449968647], [1608.2690590727711, 666.6471080634399], [1106.5177900372382, 666.6471080634399]]. ________",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "bounding box [[1346,422], [1679,407], [1684,520], [1351,535]]中出现了\"经____舱\"，其中缺失的字符是什么？",
+              "answer": "济"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the choices below, which one matches the text at [[1357, 125], [1533, 125], [1533, 188], [1357, 188]]? Options:\nA. OHINA SOUTHERN\nB. CHINA SOUTHERN\nC. Economy Class\nD. 经济舱",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Let's check: do the label(s) 'Economy Class, 中国南方航空, CHINA SOUTHERN' fall within the bounding box [[1106.5177900372382, 124.73224449968647], [1608.2690590727711, 124.73224449968647], [1608.2690590727711, 666.6471080634399], [1106.5177900372382, 666.6471080634399]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What words can you spot inside [[1357.1542130376977, 124.73224449968647], [1532.8371361031898, 124.73224449968647], [1532.8371361031898, 187.70183305067036], [1357.1542130376977, 187.70183305067036]]? ________",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area marked [[1529,165], [1704,161], [1704,186], [1530,190]], an airline name appears as \"CH____A SOUTHERN\". What letter(s) are missing from the front?",
+              "answer": "IN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly identifies the text you'd find at [[1357, 125], [1533, 125], [1533, 188], [1357, 188]]. Options:\nA. 中国南方航空\nB. 串国南方航空\nC. 经济舱\nD. 串国南方航空",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[1102.4715472626717, 124.73224449968647], [1604.2228162982046, 124.73224449968647], [1604.2228162982046, 667.2251427455208], [1102.4715472626717, 667.2251427455208]], is it the case that the label(s) 'Economy Class, 中国南方航空, 经济舱' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0312/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0312/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown inside [[1104.2056513089144, 124.73224449968647], [1605.9569203444473, 124.73224449968647], [1605.9569203444473, 667.2717142601908], [1104.2056513089144, 667.2717142601908]] — what word or words appear there? ________",
+              "answer": [
+                "中国南方航空",
+                "CHINA SOUTHERN",
+                "经济舱",
+                "Economy Class"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the region [[1565,135], [1740,131], [1740,156], [1565,160]], complete the airline name by filling in the missing part: \"CHI____SOUTHERN\".",
+              "answer": "NA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify what text appears inside [[1104, 125], [1606, 125], [1606, 667], [1104, 667]] and select the matching option. Options:\nA. 经济舱, OHINA SOUTHERN, 中国南方航空\nB. Economy Class, 丰国南方航空, CHINA SOUTHERN\nC. Economy Class, 串国南方航空, 经济舱\nD. CHINA SOUTHERN, Economy Class, 中国南方航空",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '经济舱, 中国南方航空, CHINA SOUTHERN' actually appear inside the bounding box [[1104.2056513089144, 124.73224449968647], [1605.9569203444473, 124.73224449968647], [1605.9569203444473, 667.2717142601908], [1104.2056513089144, 667.2717142601908]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0312"
+  }
+]

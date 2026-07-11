@@ -1,0 +1,519 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify the word(s) sitting inside [[1065.7575757575758, 424.0144230769231], [1911.4754098360656, 424.0144230769231], [1911.4754098360656, 650.2463054187191], [1065.7575757575758, 650.2463054187191]]? Fill in: ________.",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given that the text at [[1870,519], [1911,518], [1911,553], [1870,554]] ends with \"e.\" and currently reads \"n____\", what character(s) are missing?",
+              "answer": "e"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly captures the text found at [[1081, 424], [1911, 424], [1911, 557], [1081, 557]]? Options:\nA. 北, 我在阿信很想你, S\nB. 玌, 我在阿信很想你, 南\nC. 南, 我在阿信很想你, 北\nD. 我在阿信很想你, no, 南",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'S, ne, 1 miss you so much at plus, 北, 我在阿信很想你, 南, N' fall inside [[1065.7575757575758, 424.0144230769231], [1911.4754098360656, 424.0144230769231], [1911.4754098360656, 650.2463054187191], [1065.7575757575758, 650.2463054187191]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[1070, 423], [1916, 423], [1916, 650], [1070, 650]], what word(s) can be read? ________.",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word at [[1874,518], [1916,518], [1917,553], [1874,553]] starts with \"n\" and is partially shown as \"n____\" — which letters are needed to finish it?",
+              "answer": "e"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly lists the text(s) visible at [[1085, 423], [1916, 423], [1916, 557], [1085, 557]]. Options:\nA. 我在阿信很想你, 北, no\nB. 我在阿信很想你, I miss you so much at plus, ne\nC. ne, S, 北\nD. 南, 北, ne",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the box marked [[1070.012894906512, 423.30520321876713], [1915.7307289850019, 423.30520321876713], [1915.7307289850019, 649.5370855605631], [1070.012894906512, 649.5370855605631]], do you see the label(s) '南, 北, N, ne, 我在阿信很想你, I miss you so much at plus, D'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) at position [[1072, 423], [1918, 423], [1918, 649], [1072, 649]]: ________.",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1047,464], [1656,480], [1656,564], [1043,548]]框内的文本识别结果为\"我在阿____很想你\"，请问空缺处应填写什么内容？",
+              "answer": "信"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text(s) you can spot within [[1087, 423], [1918, 423], [1918, 556], [1087, 556]]. Options:\nA. 南, 我在阿倍很想你, ne\nB. 南, 北, ne\nC. ne, 玌, 我在阿信很想你\nD. 我在阿信很想你, ne, S",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'ne, 北, 1 miss you so much at plus, 南, 我在阿信很想你, N, S' one of the labels visible inside the bounding box [[1071.917656811274, 422.82901274257665], [1917.6354908897638, 422.82901274257665], [1917.6354908897638, 649.0608950843726], [1071.917656811274, 649.0608950843726]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you can see within [[1074, 422], [1920, 422], [1920, 648], [1074, 648]]: ________.",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请问[[900,408], [950,410], [949,452], [899,452]]区域的文字末尾为\"____\"，缺少的汉字是什么？",
+              "answer": "南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately reflects the text inside [[1089, 422], [1920, 422], [1920, 555], [1089, 555]]? Options:\nA. S, 北, 南\nB. 我在阿信很想你, ne, 南\nC. 玌, ne, 我在阿信很想你\nD. 玌, ne, 我在阿信很想你",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Box [[1074.28216592151, 421.8766317901957], [1920.0, 421.8766317901957], [1920.0, 648.1085141319917], [1074.28216592151, 648.1085141319917]] — does it actually contain the label(s) '我在阿信很想你, S, 北, N, ne'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you find at [[1074, 424], [1920, 424], [1920, 650], [1074, 650]]: ________.",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "区域[[1814,617], [1915,619], [1915,643], [1814,640]]中检测到的文本为\"无产____级文\"，还原完整内容需要补充哪些汉字？",
+              "answer": "阶"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best describes the text(s) found in the region [[1089, 424], [1920, 424], [1920, 557], [1089, 557]]. Options:\nA. 我在阿信很想你, 北, ne\nB. 南, ne, S\nC. 南, 我在阿信很想你, no\nD. 卖, ne, 我在阿信很想你",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[1074.28216592151, 423.7997087132727], [1920.0, 423.7997087132727], [1920.0, 650.0315910550687], [1074.28216592151, 650.0315910550687]] — does it contain the label(s) '我在阿信很想你, I miss you so much at plus, ne, S, 南'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spot the word(s) inside [[1079, 424], [1920, 424], [1920, 650], [1079, 650]] and fill in the blank: ________.",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "检测框[[893,361], [944,363], [943,405], [892,405]]显示的文本为\"____\"，缺失的汉字是什么？",
+              "answer": "南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify which answer choice matches the text found inside [[1079, 424], [1775, 424], [1775, 650], [1079, 650]]? Options:\nA. 南, ne, 我在阿信很想你\nB. 1 miss you so much at plus, 南, 我在阿信很想你\nC. 我在阿信很想你, I miss you so much at plus, 北\nD. S, 南, I miss you so much at plus",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'ne, 南, 我在阿信很想你, I miss you so much at plus, S, H, 北' appear inside the region marked by [[1079.0674968696317, 423.7997087132727], [1920.0, 423.7997087132727], [1920.0, 650.0315910550687], [1079.0674968696317, 650.0315910550687]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text you can read inside [[1083, 425], [1920, 425], [1920, 651], [1083, 651]]. ________",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[1630,273], [1684,274], [1683,321], [1630,321]]框内的文字，将\"____\"中空缺的汉字补充完整。",
+              "answer": "北"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly shows the text inside [[1098, 425], [1920, 425], [1920, 558], [1098, 558]]. Options:\nA. ne, 我在阿倍很想你, 南\nB. 我在阿信很想你, S, 北\nC. ne, 我在阿信很想你, 南\nD. 南, 北, 我在阿倍很想你",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '北, I miss you so much at plus, no, S, 南, N, 我在阿信很想你' can be found within the bounding box [[1082.5157727317007, 424.6617776787899], [1920.0, 424.6617776787899], [1920.0, 650.8936600205859], [1082.5157727317007, 650.8936600205859]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) appear inside the bounding box [[1083, 425], [1920, 425], [1920, 651], [1083, 651]]? ________",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[1658,439], [1706,440], [1705,484], [1658,483]], just one character is visible — what fills the blank in \"____\"?",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer choice that lists the text visible in [[1098, 425], [1920, 425], [1920, 558], [1098, 558]]. Options:\nA. ne, 北, 我在阿倍很想你\nB. S, ne, 我在阿信很想你\nC. 北, 南, 我在阿信很想你\nD. 北, 卖, 我在阿信很想你",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Whether or not 'N, ne, 我在阿倍很想你, I miss you so much at plus, 南, S, 北' appears inside [[1082.5157727317007, 424.6617776787899], [1920.0, 424.6617776787899], [1920.0, 650.8936600205859], [1082.5157727317007, 650.8936600205859]] — is that actually the case?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[1083, 570], [1872, 570], [1872, 651], [1083, 651]] — what does it say? ________",
+              "answer": [
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase inside [[1042,571], [1625,591], [1623,655], [1037,635]] reads \"I miss ____ at plus\" — what word or words belong in the blank?",
+              "answer": "you so much"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options below, which one matches what's written inside [[1083, 425], [1872, 425], [1872, 651], [1083, 651]]? Options:\nA. 我在阿信很想你, 北, 南, N, 1 miss you so much at plus\nB. 南, I miss you so much at plus, N, 我在阿信很想你, D\nC. N, ne, 北, 南, S\nD. 我在阿信很想你, N, 南, 北, S",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "[[1082.5157727317007, 424.6617776787899], [1920.0, 424.6617776787899], [1920.0, 650.8936600205859], [1082.5157727317007, 650.8936600205859]]框内是否包含标签'北, ne, S, 我在阿信很想你, 南'？",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the region [[1079, 424], [1918, 424], [1918, 651], [1079, 651]] — what word(s) does it contain? ________",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the blank: the text inside [[1754,617], [1796,617], [1796,652], [1754,651]] reads \"____e\" — what completes it?",
+              "answer": "n"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly reflects the text shown within [[1092, 424], [1918, 424], [1918, 558], [1092, 558]]? Options:\nA. 我在阿信很想你, 北, 卖\nB. 我在阿信很想你, ne, 南\nC. ne, 北, 卖\nD. ne, 南, S",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "标签'S, 北, ne, I miss you so much at plus, 南'是否出现在[[1078.9092153546517, 424.2084691236695], [1918.0842911877396, 424.2084691236695], [1918.0842911877396, 650.8936600205859], [1078.9092153546517, 650.8936600205859]]所标注的区域内？",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[1073, 424], [1917, 424], [1917, 651], [1073, 651]], which word(s) do you see there? ________",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1067,638], [1675,658], [1674,742], [1062,725]]范围内的文字呈现为\"我在____很想你\"，空白处应填入什么内容？",
+              "answer": "阿信"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1086, 424], [1917, 424], [1917, 558], [1086, 558]] — which of the following options captures the text there? Options:\nA. 南, 我在阿信很想你, 北\nB. 南, ne, S\nC. 北, 南, 我在阿倍很想你\nD. 卖, 北, 我在阿信很想你",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'N, 我在阿信很想你, ne, 北, S' is located within the bounding box [[1073.0952618662798, 424.2084691236695], [1916.525656848304, 424.2084691236695], [1916.525656848304, 650.8936600205859], [1073.0952618662798, 650.8936600205859]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0391/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0391/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside [[1064, 425], [1908, 425], [1908, 652], [1064, 652]]. ________",
+              "answer": [
+                "ne",
+                "南",
+                "北",
+                "我在阿信很想你",
+                "S",
+                "I miss you so much at plus",
+                "N"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In [[1719,852], [1767,853], [1766,897], [1718,896]], the visible text reads \"____\" with a character hidden — what's missing?",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text enclosed by [[1078, 425], [1908, 425], [1908, 559], [1078, 559]], which option is the right match? Options:\nA. S, 我在阿信很想你, 北\nB. 南, I miss you so much at plus, 我在阿信很想你\nC. 北, 南, 我在阿信很想你\nD. 北, no, 南",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'no, N, 南, I miss you so much at plus, 北, S, 我在阿信很想你' fall inside the region marked by [[1064.147893445227, 425.2611007026169], [1907.5782884272512, 425.2611007026169], [1907.5782884272512, 651.9462915995333], [1064.147893445227, 651.9462915995333]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0391"
+  }
+]

@@ -1,0 +1,475 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) visible inside [[896, 505], [1577, 505], [1577, 783], [896, 783]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中 [[896,599], [1577,603], [1577,691], [896,683]] 位置处的产品名为全新圣罗兰啵啵唇冻，\"罗兰\"二字有部分字符被遮盖，请根据上下文填写：全新圣____啵啵唇冻。",
+              "answer": "罗兰"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which one accurately reflects the text found in [[896, 505], [1577, 505], [1577, 783], [896, 783]]? Options:\nA. YSL05 冷茶冻, 全新圣罗兰哮啵唇冻\nB. YsL LOVESHINE, YSL05 冷茶冻\nC. YSL05 冷荣冻, YSL LOVESHINE\nD. 全新圣罗兰啵啵唇冻, YSL LOVESHINE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm whether 'YSL LOVESHINE, YSL05 冷荣冻, 全新圣罗兰啵啵唇冻' correctly labels the content inside [[895.774647887324, 505.49295774647885], [1576.7605633802818, 505.49295774647885], [1576.7605633802818, 782.9577464788733], [895.774647887324, 782.9577464788733]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) sitting inside region [[896, 505], [1577, 505], [1577, 783], [896, 783]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[854,594], [1534,598], [1534,686], [853,678]] 标记的商品名称存在缺失部分，请将空白处补全：全新圣罗兰啵____冻。",
+              "answer": "啵"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you look at the text in [[896, 505], [1577, 505], [1577, 691], [896, 691]], which answer option does it correspond to? Options:\nA. YSL05 冷茶冻\nB. 全新圣罗兰啵啵唇冻\nC. YsL LOVESHINE\nD. YsL LOVESHINE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'YSL LOVESHINE, YSL05 冷茶冻' belongs to the content enclosed in [[895.774647887324, 505.49295774647885], [1576.7605633802818, 505.49295774647885], [1576.7605633802818, 782.9577464788733], [895.774647887324, 782.9577464788733]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text does the region [[896, 505], [1577, 505], [1577, 783], [896, 783]] contain? ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[840,590], [1521,594], [1521,683], [840,674]] 处的文字有部分被遮挡，其中\"啵啵\"不可见，请补全完整名称：\"全新圣罗兰____唇冻\"。",
+              "answer": "啵啵"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Shown inside [[896, 599], [1577, 599], [1577, 783], [896, 783]] is some text — which answer below captures it correctly? Options:\nA. 全新圣罗兰哮啵唇冻\nB. 全新圣罗兰啵啵唇冻\nC. YSL05 冷荣冻\nD. YSL LOVESHINE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[895.774647887324, 505.49295774647885], [1576.7605633802818, 505.49295774647885], [1576.7605633802818, 782.9577464788733], [895.774647887324, 782.9577464788733]], is '全新圣罗兰啵啵唇冻, YSL LOVESHINE' the label we'd expect to see there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out the word or words that appear in the area [[888, 505], [1569, 505], [1569, 783], [888, 783]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[808,588], [1488,591], [1488,680], [807,672]] 范围内的文字有缺失，请将\"全新圣罗兰____唇冻\"中空缺的字符补上。",
+              "answer": "啵啵"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's the right answer for the text found in [[888, 505], [1569, 505], [1569, 691], [888, 691]]? Choose one: Options:\nA. 全新圣罗兰哮啵唇冻\nB. 全新圣罗兰哮啵唇冻\nC. 全新圣罗兰啵啵唇冻\nD. YSL05 冷茶冻",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: is '全新圣罗兰哱啵唇冻, YSL05 冷茶冻, YSL LOVESHINE' positioned inside the bounding box at [[888.274647887324, 505.49295774647885], [1569.2605633802818, 505.49295774647885], [1569.2605633802818, 782.9577464788733], [888.274647887324, 782.9577464788733]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text visible in region [[882, 505], [1563, 505], [1563, 783], [882, 783]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标 [[818,659], [1327,663], [1328,747], [818,741]] 所在位置显示了一个产品名称，请填写缺失部分：\"____5 冷茶冻\"。",
+              "answer": "YSL0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area marked by [[882, 505], [1563, 505], [1563, 783], [882, 783]], which of the following options matches the text shown there? Options:\nA. XSL LOVESHINE, YSL05 冷茶冻\nB. YSL LOVESHINE, 全新圣罗兰啵啵唇冻\nC. 全新圣罗兰啵啵唇冻, VSL LOVESHINE\nD. 全新圣罗兰啵啵唇冻, YsL LOVESHINE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '全新圣罗兰哱啵唇冻, YSL05 冷茶冻, YSL LOVESHINE' — do they appear somewhere inside [[882.024647887324, 505.49295774647885], [1563.0105633802818, 505.49295774647885], [1563.0105633802818, 782.9577464788733], [882.024647887324, 782.9577464788733]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you see at [[882, 505], [1563, 505], [1563, 783], [882, 783]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[834,562], [1514,565], [1514,654], [833,645]] 区域内的产品名称有部分被遮挡，请根据图像补全完整名称：\"全新圣罗兰啵____冻\"。",
+              "answer": "啵唇"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[882, 505], [1563, 505], [1563, 783], [882, 783]] contains certain text — which answer option matches it? Options:\nA. 全新圣罗兰啵啵唇冻, YSL05 冷荣冻\nB. YSL05 冷茶冻, 全新圣罗兰哮啵唇冻\nC. YSL LOVESHINE, 全新圣罗兰啵啵唇冻\nD. YSL05 冷茶冻, YsL LOVESHINE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '全新圣罗兰啵啵唇冻, YSL05 冷茶冻' appears inside the box defined by [[882.024647887324, 505.49295774647885], [1563.0105633802818, 505.49295774647885], [1563.0105633802818, 782.9577464788733], [882.024647887324, 782.9577464788733]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text sitting at coordinates [[882, 505], [1563, 505], [1563, 783], [882, 783]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中 [[858,457], [1526,457], [1526,547], [859,544]] 坐标位置的品牌名称部分被遮住，请补全：\"YSL ____SHINE\"。",
+              "answer": "LOVE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[882, 505], [1563, 505], [1563, 783], [882, 783]] and select the option that matches its text content. Options:\nA. YsL LOVESHINE, YSL05 冷茶冻\nB. 全新圣罗兰哮啵唇冻, YSL05 冷茶冻\nC. 全新圣罗兰啵啵唇冻, YSL05 冷荣冻\nD. YSL LOVESHINE, 全新圣罗兰啵啵唇冻",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — does 'YSL05 冷茶冻, YSL LOVESHINE' fall inside the region defined by [[882.024647887324, 505.49295774647885], [1563.0105633802818, 505.49295774647885], [1563.0105633802818, 782.9577464788733], [882.024647887324, 782.9577464788733]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at the area [[875, 505], [1556, 505], [1556, 783], [875, 783]], what words do you see there? ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[918,547], [1598,550], [1598,639], [917,630]] 所对应的区域有部分内容被隐藏，请填写出完整的内容：全新圣罗兰____唇冻。",
+              "answer": "啵啵"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly represents the text visible at [[875, 505], [1556, 505], [1556, 691], [875, 691]]? Options:\nA. 全新圣罗兰哮啵唇冻\nB. YSL LOVESHINE\nC. YsL LOVESHINE\nD. YSL05 冷茶冻",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "From your reading of [[874.524647887324, 505.49295774647885], [1555.5105633802818, 505.49295774647885], [1555.5105633802818, 782.9577464788733], [874.524647887324, 782.9577464788733]], would you say '全新圣罗兰啵啵唇冻, YSL05 冷荣冻, YSL LOVESHINE' is actually there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out whatever text you find inside [[867, 502], [1548, 502], [1548, 779], [867, 779]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在 [[956,552], [1637,555], [1637,644], [956,635]] 标注的区域内，文字有所缺失，请将其补充完整：全新圣罗兰____唇冻。",
+              "answer": "啵啵"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does [[867, 502], [1548, 502], [1548, 688], [867, 688]] contain — and which answer choice reflects that? Options:\nA. YsL LOVESHINE\nB. YSL05 冷茶冻\nC. 全新圣罗兰啵啵唇冻\nD. YsL LOVESHINE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot check: is 'YSL LOVESHINE, 全新圣罗兰啵啵唇冻' visible inside the [[867.024647887324, 501.74295774647885], [1548.0105633802818, 501.74295774647885], [1548.0105633802818, 779.2077464788733], [867.024647887324, 779.2077464788733]] region?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the text that occupies the area at [[860, 502], [1541, 502], [1541, 779], [860, 779]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像坐标 [[1026,656], [1536,660], [1536,744], [1027,739]] 处的品牌名称中有字符被隐藏，请补全：\"Y____05 冷茶冻\"。",
+              "answer": "SL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and identify which option matches the text you see in [[860, 595], [1541, 595], [1541, 779], [860, 779]]. Options:\nA. YSL LOVESHINE\nB. YSL05 冷茶冻\nC. 全新圣罗兰哮啵唇冻\nD. YSL05 冷荣冻",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is whether 'YSL05 冷茶冻, YSL LOVESHINE' sits within the boundaries of [[859.524647887324, 501.74295774647885], [1540.5105633802818, 501.74295774647885], [1540.5105633802818, 779.2077464788733], [859.524647887324, 779.2077464788733]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you can read in the area [[853, 500], [1534, 500], [1534, 778], [853, 778]]: ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像坐标 [[1071,567], [1752,570], [1752,659], [1071,650]] 处的产品名称有字符被遮挡，请补全缺失部分：\"全新圣罗兰____啵唇冻\"。",
+              "answer": "啵"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text(s) visible at [[853, 500], [1534, 500], [1534, 686], [853, 686]] — which answer choice matches? Options:\nA. YSL05 冷茶冻\nB. YsL LOVESHINE\nC. 全新圣罗兰啵啵唇冻\nD. YsL LOVESHINE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[853.274647887324, 500.49295774647885], [1534.2605633802818, 500.49295774647885], [1534.2605633802818, 777.9577464788733], [853.274647887324, 777.9577464788733]], is 'YSL LOVESHINE, 全新圣罗兰啵啵唇冻' the label shown there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0156/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0156/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text at [[851, 499], [1532, 499], [1532, 777], [851, 777]] — what word(s) appear there? ________",
+              "answer": [
+                "YSL LOVESHINE",
+                "全新圣罗兰啵啵唇冻",
+                "YSL05 冷茶冻"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于 [[1130,677], [1639,682], [1640,765], [1131,760]] 区域的产品名称部分模糊，请填入空缺字符，使其完整读作「YSL____ 冷茶冻」。",
+              "answer": "05"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text(s) at [[851, 499], [1532, 499], [1532, 777], [851, 777]] and select the matching option. Options:\nA. YSL05 冷荼冻, YSL LOVESHINE\nB. YSL LOVESHINE, YSL05 冷茶冻\nC. YSL05 冷茶冻, 全新圣罗兰哮啵唇冻\nD. 全新圣罗兰啵啵唇冻, YSL05 冷荣冻",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '全新圣罗兰啵啵唇冻, YSL05 冷茶冻' appears as the label at [[850.774647887324, 499.24295774647885], [1531.7605633802818, 499.24295774647885], [1531.7605633802818, 776.7077464788733], [850.774647887324, 776.7077464788733]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0156"
+  }
+]

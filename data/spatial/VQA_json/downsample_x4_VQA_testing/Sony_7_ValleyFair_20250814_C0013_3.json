@@ -1,0 +1,405 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and type out what's written in [[512, 112], [1139, 112], [1139, 746], [512, 746]]. ________",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options accurately captures what is written in [[828, 412], [1139, 412], [1139, 746], [828, 746]]? Options:\nA. Hold Handrail, Aveid Sides\nB. Hold Handrail, Attend Children\nC. Avoid Sides, Held Handrail\nD. Hold Handrail, CAUTION",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Look at [[512.4193548387098, 112.5], [1138.6290322580646, 112.5], [1138.6290322580646, 746.3709677419355], [512.4193548387098, 746.3709677419355]] — do you see 'Avoid Sides, CAUTION, Hold Handrail, Attond Children, Passengers Only' appearing inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the region [[419.88811463925714, 130.23381267003498], [714.6461791553863, 130.23381267003498], [714.6461791553863, 441.5241352506801], [419.88811463925714, 441.5241352506801]], what word(s) do you see? The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the full image, which answer best describes the text inside [[420, 130], [1053, 130], [1053, 763], [420, 763]]? Options:\nA. CAUTION, Avoid Sides, Attend Children, Passengers Only\nB. CAUTION, Hald Handrail, Avoid Sides, Passengers Only\nC. Attond Children, Avoid Sides, CAUTION, Passengers Only\nD. Attend Children, Held Handrail, CAUTION, Avoid Sides",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The box [[419.88811463925714, 130.23381267003498], [1052.8066070734553, 130.23381267003498], [1052.8066070734553, 763.2983287990672], [419.88811463925714, 763.2983287990672]] — does 'Attend Children, CAUTION, Hold Handrail, Passengers Only, Aveid Sides' fall inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[343.5647763045787, 179.82613596648713], [976.4832687387775, 179.82613596648713], [976.4832687387775, 812.8906520955184], [343.5647763045787, 812.8906520955184]], what text appears there? The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the entire image, which option correctly captures the text in [[344, 180], [976, 180], [976, 813], [344, 813]]? Options:\nA. Avoid Sides, CAUTIDN, Passengers Only, Attend Children\nB. CAUTION, Hold Handrail, Attend Children, Avoid Sides\nC. Avoid Sides, Attend Children, Passongers Only, CAUTION\nD. CAUIION, Avoid Sides, Passengers Only, Attend Children",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[343.5647763045787, 179.82613596648713], [976.4832687387775, 179.82613596648713], [976.4832687387775, 812.8906520955184], [343.5647763045787, 812.8906520955184]]: is 'CAUTION, Avoid Sides, Passengers Only, Attond Children, Hold Handrail' one of the labels you'd find there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you look at [[356.2707555008671, 227.2383936930455], [989.1892479350657, 227.2383936930455], [989.1892479350657, 860.3029098220771], [356.2707555008671, 860.3029098220771]], what word(s) would you read? The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly lists the text found at [[356, 227], [989, 227], [989, 860], [356, 860]]. Options:\nA. Avoid Sides, Hold Handrail, Attond Children, Passengers Only\nB. Attend Children, Passongers Only, CAUTION, Avoid Sides\nC. Held Handrail, Attend Children, Avoid Sides, Passengers Only\nD. CAUTION, Attend Children, Passengers Only, Avoid Sides",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the region [[356.2707555008671, 227.2383936930455], [989.1892479350657, 227.2383936930455], [989.1892479350657, 860.3029098220771], [356.2707555008671, 860.3029098220771]], does 'Attend Children, CAUTION, Avoid Sides, Hold Handrail' show up?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text visible in [[428.9763622390297, 384.87194183909196], [1051.4820519600712, 384.87194183909196], [1051.4820519600712, 1008.4880980507877], [428.9763622390297, 1008.4880980507877]] — what is it? The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written inside [[429, 385], [1051, 385], [1051, 1008], [429, 1008]]? Pick the right option. Options:\nA. Passengers Only, Avoid Sides, CAUTION, Attend Children\nB. Attond Children, CAUTION, Avoid Sides, Passengers Only\nC. CAUTION, Hold Handrail, Aveid Sides, Attend Children\nD. Passongers Only, Hold Handrail, CAUTION, Attend Children",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether 'Passengers Only, Attend Children, Hold Handrail, CAUTION' sits inside the area [[428.9763622390297, 384.87194183909196], [1051.4820519600712, 384.87194183909196], [1051.4820519600712, 1008.4880980507877], [428.9763622390297, 1008.4880980507877]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Within [[484.11079114356664, 453.25065479308535], [1075.0899530802049, 453.25065479308535], [1075.0899530802049, 1048.098439972102], [484.11079114356664, 1048.098439972102]], what word(s) can be identified? The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options matches the text at [[790, 733], [1075, 733], [1075, 1048], [790, 1048]] — which one is it? Options:\nA. Avoid Sides, Hold Handrail\nB. Hold Handrail, Aveid Sides\nC. CAUTION, Avoid Sides\nD. Aveid Sides, Hold Handrail",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is: does 'Passengers Only, Avoid Sides, CAUTION, Attend Children' appear anywhere inside [[484.11079114356664, 453.25065479308535], [1075.0899530802049, 453.25065479308535], [1075.0899530802049, 1048.098439972102], [484.11079114356664, 1048.098439972102]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) that appear inside [[548.3404915369371, 547.983870967742], [1094.6843853820596, 547.983870967742], [1094.6843853820596, 1070.7545025354093], [548.3404915369371, 1070.7545025354093]]. The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that captures all text visible in [[548, 548], [1095, 548], [1095, 1071], [548, 1071]]. Options:\nA. Attend Children, Passongers Only, Hold Handrail, CAUTION\nB. Avoid Sides, Attond Children, Passengers Only, CAUTION\nC. Hold Handrail, Avoid Sides, Attend Children, Passengers Only\nD. Hold Handrail, Passengers Only, Avoid Sides, CAUIION",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scanning region [[850, 791], [1095, 791], [1095, 1071], [850, 1071]], would you find 'Attend Children, Hold Handrail, Passengers Only, Avoid Sides' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What does the region [[639.176246008622, 421.02476380744264], [804.4647867297496, 421.02476380744264], [804.4647867297496, 619.8150863880877], [639.176246008622, 619.8150863880877]] say? The word(s) is/are ________.",
+              "answer": [
+                "CAUTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer accurately reflects the text that appears in [[639, 421], [804, 421], [804, 620], [639, 620]]? Options:\nA. CAUTION\nB. CAUTIDN\nC. OAUTION\nD. CAUIION",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just to check — is 'CAUTION' part of what's in [[639.176246008622, 421.02476380744264], [804.4647867297496, 421.02476380744264], [804.4647867297496, 619.8150863880877], [639.176246008622, 619.8150863880877]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you find at [[592.7380952380953, 342.0477456201038], [787.9761904761905, 342.0477456201038], [787.9761904761905, 631.2262958280658], [592.7380952380953, 631.2262958280658]]. The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Match the text found inside [[593, 342], [788, 342], [788, 631], [593, 631]] to the correct option below. Options:\nA. CAUIION\nB. Passongers Only\nC. CAUTION\nD. CAUTIDN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over in [[592.7380952380953, 342.0477456201038], [787.9761904761905, 342.0477456201038], [787.9761904761905, 631.2262958280658], [592.7380952380953, 631.2262958280658]], do you expect to find 'CAUTION, Passongers Only'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown in [[529.5493520557459, 313.8331243190578], [1135.8229237640999, 313.8331243190578], [1135.8229237640999, 690.2394118634527], [529.5493520557459, 690.2394118634527]] — what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following matches what's written in [[969, 378], [1136, 378], [1136, 690], [969, 690]]? Options:\nA. Hold Handrail, Aveid Sides\nB. Hold Handrail, Attond Children\nC. Attend Children, CAUTION\nD. Hold Handrail, Avoid Sides",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[529.5493520557459, 313.8331243190578], [1135.8229237640999, 313.8331243190578], [1135.8229237640999, 690.2394118634527], [529.5493520557459, 690.2394118634527]] contain the label(s) 'Hald Handrail, Attend Children, Passengers Only, CAUTION, Avoid Sides'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out what you see in [[432.0224474229051, 295.23809523809524], [1078.9500926228613, 295.23809523809524], [1078.9500926228613, 656.936362645745], [432.0224474229051, 656.936362645745]]. The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly names the text found in [[913, 327], [1079, 327], [1079, 657], [913, 657]]? Options:\nA. Attend Children, Held Handrail\nB. Avoid Sides, CAUTION\nC. Hold Handrail, Attond Children\nD. Attend Children, Avoid Sides",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[432.0224474229051, 295.23809523809524], [1078.9500926228613, 295.23809523809524], [1078.9500926228613, 656.936362645745], [432.0224474229051, 656.936362645745]], do you see the label(s) 'Hold Handrail, CAUTION, Attend Children, Passengers Only'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0013_3/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0013_3/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text visible in [[423.0434782608697, 325.62440344801973], [1118.263685763081, 325.62440344801973], [1118.263685763081, 701.4554060032938], [423.0434782608697, 701.4554060032938]] reads — what exactly? The word(s) is/are ________.",
+              "answer": [
+                "CAUTION",
+                "Passengers Only",
+                "Hold Handrail",
+                "Attend Children",
+                "Avoid Sides"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best captures the text shown in [[941, 346], [1118, 346], [1118, 701], [941, 701]]. Options:\nA. Avoid Sides, CAUTION\nB. Avoid Sides, Attend Children\nC. Attond Children, Hold Handrail\nD. Hold Handrail, Aveid Sides",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'Passengers Only, Hold Handrail, Attend Children, Avoid Sides' fall inside [[941, 346], [1118, 346], [1118, 701], [941, 701]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0013_3"
+  }
+]

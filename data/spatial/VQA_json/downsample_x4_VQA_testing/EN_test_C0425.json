@@ -1,0 +1,473 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) visible in the bounding box [[92, 623], [1333, 623], [1333, 1002], [92, 1002]]. ________",
+              "answer": [
+                "Airlines and Terminal",
+                "lnformation",
+                "Shuttle to",
+                "Terminal A",
+                "S",
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the sequence \"S____e to\" visible at [[136,857], [447,867], [440,935], [127,924]], what phrase belongs in the blank?",
+              "answer": "huttl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[92, 841], [1333, 841], [1333, 1002], [92, 1002]] and match its text to one of the provided choices. Options:\nA. Budget, Airlines and Terminal, Shuttle to\nB. Terminal A, S, Budget\nC. Budgot, Terminal A, S\nD. D, Shuttle to, Budget",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'Airlines and Terminal, lnformation, S, Terminal A, Budget, Shuttle to' appear as text within the region [[92, 623], [777, 623], [777, 1002], [92, 1002]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Examining [[726.0642077385185, 842.5660487048639], [1322.7938424106312, 842.5660487048639], [1322.7938424106312, 899.2032168464568], [726.0642077385185, 899.2032168464568]] closely, what word(s) show up there? The word(s) is/are ________.",
+              "answer": [
+                "S",
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something fills the gap in \"Sh____e to\" at [[97,863], [408,873], [400,941], [88,930]] — what is it?",
+              "answer": "uttl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the given choices, which one lists the text you see at [[82, 843], [1323, 843], [1323, 1003], [82, 1003]]? Options:\nA. S, Airlines and Terminal, Terminal A\nB. D, Shuttle to, Budget\nC. Shuttle to, D, Terminal A\nD. Shuttle to, Terminal A, Budget",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[81.64148701408928, 624.7530267053614], [1322.7938424106312, 624.7530267053614], [1322.7938424106312, 1003.0877609913427], [81.64148701408928, 1003.0877609913427]] — is 'lnformation, Budget, Airlines and Terminal, Ierminal A, S, Shuttle to' readable there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you describe the text visible within [[1207.4459645482627, 841.5029079755628], [1314.176733779032, 841.5029079755628], [1314.176733779032, 887.0157284883834], [1207.4459645482627, 887.0157284883834]]? The word(s) is/are ________.",
+              "answer": [
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the area [[105,881], [416,890], [408,959], [96,947]], a phrase reads \"S____e to\" — what word(s) fill the blank?",
+              "answer": "huttl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one captures the text shown in [[68, 841], [1314, 841], [1314, 1003], [68, 1003]]? Options:\nA. Budget, Airlines and Terminal, Shuttle to\nB. Shuttle to, Budget, Terminal A\nC. Shuttle to, Terminal A, Budgot\nD. Budgot, S, Shuttle to",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Terminal A, S, Airlines and Terminal, lnformation, Shuttle to, Budget' appears inside the bounding box [[68, 625], [758, 625], [758, 1003], [68, 1003]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[62.09687305199955, 624.7530267053614], [1308.2243528266513, 624.7530267053614], [1308.2243528266513, 1003.0877609913427], [62.09687305199955, 1003.0877609913427]], what text can you read there? The word(s) is/are ________.",
+              "answer": [
+                "Airlines and Terminal",
+                "lnformation",
+                "Shuttle to",
+                "Terminal A",
+                "S",
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the bounding box [[128,718], [571,735], [566,798], [121,781]], which letters are needed to complete \"lnfor____\"?",
+              "answer": "mation"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Examining the region [[62, 841], [1308, 841], [1308, 1003], [62, 1003]], which answer option contains the text found there? Options:\nA. Terminal A, Budget, D\nB. S, Budget, Shuftle to\nC. Shuttle to, Budget, S\nD. Shuttle to, Airlines and Terminal, Terminal A",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Shuttle to, S, Budget' visible inside the bounding box [[62, 841], [1308, 841], [1308, 1003], [62, 1003]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text appearing in region [[55.3007565471452, 625.7239004917692], [1305.396490290051, 625.7239004917692], [1305.396490290051, 1004.0586347777505], [55.3007565471452, 1004.0586347777505]]. The word(s) is/are ________.",
+              "answer": [
+                "Airlines and Terminal",
+                "lnformation",
+                "Shuttle to",
+                "Terminal A",
+                "S",
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[207,886], [519,891], [512,959], [199,953]], what letters fill in the blank to complete \"Shu____ to\"?",
+              "answer": "ttle"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best matches the text visible in [[55, 626], [750, 626], [750, 1004], [55, 1004]]. Options:\nA. Shuttle to, Airlines and Terminal, lnformation, Ierminal A\nB. lnformation, Shuttle to, Terminal A, S\nC. Budget, Airlines and Terminal, Shuttle to, S\nD. S, Shuftle to, lnformation, Airlines and Terminal",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Budget, Airlines and Terminal, Shuttle to, Ierminal A, S, lnformation' within the bounding box [[55.3007565471452, 625.7239004917692], [1305.396490290051, 625.7239004917692], [1305.396490290051, 1004.0586347777505], [55.3007565471452, 1004.0586347777505]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up inside the region [[54.50710575349436, 624.9302496981185], [1304.6028394964, 624.9302496981185], [1304.6028394964, 1003.2649839840998], [54.50710575349436, 1003.2649839840998]]? The word(s) is/are ________.",
+              "answer": [
+                "Airlines and Terminal",
+                "lnformation",
+                "Shuttle to",
+                "Terminal A",
+                "S",
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1507,854], [1628,855], [1633,897], [1510,898]] has a gap shown as \"Bu____t\" — what is the complete word?",
+              "answer": "dge"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly identifies the text found inside [[55, 625], [750, 625], [750, 1003], [55, 1003]]? Options:\nA. Shuttle to, lnformation, Terminal A, S\nB. Terminal A, S, Airlines and Terminal, lnfarmation\nC. Shuttle to, Airlines and Terminal, Terminal A, lnfarmation\nD. S, Budget, Airlines and Terminal, lnformation",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot 'Shuttle to, Terminal A, Budgct, Airlines and Terminal, lnformation, S' in bounding box [[54.50710575349436, 624.9302496981185], [1304.6028394964, 624.9302496981185], [1304.6028394964, 1003.2649839840998], [54.50710575349436, 1003.2649839840998]] — is it there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text enclosed in [[1195.4911178846783, 840.0928293810183], [1302.2218871154475, 840.0928293810183], [1302.2218871154475, 885.6056498938389], [1195.4911178846783, 885.6056498938389]] — what does it say? The word(s) is/are ________.",
+              "answer": [
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at coordinates [[731,905], [1016,908], [1016,971], [727,969]], a word reads \"____ttle to\" with letters missing — what should go in the blank?",
+              "answer": "Shu"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one contains the text visible in the region [[52, 839], [1302, 839], [1302, 1003], [52, 1003]]? Options:\nA. Shuttle to, Airlines and Terminal, S\nB. Shuttle to, Terminal A, S\nC. Shuttle to, Budget, D\nD. Budget, D, Terminal A",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the bounding box [[52, 625], [747, 625], [747, 1003], [52, 1003]], is 'Shuttle to, lnformation, Terminal A, Airlines and Terminal' one of the labels present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you look at [[1195.7219981155583, 837.8994671876561], [1302.4527673463276, 837.8994671876561], [1302.4527673463276, 883.4122877004767], [1195.7219981155583, 883.4122877004767]], what text do you find? The word(s) is/are ________.",
+              "answer": [
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is obscured in the phrase \"____tle to\" at bounding box [[902,898], [1182,900], [1181,961], [901,960]] — what are the missing letters?",
+              "answer": "Shut"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text located at [[51, 623], [746, 623], [746, 1002], [51, 1002]]. Options:\nA. S, lnfarmation, Shuttle to, Airlines and Terminal\nB. Terminal A, Airlines and Terminal, Shuttle to, S\nC. Airlines and Terminal, Shuttle to, S, Budget\nD. Shuttle to, Airlines and Terminal, S, Ierminal A",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "That bounding box [[51, 623], [746, 623], [746, 1002], [51, 1002]] — does it actually contain 'S, Terminal A, Budget, Shuttle to, Airlines and Terminal, lnformation'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) that appear inside the region [[1195.7219981155583, 837.8994671876561], [1302.4527673463276, 837.8994671876561], [1302.4527673463276, 883.4122877004767], [1195.7219981155583, 883.4122877004767]]. The word(s) is/are ________.",
+              "answer": [
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phrase at [[988,671], [1515,659], [1516,720], [988,734]] shows \"A____lines and Terminal\" with something missing — fill in the blank.",
+              "answer": "ir"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text found at [[51, 623], [746, 623], [746, 1002], [51, 1002]], which option is correct? Options:\nA. lnformation, S, Shuttle to, Budget\nB. Airlines and Terminal, S, lnformation, Shuttle to\nC. Shuttle to, lnformation, Airlinos and Terminal, Terminal A\nD. Airlines and Terminal, lnfarmation, S, Terminal A",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[50.53885178524041, 623.3429481108169], [1302.4527673463276, 623.3429481108169], [1302.4527673463276, 1001.6776823967982], [50.53885178524041, 1001.6776823967982]] — does 'Airlines and Terminal, S, Budget, lnformation' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the region marked by [[59.039832452093904, 623.3429481108169], [627.7145312472751, 623.3429481108169], [627.7145312472751, 769.5276870666403], [59.039832452093904, 769.5276870666403]] — what word or words appear there? ________",
+              "answer": [
+                "Airlines and Terminal",
+                "lnformation"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1161,734], [1603,718], [1607,776], [1163,794]] has a gap — what letter(s) fill in \"ln____ation\"?",
+              "answer": "form"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[51, 623], [749, 623], [749, 1002], [51, 1002]] and identify which answer choice matches the text there. Options:\nA. S, Airlines and Terminal, Terminal A, Shuttle to\nB. Budget, S, Airlines and Terminal, lnformation\nC. lnformation, Terminal A, Shuftle to, S\nD. Shuttle to, Airlinos and Terminal, Terminal A, S",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[51, 623], [749, 623], [749, 1002], [51, 1002]], can you confirm that 'S, Shuttle to, Budget, Terminal A, lnformation, Airlines and Terminal' is the text shown there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[1199.806602831231, 847.2612952719563], [1306.5373720620003, 847.2612952719563], [1306.5373720620003, 892.7741157847769], [1199.806602831231, 892.7741157847769]], what word or words can you read? ________",
+              "answer": [
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "To complete \"He____\", what letters are missing from the text at [[488,855], [657,855], [643,918], [472,919]]?",
+              "answer": "rtz"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following answers contains the text visible inside [[52, 845], [1307, 845], [1307, 1008], [52, 1008]]? Options:\nA. Shuttle to, Airlines and Terminal, Terminal A\nB. S, Shuftle to, Budget\nC. Terminal A, Budget, Shuftle to\nD. Budget, Terminal A, Shuttle to",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Shuttle to, Terminal A, lnformation, Airlines and Terminal' the text that appears within [[52.48059935805594, 629.1681908292636], [1306.5373720620003, 629.1681908292636], [1306.5373720620003, 1007.5029251152449], [52.48059935805594, 1007.5029251152449]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0425/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0425/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) visible in the area [[1202.1044670570127, 848.052675897433], [1308.835236287782, 848.052675897433], [1308.835236287782, 893.5654964102536], [1202.1044670570127, 893.5654964102536]]: ________",
+              "answer": [
+                "Budget"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What letter(s) complete \"He____z\" — the text found in the region [[808,846], [851,846], [848,861], [806,862]]?",
+              "answer": "rt"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that matches the text found in [[54, 633], [631, 633], [631, 1011], [54, 1011]]. Options:\nA. S, Terminal A, lnformation\nB. Airlines and Terminal, Budget, lnformation\nC. Airlines and Terminal, Shuttle to, lnformation\nD. Shuttle to, Ierminal A, lnformation",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[54, 633], [631, 633], [631, 1011], [54, 1011]] — is 'Budget, Terminal A, Airlines and Terminal, Shuttle to, lnformation' actually written there?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0425"
+  }
+]

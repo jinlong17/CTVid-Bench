@@ -1,0 +1,312 @@
+{
+  "video_id": "C0442",
+  "frames": 120,
+  "word": "To conserve water, this campus uses recycled water.",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0442.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"To conserve water, this campus uses recycled water.\" likely to be?\n Options:\nA. event or poster information\nB. general scene text\nC. warning or prohibition sign\nD. storefront or brand sign\nE. address or street sign\nF. menu or commercial information\nG. direction or navigation sign",
+      "q": "What type of sign would you say \"To conserve water, this campus uses recycled water.\" is?\n Options:\nA. event or poster information\nB. general scene text\nC. warning or prohibition sign\nD. storefront or brand sign\nE. address or street sign\nF. menu or commercial information\nG. direction or navigation sign",
+      "a": "B",
+      "a_text": "general scene text",
+      "answer_key": "general scene text",
+      "options": [
+        "A. event or poster information",
+        "B. general scene text",
+        "C. warning or prohibition sign",
+        "D. storefront or brand sign",
+        "E. address or street sign",
+        "F. menu or commercial information",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you say \"To conserve water, this campus uses recycled water.\" is?\n Options:\nA. event or poster information\nB. general scene text\nC. warning or prohibition sign\nD. storefront or brand sign\nE. address or street sign\nF. menu or commercial information\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"To conserve water, this campus uses recycled water.\" appear in?\n Options:\nA. event poster or display\nB. restaurant or menu\nC. road or street\nD. transportation / station\nE. warning / rule sign\nF. other public sign\nG. campus or office\nH. storefront",
+      "q": "In what kind of setting does \"To conserve water, this campus uses recycled water.\" appear to be placed?\n Options:\nA. event poster or display\nB. restaurant or menu\nC. road or street\nD. transportation / station\nE. warning / rule sign\nF. other public sign\nG. campus or office\nH. storefront",
+      "a": "G",
+      "a_text": "campus or office",
+      "answer_key": "campus or office",
+      "options": [
+        "A. event poster or display",
+        "B. restaurant or menu",
+        "C. road or street",
+        "D. transportation / station",
+        "E. warning / rule sign",
+        "F. other public sign",
+        "G. campus or office",
+        "H. storefront"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In what kind of setting does \"To conserve water, this campus uses recycled water.\" appear to be placed?\n Options:\nA. event poster or display\nB. restaurant or menu\nC. road or street\nD. transportation / station\nE. warning / rule sign\nF. other public sign\nG. campus or office\nH. storefront"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"To conserve water, this campus uses recycled water.\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)",
+      "q": "Where in the frame does \"To conserve water, this campus uses recycled water.\" spend most of its time?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)",
+      "a": "E",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-right (lower-right area)",
+        "C. bottom-left (lower-left area)",
+        "D. top-left (upper-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Where in the frame does \"To conserve water, this campus uses recycled water.\" spend most of its time?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. bottom-left (lower-left area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"To conserve water, this campus uses recycled water.\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "How much does \"To conserve water, this campus uses recycled water.\" shift in position from the beginning to the end of the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "C",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does \"To conserve water, this campus uses recycled water.\" shift in position from the beginning to the end of the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"To conserve water, this campus uses recycled water.\" move?\n Options:\nA. moves down\nB. changes direction partway\nC. moves left\nD. moves right\nE. stays roughly in place\nF. moves diagonally\nG. moves up",
+      "q": "Which direction does \"To conserve water, this campus uses recycled water.\" move overall?\n Options:\nA. moves down\nB. changes direction partway\nC. moves left\nD. moves right\nE. stays roughly in place\nF. moves diagonally\nG. moves up",
+      "a": "B",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves down",
+        "B. changes direction partway",
+        "C. moves left",
+        "D. moves right",
+        "E. stays roughly in place",
+        "F. moves diagonally",
+        "G. moves up"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"To conserve water, this campus uses recycled water.\" move overall?\n Options:\nA. moves down\nB. changes direction partway\nC. moves left\nD. moves right\nE. stays roughly in place\nF. moves diagonally\nG. moves up"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"To conserve water, this campus uses recycled water.\" at the beginning, the middle, and the end?\n Options:\nA. center -> bottom-right -> top-right\nB. center -> center -> top-right\nC. top-left -> top-right -> top-right\nD. center -> top-right -> top-right",
+      "q": "Near the start, middle, and end of the video, where is \"To conserve water, this campus uses recycled water.\" positioned?\n Options:\nA. center -> bottom-right -> top-right\nB. center -> center -> top-right\nC. top-left -> top-right -> top-right\nD. center -> top-right -> top-right",
+      "a": "D",
+      "a_text": "center -> top-right -> top-right",
+      "answer_key": "center -> top-right -> top-right",
+      "options": [
+        "A. center -> bottom-right -> top-right",
+        "B. center -> center -> top-right",
+        "C. top-left -> top-right -> top-right",
+        "D. center -> top-right -> top-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Near the start, middle, and end of the video, where is \"To conserve water, this campus uses recycled water.\" positioned?\n Options:\nA. center -> bottom-right -> top-right\nB. center -> center -> top-right\nC. top-left -> top-right -> top-right\nD. center -> top-right -> top-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"To conserve water, this campus uses recycled water.\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "q": "How would you describe the size of \"To conserve water, this campus uses recycled water.\" relative to the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "a": "C",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. small (a minor part of the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How would you describe the size of \"To conserve water, this campus uses recycled water.\" relative to the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"To conserve water, this campus uses recycled water.\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "q": "Does \"To conserve water, this campus uses recycled water.\" grow larger, shrink, or stay roughly the same size as the clip plays?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "a": "D",
+      "a_text": "gets smaller",
+      "answer_key": "gets smaller",
+      "options": [
+        "A. gets larger",
+        "B. stays about the same size",
+        "C. size fluctuates (goes up and down)",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"To conserve water, this campus uses recycled water.\" grow larger, shrink, or stay roughly the same size as the clip plays?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"To conserve water, this campus uses recycled water.\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "Is \"To conserve water, this campus uses recycled water.\" comfortably within the frame, or sitting close to an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"To conserve water, this campus uses recycled water.\" comfortably within the frame, or sitting close to an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"To conserve water, this campus uses recycled water.\" and how it appears in the video.",
+      "q": "Give a quick description of \"To conserve water, this campus uses recycled water.\" — what kind of text it is and how it appears in the video.",
+      "a": "A dark rectangular sign in tall grass displays the white text \"To conserve water, this campus uses recycled water.\"",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick description of \"To conserve water, this campus uses recycled water.\" — what kind of text it is and how it appears in the video."
+    }
+  ]
+}

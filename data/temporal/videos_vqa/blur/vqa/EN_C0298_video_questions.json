@@ -1,0 +1,313 @@
+{
+  "video_id": "C0298",
+  "frames": 120,
+  "word": "FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0298.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" likely to be?\n Options:\nA. menu or commercial information\nB. general scene text\nC. storefront or brand sign\nD. address or street sign\nE. warning or prohibition sign\nF. event or poster information\nG. direction or navigation sign",
+      "q": "What kind of sign does the text \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" look like it belongs to?\n Options:\nA. menu or commercial information\nB. general scene text\nC. storefront or brand sign\nD. address or street sign\nE. warning or prohibition sign\nF. event or poster information\nG. direction or navigation sign",
+      "a": "A",
+      "a_text": "menu or commercial information",
+      "answer_key": "menu or commercial information",
+      "options": [
+        "A. menu or commercial information",
+        "B. general scene text",
+        "C. storefront or brand sign",
+        "D. address or street sign",
+        "E. warning or prohibition sign",
+        "F. event or poster information",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of sign does the text \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" look like it belongs to?\n Options:\nA. menu or commercial information\nB. general scene text\nC. storefront or brand sign\nD. address or street sign\nE. warning or prohibition sign\nF. event or poster information\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" appear in?\n Options:\nA. transportation / station\nB. event poster or display\nC. campus or office\nD. road or street\nE. other public sign\nF. restaurant or menu\nG. storefront\nH. warning / rule sign",
+      "q": "What type of scene is the text \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" set in?\n Options:\nA. transportation / station\nB. event poster or display\nC. campus or office\nD. road or street\nE. other public sign\nF. restaurant or menu\nG. storefront\nH. warning / rule sign",
+      "a": "E",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. transportation / station",
+        "B. event poster or display",
+        "C. campus or office",
+        "D. road or street",
+        "E. other public sign",
+        "F. restaurant or menu",
+        "G. storefront",
+        "H. warning / rule sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of scene is the text \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" set in?\n Options:\nA. transportation / station\nB. event poster or display\nC. campus or office\nD. road or street\nE. other public sign\nF. restaurant or menu\nG. storefront\nH. warning / rule sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. center (middle of the frame)",
+      "q": "Looking at the clip, which part of the frame does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" tend to occupy?\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. center (middle of the frame)",
+      "a": "E",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. top-left (upper-left area)",
+        "C. bottom-left (lower-left area)",
+        "D. top-right (upper-right area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Looking at the clip, which part of the frame does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" tend to occupy?\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "How far does the text \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" shift in position over the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How far does the text \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" shift in position over the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" move?\n Options:\nA. moves left\nB. changes direction partway\nC. moves up\nD. moves diagonally\nE. stays roughly in place\nF. moves down\nG. moves right",
+      "q": "Taking the clip as a whole, which direction does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" travel?\n Options:\nA. moves left\nB. changes direction partway\nC. moves up\nD. moves diagonally\nE. stays roughly in place\nF. moves down\nG. moves right",
+      "a": "A",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves left",
+        "B. changes direction partway",
+        "C. moves up",
+        "D. moves diagonally",
+        "E. stays roughly in place",
+        "F. moves down",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Taking the clip as a whole, which direction does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" travel?\n Options:\nA. moves left\nB. changes direction partway\nC. moves up\nD. moves diagonally\nE. stays roughly in place\nF. moves down\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> top-left\nB. center -> top-left -> center\nC. center -> center -> center\nD. center -> center -> bottom-right",
+      "q": "Where does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" sit near the start, in the middle, and toward the end of the video?\n Options:\nA. center -> center -> top-left\nB. center -> top-left -> center\nC. center -> center -> center\nD. center -> center -> bottom-right",
+      "a": "C",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> center -> top-left",
+        "B. center -> top-left -> center",
+        "C. center -> center -> center",
+        "D. center -> center -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Where does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" sit near the start, in the middle, and toward the end of the video?\n Options:\nA. center -> center -> top-left\nB. center -> top-left -> center\nC. center -> center -> center\nD. center -> center -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "q": "Compared to the overall frame, how big does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" appear?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "a": "C",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Compared to the overall frame, how big does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" appear?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "q": "Does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" grow larger, shrink, or remain roughly the same size as the clip plays out?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "a": "C",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. size fluctuates (goes up and down)",
+        "C. stays about the same size",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" grow larger, shrink, or remain roughly the same size as the clip plays out?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "q": "Is \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" well inside the frame, or sitting close to one of the edges?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. touches or runs off an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" well inside the frame, or sitting close to one of the edges?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" and how it appears in the video.",
+      "q": "Give a brief description of \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" — what it looks like and how it behaves in the video.",
+      "a": "The text is prominently displayed on a promotional sign for a Costco Anywhere Visa Card by Citi.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of \"FUEL YOUR SAVINGS\nWITH NEW CASH\nBACK REWARDS\" — what it looks like and how it behaves in the video."
+    }
+  ],
+  "method": "blur"
+}

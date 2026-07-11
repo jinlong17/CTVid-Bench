@@ -1,0 +1,312 @@
+{
+  "video_id": "C0448",
+  "frames": 120,
+  "word": "Apple Park\nVisitor Center",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0448.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Apple Park\nVisitor Center\" likely to be?\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. address or street sign\nD. general scene text\nE. menu or commercial information\nF. warning or prohibition sign\nG. storefront or brand sign",
+      "q": "What type of sign would \"Apple Park\nVisitor Center\" most likely be?\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. address or street sign\nD. general scene text\nE. menu or commercial information\nF. warning or prohibition sign\nG. storefront or brand sign",
+      "a": "G",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. direction or navigation sign",
+        "B. event or poster information",
+        "C. address or street sign",
+        "D. general scene text",
+        "E. menu or commercial information",
+        "F. warning or prohibition sign",
+        "G. storefront or brand sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would \"Apple Park\nVisitor Center\" most likely be?\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. address or street sign\nD. general scene text\nE. menu or commercial information\nF. warning or prohibition sign\nG. storefront or brand sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Apple Park\nVisitor Center\" appear in?\n Options:\nA. campus or office\nB. transportation / station\nC. storefront\nD. restaurant or menu\nE. other public sign\nF. warning / rule sign\nG. event poster or display\nH. road or street",
+      "q": "Judging from the text \"Apple Park\nVisitor Center\", what kind of scene is this video set in?\n Options:\nA. campus or office\nB. transportation / station\nC. storefront\nD. restaurant or menu\nE. other public sign\nF. warning / rule sign\nG. event poster or display\nH. road or street",
+      "a": "A",
+      "a_text": "campus or office",
+      "answer_key": "campus or office",
+      "options": [
+        "A. campus or office",
+        "B. transportation / station",
+        "C. storefront",
+        "D. restaurant or menu",
+        "E. other public sign",
+        "F. warning / rule sign",
+        "G. event poster or display",
+        "H. road or street"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Judging from the text \"Apple Park\nVisitor Center\", what kind of scene is this video set in?\n Options:\nA. campus or office\nB. transportation / station\nC. storefront\nD. restaurant or menu\nE. other public sign\nF. warning / rule sign\nG. event poster or display\nH. road or street"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Apple Park\nVisitor Center\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "q": "Across the clip, where does \"Apple Park\nVisitor Center\" tend to sit in the frame?\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. top-left (upper-left area)",
+        "C. bottom-right (lower-right area)",
+        "D. bottom-left (lower-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Across the clip, where does \"Apple Park\nVisitor Center\" tend to sit in the frame?\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Apple Park\nVisitor Center\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "How much does the text \"Apple Park\nVisitor Center\" shift position while the clip plays?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "A",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does the text \"Apple Park\nVisitor Center\" shift position while the clip plays?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Apple Park\nVisitor Center\" move?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves left\nD. stays roughly in place\nE. moves right\nF. moves down\nG. moves up",
+      "q": "Which direction does \"Apple Park\nVisitor Center\" generally travel over the video?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves left\nD. stays roughly in place\nE. moves right\nF. moves down\nG. moves up",
+      "a": "E",
+      "a_text": "moves right",
+      "answer_key": "moves right",
+      "options": [
+        "A. moves diagonally",
+        "B. changes direction partway",
+        "C. moves left",
+        "D. stays roughly in place",
+        "E. moves right",
+        "F. moves down",
+        "G. moves up"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"Apple Park\nVisitor Center\" generally travel over the video?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves left\nD. stays roughly in place\nE. moves right\nF. moves down\nG. moves up"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Apple Park\nVisitor Center\" at the beginning, the middle, and the end?\n Options:\nA. center -> bottom-left -> bottom-right\nB. bottom-right -> center -> bottom-right\nC. center -> top-right -> bottom-right\nD. center -> center -> bottom-right",
+      "q": "Near the start, middle, and end of the video, where do you find \"Apple Park\nVisitor Center\" in the frame?\n Options:\nA. center -> bottom-left -> bottom-right\nB. bottom-right -> center -> bottom-right\nC. center -> top-right -> bottom-right\nD. center -> center -> bottom-right",
+      "a": "D",
+      "a_text": "center -> center -> bottom-right",
+      "answer_key": "center -> center -> bottom-right",
+      "options": [
+        "A. center -> bottom-left -> bottom-right",
+        "B. bottom-right -> center -> bottom-right",
+        "C. center -> top-right -> bottom-right",
+        "D. center -> center -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Near the start, middle, and end of the video, where do you find \"Apple Park\nVisitor Center\" in the frame?\n Options:\nA. center -> bottom-left -> bottom-right\nB. bottom-right -> center -> bottom-right\nC. center -> top-right -> bottom-right\nD. center -> center -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Apple Park\nVisitor Center\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "Relative to the frame, how big does \"Apple Park\nVisitor Center\" appear?\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "D",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. large (a major part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Relative to the frame, how big does \"Apple Park\nVisitor Center\" appear?\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Apple Park\nVisitor Center\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "q": "Does \"Apple Park\nVisitor Center\" grow, shrink, or hold roughly the same size as the clip progresses?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "a": "D",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. stays about the same size",
+        "B. size fluctuates (goes up and down)",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"Apple Park\nVisitor Center\" grow, shrink, or hold roughly the same size as the clip progresses?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Apple Park\nVisitor Center\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "Is \"Apple Park\nVisitor Center\" sitting comfortably inside the frame, or is it close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "B",
+      "a_text": "comes close to an edge",
+      "answer_key": "comes close to an edge",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"Apple Park\nVisitor Center\" sitting comfortably inside the frame, or is it close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Apple Park\nVisitor Center\" and how it appears in the video.",
+      "q": "Give a brief description of how \"Apple Park\nVisitor Center\" looks and behaves throughout the video.",
+      "a": "The text appears in white sans-serif font below an Apple logo on a large, dark freestanding sign.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of how \"Apple Park\nVisitor Center\" looks and behaves throughout the video."
+    }
+  ]
+}

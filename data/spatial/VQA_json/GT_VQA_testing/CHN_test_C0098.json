@@ -1,0 +1,495 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Peering inside [[319, 124], [825, 124], [825, 566], [319, 566]], what word(s) can you find? ________",
+              "answer": [
+                "P",
+                "商场/写字楼",
+                "Mall / Office"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the sign at [[563,671], [761,679], [759,715], [561,706]], fill in: \"LOA____G AREA\" — what's the missing word?",
+              "answer": "DIN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Matching text to location — which option fits what's written at [[307, 124], [825, 124], [825, 962], [307, 962]]? Options:\nA. Mall / Office, B4, 商场/写字楼, 卸货区, LOADING AREA, B2, B3\nB. B2, 商场/写字楼, LOADING AREA, P, 卸货区, B4, P3\nC. Mall / Office, B3, 商场/写字楼, D, LOADING AREA, B2, 卸货区\nD. B4, 卸货区, 商场/写字楼, P, LOADING AREA, B2, 3m",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "All things considered, do the label(s) 'P, 商场/写字楼, 3m, B2, Mall / Office, 卸货区, LOADING AREA' sit within [[186.07068607068607, 124.25], [825.4054054054054, 124.25], [825.4054054054054, 962.0], [186.07068607068607, 962.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Checking [[307.0, 859.0], [447.0, 859.0], [447.0, 962.0], [307.0, 962.0]], which word(s) can be read there? ________",
+              "answer": [
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the missing word: the sign at [[537,666], [735,674], [733,710], [535,701]] says \"____NG AREA\".",
+              "answer": "LOADI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option below that best matches the text visible at [[307, 124], [825, 124], [825, 962], [307, 962]]. Options:\nA. Mall / Office, B2, 卸货区, 商场/写字楼, B3, 3m, LOADING AREA\nB. P2, Mall / Office, 卸货区, B3, P, 商场/写字楼, LOADING AREA\nC. LOADING AREA, Mall / Office, B2, B4, B3, 卸货区, P\nD. D, B4, 卸货区, B3, Mall / Office, 商场/写字楼, B2",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '卸货区, B4, B3, Mall / Office, 3m, B2, LOADING AREA' visible anywhere inside [[186.07068607068607, 124.25], [825.4054054054054, 124.25], [825.4054054054054, 962.0], [186.07068607068607, 962.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the area [[182.44999641551365, 124.25], [820.0207900207901, 124.25], [820.0207900207901, 962.0], [182.44999641551365, 962.0]], what word(s) do you see? ________",
+              "answer": [
+                "P",
+                "商场/写字楼",
+                "Mall / Office",
+                "B2",
+                "卸货区",
+                "3m",
+                "LOADING AREA",
+                "B3",
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "招牌位于 [[532,591], [737,598], [734,670], [529,662]]，其中\"卸____区\"有个字符缺失，应该填入什么？",
+              "answer": "货"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan region [[182, 124], [820, 124], [820, 827], [182, 827]] and select the option that matches the text there. Options:\nA. LOADING AREA, Mell / Office, 商场/写字楼, 卸货区, P, B2, B3\nB. 3m, 卸货区, B4, P, 商场/写字楼, B3, Mall / Office\nC. P, 卸货区, B2, 3m, B3, 商场/写字楼, LOADING AREA\nD. Mall / Office, 卸货区, B3, P, 商场/写字楼, 3n, B2",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "If you look at [[182.44999641551365, 124.25], [820.0207900207901, 124.25], [820.0207900207901, 962.0], [182.44999641551365, 962.0]], do the label(s) 'P, 卸货区, LOADING AREA, 商场/写字楼, B2, B4, 3m' show up there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[178.76578588919787, 124.25], [817.2621693311349, 124.25], [817.2621693311349, 960.6206896551724], [178.76578588919787, 960.6206896551724]] — what word or words do you see? The answer is ________.",
+              "answer": [
+                "P",
+                "商场/写字楼",
+                "Mall / Office",
+                "B2",
+                "卸货区",
+                "3m",
+                "LOADING AREA",
+                "B3",
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "矩形框 [[587,589], [792,596], [789,668], [584,660]] 中的文字有所缺失，请补全下列词语：____货区",
+              "answer": "卸"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[179, 124], [817, 124], [817, 826], [179, 826]], which of the following choices matches the text shown there? Options:\nA. 商场/写字楼, 卸货区, B3, 3m, Mall / Office, LOADING AREA, B2\nB. 卸货区, 啇场/写字楼, B3, 3m, LOADING AREA, P, Mall / Office\nC. Mall / Office, 3m, 卸货区, B3, D, B2, 商场/写字楼\nD. LOADING AREA, B3, P, B2, Mall / Office, 商场/写字楼, B4",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'P, Mall / Office, B3, B2, LOADING AREA, B4, 3m' appearing inside the region marked by [[178.76578588919787, 124.25], [817.2621693311349, 124.25], [817.2621693311349, 960.6206896551724], [178.76578588919787, 960.6206896551724]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible in the area [[296.48275862068965, 857.6206896551724], [436.48275862068965, 857.6206896551724], [436.48275862068965, 960.6206896551724], [296.48275862068965, 960.6206896551724]]. The answer is ________.",
+              "answer": [
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[433,597], [567,604], [563,701], [429,695]], the text appears with a gap in it: ____2. — what character(s) belong in that gap?",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly names the text found in region [[176, 124], [812, 124], [812, 826], [176, 826]]. Options:\nA. 啇场/写字楼, Mall / Office, B3, LOADING AREA, B2, P, 卸货区\nB. 卸货区, P, LOADING AREA, B2, B3, B4, Mall / Office\nC. Mall / Office, 卸货区, P, 3m, B2, B3, LOADING AREA\nD. 商场/写字楼, B3, Mall / Office, 卸货区, D, B2, 3m",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'B2, 3m, B4, LOADING AREA, Mall / Office, 卸货区, B3' appears inside [[175.52634926947957, 124.25], [812.2621693311349, 124.25], [812.2621693311349, 960.6206896551724], [175.52634926947957, 960.6206896551724]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the area [[173.02634926947957, 124.25], [809.7621693311349, 124.25], [809.7621693311349, 960.6206896551724], [173.02634926947957, 960.6206896551724]], what word(s) can you make out there? The answer is ________.",
+              "answer": [
+                "P",
+                "商场/写字楼",
+                "Mall / Office",
+                "B2",
+                "卸货区",
+                "3m",
+                "LOADING AREA",
+                "B3",
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one matches what's written inside [[173, 124], [810, 124], [810, 826], [173, 826]]? Options:\nA. 商场/写字楼, P, B3, B4, LOADING AREA, 3m, 卸货区\nB. Mell / Office, B3, 卸货区, 3m, LOADING AREA, B2, P\nC. 商场/写字楼, 3m, Mall / Office, B2, P, LOADING AREA, 卸货区\nD. P, Mall / Office, B2, 3n, LOADING AREA, 卸货区, B3",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking region [[173.02634926947957, 124.25], [809.7621693311349, 124.25], [809.7621693311349, 960.6206896551724], [173.02634926947957, 960.6206896551724]], is 'LOADING AREA, 商场/写字楼, B2, B3, 3m, 卸货区, P' one of the labels you'd find there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[291.84600648393746, 718.3386383731212], [435.84600648393746, 718.3386383731212], [435.84600648393746, 959.3386383731212], [291.84600648393746, 959.3386383731212]] — what does it say? The answer is ________.",
+              "answer": [
+                "B3",
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something has been left out of the text at [[611,711], [735,712], [734,809], [609,808]]. Write in what's missing: ____3",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that best captures the text you see at [[171, 123], [808, 123], [808, 824], [171, 824]]. Options:\nA. B3, B4, B2, 卸货区, Mall / Office, 3m, LOADING AREA\nB. Mall / Office, 商场/写字楼, B3, B2, 卸货区, LOADING AREA, 3m\nC. Mall / Office, B2, B3, 卸货匥, 3m, 商场/写字楼, LOADING AREA\nD. Mell / Office, 3m, B3, P, 卸货区, LOADING AREA, 商场/写字楼",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll notice [[171, 123], [808, 123], [808, 711], [171, 711]] marks a specific region — does it contain 'B3, LOADING AREA, B2, 商场/写字楼, 3m, Mall / Office, P, 卸货区'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out what text appears in [[168.83681120897376, 123.2612038499135], [805.5726312706292, 123.2612038499135], [805.5726312706292, 959.6318935050859], [168.83681120897376, 959.6318935050859]]. The answer is ________.",
+              "answer": [
+                "P",
+                "商场/写字楼",
+                "Mall / Office",
+                "B2",
+                "卸货区",
+                "3m",
+                "LOADING AREA",
+                "B3",
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察 [[690,368], [1195,358], [1198,462], [689,473]] 处的文字，找出并写出缺失的部分：商场/____楼。",
+              "answer": "写字"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices given, which one correctly lists what's written in [[169, 123], [806, 123], [806, 825], [169, 825]]? Options:\nA. P, 3m, LOADING AREA, 商场/写字楼, 卸货区, B2, B3\nB. B2, Mall / Office, 卸货区, 商场/写字楼, 3m, B3, D\nC. B3, LOADING AREA, 3m, 商场/写字楼, B4, Mall / Office, 卸货区\nD. 卸货区, P, 3m, LOADING AREA, Mall / Office, 商场/写字楼, P2",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'B4, 啇场/写字楼, B2, 3m, 卸货区, B3, P, LOADING AREA, Mall / Office' contained in the region [[168.83681120897376, 123.2612038499135], [805.5726312706292, 123.2612038499135], [805.5726312706292, 959.6318935050859], [168.83681120897376, 959.6318935050859]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word or words you can read inside [[166.21151287961814, 122.78387688093983], [802.9473329412734, 122.78387688093983], [802.9473329412734, 959.1545665361123], [166.21151287961814, 959.1545665361123]]. The answer is ________.",
+              "answer": [
+                "P",
+                "商场/写字楼",
+                "Mall / Office",
+                "B2",
+                "卸货区",
+                "3m",
+                "LOADING AREA",
+                "B3",
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a gap in the text shown at [[762,823], [889,826], [889,925], [760,921]] — what goes in the blank? B____",
+              "answer": "4"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focus on [[166, 123], [803, 123], [803, 824], [166, 824]] and decide which option matches the text inside it. Options:\nA. LOADING AREA, P, 卸货区, B3, B2, 3m, Mall / Office\nB. B3, P, B4, B2, Mall / Office, LOADING AREA, 卸货区\nC. 卸货区, B3, D, B2, Mall / Office, 商场/写字楼, 3m\nD. B2, LOADING AREA, P, 3m, 商场/写字楼, Mell / Office, B3",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '卸货区, Mall / Office, B3, LOADING AREA, P, 商场/写字楼, 3m, B4, B2' shows up inside the region [[166, 123], [803, 123], [803, 824], [166, 824]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can be seen at location [[285.00964884953316, 856.5142787663281], [425.00964884953316, 856.5142787663281], [425.00964884953316, 959.5142787663281], [285.00964884953316, 959.5142787663281]]? The answer is ________.",
+              "answer": [
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A portion of the text at [[836,796], [963,799], [963,898], [834,894]] is incomplete — fill in the missing piece: B____",
+              "answer": "4"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text shown in [[285, 123], [801, 123], [801, 960], [285, 960]]? Options:\nA. P, B2, B4, 啇场/写字楼, Mall / Office, LOADING AREA, B3\nB. B4, B2, B3, Mall / Office, LOADING AREA, P, 啇场/写字楼\nC. 3m, Mall / Office, B2, 商场/写字楼, LOADING AREA, B4, P\nD. P, 商场/写字楼, LOADING AREA, B4, B3, B2, Mall / Office",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the text 'B3, P, B2, 3m, 卸货区, LOADING AREA, B4' actually found inside the bounding box [[164.05323949832317, 123.14358911115562], [800.7890595599787, 123.14358911115562], [800.7890595599787, 959.5142787663281], [164.05323949832317, 959.5142787663281]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[162.02425399107676, 591.9274025715719], [197.3672893341121, 591.9274025715719], [197.3672893341121, 630.8047414489107], [162.02425399107676, 630.8047414489107]], what word or words appear there? The answer is ________.",
+              "answer": [
+                "3m"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[858,316], [1365,305], [1366,409], [857,420]] 框内的文字有一处空缺，请填入合适的内容：商场/____字符楼",
+              "answer": "写"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which correctly represents what's written inside [[283, 123], [799, 123], [799, 959], [283, 959]]? Options:\nA. 卸货区, LOAOING AREA, B3, 商场/写字楼, Mall / Office, P, B4\nB. B2, 商场/写字楼, Mall / Office, LOADING AREA, B4, 卸货区, B3\nC. LOADING AREA, B4, D, 商场/写字楼, Mall / Office, B2, 卸货区\nD. Mall / Office, LOADING AREA, B3, 3m, 卸货区, P, B2",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Mall / Office, 商场/写字楼, B2, P, 3m, LOADING AREA, B3' appears as a label inside the region marked by [[162.02425399107676, 122.56387896622812], [798.7600740527324, 122.56387896622812], [798.7600740527324, 958.9345686214006], [162.02425399107676, 958.9345686214006]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0098/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0098/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text is visible inside [[159.8762826306949, 123.27986941968868], [796.6121026923504, 123.27986941968868], [796.6121026923504, 959.6505590748611], [159.8762826306949, 959.6505590748611]]? The answer is ________.",
+              "answer": [
+                "P",
+                "商场/写字楼",
+                "Mall / Office",
+                "B2",
+                "卸货区",
+                "3m",
+                "LOADING AREA",
+                "B3",
+                "B4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请问 [[441,207], [516,234], [509,293], [433,270]] 范围内的文字标识残缺了什么内容？____口",
+              "answer": "入"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[281, 123], [797, 123], [797, 960], [281, 960]] — which answer choice does it correspond to? Options:\nA. LOADING AREA, Mall / Office, D, 卸货区, B3, 商场/写字楼, B4\nB. 商场/写字楼, LOADING AREA, 卸货区, 3m, Mall / Office, B2, B3\nC. LOADING AREA, P, 商场/写字楼, Mell / Office, 卸货区, B2, B3\nD. B4, B3, Mall / Office, 商场/写字楼, P, 卸货区, B2",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that 'Mall / Office, P, B4, 商场/写字楼, 3m, 卸货区, B3' is positioned inside [[159.8762826306949, 123.27986941968868], [796.6121026923504, 123.27986941968868], [796.6121026923504, 959.6505590748611], [159.8762826306949, 959.6505590748611]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0098"
+  }
+]

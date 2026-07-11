@@ -1,0 +1,522 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[149, 443], [1589, 443], [1589, 880], [149, 880]], what word(s) can you make out? The answer is ________.",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17",
+                "TEENS ENJOY COLORING",
+                "IN THE LIBARY",
+                "Coloring books and",
+                "Colored pencils are free to",
+                "use in the library so enjoy!",
+                "Location: Teen Area",
+                "No registration-drop in",
+                "For grades 6-12",
+                "STA",
+                "WARS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the blank for \"IN THE LI____RY\" — use [[1371,463], [1469,463], [1469,476], [1371,476]] to locate the text and work out what's missing.",
+              "answer": "BA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text(s) shown inside [[149, 443], [1589, 443], [1589, 597], [149, 597]]. Options:\nA. Colored pencils are free to, TEENS ENJOY COLORING, TEEN, Coloring books and, No registration-drop in, use in the library so enjoy!, For grades 6-12, WARS, STA, Location: Teen Area\nB. Ages 13-17, use in the library so enjoy!, TEEN, Location: Teen Area, Colored pencils are free to, No registration-drop in, Coloring books and, STA, IN THE LIBARY, For grades 6-12\nC. IN THE LIBARY, Teen Compputers, Location: Teen Area, TEEN, Coloring books and, No registration-drop in, use in the library so enjoy!, STA, TEENS ENJOY COLORING, Colored pencils are free to\nD. WARS, TEENS ENJOY COLORING, IN THE LIBARY, use in the library so enjoy!, No registration-drop in, Location: Teen Area, For grades 6-12, STA, Ooloring books and, Colored pencils are free to",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'Coloring books and, STA, WARS, IN THE LIBARY, Location: Teen Area, For grades 6-12, No registration-drop in, use in the library so enjoy!, Colored pencils are free to, Ages 13-17' appear inside the region marked by [[149, 443], [1589, 443], [1589, 597], [149, 597]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[149.1150442477876, 443.1954887218045], [1589.0, 443.1954887218045], [1589.0, 879.2604026845638], [149.1150442477876, 879.2604026845638]] — which word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17",
+                "TEENS ENJOY COLORING",
+                "IN THE LIBARY",
+                "Coloring books and",
+                "Colored pencils are free to",
+                "use in the library so enjoy!",
+                "Location: Teen Area",
+                "No registration-drop in",
+                "For grades 6-12",
+                "STA",
+                "WARS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[634,859], [697,858], [697,873], [634,874]] reads \"Ages ____-17\" — what fills the blank?",
+              "answer": "13"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one lists the text(s) visible inside [[149, 443], [1589, 443], [1589, 597], [149, 597]]? Options:\nA. TEEN, For grades 6-12, Location: Teen Area, Coloring books and, No registration-drop in, STA, WARS, IN THE LIBARY, Colered pencils are free to, TEENS ENJOY COLORING\nB. Coloring books and, Location: Teen Area, TEENS ENJOY COLORING, TEEN, For grades 6-12, STA, Colored pencils are free to, 1N THE LIBARY, No registration-drop in, WARS\nC. For grades 6-12, IN THE LIBARY, WARS, STA, Colored pencils are free to, use in the library so enjoy!, Location: Teen Area, TEENS ENJOY COLORING, TEEN, No registration-drop in\nD. Coloring books and, use in the library so enjoy!, No registration-drop in, TEENS ENJOY COLORING, IN THE LIBARY, Colored pencils are free to, For grades 6-12, Location: Teen Area, WARS, Teen Compputers",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the region [[149.1150442477876, 443.1954887218045], [1589.0, 443.1954887218045], [1589.0, 879.2604026845638], [149.1150442477876, 879.2604026845638]], can you spot the label(s) 'WARS, For grades 6-12, No registration-drop in, STA, Location: Teen Area, uso in the library so enjoy!, IN THE LIBARY, TEENS ENJOY COLORING, Ages 13-17, TEEN'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible within [[149, 452], [690, 452], [690, 879], [149, 879]]. The answer is ________.",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"use in the lib____ so enjoy!\" appears at [[1382,536], [1511,535], [1511,550], [1382,550]] — what character(s) belong in the blank?",
+              "answer": "rary"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly lists the text(s) found inside [[1337, 443], [1589, 443], [1589, 597], [1337, 597]]. Options:\nA. use in the library so enjoy!, Colored pencils are free to, No registration-drop in, TEEN, WARS, Location: Teen Area, STA, For grades 6-12, Coloring books and\nB. use in the library so enjoy!, Coloring books and, STA, No registration-drop in, Teen Compputers, IN THE LIBARY, WARS, Location: Teen Area, TEENS ENJOY COLORING\nC. For grades 6-12, Location: Teen Area, TEENS ENJOY COLORING, No registration-drop in, use in the library so enjoy!, IN THE LIBARY, Coloring books and, STA, Colored pencils are free to\nD. Location: Teen Area, WARS, TEENS ENJOY COLORING, No registration-drop in, uso in the library so enjoy!, IN THE LIBARY, For grades 6-12, STA, Coloring books and",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[149.1150442477876, 443.1954887218045], [1589.0, 443.1954887218045], [1589.0, 879.2604026845638], [149.1150442477876, 879.2604026845638]] — does it contain the label(s) 'IN THE LIBARY, Teen Compputers, No registration-drop in, STA, TEEN, use in the library so enjoy!, Coloring books and, WARS, TEENS ENJOY COLORING, Ages 13-17'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you see inside [[598.4, 848.7], [680.8, 848.7], [680.8, 879.2604026845638], [598.4, 879.2604026845638]]. The word(s) is/are ________.",
+              "answer": [
+                "Teen Compputers",
+                "Ages 13-17"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[1358,448], [1527,448], [1527,461], [1358,461]], the phrase reads \"TEENS ENJOY ____\" — what fills that gap?",
+              "answer": "COLORING"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options provided, which one captures the text(s) inside [[149, 443], [1589, 443], [1589, 597], [149, 597]]? Options:\nA. TEEN, Coloring books and, WARS, use in the library so enjoy!, Colered pencils are free to, TEENS ENJOY COLORING, Location: Teen Area, No registration-drop in, STA, For grades 6-12\nB. Coloring books and, STA, Teen Compputers, use in the library so enjoy!, For grades 6-12, Colored pencils are free to, No registration-drop in, Location: Teen Area, IN THE LIBARY, TEEN\nC. use in the library so enjoy!, No registration-drop in, Colored pencils are free to, SIA, Coloring books and, For grades 6-12, IN THE LIBARY, WARS, TEEN, TEENS ENJOY COLORING\nD. For grades 6-12, No registration-drop in, IN THE LIBARY, STA, Location: Teen Area, TEEN, Colored pencils are free to, use in the library so enjoy!, Coloring books and, TEENS ENJOY COLORING",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[149.1150442477876, 443.1954887218045], [1589.0, 443.1954887218045], [1589.0, 879.2604026845638], [149.1150442477876, 879.2604026845638]], do you find 'For grades 6-12, Coloring books and, TEENS ENJOY COLORING, Location: Teen Area, STA, IN THE LIBARY, Teen Compputers, TEEN, No registration-drop in, Colored pencils are free to' among the labels there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) that appear inside the box [[153.31084844359177, 442.99140708915144], [1589.9448818897638, 442.99140708915144], [1589.9448818897638, 877.6343864244012], [153.31084844359177, 877.6343864244012]]. The word(s) is/are ________.",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17",
+                "TEENS ENJOY COLORING",
+                "IN THE LIBARY",
+                "Coloring books and",
+                "Colored pencils are free to",
+                "use in the library so enjoy!",
+                "Location: Teen Area",
+                "No registration-drop in",
+                "For grades 6-12",
+                "STA",
+                "WARS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1372,533], [1501,532], [1501,547], [1372,547]], the text says \"use in the ____ so enjoy!\" — which word(s) complete it?",
+              "answer": "library"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly identifies the text(s) shown inside [[1339, 443], [1590, 443], [1590, 597], [1339, 597]]? Options:\nA. No registration-drop in, WARS, For grades 6-12, use in the library so enjoy!, IN THE LIBARY, STA, Colored pencils are free to, Coloring books and, Teen Compputers\nB. IN THE LIBARY, No registration-drop in, TEENS ENJOY COLORING, Colored pencils are free to, WARS, STA, For grades 6-12, TEEN, Location: Teen Area\nC. TEENS ENJOY COLORING, use in the library so enjoy!, Location: Teen Area, For grades 6-12, STA, Coloring books and, Colored pencils are free to, No registration-drop in, WARS\nD. STA, IEENS ENJOY COLORING, WARS, IN THE LIBARY, No registration-drop in, Coloring books and, Colored pencils are free to, Location: Teen Area, use in the library so enjoy!",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[153.31084844359177, 442.99140708915144], [1589.9448818897638, 442.99140708915144], [1589.9448818897638, 877.6343864244012], [153.31084844359177, 877.6343864244012]] — are 'TEEN, Location: Teen Area, WARS, Ho registration-drop in, For grades 6-12, TEENS ENJOY COLORING, Coloring books and, Teen Compputers, IN THE LIBARY, Colored pencils are free to' the label(s) you find there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Jot down the word(s) visible inside [[158.05813367868197, 443.28126216161525], [1593.5730106907363, 443.28126216161525], [1593.5730106907363, 876.8990923067543], [158.05813367868197, 876.8990923067543]]. The word(s) is/are ________.",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17",
+                "TEENS ENJOY COLORING",
+                "IN THE LIBARY",
+                "Coloring books and",
+                "Colored pencils are free to",
+                "use in the library so enjoy!",
+                "Location: Teen Area",
+                "No registration-drop in",
+                "For grades 6-12",
+                "STA",
+                "WARS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of the text in [[190,502], [730,499], [730,623], [190,627]] is missing — which character(s) fill T____?",
+              "answer": "EEN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1342, 443], [1594, 443], [1594, 597], [1342, 597]] and pick the option that matches its text(s). Options:\nA. WARS, STA, Colored pencils are free to, TEENS ENJOY COLORING, No registration-drop in, uso in the library so enjoy!, Coloring books and, Location: Teen Area, For grades 6-12\nB. IEENS ENJOY COLORING, use in the library so enjoy!, For grades 6-12, Location: Teen Area, IN THE LIBARY, STA, No registration-drop in, Coloring books and, Colored pencils are free to\nC. TEENS ENJOY COLORING, WARS, use in the library so enjoy!, No registration-drop in, Colored pencils are free to, For grades 6-12, Coloring books and, TEEN, STA\nD. STA, WARS, Colored pencils are free to, IN THE LIBARY, Coloring books and, No registration-drop in, For grades 6-12, use in the library so enjoy!, TEENS ENJOY COLORING",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at the bounding box [[1342, 443], [1594, 443], [1594, 597], [1342, 597]], do you see 'For grades 6-12, Colored pencils are free to, STA, Ages 13-17, Coloring books and, Location: Teen Area, WARS, No registration-drop in, TEENS ENJOY COLORING, IN THE LIBARY' among the labels?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[608.9077385721474, 847.4769010043043], [691.3077385721474, 847.4769010043043], [691.3077385721474, 876.8990923067543], [608.9077385721474, 876.8990923067543]] — what word(s) are written there? The word(s) is/are ________.",
+              "answer": [
+                "Teen Compputers",
+                "Ages 13-17"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[1441,537], [1540,536], [1540,549], [1441,550]], you'll find the phrase \"IN T____ LIBARY\" — what word fits the blank?",
+              "answer": "HE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of all the options, which one lists the text(s) you see inside [[161, 443], [1597, 443], [1597, 597], [161, 597]]? Options:\nA. TEEN, Location: Teen Area, Coloring books and, TEENS ENJOY COLORING, IN THE LIBARY, For grades 6-12, WARS, use in the library so enjoy!, No registration-drop in, Colored pencils are free to\nB. No registration-drop in, Lacation: Teen Area, use in the library so enjoy!, TEENS ENJOY COLORING, IN THE LIBARY, Colored pencils are free to, Coloring books and, TEEN, WARS, For grades 6-12\nC. TEENS ENJOY COLORING, STA, IN THE LIBARY, Coloring books and, No registration-drop in, Colored pencils are free to, use in the library so enjoy!, TEEN, Fer grades 6-12, Location: Teen Area\nD. Location: Teen Area, Colored pencils are free to, TEENS ENJOY COLORING, use in the library so enjoy!, Teen Compputers, No registration-drop in, For grades 6-12, WARS, STA, IN THE LIBARY",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Location: Teen Area, No registration-drop in, For grades 6-12, use in the library so enjoy!, TEENS ENJOY COLORING, Colored pencils are free to, IN THE LIBARY, WARS' appear inside the bounding box [[1345, 443], [1597, 443], [1597, 597], [1345, 597]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) inside [[164.6674060723062, 451.72566371681415], [705.3753706740761, 451.72566371681415], [705.3753706740761, 875.5123434623782], [164.6674060723062, 875.5123434623782]]. ________",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word at coordinates [[221,489], [752,486], [751,610], [221,613]] has some letters missing — complete it: \"T____N\".",
+              "answer": "EE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text found at [[165, 443], [1600, 443], [1600, 597], [165, 597]]. Options:\nA. IEENS ENJOY COLORING, STA, No registration-drop in, Colored pencils are free to, Location: Teen Area, use in the library so enjoy!, WARS, For grades 6-12, IN THE LIBARY, TEEN\nB. TEENS ENJOY COLORING, For grades 6-12, Location: Teen Area, Coloring books and, WARS, Teen Compputers, Colored pencils are free to, use in the library so enjoy!, STA, TEEN\nC. Colored pencils are free to, WAPS, TEEN, For grades 6-12, No registration-drop in, STA, Coloring books and, TEENS ENJOY COLORING, use in the library so enjoy!, Location: Teen Area\nD. TEENS ENJOY COLORING, use in the library so enjoy!, TEEN, No registration-drop in, Colored pencils are free to, STA, Coloring books and, Location: Teen Area, IN THE LIBARY, WARS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'STA, TEEN, For grades 6-12, Colored pencils are free to, Coloring books and, Location: Teen Area, No registration-drop in, IN THE LIBARY, WARS' — are they inside [[165, 443], [1600, 443], [1600, 597], [165, 597]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) found at [[169.15720199067366, 451.72566371681415], [709.8651665924435, 451.72566371681415], [709.8651665924435, 875.5123434623782], [169.15720199067366, 875.5123434623782]]. ________",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1334,482], [1508,484], [1508,500], [1334,497]], the phrase reads \"____ ENJOY COLORING\" — fill in what's missing.",
+              "answer": "TEENS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which correctly captures the text visible at [[1353, 443], [1605, 443], [1605, 597], [1353, 597]]? Options:\nA. Coloring books and, For grades 6-12, use in the library so enjoy!, IEENS ENJOY COLORING, Colored pencils are free to, No registration-drop in, WARS, IN THE LIBARY, STA\nB. use in the library so enjoy!, WARS, Colored pencils are free to, Location: Teen Area, IN THE LIBARY, Coloring books and, STA, TEEN, TEENS ENJOY COLORING\nC. IN THE LIBARY, use in the library so enjoy!, Location: Teen Area, Colored pencils are free to, No registration-drop in, TEENS ENJOY COLORING, For grades 6-12, WARS, STA\nD. use in the library so enjoy!, WARS, For grades 6-12, Location: Teen Area, No registration-drop in, STA, IEENS ENJOY COLORING, Coloring books and, Colored pencils are free to",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether the label(s) 'STA, Fer grades 6-12, Teen Compputers, Ages 13-17, Colored pencils are free to, Coloring books and, use in the library so enjoy!, Location: Teen Area, IN THE LIBARY, No registration-drop in' are inside [[169.15720199067366, 443.28126216161525], [1604.672079002728, 443.28126216161525], [1604.672079002728, 875.5123434623782], [169.15720199067366, 875.5123434623782]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[172.49671961590545, 443.09573340465795], [1608.0115966279598, 443.09573340465795], [1608.0115966279598, 874.213642163677], [172.49671961590545, 874.213642163677]] and write down the word(s) you see. ________",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17",
+                "TEENS ENJOY COLORING",
+                "IN THE LIBARY",
+                "Coloring books and",
+                "Colored pencils are free to",
+                "use in the library so enjoy!",
+                "Location: Teen Area",
+                "No registration-drop in",
+                "For grades 6-12",
+                "STA",
+                "WARS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a gap in the text at [[127,468], [658,466], [657,590], [127,593]] — supply the missing word(s): \"____EN\".",
+              "answer": "TE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly captures the text at [[172, 443], [1608, 443], [1608, 597], [172, 597]]. Options:\nA. Location: Teen Area, Colored pencils are free to, For grades 6-12, Ne registration-drop in, use in the library so enjoy!, TEEN, WARS, TEENS ENJOY COLORING, STA, IN THE LIBARY\nB. WARS, TEENS ENJOY COLORING, No registration-drop in, Coloring books and, IN THE LIBARY, For grades 6-12, TEEN, Teen Compputers, use in the library so enjoy!, Location: Teen Area\nC. For grades 6-12, TEENS ENJOY COLORING, Coloring books and, STA, Location: Teen Area, TEEN, Colored pencils are free to, use in the library so enjoy!, IN THE LIBARY, WARS\nD. No registration-drop in, Colored pencils are free to, STA, TEENS ENJOY COLORING, TEEN, IN THE LIBARY, use in the library so enjoy!, Ooloring books and, Location: Teen Area, WARS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question: do the label(s) 'TEENS ENJOY COLORING, Location: Teen Area, Coloring books and, STA, WARS, use in the library so enjoy!, Colored pencils are free to, No registration-drop in' fall inside [[1356, 443], [1608, 443], [1608, 597], [1356, 597]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you find at [[624.8531828420545, 843.6842544190337], [707.2531828420545, 843.6842544190337], [707.2531828420545, 873.7542240932329], [624.8531828420545, 873.7542240932329]]. ________",
+              "answer": [
+                "Teen Compputers",
+                "Ages 13-17"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What digit(s) complete the age range \"Ages ____3-17\" shown at coordinates [[557,884], [620,883], [621,898], [558,899]]?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and choose which of these options holds the text at [[1360, 443], [1612, 443], [1612, 596], [1360, 596]]. Options:\nA. Location: Teen Area, Colored pencils are free to, TEEN, IN THE LIBARY, Coloring books and, TEENS ENJOY COLORING, WARS, No registration-drop in, For grades 6-12\nB. use in the library so enjoy!, Colored pencils are free to, SIA, Coloring books and, No registration-drop in, For grades 6-12, WARS, Location: Teen Area, TEENS ENJOY COLORING\nC. STA, IN THE LIBARY, Coloring books and, use in the library so enjoy!, TEENS ENJOY COLORING, For grades 6-12, Colored pencils are free to, Location: Teen Area, No registration-drop in\nD. IN THE LIBARY, WARS, STA, Coloring books and, No registration-drop in, For grades 6-12, Colored pencils are free to, IEENS ENJOY COLORING, use in the library so enjoy!",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Here's a yes/no: the label(s) 'Coloring books and, WARS, For grades 6-12, No registration-drop in, Location: Teen Area, STA, use in the library so enjoy!, Colored pencils are free to' — do they sit inside [[1360, 443], [1612, 443], [1612, 596], [1360, 596]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0289/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0289/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible at [[180.91938424071392, 451.99955303030094], [721.6273488424838, 451.99955303030094], [721.6273488424838, 874.3013130222251], [180.91938424071392, 874.3013130222251]]. ________",
+              "answer": [
+                "TEEN",
+                "Teen Compputers",
+                "Ages 13-17"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[527,860], [590,859], [590,874], [527,875]] shows an age specification reading \"Ag____ 13-17\" — what fills the gap?",
+              "answer": "es"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the choices and tell me which one matches the text at [[1365, 444], [1616, 444], [1616, 597], [1365, 597]]. Options:\nA. IN THE LIBARY, Ne registration-drop in, use in the library so enjoy!, Location: Teen Area, WARS, TEENS ENJOY COLORING, Coloring books and, Colored pencils are free to, STA\nB. TEEN, WARS, STA, For grades 6-12, IN THE LIBARY, TEENS ENJOY COLORING, Location: Teen Area, Coloring books and, Colored pencils are free to\nC. WARS, Location: Teen Area, use in the library so enjoy!, STA, Coloring books and, No registration-drop in, IN THE LIBARY, For grades 6-12, TEENS ENJOY COLORING\nD. Coloring books and, Colored pencils are free to, TEENS ENJOY COLORING, IN THE LIBARY, Location: Teen Area, Teen Compputers, For grades 6-12, use in the library so enjoy!, WARS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'No registration-drop in, WARS, STA, For grades 6-12, use in the library so enjoy!, Location: Teen Area, Colored pencils are free to, Coloring books and' can be found inside the region [[1365, 444], [1616, 444], [1616, 597], [1365, 597]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0289"
+  }
+]

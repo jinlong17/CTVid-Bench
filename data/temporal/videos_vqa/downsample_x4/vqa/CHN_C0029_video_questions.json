@@ -1,0 +1,313 @@
+{
+  "video_id": "C0029",
+  "frames": 120,
+  "word": "请勿倚靠栏杆",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0029.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"请勿倚靠栏杆\" likely to be?\n Options:\nA. storefront or brand sign\nB. menu or commercial information\nC. direction or navigation sign\nD. event or poster information\nE. address or street sign\nF. general scene text\nG. warning or prohibition sign",
+      "q": "写着「请勿倚靠栏杆」的这段文字，看起来像是什么类型的标识？\n Options:\nA. storefront or brand sign\nB. menu or commercial information\nC. direction or navigation sign\nD. event or poster information\nE. address or street sign\nF. general scene text\nG. warning or prohibition sign",
+      "a": "G",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. storefront or brand sign",
+        "B. menu or commercial information",
+        "C. direction or navigation sign",
+        "D. event or poster information",
+        "E. address or street sign",
+        "F. general scene text",
+        "G. warning or prohibition sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「请勿倚靠栏杆」的这段文字，看起来像是什么类型的标识？\n Options:\nA. storefront or brand sign\nB. menu or commercial information\nC. direction or navigation sign\nD. event or poster information\nE. address or street sign\nF. general scene text\nG. warning or prohibition sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"请勿倚靠栏杆\" appear in?\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. event poster or display\nE. other public sign\nF. warning / rule sign\nG. road or street\nH. transportation / station",
+      "q": "「请勿倚靠栏杆」这几个字出现的场景，大概是什么样的地方？\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. event poster or display\nE. other public sign\nF. warning / rule sign\nG. road or street\nH. transportation / station",
+      "a": "F",
+      "a_text": "warning / rule sign",
+      "answer_key": "warning / rule sign",
+      "options": [
+        "A. campus or office",
+        "B. restaurant or menu",
+        "C. storefront",
+        "D. event poster or display",
+        "E. other public sign",
+        "F. warning / rule sign",
+        "G. road or street",
+        "H. transportation / station"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「请勿倚靠栏杆」这几个字出现的场景，大概是什么样的地方？\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. event poster or display\nE. other public sign\nF. warning / rule sign\nG. road or street\nH. transportation / station"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"请勿倚靠栏杆\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)",
+      "q": "在整段视频里，写着「请勿倚靠栏杆」的文字大多出现在画面的哪个位置？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)",
+      "a": "C",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. bottom-right (lower-right area)",
+        "C. center (middle of the frame)",
+        "D. top-left (upper-left area)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在整段视频里，写着「请勿倚靠栏杆」的文字大多出现在画面的哪个位置？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"请勿倚靠栏杆\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "这段视频播放过程中，「请勿倚靠栏杆」这几个字的位置移动了多少？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "A",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频播放过程中，「请勿倚靠栏杆」这几个字的位置移动了多少？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"请勿倚靠栏杆\" move?\n Options:\nA. moves diagonally\nB. moves down\nC. changes direction partway\nD. moves left\nE. moves up\nF. moves right\nG. stays roughly in place",
+      "q": "总体来看，「请勿倚靠栏杆」这段文字朝哪个方向移动的？\n Options:\nA. moves diagonally\nB. moves down\nC. changes direction partway\nD. moves left\nE. moves up\nF. moves right\nG. stays roughly in place",
+      "a": "E",
+      "a_text": "moves up",
+      "answer_key": "moves up",
+      "options": [
+        "A. moves diagonally",
+        "B. moves down",
+        "C. changes direction partway",
+        "D. moves left",
+        "E. moves up",
+        "F. moves right",
+        "G. stays roughly in place"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「请勿倚靠栏杆」这段文字朝哪个方向移动的？\n Options:\nA. moves diagonally\nB. moves down\nC. changes direction partway\nD. moves left\nE. moves up\nF. moves right\nG. stays roughly in place"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"请勿倚靠栏杆\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-right -> center\nB. bottom-right -> center -> center\nC. center -> center -> top-right\nD. center -> center -> center",
+      "q": "视频开头、中间和结尾，「请勿倚靠栏杆」分别出现在画面什么位置？\n Options:\nA. center -> top-right -> center\nB. bottom-right -> center -> center\nC. center -> center -> top-right\nD. center -> center -> center",
+      "a": "D",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> top-right -> center",
+        "B. bottom-right -> center -> center",
+        "C. center -> center -> top-right",
+        "D. center -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频开头、中间和结尾，「请勿倚靠栏杆」分别出现在画面什么位置？\n Options:\nA. center -> top-right -> center\nB. bottom-right -> center -> center\nC. center -> center -> top-right\nD. center -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"请勿倚靠栏杆\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里写着「请勿倚靠栏杆」的那些字，大概占多大面积，算是大字还是小字？\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "B",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. large (a major part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里写着「请勿倚靠栏杆」的那些字，大概占多大面积，算是大字还是小字？\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"请勿倚靠栏杆\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "q": "看整段视频，「请勿倚靠栏杆」这段文字的大小有没有变化，是变大了、变小了，还是基本保持不变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看整段视频，「请勿倚靠栏杆」这段文字的大小有没有变化，是变大了、变小了，还是基本保持不变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"请勿倚靠栏杆\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "那段写着「请勿倚靠栏杆」的字，是正好在画面中间区域，还是偏到了某一侧边缘？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "那段写着「请勿倚靠栏杆」的字，是正好在画面中间区域，还是偏到了某一侧边缘？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"请勿倚靠栏杆\" and how it appears in the video.",
+      "q": "简单描述一下「请勿倚靠栏杆」这段文字在视频里的大致样子，以及它是怎么出现在画面中的。",
+      "a": "A brown warning sign on a stone railing displays the white text \"请勿倚靠栏杆\" next to a red prohibition symbol.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "简单描述一下「请勿倚靠栏杆」这段文字在视频里的大致样子，以及它是怎么出现在画面中的。"
+    }
+  ],
+  "method": "downsample_x4"
+}

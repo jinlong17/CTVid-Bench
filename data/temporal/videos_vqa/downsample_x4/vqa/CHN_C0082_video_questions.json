@@ -1,0 +1,313 @@
+{
+  "video_id": "C0082",
+  "frames": 120,
+  "word": "GARDEN\nON THE SPRING\n花庭之叙",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0082.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "mixed",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" likely to be?\n Options:\nA. general scene text\nB. address or street sign\nC. direction or navigation sign\nD. storefront or brand sign\nE. warning or prohibition sign\nF. event or poster information\nG. menu or commercial information",
+      "q": "写着「GARDEN\nON THE SPRING\n花庭之叙」的这段文字，看起来像是哪种类型的牌子？\n Options:\nA. general scene text\nB. address or street sign\nC. direction or navigation sign\nD. storefront or brand sign\nE. warning or prohibition sign\nF. event or poster information\nG. menu or commercial information",
+      "a": "F",
+      "a_text": "event or poster information",
+      "answer_key": "event or poster information",
+      "options": [
+        "A. general scene text",
+        "B. address or street sign",
+        "C. direction or navigation sign",
+        "D. storefront or brand sign",
+        "E. warning or prohibition sign",
+        "F. event or poster information",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「GARDEN\nON THE SPRING\n花庭之叙」的这段文字，看起来像是哪种类型的牌子？\n Options:\nA. general scene text\nB. address or street sign\nC. direction or navigation sign\nD. storefront or brand sign\nE. warning or prohibition sign\nF. event or poster information\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" appear in?\n Options:\nA. road or street\nB. event poster or display\nC. other public sign\nD. warning / rule sign\nE. transportation / station\nF. campus or office\nG. storefront\nH. restaurant or menu",
+      "q": "出现「GARDEN\nON THE SPRING\n花庭之叙」的时候，镜头里是什么样的场景？\n Options:\nA. road or street\nB. event poster or display\nC. other public sign\nD. warning / rule sign\nE. transportation / station\nF. campus or office\nG. storefront\nH. restaurant or menu",
+      "a": "B",
+      "a_text": "event poster or display",
+      "answer_key": "event poster or display",
+      "options": [
+        "A. road or street",
+        "B. event poster or display",
+        "C. other public sign",
+        "D. warning / rule sign",
+        "E. transportation / station",
+        "F. campus or office",
+        "G. storefront",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "出现「GARDEN\nON THE SPRING\n花庭之叙」的时候，镜头里是什么样的场景？\n Options:\nA. road or street\nB. event poster or display\nC. other public sign\nD. warning / rule sign\nE. transportation / station\nF. campus or office\nG. storefront\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. center (middle of the frame)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "q": "整段视频里，写着「GARDEN\nON THE SPRING\n花庭之叙」的文字主要出现在画面的哪个区域？\n Options:\nA. bottom-right (lower-right area)\nB. center (middle of the frame)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "a": "B",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. center (middle of the frame)",
+        "C. bottom-left (lower-left area)",
+        "D. top-right (upper-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整段视频里，写着「GARDEN\nON THE SPRING\n花庭之叙」的文字主要出现在画面的哪个区域？\n Options:\nA. bottom-right (lower-right area)\nB. center (middle of the frame)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "整个片段播放下来，「GARDEN\nON THE SPRING\n花庭之叙」这段文字移动的幅度大概有多少？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "B",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整个片段播放下来，「GARDEN\nON THE SPRING\n花庭之叙」这段文字移动的幅度大概有多少？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" move?\n Options:\nA. stays roughly in place\nB. moves diagonally\nC. moves left\nD. moves up\nE. moves right\nF. moves down\nG. changes direction partway",
+      "q": "总体来看，「GARDEN\nON THE SPRING\n花庭之叙」这段文字是朝哪个方向在运动？\n Options:\nA. stays roughly in place\nB. moves diagonally\nC. moves left\nD. moves up\nE. moves right\nF. moves down\nG. changes direction partway",
+      "a": "C",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. stays roughly in place",
+        "B. moves diagonally",
+        "C. moves left",
+        "D. moves up",
+        "E. moves right",
+        "F. moves down",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「GARDEN\nON THE SPRING\n花庭之叙」这段文字是朝哪个方向在运动？\n Options:\nA. stays roughly in place\nB. moves diagonally\nC. moves left\nD. moves up\nE. moves right\nF. moves down\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-right\nC. bottom-left -> center -> center\nD. center -> top-right -> center",
+      "q": "看这段视频，写着「GARDEN\nON THE SPRING\n花庭之叙」的文字，片头、片中、片尾分别在画面的哪个位置？\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-right\nC. bottom-left -> center -> center\nD. center -> top-right -> center",
+      "a": "A",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> center -> center",
+        "B. center -> center -> bottom-right",
+        "C. bottom-left -> center -> center",
+        "D. center -> top-right -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看这段视频，写着「GARDEN\nON THE SPRING\n花庭之叙」的文字，片头、片中、片尾分别在画面的哪个位置？\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-right\nC. bottom-left -> center -> center\nD. center -> top-right -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "q": "「GARDEN\nON THE SPRING\n花庭之叙」这几行文字在画面里占的比例怎么样，算大字还是小字？\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "a": "D",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「GARDEN\nON THE SPRING\n花庭之叙」这几行文字在画面里占的比例怎么样，算大字还是小字？\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger",
+      "q": "播放过程中，写着「GARDEN\nON THE SPRING\n花庭之叙」的文字大小有没有变化——是越来越大、越来越小，还是差不多没变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "播放过程中，写着「GARDEN\nON THE SPRING\n花庭之叙」的文字大小有没有变化——是越来越大、越来越小，还是差不多没变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "在画面里，写着「GARDEN\nON THE SPRING\n花庭之叙」的文字是比较靠近边缘，还是大部分时候都在画面中央区域内？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在画面里，写着「GARDEN\nON THE SPRING\n花庭之叙」的文字是比较靠近边缘，还是大部分时候都在画面中央区域内？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"GARDEN\nON THE SPRING\n花庭之叙\" and how it appears in the video.",
+      "q": "你能描述一下「GARDEN\nON THE SPRING\n花庭之叙」这段文字的外观，以及它在视频中是怎样展现的吗？",
+      "a": "The text \"GARDEN ON THE SPRING 花庭之叙\" is displayed in white letters on a large purple event poster.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你能描述一下「GARDEN\nON THE SPRING\n花庭之叙」这段文字的外观，以及它在视频中是怎样展现的吗？"
+    }
+  ],
+  "method": "downsample_x4"
+}

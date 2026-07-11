@@ -1,0 +1,455 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) you can read inside [[315, 300], [1548, 300], [1548, 1031], [315, 1031]]. The answer is ________.",
+              "answer": [
+                "脆皮烧鹅",
+                "卤水鹅杂",
+                "白切鸡"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像上[[341,872], [714,903], [708,984], [333,950]]这个位置，\"卤水鹅____\"里空缺的字符你认为是什么？",
+              "answer": "杂"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best matches what's written inside [[315, 300], [714, 300], [714, 984], [315, 984]]? Options:\nA. 白切鸡\nB. 脕皮烧鹅\nC. 脕皮烧鹅\nD. 卤水鹅杂",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '卤水鹅杂' can be found within the box at [[333, 872], [1548, 872], [1548, 1031], [333, 1031]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[314.6153846153846, 300.0], [714.0, 300.0], [714.0, 394.0], [314.6153846153846, 394.0]] and write down the word(s) you find there: ________",
+              "answer": [
+                "脆皮烧鹅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[325,296], [721,301], [717,390], [321,381]]所在区域的\"脆皮____鹅\"，缺失的是哪个字？",
+              "answer": "烧"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the choices and find the one that lists the text visible in [[315, 300], [714, 300], [714, 984], [315, 984]]. Options:\nA. 卤水鹅杂\nB. 脕皮烧鹅\nC. 白切鸡\nD. 卣水鹅杂",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me if '卤水鹅杂, 脆皮烧鹅, 白刧鸡' are located inside [[314.6153846153846, 300.0], [1548.2587064676616, 300.0], [1548.2587064676616, 1030.7960199004974], [314.6153846153846, 1030.7960199004974]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write down whatever text appears in the region [[314.6153846153846, 300.0], [714.0, 300.0], [714.0, 394.0], [314.6153846153846, 394.0]]. The answer is ________.",
+              "answer": [
+                "脆皮烧鹅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看一看坐标[[396,324], [792,329], [789,418], [393,410]]处的内容，把\"脆____烧鹅\"里空着的字符补上来。",
+              "answer": "皮"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[333, 872], [1548, 872], [1548, 1031], [333, 1031]], which answer choice shows the text(s) visible there? Options:\nA. 白切鸡\nB. 卣水鹅杂\nC. 脆皮烧鹅\nD. 白刧鸡",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: are '脆皮烧鹅, 卤水鹅杂, 白切鸡' actually showing up inside [[333, 872], [1548, 872], [1548, 1031], [333, 1031]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text visible inside [[315, 300], [714, 300], [714, 394], [315, 394]]: ________.",
+              "answer": [
+                "脆皮烧鹅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看坐标[[477,322], [873,327], [870,416], [473,407]]的位置，\"____皮烧鹅\"里空着什么？请补全。",
+              "answer": "脆"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer choice that matches the text(s) you can see at [[315, 300], [716, 300], [716, 978], [315, 978]]. Options:\nA. 卤水鹅杂\nB. 卣水鹅杂\nC. 脕皮烧鹅\nD. 白切鸡",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[335, 865], [1552, 865], [1552, 1026], [335, 1026]], would you say '卤水鹅杂, 白切鸡, 脆皮烧鹅' is/are found inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the text inside [[1215.028630432742, 915.7861635220124], [1546.3719140148314, 915.7861635220124], [1546.3719140148314, 1023.248850089176], [1215.028630432742, 1023.248850089176]] — what word(s) do you find? ________.",
+              "answer": [
+                "白切鸡"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[548,757], [921,788], [915,870], [540,835]]对应的画面中，\"卤水____杂\"少了哪些内容？请写出来。",
+              "answer": "鹅"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that correctly names the text(s) shown at [[315, 300], [715, 300], [715, 977], [315, 977]]. Options:\nA. 脕皮烧鹅\nB. 卤水鹅杂\nC. 白切鸡\nD. 卣水鹅杂",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[334, 864], [1546, 864], [1546, 1023], [334, 1023]] — does it actually contain '卤水鹅杂, 白切鸡, 脆皮烧鹅'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) you can read at [[317.1794871794871, 296.5811965811966], [716.5641025641025, 296.5811965811966], [716.5641025641025, 390.5811965811966], [317.1794871794871, 390.5811965811966]]: ________.",
+              "answer": [
+                "脆皮烧鹅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像[[1324,789], [1651,810], [1643,896], [1319,873]]区域里，\"白____鸡\"缺少了什么字？请填写完整。",
+              "answer": "切"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one lists the text(s) you see at [[336, 862], [1550, 862], [1550, 1021], [336, 1021]]? Options:\nA. 卣水鹅杂\nB. 脆皮烧鹅\nC. 卤水鹅杂\nD. 卣水鹅杂",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just checking — is '卤水鹅杂, 白切鸡, 脆皮烧鹅' something you'd find inside [[336, 862], [1550, 862], [1550, 1021], [336, 1021]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up when you look at [[322.2154584025088, 296.5811965811966], [1549.968108177063, 296.5811965811966], [1549.968108177063, 1019.507518045958], [322.2154584025088, 1019.507518045958]]? Write it here: ________.",
+              "answer": [
+                "脆皮烧鹅",
+                "卤水鹅杂",
+                "白切鸡"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1354,816], [1681,838], [1674,923], [1350,901]]处的图像里，\"白____鸡\"中有空缺，请根据画面内容填写。",
+              "answer": "切"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The area at [[322, 297], [722, 297], [722, 975], [322, 975]] has some text — which answer choice matches it? Options:\nA. 脕皮烧鹅\nB. 白切鸡\nC. 脆皮烧鹅\nD. 卣水鹅杂",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Here's a quick one: does [[336, 862], [1550, 862], [1550, 1020], [336, 1020]] contain the label(s) '白切鸡, 卤水鹅杂, 脆皮烧鹅'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look closely at [[322.2154584025088, 296.5811965811966], [721.6000737871242, 296.5811965811966], [721.6000737871242, 390.5811965811966], [322.2154584025088, 390.5811965811966]] and name every word you find: ________.",
+              "answer": [
+                "脆皮烧鹅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请仔细观察[[463,296], [860,302], [856,390], [460,382]]位置的画面，将短语\"脆____烧鹅\"中缺失的文字填写完整。",
+              "answer": "皮"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text at [[322, 297], [722, 297], [722, 975], [322, 975]] and match it to the right answer: Options:\nA. 白切鸡\nB. 卣水鹅杂\nC. 卣水鹅杂\nD. 脆皮烧鹅",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "That region at [[336, 862], [1548, 862], [1548, 1018], [336, 1018]] — does it actually hold the label(s) '白切鸡, 脆皮烧鹅, 卤水鹅杂'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over at [[1215.10369783441, 907.1152540140048], [1546.4469814164995, 907.1152540140048], [1546.4469814164995, 1014.5779405811692], [1215.10369783441, 1014.5779405811692]], what word(s) can you make out? ________.",
+              "answer": [
+                "白切鸡"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[414,827], [787,858], [781,939], [406,905]]区域内的短语\"____水鹅杂\"有些字看不清，请你填写出那些缺失的字。",
+              "answer": "卤"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out which option correctly captures the text(s) at [[321, 296], [720, 296], [720, 970], [321, 970]]. Options:\nA. 脕皮烧鹅\nB. 白切鸡\nC. 脕皮烧鹅\nD. 卤水鹅杂",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '白切鸡' actually appearing inside the bounding box [[336, 857], [1546, 857], [1546, 1015], [336, 1015]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text you can see inside the box [[321.4439503734427, 295.8769712290839], [720.8285657580583, 295.8769712290839], [720.8285657580583, 389.8769712290839], [321.4439503734427, 389.8769712290839]] — fill in: ________.",
+              "answer": [
+                "脆皮烧鹅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[1135,863], [1462,885], [1454,970], [1131,948]]处的文字藏着一个残缺的短语，请把缺失的部分填进来：\"白____鸡\"。",
+              "answer": "切"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[321, 296], [721, 296], [721, 976], [321, 976]] matches one of the following — which is it? Options:\nA. 卤水鹅杂\nB. 卣水鹅杂\nC. 脕皮烧鹅\nD. 白切鸡",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '脆皮烧鹅, 白切鸡, 卤水鹅杂' falls inside the bounding box [[336, 863], [1545, 863], [1545, 1015], [336, 1015]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible in region [[1208.6165423419116, 907.589187663294], [1539.959825924001, 907.589187663294], [1539.959825924001, 1015.0518742304583], [1208.6165423419116, 1015.0518742304583]]: ________.",
+              "answer": [
+                "白切鸡"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[499,862], [872,893], [866,975], [490,940]]所对应的位置藏有一段残缺文字，请补全短语：\"卤水____杂\"。",
+              "answer": "鹅"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which one correctly shows what's written at [[321, 296], [721, 296], [721, 973], [321, 973]]? Options:\nA. 白切鸡\nB. 卣水鹅杂\nC. 脆皮烧鹅\nD. 卣水鹅杂",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label '脆皮烧鹅, 白切鸡, 卤水鹅杂' appears inside [[337, 860], [1540, 860], [1540, 1015], [337, 1015]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0198/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0198/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out every word you can read inside [[1208.6165423419116, 907.589187663294], [1539.959825924001, 907.589187663294], [1539.959825924001, 1015.0518742304583], [1208.6165423419116, 1015.0518742304583]]: ________",
+              "answer": [
+                "白切鸡"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察坐标[[510,856], [883,887], [877,968], [502,934]]处的文字，补写出短语中缺少的内容：卤水____杂",
+              "answer": "鹅"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the area [[336, 861], [1540, 861], [1540, 1015], [336, 1015]], which of these choices matches the text there? Options:\nA. 白刧鸡\nB. 卣水鹅杂\nC. 脆皮烧鹅\nD. 白切鸡",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label '卤水鹅杂' — is it enclosed by [[336, 861], [1540, 861], [1540, 1015], [336, 1015]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0198"
+  }
+]

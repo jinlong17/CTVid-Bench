@@ -1,0 +1,572 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside [[533, 346], [1869, 346], [1869, 975], [533, 975]]: ________",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain Beauty",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup SI",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What digit(s) completes the pattern \"0____\" shown in the region at [[1448,772], [1466,771], [1467,793], [1449,794]]?",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text found inside [[533, 346], [1331, 346], [1331, 975], [533, 975]]? Options:\nA. 46801, Makeup SI, Hain Beauty, 510-, citibank, Fa\nB. 茌旗銀行, Fa, citibank, Makeup SI, Eyelas, 510-\nC. citibank, Fa, 46801, 花旗銀行, 510-, Makeup SI\nD. Makeup SI, Eyelas, Fa, mmie, 510-, 46801",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you find the label(s) 'Makeup SI, PLEASECALL, Eyelas, Fa, HAIRCUT510-226-1868, Hain Beauty, 510-, 花旗銀行, 05, 46801' inside the bounding box [[532.7272727272726, 346.060606060606], [1869.3886462882097, 346.060606060606], [1869.3886462882097, 975.1445086705202], [532.7272727272726, 975.1445086705202]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) appear inside [[549, 352], [1344, 352], [1344, 972], [549, 972]]. The answer is ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "46801",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sequence \"____5\" has a gap — what digit(s) belong there, based on what's shown in [[1579,761], [1598,760], [1599,782], [1581,782]]?",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which option correctly captures the text(s) visible in [[549, 352], [1484, 352], [1484, 972], [549, 972]]? Options:\nA. 05, Fa, 花旗銀行, 510-, 46801, oitibank, Makeup S\nB. 510-, citibank, Fa, 46801, Eyelas, 花旗銀行, Makeup S\nC. Hain Beauty, 05, 46801, Fa, 510-, Eyelas, 花旗銀行\nD. 510-, 花旗銀行, 46801, Mekeup S, Fa, Eyelas, 05",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '510-, Hain Beauty, Fa, citibank, 05, Makeup S, HAIRCUT510-226-1868, OPEN7DAYS, PLEASECALL, Eyelas' sits inside the bounding box [[548.9665889665889, 352.04351204351195], [1886.799360573924, 352.04351204351195], [1886.799360573924, 972.008524690884], [548.9665889665889, 972.008524690884]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "In the region [[550.6759906759906, 338.36829836829827], [1886.799360573924, 338.36829836829827], [1886.799360573924, 969.9860527807716], [550.6759906759906, 969.9860527807716]], what word(s) can you make out? The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain Beauty",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1536,964], [1552,963], [1553,980], [1536,981]] contains the sequence \"F____\" — what character(s) fill in the blank?",
+              "answer": "a"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that lists the text(s) visible within [[1294, 817], [1639, 817], [1639, 970], [1294, 970]]. Options:\nA. PLEASECALL, Eyelas, Ea, HAIRCUT510-226-1868, OPEN7DAYS, 510-\nB. 510-, Eyelas, Fa, RLEASECALL, Makeup S, OPEN7DAYS\nC. Eyelas, HAIRCUT510-226-1868, OPEN7DAYS, Makeup S, Fa, PLEASECALL\nD. HAIRCUT510-226-1868, Eyelas, citibank, 510-, Fa, Makeup S",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[550.6759906759906, 338.36829836829827], [1886.799360573924, 338.36829836829827], [1886.799360573924, 969.9860527807716], [550.6759906759906, 969.9860527807716]] contain the label(s) 'Hain Beauty, 46801, OPEN7DAYS, mmie, citibank, 05, 510-, 花旗銀行, PLEASECALL, Fa'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[567.3426573426574, 335.24329836829827], [1916.5163417059996, 335.24329836829827], [1916.5163417059996, 968.4133135933536], [567.3426573426574, 968.4133135933536]], identify the word(s) visible there. The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain Beauty",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[1425,533], [1655,554], [1653,618], [1422,601]] 区域内的文字，\"花____銀行\"中缺失的部分是什么？",
+              "answer": "旗"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly shows the text(s) in [[567, 335], [1370, 335], [1370, 968], [567, 968]]? Options:\nA. 46801, Eyelas, Makeup S, Hain Beauty, citibank, Fa\nB. 510-, Fa, Fyelas, citibank, 46801, Makeup S\nC. citibank, Eyelas, Fa, 510-, 46801, 花旗銀行\nD. 49801, 510-, Fa, Eyelas, citibank, 花旗銀行",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'OREN7DAYS, Hain Beauty, 46801, 05, PLEASECALL, HAIRCUT510-226-1868, citibank, mmie, Eyelas, Fa' can be found within the bounding box [[567.3426573426574, 335.24329836829827], [1916.5163417059996, 335.24329836829827], [1916.5163417059996, 968.4133135933536], [567.3426573426574, 968.4133135933536]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[583.380393191714, 334.2999021418832], [1920.0, 334.2999021418832], [1920.0, 963.6587123663596], [583.380393191714, 963.6587123663596]] — what word(s) show up there? The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain Beauty",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the content visible at [[327,930], [391,930], [389,946], [324,945]], what goes in the blank to complete \"____kethe\"?",
+              "answer": "Ma"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[583, 334], [1523, 334], [1523, 964], [583, 964]] matches which of the following options? Options:\nA. Eyelas, Hain Beauty, Makeup S, 510-, 46801, citibank, 花旗銀行\nB. Eyelas, 05, Fa, 花旗銀行, 510-, 46801, citibank\nC. 510-, citibank, Eyelas, Makeup S, 05, 46801, 花旗銀行\nD. 花旗銀行, 510-, 46801, Makeup S, 05, citibank, Fa",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '510-, 花旗銀行, Eyelas, 05, Makeup S, Fa' appears within the box defined by [[583, 334], [1523, 334], [1523, 964], [583, 964]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the area at [[1583.752966147907, 481.14035087719293], [1920.0, 481.14035087719293], [1920.0, 893.452380952381], [1583.752966147907, 893.452380952381]], what word(s) do you see? The word(s) is/are ________.",
+              "answer": [
+                "Hain Beaut",
+                "mmie",
+                "HAIRCUT510-226-1868",
+                "PLEASECALL",
+                "OPEN7DAYS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The area at [[1165,795], [1256,794], [1256,825], [1165,825]] shows the pattern \"468____\" — what digit(s) are missing from it?",
+              "answer": "01"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick whichever option correctly lists the text(s) inside [[720, 712], [1682, 712], [1682, 956], [720, 956]]. Options:\nA. 510-, HAIRCUT510-226-1868, 05, 46801, OREN7DAYS, Eyelas, Makeup S, Fa\nB. HAIRCUT510-226-1868, Eyelas, 05, Makeup S, Fa, 46801, 510-, OPEN7DAYS\nC. 510-, 05, HAIRCUT510-226-1868, Makeup S, OPEN7DAYS, PLEASECALL, 46801, citibank\nD. HAIRCUT510-226-1868, 510\", OPEN7DAYS, 46801, 05, PLEASECALL, Eyelas, Fa",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[720, 712], [1682, 712], [1682, 956], [720, 956]] — is '46801, PLEASECALL, OPEN7DAYS, Fa, 05, Makeup S, HAIRCUT510-226-1868' one of the labels found there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "When you examine [[605.19355061728, 335.56572492669335], [1920.0, 335.56572492669335], [1920.0, 954.3191021864009], [605.19355061728, 954.3191021864009]], which word(s) stand out? The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain Beau",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "To complete the word(s) \"cit____nk\", what part is missing — hint: check the text at [[1025,405], [1588,444], [1589,595], [1024,562]].",
+              "answer": "iba"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the entire image, which option correctly names the text(s) found within [[1346, 800], [1696, 800], [1696, 954], [1346, 954]]? Options:\nA. OPEN7DAYS, Eyelas, PLEASECALL, HAIRCUT510-226-1868, Fa, Mekeup S\nB. Eyelas, Fa, HAIRCUT510-226-1868, PLEASECALL, 510\", Makeup S\nC. Makeup S, 510-, HAIRCUT510-226-1868, Eyelas, OPEN7DAYS, Fa\nD. OPEN7DAYS, Makeup S, Eyelas, citibank, 510-, HAIRCUT510-226-1868",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Makeup S, 花旗銀行, 46801, Eyelas, citibank' fall inside the bounding box [[605, 336], [1410, 336], [1410, 954], [605, 954]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) appear inside the region [[609.4189027299561, 332.7488235182426], [1919.0, 332.7488235182426], [1919.0, 952.0592151807512], [609.4189027299561, 952.0592151807512]]? The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain Bea",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the text inside [[1683,1013], [1761,1011], [1761,1031], [1685,1034]], what goes in the blank to complete \"Mak____ S\"?",
+              "answer": "eup"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one matches the text(s) found inside [[1360, 796], [1709, 796], [1709, 952], [1360, 952]]? Options:\nA. Makeup S, 510-, OPEN7DAYS, HAIRCUT510-226-1868, citibank, Eyelas\nB. Eyelas, Fa, OPEN7DAYS, 510-, Makeup S, RLEASECALL\nC. HAIRCUT510-226-1868, Fa, Makeup S, OPEN7DAYS, Eyelas, PLEASECALL\nD. HAIRCUT510-226-1868, OPEN7DAYS, 510\", Fa, Eyelas, PLEASECALL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[609, 333], [1424, 333], [1424, 952], [609, 952]], would you find the label(s) '510-, Makeup S, citibank, 花旗銀行, 46801'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) you see in the area marked by [[617.1112104222639, 334.45822522764433], [1910.9540229885056, 334.45822522764433], [1910.9540229885056, 953.1904369002082], [617.1112104222639, 953.1904369002082]]. The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain Be",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What digit(s) are missing from the sequence \"____\" visible at coordinates [[1660,825], [1675,825], [1676,848], [1662,849]]?",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text(s) inside [[617, 334], [1574, 334], [1574, 953], [617, 953]] — which option below matches them? Options:\nA. Makeup S, Hain Be, 46801, Fa, citibank, Eyelas, 510-\nB. citibank, Makeup S, 510-, 05, 46801, mmie, Fa\nC. 05, Eyelas, 46801, 510-, Makeup S, Fa, 花旗銀行\nD. 49801, 510-, Fa, citibank, Makeup S, 花旗銀行, 05",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At the bounding box [[1372, 798], [1723, 798], [1723, 953], [1372, 953]], are the label(s) '510-, PLEASECALL, HAIRCUT510-226-1868, Fa, Makeup S' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible within the area [[629.2131212502894, 347.8340214059883], [1920.0, 347.8340214059883], [1920.0, 961.5873834650937], [629.2131212502894, 961.5873834650937]]. The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain Be",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text shown at [[1622,885], [1685,886], [1685,903], [1622,903]] reads \"OPEN7____\" — what's the missing part?",
+              "answer": "DAYS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately represents the text(s) visible within [[770, 728], [1737, 728], [1737, 962], [770, 962]]. Options:\nA. HAIRCUT510-226-1868, Fa, PLEASECALL, 510-, 46801, 05, OPEN7DAYS, citibank\nB. PLEASECALL, OPEN7DAYS, HAIRCUT510-226-1868, Makeup S, Fa, 05, 510-, Eyelas\nC. OPEN7DAYS, Makeup S, HAIRCUT510-226-1868, 510-, 05, 49801, PLEASECALL, Fa\nD. 510-, OPEN7DAYS, Makeup S, 46801, 05, PLEASECALL, Fa, HAIRCUT510-226-1868",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The area defined by [[629.2131212502894, 347.8340214059883], [1920.0, 347.8340214059883], [1920.0, 961.5873834650937], [629.2131212502894, 961.5873834650937]] — does it contain the label(s) '花旗銀行, 46801, Eyelas, Fa, mmie, HAIRCUT510-226-1868, 510-, PLEASFCALL, citibank, OPEN7DAYS'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up inside the region [[640.8410282270336, 361.78750977808136], [1920.0, 361.78750977808136], [1920.0, 586.295285901353], [640.8410282270336, 586.295285901353]]? The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain B",
+                "mmie"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1236,1009], [1301,1006], [1301,1026], [1237,1029]], the text appears as \"Mak____ S\" — fill in what's missing.",
+              "answer": "eup"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices provided, which one includes the text(s) from [[641, 362], [1599, 362], [1599, 973], [641, 973]]? Options:\nA. 510-, 46801, Fa, 05, citibank, Eyelas, 花旗銀行\nB. 46801, Makeup S, 510-, 花旗銀行, 05, Eyelas, Ea\nC. 花旗銀行, 05, Eyelas, citibank, 46801, 510-, Fa\nD. 510-, Eyelas, Makeup S, 46801, Hain B, 05, Fa",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You're looking at the area defined by [[778, 741], [1751, 741], [1751, 973], [778, 973]] — are the label(s) 'HAIRCUT510-226-1868, 510-, mmie, 05, 46801, Makeup S, PLEASECALL, Eyelas, Fa, OPEN7DAYS' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0348/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0348/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the area [[657.8221603025053, 371.2214720422323], [1856.3157894736842, 371.2214720422323], [1856.3157894736842, 985.9840936533349], [657.8221603025053, 985.9840936533349]] in the image, what word(s) do you find there? The word(s) is/are ________.",
+              "answer": [
+                "citibank",
+                "花旗銀行",
+                "Hain",
+                "mmie",
+                "46801",
+                "HAIRCUT510-226-1868",
+                "Makeup S",
+                "510-",
+                "Fa",
+                "05",
+                "PLEASECALL",
+                "OPEN7DAYS",
+                "Eyelas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the word(s) \"Eyel____\" shown at [[1110,976], [1152,973], [1153,993], [1111,996]], fill in what's missing to complete them.",
+              "answer": "as"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[1409, 826], [1763, 826], [1763, 986], [1409, 986]] and select the option that captures its text(s). Options:\nA. OPEN7DAYS, Fyelas, PLEASECALL, HAIRCUT510-226-1868, Fa, 510-\nB. Eyelas, PLEASECALL, citibank, Makeup S, OPEN7DAYS, HAIRCUT510-226-1868\nC. OREN7DAYS, PLEASECALL, Eyelas, HAIRCUT510-226-1868, Fa, Makeup S\nD. HAIRCUT510-226-1868, OPEN7DAYS, PLEASECALL, Fa, Makeup S, Eyelas",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "When you look at bounding box [[789, 753], [1763, 753], [1763, 986], [789, 986]], are the label(s) 'Makeup S, Fa, OPEN7DAYS, PLEASECALL, 05, HAIRCUT510-226-1868, 510-, Eyelas, 46801, mmie' what you see inside?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0348"
+  }
+]

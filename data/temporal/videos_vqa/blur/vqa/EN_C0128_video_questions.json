@@ -1,0 +1,313 @@
+{
+  "video_id": "C0128",
+  "frames": 120,
+  "word": "DISCOVER OUR GARDEN WALK",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0128.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"DISCOVER OUR GARDEN WALK\" likely to be?\n Options:\nA. storefront or brand sign\nB. address or street sign\nC. general scene text\nD. event or poster information\nE. menu or commercial information\nF. direction or navigation sign\nG. warning or prohibition sign",
+      "q": "What sort of sign would you say the text \"DISCOVER OUR GARDEN WALK\" is — a wayfinding marker, a storefront sign, or something else?\n Options:\nA. storefront or brand sign\nB. address or street sign\nC. general scene text\nD. event or poster information\nE. menu or commercial information\nF. direction or navigation sign\nG. warning or prohibition sign",
+      "a": "D",
+      "a_text": "event or poster information",
+      "answer_key": "event or poster information",
+      "options": [
+        "A. storefront or brand sign",
+        "B. address or street sign",
+        "C. general scene text",
+        "D. event or poster information",
+        "E. menu or commercial information",
+        "F. direction or navigation sign",
+        "G. warning or prohibition sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What sort of sign would you say the text \"DISCOVER OUR GARDEN WALK\" is — a wayfinding marker, a storefront sign, or something else?\n Options:\nA. storefront or brand sign\nB. address or street sign\nC. general scene text\nD. event or poster information\nE. menu or commercial information\nF. direction or navigation sign\nG. warning or prohibition sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"DISCOVER OUR GARDEN WALK\" appear in?\n Options:\nA. campus or office\nB. event poster or display\nC. restaurant or menu\nD. road or street\nE. warning / rule sign\nF. other public sign\nG. storefront\nH. transportation / station",
+      "q": "The text \"DISCOVER OUR GARDEN WALK\" — what does its surroundings tell you about the environment where this video was shot?\n Options:\nA. campus or office\nB. event poster or display\nC. restaurant or menu\nD. road or street\nE. warning / rule sign\nF. other public sign\nG. storefront\nH. transportation / station",
+      "a": "F",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. campus or office",
+        "B. event poster or display",
+        "C. restaurant or menu",
+        "D. road or street",
+        "E. warning / rule sign",
+        "F. other public sign",
+        "G. storefront",
+        "H. transportation / station"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text \"DISCOVER OUR GARDEN WALK\" — what does its surroundings tell you about the environment where this video was shot?\n Options:\nA. campus or office\nB. event poster or display\nC. restaurant or menu\nD. road or street\nE. warning / rule sign\nF. other public sign\nG. storefront\nH. transportation / station"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"DISCOVER OUR GARDEN WALK\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "q": "Whereabouts in the frame does \"DISCOVER OUR GARDEN WALK\" tend to sit most of the time?\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "a": "B",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. center (middle of the frame)",
+        "C. bottom-right (lower-right area)",
+        "D. bottom-left (lower-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Whereabouts in the frame does \"DISCOVER OUR GARDEN WALK\" tend to sit most of the time?\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"DISCOVER OUR GARDEN WALK\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "Does \"DISCOVER OUR GARDEN WALK\" shift much from its starting position by the time the clip ends?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "C",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"DISCOVER OUR GARDEN WALK\" shift much from its starting position by the time the clip ends?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"DISCOVER OUR GARDEN WALK\" move?\n Options:\nA. moves diagonally\nB. moves down\nC. stays roughly in place\nD. changes direction partway\nE. moves left\nF. moves up\nG. moves right",
+      "q": "Overall, which direction does \"DISCOVER OUR GARDEN WALK\" travel across the clip?\n Options:\nA. moves diagonally\nB. moves down\nC. stays roughly in place\nD. changes direction partway\nE. moves left\nF. moves up\nG. moves right",
+      "a": "G",
+      "a_text": "moves right",
+      "answer_key": "moves right",
+      "options": [
+        "A. moves diagonally",
+        "B. moves down",
+        "C. stays roughly in place",
+        "D. changes direction partway",
+        "E. moves left",
+        "F. moves up",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Overall, which direction does \"DISCOVER OUR GARDEN WALK\" travel across the clip?\n Options:\nA. moves diagonally\nB. moves down\nC. stays roughly in place\nD. changes direction partway\nE. moves left\nF. moves up\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"DISCOVER OUR GARDEN WALK\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-left\nC. center -> center -> top-right\nD. center -> top-right -> center",
+      "q": "Describe where \"DISCOVER OUR GARDEN WALK\" is positioned near the start, around the middle, and toward the end of the video.\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-left\nC. center -> center -> top-right\nD. center -> top-right -> center",
+      "a": "A",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> center -> center",
+        "B. center -> center -> bottom-left",
+        "C. center -> center -> top-right",
+        "D. center -> top-right -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Describe where \"DISCOVER OUR GARDEN WALK\" is positioned near the start, around the middle, and toward the end of the video.\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-left\nC. center -> center -> top-right\nD. center -> top-right -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"DISCOVER OUR GARDEN WALK\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)",
+      "q": "How large does \"DISCOVER OUR GARDEN WALK\" appear relative to the frame — small, medium, or large?\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)",
+      "a": "C",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How large does \"DISCOVER OUR GARDEN WALK\" appear relative to the frame — small, medium, or large?\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"DISCOVER OUR GARDEN WALK\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. gets larger\nD. stays about the same size",
+      "q": "Throughout the clip, does \"DISCOVER OUR GARDEN WALK\" grow larger, shrink, or hold roughly the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. gets larger\nD. stays about the same size",
+      "a": "D",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. gets smaller",
+        "C. gets larger",
+        "D. stays about the same size"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Throughout the clip, does \"DISCOVER OUR GARDEN WALK\" grow larger, shrink, or hold roughly the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets smaller\nC. gets larger\nD. stays about the same size"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"DISCOVER OUR GARDEN WALK\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "Is \"DISCOVER OUR GARDEN WALK\" sitting comfortably within the frame, or is it close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"DISCOVER OUR GARDEN WALK\" sitting comfortably within the frame, or is it close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"DISCOVER OUR GARDEN WALK\" and how it appears in the video.",
+      "q": "Give a quick rundown of \"DISCOVER OUR GARDEN WALK\" — what it looks like and how it behaves as the video progresses.",
+      "a": "The text is printed in black on a small white sign placed inside a flower planter.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick rundown of \"DISCOVER OUR GARDEN WALK\" — what it looks like and how it behaves as the video progresses."
+    }
+  ],
+  "method": "blur"
+}

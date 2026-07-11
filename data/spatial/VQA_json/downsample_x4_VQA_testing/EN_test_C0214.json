@@ -1,0 +1,521 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you find at region [[1579, 54], [1793, 54], [1793, 158], [1579, 158]]. It is ________.",
+              "answer": [
+                "JB:Biographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the bounding box [[1087,703], [1177,703], [1177,725], [1087,725]], the phrase \"dre____ it, you\" appears — fill in the missing letter(s).",
+              "answer": "am"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly identifies the text(s) in area [[234, 566], [1179, 566], [1179, 902], [234, 902]]. Options:\nA. EMERGENCY EXIT ONLY, RUSH TO OPEN AND SOUND ALARM, can do it., DOOR, Thankyou, If you can, dream it, you, ~Walt Disney, Alarmwillsound, Please\nB. dream it, you, It you can, DOOR, Thankyou, Alarmwillsound, EMERGENCY EXIT ONLY, Please, DONOTOPEN, PUSH TO OPEN AND SOUND ALARM, can do it.\nC. can do it., dream it, you, DOOR, EMERGENCY EXIT ONLY, DONOTOPEN, If you can, PUSH TO OPEN AND SOUND ALARM, Thankyou, Alarmwillsound, Please\nD. Alarmwillsound, DONOTOPEN, If you can, DOOR, ~Walt Disney, JB:Biographies, EMERGENCY EXIT ONLY, PUSH TO OPEN AND SOUND ALARM, can do it., dream it, you",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm: are the label(s) 'dream it, you, Alarmwillsound, Biographies, can do it., Thankyou, ~Walt Disney, EMERGENCY EXIT ONLY, JB:, Please, DONOTOPEN' sitting inside the bounding box [[234, 371], [1203, 371], [1203, 902], [234, 902]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify what's written in region [[227, 566], [1175, 566], [1175, 902], [227, 902]]: it is ________.",
+              "answer": [
+                "Please",
+                "DONOTOPEN",
+                "DOOR",
+                "Alarmwillsound",
+                "Thankyou",
+                "If you can",
+                "dream it, you",
+                "can do it.",
+                "~Walt Disney",
+                "EMERGENCY EXIT ONLY",
+                "PUSH TO OPEN AND SOUND ALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[136,895], [467,864], [467,883], [137,915]], the phrase reads \"PUSH TO ____ AND SOUND ALARM\" — what word(s) belong in the blank?",
+              "answer": "OPEN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the full image, which answer choice matches the text(s) visible in [[324, 50], [1791, 50], [1791, 790], [324, 790]]? Options:\nA. Please, DONOTOPEN, dream it, you, If you can, Thankyou, JB:, Biographies, ~Walt Disney, Alarmwillsound, DOOR\nB. Thankyou, EMERGENCY EXIT ONLY, JB:, ~Walt Disney, DONOTOPEN, Alarmwillsound, Biographies, Please, can do it., If you can\nC. ~Walt Disney, If you can, Please, Biographies, DONOTOPEN, Alarmwillsound, can do it., JB:, Ihankyou, dream it, you\nD. can do it., Biagraphies, dream it, you, Thankyou, ~Walt Disney, JB:Biographies, Please, Alarmwillsound, DOOR, JB:",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Thankyou, DONOTOPEN, EMERGENCY EXIT ONLY, Please, Alarmwillsound, PUSH TO OPEN AND SOUND ALARM, DOOR, ~Walt Disney' appear inside the region marked by [[227.02127659574467, 566.0], [545.2422918807813, 566.0], [545.2422918807813, 901.5630352860569], [227.02127659574467, 901.5630352860569]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible in [[218, 49], [1803, 49], [1803, 905], [218, 905]] — what word(s) do you see? ________",
+              "answer": [
+                "JB:Biographies",
+                "JB:",
+                "Biographies",
+                "Please",
+                "DONOTOPEN",
+                "DOOR",
+                "Alarmwillsound",
+                "Thankyou",
+                "If you can",
+                "dream it, you",
+                "can do it.",
+                "~Walt Disney",
+                "EMERGENCY EXIT ONLY",
+                "PUSH TO OPEN AND SOUND ALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phrase appears in [[195,649], [350,645], [350,667], [195,669]]: \"Alarm____sound\" — what character(s) belong in the blank?",
+              "answer": "will"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly lists the text(s) shown in [[218, 565], [544, 565], [544, 905], [218, 905]]. Options:\nA. EMERGENCY EXIT ONLY, Alarmwillsound, JB:Biographies, PUSH TO OPEN AND SOUND ALARM, Please, Thankyou\nB. PUSH TO OPEN AND SOUND ALARM, Ihankyou, DOOR, DONOTOPEN, Please, Alarmwillsound\nC. Please, Alarmwillsound, PUSH TO OPEN AND SOUND ALARM, EMERGENCY EXIT ONLY, DOOR, DONOTOPEN\nD. PUSH TO OPEN AND SOUND ALARM, DONOTOREN, Alarmwillsound, DOOR, EMERGENCY EXIT ONLY, Please",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find label(s) '~Walt Disney, EMERGENCY EXIT ONLY, DOOR, If you can, JB:Biographies, DONOTOPEN, Please, PUSH TO OPEN AND SOUND ALARM, Biographies, Alarmwillsound' somewhere in the image — are they actually inside [[217.85714285714286, 48.64238286258745], [1802.6595455153388, 48.64238286258745], [1802.6595455153388, 904.882459312839], [217.85714285714286, 904.882459312839]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text sits inside [[1587, 49], [1801, 49], [1801, 152], [1587, 152]]: ________",
+              "answer": [
+                "JB:Biographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The bounding box [[191,663], [274,662], [273,679], [191,679]] contains a partially obscured phrase: \"T____kyou\" — fill in the missing letter(s).",
+              "answer": "han"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, which one captures the text(s) found in [[212, 373], [1195, 373], [1195, 905], [212, 905]]? Options:\nA. EMERGENCY EXIT ONLY, dream it, you, PUSH TO OPEN AND SOUND ALARM, Alarmwillsound, DOOR, JB:Biographies, If you can, DONOTOPEN, Please, can do it.\nB. Thankyou, ~Walt Disney, Biographies, JB:, EMEROENCY EXIT ONLY, DONOTOPEN, Please, DOOR, PUSH TO OPEN AND SOUND ALARM, can do it.\nC. If you can, DOOR, PUSH TO OPEN AND SOUND ALARM, Please, Alarmwillsound, DONOTOPEN, Thankyou, EMERGENCY EXIT ONLY, JP:, can do it.\nD. DONOTOPEN, JB:, Alarmwillsound, ~Walt Disney, dream it, you, Biographies, PUSH TO OPEN AND SOUND ALARM, Thankyou, EMERGENCY EXIT ONLY, can do it.",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[311, 49], [1801, 49], [1801, 794], [311, 794]], are the label(s) 'Alarmwillsound, dream it, you, JB:Biographies, JB:, Biographies, Thankyou, If you can, ~Walt Disney, can do it., Please' what's written there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out inside [[1587, 49], [1801, 49], [1801, 152], [1587, 152]]? ________",
+              "answer": [
+                "JB:Biographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text in [[959,705], [1061,701], [1062,728], [960,733]] reads \"dre____it, you\" — what word(s) come before \"you\"?",
+              "answer": "am"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[207, 373], [1188, 373], [1188, 905], [207, 905]] and tell me: which answer choice matches what's written there? Options:\nA. Please, DOOR, Alarmwillsound, PUSH TO OPEN AND SOUND ALARM, DONOTOPEN, can do it., dream it, you, If you can, Thankyou, JP:\nB. Please, Alarmwillsound, JB:, DOOR, PUSH TO OPEN AND SOUND ALARM, DONOTOPEN, If you can, ~Walt Disney, JB:Biographies, EMERGENCY EXIT ONLY\nC. JB:, DOOR, DONOTOPEN, Thankyou, PUSH TO OPEN AND SOUND ALARM, Please, ~Walt Disney, dream it, you, Biographies, Alarmwillsound\nD. DONOTOREN, EMERGENCY EXIT ONLY, ~Walt Disney, dream it, you, Biographies, PUSH TO OPEN AND SOUND ALARM, Please, Alarmwillsound, If you can, Thankyou",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[207, 373], [1188, 373], [1188, 905], [207, 905]] — does it contain the label(s) 'can do it., PUSH TO OPEN AND SOUND ALARM, Thankyou, dream it, you, ~Walt Disney, Alarmwillsound, Biographies, If you can, DONOTOPEN, EMERGENCY EXIT ONLY'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) you can read in [[198, 373], [1185, 373], [1185, 907], [198, 907]]: ________",
+              "answer": [
+                "JB:",
+                "Biographies",
+                "Please",
+                "DONOTOPEN",
+                "DOOR",
+                "Alarmwillsound",
+                "Thankyou",
+                "If you can",
+                "dream it, you",
+                "can do it.",
+                "~Walt Disney",
+                "EMERGENCY EXIT ONLY",
+                "PUSH TO OPEN AND SOUND ALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[800,400], [1077,411], [1075,481], [797,469]] the text shows \"Biogra____ies\" with part hidden — what's the missing term?",
+              "answer": "ph"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, select the one that matches the text(s) appearing inside [[198, 565], [525, 565], [525, 907], [198, 907]]. Options:\nA. PUSH TO OPEN AND SOUND ALARM, Alarmwillsound, Thankyou, DONOTOPEN, JB:Biographies, EMERGENCY EXIT ONLY\nB. DONOTOPEN, Alarmwillsound, Please, EMERGENCY EXIT ONLY, JB:, Thankyou\nC. PUSH TO OPEN AND SOUND ALARM, EMERGENCY EXIT ONLY, Please, DOOR, DONOTOPEN, Thankyou\nD. Thankyou, DONOTOPEN, Please, PUSH TO OPEN AND SOUND ALARM, Alarmwillsound, OOOR",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question: is 'Thankyou, Please, DONOTOPEN, EMERGENCY EXIT ONLY, DOOR, PUSH TO OPEN AND SOUND ALARM, JB:Biographies, Alarmwillsound' the text shown in bounding box [[198.48963770637596, 565.0311296991588], [524.51004586964, 565.0311296991588], [524.51004586964, 906.5991975102639], [198.48963770637596, 906.5991975102639]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Give me the word(s) printed inside [[185, 373], [1176, 373], [1176, 907], [185, 907]]: ________",
+              "answer": [
+                "JB:",
+                "Biographies",
+                "Please",
+                "DONOTOPEN",
+                "DOOR",
+                "Alarmwillsound",
+                "Thankyou",
+                "If you can",
+                "dream it, you",
+                "can do it.",
+                "~Walt Disney",
+                "EMERGENCY EXIT ONLY",
+                "PUSH TO OPEN AND SOUND ALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[3.552713678800501e-15, 894.1123386065511], [369,858], [368,889], [1,929]] reads \"EMERGENCY ____ ONLY\" — what word(s) fill the blank between \"EMERGENCY\" and \"ONLY\"?",
+              "answer": "EXIT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer below accurately reflects the text(s) inside [[285, 50], [1806, 50], [1806, 796], [285, 796]]? Options:\nA. DONOTOPEN, Thankyou, Biographies, DOOR, JB:, Alarmwillsound, dreem it, you, JB:Biographies, can do it., If you can\nB. If you can, Thankyou, DONOTOPEN, ~Walt Disney, Please, Biographies, JB:Biographies, DOOR, dream it, you, JB:\nC. dreem it, you, DOOR, DONOTOPEN, Please, If you can, JB:Biographies, can do it., Thankyou, Alarmwillsound, JB:\nD. DOOR, Biographies, ~Walt Disney, If you can, can do it., DONOTOPEN, Thankyou, EMERGENCY EXIT ONLY, dream it, you, JB:Biographies",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify this: do the label(s) 'can do it., dream it, you, Alarmwillsound, DONOTOPEN, DOOR, PUSH TO OPEN AND SOUND ALARM, Biographies, Please, Thankyou, If you can' fall within the region [[185, 373], [1176, 373], [1176, 907], [185, 907]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading [[163, 565], [501, 565], [501, 911], [163, 911]] carefully, the text there is: ________",
+              "answer": [
+                "Please",
+                "DONOTOPEN",
+                "DOOR",
+                "Alarmwillsound",
+                "Thankyou",
+                "EMERGENCY EXIT ONLY",
+                "PUSH TO OPEN AND SOUND ALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase shown in [[788,405], [1065,416], [1063,485], [785,474]] has a missing portion: \"Bio____phies\" — what fills the gap?",
+              "answer": "gra"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text appears inside [[163, 373], [1173, 373], [1173, 911], [163, 911]] — which of the following options contains it? Options:\nA. EMERGENCY EXIT ONLY, DOOR, Please, If you can, JB:, JB:Biographies, DONOTOPEN, ~Walt Disney, Biographies, PUSH TO OPEN AND SOUND ALARM\nB. Please, oan do it., PUSH TO OPEN AND SOUND ALARM, DONOTOPEN, Biographies, dream it, you, ~Walt Disney, Alarmwillsound, JB:, DOOR\nC. If you can, Alarmwillsound, ~Walt Disney, can do it., dream it, you, JB:, Biographies, DONOTOPEN, Please, Thankyou\nD. can do it., If you can, Thankyou, ~Walt Disney, DOOR, EMERGENCY EXIT ONLY, dream it, you, JP:, Please, Alarmwillsound",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Somewhere in [[163.39805825242706, 565.0311296991588], [500.55232558139534, 565.0311296991588], [500.55232558139534, 911.2688233115132], [163.39805825242706, 911.2688233115132]], can you spot the label(s) 'DOOR, Please, Alarmwillsound, EMERGENCY EXIT ONLY, Thankyou'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text you see inside [[904, 48], [1790, 48], [1790, 490], [904, 490]]: ________.",
+              "answer": [
+                "JB:Biographies",
+                "JB:",
+                "Biographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1491,56], [1699,99], [1695,158], [1485,119]] reads \"____:Biographies\" — what word belongs in the blank?",
+              "answer": "JB"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text visible in [[154, 373], [1160, 373], [1160, 912], [154, 912]]? Options:\nA. EMERGENCY EXIT ONLY, JB:, Biographies, ~Walt Disney, OOOR, Alarmwillsound, If you can, can do it., PUSH TO OPEN AND SOUND ALARM, DONOTOPEN\nB. DOOR, Alarmwillsound, Biographies, Please, dream it, you, DONOTOPEN, can do it., EMERGENCY EXIT ONLY, If you can, PUSH TO OPEN AND SOUND ALARM\nC. If you can, Alarmwillsound, Biographies, can do it., DOOR, Thankyou, PUSH TO OPEN AND SOUND ALARM, EMEROENCY EXIT ONLY, Please, JB:\nD. If you can, can do it., JB:Biographies, ~Walt Disney, PUSH TO OPEN AND SOUND ALARM, Please, DOOR, Alarmwillsound, dream it, you, DONOTOPEN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[154, 373], [1160, 373], [1160, 912], [154, 912]] contain the label(s) 'Thankyou, Please, DOOR, Biographies, If you can, PUSH TO OPEN AND SOUND ALARM, DONOTOPEN, ~Walt Disney, can do it., Alarmwillsound'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears inside the region [[143, 565], [1127, 565], [1127, 913], [143, 913]]? ________",
+              "answer": [
+                "Please",
+                "DONOTOPEN",
+                "DOOR",
+                "Alarmwillsound",
+                "Thankyou",
+                "If you can",
+                "dream it, you",
+                "can do it.",
+                "~Walt Disney",
+                "EMERGENCY EXIT ONLY",
+                "PUSH TO OPEN AND SOUND ALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters are obscured in the text \"Bio____aphies\" at [[770,426], [1047,437], [1045,507], [767,495]] — what are the missing letters?",
+              "answer": "gr"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly reflects what's written inside [[143, 565], [480, 565], [480, 913], [143, 913]]. Options:\nA. DOOR, Alarmwillsound, EMERGENCY EXIT ONLY, PUSH TO OPEN AND SOUND ALARM, Thankyou, DONOTOPEN\nB. PUSH TO OPEN AND SOUND ALARM, Please, DOOR, JB:Biographies, Alarmwillsound, Thankyou\nC. EMERGENCY EXIT ONLY, Please, DONOTOPEN, Ihankyou, Alarmwillsound, PUSH TO OPEN AND SOUND ALARM\nD. EMEROENCY EXIT ONLY, DOOR, Alarmwillsound, Thankyou, DONOTOPEN, Please",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Alarmwillsound, ~Walt Disney, JB:Biographies, Biographies, DOOR, If you can, EMERGENCY EXIT ONLY, PUSH TO OPEN AND SOUND ALARM, DONOTOPEN, can do it.' among the text visible in bounding box [[143, 373], [1152, 373], [1152, 913], [143, 913]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in what you can read from the area marked [[1575, 48], [1789, 48], [1789, 152], [1575, 152]]: ________.",
+              "answer": [
+                "JB:Biographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the text \"Biogr____phies\" shown in [[781,424], [1058,435], [1056,505], [778,493]], what characters are needed to complete it?",
+              "answer": "a"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that best represents the text found in [[135, 565], [472, 565], [472, 915], [135, 915]]. Options:\nA. PUSH TO OPEN AND SOUND ALARM, EMERGENCY EXIT ONLY, Alarmwillsound, DONOTOPEN, Thankyou, Please\nB. JB:Biographies, PUSH TO OPEN AND SOUND ALARM, EMERGENCY EXIT ONLY, Alarmwillsound, Thankyou, Please\nC. DOOR, Please, Thankyou, Alarmwillsound, DONOTOPEN, RUSH TO OPEN AND SOUND ALARM\nD. DOOR, Alarmwillsound, JB:, PUSH TO OPEN AND SOUND ALARM, EMERGENCY EXIT ONLY, DONOTOPEN",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '~Walt Disney, JB:, Please, PUSH TO OPEN AND SOUND ALARM, can do it., If you can, Biographies, Thankyou, Alarmwillsound, JB:Biographies' falls within the region defined by [[135, 373], [1148, 373], [1148, 915], [135, 915]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0214/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0214/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see in the box at [[127, 687], [1114, 687], [1114, 918], [127, 918]]: ________.",
+              "answer": [
+                "If you can",
+                "dream it, you",
+                "can do it.",
+                "~Walt Disney",
+                "EMERGENCY EXIT ONLY",
+                "PUSH TO OPEN AND SOUND ALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[164,665], [254,664], [253,684], [164,685]], a partially obscured phrase \"Tha____\" appears — what letter(s) fill the gap?",
+              "answer": "nkyou"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one captures the text shown at [[127, 568], [1114, 568], [1114, 918], [127, 918]]? Options:\nA. EMERGENCY EXIT ONLY, DOOR, Please, Alarmwillsound, DONOTOPEN, ~Walt Disney, can do it., Thankyou, If you can, PUSH TO OPEN AND SOUND ALARM\nB. OOOR, can do it., PUSH TO OPEN AND SOUND ALARM, Thankyou, DONOTOPEN, ~Walt Disney, EMERGENCY EXIT ONLY, Alarmwillsound, Please, If you can\nC. EMERGENCY EXIT ONLY, ~Walt Disney, Thankyou, PUSH TO OPEN AND SOUND ALARM, dream it, you, DONOTOPEN, can do it., If you can, DOOR, JB:Biographies\nD. Please, If you can, can do it., EMERGENCY EXIT ONLY, dream it, you, DOOR, JB:, Thankyou, DONOTOPEN, Alarmwillsound",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'EMERGENCY EXIT ONLY, Alarmwillsound, Please, Thankyou, PUSH TO OPEN AND SOUND ALARM' show up inside the box [[127.23697876686938, 567.5311296991588], [464.39124609583735, 567.5311296991588], [464.39124609583735, 918.2009662265782], [127.23697876686938, 918.2009662265782]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0214"
+  }
+]

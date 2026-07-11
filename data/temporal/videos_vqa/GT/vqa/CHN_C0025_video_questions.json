@@ -1,0 +1,312 @@
+{
+  "video_id": "C0025",
+  "frames": 120,
+  "word": "花台索道\n售票乘车大厅",
+  "video_path": "temporal/videos_vqa/GT/videos/CHN_C0025.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"花台索道\n售票乘车大厅\" likely to be?\n Options:\nA. event or poster information\nB. warning or prohibition sign\nC. direction or navigation sign\nD. storefront or brand sign\nE. general scene text\nF. menu or commercial information\nG. address or street sign",
+      "q": "写着「花台索道\n售票乘车大厅」的这段文字，看起来像是什么类型的标牌？\n Options:\nA. event or poster information\nB. warning or prohibition sign\nC. direction or navigation sign\nD. storefront or brand sign\nE. general scene text\nF. menu or commercial information\nG. address or street sign",
+      "a": "C",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. event or poster information",
+        "B. warning or prohibition sign",
+        "C. direction or navigation sign",
+        "D. storefront or brand sign",
+        "E. general scene text",
+        "F. menu or commercial information",
+        "G. address or street sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「花台索道\n售票乘车大厅」的这段文字，看起来像是什么类型的标牌？\n Options:\nA. event or poster information\nB. warning or prohibition sign\nC. direction or navigation sign\nD. storefront or brand sign\nE. general scene text\nF. menu or commercial information\nG. address or street sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"花台索道\n售票乘车大厅\" appear in?\n Options:\nA. transportation / station\nB. campus or office\nC. restaurant or menu\nD. warning / rule sign\nE. road or street\nF. event poster or display\nG. other public sign\nH. storefront",
+      "q": "这段视频里，「花台索道\n售票乘车大厅」看起来是出现在什么样的场景中？\n Options:\nA. transportation / station\nB. campus or office\nC. restaurant or menu\nD. warning / rule sign\nE. road or street\nF. event poster or display\nG. other public sign\nH. storefront",
+      "a": "G",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. transportation / station",
+        "B. campus or office",
+        "C. restaurant or menu",
+        "D. warning / rule sign",
+        "E. road or street",
+        "F. event poster or display",
+        "G. other public sign",
+        "H. storefront"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「花台索道\n售票乘车大厅」看起来是出现在什么样的场景中？\n Options:\nA. transportation / station\nB. campus or office\nC. restaurant or menu\nD. warning / rule sign\nE. road or street\nF. event poster or display\nG. other public sign\nH. storefront"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"花台索道\n售票乘车大厅\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)",
+      "q": "整段视频播放过程中，「花台索道\n售票乘车大厅」这行字大多出现在画面的哪个位置？\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)",
+      "a": "D",
+      "a_text": "bottom-left (lower-left area)",
+      "answer_key": "bottom-left",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. center (middle of the frame)",
+        "C. top-right (upper-right area)",
+        "D. bottom-left (lower-left area)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整段视频播放过程中，「花台索道\n售票乘车大厅」这行字大多出现在画面的哪个位置？\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"花台索道\n售票乘车大厅\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "从头到尾看下来，「花台索道\n售票乘车大厅」在画面里的位置移动幅度大不大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从头到尾看下来，「花台索道\n售票乘车大厅」在画面里的位置移动幅度大不大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"花台索道\n售票乘车大厅\" move?\n Options:\nA. moves diagonally\nB. moves right\nC. moves up\nD. stays roughly in place\nE. moves left\nF. moves down\nG. changes direction partway",
+      "q": "总体来说，「花台索道\n售票乘车大厅」这段文字在视频里是朝哪个方向运动的？\n Options:\nA. moves diagonally\nB. moves right\nC. moves up\nD. stays roughly in place\nE. moves left\nF. moves down\nG. changes direction partway",
+      "a": "E",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves diagonally",
+        "B. moves right",
+        "C. moves up",
+        "D. stays roughly in place",
+        "E. moves left",
+        "F. moves down",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来说，「花台索道\n售票乘车大厅」这段文字在视频里是朝哪个方向运动的？\n Options:\nA. moves diagonally\nB. moves right\nC. moves up\nD. stays roughly in place\nE. moves left\nF. moves down\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"花台索道\n售票乘车大厅\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> center -> bottom-left\nB. center -> center -> bottom-left\nC. bottom-left -> center -> bottom-left\nD. center -> top-left -> bottom-left",
+      "q": "「花台索道\n售票乘车大厅」在视频开头、中间和结尾时分别处于画面的什么位置？\n Options:\nA. bottom-right -> center -> bottom-left\nB. center -> center -> bottom-left\nC. bottom-left -> center -> bottom-left\nD. center -> top-left -> bottom-left",
+      "a": "B",
+      "a_text": "center -> center -> bottom-left",
+      "answer_key": "center -> center -> bottom-left",
+      "options": [
+        "A. bottom-right -> center -> bottom-left",
+        "B. center -> center -> bottom-left",
+        "C. bottom-left -> center -> bottom-left",
+        "D. center -> top-left -> bottom-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「花台索道\n售票乘车大厅」在视频开头、中间和结尾时分别处于画面的什么位置？\n Options:\nA. bottom-right -> center -> bottom-left\nB. center -> center -> bottom-left\nC. bottom-left -> center -> bottom-left\nD. center -> top-left -> bottom-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"花台索道\n售票乘车大厅\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "q": "那段「花台索道\n售票乘车大厅」的文字，在整个画面里来看算是大字还是小字？\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "a": "A",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "那段「花台索道\n售票乘车大厅」的文字，在整个画面里来看算是大字还是小字？\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"花台索道\n售票乘车大厅\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. gets smaller\nC. gets larger\nD. size fluctuates (goes up and down)",
+      "q": "随着视频播放，「花台索道\n售票乘车大厅」这块文字的大小是变大了、变小了，还是基本没变？\n Options:\nA. stays about the same size\nB. gets smaller\nC. gets larger\nD. size fluctuates (goes up and down)",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. gets smaller",
+        "C. gets larger",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「花台索道\n售票乘车大厅」这块文字的大小是变大了、变小了，还是基本没变？\n Options:\nA. stays about the same size\nB. gets smaller\nC. gets larger\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"花台索道\n售票乘车大厅\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "在整个视频中，写着「花台索道\n售票乘车大厅」的文字是稳处于画面内侧，还是偏近某条边缘？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "A",
+      "a_text": "touches or runs off an edge",
+      "answer_key": "touches or runs off an edge",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在整个视频中，写着「花台索道\n售票乘车大厅」的文字是稳处于画面内侧，还是偏近某条边缘？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"花台索道\n售票乘车大厅\" and how it appears in the video.",
+      "q": "请简单描述一下「花台索道\n售票乘车大厅」这段文字在视频里的整体样子和呈现方式。",
+      "a": "The target text is written vertically in dark characters on a large, decorative, freestanding sign outdoors.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "请简单描述一下「花台索道\n售票乘车大厅」这段文字在视频里的整体样子和呈现方式。"
+    }
+  ]
+}

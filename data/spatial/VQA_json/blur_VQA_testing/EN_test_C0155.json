@@ -1,0 +1,507 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) you see inside [[542.5, 639.0], [1190.0, 639.0], [1190.0, 667.5], [542.5, 667.5]] — the word(s) is/are ________.",
+              "answer": [
+                "Speak with a Tesla Advisor for assistance.",
+                "Now available to Demo Drive."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[964,542], [1303,536], [1304,597], [965,604]], the word shown reads \"Sup____vised\" — which letter(s) are missing from it?",
+              "answer": "er"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text found in [[532, 484], [1304, 484], [1304, 668], [532, 668]]? Options:\nA. Speak with a Tesla Advisor for assistance., Full, Now available to Demo Drive., Experience, (Superviscd)\nB. (Supervised), Sbeak with a Tesla Advisor for assistance., Self-Driving, Full, Now available to Demo Drive.\nC. Speak with a Tesla Advisor for assistance., Full, Experience, Now available to Demo Drive., (Supervised)\nD. Now available to Demo Drive., Speak with a Tesla Advisor for assistance., Self-Driving, (Supervlsed), Experience",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Full, Experience, Self-Driving, Speak with a Tesla Advisor for assistance.' appear inside the region [[532.0, 484.0], [1304.0, 484.0], [1304.0, 667.5], [532.0, 667.5]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible inside [[528, 476], [1308, 476], [1308, 659], [528, 659]]: ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[556,551], [933,567], [930,636], [553,621]] shows \"Self-____ing\" with some letters missing — what are they?",
+              "answer": "Driv"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly lists the text found at [[528, 476], [1308, 476], [1308, 600], [528, 600]]? Options:\nA. Full, Experience, Now available to Demo Drive.\nB. Eull, (Supervised), Self-Driving\nC. (Supervised), Full, Experience\nD. (Superviscd), Self-Driving, Full",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'Sbeak with a Tesla Advisor for assistance., Self-Driving, Now available to Demo Drive., Full, Experience, (Supervised)' can be found within [[528.0, 476.0], [1308.0, 476.0], [1308.0, 659.0], [528.0, 659.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) that appear inside [[518, 465], [1310, 465], [1310, 653], [518, 653]]: ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[372,494], [780,494], [780,570], [372,570]], a term appears as \"E____ience\" — which character(s) are missing?",
+              "answer": "xper"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option correctly captures the text visible at [[518, 465], [1310, 465], [1310, 653], [518, 653]]. Options:\nA. Sbeak with a Tesla Advisor for assistance., Full, Experience, Now available to Demo Drive., (Supervised)\nB. Now available to Demo Drive., Speak with a Tesla Advisor for assistance., Full, (Supervised), Solf-Driving\nC. Self-Driving, Now available to Demo Drive., Full, Speak with a Tesla Advisor for assistance., (Supervised)\nD. Speak with a Tesla Advisor for assistance., Now available to Demo Drive., Self-Driving, (Superviscd), Full",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'Experience, (Supervised), Full, Speak with a Tesla Advisor for assistance., Self-Driving, New available to Demo Drive.' sit inside the bounding box [[518.0, 465.0], [1310.0, 465.0], [1310.0, 653.0], [518.0, 653.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can see within the region [[512, 457], [1312, 457], [1312, 649], [512, 649]]: ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Speak with a Tesla Advisor for assistance.",
+                "Now available to Demo Drive."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[757,668], [1312,675], [1311,714], [757,704]], a phrase reads: \"Speak with a Tesl____ Advisor for assistance.\" — which word(s) complete it?",
+              "answer": "a"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects what's written inside [[512, 457], [1312, 457], [1312, 590], [512, 590]]. Options:\nA. Experience, (Supervised), Full\nB. Speak with a Tesla Advisor for assistance., Full, Self-Driving\nC. Solf-Driving, Full, Experience\nD. Now available to Demo Drive., Self-Driving, Full",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'Now available to Demo Drive., Sbeak with a Tesla Advisor for assistance., (Supervised), Full, Experience, Self-Driving' — do they appear inside [[512.0, 457.0], [1312.0, 457.0], [1312.0, 648.5555555555555], [512.0, 648.5555555555555]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Text check: what word(s) show up inside [[504, 453], [1312, 453], [1312, 649], [504, 649]]? ________",
+              "answer": [
+                "Experience",
+                "Self-Driving",
+                "Full",
+                "(Supervised)",
+                "Speak with a Tesla Advisor for assistance.",
+                "Now available to Demo Drive."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examining the region [[1026,538], [1548,540], [1544,636], [1025,629]], the term so far reads \"Superv____\" — what letters complete it?",
+              "answer": "ised"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Going by what's printed in [[504, 453], [1312, 453], [1312, 649], [504, 649]], which option here is correct? Options:\nA. Experience, (Supervised), Speak with a Tesla Advisor for assistance., Self-Driving, Full\nB. Now available to Demo Drive., (Supervised), Self-Driving, Speak with a Tesla Advisor for assistance., Ful1\nC. New available to Demo Drive., Full, Speak with a Tesla Advisor for assistance., Experience, Self-Driving\nD. (Supervised), Experience, Now available to Demo Drive., Eull, Speak with a Tesla Advisor for assistance.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scan the area [[504.0, 453.0], [1312.0, 453.0], [1312.0, 648.9189189189188], [504.0, 648.9189189189188]] — are the label(s) 'Now available to Demo Drive., (Supervised), Experience, Speak with a Tesla Advisor for assistance.' actually there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at [[490, 452], [1315, 452], [1315, 651], [490, 651]] and tell me the word(s) you see there: ________",
+              "answer": [
+                "Experience",
+                "Self-Driving",
+                "Full",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a phrase at [[408,641], [798,652], [797,684], [407,674]] that goes: \"Now ____ to Demo Drive\" — what word(s) belong in the blank?",
+              "answer": "available"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[490, 452], [1315, 452], [1315, 592], [490, 592]] — which answer choice matches it best? Options:\nA. Full, Now available to Demo Drive., (Supervised)\nB. (Supervised), Self-Driving, Full\nC. (Superviscd), Full, Experience\nD. Full, Solf-Driving, Experience",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[490.0, 452.0], [1314.8901734104045, 452.0], [1314.8901734104045, 651.0], [490.0, 651.0]] for me — are the label(s) '(Supervised), Now available to Demo Drive., Experience, Speak with a Tesla Advisor for assistance.' visible there? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Just looking at [[476, 456], [1314, 456], [1314, 659], [476, 659]], which word(s) are printed there? ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[526,553], [837,566], [836,598], [525,585]] reads \"Now av____le to Demo Drive\" — what word fills the gap?",
+              "answer": "ailab"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text shown inside [[476, 456], [1314, 456], [1314, 659], [476, 659]]? Options:\nA. Now available to Demo Drive., Experience, Full, (Supervised), Solf-Driving\nB. Speak with a Tesla Advisor for assistance., Self-Driving, PLASTIGADE, Experience, (Supervised)\nC. Expericnce, Self-Driving, Speak with a Tesla Advisor for assistance., Now available to Demo Drive., Full\nD. (Supervised), Experience, Now available to Demo Drive., Self-Driving, Full",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Experience, (Supervised), Full, PLASTIGADE, Speak with a Tesla Advisor for assistance.' appears inside the region [[476.0, 153.0], [1480.0, 153.0], [1480.0, 659.0], [476.0, 659.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[464, 467], [1314, 467], [1314, 667], [464, 667]] and write down what it says. ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[618,380], [713,386], [710,440], [615,434]], which letter(s) belong in the blank to finish: \"F____\"?",
+              "answer": "ull"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that accurately reflects the text at [[464, 467], [1314, 467], [1314, 667], [464, 667]]. Options:\nA. Self-Driving, Speak with a Tesla Advisor for assistance., Experience, Full, Now available to Demo Drive.\nB. Speak with a Tesla Advisor for assistance., Full, Self-Driving, Expericnce, Now available to Demo Drive.\nC. Solf-Driving, Experience, Now available to Demo Drive., (Supervised), Speak with a Tesla Advisor for assistance.\nD. Now available to Demo Drive., Speak with a Tesla Advisor for assistance., (Superviscd), Self-Driving, Full",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '(Supervised), Experience, Speak with a Tesla Advisor for assistance., Full' falls within the area defined by [[464.0, 467.0], [1314.0, 467.0], [1314.0, 667.0], [464.0, 667.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible inside [[450, 472], [1312, 472], [1312, 679], [450, 679]]. ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1006,428], [1304,437], [1302,495], [1004,486]], the partial text reads \"Super____ed\" — what word or phrase makes it complete?",
+              "answer": "vis"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option below contains the exact text found at [[450, 472], [1312, 472], [1312, 614], [450, 614]]. Options:\nA. (Supervised), Full, Self-Driving\nB. (Superviscd), Self-Driving, Experience\nC. Experience, (Superviscd), Full\nD. Full, Now available to Demo Drive., Experience",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Experience, Now available to Demo Drive., Ful1, Self-Driving, (Supervised), Speak with a Tesla Advisor for assistance.' visible within the bounding box [[450.0, 472.0], [1312.0, 472.0], [1312.0, 679.0], [450.0, 679.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can find inside [[442, 480], [1324, 480], [1324, 693], [442, 693]]. ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Spotted at [[997,463], [1270,468], [1269,517], [996,513]] is the partial text \"Su____vised\" — which letter(s) complete the missing section?",
+              "answer": "per"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options given, which one includes the text found at [[442, 480], [1324, 480], [1324, 626], [442, 626]]? Options:\nA. Full, (Supervised), Self-Driving\nB. Eull, Experience, Self-Driving\nC. Self-Driving, Now available to Demo Drive., (Supervised)\nD. Eull, Self-Driving, (Supervised)",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Self-Driving, Experionce, (Supervised), Speak with a Tesla Advisor for assistance., Full, Now available to Demo Drive.' inside the box defined by [[442.0, 480.0], [1324.0, 480.0], [1324.0, 693.0], [442.0, 693.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word visible inside [[438, 490], [1332, 490], [1332, 703], [438, 703]]. ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[707,441], [786,441], [786,486], [707,485]], the word(s) \"F____\" has some letters missing — what are they?",
+              "answer": "ull"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly captures what is written at [[438, 490], [1332, 490], [1332, 703], [438, 703]]? Options:\nA. (Supervised), Experience, Full, Naw available to Demo Drive., Self-Driving\nB. Now available to Demo Drive., Speak with a Tesla Advisor for assistance., Self-Driving, Full, Experience\nC. (Supervised), Full, Now available to Demo Drive., Speak with a Tesla Advisor for assistance., Expericnce\nD. Experience, New available to Demo Drive., Speak with a Tesla Advisor for assistance., Full, Self-Driving",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[438.0, 490.0], [1332.0, 490.0], [1332.0, 703.0], [438.0, 703.0]], would you expect to find '(Supervised), Experience, Full, Now available to Demo Drive., Speak with a Tesla Advisor for assistance., Solf-Driving'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0155/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0155/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text is displayed inside the box at [[432, 488], [1340, 488], [1340, 707], [432, 707]]? ________",
+              "answer": [
+                "Experience",
+                "Full",
+                "Self-Driving",
+                "(Supervised)",
+                "Now available to Demo Drive.",
+                "Speak with a Tesla Advisor for assistance."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[964,511], [1256,521], [1255,543], [963,534]] reads \"Speak with a ____ Advisor for assistance.\" — what word belongs in the blank?",
+              "answer": "Tesla"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region at [[432, 488], [1340, 488], [1340, 638], [432, 638]] and select the option that matches its text. Options:\nA. (Supervised), Now available to Demo Drive., Full\nB. Speak with a Tesla Advisor for assistance., Self-Driving, (Supervised)\nC. Self-Driving, Full, Experience\nD. Self-Driving, (Superviscd), Experience",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the box at [[432.0, 488.0], [1340.0, 488.0], [1340.0, 707.0], [432.0, 707.0]] actually contain 'Self-Driving, Speak with a Tesla Advisor for assistance., Full, (Supervised)'?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0155"
+  }
+]

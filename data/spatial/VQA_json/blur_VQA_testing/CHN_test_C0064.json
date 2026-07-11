@@ -1,0 +1,458 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over at [[530, 161], [748, 161], [748, 216], [530, 216]], what word(s) are written there? ________",
+              "answer": [
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the region marked by [[1496,123], [1594,123], [1594,236], [1496,236]], what letter(s) are missing from \"B____\"?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text(s) visible inside [[530, 161], [748, 161], [748, 216], [530, 216]]? Options:\nA. 餐饮数码\nB. 餐饮数砀\nC. 餐饮数砀\nD. B1",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it the case that '餐饮数码' appears inside the bounding box [[530.0, 161.0], [748.0, 161.0], [748.0, 216.0], [530.0, 216.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at the bounding region [[528, 117], [1598, 117], [1598, 236], [528, 236]] — what word(s) can you make out? ________",
+              "answer": [
+                "B1",
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sequence \"____1\" appears in the area delimited by [[1503,105], [1605,100], [1611,221], [1509,226]] — which letter(s) are missing?",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly captures what's written inside [[528, 117], [1598, 117], [1598, 236], [528, 236]]? Options:\nA. 餐饮数码\nB. N1\nC. P1\nD. G1",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are 'B1, 餐饮数砀' visible somewhere inside the bounding box [[528.0, 117.0], [1598.0, 117.0], [1598.0, 236.0], [528.0, 236.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on the area at [[529, 115], [1602, 115], [1602, 234], [529, 234]], write down the word(s) you find there. ________",
+              "answer": [
+                "B1",
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在[[480,158], [711,156], [713,212], [490,219]]所标注的区域内，\"餐饮____码\"中缺少哪个字母？",
+              "answer": "数"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best reflects the text visible in the area [[529, 115], [1602, 115], [1602, 234], [529, 234]]. Options:\nA. 餐饮数码\nB. P1\nC. G1\nD. 餐饮数砀",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just checking — are '餐饮数码, P1' inside the bounding box at [[529.047619047619, 115.0], [1602.0, 115.0], [1602.0, 234.0], [529.047619047619, 234.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can see in the region [[532, 157], [754, 157], [754, 206], [532, 206]]. ________",
+              "answer": [
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[422,169], [644,169], [644,224], [422,224]]框选的区域里，\"餐饮____\"中有哪些字符是空缺的？",
+              "answer": "数码"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options given, pick the one that correctly identifies what's written in the area [[532, 111], [1606, 111], [1606, 230], [532, 230]]. Options:\nA. B1\nB. G1\nC. 餐饮数砀\nD. P1",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scanning the bounding box [[532.0, 111.0], [1606.0, 111.0], [1606.0, 230.0], [532.0, 230.0]], are the label(s) 'B1, 餐饮数砀' visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "List the word(s) that appear inside the region [[530, 111], [1606, 111], [1606, 224], [530, 224]]. ________",
+              "answer": [
+                "B1",
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the region at [[1318,159], [1412,159], [1412,274], [1318,274]], which character(s) complete the partial word \"B____\"?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text do you see inside [[530, 149], [758, 149], [758, 209], [530, 209]]? Pick the matching answer from the options. Options:\nA. B1\nB. 餐饮数砀\nC. 餐饮数码\nD. 餐饮数砀",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area at [[530.0, 111.0], [1606.0, 111.0], [1606.0, 224.0], [530.0, 224.0]] — are 'B1' among the labels there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word visible in the bounding region [[536, 109], [1608, 109], [1608, 222], [536, 222]]. ________",
+              "answer": [
+                "B1",
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察坐标[[280,199], [502,199], [502,248], [280,248]]划定的区域，\"餐饮____\"中缺失了哪些字符？",
+              "answer": "数码"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the content inside [[536, 109], [1608, 109], [1608, 222], [536, 222]], which answer option matches what's written there? Options:\nA. 餐饮数砀\nB. B1\nC. 餐饮敩码\nD. P1",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think 'P1, 餐饮数码' appears within the box at [[536.0, 109.0], [1608.0, 109.0], [1608.0, 222.0], [536.0, 222.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text inside the bounding box [[1510, 105], [1616, 105], [1616, 222], [1510, 222]] and write it here. ________",
+              "answer": [
+                "B1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere inside the area at [[1228,165], [1326,165], [1326,276], [1228,276]] you'll see \"B____\" — which character(s) are absent?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that matches the text(s) shown in [[542, 105], [1616, 105], [1616, 222], [542, 222]]. Options:\nA. P1\nB. 餐饮数砀\nC. 餐饮数码\nD. 餐饮敩码",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '餐饮数码, P1' fall inside the bounding box [[542.0, 105.0], [1616.0, 105.0], [1616.0, 222.0], [542.0, 222.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside [[546, 149], [764, 149], [764, 204], [546, 204]]. ________",
+              "answer": [
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the missing digit(s) in \"B____\" — the answer is visible in the region [[1198,161], [1300,161], [1300,280], [1198,280]].",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options contains the text(s) visible inside [[546, 103], [1618, 103], [1618, 220], [546, 220]]? Options:\nA. 餐饮数码\nB. P1\nC. 餐饮敩码\nD. 餐饮数砀",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[546.0, 149.0], [764.0, 149.0], [764.0, 204.0], [546.0, 204.0]] — is 'B1, 餐饮数码' among the labels it encloses?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) appearing inside [[546, 103], [1620, 103], [1620, 220], [546, 220]]. ________",
+              "answer": [
+                "B1",
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[199,186], [425,193], [423,249], [197,242]]所标注的区域里，\"餐____码\"中缺失的字符是什么？",
+              "answer": "饮数"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that accurately represents the text(s) found in [[546, 147], [766, 147], [766, 202], [546, 202]]. Options:\nA. 餐饮数码\nB. 餐饮数砀\nC. 餐饮数砀\nD. B1",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the label 'P1, 餐饮数码' present inside the bounding box [[546.0, 103.0], [1620.0, 103.0], [1620.0, 220.0], [546.0, 220.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Whatever text appears in [[550, 149], [764, 149], [764, 199], [550, 199]], write it here: ________",
+              "answer": [
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请在坐标[[173,188], [400,193], [399,249], [172,244]]框定的图像区域中，补出\"餐____数字码\"里缺失的内容。",
+              "answer": "饮"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[550, 149], [764, 149], [764, 199], [550, 199]], which option best captures the text(s) present there? Options:\nA. 餐饮数砀\nB. 餐饮数砀\nC. B1\nD. 餐饮数码",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You see a bounding box at [[550.0, 149.0], [764.0, 149.0], [764.0, 199.0], [550.0, 199.0]] — is 'B1, 餐饮数码' one of the labels inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out all the word(s) visible within [[532, 100], [1611, 100], [1611, 226], [532, 226]]. ________",
+              "answer": [
+                "B1",
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中[[145,186], [376,191], [375,247], [144,242]]所框出的位置，\"餐饮____\"缺失的字符应该填什么？",
+              "answer": "数码"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one correctly lists the text(s) in [[532, 151], [754, 151], [754, 201], [532, 201]]? Options:\nA. 餐饮数码\nB. 餐饮数砀\nC. 餐饮数砀\nD. B1",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'B1, 餐饮数码' appears as a label inside the bounding box [[532.0, 151.0], [754.0, 151.0], [754.0, 201.0], [532.0, 201.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0064/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0064/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can be found at location [[527, 109], [1600, 109], [1600, 222], [527, 222]]? ________",
+              "answer": [
+                "B1",
+                "餐饮数码"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region marked [[1108,179], [1212,179], [1212,294], [1108,294]] holds a clue — use it to fill in the gap in \"____1\".",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text(s) contained within [[527, 109], [1600, 109], [1600, 222], [527, 222]]. Options:\nA. 餐饮数砀\nB. G1\nC. B1\nD. P1",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Seeing the bounding box [[526.6666666666666, 145.0], [752.0, 145.0], [752.0, 210.2380952380952], [526.6666666666666, 210.2380952380952]], does '餐饮数码' show up as one of the labels inside?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0064"
+  }
+]

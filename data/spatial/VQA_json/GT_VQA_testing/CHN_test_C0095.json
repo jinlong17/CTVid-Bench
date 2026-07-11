@@ -1,0 +1,487 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[561, 577], [1173, 577], [1173, 919], [561, 919]], what word(s) can you make out there? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在[[695,586], [1062,577], [1067,659], [696,672]]的文字当中，「品质提升____」有几处缺失的字符——你知道那是什么吗？",
+              "answer": "中"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text shown at [[561, 577], [1173, 577], [1173, 919], [561, 919]], which option below is the right match? Options:\nA. Serry for any inconvenience, 如有不便 敬请谅解, 品质提升中\nB. 如有不便 敬请谅解, 品质捉升中, Sorry for any inconvenience\nC. 品质提升中, 如有不便 敬请谅解, Quality improving\nD. Sorry for any inconvenience, Quolity improving, 品质提升中",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Sorry for any inconvenience, 品质提升中, Quality improving' correctly names the text inside the bounding box [[561.1904761904761, 576.9047619047618], [1173.095238095238, 576.9047619047618], [1173.095238095238, 918.5714285714286], [561.1904761904761, 918.5714285714286]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "At location [[561, 577], [1173, 577], [1173, 919], [561, 919]], what word(s) are written? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据[[554,777], [1150,757], [1160,848], [558,863]]处显示的内容，把短语「如有不便 ____谅解」补充完整。",
+              "answer": "敬请"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Turning to the region [[561, 577], [1173, 577], [1173, 919], [561, 919]], which option below lists the text that appears there? Options:\nA. 品质提升中, Quality improving, Sarry for any inconvenience\nB. Quality improving, 品质提升中, 如有不倬 敬请谅解\nC. Quality improving, Sorry for any inconvenience, 如有不便 敬请谅解\nD. 如有不便 敬请谅解, 品质提升中, Serry for any inconvenience",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the area in [[561.1904761904761, 576.9047619047618], [1173.095238095238, 576.9047619047618], [1173.095238095238, 918.5714285714286], [561.1904761904761, 918.5714285714286]], is '如有不便 敬请谅解, 品质提升中, Quality improving' one of the labels found there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Just looking at [[581, 591], [1143, 591], [1143, 920], [581, 920]] — what word or words are displayed there? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[568,760], [1165,740], [1174,832], [572,846]]的文字里有一处残缺，完整表述是「如有不便 ____」，请把缺少的部分填上。",
+              "answer": "敬请谅解"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the area [[581, 591], [1143, 591], [1143, 920], [581, 920]] — which of the following options shows the text found there? Options:\nA. 品质捉升中, Sorry for any inconvenience, 如有不便 敬请谅解\nB. 如有不倬 敬请谅解, Sorry for any inconvenience, 品质提升中\nC. 如有不便 敬请谅解, Quality improving, 品质提升中\nD. Serry for any inconvenience, 如有不便 敬请谅解, 品质提升中",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '品质提升中, Quality improving, Sorry for any inconvenience, 如有不倬 敬请谅解' appearing inside [[581.0, 591.0], [1143.0, 591.0], [1143.0, 920.0], [581.0, 920.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[579, 591], [1141, 591], [1141, 920], [579, 920]] — what text can you make out there? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[777,575], [1145,565], [1149,647], [778,660]]处的文字，请将短语\"品质____中\"中缺失的部分填写完整。",
+              "answer": "提升"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text visible in [[579, 591], [1141, 591], [1141, 920], [579, 920]]. Options:\nA. 如有不便 敬请谅解, Ouality improving, 品质提升中\nB. Sorry for any inconvenience, 品质提升中, Quolity improving\nC. 品质提升中, Quality improving, Serry for any inconvenience\nD. Sorry for any inconvenience, 如有不便 敬请谅解, Quality improving",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[686.0, 591.0], [1050.0, 591.0], [1050.0, 733.0], [686.0, 733.0]], does it actually contain the label(s) '品质提升中, Quality improving, Sorry for any inconvenience'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text shown inside [[549, 584], [1161, 584], [1161, 926], [549, 926]]. ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown at [[710,842], [1309,823], [1310,886], [716,914]] is the phrase \"S____ for any inconvenience\" — what letters fill in the gap?",
+              "answer": "orry"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly identifies the text inside [[549, 584], [1161, 584], [1161, 926], [549, 926]]. Options:\nA. 品质提升中, Serry for any inconvenience, 如有不便 敬请谅解\nB. 品质提升中, Sorry for any inconvenience, 如有不倬 敬请谅解\nC. Quality improving, 如有不便 敬请谅解, Sarry for any inconvenience\nD. 如有不便 敬请谅解, 品质提升中, Quality improving",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]] — does it include 'Quality improving, 品质捉升中, 如有不便 敬请谅解, Sorry for any inconvenience'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text do you see when you look at [[549, 584], [1161, 584], [1161, 926], [549, 926]]? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1055,466], [1155,469], [1156,505], [1059,502]]坐标范围内的文本中有一处残缺，请补全短语\"萬____前海\"。",
+              "answer": "象"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one accurately reflects what's written in [[549, 584], [1161, 584], [1161, 926], [549, 926]]? Options:\nA. Quality improving, Sorry for any inconvenience, 如有不倬 敬请谅解\nB. Quality improving, 如有不便 敬请谅解, 品质捉升中\nC. 品质提升中, Sorry for any inconvenience, 如有不便 敬请谅解\nD. 品质提升中, Serry for any inconvenience, 如有不便 敬请谅解",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is simple: do 'Quality improving, 如有不便 敬请谅解, Sorry for any inconvenience, 品质捉升中' appear inside [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a close look at [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]] — which word or words appear there? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据[[1075,464], [1175,466], [1177,503], [1079,500]]位置的文字内容，把残缺的短语\"萬____前海\"填写完整。",
+              "answer": "象"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices provided, which one matches the text you can see in [[549, 584], [1161, 584], [1161, 926], [549, 926]]? Options:\nA. 品质提升中, 如有不便 敬请谅解, Quality improving\nB. 品质捉升中, Sorry for any inconvenience, Quality improving\nC. 如有不倬 敬请谅解, Quality improving, Sorry for any inconvenience\nD. Quality improving, Serry for any inconvenience, 如有不便 敬请谅解",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just to check — '如有不便 敬请谅解, Sorry for any inconvenience, Quality improving' shows up in [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]], right?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]], what word or phrase do you find there? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看[[971,553], [1339,544], [1343,626], [972,639]]处的文字，写出\"品____提升中\"中缺失的内容。",
+              "answer": "质"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[549, 584], [1161, 584], [1161, 926], [549, 926]] matches which of the following? Options:\nA. Sarry for any inconvenience, 品质提升中, Quality improving\nB. 品质提升中, Sorry for any inconvenience, 如有不便 敬请谅解\nC. 品质提升中, Serry for any inconvenience, Quality improving\nD. SOrry for any inconvenience, 品质提升中, Quality improving",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the region [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]], are '如有不倬 敬请谅解, Quality improving, Sorry for any inconvenience, 品质提升中' among the labels you see?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's actually written in the [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]] region? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "注意[[1003,557], [1371,547], [1375,629], [1004,642]]处的文字，缺失的字符是什么？请将\"品____提升中\"补全。",
+              "answer": "质"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that shows what's written at [[674, 584], [1066, 584], [1066, 746], [674, 746]]. Options:\nA. 如有不便 敬请谅解\nB. Sorry for any inconvenience\nC. Quality improving\nD. 品质捉升中",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'Sorry for any inconvenience, 品质提升中, Quolity improving, 如有不便 敬请谅解' appear inside [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At region [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]], what text can you read there? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1234,469], [1334,471], [1335,508], [1237,504]]处有一段文字，其中\"萬____前海\"缺少了部分内容，请填写完整。",
+              "answer": "象"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area [[674, 584], [1066, 584], [1066, 746], [674, 746]], which of the following options matches the text found there? Options:\nA. Quolity improving\nB. 品质捉升中\nC. 品质提升中\nD. 如有不便 敬请谅解",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Thinking about region [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]], are the label(s) '如有不便 敬请谅解, 品质捉升中, Quality improving, Sorry for any inconvenience' visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up inside the box at [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]]? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[1065,655], [1453,642], [1456,708], [1065,720]] reads \"Qual____ improving\" — what letters are missing from the blank?",
+              "answer": "ity"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one correctly shows the text visible at [[549, 584], [1161, 584], [1161, 926], [549, 926]]? Options:\nA. Sorry for any inconvenience, 如有不便 敬请谅解, 品质提升中\nB. 品质提升中, Quolity improving, Sorry for any inconvenience\nC. 如有不便 敬请谅解, Serry for any inconvenience, Quality improving\nD. Quality improving, Sorry for any inconvenience, 品质捉升中",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect to find the label(s) '如有不便 敬请谅解, Sorry for any inconvenience, 品质提升中' inside [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]] — is that right?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0095/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0095/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]], which word(s) can you make out? ________",
+              "answer": [
+                "品质提升中",
+                "Quality improving",
+                "如有不便 敬请谅解",
+                "Sorry for any inconvenience"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1098,577], [1466,567], [1471,650], [1099,663]]处的文字里有个短语，\"品____提升中\"中间缺了哪个字？请补全。",
+              "answer": "质"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options listed, which one captures the text(s) at [[674, 584], [1066, 584], [1066, 746], [674, 746]]? Options:\nA. 品质捉升中\nB. 品质捉升中\nC. 如有不便 敬请谅解\nD. Quality improving",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '如有不倬 敬请谅解, 品质提升中, Quality improving, Sorry for any inconvenience' appearing inside region [[549.2857142857142, 584.0476190476189], [1161.1904761904766, 584.0476190476189], [1161.1904761904766, 925.7142857142857], [549.2857142857142, 925.7142857142857]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0095"
+  }
+]

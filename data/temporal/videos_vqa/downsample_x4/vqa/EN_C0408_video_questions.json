@@ -1,0 +1,313 @@
+{
+  "video_id": "C0408",
+  "frames": 120,
+  "word": "7 Shuttle to Terminal A and Daily Lot 4",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/EN_C0408.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" likely to be?\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. warning or prohibition sign\nD. event or poster information\nE. address or street sign\nF. storefront or brand sign\nG. general scene text",
+      "q": "The text reading \"7 Shuttle to Terminal A and Daily Lot 4\" — what type of sign does it look like it belongs to?\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. warning or prohibition sign\nD. event or poster information\nE. address or street sign\nF. storefront or brand sign\nG. general scene text",
+      "a": "A",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. direction or navigation sign",
+        "B. menu or commercial information",
+        "C. warning or prohibition sign",
+        "D. event or poster information",
+        "E. address or street sign",
+        "F. storefront or brand sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text reading \"7 Shuttle to Terminal A and Daily Lot 4\" — what type of sign does it look like it belongs to?\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. warning or prohibition sign\nD. event or poster information\nE. address or street sign\nF. storefront or brand sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" appear in?\n Options:\nA. warning / rule sign\nB. storefront\nC. restaurant or menu\nD. other public sign\nE. campus or office\nF. transportation / station\nG. road or street\nH. event poster or display",
+      "q": "What kind of environment does the text \"7 Shuttle to Terminal A and Daily Lot 4\" appear in throughout the clip?\n Options:\nA. warning / rule sign\nB. storefront\nC. restaurant or menu\nD. other public sign\nE. campus or office\nF. transportation / station\nG. road or street\nH. event poster or display",
+      "a": "F",
+      "a_text": "transportation / station",
+      "answer_key": "transportation / station",
+      "options": [
+        "A. warning / rule sign",
+        "B. storefront",
+        "C. restaurant or menu",
+        "D. other public sign",
+        "E. campus or office",
+        "F. transportation / station",
+        "G. road or street",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of environment does the text \"7 Shuttle to Terminal A and Daily Lot 4\" appear in throughout the clip?\n Options:\nA. warning / rule sign\nB. storefront\nC. restaurant or menu\nD. other public sign\nE. campus or office\nF. transportation / station\nG. road or street\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "q": "Which part of the frame does \"7 Shuttle to Terminal A and Daily Lot 4\" mainly appear in?\n Options:\nA. top-left (upper-left area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "a": "B",
+      "a_text": "bottom-right (lower-right area)",
+      "answer_key": "bottom-right",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. bottom-right (lower-right area)",
+        "C. center (middle of the frame)",
+        "D. bottom-left (lower-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which part of the frame does \"7 Shuttle to Terminal A and Daily Lot 4\" mainly appear in?\n Options:\nA. top-left (upper-left area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "How much does \"7 Shuttle to Terminal A and Daily Lot 4\" shift in position over the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "C",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does \"7 Shuttle to Terminal A and Daily Lot 4\" shift in position over the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" move?\n Options:\nA. moves diagonally\nB. moves right\nC. moves left\nD. stays roughly in place\nE. moves up\nF. moves down\nG. changes direction partway",
+      "q": "In which direction does \"7 Shuttle to Terminal A and Daily Lot 4\" generally move while it's visible?\n Options:\nA. moves diagonally\nB. moves right\nC. moves left\nD. stays roughly in place\nE. moves up\nF. moves down\nG. changes direction partway",
+      "a": "G",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves diagonally",
+        "B. moves right",
+        "C. moves left",
+        "D. stays roughly in place",
+        "E. moves up",
+        "F. moves down",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In which direction does \"7 Shuttle to Terminal A and Daily Lot 4\" generally move while it's visible?\n Options:\nA. moves diagonally\nB. moves right\nC. moves left\nD. stays roughly in place\nE. moves up\nF. moves down\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" at the beginning, the middle, and the end?\n Options:\nA. top-left -> bottom-right -> center\nB. bottom-right -> bottom-right -> center\nC. bottom-right -> bottom-right -> top-left\nD. bottom-right -> center -> center",
+      "q": "At the start, midway through, and near the end of the clip, where is \"7 Shuttle to Terminal A and Daily Lot 4\" sitting in the frame?\n Options:\nA. top-left -> bottom-right -> center\nB. bottom-right -> bottom-right -> center\nC. bottom-right -> bottom-right -> top-left\nD. bottom-right -> center -> center",
+      "a": "B",
+      "a_text": "bottom-right -> bottom-right -> center",
+      "answer_key": "bottom-right -> bottom-right -> center",
+      "options": [
+        "A. top-left -> bottom-right -> center",
+        "B. bottom-right -> bottom-right -> center",
+        "C. bottom-right -> bottom-right -> top-left",
+        "D. bottom-right -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "At the start, midway through, and near the end of the clip, where is \"7 Shuttle to Terminal A and Daily Lot 4\" sitting in the frame?\n Options:\nA. top-left -> bottom-right -> center\nB. bottom-right -> bottom-right -> center\nC. bottom-right -> bottom-right -> top-left\nD. bottom-right -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. very large (dominates the frame)",
+      "q": "Relative to the overall frame, how large is the text \"7 Shuttle to Terminal A and Daily Lot 4\"?\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. very large (dominates the frame)",
+      "a": "C",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Relative to the overall frame, how large is the text \"7 Shuttle to Terminal A and Daily Lot 4\"?\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "q": "Does \"7 Shuttle to Terminal A and Daily Lot 4\" appear to grow bigger, shrink, or stay roughly the same size as the clip plays out?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "a": "C",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. size fluctuates (goes up and down)",
+        "C. stays about the same size",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"7 Shuttle to Terminal A and Daily Lot 4\" appear to grow bigger, shrink, or stay roughly the same size as the clip plays out?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "Is \"7 Shuttle to Terminal A and Daily Lot 4\" comfortably inside the frame, or does it sit close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"7 Shuttle to Terminal A and Daily Lot 4\" comfortably inside the frame, or does it sit close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"7 Shuttle to Terminal A and Daily Lot 4\" and how it appears in the video.",
+      "q": "Briefly describe what \"7 Shuttle to Terminal A and Daily Lot 4\" looks like and how it shows up in the video.",
+      "a": "The text appears on a blue directional sign with white lettering and a bus icon, mounted on a concrete pillar outside an airport terminal.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Briefly describe what \"7 Shuttle to Terminal A and Daily Lot 4\" looks like and how it shows up in the video."
+    }
+  ],
+  "method": "downsample_x4"
+}

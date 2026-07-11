@@ -1,0 +1,313 @@
+{
+  "video_id": "C0314",
+  "frames": 120,
+  "word": "PHARMACY",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/EN_C0314.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"PHARMACY\" likely to be?\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. general scene text\nD. address or street sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information",
+      "q": "What type of sign would you say the text \"PHARMACY\" belongs to?\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. general scene text\nD. address or street sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information",
+      "a": "B",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. event or poster information",
+        "B. direction or navigation sign",
+        "C. general scene text",
+        "D. address or street sign",
+        "E. warning or prohibition sign",
+        "F. storefront or brand sign",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you say the text \"PHARMACY\" belongs to?\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. general scene text\nD. address or street sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"PHARMACY\" appear in?\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. transportation / station\nE. warning / rule sign\nF. event poster or display\nG. other public sign\nH. road or street",
+      "q": "What kind of setting does the text \"PHARMACY\" seem to be part of in this clip?\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. transportation / station\nE. warning / rule sign\nF. event poster or display\nG. other public sign\nH. road or street",
+      "a": "C",
+      "a_text": "storefront",
+      "answer_key": "storefront",
+      "options": [
+        "A. campus or office",
+        "B. restaurant or menu",
+        "C. storefront",
+        "D. transportation / station",
+        "E. warning / rule sign",
+        "F. event poster or display",
+        "G. other public sign",
+        "H. road or street"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of setting does the text \"PHARMACY\" seem to be part of in this clip?\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. transportation / station\nE. warning / rule sign\nF. event poster or display\nG. other public sign\nH. road or street"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"PHARMACY\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. top-right (upper-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)",
+      "q": "Mostly, whereabouts in the frame do you see \"PHARMACY\" sitting?\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. top-right (upper-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)",
+      "a": "C",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. top-left (upper-left area)",
+        "C. top-right (upper-right area)",
+        "D. center (middle of the frame)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Mostly, whereabouts in the frame do you see \"PHARMACY\" sitting?\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. top-right (upper-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"PHARMACY\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "Would you say \"PHARMACY\" moves a lot, a little, or barely at all during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "C",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Would you say \"PHARMACY\" moves a lot, a little, or barely at all during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"PHARMACY\" move?\n Options:\nA. moves right\nB. moves down\nC. moves diagonally\nD. stays roughly in place\nE. moves left\nF. moves up\nG. changes direction partway",
+      "q": "Which direction does \"PHARMACY\" tend to drift — left, right, up, down, or something else?\n Options:\nA. moves right\nB. moves down\nC. moves diagonally\nD. stays roughly in place\nE. moves left\nF. moves up\nG. changes direction partway",
+      "a": "G",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves right",
+        "B. moves down",
+        "C. moves diagonally",
+        "D. stays roughly in place",
+        "E. moves left",
+        "F. moves up",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"PHARMACY\" tend to drift — left, right, up, down, or something else?\n Options:\nA. moves right\nB. moves down\nC. moves diagonally\nD. stays roughly in place\nE. moves left\nF. moves up\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"PHARMACY\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> bottom-left -> center\nB. top-right -> bottom-right -> bottom-left\nC. top-right -> bottom-right -> center\nD. center -> bottom-right -> center",
+      "q": "Near the start, midway through, and near the end — where in the frame does \"PHARMACY\" appear each time?\n Options:\nA. top-right -> bottom-left -> center\nB. top-right -> bottom-right -> bottom-left\nC. top-right -> bottom-right -> center\nD. center -> bottom-right -> center",
+      "a": "C",
+      "a_text": "top-right -> bottom-right -> center",
+      "answer_key": "top-right -> bottom-right -> center",
+      "options": [
+        "A. top-right -> bottom-left -> center",
+        "B. top-right -> bottom-right -> bottom-left",
+        "C. top-right -> bottom-right -> center",
+        "D. center -> bottom-right -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Near the start, midway through, and near the end — where in the frame does \"PHARMACY\" appear each time?\n Options:\nA. top-right -> bottom-left -> center\nB. top-right -> bottom-right -> bottom-left\nC. top-right -> bottom-right -> center\nD. center -> bottom-right -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"PHARMACY\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "q": "Relative to the frame, how big does \"PHARMACY\" appear?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "a": "A",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Relative to the frame, how big does \"PHARMACY\" appear?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"PHARMACY\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "q": "Does \"PHARMACY\" seem to grow larger, shrink smaller, or hold roughly the same size as the clip progresses?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"PHARMACY\" seem to grow larger, shrink smaller, or hold roughly the same size as the clip progresses?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"PHARMACY\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "q": "Is \"PHARMACY\" positioned well within the frame, or does it sit close to one of the edges?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "a": "B",
+      "a_text": "touches or runs off an edge",
+      "answer_key": "touches or runs off an edge",
+      "options": [
+        "A. comes close to an edge",
+        "B. touches or runs off an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"PHARMACY\" positioned well within the frame, or does it sit close to one of the edges?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"PHARMACY\" and how it appears in the video.",
+      "q": "In a few words, how would you describe \"PHARMACY\" and the way it presents itself in this clip?",
+      "a": "A large red sign with white text reading \"PHARMACY\" is mounted high on a white wall inside a store.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In a few words, how would you describe \"PHARMACY\" and the way it presents itself in this clip?"
+    }
+  ],
+  "method": "downsample_x4"
+}

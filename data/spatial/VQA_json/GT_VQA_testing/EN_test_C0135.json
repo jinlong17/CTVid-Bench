@@ -1,0 +1,495 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at area [[750, 395], [1148, 395], [1148, 767], [750, 767]], write in the word(s) you see. ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "75%",
+                "OFF",
+                "MARKDOWNS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A partially obscured phrase at [[752,592], [884,592], [884,635], [752,635]] reads \"UP ____\" — what goes in the blank?",
+              "answer": "TO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices given, which one correctly contains the text(s) found at [[750, 395], [1148, 395], [1148, 767], [750, 767]]? Options:\nA. SALE, MARKDOWNS, 75%, OFF\nB. SALE, MARKDOWNS, DFF, 75%\nC. UP TO, 75%, MARKDOWNS, OEF\nD. UP TO, 75%, MARKDOWNS, OFF",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Bounding box [[750.0, 395.0], [1148.0, 395.0], [1148.0, 767.0], [750.0, 767.0]] is marked — do the labels '75%, OFF, MARKDOWNS, SALE, UP TO' fall inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) visible in region [[768, 395], [1164, 395], [1164, 765], [768, 765]]. ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "75%",
+                "OFF",
+                "MARKDOWNS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Characters are missing from \"S____E\" at [[899,394], [1301,389], [1303,532], [901,537]] — what are they?",
+              "answer": "AL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the full image, pick the option that correctly lists the text(s) at [[768, 395], [1164, 395], [1164, 765], [768, 765]]. Options:\nA. UP TO, MARKDOWNS, 75%, SALE\nB. 75%, MARKDOWNS, SALE, OFF\nC. OFF, UP TO, MARKDDWNS, 75%\nD. SALE, OFF, UP TO, MARKPOWNS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the image — are labels 'OFF, MARKDOWNS, SALE, 75%' contained in the box at [[768.0, 395.0], [1164.0, 395.0], [1164.0, 765.0], [768.0, 765.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spot any text at [[775, 395], [1180, 395], [1180, 765], [775, 765]]? Write in the word(s). ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "MARKDOWNS",
+                "75%",
+                "OFF"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What missing letter(s) make up the phrase \"U____ TO\" in the section at [[1030,584], [1162,584], [1162,627], [1030,627]]?",
+              "answer": "P"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Every option listed — which one matches the text(s) present at [[775, 395], [1180, 395], [1180, 765], [775, 765]]? Options:\nA. OFF, 75%, SALE, MARKDOWNS\nB. OFF, MARKDOWNS, SALF, UP TO\nC. UP TO, 75%, MARKDDWNS, OFF\nD. UP TO, MARKDOWNS, OFF, SRLE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You're looking at [[774.8376068376069, 395.0], [1180.0, 395.0], [1180.0, 765.0], [774.8376068376069, 765.0]] — do labels 'OFF, MARKDOWNS, UD TO, SALE, 75%' appear there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you describe the text at [[800.0, 395.0], [1196.0, 395.0], [1196.0, 765.0], [800.0, 765.0]]? The word(s) is/are ________.",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "75%",
+                "OFF",
+                "MARKDOWNS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's missing in \"7____\" at [[1136,629], [1330,629], [1330,711], [1136,711]] — which characters complete it?",
+              "answer": "5%"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which correctly reflects the text(s) visible at [[800, 590], [1190, 590], [1190, 765], [800, 765]]? Options:\nA. OFF, 75%, MARKDDWNS\nB. MARKDOWNS, SALE, OFF\nC. MARKDOWNS, OFF, UP TO\nD. 75%, OFF, UD TO",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at region [[800.0, 395.0], [1196.0, 395.0], [1196.0, 765.0], [800.0, 765.0]], are '75%, UP TO, OFF, MARKDOWNS' the labels you'd expect to find there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the text inside [[813.0, 391.0], [1213.0, 391.0], [1213.0, 765.0], [813.0, 765.0]] — what word or words appear there? ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "75%",
+                "OFF",
+                "MARKDOWNS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[1221,708], [1520,715], [1519,757], [1220,750]] shows text that partially reads \"MAR____\" — what letters are missing?",
+              "answer": "KDOWNS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[813, 391], [1213, 391], [1213, 765], [813, 765]] and pick the option that matches it. Options:\nA. UP TO, MARKDOWNS, OFF, 75%\nB. MARKDDWNS, OFF, SALE, 75%\nC. SALE, 75%, UP TO, OFF\nD. UP TO, 75%, MARKDOWNS, SRLE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'MARKDOWNS, OFF, SALE, 75%, UP TO' accurately describes what's written in [[813.0, 391.0], [1213.0, 391.0], [1213.0, 765.0], [813.0, 765.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at [[819, 391], [1235, 391], [1235, 765], [819, 765]] and tell me — what word or words are written there? ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "75%",
+                "OFF",
+                "MARKDOWNS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's missing from the text \"S____\" captured inside [[1205,333], [1621,323], [1625,471], [1209,481]] — which letters aren't showing?",
+              "answer": "ALE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of these options, which one accurately represents the text inside [[819, 590], [1235, 590], [1235, 765], [819, 765]]? Options:\nA. 75%, OFF, MARKDDWNS\nB. SALE, 75%, UP TO\nC. UP TO, 75%, OFF\nD. MARKDOWNS, 75%, OEF",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find text inside [[819.4368932038835, 391.0], [1234.6504854368932, 391.0], [1234.6504854368932, 765.0], [819.4368932038835, 765.0]] — do the labels there match '75%, OEF, MARKDOWNS, SALE, UP TO'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) appearing in the bounding box [[843.0, 389.0], [1245.1794871794875, 389.0], [1245.1794871794875, 765.0], [843.0, 765.0]]. What do you see? ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "MARKDOWNS",
+                "75%",
+                "OFF"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word(s) partially written as \"____F\" appear at coordinates [[1396,522], [1596,522], [1596,611], [1396,611]] — how would you complete them?",
+              "answer": "OF"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Here are some options — which one matches the text found at [[843, 389], [1245, 389], [1245, 765], [843, 765]]? Options:\nA. OFF, MARKDOWNS, 75%, SRLE\nB. UP TO, OFF, 75%, MARKDOWNS\nC. 75%, UP TO, OFF, SALE\nD. SALF, MARKDOWNS, 75%, OFF",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is about [[843.0, 389.0], [1245.1794871794875, 389.0], [1245.1794871794875, 765.0], [843.0, 765.0]]: do the label(s) '75%, OFF, SRLE, MARKDOWNS, UP TO' show up there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text appears inside [[838.757281553398, 389.0], [1261.0, 389.0], [1261.0, 767.0], [838.757281553398, 767.0]] — name the word or words you see there. ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "75%",
+                "OFF",
+                "MARKDOWNS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Look at coordinates [[1185,577], [1482,584], [1481,626], [1184,619]] and figure out which letters go in the blanks of \"MARK____S\".",
+              "answer": "DOWN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best matches the text inside [[839, 389], [1261, 389], [1261, 767], [839, 767]]. Options:\nA. OFF, 75%, UP TO, SALE\nB. UP TO, 75%, MARKDDWNS, OFF\nC. OEF, MARKDOWNS, SALE, UP TO\nD. MARKDOWNS, UD TO, SALE, OFF",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focusing on [[838.757281553398, 389.0], [1261.0, 389.0], [1261.0, 767.0], [838.757281553398, 767.0]], are the label(s) 'MARKDOWNS, 75%, SALE, UP TO, OEF' what you'd find written there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written inside the box at [[874.0, 393.0], [1274.0, 393.0], [1274.0, 536.0], [874.0, 536.0]]? Type out the word(s) you see. ________",
+              "answer": [
+                "SALE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At region [[1127,651], [1423,662], [1421,705], [1125,694]], the text shows \"MARK____S\" with some letters missing — fill them in.",
+              "answer": "DOWN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that contains the text found at [[873, 393], [1274, 393], [1274, 765], [873, 765]]. Options:\nA. UP TO, SALE, 75%, OFF\nB. OFF, 75%, MARKPOWNS, UP TO\nC. OFF, UP TO, MARKDDWNS, 75%\nD. MARKDOWNS, OFF, SALE, 75%",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[873.147966997678, 393.0], [1274.0, 393.0], [1274.0, 765.0], [873.147966997678, 765.0]] — do you agree that 'SALE, UP TO, OFF, 75%, MARKDOWNS' describes the text inside?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name all the words you can read inside [[887.0, 386.0], [1289.0, 386.0], [1289.0, 765.0], [887.0, 765.0]]. ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "MARKDOWNS",
+                "75%",
+                "OFF"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Help complete the word(s) \"MARK____NS\" visible at [[1063,714], [1356,723], [1355,765], [1062,756]] — what goes in the blank spots?",
+              "answer": "DOW"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which best captures the text shown in [[887, 590], [1280, 590], [1280, 765], [887, 765]]? Options:\nA. UP TO, OFF, MARKDDWNS\nB. 75%, MARKDOWNS, UP TO\nC. SALE, MARKDOWNS, OFF\nD. 75%, UP TO, OEF",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Regarding the region [[887.0, 386.0], [1289.0, 386.0], [1289.0, 765.0], [887.0, 765.0]], does it contain the label(s) 'OFF, SRLE, 75%, UP TO, MARKDOWNS'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the region bounded by [[899.0, 389.0], [1303.0, 389.0], [1303.0, 763.0], [899.0, 763.0]] — what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "MARKDOWNS",
+                "75%",
+                "OFF"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1212,635], [1412,635], [1412,725], [1212,725]] reads \"O____F\" — which letter(s) are missing to complete it?",
+              "answer": "F"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following matches the text you see inside [[902, 588], [1295, 588], [1295, 763], [902, 763]]? Options:\nA. OFF, 75%, UP TO\nB. UP TO, MARKDOWNS, OEF\nC. MARKDOWNS, 75%, OFF\nD. OFF, SALE, 75%",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'MARKDOWNS, UP TO, SALE, 75%, OFF' appear inside the region [[899.0, 389.0], [1303.0, 389.0], [1303.0, 763.0], [899.0, 763.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0135/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0135/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible at [[915, 387], [1322, 387], [1322, 763], [915, 763]]. ________",
+              "answer": [
+                "SALE",
+                "UP TO",
+                "75%",
+                "OFF",
+                "MARKDOWNS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[1195,629], [1393,637], [1389,727], [1191,719]], the text shows \"O____\" — which letter(s) have been dropped?",
+              "answer": "FF"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately reflects the text found at [[920, 588], [1322, 588], [1322, 763], [920, 763]]. Options:\nA. MARKDOWNS, 75%, OFF\nB. SALE, UP TO, OFF\nC. OFF, UP TO, 75%\nD. OEF, MARKDOWNS, 75%",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '75%, MARKDOWNS, SALE, UP TO, OEF' is/are the correct label(s) for what's inside [[915.0, 387.0], [1321.6504854368932, 387.0], [1321.6504854368932, 763.0], [915.0, 763.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0135"
+  }
+]

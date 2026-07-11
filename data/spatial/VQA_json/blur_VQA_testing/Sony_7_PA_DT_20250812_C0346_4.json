@@ -1,0 +1,400 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over the region [[213.61445783132535, 29.156626506024168], [936.1904761904763, 29.156626506024168], [936.1904761904763, 933.3333333333335], [213.61445783132535, 933.3333333333335]], what words can you read? ________",
+              "answer": [
+                "D",
+                "CALIFORNIA",
+                "inosaur",
+                "Garden",
+                "Thesc"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options correctly represents the text visible in [[431, 584], [936, 584], [936, 933], [431, 933]]? Options:\nA. O, CALIFORNIA, inosaur\nB. Thesc, CALIFORNIA, inosaur\nC. inosaur, CALIFORNIA, D\nD. CALIFORNIA, inosour, D",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Am I right that 'Garden, inosaur, CALIFORNIA' is located in the bounding region [[431, 584], [936, 584], [936, 933], [431, 933]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[222.74966532797862, 36.958500669344005], [937.2277135683206, 36.958500669344005], [937.2277135683206, 946.2877411653504], [222.74966532797862, 946.2877411653504]], what word(s) can you find there? ________",
+              "answer": [
+                "D",
+                "CALIFORNIA",
+                "inosaur",
+                "Garden",
+                "Thesc"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of all the options, which one accurately captures the text shown within [[435, 593], [937, 593], [937, 946], [435, 946]]? Options:\nA. CALIFORNIA, D, Thesc\nB. CALIFORNIA, D, inosaur\nC. O, Garden, CALIFORNIA\nD. O, inosaur, CALIFORNIA",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Shown in [[222.74966532797862, 36.958500669344005], [937.2277135683206, 36.958500669344005], [937.2277135683206, 946.2877411653504], [222.74966532797862, 946.2877411653504]] — is 'Garden, inosaur, D, CALIFORNIA, Ihesc' among the visible text there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "At the location marked by [[222, 38], [940, 38], [940, 942], [222, 942]], the text shown is ________.",
+              "answer": [
+                "D",
+                "CALIFORNIA",
+                "inosaur",
+                "Garden",
+                "Thesc"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Please select the option that correctly reflects the text found in [[435, 591], [940, 591], [940, 942], [435, 942]]. Options:\nA. inosaur, CALIFORNIA, O\nB. CALIFORNIA, D, Garden\nC. Garden, Thesc, inosaur\nD. D, inosour, Garden",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'inosaur, D, CALIFORNIA' appear inside the region marked by [[435, 591], [940, 591], [940, 942], [435, 942]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text shown inside [[238, 30], [959, 30], [959, 936], [238, 936]] — the word(s) is/are ________.",
+              "answer": [
+                "D",
+                "CALIFORNIA",
+                "inosaur",
+                "Garden",
+                "Thesc"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following correctly captures the text found in [[453, 584], [959, 584], [959, 936], [453, 936]]? Options:\nA. D, CALIFORNIA, Thesc\nB. inosaur, CALIFORNIA, Gardon\nC. Garden, D, inosaur\nD. inosaur, O, CALIFORNIA",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that 'D, Garden, CALIFORNIA, inosaur' is/are contained within the bounding box [[238.41231593038822, 29.729585006693412], [959.3057448040457, 29.729585006693412], [959.3057448040457, 936.1444845497566], [238.41231593038822, 936.1444845497566]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Looking at the region [[225, 51], [948, 51], [948, 958], [225, 958]], what text appears there? The word(s) is/are ________.",
+              "answer": [
+                "D",
+                "CALIFORNIA",
+                "inosaur",
+                "Garden",
+                "Thesc"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text visible in [[441, 606], [948, 606], [948, 958], [441, 958]]. Options:\nA. D, Thesc, CALIFORNIA\nB. inosour, CALIFORNIA, D\nC. Garden, inosaur, O\nD. D, Garden, CALIFORNIA",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it accurate to say that 'Garden, inoseur, CALIFORNIA, Thesc, D' falls within the bounding box at [[225.1593038821955, 51.41633199464525], [948.1404481730717, 51.41633199464525], [948.1404481730717, 958.4288022817093], [225.1593038821955, 958.4288022817093]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you see inside [[216, 0], [944, 0], [944, 972], [216, 972]] — the word(s) is/are ________.",
+              "answer": [
+                "D",
+                "CALIFORNIA",
+                "inosaur",
+                "Garden",
+                "Thesce"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that best represents the text found inside [[437, 618], [944, 618], [944, 972], [437, 972]]. Options:\nA. inosaur, CALIFORNIA, D\nB. CALIFORNIA, inosour, D\nC. Garden, inosaur, Thesce\nD. inosour, Garden, D",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[437, 618], [944, 618], [944, 972], [437, 972]], do you see 'inosaur, CALIFORNIA, D' inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The bounding box [[223, 0], [953, 0], [953, 980], [223, 980]] contains some text — the word(s) is/are ________.",
+              "answer": [
+                "D",
+                "CALIFORNIA",
+                "inosaur",
+                "Garden",
+                "Thesce"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one reflects the text within [[446, 621], [953, 621], [953, 980], [446, 980]]? Options:\nA. inosaur, Garden, CALIFORNIA\nB. D, inosaur, CALIEORNIA\nC. O, Garden, inosaur\nD. CALIFORNIA, Thesce, inosaur",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Please verify: does 'Garden, D, Thesce, inosaur' appear within the bounding box [[222.74966532797862, 0.0], [953.1193959310168, 0.0], [953.1193959310168, 980.2286393618264], [222.74966532797862, 980.2286393618264]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[223, 0], [943, 0], [943, 974], [223, 974]], what word(s) do you notice? The word(s) is/are ________.",
+              "answer": [
+                "D",
+                "CALIFORNIA",
+                "inosaur",
+                "Garden",
+                "Thesce"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Your task is to find the answer that includes the text shown in [[434, 617], [943, 617], [943, 974], [434, 974]]. Options:\nA. D, inosaur, CALIFORNIA\nB. O, inosaur, Garden\nC. Gardon, D, CALIFORNIA\nD. Thesce, Garden, inosaur",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think 'Garden, Thesce, CALIFORNIA, D' can be found within the area defined by [[223.19444444444434, 0.0], [942.9932226546887, 0.0], [942.9932226546887, 974.1562750913197], [223.19444444444434, 974.1562750913197]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focus on the region [[209, 0], [388, 0], [388, 730], [209, 730]] — what text is visible there? The word(s) is/are ________.",
+              "answer": [
+                "Thescel"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of these options, which one accurately describes the text in [[423, 749], [938, 749], [938, 1080], [423, 1080]]? Options:\nA. Garden, CALIFORNIA, O\nB. inosaur, CALIFORNIA, Garden\nC. CALIEORNIA, D, inosaur\nD. Thescel, CALIFORNIA, D",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scan the bounding box [[423, 749], [938, 749], [938, 1080], [423, 1080]] — can you confirm that 'inosaur, D, CALIFORNIA' appears inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "There's a region marked [[411, 942], [892, 942], [892, 1080], [411, 1080]] — what text does it contain? The word(s) is/are ________.",
+              "answer": [
+                "D",
+                "CALIFORNIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that matches the text you see in [[411, 942], [892, 942], [892, 1080], [411, 1080]]. Options:\nA. D\nB. O\nC. Thescelosa\nD. CALIEORNIA",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is: does the text 'D' fall inside the bounding box [[411, 942], [892, 942], [892, 1080], [411, 1080]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Point your attention to [[214, 0], [417, 0], [417, 1059], [214, 1059]] — the word(s) you can read there is/are ________.",
+              "answer": [
+                "Thescelosau"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option correctly reflects the text that appears within [[214, 0], [417, 0], [417, 1059], [214, 1059]]. Options:\nA. Thesoelosau\nB. Tbescelosau\nC. Ihescelosau\nD. Thescelosau",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[213.61445783132538, 0.24096385542174303], [417.22891566265065, 0.24096385542174303], [417.22891566265065, 1059.277108433735], [213.61445783132538, 1059.277108433735]], can you tell me if 'Thescelosau' is shown within that region?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0346_4/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0346_4/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on the region [[217, 2], [424, 2], [424, 1050], [217, 1050]], what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "hescelosaur"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "That area [[217, 2], [424, 2], [424, 1050], [217, 1050]] has text in it — which of the following options matches? Options:\nA. hescelesaur\nB. hesceloseur\nC. hesce1osaur\nD. hescelosaur",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just checking — does 'hescelosaur' show up as text in [[217.22891566265068, 2.4096385542168264], [424.45783132530124, 2.4096385542168264], [424.45783132530124, 1049.6385542168678], [217.22891566265068, 1049.6385542168678]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0346_4"
+  }
+]

@@ -1,0 +1,518 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you look at [[166, 36], [1752, 36], [1752, 252], [166, 252]], what word(s) show up there? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "A T C G C T A G T T A C G C T G C T T C G T A G"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[166,193], [1752,195], [1751,252], [166,246]], a DNA sequence reads: A T C G C T A ____ T T A C G C T G C T T C G T A G — what goes in the gap?",
+              "answer": "G"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text you can see at [[70, 452], [1582, 452], [1582, 1002], [70, 1002]]? Options:\nA. PROTEINS:, A DIFFERENT SEQUENCE OF AMINO ACIDS, MAIN USES:, A UNIQUE SHAPE, A PROTEIN, CARRY OUT\nB. CARRY OUT, THE STRUCTURE OF DNA, A DIFFERENT SEQUENCE OF AMINO ACIDS, A UNIQUE SHAPE, PROTEINS:, MAIN USES:\nC. PROTEINS:, MRIN USES:, CARRY OUT, A PARTICULAR FUNCTION, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PROTEIN\nD. A DIFFERENT SEQUENCE OF AMINO ACIDS, PROTEINS:, MAIN USES:, CARRY OUT, A UNIQUE SHAPE, R PROTEIN",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'A T C G C T A G T T A C G C T G C T T C G T A G, A DIFFERENT SEQUENCE OF AMINO ACIDS, PROTEINS:, THE STRUCTURE OF DNA, A PROTEIN, CARRY OUT, A PARTICULAR FUNCTION' sit inside the box defined by [[70.0, 36.0], [1752.2619047619048, 36.0], [1752.2619047619048, 1001.9704433497536], [70.0, 1001.9704433497536]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the box at [[70, 36], [1752, 36], [1752, 1002], [70, 1002]], what text is written? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "A T C G C T A G T T A C G C T G C T T C G T A G",
+                "PROTEINS:",
+                "MAIN USES:",
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word precedes \"OUT\" to complete the phrase shown at [[316,922], [568,923], [566,965], [314,964]]: CA____ OUT?",
+              "answer": "RRY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, the text inside [[70, 764], [1084, 764], [1084, 1002], [70, 1002]] corresponds to which option? Options:\nA. A UNIQUE SHAPE, THE STRUCTURE OF DNA, A PARTICULAR FUNCTION, A PROTEIN\nB. A T C G C T A G T T A C G C T G C T T C G T A G, CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PARTICULAR FUNCTION\nC. A PARTICULAR FUNCTION, R PROTEIN, CARRY OUT, A UNIQUE SHAPE\nD. A UNIQUE SHAPE, A DIFFERENT SEQUENCE OF AMINO ACIDS, CARRY OUT, A PARTICULAR FUNCTION",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'PROTEINS:, A UNIQUE SHAPE, A PROTEIN, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PARTICULAR FUNCTION, CARRY OUT' when you check the area [[70, 764], [1084, 764], [1084, 1002], [70, 1002]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Whatever is written at [[70, 36], [1752, 36], [1752, 1002], [70, 1002]], the word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "A T C G C T A G T T A C G C T G C T T C G T A G",
+                "PROTEINS:",
+                "MAIN USES:",
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[1321,452], [1582,457], [1581,505], [1320,500]] reads \"MAIN ____ES:\" — what word or words complete it?",
+              "answer": "US"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one captures the text visible at [[70, 36], [1752, 36], [1752, 1002], [70, 1002]]? Options:\nA. IHE STRUCTURE OF DNA, A DIFFERENT SEQUENCE OF AMINO ACIDS, MAIN USES:, A PARTICULAR FUNCTION, A PROTEIN, PROTEINS:, CARRY OUT, A UNIQUE SHAPE\nB. MAIN USES:, A UNIQUE SHAPE, A PARTICULAR FUNCTION, A T C G C T A G T T A C G C T G C T T C G T A G, PROTEINS:, A PROTEIN, THE STRUCTURE OF DNA, CAPRY OUT\nC. A DIFFERENT SEQUENCE OF AMINO ACIDS, PROTEINS:, A PROTEIN, A PARTICULAR FUNCTION, A UNIQUE SHAPE, CARRY OUT, A T C G C T A G T T A C G C T G C T T C G T A G, THE STRUCTURE OF DNA\nD. PROTEINS:, A UNIQUE SHAPE, A PROTEIN, A PARTICULAR FUNCTION, THE STRUCTURE OF DNA, CARRY OUT, H T C G C T A G T T A C G C T G C T T C G T A G, MAIN USES:",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that the label(s) 'A T C G C T A G T T A C G C T G C T T C G T A G, A UNIQUE SHAPE, A PARTICULAR FUNCTION, A DIFFERENT SEQUENCE OF AMINO ACIDS, CARRY OUT, A PROTEIN' are enclosed by [[70, 764], [1084, 764], [1084, 1002], [70, 1002]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Words visible in the region [[70, 36], [1752, 36], [1752, 1002], [70, 1002]] are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "A T C G C T A G T T A C G C T G C T T C G T A G",
+                "PROTEINS:",
+                "MAIN USES:",
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[692,36], [1256,36], [1256,81], [692,81]] reads \"THE ____ OF DNA\" — what word fills the gap?",
+              "answer": "STRUCTURE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly represents the text found at [[70, 36], [1752, 36], [1752, 1002], [70, 1002]]. Options:\nA. A DIFFERENT SEQUENCE OF AMINO ACIDS, A PROTEIN, CARRY OUT, R PARTICULAR FUNCTION, THE STRUCTURE OF DNA, A UNIQUE SHAPE, A T C G C T A G T T A C G C T G C T T C G T A G, PROTEINS:\nB. A PARTICULAR FUNCTION, A DIFFERENT SEQUENCE OF AMINO ACIDS, CARRY OUT, PROTEINS:, A T C G C T A G T T A C G C T G C T T C G T A G, MAIN USES:, A UNIQUE SHAPE, THE STRUCTURE OF DNA\nC. H T C G C T A G T T A C G C T G C T T C G T A G, MAIN USES:, CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS, THE STRUCTURE OF DNA, PROTEINS:, A UNIQUE SHAPE, A PARTICULAR FUNCTION\nD. THE STRUCTURE OF DNA, A DIFFERENT SEQUENCE OF AMINO ACIDS, CARRY OUT, A PARTICULAR FUNCTION, RROTEINS:, A UNIQUE SHAPE, A T C G C T A G T T A C G C T G C T T C G T A G, A PROTEIN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is [[70.0, 36.0], [1752.2619047619048, 36.0], [1752.2619047619048, 1001.9704433497536], [70.0, 1001.9704433497536]] the region that contains the label(s) 'A PARTICULAR FUNCTION, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PROTEIN, A UNIQUE SHAPE, CARRY OUT, A T C G C T A G T T A C G C T G C T T C G T A G, MAIN USES:'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can you read inside [[70, 764], [1084, 764], [1084, 1002], [70, 1002]]? ________",
+              "answer": [
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Tell me what fits in the gap at [[844,790], [1084,790], [1084,838], [844,838]]: A PR____?",
+              "answer": "OTEIN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches what's written inside [[70, 193], [1752, 193], [1752, 1002], [70, 1002]]? Options:\nA. MAIN USES:, A T C G C T A G T T A C G C T G C T T C G T A G, THE STRUCTURE OF DNA, CARRY OUT, A PARTICULAR FUNCTION, PROTEINS:, A DIFFERENT SEQUENCE OF AMINO ACIDS\nB. A PROTEIN, MAIN USES:, A UNIQUE SHAPE, A PARTICULAR FUNCTION, A DIFFERENT SEQUENCE OF AMINO ACIDS, CARRY OUT, A T C G C T A G T T A C G C T G C T T C G T A G\nC. A T C G C T A G T T A C G C T G C T T C G T A G, A UNIQUE SHAPE, RROTEINS:, A PROTEIN, MAIN USES:, A PARTICULAR FUNCTION, A DIFFERENT SEQUENCE OF AMINO ACIDS\nD. MAIN USES:, R PROTEIN, A T C G C T A G T T A C G C T G C T T C G T A G, CARRY OUT, A PARTICULAR FUNCTION, A UNIQUE SHAPE, A DIFFERENT SEQUENCE OF AMINO ACIDS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'A PARTICULAR FUNCTION, THE STRUCTURE OF DNA, A PROTEIN, A DIFFERENT SEQUENCE OF AMINO ACIDS, A UNIQUE SHAPE, CARRY OUT' displayed inside [[70, 764], [1084, 764], [1084, 1002], [70, 1002]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Words inscribed at [[166, 36], [1752, 36], [1752, 252], [166, 252]] read: ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "A T C G C T A G T T A C G C T G C T T C G T A G"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a gap in the text at [[322,457], [556,457], [556,504], [322,504]] — what character(s) should go there: PR____INS?",
+              "answer": "OTE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text visible in [[70, 36], [1752, 36], [1752, 1002], [70, 1002]]. Options:\nA. CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS, PROTEINS:, A PROTEIN, A T C G C T A G T T A C G C T G C T T C G T A G, A PARTICULAR FUNCTION, IHE STRUCTURE OF DNA, MAIN USES:\nB. A PROTEIN, CARRY OUT, R PARTICULAR FUNCTION, PROTEINS:, MAIN USES:, A UNIQUE SHAPE, THE STRUCTURE OF DNA, A T C G C T A G T T A C G C T G C T T C G T A G\nC. CARRY OUT, A UNIQUE SHAPE, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PROTEIN, THE STRUCTURE OF DNA, A PARTICULAR FUNCTION, PROTEINS:, A T C G C T A G T T A C G C T G C T T C G T A G\nD. THE STRUCTURE OF DNA, A PARTICULAR FUNCTION, CAPRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS, A UNIQUE SHAPE, A T C G C T A G T T A C G C T G C T T C G T A G, A PROTEIN, MAIN USES:",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the box at [[70, 764], [1084, 764], [1084, 1002], [70, 1002]] contain the label(s) 'A PARTICULAR FUNCTION, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PROTEIN, CARRY OUT'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text enclosed by [[165, 922], [701, 922], [701, 1002], [165, 1002]]: ________.",
+              "answer": [
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Name the missing word at [[70,764], [774,764], [774,792], [70,792]] that completes: A DIFFERENT SEQUE____ OF AMINO ACIDS.",
+              "answer": "NCE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify which option below matches the text at [[70, 36], [1752, 36], [1752, 1002], [70, 1002]]. Options:\nA. CAPRY OUT, A UNIQUE SHAPE, A PARTICULAR FUNCTION, MAIN USES:, A DIFFERENT SEQUENCE OF AMINO ACIDS, A T C G C T A G T T A C G C T G C T T C G T A G, PROTEINS:, A PROTEIN\nB. CARRY OUT, PROTEINS:, A PARTICULAR FUNCTION, A UNIQUE SHAPE, MAIN USES:, THE STRUCTURE OF DNA, A PROTEIN, H T C G C T A G T T A C G C T G C T T C G T A G\nC. A T C G C T A G T T A C G C T G C T T C G T A G, A PARTICULAR FUNCTION, A UNIQUE SHAPE, PROTEINS:, THE STRUCTURE OF DNA, MAIN USES:, A DIFFERENT SEQUENCE OF AMINO ACIDS, CARRY OUT\nD. A DIFFERENT SEQUENCE OF AMINO ACIDS, MRIN USES:, PROTEINS:, THE STRUCTURE OF DNA, A PARTICULAR FUNCTION, A UNIQUE SHAPE, A PROTEIN, CARRY OUT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'A T C G C T A G T T A C G C T G C T T C G T A G, CARRY OUT, MAIN USES:, A PARTICULAR FUNCTION, A PROTEIN, PROTEINS:, A UNIQUE SHAPE, A DIFFERENT SEQUENCE OF AMINO ACIDS' the text shown inside [[70, 452], [1582, 452], [1582, 1002], [70, 1002]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe whatever is written at [[70, 193], [1752, 193], [1752, 1002], [70, 1002]]: ________.",
+              "answer": [
+                "A T C G C T A G T T A C G C T G C T T C G T A G",
+                "PROTEINS:",
+                "MAIN USES:",
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[322,457], [556,457], [556,504], [322,504]], what letter(s) are needed to complete: PR____TEINS:",
+              "answer": "O"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[70, 36], [1752, 36], [1752, 1002], [70, 1002]] and pick the answer that matches its text. Options:\nA. A UNIQUE SHAPE, CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS, A T C G C T A G T T A C G C T G C T T C G T A G, MAIN USES:, THE STRUCTURE OF DNA, RROTEINS:, A PARTICULAR FUNCTION\nB. A UNIQUE SHAPE, A PARTICULAR FUNCTION, R PROTEIN, CARRY OUT, A T C G C T A G T T A C G C T G C T T C G T A G, A DIFFERENT SEQUENCE OF AMINO ACIDS, MAIN USES:, PROTEINS:\nC. A PROTEIN, CARRY OUT, PROTEINS:, MAIN USES:, A PARTICULAR FUNCTION, A T C G C T A G T T A C G C T G C T T C G T A G, A DIFFERENT SEQUENCE OF AMINO ACIDS, A UNIQUE SHAPE\nD. A DIFFERENT SEQUENCE OF AMINO ACIDS, A PARTICULAR FUNCTION, PPOTEINS:, MAIN USES:, A T C G C T A G T T A C G C T G C T T C G T A G, THE STRUCTURE OF DNA, A PROTEIN, A UNIQUE SHAPE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the bounding box [[70, 452], [1582, 452], [1582, 1002], [70, 1002]] contains 'A DIFFERENT SEQUENCE OF AMINO ACIDS, MAIN USES:, PROTEINS:, A PROTEIN, A T C G C T A G T T A C G C T G C T T C G T A G, A PARTICULAR FUNCTION, CARRY OUT, A UNIQUE SHAPE'.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down what you see written inside [[70, 36], [1752, 36], [1752, 1002], [70, 1002]]: ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "A T C G C T A G T T A C G C T G C T T C G T A G",
+                "PROTEINS:",
+                "MAIN USES:",
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[261,839], [654,840], [654,882], [260,879]] has a gap — what word completes A UNIQ____ SHAPE?",
+              "answer": "UE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly names the text found at [[70, 36], [1752, 36], [1752, 1002], [70, 1002]]? Options:\nA. A DIFFERENT SEQUENCE OF AMINO ACIDS, PROTEINS:, THE STRUCTURE OF DNA, CARRY OUT, H T C G C T A G T T A C G C T G C T T C G T A G, MAIN USES:, A PARTICULAR FUNCTION, A PROTEIN\nB. A PROTEIN, CARRY OUT, A T C G C T A G T T A C G C T G C T T C G T A G, PROTEINS:, A DIFFERENT SEQUENCE OF AMINO ACIDS, MAIN USES:, THE STRUCTURE OF DNA, A UNIQUE SHAPE\nC. R PROTEIN, A UNIQUE SHAPE, CARRY OUT, MAIN USES:, THE STRUCTURE OF DNA, A PARTICULAR FUNCTION, A T C G C T A G T T A C G C T G C T T C G T A G, A DIFFERENT SEQUENCE OF AMINO ACIDS\nD. MAIN USES:, R PARTICULAR FUNCTION, CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS, THE STRUCTURE OF DNA, A T C G C T A G T T A C G C T G C T T C G T A G, A UNIQUE SHAPE, A PROTEIN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'CARRY OUT, A PROTEIN, A PARTICULAR FUNCTION, A UNIQUE SHAPE' appears within the region [[70, 764], [1084, 764], [1084, 1002], [70, 1002]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe what's inside the marked region [[70, 36], [1752, 36], [1752, 1002], [70, 1002]]: ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "A T C G C T A G T T A C G C T G C T T C G T A G",
+                "PROTEINS:",
+                "MAIN USES:",
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Examine [[1321,452], [1582,457], [1581,505], [1320,500]] and complete the phrase: M____ USES:",
+              "answer": "AIN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the full image, which choice best matches the text shown at [[70, 764], [1084, 764], [1084, 1002], [70, 1002]]? Options:\nA. A UNIQUE SHAPE, CAPRY OUT, A PROTEIN, A PARTICULAR FUNCTION\nB. A PARTICULAR FUNCTION, CARRY OUT, THE STRUCTURE OF DNA, A PROTEIN\nC. CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PROTEIN, A UNIQUE SHAPE\nD. A T C G C T A G T T A C G C T G C T T C G T A G, A PARTICULAR FUNCTION, CARRY OUT, A UNIQUE SHAPE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'A PARTICULAR FUNCTION, MAIN USES:, A PROTEIN, CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS' is present within [[70, 452], [1582, 452], [1582, 1002], [70, 1002]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How does the text at [[70, 193], [1752, 193], [1752, 1002], [70, 1002]] read? ________",
+              "answer": [
+                "A T C G C T A G T T A C G C T G C T T C G T A G",
+                "PROTEINS:",
+                "MAIN USES:",
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What belongs in the blank to complete the phrase at [[1321,452], [1582,457], [1581,505], [1320,500]]: M____ USES:",
+              "answer": "AIN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[70, 36], [1752, 36], [1752, 1002], [70, 1002]] matches which of these options? Options:\nA. A DIFFERENT SEQUENCE OF AMINO ACIDS, THE STRUCTURE OF DNA, A T C G C T A G T T A C G C T G C T T C G T A G, PROTEINS:, R PARTICULAR FUNCTION, A UNIQUE SHAPE, A PROTEIN, CARRY OUT\nB. PROTEINS:, A PARTICULAR FUNCTION, CAPRY OUT, THE STRUCTURE OF DNA, MAIN USES:, A UNIQUE SHAPE, A PROTEIN, A T C G C T A G T T A C G C T G C T T C G T A G\nC. CARRY OUT, A PROTEIN, A T C G C T A G T T A C G C T G C T T C G T A G, PROTEINS:, A DIFFERENT SEQUENCE OF AMINO ACIDS, A UNIQUE SHAPE, MAIN USES:, A PARTICULAR FUNCTION\nD. PROTEINS:, A PROTEIN, A UNIQUE SHAPE, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PARTICULAR FUNCTION, A T C G C T A G T T A C G C T G C T T C G T A G, CARRY OUT, MRIN USES:",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'CARRY OUT, A PROTEIN, A PARTICULAR FUNCTION, A UNIQUE SHAPE' appearing inside the region [[70, 764], [1084, 764], [1084, 1002], [70, 1002]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_050/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_050/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside [[70, 452], [1582, 452], [1582, 1002], [70, 1002]]: ________",
+              "answer": [
+                "PROTEINS:",
+                "MAIN USES:",
+                "A DIFFERENT SEQUENCE OF AMINO ACIDS",
+                "A PROTEIN",
+                "A UNIQUE SHAPE",
+                "CARRY OUT",
+                "A PARTICULAR FUNCTION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1321,452], [1582,457], [1581,505], [1320,500]], the text M____ USES: has a gap — what fills it?",
+              "answer": "AIN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices below, which one correctly identifies the text found at [[70, 764], [1084, 764], [1084, 1002], [70, 1002]]? Options:\nA. A PARTICULAR FUNCTION, A PROTEIN, CAPRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS\nB. A UNIQUE SHAPE, THE STRUCTURE OF DNA, CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS\nC. CARRY OUT, A DIFFERENT SEQUENCE OF AMINO ACIDS, A PARTICULAR FUNCTION, A UNIQUE SHAPE\nD. A UNIQUE SHAPE, A PROTEIN, CARRY OUT, R DIFFERENT SEQUENCE OF AMINO ACIDS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'A PROTEIN, A PARTICULAR FUNCTION, A DIFFERENT SEQUENCE OF AMINO ACIDS, A UNIQUE SHAPE, PROTEINS:' actually inside the bounding box [[70, 452], [1582, 452], [1582, 1002], [70, 1002]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_050"
+  }
+]

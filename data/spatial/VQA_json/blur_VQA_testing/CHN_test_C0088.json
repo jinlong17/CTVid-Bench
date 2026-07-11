@@ -1,0 +1,475 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text visible inside [[656, 30], [1465, 30], [1465, 215], [656, 215]]. ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[656,30], [1028,36], [1028,70], [656,63]] 区域内的文字中，\"欢迎光临华润____海中心\"里空白处应填入哪些字符？",
+              "answer": "前"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly identifies the text shown in [[1193, 107], [1465, 107], [1465, 215], [1193, 215]]. Options:\nA. 禁止通行\nB. 禁止過行\nC. 禁止過行\nD. 欢迎光临华润前海中心",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Ho Entry, 欢迎光临华润前海中心, 禁止通行' appear inside the box at [[656.0, 30.0], [1465.0, 30.0], [1465.0, 215.0], [656.0, 215.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can read in the region [[656, 34], [1461, 34], [1461, 221], [656, 221]]. ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[654,43], [1028,50], [1028,90], [654,83]] 内的文字，\"欢迎光临华润前____中心\"中少了哪些字符？",
+              "answer": "海"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[1193, 111], [1461, 111], [1461, 221], [1193, 221]], which answer correctly names the text there? Options:\nA. 禁止過行\nB. 欢迎光临华润前海中心\nC. 禁止過行\nD. 禁止通行",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '欢迎光临华润前海中心, 禁止通行, Ho Entry' — are they found inside [[656.0, 34.0], [1461.0, 34.0], [1461.0, 221.0], [656.0, 221.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears in the box at [[654, 37], [1458, 37], [1458, 227], [654, 227]]? ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请问 [[650,55], [1022,62], [1022,97], [650,91]] 处的短语\"欢迎光临华润前____中心\"中，空缺的部分是哪个字或词？",
+              "answer": "海"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that matches the text visible in [[1192, 119], [1458, 119], [1458, 227], [1192, 227]]. Options:\nA. 禁止過行\nB. 禁止通行\nC. 欢迎光临华润前海中心\nD. Ho Entry",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: are 'No Entry, 禁止通行' the label(s) shown at [[654.0, 37.0], [1458.0, 37.0], [1458.0, 227.0], [654.0, 227.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out whatever word(s) are written inside [[652, 35], [1458, 35], [1458, 227], [652, 227]]. ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[1221,226], [1373,233], [1371,269], [1219,262]] reads \"No En____\" — what belongs in the gap?",
+              "answer": "try"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[1192, 119], [1458, 119], [1458, 227], [1192, 227]] — which of these options matches it? Options:\nA. 禁止過行\nB. 禁止通行\nC. 欢迎光临华润前海中心\nD. Ho Entry",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You see 'No Entry, 禁止通行, 欢迎光临华润前海中心' at [[1192, 119], [1458, 119], [1458, 227], [1192, 227]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) printed inside the region [[654, 39], [1458, 39], [1458, 229], [654, 229]]. ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "对于 [[605,101], [974,109], [973,149], [604,141]] 处的文字，短语\"欢____光临华润前海中心\"中填缺的内容是什么？",
+              "answer": "迎"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at area [[1192, 121], [1458, 121], [1458, 229], [1192, 229]], pick the option that shows the same text. Options:\nA. No Entry\nB. Ho Entry\nC. 欢迎光临华润前海中心\nD. 禁止過行",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At location [[654.0, 39.0], [1458.0, 39.0], [1458.0, 229.0], [654.0, 229.0]], do the label(s) '欢迎光临华润前海中心, No Entry, 禁止週行' show up?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The box [[654, 41], [1458, 41], [1458, 229], [654, 229]] — what word(s) does it contain? ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[1213,264], [1363,270], [1361,304], [1211,297]], the text reads \"____ Entry\" — fill in the missing word(s).",
+              "answer": "No"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What does the text in [[1194, 121], [1458, 121], [1458, 229], [1194, 229]] say? Find the right match. Options:\nA. 欢迎光临华润前海中心\nB. Ho Entry\nC. Ho Entry\nD. No Entry",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[654.0, 41.0], [1458.0, 41.0], [1458.0, 229.0], [654.0, 229.0]] show the label(s) 'No Entry, 禁止通行'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in the region [[654, 41], [1461, 41], [1461, 229], [654, 229]], what word(s) are written there? ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[656,157], [1026,159], [1026,195], [656,193]] 区域内有一处短语\"欢迎光临华润____海中心\"，请问空白处应填入哪个字符？",
+              "answer": "前"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[1193, 119], [1461, 119], [1461, 229], [1193, 229]], which of the following options correctly identifies the text(s) there? Options:\nA. 禁止過行\nB. 禁止過行\nC. No Entry\nD. 欢迎光临华润前海中心",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'No Entry' appear inside [[1193, 119], [1461, 119], [1461, 229], [1193, 229]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you see inside [[654, 43], [1461, 43], [1461, 231], [654, 231]]. ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"____ Entry\" appears at [[1261,321], [1419,328], [1417,362], [1259,355]] — what word fills the blank?",
+              "answer": "No"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text shown in region [[1195, 121], [1461, 121], [1461, 231], [1195, 231]] and pick the matching option. Options:\nA. Ho Entry\nB. 欢迎光临华润前海中心\nC. 禁止通行\nD. Ho Entry",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find the label(s) '禁止通行, 欢迌光临华润前海中心, No Entry' somewhere in [[654.0, 43.0], [1461.0, 43.0], [1461.0, 231.0], [654.0, 231.0]] — yes or no?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible in the area [[654, 43], [1461, 43], [1461, 231], [654, 231]]. ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1293,321], [1443,328], [1441,364], [1291,357]], part of the phrase \"N____ Entry\" is missing — what goes in the blank?",
+              "answer": "o"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) visible at [[1195, 121], [1461, 121], [1461, 231], [1195, 231]]? Options:\nA. 禁止通行\nB. Ho Entry\nC. 欢迎光临华润前海中心\nD. Ho Entry",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '禁止通行, No Entry, 欢迎光临华润前海中心' inside the region [[1195, 121], [1461, 121], [1461, 231], [1195, 231]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears inside [[654, 45], [1460, 45], [1460, 231], [654, 231]]? ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Glancing at [[1309,353], [1465,360], [1463,396], [1307,389]], what word fills the blank in \"No E____\"?",
+              "answer": "ntry"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly lists the text found at [[1196, 123], [1460, 123], [1460, 231], [1196, 231]]. Options:\nA. 禁止通行\nB. 欢迎光临华润前海中心\nC. 禁止過行\nD. 禁止過行",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '欢迎光临华润前海中心, No Entry' falls inside [[654.0, 45.0], [1460.0, 45.0], [1460.0, 231.0], [654.0, 231.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can read inside [[654, 43], [1463, 43], [1463, 231], [654, 231]]. ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[1258,320], [1518,320], [1518,383], [1258,383]] 位置的文字，短语\"禁止____行\"里空白处应填什么内容？",
+              "answer": "通"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text is displayed in the [[1195, 121], [1463, 121], [1463, 231], [1195, 231]] region? Pick the right answer. Options:\nA. Ho Entry\nB. 欢迎光临华润前海中心\nC. No Entry\nD. Ho Entry",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '禁止通行' — are they contained in [[1195, 121], [1463, 121], [1463, 231], [1195, 231]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0088/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0088/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "List the word(s) found in [[656, 43], [1463, 43], [1463, 231], [656, 231]]. ________",
+              "answer": [
+                "欢迎光临华润前海中心",
+                "禁止通行",
+                "No Entry"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1317,395], [1471,402], [1469,437], [1315,430]], there's a phrase that reads \"No En____\" — fill in the missing word.",
+              "answer": "try"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text visible at [[1195, 121], [1463, 121], [1463, 231], [1195, 231]], which of these options is the right match? Options:\nA. Ho Entry\nB. Ho Entry\nC. 欢迎光临华润前海中心\nD. No Entry",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'No Entry, 禁止通行' located inside [[656.0, 43.0], [1463.0, 43.0], [1463.0, 231.0], [656.0, 231.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0088"
+  }
+]

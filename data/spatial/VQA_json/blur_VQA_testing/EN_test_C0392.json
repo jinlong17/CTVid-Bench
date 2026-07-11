@@ -1,0 +1,515 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) can you read inside the box [[1344.4017094017095, 251.28205128205133], [1723.888888888889, 251.28205128205133], [1723.888888888889, 353.84615384615387], [1344.4017094017095, 353.84615384615387]]? The word(s) is/are ________.",
+              "answer": [
+                "National"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Read the text found at [[206,615], [521,611], [519,663], [203,666]] and fill in the gap: \"enter____e\".",
+              "answer": "pris"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the answer choices, which one contains the text(s) visible inside [[0, 262], [872, 262], [872, 1000], [0, 1000]]? Options:\nA. 3, ise, PROCEED, car needs, for your rental, PLEASE, 2, tbe 6th floor, 6AM-11PM, 1\nB. enterprise, 3, the 6th floor, 3.96, enterprise, to our booth on, PROCEED, 1, car needs, WELCOME TO\nC. car needs, ise, 3, PLEASE, National, 1, for your rental, 3.96, the 6th floor, to our booth on\nD. the 6th floor, PROCEED, 6AM-11PM, PLEASE, 3, ise, 6.93, l, for your rental, WELCOME TO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[0.0, 251.28205128205133], [1723.888888888889, 251.28205128205133], [1723.888888888889, 362.35955056179773], [0.0, 362.35955056179773]], would you find the label(s) 'National, 6.93, 2, 3, PLEASE, ise, 1, enterprise, 3.96'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) visible inside [[0, 251], [1724, 251], [1724, 1000], [0, 1000]]. The answer is ________.",
+              "answer": [
+                "1",
+                "2",
+                "3",
+                "3.96",
+                "6.93",
+                "ise",
+                "enterprise",
+                "National",
+                "WELCOME TO",
+                "enterprise",
+                "PLEASE",
+                "PROCEED",
+                "to our booth on",
+                "the 6th floor",
+                "for your rental",
+                "car needs",
+                "6AM-11PM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The rectangle at [[849,293], [883,293], [883,310], [849,310]] contains some text — what belongs in the blank of \"6.____\"?",
+              "answer": "93"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly lists the text(s) inside [[0, 262], [871, 262], [871, 1000], [0, 1000]]. Options:\nA. PROCEED, 6.93, PLEASE, Z, enterprise, to our booth on, car needs, 3.96, WELCOME TO, 1\nB. WELCOME TO, 3, 6.93, PLEASE, enterprise, for your rental, 2, 1, enterprise, PROCEED\nC. enterprise, WELCOME TO, for your rental, the 6th floor, National, ise, 3.96, to our booth on, 2, car needs\nD. enterprise, PROCEED, the 6th floor, car needs, for your rental, PLEASE, 3, WELCOME TO, 3.98, 1",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[0, 299], [871, 299], [871, 1000], [0, 1000]], is 'PROCEED, for your rental, enterprise, PLEASE, 3.96, National, car needs, 3, 6AM-11PM, WELCOME TO' one of the labels inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you see inside the bounding box [[1, 252], [870, 252], [870, 990], [1, 990]]: ________.",
+              "answer": [
+                "1",
+                "2",
+                "3",
+                "3.96",
+                "6.93",
+                "se",
+                "enterprise",
+                "WELCOME TO",
+                "enterprise",
+                "PLEASE",
+                "PROCEED",
+                "to our booth on",
+                "the 6th floor",
+                "for your rental",
+                "car needs",
+                "6AM-11PM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What letters are missing from the text at [[282,870], [475,869], [473,911], [279,910]]: \"c____ needs\"?",
+              "answer": "ar"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the choices and pick the one that matches the text(s) inside [[195, 548], [523, 548], [523, 990], [195, 990]]. Options:\nA. 6AM-11PM, WELCOME TO, the 6th floor, to our booth on, enterprise, RROCEED, PLEASE, for your rental\nB. car needs, PROCEED, PLEASE, to our booth on, the 6th floor, 1, 6AM-11PM, for your rental\nC. PLEASE, 6AM-11PM, PROCEED, WELCOME TO, to our booth on, tbe 6th floor, enterprise, for your rental\nD. WELCOME TO, 6AM-11PM, PROCEED, to our booth on, car needs, PLEASE, enterprise, for your rental",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[0.5641480730223325, 240.93722369584447], [1726.4750957854405, 240.93722369584447], [1726.4750957854405, 352.55397371714645], [0.5641480730223325, 352.55397371714645]], are those the label(s) '3.96, 1, National, 6.93, enterprise, 3' you see there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[-1.9539925233402755e-14, 237.03810664374242], [1716.0341511810284, 237.03810664374242], [1716.0341511810284, 985.9019349105557], [-1.9539925233402755e-14, 985.9019349105557]], what word(s) appear? The word(s) is/are ________.",
+              "answer": [
+                "1",
+                "2",
+                "3",
+                "3.96",
+                "6.93",
+                "se",
+                "enterprise",
+                "National",
+                "WELCOME TO",
+                "enterprise",
+                "PLEASE",
+                "PROCEED",
+                "to our booth on",
+                "the 6th floor",
+                "for your rental",
+                "car needs",
+                "6AM-11PM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the text at coordinates [[905,315], [915,315], [915,328], [905,328]], what goes in the blank: \"____\"?",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately represents the text(s) found inside [[0, 237], [1716, 237], [1716, 592], [0, 592]]. Options:\nA. se, enterprise, National, enterprise, 1, 2, 3, 6.93\nB. enterprise, National, 3.96, se, 3, 6.93, PLEASE, 2\nC. enterprise, National, se, 3.96, 3, 6.93, WFLCOME TO, 1\nD. National, 1, 3.96, 3, WELCOME TO, 2, 6.93, enterprise",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over in [[0, 291], [867, 291], [867, 986], [0, 986]], are the label(s) '3.96, 6.93, for your rental, 3, PROCEED, 6AM-11PM, WELCOME TO, PLEASE, enterprise, National' visible?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the bounding box [[1334.9392546520482, 232.53649892670063], [1714.4264341392275, 232.53649892670063], [1714.4264341392275, 335.1006014908032], [1334.9392546520482, 335.1006014908032]], name the word(s) you find there: ________.",
+              "answer": [
+                "National"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "That numeral at [[1029,322], [1039,322], [1039,335], [1029,335]] — what is it, completing \"____\"?",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and choose the option that lists the text(s) you'd find inside [[193, 540], [521, 540], [521, 981], [193, 981]]. Options:\nA. enterprise, WELCOME TO, the 6th floor, to our booth on, PLEASE, 6AM-11PM, PROCEED, car needs\nB. PLEASE, RROCEED, 6AM-11PM, to our booth on, WELCOME TO, the 6th floor, for your rental, enterprise\nC. WELCOME TO, 1, PLEASE, the 6th floor, PROCEED, to our booth on, car needs, enterprise\nD. WELCOME TO, PROCEED, PLEASE, to our booth on, the 6th floor, 6AM-11PM, fer your rental, car needs",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[0.0, 232.53649892670063], [1714.4264341392275, 232.53649892670063], [1714.4264341392275, 344.36646856420725], [0.0, 344.36646856420725]] — are the label(s) 'se, enterprise, 3.96, 1, 6.93, 2' sitting inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Examining region [[834.0001807078373, 224.59999099019268], [1717.7994500122436, 224.59999099019268], [1717.7994500122436, 327.1640935542952], [834.0001807078373, 327.1640935542952]], what word(s) can you make out? ________.",
+              "answer": [
+                "3.96",
+                "6.93",
+                "National"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is missing in the text at [[417,325], [550,325], [551,349], [416,350]] — what completes \"enter____ise\"?",
+              "answer": "pr"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text(s) inside [[196, 532], [525, 532], [525, 973], [196, 973]], which answer option is correct? Options:\nA. to our booth on, PLEASE, the 6th floor, enterprise, WELCOME TO, car needs, PROCEED, for your rental\nB. enterprise, for your rental, WELCOME TO, 1, 6AM-11PM, to our booth on, PLEASE, PROCEED\nC. to our booth on, PROCEED, car needs, PLEASE, enterprise, 2, for your rental, the 6th floor\nD. 6AM-11PM, the 6th floor, oar needs, for your rental, enterprise, PLEASE, PROCEED, WELCOME TO",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot check: can you find 'National, 2, se, 1, 3.96, 6.93' within the box defined by [[0.0, 224.59999099019268], [1717.7994500122436, 224.59999099019268], [1717.7994500122436, 336.4299606276993], [0.0, 336.4299606276993]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[1339.840654804541, 219.5781569290573], [1719.3278342917201, 219.5781569290573], [1719.3278342917201, 322.1422594931598], [1339.840654804541, 322.1422594931598]] — what word or words appear there? ________",
+              "answer": [
+                "National"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the blank: the text at [[898,836], [1186,836], [1184,881], [895,880]] reads \"for your ____\" — what word is missing?",
+              "answer": "rental"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text visible inside [[198, 530], [526, 530], [526, 968], [198, 968]]? Options:\nA. enterprise, 6AM-11PM, PLEASE, the 6th floor, WELCOME TO, RROCEED, to our booth on, for your rental\nB. the 6th floor, car needs, 6AM-11PM, WFLCOME TO, PROCEED, enterprise, PLEASE, to our booth on\nC. enterprise, car needs, PLEASE, the 6th floor, PROCEED, to our booth on, WELCOME TO, 6AM-11PM\nD. the 6th floor, PLEASE, 6AM-11PM, PROCEED, for your rental, to our booth on, 1, enterprise",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether the label(s) 'PLEASE, PROCEED, for your rental, 2, 6AM-11PM, se, the 6th floor, enterprise, 3.96, 1' appear inside the bounding box [[0, 274], [870, 274], [870, 968], [0, 968]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[0.0, 215.73200308290342], [1721.2509112147973, 215.73200308290342], [1721.2509112147973, 327.56197272041004], [0.0, 327.56197272041004]]. ________",
+              "answer": [
+                "1",
+                "2",
+                "3",
+                "3.96",
+                "6.93",
+                "se",
+                "enterprise",
+                "National"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1002,560], [1220,558], [1218,615], [1000,617]], what word or phrase fills \"P____SE\"?",
+              "answer": "LEA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that correctly shows the text from [[199, 526], [528, 526], [528, 965], [199, 965]]. Options:\nA. PLEASE, to our booth on, WELCOME TO, the 6th floor, 6AM-11PM, for your rental, 2, car needs\nB. enterprise, for your rental, 6AM-11PM, PROCEED, PLEASE, car needs, WELCOME TO, the 6th floor\nC. for your rental, 1, PROCEED, 6AM-11PM, WELCOME TO, PLEASE, enterprise, the 6th floor\nD. 6AM-11PM, enterprise, car needs, the 6th floor, for your rental, RLEASE, to our booth on, PROCEED",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'se, 6.93, National, 2, PROCEED, to our booth on, enterprise, WELCOME TO, 3, the 6th floor' fall within the bounding box [[0, 270], [872, 270], [872, 965], [0, 965]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text you can see inside [[1341.763731727618, 213.08650043740073], [1721.2509112147973, 213.08650043740073], [1721.2509112147973, 315.65060300150327], [1341.763731727618, 315.65060300150327]]. ________",
+              "answer": [
+                "National"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sequence reading \"____.96\" appears in bounding box [[1510,26], [1548,25], [1548,44], [1511,44]] — what number(s) are shown?",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best reflects what's written inside [[199, 524], [528, 524], [528, 962], [199, 962]]. Options:\nA. to our booth on, the 6th floor, 1, enterprise, PROCEED, car needs, for your rental, PLEASE\nB. the 6th floor, 6RM-11PM, WELCOME TO, to our booth on, enterprise, PROCEED, PLEASE, car needs\nC. PLEASE, to our booth on, the 6th floor, for your rental, enterprise, 6AM-11PM, car needs, PROCEED\nD. car needs, the 6th floor, for your rental, 6AM-11PM, PLEASE, enterprise, to our booth on, WFLCOME TO",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM' can be found inside [[enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM.470588235294enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PMenterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM78, 2enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM3.08650043740073], [enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM72enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM.2509enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PMenterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM2enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM47973, 2enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM3.08650043740073], [enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM72enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM.2509enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PMenterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM2enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM47973, 96enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM.9503287042enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM28], [enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM.470588235294enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PMenterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM78, 96enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM.9503287042enterprise, enterprise, PLEASE, the 6th floor, 6.93, National, WELCOME TO, car needs, for your rental, 6RM-11PM28]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[0.0, 213.48332583422615], [1725.8144032782893, 213.48332583422615], [1725.8144032782893, 360.566037735849], [0.0, 360.566037735849]] and write down the word(s) you find. ________",
+              "answer": [
+                "1",
+                "2",
+                "3",
+                "3.96",
+                "6.93",
+                "ise",
+                "enterprise",
+                "National",
+                "e"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[618,50], [686,50], [687,75], [618,76]], the text reads \"Ent____\" — can you fill in what's missing?",
+              "answer": "er"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options below, which one correctly captures the text at [[0, 225], [877, 225], [877, 962], [0, 962]]? Options:\nA. for your rental, to our booth on, 1, PLEASE, the 6th floor, 3.96, WELCOME TO, enterprise, Z, PROCEED\nB. PLEASE, enterprise, enterprise, 6RM-11PM, the 6th floor, WELCOME TO, 3.96, ise, 6.93, e\nC. the 6th floor, PLEASE, enterprise, 1, 3, to our booth on, ise, PROCEED, for your rental, enterprise\nD. to our booth on, 6AM-11PM, 2, enterprise, the 6th floor, National, e, for your rental, ise, 6.93",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is: do the label(s) 'car needs, WELCOME TO, the 6th floor, 3, to our booth on, 6AM-11PM, ise, PROCEED, 3.96, 2' sit inside the bounding box [[0, 268], [877, 268], [877, 962], [0, 962]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Jot down whatever word(s) you can spot at [[1356.8836530856804, 213.66350601440632], [1736.3708325728596, 213.66350601440632], [1736.3708325728596, 316.22760857850886], [1356.8836530856804, 316.22760857850886]]. ________",
+              "answer": [
+                "National"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Supply the missing word in this passage found at [[876,532], [1165,533], [1165,590], [872,587]]: \"6____-11PM\".",
+              "answer": "AM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text at [[0, 225], [883, 225], [883, 963], [0, 963]] and choose the matching option from the list. Options:\nA. WELCOME TO, for your rental, rise, car needs, 6AM-11PM, PLEASE, Z, 6.93, the 6th floor, 3\nB. rise, WELCOME TO, for your rental, 3.96, car needs, enterprise, PLEASE, 1, e, to our booth on\nC. PROCEED, enterprise, 6AM-11PM, for your rental, National, WELCOME TO, 3, rise, 3.96, 1\nD. PLEASE, car needs, tbe 6th floor, rise, enterprise, for your rental, WELCOME TO, 6AM-11PM, to our booth on, enterprise",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "If you look at [[0, 268], [883, 268], [883, 963], [0, 963]], do the label(s) '6AM-11PM, 3.96, to our booth on, WELCOME TO, 6.93, 1, rise, enterprise, PLEASE, enterprise' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0392/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0392/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write out the word(s) that appear at [[1359.4630181650457, 213.4650933159936], [1738.950197652225, 213.4650933159936], [1738.950197652225, 316.02919588009615], [1359.4630181650457, 316.02919588009615]]. ________",
+              "answer": [
+                "National"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Take a close look at [[876,296], [1166,297], [1164,354], [874,355]] and fill in \"PR____ED\" based on what you see.",
+              "answer": "OCE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, pick the one that accurately shows the text at [[3, 213], [1739, 213], [1739, 361], [3, 361]]. Options:\nA. 3, 3.96, enterprise, Z, rise, 1, National, 6.93\nB. 1, 3.96, 6.93, 3, 2, rise, enterprise, enterprise\nC. enterprise, 6.93, WELCOME TO, 3.96, rise, e, 1, National\nD. e, 3, 1, 3.96, National, 6.93, enterprise, rise",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'to our booth on, 1, rise, National, for your rental, 6AM-11PM, enterprise, 3, the 6th floor, 3.96' sitting inside the bounding box [[3, 268], [885, 268], [885, 962], [3, 962]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0392"
+  }
+]

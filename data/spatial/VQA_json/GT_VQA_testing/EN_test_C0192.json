@@ -1,0 +1,480 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside [[698, 155], [1108, 155], [1108, 614], [698, 614]]. ________",
+              "answer": [
+                "EXIT",
+                "PROiCON",
+                "(650)420-8117",
+                "TRANSPORTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[811,559], [1092,543], [1095,599], [814,614]], what digits fill in the gaps of the phone number (650)____-8117??",
+              "answer": "420"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best represents what's written in [[795, 410], [1108, 410], [1108, 614], [795, 614]]. Options:\nA. PROiCON, TRANSPORTATION\nB. (650)420-8117, PROiCON\nC. (650)420-8117, EXIT\nD. PRDiCON, TRANSPORTATION",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check if 'EXIT, TRANSPORTATION, (650)420-8117' falls inside the box defined by [[698.0, 155.0], [1108.0568720379147, 155.0], [1108.0568720379147, 614.0], [698.0, 614.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) you can read in [[698, 155], [1108, 155], [1108, 614], [698, 614]]. ________",
+              "answer": [
+                "EXIT",
+                "PROiCON",
+                "(650)420-8117",
+                "TRANSPORTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a word at [[751,129], [817,129], [817,157], [751,157]] meaning to depart or go out — how is it written: \"EX____\"?",
+              "answer": "IT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text visible at [[795, 410], [1108, 410], [1108, 614], [795, 614]], which answer choice is correct? Options:\nA. PROiCON, EXIT\nB. TRANSPORTATION, (650)420-8117\nC. TRANSPORTATION, (650)420-8117\nD. PRDiCON, (650)420-8117",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are you able to spot 'TRANSPOPTATION, PROiCON, EXIT, (650)420-8117' inside the box region [[698.0, 155.0], [1108.0568720379147, 155.0], [1108.0568720379147, 614.0], [698.0, 614.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside [[798, 405], [1110, 405], [1110, 615], [798, 615]]. ________",
+              "answer": [
+                "PROiCON",
+                "(650)420-8117",
+                "TRANSPORTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[884,528], [1198,520], [1198,580], [882,588]], the phone number (650)____-8117 has a gap — can you supply the missing digits?",
+              "answer": "420"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[798, 405], [1110, 405], [1110, 615], [798, 615]], which of these options correctly captures the text there? Options:\nA. (650)420-8117, TRANSPORTATION\nB. (650)420-8117, TRANSPORTATION\nC. PRDiCON, (650)420-8117\nD. PROiCON, EXIT",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think '(650)420-8117, TRANSPORTATION, FXIT, PROiCON' is enclosed within the bounding box [[703.4662379421221, 150.1768488745981], [1109.500915359214, 150.1768488745981], [1109.500915359214, 615.0830324909747], [703.4662379421221, 615.0830324909747]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) visible inside [[708, 147], [1119, 147], [1119, 609], [708, 609]]. ________",
+              "answer": [
+                "EXIT",
+                "PROiCON",
+                "(650)420-8117",
+                "TRANSPORTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[863,607], [1217,604], [1215,662], [862,669]], complete the phone number: (650)____0-8117?",
+              "answer": "42"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[807, 404], [1119, 404], [1119, 609], [807, 609]], pick the option that matches the text shown there. Options:\nA. PROiCON, (650)420-8117\nB. TRANSPORTATION, EXIT\nC. TRANSPORTATION, PROiCON\nD. TRANSPORTATION, PRDiCON",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'TRANSPORTATION, (650)420-8117, PROiCON' appear inside the area marked by [[708.2592662645623, 146.90887501838898], [1118.811260186801, 146.90887501838898], [1118.811260186801, 609.2209635254575], [708.2592662645623, 609.2209635254575]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[713, 143], [1123, 143], [1123, 609], [713, 609]] — what word(s) do you see? ________",
+              "answer": [
+                "EXIT",
+                "PROiCON",
+                "(650)420-8117",
+                "TRANSPORTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The rectangle at [[802,568], [1208,558], [1210,615], [802,626]] shows a transportation-related term partially hidden as \"TRANSP____\" — what is the complete word?",
+              "answer": "ORTATION"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text visible in [[810, 400], [1123, 400], [1123, 609], [810, 609]]? Options:\nA. (650)420-8117, PROiCON\nB. TRANSPOPTATION, PROiCON\nC. (650)420-8117, PROiCON\nD. (650)420-8117, EXIT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'EXIT, (650)420-8117, TRANSPOPTATION, PROiCON' anywhere inside [[712.7447543912112, 142.95109137722804], [1122.8313606893137, 142.95109137722804], [1122.8313606893137, 608.7184509626434], [712.7447543912112, 608.7184509626434]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can find inside [[714, 142], [1126, 142], [1126, 607], [714, 607]]. ________",
+              "answer": [
+                "EXIT",
+                "PROiCON",
+                "(650)420-8117",
+                "TRANSPORTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign at [[747,82], [820,83], [819,114], [742,114]] reads \"E____T\" — what destination is being indicated?",
+              "answer": "XI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer choice that correctly identifies the text found in [[814, 400], [1126, 400], [1126, 607], [814, 607]]. Options:\nA. TRANSPORTATION, (650)420-8117\nB. TRANSPOPTATION, PROiCON\nC. (650)420-8117, EXIT\nD. (650)420-8117, TRANSPOPTATION",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are 'TRANSPORTATION, PROiCON, EXIT' the label(s) you'd find if you looked at [[714.1836033120745, 141.51224245636473], [1126.131690722317, 141.51224245636473], [1126.131690722317, 607.0682859461417], [714.1836033120745, 607.0682859461417]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at the region [[720, 139], [786, 139], [786, 167], [720, 167]], fill in the word(s) you see. ________",
+              "answer": [
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word for transporting people or goods appears as \"TRANSPORT____\" in the region [[806,544], [1251,532], [1252,594], [807,605]] — how do you complete it?",
+              "answer": "ATION"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[820, 399], [1134, 399], [1134, 607], [820, 607]] matches which of the following options? Options:\nA. PROiCON, TRANSPOPTATION\nB. PRDiCON, TRANSPORTATION\nC. (650)420-8117, EXIT\nD. TRANSPORTATION, (650)420-8117",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect 'PROiCON, TRANSPORTATION, (650)420-8117' to sit inside [[720.1906704498837, 138.68538733268983], [1133.905542312423, 138.68538733268983], [1133.905542312423, 606.7149290556823], [720.1906704498837, 606.7149290556823]] — agree or disagree?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible at [[728, 135], [1158, 135], [1158, 609], [728, 609]]. ________",
+              "answer": [
+                "EXIT",
+                "TRANSPORTATION",
+                "PROiCON",
+                "(650)420-8117"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The area [[784,375], [1279,366], [1280,524], [787,529]] shows a sequence with gaps: \"PROi____ON\" — which character(s) are missing?",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that best captures the text shown in [[808, 388], [1158, 388], [1158, 609], [808, 609]]. Options:\nA. (650)420-8117, TRANSPOPTATION\nB. EXIT, PROiCON\nC. PROiCON, (650)420-8117\nD. (650)420-8117, PROiCON",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Taking a look at [[808, 388], [1158, 388], [1158, 609], [808, 609]], does it contain the label(s) 'TRANSPORTATION, PROiCON'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) written inside [[736, 133], [1162, 133], [1162, 606], [736, 606]]. ________",
+              "answer": [
+                "EXIT",
+                "TRANSPORTATION",
+                "PROiCON",
+                "(650)420-8117"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phone number at [[851,632], [1323,628], [1323,708], [854,711]] reads (650)____-8117? — what digits complete it?",
+              "answer": "420"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text visible in [[812, 389], [1162, 389], [1162, 606], [812, 606]], pick the matching answer. Options:\nA. (650)420-8117, TRANSPORTATION\nB. TRANSPORTATION, (650)420-8117\nC. PROiCON, EXIT\nD. (650)420-8117, PROiCON",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scanning [[735.9871490067192, 132.98953354802856], [1161.6100536333988, 132.98953354802856], [1161.6100536333988, 605.8073473265013], [735.9871490067192, 605.8073473265013]], are the label(s) '(650)420-8117, PROiCON, TRANSPORTATION, FXIT' present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text you find in the area [[743, 130], [809, 130], [809, 158], [743, 158]]. ________",
+              "answer": [
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1019,459], [1514,449], [1514,607], [1021,613]], a word appears as \"PROi____\" with some characters missing — what are they?",
+              "answer": "CON"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which one reflects the text that appears in [[812, 389], [1162, 389], [1162, 606], [812, 606]]? Options:\nA. (650)420-8117, EXIT\nB. PROiCON, (650)420-8117\nC. (650)420-8117, TRANSPORTATION\nD. TRANSPOPTATION, (650)420-8117",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at region [[743.1111595608089, 129.82330663509978], [1161.6100536333988, 129.82330663509978], [1161.6100536333988, 606.3350518119894], [743.1111595608089, 606.3350518119894]], do you see the label(s) '(650)420-8117, TRANSPORTATION, EXIT' there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the word(s) visible in the region [[751, 129], [1183, 129], [1183, 609], [751, 609]]. ________",
+              "answer": [
+                "EXIT",
+                "TRANSPORTATION",
+                "PROiCON",
+                "(650)420-8117"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word at [[1257,460], [1752,451], [1753,609], [1260,615]] relates to safeguarding and reads \"PROi____\" — what are the missing character(s)?",
+              "answer": "CON"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text(s) appearing inside [[833, 390], [1183, 390], [1183, 609], [833, 609]]. Options:\nA. (650)420-8117, TRANSPORTATION\nB. TRANSPORTATION, (650)420-8117\nC. EXIT, PROiCON\nD. (650)420-8117, TRANSPOPTATION",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot check: do you see 'PROiCON, EXIT, (650)420-8117, TRANSPORTATION' anywhere in the area defined by [[751.1239800736294, 128.86176817356133], [1183.4049254282675, 128.86176817356133], [1183.4049254282675, 609.0377545146921], [751.1239800736294, 609.0377545146921]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0192/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0192/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can find at [[752, 126], [1183, 126], [1183, 611], [752, 611]]. ________",
+              "answer": [
+                "EXIT",
+                "PROiCON",
+                "(650)420-8117",
+                "TRANSPORTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phone number at [[1359,664], [1875,682], [1874,765], [1353,750]] reads (650)____-8117 — what are the missing digits?",
+              "answer": "420"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer choice that contains the text(s) from [[833, 390], [1183, 390], [1183, 611], [833, 611]]. Options:\nA. EXIT, (650)420-8117\nB. TRANSPORTATION, (650)420-8117\nC. TRANSPOPTATION, (650)420-8117\nD. (650)420-8117, TRANSPORTATION",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify this: the label(s) '(650)420-8117, TRANSPORTATION' appear within [[833, 390], [1183, 390], [1183, 611], [833, 611]]. Right or wrong?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0192"
+  }
+]

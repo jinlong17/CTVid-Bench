@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[889.7619047619048, 411.42857142857144], [1179.047619047619, 411.42857142857144], [1179.047619047619, 1044.7619047619048], [889.7619047619048, 1044.7619047619048]] and tell me what text appears there. ________",
+              "answer": [
+                "售票乘车大厅",
+                "花台索道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考[[1075,411], [1179,417], [1164,1045], [1062,1041]]框内的文字，将\"售票____车大厅\"中的空白填写完整。",
+              "answer": "乘"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the answer choices, which one lists the text visible in [[890, 431], [1045, 431], [1045, 1041], [890, 1041]]? Options:\nA. 花台索遒\nB. 花台索道\nC. 售票乘车大厅\nD. 花台索遒",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '售票乘车大厛, 花台索道' — do they appear inside [[889.7619047619048, 411.42857142857144], [1179.047619047619, 411.42857142857144], [1179.047619047619, 1044.7619047619048], [889.7619047619048, 1044.7619047619048]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[884, 416], [1178, 416], [1178, 1047], [884, 1047]] — what word(s) show up there? The answer is ________.",
+              "answer": [
+                "售票乘车大厅",
+                "花台索道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看一看[[1035,418], [1140,410], [1128,1044], [1020,1040]]里的文字，把\"售票乘____大厅\"补充完整。",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick out the option that best captures what's written in [[884, 416], [1178, 416], [1178, 1047], [884, 1047]]. Options:\nA. 售票乘车大厮\nB. 花台索遒\nC. 售票乘车大厛\nD. 售票乘车大厅",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[883.8095238095239, 416.1904761904762], [1177.857142857143, 416.1904761904762], [1177.857142857143, 1047.142857142857], [883.8095238095239, 1047.142857142857]], can the label(s) '花台索道' be found?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the text visible inside [[875, 419], [1170, 419], [1170, 1050], [875, 1050]]. The answer is ________.",
+              "answer": [
+                "售票乘车大厅",
+                "花台索道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[977,412], [1090,403], [1068,1036], [956,1036]]区域内的文字内容，将\"售票____车大厅\"的缺失部分填写出来。",
+              "answer": "乘"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that correctly names the text inside [[875, 419], [1170, 419], [1170, 1050], [875, 1050]]. Options:\nA. 售票乘车大厅\nB. 售票乘车大厛\nC. 茌台索道\nD. 花台索遒",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are '售票乘车大厅' among the labels you'd find inside [[875.4761904761905, 418.57142857142856], [1169.5238095238096, 418.57142857142856], [1169.5238095238096, 1049.5238095238094], [875.4761904761905, 1049.5238095238094]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text found in [[868, 421], [1165, 421], [1165, 1052], [868, 1052]]. The answer is ________.",
+              "answer": [
+                "售票乘车大厅",
+                "花台索道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[896,400], [998,392], [989,1025], [874,1026]]处的文字，把\"售____乘车大厅\"中缺失的内容填上。",
+              "answer": "票"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written inside [[868, 434], [1029, 434], [1029, 1045], [868, 1045]]? Select the option that matches. Options:\nA. 花台索遒\nB. 售票乘车大厅\nC. 花台索道\nD. 花台索遒",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '售票乘车大厅, 花台索遒' as label(s) anywhere within [[868.3333333333334, 420.95238095238096], [1164.7619047619048, 420.95238095238096], [1164.7619047619048, 1051.904761904762], [868.3333333333334, 1051.904761904762]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[868.3333333333334, 417.38095238095235], [1163.5714285714287, 417.38095238095235], [1163.5714285714287, 1049.5238095238094], [868.3333333333334, 1049.5238095238094]], which option best describes the text found there? ________",
+              "answer": [
+                "售票乘车大厅",
+                "花台索道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看看[[640,1030], [936,1030], [935,1072], [636,1075]]框内写了什么，把\"____ Ropeway\"中空缺的文字补上。",
+              "answer": "Huatai"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[868, 417], [1164, 417], [1164, 1050], [868, 1050]], which answer option lists the text you see there? Options:\nA. 售票乘车大厮\nB. 啬票乘车大厅\nC. 售票乘车大厅\nD. 售票乘车大厛",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would the label(s) '花台索道' show up inside [[868.3333333333334, 417.38095238095235], [1163.5714285714287, 417.38095238095235], [1163.5714285714287, 1049.5238095238094], [868.3333333333334, 1049.5238095238094]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you notice inside [[864, 416], [1160, 416], [1160, 1046], [864, 1046]]. The answer is ________.",
+              "answer": [
+                "花台索道",
+                "售票乘车大厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[749,378], [852,367], [849,1010], [728,1011]]所示区域内的文本，请补出\"售____乘车大厅\"缺失的字符。",
+              "answer": "票"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region marked by [[864, 416], [1160, 416], [1160, 1046], [864, 1046]] — which of the following options matches the text found there? Options:\nA. 售票乘车大厮\nB. 花台索道\nC. 售票乘车大厛\nD. 花台索遒",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '花台索道' appears inside the bounding box [[863.5714285714286, 416.1904761904762], [1160.0, 416.1904761904762], [1160.0, 1045.952380952381], [863.5714285714286, 1045.952380952381]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside [[860, 416], [1158, 416], [1158, 1045], [860, 1045]] and fill in the blank: ________.",
+              "answer": [
+                "花台索道",
+                "售票乘车大厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[508,1034], [814,1028], [808,1078], [504,1079]]位置的文本，将词组\"Huatai ____way\"补充完整。",
+              "answer": "Rope"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[860, 426], [1020, 426], [1020, 1042], [860, 1042]] and pick the option that matches what's written there. Options:\nA. 售票乘车大厅\nB. 花台索遒\nC. 花台索道\nD. 花台索遒",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[860.0, 416.1904761904762], [1157.6190476190477, 416.1904761904762], [1157.6190476190477, 1044.7619047619048], [860.0, 1044.7619047619048]], do you see the label(s) '售票乘车大厅'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text inside [[859, 414], [1149, 414], [1149, 1048], [859, 1048]] and write your answer here: ________.",
+              "answer": [
+                "花台索道",
+                "售票乘车大厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[667,1051], [745,1048], [747,1079], [667,1079]]区域内的文字，填入\"e____a\"中缺失的字母。",
+              "answer": "w"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly reflects the text shown in [[859, 428], [1021, 428], [1021, 1041], [859, 1041]]? Options:\nA. 花台索遒\nB. 花台索道\nC. 售票乘车大厅\nD. 花台索遒",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: are the label(s) '花台索遒, 售票乘车大厅' visible inside the bounding box at [[858.8095238095239, 413.8095238095238], [1149.2857142857142, 413.8095238095238], [1149.2857142857142, 1048.3333333333333], [858.8095238095239, 1048.3333333333333]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[853, 411], [1153, 411], [1153, 1042], [853, 1042]] — what word(s) can you see there? Answer: ________.",
+              "answer": [
+                "花台索道",
+                "售票乘车大厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察[[427,406], [565,396], [547,1039], [391,1038]]范围内的文字，补全词组\"花____索道\"。",
+              "answer": "台"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, select the one that captures the text visible at [[853, 425], [1013, 425], [1013, 1040], [853, 1040]]. Options:\nA. 花台索遒\nB. 售票乘车大厅\nC. 花台索道\nD. 花台索遒",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the region [[852.8571428571429, 411.42857142857144], [1152.857142857143, 411.42857142857144], [1152.857142857143, 1042.3809523809523], [852.8571428571429, 1042.3809523809523]]: would you say the label(s) '售票乘车大厅' fall inside that bounding box?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text do you see enclosed in [[850, 415], [1145, 415], [1145, 1041], [850, 1041]]? Fill in: ________.",
+              "answer": [
+                "花台索道",
+                "售票乘车大厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据[[527,418], [639,409], [619,1053], [499,1054]]框内的文字内容，将\"售票乘____厅\"补充完整。",
+              "answer": "车大"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text at [[850, 425], [1010, 425], [1010, 1040], [850, 1040]], which answer option is the right match? Options:\nA. 花台索遒\nB. 售票乘车大厅\nC. 花台索道\nD. 花台索遒",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at bounding box [[850.4761904761905, 415.0], [1144.5238095238096, 415.0], [1144.5238095238096, 1041.1904761904761], [850.4761904761905, 1041.1904761904761]], do the label(s) '花台索道' appear within it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can find inside [[849, 410], [1140, 410], [1140, 1044], [849, 1044]]: ________.",
+              "answer": [
+                "花台索道",
+                "售票乘车大厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看一看[[315,459], [448,455], [430,1079], [285,1079]]框内的文字，把词组\"花台索____\"里空缺的部分填上。",
+              "answer": "道"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[849, 423], [1006, 423], [1006, 1042], [849, 1042]] matches which of the following options? Options:\nA. 花台索遒\nB. 售票乘车大厅\nC. 花台索遒\nD. 花台索道",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is: can the label(s) '售票乘车大厅' be found within [[849.2857142857143, 410.23809523809524], [1139.7619047619048, 410.23809523809524], [1139.7619047619048, 1043.5714285714284], [849.2857142857143, 1043.5714285714284]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0025/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0025/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[846, 409], [1136, 409], [1136, 1040], [846, 1040]], there's some text — what does it say? ________.",
+              "answer": [
+                "花台索道",
+                "售票乘车大厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "结合[[258,476], [398,465], [395,935], [250,948]]区域所呈现的文字，完成\"花____索\"中的填空。",
+              "answer": "台"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly identifies the text found inside [[846, 409], [1136, 409], [1136, 1040], [846, 1040]]? Options:\nA. 售票乘车大厮\nB. 售票乘车大厛\nC. 花台索道\nD. 花台索遒",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether the label(s) '花台索道' appear inside the bounding box [[845.7142857142858, 409.04761904761904], [1136.1904761904761, 409.04761904761904], [1136.1904761904761, 1040.0], [845.7142857142858, 1040.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0025"
+  }
+]

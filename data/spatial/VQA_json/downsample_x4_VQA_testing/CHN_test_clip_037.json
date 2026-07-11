@@ -1,0 +1,749 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can see inside [[81, 14], [1869, 14], [1869, 326], [81, 326]]: ________.",
+              "answer": [
+                "621",
+                "622",
+                "623",
+                "624",
+                "HTTP请求里加上",
+                "625",
+                "const subreq = params.request.headers['x-middleware-subrequest']",
+                "626",
+                "const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]",
+                "X-middleware-subrequest",
+                "627",
+                "624",
+                "628",
+                "let result: FetchEventResult | null = null",
+                "625",
+                "629",
+                "626",
+                "for (const middleware of this.middleware || []）{",
+                "@@ -639,6 +643,14 @@ export default class Server{",
+                "622",
+                "623",
+                "630"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sequence \"6____7\" appears at [[162,169], [198,169], [198,195], [162,195]] — what digit(s) should fill the blank(s)?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[81, 44], [1869, 44], [1869, 1080], [81, 1080]], which of the following options matches the text there? Options:\nA. 639, for (const middleware of this.middleware || []）{, 656, 650, 626, 622, 629, 654, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], continue\nB. serverless: this._isLikeServerless,, 627, 642, 644, header条件成立, 至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事, result = {, 656, 625, 657\nC. 654, 629, 642, paths: middlewareInfo.paths,, 621, result = await run（{, @@ -639,6 +643,14 @@ export default class Server{, 639, 649, for (const middleware of this.middleware || []）{\nD. result = {, 624, 640, continue, 644, 823, 625, 622, HTTP请求里加上, const subreq = params.request.headers['x-middleware-subrequest']",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'response: NextResponse.next(),, for (const middleware of this.middleware || []）{, if (subrequests.includes(middlewareInfo.name)) {, header条件成立, 644, const subreq = params.request.headers['x-middleware-subrequest'], 647, 621, 622, 650' displayed inside the bounding box [[81, 14], [1869, 14], [1869, 578], [81, 578]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the text visible inside [[81, 14], [1869, 14], [1869, 1080], [81, 1080]]: ________.",
+              "answer": [
+                "621",
+                "622",
+                "623",
+                "624",
+                "HTTP请求里加上",
+                "625",
+                "const subreq = params.request.headers['x-middleware-subrequest']",
+                "626",
+                "const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]",
+                "X-middleware-subrequest",
+                "627",
+                "624",
+                "628",
+                "let result: FetchEventResult | null = null",
+                "625",
+                "629",
+                "626",
+                "for (const middleware of this.middleware || []）{",
+                "@@ -639,6 +643,14 @@ export default class Server{",
+                "serverless: this._isLikeServerless,",
+                "644",
+                "header条件成立",
+                "646",
+                "if (subrequests.includes(middlewareInfo.name)) {",
+                "result = {",
+                "response: NextResponse.next(),",
+                "waitUntil: Promise.resolve(),",
+                "650",
+                "continue",
+                "styfle marked this conversation as resolved.",
+                "Auth中间件被略过",
+                "652",
+                "653",
+                "CORS中间件被略过",
+                "654",
+                "result = await run（{",
+                "655",
+                "name: middlewareInfo.name,",
+                "paths: middlewareInfo.paths,",
+                "@@ -656,10 +668,6 @@ export default class Server {",
+                "656",
+                "668",
+                "658",
+                "至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事",
+                "622",
+                "623",
+                "630",
+                "639",
+                "640",
+                "641",
+                "643",
+                "645",
+                "647",
+                "648",
+                "649",
+                "651",
+                "656",
+                "642",
+                "643",
+                "644",
+                "657",
+                "659",
+                "660",
+                "661"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Take a look at the text at [[346,586], [432,586], [432,608], [346,608]] — what letters or characters complete \"cont____ue\"?",
+              "answer": "in"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches what's written at [[81, 14], [1869, 14], [1869, 1080], [81, 1080]]. Options:\nA. waitUntil: Promise.resolve(),, 654, 621, 658, Auth中间件被略过, X-middleware-subrequest, const subreq = params.request.headers['x-middleware-subrequest'], 626, 644\nB. 644, X-middleware-subrequest, const subreq = params.request.headers['x-middleware-subrequest'], Auth中间件被略过, 626, 854, waitUntil: Promise.resolve(),, 621, 659\nC. continue, 649, 639, 642, 651, 658, Auth中间件被略过, 646, 629, 656\nD. X-middleware-subrequest, 654, 621, Auth中间件被略过, 659, const subreq = params.request.headers['x-middleware-subrequest'], weitUntil: Promise.resolve(),, 626, 644",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Auth中间件被略过, header条件成立, paths: middlewareInfo.paths,, 654, @@ -639,6 +643,14 @@ export default class Server{, CORS中间件被略过, 656, 651, waitUntil: Promise.resolve(),, 652' appears inside the region [[82, 261], [1751, 261], [1751, 1080], [82, 1080]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text content of the bounding box at [[82, 643], [1751, 643], [1751, 1080], [82, 1080]]: ________.",
+              "answer": [
+                "styfle marked this conversation as resolved.",
+                "Auth中间件被略过",
+                "652",
+                "653",
+                "CORS中间件被略过",
+                "654",
+                "result = await run（{",
+                "655",
+                "name: middlewareInfo.name,",
+                "paths: middlewareInfo.paths,",
+                "@@ -656,10 +668,6 @@ export default class Server {",
+                "656",
+                "668",
+                "658",
+                "至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事",
+                "656",
+                "642",
+                "643",
+                "644",
+                "657",
+                "659",
+                "660",
+                "661"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[162,107], [198,107], [198,131], [162,131]] shows \"____25.\" with some digits obscured — which ones are they?",
+              "answer": "6"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[81, 14], [1869, 14], [1869, 1080], [81, 1080]] and select the option that accurately captures the text. Options:\nA. 630, serverless: this._isLikeServerless,, 647, 646, 645, 626, 658, Auth中间件被略过, 623, paths: middlewareInfo.paths,\nB. 626, name: middlewareInfo.name,, 057, 652, 623, let result: FetchEventResult | null = null, 658, waitUntil: Promise.resolve(),, 625\nC. 657, 625, 623, let result: FetchEventResult | null = null, 626, 650, 652, waitUntil: Promise.resolve(),, name: middlewareInfo.name,\nD. 857, 624, waitUntil: Promise.resolve(),, 625, let result: FetchEventResult | null = null, 626, 652, 658, name: middlewareInfo.name,",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '642, name: middlewareInfo.name,, 648, 623, 621, 652, let result: FetchEventResult | null = null, 659, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], 625' visible anywhere inside the box at [[81, 14], [1869, 14], [1869, 954], [81, 954]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Zoom into [[82, 862], [1751, 862], [1751, 1080], [82, 1080]] — what text do you read there? ________.",
+              "answer": [
+                "@@ -656,10 +668,6 @@ export default class Server {",
+                "656",
+                "668",
+                "658",
+                "至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事",
+                "657",
+                "659",
+                "660",
+                "661"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[83,261], [123,261], [123,285], [83,285]] the number \"62____\" is partially hidden — what should it say?",
+              "answer": "6"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one reflects the text shown at [[81, 14], [1869, 14], [1869, 1080], [81, 1080]]? Options:\nA. 623, 630, 652, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], X-middleware-subrequest, 660, response: NextResponse.next(),, 659, 649\nB. 621, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], 656, X-middleware-subrequest, 至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事, 641, 624, response: NextResponse.next(),, 625, 642\nC. 623, 652, 630, 656, X-middleware-subrequest, 659, 660, response: NextResponse.next(),, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]\nD. response: NextResponse.next(),, 643, X-middleware-subrequest, 630, 680, 652, 656, 623, 659",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[81, 14], [1869, 14], [1869, 609], [81, 609]] actually contain the label(s) '627, continue, 645, HTTP请求里加上, for (const middleware of this.middleware || []）{, 626, styfle marked this conversation as resolved., 630, let result: FetchEventResult | null = null, 625'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly names the word(s) shown at [[83.44341372912801, 14.0], [198.0, 14.0], [198.0, 68.57435522224249], [83.44341372912801, 68.57435522224249]]? ________.",
+              "answer": [
+                "621",
+                "622",
+                "622",
+                "623"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[1140,414], [1598,413], [1599,479], [1141,479]] 处的文字，补全短语 \"header____成立\" 中缺少的部分。",
+              "answer": "条件"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does the region [[81, 14], [1869, 14], [1869, 1080], [81, 1080]] contain — can you spot it among these options? Options:\nA. CORS中间件被略过, 644, 656, 623, result = await run（{, 645, if (subrequests.includes(middlewareInfo.name)) {, 650, 639, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]\nB. continue, 661, 623, 652, 644, 622, fov (const middleware of this.middleware || []）{, X-middleware-subrequest, 657\nC. 822, 623, 624, for (const middleware of this.middleware || []）{, 644, X-middleware-subrequest, 657, 652, continue\nD. 652, 623, X-middleware-subrequest, 622, 644, 624, fer (const middleware of this.middleware || []）{, 661, 657",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'let result: FetchEventResult | null = null, 651, 648, 647, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], 639, result = await run（{, @@ -639,6 +643,14 @@ export default class Server{, 627, 622' is present within the bounding box [[81, 14], [1869, 14], [1869, 609], [81, 609]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look carefully at [[81.29577464788733, 14.0], [1869.056603773585, 14.0], [1869.056603773585, 254.59154929577466], [81.29577464788733, 254.59154929577466]] — which answer choice matches the word(s) there? ________.",
+              "answer": [
+                "621",
+                "622",
+                "623",
+                "624",
+                "HTTP请求里加上",
+                "625",
+                "const subreq = params.request.headers['x-middleware-subrequest']",
+                "626",
+                "const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]",
+                "X-middleware-subrequest",
+                "627",
+                "624",
+                "628",
+                "let result: FetchEventResult | null = null",
+                "625",
+                "629",
+                "622",
+                "623"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Based on what's shown at [[160,261], [198,261], [198,285], [160,285]], what number(s) complete the partial text \"6____\"?",
+              "answer": "30"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the content at [[81, 14], [1869, 14], [1869, 609], [81, 609]], which option here gets it right? Options:\nA. HTTP请求里加上, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], 844, 651, 625, 640, 648, 625, header条件成立, const subreq = params.request.headers['x-middleware-subrequest']\nB. 651, let result: FetchEventResult | null = null, 846, 626, 640, X-middleware-subrequest, 624, 622, 645, 627\nC. if (subrequests.includes(middlewareInfo.name)) {, 639, styfle marked this conversation as resolved., 628, HTTP请求里加上, header条件成立, @@ -639,6 +643,14 @@ export default class Server{, 625, 646, 625\nD. 648, waitUntil: Promise.resolve(),, response: NextResponse.next(),, 649, header条件成立, 640, 641, 626, 647, 644",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'X-middleware-subrequest, 645, 652, 626, Auth中间件被略过, waitUntil: Promise.resolve(),, name: middlewareInfo.name,, 668, 650, 644' can be seen inside the bounding box [[81, 79], [1869, 79], [1869, 1080], [81, 1080]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) that appear in the region [[84.0, 14.0], [198.0, 14.0], [198.0, 38.0], [84.0, 38.0]]. ________.",
+              "answer": [
+                "621",
+                "622"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the code shown at [[360,521], [666,522], [666,550], [360,550]], what function name fills the blank in \"waitUntil: Pr____.resolve()\"?",
+              "answer": "omise"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify which answer choice contains the text visible inside [[81, 14], [1869, 14], [1869, 609], [81, 609]]? Options:\nA. 627, 645, response: NextResponse.next(),, X-middleware-subrequest, 823, 622, result = {, @@ -639,6 +643,14 @@ export default class Server{, 626, const subreq = params.request.headers['x-middleware-subrequest']\nB. 649, 625, const subreq = params.request.headers['x-middleware-subrequest'], waitUntil: Promise.resolve(),, 651, 629, 630, serverless: this._isLikeServerless,, 625, 647\nC. 650, 644, styfle marked this conversation as resolved., X-middleware-subrequest, 626, 639, 628, 649, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], 625\nD. continue, 821, 622, 641, header条件成立, let result: FetchEventResult | null = null, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], HTTP请求里加上, 647, result = {",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[81, 14], [1869, 14], [1869, 822], [81, 822]] contain the label(s) '630, 629, 649, result = await run（{, paths: middlewareInfo.paths,, 628, X-middleware-subrequest, HTTP请求里加上, 651, 640'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) can be found inside [[82.35211267605634, 552.0], [1750.748031496063, 552.0], [1750.748031496063, 1080.0], [82.35211267605634, 1080.0]]? Select the correct answer.",
+              "answer": [
+                "650",
+                "continue",
+                "styfle marked this conversation as resolved.",
+                "Auth中间件被略过",
+                "652",
+                "653",
+                "CORS中间件被略过",
+                "654",
+                "result = await run（{",
+                "655",
+                "name: middlewareInfo.name,",
+                "paths: middlewareInfo.paths,",
+                "@@ -656,10 +668,6 @@ export default class Server {",
+                "656",
+                "668",
+                "658",
+                "至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事",
+                "651",
+                "656",
+                "642",
+                "643",
+                "644",
+                "657",
+                "659",
+                "660",
+                "661"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[160,366], [198,366], [198,392], [160,392]], what are the missing digits that complete \"64____\"?",
+              "answer": "4"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[82, 336], [1751, 336], [1751, 1080], [82, 1080]] — which of the following choices matches the text there? Options:\nA. 660, response: NextResponse.next(),, 649, 652, @@ -656,10 +668,6 @@ export default class Server {, 651, 655, 643, 644, 621\nB. CORS中间件被略过, header条件成立, response: NextResponse.next(),, 658, 至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事, 641, 660, 656, 642, 649\nC. 652, 660, waitUntil: Promise.resolve(),, CORS中间件被略过, header条件成立, 648, 643, serverless: this._isLikeServerless,, 658, neme: middlewareInfo.name,\nD. 653, @@ -656,10 +668,6 @@ export default class Server {, serverless: this._isLikeServerless,, 680, 652, result = {, 643, 641, 642, if (subrequests.includes(middlewareInfo.name)) {",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '653, 650, 641, @@ -639,6 +643,14 @@ export default class Server{, 629, paths: middlewareInfo.paths,, 648, 668, 639, continue' appears inside the box defined by [[82, 298], [1751, 298], [1751, 1080], [82, 1080]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[81, 14], [1869, 14], [1869, 1049], [81, 1049]] and write down the word(s) you see: ________.",
+              "answer": [
+                "621",
+                "622",
+                "623",
+                "624",
+                "HTTP请求里加上",
+                "625",
+                "const subreq = params.request.headers['x-middleware-subrequest']",
+                "626",
+                "const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]",
+                "X-middleware-subrequest",
+                "627",
+                "624",
+                "628",
+                "let result: FetchEventResult | null = null",
+                "625",
+                "629",
+                "626",
+                "for (const middleware of this.middleware || []）{",
+                "@@ -639,6 +643,14 @@ export default class Server{",
+                "serverless: this._isLikeServerless,",
+                "644",
+                "header条件成立",
+                "646",
+                "if (subrequests.includes(middlewareInfo.name)) {",
+                "result = {",
+                "response: NextResponse.next(),",
+                "waitUntil: Promise.resolve(),",
+                "650",
+                "continue",
+                "styfle marked this conversation as resolved.",
+                "Auth中间件被略过",
+                "652",
+                "653",
+                "CORS中间件被略过",
+                "654",
+                "result = await run（{",
+                "655",
+                "name: middlewareInfo.name,",
+                "paths: middlewareInfo.paths,",
+                "@@ -656,10 +668,6 @@ export default class Server {",
+                "656",
+                "668",
+                "658",
+                "至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事",
+                "622",
+                "623",
+                "630",
+                "639",
+                "640",
+                "641",
+                "643",
+                "645",
+                "647",
+                "648",
+                "649",
+                "651",
+                "656",
+                "642",
+                "643",
+                "644",
+                "657",
+                "659",
+                "660"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region at [[84,14], [122,14], [122,38], [84,38]] shows a partially visible number — what goes where \"6____1\" indicates?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[81, 14], [1869, 14], [1869, 1080], [81, 1080]] and choose the option that matches it. Options:\nA. 699, CORS中间件被略过, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], 642, 624, 622, 653, 651, 650\nB. 651, 623, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], CORS中间件被略过, 622, 624, 650, 842, 653\nC. 625, @@ -656,10 +668,6 @@ export default class Server {, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], styfle marked this conversation as resolved., continue, header条件成立, Auth中间件被略过, 659, HTTP请求里加上, 623\nD. 623, 639, 653, 824, CORS中间件被略过, 622, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], 650, 651",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '623, 649, serverless: this._isLikeServerless,, 623, 646, result = {, header条件成立, 625, 627, 641' visible within the bounding box [[81, 14], [1869, 14], [1869, 609], [81, 609]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly identifies the word(s) shown at [[82.35211267605634, 489.9154929577465], [1750.748031496063, 489.9154929577465], [1750.748031496063, 1080.0], [82.35211267605634, 1080.0]].",
+              "answer": [
+                "response: NextResponse.next(),",
+                "waitUntil: Promise.resolve(),",
+                "650",
+                "continue",
+                "styfle marked this conversation as resolved.",
+                "Auth中间件被略过",
+                "652",
+                "653",
+                "CORS中间件被略过",
+                "654",
+                "result = await run（{",
+                "655",
+                "name: middlewareInfo.name,",
+                "paths: middlewareInfo.paths,",
+                "@@ -656,10 +668,6 @@ export default class Server {",
+                "656",
+                "668",
+                "658",
+                "至于什么DDoS攻击、XSS攻击、缓存污染，也都是信手拈来的事",
+                "648",
+                "649",
+                "651",
+                "656",
+                "642",
+                "643",
+                "644",
+                "657",
+                "659",
+                "660",
+                "661"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a gap in the text at [[162,75], [198,75], [198,99], [162,99]] — what should replace \"6____4\" to complete it?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best represents what's written at [[81, 14], [1869, 14], [1869, 550], [81, 550]]? Options:\nA. 623, 629, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[], result = {, 621, 625, 627, 626, continue, response: NextResponse.next(),\nB. 647, 625, 624, HTTP请求里加上, 626, 630, 644, 640, if (subrequests.includes(middlewareInfo.name)) {, 626\nC. if (subrequests.includes(middlewareInfo.name)) {, 641, 648, HTTP请求里加上, 626, 645, header条件成立, 650, X-middleware-subrequest, 629\nD. response: NextResponse.next(),, if (subrequests.includes(middlewareInfo.name)) {, 623, 646, 640, 626, const subreq = params.request.headers['x-middleware-subrequest'], 626, 625, 648",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[82, 298], [1751, 298], [1751, 1080], [82, 1080]] enclose the label(s) '648, response: NextResponse.next(),, CORS中间件被略过, 643, 644, 658, if (subrequests.includes(middlewareInfo.name)) {, 643, 621, 668'? Give a true/false answer.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices given, which one matches the text you see inside [[81.29577464788733, 14.0], [1869.056603773585, 14.0], [1869.056603773585, 326.0], [81.29577464788733, 326.0]]?",
+              "answer": [
+                "621",
+                "622",
+                "623",
+                "624",
+                "HTTP请求里加上",
+                "625",
+                "const subreq = params.request.headers['x-middleware-subrequest']",
+                "626",
+                "const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]",
+                "X-middleware-subrequest",
+                "627",
+                "624",
+                "628",
+                "let result: FetchEventResult | null = null",
+                "625",
+                "629",
+                "626",
+                "for (const middleware of this.middleware || []）{",
+                "@@ -639,6 +643,14 @@ export default class Server{",
+                "622",
+                "623",
+                "630"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The code snippet at [[360,521], [666,522], [666,550], [360,550]] reads \"waitUntil: Pro____se.resolve()\" — which letters are missing?",
+              "answer": "mi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one contains the text found at [[81, 14], [1869, 14], [1869, 1080], [81, 1080]]? Options:\nA. 643, 628, 658, Auth中间件被略过, 644, 655, result = {, respanse: NextResponse.next(),, const subreq = params.request.headers['x-middleware-subrequest']\nB. const subreq = params.request.headers['x-middleware-subrequest'], 658, 647, 649, 628, result = {, 644, Auth中间件被略过, 655\nC. const subreq = params.request.headers['x-middleware-subrequest'], 644, 658, response: NextResponse.next(),, result = {, 647, 628, 055, Auth中间件被略过\nD. @@ -639,6 +643,14 @@ export default class Server{, 623, 654, 645, 644, 643, 626, 668, 658, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'header条件成立, 621, 641, 658, 626, 644, 645, HTTP请求里加上, 653, 649' falls inside the box at [[81, 14], [1869, 14], [1869, 889], [81, 889]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/clip_037/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_037/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown inside [[81, 14], [1869, 14], [1869, 392], [81, 392]]: ________.",
+              "answer": [
+                "621",
+                "622",
+                "623",
+                "624",
+                "HTTP请求里加上",
+                "625",
+                "const subreq = params.request.headers['x-middleware-subrequest']",
+                "626",
+                "const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]",
+                "X-middleware-subrequest",
+                "627",
+                "624",
+                "628",
+                "let result: FetchEventResult | null = null",
+                "625",
+                "629",
+                "626",
+                "for (const middleware of this.middleware || []）{",
+                "@@ -639,6 +643,14 @@ export default class Server{",
+                "serverless: this._isLikeServerless,",
+                "644",
+                "622",
+                "623",
+                "630",
+                "639",
+                "640",
+                "643"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[902,864], [1402,864], [1403,922], [902,922]], how would you complete the phrase shown as \"router____件被略过\"?",
+              "answer": "中间"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given what's visible at [[81, 14], [1869, 14], [1869, 609], [81, 609]], go ahead and pick the matching text option. Options:\nA. 650, HTTP请求里加上, 627, let result: FetchEventResult | null = null, 624, 640, 626, styfle marked this conversation as resolved., header条件成立, 621\nB. 621, 651, waitUntil: Promise.resolve(),, 628, 650, if (subrequests.includes(middlewareInfo.name)) {, HTTP请求里加上, 624, X-middleware-subrequest, const subrequests = typeof subreq === 'string' ? subreq.split(':'）:[]\nC. comst subreq = params.request.headers['x-middleware-subrequest'], 626, let result: FetchEventResult | null = null, 625, @@ -639,6 +643,14 @@ export default class Server{, serverless: this._isLikeServerless,, waitUntil: Promise.resolve(),, 648, 623, 628\nD. 626, for (const middleware of this.middleware || []）{, 629, response: NextResponse.next(),, 651, 624, 625, 648, X-middleware-subrequest, 624",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm whether the label(s) 'Auth中间件被略过, styfle marked this conversation as resolved., X-middleware-subrequest, 649, 657, header条件成立, 642, 653, @@ -639,6 +643,14 @@ export default class Server{, serverless: this._isLikeServerless,' can be found within [[82, 231], [1751, 231], [1751, 1080], [82, 1080]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_037"
+  }
+]

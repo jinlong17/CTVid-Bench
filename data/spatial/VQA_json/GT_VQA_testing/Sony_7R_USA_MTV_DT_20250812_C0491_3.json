@@ -1,0 +1,411 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the area [[718, 813], [1208, 813], [1208, 1047], [718, 1047]], what word(s) appear? ________",
+              "answer": [
+                "EXIT 422",
+                "Millbrae Ave",
+                "SF Intl Airport",
+                "1/2 MILE",
+                "EXIT ONLY",
+                "EXIT 420",
+                "caffeine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Only one of these options has the right text for [[718, 813], [1181, 813], [1181, 944], [718, 944]] — which is it? Options:\nA. Millhrae Ave, EXIT ONLY, EXIT 420, 1/2 MILE, EXIT 422\nB. EXIT 420, 1/2 MILF, SF Intl Airport, Millbrae Ave, EXIT 422\nC. Millbrae Ave, EXIT ONLY, 1/2 MILE, SF Intl Airport, EXIT 422\nD. EXIT ONLY, SF Intl Airport, 1/2 MILE, caffeine, Millbrae Ave",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the region [[717.8477690288714, 812.9011139855339], [1208.06338028169, 812.9011139855339], [1208.06338028169, 1046.6549295774648], [717.8477690288714, 1046.6549295774648]], do the label(s) '1/2 MILE, EXIT 420, EXIT ONLY, caffeine, Millbrae Ave' sit within its boundaries?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Across the [[748, 675], [1327, 675], [1327, 1078], [748, 1078]] region, what word(s) are written there? ________",
+              "answer": [
+                "EXIT 422",
+                "Millbrae Ave",
+                "SF Intl Airport",
+                "1/2 MILE",
+                "EXIT ONLY",
+                "EXIT 420",
+                "caffeine",
+                "AIRPORT",
+                "ERMINALS",
+                "OVE",
+                "8 TONS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking across the whole image, which option best matches the text inside [[748, 675], [1269, 675], [1269, 962], [748, 962]]? Options:\nA. EXIT 422, caffeine, Millhrae Ave, SF Intl Airport, EXIT 420, EXIT ONLY\nB. EXIT ONLY, caffeine, SF Intl Airport, 1/2 MILE, Millbrae Ave, EXIT 420\nC. caffeine, AIRPORT, EXIT 422, Millbrae Ave, SF Intl Airport, EXIT 420\nD. SF Intl Airport, caffeine, EXIT 422, 1/2 MILE, Millhrae Ave, EXIT ONLY",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would the label(s) '8 TONS, EXIT ONLY, EXIT 422, EXIT 420, caffeine, Millbrae Ave, SF Intl Airport, OVE, AIRPORT' be found inside [[748.0813253393665, 674.5042684502994], [1326.5814527761802, 674.5042684502994], [1326.5814527761802, 1078.1695649816106], [748.0813253393665, 1078.1695649816106]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the region [[712, 710], [1314, 710], [1314, 1061], [712, 1061]], what word(s) do you see? ________",
+              "answer": [
+                "EXIT 422",
+                "Millbrae Ave",
+                "SF Intl Airport",
+                "1/2 MILE",
+                "EXIT ONLY",
+                "EXIT 420",
+                "caffeine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one correctly lists the text(s) visible in [[1051, 710], [1314, 710], [1314, 1061], [1051, 1061]]? Options:\nA. EXIT ONLY, Millbrae Ave, SF Intl Airport\nB. caffeine, EXIT 420, Millbrae Ave\nC. EXIT 422, EXIT ONLY, caffeine\nD. caffoine, Millbrae Ave, EXIT 420",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'caffeine, Millbroe Ave, 1/2 MILE, SF Intl Airport, EXIT ONLY, EXIT 420, EXIT 422' appears inside the box [[711.7707088213745, 709.6213094737685], [1313.580295842591, 709.6213094737685], [1313.580295842591, 1060.918624531213], [711.7707088213745, 1060.918624531213]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the highlighted area [[701, 746], [1420, 746], [1420, 946], [701, 946]], what word(s) appear? ________",
+              "answer": [
+                "EXIT 422",
+                "Millbrae Ave",
+                "SF Intl Airport",
+                "1/2 MILE",
+                "EXIT ONLY",
+                "EXIT 420"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[701, 755], [1068, 755], [1068, 946], [701, 946]], which answer choice matches the text(s) you can read there? Options:\nA. FXIT 422, 1/2 MILE\nB. 1/2 MILE, SF Intl Airport\nC. SF Intl Airport, 1/2 MILF\nD. SF Intl Airport, Millbrae Ave",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '1/2 MILE, EXIT ONLY, EXIT 420, Millbrae Ave, EXIT 422, SE Intl Airport' actually inside the bounding box [[700.7587501822665, 746.3709677419355], [1420.483870967742, 746.3709677419355], [1420.483870967742, 946.0701754385966], [700.7587501822665, 946.0701754385966]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The bounding box [[695, 595], [1579, 595], [1579, 846], [695, 846]] encloses what word(s)? ________",
+              "answer": [
+                "EXIT 422",
+                "Millbrae Ave",
+                "SF Intl Airport",
+                "1/2 MILE",
+                "EXIT ONLY",
+                "EXIT 420"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options best reflects the text(s) found inside [[695, 606], [1145, 606], [1145, 846], [695, 846]]? Options:\nA. 1/2 MILF, SF Intl Airport\nB. SF Intl Airport, EXIT 422\nC. SE Intl Airport, EXIT 422\nD. Millbrae Ave, EXIT 422",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'SF Intl Airport, EXIT 420, 1/2 MILE, EXIT ONLY, Millbroe Ave, EXIT 422' falls within the region marked by [[694.5132743362833, 594.6684286499296], [1579.4690265486727, 594.6684286499296], [1579.4690265486727, 845.8929411758137], [694.5132743362833, 845.8929411758137]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you read the text enclosed by [[664, 330], [1817, 330], [1817, 661], [664, 661]]? ________",
+              "answer": [
+                "EXIT 422",
+                "Millbrae Ave",
+                "SF Intl Airport",
+                "1/2 MILE",
+                "EXIT ONLY",
+                "EXIT 420"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices below, which one accurately captures the text(s) inside [[664, 415], [1817, 415], [1817, 661], [664, 661]]? Options:\nA. SF Intl Airport, Millbrae Ave, FXIT ONLY\nB. Millbrae Ave, 1/2 MILE, EXIT ONLY\nC. 1/2 MILE, EXIT 422, EXIT ONLY\nD. SF Intl Airport, EXIT ONLY, Millhrae Ave",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[663.574296830332, 330.44351318316745], [1817.2289156626505, 330.44351318316745], [1817.2289156626505, 660.7036843024271], [663.574296830332, 660.7036843024271]], is '1/2 MILE, EXIT ONLY, Millbrae Ave, SF Intl Airport' contained within it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you focus on [[614, 0], [1919, 0], [1919, 390], [614, 390]], what word(s) do you find there? ________",
+              "answer": [
+                "Millbra",
+                "SF Intl Airport",
+                "1/2 MILE",
+                "EXI",
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Examining [[614, 89], [1919, 89], [1919, 390], [614, 390]] closely, which answer option lists the text(s) that appear there? Options:\nA. FXI, SF Intl Airport, 1/2 MILE\nB. 1/2 MILE, SE Intl Airport, EXI\nC. EXI, Millbra, EXIT\nD. 1/2 MILE, Millbra, EXI",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the box [[614, 0], [1419, 0], [1419, 390], [614, 390]] contain the label(s) 'SF Intl Airport, Millbra, 1/2 MILE, EXIT'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Text within [[1279, 1030], [1403, 1030], [1403, 1064], [1279, 1064]] — what does it say? ________",
+              "answer": [
+                "caffeine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options given, pick the one that matches the text(s) visible inside [[1279, 1030], [1403, 1030], [1403, 1064], [1279, 1064]]. Options:\nA. caffeine\nB. caffoine\nC. coffeine\nD. ceffeine",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can the label(s) 'oaffeine' be found inside the area defined by [[1279.248291571754, 1029.612756264237], [1403.394077448747, 1029.612756264237], [1403.394077448747, 1063.7813211845103], [1279.248291571754, 1063.7813211845103]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[1289, 993], [1423, 993], [1423, 1034], [1289, 1034]], which word(s) are present? ________",
+              "answer": [
+                "caffeine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly identifies the text(s) inside [[1289, 993], [1423, 993], [1423, 1034], [1289, 1034]]. Options:\nA. ceffeine\nB. coffeine\nC. caffeine\nD. caffoine",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Considering [[1289.0337293630698, 992.7720739219712], [1422.9979466119096, 992.7720739219712], [1422.9979466119096, 1033.634496919918], [1289.0337293630698, 1033.634496919918]], would you say 'caffeine' is contained within it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Going by what's inside [[1305, 953], [1472, 953], [1472, 1040], [1305, 1040]], what word(s) are shown? ________",
+              "answer": [
+                "caffeine",
+                "HOTELS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region [[1305, 953], [1472, 953], [1472, 1040], [1305, 1040]], which answer choice reflects the text(s) it contains? Options:\nA. HOTELS\nB. caffoine\nC. HDTELS\nD. ceffeine",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'caffeine' sits within the bounds of [[1305.3519568035356, 952.5317060476966], [1472.3943517689718, 952.5317060476966], [1472.3943517689718, 1040.4452926208653], [1305.3519568035356, 1040.4452926208653]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "There's a bounding box at [[1351, 927], [1527, 927], [1527, 1014], [1351, 1014]] — what word(s) appear inside it? ________",
+              "answer": [
+                "caffeine",
+                "HOTELS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that contains the text found in [[1351, 927], [1527, 927], [1527, 1014], [1351, 1014]]. Options:\nA. coffeine\nB. ceffeine\nC. HOTELS\nD. caffoine",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'HDTELS, caffeine' appears inside [[1350.8024364308808, 926.5766214922976], [1527.3619267970491, 926.5766214922976], [1527.3619267970491, 1013.8248784382489], [1350.8024364308808, 1013.8248784382489]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0491_3/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0491_3/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[1435, 860], [1621, 860], [1621, 964], [1435, 964]], what word(s) are visible? ________",
+              "answer": [
+                "caffeine",
+                "HOTELS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[1435, 860], [1621, 860], [1621, 964], [1435, 964]], which answer choice includes that text? Options:\nA. caffeine\nB. HDTELS\nC. caffoine\nD. HOIELS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'caffeine, HDTELS' falls within [[1434.783847167225, 859.6902654867256], [1620.8160314206887, 859.6902654867256], [1620.8160314206887, 963.6927962313965], [1434.783847167225, 963.6927962313965]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0491_3"
+  }
+]

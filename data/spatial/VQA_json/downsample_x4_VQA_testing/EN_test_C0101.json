@@ -1,0 +1,465 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible in the region [[453, 415], [1257, 415], [1257, 664], [453, 664]]. ________",
+              "answer": [
+                "sunglass hut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Visible inside [[453,470], [1243,415], [1257,612], [454,664]], a sign reads \" ____glass hut\" — what letter(s) complete the store name?",
+              "answer": "sun"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[453, 415], [1709, 415], [1709, 745], [453, 745]], which answer option correctly captures its text? Options:\nA. sung1ass hut\nB. sunglass hut\nC. sung1ass hut\nD. sunglasshut",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Going by the label 'sunglasshut, sunglass hut, sunglasshut', is that what appears at [[1801, 934], [1919, 934], [1919, 964], [1801, 964]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down everything you can read at [[419, 415], [1891, 415], [1891, 969], [419, 969]]. ________",
+              "answer": [
+                "sunglass hut",
+                "sunglasshut",
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially visible at [[352,507], [1152,433], [1170,630], [370,704]], a storefront reads \"sung____ hut\" — what letter(s) fill in the gap?",
+              "answer": "lass"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which option correctly identifies the text within [[1425, 520], [1891, 520], [1891, 969], [1425, 969]]? Options:\nA. sunglesshut\nB. \nC. sunglass hut\nD. sunglesshut",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over at [[1761.111111111111, 932.2222222222222], [1891.111111111111, 932.2222222222222], [1891.111111111111, 968.8888888888889], [1761.111111111111, 968.8888888888889]], is 'sunglass hut, sunglasshut' the text that appears there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text showing inside [[1736, 941], [1860, 941], [1860, 969], [1736, 969]]. ________",
+              "answer": [
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Peek at [[446,545], [1255,447], [1280,656], [471,754]] — the sign reads \"sung____ hut\". What letter(s) are missing?",
+              "answer": "lass"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region [[389, 421], [1636, 421], [1636, 768], [389, 768]], pick the option that correctly matches its text. Options:\nA. sunglesshut\nB. sung1ass hut\nC. sunglasshut\nD. sunglasshut",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[1736.0, 941.0], [1860.0, 941.0], [1860.0, 969.0], [1736.0, 969.0]], is 'sunglasshut' what's written there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "List the word(s) you can spot inside [[368, 429], [1843, 429], [1843, 981], [368, 981]]. ________",
+              "answer": [
+                "sunglass hut",
+                "sunglasshut",
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The store name at [[668,568], [1486,500], [1504,719], [686,786]] shows up as \"____lass hut\" — what's the missing part?",
+              "answer": "sung"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text found within [[1376, 535], [1843, 535], [1843, 981], [1376, 981]]. Options:\nA. \nB. sunglesshut\nC. sunglass hut\nD. sunglesshut",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Examining the box at [[367.8961038961039, 429.0], [1843.0, 429.0], [1843.0, 981.0], [367.8961038961039, 981.0]], does 'sunglass hut, sung1asshut' appear in it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you see inside [[351, 435], [1826, 435], [1826, 983], [351, 983]]. ________",
+              "answer": [
+                "sunglass hut",
+                "sunglasshut",
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the storefront sign at [[1671,570], [1919,688], [1881,832], [1621,716]], the text reads \"sun____hut\" — what word is missing?",
+              "answer": "glass"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options correctly captures the text visible in [[1383, 549], [1826, 549], [1826, 983], [1383, 983]]? Options:\nA. sunglesshut\nB. sunglass hut\nC. sunglesshut\nD. ",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'sunglasshut, sungless hut, sunglasshut' when you look at the region [[350.5974025974026, 435.0], [1826.0, 435.0], [1826.0, 983.0], [350.5974025974026, 983.0]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text shown in the region [[330, 435], [1807, 435], [1807, 983], [330, 983]]. ________",
+              "answer": [
+                "sunglass hut",
+                "sunglasshut",
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A brand name appears at [[1605,613], [1868,744], [1821,878], [1556,752]] but part of it is obscured — complete \"sungl____hut\".",
+              "answer": "ass"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "When you look at [[330, 435], [1588, 435], [1588, 774], [330, 774]], which answer best matches the text there? Options:\nA. sung1ass hut\nB. sung1ass hut\nC. sunglasshut\nD. sunglasshut",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'sung1asshut, sunglass hut' the text shown inside [[329.8961038961039, 435.0], [1807.0, 435.0], [1807.0, 983.0], [329.8961038961039, 983.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text appears inside [[1667, 944], [1791, 944], [1791, 976], [1667, 976]]. ________",
+              "answer": [
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The shop sign at [[562,489], [1389,412], [1410,628], [583,706]] reads \"sun____ hut\" — which letters have been cut off?",
+              "answer": "glass"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches what's written in [[305, 433], [1567, 433], [1567, 767], [305, 767]]. Options:\nA. sung1ass hut\nB. sunglasshut\nC. sung1ass hut\nD. sunglasshut",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'sunglass hut, sunglasshut' accurately describes the text at [[1667.3157894736842, 943.6315789473684], [1791.3157894736842, 943.6315789473684], [1791.3157894736842, 975.6315789473684], [1667.3157894736842, 975.6315789473684]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) appear inside the box [[1657, 935], [1783, 935], [1783, 969], [1657, 969]]. ________",
+              "answer": [
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[591,540], [1415,470], [1433,687], [609,757]], a sign shows \"____glass hut\" with something missing — what should go there?",
+              "answer": "Sun"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one lists the text visible in [[1323, 537], [1783, 537], [1783, 969], [1323, 969]]? Options:\nA. \nB. sunglass hut\nC. sunglesshut\nD. sunglesshut",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'sunglass hut, sunglasshut' match the text you'd find at [[1657.0, 935.0], [1783.0, 935.0], [1783.0, 969.0], [1657.0, 969.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[1326, 536], [1811, 536], [1811, 973], [1326, 973]], what text do you see? ________",
+              "answer": [
+                "sunglasshut",
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You're looking at a store sign at [[1722,561], [1919,648], [1912,800], [1694,708]] showing \"sun____ss hut\" — what's the missing portion?",
+              "answer": "gla"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of these options, which correctly names the text visible at [[311, 430], [1591, 430], [1591, 776], [311, 776]]? Options:\nA. sunglasshut\nB. sunglesshut\nC. sunglesshut\nD. sunglasshut",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the text at [[1685, 939], [1811, 939], [1811, 973], [1685, 973]] reads 'sunglasshut, sunglass hut, sunglasshut'.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you can make out within [[335, 432], [1626, 432], [1626, 776], [335, 776]]. ________",
+              "answer": [
+                "sunglass hut",
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partial text is visible at [[1636,560], [1918,666], [1900,816], [1608,718]] — complete \"sun____hut\".",
+              "answer": "glass"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[335, 432], [1626, 432], [1626, 776], [335, 776]] and tell me which option correctly names the text there. Options:\nA. sunglasshut\nB. sung1ass hut\nC. sunglesshut\nD. sunglasshut",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At location [[334.5974025974026, 432.0], [1837.0, 432.0], [1837.0, 977.0], [334.5974025974026, 977.0]], is 'sunglass hut, sung1asshut' among the text you see?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you transcribe the text visible inside [[352, 433], [1855, 433], [1855, 977], [352, 977]]? ________",
+              "answer": [
+                "sunglass hut",
+                "sunglasshut",
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[1580,555], [1883,641], [1850,808], [1544,714]], the storefront sign shows \"____hut,\" — a few characters are obscured. What are the missing letter(s)?",
+              "answer": "sunglass"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly lists the text(s) visible inside [[1369, 546], [1855, 546], [1855, 977], [1369, 977]]? Options:\nA. sunglesshut\nB. sunglesshut\nC. sunglass hut\nD. ",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'sunglasshut' appearing inside the region [[1727.0, 940.0], [1855.0, 940.0], [1855.0, 977.0], [1727.0, 977.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0101/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0101/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the word(s) you can see inside [[351, 433], [1863, 433], [1863, 975], [351, 975]]: ________",
+              "answer": [
+                "sunglass hut",
+                "sunglasshut",
+                "sunglasshut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[1505,556], [1819,640], [1771,814], [1457,730]] reads \"sun____sshut\" — one or more characters are hidden. How would you complete it?",
+              "answer": "gla"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From [[351, 433], [1651, 433], [1651, 772], [351, 772]], pick the answer that matches the text(s) shown there. Options:\nA. sunglasshut\nB. sung1ass hut\nC. sunglasshut\nD. sunglesshut",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'sunglasshut' present anywhere inside the bounding box [[1735.0, 938.0], [1863.0, 938.0], [1863.0, 975.0], [1735.0, 975.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0101"
+  }
+]

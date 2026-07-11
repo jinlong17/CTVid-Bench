@@ -1,0 +1,312 @@
+{
+  "video_id": "C0397",
+  "frames": 120,
+  "word": "Program Members",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0397.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Program Members\" likely to be?\n Options:\nA. menu or commercial information\nB. address or street sign\nC. event or poster information\nD. warning or prohibition sign\nE. direction or navigation sign\nF. storefront or brand sign\nG. general scene text",
+      "q": "What type of sign is the text \"Program Members\" most likely serving as?\n Options:\nA. menu or commercial information\nB. address or street sign\nC. event or poster information\nD. warning or prohibition sign\nE. direction or navigation sign\nF. storefront or brand sign\nG. general scene text",
+      "a": "E",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. menu or commercial information",
+        "B. address or street sign",
+        "C. event or poster information",
+        "D. warning or prohibition sign",
+        "E. direction or navigation sign",
+        "F. storefront or brand sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign is the text \"Program Members\" most likely serving as?\n Options:\nA. menu or commercial information\nB. address or street sign\nC. event or poster information\nD. warning or prohibition sign\nE. direction or navigation sign\nF. storefront or brand sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Program Members\" appear in?\n Options:\nA. warning / rule sign\nB. storefront\nC. transportation / station\nD. restaurant or menu\nE. campus or office\nF. event poster or display\nG. road or street\nH. other public sign",
+      "q": "What sort of environment or setting does the label \"Program Members\" seem to appear in?\n Options:\nA. warning / rule sign\nB. storefront\nC. transportation / station\nD. restaurant or menu\nE. campus or office\nF. event poster or display\nG. road or street\nH. other public sign",
+      "a": "C",
+      "a_text": "transportation / station",
+      "answer_key": "transportation / station",
+      "options": [
+        "A. warning / rule sign",
+        "B. storefront",
+        "C. transportation / station",
+        "D. restaurant or menu",
+        "E. campus or office",
+        "F. event poster or display",
+        "G. road or street",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What sort of environment or setting does the label \"Program Members\" seem to appear in?\n Options:\nA. warning / rule sign\nB. storefront\nC. transportation / station\nD. restaurant or menu\nE. campus or office\nF. event poster or display\nG. road or street\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Program Members\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)",
+      "q": "In which region of the frame does \"Program Members\" spend most of its time?\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)",
+      "a": "B",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. top-right (upper-right area)",
+        "C. center (middle of the frame)",
+        "D. top-left (upper-left area)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In which region of the frame does \"Program Members\" spend most of its time?\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Program Members\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "How much ground does the text \"Program Members\" cover from the start to the end of the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "C",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much ground does the text \"Program Members\" cover from the start to the end of the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Program Members\" move?\n Options:\nA. moves right\nB. moves down\nC. stays roughly in place\nD. moves left\nE. changes direction partway\nF. moves up\nG. moves diagonally",
+      "q": "Which direction does \"Program Members\" generally move over the course of the video?\n Options:\nA. moves right\nB. moves down\nC. stays roughly in place\nD. moves left\nE. changes direction partway\nF. moves up\nG. moves diagonally",
+      "a": "G",
+      "a_text": "moves diagonally",
+      "answer_key": "moves diagonally",
+      "options": [
+        "A. moves right",
+        "B. moves down",
+        "C. stays roughly in place",
+        "D. moves left",
+        "E. changes direction partway",
+        "F. moves up",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"Program Members\" generally move over the course of the video?\n Options:\nA. moves right\nB. moves down\nC. stays roughly in place\nD. moves left\nE. changes direction partway\nF. moves up\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Program Members\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> bottom-right -> top-right\nB. top-right -> top-right -> top-right\nC. bottom-left -> top-right -> top-right\nD. top-right -> top-left -> top-right",
+      "q": "Near the start, midway through, and toward the end, where is the text \"Program Members\" positioned in the frame?\n Options:\nA. top-right -> bottom-right -> top-right\nB. top-right -> top-right -> top-right\nC. bottom-left -> top-right -> top-right\nD. top-right -> top-left -> top-right",
+      "a": "B",
+      "a_text": "top-right -> top-right -> top-right",
+      "answer_key": "top-right -> top-right -> top-right",
+      "options": [
+        "A. top-right -> bottom-right -> top-right",
+        "B. top-right -> top-right -> top-right",
+        "C. bottom-left -> top-right -> top-right",
+        "D. top-right -> top-left -> top-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Near the start, midway through, and toward the end, where is the text \"Program Members\" positioned in the frame?\n Options:\nA. top-right -> bottom-right -> top-right\nB. top-right -> top-right -> top-right\nC. bottom-left -> top-right -> top-right\nD. top-right -> top-left -> top-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Program Members\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "q": "How large does \"Program Members\" appear in the frame — small, medium, or large?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "a": "A",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How large does \"Program Members\" appear in the frame — small, medium, or large?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Program Members\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "q": "Does the text \"Program Members\" appear to grow, shrink, or stay roughly the same size as the clip progresses?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "a": "D",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. stays about the same size",
+        "B. size fluctuates (goes up and down)",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does the text \"Program Members\" appear to grow, shrink, or stay roughly the same size as the clip progresses?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Program Members\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "Is \"Program Members\" positioned close to the edge of the frame, or does it sit well within the interior?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"Program Members\" positioned close to the edge of the frame, or does it sit well within the interior?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Program Members\" and how it appears in the video.",
+      "q": "Give a quick summary of how the text \"Program Members\" looks and where it appears in the video.",
+      "a": "The text \"Program Members\" is displayed in white letters on a dark blue directional sign above car rental logos.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick summary of how the text \"Program Members\" looks and where it appears in the video."
+    }
+  ]
+}

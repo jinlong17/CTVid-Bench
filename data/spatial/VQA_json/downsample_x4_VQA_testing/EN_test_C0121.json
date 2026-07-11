@@ -1,0 +1,499 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears in the region [[280, 431], [549, 431], [549, 778], [280, 778]]? ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[310,431], [549,468], [535,548], [297,509]] has some letters obscured — what goes in to complete PA____ING.?",
+              "answer": "RK"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pinpoint which answer corresponds to the text inside [[280, 431], [549, 431], [549, 778], [280, 778]]. Options:\nA. FINE, MINIMUM, DNLY, PARKING\nB. MINIMYM, PARKING, $250, ONLY\nC. ONLY, PARKING, EINE, MINIMUM\nD. ONLY, FINE, $250, MINIMUM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the box [[280.0, 431.3612565445027], [549.2248062015503, 431.3612565445027], [549.2248062015503, 778.0], [280.0, 778.0]], is 'FINE, $250, PARKING, ONLY' one of the labels visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[265, 435], [538, 435], [538, 786], [265, 786]] and write it down: ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[249,832], [380,843], [374,911], [244,900]], can you spot the missing digit(s) and complete $2____??",
+              "answer": "50"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[265, 435], [538, 435], [538, 786], [265, 786]] — which of these choices matches the text you see there? Options:\nA. $250, ONLY, MINIMUM, FINE\nB. FINE, PAPKING, MINIMUM, $250\nC. MINIMUM, FINE, ONLY, $250\nD. $250, PARKING, FINE, ONLY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '$250, ONLY, PARKING, FINE, MINIMVM' appears inside [[265.0, 435.0], [538.0, 435.0], [538.0, 786.0], [265.0, 786.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text visible inside [[256, 446], [526, 446], [526, 800], [256, 800]]: ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[192,586], [440,625], [426,710], [178,671]] has a gap — what word(s) belong in ____KING??",
+              "answer": "PAR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly lists what's written inside [[256, 446], [526, 446], [526, 800], [256, 800]]. Options:\nA. EINE, $250, MINIMUM, ONLY\nB. FINE, DNLY, PARKING, $250\nC. MINIMUM, ONLY, FINE, $250\nD. PARKING, MINIMYM, ONLY, $250",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'MINIMUM, FINE, $250, PARKING' what appears inside [[256.0, 446.0], [526.0, 446.0], [526.0, 800.0], [256.0, 800.0]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out exactly what text you can read in [[246, 469], [518, 469], [518, 822], [246, 822]]: ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What amount fills $2____. based on what's shown at [[391,838], [531,849], [526,917], [386,906]]?",
+              "answer": "50"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one matches the text found at [[246, 469], [518, 469], [518, 822], [246, 822]]? Options:\nA. ONLY, MINIMYM, FINE, PARKING\nB. FINE, PARKING, $250, ONLY\nC. PARKING, ONLY, $250, MINIMUM\nD. $250, ONLY, PARKING, FINE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'PARKING, FINE, ONLY, $250, MINIMVM' is what the region [[246.0, 469.0], [518.0, 469.0], [518.0, 822.0], [246.0, 822.0]] contains? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you see displayed in [[236, 484], [508, 484], [508, 838], [236, 838]]: ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Coordinates [[665,717], [842,732], [837,790], [660,775]] point to some text with a gap — supply what's missing: MI____MUM.",
+              "answer": "NI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best describes the text visible in [[236, 484], [508, 484], [508, 838], [236, 838]]? Pick one. Options:\nA. MINIMUM, PARKING, $250, ONLY\nB. $250, DNLY, MINIMUM, FINE\nC. FINE, ONLY, PAPKING, MINIMUM\nD. $250, MINIMUM, ONLY, FINE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[236.0, 484.0], [508.0, 484.0], [508.0, 838.0], [236.0, 838.0]] — does it actually contain 'ONLY, FINE, $250, MINIMUM'? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) appear inside the region [[218, 492], [492, 492], [492, 847], [218, 847]]: ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A value is missing at [[1188,772], [1318,772], [1318,838], [1188,838]] — complete $2____ with the right text.",
+              "answer": "50"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately captures the text shown at [[218, 492], [492, 492], [492, 847], [218, 847]]. Options:\nA. PINE, MINIMUM, ONLY, PARKING\nB. $250, EINE, PARKING, MINIMUM\nC. FINE, ONLY, PARKING, $250\nD. FINF, ONLY, MINIMUM, PARKING",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'FINE, PARKING, $250, MINIMUM' sits inside [[218.0, 492.0], [492.0, 492.0], [492.0, 847.0], [218.0, 847.0]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text is printed inside [[194, 503], [468, 503], [468, 856], [194, 856]]? ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the region [[1394,708], [1577,715], [1574,773], [1391,766]] as context, finish the incomplete text: MI____M.",
+              "answer": "NIMU"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[194, 503], [468, 503], [468, 856], [194, 856]], which of these answers contains the text you see there? Options:\nA. ONLY, PARKING, MINIMUM, FINE\nB. $250, ONLY, MINIMUM, PARKING\nC. EINE, ONLY, $250, PARKING\nD. ONLY, FINE, PARKING, $250",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'FINE, ONLY, MINIMUM, $250, PAPKING' — do they appear within [[194.0, 503.0], [468.0, 503.0], [468.0, 856.0], [194.0, 856.0]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible inside [[170, 512], [446, 512], [446, 869], [170, 869]]: ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text visible at [[1410,515], [1659,525], [1656,610], [1407,601]] is incomplete. Which letter(s) fill the missing spot? PA____ING?",
+              "answer": "RK"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[170, 512], [446, 512], [446, 869], [170, 869]], which of the following options matches the text shown there? Options:\nA. $250, ONLY, MINIMUM, PARKING\nB. MINIMUM, FINE, $250, PARKING\nC. PARKING, MINIMUM, EINE, $250\nD. PAPKING, MINIMUM, FINE, $250",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the text 'FINE, PARKING, $250, ONLY, MINIMUM' appears inside the bounding box [[170.0, 512.0], [446.0, 512.0], [446.0, 869.0], [170.0, 869.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[151, 530], [428, 530], [428, 885], [151, 885]] and write it out. ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word(s) at [[1354,758], [1535,765], [1532,823], [1351,815]] have some letters obscured — write in what's hidden: M____MUM.",
+              "answer": "INI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly identifies the text visible in [[151, 530], [428, 530], [428, 885], [151, 885]]? Options:\nA. $250, DNLY, MINIMUM, FINE\nB. FINE, $250, MINIMYM, ONLY\nC. FINE, MINIMUM, PARKING, $250\nD. MINIMUM, PARKING, EINE, ONLY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'EINE, PARKING, MINIMUM, ONLY, $250' can be found within [[151.0, 530.0], [428.0, 530.0], [428.0, 885.0], [151.0, 885.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside the box at [[136, 542], [414, 542], [414, 899], [136, 899]]. ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A portion of the text at [[1177,624], [1333,631], [1329,723], [1173,716]] is hidden — supply the missing letter(s): O____?",
+              "answer": "NLY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best represents what's written inside [[136, 542], [414, 542], [414, 899], [136, 899]]. Options:\nA. FINE, ONLY, MINIMUM, PAPKING\nB. $250, PARKING, MINIMUM, ONLY\nC. PARKING, ONLY, $250, FINE\nD. ONLY, MINIMUM, PARKING, EINE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'MINIMUM, PARKING, EINE, $250, ONLY' within the bounding box [[136.0, 542.0], [414.0, 542.0], [414.0, 899.0], [136.0, 899.0]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the exact word(s) visible at [[128, 552], [406, 552], [406, 911], [128, 911]]. ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[962,726], [1139,735], [1136,793], [959,783]], the text has a missing section — figure out the hidden letter(s): M____NIMUM?",
+              "answer": "I"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, pick the one that shows the text found in [[128, 552], [406, 552], [406, 911], [128, 911]]. Options:\nA. FINE, PAPKING, $250, ONLY\nB. ONLY, PARKING, PINE, MINIMUM\nC. MINIMUM, FINE, PARKING, $250\nD. PARKING, ONLY, $250, EINE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'EINE, $250, ONLY, MINIMUM, PARKING' falls inside [[128.0, 552.0], [406.0, 552.0], [406.0, 911.0], [128.0, 911.0]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0121/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0121/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can read inside [[120, 562], [398, 562], [398, 919], [120, 919]]. ________",
+              "answer": [
+                "PARKING",
+                "ONLY",
+                "MINIMUM",
+                "FINE",
+                "$250"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking closely at [[758,625], [912,639], [904,725], [750,711]], which letter(s) belong in the gap shown in O____Y.?",
+              "answer": "NL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of these options, which one correctly captures the text at [[120, 562], [398, 562], [398, 919], [120, 919]]? Options:\nA. MINIMUM, $250, DNLY, FINE\nB. PARKING, $250, FINE, MINIMUM\nC. PAPKING, FINE, ONLY, MINIMUM\nD. PARKING, ONLY, MINIMYM, $250",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[120.0, 562.0], [398.0, 562.0], [398.0, 919.0], [120.0, 919.0]] — does it contain the label(s) 'FINE, ONLY, $250, MINIMVM, PARKING'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0121"
+  }
+]

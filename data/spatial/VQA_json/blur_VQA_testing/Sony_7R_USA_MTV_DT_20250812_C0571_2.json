@@ -1,0 +1,401 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in [[1155.6008583690987, 0.0], [1917.9664639901114, 0.0], [1917.9664639901114, 817.0034998978132], [1155.6008583690987, 817.0034998978132]], what word(s) do you find there? The word(s) is/are ________.",
+              "answer": [
+                "SJ1056TH",
+                "XX8P66",
+                "10683612",
+                "TALS",
+                "Den",
+                "la"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately captures the text(s) found within [[1156, 0], [1574, 0], [1574, 693], [1156, 693]]. Options:\nA. IALS, SJ1056TH, 10683612\nB. sJ1056TH, TALS, 10683612\nC. 10683612, TALS, SJ1056TH\nD. 10683612, Den, SJ1056TH",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'TALS, XX8P66, SJ1056TH, Den' sitting inside the bounding box [[1155.6008583690987, 0.0], [1574.1176470588236, 0.0], [1574.1176470588236, 504.11764705882354], [1155.6008583690987, 504.11764705882354]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[1665.217486208354, 797.4853108423644], [1762.6020761132456, 797.4853108423644], [1762.6020761132456, 826.5274373496195], [1665.217486208354, 826.5274373496195]] — which word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "Den",
+                "la"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option best captures the text(s) inside [[433, 0], [1423, 0], [1423, 512], [433, 512]]? Options:\nA. XX8P66, SJ1056TH, 2\nB. SJ1056TH, 10683612, 2\nC. 2, SJ1056TH, Den\nD. XX8P66, sJ1056TH, NTALS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[433, 0], [1423, 0], [1423, 704], [433, 704]], are the label(s) 'XX8P66, NTALS, SJ1056TH, 10683612' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "My question is about the bounding box [[309, 0], [1638, 0], [1638, 834], [309, 834]] — what word(s) show up inside it? The word(s) is/are ________.",
+              "answer": [
+                "ENTALS",
+                "SJ1056TH",
+                "XX8P66",
+                "10683612",
+                "Den",
+                "la",
+                "2"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of these choices, which one matches the text(s) visible in [[309, 0], [1302, 0], [1302, 712], [309, 712]]? Options:\nA. ENTALS, 1068361Z, 2, XX8P66\nB. ENTALS, Den, 10683612, 2\nC. XX8P66, SJ1056TH, 1068361Z, ENTALS\nD. XX8P66, 10683612, 2, SJ1056TH",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether 'SJ1056TH, 10683612, 2, XX8P66' falls within the bounding box [[309, 281], [1638, 281], [1638, 834], [309, 834]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at the region [[202, 0], [1195, 0], [1195, 523], [202, 523]] — what word(s) are written there? The answer is ________.",
+              "answer": [
+                "NTALS",
+                "SJ1056TH",
+                "XX8P66",
+                "2"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that best matches the text(s) you see inside [[202, 0], [1195, 0], [1195, 706], [202, 706]]. Options:\nA. 2, NTALS, SJ1056TH, Den\nB. SJ1056TH, XK8P66, 10683612, 2\nC. XX8P66, 2, 10683612, SJ1056TH\nD. 10683612, XX8P66, NTALS, Z",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Located inside [[202, 277], [1533, 277], [1533, 826], [202, 826]], are the label(s) 'NTALS, 2, la, SJ1056TH, Den, XX8P66, 10683612' visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at the area [[93, 0], [1427, 0], [1427, 819], [93, 819]] and tell me: what word(s) are written there? The word(s) is/are ________.",
+              "answer": [
+                "NTALS",
+                "SJ1056TH",
+                "XX8P66",
+                "10683612",
+                "Den",
+                "la",
+                "2"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly lists the text(s) inside [[665, 0], [1427, 0], [1427, 819], [665, 819]]? Options:\nA. la, 2, XX8P66, SJ1056TH, 10683612\nB. la, NTALS, XX8P66, Den, SJ1056TH\nC. XX8P66, Don, SJ1056TH, la, 10683612\nD. NTALS, la, Don, XX8P66, 10683612",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[93.3155641618007, 0.0], [1426.5005087074, 0.0], [1426.5005087074, 819.2739221934082], [93.3155641618007, 819.2739221934082]], are the label(s) '10683612, SJ1056TH, Den, NTALS, la' contained within it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Point your attention to the bounding box [[1245, 802], [1338, 802], [1338, 828], [1245, 828]] — what word(s) do you find there? The word(s) is/are ________.",
+              "answer": [
+                "Den",
+                "la"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text(s) shown in [[577, 0], [1002, 0], [1002, 526], [577, 526]]? Options:\nA. XX8P66, NTALS\nB. NTALS, XK8P66\nC. 10683612, XX8P66\nD. NIALS, SJ1056TH",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'XX8P66, SJ1056TH, Den, NTALS' appear inside the bounding box [[576.657060518732, 0.0], [1338.4184756114655, 0.0], [1338.4184756114655, 828.3827603842033], [576.657060518732, 828.3827603842033]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[525, 0], [970, 0], [970, 719], [525, 719]], what word(s) appear? The word(s) is/are ________.",
+              "answer": [
+                "ENTALS",
+                "SJ1056TH",
+                "XX8P66",
+                "10683612"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[757, 291], [1300, 291], [1300, 840], [757, 840]], which of the following options matches the text(s) there? Options:\nA. XX8P66, la, 10683612, Don\nB. la, Den, SJ1056TH, 10683612\nC. 1068361Z, Den, SJ1056TH, XX8P66\nD. SJ1056TH, la, 10683612, ENTALS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'XX8P66, ENTALS, SJ1056TH, Den, 10683612' can be found within the bounding box [[525, 0], [970, 0], [970, 719], [525, 719]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The bounding box [[67, 494], [83, 494], [83, 518], [67, 518]] contains some text — write it out: ________.",
+              "answer": [
+                "2"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, pick the one that matches the text(s) in [[629, 0], [1404, 0], [1404, 838], [629, 838]]. Options:\nA. ENTALS, XX8P66, 2, SJ1056TH, la\nB. la, Den, 10683612, XX8P66, SJ1056TH\nC. le, ENTALS, SJ1056TH, Den, 10683612\nD. XX8P66, ENTALS, SJ1056TH, 1068361Z, Den",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[66.64360796938061, 0.0], [1403.682048422297, 0.0], [1403.682048422297, 837.5966180219119], [66.64360796938061, 837.5966180219119]] contain the label(s) 'Den, SJ1056TH, la, 2, 10683612'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) present inside [[893, 3], [980, 3], [980, 94], [893, 94]]: ________.",
+              "answer": [
+                "TALS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text(s) in [[1099, 259], [1313, 259], [1313, 505], [1099, 505]], which option is the correct match? Options:\nA. XK8P66\nB. sJ1056TH\nC. SJ1056TH\nD. TALS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[1099, 259], [1313, 259], [1313, 505], [1099, 505]], would you say the label(s) 'XX8P66' are present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text does [[1379, 678], [1843, 678], [1843, 823], [1379, 823]] show? ________.",
+              "answer": [
+                "10683612",
+                "Den",
+                "la"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1288, 272], [1843, 272], [1843, 823], [1288, 823]] and select the option that correctly lists its text(s). Options:\nA. Don, 10683612, SJ1056TH, XX8P66\nB. Den, SJ1056TH, 10683612, XX8P66\nC. Den, XX8P66, SJ1056TH, NTALS\nD. SJ1056TH, XX8P66, 2, 10683612",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Considering the bounding box [[1059, 0], [1843, 0], [1843, 8Den, XX8P66, NTALS, la3], [1059, 8Den, XX8P66, NTALS, la3]], does it contain the label(s) 'Den, XX8P66, NTALS, la'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you find inside [[1755, 792], [1852, 792], [1852, 815], [1755, 815]]: ________.",
+              "answer": [
+                "Den",
+                "la"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the region [[518, 264], [1852, 264], [1852, 815], [518, 815]], which answer option captures the text(s) found there? Options:\nA. 10683612, SJ1056TH, Den, 2, XK8P66\nB. la, 1068361Z, Den, SJ1056TH, 2\nC. la, 2, XX8P66, SJ1056TH, TALS\nD. XX8P66, Den, 2, SJ1056TH, 10683612",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over in [[518, 0], [1511, 0], [1511, 509], [518, 509]], are the label(s) 'XX8P66, TALS, SJ1056TH, 2, 10683612' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0571_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0571_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and write out the word(s) found in [[509, 0], [1838, 0], [1838, 770], [509, 770]]: ________.",
+              "answer": [
+                "S",
+                "SJ1056TH",
+                "XX8P66",
+                "2",
+                "10683612",
+                "Den",
+                "la"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly matches the text(s) visible in [[509, 0], [1497, 0], [1497, 463], [509, 463]]. Options:\nA. SJ1056TH, Den, S\nB. XX8P66, SJ1056TH, Z\nC. 10683612, 2, S\nD. S, 2, XX8P66",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — do the label(s) 'Den, S, 2, SJ1056TH, XX8P66, 10683612' fall within the bounding box [[509, 0], [1497, 0], [1497, 644], [509, 644]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0571_2"
+  }
+]

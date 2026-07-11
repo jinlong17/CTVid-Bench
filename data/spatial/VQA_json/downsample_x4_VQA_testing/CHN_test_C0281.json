@@ -1,0 +1,465 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a close look at [[745, 276], [1913, 276], [1913, 433], [745, 433]] — can you name the word(s) written there? ________",
+              "answer": [
+                "买机票送车票",
+                "买机票",
+                "咨询热线：0760-8888",
+                "热线：0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "把[[70,285], [344,284], [345,381], [69,379]]框出的区域里文字的空缺填上：送____票",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the option that matches the text you can see in [[745, 276], [1913, 276], [1913, 433], [745, 433]]. Options:\nA. 热线：0760-88880777, 买机票送车票, 咨询热线：0760-8888\nB. 买机票, 送车票, 热线：0760-88880777\nC. 买机票, 咨询热线：0760-8888, 买杋票送车票\nD. 咨询热线：0760-8888, 买机票送车票, 买杋票",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '送车票, 买机票送车票, 热线：0760-88880777' is the text visible inside bounding box [[36, 276], [1368, 276], [1368, 429], [36, 429]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the content of [[36.434108527131784, 283.72093023255815], [340.71705426356596, 283.72093023255815], [340.71705426356596, 429.4573643410853], [36.434108527131784, 429.4573643410853]] and fill in the blank — the word(s) inside is/are ________.",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[708,284], [1329,283], [1326,396], [710,390]]所指区域里，下面这段文字还差什么？买机____送车票",
+              "answer": "票"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which answer option correctly captures the text inside [[36, 276], [1364, 276], [1364, 429], [36, 429]]? Options:\nA. 买机票送车票, 送车票, 0760-88880777\nB. 买杋票送车票, 送车票, 0760-88880777\nC. 买机票送车票, 买机票, 热线：0760-88880777\nD. 0760-88880777, 热线：0760-88880777, 送车票",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the bounding box [[36.434108527131784, 275.6687898089172], [1913.1007751937984, 275.6687898089172], [1913.1007751937984, 432.5581395348837], [36.434108527131784, 432.5581395348837]] has '0760-88880777, 热线：0760-88880777, 咨询热线：0760-8888, 买机票送车票' written in it.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at the area marked as [[30, 284], [338, 284], [338, 420], [30, 420]] — write down whatever word(s) you find there: ________",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[71,322], [257,321], [258,420], [72,419]]对应的区域里有些文字缺失了，请把____票补充完整。",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[62, 277], [1812, 277], [1812, 387], [62, 387]], which of the following options matches the text(s) visible there? Options:\nA. 买机票, 迸车票\nB. 送车票, 0760-88880777\nC. 买杋票送车票, 送车票\nD. 买机票, 买机票送车票",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) '买机票送车票, 买机票, 热线：0760-88880777' appearing inside the box at [[741, 277], [1913, 277], [1913, 433], [741, 433]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text visible inside [[28.4046692607004, 278.592725104353], [335.26277828905893, 278.592725104353], [335.26277828905893, 420.15564202334633], [28.4046692607004, 420.15564202334633]] — what word(s) appear there? ________",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据[[1471,298], [1919,298], [1916,408], [1468,405]]区域的内容，补全下面的空白处：买机____送",
+              "answer": "票"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly lists the text(s) found in area [[738, 277], [1909, 277], [1909, 429], [738, 429]]? Options:\nA. 送车票, 买机票送车票, 买机票\nB. 买机票送车票, 热线：0760-88880777, 咨诩热线：0760-8888\nC. 咨询热线：0760-8888, 热线：0760-88880777, 买机票送车票\nD. 热绒：0760-88880777, 买机票, 买机票送车票",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '咨询热线：0760-8888, 买机票送车票, 买机票' — do they fall inside the region marked by [[738, 277], [1909, 277], [1909, 429], [738, 429]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you make out inside the region [[24.883542500137022, 278.592725104353], [329.6024009305685, 278.592725104353], [329.6024009305685, 418.747191319121], [24.883542500137022, 418.747191319121]]? ________",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察[[76,317], [178,318], [180,415], [78,414]]坐标范围内的文字，把缺失的内容填入：____",
+              "answer": "票"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Your task: identify which answer choice matches the text(s) inside [[53, 276], [1811, 276], [1811, 388], [53, 388]]. Options:\nA. 0760-88880777, 买机票送车票\nB. 买机票, 送车票\nC. 送车票, 买杋票送车票\nD. 送车票, 咨询热线：0760-8888",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the box at [[738, 276], [1908, 276], [1908, 429], [738, 429]] — are the label(s) '咨询热线：0760-8888, 买机票送车票, 买机票' visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on the area [[21.78276730633858, 278.592725104353], [328.8272071321189, 278.592725104353], [328.8272071321189, 418.747191319121], [21.78276730633858, 418.747191319121]], what word(s) are written there? ________",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[753,436], [1016,435], [1014,466], [752,464]]所框定的区域，将下面句子中缺少的内容补全：热____：0760-88880777",
+              "answer": "线"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best represents the text(s) you see in the area [[53, 273], [1806, 273], [1806, 386], [53, 386]]? Options:\nA. 送车票, 0760-88880777\nB. 买机票送车票, 买杋票\nC. 买机票送车票, 迸车票\nD. 买机票送车票, 送车票",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect to find '咨询热线：0760-88880, 送车票, 热线：0760-88880777, 买机票送车票, 买机票' inside [[732, 273], [1920, 273], [1920, 429], [732, 429]] — is that actually the case?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) that appear inside [[17.158489849691176, 278.592725104353], [325.0536222264585, 278.592725104353], [325.0536222264585, 417.59112195495914], [17.158489849691176, 417.59112195495914]]. ________",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[481,316], [1154,305], [1153,419], [485,426]]区域显示的文字，正确补全空白部分：买机票送车____",
+              "answer": "票"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options provided, which one accurately reflects the text(s) found inside [[17, 272], [1356, 272], [1356, 426], [17, 426]]? Options:\nA. 0760-88880777, 送车票, 咨询热线：0760-8888\nB. 送车票, 热线：0760-88880777, 0760-88880777\nC. 热线：0760-88880777, 买机票送车票, 买机票\nD. 热线：0760-88880777, 送车票, 买机票送车票",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false — '咨询热线：0760-8888, 买机票送车票, 买机票' appears inside the region defined by [[735, 272], [1919, 272], [1919, 429], [735, 429]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you find inside [[11.378143028881919, 278.592725104353], [318.8036222264585, 278.592725104353], [318.8036222264585, 419.32522600120194], [11.378143028881919, 419.32522600120194]]. ________",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[1440,419], [1767,419], [1766,453], [1440,453]]位置有一段文字，请把引号内缺失的内容写出来：\"咨询____线：0760-88880777\"",
+              "answer": "热"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region at [[728, 273], [1919, 273], [1919, 430], [728, 430]], which answer choice lists the correct text(s)? Options:\nA. 买机票送, 送车票, 咨询热线：0760-88880\nB. 热线：0760-88880777, 买机票送, 咨诩热线：0760-88880\nC. 热线：0760-88880777, 咨询热线：0760-88880, 买杋票送车票\nD. 热线：0760-88880777, 买机票送车票, 咨询热线：0760-88880",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '送车票, 买机票送, 热线：0760-88880777, 咨询热线：0760-88880, 买机票送车票' fall within the boundaries of [[728, 273], [1919, 273], [1919, 430], [728, 430]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) that appear in the region [[4.441726843910825, 282.36631001001336], [310.31305618872284, 282.36631001001336], [310.31305618872284, 421.63736472952564], [4.441726843910825, 421.63736472952564]]. ________",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1384,426], [1710,425], [1709,459], [1383,459]]框住的文字中有一处空缺，请将其补全：咨____线：0760-88880777",
+              "answer": "询热"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[4, 277], [1347, 277], [1347, 430], [4, 430]], which answer option correctly identifies the text(s) there? Options:\nA. 送车票, 买机票送车票, 0760-88880777\nB. 送车票, 0760-88880777, 买机票送\nC. 送车票, 买机票送车票, 0760-88880777\nD. 送车票, 热绒：0760-88880777, 买机票送车票",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '买机票送, 买机票送车票, 热线：0760-88880777' appearing inside [[726, 277], [1919, 277], [1919, 433], [726, 433]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) you can read inside [[-3.552713678800501e-15, 281.092725104353], [303.3036222264585, 281.092725104353], [303.3036222264585, 423.78619254395284], [-3.552713678800501e-15, 423.78619254395284]]. ________",
+              "answer": [
+                "送车票",
+                "0760-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1336,403], [1670,402], [1669,436], [1336,434]]区域内可以看到一段文字，请把缺失的部分补上：咨____线：0760-88880777",
+              "answer": "询热"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text(s) found in [[720, 283], [1920, 283], [1920, 438], [720, 438]] — which answer matches? Options:\nA. 买机票送, 咨询热线：0760-888807, 0760-88880777\nB. 买机票送车票, 热线：0760-88880777, 买杋票送\nC. 买机票送, 送车票, 买机票送车票\nD. 热线：0760-88880777, 咨询热线：0760-888807, 买机票送",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '0760-88880777, 买机票送车票, 买机票送, 咨询热线：0760-888807, 热线：0760-88880777' falls inside [[720, 283], [1920, 283], [1920, 438], [720, 438]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the region [[1473.6196196449866, 287.5800873061651], [1910.5189508574722, 287.5800873061651], [1910.5189508574722, 442.5775341625797], [1473.6196196449866, 442.5775341625797]], what word(s) do you find there? ________",
+              "answer": [
+                "买机票送",
+                "咨询热线：0760-888807"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标[[171,280], [900,273], [902,388], [174,394]]对应的区域，将下面这段文字填写完整：买机____送车票",
+              "answer": "票"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options has the text found in [[0, 283], [1329, 283], [1329, 438], [0, 438]]? Options:\nA. 热线：0760-88880777, 760-88880777, 买杋票送车票\nB. 买机票送车票, 送车票, 热线：0760-88880777\nC. 买机票送, 送车票, 760-88880777\nD. 送车票, 咨询热线：0760-888807, 760-88880777",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area [[708, 283], [1911, 283], [1911, 443], [708, 443]], is '买机票送车票, 买机票送, 热线：0760-88880777, 咨询热线：0760-888807, 760-88880777' one of the labels visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0281/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0281/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you see inside [[-3.552713678800501e-15, 295.1054639578562], [282.2845139462039, 295.1054639578562], [282.2845139462039, 438.0813953488372], [-3.552713678800501e-15, 438.0813953488372]]. ________",
+              "answer": [
+                "送车票",
+                "60-88880777"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[107,321], [859,313], [861,428], [109,439]]区域内的文字内容，填入缺少的词：\"买____票送车票\"",
+              "answer": "机"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) visible in [[6, 292], [1775, 292], [1775, 407], [6, 407]]? Options:\nA. 送车票, 买机票\nB. 60-88880777, 买机票送车票\nC. 送车票, 买杋票\nD. 买杋票送车票, 送车票",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is whether '咨询热线：0760-888807, 热线：0760-88880777, 买机票' can be found inside [[692, 292], [1918, 292], [1918, 452], [692, 452]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0281"
+  }
+]

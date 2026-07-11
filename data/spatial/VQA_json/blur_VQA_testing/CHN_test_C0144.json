@@ -1,0 +1,450 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) found at [[781, 655], [1411, 655], [1411, 829], [781, 829]]. ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框[[1120,766], [1406,757], [1406,819], [1116,829]]内的词语有字符缺失，请补全\"健身+____啡\"中的空白处。",
+              "answer": "咖"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears at [[881, 655], [1411, 655], [1411, 829], [881, 829]]? Select the answer that matches. Options:\nA. Pt\nB. PanemerFit\nC. 俦身+咖啡\nD. PanemorFit",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question: can '健身+咖啡, Pt' be found somewhere inside the bounding box [[780.6443914081146, 655.0], [1410.625, 655.0], [1410.625, 829.375], [780.6443914081146, 829.375]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you see at coordinates [[781, 655], [1411, 655], [1411, 829], [781, 829]]. ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看边界框[[790,706], [836,705], [833,747], [788,749]]内的文字，将P____中缺失的字符填写完整。",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the image for region [[781, 655], [1411, 655], [1411, 755], [781, 755]], which option correctly lists the text there? Options:\nA. Pt\nB. Rt\nC. 健身+咖啡\nD. Rt",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[780.6443914081146, 655.0], [1410.625, 655.0], [1410.625, 829.375], [780.6443914081146, 829.375]], is 'PanemorFit, 健身+咖啡' one of the labels visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框[[1135,784], [1421,775], [1421,837], [1131,848]]内的文字有缺失，请补全短语\"健身+咖____\"。",
+              "answer": "啡"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text(s) can you read inside the region [[881, 655], [1411, 655], [1411, 829], [881, 829]]? Pick the best match. Options:\nA. 健身+咖啡\nB. 俦身+咖啡\nC. Pt\nD. PanemerFit",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '俦身+咖啡, PanemorFit, Pt' appear(s) in the region [[780.6443914081146, 655.0], [1410.625, 655.0], [1410.625, 829.375], [780.6443914081146, 829.375]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看[[834,728], [879,726], [876,769], [832,771]]位置的文字，把\"P____\"中缺失的内容填写完整。",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which one matches the text(s) visible in [[781, 655], [1411, 655], [1411, 755], [781, 755]]? Options:\nA. PanemorFit\nB. PanemerFit\nC. 健身+咖啡\nD. PanemerFit",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[780.6443914081146, 655.0], [1410.625, 655.0], [1410.625, 829.375], [780.6443914081146, 829.375]], do you see the label(s) 'Pt, PanemorFit'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[784, 657], [1414, 657], [1414, 831], [784, 831]] and write it here: ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1191,801], [1477,793], [1477,854], [1187,865]]区域内的文字不完整，请将健身+____啡补充完整。",
+              "answer": "咖"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area [[784, 657], [1414, 657], [1414, 757], [784, 757]], which answer choice accurately lists the text(s) there? Options:\nA. 健身+咖啡\nB. Rt\nC. PanemerFit\nD. PanemorFit",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'PanemorFit, Pt' show up inside the bounding box [[784.2807550444784, 656.8181818181818], [1414.2613636363637, 656.8181818181818], [1414.2613636363637, 831.1931818181818], [784.2807550444784, 831.1931818181818]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can see in the region [[784, 658], [1414, 658], [1414, 832], [784, 832]]: ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "试着推断[[880,720], [926,718], [922,761], [878,762]]区域中\"P____\"缺少的字符，将其补充完整。",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options best captures the text(s) shown in [[784, 658], [1414, 658], [1414, 758], [784, 758]]? Options:\nA. Rt\nB. 健身+咖啡\nC. PanemorFit\nD. PanemerFit",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '健身+咖啡, Pt' is/are visible in the area [[784.3943914081146, 657.5], [1414.375, 657.5], [1414.375, 831.875], [784.3943914081146, 831.875]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can make out inside [[787, 664], [1417, 664], [1417, 838], [787, 838]]: ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据图像中[[907,719], [953,717], [950,760], [905,761]]框内的内容，将短语\"P____\"补充完整。",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[887, 664], [1417, 664], [1417, 838], [887, 838]] matches which of these options? Options:\nA. PanemerFit\nB. 健身+咖啡\nC. Pt\nD. 俦身+咖啡",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[786.8943914081146, 663.75], [1416.875, 663.75], [1416.875, 838.125], [786.8943914081146, 838.125]] — can 'Pt, PanemorFit' be found there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify and record the word(s) found in the region [[788, 705], [836, 705], [836, 749], [788, 749]]: ________",
+              "answer": [
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[932,752], [977,750], [974,793], [929,794]]框内的文字有空缺，请猜测并填写\"P____\"中缺失的字符。",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[888, 665], [1418, 665], [1418, 839], [888, 839]] and decide which answer option lists its text(s) correctly. Options:\nA. 俦身+咖啡\nB. 俦身+咖啡\nC. Pt\nD. 健身+咖啡",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Whether 'PanemorFit, Pt, 俦身+咖啡' fall(s) inside the bounding box [[788.1443914081146, 665.0], [1418.125, 665.0], [1418.125, 839.375], [788.1443914081146, 839.375]] — yes or no?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) appear inside [[788, 665], [1418, 665], [1418, 839], [788, 839]]? Fill in your answer: ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察[[1042,757], [1564,734], [1562,812], [1034,834]]区域，将\"Pane____\"中空缺的字填上，还原完整词汇。",
+              "answer": "morFit"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of all the answer choices, which one correctly reflects the text(s) written in the area [[888, 665], [1418, 665], [1418, 839], [888, 839]]? Options:\nA. 俦身+咖啡\nB. Pt\nC. 健身+咖啡\nD. PanemerFit",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '健身+咖啡, PanemorFit' actually appears inside the bounding box [[788.1443914081146, 665.0], [1418.125, 665.0], [1418.125, 839.375], [788.1443914081146, 839.375]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out every word visible inside [[788, 665], [1418, 665], [1418, 839], [788, 839]]. ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[905,784], [951,783], [948,826], [903,827]]区域内的文字有残缺，请补全缺失的字符使\"P____\"完整。",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the whole image, which answer choice correctly captures the text found in [[788, 665], [1418, 665], [1418, 765], [788, 765]]? Options:\nA. PanemerFit\nB. PanemorFit\nC. 健身+咖啡\nD. PanemerFit",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'PanemorFit' sits inside the bounding box [[888, 665], [1418, 665], [1418, 839], [888, 839]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out what text appears in the region [[788, 665], [1418, 665], [1418, 839], [788, 839]]. ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[948,760], [1471,737], [1469,815], [941,837]]范围内的内容，缺失的字符是什么？请将\"Pane____Fit\"补充完整。",
+              "answer": "mor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, pick the option that matches the text shown in [[788, 665], [1418, 665], [1418, 765], [788, 765]]. Options:\nA. Rt\nB. Pt\nC. 健身+咖啡\nD. PanemerFit",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) 'Pt, PanemorFit, 俦身+咖啡' can be found inside [[788.1443914081146, 665.0], [1418.125, 665.0], [1418.125, 839.375], [788.1443914081146, 839.375]] — yes or no?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0144/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0144/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down all text you can see inside the box [[891, 667], [1420, 667], [1420, 842], [891, 842]]. ________",
+              "answer": [
+                "PanemorFit",
+                "健身+咖啡"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框[[831,778], [876,776], [873,819], [829,820]]中的文字有部分残缺，请你补全缺失的内容：P____",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these answers contains the text visible in [[891, 667], [1420, 667], [1420, 842], [891, 842]]? Select the right one. Options:\nA. PanemerFit\nB. Pt\nC. PanemerFit\nD. PanemorFit",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is simple: do you see 'Pt, PanemorFit' inside the bounding box [[790.3915824193507, 667.2471910112359], [1420.372191011236, 667.2471910112359], [1420.372191011236, 841.6221910112359], [790.3915824193507, 841.6221910112359]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0144"
+  }
+]

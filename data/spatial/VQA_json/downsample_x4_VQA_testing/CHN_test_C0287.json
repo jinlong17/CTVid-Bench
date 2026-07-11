@@ -1,0 +1,476 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text you can spot inside [[241, 746], [851, 746], [851, 1040], [241, 1040]]. ________",
+              "answer": [
+                "白云国际机场商业导引BaiyunAirportCommercialGuidance",
+                "3F",
+                "2F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察边界框[[520,286], [782,286], [778,425], [520,423]]所标注的区域，请补全其中的文字：填入已知的`____厅`字符样。",
+              "answer": "餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the region [[241, 448], [1001, 448], [1001, 1040], [241, 1040]], which answer accurately reflects the text shown there? Options:\nA. 白云国际机场商业导引BaiyunAirportCommercialGuidance, 3F, Restaurants\nB. Restaurants, 餐厅, 2F\nC. 3F, Restaurents, 白云国际机场商业导引BaiyunAirportCommercialGuidance\nD. 3E, 2F, 白云国际机场商业导引BaiyunAirportCommercialGuidance",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'Restaurants, 白云国际机场商业导引BaiyunAirportCommercialGuidance' appear inside [[262, 286], [1001, 286], [1001, 786], [262, 786]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at [[245, 1011], [265, 1011], [265, 1032], [245, 1032]] — what text is written there? ________",
+              "answer": [
+                "2F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "场景中[[268,684], [857,674], [857,703], [269,714]]框定的区域里有文字，请将缺失部分填入：白云国际机场____导引",
+              "answer": "商业"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[242, 271], [999, 271], [999, 1032], [242, 1032]] — which answer choice captures it correctly? Options:\nA. 饗厅, 3F, 白云国际机场商业导引BaiyunAirportCommercialGuidance, Restaurants\nB. 餐厅, 3E, 白云国际机场商业导引BaiyunAirportCommercialGuidance, Restaurants\nC. 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F, Restaurents, 餐厅\nD. 2F, Restaurants, 3F, 白云国际机场商业导引BaiyunAirportCommercialGuidance",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Restaurants, 2F, 3F, 餐厅' sit within the boundaries of [[241.7501973706709, 271.3800782026642], [999.3711198903492, 271.3800782026642], [999.3711198903492, 1031.7366268841843], [241.7501973706709, 1031.7366268841843]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focus on the area [[241, 264], [993, 264], [993, 1020], [241, 1020]] and write down the text you see there. ________",
+              "answer": [
+                "餐厅",
+                "Restaurants",
+                "白云国际机场商业导引BaiyunAirportCommercialGuidance",
+                "3F",
+                "2F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[331,671], [921,659], [921,691], [331,703]]所指区域中出现了部分文字，请补出其中缺失的字符：\"白云国际机场商____导引BaiyunAirportCommercialGuidance\"。",
+              "answer": "业"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written in [[241, 264], [993, 264], [993, 812], [241, 812]]? Find the option below that matches. Options:\nA. 餐厅, 3F, 白云国际机场商业导引BaiyunAirportCommercialGuidance\nB. Restaurants, 3F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance\nC. 3F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance, Restaurants\nD. 3F, 餐厅, 2F",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '餐厅, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 3F' can be found inside [[241, 264], [993, 264], [993, 812], [241, 812]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[242, 993], [262, 993], [262, 1014], [242, 1014]], what word(s) do you read there? ________",
+              "answer": [
+                "2F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a word partially hidden in [[661,364], [1152,366], [1150,457], [661,453]] — complete it: Resta____",
+              "answer": "urants"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look carefully at [[240, 258], [995, 258], [995, 1014], [240, 1014]] — can you identify which option correctly names the text there? Options:\nA. 3F, 餐厅, 2F, 白云国际机场商业导引BaiyunAirportCommercialGuidance\nB. Restaurants, 2E, 3F, 餐厅\nC. 3E, 餐厅, 2F, Restaurants\nD. Restaurants, 餐厅, 2F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[240.31043292312125, 258.1518987341773], [994.9287984191287, 258.1518987341773], [994.9287984191287, 1014.0439928887749], [240.31043292312125, 1014.0439928887749]] contain the label(s) 'Restaurants, 2F, 3F, 白云国际机场商业导引BaiyunAirportCommercialGuidance'? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a close look at [[517, 246], [779, 246], [779, 385], [517, 385]] and jot down every word visible inside it. ________",
+              "answer": [
+                "餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看[[865,178], [1137,171], [1141,308], [869,316]]这个区域，把餐____里缺失的字符补全。",
+              "answer": "厅"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside the region [[238, 246], [995, 246], [995, 1006], [238, 1006]]? Options:\nA. 3F, 3F, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 饗厅, 2F\nB. 3E, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F, Restaurants, 餐厅\nC. 3F, 3F, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F, Restaurents\nD. 2F, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 3F, 餐厅, 3F",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[237.69263187600083, 246.48315207701916], [994.9287984191287, 246.48315207701916], [994.9287984191287, 1006.3516851964672], [237.69263187600083, 1006.3516851964672]] actually contain the label(s) '3F, 3F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance, Restaurants, 2F, 餐厅'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text found inside [[237, 244], [994, 244], [994, 791], [237, 791]] and write it down: ________",
+              "answer": [
+                "餐厅",
+                "Restaurants",
+                "白云国际机场商业导引BaiyunAirportCommercialGuidance",
+                "3F",
+                "3F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[342,977], [537,972], [538,1028], [343,1033]], what characters fill in the gaps of this partially visible text: \"W____\"?",
+              "answer": "i!"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[237, 706], [845, 706], [845, 1000], [237, 1000]] contains some text — which option matches it? Options:\nA. 3F, 3F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance\nB. 3F, 2F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance\nC. 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F\nD. 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F, 餐厅",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '白云国际机场商业导引BaiyunAirportCommercialGuidance, 餐厅, Restaurants' can be found inside the bounding box [[256, 244], [994, 244], [994, 785], [256, 785]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text is visible within [[508, 234], [999, 234], [999, 493], [508, 493]]: ________",
+              "answer": [
+                "餐厅",
+                "Restaurants"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label inside [[1475,783], [1496,780], [1497,800], [1476,802]] is partially cut off — fill in what's missing: ____F",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[237, 234], [999, 234], [999, 785], [237, 785]] — which answer option has the correct text? Options:\nA. 白云国际机场商业导引BaiyunAirportCommercialGuidance, 餐厅, Restaurants, 3E\nB. 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F, 3F, 3F\nC. Restaurants, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 餐厅\nD. 3F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance, 3F, Restaurants",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '3E, Restaurants, 2F, 餐厅, 白云国际机场商业导引BaiyunAirportCommercialGuidance' is the text shown inside [[236.5298411783264, 233.76662301760518], [999.3233529928092, 233.76662301760518], [999.3233529928092, 994.1423828708859], [236.5298411783264, 994.1423828708859]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at [[508, 227], [999, 227], [999, 487], [508, 487]] — what word(s) do you see there? ________",
+              "answer": [
+                "餐厅",
+                "Restaurants"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "区域[[1118,131], [1418,111], [1428,268], [1128,287]]里有个词语残缺不全，填上缺失的部分让它变成：\"餐____\"。",
+              "answer": "厅"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Here at [[239, 227], [999, 227], [999, 987], [239, 987]], some text is visible — point me to the right answer. Options:\nA. 餐厅, 2F, Restaurants, 白云国际机场商业导引BaiyunAirportCommercialGuidance\nB. Restaurants, 2F, 餐厅, 白云国际机场啇业导引BaiyunAirportCommercialGuidance, 3F\nC. 餐厛, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F, 3F, Restaurants\nD. 白云国际机场商业导引BaiyunAirportCommercialGuidance, 3F, 饗厅, Restaurants, 2F",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '餐厅, Restaurants, 3F, 3F' appears inside [[257, 227], [999, 227], [999, 770], [257, 770]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write the exact text visible in the area [[242, 223], [998, 223], [998, 982], [242, 982]]: ________",
+              "answer": [
+                "餐厅",
+                "Restaurants",
+                "白云国际机场商业导引BaiyunAirportCommercialGuidance",
+                "3F",
+                "3F",
+                "2F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1160,249], [1476,241], [1480,408], [1164,416]]这个框里的文字不完整，把\"____厅\"里空缺的字写出来。",
+              "answer": "餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area marked by [[242, 223], [998, 223], [998, 982], [242, 982]] — which choice matches what's written there? Options:\nA. 2E, 3F, 餐厅, 3F, Restaurants\nB. 3F, 3F, 2F, Restaurants, 白云国际机场商业导引BaiyunAirportCommercialGuidance\nC. Restaurants, 餐厅, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F, 3E\nD. 3F, Restaurants, 3F, 2F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Restaurants, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 餐厅' is the text contained in box [[259, 223], [998, 223], [998, 763], [259, 763]]? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what's written inside [[249, 953], [269, 953], [269, 974], [249, 974]]: ________",
+              "answer": [
+                "2F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "补上[[1187,209], [1519,202], [1520,373], [1196,384]]区域内____厅里缺少的字符，让这个词完整。",
+              "answer": "餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "I can see some text in [[245, 679], [850, 679], [850, 974], [245, 974]] — can you spot which option it matches? Options:\nA. 2F, 白云国际机场商业导引BaiyunAirportCommercialGuidance\nB. Restaurants, 3F, 3F\nC. 3F, 3F, 餐厅\nD. 白云国际机场啇业导引BaiyunAirportCommercialGuidance, 3F, 3F",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '餐厅, Restaurants, 3F, 3F, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F' falls within box [[261, 218], [1002, 218], [1002, 757], [261, 757]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down any words you can read inside the region [[249, 211], [1006, 211], [1006, 966], [249, 966]]: ________",
+              "answer": [
+                "餐厅",
+                "Restaurants",
+                "白云国际机场商业导引BaiyunAirportCommercialGuidance",
+                "3F",
+                "2F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is cut off in [[812,837], [833,837], [833,856], [812,856]] — complete this partial label: \"____F\".",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option correctly identifies the text(s) found inside [[249, 211], [1006, 211], [1006, 966], [249, 966]]? Options:\nA. 白云国际机场啇业导引BaiyunAirportCommercialGuidance, 餐厅, 3F, Restaurants\nB. 餐厅, 3F, Restaurants, 2F\nC. 餐厅, Restaurents, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 3F\nD. 2F, 饗厅, 白云国际机场商业导引BaiyunAirportCommercialGuidance, Restaurants",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[249, 211], [1006, 211], [1006, 761], [249, 761]] contain the label(s) 'Restaurants, 餐厅, 白云国际机场商业导引BaiyunAirportCommercialGuidance'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0287/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0287/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside the region [[255, 206], [1010, 206], [1010, 752], [255, 752]] — what word(s) do you see? ________",
+              "answer": [
+                "餐厅",
+                "Restaurants",
+                "白云国际机场商业导引BaiyunAirportCommercialGuidance",
+                "3F",
+                "3F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参照[[1283,115], [1655,107], [1659,294], [1287,302]]区域中的文字内容，请补全以下词语中缺失的字符：\"餐____\"",
+              "answer": "厅"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text visible in [[255, 666], [860, 666], [860, 960], [255, 960]] — which answer matches it? Options:\nA. 3F, 白云国际机场商业导引BaiyunAirportCommercialGuidance, 餐厅\nB. 2F, 白云国际机场啇业导引BaiyunAirportCommercialGuidance, 3F\nC. 白云国际机场商业导引BaiyunAirportCommercialGuidance, 2F, 3E\nD. 2F, 3F, 3F",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '3F, 餐厅, 白云国际机场商业导引BaiyunAirportCommercialGuidance, Restaurants, 3F, 2F' appears inside the bounding box [[271, 206], [1010, 206], [1010, 743], [271, 743]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0287"
+  }
+]

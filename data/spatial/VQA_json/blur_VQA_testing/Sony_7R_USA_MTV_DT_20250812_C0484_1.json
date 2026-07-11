@@ -1,0 +1,391 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What do the word(s) inside [[948, 847], [1043, 847], [1043, 899], [948, 899]] say? ________",
+              "answer": [
+                "414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice best represents the text visible inside [[948, 866], [1041, 866], [1041, 899], [948, 899]]? Options:\nA. Hillsdole Blvd\nB. EXIT ONLY\nC. Hillsdole Blvd\nD. 414A",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'Hillsdale Blvd, EXIT ONLY' match the text that appears within [[948.4885126964934, 847.3760580411125], [1042.5634824667472, 847.3760580411125], [1042.5634824667472, 898.6457073760581], [948.4885126964934, 898.6457073760581]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in the region [[896, 877], [995, 877], [995, 930], [896, 930]], what exactly is written? ________",
+              "answer": [
+                "414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, pick the option that matches the text inside [[896, 877], [995, 877], [995, 930], [896, 930]]. Options:\nA. 414A, FXIT ONLY\nB. Hillsdale Blvd, BXIT ONLY\nC. Hillsdale Blvd, 414A\nD. EXIT ONLY, 414R",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At [[895.5594594594596, 877.1524172059384], [994.6594594594596, 877.1524172059384], [994.6594594594596, 930.3303225789086], [895.5594594594596, 930.3303225789086]], is '414R, EXIT ONLY, Hillsdale Blvd' the text that appears?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How does the text inside [[726, 824], [832, 824], [832, 881], [726, 881]] read? ________",
+              "answer": [
+                "414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the area marked as [[726, 824], [832, 824], [832, 881], [726, 881]], select the option that matches its text content. Options:\nA. FXIT ONLY, 414A\nB. 414A, Hillsdole Blvd\nC. Nillsdale Blvd, EXIT ONLY\nD. EXIT ONLY, Hillsdale Blvd",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In your view, does 'EXIT ONLY, 414A' appear as the text within [[725.8445945945946, 823.9527027027027], [831.5878378378378, 823.9527027027027], [831.5878378378378, 881.0472972972973], [725.8445945945946, 881.0472972972973]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Across the [[759, 752], [867, 752], [867, 811], [759, 811]] region, what word or words appear? ________",
+              "answer": [
+                "414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices given, which one correctly reflects the text inside [[759, 775], [867, 775], [867, 811], [759, 811]]? Options:\nA. FXIT ONLY\nB. 414A\nC. EXIT ONLY\nD. Hillsdole Blvd",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '414R, EXIT ONLY, Hillsdale Blvd' actually located within [[758.727426097819, 752.2717200734804], [867.4819746624942, 752.2717200734804], [867.4819746624942, 811.3241380491323], [758.727426097819, 811.3241380491323]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[854.6238492514409, 767.3876691440756], [886.5496579246086, 767.3876691440756], [886.5496579246086, 780.7597742622622], [854.6238492514409, 780.7597742622622]], what word(s) appear? The answer is ________.",
+              "answer": [
+                "414A"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one captures the text found in [[771, 790], [885, 790], [885, 830], [771, 830]]? Options:\nA. Hillsdole Blvd\nB. Hillsdale Blvd\nC. FXIT ONLY\nD. 414A",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that 'EXIT ONLY, Hillsdale Blvd' falls within [[771.2701681668951, 767.3876691440756], [886.5496579246086, 767.3876691440756], [886.5496579246086, 829.5906384758468], [771.2701681668951, 829.5906384758468]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The region [[745, 761], [868, 761], [868, 827], [745, 827]] has some text — what word(s) appear there? ________",
+              "answer": [
+                "414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly names the text inside [[745, 761], [868, 761], [868, 827], [745, 827]]? Options:\nA. 414R, EXIT ONLY\nB. BXIT ONLY, 414A\nC. Hillsdale Blvd, FXIT ONLY\nD. Hillsdale Blvd, EXIT ONLY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the area [[744.8603054805482, 761.2875273306238], [867.8873091916827, 761.2875273306238], [867.8873091916827, 826.7924730535814], [744.8603054805482, 826.7924730535814]], do the label(s) 'Hillsdale Blvd, 414R, EXIT ONLY' appear there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you spot inside [[736, 660], [867, 660], [867, 729], [736, 729]]? ________",
+              "answer": [
+                "414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one best matches the text in [[736, 660], [867, 660], [867, 729], [736, 729]]? Options:\nA. EXIT ONLY, 414A\nB. FXIT ONLY, 414A\nC. EXIT ONLY, Hillsdole Blvd\nD. EXIT ONLY, 414R",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "It's claimed that 'EXIT ONLY, 414A' is found in [[735.970592307032, 659.8258323038633], [866.7910447761194, 659.8258323038633], [866.7910447761194, 729.4589552238806], [735.970592307032, 729.4589552238806]] — is that correct?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[798, 536], [938, 536], [938, 609], [798, 609]], which word(s) are visible? ________",
+              "answer": [
+                "Hillsdale Blvd",
+                "EXIT ONLY",
+                "EXIT 414A"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly identifies the text within [[798, 564], [935, 564], [935, 609], [798, 609]]. Options:\nA. EXIT 414A\nB. EXIT ONLY\nC. Hillsdole Blvd\nD. FXIT ONLY",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[797.862295949629, 536.4008179959101], [938.0163599182004, 536.4008179959101], [938.0163599182004, 609.0291933303001], [797.862295949629, 609.0291933303001]], is 'Hillsdale Blvd, FXIT ONLY, EXIT 414A' present as a label?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[810, 517], [961, 517], [961, 596], [810, 596]], what word(s) do you find written there? ________",
+              "answer": [
+                "Hillsdale Blvd",
+                "EXIT ONLY",
+                "EXIT 414A"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that best matches the text inside [[810, 548], [959, 548], [959, 596], [810, 596]]. Options:\nA. EXIT 414A\nB. Hillsdale Blvd\nC. Hillsdole Blvd\nD. Hillsdole Blvd",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'EXIT 414A, Hillsdale Blvd' show up anywhere in [[810.4791035079592, 517.1285209259893], [960.5075648745265, 517.1285209259893], [960.5075648745265, 595.8694530253993], [810.4791035079592, 595.8694530253993]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) are visible in [[829.2088091611062, 556.0430921814542], [990.8984376070547, 556.0430921814542], [990.8984376070547, 642.603755577667], [829.2088091611062, 642.603755577667]]? Pick the right one: ________.",
+              "answer": [
+                "EXIT 414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly reflects the text found within [[829, 589], [990, 589], [990, 643], [829, 643]]. Options:\nA. FXIT ONLY\nB. FXIT ONLY\nC. EXIT 414A\nD. Hillsdale Blvd",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it accurate that 'EXIT 414A, EXIT ONLY' sits within [[829.2088091611062, 556.0430921814542], [990.8984376070547, 556.0430921814542], [990.8984376070547, 642.603755577667], [829.2088091611062, 642.603755577667]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "From the area [[296, 498], [1031, 498], [1031, 592], [296, 592]], what word or words can be read? ________",
+              "answer": [
+                "EXIT 414A",
+                "Hillsdale Blvd",
+                "EXIT ONLY",
+                "FASTRAK",
+                "ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify which option contains the text shown in [[854, 498], [1031, 498], [1031, 592], [854, 592]]. Options:\nA. FXIT ONLY, EXIT 414A\nB. Hillsdale Blvd, FASTRAK\nC. Hillsdale Blvd, EXIT ONLY\nD. EXIT ONLY, FXIT 414A",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In [[296.04541095869115, 498.3586436446849], [1030.7736487934505, 498.3586436446849], [1030.7736487934505, 592.401091587277], [296.04541095869115, 592.401091587277]], would you find 'EXIT ONLY, FASTPAK, Hillsdale Blvd, EXIT 414A, ONLY' as one of the labels?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0484_1/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0484_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) does the region [[249.66006796360074, 596.2591511391885], [392.33245918827225, 596.2591511391885], [392.33245918827225, 657.8538184895281], [249.66006796360074, 657.8538184895281]] contain? ________",
+              "answer": [
+                "FASTRAK",
+                "ONLY",
+                "5AM-8PM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice accurately captures the text inside [[250, 570], [1058, 570], [1058, 658], [250, 658]]? Options:\nA. EXIT ONLY, ONLY, Hillsdale Blvd, 5RM-8PM\nB. Hillsdale Blvd, 5RM-8PM, ONLY, EXIT ONLY\nC. FASTRAK, 5AM-8PM, ONLY, Hillsdale Blvd\nD. EXIT ONLY, EXIT 414A, 5AM-8PM, FASTRAK",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the region [[249.66006796360074, 531.9014084507043], [1058.9201877934272, 531.9014084507043], [1058.9201877934272, 657.8538184895281], [249.66006796360074, 657.8538184895281]], is 'Hillsdale Blvd, EXIT ONLY, EXIT 414A, FASTRAK' located there?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0484_1"
+  }
+]

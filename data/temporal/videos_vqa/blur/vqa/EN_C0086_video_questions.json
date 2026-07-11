@@ -1,0 +1,313 @@
+{
+  "video_id": "C0086",
+  "frames": 120,
+  "word": "Galvez St Embarcadero Rd",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0086.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Galvez St Embarcadero Rd\" likely to be?\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. warning or prohibition sign\nG. address or street sign",
+      "q": "Given that this clip includes the text \"Galvez St Embarcadero Rd\", what type of sign is it most likely from?\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. warning or prohibition sign\nG. address or street sign",
+      "a": "G",
+      "a_text": "address or street sign",
+      "answer_key": "address or street sign",
+      "options": [
+        "A. event or poster information",
+        "B. direction or navigation sign",
+        "C. menu or commercial information",
+        "D. general scene text",
+        "E. storefront or brand sign",
+        "F. warning or prohibition sign",
+        "G. address or street sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Given that this clip includes the text \"Galvez St Embarcadero Rd\", what type of sign is it most likely from?\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. warning or prohibition sign\nG. address or street sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Galvez St Embarcadero Rd\" appear in?\n Options:\nA. campus or office\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. warning / rule sign\nF. other public sign\nG. road or street\nH. event poster or display",
+      "q": "What sort of scene does the text \"Galvez St Embarcadero Rd\" appear to be part of?\n Options:\nA. campus or office\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. warning / rule sign\nF. other public sign\nG. road or street\nH. event poster or display",
+      "a": "G",
+      "a_text": "road or street",
+      "answer_key": "road or street",
+      "options": [
+        "A. campus or office",
+        "B. storefront",
+        "C. restaurant or menu",
+        "D. transportation / station",
+        "E. warning / rule sign",
+        "F. other public sign",
+        "G. road or street",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What sort of scene does the text \"Galvez St Embarcadero Rd\" appear to be part of?\n Options:\nA. campus or office\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. warning / rule sign\nF. other public sign\nG. road or street\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Galvez St Embarcadero Rd\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)",
+      "q": "Watching the video, where in the frame does \"Galvez St Embarcadero Rd\" tend to appear most of the time?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)",
+      "a": "B",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. center (middle of the frame)",
+        "C. top-right (upper-right area)",
+        "D. bottom-right (lower-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Watching the video, where in the frame does \"Galvez St Embarcadero Rd\" tend to appear most of the time?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Galvez St Embarcadero Rd\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "Throughout the clip, how much does the text \"Galvez St Embarcadero Rd\" actually shift its position?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "C",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Throughout the clip, how much does the text \"Galvez St Embarcadero Rd\" actually shift its position?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Galvez St Embarcadero Rd\" move?\n Options:\nA. moves left\nB. moves down\nC. stays roughly in place\nD. moves up\nE. changes direction partway\nF. moves diagonally\nG. moves right",
+      "q": "Which direction does the text \"Galvez St Embarcadero Rd\" generally move across the video as a whole?\n Options:\nA. moves left\nB. moves down\nC. stays roughly in place\nD. moves up\nE. changes direction partway\nF. moves diagonally\nG. moves right",
+      "a": "E",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves left",
+        "B. moves down",
+        "C. stays roughly in place",
+        "D. moves up",
+        "E. changes direction partway",
+        "F. moves diagonally",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does the text \"Galvez St Embarcadero Rd\" generally move across the video as a whole?\n Options:\nA. moves left\nB. moves down\nC. stays roughly in place\nD. moves up\nE. changes direction partway\nF. moves diagonally\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Galvez St Embarcadero Rd\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-left -> bottom-right\nB. center -> center -> bottom-right\nC. center -> center -> center\nD. center -> bottom-left -> bottom-right",
+      "q": "How does the on-screen location of the text \"Galvez St Embarcadero Rd\" compare near the start, around the middle, and toward the end of the clip?\n Options:\nA. center -> top-left -> bottom-right\nB. center -> center -> bottom-right\nC. center -> center -> center\nD. center -> bottom-left -> bottom-right",
+      "a": "B",
+      "a_text": "center -> center -> bottom-right",
+      "answer_key": "center -> center -> bottom-right",
+      "options": [
+        "A. center -> top-left -> bottom-right",
+        "B. center -> center -> bottom-right",
+        "C. center -> center -> center",
+        "D. center -> bottom-left -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How does the on-screen location of the text \"Galvez St Embarcadero Rd\" compare near the start, around the middle, and toward the end of the clip?\n Options:\nA. center -> top-left -> bottom-right\nB. center -> center -> bottom-right\nC. center -> center -> center\nD. center -> bottom-left -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Galvez St Embarcadero Rd\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "q": "Roughly how large does the text \"Galvez St Embarcadero Rd\" look within the frame?\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "a": "A",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Roughly how large does the text \"Galvez St Embarcadero Rd\" look within the frame?\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Galvez St Embarcadero Rd\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "q": "As the video plays, does the text \"Galvez St Embarcadero Rd\" grow bigger, get smaller, or hold about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "a": "C",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "As the video plays, does the text \"Galvez St Embarcadero Rd\" grow bigger, get smaller, or hold about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Galvez St Embarcadero Rd\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "Looking at the text \"Galvez St Embarcadero Rd\" in the frame, is it well within the image boundaries or sitting close to an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Looking at the text \"Galvez St Embarcadero Rd\" in the frame, is it well within the image boundaries or sitting close to an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Galvez St Embarcadero Rd\" and how it appears in the video.",
+      "q": "In a couple of sentences, describe what the text \"Galvez St Embarcadero Rd\" looks like and how it behaves over the course of the video.",
+      "a": "The text is written in white on a green overhead street sign, accompanied by left and right directional arrows.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In a couple of sentences, describe what the text \"Galvez St Embarcadero Rd\" looks like and how it behaves over the course of the video."
+    }
+  ],
+  "method": "blur"
+}

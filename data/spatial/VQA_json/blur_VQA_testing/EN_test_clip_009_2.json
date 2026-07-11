@@ -1,0 +1,489 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a closer look at [[754, 37], [1894, 37], [1894, 897], [754, 897]] — what word(s) show up there? The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "LLM(GPT-3.5)",
+                "(Large Language Model)",
+                "input layer 1",
+                "input layer 2",
+                "output layer"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown at [[46,46], [657,45], [658,94], [47,93]], the phrase \"How ____ Works Technically\" appears — what word belongs in the blank?",
+              "answer": "ChatGPT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one includes the text(s) visible at [[189, 705], [1359, 705], [1359, 897], [189, 897]]? Options:\nA. Text Documents, input layer 2, input layer, imput layer 1\nB. ByteByteGo.com, input layer, output layer, input layer 1\nC. input layer 2, Text Documents, output layer, input layer 1\nD. input layer 1, oufput layer, input layer 2, input layer",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'How ChatGPT Works Technically, input layer 2, (Large Language Model), output layer, Text Documents, LLM(GPT-3.5), input layer 1, input layer, ByteByteGo.com' falls inside the bounding box [[46, 45], [1359, 45], [1359, 897], [46, 897]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inspect the area bounded by [[189, 705], [1359, 705], [1359, 897], [189, 897]] — what word(s) are written there? The word(s) is/are ________.",
+              "answer": [
+                "Text Documents",
+                "input layer",
+                "input layer 1",
+                "input layer 2",
+                "output layer"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A piece of text at [[773,864], [935,864], [935,897], [773,897]] reads \"i____t layer 1\" with some letters missing — what are they?",
+              "answer": "npu"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Check [[189, 188], [1359, 188], [1359, 897], [189, 897]] and pick which answer option correctly identifies the text(s) there. Options:\nA. (Large Language Model), LLM(GPT-3.5), Text Documents, input layer 2, input layer, input layer 1\nB. input layer 1, output layer, LLM(GPT-3.5), input layer, Text Documents, How ChatGPT Works Technically\nC. LLM(GPT-3.5), Iext Documents, (Large Language Model), input layer 2, input layer, output layer\nD. output layer, (Large Language Model), LLM(GPT-3.5), input layer 2, input layer, ByteByteGo.com",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'input layer, (Large Language Model), LLM(GPT-3.5), How ChatGPT Works Technically, ByteByteGo.com, Text Documents' can be found inside [[46, 37], [1894, 37], [1894, 736], [46, 736]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) found in the region [[46.33507853403141, 36.627906976744185], [1894.156976744186, 36.627906976744185], [1894.156976744186, 279.59677419354847], [46.33507853403141, 279.59677419354847]]. The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Model)"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "An online address at [[1628,37], [1894,38], [1894,81], [1629,79]] appears as \"B____Go.com.\" — what letter(s) fill in the gap?",
+              "answer": "yteByte"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly identifies the text(s) in the area [[189, 705], [1359, 705], [1359, 897], [189, 897]]. Options:\nA. input layer 1, Text Documents, output layer, ByteByteGo.com\nB. input layer 2, output layer, Text Documents, imput layer\nC. output layer, Text Documents, input layer 1, input layer 2\nD. Iext Documents, input layer 2, input layer, input layer 1",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[189, 705], [1359, 705], [1359, 897], [189, 897]], do the label(s) 'input layer, input layer 2, Text Documents, output layer' show up?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[575.3148614609571, 860.6549118387909], [1359.3194501639812, 860.6549118387909], [1359.3194501639812, 897.2501552695312], [575.3148614609571, 897.2501552695312]] and tell me — what word(s) are there? The word(s) is/are ________.",
+              "answer": [
+                "input layer",
+                "input layer 1",
+                "input layer 2",
+                "output layer"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at coordinates [[46,46], [657,45], [658,94], [47,93]], a heading reads \"How ____GPT Works Technically\" — what goes in the blank?",
+              "answer": "Chat"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options given, which accurately reflects the text(s) within [[189, 188], [1359, 188], [1359, 897], [189, 897]]? Options:\nA. output layer, input layer, imput layer 2, LLM(GPT-3.5), input layer 1, (Large Language Model)\nB. input layer, output layer, input layer 2, Text Documents, input layer 1, (Large Language Model)\nC. LLM(GPT-3.5), How ChatGPT Works Technically, input layer 1, input layer, input layer 2, output layer\nD. input layer 1, output layer, ByteByteGo.com, Text Documents, input layer 2, LLM(GPT-3.5)",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'input layer 1, input layer, Text Documents, output layer, (Large Language Model), LLM(GPT-3.5)' inside the bounding box [[46, 45], [1359, 45], [1359, 897], [46, 897]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text visible in [[46.33507853403141, 36.627906976744185], [1894.156976744186, 36.627906976744185], [1894.156976744186, 279.59677419354847], [46.33507853403141, 279.59677419354847]] — what word(s) do you see there? The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Model)"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"Large L____nguage Model\" appears in the region [[745,230], [1174,231], [1174,276], [745,275]]. What word belongs in that blank?",
+              "answer": "a"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[46, 45], [1359, 45], [1359, 897], [46, 897]] and pick the option that matches it. Options:\nA. Text Documents, input layer 2, input layer 1, How ChatGPT Works Technically, LLN(GPT-3.5), (Large Language Model), output layer\nB. input layer, input layer 1, LLM(GPT-3.5), Haw ChatGPT Works Technically, (Large Language Model), input layer 2, output layer\nC. input layer 1, output layer, (Large Language Model), input layer, Text Documents, How ChatGPT Works Technically, LLM(GPT-3.5)\nD. How ChatGPT Works Technically, ByteByteGo.com, LLM(GPT-3.5), Text Documents, input layer 1, input layer, (Large Language Model)",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'output layer, input layer, How ChatGPT Works Technically, (Large Language Model), Text Documents, input layer 2, ByteByteGo.com, input layer 1, LLM(GPT-3.5)' appear inside the bounding box [[46, 45], [1359, 45], [1359, 897], [46, 897]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown in [[46, 37], [1894, 37], [1894, 94], [46, 94]]. The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the region [[833,181], [1088,182], [1088,227], [833,226]], the notation \"____M(GPT-3.5)\" appears — what does that blank represent?",
+              "answer": "LL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one correctly lists the text found in [[46, 45], [1359, 45], [1359, 897], [46, 897]]? Options:\nA. output layer, LLM(GPT-3.5), input layer, (Large Language Model), input layer 2, Text Documents, input layer 1\nB. output layer, Text Documents, input layer 1, LLM(GPT-3.5), input layer 2, imput layer, How ChatGPT Works Technically\nC. input layer 1, How ChatGPT Works Technically, Text Documents, output layer, LLN(GPT-3.5), input layer, (Large Language Model)\nD. ByteByteGo.com, How ChatGPT Works Technically, input layer 1, Text Documents, input layer 2, (Large Language Model), output layer",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[189, 705], [1359, 705], [1359, 897], [189, 897]] contain the label(s) 'input layer, Text Documents, input layer 1, input layer 2'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1197.4754115409758, 36.627906976744185], [1894.156976744186, 36.627906976744185], [1894.156976744186, 897.2501552695312], [1197.4754115409758, 897.2501552695312]] — what word(s) show up there? The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "output layer"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[46,46], [657,45], [658,94], [47,93]], the phrase \"How ChatG____ Works Technically\" appears — what letter(s) complete the blank?",
+              "answer": "PT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on the text in [[754, 37], [1894, 37], [1894, 897], [754, 897]], select the matching option. Options:\nA. LLM(GPT-3.5), input layer 2, ByteByteGo.com, (Large Language Model), input layer 1\nB. LLN(GPT-3.5), input layer 1, input layer 2, ByteByteGo.com, (Large Language Model)\nC. ByteByteGo.com, output layer, LLN(GPT-3.5), input layer 2, input layer 1\nD. input layer 2, output layer, LLM(GPT-3.5), How ChatGPT Works Technically, input layer 1",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Text Documents, output layer, input layer, input layer 2, How ChatGPT Works Technically, input layer 1' among the labels visible within [[189, 705], [1359, 705], [1359, 897], [189, 897]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible inside [[46, 37], [1894, 37], [1894, 280], [46, 280]]. The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Model)"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phrase containing \"in____t layer 2\" is visible at [[986,870], [1153,870], [1153,905], [986,905]] — what four character(s) complete in____t?",
+              "answer": "pu"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to the text in [[46, 45], [1359, 45], [1359, 897], [46, 897]], which option is the correct match? Options:\nA. output layer, (Large Language Model), How ChatGPT Works Technically, input layer 2, input layer 1, input layer, Text Documents\nB. LLM(GPT-3.5), input layer 1, (Lerge Language Model), How ChatGPT Works Technically, output layer, input layer 2, Text Documents\nC. How ChatGPT Works Technically, (Large Language Model), imput layer 2, input layer 1, LLM(GPT-3.5), output layer, input layer\nD. LLM(GPT-3.5), ByteByteGo.com, Text Documents, input layer 2, (Large Language Model), output layer, input layer",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'How ChatGPT Works Technically, input layer 1, ByteByteGo.com, output layer, input layer, (Large Language Model), input layer 2' falls within the bounding box [[46.33507853403141, 36.627906976744185], [1894.156976744186, 36.627906976744185], [1894.156976744186, 897.2501552695312], [46.33507853403141, 897.2501552695312]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text content of [[46, 45], [1359, 45], [1359, 897], [46, 897]]. The word(s) is/are ________.",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Model)",
+                "Text Documents",
+                "input layer",
+                "input layer 1",
+                "input layer 2",
+                "output layer"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Visible at [[1207,874], [1369,874], [1369,907], [1207,907]] is an incomplete phrase — what two words should ____ut represent to complete the expression \"____ut layer\"?",
+              "answer": "outp"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Enclosed within [[46, 37], [1894, 37], [1894, 736], [46, 736]] is some text — which option below matches it? Options:\nA. (Large Language Model), ByteByteGo.com, input layer 1, LLM(GPT-3.5)\nB. input layer, How ChatGPT Works Technically, (Large Language Model), Text Documents\nC. ByteByteGe.com, How ChatGPT Works Technically, Text Documents, (Large Language Model)\nD. ByteByteGo.com, How ChatGPT Works Technically, Text Documents, LLM(GPT-3.5)",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '(Large Language Model), How ChatGPT Works Technically, ByteByteGo.com, LLM(GPT-3.5)' sits inside the region marked by [[46, 37], [1894, 37], [1894, 736], [46, 736]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "State the word(s) enclosed by [[46, 37], [1894, 37], [1894, 897], [46, 897]]. The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "LLM(GPT-3.5)",
+                "(Large Language Model)",
+                "Text Documents",
+                "input layer",
+                "input layer 1",
+                "input layer 2",
+                "output layer"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Just part of a term is visible at [[1210,877], [1372,877], [1372,910], [1211,910]] — what word fills out____ and completes the expression ending in \"layer\"?",
+              "answer": "put"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among these choices, which accurately reflects the text found in [[189, 188], [1359, 188], [1359, 897], [189, 897]]? Options:\nA. ByteByteGo.com, input layer, Text Documents, output layer, (Large Language Model), input layer 1\nB. output layer, input layer 2, input layer 1, Iext Documents, input layer, (Large Language Model)\nC. input layer 2, Text Documents, input layer, output layer, (Large Language Model), input layer 1\nD. (Lerge Language Model), output layer, input layer 1, input layer 2, input layer, LLM(GPT-3.5)",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm: are the label(s) 'input layer 2, output layer, input layer 1, Text Documents' enclosed within [[189, 705], [1359, 705], [1359, 897], [189, 897]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside [[1628, 37], [1894, 37], [1894, 81], [1628, 81]]. The word(s) is/are ________.",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "That stretch of text in [[1599,496], [1740,497], [1740,526], [1599,525]] contains \"Text Out____\" — what word follows \"Text\"?",
+              "answer": "puts"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[754, 37], [1894, 37], [1894, 897], [754, 897]] matches which of the following options? Options:\nA. input layer 2, ByteByteGe.com, input layer 1, output layer, (Large Language Model)\nB. ByteByteGe.com, LLM(GPT-3.5), (Large Language Model), output layer, input layer 1\nC. output layer, input layer 1, (Large Language Model), ByteByteGo.com, How ChatGPT Works Technically\nD. input layer 1, (Large Language Model), output layer, input layer 2, ByteByteGo.com",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[46, 45], [1359, 45], [1359, 897], [46, 897]] actually contain the label(s) 'input layer 1, input layer, LLM(GPT-3.5), Text Documents, output layer, (Large Language Model)'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_009_2/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_009_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) visible inside [[1628.168604651163, 36.627906976744185], [1894.156976744186, 36.627906976744185], [1894.156976744186, 80.81395348837209], [1628.168604651163, 80.81395348837209]]: ________",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[987,877], [1154,877], [1154,912], [987,912]], the segment reads \"in____ layer 2\" — what word is missing?",
+              "answer": "put"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately reflects the text found in [[189, 705], [1359, 705], [1359, 897], [189, 897]]? Options:\nA. output layer, Text Documents, input layer 1, input layer 2\nB. output layer, input layer 2, input layer, Iext Documents\nC. How ChatGPT Works Technically, input layer, output layer, input layer 2\nD. ByteByteGo.com, input layer, output layer, input layer 1",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'input layer 2, Text Documents, How ChatGPT Works Technically, input layer, input layer 1, LLM(GPT-3.5), (Large Language Model), ByteByteGo.com, output layer' can be found inside the box at [[46, 45], [1359, 45], [1359, 897], [46, 897]].",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_009_2"
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you can read inside [[615, 258], [1557, 258], [1557, 527], [615, 527]]: ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请将\"维____\"填入 [[619,316], [685,314], [683,341], [615,344]] 所标注的区域，使标识完整。",
+              "answer": "修"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[615, 258], [1557, 258], [1557, 527], [615, 527]] matches which of the following? Options:\nA. 专业家电维修, 福匠家电维修, 福匢\nB. 专业家电维俢, 福匠家电维修, 维修\nC. 维修, 专业家电维修, 福匠家电维修\nD. 福匠家电维修, 福匠, 专业宸电维修",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the label '福匠家电维修, 维修, 福匢, 专业家电维修' present inside the area indicated by [[615.1079136690647, 258.2291666666667], [1557.2649572649573, 258.2291666666667], [1557.2649572649573, 526.8131868131868], [615.1079136690647, 526.8131868131868]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the word(s) that appear at [[616, 247], [1559, 247], [1559, 516], [616, 516]]: ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察 [[744,216], [1310,194], [1307,271], [736,297]] 框出的内容，你认为缺失的部分是\"福匠家____\"吗？",
+              "answer": "电维修"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the full image, which answer choice correctly identifies the text(s) found inside [[616, 247], [1559, 247], [1559, 516], [616, 516]]? Options:\nA. 缠修, 专业家电维修, 福匠家电维修\nB. 维俢, 福匠, 专业家电维修\nC. 专业家电维修, 福匠家电维修, 福匠\nD. 专业家电维修, 福匢, 福匠家电维修",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that '福匠家电维修, 维俢, 福匠, 专业家电维修' appears inside the bounding box [[616.3579136690647, 246.97916666666669], [1558.5149572649573, 246.97916666666669], [1558.5149572649573, 515.5631868131868], [616.3579136690647, 515.5631868131868]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you can read inside [[619, 243], [1562, 243], [1562, 510], [619, 510]]. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[1351,236], [1526,229], [1521,303], [1345,310]] 内有文字，请补全其中缺失的内容：____匠。",
+              "answer": "福"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately lists the text visible in region [[619, 243], [1507, 243], [1507, 349], [619, 349]]? Options:\nA. 福匠家电维修, 维俢\nB. 福匠家电维修, 福匠\nC. 福匠家电维修, 维俢\nD. 专业家电维修, 福匠",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '维俢, 专业家电维修, 福匠家电维修, 福匠' sitting inside the bounding box [[618.6567642437774, 242.53472222222223], [1561.8482905982908, 242.53472222222223], [1561.8482905982908, 510.0076312576313], [618.6567642437774, 510.0076312576313]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[623, 236], [1566, 236], [1566, 504], [623, 504]] and write it down. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看边界框 [[632,370], [1622,338], [1609,476], [609,506]]，把\"专____家电维修\"补充完整，还原该标识的全貌。",
+              "answer": "业"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text(s) you see in the region [[623, 236], [1566, 236], [1566, 504], [623, 504]]. Options:\nA. 福匠家电维修, 福匠, 专业宸电维修\nB. 福匠, 专业家电维修, 缠修\nC. 福匠家电维修, 专业家电维修, 维修\nD. 维俢, 福匠, 福匠家电维修",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You can find '福匠家电维修, 福匢, 专业家电维修, 维修' inside the bounding box [[622.6797527495244, 236.21288314176246], [1565.8712791040377, 236.21288314176246], [1565.8712791040377, 503.68579217717155], [622.6797527495244, 503.68579217717155]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out whatever text appears inside the region [[622, 232], [1565, 232], [1565, 499], [622, 499]]. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察边界框 [[670,409], [1686,377], [1675,516], [646,545]]，将缺失文字填入以还原完整标签：\"专____家电维修\"。",
+              "answer": "业"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[622, 232], [1565, 232], [1565, 499], [622, 499]] — which answer choice correctly captures its text? Options:\nA. 维俢, 福匠家电维修, 专业家电维修\nB. 专业宸电维修, 福匠, 福匠家电维修\nC. 缠修, 福匠, 福匠家电维修\nD. 福匠家电维修, 专业家电维修, 维修",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '福匠, 福匠家电维修, 专业宸电维修, 维修' falls inside the bounding box [[621.9705328913684, 231.9575639928263], [1565.1620592458817, 231.9575639928263], [1565.1620592458817, 499.4304730282354], [621.9705328913684, 499.4304730282354]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word visible inside [[623, 227], [1569, 227], [1569, 492], [623, 492]] and enter your answer. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "该代码标识有缺失——结合边界框 [[741,351], [1375,339], [1369,421], [729,439]] 的信息，补全如下内容：福____家电维修",
+              "answer": "匠"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box [[623, 227], [1569, 227], [1569, 492], [623, 492]] contains some text — select the option that lists it correctly. Options:\nA. 福匠, 福匠家电维修, 专业宸电维修\nB. 专业家电维修, 福匠, 维修\nC. 福匢家电维修, 福匠, 维修\nD. 维俢, 福匠, 福匠家电维修",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My claim is that '专业家电维修, 福匠家电维修, 维修' lies inside the bounding box [[622.7397636605992, 226.63841505665607], [1569.4173783948177, 226.63841505665607], [1569.4173783948177, 491.9836645175971], [622.7397636605992, 491.9836645175971]] — do you agree?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the exact text that appears inside [[623, 219], [1572, 219], [1572, 486], [623, 486]]. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请仔细审视边界框 [[559,410], [636,408], [634,439], [555,441]] 中的字符，然后补全缺失部分：维____",
+              "answer": "修"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text visible in area [[623, 219], [1516, 219], [1516, 324], [623, 324]], which answer below is correct? Options:\nA. 福匠, 维俢\nB. 福匠, 专业家电维修\nC. 维修, 福匠\nD. 福匠, 维俢",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '福匠家电维修, 福匠, 专业家电维修' enclosed by the bounding box [[623.2605969939326, 218.66740056390245], [1571.591291438296, 218.66740056390245], [1571.591291438296, 486.1865630683218], [623.2605969939326, 486.1865630683218]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text does the region [[625, 212], [1573, 212], [1573, 480], [625, 480]] contain? ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考边界框 [[522,418], [602,416], [599,447], [518,448]] 中的内容，将短语补全：\"维____\"。",
+              "answer": "修"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options provided, which one correctly reflects the text in area [[625, 212], [1517, 212], [1517, 318], [625, 318]]? Options:\nA. 福匠家电维修, 福匢\nB. 维修, 专业家电维修\nC. 福匢家电维修, 维修\nD. 福匠, 福匠家电维修",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '福匠, 福匠家电维修, 维修' appear inside the bounding box [[624.5105969939326, 212.41740056390245], [1572.841291438296, 212.41740056390245], [1572.841291438296, 479.9365630683218], [624.5105969939326, 479.9365630683218]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside [[627, 205], [1575, 205], [1575, 473], [627, 473]]. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[560,547], [1685,542], [1674,691], [527,695]] 里有什么文字？请填写完整短语：\"专____家电维修\"。",
+              "answer": "业"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer choice that matches the text visible in region [[627, 205], [1519, 205], [1519, 311], [627, 311]]. Options:\nA. 维修, 福匢\nB. 维修, 福匠家电维修\nC. 福匠, 福匢家电维修\nD. 维修, 专业家电维修",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '福匠家电维修, 专业家电维修, 维俢, 福匠' — are they found inside the bounding box [[626.6084990918347, 205.42439357089546], [1574.939193536198, 205.42439357089546], [1574.939193536198, 472.9435560753148], [626.6084990918347, 472.9435560753148]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can find inside [[628, 198], [1576, 198], [1576, 465], [628, 465]]. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据边界框 [[530,463], [610,461], [607,491], [526,493]] 中的文字，补全缺失的内容：____修",
+              "answer": "维"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly reflects the text shown in [[628, 198], [1520, 198], [1520, 303], [628, 303]]? Options:\nA. 专业家电维修, 维修\nB. 福匠家电维修, 维俢\nC. 维修, 福匠家电维修\nD. 福匢, 福匠家电维修",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) '福匠, 维修, 专业家电维修' appearing within [[627.5518953182499, 197.87722375957472], [1575.8825897626132, 197.87722375957472], [1575.8825897626132, 465.39638626399415], [627.5518953182499, 465.39638626399415]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can make out in the region [[626, 194], [1591, 194], [1591, 461], [626, 461]]. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修",
+                "专业家电维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据 [[536,501], [615,500], [613,530], [532,531]] 区域中的内容，填写完整的短语：\"维____\"。",
+              "answer": "修"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that best captures the text found in [[626, 194], [1529, 194], [1529, 299], [626, 299]]. Options:\nA. 专业家电维修, 福匠\nB. 福匠家电维修, 福匢\nC. 福匠, 维俢\nD. 维修, 福匠",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot the label(s) '福匠, 维修, 专业宸电维修, 福匠家电维修' inside the bounding box [[626.1199144113286, 193.81443298969072], [1590.7471264367819, 193.81443298969072], [1590.7471264367819, 461.2373249862889], [626.1199144113286, 461.2373249862889]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0183/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0183/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and fill in the word(s) visible inside [[624, 197], [1527, 197], [1527, 302], [624, 302]]. ________",
+              "answer": [
+                "福匠家电维修",
+                "福匠",
+                "维修"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察 [[1414,514], [1611,512], [1605,590], [1406,591]] 中的文字，填写下列短语中缺失的字符：\"福____\"。",
+              "answer": "匠"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately lists the text(s) visible in [[624, 197], [1527, 197], [1527, 302], [624, 302]]. Options:\nA. 专业家电维修, 福匠家电维修\nB. 维俢, 福匠\nC. 维俢, 福匠家电维修\nD. 福匠, 维修",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '福匠, 福匠家电维修, 维修' fall inside the bounding box [[624.2507555328239, 196.61817130744774], [1588.877967558277, 196.61817130744774], [1588.877967558277, 464.04106330404596], [624.2507555328239, 464.04106330404596]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0183"
+  }
+]

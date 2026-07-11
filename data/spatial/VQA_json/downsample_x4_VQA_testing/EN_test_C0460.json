@@ -1,0 +1,523 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you fill in the blank: the word(s) at [[206.93981400245673, 353.1707317073171], [799.0243902439024, 353.1707317073171], [799.0243902439024, 804.3902439024391], [206.93981400245673, 804.3902439024391]] is/are ________?",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A place name is cut off at [[230,538], [779,519], [781,567], [233,591]] — complete it: CUPER____ VILLAGE.",
+              "answer": "TINO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option best represents the text(s) you see at [[207, 353], [799, 353], [799, 804], [207, 804]]? Options:\nA. 1pm-3pm, New Year 2025, CUPERTINO VILLAGE, Hoppy Lunar, Free Celebration featuring Lion Dancers,, Sunday,February 2,2025\nB. entertainment,and activities for kids!, 1pm-3pm, Heppy Lunar, Free Celebration featuring Lion Dancers,, New Year 2025, Sunday,February 2,2025\nC. CUPERTINO VILLAGE, Happy Lunar, New Year 2025, Free Celebration featuring Lion Dancers,, 1pm-3pm, entertainment,and activities for kids!\nD. Happy Lunar, Free Celebration featuring Lion Dancers,, Sunday,February 2,2025, CUPERTINO VILLAGE, New Year 2025, 1pn-3pm",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[206.93981400245673, 353.1707317073171], [799.0243902439024, 353.1707317073171], [799.0243902439024, 804.3902439024391], [206.93981400245673, 804.3902439024391]] contain the label(s) 'CUPERTINO VILLAGE, Frce Celebration featuring Lion Dancers,, New Year 2025, 1pm-3pm, Happy Lunar, Sunday,February 2,2025, entertainment,and activities for kids!'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[175.98743305007577, 355.55168408826944], [768.0720092915219, 355.55168408826944], [768.0720092915219, 806.7711962833914], [175.98743305007577, 806.7711962833914]] contains some text — which word(s) fill in the blank? The word(s) is/are ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the bounding box [[64,707], [255,693], [258,730], [68,744]], what text completes the missing portion \"1pm-____\"?",
+              "answer": "3pm"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly lists the text(s) visible inside [[206, 634], [768, 634], [768, 807], [206, 807]]? Options:\nA. Free Celebration featuring Lion Dancers,, 1pm-3pm, New Year 2025\nB. Happy Lunar, Free Celebration featuring Lion Dancers,, Sunday,February 2,2025\nC. entertainment,and activities for kids!, Free Celebration featuring Lion Dancers,, 1pm-3pm\nD. Free Celebration featuring Lion Dancers,, entertainment,and activities for kids!, 1pn-3pm",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[175.98743305007577, 355.55168408826944], [768.0720092915219, 355.55168408826944], [768.0720092915219, 806.7711962833914], [175.98743305007577, 806.7711962833914]] actually contain the label(s) 'CUPERTINO VILLAGE, New Year 2025, entertainment,and activities for kids!, Free Celebration featuring Lion Dancers,, Sunday,February 2,2025, 1pm-3pm, Heppy Lunar'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Within [[142, 357], [746, 357], [746, 809], [142, 809]], which word(s) can you identify? The answer is ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[292,706], [473,694], [476,729], [295,743]], the text has a gap — what fills in \"____m-3pm\"?",
+              "answer": "1p"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[142, 357], [746, 357], [746, 809], [142, 809]] and pick the option that matches what's written there. Options:\nA. New Year 2025, Happy Lunar, 1pm-3pm, entertainment,and activities for kids!, Sunday,February 2,2025, Free Celebration featuring Lion Dancers,\nB. Sunday,February 2,2025, Free Celebration featuring Lion Dancers,, 1pm-3pm, Happy Lunar, entertainment,and activities for kids!, Now Year 2025\nC. CUPERTINO VILLAGE, entertainment,and activities for kids!, Pree Celebration featuring Lion Dancers,, Happy Lunar, 1pm-3pm, Sunday,February 2,2025\nD. Sunday,February 2,2025, entertainment,and activities for kids!, New Year 2025, CURERTINO VILLAGE, Free Celebration featuring Lion Dancers,, Happy Lunar",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'New Year 2025, Free Celebration featuring Lion Dancers,, Sunday,February 2,2025, Happy Lunar, 1pm-3pm, cntertainment,and activities for kids!, CUPERTINO VILLAGE' appears inside the area [[142.32067246023826, 356.73511604093216], [745.7798165137615, 356.73511604093216], [745.7798165137615, 808.7224157955865], [142.32067246023826, 808.7224157955865]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you focus on the region [[123, 358], [728, 358], [728, 813], [123, 813]], what word(s) do you see? The answer is ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text at [[671,658], [834,657], [836,689], [673,691]], what character(s) are needed to complete \"1p____3pm\"?",
+              "answer": "m-"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one captures the text(s) found in [[123, 358], [728, 358], [728, 813], [123, 813]]? Options:\nA. entertainment,and activities for kids!, Sunday,February 2,2025, 1pm-3pm, Free Celebration featuring Lion Dancers,, CUPERTINO VILLAGE, Happy Lunar\nB. New Year 2025, Sunday,February 2,2025, entortainment,and activities for kids!, Happy Lunar, Free Celebration featuring Lion Dancers,, CUPERTINO VILLAGE\nC. Heppy Lunar, New Year 2025, CUPERTINO VILLAGE, 1pm-3pm, Free Celebration featuring Lion Dancers,, entertainment,and activities for kids!\nD. Sunday,February 2,2025, CUPERTINO VILLAGE, Happy Lunar, 1pn-3pm, entertainment,and activities for kids!, New Year 2025",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'entertainment,and activities for kids!, Happy Lunar, 1pm-3pm, Free Celebration featuring Lion Dancers,, Sunday,February 2,2025' fall inside the bounding box [[122.71282932298334, 358.04230558341584], [728.0, 358.04230558341584], [728.0, 812.6474063851906], [122.71282932298334, 812.6474063851906]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on the area [[105, 361], [710, 361], [710, 816], [105, 816]], name the word(s) you can make out. The answer is ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The bounding box [[932,563], [1338,562], [1338,599], [934,602]] shows a date — what word or phrase fills in \"Sunday,____bruary 2, 2025\"?",
+              "answer": "Fe"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text(s) inside [[105, 361], [710, 361], [710, 816], [105, 816]]. Options:\nA. entertainment,and activities for kids!, Happy Lunar, Free Celebration featuring Lion Dancers,, 1pm-3pm, Sundey,February 2,2025, CUPERTINO VILLAGE\nB. Free Celebration featuring Lion Dancers,, New Year 2025, Sunday,February 2,2025, CUPERTINO VILLAGE, entertainment,and activities for kids!, Happy Lunar\nC. 1pm-3pm, Sunday,February 2,2025, entortainment,and activities for kids!, CUPERTINO VILLAGE, Happy Lunar, New Year 2025\nD. New Year 2025, Free Celebration featuring Lion Dancers,, Heppy Lunar, entertainment,and activities for kids!, Sunday,February 2,2025, 1pm-3pm",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'New Year 2025, Sunday,February 2,2025, entertainment,and activities for kids!, CURERTINO VILLAGE, Happy Lunar, 1pm-3pm, Free Celebration featuring Lion Dancers,' the label(s) you'd find if you looked at the area [[104.93505154520557, 361.1534166945269], [710.2222222222218, 361.1534166945269], [710.2222222222218, 815.7585174963017], [104.93505154520557, 815.7585174963017]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and identify the word(s) contained in [[86, 362], [696, 362], [696, 817], [86, 817]]. The answer is ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[969,331], [1546,328], [1545,399], [973,401]] reads \"New ____ 2025\" — what goes in the blank?",
+              "answer": "Year"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices given, find the one that matches the text(s) visible in [[123, 639], [696, 639], [696, 817], [123, 817]]. Options:\nA. New Year 2025, Free Celebration featuring Lion Dancers,, entertainment,and activities for kids!\nB. entertainment,and activities for kids!, Happy Lunar, Free Celebration featuring Lion Dancers,\nC. Free Celebration featuring Lion Dancers,, entertainment,and activities for kids!, Sunday,February 2,2025\nD. Sunday,February 2,2025, 1pm-3pm, Pree Celebration featuring Lion Dancers,",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Free Celebration featuring Lion Dancers,, New Year 2025, CUPERTINO VILLAGE, Sunday,February 2,2025, Happy Lunar, 1pm-3pm, cntertainment,and activities for kids!' is among the label(s) displayed inside the area [[86.000140302602, 361.74513267085825], [696.2962962962963, 361.74513267085825], [696.2962962962963, 816.6666666666666], [86.000140302602, 816.6666666666666]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[68.79583922733318, 363.3580358966647], [679.0919952210281, 363.3580358966647], [679.0919952210281, 818.2795698924731], [68.79583922733318, 818.2795698924731]] — which word(s) are visible there? The word(s) is/are ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over in the bounding box coordinates [[1011,676], [1512,726], [1510,755], [1012,702]], the phrase reads \"entertainment,an____ activities for kids!\" — what fills the blank?",
+              "answer": "d"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that lists the text(s) visible in [[106, 634], [679, 634], [679, 818], [106, 818]]. Options:\nA. 1pm-3pm, Sunday,February 2,2025, New Year 2025\nB. 1pn-3pm, Sunday,February 2,2025, entertainment,and activities for kids!\nC. 1pm-3pm, entertainment,and activities for kids!, Free Celebration featuring Lion Dancers,\nD. Sunday,February 2,2025, 1pm-3pm, Happy Lunar",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) 'Happy Lunar, New Year 2025, CUPERTINO VILLAGE, entertainment,and activities for kids!, 1pm-3pm, Sunday,February 2,2025, Frce Celebration featuring Lion Dancers,' appear anywhere in the area [[68.79583922733318, 363.3580358966647], [679.0919952210281, 363.3580358966647], [679.0919952210281, 818.2795698924731], [68.79583922733318, 818.2795698924731]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Zoom in on [[52, 363], [663, 363], [663, 819], [52, 819]] — what word(s) do you find there? The answer is ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The number shown at [[654,1], [692,1], [692,18], [654,18]] appears as \"1036____\" — which digit(s) fill in the gap?",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text found inside [[90, 634], [663, 634], [663, 819], [90, 819]]? Options:\nA. Free Celebration featuring Lion Dancers,, Happy Lunar, Sunday,February 2,2025\nB. Sunday,February 2,2025, 1pn-3pm, Free Celebration featuring Lion Dancers,\nC. entertainment,and activities for kids!, 1pm-3pm, Sunday,February 2,2025\nD. 1pm-3pm, Sundey,February 2,2025, entertainment,and activities for kids!",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'CUPERTINO VILLAGE, entertainment,and activities for kids!, Free Celebration featuring Lion Dancers,, 1pm-3pm, Happy Lunar' appear inside the region [[52.45596994628745, 363.3580358966647], [662.7521259399821, 363.3580358966647], [662.7521259399821, 818.8712858688044], [52.45596994628745, 818.8712858688044]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the region marked [[37, 364], [656, 364], [656, 822], [37, 822]], what text can be found? The answer is ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[936,678], [1381,699], [1382,723], [938,704]], the phrase \"entertainment,a____ activities for kids!\" has a gap — what word(s) belong there?",
+              "answer": "nd"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text visible in [[71, 639], [656, 639], [656, 822], [71, 822]]? Options:\nA. Sunday,February 2,2025, Free Celebration featuring Lion Dancers,, Happy Lunar\nB. Sundey,February 2,2025, Free Celebration featuring Lion Dancers,, 1pm-3pm\nC. Free Celebration featuring Lion Dancers,, Sunday,February 2,2025, entertainment,and activities for kids!\nD. Sunday,February 2,2025, entertainment,and activities for kids!, Pree Celebration featuring Lion Dancers,",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Happy Lunar, Free Celebration featuring Lion Dancers,, 1pm-3pm, CUPERTINO VILLAGE, Sunday,February 2,2025' present within the bounded region [[37.109375, 364.41406250000006], [655.8558558558558, 364.41406250000006], [655.8558558558558, 821.981981981982], [37.109375, 821.981981981982]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible in the region [[29.417067307692307, 364.41406250000006], [648.1635481635484, 364.41406250000006], [648.1635481635484, 821.981981981982], [29.417067307692307, 821.981981981982]]. The word(s) is/are ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[982,477], [1331,481], [1332,512], [983,508]], a date reads \"Sunday,February 2,____\" — what fills the blank?",
+              "answer": "2025"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on what's shown in [[63, 639], [648, 639], [648, 822], [63, 822]], which answer option correctly lists the text there? Options:\nA. entertainment,and activities for kids!, Free Celebration featuring Lion Dancers,, Sunday,February 2,2025\nB. 1pm-3pm, entertainment,and activities for kids!, Pree Celebration featuring Lion Dancers,\nC. Happy Lunar, entertainment,and activities for kids!, 1pm-3pm\nD. Sunday,February 2,2025, Free Celebration featuring Lion Dancers,, 1pn-3pm",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can '1pm-3pm, Happy Lunar, Sundey,February 2,2025, New Year 2025, entertainment,and activities for kids!, Free Celebration featuring Lion Dancers,, CUPERTINO VILLAGE' be found inside the area [[29.417067307692307, 364.41406250000006], [648.1635481635484, 364.41406250000006], [648.1635481635484, 821.981981981982], [29.417067307692307, 821.981981981982]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[20.686908577533572, 366.0013640873016], [642.9732124422387, 366.0013640873016], [642.9732124422387, 823.5692835692837], [20.686908577533572, 823.5692835692837]], what word(s) show up there? The word(s) is/are ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You'll find a partial phrase at [[967,576], [1425,588], [1426,611], [968,600]]: \"Fr____ Celebration featuring Lion Dancers.\" What fills the blank?",
+              "answer": "ee"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately reflects the text shown in [[58, 640], [643, 640], [643, 824], [58, 824]]. Options:\nA. Free Celebration featuring Lion Dancers,, Sunday,February 2,2025, Happy Lunar\nB. entertainment,and activities for kids!, Free Celebration featuring Lion Dancers,, 1pm-3pm\nC. 1pm-3pm, Sunday,February 2,2025, entortainment,and activities for kids!\nD. Free Celebration featuring Lion Dancers,, 1pn-3pm, entertainment,and activities for kids!",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[20.686908577533572, 366.0013640873016], [642.9732124422387, 366.0013640873016], [642.9732124422387, 823.5692835692837], [20.686908577533572, 823.5692835692837]], does the text include '1pm-3pm, Happy Lunar, CUPERTINO VILLAGE, New Year 2025, Sunday,February 2,2025'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0460/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0460/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to the coordinates [[20.686908577533572, 366.0013640873016], [642.9732124422387, 366.0013640873016], [642.9732124422387, 823.5692835692837], [20.686908577533572, 823.5692835692837]], the word(s) visible there is/are ________.",
+              "answer": [
+                "Happy Lunar",
+                "New Year 2025",
+                "Sunday,February 2,2025",
+                "1pm-3pm",
+                "Free Celebration featuring Lion Dancers,",
+                "entertainment,and activities for kids!",
+                "CUPERTINO VILLAGE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown at [[946,586], [1281,590], [1282,619], [948,617]] is the phrase \"Sunday,Februa____ 2,2025\" — which word(s) complete it?",
+              "answer": "ry"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that captures exactly what's written in [[21, 366], [643, 366], [643, 824], [21, 824]]. Options:\nA. Sunday,February 2,2025, New Year 2025, Happy Lunar, Free Celebration featuring Lion Dancers,, 1pm-3pm, entertainment,and activities for kids!\nB. entertainment,and activities for kids!, Free Celebration featuring Lion Dancers,, Happy Lunar, CUPERTINO VILLAGE, Sunday,February 2,2025, 1om-3pm\nC. Free Celebration featuring Lion Dancers,, entertainment,and activities for kids!, 1pm-3pm, Happy Lunar, Sunday,February 2,2025, Now Year 2025\nD. New Year 2025, Free Celebration featuring Lion Dancers,, 1pn-3pm, CUPERTINO VILLAGE, entertainment,and activities for kids!, Happy Lunar",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Happy Lunar, entertainment,and activities for kids!, Sunday,February 2,2025, Free Celebration featuring Lion Dancers,, New Year 2025' fall within the region [[20.686908577533572, 366.0013640873016], [642.9732124422387, 366.0013640873016], [642.9732124422387, 823.5692835692837], [20.686908577533572, 823.5692835692837]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0460"
+  }
+]

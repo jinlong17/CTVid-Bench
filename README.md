@@ -1,14 +1,14 @@
 # CTVid-Bench: ClearText-Video Benchmark
 
 [![Paper](https://img.shields.io/badge/CVPR_2026-Paper-red)](https://arxiv.org/abs/XXXX.XXXXX)
-[![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/CTVid/CTVid-Bench)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/jinlong17/CTVid-Bench)
 [![License: MIT](https://img.shields.io/badge/Code_License-MIT-blue)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 
 **ClearText-Video (CTVid)** is the first large-scale, scene-text-aware video QA benchmark
 for studying the effect of video quality on text-centric multimodal reasoning.
 
-> 📄 [Paper](https://arxiv.org/abs/XXXX.XXXXX) | 🌐 [Project Page](https://CTVid.github.io) | 🤗 [Dataset](https://huggingface.co/datasets/CTVid/CTVid-Bench) | 🏆 [Leaderboard](https://CTVid.github.io/#leaderboard)
+> 📄 [Paper](https://arxiv.org/abs/XXXX.XXXXX) | 🌐 [Project Page](https://CTVid.github.io) | 🤗 [Dataset](https://huggingface.co/datasets/jinlong17/CTVid-Bench) | 🏆 [Leaderboard](https://CTVid.github.io/#leaderboard)
 
 ![CTVid benchmark overview](project_page/static/images/main_figure.png)
 
@@ -34,6 +34,12 @@ for studying the effect of video quality on text-centric multimodal reasoning.
 
 **Open-source test set** (this repo) covers 3 quality variants: GT · blur · downsample_x4
 
+**Current public release status.** The Hugging Face dataset uses one repository
+with top-level `spatial/`, `temporal/`, and `training/` folders. Testing ImageQA
+and VideoQA are available as QA-v2 annotations for the public variants. Training
+source frames and OCR JSON are available; refined training QA has been prepared
+internally but is not uploaded to the public dataset yet.
+
 ---
 
 ## Quick Start
@@ -41,7 +47,7 @@ for studying the effect of video quality on text-centric multimodal reasoning.
 ### Installation
 
 ```bash
-git clone https://github.com/CTVid/CTVid-Bench.git
+git clone https://github.com/jinlong17/CTVid-Bench.git
 cd CTVid-Bench
 pip install -r requirements.txt
 ```
@@ -107,8 +113,10 @@ python evaluation/temporal/metrics.py \
 ```
 CTVid-Bench/
 ├── data/
-│   ├── spatial_qa/annotations/       # QA annotation JSONs (GT/blur/downsample_x4)
-│   └── temporal_qa/annotations/      # Temporal QA JSONs
+│   ├── spatial/VQA_img/              # Spatial QA frames after download
+│   ├── spatial/VQA_json/             # QA-v2 ImageQA JSONs, 389 clips x 3 public methods
+│   ├── temporal/images/              # Temporal extracted frames after download
+│   └── temporal/videos_vqa/          # Temporal videos + QA-v2 JSONs, 97 clips x 3 public methods
 ├── evaluation/
 │   ├── spatial/                       # Spatial QA eval scripts
 │   └── temporal/                      # Temporal QA eval scripts

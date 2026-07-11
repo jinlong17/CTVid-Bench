@@ -1,17 +1,30 @@
 # CTVid-Bench — Data Download Instructions
 
+Current Hugging Face dataset: `jinlong17/CTVid-Bench`.
+
+The public release is organized as one dataset repository with top-level
+`spatial/`, `temporal/`, and `training/` folders. Testing QA is QA-v2 for the
+public variants. Training source frames and OCR JSON are available; refined
+training QA is prepared internally but has not been uploaded to the public
+dataset yet.
+
 ## What's in This Repo
 
 Annotation JSON files are included directly:
 
 | Path | Size | Contents |
 |------|------|----------|
-| `data/spatial_qa/annotations/GT_VQA_testing/` | 14 MB | 390 JSON files |
-| `data/spatial_qa/annotations/blur_VQA_testing/` | 9.3 MB | 389 JSON files |
-| `data/spatial_qa/annotations/downsample_x4_VQA_testing/` | 9.3 MB | 389 JSON files |
-| `data/temporal_qa/annotations/GT_vqa_testing/` | ~0.8 MB | 97 JSON files |
-| `data/temporal_qa/annotations/blur_vqa_testing/` | ~0.8 MB | 97 JSON files |
-| `data/temporal_qa/annotations/downsample_x4_vqa_testing/` | ~0.8 MB | 97 JSON files |
+| `data/spatial/VQA_json/GT_VQA_testing/` | 9.0 MB | 389 QA-v2 JSON files |
+| `data/spatial/VQA_json/blur_VQA_testing/` | 9.0 MB | 389 QA-v2 JSON files |
+| `data/spatial/VQA_json/downsample_x4_VQA_testing/` | 9.0 MB | 389 QA-v2 JSON files |
+| `data/temporal/videos_vqa/GT/vqa/` | 1.7 MB | 97 QA-v2 JSON files |
+| `data/temporal/videos_vqa/blur/vqa/` | 1.7 MB | 97 QA-v2 JSON files |
+| `data/temporal/videos_vqa/downsample_x4/vqa/` | 1.7 MB | 97 QA-v2 JSON files |
+
+The older `data/spatial_qa/annotations/` and `data/temporal_qa/annotations/`
+template-QA layout is no longer part of this repo. Current JSON path fields are
+relative to the public download root, e.g. `spatial/VQA_img/...` and
+`temporal/videos_vqa/...`.
 
 ## Images & Videos (HuggingFace)
 
@@ -39,22 +52,22 @@ python tools/download_data.py \
 pip install huggingface_hub
 
 # Spatial QA images
-huggingface-cli download CTVid/CTVid-Bench \
+huggingface-cli download jinlong17/CTVid-Bench \
     --repo-type dataset \
-    --include "spatial_qa/images/*" \
-    --local-dir ./data/spatial_qa/
+    --include "spatial/VQA_img/*" "spatial/VQA_json/*" \
+    --local-dir ./data/
 
 # Temporal QA images
-huggingface-cli download CTVid/CTVid-Bench \
+huggingface-cli download jinlong17/CTVid-Bench \
     --repo-type dataset \
-    --include "temporal_qa/images/*" \
-    --local-dir ./data/temporal_qa/
+    --include "temporal/images/*" \
+    --local-dir ./data/
 
 # Temporal QA videos (smaller)
-huggingface-cli download CTVid/CTVid-Bench \
+huggingface-cli download jinlong17/CTVid-Bench \
     --repo-type dataset \
-    --include "temporal_qa/videos/*" \
-    --local-dir ./data/temporal_qa/
+    --include "temporal/videos_vqa/*" \
+    --local-dir ./data/
 ```
 
 ### Option C — Python datasets library
@@ -63,10 +76,10 @@ huggingface-cli download CTVid/CTVid-Bench \
 from datasets import load_dataset
 
 # Spatial QA
-ds = load_dataset("CTVid/CTVid-Bench", name="spatial_qa", split="test")
+ds = load_dataset("jinlong17/CTVid-Bench", name="spatial_qa", split="test")
 
 # Temporal QA
-ds = load_dataset("CTVid/CTVid-Bench", name="temporal_qa", split="test")
+ds = load_dataset("jinlong17/CTVid-Bench", name="temporal_qa", split="test")
 ```
 
 ## After Downloading
@@ -75,8 +88,8 @@ Update `configs/default.yaml` to point to your downloaded data:
 
 ```yaml
 spatial_qa:
-  image_root: "./data/spatial_qa/images"   # change to local path
+  image_root: "./data/spatial/VQA_img"   # change to local path
 temporal_qa:
-  video_root: "./data/temporal_qa/videos"
-  image_root: "./data/temporal_qa/images"
+  video_root: "./data/temporal/videos_vqa"
+  image_root: "./data/temporal/images"
 ```

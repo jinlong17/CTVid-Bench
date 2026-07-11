@@ -7,6 +7,7 @@ Download CTVid-Bench images and videos from HuggingFace.
 Usage:
   python tools/download_data.py --output_dir ./data
   python tools/download_data.py --variants GT blur downsample_x4 --output_dir ./data
+  python tools/download_data.py --split test --variants GT blur downsample_x4
   python tools/download_data.py --type spatial_qa --variants GT
 """
 
@@ -14,7 +15,7 @@ import os
 import argparse
 
 
-REPO_ID = "CTVid/CTVid-Bench"
+REPO_ID = "jinlong17/CTVid-Bench"
 
 SPATIAL_SIZES = {"GT": "9.0 GB", "blur": "8.7 GB", "downsample_x4": "1.1 GB"}
 TEMPORAL_IMG_SIZES = {"GT": "31 GB", "blur": "21 GB", "downsample_x4": "2.8 GB"}
@@ -35,18 +36,21 @@ def download_spatial_images(variants: list, output_dir: str, token: str | None) 
 
     for variant in variants:
         size = SPATIAL_SIZES.get(variant, "?")
-        print(f"\n[spatial_qa] Downloading '{variant}' images ({size}) …")
-        local_dir = os.path.join(output_dir, "spatial_qa", "images", variant)
-        os.makedirs(local_dir, exist_ok=True)
+        print(f"\n[spatial_qa] Downloading '{variant}' images and QA JSON ({size}) …")
+        annotation_folder = f"{variant}_VQA_testing"
         snapshot_download(
             repo_id=REPO_ID,
             repo_type="dataset",
-            allow_patterns=[f"spatial_qa/images/{variant}/*"],
-            local_dir=local_dir,
+            allow_patterns=[
+                f"spatial/VQA_img/{variant}/**",
+                f"spatial/VQA_json/{annotation_folder}/**",
+            ],
+            local_dir=output_dir,
             local_dir_use_symlinks=False,
             token=token,
         )
-        print(f"  Saved to: {local_dir}")
+        print(f"  Saved to: {os.path.join(output_dir, 'spatial', 'VQA_img', variant)}")
+        print(f"  QA JSON:  {os.path.join(output_dir, 'spatial', 'VQA_json', annotation_folder)}")
 
 
 def download_temporal_images(variants: list, output_dir: str, token: str | None) -> None:
@@ -55,17 +59,15 @@ def download_temporal_images(variants: list, output_dir: str, token: str | None)
     for variant in variants:
         size = TEMPORAL_IMG_SIZES.get(variant, "?")
         print(f"\n[temporal_qa] Downloading '{variant}' images ({size}) …")
-        local_dir = os.path.join(output_dir, "temporal_qa", "images", variant)
-        os.makedirs(local_dir, exist_ok=True)
         snapshot_download(
             repo_id=REPO_ID,
             repo_type="dataset",
-            allow_patterns=[f"temporal_qa/images/{variant}/*"],
-            local_dir=local_dir,
+            allow_patterns=[f"temporal/images/{variant}/**"],
+            local_dir=output_dir,
             local_dir_use_symlinks=False,
             token=token,
         )
-        print(f"  Saved to: {local_dir}")
+        print(f"  Saved to: {os.path.join(output_dir, 'temporal', 'images', variant)}")
 
 
 def download_temporal_videos(variants: list, output_dir: str, token: str | None) -> None:
@@ -74,17 +76,31 @@ def download_temporal_videos(variants: list, output_dir: str, token: str | None)
     for variant in variants:
         size = TEMPORAL_VID_SIZES.get(variant, "?")
         print(f"\n[temporal_qa] Downloading '{variant}' videos ({size}) …")
-        local_dir = os.path.join(output_dir, "temporal_qa", "videos", variant)
-        os.makedirs(local_dir, exist_ok=True)
         snapshot_download(
             repo_id=REPO_ID,
             repo_type="dataset",
-            allow_patterns=[f"temporal_qa/videos/{variant}/*"],
-            local_dir=local_dir,
+            allow_patterns=[f"temporal/videos_vqa/{variant}/videos/**"],
+            local_dir=output_dir,
             local_dir_use_symlinks=False,
             token=token,
         )
-        print(f"  Saved to: {local_dir}")
+        print(f"  Saved to: {os.path.join(output_dir, 'temporal', 'videos_vqa', variant)}")
+
+
+def download_temporal_qa_json(variants: list, output_dir: str, token: str | None) -> None:
+    from huggingface_hub import snapshot_download
+
+    for variant in variants:
+        print(f"\n[temporal_qa] Downloading '{variant}' QA JSON …")
+        snapshot_download(
+            repo_id=REPO_ID,
+            repo_type="dataset",
+            allow_patterns=[f"temporal/videos_vqa/{variant}/vqa/**"],
+            local_dir=output_dir,
+            local_dir_use_symlinks=False,
+            token=token,
+        )
+        print(f"  QA JSON: {os.path.join(output_dir, 'temporal', 'videos_vqa', variant, 'vqa')}")
 
 
 def print_size_summary(variants: list, data_type: str) -> None:
@@ -110,6 +126,10 @@ def print_size_summary(variants: list, data_type: str) -> None:
 
 def main():
     parser = argparse.ArgumentParser(description="Download CTVid-Bench data from HuggingFace.")
+    parser.add_argument(
+        "--split", default="test", choices=["test"],
+        help="Dataset split to download. Only the public test split is currently available."
+    )
     parser.add_argument(
         "--variants", nargs="+", default=["GT", "blur", "downsample_x4"],
         choices=["GT", "blur", "downsample_x4"],
@@ -152,13 +172,14 @@ def main():
 
     if args.type in ("all", "temporal_qa"):
         download_temporal_images(args.variants, args.output_dir, args.token)
+        download_temporal_qa_json(args.variants, args.output_dir, args.token)
         if not args.no_videos:
             download_temporal_videos(args.variants, args.output_dir, args.token)
 
     print(f"\nDownload complete. Update configs/default.yaml with:")
-    print(f"  spatial_qa.image_root: {os.path.abspath(args.output_dir)}/spatial_qa/images")
-    print(f"  temporal_qa.image_root: {os.path.abspath(args.output_dir)}/temporal_qa/images")
-    print(f"  temporal_qa.video_root: {os.path.abspath(args.output_dir)}/temporal_qa/videos")
+    print(f"  spatial_qa.image_root: {os.path.abspath(args.output_dir)}/spatial/VQA_img")
+    print(f"  temporal_qa.image_root: {os.path.abspath(args.output_dir)}/temporal/images")
+    print(f"  temporal_qa.video_root: {os.path.abspath(args.output_dir)}/temporal/videos_vqa")
 
 
 if __name__ == "__main__":

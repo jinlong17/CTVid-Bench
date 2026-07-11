@@ -1,0 +1,485 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you can read inside [[608, 874], [1676, 874], [1676, 1034], [608, 1034]]. ________",
+              "answer": [
+                "CONSULTATION",
+                "ROOM",
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A policy visible at [[1549,932], [1669,935], [1668,958], [1549,955]] reads \"Notice of ____\" — what word(s) complete that title?",
+              "answer": "Privacy"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[518, 0], [1676, 0], [1676, 1034], [518, 1034]] and tell me which option correctly lists the text there. Options:\nA. CONSULTATION, HEALTH CENTER, Notice of Privacy, COSTCO, PHARMACY\nB. PHARMACY, Notice of Privacy, CONSULTATION, COSTCO, NEALTH CENTER\nC. HFALTH CENTER, COSTCO, CONSULTATION, PHARMACY, ROOM\nD. Notice of Privacy, PHARMACY, HEALIH CENTER, ROOM, COSTCO",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it accurate to say that the label(s) 'CONSULTATION, PHARMACY, Notice of Privacy, COSTCO' are contained within [[518.0, 0.0], [1675.6390977443607, 0.0], [1675.6390977443607, 1033.6016096579478], [518.0, 1033.6016096579478]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible in the region [[533, 0], [1692, 0], [1692, 1022], [533, 1022]]. ________",
+              "answer": [
+                "PHARMACY",
+                "CONSULTATION",
+                "ROOM",
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1620,988], [1754,991], [1753,1014], [1620,1011]], a phrase reads \"HEALTH ____\" — what word or words fill the hidden portion?",
+              "answer": "CENTER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option captures the text shown inside [[623, 862], [1692, 862], [1692, 1022], [623, 1022]]? Options:\nA. CONSULTATION, COSTCO, HEALTH CENTER, RDOM\nB. HEALTH CENTER, Notice of Privacy, CONSULTATION, ROOM\nC. CONSULTATION, COSTCO, PHARMACY, ROOM\nD. ROOM, CONSULTATION, Notioe of Privacy, HEALTH CENTER",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the image, are the label(s) 'Notice of Privacy, ROOM, PHARMACY, COSTCO, HEALTH CENTER, CONSULTATION' situated inside the bounding box [[623, 862], [1692, 862], [1692, 1022], [623, 1022]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the word(s) found inside the region [[633, 858], [1701, 858], [1701, 1020], [633, 1020]]. ________",
+              "answer": [
+                "CONSULTATION",
+                "ROOM",
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word \"PHARMACY\" appears at [[558,90], [1643,75], [1638,264], [557,277]], but some characters show as \"____MACY\" — which letter(s) should they be?",
+              "answer": "PHAR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[633, 858], [1701, 858], [1701, 1020], [633, 1020]] and select the answer that matches the text displayed there. Options:\nA. HEALTH CENTER, Notice of Privacy, PHA, CONSULTATION\nB. Notice of Privacy, HEALTH CENTER, CONSULIATION, COSTCO\nC. CONSULTATION, ROOM, HFALTH CENTER, Notice of Privacy\nD. ROOM, Notice of Privacy, COSTCO, CONSULTATION",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'CONSULTATION, ROOM, COSTCO, Notice of Privacy' sit within the bounding box at [[633, 858], [1701, 858], [1701, 1020], [633, 1020]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Which word(s) can you make out inside the region [[546, 0], [1635, 0], [1635, 138], [546, 138]]? ________",
+              "answer": [
+                "PHARMACY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A company name at [[1578,1039], [1684,1041], [1683,1067], [1577,1065]] appears partially as \"C____O\" — can you supply the missing letter(s)?",
+              "answer": "OSTC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[546, 0], [1713, 0], [1713, 1038], [546, 1038]], which of the following options lists the text(s) shown there? Options:\nA. ROOM, PHARMACY, CONSULTATION, HEALTH CENTER, Notice of Privacy\nB. CONSULTATION, ROOM, PHARMACY, HFALTH CENTER, Notice of Privacy\nC. Notice of Privacy, HEALTH CENTER, PHARMACY, ROOM, CONSULIATION\nD. Notioe of Privacy, CONSULTATION, HEALTH CENTER, PHARMACY, ROOM",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'CONSULTATION, ROOM, PHARMACY, HEALTH CENTER, COSICO, Notice of Privacy' appear inside the bounding box [[546.1538461538462, 0.0], [1712.6595466155004, 0.0], [1712.6595466155004, 1037.889723426305], [546.1538461538462, 1037.889723426305]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the content inside [[655, 886], [1723, 886], [1723, 1048], [655, 1048]] — what word(s) appear there? ________",
+              "answer": [
+                "CONSULTATION",
+                "ROOM",
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A name at [[103,191], [169,238], [155,289], [84,236]] is partially visible as \"Gi____e\" — what letter(s) are missing?",
+              "answer": "ll"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) you can see inside [[655, 886], [1723, 886], [1723, 1048], [655, 1048]]? Options:\nA. Notice of Privacy, COSTCO, ROOM, CONSULIATION\nB. CONSULTATION, ROOM, COSTCO, Notice of Privacy\nC. HEALTH CENTER, PHARMACY, ROOM, COSTCO\nD. HEALTH CENTER, CONSULIATION, ROOM, Notice of Privacy",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[655, 886], [1723, 886], [1723, 1048], [655, 1048]], would you find the label(s) 'Notice of Privacy, COSTCO, PHARMACY, HEALTH CENTER, CONSULTATION, ROOM'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible inside the region [[666, 1022], [750, 1022], [750, 1058], [666, 1058]]. ________",
+              "answer": [
+                "CONSULTATION",
+                "ROOM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown at [[126,90], [198,148], [191,172], [117,113]], the partially hidden text reads \"D____AY\". What letter(s) fill in the gaps?",
+              "answer": "ISPL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately lists what's written inside [[574, 0], [1737, 0], [1737, 1058], [574, 1058]]. Options:\nA. ROOM, PHARMACY, COSTCO, Notioe of Privacy, CONSULTATION\nB. COSTCO, Notice of Privacy, ROOM, PHARMACY, CONSULTATION\nC. Netice of Privacy, ROOM, COSTCO, CONSULTATION, HEALTH CENTER\nD. COSICO, HEALTH CENTER, ROOM, PHARMACY, Notice of Privacy",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'CONSULTATION, COSTCO, PHARMACY, Notice of Privacy, ROOM, HEALTH CENTER' — are they found inside [[666, 896], [1737, 896], [1737, 1058], [666, 1058]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) shown inside [[676, 907], [1747, 907], [1747, 1069], [676, 1069]]. ________",
+              "answer": [
+                "CONSULTATION",
+                "ROOM",
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[58,160], [130,218], [121,240], [50,181]], the characters read \"DIS____AY\" with some letters replaced. Which letter(s) belong in the gaps?",
+              "answer": "PL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region marked [[585, 0], [1747, 0], [1747, 1069], [585, 1069]], which answer option correctly captures its text(s)? Options:\nA. Notice of Privacy, COSTCO, ROOM, HFALTH CENTER, PHARMACY\nB. HEALTH CENTER, COSTCO, Notice of Privacy, RDOM, PHARMACY\nC. CONSULTATION, Notice of Privacy, PHARMACY, NEALTH CENTER, ROOM\nD. PHARMACY, CONSULTATION, Notice of Privacy, COSTCO, ROOM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focusing on [[676, 907], [1747, 907], [1747, 1069], [676, 1069]], do the label(s) 'Notice of Privacy, ROOM, COSTCO, CONSULTATION' fall within it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word visible in the area [[597, 0], [1754, 0], [1754, 1080], [597, 1080]]. ________",
+              "answer": [
+                "PHARMACY",
+                "CONSULTATION",
+                "ROOM",
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[15,526], [56,551], [42,601], [0,574]], only part of the text is legible: \"l____e\". What letter(s) are missing?",
+              "answer": "l"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly represents the text(s) inside [[597, 0], [1754, 0], [1754, 1080], [597, 1080]]. Options:\nA. RDOM, COSTCO, Notice of Privacy, HEALTH CENTER, CONSULTATION\nB. HEALTH CENTER, ROOM, COSICO, CONSULTATION, Notice of Privacy\nC. PHARMACY, HEALTH CENTER, POOM, Notice of Privacy, COSTCO\nD. CONSULTATION, PHARMACY, COSTCO, ROOM, Notice of Privacy",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'HEALTH CENTER, Notice of Privacy, CONSULTATION, COSTCO' is/are positioned inside the bounding box [[681, 920], [1754, 920], [1754, 1080], [681, 1080]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you read inside the box defined by [[600, 0], [1688, 0], [1688, 187], [600, 187]]? ________",
+              "answer": [
+                "PHARMACY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something at [[373,711], [1462,702], [1464,884], [368,892]] reads \"P____ACY\" — what letter(s) are supposed to replace the blanks?",
+              "answer": "HARM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options given, which one holds the text(s) shown at [[684, 930], [1756, 930], [1756, 1077], [684, 1077]]? Options:\nA. Notice of Privacy, HEALTH CENTER, COSTCO\nB. COSTCO, Notice of Privacy, CONSULIATION\nC. CONSULIATION, Notice of Privacy, HEALTH CENTER\nD. HEALTH CENTER, CONSULTATION, PHARMACY",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the box at [[684, 930], [1756, 930], [1756, 1077], [684, 1077]] — do you see 'COSTCO, CONSULTATION, HEALTH CENTER' in there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name all the word(s) that appear within the region [[1622, 943], [1756, 943], [1756, 1027], [1622, 1027]]. ________",
+              "answer": [
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Prominently displayed at [[255,566], [1336,563], [1339,755], [242,752]], a term reads \"PHAR____Y\" with letters missing. What letter(s) complete it?",
+              "answer": "MAC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[1622, 943], [1756, 943], [1756, 1027], [1622, 1027]], which answer choice correctly names the text(s) found there? Options:\nA. Notioe of Privacy, COSTCO\nB. COSTCO, Notioe of Privacy\nC. PHARMACY, COSTCO\nD. HEALTH CENTER, Notice of Privacy",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'HEALTH CENTER, Notice of Privacy, COSTCO, PHARMACY' appear inside the bounding box [[1622, 943], [1756, 943], [1756, 1027], [1622, 1027]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Which word(s) can you read inside [[1620, 954], [1754, 954], [1754, 1038], [1620, 1038]]? ________",
+              "answer": [
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[279,398], [1360,386], [1364,567], [265,575]] the text shows \"PHAR____\" — what letter(s) are missing to finish the word?",
+              "answer": "MACY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices provided, pick the one that matches the text inside [[597, 20], [1754, 20], [1754, 1038], [597, 1038]]. Options:\nA. COSICO, HEALTH CENTER, PHARMACY\nB. PHARMACY, COSTCO, Notioe of Privacy\nC. PHARMACY, COSTCO, HEALTH CENTER\nD. COSTCO, HFALTH CENTER, PHARMACY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Judging by the image, do you think 'Notice of Privacy, COSTCO' sits inside [[1620, 954], [1754, 954], [1754, 1038], [1620, 1038]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0314/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0314/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside the box at [[595, 26], [1751, 26], [1751, 1044], [595, 1044]] and write it here: ________",
+              "answer": [
+                "PHARMACY",
+                "COSTCO",
+                "HEALTH CENTER",
+                "Notice of Privacy"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Missing from \"____e\" at coordinates [[175,164], [241,208], [223,256], [155,212]] are certain letters — which ones?",
+              "answer": "Gill"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[595, 26], [1751, 26], [1751, 1044], [595, 1044]], select the option below that accurately lists the text there. Options:\nA. HEALTH CENTER, CDSTCO, Notice of Privacy\nB. Notice of Privacy, HEALTH CENTER, COSICO\nC. HEALTH CENTER, COSTCO, Notice of Privacy\nD. Notice of Privacy, COSTCO, PHAPMACY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the bounding box [[1617, 961], [1751, 961], [1751, 1044], [1617, 1044]], would you expect to find 'Notice of Privacy, HEALTH CENTER'?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0314"
+  }
+]

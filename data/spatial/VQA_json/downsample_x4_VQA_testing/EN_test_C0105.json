@@ -1,0 +1,511 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, identify the correct text inside [[408.7780898876404, 0.729927007299267], [1625.7225343320847, 0.729927007299267], [1625.7225343320847, 784.0336134453781], [408.7780898876404, 784.0336134453781]]. The word(s) is/are ________.",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"____n GiftcardsR\" appears at [[441,418], [1128,486], [1126,578], [443,514]] — what word goes in the blank?",
+              "answer": "Simo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, which one matches the text visible at [[409, 1], [1626, 1], [1626, 784], [409, 784]]? Options:\nA. SIMON GIFTCARD, Available at the Management, Oet the party started with, Simon GiftcardsR., Office,located above J.Jill.\nB. Get the party started with, BEST.PRESENT.EVER., Office,located above J.Jill., Simon GiftcardsR., Available at the Management\nC. Get the party started with, SIMDN GIFTCARD, Simon GiftcardsR., Available at the Management, Office,located above J.Jill.\nD. BEST.PRESENT.EVER., Simon GiftcardsR., Office,located above J.Jill., SIMCN GIFTCARD, Available at the Management",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'Get the party started with, Available at the Management, Simen GiftcardsR., Office,located above J.Jill., BEST.PRESENT.EVER., SIMON GIFTCARD' can be found inside the bounding box [[408.7780898876404, 0.729927007299267], [1625.7225343320847, 0.729927007299267], [1625.7225343320847, 784.0336134453781], [408.7780898876404, 784.0336134453781]]. True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly identifies the text at [[421.12376889998615, 5.668198612237546], [1638.0682133444304, 5.668198612237546], [1638.0682133444304, 788.9718850503164], [421.12376889998615, 788.9718850503164]]? The word(s) is/are ________.",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the phrase \"Av____e at the Management\" found in [[428,636], [1208,688], [1207,772], [424,722]], what letters fill that blank?",
+              "answer": "ailabl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which option accurately captures the text at [[421, 6], [1638, 6], [1638, 789], [421, 789]]? Options:\nA. SIMON GIFTCARD, Simon GiftcardsR., Available at the Management, BEST.PRESENT.EVER., Office,located above J.Jill.\nB. Simon GiftcardsR., Office,located above J.Jill., SIMCN GIFTCARD, Available at the Management, Get the party started with\nC. Available at the Management, Office,located above J.Jill., Get the party started with, SIMON GIFTCARD, Simen GiftcardsR.\nD. Oet the party started with, SIMON GIFTCARD, Office,located above J.Jill., BEST.PRESENT.EVER., Available at the Management",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Across the visible frame, are 'Get the party started with, Office,located above J.Jill., BEST.PRESENT.EVER., SIMON GIFTCARD' enclosed by the bounding box [[421.12376889998615, 5.668198612237546], [1638.0682133444304, 5.668198612237546], [1638.0682133444304, 788.9718850503164], [421.12376889998615, 788.9718850503164]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word visible inside the box [[433, 18], [1650, 18], [1650, 801], [433, 801]]. The word(s) is/are ________.",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You'll find \"Get the pa____ started with\" at coordinates [[466,332], [1429,439], [1434,548], [470,453]] — what fills the blank?",
+              "answer": "rty"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the listed options, which one matches the text you see in [[433, 18], [1650, 18], [1650, 801], [433, 801]]? Options:\nA. Get the party started with, Office,located above J.Jill., Available at the Management, SIMON GIFTCARD, Simen GiftcardsR.\nB. Office,located above J.Jill., Get the party started with, SIMON GIFTCARD, Available at the Management, Siman GiftcardsR.\nC. Offioe,located above J.Jill., Get the party started with, Simon GiftcardsR., Available at the Management, BEST.PRESENT.EVER.\nD. Available at the Management, SIMON GIFTCARD, Get the party started with, Office,located above J.Jill., BEST.PRESENT.EVER.",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at the image, do you see 'Simon GiftcardsR., Available at the Management, Office,located above J.Jill., SIMON GIFTCARD' sitting inside the box at [[433.4694479123319, 18.013877624583216], [1650.4138923567762, 18.013877624583216], [1650.4138923567762, 801.317564062662], [433.4694479123319, 801.317564062662]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text you can read inside the bounding box [[442, 28], [1659, 28], [1659, 804], [442, 804]]. The word(s) is/are ________.",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word completes \"Get the ____y started with\" in the text at [[579,356], [1503,450], [1505,554], [582,469]]?",
+              "answer": "part"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best reflects the text visible in region [[442, 28], [1659, 28], [1659, 804], [442, 804]]. Options:\nA. Get the party started with, SIMON GIFTCARD, Simon GiftcardsR., BEST.PRESENT.EVER., Offioe,located above J.Jill.\nB. SIMCN GIFTCARD, BEST.PRESENT.EVER., Get the party started with, Office,located above J.Jill., Available at the Management\nC. Get the party started with, SIMON GIFTCARD, Available at the Management, Simon GiftcardsR., BEST.PRESENT.EVER.\nD. BEST.PRESENT.EVER., Availoble at the Management, Office,located above J.Jill., Get the party started with, Simon GiftcardsR.",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the box defined by [[442.1114232209738, 27.71084732155292], [1659.0558676654186, 27.71084732155292], [1659.0558676654186, 803.6363636363636], [442.1114232209738, 803.6363636363636]], do the label(s) 'BEST.PRESENT.EVER., SIMON GIFTCARD, Simon GiftcardsR., Available at the Management, Oet the party started with, Office,located above J.Jill.' appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out every word readable inside the box at [[448, 39], [1665, 39], [1665, 810], [448, 810]]. The word(s) is/are ________.",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the region bounded by [[891.7430197890819, -1.7763568394002505e-15], [1044.8439821693905, -1.7763568394002505e-15], [1044,39], [893,36]], what word does \"T____ARD\" represent?",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Each option describes a different text — which one matches what's inside [[448, 39], [1665, 39], [1665, 810], [448, 810]]? Options:\nA. SIMON GIFTCARD, Office,located above J.Jill., Get the party started with, Simen GiftcardsR., BEST.PRESENT.EVER.\nB. SIMON GIFTCARD, Get the party started with, BEST.PRESENT.EVER., Available at the Management, Office,located above J.Jill.\nC. Offioe,located above J.Jill., Simon GiftcardsR., BEST.PRESENT.EVER., Get the party started with, Available at the Management\nD. SIMCN GIFTCARD, Available at the Management, Get the party started with, Simon GiftcardsR., BEST.PRESENT.EVER.",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spotted inside [[447.9672790768297, 39.42255903326463], [1664.9117235212739, 39.42255903326463], [1664.9117235212739, 809.5926796646222], [447.9672790768297, 809.5926796646222]] — do the label(s) 'SIMON GIFTCARD, Availoble at the Management, Get the party started with, Office,located above J.Jill., BEST.PRESENT.EVER., Simon GiftcardsR.' actually belong there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text shown inside [[454, 47], [1671, 47], [1671, 816], [454, 816]] — what word(s) do you see? ________",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[1279,869], [1607,851], [1608,890], [1281,904]], which character(s) are needed to complete the abbreviation \"S____ GIFTCARD\"?",
+              "answer": "IMON"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at region [[454, 47], [1671, 47], [1671, 816], [454, 816]] — select the option that matches what's written there. Options:\nA. Offioe,located above J.Jill., Simon GiftcardsR., Get the party started with, BEST.PRESENT.EVER., SIMON GIFTCARD\nB. Office,located above J.Jill., Get the party started with, SIMON GIFTCARD, Available at the Management, Simon GiftcardsR.\nC. Simon GiftcardsR., Availoble at the Management, Get the party started with, Office,located above J.Jill., BEST.PRESENT.EVER.\nD. Get the party started with, Simen GiftcardsR., SIMON GIFTCARD, Office,located above J.Jill., BEST.PRESENT.EVER.",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Office,located above J.Jill., BFST.PRESENT.EVER., Available at the Management, Simon GiftcardsR., SIMON GIFTCARD, Get the party started with' appears inside the region [[454.434940768372, 46.88524560042882], [1671.3793852128156, 46.88524560042882], [1671.3793852128156, 815.7566649330855], [454.434940768372, 815.7566649330855]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at the highlighted region [[455, 61], [1672, 61], [1672, 830], [455, 830]], write down the word(s) you can read there: ________",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"VALID ____ IN THE US\" appears at [[1208,959], [1453,938], [1455,969], [1209,989]] — what word(s) fill that blank?",
+              "answer": "ONLY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately reflects the text visible at [[455, 61], [1672, 61], [1672, 830], [455, 830]]? Options:\nA. Simon GiftcardsR., Available at the Management, Get the party started with, SIMON GIFTCARD, BEST.PRESENT.EVER.\nB. BEST.PRESENT.EVER., Office,located above J.Jill., Availoble at the Management, SIMON GIFTCARD, Get the party started with\nC. BEST.PRESENT.EVER., Oet the party started with, Office,located above J.Jill., Simon GiftcardsR., Available at the Management\nD. SIMON GIFTCARD, Available at the Management, Office,located above J.Jill., Simon GiftcardsR., BFST.PRESENT.EVER.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SIMON GIFTCARD, BEST.PRESENT.EVER., Get the party started with, Office,located above J.Jill.' the text you'd find inside [[454.7207457858379, 61.31310629694623], [1671.6651902302815, 61.31310629694623], [1671.6651902302815, 830.1845256296033], [454.7207457858379, 830.1845256296033]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text appears within [[451, 66], [1668, 66], [1668, 835], [451, 835]]: ________",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the words shown at [[1005,937], [1145,919], [1150,967], [1009,982]], how would you complete \"11/____8\"?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text you see at [[451, 66], [1668, 66], [1668, 835], [451, 835]]. Options:\nA. SIMON GIFTCARD, Oet the party started with, Simon GiftcardsR., BEST.PRESENT.EVER., Available at the Management\nB. Available at the Management, BEST.PRESENT.EVER., Simon GiftcardsR., Office,located above J.Jill., Got the party started with\nC. Simon GiftcardsR., Office,located above J.Jill., BEST.PRESENT.EVER., SIMON GIFTCARD, Available at the Management\nD. Simon GiftcardsR., Get the party started with, Office,located above J.Jill., BEST.PRESENT.EVER., Availoble at the Management",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Office,located above J.Jill., Available at the Management, Simen GiftcardsR., SIMON GIFTCARD, Get the party started with, BEST.PRESENT.EVER.' correctly describes the text inside [[451.3396115536397, 66.19711118095108], [1668.2840559980827, 66.19711118095108], [1668.2840559980827, 835.0685305136078], [451.3396115536397, 835.0685305136078]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible inside [[438, 69], [1655, 69], [1655, 837], [438, 837]] and write them here: ________",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The partially obscured text at [[951,875], [1000,870], [1001,890], [952,893]] reads \"T____U\" — which letter(s) are needed to restore it fully?",
+              "answer": "HR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, which one captures the text found at [[438, 69], [1655, 69], [1655, 837], [438, 837]]? Options:\nA. Simon GiftcardsR., Office,located above J.Jill., BEST.PRESENT.EVER., SIMON GIFTCARD, Available at the Management\nB. Simon GiftcardsR., Available at the Management, Get the party started with, BFST.PRESENT.EVER., Office,located above J.Jill.\nC. Available at the Management, SIMON GIFTCARD, BBST.PRESENT.EVER., Get the party started with, Office,located above J.Jill.\nD. Get the party started with, Availoble at the Management, BEST.PRESENT.EVER., SIMON GIFTCARD, Simon GiftcardsR.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify this: is 'Get the party started with, Office,located above J.Jill., Available at the Management, Simon GiftcardsR., SIMCN GIFTCARD, BEST.PRESENT.EVER.' the text displayed within [[438.27654849057666, 69.46880392632801], [1655.2209929350206, 69.46880392632801], [1655.2209929350206, 837.0129383127485], [438.27654849057666, 837.0129383127485]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text does the region [[418, 78], [1635, 78], [1635, 838], [418, 838]] contain? Write the word(s) below: ________",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[965,873], [1014,869], [1016,889], [967,892]], the word(s) \"T____U\" seem incomplete — which letter(s) finish them?",
+              "answer": "HR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region at [[418, 78], [1635, 78], [1635, 838], [418, 838]] and tell me which option below contains that text. Options:\nA. Available at the Management, Get the party started with, BEST.PRESENT.EVER., Office,located above J.Jill., Simen GiftcardsR.\nB. BFST.PRESENT.EVER., Office,located above J.Jill., SIMON GIFTCARD, Get the party started with, Available at the Management\nC. Office,located above J.Jill., Get the party started with, BEST.PRESENT.EVER., Simon GiftcardsR., SIMCN GIFTCARD\nD. SIMON GIFTCARD, Simon GiftcardsR., Get the party started with, BEST.PRESENT.EVER., Available at the Management",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'SIMCN GIFTCARD, Get the party started with, Simon GiftcardsR., BEST.PRESENT.EVER., Office,located above J.Jill., Available at the Management' is present inside the box at [[418.02338393361464, 78.29233333809272], [1634.967828378059, 78.29233333809272], [1634.967828378059, 838.2787610975586], [418.02338393361464, 838.2787610975586]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside region [[397, 82], [1614, 82], [1614, 842], [397, 842]], there's some text — write exactly what you see: ________",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Seen at [[1085,661], [1414,617], [1423,711], [1100,750]], the phrase \"____ FOR\" has a gap — what word(s) belong there?",
+              "answer": "CALLS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text you can read at [[397, 82], [1614, 82], [1614, 842], [397, 842]]? Options:\nA. Simon GiftcardsR., Get the party started with, Office,located above J.Jill., SIMON GIFTCARD, BEST.PRESENT.EVER.\nB. Available at the Management, Office,located above J.Jill., BFST.PRESENT.EVER., Get the party started with, SIMON GIFTCARD\nC. Office,located above J.Jill., Simon GiftcardsR., Available at the Management, Get the party started with, SIMCN GIFTCARD\nD. Office,located above J.Jill., SIMDN GIFTCARD, Available at the Management, BEST.PRESENT.EVER., Simon GiftcardsR.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Reading the box at [[396.69985452185, 81.96880392632802], [1613.6442989662944, 81.96880392632802], [1613.6442989662944, 841.9552316857939], [396.69985452185, 841.9552316857939]], would you say it contains 'Available at the Management, SIMON GIFTCARD, Simen GiftcardsR., Get the party started with, Office,located above J.Jill., BEST.PRESENT.EVER.'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0105/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0105/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at [[379, 77], [1596, 77], [1596, 837], [379, 837]] — what word(s) can you make out there? ________",
+              "answer": [
+                "SIMON GIFTCARD",
+                "BEST.PRESENT.EVER.",
+                "Get the party started with",
+                "Simon GiftcardsR.",
+                "Available at the Management",
+                "Office,located above J.Jill."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[1238,982], [1483,962], [1485,993], [1240,1012]], what word completes the phrase \"VALID ____ IN THE US\"?",
+              "answer": "ONLY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that matches the text visible at [[379, 77], [1596, 77], [1596, 837], [379, 837]]. Options:\nA. Get the party started with, BEST.PRESENT.EVER., SIMON GIFTCARD, Available at the Management, Office,located above J.Jill.\nB. Office,located above J.Jill., Get the party started with, Simon GiftcardsR., BFST.PRESENT.EVER., Available at the Management\nC. Availoble at the Management, BEST.PRESENT.EVER., Office,located above J.Jill., SIMON GIFTCARD, Simon GiftcardsR.\nD. Availablo at the Management, Get the party started with, Office,located above J.Jill., BEST.PRESENT.EVER., Simon GiftcardsR.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Get the party started with, Office,located above J.Jill., SIMON GIFTCARD, Simen GiftcardsR., Available at the Management, BEST.PRESENT.EVER.' appears inside the region [[379.1174369394325, 77.02374898127309], [1596.061881383876, 77.02374898127309], [1596.061881383876, 837.0101767407389], [379.1174369394325, 837.0101767407389]].",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0105"
+  }
+]

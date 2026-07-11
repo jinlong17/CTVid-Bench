@@ -1,0 +1,487 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the text you see inside [[826, 332], [1278, 332], [1278, 449], [826, 449]]: ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请问[[852,332], [1138,345], [1137,393], [850,381]]处出现的文字\"广____省博物馆\"，缺失的部分是什么？",
+              "answer": "东"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices given, which one matches the text visible at [[826, 332], [1278, 332], [1278, 449], [826, 449]]? Options:\nA. GUANODONG, MUSEUM, 广东省博物馆\nB. 广东省博物馆, 广彩广绣端砚石湾陶, GUANGDONG\nC. MUSBUM, 广彩广绣端砚石湾陶, GUANGDONG\nD. MUSEUM, 广彩广绣端砚石湾陶, GUANGOONG",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that 'GUANODONG, 广东省博物馆, MUSEUM, 广彩广绣端砚石湾陶' sits inside the region marked by [[826.2957746478874, 331.5282392026578], [1277.7408637873752, 331.5282392026578], [1277.7408637873752, 449.3521126760564], [826.2957746478874, 449.3521126760564]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text you see inside [[825, 332], [1275, 332], [1275, 449], [825, 449]]. The answer is ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框[[799,390], [1191,405], [1189,452], [797,437]]内的文字里，\"广彩广绣端____石湾陶\"缺少了哪个部分？请填写完整。",
+              "answer": "砚"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[825, 332], [1275, 332], [1275, 449], [825, 449]] matches which answer choice? Options:\nA. 广东省博物馆, GUANGDONG, 广彩广绣端砚石湾陶\nB. 广彩广绣端砚石湾陶, MUSEUM, 广东省博牣馆\nC. GUANGDONG, 广东省博物馆, MUSBUM\nD. GUANODONG, 广彩广绣端砚石湾陶, 广东省博物馆",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'MUSFUM, 广东省博物馆, GUANGDONG, 广彩广绣端砚石湾陶' enclosed by the bounding box [[824.7011494252874, 331.8189368770764], [1274.8673005689845, 331.8189368770764], [1274.8673005689845, 449.0], [824.7011494252874, 449.0]]? True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out every word visible inside [[822, 332], [1272, 332], [1272, 449], [822, 449]]. The answer is ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[753,393], [1145,408], [1143,455], [751,440]]所在区域的文字中，\"石____陶\"还差哪些字？请补充完整。",
+              "answer": "湾"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that matches the text inside [[822, 332], [1272, 332], [1272, 449], [822, 449]]. Options:\nA. MUSEUM, 广东省博物馆, 广彩广绣端砚石湇陶\nB. 广东省博物馆, GUANGDONG, 广彩广绣端砚石渧陶\nC. 广彩广绣竬砚石湾陶, 广东省博物馆, GUANGDONG\nD. MUSEUM, 广东省博物馆, GUANGDONG",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the box [[822.2011494252874, 331.5282392026578], [1272.3673005689845, 331.5282392026578], [1272.3673005689845, 449.0], [822.2011494252874, 449.0]] actually contain the label(s) '广东省博物馆, MUSEUM, GUANGDONG'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears inside the box [[821, 332], [1271, 332], [1271, 449], [821, 449]]. The answer is ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[722,391], [1114,406], [1112,453], [720,438]]处的文字里，\"广彩广绣端砚石____陶\"中空白的地方应该填什么？",
+              "answer": "湾"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that lists the text found at [[821, 332], [1271, 332], [1271, 449], [821, 449]]. Options:\nA. 广彩广绣端砚石湾陶, MUSBUM, 广东省博物馆\nB. GUANGDONG, MUSEVM, 广彩广绣端砚石湾陶\nC. MUSEUM, 广彩广绣端砚石湾陶, GUANGDONG\nD. GUANGDONG, 广东省博物馆, 广彩广绣竬砚石湾陶",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '广东省博物馆, 广彩广绣端砚石湾陶, MUSEUM' falls inside the bounding box [[820.6386494252874, 331.5282392026578], [1270.8048005689845, 331.5282392026578], [1270.8048005689845, 449.0], [820.6386494252874, 449.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the area [[818, 331], [1269, 331], [1269, 448], [818, 448]] and write down the word(s) you find. The answer is ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标[[708,340], [994,353], [993,401], [706,389]]处的文字，这是某建筑的名称——\"广____省博物馆\"中空缺的字是什么？",
+              "answer": "东"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does [[818, 331], [1269, 331], [1269, 448], [818, 448]] show, and which answer choice matches it? Options:\nA. MUSEUM, 广东省博牣馆, GUANGDONG\nB. GUANGDONG, 广彩广绣竬砚石湾陶, MUSEUM\nC. 广东省博物馆, 广彩广绣端砚石湾陶, MUSBUM\nD. 广东省博物馆, MUSEUM, 广彩广绣端砚石湾陶",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether '广彩广绣端砚石湾陶, 广东省博物馆, GUANGDONG' is inside the box at [[818.3397988505749, 331.2442242333982], [1268.505949994272, 331.2442242333982], [1268.505949994272, 448.4252873563218], [818.3397988505749, 448.4252873563218]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focus on [[815, 331], [1265, 331], [1265, 448], [815, 448]] and identify the word(s) there. The answer is ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[650,397], [1042,412], [1040,459], [648,444]]的文字显示\"广彩广绣端____石湾陶\"，你能看出空缺处应填什么吗？",
+              "answer": "砚"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices given, which one correctly captures the text at [[815, 331], [1265, 331], [1265, 448], [815, 448]]? Options:\nA. 广东省博物馆, GUANGDONG, 广彩广绣竬砚石湾陶\nB. 广彩广绣端砚石湾陶, MUSEUM, 广东省博物馆\nC. GUANGDONG, 广彩广绣端砚石湾陶, MUSBUM\nD. 广彩广绣端砚石湾陶, GUANGDONG, 广东省博牣馆",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can '广彩广绣端砚石湾陶, 广东省博物馆, GUANGDONG' be found inside the bounding box [[815.1910646733597, 331.3056849491127], [1265.3572158170568, 331.3056849491127], [1265.3572158170568, 448.45693292594206], [815.1910646733597, 448.45693292594206]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text is visible in the region bounded by [[813, 331], [1263, 331], [1263, 448], [813, 448]]? The answer is ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[917,393], [1013,399], [1013,422], [917,417]], a word has its third letter hidden — complete it: MU____UM.",
+              "answer": "SE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out which answer choice reflects the text inside [[813, 331], [1263, 331], [1263, 448], [813, 448]]. Options:\nA. 广彩广绣竬砚石湾陶, 广东省博物馆, MUSEUM\nB. GUANGOONG, MUSEUM, 广东省博物馆\nC. GUANODONG, 广东省博物馆, 广彩广绣端砚石湾陶\nD. GUANGDONG, 广东省博物馆, MUSEUM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '广彩广绣端砚石湾陶, MUSEUM, 广东省博物馆' sits within the boundaries of [[813.0931625754577, 331.3056849491127], [1263.2593137191548, 331.3056849491127], [1263.2593137191548, 448.45693292594206], [813.0931625754577, 448.45693292594206]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the text inside [[813.0931625754577, 332.07491571834345], [1263.2593137191548, 332.07491571834345], [1263.2593137191548, 449.22616369517283], [813.0931625754577, 449.22616369517283]]? The word(s) is/are ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[881,397], [977,402], [976,425], [880,420]] has a gap — what's missing from \"MU____UM\"?",
+              "answer": "SE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that matches the text found inside [[813, 332], [1263, 332], [1263, 449], [813, 449]]. Options:\nA. MUSBUM, 广东省博物馆, 广彩广绣端砚石湾陶\nB. MUSEUM, 广彩广绣端砚石湾陶, GUANGOONG\nC. 广东省博物馆, GUANODONG, MUSEUM\nD. GUANGDONG, 广东省博物馆, MUSEUM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '广东省博物馆, GUANGDONG, MUSEUM, 广彩广绣竬砚石湾陶' appear inside the bounding box [[813.0931625754577, 332.07491571834345], [1263.2593137191548, 332.07491571834345], [1263.2593137191548, 449.22616369517283], [813.0931625754577, 449.22616369517283]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text enclosed by [[807, 333], [1257, 333], [1257, 450], [807, 450]] and write it out. The answer is ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "\"____东省博物馆\"里有一处空缺，请结合[[561,353], [846,368], [846,416], [559,402]]区域内的文字把它填完整。",
+              "answer": "广"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[807, 333], [1257, 333], [1257, 450], [807, 450]] and pick the matching option. Options:\nA. MUSEUM, GUANODONG, 广东省博物馆\nB. 广彩广绣端砚石湾陶, MUSEUM, GUANGOONG\nC. 广彩广绣竬砚石湾陶, 广东省博物馆, GUANGDONG\nD. 广东省博物馆, GUANGDONG, MUSEUM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'GUANGDONG, MUSEUM, 广彩广绣端砚石湾陶' falls within the region [[806.764048651407, 333.0202256826408], [1256.930199795104, 333.0202256826408], [1256.930199795104, 450.491986479983], [806.764048651407, 450.491986479983]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible inside [[802.1128858607093, 334.57061327954], [1252.2790370044063, 334.57061327954], [1252.2790370044063, 452.0423740768822], [802.1128858607093, 452.0423740768822]] — the word(s) is/are ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[505,402], [897,421], [896,471], [503,453]]所标出的文本区域，将\"广____广绣端砚石湾陶\"中缺失的内容补充完整。",
+              "answer": "彩"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[802, 335], [1252, 335], [1252, 452], [802, 452]] you'll find text — figure out which option it matches. Options:\nA. 广东省博物馆, GUANGDONG, MUSBUM\nB. 广东省博物馆, GUANODONG, 广彩广绣端砚石湾陶\nC. MUSEUM, GUANGDONG, 广彩广绣端砚石湾陶\nD. GUANGDONG, MUSEVM, 广东省博物馆",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '广东省博物馆, MUSEUM, 广彩广绣竬砚石湾陶, GUANGDONG' can be found within [[802.1128858607093, 334.57061327954], [1252.2790370044063, 334.57061327954], [1252.2790370044063, 452.0423740768822], [802.1128858607093, 452.0423740768822]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Carefully read [[797, 335], [1247, 335], [1247, 452], [797, 452]] — what text does it contain? The answer is ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[483,408], [875,426], [874,477], [481,458]]框出的位置有段描述某件工艺品的文字，其中有处残缺，请补全：\"广彩广绣____砚石湾陶\"。",
+              "answer": "端"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[797, 335], [1247, 335], [1247, 452], [797, 452]] has some text — which of these options matches it? Options:\nA. 广彩广绣端砚石湾陶, 广东省博物馆, MUSEUM\nB. 广东省博物馆, 广彩广绣端砚石湾陶, MUSBUM\nC. 广彩广绣端砚石湾陶, GUANODONG, 广东省博物馆\nD. GUANGOONG, MUSEUM, 广彩广绣端砚石湾陶",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[796.904552527376, 334.57061327954], [1247.070703671073, 334.57061327954], [1247.070703671073, 452.0423740768822], [796.904552527376, 452.0423740768822]] contain the label(s) 'GUANODONG, MUSEUM, 广东省博物馆, 广彩广绣端砚石湾陶'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0300/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0300/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text appears inside [[794.3003858607095, 334.57061327954], [1244.4665370044065, 334.57061327954], [1244.4665370044065, 452.0423740768822], [794.3003858607095, 452.0423740768822]]. The word(s) is/are ________.",
+              "answer": [
+                "广彩广绣端砚石湾陶",
+                "广东省博物馆",
+                "GUANGDONG",
+                "MUSEUM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考[[759,377], [897,386], [897,410], [759,400]]框定的文本，试着把\"GUA____ONG\"里空缺的字填上。",
+              "answer": "NGD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options matches the text inside [[794, 335], [1244, 335], [1244, 452], [794, 452]] — go ahead and select it. Options:\nA. 广东省博物馆, GUANCDONG, MUSEUM\nB. MUSEUM, 广彩广绣端砚石湾陶, GUANODONG\nC. 广东省博物馆, MUSEUM, GUANGOONG\nD. 广东省博物馆, 广彩广绣端砚石湾陶, MUSEUM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '广彩广绣端砚石湾陶, GUANODONG, 广东省博物馆, MUSEUM' present inside the area marked by [[794.3003858607095, 334.57061327954], [1244.4665370044065, 334.57061327954], [1244.4665370044065, 452.0423740768822], [794.3003858607095, 452.0423740768822]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0300"
+  }
+]

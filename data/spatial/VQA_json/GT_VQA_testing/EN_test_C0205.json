@@ -1,0 +1,495 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[782, 352], [1435, 352], [1435, 724], [782, 724]] — what word(s) can be read there? ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area bounded by [[824,550], [1395,555], [1395,606], [821,603]], what character(s) should go where the blank is in see____oonseeyousoon??",
+              "answer": "yous"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options correctly captures the text visible in [[782, 487], [1435, 487], [1435, 724], [782, 724]]? Options:\nA. byegoodbyeandseeyousoon, seeyousoonseoyousoon, onanotherday\nB. seeyousoonseeyousoon, byegoodbyeandseeyousoon, byegoodbyeandseeyousoon\nC. seeyousoonseeyousoon, byegoodbyeandseeyousoon, ononotherday\nD. byegoodbyeandseeyousoon, seeyousoonseeyousoon, byegoodbye",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'byegoodbyeandseeyousoon, hyegoodbye, seeyousoonseeyousoon, onanotherday, byegoodbyeandseeyousoon' actually present inside [[782.198952879581, 352.303664921466], [1434.5549738219895, 352.303664921466], [1434.5549738219895, 724.0314136125654], [782.198952879581, 724.0314136125654]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the region [[785, 345], [1435, 345], [1435, 718], [785, 718]], what word(s) are visible? ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1002,594], [1331,597], [1331,652], [1001,649]], the text reads ____nanotherday. — what character(s) are missing?",
+              "answer": "o"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately lists the text appearing in [[785, 478], [1435, 478], [1435, 718], [785, 718]]. Options:\nA. seeyousoonseeyousoon, onanotherday, hyegoodbyeandseeyousoon\nB. onanotherday, byegoodbyeandseeyousoon, byegoodbye\nC. seeyousoonseeyousoon, onanotherday\nD. hyegoodbyeandseeyousoon, onanotherday, seeyousoonseeyousoon",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'byegoodbyeandseeyousoon, seeyousoonseeyousoon, byegoodbyeandseeyousoon, byegoodbye' falls within [[785.4457061263341, 345.16080777860884], [1435.2043244713402, 345.16080777860884], [1435.2043244713402, 718.1872577684096], [785.4457061263341, 718.1872577684096]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on [[789, 335], [1438, 335], [1438, 712], [789, 712]], can you identify the word(s) shown there? ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[821,336], [1465,338], [1464,407], [818,402]] has a gap — what character(s) complete bye____dbyeandseeyousoon??",
+              "answer": "goo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, which one correctly represents what's written in [[789, 335], [1438, 335], [1438, 712], [789, 712]]? Options:\nA. byegoodbyeandseeyousoon, seeyousoonseoyousoon, byegoodbye, onanotherday\nB. byegoodbye, byegoodbyeandseoyousoon, onanotherday, seeyousoonseeyousoon\nC. onanotherday, byegoodbye, seeyousoonseeyousoon\nD. onanotherday, byegoodbye, seeyousoonseeyousoon, hyegoodbyeandseeyousoon",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'seeyousoonseeyousoon, onanotherday, byegoodbye' appears anywhere inside [[789.2673621772896, 334.96972497606106], [1438.3890378471365, 334.96972497606106], [1438.3890378471365, 711.8178310168172], [789.2673621772896, 711.8178310168172]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[909, 335], [1317, 335], [1317, 427], [909, 427]], what word(s) do you read? ________.",
+              "answer": [
+                "byegoodbye"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[844,417], [1414,418], [1414,472], [845,474]] there's a repeating pattern — which letter(s) belong in see____oonseeyousoon??",
+              "answer": "yous"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one matches the text shown in [[791, 335], [1443, 335], [1443, 707], [791, 707]]? Options:\nA. onanotherday, byegoodbyeandseeyousoon, seeyousoonseeyousoon, byegoodbyeandseeyousoon\nB. byegoodbyeandseeyousoon, onanotherday, seeyousoonseoyousoon, byegoodbye\nC. byegoodbyeandseeyousoon, byogoodbye, onanotherday, seeyousoonseeyousoon\nD. seeyousoonseeyousoon, byegoodbye, byegoodbyeandseeyousoon, ononotherday",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the area [[791.2686189989689, 334.96972497606106], [1443.2107376399902, 334.96972497606106], [1443.2107376399902, 706.7222896155433], [791.2686189989689, 706.7222896155433]] — is 'onanotherday, seeyousoonseeyousoon, byegoodbye' visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can read at [[803, 324], [1450, 324], [1450, 699], [803, 699]]. ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the partial text \"see____oonseeyousoon\" at [[809,561], [1379,563], [1379,616], [810,619]], which character(s) complete it?",
+              "answer": "yous"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly identifies the text enclosed by [[803, 460], [1450, 460], [1450, 699], [803, 699]]. Options:\nA. seeyousoonseoyousoon, byegoodbyeandseeyousoon, byegoodbyeandseeyousoon\nB. onanotherday, seeyousoonseeyousoon, hyegoodbyeandseeyousoon\nC. byegoodbyeandseeyousoon, byegoodbyeandseeyousoon, onanotherday\nD. onanotherday, byegoodbye, byegoodbyeandseeyousoon",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll notice the area [[802.733587151835, 324.14169949835406], [1449.8540060000025, 324.14169949835406], [1449.8540060000025, 699.0789775136326], [802.733587151835, 699.0789775136326]] — does it contain the label(s) 'byegoodbyeandseeyousoon, seeyousoonseeyousoon, byegoodbye, onanotberday, byegoodbyeandseeyousoon'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) written inside [[813, 314], [1462, 314], [1462, 692], [813, 692]]. ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At bounding box [[802,544], [1372,545], [1372,599], [803,602]], there's a gap — what fills in \"____yousoonseeyousoon\"?",
+              "answer": "see"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text inside [[813, 314], [1462, 314], [1462, 692], [813, 692]]. Options:\nA. byegoodbyeandseeyousoon, byegoodbye, ononotherday, byegoodbyeandseeyousoon\nB. onanotherday, seeyousoonseeyousoon, byegoodbyeandseeyousoon, byegoodbyeandseeyousoon\nC. byegoodbyeandseeyousoon, byegoodbyeandseeyousoon, seeyousoonseoyousoon, onanotherday\nD. byegoodbyeandseeyousoon, seeyousoonseeyousoon, byogoodbye, byegoodbyeandseeyousoon",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'byegoodbyeandseeyousoon, onanotberday, byegoodbyeandseeyousoon, byegoodbye, seeyousoonseeyousoon' appear inside the region [[813.1066906261684, 314.31510990297835], [1461.9927343237018, 314.31510990297835], [1461.9927343237018, 692.1425613286615], [813.1066906261684, 692.1425613286615]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[815, 314], [1465, 314], [1465, 681], [815, 681]] — what word or words do you see? It is ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at coordinates [[658,413], [1302,414], [1301,484], [655,479]], the text reads bye____dbyeandseeyousoon? — what's the missing piece?",
+              "answer": "goo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly identifies the text visible inside [[815, 451], [1465, 451], [1465, 681], [815, 681]]. Options:\nA. onanotherday, byegoodbyeandseeyousoon, byegoodbyeandseeyousoon\nB. seeyousoonseoyousoon, onanotherday, byegoodbyeandseeyousoon\nC. byegoodbyeandseeyousoon, byegoodbye, onanotherday\nD. seeyousoonseeyousoon, onanotherday, hyegoodbyeandseeyousoon",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'byegoodbyeandseeyousoon, seeyousoonseeyousoon, onanotherday, byegoodbyeandseeyousoon' present within the bounding region [[814.8723154755343, 314.31510990297835], [1464.9391513591527, 314.31510990297835], [1464.9391513591527, 680.6242367213316], [814.8723154755343, 680.6242367213316]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you find inside [[822, 300], [1470, 300], [1470, 672], [822, 672]]? It is ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a gap in the text at [[667,437], [1311,438], [1310,508], [664,503]]: bye____byeandseeyousoon? — what should go there?",
+              "answer": "good"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches what's written inside [[822, 300], [1469, 300], [1469, 557], [822, 557]]? Options:\nA. byegoodbyeandseeyousoon, onanotherday\nB. seeyousoonseeyousoon, byegoodbye\nC. byegoodbye, byegoodbyeandseeyousoon\nD. seeyousoonseoyousoon, byegoodbye",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'seoyousoonseeyousoon, byegoodbyeandseeyousoon, onanotherday, byegoodbye, byegoodbyeandseeyousoon' falls within the area marked by [[821.5837248715073, 299.655424039104], [1469.6371379363338, 299.655424039104], [1469.6371379363338, 671.8994045065665], [821.5837248715073, 671.8994045065665]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown inside [[822, 300], [1472, 300], [1472, 667], [822, 667]]. It is ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In \"____ousoonseeyousoon\" at coordinates [[723,496], [1294,497], [1294,551], [725,554]], which characters are hidden or missing?",
+              "answer": "seey"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option below captures the text found at [[822, 429], [1472, 429], [1472, 667], [822, 667]]. Options:\nA. hyegoodbyeandseeyousoon, seeyousoonseeyousoon, onanotherday\nB. seeyousoonseeyousoon, byegoodbyeandseeyousoon, byegoodbyeandseeyousoon\nC. onanotherday, byegoodbye, seeyousoonseeyousoon\nD. seeyousoonseeyousoon, onanotherday, hyegoodbyeandseeyousoon",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think 'onanotherday, seeyousoonseeyousoon, byegoodbye' can be found inside [[821.5837248715073, 299.655424039104], [1471.7204712696673, 299.655424039104], [1471.7204712696673, 666.8146587438547], [821.5837248715073, 666.8146587438547]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[826, 285], [1475, 285], [1475, 657], [826, 657]] — what word(s) are written there? It is ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"bye____yeandseeyousoon\" at coordinates [[730,543], [1370,548], [1369,605], [725,598]] has something missing — what is it?",
+              "answer": "goodb"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that best represents the text at [[826, 422], [1475, 422], [1475, 657], [826, 657]]. Options:\nA. seeyousoonseeyousoon, hyegoodbyeandseeyousoon, onanotherday\nB. seeyousoonseeyousoon, onanotherday\nC. byegoodbyeandseeyousoon, byegoodbye, seeyousoonseeyousoon\nD. byegoodbyeandseeyousoon, seeyousoonseoyousoon, onanotherday",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are 'byegoodbyeandseeyousoon, byegoodbyeandseeyousoon, onanotherday, seeyousoonseeyousoon, hyegoodbye' actually inside the region [[826.2080023281547, 284.8666916447378], [1474.6622635644744, 284.8666916447378], [1474.6622635644744, 657.3265401849585], [826.2080023281547, 657.3265401849585]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text that appears inside [[830, 285], [1478, 285], [1478, 652], [830, 652]]. It is ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "seeyousoonseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text region [[875,296], [1281,294], [1281,386], [873,385]], what word or phrase completes \"____goodbye\"?",
+              "answer": "bye"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options given, which one correctly lists the text at [[830, 285], [1478, 285], [1478, 652], [830, 652]]? Options:\nA. byegoodbyeandseeyousoon, byogoodbye, onanotherday, byegoodbyeandseeyousoon\nB. seeyousoonseoyousoon, byegoodbye, byegoodbyeandseeyousoon, onanotherday\nC. ononotherday, byegoodbyeandseeyousoon, byegoodbyeandseeyousoon, seeyousoonseeyousoon\nD. seeyousoonseeyousoon, byegoodbyeandseeyousoon, byegoodbyeandseeyousoon, byegoodbye",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'byegoodbye, byegoodbyeandseeyousoon, onanotherday, byegoodbyeandseeyousoon' sit inside the bounding area [[830.3403109061161, 284.8666916447378], [1478.257998641111, 284.8666916447378], [1478.257998641111, 652.3969627201698], [830.3403109061161, 652.3969627201698]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0205/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0205/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[826, 276], [1477, 276], [1477, 652], [826, 652]] there's some text — write it out. It is ________.",
+              "answer": [
+                "byegoodbye",
+                "byegoodbyeandseeyousoon",
+                "byegoodbyeandseeyousoon",
+                "onanotherday",
+                "seeyousoonseeyousoon"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere at [[700,518], [1339,524], [1338,581], [694,574]] a phrase reads \"byego____ndseeyousoon\" — what belongs in the blank?",
+              "answer": "odbyea"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[826, 410], [1477, 410], [1477, 652], [826, 652]], which option matches the text(s) there? Options:\nA. byegoodbye, byegoodbyeandseeyousoon, byegoodbyeandseeyousoon\nB. seeyousoonseeyousoon, onanotherday\nC. byegoodbyeandseeyousoon, ononotherday, seeyousoonseeyousoon\nD. onanotherday, hyegoodbyeandseeyousoon, seeyousoonseeyousoon",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'seeyousoonseeyousoon, onanotherday, byegoodbyeandseeyousoon, hyegoodbye, byegoodbyeandseeyousoon' inside the area [[825.9243096507633, 276.335885957534], [1477.2622235137437, 276.335885957534], [1477.2622235137437, 652.3969627201698], [825.9243096507633, 652.3969627201698]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0205"
+  }
+]

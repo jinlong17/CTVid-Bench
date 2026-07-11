@@ -1,0 +1,492 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "At region [[624, 42], [1448, 42], [1448, 888], [624, 888]], what text do you see? The word(s) is/are ________.",
+              "answer": [
+                "起步点",
+                "务中心",
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[748,655], [867,651], [872,725], [748,721]]的位置出现了一段文字，其中\"公____\"缺了一些字，你来补上吧。",
+              "answer": "司"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region marked [[624, 42], [1448, 42], [1448, 888], [624, 888]], select the option that accurately reflects the text(s) visible there. Options:\nA. 公司, 会计税务 年检, 务中心, 起步点, 讲座聚会\nB. 刉业办公, 公司, 务中心, 讲座聚会, 起步点\nC. 务中心, 起步点, 公司, 讲座聚会, 会计稅务 年检\nD. 公司, 创业办公, 讲庬聚会, 务中心, 起步点",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '讲座聚会, 会计税务 年检, 公司, 创业办公' falls inside the bounding box [[624.2857142857143, 42.380952380952344], [1448.095238095238, 42.380952380952344], [1448.095238095238, 887.6190476190476], [624.2857142857143, 887.6190476190476]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank — what word(s) can you read at [[624, 42], [1448, 42], [1448, 888], [624, 888]]? The answer is ________.",
+              "answer": [
+                "起步点",
+                "务中心",
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请把[[627,739], [864,739], [861,826], [628,824]]这处文字里的\"讲座____会\"补全。",
+              "answer": "聚"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the area [[624, 42], [1448, 42], [1448, 888], [624, 888]], which answer choice matches the text(s) you see? Options:\nA. 务中心, 会计税务 年检, 讲庬聚会, 创业办公, 起步点\nB. 会计税务 年检, 刽业办公, 务中心, 起步点, 讲座聚会\nC. 公司, 会计税务 年检, 务中心, 刉业办公, 起步点\nD. 起步点, 公司, 讲座聚会, 创业办公, 会计税务 年检",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Here's a quick check: is '讲座聚会, 公司, 创业办公, 起歩点, 会计税务 年检, 务中心' enclosed in the region [[624.2857142857143, 42.380952380952344], [1448.095238095238, 42.380952380952344], [1448.095238095238, 887.6190476190476], [624.2857142857143, 887.6190476190476]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text is visible at [[624, 42], [1448, 42], [1448, 516], [624, 516]]? Write it in: the word(s) is/are ________.",
+              "answer": [
+                "起步点",
+                "务中心"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "你能看出[[1047,577], [1293,571], [1299,640], [1050,649]]里面的空缺吗？请补全\"创业____\"。",
+              "answer": "办公"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given that the area is [[624, 42], [1448, 42], [1448, 888], [624, 888]], pick the option that names the text(s) correctly. Options:\nA. 会计税务 年检, 起步点, 创业办公, 公可, 讲座聚会\nB. 刉业办公, 讲座聚会, 务中心, 会计税务 年检, 公司\nC. 会计税务 年检, 起步点, 讲座聚会, 务中心, 刽业办公\nD. 讲座聚会, 创业办公, 公司, 起步点, 会计税务 年检",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '会计税务 年检, 起步点, 务中心, 讲座聚会' is/are enclosed by the region at [[624.2857142857143, 42.380952380952344], [1448.095238095238, 42.380952380952344], [1448.095238095238, 887.6190476190476], [624.2857142857143, 887.6190476190476]]? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the box at [[615, 27], [1439, 27], [1439, 872], [615, 872]] and tell me: the word(s) there is/are ________.",
+              "answer": [
+                "起步点",
+                "务中心",
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看[[585,740], [822,740], [820,827], [586,825]]里的文字，\"讲____会\"那个空应该怎么填？",
+              "answer": "座聚"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[630, 622], [1399, 622], [1399, 872], [630, 872]], which of these options best captures the text(s) found there? Options:\nA. 创业办公, 会计稅务 年检, 讲座聚会\nB. 创业办公, 讲庬聚会, 公司\nC. 讲座聚会, 公司, 创业办公\nD. 讲座聚会, 起步点, 公司",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "A simple yes-or-no: does '公司, 会计税务 年检, 务中心, 创业办公, 讲座聚会' appear inside the box at [[630, 622], [1399, 622], [1399, 872], [630, 872]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in the region [[618, 14], [1442, 14], [1442, 859], [618, 859]], the word(s) you'd find there is/are ________.",
+              "answer": [
+                "起步点",
+                "务中心",
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看看[[638,646], [758,642], [762,716], [638,712]]区域，帮我把\"公____\"中空缺的字填上。",
+              "answer": "司"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[618, 14], [1442, 14], [1442, 696], [618, 696]], which answer option lists the text(s) found there? Options:\nA. 务中心, 创业办公, 起步点\nB. 务中心, 起步点, 讲座聚会\nC. 起歨点, 务中心, 创业办公\nD. 务串心, 公司, 创业办公",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) '起步点, 务中心, 创业办公' appearing inside the box [[618, 14], [1442, 14], [1442, 696], [618, 696]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text visible in region [[618, 4], [1442, 4], [1442, 850], [618, 850]]: ________.",
+              "answer": [
+                "起步点",
+                "务中心",
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[906,646], [1153,640], [1159,709], [910,717]] 里有一段文字，请补全\"创业____\"中空缺的内容。",
+              "answer": "办公"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the area [[618, 4], [1442, 4], [1442, 850], [618, 850]], select the answer that best captures all the text shown there. Options:\nA. 创业办公, 起步点, 务中心, 讲庬聚会, 公司\nB. 讲座聚会, 会计税务 年检, 起步点, 公可, 创业办公\nC. 讲座聚会, 创业办公, 会计稅务 年检, 公司, 起步点\nD. 公司, 务中心, 创业办公, 讲座聚会, 会计税务 年检",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[618.3333333333333, 4.285714285714157], [1442.1428571428569, 4.285714285714157], [1442.1428571428569, 849.5238095238094], [618.3333333333333, 849.5238095238094]] — does it actually contain the label(s) '务中心, 公司, 起步点, 讲座聚会'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you can read in the specified area [[615.9523809523808, 4.973799150320701e-14], [1267.1428571428569, 4.973799150320701e-14], [1267.1428571428569, 203.5714285714286], [615.9523809523808, 203.5714285714286]]: ________",
+              "answer": [
+                "起步点"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察 [[404,800], [641,800], [639,887], [405,885]] 区域内的文字，\"讲____聚会\"里空着的地方该填什么？",
+              "answer": "座"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that matches what's written in [[616, 0], [1440, 0], [1440, 845], [616, 845]]. Options:\nA. 讲座聚会, 会计税务 年检, 公司, 务串心, 起步点\nB. 创业办公, 公司, 务中心, 会计税务 年检, 讲座聚会\nC. 起步点, 刉业办公, 讲座聚会, 公司, 会计税务 年检\nD. 务中心, 公司, 创业办公, 讲庬聚会, 起步点",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You're told the label(s) '公司, 讲座聚会, 创业办公, 务中心, 起步点, 会计税务 年检' appear in bounding box [[631, 254], [1440, 254], [1440, 845], [631, 845]] — is that accurate?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word visible inside [[631, 595], [1400, 595], [1400, 845], [631, 845]]: ________.",
+              "answer": [
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标为 [[796,662], [1042,656], [1048,725], [799,734]] 的方框中出现了一段文字，\"创业办____\"里缺失的内容是什么？",
+              "answer": "公"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and select the answer that correctly names the text(s) visible in [[631, 254], [1440, 254], [1440, 845], [631, 845]]. Options:\nA. 务中心, 公可, 会计税务 年检, 讲座聚会\nB. 起步点, 务中心, 创业办公, 讲座聚会\nC. 会计税务 年检, 讲座聚会, 务中心, 公司\nD. 务中心, 公司, 会计税务 年检, 刉业办公",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify this: the label(s) '公司, 会计稅务 年检, 创业办公, 起步点, 务中心, 讲座聚会' sit inside the bounding box [[615.9523809523808, 0.0], [1439.7619047619046, 0.0], [1439.7619047619046, 845.2380952380953], [615.9523809523808, 845.2380952380953]]. True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears inside the region [[616, 0], [1440, 0], [1440, 675], [616, 675]]: ________.",
+              "answer": [
+                "起步点",
+                "务中心",
+                "公司",
+                "创业办公"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察边界框 [[293,56], [1035,42], [1039,250], [308,279]] 中的内容，试着把\"起____点\"里空缺的字补上。",
+              "answer": "步"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select whichever answer correctly reflects the text(s) you see inside [[616, 0], [1440, 0], [1440, 833], [616, 833]]. Options:\nA. 讲座聚会, 刉业办公, 起步点, 会计税务 年检, 公司\nB. 公司, 起步点, 会讨税务 年检, 务中心, 讲座聚会\nC. 务中心, 公司, 会计稅务 年检, 创业办公, 起步点\nD. 公司, 讲座聚会, 创业办公, 会计税务 年检, 务中心",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My claim is that '起步点, 会计税务 年检, 公司, 创业办公, 讲座聚会' can be found as label(s) within [[630, 583], [1384, 583], [1384, 833], [630, 833]] — do you agree?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you can read in the area [[627, 583], [1392, 583], [1392, 826], [627, 826]]: ________.",
+              "answer": [
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标 [[258,800], [495,800], [492,887], [259,885]] 对应的区域里有文字，请将\"讲____聚会\"中缺少的部分补充完整。",
+              "answer": "座"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options given, which one accurately lists all the text(s) inside [[620, 0], [1431, 0], [1431, 826], [620, 826]]? Options:\nA. 务中心, 创业办公, 公司, 会计税务 年检, 起歨点\nB. 起步点, 公司, 讲座聚会, 刉业办公, 会计税务 年检\nC. 公司, 务中心, 会计稅务 年检, 讲座聚会, 起步点\nD. 讲座聚会, 务中心, 创业办公, 公司, 起步点",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just to check — are '务中心, 讲座聚会, 创业办公, 起步点' the label(s) visible within [[619.5238095238095, 0.0], [1431.4285714285716, 0.0], [1431.4285714285716, 826.1904761904761], [619.5238095238095, 826.1904761904761]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Looking at the area [[620, 0], [1431, 0], [1431, 826], [620, 826]], what word(s) can you make out there? ________.",
+              "answer": [
+                "起步点",
+                "务中心",
+                "公司",
+                "创业办公",
+                "讲座聚会",
+                "会计税务 年检"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据边界框 [[351,650], [471,646], [475,720], [351,716]] 内显示的文字，\"____司\"中空缺的内容应该是什么？",
+              "answer": "公"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What does [[627, 231], [1431, 231], [1431, 826], [627, 826]] actually say? Pick the answer that represents the text(s) there most accurately. Options:\nA. 务中心, 公司, 创业办公, 会计稅务 年检\nB. 会计税务 年检, 公司, 创业办公, 务串心\nC. 公司, 起步点, 创业办公, 讲座聚会\nD. 公司, 讲座聚会, 务中心, 会计税务 年检",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '起步点, 务中心, 创业办公, 会计税务 年检, 公司, 讲座聚会' appear(s) inside the region [[627, 231], [1431, 231], [1431, 826], [627, 826]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0213/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0213/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the text inside area [[620, 0], [1431, 0], [1431, 451], [620, 451]], what word(s) do you see? ________",
+              "answer": [
+                "起步",
+                "务中心"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[309,291], [1045,269], [1054,450], [314,470]] 中出现了\"务中____\"，请将缺失部分补全。",
+              "answer": "心"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[620, 0], [1431, 0], [1431, 826], [620, 826]], what text is visible there? Options:\nA. 会计税务 年检, 起步, 创业办公, 务中心, 讲庬聚会\nB. 创业办公, 讲座聚会, 公司, 起步, 会计税务 年检\nC. 会计税务 年检, 讲座聚会, 务丰心, 创业办公, 起步\nD. 会计税务 年检, 起步, 务串心, 讲座聚会, 创业办公",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '公司, 创业办公, 会计税务 年检, 讲庬聚会, 起步, 务中心' can be found inside [[619.5238095238095, 0.0], [1431.4285714285716, 0.0], [1431.4285714285716, 826.1904761904761], [619.5238095238095, 826.1904761904761]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0213"
+  }
+]

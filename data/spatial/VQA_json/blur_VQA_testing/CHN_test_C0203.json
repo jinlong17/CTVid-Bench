@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) visible at [[709, 468], [1387, 468], [1387, 801], [709, 801]]: ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[709,569], [1387,468], [1387,646], [717,721]]处显示的文字能补全下面这句话——请填写缺失的内容：\"____星路桥\"。",
+              "answer": "银"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options below, which one reflects what's written in [[709, 468], [1387, 468], [1387, 801], [709, 801]]? Options:\nA. （本桚限速限载）\nB. （本桥限逮限载）\nC. 银星踞桥\nD. （本桥限速限载）",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Yes or no: does [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]] contain text that says '银星路桥'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the text you see within [[709, 468], [1387, 468], [1387, 801], [709, 801]]: ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "标识牌在[[727,534], [1405,433], [1405,611], [735,686]]位置有文字，部分内容为\"银星____桥\"，请补全缺少的字符。",
+              "answer": "路"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "In the area [[709, 468], [1387, 468], [1387, 801], [709, 801]], what do you read? Choose the option that matches. Options:\nA. （本桥陒速限载）\nB. （本桥限速限载）\nC. （本桥限逮限载）\nD. （本桚限速限载）",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm whether '银星路桥' is contained inside the region marked by [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Jot down the word(s) you see at [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]]: ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[799,614], [1367,551], [1369,663], [806,709]]区域内的文字尚不完整，请填入缺失部分，使其成为：\"（本桥限速____载）\"。",
+              "answer": "限"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and find which one matches what's written at [[709, 468], [1387, 468], [1387, 801], [709, 801]]. Options:\nA. （本桥限逮限载）\nB. （本桚限速限载）\nC. （本桥限速限载）\nD. 银星踞桥",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]] enclose text that reads '（本桥限逮限载）, 银星路桥'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text is written inside [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]]: ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请把[[800,566], [1385,501], [1384,620], [799,668]]处文字中缺失的内容填入空白：\"（本桥限速____载）\"。",
+              "answer": "限"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[709, 468], [1387, 468], [1387, 801], [709, 801]] — which of the following options matches the text you see there? Options:\nA. （本桥限速限载）\nB. （本桥限逮限载）\nC. 锪星路桥\nD. 银星踞桥",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The text '银星路桥' — do you see it appearing inside [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the content at [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]], what word or words appear there? ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[727,371], [1464,254], [1472,456], [732,540]]附近有一块标牌，请根据上下文补全缺失的字符：\"银星____桥\"。",
+              "answer": "路"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[709, 468], [1387, 468], [1387, 801], [709, 801]]: pick the answer that lists what's written there. Options:\nA. 银星路桥\nB. （本桥限逮限载）\nC. （本桚限速限载）\nD. 银星踞桥",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scanning the area [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]], would you say '银星路桥' appears there? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Something's written at [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]] — what does it say? ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "找到[[834,502], [1419,438], [1418,556], [833,605]]区域中的短语，将缺失的部分填入空白处：（本桥限速限____）",
+              "answer": "载"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options given, which one matches the text you can read at [[709, 468], [1387, 468], [1387, 801], [709, 801]]? Options:\nA. 银星踞桥\nB. （本桚限速限载）\nC. （本桥限逮限载）\nD. （本桥限速限载）",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll notice the label '（本桥限逮限载）, 银星路桥' — is it actually inside [[709.468085106383, 468.0851063829787], [1387.127659574468, 468.0851063829787], [1387.127659574468, 801.063829787234], [709.468085106383, 801.063829787234]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever word or words you find inside [[709, 464], [1387, 464], [1387, 799], [709, 799]]: ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察[[825,522], [1423,443], [1419,582], [821,635]]所示位置，补全以下短语中缺失的字符：（本桥限速____载）。",
+              "answer": "限"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[709, 464], [1387, 464], [1387, 799], [709, 799]] has some text — which answer choice captures it correctly? Options:\nA. 银星踞桥\nB. （本桥限速限载）\nC. 银曐路桥\nD. 锪星路桥",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[709.468085106383, 464.3115214773184], [1387.127659574468, 464.3115214773184], [1387.127659574468, 798.5987261146496], [709.468085106383, 798.5987261146496]], does the label '（本桥限逮限载）, 银星路桥' sit inside that region? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank: ________ is the text visible inside [[709, 464], [1387, 464], [1387, 795], [709, 795]].",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看图像中[[688,356], [1442,211], [1456,415], [706,540]]位置显示的名称，将其中缺失的字符补写完整：\"银星____桥\"。",
+              "answer": "路"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly identifies the text shown in [[709, 464], [1387, 464], [1387, 795], [709, 795]]? Pick one. Options:\nA. 银星路桥\nB. （本桥限逮限载）\nC. 银星踞桥\nD. 锪星路桥",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false — '（本桥限速限载）' shows up as a label somewhere inside [[709.468085106383, 464.3115214773184], [1387.127659574468, 464.3115214773184], [1387.127659574468, 794.8012577602192], [709.468085106383, 794.8012577602192]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) sit inside [[722, 446], [1400, 446], [1400, 781], [722, 781]]? Fill in: ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考上下文，[[679,372], [1361,202], [1405,377], [723,547]]区域中的文字有一处残缺，完整内容应为\"银星____桥\"，请补全。",
+              "answer": "路"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[722, 446], [1400, 446], [1400, 781], [722, 781]], what text is visible there — and which option says so? Options:\nA. 银星踞桥\nB. （本桥限逮限载）\nC. 锪星路桥\nD. 银星路桥",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Here's a quick check: does '银星路桥, （本桥限逮限载）' appear as a label inside [[721.968085106383, 445.5615214773184], [1399.627659574468, 445.5615214773184], [1399.627659574468, 781.2595910935526], [721.968085106383, 781.2595910935526]]? Say true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What does [[721, 446], [1399, 446], [1399, 773], [721, 773]] contain? Write in the word(s): ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[728,481], [1300,397], [1297,535], [725,600]]坐标范围内的内容，补写出完整的短语：(本桥____限载)",
+              "answer": "限速"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you were to read the text inside [[721, 446], [1399, 446], [1399, 773], [721, 773]], which option below would it match? Options:\nA. 锪星路桥\nB. 银星路桥\nC. 银星踞桥\nD. 银曐路桥",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '银星路桥' anywhere inside [[721.024688879968, 445.5615214773184], [1398.684263348053, 445.5615214773184], [1398.684263348053, 772.7690250558167], [721.024688879968, 772.7690250558167]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank: ________ can be read inside region [[727, 433], [1405, 433], [1405, 764], [727, 764]].",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[569,322], [1323,177], [1337,380], [589,516]]处显示了某段文字，请把缺失内容补全：\"银星____桥\"。",
+              "answer": "路"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[727, 433], [1405, 433], [1405, 764], [727, 764]], select the answer that matches what's written there. Options:\nA. 锪星路桥\nB. 银曐路桥\nC. 银星路桥\nD. 银星踞桥",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '银星踞桥, （本桥限速限载）' appears in the region [[727.3538028040188, 432.9032936292172], [1405.0133772721038, 432.9032936292172], [1405.0133772721038, 763.9082655621457], [727.3538028040188, 763.9082655621457]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0203/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0203/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[704, 424], [1433, 424], [1433, 764], [704, 764]] and write it down: ________",
+              "answer": [
+                "银星路桥",
+                "（本桥限速限载）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像里[[445,240], [1199,94], [1213,298], [465,433]]位置有一处文字，请补全：\"银星____桥\"。",
+              "answer": "路"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[704, 424], [1433, 424], [1433, 764], [704, 764]] matches which of these options? Pick the right one. Options:\nA. （本桥限逮限载）\nB. 银星路桥\nC. （本桚限速限载）\nD. 银星踞桥",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given region [[704.2735042735044, 423.7606837606838], [1433.3333333333335, 423.7606837606838], [1433.3333333333335, 763.9082655621457], [704.2735042735044, 763.9082655621457]], is '（本桥限速限载）' visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0203"
+  }
+]

@@ -1,0 +1,461 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text appears inside [[341.1057692307692, 926.6586538461538], [439.1826923076923, 926.6586538461538], [439.1826923076923, 955.5048076923076], [341.1057692307692, 955.5048076923076]] — the word(s) is/are ________.",
+              "answer": [
+                "小心台阶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Scanning the area marked by [[1134,809], [1736,798], [1738,859], [1134,873]], what word completes the name \"B____ing Department Store\"?",
+              "answer": "eij"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best matches the text(s) you see inside the area [[1132, 695], [1738, 695], [1738, 873], [1132, 873]]? Options:\nA. Beijing Department Store\nB. 小心台阶\nC. 北亰市百货大楼\nD. Boijing Department Store",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[1132, 695], [1738, 695], [1738, 873], [1132, 873]], can the label(s) 'Beijing Department Store' be found?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text visible inside [[1139, 694], [1744, 694], [1744, 872], [1139, 872]]: ________",
+              "answer": [
+                "北京市百货大楼",
+                "Beijing Department Store"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[1145,809], [1747,799], [1748,862], [1145,873]] shows a well-known store whose name reads \"Bei____ Department Store\" — what's the missing word?",
+              "answer": "jing"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does [[1139, 694], [1744, 694], [1744, 872], [1139, 872]] contain? Select the matching option. Options:\nA. 小心台阶\nB. Beijing Department Store\nC. 北亰市百货大楼\nD. Boijing Department Store",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Beijing Department Store, 北京市百货大楼, and 小心台阶 — are all of these labels visible within [[1139, 694], [1744, 694], [1744, 872], [1139, 872]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can spot within the region [[347, 694], [1744, 694], [1744, 954], [347, 954]]: ________",
+              "answer": [
+                "小心台阶",
+                "北京市百货大楼",
+                "Beijing Department Store"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标 [[352,914], [447,910], [444,935], [349,938]] 处有一条标语，请将 \"小心____阶\" 中空缺的文字补全。",
+              "answer": "台"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[1139, 694], [1744, 694], [1744, 872], [1139, 872]], which of these options correctly captures the text inside? Options:\nA. Boijing Department Store\nB. 小心台阶\nC. 北亰市百货大楼\nD. Beijing Department Store",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll need to check [[347.3557692307692, 693.509963768116], [1744.4142512077296, 693.509963768116], [1744.4142512077296, 953.9423076923076], [347.3557692307692, 953.9423076923076]] — are the label(s) '小心台阶, 北京市百货大楼' present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Which words show up inside [[350, 694], [1744, 694], [1744, 957], [350, 957]]? Write your answer: ________",
+              "answer": [
+                "小心台阶",
+                "北京市百货大楼",
+                "Beijing Department Store"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign within [[1138,772], [1740,762], [1741,825], [1138,837]] reads \"Beij____ Department Store\" — what word fills the blank?",
+              "answer": "ing"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text(s) visible inside [[1139, 694], [1744, 694], [1744, 872], [1139, 872]] — which of these options matches? Options:\nA. Boijing Department Store\nB. 北京市百货大楼\nC. 北亰市百货大楼\nD. 小心台阶",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Beijing Department Store, 北京市百货大楼' appear inside the region [[350.2311685917916, 693.509963768116], [1744.4142512077296, 693.509963768116], [1744.4142512077296, 957.1371958712214], [350.2311685917916, 957.1371958712214]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) show up when you look at region [[350, 928], [448, 928], [448, 957], [350, 957]]? ________",
+              "answer": [
+                "小心台阶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1099,668], [1703,654], [1704,754], [1101,764]] 所圈出的区域里，出现了 \"北京市____货大楼\" 这样的字样，请补全其中缺少的内容。",
+              "answer": "百"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[1141, 697], [1747, 697], [1747, 875], [1141, 875]]? Choose the option that matches. Options:\nA. Beijing Department Store\nB. 小心台阶\nC. Boijing Department Store\nD. Boijing Department Store",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Beijing Department Store, 北京市百货大楼, 小心台阴' actually found inside the area marked by [[349.66346153846155, 696.5868868450391], [1746.7219435154218, 696.5868868450391], [1746.7219435154218, 957.0192307692307], [349.66346153846155, 957.0192307692307]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the content inside [[352.884361009361, 699.0868868450391], [1750.4719435154218, 699.0868868450391], [1750.4719435154218, 956.6091778591779], [352.884361009361, 956.6091778591779]], the word(s) you see there is/are ________.",
+              "answer": [
+                "小心台阶",
+                "北京市百货大楼",
+                "Beijing Department Store"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "区域 [[269,908], [364,904], [362,929], [266,933]] 中有一条带有警示内容的标语，其中部分文字缺失，请将 \"小心____阶\" 补充完整。",
+              "answer": "台"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on the area [[1145, 699], [1750, 699], [1750, 877], [1145, 877]], which of the following options lists the text found there? Options:\nA. Boijing Department Store\nB. 小心台阶\nC. Beijing Department Store\nD. Boijing Department Store",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '北京市百货大楼, Beijing Department Store, 小心台阶' fall within the region defined by [[1145, 699], [1750, 699], [1750, 877], [1145, 877]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[353.665611009361, 927.763024013024], [451.7425340862841, 927.763024013024], [451.7425340862841, 956.6091778591779], [353.665611009361, 956.6091778591779]] — they are ________.",
+              "answer": [
+                "小心台阶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[217,889], [312,884], [309,909], [214,913]] 范围内的标语有部分文字看不清，请根据上下文将 \"小心____阶\" 中缺失的字填上。",
+              "answer": "台"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices listed, which one correctly captures the text(s) inside [[1146, 699], [1751, 699], [1751, 877], [1146, 877]]? Options:\nA. 北京市百货大楼\nB. Boijing Department Store\nC. 小心台阶\nD. Boijing Department Store",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that 'Beijing Department Store, 小心台阶' sits inside the bounding box [[353.665611009361, 699.0868868450391], [1751.2531935154218, 699.0868868450391], [1751.2531935154218, 956.6091778591779], [353.665611009361, 956.6091778591779]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The word(s) you can spot inside [[355.60838209369837, 926.513024013024], [453.68530517062146, 926.513024013024], [453.68530517062146, 955.3591778591779], [355.60838209369837, 955.3591778591779]] — go ahead and fill in the blank: ________.",
+              "answer": [
+                "小心台阶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标 [[929,655], [1533,641], [1534,740], [931,751]] 所标注的区域，其中出现了 \"北京市____大楼\" 的字样，试着把缺失的文字补全。",
+              "answer": "百货"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "All text visible inside [[1149, 698], [1755, 698], [1755, 876], [1149, 876]] is covered by which option? Options:\nA. Boijing Department Store\nB. 北京市百货大楼\nC. 小心台阶\nD. 北亰市百货大楼",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — is '北京市百货大楼, Beijing Department Store, 小心台阶' contained within the box defined by [[1149, 698], [1755, 698], [1755, 876], [1149, 876]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside [[356, 927], [454, 927], [454, 955], [356, 955]]: ________",
+              "answer": [
+                "小心台阶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[890,745], [1492,735], [1493,798], [890,810]], the sign reads \"Beij____ Department Store\" — what's missing from that phrase?",
+              "answer": "Beijing"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[1149, 698], [1755, 698], [1755, 876], [1149, 876]] — which answer option matches the text found there? Options:\nA. Beijing Department Store\nB. 北亰市百货大楼\nC. Boijing Department Store\nD. 小心台阶",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the region [[355.60838209369837, 697.8368868450391], [1755.0031935154218, 697.8368868450391], [1755.0031935154218, 955.3591778591779], [355.60838209369837, 955.3591778591779]] — are the label(s) 'Boijing Department Store, 小心台阶, 北京市百货大楼' present inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the region [[1149, 698], [1755, 698], [1755, 876], [1149, 876]], what word(s) do you see? ________",
+              "answer": [
+                "北京市百货大楼",
+                "Beijing Department Store"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign in area [[853,761], [1455,751], [1456,814], [853,826]] reads \"Beijin____ Department Store\" — what word or letters should fill that blank?",
+              "answer": "g"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that lists the text(s) found inside [[1149, 698], [1755, 698], [1755, 876], [1149, 876]]. Options:\nA. 北京市百货大楼\nB. Boijing Department Store\nC. 北亰市百货大楼\nD. 小心台阶",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '北京市百货大楼, Boijing Department Store, 小心台阶' actually inside the region marked by [[355.60838209369837, 697.8368868450391], [1755.0031935154218, 697.8368868450391], [1755.0031935154218, 955.3591778591779], [355.60838209369837, 955.3591778591779]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[353.84781871341664, 696.9596938625829], [1752.3716145680535, 696.9596938625829], [1752.3716145680535, 953.9507271549526], [353.84781871341664, 953.9507271549526]], what word or words appear there? The answer is ________.",
+              "answer": [
+                "小心台阶",
+                "北京市百货大楼",
+                "Beijing Department Store"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign in region [[835,797], [1438,787], [1438,850], [835,861]] shows a store name partially visible as \"Bei____ Department Store\" — what letters are missing from the blank?",
+              "answer": "jing"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text visible in the area [[1145, 697], [1752, 697], [1752, 873], [1145, 873]] matches which of these options? Options:\nA. 北亰市百货大楼\nB. 北京市百货大楼\nC. Boijing Department Store\nD. 小心台阶",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '北京市百货大楼, Beijing Department Store, 小心台阴' appear inside [[353.84781871341664, 696.9596938625829], [1752.3716145680535, 696.9596938625829], [1752.3716145680535, 953.9507271549526], [353.84781871341664, 953.9507271549526]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0155/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0155/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can see in the region [[354, 924], [452, 924], [452, 953], [354, 953]]: ________",
+              "answer": [
+                "小心台阶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[99,976], [194,971], [191,996], [96,1000]] 所指的区域内有一条警示标语，其中\"____台阶\"部分有字符缺失，请将其补全。",
+              "answer": "小心"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[1145, 691], [1752, 691], [1752, 867], [1145, 867]] and tell me — which answer choice matches it? Options:\nA. Beijing Department Store\nB. 北亰市百货大楼\nC. 北亰市百货大楼\nD. 小心台阶",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '北京市百货大楼' falls inside the bounding box [[1145, 691], [1752, 691], [1752, 867], [1145, 867]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0155"
+  }
+]

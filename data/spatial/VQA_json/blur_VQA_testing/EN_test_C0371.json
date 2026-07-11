@@ -1,0 +1,511 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside [[1253, 99], [1877, 99], [1877, 459], [1253, 459]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Missing character(s) in \"____PKR\" — what fills them in, given the coordinates [[1330,239], [1375,271], [1361,289], [1318,260]]?",
+              "answer": "S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly identifies the text(s) enclosed by [[1253, 234], [1681, 234], [1681, 459], [1253, 459]]. Options:\nA. DEPT, SRKR, AUTO\nB. DEPT, FDC, SPKR\nC. FDC, DERT, AUTO\nD. SPKR, FDC SERVES, DEPT",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You see 'FDC, 45258 TDM BLALOCK ST., AUTO, DEPT, FDC SERVES, SPKR' — does it sit inside [[1253.4520578923564, 99.0], [1877.0, 99.0], [1877.0, 459.0], [1253.4520578923564, 459.0]]? Answer True or False.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word visible inside the region [[1255, 103], [1875, 103], [1875, 461], [1255, 461]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Complete the partial address \"45258 ____ BLALOCK ST.\" visible in the region [[1338,166], [1857,193], [1854,241], [1335,214]].",
+              "answer": "TOM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options given, which one lists the text(s) you see in [[1255, 103], [1875, 103], [1875, 291], [1255, 291]]? Options:\nA. FDC, FDC SERVES, 45258 TOM BLALOCK ST., SPKR\nB. 45258 TOM BLALOCK ST., AUTO, SPKR, DEPT\nC. 45258 TOM BLALOCK ST., SRKR, FDC SERVES, AUTO\nD. 45258 TOM BLALOCK ST., DEPT, EDC SERVES, SPKR",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'FDC, SPKR, FDC SERVES, DERT, AUTO, 45258 TOM BLALOCK ST.' falls anywhere inside [[1255.2040794556985, 103.0], [1875.0, 103.0], [1875.0, 461.0], [1255.2040794556985, 461.0]]. True or False?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) that appear inside [[1252, 107], [1873, 107], [1873, 465], [1252, 465]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is missing in the label \"FD____ERVES\" shown at [[1453,236], [1727,247], [1725,294], [1451,283]] — fill in the gap(s).",
+              "answer": "C S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the text inside [[1314, 107], [1873, 107], [1873, 465], [1314, 465]] — which of these options matches it? Options:\nA. FDC, EDC SERVES, SPKR\nB. SPKR, FDC, FDC SERVES\nC. AUTO, SPKR, FDC SERVES\nD. SPKR, EDC, 45258 TOM BLALOCK ST.",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify that 'DEPT, 45258 TOM BLALOCK ST., SPKR, FDC' is positioned inside [[1252.0357626240154, 107.0], [1873.0, 107.0], [1873.0, 465.0], [1252.0357626240154, 465.0]] — True or False.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the word(s) visible inside [[1251, 111], [1871, 111], [1871, 465], [1251, 465]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the region [[1295,399], [1808,432], [1801,478], [1292,447]], the address \"45258 ____ BLALOCK ST.\" has a gap — fill it in.",
+              "answer": "TOM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and find the one that matches the text(s) in [[1311, 111], [1871, 111], [1871, 465], [1311, 465]]. Options:\nA. SPKR, FDC, 45258 TOM BLALOCK ST.\nB. 45258 TOM BLALOCK ST., SRKR, FDC\nC. SPKR, 45258 TOM BLALOCK ST., AUTO\nD. SPKR, 45258 TOM BLALOCK ST., DEPT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'SPKR, AUTO, 45258 TOM BLALOCK ST., DEPT' fall inside the bounding box [[1250.6893733951292, 111.0], [1871.0, 111.0], [1871.0, 465.0], [1250.6893733951292, 465.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text visible inside [[1250, 113], [1869, 113], [1869, 469], [1250, 469]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1271,568], [1756,607], [1753,649], [1268,610]], what goes in the gap to complete \"45258 TOM B____ ST.\"?",
+              "answer": "LALOCK"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer choice that matches the text found at [[1309, 113], [1869, 113], [1869, 469], [1309, 469]]. Options:\nA. FDC SERVES, SPKR, FDC\nB. FDC SERVES, FDC, SRKR\nC. FDC, EDC SERVES, 45258 TOM BLALOCK ST.\nD. 45258 TOM BLALOCK ST., SPKR, AUTO",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Label(s) 'SPKR, AUTO, FDC, DEPT' — are they inside the bounding box [[1249.688261048077, 113.0], [1869.0, 113.0], [1869.0, 469.0], [1249.688261048077, 469.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you find at [[1249, 115], [1867, 115], [1867, 469], [1249, 469]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1257,662], [1758,699], [1752,756], [1252,714]] fills a gap — what completes \"45258 ____ BLALOCK ST.\"?",
+              "answer": "TOM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options contains what's written at [[1309, 115], [1867, 115], [1867, 469], [1309, 469]]? Options:\nA. AUTO, FDC, SPKR\nB. FDC SERVES, SRKR, 45258 TOM BLALOCK ST.\nC. FDC, FDC SERVES, SRKR\nD. SPKR, FDC SERVES, FDC",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find label(s) 'AUTO, SRKR, DEPT, FDC, FDC SERVES, 45258 TOM BLALOCK ST.' inside [[1248.7889804725373, 115.0], [1867.0, 115.0], [1867.0, 469.0], [1248.7889804725373, 469.0]] — agree or disagree?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type the word(s) shown in the region [[1247, 115], [1865, 115], [1865, 469], [1247, 469]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word or characters belong in \"S____KR\", given the text visible at [[1262,752], [1307,783], [1292,802], [1249,772]]?",
+              "answer": "P"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option whose text matches what appears at [[1308, 115], [1865, 115], [1865, 469], [1308, 469]]. Options:\nA. FDC SERVES, SPKR, 45258 TDM BLALOCK ST.\nB. 45258 TOM BLALOCK ST., FDC, SPKR\nC. FDC, 45258 TOM BLALOCK ST., DEPT\nD. 45258 TOM BLALOCK ST., AUTO, SPKR",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[1246.6107626507553, 115.0], [1865.0, 115.0], [1865.0, 469.0], [1246.6107626507553, 469.0]]: are label(s) '45258 TOM BLALOCK ST., AUTO, FDC SERVES, FDC' present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) enclosed by [[1245, 117], [1865, 117], [1865, 474], [1245, 474]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the region [[1278,560], [1779,596], [1773,654], [1274,611]], what fills the blank in \"45258 T____ BLALOCK ST.\"?",
+              "answer": "OM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one reflects the text at [[1306, 117], [1865, 117], [1865, 474], [1306, 474]]? Options:\nA. FDC, 45258 TDM BLALOCK ST., SPKR\nB. SPKR, FDC, EDC SERVES\nC. FDC, AUTO, FDC SERVES\nD. FDC, SPKR, 45258 TOM BLALOCK ST.",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether label(s) '45258 TOM BLALOCK ST., FDC SERVES, AUTO, DEPT' sit inside [[1245.4117218833692, 117.0], [1865.0, 117.0], [1865.0, 474.0], [1245.4117218833692, 474.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down whatever text appears inside [[1243, 114], [1863, 114], [1863, 476], [1243, 476]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Scan the area at [[1396,341], [1647,358], [1644,400], [1393,382]] — what belongs in the blank in \"____ SERVES\"?",
+              "answer": "FDC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the choice that captures the text visible at [[1243, 249], [1669, 249], [1669, 476], [1243, 476]]. Options:\nA. DEPT, SPKR, AUIO\nB. SPKR, 45258 TOM BLALOCK ST., FDC\nC. DEPT, FDC SERVES, AUTO\nD. AUTO, DEPT, FDC",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — do label(s) 'DEPT, SPKR, 45258 TOM BLALOCK ST., EDC, FDC SERVES, AUTO' belong inside the bounding box [[1243.433304617182, 114.0], [1863.0, 114.0], [1863.0, 476.0], [1243.433304617182, 476.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) that appear in the area [[1243, 123], [1861, 123], [1861, 479], [1243, 479]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text sitting at [[1233,415], [1259,407], [1263,418], [1237,426]], what fills the blank in \"D____T\"?",
+              "answer": "EP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to [[1243, 254], [1667, 254], [1667, 479], [1243, 479]], which answer option includes the text there? Options:\nA. SPKR, FDC, DEPT\nB. SPKR, FDC SERVES, FDC\nC. DERT, AUTO, SPKR\nD. AUIO, FDC, SPKR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question: are label(s) 'FDC SERVES, DEPT, 45258 TOM BLALOCK ST., FDC' contained in the region [[1242.624679280255, 123.0], [1861.0, 123.0], [1861.0, 479.0], [1242.624679280255, 479.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can see inside [[1242, 130], [1857, 130], [1857, 487], [1242, 487]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The street name at [[1300,287], [1797,323], [1794,370], [1297,335]] reads \"45258 TOM ____.\" — what word fills in the blank?",
+              "answer": "BLALOCK ST"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text found inside [[1242, 130], [1857, 130], [1857, 315], [1242, 315]]? Options:\nA. DEPT, FDC, AUTO, SPKR\nB. FDC SERVES, AUTO, 45258 TOM BLALOCK ST., DEPT\nC. AUTO, FDC SERVES, SRKR, 45258 TOM BLALOCK ST.\nD. SPKR, 45258 TOM BLALOCK ST., EDC SERVES, AUTO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'DEPT, FDC SERVES, AUTO, SPKR' appears inside [[1242.2574822178315, 130.0], [1857.0, 130.0], [1857.0, 487.0], [1242.2574822178315, 487.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0371/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0371/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text is visible in the region [[1241, 142], [1855, 142], [1855, 499], [1241, 499]]. ________",
+              "answer": [
+                "FDC SERVES",
+                "45258 TOM BLALOCK ST.",
+                "FDC",
+                "AUTO",
+                "SPKR",
+                "DEPT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label inside [[1252,317], [1297,348], [1283,367], [1240,338]] has a gap — fill it in: \"____KR\".",
+              "answer": "SP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly lists the text inside [[1301, 142], [1855, 142], [1855, 499], [1301, 499]]. Options:\nA. SRKR, FDC SERVES, 45258 TOM BLALOCK ST.\nB. FDC SERVES, AUTO, 45258 TOM BLALOCK ST.\nC. 45258 TOM BLALOCK ST., FDC, SRKR\nD. FDC, FDC SERVES, SPKR",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'FDC SERVES, 45258 TOM BLALOCK ST., FDC, SRKR, DEPT, AUTO' the text that appears within [[1240.5438959265218, 142.0], [1855.0, 142.0], [1855.0, 499.0], [1240.5438959265218, 499.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0371"
+  }
+]

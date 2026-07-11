@@ -1,0 +1,468 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can be found inside [[1319, 351], [1551, 351], [1551, 892], [1319, 892]]? ________",
+              "answer": [
+                "COSTCO",
+                "PARK",
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The box at [[1321,378], [1550,351], [1551,415], [1319,436]] shows a word starting with 'COST' and ending with 'O', with 'STC' missing — what's the complete word?",
+              "answer": "STC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly identifies the text inside [[1319, 351], [1551, 351], [1551, 530], [1319, 530]]. Options:\nA. PARK\nB. PAPK\nC. STOP\nD. CDSTCO",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[1319, 351], [1551, 351], [1551, 530], [1319, 530]] — does it actually contain 'STOP, COSTCO, PARK'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible at [[1287, 353], [1520, 353], [1520, 895], [1287, 895]]. ________",
+              "answer": [
+                "COSTCO",
+                "PARK",
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "If the word at [[1093,485], [1247,468], [1248,532], [1092,546]] appears as P____RK?, what letter(s) sit in the middle?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that shows text from [[1287, 353], [1520, 353], [1520, 531], [1287, 531]]. Options:\nA. COSTCO\nB. PAPK\nC. CDSTCO\nD. STOP",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'PARK' enclosed by [[1287, 353], [1520, 353], [1520, 531], [1287, 531]] in this image?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear(s) inside region [[1259, 355], [1492, 355], [1492, 897], [1259, 897]]. ________",
+              "answer": [
+                "COSTCO",
+                "PARK",
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Spot the gap: at [[815,826], [970,820], [973,904], [818,909]], the text appears as \"ST____\" — what's the missing portion?",
+              "answer": "OP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which answer correctly lists the text found at [[1259, 355], [1492, 355], [1492, 897], [1259, 897]]. Options:\nA. STDP, COSTCO\nB. COSTCO, STOP\nC. PARK, CDSTCO\nD. SIOP, COSTCO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'PARK, COSICO, STOP' falls inside the box defined by [[1259.2705167173253, 354.68085106382983], [1491.8946301925027, 354.68085106382983], [1491.8946301925027, 896.7619047619047], [1259.2705167173253, 896.7619047619047]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Look at region [[1229, 356], [1462, 356], [1462, 898], [1229, 898]] and write down the word(s) you find. ________",
+              "answer": [
+                "COSTCO",
+                "PARK",
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[596,391], [820,374], [819,434], [595,450]], the text shows up as \"____TCO\" — what three letters come first in that word?",
+              "answer": "COS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one has the text visible at [[1229, 356], [1462, 356], [1462, 533], [1229, 533]]? Options:\nA. CDSTCO\nB. COSTCO\nC. CDSTCO\nD. STOP",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect 'PARK' to appear at [[1229, 356], [1462, 356], [1462, 533], [1229, 533]] — is that actually the case?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text inside [[1195, 359], [1428, 359], [1428, 901], [1195, 901]]. ________",
+              "answer": [
+                "COSTCO",
+                "PARK",
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word shown at [[387,825], [539,817], [543,901], [391,908]] appears as \"ST____\" — what suffix is being cut off?",
+              "answer": "OP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan these choices and pick the one that has the text from [[1195, 359], [1428, 359], [1428, 536], [1195, 536]]. Options:\nA. COSTCO\nB. PAPK\nC. STOP\nD. CDSTCO",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Right at [[1195, 359], [1428, 359], [1428, 536], [1195, 536]] — can you spot 'COSTCO, PARK, STOP' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) you see inside [[1175, 812], [1333, 812], [1333, 901], [1175, 901]]. ________",
+              "answer": [
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You'll notice \"ST____P\" inside [[269,826], [418,821], [421,899], [272,904]] — which letter(s) are missing to complete it?",
+              "answer": "O"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text found inside [[1162, 359], [1395, 359], [1395, 901], [1162, 901]]. Options:\nA. COSTCO, SIOP\nB. COSTCO, STOP\nC. STDP, COSTCO\nD. PARK, CDSTCO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'COSTCO, PARK' anywhere inside the bounding box [[1162.3532234842428, 359.11694128939376], [1394.9773369594202, 359.11694128939376], [1394.9773369594202, 901.1979949874687], [1162.3532234842428, 901.1979949874687]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out every word visible inside [[1136, 363], [1368, 363], [1368, 905], [1136, 905]]. ________",
+              "answer": [
+                "COSTCO",
+                "PARK",
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[273,357], [503,340], [507,402], [273,419]], the store's name is partially shown as \"CO____O\" — what's the missing segment?",
+              "answer": "STC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following correctly captures the text inside [[1136, 363], [1368, 363], [1368, 905], [1136, 905]]? Options:\nA. COSTCO, STOP\nB. CDSTCO, STOP\nC. PAPK, COSTCO\nD. STOP, RARK",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'STOP, COSTCO, PARK' actually present within [[1136, 363], [1368, 363], [1368, 540], [1136, 540]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you can read inside [[1107, 362], [1339, 362], [1339, 540], [1107, 540]]. ________",
+              "answer": [
+                "COSTCO",
+                "PARK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Glancing at [[576,406], [729,392], [729,458], [575,470]], what letter(s) would complete the label \"____K\"?",
+              "answer": "PAR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer choice that accurately reflects the text in [[1107, 362], [1339, 362], [1339, 904], [1107, 904]]. Options:\nA. STOP, CDSTCO\nB. COSTCO, SIOP\nC. COSTCO, STOP\nD. PARK, STDP",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1106.6048682210849, 362.41052681570955], [1339.2289816962623, 362.41052681570955], [1339.2289816962623, 904.4915805137846], [1106.6048682210849, 904.4915805137846]] contain the label(s) 'SIOP, PARK, COSTCO'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify all text visible within the region [[1078, 366], [1311, 366], [1311, 908], [1078, 908]]. ________",
+              "answer": [
+                "COSTCO",
+                "PARK",
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The partially shown text \"P____K\" sits inside [[798,472], [951,458], [951,524], [797,536]] — what complete word(s) does it represent?",
+              "answer": "AR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, identify which one matches the text found in [[1078, 366], [1311, 366], [1311, 908], [1078, 908]]. Options:\nA. PARK, COSTCO\nB. COSTCD, PARK\nC. CDSTCO, PARK\nD. PAPK, COSTCO",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can 'COSTCO' be found inside the box defined by [[1078, 366], [1311, 366], [1311, 543], [1078, 543]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) shown inside [[1060, 821], [1218, 821], [1218, 910], [1060, 910]]. ________",
+              "answer": [
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in the text at [[940,436], [1169,417], [1174,481], [945,500]], the word(s) \"C____O\" has gaps — which letter(s) are missing?",
+              "answer": "OSTC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices below, identify the one that accurately captures the text in [[1047, 368], [1280, 368], [1280, 545], [1047, 545]]. Options:\nA. STOP\nB. PARK\nC. CDSTCO\nD. PAPK",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'STOP, COSTCO, PARK' appears within the region [[1047, 368], [1280, 368], [1280, 545], [1047, 545]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out inside [[1020, 368], [1252, 368], [1252, 911], [1020, 911]]? ________",
+              "answer": [
+                "COSTCO",
+                "PARK",
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the gaps in the label \"C____O\" as it appears inside [[1093,473], [1318,449], [1324,511], [1096,532]].",
+              "answer": "OSTC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one lists the text(s) found inside [[1020, 368], [1252, 368], [1252, 911], [1020, 911]]? Options:\nA. CDSTCO, PARK\nB. SIOP, COSTCO\nC. COSTCO, PAPK\nD. PARK, COSTCO",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'SIOP, COSTCO, PARK' is located inside [[1019.8204203994028, 368.4785184370502], [1252.4445338745802, 368.4785184370502], [1252.4445338745802, 910.5595721351256], [1019.8204203994028, 910.5595721351256]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0327/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0327/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word you see within [[1006, 822], [1164, 822], [1164, 911], [1006, 911]]. ________",
+              "answer": [
+                "STOP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown at [[1102,426], [1328,403], [1334,461], [1108,484]] is a sequence — which letter(s) complete \"C____CO\"?",
+              "answer": "OST"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text(s) you see at [[994, 369], [1227, 369], [1227, 546], [994, 546]]? Options:\nA. PARK\nB. PAPK\nC. PAPK\nD. STOP",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'STOP, PARK, COSTCO' fall inside the bounding box [[1006, 468], [1222, 468], [1222, 911], [1006, 911]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0327"
+  }
+]

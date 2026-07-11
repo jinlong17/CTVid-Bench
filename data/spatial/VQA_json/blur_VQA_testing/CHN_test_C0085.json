@@ -1,0 +1,480 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify all text visible inside the box at [[495, 237], [855, 237], [855, 719], [495, 719]]. ________",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像坐标 [[498,633], [855,644], [852,719], [495,708]] 处的品牌全称为\"朝日啤酒\"，你能补全缺失的部分\"____啤酒\"吗？",
+              "answer": "朝日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, pick the one that accurately represents the text at [[495, 237], [855, 237], [855, 719], [495, 719]]. Options:\nA. ER, Y＂, ＂D\nB. 朝日啤酒, ＂D, FR\nC. ER, ＂P, 朝日啤酒\nD. ＂O, ER, 朝日啤酒",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "If I told you '＂D, 朝日啤酒, Y＂, ER' appears inside [[500, 237], [843, 237], [843, 361], [500, 361]], would that be correct?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the bounding box at [[502, 234], [843, 234], [843, 357], [502, 357]] and write down whatever text you see. ________",
+              "answer": [
+                "ER",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[723,179], [784,182], [775,217], [713,215]] 处的品牌标识有部分字符缺失，请补全\"____\"。",
+              "answer": "ER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which one captures the text visible in [[502, 234], [843, 234], [843, 357], [502, 357]]? Options:\nA. 朝日啤酒, ER\nB. Y＂, ＂O\nC. FR, ＂D\nD. ER, ＂D",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect to find 'Y＂, FR, ＂D, 朝日啤酒' inside [[496.89873417721515, 234.12889033142196], [856.8987341772151, 234.12889033142196], [856.8987341772151, 716.4683544303798], [496.89873417721515, 716.4683544303798]] — is that actually the case?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[498.14873417721515, 229.12889033142196], [858.1487341772151, 229.12889033142196], [858.1487341772151, 711.4683544303798], [498.14873417721515, 711.4683544303798]], what word(s) can you read? ________",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据坐标 [[543,524], [900,535], [897,610], [540,599]] 的图像内容，填写品牌名称中空缺的字符\"朝____啤酒\"。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At location [[498, 229], [858, 229], [858, 711], [498, 711]], some text is visible — which answer choice correctly identifies it? Options:\nA. ＂D, 朝日啤酒, FR\nB. 朝日唕酒, Y＂, ER\nC. ER, Y＂, ＂O\nD. 朝日啤酒, Y＂, ＂D",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[498.14873417721515, 229.12889033142196], [858.1487341772151, 229.12889033142196], [858.1487341772151, 711.4683544303798], [498.14873417721515, 711.4683544303798]], are '朝日唕酒, ＂D, ER, Y＂' the label(s) contained there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Words found in [[503.14873417721515, 220.37889033142196], [863.1487341772151, 220.37889033142196], [863.1487341772151, 702.7183544303798], [503.14873417721515, 702.7183544303798]]: what are they exactly? ________",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标 [[608,79], [735,88], [722,161], [593,152]] 位置有字符缺失，请补全\"＂____\"中空缺的内容。",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Checking the region at [[503, 220], [863, 220], [863, 703], [503, 703]], select the option below that matches the text found there. Options:\nA. ＂D, 朝日唕酒, ER\nB. ER, Y＂, ＂P\nC. ER, 朝日啤酒, ＂D\nD. Y＂, 朝日啤酒, ＂O",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My claim is that '＂D, Y＂, 朝日唕酒, ER' can be found inside [[503.14873417721515, 220.37889033142196], [863.1487341772151, 220.37889033142196], [863.1487341772151, 702.7183544303798], [503.14873417721515, 702.7183544303798]] — right or wrong?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pinpoint the text inside [[508.14873417721515, 616.7183544303798], [868.1487341772151, 616.7183544303798], [868.1487341772151, 702.7183544303798], [508.14873417721515, 702.7183544303798]] — what word(s) appear there? ________",
+              "answer": [
+                "朝日啤酒"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "品牌标识出现在坐标 [[607,407], [980,419], [977,494], [604,483]] 处，其中\"朝日____\"一处字符缺失，请填写完整。",
+              "answer": "啤酒"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best represents the text you can read at [[508, 220], [868, 220], [868, 703], [508, 703]]? Options:\nA. Y＂, 朝日啤酒, ＂O\nB. 朝日唕酒, ＂D, ER\nC. Y＂, ER, ＂D\nD. 期日啤酒, Y＂, ER",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'FR, ＂D, Y＂, 朝日啤酒' appear inside the region marked by [[508.14873417721515, 220.37889033142196], [868.1487341772151, 220.37889033142196], [868.1487341772151, 702.7183544303798], [508.14873417721515, 702.7183544303798]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text at [[509.4307854592664, 215.25068520321685], [869.4307854592664, 215.25068520321685], [869.4307854592664, 701.4363031483284], [509.4307854592664, 701.4363031483284]] — what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[599,379], [978,386], [977,467], [598,460]] 处的图像显示了一段文字，请补全其中缺失的内容：\"____啤酒\"。",
+              "answer": "朝日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[509, 215], [869, 215], [869, 701], [509, 701]], select the option that matches the text visible there. Options:\nA. 朝日唕酒, ER, ＂D\nB. 朝日啤酒, Y＂, ＂D\nC. ER, ＂O, 朝日啤酒\nD. V＂, ＂D, ER",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You're looking at [[509.4307854592664, 215.25068520321685], [869.4307854592664, 215.25068520321685], [869.4307854592664, 701.4363031483284], [509.4307854592664, 701.4363031483284]] — does it actually contain the label(s) '＂D, ER, 朝日啤酒'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At location [[511.3538623823433, 210.4157795428395], [871.3538623823433, 210.4157795428395], [871.3538623823433, 695.1863031483284], [511.3538623823433, 695.1863031483284]], what text can you see? The word(s) is/are ________.",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据坐标 [[633,355], [1018,362], [1017,445], [632,438]] 处的画面，填写品牌名称中空缺的字：\"朝____啤酒\"。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, identify the one that captures the text shown at [[520, 210], [861, 210], [861, 333], [520, 333]]. Options:\nA. ＂D, FR\nB. Y＂, 朝日啤酒\nC. ＂D, ER\nD. ＂D, FR",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'Y＂, ER, ＂O, 朝日啤酒' — are they visible inside the area defined by [[511.3538623823433, 210.4157795428395], [871.3538623823433, 210.4157795428395], [871.3538623823433, 695.1863031483284], [511.3538623823433, 695.1863031483284]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible at the region [[511.3538623823433, 603.6307475927729], [871.3538623823433, 603.6307475927729], [871.3538623823433, 689.6307475927729], [511.3538623823433, 689.6307475927729]]. The word(s) is/are ________.",
+              "answer": [
+                "朝日啤酒"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标 [[651,325], [1039,334], [1037,417], [649,408]] 对应区域有段残缺文字，请将\"朝____啤酒\"补充完整。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region at [[520, 205], [862, 205], [862, 328], [520, 328]] and select the answer that correctly reflects its text content. Options:\nA. V＂, ＂D\nB. ER, ＂O\nC. Y＂, ＂D\nD. 朝日啤酒, ＂D",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "A quick check on [[511.3538623823433, 204.86022398728392], [871.3538623823433, 204.86022398728392], [871.3538623823433, 689.6307475927729], [511.3538623823433, 689.6307475927729]] — are the label(s) 'Y＂, ＂O, 朝日啤酒, ER' actually there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up in the region [[512.2085632370442, 198.87731800437794], [872.2085632370442, 198.87731800437794], [872.2085632370442, 684.9298928919183], [512.2085632370442, 684.9298928919183]]? The word(s) is/are ________.",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察坐标 [[675,299], [1072,306], [1071,390], [674,383]] 区域内的文字，写出\"____啤酒\"中所缺少的内容。",
+              "answer": "朝日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one accurately lists the text found at [[512, 199], [872, 199], [872, 685], [512, 685]]? Options:\nA. FR, 朝日啤酒, ＂D\nB. ER, Y＂, 朝日啤酒\nC. ＂O, Y＂, ER\nD. 朝日啤酒, ER, V＂",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the area bounded by [[512.2085632370442, 198.87731800437794], [872.2085632370442, 198.87731800437794], [872.2085632370442, 684.9298928919183], [512.2085632370442, 684.9298928919183]], do the label(s) '朝日啤酒, ER, ＂D' appear?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible inside [[514.3212392933823, 189.01816307480047], [874.3212392933823, 189.01816307480047], [874.3212392933823, 675.0707379623408], [514.3212392933823, 675.0707379623408]]. The word(s) is/are ________.",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "结合坐标 [[729,293], [1129,302], [1127,388], [727,379]] 处的图像，将品牌名称\"朝____啤酒\"中空白处填写完整。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For [[520, 189], [866, 189], [866, 312], [520, 312]], which answer option correctly lists the text found there? Options:\nA. 朝日啤酒, ＂D\nB. Y＂, ＂O\nC. ER, V＂\nD. ＂D, ER",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focusing on [[514.3212392933823, 189.01816307480047], [874.3212392933823, 189.01816307480047], [874.3212392933823, 675.0707379623408], [514.3212392933823, 675.0707379623408]], verify whether '朝日啤酒, ＂O, Y＂, ER' is/are the label(s) shown in that region.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[516.0453772244167, 179.24804813227178], [876.0453772244167, 179.24804813227178], [876.0453772244167, 667.0247609508467], [516.0453772244167, 667.0247609508467]] — what word or words do you find there? The word(s) is/are ________.",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[798,299], [1201,310], [1198,398], [795,386]] 对应的区域出现了不完整的文字，请把\"朝____啤酒\"中缺少的字补上。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look carefully at [[516, 179], [876, 179], [876, 667], [516, 667]] and pick the answer that matches what's written there. Options:\nA. 朝日啤酒, ER, ＂P\nB. ＂O, ER, Y＂\nC. ＂D, 朝日唕酒, ER\nD. ER, Y＂, ＂D",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[522, 179], [867, 179], [867, 304], [522, 304]] contain the label(s) '＂D, Y＂'? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0085/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0085/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading across region [[519.4936530864857, 174.6503469828465], [879.4936530864857, 174.6503469828465], [879.4936530864857, 662.4270598014216], [519.4936530864857, 662.4270598014216]], what word or words do you see? ________.",
+              "answer": [
+                "ER",
+                "朝日啤酒",
+                "＂D",
+                "Y＂"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中 [[856,297], [1259,311], [1256,400], [853,386]] 位置显示了一个品牌名称，请补全其中的空缺部分：\"朝____啤酒\"。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For region [[519, 175], [879, 175], [879, 662], [519, 662]], select the option that matches what's written there. Options:\nA. V＂, ＂D, 朝日啤酒\nB. ER, Y＂, ＂D\nC. Y＂, FR, 朝日啤酒\nD. ＂O, Y＂, ER",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Y＂, 朝日啤酒, ER, ＂D' appearing inside the box [[522, 175], [868, 175], [868, 299], [522, 299]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0085"
+  }
+]

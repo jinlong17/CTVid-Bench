@@ -1,0 +1,489 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[147, 722], [655, 722], [655, 826], [147, 826]], which word(s) do you see? ________",
+              "answer": [
+                "101茶園",
+                "101 TEA",
+                "PLANTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Name the service shown in [[1193,505], [1864,490], [1867,585], [1196,600]] by completing: DE____L CARE.",
+              "answer": "NTA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer below lists the exact text(s) found at [[147, 722], [655, 722], [655, 826], [147, 826]]? Options:\nA. 牙科, 101茶園\nB. PLANTATION, 101 TFA\nC. 101 TEA, 101茶園\nD. DENTAL CARE, 101茶園",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is/are '46863, 牙科, DENTAL CARE' visible inside [[311, 490], [1867, 490], [1867, 1048], [311, 1048]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at [[146, 720], [653, 720], [653, 827], [146, 827]] and fill in the text you find there. ________",
+              "answer": [
+                "101茶園",
+                "101 TEA",
+                "PLANTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "請看[[271,713], [617,706], [619,803], [273,811]]一帶的招牌，補全店名：1____茶園",
+              "answer": "01"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text shown at [[146, 720], [1373, 720], [1373, 1051], [146, 1051]] and pick the matching option. Options:\nA. 101 TFA, PLANTATION, 46863\nB. 101 TEA, 101茶園, PLANTATION\nC. 牙科, 101 TEA, 101茶園\nD. 101茶園, PLANIATION, 101 TEA",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether '101茶園, 101 TEA' can be found within [[146.0, 720.0], [653.0, 720.0], [653.0, 827.0], [146.0, 827.0]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) that appear inside [[301, 486], [1861, 486], [1861, 1049], [301, 1049]]. ________",
+              "answer": [
+                "牙科",
+                "DENTAL CARE",
+                "101茶園",
+                "46863"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The service found at [[1138,475], [1805,464], [1806,553], [1139,564]] starts with \"____L CARE\" — what is its full name?",
+              "answer": "DENTA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text(s) visible inside [[144, 486], [1861, 486], [1861, 825], [144, 825]]. Options:\nA. 101茶園, 牙科, 101 TFA, DENTAL CARE\nB. DENTAL CARE, PLANTATION, 101茶園, 101 TEA\nC. 101 TEA, DENIAL CARE, PLANTATION, 牙科\nD. 46863, 牙科, 101茶園, 101 TEA",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'PLANTATION, 101 TEA, 101茶園, 牙科' appearing inside the bounding box [[144.0, 718.0], [647.0, 718.0], [647.0, 825.0], [144.0, 825.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[1183, 486], [1855, 486], [1855, 1047], [1183, 1047]] and write down the word(s) you find there. ________",
+              "answer": [
+                "DENTAL CARE",
+                "46863"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "請補全座標[[106,665], [456,665], [456,762], [106,762]]區域中缺少的文字：____茶園",
+              "answer": "101"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option correctly captures the text(s) shown inside [[140, 718], [647, 718], [647, 825], [140, 825]]. Options:\nA. PLANIATION, 101茶園\nB. 牙科, 101茶園\nC. 101 TEA, 101茶園\nD. 101 TFA, 101茶園",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can 'PLANTATION, 101 TEA, 46863, 牙科' be found inside the region defined by [[140.0, 486.0], [1855.0, 486.0], [1855.0, 1047.0], [140.0, 1047.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) contained within the area marked by [[976, 486], [1851, 486], [1851, 1042], [976, 1042]]. ________",
+              "answer": [
+                "牙科",
+                "DENTAL CARE",
+                "46863"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1564,970], [1660,975], [1658,1013], [1562,1008]], there are several numbers — which one(s) does \"____867\" belong to?",
+              "answer": "46"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options contains the text(s) found at [[132, 716], [642, 716], [642, 821], [132, 821]]? Select the right one. Options:\nA. 101 TEA, PLANTATION\nB. 101 TEA, PLANIATION\nC. PLANTATION, 牙科\nD. 101 TEA, DENTAL CARE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'DENTAL CARE, 101 TEA, PLANTATION, 101茶園, 46863, 牙科' appears within the bounding box [[132, 486], [1851, 486], [1851, 821], [132, 821]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) you can see within the region [[297, 484], [1849, 484], [1849, 1042], [297, 1042]]. ________",
+              "answer": [
+                "DENTAL CARE",
+                "牙科",
+                "46863",
+                "101茶園"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "画面中 [[1470,630], [1803,651], [1801,692], [1468,671]] 所示区域出现了一个店名，其中有部分缺失，请补全：蒙____麗莎髮廊",
+              "answer": "娜"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region at [[129, 719], [1356, 719], [1356, 1042], [129, 1042]] and select the option that matches its text(s). Options:\nA. 46863, PLANTATION, 101茶園\nB. 101荣園, 101 TEA, 46863\nC. 46883, PLANTATION, 101 TEA\nD. 101 TEA, DENTAL CARE, 101茶園",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[129, 484], [1849, 484], [1849, 824], [129, 824]] contain the label(s) '101茶園, 101 TEA, DENTAL CARE, PLANTATION, 牙科, 46863'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text do you see inside the bounding box [[128, 482], [1843, 482], [1843, 1040], [128, 1040]]? ________",
+              "answer": [
+                "牙科",
+                "DENTAL CARE",
+                "PLANTATION",
+                "46863",
+                "101茶園",
+                "101 TEA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "下方文字來自座標[[122,437], [300,453], [292,542], [114,526]]，其中有字符缺失，請補上：____科",
+              "answer": "牙"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the answer that best captures the text(s) visible at [[128, 719], [643, 719], [643, 824], [128, 824]]. Options:\nA. 101茶園, PLANTATION\nB. 牙科, PLANTATION\nC. PLANTATION, 101 TFA\nD. 101 TFA, PLANTATION",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it correct that 'PLANTATION, 101 TEA' can be found within [[128.0, 719.2520325203252], [643.1576618297827, 719.2520325203252], [643.1576618297827, 824.2520325203252], [128.0, 824.2520325203252]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside the area defined by [[289, 482], [1839, 482], [1839, 1041], [289, 1041]]. ________",
+              "answer": [
+                "牙科",
+                "DENTAL CARE",
+                "46863",
+                "101茶園"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The coordinates [[1300,1051], [1417,1053], [1416,1080], [1300,1079]] show a partial sequence — which number(s) fill in 5____-445-1288??",
+              "answer": "10"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options given, which one accurately lists the text(s) found inside [[121, 482], [1839, 482], [1839, 823], [121, 823]]? Options:\nA. 101茶園, 牙科, DENTAL CARE, PLANTATION\nB. 46863, 牙科, PLANTATION, DENTAL CARE\nC. 牙科, 101 TFA, PLANTATION, 101茶園\nD. 101 TEA, 牙科, DENIAL CARE, PLANTATION",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '101 TEA, 牙科, 101茶園, DENIAL CARE, PLANTATION, 46863' falls within the bounding box [[121.0, 482.0], [1839.0, 482.0], [1839.0, 1041.0], [121.0, 1041.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[119, 478], [1835, 478], [1835, 815], [119, 815]] — what word(s) are displayed there? ________",
+              "answer": [
+                "牙科",
+                "DENTAL CARE",
+                "101茶園",
+                "101 TEA",
+                "PLANTATION"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within [[389,978], [505,983], [503,1027], [387,1022]], how would you finish the partial entry 46____3??",
+              "answer": "86"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly identifies the text(s) found inside [[119, 478], [1835, 478], [1835, 815], [119, 815]]? Options:\nA. 46863, PLANTATION, 牙科, DENTAL CARE\nB. DENTAL CARE, 101 TEA, 牙科, PLANIATION\nC. 101 TFA, PLANTATION, 牙科, 101茶園\nD. 101 TEA, DENTAL CARE, 101茶園, PLANTATION",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'PLANTATION, 101 TEA, 牙科, 101茶園' appearing inside the bounding box [[119.0, 478.0], [1835.0, 478.0], [1835.0, 1041.0], [119.0, 1041.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read the text inside the bounding box [[116, 480], [1833, 480], [1833, 1036], [116, 1036]]? ________",
+              "answer": [
+                "牙科",
+                "DENTAL CARE",
+                "PLANTATION",
+                "46863",
+                "101 TEA",
+                "101茶園"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "請補全位於座標[[174,450], [348,467], [340,558], [166,542]]區域內的詞語：牙____",
+              "answer": "科"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text(s) visible in the region [[116, 710], [1342, 710], [1342, 1036], [116, 1036]]. Options:\nA. 46863, PLANIATION, 101茶園\nB. 46863, 牙科, PLANTATION\nC. 101 TEA, PLANTATION, 101茶園\nD. 101 TFA, 46863, 101茶園",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '101茶園, PLANTATION, 101 TEA, 牙科' the correct label for the content found within bounding box [[116, 480], [1833, 480], [1833, 815], [116, 815]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you can see inside [[108, 706], [1339, 706], [1339, 1035], [108, 1035]]. ________",
+              "answer": [
+                "101茶園",
+                "101 TEA",
+                "PLANTATION",
+                "46863"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1173,567], [1447,588], [1441,655], [1167,634]] contains a partially hidden word — what completes \"Mana L____\"?",
+              "answer": "isa"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately reflects the text(s) shown inside [[108, 478], [1827, 478], [1827, 811], [108, 811]]. Options:\nA. 101 TFA, 牙科, DENTAL CARE, PLANTATION\nB. DENTAL CARE, 101 TEA, 101茶園, PLANIATION\nC. PLANTATION, 101 TEA, DENTAL CARE, 牙科\nD. 101 TEA, 牙科, 46863, 101茶園",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[108.0, 706.0], [619.0, 706.0], [619.0, 811.0], [108.0, 811.0]] contain the label(s) 'PLANTATION, 101茶園'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0358/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0358/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the word(s) visible inside the bounding box [[106, 478], [1823, 478], [1823, 1035], [106, 1035]]. ________",
+              "answer": [
+                "牙科",
+                "DENTAL CARE",
+                "101茶園",
+                "101 TEA",
+                "PLANTATION",
+                "46863"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "店名中有一部分位於座標[[1346,766], [1664,781], [1662,821], [1344,806]]，請填入缺少的文字：蒙____麗莎髮廊",
+              "answer": "娜"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) found at [[106, 704], [1335, 704], [1335, 1035], [106, 1035]]? Options:\nA. 46863, 101茶園, PLANTATION\nB. 101 TEA, PLANIATION, 46863\nC. 101 TEA, 牙科, 101茶園\nD. 46863, DENTAL CARE, 101茶園",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '101 TEA, 牙科, PLANTATION, DENTAL CARE' accurately describes what's inside the bounding box [[106.0, 478.0], [1823.0, 478.0], [1823.0, 1035.0], [106.0, 1035.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0358"
+  }
+]

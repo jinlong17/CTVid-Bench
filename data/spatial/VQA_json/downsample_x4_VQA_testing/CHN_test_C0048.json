@@ -1,0 +1,474 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text that sits inside the box [[17, 19], [81, 19], [81, 47], [17, 47]]: ________",
+              "answer": [
+                "2020"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Spot the missing character(s) in the text shown at [[1737,515], [1775,516], [1775,530], [1737,529]] and complete: E ____ING.",
+              "answer": "M"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The area [[311, 198], [1793, 198], [1793, 992], [311, 992]] contains some text — which answer option matches it? Options:\nA. 排行榜第一名, 做女儿也放心, 茗水, 11元, 招牌冻柠茶, 这里, 珍珠奶茶, 鸡蛋仔, ORDER, HERE\nB. 喝的珍珠奶茶, HERE, 做女儿也放心, 老红糖, 煲珠公, E MING, ORDER, 2020, 放心吃, 招牌冻柠茶\nC. NG, BEST, 排行榜第一名, 鸡蛋仔, 点单, OPDER, 喝的珍珠奶茶, 快乐, 中杯, 大众点评\nD. NG, 超大杯, 敵心吃, 首创者, 煲珠公, 喝的珍珠奶茶, 排行榜第一名, 大众点评, HERE, 这里",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Locate the bounding box [[680, 198], [1793, 198], [1793, 992], [680, 992]] — does it contain the label(s) '茗水, 鸡蛋仔, 招牌, ®, 大众点评, 老红糖珍珠奶茶, 老红糖珍珠奶茶, 排行榜第一名, BEST, 煲珠公'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the region [[14.252223966509675, 18.470608756323045], [78.25222396650963, 18.470608756323045], [78.25222396650963, 46.47060875632304], [14.252223966509675, 46.47060875632304]], what word(s) can you make out? The word(s) is/are ________.",
+              "answer": [
+                "2020"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A label at [[537,580], [569,566], [574,577], [540,592]] has some text missing — supply the word(s) to finish it: H____",
+              "answer": "ERE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[313, 198], [1795, 198], [1795, 992], [313, 992]] and identify which option captures the text there. Options:\nA. 鸡蛋仔, 老红糖, 老红糖珍珠奶茶·首创者, 莟冰, ORDER, 排行榜第一名, 大众点评, 老红糖珍珠奶茶, 煲珠公, NG\nB. 珍珠奶茶, 老红糖珍珠奶茶·首创者, 点单, 大众点评, NG, 快乐, 中杯, 首创者, 老红糖珍珠奶茶, 鸡蛋仔\nC. HERE, NG, 摺牌, BEST, 超大杯, 珍珠奶茶, 11元, 做女儿也放心, 老红糖珍珠奶茶·首创者, 大众点评\nD. EMING, 珍珠奶茶, 中杯, 鸡蛋仔, 这里, 老红糖珍珠奶茶·首创者, 11元, BEST, 2020, 首创者",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You're looking at box [[313, 198], [1795, 198], [1795, 992], [313, 992]] — are the label(s) 'ORDER, BEST, 2020, 这里, 老红糖, 放心吃, 老红糖珍珠奶茶, 招牌冻柠茶, 煲珠公, 喝的珍珠奶茶' inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's missing from the label visible at [[494,561], [538,574], [535,587], [490,574]] — what goes in the blank? O____R",
+              "answer": "RDE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inspect the text at [[14, 18], [1440, 18], [1440, 842], [14, 842]] and pick the answer that reflects it. Options:\nA. ®, 招牌, 2020, 点单, 中杯, 11元, ORDER, 老红糖珍珠奶茶, 老红糖珍珠奶茶·首创者, 煲珠公\nB. 珍珠奶茶, 老红糖珍珠奶茶, 大众点评, 放心吃, 做女儿也放心, 排行榜第一名, 茗冰, BEST, 煲珠公, 这里\nC. 招牌, OPDER, 煲珠公, 2020, 老红糖珍珠奶茶, 排行榜第一名, 11元, 老红糖, 老红糖珍珠奶茶, BEST\nD. 喝的珍珠奶茶, 放心吃, 珍珠奶荣, 首创者, 老红糖珍珠奶茶, 老红糖珍珠奶茶, 老红糖珍珠奶茶·首创者, 老红糖, 煲珠公, 中杯",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the bounding box [[684, 196], [1797, 196], [1797, 991], [684, 991]], is/are the label(s) 'NG, 超大杯, 珍珠奶茶, 爆浆, ®, 煲珠公, 招牌, 11元, 鸡蛋仔, 点单' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[542,574], [574,559], [579,570], [545,585]], there's a text segment with a gap — what word(s) complete H____?",
+              "answer": "ERE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[451, 192], [1797, 192], [1797, 986], [451, 986]] — which of the following options lists the text(s) there? Options:\nA. BEST, 喝的珍珠奶茶, 鸡蛋仔, 快乐, 老红糖, 煲珠公, 做女儿也放心, 大众点评, 中杯, 茗冰\nB. 招牌, 老红糖, 大众点评, 首创者, 放心吃, 超大杯, 鸡蛋仔, 11元, 做女儿也放心, 点单\nC. 珍珠奶茶, 喝的珍珠奶茶, E MING, 2020, 招牌冻柠茶, 老红糖珍珠奶茶·首创者, 做女儿也放心, 快乐, 老红糖珍珠奶茶, 大众点评\nD. 老红糖珍珠奶茶·首创者, 老红糖, 快乐, 超大杯, FMING, E MING, 喝的珍珠奶茶, BEST, 珍珠奶茶, 首创者",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '排行榜第一名, 招牌, 招牌冻柠茶, 超大杯, 中杯, 珍珠奶茶, 首创者, 煲珠公, 点单, 大众点评' appear inside [[315, 192], [1797, 192], [1797, 986], [315, 986]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text appears in the area [[13.134634318749839, 11.202797202797203], [373.0, 11.202797202797203], [373.0, 735.0], [13.134634318749839, 735.0]]. The word(s) is/are ________.",
+              "answer": [
+                "放心吃",
+                "2020"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[456,381], [517,363], [524,390], [466,408]]的文本中有空缺，请将正确内容填入：____里",
+              "answer": "这"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the option that matches the text in [[317, 188], [1797, 188], [1797, 982], [317, 982]] and select it. Options:\nA. 11元, 点单, 老红糖, 爆洜, EMING, 中杯, 老红糖珍珠奶茶, 鸡蛋仔, 快乐, 茗冰\nB. E MING, BEST, 这里, 老红糖珍珠奶茶, 2020, 点单, 招牌, 放心吃, HERE, 茗冰\nC. 大众点评, 老红糖珍珠奶茶, 老红糖珍珠奶茶, 快乐, 喝的珍珠奶茶, ORDER, BEST, HERE, 煲珠公, 中杯\nD. HERE, 喝的珍珠奶茶, 做女儿也放心, 熋珠公, 11元, 首创者, EMING, 老红糖珍珠奶茶, 超大杯, 放心吃",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '茗冰, ORDER, 这里, ®, 煲珠公, 老红糖珍珠奶茶, BEST, 老红糖, 2020, 老红糖珍珠奶茶·首创者' — do they fall within the region [[13, 11], [1441, 11], [1441, 836], [13, 836]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can you read inside [[13.134634318749839, 11.202797202797203], [373.0, 11.202797202797203], [373.0, 735.0], [13.134634318749839, 735.0]]? The word(s) is/are ________.",
+              "answer": [
+                "放心吃",
+                "2020"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's been left out of the text at [[955,163], [971,163], [972,178], [955,179]] — complete it here: ____",
+              "answer": "®"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which one correctly lists the text inside [[317, 188], [1798, 188], [1798, 982], [317, 982]]? Options:\nA. ®, 做女儿也放心, 喟的珍珠奶茶, 中杯, 快乐, 煲珠公, 煲珠公, 茗冰, 老红糖, ORDER\nB. BEST, 这里, 中杯, 排行榜第一名, NG, 煲珠公, 珍珠奶茶, 11元, 招牌, E MING\nC. ORDER, 2020, 鸡蛋仔, 11元, 珍珠奶茶, ®, 喝的珍珠奶茶, 放心吃, 排行榜第一名, 做女儿也放心\nD. E MING, 放心吃, ORDER, 超大杯, 老红糖, 珍珠奶茶, 老红糖珍珠奶茶, HEPE, 排行榜第一名, 11元",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether '放心吃, 2020, 珍珠奶茶, 首创者, 11元, 鸡蛋仔, 老红糖珍珠奶茶, 老红糖珍珠奶茶·首创者, 做女儿也放心, 点单' sits inside the box at [[13, 11], [1441, 11], [1441, 836], [13, 836]] — yes or no?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text inside [[13.134634318749839, 7.329557766177487], [1684.9459071554718, 7.329557766177487], [1684.9459071554718, 443.8667026722474], [13.134634318749839, 443.8667026722474]], what word(s) do you see? The word(s) is/are ________.",
+              "answer": [
+                "煲珠公",
+                "做女儿也放心",
+                "喝的珍珠奶茶",
+                "老红糖珍珠奶茶·首创者",
+                "EMING",
+                "茗冰",
+                "这里",
+                "点单",
+                "®",
+                "2020"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[517,352], [575,371], [566,399], [509,380]]处的句子有缺字，请补全：点____",
+              "answer": "单"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[317, 188], [1799, 188], [1799, 982], [317, 982]] — which answer option captures the text there? Options:\nA. 招牌, BEST, 煲珠公, 超大杯, 爆浆, 点单, EMING, 排行榜第一名, 珍珠奶荣, NG\nB. ORDER, 茗冰, 这里, 排行榜第一名, 首刉者, 珍珠奶茶, ®, 点单, 煲珠公, 超大杯\nC. 招牌, HERE, 鸡蛋仔, 首创者, 大众点评, 这里, E MING, ORDER, 排行榜第一名, 点单\nD. 鸡蛋仔, 11元, 招牌, 喝的珍珠奶茶, 2020, 老红糖珍珠奶茶, 大众点评, 煲珠公, 放心吃, EMING",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: do '老红糖珍珠奶茶, 11元, NG, 老红糖, 快乐, EMING, 2020, BEST, 做女儿也放心, 爆浆' appear within [[684, 188], [1799, 188], [1799, 982], [684, 982]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area marked [[13.134634318749839, 7.329557766177487], [77.13463431874985, 7.329557766177487], [77.13463431874985, 35.3295577661775], [13.134634318749839, 35.3295577661775]] and note the text. The word(s) is/are ________.",
+              "answer": [
+                "2020"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请找出[[1729,667], [1758,835], [1733,847], [1712,702]]位置文本中的空缺部分并填写：鸡____仔",
+              "answer": "蛋"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which one has the text shown at [[317, 188], [1799, 188], [1799, 982], [317, 982]]? Options:\nA. 2020, 煲珠公, 这里, 煲珠公, HERE, ®, 中杯, 做女儿也放心, 首创者, 老红糖\nB. 茗冰, NG, 老红糖珍珠奶荣, 爆浆, 煲珠公, 招牌, 做女儿也放心, 中杯, 老红糖珍珠奶茶·首创者, 煲珠公\nC. 11元, 老红糖珍珠奶茶, 老红糖, 趦大杯, 茗冰, 招牌, 点单, E MING, 老红糖珍珠奶茶, 老红糖珍珠奶茶·首创者\nD. HERE, 老红糖珍珠奶茶, 老红糖珍珠奶茶, 煲珠公, 放心吃, 茗冰, BEST, 爆浆, 老红糖, 做女儿也放心",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In [[13, 7], [1441, 7], [1441, 836], [13, 836]], are '排行榜第一名, 老红糖珍珠奶茶·首创者, 大众点评, HERE, 煲珠公, 珍珠奶茶, ORDER, 首创者, BEST, 中杯' actually present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "I need the text visible inside [[1608.9855072463768, 362.9159262330687], [1798.7684433421784, 362.9159262330687], [1798.7684433421784, 982.4888196302168], [1608.9855072463768, 982.4888196302168]] — what is it? The word(s) is/are ________.",
+              "answer": [
+                "EMING",
+                "茗冰",
+                "快乐",
+                "爆浆",
+                "鸡蛋仔",
+                "超大杯",
+                "招牌冻柠茶",
+                "NG",
+                "E MING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1684,455], [1723,455], [1722,469], [1684,468]], something is absent from this segment — fill it in: E ____?",
+              "answer": "MING"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to the area [[454, 188], [1799, 188], [1799, 982], [454, 982]], which option correctly names the text inside it? Options:\nA. 招牌冻柠茶, 茗冰, 中杯, 煲珠公, 喝的珍珠奶茶, 超大杯, 爆浆, 2020, 快乐, BEST\nB. 珍珠奶茶, 中杯, 这里, 老红糖, 大众点评, HERE, 煲珠公, EMING, 喝的珍珠奶茶, 老红糖珍珠奶茶\nC. 首创者, 鸡蛋伋, 煲珠公, 老红糖, 做女儿也放心, HERE, 排行榜第一名, 点单, 招牌冻柠茶, E MING\nD. 超大杯, 放心吃, 快乐, NG, E MING, EMING, HERE, ®, 大众点评, 招牌冻柠茶",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just to check — '®, EMING, 排行榜第一名, 喝的珍珠奶茶, 招牌冻柠茶, 煲珠公, 点单, 招牌, BEST, 老红糖珍珠奶茶' shows up inside [[319, 188], [1799, 188], [1799, 982], [319, 982]], right?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the region [[16.780467652083175, 7.329557766177487], [593.4740027188202, 7.329557766177487], [593.4740027188202, 740.2816901408451], [16.780467652083175, 740.2816901408451]], what word(s) can be found? The word(s) is/are ________.",
+              "answer": [
+                "放心吃",
+                "这里",
+                "点单",
+                "ORDER",
+                "HERE",
+                "2020"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A letter or two seems to be missing from the text at [[1685,450], [1724,449], [1725,465], [1686,464]] — what goes here: E M____",
+              "answer": "ING"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pinpoint the option that matches the text you see in [[319, 188], [1799, 188], [1799, 982], [319, 982]]. Options:\nA. 超大杯, 2020, 煲珠公, 这里, ORDER, BEST, NG, 大众点评, 茗冰, 招牌\nB. BEST, 煲珠公, 爆浆, F MING, 老红糖珍珠奶茶·首创者, 点单, 超大杯, 招牌, 快乐, 11元\nC. EMING, 珍珠奶茶, 老红糖珍珠奶荣, 煲珠公, 点单, 做女儿也放心, BEST, 大众点评, 老红糖珍珠奶茶·首创者, E MING\nD. 做女儿也放心, 老红糖珍珠奶茶·首创者, 点单, 首创者, 爆浆, 快乐, EMING, E MING, 招牌, 超大杯",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '这里, 招牌, 招牌冻柠茶, 快乐, 大众点评, 放心吃, 老红糖珍珠奶茶, 首创者, ORDER, 珍珠奶茶' appearing inside the region marked by [[319, 362], [1799, 362], [1799, 982], [319, 982]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area [[16.780467652083175, 7.329557766177487], [1686.6553088648734, 7.329557766177487], [1686.6553088648734, 443.33760214314685], [16.780467652083175, 443.33760214314685]], what word(s) appear there? The missing word(s) is/are ________.",
+              "answer": [
+                "煲珠公",
+                "做女儿也放心",
+                "喝的珍珠奶茶",
+                "老红糖珍珠奶茶·首创者",
+                "EMING",
+                "茗冰",
+                "这里",
+                "点单",
+                "®",
+                "2020"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[975,138], [1215,134], [1216,170], [974,174]]处的文字能帮你补全这句话吗？请填入缺少的部分：做女____也放心",
+              "answer": "儿"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text found at [[319, 188], [1800, 188], [1800, 982], [319, 982]]? Options:\nA. 2020, 中杯, 爆浆, ORDER, 煲珠公, BEST, 茗冰, HERE, 快乐, 超大杯\nB. 鸡蛋仔, NG, 爆浆, 做女儿也放心, 老红糖, 这里, 珍珠奶茶, 莟冰, 煲珠公, 11元\nC. HERE, 珍珠奶茶, 排行樆第一名, 点单, NG, E MING, 老红糖, 超大杯, 喝的珍珠奶茶, ®\nD. 快乐, NG, ORDER, 排行榜第一名, 鸡蛋仔, 首创者, 老红糖珍珠奶茶·首创者, E MING, 招牌, 煲珠公",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The region [[455, 188], [1800, 188], [1800, 982], [455, 982]] — does it contain '2020, 做女儿也放心, 煲珠公, 大众点评, 这里, 茗冰, 老红糖, HERE, BEST, 珍珠奶茶'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0048/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0048/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text visible at [[1612.0860647617187, 361.4452089512631], [1799.9603709602484, 361.4452089512631], [1799.9603709602484, 980.383556472322], [1612.0860647617187, 980.383556472322]] — what word(s) does it show? The missing word(s) is/are ________.",
+              "answer": [
+                "EMING",
+                "茗冰",
+                "快乐",
+                "爆浆",
+                "鸡蛋仔",
+                "超大杯",
+                "招牌冻柠茶",
+                "NG",
+                "E MING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[1616,456], [1632,460], [1630,472], [1614,468]], some letters are missing — complete the text: ____",
+              "answer": "NG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly shows the text visible at [[17, 7], [1445, 7], [1445, 836], [17, 836]]. Options:\nA. HERE, ORDER, 大众点评, 这里, 茗冰, 老红糖珍珠奶茶, 中杯, 珍珠奶茶, 点单, 老红糖珍珠奶茶\nB. 招牌, 2020, ORDER, 这里, 老红糖珍珠奶茶, 放心吃, 大众点评, 喝的珍珠奶茶, 中杯, HERE\nC. 首创者, 中杯, 老红糖珍珠奶茶, 招牌, HERE, 排行榜第一名, 放心吃, 大众点评, 老红糖, 2020\nD. 招牌, ®, 老红糖珍珠奶茶, 老红糖, EMING, 这里, HERE, ORDER, 喝的珍珠奶茶, 珍珠奶茶",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[17, 7], [1445, 7], [1445, 836], [17, 836]], is 'ORDER, 珍珠奶茶, 排行榜第一名, 招牌, 煲珠公, 超大杯, 老红糖珍珠奶茶, 老红糖, 首创者, 老红糖珍珠奶茶' one of the labels you'd find there?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0048"
+  }
+]

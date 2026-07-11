@@ -1,0 +1,453 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Whatever text appears inside [[21.365187713310576, 760.8609271523178], [1894.0, 760.8609271523178], [1894.0, 1070.0], [21.365187713310576, 1070.0]] — write it here: ________",
+              "answer": [
+                "\"12Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn",
+                "@"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters in the region [[598,445], [960,443], [960,506], [599,507]] are unclear — what do they spell? 3.8Mi____ion.",
+              "answer": "ll"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these answers lists the text that appears inside [[120, 54], [1778, 54], [1778, 508], [120, 508]]? Options:\nA. \"1.0Million\", Let's have a look at the data generated per minute, \"3.8Million\", on the internet, \"4.5Millien\", \"2.1Million\"\nB. on the internet, \"3.8Million\", Let's have a look at the data generated per minute, \"2.1Million\", \"1.0Million\", \"4.5Million\"\nC. Let's have a look at the data generated per minute, on the internet, \"1.0Million\", \"4.5Million\", \"12Million\", f\nD. \"2.1Million\", \"1.0Million\", \"4.5Millien\", Let's have a look at the data generated per minute, on the internet, f",
+              "answer": "B"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Describe the text visible in region [[21.365187713310576, 911.6589595375723], [1894.0, 911.6589595375723], [1894.0, 1070.0], [21.365187713310576, 1070.0]]: ________",
+              "answer": [
+                "\"18Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within [[437,54], [1536,62], [1536,131], [437,125]], the text reads \"Let's have a look at the data gen____ed per minute.\" — what fills the gap?",
+              "answer": "erat"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the image and select the option that matches what's written inside [[21, 318], [1894, 318], [1894, 1070], [21, 1070]]. Options:\nA. \"3.8Million\", ©Simplilearn.All rights reserved., \"18Million\", f, \"2.1Million\", \"4.5Million\", @, Let's have a look at the data generated per minute\nB. \"18Million\", simplilearn, \"4.5Million\", f, @, \"2.1Million\", \"1.0Million\", ©Simplilearn.All rights reserved.\nC. \"18Millien\", @, \"1.0Million\", simplilearn, \"2.1Million\", \"3.8Million\", ©Simplilearn.All rights reserved., \"4.5Million\"\nD. ©Simplilearn.All rights reserved., \"18Million\", \"2.1Million\", \"4.5Million\", \"3.8Million\", 0, f, simplilearn",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm whether the labels '\"3.8Million\", f, ©Simplilearn.All rights reserved., on the internet, simplilearn, @, Let's have a look at the data generated per minute, \"1.0Million\", \"2.1Million\"' fall inside the bounding box [[21.365187713310576, 53.936708860759495], [1894.0, 53.936708860759495], [1894.0, 1070.0], [21.365187713310576, 1070.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Transcribe the text you see inside the area [[21.365187713310576, 53.936708860759495], [1894.0, 53.936708860759495], [1894.0, 1070.0], [21.365187713310576, 1070.0]]: ________",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet",
+                "f",
+                "\"1.0Million\"",
+                "\"4.5Million\"",
+                "\"21Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn",
+                "@",
+                "\"2.1Million\"",
+                "\"3.8Million\""
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Focus on the region [[108,912], [477,913], [476,984], [109,983]] — what's the missing sequence that completes \"1____Million?\"?",
+              "answer": "28"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[21, 54], [1894, 54], [1894, 1070], [21, 1070]] matches one of the options below — which one is it? Options:\nA. \"1.0Million\", f, \"4.5Million\", \"2.1Millien\", simplilearn, on the internet, @, Let's have a look at the data generated per minute, ©Simplilearn.All rights reserved., \"21Million\"\nB. \"4.5Million\", @, on the internet, \"3.8Million\", \"2.1Million\", simplilearn, \"1.0Million\", f, ©Simplilearn.All rights reserved., \"21Million\"\nC. f, @, \"2.1Million\", \"21Millien\", on the internet, ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute, \"4.5Million\", \"1.0Million\", \"3.8Million\"\nD. \"2.1Million\", \"1.0Million\", simplilearn, \"3.8Million\", ©Simplilearn.All rights reserved., Lef's have a look at the data generated per minute, f, \"4.5Million\", @, \"21Million\"",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[120, 54], [1778, 54], [1778, 508], [120, 508]] actually contain the label(s) '\"1.0Million\", Let'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[21, 761], [1894, 761], [1894, 1070], [21, 1070]] and write it out. The answer is ________.",
+              "answer": [
+                "\"25Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn",
+                "@"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Zoom in on [[261,762], [321,762], [321,820], [261,819]], which reads \"____\" — which character(s) are hidden or unclear?",
+              "answer": "@"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) visible in [[21, 318], [1894, 318], [1894, 1070], [21, 1070]]? Options:\nA. f, @, \"1.0Million\", \"3.8Million\", \"4.5Million\", ©Simplilearn.All rights reserved., simplilearn, \"2.1Million\"\nB. \"3.8Millien\", ©Simplilearn.All rights reserved., \"25Million\", @, \"4.5Million\", simplilearn, f, \"2.1Million\"\nC. \"1.0Million\", \"4.5Million\", \"25Million\", Let's have a look at the data generated per minute, \"3.8Million\", f, @, \"2.1Million\"\nD. simplilearn, \"1.0Million\", \"25Million\", \"2.1Million\", ©Simplilearn.All rights reserved., \"4.5Million\", \"3.8Millien\", @",
+              "answer": "A"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Shown in [[21.365187713310576, 760.8609271523178], [1894.0, 760.8609271523178], [1894.0, 1070.0], [21.365187713310576, 1070.0]] are some word(s) — the word(s) is/are ________.",
+              "answer": [
+                "\"28Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn",
+                "@"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[437,54], [1536,62], [1536,131], [437,125]] goes \"Let's have a look at the ____ generated per minute\" — what word(s) belong in that gap?",
+              "answer": "data"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options correctly captures the text(s) found in [[108, 54], [1778, 54], [1778, 984], [108, 984]]? Options:\nA. \"2.1Million\", \"1.0Million\", f, \"28Millien\", \"4.5Million\", @, Let's have a look at the data generated per minute, on the internet\nB. \"2.1Million\", @, on the internet, \"1.0Million\", \"3.8Million\", \"28Millien\", f, \"4.5Million\"\nC. Let's have a look at the data generated per minute, \"4.5Million\", @, \"1.0Million\", on the internet, f, ©Simplilearn.All rights reserved., \"3.8Million\"\nD. \"1.0Million\", Let's have a look at the data generated per minute, \"4.5Million\", \"3.8Million\", \"2.1Million\", \"28Million\", f, on the internet",
+              "answer": "D"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text visible inside [[21, 912], [1894, 912], [1894, 1070], [21, 1070]]. The answer is ________.",
+              "answer": [
+                "\"32Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The numbers shown in [[1428,443], [1778,443], [1777,505], [1428,502]] form the sequence \"4.5M____\" — what value(s) go in the blank?",
+              "answer": "illion"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[21, 54], [1894, 54], [1894, 1070], [21, 1070]] — which answer option correctly lists the text(s) there? Options:\nA. \"4.5Million\", @, \"3.8Million\", on the internet, \"2.1Million\", ©Simpliloarn.All rights reserved., simplilearn, \"32Million\", @\nB. @, \"2.1Million\", simplilearn, on the internet, f, \"4.5Million\", ©Simplilearn.All rights reserved., @, \"3.8Millien\"\nC. f, \"2.1Millien\", \"4.5Million\", on the internet, \"32Million\", @, \"3.8Million\", ©Simplilearn.All rights reserved., simplilearn\nD. ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute, \"32Million\", @, f, @, \"3.8Million\", simplilearn, \"2.1Million\", \"1.0Million\"",
+              "answer": "D"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[21.365187713310576, 911.6589595375723], [1894.0, 911.6589595375723], [1894.0, 1070.0], [21.365187713310576, 1070.0]] and write it down. The word(s) is/are ________.",
+              "answer": [
+                "\"41Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[597,442], [960,443], [960,506], [599,507]] contains text with a gap — what word(s) should go in 3.8M____n.?",
+              "answer": "illio"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of the options below contains the text(s) shown in [[21, 54], [1894, 54], [1894, 1070], [21, 1070]] — pick it. Options:\nA. f, on the internet, \"2.1Million\", Let's have a look at the data generated per minute, \"3.8Million\", \"1.0Million\", simplilearn, @, \"41Million\", @\nB. Let's have a look at the data generated per minute, f, \"41Million\", \"1.0Million\", \"2.1Million\", en the internet, \"4.5Million\", simplilearn, ©Simplilearn.All rights reserved.\nC. \"1.0Million\", \"4.5Millien\", f, \"41Million\", \"2.1Million\", \"3.8Million\", simplilearn, on the internet, ©Simplilearn.All rights reserved.\nD. \"41Million\", t, on the internet, \"2.1Million\", \"4.5Million\", Let's have a look at the data generated per minute, \"3.8Million\", simplilearn, ©Simplilearn.All rights reserved.",
+              "answer": "A"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Refer to [[21.365187713310576, 678.4563415294846], [1894.0, 678.4563415294846], [1894.0, 1070.0], [21.365187713310576, 1070.0]] — whatever text appears there, the word(s) is/are ________.",
+              "answer": [
+                "\"46Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn",
+                "@",
+                "@"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How would you complete the text \"____\" displayed in the area [[261,759], [321,759], [321,817], [261,817]]?",
+              "answer": "@"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the full image, one answer option matches the text(s) in [[21, 318], [1894, 318], [1894, 1070], [21, 1070]] — which is it? Options:\nA. \"2.1Million\", \"4.5Million\", simplilearn, f, \"46Million\", \"1.0Million\", \"3.8Million\", Let's have a look at the data generated per minute, ©Simplilearn.All rights reserved.\nB. ©Simplilearn.All rights reserved., simplilearn, \"4.5Million\", @, \"3.8Million\", @, \"46Million\", \"1.0Millien\", f\nC. f, \"1.0Million\", ©Simplilearn.All rights reserved., \"46Million\", \"2.1Million\", simplilearn, \"4.5Million\", \"3.8Million\"\nD. \"4.5Million\", simpliloarn, @, \"46Million\", \"3.8Million\", @, ©Simplilearn.All rights reserved., f, \"2.1Million\"",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'on the internet, \"4.5Million\", \"46Million\", \"2.1Million\", simplilearn, @, @, f, \"1.0Million\", \"3.8Million\"' appear inside [[108, 54], [1778, 54], [1778, 984], [108, 984]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inspect [[437.2151898734178, 53.936708860759495], [1535.9493670886077, 53.936708860759495], [1535.9493670886077, 131.13924050632912], [437.2151898734178, 131.13924050632912]] and name the text you see there. The word(s) is/are ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The statement \"1____Million\" appears at [[108,912], [477,913], [476,984], [109,983]] with something left out — what's the missing part?",
+              "answer": "88"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options given, which one contains the text(s) you see in [[21, 54], [1894, 54], [1894, 1070], [21, 1070]]? Options:\nA. @, \"4.5Million\", simplilearn, \"1.0Million\", ©Simpliloarn.All rights reserved., @, Let's have a look at the data generated per minute, f, \"50Million\"\nB. simplilearn, @, @, \"50Million\", \"4.5Million\", t, Let's have a look at the data generated per minute, \"1.0Million\", ©Simplilearn.All rights reserved.\nC. \"50Million\", \"4.5Million\", \"1.0Million\", f, Lef's have a look at the data generated per minute, ©Simplilearn.All rights reserved., \"3.8Million\", @, simplilearn\nD. simplilearn, \"4.5Million\", \"3.8Million\", f, ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute, on the internet, @, \"2.1Million\", @",
+              "answer": "D"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at region [[437.2151898734178, 53.936708860759495], [1535.9493670886077, 53.936708860759495], [1535.9493670886077, 198.22784810126583], [437.2151898734178, 198.22784810126583]] and tell me what's written there. The word(s) is/are ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[261,759], [321,759], [321,817], [261,817]], the text shows \"____\" — the sequence ends in \"____t\", so which character(s) are missing?",
+              "answer": "@"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which answer choice matches the text(s) inside [[21, 318], [1894, 318], [1894, 1070], [21, 1070]]? Options:\nA. @, @, \"3.8Million\", on the internet, \"1.0Million\", f, \"4.5Million\", simplilearn, \"55Million\"\nB. \"55Million\", \"1.0Million\", \"4.5Million\", simplilearn, @, \"2.1Million\", @, ©Simplilearn.All rights reserved., \"3.8Million\"\nC. @, f, ©Simplilearn.All rights reserved., \"1.0Million\", \"3.8Million\", simplilearn, \"55Million\", \"2.1Million\", Let's have a look at the data generated per minute\nD. simplilearn, ©Simplilearn.All rights reserved., \"1.0Million\", \"4.5Million\", \"2.1Million\", f, \"3.8Million\", 0, \"55Million\"",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '@, \"55Million\", \"3.8Million\", \"4.5Million\", simplilearn, f, \"1.0Million\", @, on the internet, \"2.1Million\"' visible inside the region marked by [[21.365187713310576, 53.936708860759495], [1894.0, 53.936708860759495], [1894.0, 1070.0], [21.365187713310576, 1070.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown in [[21.365187713310576, 53.936708860759495], [1894.0, 53.936708860759495], [1894.0, 1070.0], [21.365187713310576, 1070.0]] — what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet",
+                "f",
+                "\"1.0Million\"",
+                "\"4.5Million\"",
+                "\"65Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn",
+                "@",
+                "@",
+                "@",
+                "\"2.1Million\"",
+                "\"3.8Million\""
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text inside [[710,794], [1664,790], [1665,911], [712,913]] contains the phrase \"That's a l____ of data.\" — what word fills the gap?",
+              "answer": "ot"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text(s) visible in [[21, 318], [1894, 318], [1894, 1070], [21, 1070]]? Options:\nA. @, \"65Million\", simplilearn, @, ©Simplilearn.All rights reserved., f, \"1.0Million\", \"3.8Millien\", \"2.1Million\", @\nB. \"65Million\", simplilearn, Let's have a look at the data generated per minute, ©Simplilearn.All rights reserved., \"2.1Million\", \"4.5Million\", \"3.8Million\", @, @, \"1.0Million\"\nC. @, \"4.5Million\", @, \"2.1Million\", \"65Million\", \"3.8Million\", ©Simplilearn.All rights reserved., f, simpliloarn, @\nD. \"4.5Million\", f, \"3.8Million\", \"2.1Million\", ©Simplilearn.All rights reserved., \"65Million\", \"1.0Million\", simplilearn",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[21, 318], [1894, 318], [1894, 1070], [21, 1070]] contain the label(s) '©Simplilearn.All rights reserved., f, @, \"3.8Million\", on the internet, @, \"65Million\", \"1.0Million\", simplilearn, \"2.1Million\"'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_007/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_007/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[21.365187713310576, 911.6589595375723], [1894.0, 911.6589595375723], [1894.0, 1070.0], [21.365187713310576, 1070.0]] — what word(s) do you see? The word(s) is/are ________.",
+              "answer": [
+                "\"70Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1772,1037], [1894,1037], [1894,1071], [1772,1071]], a word appears as \"s____plilearn\" — which characters are missing?",
+              "answer": "im"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly captures the text(s) found in [[120, 54], [1778, 54], [1778, 641], [120, 641]]. Options:\nA. \"1.0Million\", on the internet, Let's have a look at the data generated per minute, \"3.8Million\", \"2.1Million\", 0, f\nB. f, \"70Million\", @, \"4.5Million\", \"3.8Million\", \"2.1Million\", Let's have a look at the data generated per minute\nC. @, on the internet, Let's have a look at the data generated per minute, \"3.8Million\", \"2.1Million\", \"4.5Million\", f\nD. \"3.8Million\", \"1.0Million\", on the internet, Lef's have a look at the data generated per minute, \"4.5Million\", f, @",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the bounding box [[21, 318], [1894, 318], [1894, 1070], [21, 1070]], is '\"4.5Million\", f, \"1.0Million\", \"70Million\", \"2.1Million\", ©Simplilearn.All rights reserved., \"3.8Million\"' present inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_007"
+  }
+]

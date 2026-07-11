@@ -1,0 +1,497 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At [[726, 423], [1218, 423], [1218, 715], [726, 715]], what text or word(s) can you spot? The answer is ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[808,564], [1127,560], [1128,627], [809,632]]对应的区域里，\"物____有情\"里面空缺的内容是什么？",
+              "answer": "皆"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best reflects the text(s) you can read inside [[726, 423], [1128, 423], [1128, 715], [726, 715]]. Options:\nA. RYSEASONS, 请, 物皆有情, 爱护花\nB. 生活雅趣, 讳, 物皆有情, 爱护花\nC. 讳, RYSEASONS, 物皆有情, 爱护花\nD. 里, RYSEASONS, 请, 爱护花",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area [[726.0, 423.0], [1218.0, 423.0], [1218.0, 715.0], [726.0, 715.0]], do you find the label(s) '里, 请, 物皆有情, RYSEASONS' there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focus on region [[726, 423], [1218, 423], [1218, 715], [726, 715]] — what word(s) can you read there? The answer is ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请仔细观察[[791,568], [1112,561], [1113,628], [794,633]]范围内的文字，说出\"物____有情\"中空缺的是什么。",
+              "answer": "皆"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which option correctly lists the text(s) inside [[796, 423], [1218, 423], [1218, 632], [796, 632]]? Options:\nA. 物皆有情, 里, 生涽雅趣\nB. 生活雅趣, 物皆有情, 请\nC. RYSEASONS, 生活雅趣, 里\nD. 生活雅趣, RYSEASONS, 牣皆有情",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'RYSEASONS, 爱护花, 里, 牣皆有情, 生活雅趣, 请' is/are among the labels inside [[726.0, 423.0], [1218.0, 423.0], [1218.0, 715.0], [726.0, 715.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in the area [[726, 423], [1218, 423], [1218, 715], [726, 715]], the readable word(s) happen to be ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Taking a close look at the text in [[835,399], [1010,393], [1011,420], [836,427]], what substring completes \"RY____ONS\"?",
+              "answer": "SEAS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the text(s) inside [[796, 423], [1218, 423], [1218, 547], [796, 547]] and pick the option that matches. Options:\nA. 量, 生活雅趣\nB. 里, 物皆有情\nC. 生活雅趣, RYSEASONS\nD. 量, RYSEASONS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "I'd like to know — does the box at [[726.0, 423.0], [1218.0, 423.0], [1218.0, 715.0], [726.0, 715.0]] contain the label(s) 'RYSEASONS, 请, 生活雅趣, 爱护花, 牣皆有情, 里'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) sit inside the bounding box at [[726, 423], [1218, 423], [1218, 715], [726, 715]]? The answer is ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text in [[811,358], [986,352], [987,379], [812,386]] has a gap — what's the missing part in \"RYSE____NS\"?",
+              "answer": "ASO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text(s) you can find inside [[726, 423], [1128, 423], [1128, 715], [726, 715]]? Options:\nA. 生活雅趣, 牣皆有情, RYSEASONS, 爱护花\nB. 物皆有情, RYSEASONS, 请, 生活雅趣\nC. 里, 物皆有情, 爱护花, 请\nD. RYSEASONS, 爱护花, 讳, 物皆有情",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Step through the box at [[726.0, 423.0], [1218.0, 423.0], [1218.0, 715.0], [726.0, 715.0]] — are the label(s) '爱护花, 物皆有情, 请, 生活雅趣' in there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text readable inside the area [[726, 423], [1218, 423], [1218, 715], [726, 715]] is ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text(s) inside [[726, 423], [1128, 423], [1128, 715], [726, 715]] and match them to the right answer. Options:\nA. 爱护花, 请, RYSEASONS, 生活雅趣\nB. 生涽雅趣, 请, 爱护花, 物皆有情\nC. 请, 生活雅趣, 爱护花, 里\nD. 物皆有情, 请, PYSEASONS, 生活雅趣",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '里, 请, RYSEASONS, 爱护花' appearing anywhere inside [[726.0, 423.0], [1218.0, 423.0], [1218.0, 715.0], [726.0, 715.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up in the region [[718, 424], [1212, 424], [1212, 715], [718, 715]]? Fill in: ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看坐标[[1031,365], [1091,365], [1091,415], [1031,415]]处的文字，\"____\"里空缺的是什么？",
+              "answer": "里"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[796, 424], [1212, 424], [1212, 547], [796, 547]] — which of the following options matches the text there? Options:\nA. RYSEASONS, 里\nB. PYSEASONS, 里\nC. 生涽雅趣, 里\nD. 生活雅趣, 物皆有情",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[718.4050632911393, 424.2658227848101], [1211.6708860759493, 424.2658227848101], [1211.6708860759493, 715.0], [718.4050632911393, 715.0]] actually contain 'RYSEASONS, 请, 生活雅趣, 物皆有情'? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text enclosed in area [[716, 425], [1210, 425], [1210, 716], [716, 716]]: ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[566,544], [636,544], [636,592], [566,592]]对应的文本能帮你还原\"____\"——空白处应填什么？",
+              "answer": "请"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[716, 425], [1124, 425], [1124, 716], [716, 716]] matches one of the options below — pick it. Options:\nA. RYSEASONS, 生活雅趣, 牣皆有情, 爱护花\nB. 里, 请, 生活雅趣, 爱护花\nC. 生活雅趣, RYSEASONS, 爱护花, 请\nD. 生活雅趣, 爱护花, PYSEASONS, 物皆有情",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[716, 477], [1210, 477], [1210, 716], [716, 716]]: would you say '爱护花, 里, 物皆有情, 生活雅趣' appears there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the bounding box [[713, 426], [1206, 426], [1206, 717], [713, 717]], the text you'd find there is ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices listed, which one reflects the text found inside [[713, 426], [1121, 426], [1121, 717], [713, 717]]? Options:\nA. 请, 物皆有情, 生涽雅趣, RYSEASONS\nB. RYSEASONS, 请, 里, 爱护花\nC. 生活雅趣, PYSEASONS, 请, 物皆有情\nD. 物皆有情, 请, RYSEASONS, 爱护花",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — do the label(s) '请, 物皆有情, 生活雅趣, 爱护花, RYSEASONS, 量' fall inside bounding box [[712.9173306847626, 425.8125811112295], [1206.1831534695725, 425.8125811112295], [1206.1831534695725, 716.5467583264194], [712.9173306847626, 716.5467583264194]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you inspect bounding box [[712, 426], [1205, 426], [1205, 717], [712, 717]], the word(s) visible there are ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考坐标[[658,321], [984,306], [988,374], [663,392]]位置的内容，你能填上\"生____雅趣\"中缺失的字吗？",
+              "answer": "活"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at area [[789, 426], [1205, 426], [1205, 548], [789, 548]], which answer option captures the text present there? Options:\nA. 量, RYSEASONS\nB. 请, RYSEASONS\nC. 物皆有情, 里\nD. 里, RYSEASONS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking bounding box [[711.5187292861613, 425.8125811112295], [1204.7845520709711, 425.8125811112295], [1204.7845520709711, 716.5467583264194], [711.5187292861613, 716.5467583264194]] — does it contain 'RYSEASONS, 里, 爱护花, 讳, 生活雅趣, 物皆有情'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible in area [[709, 426], [1203, 426], [1203, 717], [709, 717]]: ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At boundary coordinates [[716,249], [890,241], [891,267], [718,276]], what fills the gap in \"RYSEA____S\"?",
+              "answer": "SONS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options matches the text visible in area [[787, 426], [1203, 426], [1203, 548], [787, 548]] — which is it? Options:\nA. 物皆有情, RYSEASONS\nB. 里, 请\nC. 里, 生活雅趣\nD. 生涽雅趣, RYSEASONS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '讳, RYSEASONS, 爱护花, 物皆有情, 里, 生活雅趣' sit inside the bounding box [[709.4208271882592, 425.8125811112295], [1202.686649973069, 425.8125811112295], [1202.686649973069, 716.5467583264194], [709.4208271882592, 716.5467583264194]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text found at location [[708, 425], [1201, 425], [1201, 716], [708, 716]] reads ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据边界坐标[[611,470], [681,470], [681,518], [611,518]]处的文字，\"____\"里的空白应该填入什么？",
+              "answer": "请"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text in area [[785, 425], [1201, 425], [1201, 548], [785, 548]], then pick the option that matches. Options:\nA. 物皆有情, 里\nB. 请, RYSEASONS\nC. 生活雅趣, PYSEASONS\nD. 里, RYSEASONS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '物皆有情, RYSEASONS, 爱护花, 请' appears inside the bounding box at [[707.8823656497976, 425.0433503419987], [1201.1481884346076, 425.0433503419987], [1201.1481884346076, 715.7775275571886], [707.8823656497976, 715.7775275571886]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0056/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0056/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Area [[708, 425], [1201, 425], [1201, 716], [708, 716]] contains the following text: ________.",
+              "answer": [
+                "RYSEASONS",
+                "生活雅趣",
+                "里",
+                "物皆有情",
+                "请",
+                "爱护花"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看坐标[[698,444], [939,427], [945,494], [702,507]]处的文字，你能填出\"爱____花\"里缺少的内容吗？",
+              "answer": "护"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[708, 425], [1115, 425], [1115, 716], [708, 716]], which of the following options matches the text found there? Options:\nA. 爱护花, 生活雅趣, 请, RYSEASONS\nB. 爱护花, 里, 生活雅趣, 请\nC. RYSEASONS, 请, 爰护花, 生活雅趣\nD. 生涽雅趣, 爱护花, RYSEASONS, 物皆有情",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'RYSEASONS, 生活雅趣, 物皆有情, 里' appearing inside the box [[785.2118995150565, 425.0433503419987], [1201.1481884346076, 425.0433503419987], [1201.1481884346076, 547.6306744103355], [785.2118995150565, 547.6306744103355]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0056"
+  }
+]

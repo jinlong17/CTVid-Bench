@@ -1,0 +1,313 @@
+{
+  "video_id": "C0432",
+  "frames": 120,
+  "word": "Glendenning Barn\nFitness & Wellness Center",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/EN_C0432.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Glendenning Barn\nFitness & Wellness Center\" likely to be?\n Options:\nA. menu or commercial information\nB. event or poster information\nC. warning or prohibition sign\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text",
+      "q": "What type of sign would you say the text \"Glendenning Barn\nFitness & Wellness Center\" is most likely to be?\n Options:\nA. menu or commercial information\nB. event or poster information\nC. warning or prohibition sign\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text",
+      "a": "F",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. menu or commercial information",
+        "B. event or poster information",
+        "C. warning or prohibition sign",
+        "D. address or street sign",
+        "E. storefront or brand sign",
+        "F. direction or navigation sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you say the text \"Glendenning Barn\nFitness & Wellness Center\" is most likely to be?\n Options:\nA. menu or commercial information\nB. event or poster information\nC. warning or prohibition sign\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Glendenning Barn\nFitness & Wellness Center\" appear in?\n Options:\nA. event poster or display\nB. transportation / station\nC. restaurant or menu\nD. campus or office\nE. other public sign\nF. road or street\nG. warning / rule sign\nH. storefront",
+      "q": "The text \"Glendenning Barn\nFitness & Wellness Center\" — what kind of setting or scene does it appear in?\n Options:\nA. event poster or display\nB. transportation / station\nC. restaurant or menu\nD. campus or office\nE. other public sign\nF. road or street\nG. warning / rule sign\nH. storefront",
+      "a": "D",
+      "a_text": "campus or office",
+      "answer_key": "campus or office",
+      "options": [
+        "A. event poster or display",
+        "B. transportation / station",
+        "C. restaurant or menu",
+        "D. campus or office",
+        "E. other public sign",
+        "F. road or street",
+        "G. warning / rule sign",
+        "H. storefront"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text \"Glendenning Barn\nFitness & Wellness Center\" — what kind of setting or scene does it appear in?\n Options:\nA. event poster or display\nB. transportation / station\nC. restaurant or menu\nD. campus or office\nE. other public sign\nF. road or street\nG. warning / rule sign\nH. storefront"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Glendenning Barn\nFitness & Wellness Center\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. top-right (upper-right area)\nC. bottom-right (lower-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)",
+      "q": "In which part of the frame does \"Glendenning Barn\nFitness & Wellness Center\" spend most of its time?\n Options:\nA. top-left (upper-left area)\nB. top-right (upper-right area)\nC. bottom-right (lower-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)",
+      "a": "E",
+      "a_text": "bottom-left (lower-left area)",
+      "answer_key": "bottom-left",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. top-right (upper-right area)",
+        "C. bottom-right (lower-right area)",
+        "D. center (middle of the frame)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In which part of the frame does \"Glendenning Barn\nFitness & Wellness Center\" spend most of its time?\n Options:\nA. top-left (upper-left area)\nB. top-right (upper-right area)\nC. bottom-right (lower-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Glendenning Barn\nFitness & Wellness Center\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "How far does the text \"Glendenning Barn\nFitness & Wellness Center\" shift from where it starts to where it ends up in the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "C",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How far does the text \"Glendenning Barn\nFitness & Wellness Center\" shift from where it starts to where it ends up in the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Glendenning Barn\nFitness & Wellness Center\" move?\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves up\nD. moves left\nE. moves down\nF. moves right\nG. moves diagonally",
+      "q": "If you follow \"Glendenning Barn\nFitness & Wellness Center\" from the beginning to the end of the clip, which general direction is it heading?\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves up\nD. moves left\nE. moves down\nF. moves right\nG. moves diagonally",
+      "a": "A",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. changes direction partway",
+        "B. stays roughly in place",
+        "C. moves up",
+        "D. moves left",
+        "E. moves down",
+        "F. moves right",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "If you follow \"Glendenning Barn\nFitness & Wellness Center\" from the beginning to the end of the clip, which general direction is it heading?\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves up\nD. moves left\nE. moves down\nF. moves right\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Glendenning Barn\nFitness & Wellness Center\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-left -> bottom-left\nB. center -> center -> bottom-right\nC. center -> center -> bottom-left\nD. center -> center -> top-left",
+      "q": "Can you describe where \"Glendenning Barn\nFitness & Wellness Center\" sits near the start, partway through, and near the end of the clip?\n Options:\nA. center -> top-left -> bottom-left\nB. center -> center -> bottom-right\nC. center -> center -> bottom-left\nD. center -> center -> top-left",
+      "a": "C",
+      "a_text": "center -> center -> bottom-left",
+      "answer_key": "center -> center -> bottom-left",
+      "options": [
+        "A. center -> top-left -> bottom-left",
+        "B. center -> center -> bottom-right",
+        "C. center -> center -> bottom-left",
+        "D. center -> center -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you describe where \"Glendenning Barn\nFitness & Wellness Center\" sits near the start, partway through, and near the end of the clip?\n Options:\nA. center -> top-left -> bottom-left\nB. center -> center -> bottom-right\nC. center -> center -> bottom-left\nD. center -> center -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Glendenning Barn\nFitness & Wellness Center\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "q": "How would you describe the size of \"Glendenning Barn\nFitness & Wellness Center\" relative to the overall frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "a": "A",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How would you describe the size of \"Glendenning Barn\nFitness & Wellness Center\" relative to the overall frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Glendenning Barn\nFitness & Wellness Center\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "q": "Does \"Glendenning Barn\nFitness & Wellness Center\" grow bigger, shrink, or stay roughly the same size as the clip plays out?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "a": "C",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. size fluctuates (goes up and down)",
+        "C. stays about the same size",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"Glendenning Barn\nFitness & Wellness Center\" grow bigger, shrink, or stay roughly the same size as the clip plays out?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Glendenning Barn\nFitness & Wellness Center\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "q": "Is \"Glendenning Barn\nFitness & Wellness Center\" comfortably inside the frame for most of the clip, or does it sit close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. fully inside, away from the edges",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"Glendenning Barn\nFitness & Wellness Center\" comfortably inside the frame for most of the clip, or does it sit close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Glendenning Barn\nFitness & Wellness Center\" and how it appears in the video.",
+      "q": "Give a brief description of the text \"Glendenning Barn\nFitness & Wellness Center\" — what it looks like and how it behaves over the course of the video.",
+      "a": "The text is printed in white on a black sign, indicating the location of the Glendenning Barn Fitness & Wellness Center.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of the text \"Glendenning Barn\nFitness & Wellness Center\" — what it looks like and how it behaves over the course of the video."
+    }
+  ],
+  "method": "downsample_x4"
+}

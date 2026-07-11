@@ -1,0 +1,487 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) you can find within [[329, 155], [1165, 155], [1165, 429], [329, 429]]: ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A gap runs through the middle of the text shown at [[861,357], [1043,372], [1041,429], [862,412]], reading \"Y____R\". What are the complete word(s)?",
+              "answer": "EA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly captures the text(s) at [[329, 155], [1165, 155], [1165, 275], [329, 275]]. Options:\nA. RLL\nB. SALE 30% OFF\nC. HAPPY NEW\nD. SRLE 30% OFF",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'HAPPY NEW, YEAR, SALE 30% OFF' falls within the bounding box [[329.4736842105263, 154.73684210526315], [1164.885496183206, 154.73684210526315], [1164.885496183206, 428.51405622489955], [329.4736842105263, 428.51405622489955]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[329, 155], [1165, 155], [1165, 429], [329, 429]] — what word(s) appear there? ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Peek inside [[897,242], [1078,264], [1071,322], [890,300]], where the text kicks off as \"YEA____\" — how does the rest read?",
+              "answer": "R"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which answer option correctly represents the text(s) visible at [[329, 155], [1165, 155], [1165, 275], [329, 275]]. Options:\nA. YEAR\nB. RLL\nC. HAPPY NEW\nD. SALE 30% OFF",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'YEAR, ALL, HAPPY NEW' can be seen inside the region [[329.4736842105263, 154.73684210526315], [1164.885496183206, 154.73684210526315], [1164.885496183206, 428.51405622489955], [329.4736842105263, 428.51405622489955]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) located inside [[329, 155], [1165, 155], [1165, 425], [329, 425]]: ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[581,204], [1216,241], [1211,328], [576,291]], the text reads \"SALE 30%____\" — what fills in the gap?",
+              "answer": "OFF"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text(s) visible at [[329, 155], [1165, 155], [1165, 275], [329, 275]] and pick the option that matches. Options:\nA. RLL\nB. HAPPY NEW\nC. SALE 30% OFF\nD. YEAR",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'HAPPY NEW, YEAR, ALL' sits inside the bounding box [[329.4736842105263, 154.73684210526315], [1164.885496183206, 154.73684210526315], [1164.885496183206, 425.35616148805747], [329.4736842105263, 425.35616148805747]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at [[332, 142], [1170, 142], [1170, 417], [332, 417]] and tell me: what word(s) are written there? ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[613,402], [972,430], [967,494], [608,465]], the text shows \"HAP____ NEW\". What word or letters are missing before NEW?",
+              "answer": "PY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one matches what's written inside [[332, 142], [1170, 142], [1170, 417], [332, 417]]? Options:\nA. RLL, SALE 30% OFF, HAPPY NEW\nB. YEAR, HAPPY NEW, ALL\nC. ALL, YEAR, SALF 30% OFF\nD. HAPPY NEW, ALL, SRLE 30% OFF",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[332.0, 142.0], [1170.0, 142.0], [1170.0, 417.0], [332.0, 417.0]], is 'SALE 30% OFF, ALL, HAPPY NEW, YFAR' visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside [[341, 125], [1174, 125], [1174, 404], [341, 404]]: ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially obscured text at [[533,255], [672,258], [673,329], [533,323]] appears as \"____LL\". What letter(s) would complete it?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[341, 125], [1174, 125], [1174, 256], [341, 256]], select from Options:\nA. SRLE 30% OFF\nB. YEAR\nC. HAPPY NEW\nD. SALE 30% OFF the choice that correctly names the text(s) there.",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'ALL, SALE 30% OFF, HARPY NEW, YEAR' appear anywhere inside [[341.0, 125.0], [1174.0, 125.0], [1174.0, 403.71794871794873], [341.0, 403.71794871794873]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[357, 106], [1193, 106], [1193, 382], [357, 382]], what text is visible? ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[736,355], [1395,403], [1388,490], [729,443]] shows a promotional phrase \"SALE 3____% OFF\" — what word or value fills the gap?",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of Options:\nA. HAPPY NEW\nB. ALL\nC. SRLE 30% OFF\nD. SRLE 30% OFF, which answer best matches the text(s) you can see in [[357, 106], [1193, 106], [1193, 238], [357, 238]]?",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "I'm curious — do you spot the label(s) 'HAPPY NEW, SALE 30% OFF, ALL' inside the box [[357.0, 106.0], [1193.128205128205, 106.0], [1193.128205128205, 382.28205128205127], [357.0, 382.28205128205127]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) does [[372, 88], [1202, 88], [1202, 365], [372, 365]] contain? ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A portion of \"Y____AR\" at region [[1048,520], [1240,542], [1233,600], [1041,578]] is incomplete — what letter(s) belong there?",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices in Options:\nA. YEAR, SALF 30% OFF, ALL\nB. ALL, YEAR, HAPPY NEW\nC. ALL, YEAR, HARPY NEW\nD. SRLE 30% OFF, ALL, YEAR, pick the one that accurately captures the text(s) inside [[372, 88], [1202, 88], [1202, 365], [372, 365]].",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[372.0, 87.84615384615384], [1202.0, 87.84615384615384], [1202.0, 365.0], [372.0, 365.0]], would you find the label(s) 'HAPPY NEW, SALE 30% OFF, YEAR'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible inside [[375, 72], [1204, 72], [1204, 348], [375, 348]]. ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPYNEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[494,319], [655,329], [650,402], [490,395]], a portion of the text is obscured — what letter(s) are hidden by \"____LL\"?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the area [[375, 72], [1204, 72], [1204, 198], [375, 198]], which of Options:\nA. SRLE 30% OFF\nB. ALL\nC. SRLE 30% OFF\nD. HAPPYNEW correctly names the text(s) visible there?",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Regarding [[374.71794871794873, 72.0], [1204.0, 72.0], [1204.0, 348.28205128205127], [374.71794871794873, 348.28205128205127]], are the label(s) 'HAPPYNEW, SRLE 30% OFF, YEAR, ALL' situated inside that bounding box?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you read the word(s) enclosed by [[378, 56], [1204, 56], [1204, 336], [378, 336]]? ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the phrase \"SAL____ 30% OFF\" visible at coordinates [[631,326], [1413,371], [1413,463], [627,414]], what word goes in the blank?",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer in Options:\nA. ALL\nB. HAPPY NEW\nC. SRLE 30% OFF\nD. RLL correctly accounts for all text(s) found in [[378, 56], [1204, 56], [1204, 186], [378, 186]]?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You can see region [[378.0, 56.0], [1204.0, 56.0], [1204.0, 336.0], [378.0, 336.0]] — does it contain the label(s) 'SALE 30% OFF, HAPPY NEW, YEAR'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear within the area [[375, 44], [1202, 44], [1202, 326], [375, 326]]. ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Characters are missing from the phrase \"SA____ 30% OFF\" shown in area [[650,296], [1450,343], [1449,440], [647,385]] — what letters fill the gap?",
+              "answer": "LE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among Options:\nA. HARPY NEW, YEAR, ALL\nB. SRLE 30% OFF, YEAR, HAPPY NEW\nC. HAPPY NEW, YEAR, RLL\nD. SALE 30% OFF, YEAR, HAPPY NEW, which choice gives an accurate list of the text(s) visible in the region [[375, 44], [1202, 44], [1202, 326], [375, 326]]?",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Peeking into the bounding box [[375.0, 44.0], [1202.0, 44.0], [1202.0, 326.0], [375.0, 326.0]] — are the label(s) 'SALE 30% OFF, ALL, HAPPY NEW' visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) found inside [[372, 38], [1200, 38], [1200, 322], [372, 322]]. ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at coordinates [[993,557], [1221,564], [1220,650], [993,641]], part of the text \"YE____\" is cut off — which letter(s) are missing?",
+              "answer": "AR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select from Options:\nA. ALL, YBAR, SALE 30% OFF\nB. RLL, SALE 30% OFF, HAPPY NEW\nC. SALE 30% OFF, ALL, YEAR\nD. ALL, YFAR, SALE 30% OFF the answer that correctly identifies the text(s) you see in [[372, 38], [1200, 38], [1200, 322], [372, 322]].",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking if 'YEAR, SALE 30% OFF, HAPPY NEW' actually appears inside the region [[372.0, 38.0], [1200.0, 38.0], [1200.0, 322.0], [372.0, 322.0]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0103/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0103/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside the region [[372, 46], [1198, 46], [1198, 330], [372, 330]] and write it below. ________",
+              "answer": [
+                "ALL",
+                "SALE 30% OFF",
+                "HAPPY NEW",
+                "YEAR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Reconstruct the greeting at [[518,526], [1020,550], [1016,636], [518,607]]: \"HA____ NEW\" — what word fills the gap?",
+              "answer": "PPY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area [[372, 46], [1198, 46], [1198, 182], [372, 182]], pick the option that correctly matches the text there. Options:\nA. YEAR\nB. HAPPY NEW\nC. ALL\nD. RLL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In your view, do the label(s) 'HARPY NEW, YEAR, ALL, SALE 30% OFF' appear inside the box at [[372.0, 46.0], [1198.0, 46.0], [1198.0, 330.0], [372.0, 330.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0103"
+  }
+]

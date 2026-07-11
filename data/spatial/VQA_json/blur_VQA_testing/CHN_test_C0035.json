@@ -1,0 +1,461 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you see within [[1113, 573], [1434, 573], [1434, 729], [1113, 729]]: ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Referring to the bounding box at [[1184,701], [1432,699], [1432,727], [1184,729]], fill in the missing part of this vehicle service name: Qian____ Autonomous RoboBus.",
+              "answer": "hai"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option holds the text(s) visible inside [[1113, 573], [1434, 573], [1434, 729], [1113, 729]]? Options:\nA. 前海自动, Qianbai Autonomous RoboBus\nB. 前涕自动, 驾驶公交\nC. 驾驶公交, Qianhai Autonomous RoboBus\nD. Qienhai Autonomous RoboBus, 驾驶公交",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[1113.0, 573.0], [1434.0, 573.0], [1434.0, 729.0], [1113.0, 729.0]], do the label(s) '前海自动, 驾驶公交' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text visible inside [[1111, 571], [1432, 571], [1432, 727], [1111, 727]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1176,641], [1432,641], [1432,705], [1176,705]]所标注的区域中，自动驾驶公交的名称缺少\"____公\"，请补全。",
+              "answer": "驾驶公"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one matches the text visible in [[1111, 571], [1432, 571], [1432, 727], [1111, 727]]? Options:\nA. Qianbai Autonomous RoboBus, 驾驶公交\nB. 前涕自动, 驾驶公交\nC. 前淨自动, Qianhai Autonomous RoboBus\nD. 驾驶公交, 前海自动",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Marked as 'Qianbai Autonomous RoboBus, 前海自动, 驾驶公交', do these label(s) appear inside the box at [[1111.0, 571.0], [1432.0, 571.0], [1432.0, 727.0], [1111.0, 727.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you see at [[1112, 574], [1430, 574], [1430, 725], [1112, 725]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1356,723], [1438,723], [1438,750], [1359,750]], there's a missing substring — fill it in: ____oBus.",
+              "answer": "Rob"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer choice that matches the text found at [[1112, 574], [1430, 574], [1430, 725], [1112, 725]]. Options:\nA. 前海自动, Qienhai Autonomous RoboBus\nB. Qianbai Autonomous RoboBus, 前海自动\nC. 前海自动, Qionhai Autonomous RoboBus\nD. 前海自动, Qianhai Autonomous RoboBus",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the box at [[1112.0, 574.0], [1430.0, 574.0], [1430.0, 725.0], [1112.0, 725.0]] — do the label(s) '驽驶公交, Qianhai Autonomous RoboBus, 前海自动' fall inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can read at [[1108.0, 569.0], [1426.0, 569.0], [1426.0, 725.0], [1108.0, 725.0]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[1206,741], [1454,738], [1454,766], [1206,768]] reads \"Qian____ Autonomous RoboBus\" — what word fills the blank?",
+              "answer": "hai"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot which option matches the text inside [[1108, 569], [1426, 569], [1426, 725], [1108, 725]]. Options:\nA. 前海自动, Qianbai Autonomous RoboBus\nB. Qianhai Autonomous RoboBus, 前涕自动\nC. 驾驶公交, 前淨自动\nD. 驾驶公交, Qianhai Autonomous RoboBus",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Taking a look at [[1108.0, 569.0], [1426.0, 569.0], [1426.0, 725.0], [1108.0, 725.0]], the label(s) 'Qianhai Autonomous RoboBus, 驽驶公交, 前海自动' — are they inside this box?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out whatever text appears in [[1106, 572], [1424, 572], [1424, 721], [1106, 721]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[1230,746], [1480,749], [1480,776], [1230,774]] you'll find \"Qian____ Autonomous RoboBus\" — what's the missing word?",
+              "answer": "hai"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best captures the text visible inside [[1106, 572], [1424, 572], [1424, 721], [1106, 721]]? Options:\nA. 前海自动, Qianhai Autonomous RoboBus\nB. Qianbai Autonomous RoboBus, 前海自动\nC. Qianhai Autonomous RoboBus, 驽驶公交\nD. 驾驶公交, 前涕自动",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[1106.0, 572.0], [1424.0, 572.0], [1424.0, 721.0], [1106.0, 721.0]], do the label(s) '前海自动, 驾驶公交' sit within its boundaries?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write the text you can make out inside [[1106.0, 570.0], [1424.0, 570.0], [1424.0, 721.0], [1106.0, 721.0]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and select the one that reflects what's written inside [[1168, 635], [1424, 635], [1424, 721], [1168, 721]]. Options:\nA. 驽驶公交\nB. Qianhai Autonomous RoboBus\nC. 前海自动\nD. 驽驶公交",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '驾驶公交, 前海自动' — do they appear anywhere within [[1106.0, 570.0], [1424.0, 570.0], [1424.0, 721.0], [1106.0, 721.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the text you observe in the area [[1106, 568], [1424, 568], [1424, 721], [1106, 721]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看坐标[[1166,623], [1418,623], [1418,679], [1166,679]]处的内容，短语\"前____动\"缺少了哪个部分？请填入。",
+              "answer": "海自"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option captures exactly what's written at [[1170, 635], [1424, 635], [1424, 721], [1170, 721]]. Options:\nA. Qianbai Autonomous RoboBus\nB. 前海自动\nC. 驽驶公交\nD. 驾驶公交",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the box defined by [[1106.0, 568.0], [1424.0, 568.0], [1424.0, 721.0], [1106.0, 721.0]], you'd expect to find the label(s) '驾驶公交, 前海自动' — is that right?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text content visible at [[1112, 574], [1428, 574], [1428, 721], [1112, 721]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Match the text inside [[1112, 574], [1428, 574], [1428, 721], [1112, 721]] to the right answer below. Options:\nA. Qianbai Autonomous RoboBus, 前海自动\nB. 前涕自动, Qianhai Autonomous RoboBus\nC. 驾驶公交, Qianhai Autonomous RoboBus\nD. 前海自动, Qienhai Autonomous RoboBus",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'Qianhai Autonomous RoboBus, 驾驶公交' appear inside the region marked by [[1112.0, 574.0], [1428.0, 574.0], [1428.0, 721.0], [1112.0, 721.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[1114, 576], [1428, 576], [1428, 725], [1114, 725]] and write it out: ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1246,748], [1496,751], [1496,778], [1246,776]] in the image, supply the missing letter(s) to complete the phrase: Qianh____ Autonomous RoboBus.",
+              "answer": "ai"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text visible inside [[1114, 576], [1428, 576], [1428, 725], [1114, 725]]. Options:\nA. 前海自动, 驾驶公交\nB. Qianbai Autonomous RoboBus, 驾驶公交\nC. 驽驶公交, 前海自动\nD. Qianhai Autonomous RoboBus, 骂驶公交",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '前海自动, Qianhai Autonomous RoboBus' fall within the bounds of [[1114.0, 576.0], [1428.0, 576.0], [1428.0, 725.0], [1114.0, 725.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[1112.0, 576.0], [1430.0, 576.0], [1430.0, 727.0], [1112.0, 727.0]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1252,643], [1504,643], [1504,707], [1252,707]]处有一段文字，请补全\"前____动\"中缺失的内容。",
+              "answer": "海自"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options correctly lists the text found in [[1112, 576], [1430, 576], [1430, 727], [1112, 727]]? Options:\nA. Qianbai Autonomous RoboBus, 驾驶公交\nB. 前海自动, 骂驶公交\nC. 驾驶公交, Qianhai Autonomous RoboBus\nD. 驽驶公交, Qianhai Autonomous RoboBus",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[1112.0, 576.0], [1430.0, 576.0], [1430.0, 727.0], [1112.0, 727.0]], do you see the label(s) 'Qianhai Autonomous RoboBus, 驾驶公交'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) shown in the area [[1116.0, 578.0], [1432.0, 578.0], [1432.0, 729.0], [1116.0, 729.0]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[1362,717], [1618,717], [1618,778], [1362,778]]区域，将\"驾驶____\"填写完整。",
+              "answer": "公交"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one captures the text inside [[1116, 578], [1432, 578], [1432, 729], [1116, 729]]? Options:\nA. 驽驶公交, 前海自动\nB. 前海自动, Qianhai Autonomous RoboBus\nC. 驾驶公交, 前涕自动\nD. 驾驶公交, Qianbai Autonomous RoboBus",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[1116.0, 578.0], [1432.0, 578.0], [1432.0, 729.0], [1116.0, 729.0]] — does it contain 'Qianhai Autonomous RoboBus, 驾驶公交'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0035/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0035/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write down the word(s) you can read inside [[1118.0, 582.0], [1436.0, 582.0], [1436.0, 733.0], [1118.0, 733.0]]. ________",
+              "answer": [
+                "前海自动",
+                "驾驶公交",
+                "Qianhai Autonomous RoboBus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[1383,722], [1644,727], [1643,789], [1382,784]]位置的文字内容，把\"驾驶____\"中的空白处填上。",
+              "answer": "公交"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[1180, 645], [1436, 645], [1436, 733], [1180, 733]] and pick the option that matches. Options:\nA. 前海自动\nB. 驽驶公交\nC. Qianhai Autonomous RoboBus\nD. 驽驶公交",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Reading the region [[1118.0, 582.0], [1436.0, 582.0], [1436.0, 733.0], [1118.0, 733.0]], are the label(s) 'Qianbai Autonomous RoboBus, 前海自动, 驾驶公交' visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0035"
+  }
+]

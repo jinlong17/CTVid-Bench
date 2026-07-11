@@ -1,0 +1,548 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text you see inside [[357, 155], [1366, 155], [1366, 1073], [357, 1073]]: ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman Marcus",
+                "Nordstrom",
+                "ELCAMINOREAL",
+                "Bloomingdale's",
+                "ELCAMINOWALK",
+                "LADYE",
+                "Wilkes",
+                "Bashford",
+                "Fleming's",
+                "C",
+                "W",
+                "BB",
+                "DD",
+                "RH",
+                "EE",
+                "sungla"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A truncated abbreviation appears at [[881,1053], [903,1053], [903,1068], [881,1068]] — can you fill in the blanks: \"R____\"?",
+              "answer": "H"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region [[881, 353], [1366, 353], [1366, 1073], [881, 1073]], which answer correctly identifies the text there? Options:\nA. RH, Wilkes, Macy's, DD, ELCAMINOREAL, Neiman Marcus, Bashford, RH, W, BB\nB. FE, ELCAMINOWALK, ELCAMINOREAL, W, Bashford, DD, RH, Neiman Marcus, Wilkes, C\nC. EE, Bloomingdale's, Bloomingdale's, sungla, Bashford, Macy's, RH, DD, Nordstrom, Neiman Marcus\nD. Macy's, Wilkes, Bloomingdale's, LADYE, BB, Bashford, Fleming's, ELCAMINOREAL, O, RH",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'Bloomingdale's, DD, BB, Bashford, Wilkes, LADYE, ELCAMINOREAL, C, ELCAMINOWALK, EE' all appear within the bounding box [[914, 897], [1297, 897], [1297, 1073], [914, 1073]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[320.8921024227173, 161.83814908584796], [564.892102422717, 161.83814908584796], [564.892102422717, 264.8381490858483], [320.8921024227173, 264.8381490858483]] — what word(s) show up there? ________",
+              "answer": [
+                "sungla"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1028,950], [1050,950], [1050,964], [1028,964]] you can spot a short abbreviation whose second part is \"D____\" — what is the full abbreviation?",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option correctly captures the text inside [[862, 909], [1297, 909], [1297, 1080], [862, 1080]]? Options:\nA. W, Fleming's, RH, ELCAMINOREAL, C, Bashford, Wilkes, ELCAMINOWALK, DD, LAOYE\nB. BB, Bashford, EE, C, Bloomingdale's, LADYE, ELCAMINOWALK, DD, ELCAMINOREAL, Fleming's\nC. EE, C, ELCAMINOWALK, Bloomingdale's, BB, PH, Bashford, DD, Fleming's, Wilkes\nD. Bloomingdale's, Bashford, ELCAMINOREAL, C, LADYE, ELCAMINOWALK, EE, Bloomingdale's, W, DD",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: is 'ELCAMINOREAL, LADYE, EE, Nordstrom, RH, W, C, Wilkes, RH, Bashford' visible within the region marked as [[862, 537], [1333, 537], [1333, 1080], [862, 1080]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[849, 913], [1257, 913], [1257, 1080], [849, 1080]], what word(s) are written there? ________",
+              "answer": [
+                "ELCAMINOREAL",
+                "Bloomingdale's",
+                "ELCAMINOWALK",
+                "LADY",
+                "Wilkes",
+                "Bashford",
+                "Fleming's",
+                "C",
+                "W",
+                "BB",
+                "DD",
+                "RH",
+                "EE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "An image section at [[732,903], [833,902], [832,921], [732,922]] shows a phrase with \"ELCAMIN____\" where some text is hidden — what does the complete phrase read?",
+              "answer": "OREAL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Taking the full image into account, which answer lists the text found at [[849, 913], [1257, 913], [1257, 1080], [849, 1080]]? Options:\nA. RH, Bashford, Wilkes, C, ELCAMINOREAL, BB, EE, Bloomingdale's, DD, Fleming's\nB. Bloomingdale's, DD, Wilkes, BB, Bashford, RH, Bloomingdale's, W, C, Fleming's\nC. BB, C, RH, DD, W, Bloomingdale's, ELCAMINOREAL, Bashford, ELCAMINOWALK, Wilkos\nD. RH, Wilkes, LADY, V, Bashford, EE, ELCAMINOWALK, Fleming's, BB, C",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'Bashford, sungla, Wilkes, W, Bloomingdale's, Macy's, LADY, h, Fleming's, ELCAMINOREAL' are all visible within [[610, 176], [1311, 176], [1311, 1080], [610, 1080]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can read inside the box [[278.2916795897363, 181.79002624671912], [649.8687664041995, 181.79002624671912], [649.8687664041995, 288.75463957210593], [278.2916795897363, 288.75463957210593]]: ________",
+              "answer": [
+                "sungla",
+                "h"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Abbreviated text visible at [[542,1064], [560,1064], [559,1078], [542,1078]] reads \"____\" — which letter(s) complete it?",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the whole image, which answer choice matches the text(s) you see inside [[582, 182], [1309, 182], [1309, 1078], [582, 1078]]? Options:\nA. W, Wilkes, Neiman Marcus, Bloomingdale's, ELCAMINOREAL, ELCAMINOWALK, O, RH, Nordstrom, h\nB. W, Nordstrom, BB, Bashford, Bloomingdale's, ELCAMINOREAL, RH, ELCAMINOWALK, Neiman Marcus, Bloomingdale's\nC. Floming's, RH, EE, Bloomingdale's, ELCAMINOWALK, Macy's, Neiman Marcus, DD, ELCAMINOREAL, h\nD. W, Bloomingdale's, ELCAMINOWALK, Fleming's, sungla, EE, RH, Bloomingdale's, ELCAMINOREAL, Bashford",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'W, Bloomingdale's, C, RH, ELCAMINOWALK, BB, DD, Bloomingdale's, ELCAMINOREAL, EE' all fall within the bounding box [[834, 546], [1293, 546], [1293, 1078], [834, 1078]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and name the word(s) visible inside [[231.62501292306956, 186.45669291338578], [616.5354330708661, 186.45669291338578], [616.5354330708661, 292.08797290543924], [231.62501292306956, 292.08797290543924]].",
+              "answer": [
+                "sungla",
+                "h"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the region [[589,975], [606,975], [606,989], [589,989]], the text appears as \"____\" — which letter(s) fill the gap?",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the entire image, pick the option that correctly captures the text(s) found at [[811, 384], [1282, 384], [1282, 1080], [811, 1080]]. Options:\nA. Fleming's, Bashford, W, DD, PB, LADYELL, ELCAMINOREAL, Macy's, EE, ELCAMINOWALK\nB. sungla, Bloomingdale's, ELCAMINOREAL, Nordstrom, Wilkes, BB, EE, ELCAMINOWALK, Fleming's, Neiman Marcus\nC. Neiman Marcus, EE, Bloomingdale's, RH, Bloomingdale's, W, Macy's, Nordstrom, C, ELCAMINOWALK\nD. FE, Bloomingdale's, DD, BB, Nordstrom, Neiman Marcus, ELCAMINOREAL, Fleming's, Macy's, LADYELL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'RH, LADYELL, Wilkes, C, BB, ELCAMINOREAL, W, EE, ELCAMINOWALK, Fleming's' show up inside the bounding box [[842, 907], [1208, 907], [1208, 1080], [842, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) appear at the location [[201.62501292306956, 182.22460264913795], [1255.6944570570558, 182.22460264913795], [1255.6944570570558, 750.8399022859435], [201.62501292306956, 750.8399022859435]].",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman Marcus",
+                "Nordstrom",
+                "sungla",
+                "hu"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at coordinates [[719,1026], [738,1026], [738,1040], [719,1040]], the abbreviation reads \"A____\" — what letter(s) belong in the blank?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option below lists the text(s) visible within [[790, 382], [1256, 382], [1256, 1079], [790, 1079]]? Options:\nA. ELCAMINOREAL, Bashford, EE, Fleming's, RH, Neiman Marcus, ELCAMINOWALK, Bloamingdale's, W, C\nB. ELCAMINOREAL, Bashford, Bloomingdale's, DD, Wilkes, LADYELLE, RH, Neiman Marcus, Bloomingdale's, Nordstrom\nC. ELCAMINOREAL, Nordstrem, Bloomingdale's, BB, RH, RH, DD, W, EE, ELCAMINOWALK\nD. BB, ELCAMINOWALK, RH, Bashford, Bloomingdale's, RH, Nordstrom, Neiman Marcus, sungla, LADYELLE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'C, LADYELLE, hu, Macy's, Nordstrom, Wilkes, BB, PH, Fleming's, ELCAMINOWALK' all appear inside the bounding box [[201.62501292306956, 182.22460264913795], [1255.6944570570558, 182.22460264913795], [1255.6944570570558, 1079.228791773779], [201.62501292306956, 1079.228791773779]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text at [[177.27718683611306, 176.13764612739882], [1232.9302294147801, 176.13764612739882], [1232.9302294147801, 1080.0], [177.27718683611306, 1080.0]] — what word(s) do you find there?",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman Marcus",
+                "Nordstrom",
+                "ELCAMINOREAL",
+                "Bloomingdale's",
+                "ELCAMINOWALK",
+                "LADYELLENPL",
+                "Wilkes",
+                "Bashford",
+                "Fleming's",
+                "C",
+                "W",
+                "BB",
+                "DD",
+                "RH",
+                "EE",
+                "PALANTINECT",
+                "SAN",
+                "sungla",
+                "hu"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How would you complete the sequence \"LADYE____\" shown at coordinates [[1121,1022], [1135,1022], [1136,1080], [1121,1080]]?",
+              "answer": "LLEN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option correctly names the text(s) visible at [[765, 366], [1233, 366], [1233, 1080], [765, 1080]] in this image? Options:\nA. Bashford, hu, LADYELLENPL, Macy's, Bloomingdale's, C, W, Nordstrom, SAN, RH\nB. ELCAMINOWALK, DD, LADYELLENPL, Wilkes, ELCAMINOREAL, Macy's, PALANTINECT, Bloomingdale's, sungla, BB\nC. Nordstrom, Macy's, Wilkes, RH, BB, Bloomingdale's, ELCAMINOWALK, DD, ELCAMINOREAL, W\nD. Fleming's, LADYELLENPL, PALANTINEGT, BB, C, EE, Nordstrom, Bloomingdale's, DD, ELCAMINOREAL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'EE, PALANTINECT, Bashford, C, LADYELLENPL, W, Bloomingdale's, DD, SAN, ELCAMINOWALK' are all contained within the bounding box [[803, 874], [1163, 874], [1163, 1080], [803, 1080]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) at [[152.27718683611306, 146.13764612739882], [582.921273312315, 146.13764612739882], [582.921273312315, 259.18942218080156], [152.27718683611306, 259.18942218080156]] and choose the correct answer.",
+              "answer": [
+                "sungla",
+                "hu"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown at [[1190,594], [1264,594], [1264,644], [1190,644]] is the text segment \"R____\" — write in the missing letter(s).",
+              "answer": "H"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[760, 573], [1219, 573], [1219, 1080], [760, 1080]] in the image — which of the following options has the right text(s)? Options:\nA. Nordstrom, D, SANDHIL, Neiman Marcus, EE, CC, W, Bashford, ELCAMINOREAL, Bloomingdale's\nB. Bashford, Fleming's, RH, ELCAMINOREAL, W, RH, Nordstrom, Wilkes, D, DD\nC. RH, Bloomingdale's, LADYELLENPL, CC, W, AA, Fleming's, Wilkes, Bloomingdale's, DD\nD. Bloamingdale's, Fleming's, Neiman Marcus, DD, AA, EE, W, RH, ELCAMINOWALK, CC",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You can see 'CC, EE, SANDHIL, W, Bloomingdale's, AA, Neiman Marcus, Bashford, DD, ELCAMINOWALK' — do they all sit within the bounding box [[760, 501], [1219, 501], [1219, 1080], [760, 1080]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The bounding box [[141.46637602530228, 131.72323171298441], [1212.1834663915943, 131.72323171298441], [1212.1834663915943, 688.8055951296851], [141.46637602530228, 688.8055951296851]] contains certain word(s) — which option names them correctly?",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman Marcus",
+                "Nordstrom",
+                "sungla",
+                "hu"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1298,744], [1691,743], [1690,806], [1298,803]], the brand name is partially visible as \"Neiman ____\" — what word completes it?",
+              "answer": "Marcus"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately reflects the text(s) found at [[454, 132], [1212, 132], [1212, 1080], [454, 1080]]? Options:\nA. BB, LADYFLLENPL, ELCAMINOWALK, RH, CC, V, RH, D, ELECTIONEERCT, ELCAMINOREAL\nB. BB, SANDHILL, PALANTINEGT, AA, Fleming's, ELECTIONEERCT, Bloomingdale's, ELCAMINOWALK, D, LADYELLENPL\nC. DD, Wilkes, P, LADYELLENPL, Nordstrom, AA, SANDHILL, BB, Bloomingdale's, RH\nD. sungla, ELCAMINOWALK, hu, C, SANDHILL, AA, D, Wilkes, P, W",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the label 'LADYELLENPL, BB, ELCAMINOWALK, hu, Wilkes, W, ELECTIONEERCT, Bashford, V, C' fall inside the bounding box [[792, 830], [1144, 830], [1144, 1080], [792, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick out the word(s) inside [[142.81772737665364, 116.9449065898317], [1207.3054176111066, 116.9449065898317], [1207.3054176111066, 683.4722617963517], [142.81772737665364, 683.4722617963517]] — what do you see?",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman Marcus",
+                "Nordstrom",
+                "sungla",
+                "hut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1314,569], [1685,569], [1682,632], [1315,631]] reads \"Bloom____\" with a gap — what belongs there?",
+              "answer": "ingdale's"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the full image, which answer option correctly lists the text(s) found at [[758, 329], [1207, 329], [1207, 1080], [758, 1080]]? Options:\nA. Bloomingdale's, SANDHILL, PALANTINECT, ELECTIONEERCT, Macy's, PA, AA, W, C, CC\nB. sungla, BB, Neiman Marcus, SANDHILL, Bloomingdale's, PA, PALANTINECT, ELCAMINOWALK, DD, C\nC. Nordstrom, AA, EE, DD, OC, ELCAMINOREAL, C, V, RH, ELECTIONEERCT\nD. RH, LADYELLENPL, EE, RH, PA, AA, OC, W, PALANTINECT, Bloomingdale's",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the labels 'ELCAMINOWALK, Macy's, V, ELCAMINOREAL, RH, Neiman Marcus, W, AA, D, PALANTINECT' appear inside the region marked by [[448, 117], [1186, 117], [1186, 1080], [448, 1080]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which words can be read at the location [[125.09620838931187, 116.9449065898317], [1207.3054176111066, 116.9449065898317], [1207.3054176111066, 1076.7654986522912], [125.09620838931187, 1076.7654986522912]]? The word(s) is/are ________.",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman Marcus",
+                "Nordstrom",
+                "ELCAMINOREAL",
+                "Bloomingdale's",
+                "ELCAMINOWALK",
+                "LADYELLENPL",
+                "C",
+                "W",
+                "BB",
+                "DD",
+                "RH",
+                "EE",
+                "PALANTINECT",
+                "SANDHILL",
+                "D",
+                "AA",
+                "CC",
+                "V",
+                "ELECTIONEERCT",
+                "PA",
+                "sungla",
+                "hut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters are obscured in \"____\" — what are the missing characters in the region [[1055,263], [1098,262], [1099,321], [1057,321]]?",
+              "answer": "s"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which answer correctly captures the text(s) at [[755, 821], [1130, 821], [1130, 1077], [755, 1077]]? Options:\nA. D, ELECTIONEERCT, V, RH, C, V, PALANTINECT, Bloomingdale's, ELCAMINOWALK, SANDHILL\nB. C, CC, ELCAMINOREAL, V, AA, BB, D, Bloomingdale's, ELECTIONEERCT, W\nC. SANDHILL, ELCAMINOREAL, V, CC, Bloamingdale's, ELECTIONEERCT, PALANTINECT, LADYELLENPL, D, ELCAMINOWALK\nD. Bloomingdale's, ELCAMINOWALK, AA, W, PALANTINECT, LADYELLENPL, BB, DD, EE, D",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You can see 'D, SANDHILL, W, Nordstrom, PA, ELCAMINOREAL, DD, Neiman Marcus, BB, C' — are these labels inside the box defined by [[125.09620838931187, 116.9449065898317], [1207.3054176111066, 116.9449065898317], [1207.3054176111066, 1076.7654986522912], [125.09620838931187, 1076.7654986522912]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0132/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0132/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible at [[110.15367965367966, 113.49663072776275], [573.1050244082157, 113.49663072776275], [573.1050244082157, 220.91666666666669], [110.15367965367966, 220.91666666666669]]. The word(s) is/are ________.",
+              "answer": [
+                "sungla",
+                "hut"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Hidden inside \"____.\" at [[1052,255], [1094,254], [1096,313], [1053,313]] — what are the missing letters?",
+              "answer": "s"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option correctly identifies the text(s) at [[742, 860], [1113, 860], [1113, 1080], [742, 1080]]? Options:\nA. SANDHILL, RH, DD, ELECTIONEERCT, EE, CC, PALANTINECT, RA, D, BB\nB. RH, AA, ELCAMINOWALK, BB, W, CC, EE, LADYELLENPL, PAR, PALANTINECT\nC. PALANTINECT, Bloomingdale's, PAR, CC, RH, ELECTIONEERCT, SANDHILL, D, EE, BB\nD. PALANTINECT, ELECTIONEERCT, EE, W, PAR, C, D, U, AA, SANDHILL",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that 'DD, hut, CC, PALANTINECT, W, Bloomingdale's, ELCAMINOREAL, Macy's, ELECTIONEERCT, PAR' are all inside the region [[733, 483], [1161, 483], [1161, 1080], [733, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0132"
+  }
+]

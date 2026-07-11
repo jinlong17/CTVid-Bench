@@ -1,0 +1,439 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on [[1092, 24], [1547, 24], [1547, 813], [1092, 813]], what text is visible there? ________",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text in [[1092, 24], [1547, 24], [1547, 813], [1092, 813]], which answer option is correct? Options:\nA. Business, PALO ALTO, UPLIFT, District, Looal, Midtown\nB. PALO ALTO, District, Local, Business, Ihe Heart of, UPLIFT\nC. Local, District, UPLIFT, The Heart of, PALO ALTO, Business\nD. UPLIFT, District, Business, Midtewn, Local, The Heart of",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot any trace of 'PALO ALTO, UPLIFT, Local, District, Business' inside [[1091.5274841437633, 23.636363636363633], [1547.0901639344263, 23.636363636363633], [1547.0901639344263, 812.6591760299626], [1091.5274841437633, 812.6591760299626]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text do you see when you look at [[996, 19], [1451, 19], [1451, 808], [996, 808]]? ________",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option matches the text located in [[996, 19], [1451, 19], [1451, 808], [996, 808]]? Options:\nA. PALO ALTO, Business, Midtown, The Heart of, URLIFT, District\nB. UPLIFT, Midtown, Local, PALO ALTO, Business, District\nC. PALO ALTO, Midtown, Local, Ihe Heart of, District, Business\nD. Business, The Heart of, Local, UPLIET, District, PALO ALTO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "When you examine [[995.7891639937745, 19.27262898008508], [1451.3518437844375, 19.27262898008508], [1451.3518437844375, 808.2954413736841], [995.7891639937745, 808.2954413736841]], do you find 'Midtawn, Business, Local, UPLIFT, The Heart of, PALO ALTO, District' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[902, 19], [1365, 19], [1365, 803], [902, 803]], what word or words are present? ________",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[902, 19], [1365, 19], [1365, 803], [902, 803]], which of the following options lists the text(s) you see there? Options:\nA. Business, Midtown, Local, PALO ALTO, The Heart of, District\nB. Business, UPLIFT, District, The Heart of, Midtown, RALO ALTO\nC. District, UPLIFT, PALO ALTO, Looal, The Heart of, Midtown\nD. Business, UPLIFT, The Heart of, District, Midtewn, Local",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the bounding box [[901.8478822663508, 19.203689571449793], [1364.7635032334845, 19.203689571449793], [1364.7635032334845, 802.8343451023037], [901.8478822663508, 802.8343451023037]], is 'District, Business, The Heart of, UPLIFT, Midtown' among the text(s) shown?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[770, 41], [1270, 41], [1270, 815], [770, 815]], what text can you read? The word(s) is/are ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text(s) found inside [[770, 41], [1270, 41], [1270, 815], [770, 815]]? Options:\nA. UPLIFT, RALO ALTO, Local, The Heart of, Business, District\nB. UPLIFT, District, Local, Midtewn, PALO ALTO, Business\nC. The Heart of, Business, PALO ALTO, District, Local, Midtown\nD. Business, PALO ALTO, Midtown, Oistrict, The Heart of, Local",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Local, Business, URLIFT, PALO ALTO, Midtown, District, The Heart of' appears inside the bounding box [[770.2658310096231, 40.70079950630771], [1270.276717894365, 40.70079950630771], [1270.276717894365, 814.6089676074323], [770.2658310096231, 814.6089676074323]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in the area [[709, 40], [1215, 40], [1215, 819], [709, 819]], what text is visible there? The word(s) is/are ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among these options, which one correctly shows the text(s) inside [[709, 40], [1215, 40], [1215, 819], [709, 819]]? Options:\nA. The Heart of, PALO ALTO, District, Local, UPLIET, Midtown\nB. The Heart of, Midtown, District, Local, Business, UPLIFT\nC. The Heart of, Midtown, PALO ALTO, UPLIFT, District, Looal\nD. Midtown, The Heart of, District, PALO ALTO, Business, URLIFT",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'Midtown, Business, UPLIFT, The Heart of, Local, PALO ALTO, Oistrict' sits within the bounding box [[709.4064553275081, 39.63835795105135], [1214.7470474482561, 39.63835795105135], [1214.7470474482561, 818.813678515706], [709.4064553275081, 818.813678515706]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears inside the bounding box [[640, 118], [1187, 118], [1187, 883], [640, 883]]? The word(s) is/are ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately lists the text(s) found in [[640, 118], [1187, 118], [1187, 883], [640, 883]]. Options:\nA. UPLIFT, District, The Heart of, RALO ALTO, Local, Business\nB. The Heart of, PALO ALTO, Local, Midtewn, District, UPLIFT\nC. Business, Local, District, PALO ALTO, Midtown, UPLIFT\nD. The Heart of, Local, PALO ALTO, Businoss, District, Midtown",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think 'The Heart of, UPLIFT, Local, Midtown, District' falls within the bounding box [[639.6969443042768, 117.89374905927875], [1186.8160392205511, 117.89374905927875], [1186.8160392205511, 883.1443144149507], [639.6969443042768, 883.1443144149507]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the bounding box [[588, 136], [1136, 136], [1136, 900], [588, 900]], what word(s) do you see? The word(s) is/are ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice best reflects the text(s) visible in the region [[588, 136], [1136, 136], [1136, 900], [588, 900]]? Options:\nA. Business, RALO ALTO, Local, District, The Heart of, UPLIFT\nB. Midtewn, Local, The Heart of, PALO ALTO, UPLIFT, District\nC. Business, District, Midtown, PALO ALTO, UPLIFT, The Heart of\nD. URLIFT, District, Business, Local, The Heart of, Midtown",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'District, UPLIFT, Lecal, PALO ALTO, Midtown, Business, The Heart of' can be found within the bounding box [[588.0184940881962, 135.88543999537202], [1136.252206348311, 135.88543999537202], [1136.252206348311, 899.8026720177105], [588.0184940881962, 899.8026720177105]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on the area [[540, 139], [1088, 139], [1088, 903], [540, 903]], what text do you notice there? The word(s) is/are ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches what's written inside [[540, 139], [1088, 139], [1088, 903], [540, 903]]. Options:\nA. Business, Midtown, District, UPLIFT, The Heart of, Local\nB. Midtown, Business, PALO ALTO, Oistrict, Local, UPLIFT\nC. Local, Business, PALO ALTO, Ihe Heart of, District, UPLIFT\nD. PALO ALTO, Looal, District, Business, Midtown, The Heart of",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Visible within the bounding box [[539.6553964132769, 138.7651698725618], [1087.8891086733925, 138.7651698725618], [1087.8891086733925, 902.6824018949003], [539.6553964132769, 902.6824018949003]] — is 'PALO ALTO, Midtown, Business, UPLIFT, Oistrict, The Heart of, Local' one of the text labels there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The bounding box [[474, 150], [1048, 150], [1048, 896], [474, 896]] contains some text — what is it? The word(s) is/are ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the following choices, which one covers all the text(s) visible inside [[474, 150], [1048, 150], [1048, 896], [474, 896]]? Options:\nA. PALO ALTO, Local, Tbe Heart of, District, Midtown, Business\nB. Ihe Heart of, UPLIFT, Local, PALO ALTO, Midtown, District\nC. Midtown, UPLIFT, Local, District, PALO ALTO, The Heart of\nD. Local, Oistrict, UPLIFT, The Heart of, Business, Midtown",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[473.8211382113821, 149.59349593495935], [1047.7611940298507, 149.59349593495935], [1047.7611940298507, 895.9461143790114], [473.8211382113821, 895.9461143790114]], is 'Local, Midtown, UPLIFT, The Heart of, PALO ALTO' part of what's shown?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you look at region [[444, 131], [1020, 131], [1020, 874], [444, 874]], what word(s) do you find there? The word(s) is/are ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text(s) inside [[444, 131], [1020, 131], [1020, 874], [444, 874]], which answer option is correct? Options:\nA. Local, Ihe Heart of, PALO ALTO, Business, Midtown, District\nB. District, PALO ALTO, Local, Midtown, Business, UPLIFT\nC. PALD ALTO, The Heart of, Midtown, Local, UPLIFT, Business\nD. District, The Heart of, Local, Business, UPLIFT, RALO ALTO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Business, The Heart of, Local, District, Midtown' located somewhere inside the bounding box [[444.0883483965774, 130.60126318300405], [1020.2963420660169, 130.60126318300405], [1020.2963420660169, 874.1774818177792], [444.0883483965774, 874.1774818177792]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Just glancing at the region [[387, 161], [994, 161], [994, 871], [387, 871]], what text is there? The word(s) is/are ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "All of these options claim different things — which one correctly names the text(s) in [[387, 161], [994, 161], [994, 871], [387, 871]]? Options:\nA. PALO ALTO, UPLIFT, District, Business, The Heart of, Midtown\nB. District, The Heart of, Local, URLIFT, PALO ALTO, Midtown\nC. Business, Pistrict, The Heart of, PALO ALTO, UPLIFT, Midtown\nD. Midtown, UPLIFT, PALO ALTO, Oistrict, Business, The Heart of",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'The Heart of, PALO ALTO, Local, Business, Oistrict, UPLIFT, Midtown' visible inside the region marked by [[387.26610354029805, 160.78456213075717], [994.2436974789915, 160.78456213075717], [994.2436974789915, 871.4285714285714], [387.26610354029805, 871.4285714285714]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0386_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0386_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text shows up inside [[366, 166], [987, 166], [987, 851], [366, 851]]? Fill in: ________.",
+              "answer": [
+                "Midtown",
+                "District",
+                "Business",
+                "The Heart of",
+                "PALO ALTO",
+                "UPLIFT",
+                "Local"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[366, 166], [987, 166], [987, 851], [366, 851]], which answer choice matches the text there? Options:\nA. PALO ALTO, The Heart of, Local, UPLIFT, District, Midtewn\nB. District, The Heart of, Business, Local, UPLIFT, Midtown\nC. Business, Midtown, District, The Heart of, RALO ALTO, Local\nD. Midtown, Local, Oistrict, The Heart of, PALO ALTO, UPLIFT",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Midtown, District, The Heart of, Local, Business' appears inside [[365.7225950782999, 165.51695396794244], [987.425358950011, 165.51695396794244], [987.425358950011, 851.4468946804448], [365.7225950782999, 851.4468946804448]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0386_2"
+  }
+]

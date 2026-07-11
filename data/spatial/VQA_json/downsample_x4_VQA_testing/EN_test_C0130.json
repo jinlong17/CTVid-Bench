@@ -1,0 +1,514 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out every word visible inside [[662.6126126126126, 121.0], [1054.954954954955, 121.0], [1054.954954954955, 933.0147058823528], [662.6126126126126, 933.0147058823528]]. ________",
+              "answer": [
+                "Stanford",
+                "HEALTHCARE",
+                "STANFORDMEDICNE",
+                "MedicalSupportOffice",
+                "2ndFlddr,#1199",
+                "NoPatientServices",
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Notice that the identifier \"____Flddr,#1199\" sits inside the box at [[670,540], [938,538], [937,585], [670,584]] — what character(s) are missing from it?",
+              "answer": "2nd"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best describes the text(s) visible at [[663, 121], [1055, 121], [1055, 933], [663, 933]]? Options:\nA. Men's,Women',Family, PublicRestrooms, STANFORDMEDICNE, HEALTHCARE, Located on, NoPatientServices, Stanford, StanfordShoppingCenter, MedicalSupportOffice\nB. MedicalSupportOffice, NoPatientServices, 2ndF1ddr,#1199, StanfordShoppingCenter, PublicRestrooms, Men's,Women',Family, STANFORDMEDICNE, HEALTHCARE, Stanford\nC. StanfordShoppingCenter, HEALTHCARE, Men's,Women',Family, PublicRestrooms, Located on, STANFORDMEDICNE, 2ndFlddr,#1199, NoPatientServices, MedicalSuppartOffice\nD. NoPatientServices, MedicalSupportOffice, HEALTHCARE, PublicRestrooms, 2ndElddr,#1199, Located on, STANFORDMEDICNE, Stanford, StanfordShoppingCenter",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Honestly, do the label(s) 'NoPatientServices, STANFORDMEDICNE, HEALTHCARE, StanfordShoppingCenter, Stanford, PublicRestrooms, 2ndFlddr,#1199, Located on' fall within the bounding box [[662.6126126126126, 121.0], [1054.954954954955, 121.0], [1054.954954954955, 933.0147058823528], [662.6126126126126, 933.0147058823528]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out the word(s) you can read inside [[662, 115], [1042, 115], [1042, 213], [662, 213]]. ________",
+              "answer": [
+                "Stanford"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[670,354], [1062,353], [1061,399], [670,400]], a word appears as ST____FORDMEDICNE. with some letters absent — what are the missing letter(s)?",
+              "answer": "AN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Narrowing in on region [[661, 115], [1055, 115], [1055, 927], [661, 927]], which option accurately lists the text(s) visible there? Options:\nA. 2ndFlddr,#1199, StanfordShoppingCenter, Stanford, HEALTHCARE, STANFORDMEDICNE, Located on, NoPatientServices, PublicRestrooms, MedicalSuppartOffice\nB. PublicRestrooms, StanfordShoppingCenter, MedicalSupportOffice, HEALTHCARE, STANFORDMEDICNE, NoPatientServicos, Stanford, 2ndFlddr,#1199, Men's,Women',Family\nC. 2ndFlddr,#1199, HEALTHCARE, Stenford, StanfordShoppingCenter, Men's,Women',Family, Located on, MedicalSupportOffice, STANFORDMEDICNE, PublicRestrooms\nD. MedicalSupportOffice, StanfordShoppingCenter, 2ndFlddr,#1199, Stanford, PublicRestrooms, NoPatientServices, HEALTHCARE, Men's,Women',Family, Located on",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[661.1879321181646, 115.01709401709402], [1054.954954954955, 115.01709401709402], [1054.954954954955, 926.7319833692638], [661.1879321181646, 926.7319833692638]], do the label(s) '2ndFlddr,#1199, NoPatientServices, Mon's,Women',Family, MedicalSupportOffice, PublicRestrooms, Stanford, HEALTHCARE, STANFORDMEDICNE, StanfordShoppingCenter, Located on' appear within it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can make out in the region [[662, 110], [1054, 110], [1054, 922], [662, 922]]. ________",
+              "answer": [
+                "Stanford",
+                "HEALTHCARE",
+                "STANFORDMEDICNE",
+                "MedicalSupportOffice",
+                "2ndFlddr,#1199",
+                "NoPatientServices",
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Zoom in on [[676,78], [1073,79], [1074,177], [677,174]] and you'll see text that reads ____Stan____d____. — which letter(s) are missing?",
+              "answer": "for"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "All the text in area [[663, 461], [1053, 461], [1053, 922], [663, 922]] — which answer option matches it exactly? Options:\nA. StanfordShoppingCenter, PublicRestrooms, Mon's,Women',Family, NoPatientServices, Located on, 2ndFlddr,#1199\nB. 2ndFlddr,#1199, NoPatientServices, Located on, PublicRestrooms, StanfordShoppingCenter, MedicalSupportOffice\nC. MedicalSupportOffice, 2ndFlddr,#1199, NoPatientServices, Located on, Stanford, StanfordShoppingCenter\nD. 2ndFlddr,#1199, Mon's,Women',Family, Located on, MedicalSupportOffice, PublicRestrooms, StanfordShoppingCenter",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the region [[661.9756699374533, 110.36593122639633], [1054.318012279796, 110.36593122639633], [1054.318012279796, 922.2733846431491], [661.9756699374533, 922.2733846431491]], do the label(s) 'NoPatientServices, PublicRestrooms, Stanford, StanfordShoppingCenter, HEALTHCARE, MedicalSupportOffice, 2ndFlddr,#1199, STANFORDMEDICNE' appear inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text you see inside [[665, 106], [1060, 106], [1060, 918], [665, 918]]. ________",
+              "answer": [
+                "Stanford",
+                "HEALTHCARE",
+                "STANFORDMEDICNE",
+                "MedicalSupportOffice",
+                "2ndFlddr,#1199",
+                "NoPatientServices",
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the region [[709,863], [1097,837], [1098,882], [710,906]], the listed categories read: Men's, ____', Family — what letter(s) fill the gap?",
+              "answer": "Women"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option matches the text(s) found inside [[665, 106], [1060, 106], [1060, 918], [665, 918]]? Options:\nA. MedicalSupportOffice, 2ndFlddr,#1199, STANFORDMEDICNE, Located on, HEALTHCARE, Men's,Women',Family, NoPatientServices, StanfordShoppingCenter, Stanford\nB. StanfordShoppingCenter, Stenford, NoPatientServices, HEALTHCARE, STANFORDMEDICNE, Located on, PublicRestrooms, 2ndFlddr,#1199, MedicalSupportOffice\nC. MedicalSupportOffice, Men's,Women',Family, 2ndFlddr,#1199, PublicRestrooms, NoPatientServices, HEALTHCAPE, StanfordShoppingCenter, STANFORDMEDICNE, Located on\nD. NoPatientServices, PublicRestrooms, MedicalSupportOffice, Stanford, StanfordShoppingCenter, HEALTHCARE, 2ndElddr,#1199, Men's,Women',Family, Located on",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[664.9258396654781, 105.62659473350533], [1059.5966335086623, 105.62659473350533], [1059.5966335086623, 918.0079817995472], [664.9258396654781, 918.0079817995472]], would you find all of these labels: 'NoPatientServices, HEALTHCARE, StanfordShoppingCenter, MedicalSupportOffice, Men's,Women',Family, Stanford, PublicRestrooms, Located on, 2ndElddr,#1199, STANFORDMEDICNE'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text visible in the area marked [[691, 734], [1074, 734], [1074, 923], [691, 923]]. ________",
+              "answer": [
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text in region [[676,209], [1116,210], [1116,285], [674,284]] has some characters obscured and reads HEA____E. — what are the missing letter(s)?",
+              "answer": "LTHCAR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one accurately lists the text(s) inside [[681, 107], [1073, 107], [1073, 638], [681, 638]]? Options:\nA. MedicalSupportOffice, StanfordShoppingCenter, STANFORDMEDICNE, 2ndFlddr,#1199, HEALTHCARE\nB. NoPatientServices, 2ndFlddr,#1199, HEALTHCARE, MedicalSupportOffice, Stenford\nC. Stanford, 2ndFlddr,#1199, STANFORDMEDICNE, MedicalSupportOffice, HEALTHCAPE\nD. STANFORDMEDICNE, HEALTHCARE, 2ndFlddr,#1199, NoPatientServices, Stanford",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "All of the following labels — 'NoPatientServices, Men's,Women',Family, 2ndFlddr,#1199, StanfordShoppingCenter, Located on, PublicRestrooms, STANFORDMEDICNE' — appear inside [[683, 526], [1074, 526], [1074, 923], [683, 923]], true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify all the word(s) you can find inside [[702.7856363287641, 734.7265433597566], [1087.3453246081385, 734.7265433597566], [1087.3453246081385, 926.3849451503326], [702.7856363287641, 926.3849451503326]]. ________",
+              "answer": [
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something at [[717,328], [1181,311], [1182,362], [718,376]] appears as STAN____DMEDICNE. — what letter(s) need to be filled in?",
+              "answer": "FOR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, pick the one that correctly identifies the text(s) found at [[689, 113], [1087, 113], [1087, 926], [689, 926]]. Options:\nA. MedicalSupportOffice, STANFORDMEDICNE, Located on, Men's,Women',Family, StanfordShoppingCenter, Stenford, 2ndFlddr,#1199, NoPatientServices, PublicRestrooms\nB. Men's,Women',Family, PublicRestrooms, NoPatientServices, 2ndFlddr,#1199, HEALTHCARE, STANFORDMEDICNE, StanfordShoppingCenter, Looated on, MedicalSupportOffice\nC. HEALTHCARE, MedicalSupportOffice, STANFORDMEDICNE, Located on, 2ndFlddr,#1199, Men's,Women',Family, StanfordShoppingCenter, PublicRestrooms, Stanford\nD. MedicalSupportOffice, PublicRestrooms, Located on, NoPatientServices, HEALTHCARE, Men's,Women',Family, STANFORDMEDICNE, Stonford, StanfordShoppingCenter",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[689, 113], [1083, 113], [1083, 643], [689, 643]], do the label(s) 'NoPatientServices, HEALTHCARE, 2ndFlddr,#1199, Stanford' appear inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible in the region [[710.7264026315435, 737.3016506558938], [1093.353908299126, 737.3016506558938], [1093.353908299126, 927.748326457298], [710.7264026315435, 927.748326457298]]. ________",
+              "answer": [
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A term at [[722,551], [1048,534], [1050,590], [724,605]] shows up as \"2nd____r,#1199\" — which letter(s) are missing from it?",
+              "answer": "Fldd"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly reflects the text(s) visible inside [[694, 114], [1093, 114], [1093, 928], [694, 928]]. Options:\nA. Stanford, HEALTHCARE, STANFORDMEDICNE, 2ndFlddr,#1199, NoPatientServices, MedicalSupportOffice, Men's,Women',Family, StanfordShappingCenter, Located on\nB. 2ndFlddr,#1199, Men's,Women',Family, HEALTHCARE, Located on, StanfordShoppingCenter, MedicalSupportOffice, Stanford, PublicPestrooms, NoPatientServices\nC. Located on, StanfordShoppingCenter, HEALTHCARE, Men's,Women',Family, PublicRestrooms, 2ndFlddr,#1199, MedicalSuppartOffice, Stanford, STANFORDMEDICNE\nD. HEALTHCARE, NoPatientServices, Stanford, STANFORDMEDICNE, StanfordShoppingCenter, 2ndFlddr,#1199, MedicalSupportOffice, Located on, Men's,Women',Family",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the labels 'STANFORDMEDICNE, Men's,Women',Family, StanfordShoppingCenter, PublicRestrooms, MedicalSupportOffice, HEALTHCARE, NoPatientServices' all show up within [[694, 220], [1093, 220], [1093, 928], [694, 928]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the bounding box [[693, 116], [1090, 116], [1090, 519], [693, 519]] and list the word(s) you find there. ________",
+              "answer": [
+                "Stanford",
+                "HEALTHCARE",
+                "STANFORDMEDICNE",
+                "MedicalSupportOffice"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The partially obscured text at [[546,507], [1014,482], [1017,543], [547,563]] reads ____SupportOffice. — what letter(s) go in the blank?",
+              "answer": "Medical"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately captures the text(s) inside [[693, 116], [1096, 116], [1096, 937], [693, 937]]. Options:\nA. STANFORDMEDICNE, HEALTHCARE, Stanford, MedicalSuppartOffice, NoPatientServices, StanfordShoppingCenter, PublicRestrooms, 2ndFlddr,#1199, Located on\nB. Men's,Women',Family, Stanford, HEALTHCARE, STANFORDMEDICNE, StanfordShoppingCenter, MedicalSupportOffice, Located on, 2ndFlddr,#1199, NoPatientServices\nC. Men's,Women',Family, 2ndFlddr,#1199, NoPatientServices, Stenford, HEALTHCARE, StanfordShoppingCenter, STANFORDMEDICNE, MedicalSupportOffice, Located on\nD. PublicRestrooms, Stanford, StanfordShoppingCenter, 2ndFlddr,#1199, STANFORDMEDICNE, MedicalSupportOffice, HEALTHCARE, NoPatientServices, Looated on",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Every one of these labels — 'Located on, Men's,Women',Family, StanfordShoppingCenter, 2ndFlddr,#1199, PublicRestrooms, MedicalSupportOffice, STANFOPDMEDICNE, HEALTHCARE, NoPatientServices, Stanford' — is supposed to be inside [[692.996944080474, 116.16894728666375], [1096.4667487660513, 116.16894728666375], [1096.4667487660513, 936.6977427997105], [692.996944080474, 936.6977427997105]]. Is that correct?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the text found within [[687, 123], [1093, 123], [1093, 945], [687, 945]]. ________",
+              "answer": [
+                "Stanford",
+                "HEALTHCARE",
+                "STANFORDMEDICNE",
+                "MedicalSupportOffice",
+                "2ndFlddr,#1199",
+                "NoPatientServices",
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The signage visible at [[227,677], [631,654], [633,712], [230,735]] is partially hidden and reads \"No____entServices\" — what letter(s) complete it?",
+              "answer": "Pati"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one contains the text(s) from [[699, 473], [1093, 473], [1093, 945], [699, 945]]? Options:\nA. Located on, 2ndFlddr,#1199, Men's,Women',Family, MedicalSupportOffice, HEALTHCARE, StanfordShoppingCenter\nB. 2ndFlddr,#1199, Stanford, MedicalSupportOffice, Located on, StanfordShoppingCenter, PublicRestrooms\nC. Located on, Men's,Women',Family, PublicRestrooms, 2ndFlddr,#1199, MedicalSupportOffice, StanfordShoppingCenter\nD. NoPatientServices, StanfordShoppingCenter, Located on, MedicalSuppartOffice, Men's,Women',Family, 2ndFlddr,#1199",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would the label(s) 'Stanford, 2ndFlddr,#1199, HEALTHCARE, MedicalSupportOffice, STANFORDMEDICNE, PublicRestrooms, Located on, NoPatientServices' be found inside the bounding box [[687.0954845968147, 122.80254777070068], [1092.5819672131147, 122.80254777070068], [1092.5819672131147, 945.3043001767596], [687.0954845968147, 945.3043001767596]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text visible inside [[698.3588191472293, 757.3462522505449], [1083.9114469819008, 757.3462522505449], [1083.9114469819008, 955.7089244542162], [698.3588191472293, 955.7089244542162]] and write it down: ________",
+              "answer": [
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[290,582], [615,565], [617,621], [291,636]], a partially hidden word shows \"____Flddr,#1199\" — which letter(s) are missing from the start?",
+              "answer": "2nd"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text found inside [[677, 130], [1084, 130], [1084, 956], [677, 956]]? Options:\nA. PublicRestrooms, 2ndFlddr,#1199, Located on, Stanford, MedicalSuppartOffice, HEALTHCARE, NoPatientServices, StanfordShoppingCenter, Men's,Women',Family\nB. NoPatientServices, HEALTHCAPE, Located on, Men's,Women',Family, STANFORDMEDICNE, StanfordShoppingCenter, MedicalSupportOffice, PublicRestrooms, Stanford\nC. Mon's,Women',Family, NoPatientServices, HEALTHCARE, StanfordShoppingCenter, Located on, STANFORDMEDICNE, 2ndFlddr,#1199, PublicRestrooms, Stanford\nD. Located on, NoPatientServices, 2ndFlddr,#1199, Stanford, STANFORDMEDICNE, Men's,Women',Family, MedicalSupportOffice, PublicRestrooms, HEALTHCARE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '2ndFlddr,#1199, NoPatientServices, MedicalSupportOffice, STANFORDMEDICNE, HEALTHCARE, Stanford, PublicRestrooms' appear(s) inside the region [[677, 130], [1074, 130], [1074, 671], [677, 671]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Looking at the area [[665, 134], [1067, 134], [1067, 959], [665, 959]], what text can you make out? ________",
+              "answer": [
+                "Stanford",
+                "HEALTHCARE",
+                "STANFORDMEDICNE",
+                "MedicalSupportOffice",
+                "2ndFlddr,#1199",
+                "NoPatientServices",
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some characters are hidden in the text at [[276,863], [600,840], [603,879], [279,901]], leaving \"____licRestrooms\" — what's needed to complete it?",
+              "answer": "Pub"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly lists the text visible in [[672, 486], [1067, 486], [1067, 959], [672, 959]]. Options:\nA. PublicRestrooms, MedicalSupportOffice, NoPatientServices, StanfordShoppingCenter, Located on, Men's,Women',Family\nB. Men's,Women',Family, PublicRestrooms, Stanford, 2ndFlddr,#1199, MedicalSupportOffice, StanfordShoppingCenter\nC. MedicalSupportOffice, Men's,Women',Family, 2ndFlddr,#1199, NoPatientServices, StanfordShappingCenter, PublicRestrooms\nD. Men's,Women',Family, Looated on, 2ndFlddr,#1199, MedicalSupportOffice, NoPatientServices, PublicRestrooms",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Stanford, PublicRestrooms, 2ndFlddr,#1199, MedicalSupportOffice, Located on, STANFORDMEDICNE, NoPatientServices, StanfordShoppingCenter, HEALTHCAPE, Men's,Women',Family' are all readable within [[664.5889494913324, 133.50171201354888], [1067.3509374277608, 133.50171201354888], [1067.3509374277608, 958.8936378300125], [664.5889494913324, 958.8936378300125]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0130/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0130/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text appearing inside the region [[670.8640430120877, 763.0787363269781], [1056.3561730298557, 763.0787363269781], [1056.3561730298557, 958.8936378300125], [670.8640430120877, 958.8936378300125]]: ________",
+              "answer": [
+                "StanfordShoppingCenter",
+                "PublicRestrooms",
+                "Men's,Women',Family",
+                "Located on"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Peeking at [[316,906], [770,873], [770,923], [320,955]], the text reads \"Men's,Wo____',Family\" with a gap — what character(s) belong there?",
+              "answer": "men"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best captures the text shown in [[648, 137], [1044, 137], [1044, 674], [648, 674]]. Options:\nA. StanfordShoppingCenter, HEALTHCARE, MedicalSupportOffice, STANFORDMEDICNE, Stanford\nB. MedicalSupportOffice, NoPatientServices, Stanford, STANFORDMEDICNE, HEALTHCARE\nC. HEALTHCARE, MedicalSuppartOffice, STANFORDMEDICNE, Stanford, 2ndFlddr,#1199\nD. 2ndFlddr,#1199, STANFORDMEDICNE, NoPatientServices, HEALTHCARE, Stenford",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it accurate that 'Located on, NoPatientServices, STANFORDMEDICNE, Stanford, HEALTHCARE, MedioalSupportOffice, 2ndFlddr,#1199, Men's,Women',Family, StanfordShoppingCenter, PublicRestrooms' can all be found within [[648.3585829991857, 136.6430732700934], [1056.3561730298557, 136.6430732700934], [1056.3561730298557, 958.8936378300125], [648.3585829991857, 958.8936378300125]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0130"
+  }
+]

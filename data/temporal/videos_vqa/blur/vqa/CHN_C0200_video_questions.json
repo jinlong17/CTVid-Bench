@@ -1,0 +1,313 @@
+{
+  "video_id": "C0200",
+  "frames": 120,
+  "word": "欢迎光临",
+  "video_path": "temporal/videos_vqa/blur/videos/CHN_C0200.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"欢迎光临\" likely to be?\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. event or poster information\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. storefront or brand sign",
+      "q": "「欢迎光临」这几个字，通常会出现在什么类型的牌子或标识上？\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. event or poster information\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. storefront or brand sign",
+      "a": "G",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. direction or navigation sign",
+        "B. menu or commercial information",
+        "C. event or poster information",
+        "D. general scene text",
+        "E. warning or prohibition sign",
+        "F. address or street sign",
+        "G. storefront or brand sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「欢迎光临」这几个字，通常会出现在什么类型的牌子或标识上？\n Options:\nA. direction or navigation sign\nB. menu or commercial information\nC. event or poster information\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. storefront or brand sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"欢迎光临\" appear in?\n Options:\nA. restaurant or menu\nB. road or street\nC. warning / rule sign\nD. transportation / station\nE. storefront\nF. campus or office\nG. event poster or display\nH. other public sign",
+      "q": "写着「欢迎光临」的这段文字，看起来是出现在什么样的场景里？\n Options:\nA. restaurant or menu\nB. road or street\nC. warning / rule sign\nD. transportation / station\nE. storefront\nF. campus or office\nG. event poster or display\nH. other public sign",
+      "a": "A",
+      "a_text": "restaurant or menu",
+      "answer_key": "restaurant or menu",
+      "options": [
+        "A. restaurant or menu",
+        "B. road or street",
+        "C. warning / rule sign",
+        "D. transportation / station",
+        "E. storefront",
+        "F. campus or office",
+        "G. event poster or display",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「欢迎光临」的这段文字，看起来是出现在什么样的场景里？\n Options:\nA. restaurant or menu\nB. road or street\nC. warning / rule sign\nD. transportation / station\nE. storefront\nF. campus or office\nG. event poster or display\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"欢迎光临\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-left (upper-left area)",
+      "q": "看这段视频，「欢迎光临」这几个字大多数时候出现在画面的哪个位置？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-left (upper-left area)",
+      "a": "C",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. bottom-right (lower-right area)",
+        "C. center (middle of the frame)",
+        "D. bottom-left (lower-left area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看这段视频，「欢迎光临」这几个字大多数时候出现在画面的哪个位置？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"欢迎光临\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "从头看到尾，「欢迎光临」这段文字挪动了多少？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "C",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从头看到尾，「欢迎光临」这段文字挪动了多少？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"欢迎光临\" move?\n Options:\nA. moves up\nB. moves diagonally\nC. moves down\nD. changes direction partway\nE. moves right\nF. moves left\nG. stays roughly in place",
+      "q": "总体来说，「欢迎光临」是朝哪个方向移动的？\n Options:\nA. moves up\nB. moves diagonally\nC. moves down\nD. changes direction partway\nE. moves right\nF. moves left\nG. stays roughly in place",
+      "a": "D",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves up",
+        "B. moves diagonally",
+        "C. moves down",
+        "D. changes direction partway",
+        "E. moves right",
+        "F. moves left",
+        "G. stays roughly in place"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来说，「欢迎光临」是朝哪个方向移动的？\n Options:\nA. moves up\nB. moves diagonally\nC. moves down\nD. changes direction partway\nE. moves right\nF. moves left\nG. stays roughly in place"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"欢迎光临\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-right -> center\nB. center -> top-right -> bottom-right\nC. center -> top-right -> top-left\nD. top-left -> top-right -> center",
+      "q": "视频播放期间，「欢迎光临」这段文字在靠近开头、中段和临近结尾时，分别在画面的什么位置？\n Options:\nA. center -> top-right -> center\nB. center -> top-right -> bottom-right\nC. center -> top-right -> top-left\nD. top-left -> top-right -> center",
+      "a": "A",
+      "a_text": "center -> top-right -> center",
+      "answer_key": "center -> top-right -> center",
+      "options": [
+        "A. center -> top-right -> center",
+        "B. center -> top-right -> bottom-right",
+        "C. center -> top-right -> top-left",
+        "D. top-left -> top-right -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播放期间，「欢迎光临」这段文字在靠近开头、中段和临近结尾时，分别在画面的什么位置？\n Options:\nA. center -> top-right -> center\nB. center -> top-right -> bottom-right\nC. center -> top-right -> top-left\nD. top-left -> top-right -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"欢迎光临\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)",
+      "q": "在这段视频里，「欢迎光临」相对于整个画面来说，字体大小大概是怎样的？\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)",
+      "a": "C",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在这段视频里，「欢迎光临」相对于整个画面来说，字体大小大概是怎样的？\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"欢迎光临\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "q": "随着视频播放，「欢迎光临」这几个字的大小有没有明显变化——是变大了、变小了，还是基本保持不变？\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. stays about the same size",
+        "C. gets smaller",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「欢迎光临」这几个字的大小有没有明显变化——是变大了、变小了，还是基本保持不变？\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"欢迎光临\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "你觉得「欢迎光临」这段文字是居中显示在画面内部，还是更靠近某条边缘？\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "B",
+      "a_text": "touches or runs off an edge",
+      "answer_key": "touches or runs off an edge",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你觉得「欢迎光临」这段文字是居中显示在画面内部，还是更靠近某条边缘？\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"欢迎光临\" and how it appears in the video.",
+      "q": "这段文字「欢迎光临」在视频里是什么样子，大致形容一下？",
+      "a": "The white text \"欢迎光临\" is printed on a red horizontal band across a glass restaurant door.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段文字「欢迎光临」在视频里是什么样子，大致形容一下？"
+    }
+  ],
+  "method": "blur"
+}

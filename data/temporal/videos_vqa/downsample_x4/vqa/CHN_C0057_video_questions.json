@@ -1,0 +1,313 @@
+{
+  "video_id": "C0057",
+  "frames": 120,
+  "word": "5分钟上齐\n超时产品免费送",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0057.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"5分钟上齐\n超时产品免费送\" likely to be?\n Options:\nA. general scene text\nB. storefront or brand sign\nC. address or street sign\nD. direction or navigation sign\nE. event or poster information\nF. warning or prohibition sign\nG. menu or commercial information",
+      "q": "写着「5分钟上齐\n超时产品免费送」的这段文字，你觉得它更像是哪种类型的标识？\n Options:\nA. general scene text\nB. storefront or brand sign\nC. address or street sign\nD. direction or navigation sign\nE. event or poster information\nF. warning or prohibition sign\nG. menu or commercial information",
+      "a": "G",
+      "a_text": "menu or commercial information",
+      "answer_key": "menu or commercial information",
+      "options": [
+        "A. general scene text",
+        "B. storefront or brand sign",
+        "C. address or street sign",
+        "D. direction or navigation sign",
+        "E. event or poster information",
+        "F. warning or prohibition sign",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「5分钟上齐\n超时产品免费送」的这段文字，你觉得它更像是哪种类型的标识？\n Options:\nA. general scene text\nB. storefront or brand sign\nC. address or street sign\nD. direction or navigation sign\nE. event or poster information\nF. warning or prohibition sign\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"5分钟上齐\n超时产品免费送\" appear in?\n Options:\nA. campus or office\nB. storefront\nC. other public sign\nD. restaurant or menu\nE. event poster or display\nF. warning / rule sign\nG. road or street\nH. transportation / station",
+      "q": "写有「5分钟上齐\n超时产品免费送」这句话的地方，整体是个什么样的场景？\n Options:\nA. campus or office\nB. storefront\nC. other public sign\nD. restaurant or menu\nE. event poster or display\nF. warning / rule sign\nG. road or street\nH. transportation / station",
+      "a": "D",
+      "a_text": "restaurant or menu",
+      "answer_key": "restaurant or menu",
+      "options": [
+        "A. campus or office",
+        "B. storefront",
+        "C. other public sign",
+        "D. restaurant or menu",
+        "E. event poster or display",
+        "F. warning / rule sign",
+        "G. road or street",
+        "H. transportation / station"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写有「5分钟上齐\n超时产品免费送」这句话的地方，整体是个什么样的场景？\n Options:\nA. campus or office\nB. storefront\nC. other public sign\nD. restaurant or menu\nE. event poster or display\nF. warning / rule sign\nG. road or street\nH. transportation / station"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"5分钟上齐\n超时产品免费送\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. top-right (upper-right area)",
+      "q": "「5分钟上齐\n超时产品免费送」这段文字，在画面里大部分时候出现在哪个位置？\n Options:\nA. bottom-right (lower-right area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. top-right (upper-right area)",
+      "a": "C",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. bottom-left (lower-left area)",
+        "C. center (middle of the frame)",
+        "D. top-left (upper-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「5分钟上齐\n超时产品免费送」这段文字，在画面里大部分时候出现在哪个位置？\n Options:\nA. bottom-right (lower-right area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"5分钟上齐\n超时产品免费送\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "在整段视频里，写着「5分钟上齐\n超时产品免费送」的文字大概移动了多少？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在整段视频里，写着「5分钟上齐\n超时产品免费送」的文字大概移动了多少？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"5分钟上齐\n超时产品免费送\" move?\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves up\nD. moves diagonally\nE. moves down\nF. moves left\nG. moves right",
+      "q": "总体来看，「5分钟上齐\n超时产品免费送」这段文字是朝哪个方向运动的？\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves up\nD. moves diagonally\nE. moves down\nF. moves left\nG. moves right",
+      "a": "D",
+      "a_text": "moves diagonally",
+      "answer_key": "moves diagonally",
+      "options": [
+        "A. changes direction partway",
+        "B. stays roughly in place",
+        "C. moves up",
+        "D. moves diagonally",
+        "E. moves down",
+        "F. moves left",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「5分钟上齐\n超时产品免费送」这段文字是朝哪个方向运动的？\n Options:\nA. changes direction partway\nB. stays roughly in place\nC. moves up\nD. moves diagonally\nE. moves down\nF. moves left\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"5分钟上齐\n超时产品免费送\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> bottom-right\nB. center -> center -> top-right\nC. center -> top-right -> center\nD. center -> center -> center",
+      "q": "从片头到片尾，「5分钟上齐\n超时产品免费送」分别在画面的哪个区域？\n Options:\nA. center -> center -> bottom-right\nB. center -> center -> top-right\nC. center -> top-right -> center\nD. center -> center -> center",
+      "a": "D",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> center -> bottom-right",
+        "B. center -> center -> top-right",
+        "C. center -> top-right -> center",
+        "D. center -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从片头到片尾，「5分钟上齐\n超时产品免费送」分别在画面的哪个区域？\n Options:\nA. center -> center -> bottom-right\nB. center -> center -> top-right\nC. center -> top-right -> center\nD. center -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"5分钟上齐\n超时产品免费送\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "你觉得「5分钟上齐\n超时产品免费送」这段文字占画面的比例大约有多大？\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "C",
+      "a_text": "very large (dominates the frame)",
+      "answer_key": "very large",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你觉得「5分钟上齐\n超时产品免费送」这段文字占画面的比例大约有多大？\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"5分钟上齐\n超时产品免费送\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "q": "看下去，「5分钟上齐\n超时产品免费送」这段文字的尺寸有没有明显变化，是变大、变小，还是基本保持不变？\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. size fluctuates (goes up and down)",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看下去，「5分钟上齐\n超时产品免费送」这段文字的尺寸有没有明显变化，是变大、变小，还是基本保持不变？\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"5分钟上齐\n超时产品免费送\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "这段写着「5分钟上齐\n超时产品免费送」的文字，整体是靠近画面边缘，还是在画面内侧？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段写着「5分钟上齐\n超时产品免费送」的文字，整体是靠近画面边缘，还是在画面内侧？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"5分钟上齐\n超时产品免费送\" and how it appears in the video.",
+      "q": "简单描述一下「5分钟上齐\n超时产品免费送」这段文字是什么，以及它在视频里的整体表现。",
+      "a": "The target text is written in stylized Chinese characters on a bright orange rectangular sign, partially covered by green artificial plant leaves.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "简单描述一下「5分钟上齐\n超时产品免费送」这段文字是什么，以及它在视频里的整体表现。"
+    }
+  ],
+  "method": "downsample_x4"
+}

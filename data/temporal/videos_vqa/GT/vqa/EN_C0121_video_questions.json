@@ -1,0 +1,312 @@
+{
+  "video_id": "C0121",
+  "frames": 120,
+  "word": "PARKING ONLY\nMINIMUM\nFINE $250",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0121.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" likely to be?\n Options:\nA. menu or commercial information\nB. general scene text\nC. event or poster information\nD. storefront or brand sign\nE. warning or prohibition sign\nF. direction or navigation sign\nG. address or street sign",
+      "q": "What type of sign would you expect to display the text \"PARKING ONLY\nMINIMUM\nFINE $250\"?\n Options:\nA. menu or commercial information\nB. general scene text\nC. event or poster information\nD. storefront or brand sign\nE. warning or prohibition sign\nF. direction or navigation sign\nG. address or street sign",
+      "a": "E",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. menu or commercial information",
+        "B. general scene text",
+        "C. event or poster information",
+        "D. storefront or brand sign",
+        "E. warning or prohibition sign",
+        "F. direction or navigation sign",
+        "G. address or street sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you expect to display the text \"PARKING ONLY\nMINIMUM\nFINE $250\"?\n Options:\nA. menu or commercial information\nB. general scene text\nC. event or poster information\nD. storefront or brand sign\nE. warning or prohibition sign\nF. direction or navigation sign\nG. address or street sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" appear in?\n Options:\nA. road or street\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. event poster or display\nF. campus or office\nG. warning / rule sign\nH. other public sign",
+      "q": "The text \"PARKING ONLY\nMINIMUM\nFINE $250\" — what kind of environment does it appear in throughout the clip?\n Options:\nA. road or street\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. event poster or display\nF. campus or office\nG. warning / rule sign\nH. other public sign",
+      "a": "G",
+      "a_text": "warning / rule sign",
+      "answer_key": "warning / rule sign",
+      "options": [
+        "A. road or street",
+        "B. storefront",
+        "C. restaurant or menu",
+        "D. transportation / station",
+        "E. event poster or display",
+        "F. campus or office",
+        "G. warning / rule sign",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text \"PARKING ONLY\nMINIMUM\nFINE $250\" — what kind of environment does it appear in throughout the clip?\n Options:\nA. road or street\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. event poster or display\nF. campus or office\nG. warning / rule sign\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-left (lower-left area)\nC. bottom-right (lower-right area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)",
+      "q": "Throughout the video, where in the frame does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" tend to sit?\n Options:\nA. center (middle of the frame)\nB. bottom-left (lower-left area)\nC. bottom-right (lower-right area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-left (lower-left area)",
+        "C. bottom-right (lower-right area)",
+        "D. top-left (upper-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Throughout the video, where in the frame does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" tend to sit?\n Options:\nA. center (middle of the frame)\nB. bottom-left (lower-left area)\nC. bottom-right (lower-right area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "How much does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" shift around during the clip — barely at all, a moderate amount, or quite a lot?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "C",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" shift around during the clip — barely at all, a moderate amount, or quite a lot?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" move?\n Options:\nA. moves down\nB. stays roughly in place\nC. moves right\nD. moves left\nE. changes direction partway\nF. moves up\nG. moves diagonally",
+      "q": "In which direction does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" generally drift across the video?\n Options:\nA. moves down\nB. stays roughly in place\nC. moves right\nD. moves left\nE. changes direction partway\nF. moves up\nG. moves diagonally",
+      "a": "E",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves down",
+        "B. stays roughly in place",
+        "C. moves right",
+        "D. moves left",
+        "E. changes direction partway",
+        "F. moves up",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In which direction does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" generally drift across the video?\n Options:\nA. moves down\nB. stays roughly in place\nC. moves right\nD. moves left\nE. changes direction partway\nF. moves up\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" at the beginning, the middle, and the end?\n Options:\nA. top-left -> bottom-right -> center\nB. bottom-left -> bottom-right -> center\nC. bottom-left -> bottom-right -> top-left\nD. center -> bottom-right -> center",
+      "q": "Where does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" sit near the start, in the middle, and toward the end of the clip?\n Options:\nA. top-left -> bottom-right -> center\nB. bottom-left -> bottom-right -> center\nC. bottom-left -> bottom-right -> top-left\nD. center -> bottom-right -> center",
+      "a": "B",
+      "a_text": "bottom-left -> bottom-right -> center",
+      "answer_key": "bottom-left -> bottom-right -> center",
+      "options": [
+        "A. top-left -> bottom-right -> center",
+        "B. bottom-left -> bottom-right -> center",
+        "C. bottom-left -> bottom-right -> top-left",
+        "D. center -> bottom-right -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Where does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" sit near the start, in the middle, and toward the end of the clip?\n Options:\nA. top-left -> bottom-right -> center\nB. bottom-left -> bottom-right -> center\nC. bottom-left -> bottom-right -> top-left\nD. center -> bottom-right -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)",
+      "q": "Relative to the frame, how big does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" appear?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)",
+      "a": "A",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. very large (dominates the frame)",
+        "C. large (a major part of the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Relative to the frame, how big does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" appear?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "q": "Does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" grow larger, shrink, or stay roughly the same size throughout the video?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. stays about the same size",
+        "C. size fluctuates (goes up and down)",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does the text \"PARKING ONLY\nMINIMUM\nFINE $250\" grow larger, shrink, or stay roughly the same size throughout the video?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "q": "Is the text \"PARKING ONLY\nMINIMUM\nFINE $250\" positioned well within the frame, or does it sit close to one of the edges?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. fully inside, away from the edges",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"PARKING ONLY\nMINIMUM\nFINE $250\" positioned well within the frame, or does it sit close to one of the edges?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"PARKING ONLY\nMINIMUM\nFINE $250\" and how it appears in the video.",
+      "q": "What can you tell about the text \"PARKING ONLY\nMINIMUM\nFINE $250\" — how it appears, where it sits, and how it behaves throughout the clip?",
+      "a": "The target text is printed in white on a blue parking sign featuring a wheelchair symbol.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What can you tell about the text \"PARKING ONLY\nMINIMUM\nFINE $250\" — how it appears, where it sits, and how it behaves throughout the clip?"
+    }
+  ]
+}

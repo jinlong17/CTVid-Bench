@@ -1,0 +1,494 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best describes what is written inside [[650.047619047619, 222.85714285714286], [1410.377358490566, 222.85714285714286], [1410.377358490566, 1079.0], [650.047619047619, 1079.0]]. The word(s) is/are ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY",
+                "ModelS,Model3,ModelXandModelYsecuredthe",
+                "topfourspots out of 10o vehicles in the Cars.com",
+                "\"American-Made Index'basedonbuildlocation,"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Buried in the text at [[705,1057], [1236,1015], [1236,1041], [705,1079]] is \"Am____ican-Made Index'basedonbuildlocation\" — which character(s) are absent?",
+              "answer": "er"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option below correctly identifies the text(s) found in [[650, 223], [1410, 223], [1410, 560], [650, 560]]? Options:\nA. CarsAreS3XY, topfourspots out of 10o vehicles in the Cars.com\nB. American-Made, CarsAreS3XY\nC. Americen-Made, CarsAreS3XY\nD. TheMost, ModelS,Model3,ModelXandModelYsecuredthe",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'American-Made, topfourspots out of 10o vehicles in the Cars.com, TheMost, CarsAreS3XY' fall inside the bounding box [[650.047619047619, 222.85714285714286], [1410.377358490566, 222.85714285714286], [1410.377358490566, 1079.0], [650.047619047619, 1079.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside region [[653.8450874020493, 202.60397830018084], [1410.3773584905662, 202.60397830018084], [1410.3773584905662, 1080.0], [653.8450874020493, 1080.0]], the text reads: ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY",
+                "ModelS,Model3,ModelXandModelYsecuredthe",
+                "topfourspots out of 10o vehicles in the Cars.com",
+                "\"American-Made Index'basedonbuildlocation,",
+                "artsandworkforce"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the area marked by [[1155,1059], [1274,1056], [1274,1079], [1155,1080]], supply the missing character(s) to complete: \"d____drive\".",
+              "answer": "emo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which one matches what's written in [[654, 203], [1410, 203], [1410, 1080], [654, 1080]]? Options:\nA. \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe, artsandworkferce, topfourspots out of 10o vehicles in the Cars.com, CarsAreS3XY, TheMost\nB. ModelS,Model3,ModelXandModelYsecuredthe, CarsAreS3XY, American-Made, \"Amorican-Made Index'basedonbuildlocation,, artsandworkforce, topfourspots out of 10o vehicles in the Cars.com\nC. American-Made, topfounspots out of 10o vehicles in the Cars.com, CarsAreS3XY, artsandworkforce, ModelS,Model3,ModelXandModelYsecuredthe, TheMost\nD. \"American-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com, ModelS,Model3,ModelXandModelYsecuredthe, artsandworkforce, CarsAreS3XY, TheMost",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scanning the bounding box [[653.8450874020493, 202.60397830018084], [1410.3773584905662, 202.60397830018084], [1410.3773584905662, 1080.0], [653.8450874020493, 1080.0]], are the label(s) 'CarsAreS3XY, TbeMost, \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe, artsandworkforce, American-Made, topfourspots out of 10o vehicles in the Cars.com' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the text inside bounding box [[654, 184], [1418, 184], [1418, 523], [654, 523]], you would find: ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What character(s) are needed to finish the word shown at [[674,370], [1366,341], [1369,426], [678,457]]: \"CarsA____Y\"?",
+              "answer": "reS3X"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[654, 184], [1418, 184], [1418, 1073], [654, 1073]], select the answer that correctly lists the text found there. Options:\nA. topfourspots out of 10o vehicles in the Cars.com, ModelS,Model3,ModelXandModelYsecuredthe, American-Made, \"American-Made Index'basedonbuildlocation,, TheMost, CarsAreS3XY\nB. partsandworkforce, \"American-Made Index'basedonbuildlocation,, MadelS,Model3,ModelXandModelYsecuredthe, topfourspots out of 10o vehicles in the Cars.com, CarsAreS3XY, TheMost\nC. CarsAreS3XY, TheMost, partsandworkforce, American-Made, topfourspots out of 10o vehicles in the Cars.com, MOdelS,Model3,ModelXandModelYsecuredthe\nD. TheMost, CarsAreS3XY, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce, \"Amorican-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over in bounding box [[703, 919], [1286, 919], [1286, 1073], [703, 1073]], do the label(s) 'topfourspots out of 10o vehicles in the Cars.com, TheMost, partsandworkforce, \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe' show up?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[711, 907], [1294, 907], [1294, 1063], [711, 1063]], the word(s) visible there is/are: ________.",
+              "answer": [
+                "ModelS,Model3,ModelXandModelYsecuredthe",
+                "topfourspots out of 10o vehicles in the Cars.com",
+                "\"American-Made Index'basedonbuildlocation,",
+                "partsandworkforce"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text box at [[664,939], [1242,904], [1242,935], [664,966]] needs its gap filled — what character(s) complete: \"American-M____ Index'basedonbuildlocation\"?",
+              "answer": "ade"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options given, pick the one that includes the text visible in [[655, 169], [1422, 169], [1422, 1063], [655, 1063]]. Options:\nA. American-Made, TheMost, \"American-Made Index'basedonbuildlocation,, CarsAreS3XY, ModelS,Model3,ModelXandModelYsecuredthe, topfourspots out of 10o vehicles in the Cars.com\nB. topfourspots out of 10o vehicles in the Cars.com, Americen-Made, TheMost, \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe, CarsAreS3XY\nC. CersAreS3XY, \"American-Made Index'basedonbuildlocation,, partsandworkforce, American-Made, TheMost, topfourspots out of 10o vehicles in the Cars.com\nD. Amorican-Made, CarsAreS3XY, partsandworkforce, ModelS,Model3,ModelXandModelYsecuredthe, topfourspots out of 10o vehicles in the Cars.com, TheMost",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'topfourspots out of 10o vehicles in the Cars.com, \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe' can be seen inside the bounding box [[711, 907], [1294, 907], [1294, 1063], [711, 1063]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Peek at [[661.117597552515, 159.3391108533215], [1423.0117028898976, 159.3391108533215], [1423.0117028898976, 1052.799948647524], [661.117597552515, 1052.799948647524]] and fill in: the word(s) there is/are ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY",
+                "ModelS,Model3,ModelXandModelYsecuredthe",
+                "topfourspots out of 10o vehicles in the Cars.com",
+                "\"American-Made Index'basedonbuildlocation,",
+                "partsandworkforce"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given region [[602,880], [1358,851], [1357,891], [600,918]], what character(s) are needed to complete the sequence: \"ModelS,Model3,ModelXan____odelYsecuredthe\"?",
+              "answer": "dM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best matches the text contained in [[711, 896], [1295, 896], [1295, 1053], [711, 1053]]. Options:\nA. ModelS,Model3,ModelXandModelYsecuredthe, topfourspots out of 10o vehicles in the Cars.com, partsendworkforce\nB. partsandworkforce, topfourspots out of 10o vehicles in the Cars.com, \"American-Made Index'basedonbuildlocation,\nC. TheMost, \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe\nD. partsendworkforce, \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the bounding box [[661.117597552515, 159.3391108533215], [1423.0117028898976, 159.3391108533215], [1423.0117028898976, 1052.799948647524], [661.117597552515, 1052.799948647524]], are the label(s) 'partsandworkforce, TheMost, \"American-Made Index'basedonbuildlocation,, CarsAreS3XY, topfourspots out of 10o vehicles in the Cars.com' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spotted within [[663.4164481272276, 147.8448579797583], [1424.1611281772539, 147.8448579797583], [1424.1611281772539, 1044.9465455061631], [663.4164481272276, 1044.9465455061631]]: the word(s) is/are ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY",
+                "ModelS,Model3,ModelXandModelYsecuredthe",
+                "topfourspots out of 10o vehicles in the Cars.com",
+                "\"American-Made Index'basedonbuildlocation,",
+                "partsandworkforce"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown in text box [[549,1046], [1377,1026], [1376,1060], [549,1075]] is the phrase \"Speak ____ a Tesla Advisor about taking a demo drive.\" — what letter(s) complete it?",
+              "answer": "with"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options provided, which one lists the text that appears in [[714, 885], [1297, 885], [1297, 1045], [714, 1045]]? Options:\nA. MadelS,Model3,ModelXandModelYsecuredthe, \"American-Made Index'basedonbuildlocation,, partsandworkforce\nB. \"American-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com, MadelS,Model3,ModelXandModelYsecuredthe\nC. TheMost, \"American-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com\nD. partsandworkforce, \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[663.4164481272276, 147.8448579797583], [1424.1611281772539, 147.8448579797583], [1424.1611281772539, 1044.9465455061631], [663.4164481272276, 1044.9465455061631]]: does it contain the label(s) 'partsandworkforce, CarsAreS3XY, topfourspots out of 10o vehicles in the Cars.com, \"American-Made Index'basedonbuildlocation,, American-Made'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Running your eye over [[660.2914481272276, 136.386524646425], [1426.244461510587, 136.386524646425], [1426.244461510587, 481.6654886224189], [660.2914481272276, 481.6654886224189]], you'd see: ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[448,806], [1400,802], [1397,847], [449,846]], what character(s) complete the sequence \"topfoursp____ out of 10o vehicles in the Cars.com\"?",
+              "answer": "ots"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify which option matches the text shown inside [[660, 136], [1426, 136], [1426, 1080], [660, 1080]]. Options:\nA. TheMost, ModelS,Model3,ModelXandModelYsecuredthe, \"American-Made Index'basedonbuildlocation,, partsandworkforce, CarsAreS3XY, topfourspots out of 10o vehicles in the Cars.com, American-Made\nB. Americen-Made, CarsAreS3XY, topfourspots out of 10o vehicles in the Cars.com, \"American-Made Index'basedonbuildlocation,, partsandworkforce, demodrive, TheMost\nC. ModelS,Model3,ModelXandModelYsecuredthe, domodrive, topfourspots out of 10o vehicles in the Cars.com, TheMost, CarsAreS3XY, \"American-Made Index'basedonbuildlocation,, partsandworkforce\nD. Amorican-Made, TheMost, topfourspots out of 10o vehicles in the Cars.com, ModelS,Model3,ModelXandModelYsecuredthe, partsandworkforce, \"American-Made Index'basedonbuildlocation,, demodrive",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'TheMost, American-Made, demodrive, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce, ModelS,Model3,ModelXandModelYsecuredthe' appear inside the region marked by [[660.2914481272276, 136.386524646425], [1426.244461510587, 136.386524646425], [1426.244461510587, 1080.0], [660.2914481272276, 1080.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) can be found inside [[664.4581147938943, 130.136524646425], [1426.2444615105867, 130.136524646425], [1426.2444615105867, 473.17492258468303], [664.4581147938943, 473.17492258468303]]? ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the text region [[401,817], [1382,816], [1382,859], [403,856]], what goes in the blank to complete: \"topfour____ out of 10o vehicles in the Cars.com\"?",
+              "answer": "spots"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) found within [[664, 130], [1426, 130], [1426, 1080], [664, 1080]]? Options:\nA. American-Made, ModelS,Model3,ModelXandModelYsecuredthe, CarsAreS3XY, partsandworkforce, \"American-Made Index'basedonbuildlocation,, TheMost, takingademodrive\nB. takingademodrive, TheMost, ModelS,Model3,ModelXandModelYsecuredthe, \"American-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce, CersAreS3XY\nC. partsandworkforce, topfourspots out of 10o vehicles in the Cars.com, takingademodrive, TheMost, \"American-Made Index'basedonbuildlocation,, OarsAreS3XY, American-Made\nD. GarsAreS3XY, topfourspots out of 10o vehicles in the Cars.com, American-Made, takingademodrive, TheMost, partsandworkforce, ModelS,Model3,ModelXandModelYsecuredthe",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are all of these labels — 'takingademodrive, \"American-Made Index'basedonbuildlocation,, partsandworkforce, ModelS,Model3,ModelXandModelYsecuredthe' — contained within [[711, 868], [1295, 868], [1295, 1080], [711, 1080]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) visible inside [[657.011306283256, 120.5620565613186], [1426.244461510587, 120.5620565613186], [1426.244461510587, 461.4727949251086], [657.011306283256, 461.4727949251086]] — the word(s) is/are ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word(s) belong in the blank to complete the phrase at [[444,1029], [1371,1035], [1368,1080], [442,1079]]: \"Speak with ____ Tesla Advisor about taking a demo drive\"?",
+              "answer": "a"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that matches the text(s) inside [[711, 864], [1294, 864], [1294, 1080], [711, 1080]]. Options:\nA. ModelS,Model3,ModelXandModelYsecuredthe, \"American-Made Index'basedonbuildlocation,, TheMost, partsandworkforce\nB. abouttakingademodrive, topfourspots out of 10o vehicles in the Cars.com, partsendworkforce, ModelS,Model3,ModelXandModelYsecuredthe\nC. partsandworkforce, \"American-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com, abouttakingadomodrive\nD. abouttakingademodrive, ModelS,Model3,ModelXandModelYsecuredthe, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "All of the label(s) 'abouttakingademodrive, \"American-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com, ModelS,Model3,ModelXandModelYsecuredthe, CarsAreS3XY, partsandworkforce' — do they fall within [[711, 864], [1294, 864], [1294, 1080], [711, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[662.0745974224965, 120.5620565613186], [1428.3277948439202, 120.5620565613186], [1428.3277948439202, 1080.0], [662.0745974224965, 1080.0]] and report the word(s) you find there: ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY",
+                "ModelS,Model3,ModelXandModelYsecuredthe",
+                "topfourspots out of 10o vehicles in the Cars.com",
+                "\"American-Made Index'basedonbuildlocation,",
+                "partsandworkforce",
+                "ttakingademodrive"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[430,877], [1391,875], [1392,922], [432,916]] contains the phrase \"topfourspot____ out of 10o vehicles in the Cars.com\" — what word(s) should fill in topfourspot____?",
+              "answer": "s"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[662, 121], [1428, 121], [1428, 1080], [662, 1080]], which answer option correctly captures the text(s) there? Options:\nA. ModelS,Model3,ModelXandModelYsecuredthe, American-Made, topfourspots out of 10o vehicles in the Cars.com, ttekingademodrive, CarsAreS3XY, TheMost, partsandworkforce\nB. TheMost, American-Made, \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe, topfourspots out of 10o vehicles in the Cars.com, ttakingademodrive, partsandworkforce\nC. partsandworkforce, \"Amorican-Made Index'basedonbuildlocation,, ttakingademodrive, CarsAreS3XY, TheMost, American-Made, topfourspots out of 10o vehicles in the Cars.com\nD. American-Made, partsendworkforce, ModelS,Model3,ModelXandModelYsecuredthe, CarsAreS3XY, \"American-Made Index'basedonbuildlocation,, ttakingademodrive, topfourspots out of 10o vehicles in the Cars.com",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[709, 866], [1293, 866], [1293, 1080], [709, 1080]], do you find the label(s) 'ttakingademodrive, ModelS,Model3,ModelXandModelYsecuredthe, CarsAreS3XY, partsandworkforce, \"American-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) sitting inside [[1154.6777546777546, 1056.3201663201662], [1274.2203742203742, 1056.3201663201662], [1274.2203742203742, 1080.0], [1154.6777546777546, 1080.0]] — what are they? ________.",
+              "answer": [
+                "demodrive"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text at [[397,35], [1614,36], [1610,184], [399,179]], supply the missing segment that completes the phrase \"Cars____S3XY\".",
+              "answer": "Are"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that accurately represents the text(s) found inside [[662, 130], [1427, 130], [1427, 1080], [662, 1080]]. Options:\nA. partsandworkforce, TheMost, \"Amorican-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com, ModelS,Model3,ModelXandModelYsecuredthe, CarsAreS3XY, demodrive\nB. CarsAreS3XY, \"American-Made Index'basedonbuildlocation,, domodrive, TheMost, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce, American-Made\nC. \"American-Made Index'basedonbuildlocation,, ModelS,Model3,ModelXandModelYsecuredthe, partsandworkforce, topfourspots out of 10o vehicles in the Cars.com, American-Made, CarsAreS3XY, demodrive\nD. MadelS,Model3,ModelXandModelYsecuredthe, TheMost, demodrive, \"American-Made Index'basedonbuildlocation,, American-Made, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[710, 871], [1293, 871], [1293, 1080], [710, 1080]] — does it contain the label(s) 'ModelS,Model3,ModelXandModelYsecuredthe, topfourspots out of 10o vehicles in the Cars.com, demodrive, \"American-Made Index'basedonbuildlocation,'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0157/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0157/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can see inside the region [[663.0179936489116, 132.8262075047148], [1429.2711910703356, 132.8262075047148], [1429.2711910703356, 479.0435496420898], [663.0179936489116, 479.0435496420898]]: ________.",
+              "answer": [
+                "TheMost",
+                "American-Made",
+                "CarsAreS3XY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[544,987], [1263,982], [1262,1020], [544,1023]], the phrase reads \"American-____ Index'basedonbuildlocation\" — which character(s) go in American-____?",
+              "answer": "Made"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that best matches the text(s) visible inside [[663, 133], [1429, 133], [1429, 1080], [663, 1080]]. Options:\nA. TheMost, CarsAreS3XY, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce, American-Made, edrive, ModelS,Model3,ModelXandModelYsecuredthe\nB. TheMost, ModelS,Model3,ModelXandModelYsecuredthe, CarsAreS3XY, \"American-Made Index'basedonbuildlocation,, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce, odrive\nC. odrivo, \"American-Made Index'basedonbuildlocation,, CarsAreS3XY, TheMost, topfourspots out of 10o vehicles in the Cars.com, partsandworkforce, American-Made\nD. American-Made, partsandworkforce, \"American-Made Index'basedonbuildlocation,, odrive, CersAreS3XY, ModelS,Model3,ModelXandModelYsecuredthe, TheMost",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Each of the label(s) 'partsandworkforce, \"American-Made Index'basedonbuildlocation,, odrive, CarsAreS3XY, ModelS,Model3,ModelXandModelYsecuredthe, American-Made, TheMost, topfourspots out of 10o vehicles in the Cars.com' — are they all located within [[663, 133], [1429, 133], [1429, 1035], [663, 1035]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0157"
+  }
+]

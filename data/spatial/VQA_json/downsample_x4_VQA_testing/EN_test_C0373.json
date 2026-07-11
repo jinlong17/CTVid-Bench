@@ -1,0 +1,466 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text you can read inside [[1253.1980906921242, 802.3866348448687], [1415.944055944056, 802.3866348448687], [1415.944055944056, 903.1026252983293], [1253.1980906921242, 903.1026252983293]]. ________",
+              "answer": [
+                "JLG LIFT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[227,790], [301,784], [302,816], [229,821]], some characters are missing from \"JL____\" — which ones?",
+              "answer": "G"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the choice that matches the text you see in [[830, 580], [1416, 580], [1416, 903], [830, 903]]. Options:\nA. SUNBELT RENTALS\nB. SUNBBLT RENTALS\nC. SUNBBLT RENTALS\nD. JLG",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'SUNBELT RENTALS' when you look at [[830, 580], [1416, 580], [1416, 903], [830, 903]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word visible inside [[214, 589], [1107, 589], [1107, 828], [214, 828]]. ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text box [[1158,752], [1295,822], [1268,852], [1133,785]] shows \"JLG ____\" — what segment completes it?",
+              "answer": "LIFT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which answer best captures the text inside [[214, 791], [1404, 791], [1404, 909], [214, 909]]? Options:\nA. JLO\nB. JLO LIFT\nC. SUNBELT RENTALS\nD. JLG LIFT",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'SUNBELT RENTALS, JLG' is contained inside [[214.12863972186014, 589.197281282677], [1404.1407772555315, 589.197281282677], [1404.1407772555315, 909.0042646425916], [214.12863972186014, 909.0042646425916]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you find in the area [[800, 592], [1386, 592], [1386, 917], [800, 917]]. ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[6,754], [79,748], [81,780], [8,785]], the sequence \"J____G\" starts with \"J\" — what follows it?",
+              "answer": "L"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that correctly reflects the text in region [[800, 592], [1386, 592], [1386, 917], [800, 917]]. Options:\nA. JLG\nB. SUNBELT RENTALS\nC. JLO LIFT\nD. SUNBBLT RENTALS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The box at [[196.39608158232525, 592.0], [1386.1227592375135, 592.0], [1386.1227592375135, 916.8120724503993], [196.39608158232525, 916.8120724503993]] — does 'JLG LIFT, JLG' appear inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can be read from the region bounded by [[777, 591], [1363, 591], [1363, 916], [777, 916]]? ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You'll notice \"____ LIFT\" at [[933,770], [1071,841], [1044,871], [908,804]] has a gap — what fills it?",
+              "answer": "JLG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices given, which one contains the text you see at [[173, 796], [1363, 796], [1363, 916], [173, 916]]? Options:\nA. JLG LIFT\nB. JLO\nC. JLO\nD. SUNBELT RENTALS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can 'JLG LIFT, SUNBFLT RENTALS, JLG' be found within the bounding box [[172.72116992154787, 591.0], [1363.3759781216336, 591.0], [1363.3759781216336, 915.5245188023307], [172.72116992154787, 915.5245188023307]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) that appear inside [[1180, 808], [1343, 808], [1343, 909], [1180, 909]]. ________",
+              "answer": [
+                "JLG LIFT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[941,781], [1079,851], [1052,881], [916,814]], the text reads \"____ LIFT\" — what word(s) fill that blank?",
+              "answer": "JLG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text visible inside [[758, 586], [1343, 586], [1343, 909], [758, 909]]? Options:\nA. JLO LIFT\nB. JLG\nC. JLO LIFT\nD. JLG LIFT",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'JLG LIFT, JLG' appear inside [[153.10264131119365, 586.0], [1342.5596515910213, 586.0], [1342.5596515910213, 908.5857432921266], [153.10264131119365, 908.5857432921266]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside [[743, 573], [1334, 573], [1334, 900], [743, 900]] and write it down. ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase shown in [[547,575], [820,704], [805,735], [532,607]] reads \"SUNBELT ____\" — what word(s) come after SUNBELT?",
+              "answer": "RENTALS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately represents the text found at [[141, 781], [1334, 781], [1334, 900], [141, 900]]. Options:\nA. JLO LIFT\nB. SUNBELT RENTALS\nC. JLO LIFT\nD. JLG LIFT",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'JLG LIFT' fall within the region defined by [[743, 573], [1334, 573], [1334, 900], [743, 900]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out all the text you can see inside [[130, 564], [1325, 564], [1325, 884], [130, 884]]. ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT",
+                "JLG"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown in [[775,580], [1051,711], [1035,744], [759,613]] is the phrase \"____ RENTALS\" — what word(s) belong in the blank?",
+              "answer": "SUNBELT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options correctly lists the text visible inside [[739, 564], [1325, 564], [1325, 884], [739, 884]]? Options:\nA. JLG\nB. SUNBELT RENTALS\nC. SUNBBLT RENTALS\nD. SUNBBLT RENTALS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot the label(s) 'SUNBELT RENTALS, JLG LIFT, JLG' inside the bounding box [[739, 564], [1325, 564], [1325, 884], [739, 884]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word that appears within [[126, 553], [1318, 553], [1318, 874], [126, 874]]. ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT",
+                "JLG"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Focusing on the text \"____G\" at [[325,794], [396,788], [395,820], [325,825]], what are its first two letters?",
+              "answer": "JL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer choice that correctly shows the text inside [[126, 755], [1318, 755], [1318, 874], [126, 874]]. Options:\nA. JLO\nB. JLG LIFT\nC. JLO LIFT\nD. SUNBELT RENTALS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'JLG LIFT' are contained within [[732, 553], [1318, 553], [1318, 874], [732, 874]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) you see inside [[118, 543], [1311, 543], [1311, 864], [118, 864]]. ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT",
+                "JLG"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the region [[323,802], [395,796], [394,828], [323,833]], which character(s) are needed to finish the word(s) \"J____G.\"?",
+              "answer": "L"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one captures all the text shown in [[118, 744], [1311, 744], [1311, 864], [118, 864]]? Options:\nA. SUNBELT RENTALS\nB. JLO\nC. JLO\nD. JLG",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'JLO LIFT, SUNBELT RENTALS, JLG' appear within [[118.30517955188895, 543.348688496399], [1310.768849014324, 543.348688496399], [1310.768849014324, 864.2891863045568], [118.30517955188895, 864.2891863045568]]. True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible in the region [[719, 534], [1302, 534], [1302, 854], [719, 854]]. ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[321,809], [393,803], [392,835], [321,840]], the word(s) \"____\" have a gap — what letters fill it?",
+              "answer": "JLG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the choices and tell me which one matches the text at [[719, 534], [1302, 534], [1302, 854], [719, 854]]. Options:\nA. JLO LIFT\nB. JLG\nC. JLO LIFT\nD. SUNBELT RENTALS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'SUNBFLT RENTALS, JLG, JLG LIFT' are the label(s) shown inside [[111.68753249306545, 533.7742204112925], [1301.6447614230829, 533.7742204112925], [1301.6447614230829, 854.4351717060167], [111.68753249306545, 854.4351717060167]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out inside [[106, 528], [1295, 528], [1295, 852], [106, 852]]? ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT",
+                "JLG"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[361,805], [433,799], [432,830], [361,835]], the text has a gap shown as \"JL____\" — what character(s) complete it?",
+              "answer": "G"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option correctly identifies the text(s) inside [[106, 731], [1295, 731], [1295, 852], [106, 852]]? Options:\nA. SUNBELT RENTALS\nB. JLG LIFT\nC. JLO\nD. JLO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[106, 731], [1295, 731], [1295, 852], [106, 852]], do you see the label(s) 'JLG LIFT, JLG, SUNBELT RENTALS'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0373/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0373/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text inside the region [[98, 525], [1290, 525], [1290, 848], [98, 848]]. ________",
+              "answer": [
+                "SUNBELT RENTALS",
+                "JLG LIFT",
+                "JLG"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1134,570], [1408,705], [1392,738], [1117,603]] partially reads \"SUN____T RENTALS\" — what character(s) go in the blank?",
+              "answer": "BEL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly lists the text found at [[98, 730], [1290, 730], [1290, 848], [98, 848]]. Options:\nA. SUNBELT RENTALS\nB. JLG\nC. JLO\nD. JLO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the region [[97.70713552520769, 524.9673570107897], [1289.9046398425357, 524.9673570107897], [1289.9046398425357, 847.8432264172629], [97.70713552520769, 847.8432264172629]], are the label(s) 'JLG, JLG LIFT' present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0373"
+  }
+]

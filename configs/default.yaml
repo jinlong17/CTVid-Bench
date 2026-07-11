@@ -7,8 +7,8 @@
 #   then change these paths to your download directory (e.g. "./data").
 
 spatial_qa:
-  annotation_dir: "data/spatial_qa/annotations"
-  image_root: "data/spatial_qa/images"
+  annotation_dir: "data/spatial/VQA_json"
+  image_root: "data/spatial/VQA_img"
   datasets:
     - GT
     - blur
@@ -19,17 +19,17 @@ spatial_qa:
     downsample_x4: "downsample_x4_VQA_testing"
 
 temporal_qa:
-  annotation_dir: "data/temporal_qa/annotations"
-  video_root: "data/temporal_qa/videos_vqa"
-  image_root: "data/temporal_qa/images"
+  annotation_dir: "data/temporal/videos_vqa"
+  video_root: "data/temporal/videos_vqa"
+  image_root: "data/temporal/images"
   datasets:
     - GT
     - blur
     - downsample_x4
   dataset_to_annotation_folder:
-    GT:            "GT_vqa_testing"
-    blur:          "blur_vqa_testing"
-    downsample_x4: "downsample_x4_vqa_testing"
+    GT:            "GT/vqa"
+    blur:          "blur/vqa"
+    downsample_x4: "downsample_x4/vqa"
 
 # Model for spatial QA text-only baseline
 model:

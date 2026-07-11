@@ -1,0 +1,488 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can see inside [[1083.7974683544303, 907.8481012658227], [1239.493670886076, 907.8481012658227], [1239.493670886076, 977.9746835443037], [1083.7974683544303, 977.9746835443037]]: ________.",
+              "answer": [
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a partly hidden celestial object at [[1192,169], [1252,173], [1249,218], [1188,214]] — what is it? S____.",
+              "answer": "un"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box at [[1084, 169], [1540, 169], [1540, 978], [1084, 978]] contains some text — which of these options matches it? Options:\nA. fei, fei, Sun, 5, 全场, SALE, 摲起\nB. 折起, 5, foi, Sun, SALE, 全场, Sun\nC. 全场, SALE, 折起, Sun, 5, Sun\nD. Sun, 全场, fei, 5, Sun, fei, SRLE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '全场, Sun, fei, fei, SALE, Sun, 折起, b' — do they fall within [[1083.7974683544303, 169.21052631578945], [1539.7008547008547, 169.21052631578945], [1539.7008547008547, 977.9746835443037], [1083.7974683544303, 977.9746835443037]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[1090, 168], [1547, 168], [1547, 977], [1090, 977]], what text can you read? ________.",
+              "answer": [
+                "SALE",
+                "全场",
+                "5",
+                "折起",
+                "fei",
+                "Sun",
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Near coordinates [[1150,907], [1226,914], [1221,977], [1144,971]], an object is partially visible as \"f____\" — what is it?",
+              "answer": "ei"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given what's written inside [[1090, 168], [1547, 168], [1547, 746], [1090, 746]], which answer option is correct? Options:\nA. fei, 折起, SALE, 全坞, 5\nB. 折起, 5, Sun, fei, 全场\nC. fei, Sun, 摲起, 5, SALE\nD. fei, 全场, 折起, 5, SALE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'fei, SALE, 全场' can be found within the bounding box [[1090.4877376687793, 168.16340589694127], [1517.3298429319373, 168.16340589694127], [1517.3298429319373, 540.9528795811518], [1090.4877376687793, 540.9528795811518]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read off the text inside the region [[1095, 170], [1264, 170], [1264, 252], [1095, 252]]? ________",
+              "answer": [
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the location [[1377,561], [1490,571], [1474,732], [1360,720]], part of the text is hidden — fill in the missing portion: \"____\".",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[1095, 170], [1552, 170], [1552, 747], [1095, 747]] contains some text — which of these options matches it? Options:\nA. 全场, fei, Sun, SALE, 折起\nB. Sun, SALE, fei, 5, 全场\nC. 全场, b, fei, Sun, 折起\nD. 全场, 折起, 5, SRLE, fei",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the label 'fei, SALE, 全场, 折起, fei' visible inside the bounding box [[1095.3828425638842, 169.56200729554266], [1551.9258025278968, 169.56200729554266], [1551.9258025278968, 978.3261645240569], [1095.3828425638842, 978.3261645240569]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Try reading the text in the area [[1105.6976197925014, 907.5666708531709], [1260.231031626473, 907.5666708531709], [1260.231031626473, 977.6932531316519], [1105.6976197925014, 977.6932531316519]]. What does it say? ________",
+              "answer": [
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of the text at [[1392,533], [1505,543], [1489,704], [1375,692]] is obscured — complete the partially visible content: \"____\".",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and identify the text found at [[1102, 169], [1559, 169], [1559, 978], [1102, 978]] — which answer option is correct? Options:\nA. SALE, Sun, 5, 折起, Sun, 全场\nB. 全场, fei, Sun, 0, Sun, SALE, fei\nC. SRLE, 折起, fei, Sun, 5, Sun, fei\nD. SALE, Sun, fei, 全场, 折起, b, Sun",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1102.3448678803397, 168.9290959031376], [1558.8878278443524, 168.9290959031376], [1558.8878278443524, 977.6932531316519], [1102.3448678803397, 977.6932531316519]] actually contain the label(s) 'fei, 全场, 折起, Svn, fei, 5, SALE'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text is present in the region [[1109.1824747179464, 169.78379675783845], [1565.725434681959, 169.78379675783845], [1565.725434681959, 978.5479539863527], [1109.1824747179464, 978.5479539863527]] — can you identify it? ________",
+              "answer": [
+                "SALE",
+                "全场",
+                "5",
+                "折起",
+                "fei",
+                "Sun",
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1271,1017], [1341,1030], [1334,1063], [1264,1051]]处的文字只有一部分可见，请补全缺失内容：\"轻____\"。",
+              "answer": "春"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text in the region [[1113, 295], [1566, 295], [1566, 979], [1113, 979]] and tell me which option matches. Options:\nA. Sun, 5, fei, fei, 折起\nB. 全场, fei, SRLE, Sun, 5\nC. 5, fei, SALE, 折起, Sun\nD. Sun, 全场, SALE, 摲起, 5",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Sun, 5, SALE, 全场, 折起' can be found within the box at [[1157, 295], [1566, 295], [1566, 747], [1157, 747]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at the area marked [[1117.2284517294406, 172.0826473325511], [1548.9656618877036, 172.0826473325511], [1548.9656618877036, 425.5714217160622], [1117.2284517294406, 425.5714217160622]] — what word(s) do you see there? ________",
+              "answer": [
+                "SALE",
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[1355,992], [1510,998], [1495,1079], [1338,1078]]位置的文字部分被遮挡，请将其补充完整：\"____你\"。",
+              "answer": "予"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you focus on [[1117, 172], [1574, 172], [1574, 981], [1117, 981]], which answer choice correctly names the text there? Options:\nA. 5, Sun, SALE, 摲起, 全场, Sun, fei\nB. SALE, 5, 全场, Sun, Sun, 折起, foi\nC. fei, SALE, 全场, 5, fei, 折起, Svn\nD. fei, 折起, SALE, 5, fei, Sun, Sun",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '全场, Sun, 折起, foi, Sun, 5, SALE' sits inside the bounding box [[1117.2284517294406, 172.0826473325511], [1573.7714116934533, 172.0826473325511], [1573.7714116934533, 980.8468045610653], [1117.2284517294406, 980.8468045610653]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the content enclosed by [[1125.7708027748636, 906.3919449261382], [1275.7267498201027, 906.3919449261382], [1275.7267498201027, 976.5185272046192], [1125.7708027748636, 976.5185272046192]], what word(s) appear there? ________",
+              "answer": [
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[1316,865], [1457,887], [1442,965], [1301,941]]处被部分遮挡的文字，能还原出完整内容\"____礼\"吗？",
+              "answer": "臻"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text you can see at [[1120, 167], [1576, 167], [1576, 746], [1120, 746]]? Options:\nA. 5, Sun, fei, SALE, Sun\nB. SALE, 5, 折起, 全场, Svn\nC. 全场, fei, 5, Sun, SALE\nD. 5, 折起, 全场, fei, SALE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '5, fei, fei, SALE, 折起' inside the box defined by [[1120.3053748063637, 166.6980319479357], [1576.0791040011457, 166.6980319479357], [1576.0791040011457, 976.5185272046192], [1120.3053748063637, 976.5185272046192]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Written somewhere in the region [[1128.8325065893096, 166.3104350487109], [1584.6062357840915, 166.3104350487109], [1584.6062357840915, 976.1309303053944], [1128.8325065893096, 976.1309303053944]] — what word(s) can you make out? ________",
+              "answer": [
+                "SALE",
+                "全场",
+                "5",
+                "折起",
+                "fei",
+                "Sun",
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1359,850], [1419,854], [1415,899], [1355,895]], some text is only partially visible — what should fill in the blank to complete \"____un\"?",
+              "answer": "S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1129, 166], [1585, 166], [1585, 745], [1129, 745]] and decide: which option correctly lists the text found there? Options:\nA. SALE, fei, Sun, 折起, 全场\nB. 5, SALE, 全场, 折起, Svn\nC. 5, fei, 全场, fei, Sun\nD. Sun, fei, Sun, 5, 全场",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'SALE, Sun, 折起, 全场, Sun' falls within the bounding box [[1128.8325065893096, 166.3104350487109], [1584.6062357840915, 166.3104350487109], [1584.6062357840915, 976.1309303053944], [1128.8325065893096, 976.1309303053944]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The bounding box [[1141.5940718968652, 906.8627171256259], [1291.5500189421043, 906.8627171256259], [1291.5500189421043, 976.9892994041069], [1141.5940718968652, 976.9892994041069]] encloses some text — write down what it says. ________",
+              "answer": [
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1316,899], [1402,903], [1396,979], [1310,975]] 处有个词被部分遮住了，你能把它补全吗？f____",
+              "answer": "ei"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[1136, 167], [1592, 167], [1592, 977], [1136, 977]], which of the following options contains the text(s) shown there? Options:\nA. 5, 折起, SALE, fei, fei, 全场\nB. 折起, Sun, Sun, 全场, SALE, foi, 5\nC. fei, Sun, 折起, SALE, b, fei, Sun\nD. 全坞, SALE, fei, Sun, 5, Sun, fei",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The text '5, 折起, 全场, SALE, Sun' — does it actually appear inside [[1184, 293], [1592, 293], [1592, 746], [1184, 746]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the region marked by [[1141.5940718968652, 167.16880414742334], [1600.1302212244132, 167.16880414742334], [1600.1302212244132, 976.9892994041069], [1141.5940718968652, 976.9892994041069]] — what word(s) appear there? ________",
+              "answer": [
+                "SALE",
+                "全场",
+                "5",
+                "折起",
+                "fei",
+                "Sun",
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标[[1686,690], [1813,702], [1807,796], [1678,784]]的区域有词语被遮挡了，完整的内容应该是\"____起\"，你能还原出来吗？",
+              "answer": "折"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly lists the text(s) found in region [[1142, 167], [1600, 167], [1600, 977], [1142, 977]]. Options:\nA. fei, SALE, fei, 全场, 5, Sun, Sun\nB. 折起, SALE, fei, 5, Swn, fei, 全场\nC. Sun, Sun, 折起, foi, 全场, SALE, 5\nD. 5, fei, fei, 全场, Svn, SALE, 折起",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: do the label(s) 'fei, 5, fei, SALE, 全场' sit inside the bounding box [[1141.5940718968652, 167.16880414742334], [1600.1302212244132, 167.16880414742334], [1600.1302212244132, 976.9892994041069], [1141.5940718968652, 976.9892994041069]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) that appear inside the bounding box [[1143.6919739947673, 906.8627171256259], [1296.1795666096266, 906.8627171256259], [1296.1795666096266, 976.9892994041069], [1143.6919739947673, 976.9892994041069]]. ________",
+              "answer": [
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "注意坐标[[1357,1018], [1442,1020], [1440,1080], [1355,1079]]所指示的区域，有一处文字被遮住了——补全后应读作\"f____\"，请填写缺失部分。",
+              "answer": "ei"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, which one matches the text(s) you can see at [[1144, 167], [1602, 167], [1602, 977], [1144, 977]]? Options:\nA. 5, SALE, fei, Swn, 折起, fei, 全场\nB. 全场, fei, 5, SALE, 折起, fei, Svn\nC. 5, fei, 全场, fei, SALE, 折起\nD. fei, 折起, 全坞, SALE, fei, Sun, Sun",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the coordinates [[1194, 293], [1602, 293], [1602, 746], [1194, 746]] — are the label(s) 'Sun, 折起, 全场, 5, SALE' contained within that region?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0305/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0305/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up inside the area defined by [[1143.6919739947673, 906.8627171256259], [1296.1795666096266, 906.8627171256259], [1296.1795666096266, 976.9892994041069], [1143.6919739947673, 976.9892994041069]]? ________",
+              "answer": [
+                "fei",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看坐标[[1290,310], [1377,314], [1371,391], [1284,386]]指向的位置，那里有个词被遮了一部分，完整应写成\"f____\"——缺失的字是什么？",
+              "answer": "ei"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[1144, 167], [1602, 167], [1602, 977], [1144, 977]] and tell me — which answer choice lists the text(s) found there? Options:\nA. SALE, Sun, Sun, 折起, 全场, 5, fci\nB. Sun, 全场, foi, SALE, Sun, 5, 折起\nC. fei, fei, 5, 全场, Svn, SALE, 折起\nD. Sun, SALE, 折起, Sun, 全场, 5",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'SALE, 全场, 5' appear within the boundaries of [[1194, 293], [1602, 293], [1602, 746], [1194, 746]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0305"
+  }
+]

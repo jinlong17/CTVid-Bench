@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe what text is displayed inside the region [[827, 532], [1110, 532], [1110, 696], [827, 696]]: ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[833,570], [1110,663], [1096,696], [827,602]], a word has been partially hidden. What letter(s) belong in \"POSTAL____VICE.\"?",
+              "answer": "SER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[827, 532], [1110, 532], [1110, 696], [827, 696]] and select the answer that matches what's written there. Options:\nA. UNITEPSTATES\nB. POSTALSERVICE\nC. UNITFDSTATES\nD. UNITEDSTATFS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Contained within the bounding box [[827.1875, 532.1875], [1110.0, 532.1875], [1110.0, 696.25], [827.1875, 696.25]] — is 'POSTALSERVIGE, UNITEDSTATES' actually there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you transcribe what's written in region [[822, 529], [1104, 529], [1104, 692], [822, 692]]? ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Hidden characters appear within [[818,589], [1095,682], [1081,715], [812,621]] — what is the correct way to complete \"____STALSERVICE\"?",
+              "answer": "PO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) visible inside [[822, 529], [1104, 529], [1104, 692], [822, 692]]? Options:\nA. POSTALSERVIOE\nB. UNITEDSTATFS\nC. POSTALSERVICE\nD. UNITFDSTATES",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[821.5536971830986, 529.3705985915493], [1104.3661971830988, 529.3705985915493], [1104.3661971830988, 692.024647887324], [821.5536971830986, 692.024647887324]], do you see the label(s) 'UNITEDSTATES' inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the region [[822.9220971563982, 532.1875], [1105.7345971563982, 532.1875], [1105.7345971563982, 694.3542654028437], [822.9220971563982, 694.3542654028437]] — what word(s) appear there? ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the region marked by [[813,632], [1089,725], [1075,758], [807,664]], what goes in the blank to complete \"PO____SERVICE.\"?",
+              "answer": "STAL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly identifies the text(s) shown in [[823, 532], [1106, 532], [1106, 694], [823, 694]]. Options:\nA. POSTALSERVIOE\nB. UNITFDSTATES\nC. PCSTALSERVICE\nD. POSTALSERVICE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounds of [[822.9220971563982, 532.1875], [1105.7345971563982, 532.1875], [1105.7345971563982, 694.3542654028437], [822.9220971563982, 694.3542654028437]], can you find the label(s) 'UNITEDSTATES'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on the area [[822.9220971563982, 534.0983280254777], [1105.7345971563982, 534.0983280254777], [1105.7345971563982, 694.3542654028437], [822.9220971563982, 694.3542654028437]], which word(s) can you read there? ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[862,689], [1124,782], [1113,815], [851,725]] holds a clue — what letter(s) complete the word \"UNIT____TATES.\"?",
+              "answer": "EDS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that lists the text(s) you can see in [[823, 534], [1106, 534], [1106, 694], [823, 694]]. Options:\nA. UNITEDSTATFS\nB. POSTALSERVIOE\nC. UNITEDSTATES\nD. UNITFDSTATES",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'UNIIEDSTATES, POSTALSERVICE' — do they appear inside [[822.9220971563982, 534.0983280254777], [1105.7345971563982, 534.0983280254777], [1105.7345971563982, 694.3542654028437], [822.9220971563982, 694.3542654028437]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scanning the area [[820, 539], [1103, 539], [1103, 699], [820, 699]], what word(s) do you make out? ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Based on what's visible at [[929,710], [1152,796], [1140,823], [919,736]], which letter(s) belong in the blank of \"P____ALSERVICE.\"?",
+              "answer": "OST"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options given, which correctly captures the text(s) found in [[820, 539], [1103, 539], [1103, 699], [820, 699]]? Options:\nA. PQSTALSERVICE\nB. PCSTALSERVICE\nC. POSTALSERVIOE\nD. UNITEDSTATES",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the area [[820.3042961092777, 539.0771842477894], [1103.1167961092783, 539.0771842477894], [1103.1167961092783, 699.0663072876605], [820.3042961092777, 699.0663072876605]] contain the label(s) 'UNIIEDSTATES, POSTALSERVICE'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at the region [[819, 543], [1102, 543], [1102, 703], [819, 703]], what word(s) show up there? ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text visible at [[978,679], [1190,757], [1180,783], [968,703]], how would you complete \"U____STATES\"?",
+              "answer": "NITED"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices listed, which one covers the text(s) in [[819, 543], [1102, 543], [1102, 703], [819, 703]]? Options:\nA. PCSTALSERVICE\nB. UNITFDSTATES\nC. UNITEDSTATES\nD. POSTALSERVIOE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You see [[819.148226745116, 542.5509503660642], [1101.9607267451165, 542.5509503660642], [1101.9607267451165, 703.1125500622269], [819.148226745116, 703.1125500622269]] — are the label(s) 'UNITEDSTATES, POSTALSERVIGE' anywhere inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[816.0068654885715, 547.7865524603051], [1101.3671445126224, 547.7865524603051], [1101.3671445126224, 710.442392994164], [816.0068654885715, 710.442392994164]], what word(s) are written? ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the text 'U____DSTATES' visible at [[1009,572], [1198,627], [1191,651], [1002,596]], what letter(s) should go in the gap?",
+              "answer": "NITE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text(s) inside [[816, 548], [1101, 548], [1101, 710], [816, 710]] — which answer choice matches? Options:\nA. UNITEDSTATFS\nB. UNITFDSTATES\nC. UNITEDSTATES\nD. POSTALSERVIOE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At coordinates [[816.0068654885715, 547.7865524603051], [1101.3671445126224, 547.7865524603051], [1101.3671445126224, 710.442392994164], [816.0068654885715, 710.442392994164]], would you find the label(s) 'UNITEDSTATES'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) that appear in the region [[811.960622714005, 553.5668992811144], [1099.6330404663797, 553.5668992811144], [1099.6330404663797, 715.0666704508114], [811.960622714005, 715.0666704508114]]. ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What's the missing piece that completes \"UN____STATES\", based on the text found at [[942,480], [1131,528], [1122,555], [935,506]]?",
+              "answer": "ITED"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that captures the text(s) visible inside [[812, 554], [1100, 554], [1100, 715], [812, 715]]. Options:\nA. POSTALSERVIOE\nB. UNITFDSTATES\nC. UNITEDSTATFS\nD. UNITEDSTATES",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Look at the region [[811.960622714005, 553.5668992811144], [1099.6330404663797, 553.5668992811144], [1099.6330404663797, 715.0666704508114], [811.960622714005, 715.0666704508114]] — do you see the label(s) 'UNIIEDSTATES, POSTALSERVICE' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text inside [[811.960622714005, 557.6131420556808], [1099.6330404663795, 557.6131420556808], [1099.6330404663795, 715.0666704508114], [811.960622714005, 715.0666704508114]], what word(s) appear there? ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What letter(s) are needed to finish \"UNI____STATES\" in the text found at [[895,493], [1073,532], [1068,558], [892,518]]?",
+              "answer": "TED"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches what's written inside [[812, 558], [1100, 558], [1100, 715], [812, 715]]. Options:\nA. UNITEDSTATES\nB. POSTALSERVIOE\nC. UNITFDSTATES\nD. UNITEDSTATFS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'UNITEDSTATES' — are they visible inside the area [[811.960622714005, 557.6131420556808], [1099.6330404663795, 557.6131420556808], [1099.6330404663795, 715.0666704508114], [811.960622714005, 715.0666704508114]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spot the text shown in [[812, 559], [1100, 559], [1100, 715], [812, 715]] and write it here: ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the partially visible text \"U____EDSTATES\" found in the area [[869,530], [1046,568], [1041,595], [865,554]], which letter(s) go in the gap?",
+              "answer": "NIT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among these options, which one correctly shows what's written in the region [[812, 559], [1100, 559], [1100, 715], [812, 715]]? Options:\nA. UNITEDSTATES\nB. PCSTALSERVICE\nC. UNITFDSTATES\nD. POSTALSERVIOE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area [[811.960622714005, 559.3472461019236], [1099.6330404663795, 559.3472461019236], [1099.6330404663795, 715.0666704508114], [811.960622714005, 715.0666704508114]], is 'UNIIEDSTATES, POSTALSERVICE' one of the labels you find there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) that appear inside the box [[811.960622714005, 558.1911767377617], [1100.2110751484604, 558.1911767377617], [1100.2110751484604, 715.0666704508114], [811.960622714005, 715.0666704508114]]. ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[867,592], [1049,634], [1042,659], [861,618]] is a partially obscured word — what completes \"PO____ERVICE\"?",
+              "answer": "STALS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text visible in [[812, 558], [1100, 558], [1100, 715], [812, 715]]. Options:\nA. UNITFDSTATES\nB. POSTALSERVIOE\nC. POSTALSERVICE\nD. PCSTALSERVICE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding region [[811.960622714005, 558.1911767377617], [1100.2110751484604, 558.1911767377617], [1100.2110751484604, 715.0666704508114], [811.960622714005, 715.0666704508114]], does it actually contain the label(s) 'POSTALSERVICE, UNIIEDSTATES'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0170/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0170/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) you can see inside the bounding region [[811.960622714005, 558.1911767377617], [1100.2110751484604, 558.1911767377617], [1100.2110751484604, 715.0666704508114], [811.960622714005, 715.0666704508114]]. ________",
+              "answer": [
+                "UNITEDSTATES",
+                "POSTALSERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "After seeing \"UNITED____TATES\" in [[881,584], [1059,622], [1054,649], [878,608]], what letter(s) immediately follow to finish the word?",
+              "answer": "S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the choices and pick the one that has the text from [[812, 558], [1100, 558], [1100, 715], [812, 715]]. Options:\nA. POSTALSERVIOE\nB. UNITEDSTATFS\nC. UNITEDSTATES\nD. UNITFDSTATES",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You see area [[811.960622714005, 558.1911767377617], [1100.2110751484604, 558.1911767377617], [1100.2110751484604, 715.0666704508114], [811.960622714005, 715.0666704508114]] in the image — does it hold the label(s) 'POSTALSERVIGE, UNITEDSTATES'?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0170"
+  }
+]

@@ -1,0 +1,312 @@
+{
+  "video_id": "C0263",
+  "frames": 120,
+  "word": "文明和谐",
+  "video_path": "temporal/videos_vqa/GT/videos/CHN_C0263.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"文明和谐\" likely to be?\n Options:\nA. warning or prohibition sign\nB. event or poster information\nC. address or street sign\nD. general scene text\nE. storefront or brand sign\nF. menu or commercial information\nG. direction or navigation sign",
+      "q": "写着「文明和谐」的这段文字，看起来像是什么类型的标牌或标语？\n Options:\nA. warning or prohibition sign\nB. event or poster information\nC. address or street sign\nD. general scene text\nE. storefront or brand sign\nF. menu or commercial information\nG. direction or navigation sign",
+      "a": "D",
+      "a_text": "general scene text",
+      "answer_key": "general scene text",
+      "options": [
+        "A. warning or prohibition sign",
+        "B. event or poster information",
+        "C. address or street sign",
+        "D. general scene text",
+        "E. storefront or brand sign",
+        "F. menu or commercial information",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「文明和谐」的这段文字，看起来像是什么类型的标牌或标语？\n Options:\nA. warning or prohibition sign\nB. event or poster information\nC. address or street sign\nD. general scene text\nE. storefront or brand sign\nF. menu or commercial information\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"文明和谐\" appear in?\n Options:\nA. campus or office\nB. event poster or display\nC. restaurant or menu\nD. road or street\nE. transportation / station\nF. warning / rule sign\nG. storefront\nH. other public sign",
+      "q": "出现「文明和谐」这几个字的画面，大概是什么样的场景？\n Options:\nA. campus or office\nB. event poster or display\nC. restaurant or menu\nD. road or street\nE. transportation / station\nF. warning / rule sign\nG. storefront\nH. other public sign",
+      "a": "H",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. campus or office",
+        "B. event poster or display",
+        "C. restaurant or menu",
+        "D. road or street",
+        "E. transportation / station",
+        "F. warning / rule sign",
+        "G. storefront",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "出现「文明和谐」这几个字的画面，大概是什么样的场景？\n Options:\nA. campus or office\nB. event poster or display\nC. restaurant or menu\nD. road or street\nE. transportation / station\nF. warning / rule sign\nG. storefront\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"文明和谐\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. bottom-left (lower-left area)\nD. top-left (upper-left area)\nE. center (middle of the frame)",
+      "q": "「文明和谐」这几个字大部分时候在画面的哪个位置？\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. bottom-left (lower-left area)\nD. top-left (upper-left area)\nE. center (middle of the frame)",
+      "a": "D",
+      "a_text": "top-left (upper-left area)",
+      "answer_key": "top-left",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. top-right (upper-right area)",
+        "C. bottom-left (lower-left area)",
+        "D. top-left (upper-left area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「文明和谐」这几个字大部分时候在画面的哪个位置？\n Options:\nA. bottom-right (lower-right area)\nB. top-right (upper-right area)\nC. bottom-left (lower-left area)\nD. top-left (upper-left area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"文明和谐\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "整段视频播完，「文明和谐」的位移幅度大不大？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "B",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整段视频播完，「文明和谐」的位移幅度大不大？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"文明和谐\" move?\n Options:\nA. moves down\nB. moves left\nC. moves diagonally\nD. stays roughly in place\nE. moves right\nF. changes direction partway\nG. moves up",
+      "q": "总体来看，「文明和谐」这几个字是朝哪个方向移动的？\n Options:\nA. moves down\nB. moves left\nC. moves diagonally\nD. stays roughly in place\nE. moves right\nF. changes direction partway\nG. moves up",
+      "a": "E",
+      "a_text": "moves right",
+      "answer_key": "moves right",
+      "options": [
+        "A. moves down",
+        "B. moves left",
+        "C. moves diagonally",
+        "D. stays roughly in place",
+        "E. moves right",
+        "F. changes direction partway",
+        "G. moves up"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「文明和谐」这几个字是朝哪个方向移动的？\n Options:\nA. moves down\nB. moves left\nC. moves diagonally\nD. stays roughly in place\nE. moves right\nF. changes direction partway\nG. moves up"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"文明和谐\" at the beginning, the middle, and the end?\n Options:\nA. top-left -> top-left -> top-left\nB. top-left -> top-left -> center\nC. top-left -> top-left -> top-right\nD. top-left -> bottom-left -> top-left",
+      "q": "视频刚开始、播到中途、快结束时，「文明和谐」分别在画面的什么地方？\n Options:\nA. top-left -> top-left -> top-left\nB. top-left -> top-left -> center\nC. top-left -> top-left -> top-right\nD. top-left -> bottom-left -> top-left",
+      "a": "A",
+      "a_text": "top-left -> top-left -> top-left",
+      "answer_key": "top-left -> top-left -> top-left",
+      "options": [
+        "A. top-left -> top-left -> top-left",
+        "B. top-left -> top-left -> center",
+        "C. top-left -> top-left -> top-right",
+        "D. top-left -> bottom-left -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频刚开始、播到中途、快结束时，「文明和谐」分别在画面的什么地方？\n Options:\nA. top-left -> top-left -> top-left\nB. top-left -> top-left -> center\nC. top-left -> top-left -> top-right\nD. top-left -> bottom-left -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"文明和谐\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)",
+      "q": "从画面来看，「文明和谐」的字体尺寸属于哪个级别？\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)",
+      "a": "D",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从画面来看，「文明和谐」的字体尺寸属于哪个级别？\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"文明和谐\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. gets smaller\nD. stays about the same size",
+      "q": "看这段视频，「文明和谐」的字体大小有没有发生变化——是变大了、变小了，还是基本维持原样？\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. gets smaller\nD. stays about the same size",
+      "a": "D",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. gets larger",
+        "C. gets smaller",
+        "D. stays about the same size"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看这段视频，「文明和谐」的字体大小有没有发生变化——是变大了、变小了，还是基本维持原样？\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. gets smaller\nD. stays about the same size"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"文明和谐\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "你注意到「文明和谐」这几个字是处在画面的中间区域，还是比较靠近某条边缘？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "B",
+      "a_text": "comes close to an edge",
+      "answer_key": "comes close to an edge",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你注意到「文明和谐」这几个字是处在画面的中间区域，还是比较靠近某条边缘？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"文明和谐\" and how it appears in the video.",
+      "q": "请简单描述一下「文明和谐」这几个字——它在视频里是怎么呈现的？",
+      "a": "The text \"文明和谐\" is written in white characters on a red circular sign mounted on a yellow frame.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "请简单描述一下「文明和谐」这几个字——它在视频里是怎么呈现的？"
+    }
+  ]
+}

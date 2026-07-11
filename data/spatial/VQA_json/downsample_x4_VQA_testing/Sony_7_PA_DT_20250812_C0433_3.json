@@ -1,0 +1,408 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "There's some text at [[1203, 995], [1240, 995], [1240, 1052], [1203, 1052]] — what does it say? The answer is ________.",
+              "answer": [
+                "15",
+                "M",
+                "H"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the choice that best represents the text displayed in [[1203, 995], [1240, 995], [1240, 1052], [1203, 1052]]. Options:\nA. 15, OREGON\nB. H, M\nC. N, 15\nD. N, 15",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'H, M, 1000, OREGON' can be found within [[972.8364389233955, 719.4616977225674], [1240.0595238095236, 719.4616977225674], [1240.0595238095236, 1051.884126984127], [972.8364389233955, 1051.884126984127]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) show up in [[973, 713], [1240, 713], [1240, 1045], [973, 1045]]? The answer is ________.",
+              "answer": [
+                "OREGON",
+                "1000",
+                "15",
+                "M",
+                "H"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options correctly names the text in [[1204, 990], [1240, 990], [1240, 1045], [1204, 1045]] — which is it? Options:\nA. M, 15\nB. 1S, H\nC. OREGON, 15\nD. 15, N",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the area [[973.1974497537203, 713.4873608837664], [1240.1376838418425, 713.4873608837664], [1240.1376838418425, 1045.4995219762789], [973.1974497537203, 1045.4995219762789]] contain the label(s) '100O, OREGON, M, 15, H'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At [[989.9494847954666, 692.6429456466989], [1256.8580441131191, 692.6429456466989], [1256.8580441131191, 1025.1918076488746], [989.9494847954666, 1025.1918076488746]], what word or words do you see? ________",
+              "answer": [
+                "OREGON",
+                "1000",
+                "15",
+                "M",
+                "H"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which correctly matches the text at [[1220, 971], [1257, 971], [1257, 1025], [1220, 1025]]? Options:\nA. H, 1S\nB. 15, OREGON\nC. H, M\nD. N, 15",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect '15, M, 1000, N, OREGON' to appear somewhere — is [[989.9494847954666, 692.6429456466989], [1256.8580441131191, 692.6429456466989], [1256.8580441131191, 1025.1918076488746], [989.9494847954666, 1025.1918076488746]] where it actually shows up?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what the text at [[1003.8966878037145, 672.0723782520655], [1269.2744554076455, 672.0723782520655], [1269.2744554076455, 1004.146328546182], [1003.8966878037145, 1004.146328546182]] reads. ________",
+              "answer": [
+                "OREGON",
+                "1000",
+                "15",
+                "M",
+                "H"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[1234, 949], [1269, 949], [1269, 1004], [1234, 1004]] matches which of the following? Options:\nA. H, 1S\nB. N, 15\nC. 15, OREGON\nD. 15, H",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[1234, 949], [1269, 949], [1269, 1004], [1234, 1004]], are the label(s) 'H, M' visible?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Going by what's shown in [[1033, 543], [1294, 543], [1294, 893], [1033, 893]], what word(s) are written there? The answer is ________.",
+              "answer": [
+                "OREGON",
+                "1000",
+                "15",
+                "M",
+                "H"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text found in [[1258, 838], [1294, 838], [1294, 893], [1258, 893]]. Options:\nA. H, 15\nB. N, M\nC. 15, OREGON\nD. M, 1S",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '15, M' appears inside [[1258, 838], [1294, 838], [1294, 893], [1258, 893]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) can be found in the region [[1022.377637474209, 482.27599223852616], [1289.7172189901212, 482.27599223852616], [1289.7172189901212, 817.9448654874345], [1022.377637474209, 817.9448654874345]]? ________",
+              "answer": [
+                "OREGON",
+                "1000",
+                "15",
+                "M",
+                "H",
+                "D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[1243, 713], [1290, 713], [1290, 818], [1243, 818]], which answer choice correctly lists the text shown there? Options:\nA. D, 1S, H\nB. D, N, 15\nC. M, D, 15\nD. M, OREGON, D",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Whether 'M, H, 15' falls within [[1243, 713], [1290, 713], [1290, 818], [1243, 818]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears in [[1024.080499790661, 478.90640391325826], [1172.6577215638458, 478.90640391325826], [1172.6577215638458, 521.970586107876], [1024.080499790661, 521.970586107876]]? ________",
+              "answer": [
+                "OREGON",
+                "1000"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one accurately captures the text in [[1243, 712], [1291, 712], [1291, 817], [1243, 817]]? Options:\nA. D, H, M\nB. OREGON, 15, H\nC. H, M, 1S\nD. D, 1000, M",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'N, OREGON, 15, 1000, M, D' — are they present within [[1024.080499790661, 478.90640391325826], [1291.1435308955122, 478.90640391325826], [1291.1435308955122, 816.8328091568764], [1024.080499790661, 816.8328091568764]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text in [[1024.7323274244886, 480.7753985230543], [1293.367924855802, 480.7753985230543], [1293.367924855802, 817.9913846008687], [1024.7323274244886, 817.9913846008687]] — what word(s) do you see? ________",
+              "answer": [
+                "OREGON",
+                "1000",
+                "15",
+                "M",
+                "H",
+                "D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one reflects what is written in [[1245, 714], [1293, 714], [1293, 818], [1245, 818]]? Options:\nA. 15, M, O\nB. D, M, OREGON\nC. D, M, 1S\nD. H, M, 15",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'OREGON, M, D, 1000' is/are the text found inside [[1024.7323274244886, 480.7753985230543], [1293.367924855802, 480.7753985230543], [1293.367924855802, 817.9913846008687], [1024.7323274244886, 817.9913846008687]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[1026.2029156597828, 480.7753985230543], [1295.5033530409924, 480.7753985230543], [1295.5033530409924, 818.8716662910095], [1026.2029156597828, 818.8716662910095]], what text do you find? ________",
+              "answer": [
+                "OREGON",
+                "1000",
+                "15",
+                "M",
+                "H",
+                "D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly identifies the text visible in [[1248, 714], [1296, 714], [1296, 819], [1248, 819]]. Options:\nA. D, 15, H\nB. 15, H, OREGON\nC. D, N, M\nD. 15, 1000, H",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'OREGON, H, M, D, 1S, 1000' match the text contained in [[1026.2029156597828, 480.7753985230543], [1295.5033530409924, 480.7753985230543], [1295.5033530409924, 818.8716662910095], [1026.2029156597828, 818.8716662910095]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Whatever text sits in [[1029, 468], [1179, 468], [1179, 507], [1029, 507]], write it here: ________",
+              "answer": [
+                "1000",
+                "OREGON"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which answer correctly captures what's written in [[1029, 468], [1179, 468], [1179, 507], [1029, 507]]. Options:\nA. 100O\nB. 0000\nC. DREGON\nD. 1000",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Could 'OREGON' be the text that appears inside [[1029.2377970415087, 467.75832555859967], [1178.8439067157976, 467.75832555859967], [1178.8439067157976, 506.60506303963155], [1029.2377970415087, 506.60506303963155]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank: the text shown in [[1009, 456], [1275, 456], [1275, 790], [1009, 790]] reads ________.",
+              "answer": [
+                "OREGON",
+                "1000",
+                "15",
+                "M",
+                "H",
+                "D"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text in [[1229, 686], [1275, 686], [1275, 790], [1229, 790]], which of the following options is correct? Options:\nA. OREGON, 15, M\nB. 15, N, H\nC. H, D, N\nD. 15, D, H",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'OREGON, H, O, 1000, 15, M' is/are the label(s) found within [[1009.4225911385358, 456.40941903772324], [1275.2469338421831, 456.40941903772324], [1275.2469338421831, 790.0021801434522], [1009.4225911385358, 790.0021801434522]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0433_3/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0433_3/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Visible in [[995.4285796128802, 460.984769415678], [1145.6182363938024, 460.984769415678], [1145.6182363938024, 499.83150689670987], [995.4285796128802, 499.83150689670987]] — what word(s) are there? ________",
+              "answer": [
+                "OREGON",
+                "1000"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that matches the text in [[1213, 692], [1261, 692], [1261, 796], [1213, 796]]. Options:\nA. OREGON, H, M\nB. H, O, 15\nC. H, M, D\nD. 15, M, N",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[995.4285796128802, 460.984769415678], [1260.8290652238375, 460.984769415678], [1260.8290652238375, 796.2951197944651], [995.4285796128802, 796.2951197944651]] — is the text there 'M, OREGON, 1000, H'?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0433_3"
+  }
+]

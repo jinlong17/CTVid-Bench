@@ -1,0 +1,313 @@
+{
+  "video_id": "C0267",
+  "frames": 120,
+  "word": "坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0267.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" likely to be?\n Options:\nA. general scene text\nB. direction or navigation sign\nC. menu or commercial information\nD. warning or prohibition sign\nE. storefront or brand sign\nF. event or poster information\nG. address or street sign",
+      "q": "写着「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」的这段文字，你觉得它像是哪种类型的标牌？\n Options:\nA. general scene text\nB. direction or navigation sign\nC. menu or commercial information\nD. warning or prohibition sign\nE. storefront or brand sign\nF. event or poster information\nG. address or street sign",
+      "a": "A",
+      "a_text": "general scene text",
+      "answer_key": "general scene text",
+      "options": [
+        "A. general scene text",
+        "B. direction or navigation sign",
+        "C. menu or commercial information",
+        "D. warning or prohibition sign",
+        "E. storefront or brand sign",
+        "F. event or poster information",
+        "G. address or street sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」的这段文字，你觉得它像是哪种类型的标牌？\n Options:\nA. general scene text\nB. direction or navigation sign\nC. menu or commercial information\nD. warning or prohibition sign\nE. storefront or brand sign\nF. event or poster information\nG. address or street sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" appear in?\n Options:\nA. restaurant or menu\nB. other public sign\nC. road or street\nD. warning / rule sign\nE. transportation / station\nF. campus or office\nG. event poster or display\nH. storefront",
+      "q": "「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」这段文字，是出现在什么样的场景里？\n Options:\nA. restaurant or menu\nB. other public sign\nC. road or street\nD. warning / rule sign\nE. transportation / station\nF. campus or office\nG. event poster or display\nH. storefront",
+      "a": "B",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. restaurant or menu",
+        "B. other public sign",
+        "C. road or street",
+        "D. warning / rule sign",
+        "E. transportation / station",
+        "F. campus or office",
+        "G. event poster or display",
+        "H. storefront"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」这段文字，是出现在什么样的场景里？\n Options:\nA. restaurant or menu\nB. other public sign\nC. road or street\nD. warning / rule sign\nE. transportation / station\nF. campus or office\nG. event poster or display\nH. storefront"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)",
+      "q": "视频播放时，写着「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」的那段文字，大多数时候在画面的哪个区域？\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)",
+      "a": "C",
+      "a_text": "top-left (upper-left area)",
+      "answer_key": "top-left",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. bottom-left (lower-left area)",
+        "C. top-left (upper-left area)",
+        "D. bottom-right (lower-right area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播放时，写着「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」的那段文字，大多数时候在画面的哪个区域？\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "看这个片段，「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」这段文字的位置移动幅度大概有多少？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "A",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看这个片段，「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」这段文字的位置移动幅度大概有多少？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" move?\n Options:\nA. moves left\nB. moves up\nC. moves diagonally\nD. moves right\nE. moves down\nF. stays roughly in place\nG. changes direction partway",
+      "q": "总体来看，「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」是朝哪个方向移动的？\n Options:\nA. moves left\nB. moves up\nC. moves diagonally\nD. moves right\nE. moves down\nF. stays roughly in place\nG. changes direction partway",
+      "a": "A",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves left",
+        "B. moves up",
+        "C. moves diagonally",
+        "D. moves right",
+        "E. moves down",
+        "F. stays roughly in place",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」是朝哪个方向移动的？\n Options:\nA. moves left\nB. moves up\nC. moves diagonally\nD. moves right\nE. moves down\nF. stays roughly in place\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" at the beginning, the middle, and the end?\n Options:\nA. center -> bottom-right -> top-left\nB. center -> bottom-left -> top-left\nC. bottom-left -> bottom-left -> top-left\nD. top-left -> bottom-left -> top-left",
+      "q": "这段写着「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」的文字，在片段前段、中段和后段，分别出现在画面什么位置？\n Options:\nA. center -> bottom-right -> top-left\nB. center -> bottom-left -> top-left\nC. bottom-left -> bottom-left -> top-left\nD. top-left -> bottom-left -> top-left",
+      "a": "B",
+      "a_text": "center -> bottom-left -> top-left",
+      "answer_key": "center -> bottom-left -> top-left",
+      "options": [
+        "A. center -> bottom-right -> top-left",
+        "B. center -> bottom-left -> top-left",
+        "C. bottom-left -> bottom-left -> top-left",
+        "D. top-left -> bottom-left -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段写着「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」的文字，在片段前段、中段和后段，分别出现在画面什么位置？\n Options:\nA. center -> bottom-right -> top-left\nB. center -> bottom-left -> top-left\nC. bottom-left -> bottom-left -> top-left\nD. top-left -> bottom-left -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "q": "画面里，「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」这段文字占据的面积大概是什么量级？\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)",
+      "a": "C",
+      "a_text": "very large (dominates the frame)",
+      "answer_key": "very large",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里，「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」这段文字占据的面积大概是什么量级？\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger",
+      "q": "随着片子播放，「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」看起来是越来越大、越来越小，还是大小基本没变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger",
+      "a": "D",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着片子播放，「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」看起来是越来越大、越来越小，还是大小基本没变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "q": "出现在视频里的「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」，整体是稳稳处于画面内部，还是偏向某条边缘？\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "a": "B",
+      "a_text": "touches or runs off an edge",
+      "answer_key": "touches or runs off an edge",
+      "options": [
+        "A. comes close to an edge",
+        "B. touches or runs off an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "出现在视频里的「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」，整体是稳稳处于画面内部，还是偏向某条边缘？\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境\" and how it appears in the video.",
+      "q": "能简单说说写着「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」的这段文字在视频里的整体表现吗？",
+      "a": "The target text appears in orange Chinese characters on a white rectangular sign standing outdoors amidst green foliage.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能简单说说写着「坚定不移  \n实施营商环境改革工程  \n厚植营商文化  \n打造一流营商环境」的这段文字在视频里的整体表现吗？"
+    }
+  ],
+  "method": "downsample_x4"
+}

@@ -1,0 +1,548 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "From region [[234, 317], [1919, 317], [1919, 765], [234, 765]], the words you can read are ________.",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea",
+                "Sug",
+                "Spi",
+                "Dri"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Peering at [[1856,547], [1911,553], [1914,590], [1861,584]], you notice the text reads \"S____g\" — what missing character(s) complete it?",
+              "answer": "u"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option captures exactly what's written inside [[234, 317], [1919, 317], [1919, 688], [234, 688]]? Options:\nA. Hot Cereal, Tea, Milk Tea, Sug, Canned Fruit, 10, Peenut Butter Jam, Cereal, Coconnut Milk, Imstant Coffee\nB. Coconnut Milk, Spi, 10, Tea, Canned Fruit, Imstant Coffee, Dri, Cereal, Sug, Peanut Butter Jam\nC. Milk Tea, Canned Fruit, Cereal, Peenut Butter Jam, Tea, Sug, Imstant Coffee, Hot Cereal, Coconnut Milk, 10\nD. Sug, Canned Fruit, Spi, Hot Cereal, Imstant Coffee, Coconnut Milk, Tea, Cereal, Peanut Butter Jam, Milk Tea",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '10, Imstant Coffee, Hot Cereal, Sug, Milk Tea, Coconnut Milk, Canned Fruit, Tea, Cereal, Peanut Butter Jam' is correctly identified as a label inside [[234, 317], [879, 317], [879, 688], [234, 688]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write out the word(s) you see inside [[234.03141361256542, 317.0], [1918.957345971564, 317.0], [1918.957345971564, 766.7772511848341], [234.03141361256542, 766.7772511848341]]: ________.",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea",
+                "Dr",
+                "Sp",
+                "Sug"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[631,240], [745,250], [737,332], [623,321]] has a gap and reads \"____0\" — what character(s) should go there?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reviewing the choices, which one best matches what's written at [[234, 317], [879, 317], [879, 688], [234, 688]]? Options:\nA. Peenut Butter Jam, 10, Coconnut Milk, Hot Cereal, Imstant Coffee, Cereal, Canned Fruit, Tea\nB. Peenut Butter Jam, Tea, Milk Tea, Cereal, Canned Fruit, Imstant Coffee, Coconnut Milk, 10\nC. Coconnut Milk, Canned Fruit, Cereal, Imstant Coffee, Tea, Hot Cereal, Milk Tea, Dr\nD. Milk Tea, Canned Fruit, 10, Coconnut Milk, Tea, Cereal, Hot Cereal, Imstant Coffee",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given [[234.03141361256542, 317.0], [1918.957345971564, 317.0], [1918.957345971564, 766.7772511848341], [234.03141361256542, 766.7772511848341]], would 'Dr, Tea, Hot Cereal, Sug, Cereal, Peanut Butter Jam, Imstant Coffee, Milk Tea, 10, Coconnut Milk' count as one of the labels shown there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Text inside [[243, 313], [888, 313], [888, 684], [243, 684]] reads ________.",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label at [[564,418], [795,430], [791,473], [561,459]] shows \"C____d Fruit\" — what's missing?",
+              "answer": "anne"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which matches the text at [[243, 313], [888, 313], [888, 684], [243, 684]]? Options:\nA. Imstant Coffee, 10, Milk Tea, Peanut Butter Jam, S, Hot Cereal, Canned Fruit, Tea\nB. Coconnut Milk, Cereal, Imstant Coffee, Milk Tea, Tea, Hot Cereal, Peanut Butter Jam, 10\nC. 1O, Peanut Butter Jam, Tea, Imstant Coffee, Coconnut Milk, Cereal, Hot Cereal, Milk Tea\nD. Cereal, Milk Tea, Tea, Canned Fruit, Imstant Coffee, Hot Cereal, 10, Sug",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[243, 313], [888, 313], [888, 684], [243, 684]] contain the label(s) '10, Peanut Butter Jam, Canned Fruit, Sug, Tea, Milk Tea, Imstant Coffee, Cereal, Coconnut Milk, Hot Cereal'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "My question: what word(s) appear inside [[254.39071075392388, 309.7720954628901], [1920.0, 309.7720954628901], [1920.0, 753.012048192771], [254.39071075392388, 753.012048192771]]? ________",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea",
+                "D",
+                "S",
+                "Su"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A label at [[714,342], [978,347], [976,388], [712,382]] partially reads \"P____ut Butter Jam\" — fill in the missing letter(s).",
+              "answer": "ean"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the correct option for the text found inside [[254, 310], [1920, 310], [1920, 681], [254, 681]]. Options:\nA. 10, Imstent Coffee, Milk Tea, S, Peanut Butter Jam, Tea, Coconnut Milk, Canned Fruit, Cereal, Hot Cereal\nB. Cereal, Milk Tea, S, Canned Fruit, Coconnut Milk, Tea, Peanut Butter Jam, 10, Hot Cereal, Imstant Coffee\nC. Imstant Coffee, Cereal, Hot Cereal, Milk Tea, S, Su, Peanut Butter Jam, Cenned Fruit, 10, Tea\nD. 10, S, Canned Fruit, Hot Cereal, Tea, D, Cereal, Imstant Coffee, Peanut Butter Jam, Coconnut Milk",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Cereal, 10, Milk Tea, Peanut Butter Jam, Coconnut Milk, S, Tea, Hot Cereal, Canned Fruit, Imstant Coffee' sits within the region [[254, 310], [899, 310], [899, 681], [254, 681]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[1894.6153846153848, 531.6536651508205], [1920.0, 531.6536651508205], [1920.0, 564.7193585814773], [1894.6153846153848, 564.7193585814773]], which word(s) are visible? ________",
+              "answer": [
+                "S"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially shown at [[830,367], [1095,372], [1093,413], [828,407]], the label reads \"____eanut Butter Jam\" — complete the missing letter(s).",
+              "answer": "P"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice reflects the text shown at [[266, 301], [911, 301], [911, 673], [266, 673]]? Options:\nA. Peanut Butter Jam, Tea, 10, Cereal, Hot Cereal, Mi1k Tea, Coconnut Milk, Imstant Coffee\nB. S, Cereal, Canned Fruit, Tea, Milk Tea, 10, Imstant Coffee, Coconnut Milk\nC. Tea, Milk Tea, Cereal, Coconnut Milk, 1O, Imstant Coffee, Peanut Butter Jam, Canned Fruit\nD. Cereal, Peanut Butter Jam, Imstant Coffee, Milk Tea, Canned Fruit, Hot Cereal, Coconnut Milk, Tea",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Peanut Butter Jam, Hot Cereal, Tea, Canned Fruit, 10, Imstant Coffee, S, Coconnut Milk' among the words found inside [[265.6333143042197, 301.488071794251], [1920.0, 301.488071794251], [1920.0, 672.9173911659789], [265.6333143042197, 672.9173911659789]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on region [[275.3894118651953, 293.68319374547053], [920.4155898756658, 293.68319374547053], [920.4155898756658, 665.1125131171982], [275.3894118651953, 665.1125131171982]], what word(s) can be read there? ________",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[929,435], [1040,433], [1040,473], [931,476]], the text appears as \"C____l\" — what letter(s) are missing?",
+              "answer": "erea"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text at [[565, 294], [920, 294], [920, 665], [565, 665]]. Options:\nA. Milk Tea, Tea, 10, Hot Cereal\nB. Imstant Coffee, 10, Cereal, Tea\nC. 10, Imstant Coffee, Iea, Hot Cereal\nD. Imstent Coffee, Tea, Milk Tea, 10",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Mi1k Tea, 10, Coconnut Milk, Imstant Coffee, Peanut Butter Jam, Hot Cereal, Cereal, Tea, Canned Fruit' falls inside the box at [[275.3894118651953, 293.68319374547053], [920.4155898756658, 293.68319374547053], [920.4155898756658, 665.1125131171982], [275.3894118651953, 665.1125131171982]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning region [[287.2173688544426, 283.4681399820297], [929.5553748219023, 283.4681399820297], [929.5553748219023, 649.5211152677365], [287.2173688544426, 649.5211152677365]], what word(s) show up? ________",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Near [[1243,604], [1477,609], [1476,649], [1240,642]], the label reads \"I____tant Coffee\" — supply the missing letter(s).",
+              "answer": "ms"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which correctly captures the text at [[573, 283], [930, 283], [930, 650], [573, 650]]? Options:\nA. Milk Tea, Tea, 10, Imstant Coffee\nB. 10, Imstant Coffee, Tea, Peanut Butter Jam\nC. 10, Milk Tea, Cereal, Tea\nD. 1O, Imstant Coffee, Milk Tea, Tea",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Imstant Coffee, Coconnut Milk, Peanut Butter Jam, Canned Fruit, 10, Cereal, Milk Tea' appears within [[287.2173688544426, 283.4681399820297], [929.5553748219023, 283.4681399820297], [929.5553748219023, 649.5211152677365], [287.2173688544426, 649.5211152677365]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Zooming into [[300.6582290694963, 271.6401829927824], [942.996235036956, 271.6401829927824], [942.996235036956, 637.6931582784898], [300.6582290694963, 637.6931582784898]], which word(s) are written there? ________",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Right at [[1280,705], [1458,710], [1456,748], [1280,749]], a label reads \"____lk Tea\" — what letter(s) come before \"Tea\"?",
+              "answer": "Mi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best represents the text visible at [[301, 272], [943, 272], [943, 638], [301, 638]]. Options:\nA. Cereal, Peanut Butter Jam, Coconnut Milk, Imstant Coffee, Iea, 10, Canned Fruit, Hot Cereal\nB. Milk Tea, Imstant Coffee, Tea, 10, Coconnut Milk, Canned Fruit, Peanut Butter Jam, Hot Cereal\nC. Cereal, Milk Tea, Canned Fruit, Coconnut Milk, Peanut Butter Jam, Tea, Het Cereal, Imstant Coffee\nD. Canned Fruit, Ceroal, Coconnut Milk, Hot Cereal, Tea, Milk Tea, 10, Imstant Coffee",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm or deny: do the label(s) 'Coconnut Milk, Canned Fruit, Cereal, Tea, Hot Cereal, 10, Milk Tea' appear within [[300.6582290694963, 271.6401829927824], [942.996235036956, 271.6401829927824], [942.996235036956, 637.6931582784898], [300.6582290694963, 637.6931582784898]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you examine [[314.6367236931522, 259.8122260035351], [956.974729660611, 259.8122260035351], [956.974729660611, 625.8652012892433], [314.6367236931522, 625.8652012892433]] closely, what word(s) do you find? ________",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The box at [[877,716], [1118,715], [1111,759], [877,758]] shows the label \"Coconnut ____\" — can you complete it?",
+              "answer": "Milk"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Options:\nA. Hot Cereal, Peanut Butter Jam, Milk Tea, Coconnut Milk, Canned Fruit, Ceroal, Tea, Imstant Coffee\nB. 10, Coconnut Milk, Milk Tea, Iea, Canned Fruit, Peanut Butter Jam, Cereal, Hot Cereal\nC. Hot Cereal, Cereal, Peanut Butter Jam, Imstant Coffee, 10, Tea, Milk Tea, Coconnut Milk\nD. Imstant Coffee, Cereal, Canned Fruit, Coconnut Milk, Tea, Hot Cereal, 10, Peenut Butter Jam — which of these matches the text visible inside [[315, 260], [957, 260], [957, 626], [315, 626]]?",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Canned Fruit, Tea, 10, Cereal, Milk Tea, Coconnut Milk, Peanut Butter Jam' appear inside the bounding box [[314.6367236931522, 259.8122260035351], [956.974729660611, 259.8122260035351], [956.974729660611, 625.8652012892433], [314.6367236931522, 625.8652012892433]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) you can see within [[327.5399494996038, 252.28534428310502], [969.8779554670626, 252.28534428310502], [969.8779554670626, 618.3383195688136], [327.5399494996038, 618.3383195688136]]. ________",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "\"Peanut ____ Jam\" is the phrase at [[871,570], [1136,575], [1134,616], [869,610]] — can you supply the middle word?",
+              "answer": "Butter"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[328, 252], [970, 252], [970, 618], [328, 618]] there's some text — which answer option correctly lists it? Options:\nA. Cenned Fruit, Tea, Imstant Coffee, Milk Tea, Peanut Butter Jam, 10, Coconnut Milk, Hot Cereal\nB. Coconnut Milk, Peenut Butter Jam, Hot Cereal, Milk Tea, Cereal, Canned Fruit, 10, Tea\nC. 10, Peanut Butter Jam, Tea, Canned Fruit, Coconnut Milk, Hot Cereal, Milk Tea, Imstant Coffee\nD. Imstant Coffee, Coconnut Milk, Tea, Canned Fruit, Cereal, Het Cereal, Milk Tea, Peanut Butter Jam",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you verify whether the label(s) 'Canned Fruit, Peanut Butter Jam, Tea, Imstant Coffee, 10, Milk Tea, Hot Cereal, Cooonnut Milk, Cereal' fall inside the bounding box [[327.5399494996038, 252.285344283Canned Fruit, Peanut Butter Jam, Tea, Imstant Coffee, 10, Milk Tea, Hot Cereal, Cooonnut Milk, Cereal502], [969.8779554670626, 252.285344283Canned Fruit, Peanut Butter Jam, Tea, Imstant Coffee, 10, Milk Tea, Hot Cereal, Cooonnut Milk, Cereal502], [969.8779554670626, 618.3383195688136], [327.5399494996038, 618.3383195688136]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and list the word(s) you see inside [[337.0074051209056, 239.85930878014648], [979.3454110883645, 239.85930878014648], [979.3454110883645, 605.9122840658553], [337.0074051209056, 605.9122840658553]]. ________",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A number sequence at [[1267,407], [1391,411], [1385,497], [1263,494]] is partially cut off, showing only \"____0\" — what are the complete digit(s)?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to the area [[623, 240], [979, 240], [979, 606], [623, 606]], which answer option captures the text found there? Options:\nA. Milk Tea, 10, Imstant Coffee, Tea\nB. Hot Cereal, Milk Tea, 10, Imstent Coffee\nC. Tea, Cereal, Imstant Coffee, Milk Tea\nD. Milk Tea, Imstent Coffee, 10, Hot Cereal",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Canned Fruit, Tea, Cereal, Coconnut Milk, Imstant Coffee, Peanut Butter Jam, Hot Cereal' are located within the bounding box [[337.0074051209056, 239.85930878014648], [979.34541Canned Fruit, Tea, Cereal, Coconnut Milk, Imstant Coffee, Peanut Butter Jam, Hot Cereal883645, 239.85930878014648], [979.34541Canned Fruit, Tea, Cereal, Coconnut Milk, Imstant Coffee, Peanut Butter Jam, Hot Cereal883645, 605.9122840658553], [337.0074051209056, 605.9122840658553]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0464/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0464/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) show up inside the region [[356.89987823918517, 235.0205991027271], [1001.9260562496548, 235.0205991027271], [1001.9260562496548, 595.6972303024146], [356.89987823918517, 595.6972303024146]]? ________",
+              "answer": [
+                "10",
+                "Cereal",
+                "Tea",
+                "Peanut Butter Jam",
+                "Hot Cereal",
+                "Canned Fruit",
+                "Imstant Coffee",
+                "Coconnut Milk",
+                "Milk Tea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1546,634], [1800,636], [1800,674], [1549,673]], the text reads \"Ims____t Coffee\" — what's the word that precedes \"Coffee\"?",
+              "answer": "tan"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the area defined by [[643, 235], [1002, 235], [1002, 596], [643, 596]], pick the option that accurately reflects the text inside. Options:\nA. 10, Tea, Peanut Butter Jam, Hot Cereal\nB. Tea, Het Cereal, Milk Tea, Imstant Coffee\nC. Imstant Coffee, Tea, Hot Cereal, Milk Tea\nD. Cereal, Milk Tea, Hot Cereal, 10",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'Milk Tea, 10, Tea, Hot Cereal, Cereal, Imstant Coffee, Peanut Butter Jam, Cooonnut Milk, Canned Fruit' are contained within the bounding box [[356.89987823918517, 235.020599Milk Tea, 10, Tea, Hot Cereal, Cereal, Imstant Coffee, Peanut Butter Jam, Cooonnut Milk, Canned Fruit27271], [Milk Tea, 10, Tea, Hot Cereal, Cereal, Imstant Coffee, Peanut Butter Jam, Cooonnut Milk, Canned Fruit01.9260562496548, 235.020599Milk Tea, 10, Tea, Hot Cereal, Cereal, Imstant Coffee, Peanut Butter Jam, Cooonnut Milk, Canned Fruit27271], [Milk Tea, 10, Tea, Hot Cereal, Cereal, Imstant Coffee, Peanut Butter Jam, Cooonnut Milk, Canned Fruit01.9260562496548, 595.6972303024146], [356.89987823918517, 595.6972303024146]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0464"
+  }
+]

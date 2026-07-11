@@ -1,0 +1,313 @@
+{
+  "video_id": "C0203",
+  "frames": 120,
+  "word": "银星路桥\n(本桥限速限载)",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0203.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"银星路桥\n(本桥限速限载)\" likely to be?\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. address or street sign\nG. warning or prohibition sign",
+      "q": "写着「银星路桥\n(本桥限速限载)」的这段文字，看起来像是哪种类型的标识牌？\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. address or street sign\nG. warning or prohibition sign",
+      "a": "G",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. event or poster information",
+        "B. direction or navigation sign",
+        "C. menu or commercial information",
+        "D. general scene text",
+        "E. storefront or brand sign",
+        "F. address or street sign",
+        "G. warning or prohibition sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「银星路桥\n(本桥限速限载)」的这段文字，看起来像是哪种类型的标识牌？\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. menu or commercial information\nD. general scene text\nE. storefront or brand sign\nF. address or street sign\nG. warning or prohibition sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"银星路桥\n(本桥限速限载)\" appear in?\n Options:\nA. storefront\nB. road or street\nC. warning / rule sign\nD. event poster or display\nE. transportation / station\nF. other public sign\nG. campus or office\nH. restaurant or menu",
+      "q": "「银星路桥\n(本桥限速限载)」这段文字，是在什么场景下出现的？\n Options:\nA. storefront\nB. road or street\nC. warning / rule sign\nD. event poster or display\nE. transportation / station\nF. other public sign\nG. campus or office\nH. restaurant or menu",
+      "a": "B",
+      "a_text": "road or street",
+      "answer_key": "road or street",
+      "options": [
+        "A. storefront",
+        "B. road or street",
+        "C. warning / rule sign",
+        "D. event poster or display",
+        "E. transportation / station",
+        "F. other public sign",
+        "G. campus or office",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「银星路桥\n(本桥限速限载)」这段文字，是在什么场景下出现的？\n Options:\nA. storefront\nB. road or street\nC. warning / rule sign\nD. event poster or display\nE. transportation / station\nF. other public sign\nG. campus or office\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"银星路桥\n(本桥限速限载)\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)",
+      "q": "视频里，写着「银星路桥\n(本桥限速限载)」的那块文字，主要落在画面的哪个区域？\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)",
+      "a": "E",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. bottom-left (lower-left area)",
+        "C. top-right (upper-right area)",
+        "D. bottom-right (lower-right area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里，写着「银星路桥\n(本桥限速限载)」的那块文字，主要落在画面的哪个区域？\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"银星路桥\n(本桥限速限载)\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "那段写着「银星路桥\n(本桥限速限载)」的文字，在整个片段里位置变化大不大？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "C",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "那段写着「银星路桥\n(本桥限速限载)」的文字，在整个片段里位置变化大不大？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"银星路桥\n(本桥限速限载)\" move?\n Options:\nA. moves left\nB. stays roughly in place\nC. moves diagonally\nD. changes direction partway\nE. moves down\nF. moves up\nG. moves right",
+      "q": "总体来看，「银星路桥\n(本桥限速限载)」这段文字朝哪个方向移动？\n Options:\nA. moves left\nB. stays roughly in place\nC. moves diagonally\nD. changes direction partway\nE. moves down\nF. moves up\nG. moves right",
+      "a": "F",
+      "a_text": "moves up",
+      "answer_key": "moves up",
+      "options": [
+        "A. moves left",
+        "B. stays roughly in place",
+        "C. moves diagonally",
+        "D. changes direction partway",
+        "E. moves down",
+        "F. moves up",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「银星路桥\n(本桥限速限载)」这段文字朝哪个方向移动？\n Options:\nA. moves left\nB. stays roughly in place\nC. moves diagonally\nD. changes direction partway\nE. moves down\nF. moves up\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"银星路桥\n(本桥限速限载)\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> center -> center\nB. center -> center -> top-left\nC. center -> center -> center\nD. top-left -> center -> center",
+      "q": "片子刚开始、播到一半、快结束时，写着「银星路桥\n(本桥限速限载)」的文字各在画面哪个位置？\n Options:\nA. bottom-right -> center -> center\nB. center -> center -> top-left\nC. center -> center -> center\nD. top-left -> center -> center",
+      "a": "C",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. bottom-right -> center -> center",
+        "B. center -> center -> top-left",
+        "C. center -> center -> center",
+        "D. top-left -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "片子刚开始、播到一半、快结束时，写着「银星路桥\n(本桥限速限载)」的文字各在画面哪个位置？\n Options:\nA. bottom-right -> center -> center\nB. center -> center -> top-left\nC. center -> center -> center\nD. top-left -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"银星路桥\n(本桥限速限载)\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里，「银星路桥\n(本桥限速限载)」这段文字的尺寸大概属于哪个级别——大、中还是小？\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "C",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. large (a major part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里，「银星路桥\n(本桥限速限载)」这段文字的尺寸大概属于哪个级别——大、中还是小？\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"银星路桥\n(本桥限速限载)\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. gets larger\nD. size fluctuates (goes up and down)",
+      "q": "随着视频播放，「银星路桥\n(本桥限速限载)」这段文字是越来越大、越来越小，还是大小基本没变？\n Options:\nA. gets smaller\nB. stays about the same size\nC. gets larger\nD. size fluctuates (goes up and down)",
+      "a": "C",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. gets smaller",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「银星路桥\n(本桥限速限载)」这段文字是越来越大、越来越小，还是大小基本没变？\n Options:\nA. gets smaller\nB. stays about the same size\nC. gets larger\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"银星路桥\n(本桥限速限载)\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "q": "从视频来看，写着「银星路桥\n(本桥限速限载)」的那段文字，是居于画框内部还是靠近某条边缘？\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. fully inside, away from the edges",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从视频来看，写着「银星路桥\n(本桥限速限载)」的那段文字，是居于画框内部还是靠近某条边缘？\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"银星路桥\n(本桥限速限载)\" and how it appears in the video.",
+      "q": "结合整段视频，简单说说「银星路桥\n(本桥限速限载)」这段文字长什么样，以及它在画面里是怎么呈现的。",
+      "a": "The target text is displayed on a white rectangular sign with black lettering, mounted on a pole next to a pedestrian crossing sign.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "结合整段视频，简单说说「银星路桥\n(本桥限速限载)」这段文字长什么样，以及它在画面里是怎么呈现的。"
+    }
+  ],
+  "method": "downsample_x4"
+}

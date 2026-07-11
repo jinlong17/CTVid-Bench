@@ -1,0 +1,499 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[1018, 424], [1641, 424], [1641, 806], [1018, 806]], what does the text say? ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At bounding box [[1119,732], [1453,701], [1454,741], [1118,771]], there's a queuing instruction that reads \"Please qu____ up for the bus\" — what word fills the blank?",
+              "answer": "eue"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best matches the text found in area [[1018, 424], [1641, 424], [1641, 806], [1018, 806]]. Options:\nA. （中山博览中心枢纽）, 深圳市交通场站建设发屒有限公司, 请自觉排队上车, Please queue up for the bus\nB. Please queue up for the bus, 请自觉排队上车, （中山博览中心枉纽）, 深圳市交通场站建设发展有限公司\nC. Rlease queue up for the bus, 请自觉排队上车, 深圳市交通场站建设发展有限公司, （中山博览中心枢纽）\nD. 深圳市交通场站建设发展有限公司, （中山博览中心枢纽）, 请自觉排队上车, 深中跨市TO1A",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over in bounding box [[1018.1699346405229, 424.1830065359477], [1641.045751633987, 424.1830065359477], [1641.045751633987, 805.8823529411764], [1018.1699346405229, 805.8823529411764]], are the label(s) '（中山博览中心枢纽）, 深圳市交通场站建设发展有限公司, 深中跨市TO1A, Please queue up for the bus' visible?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at [[1018.1699346405229, 424.1830065359477], [1641.045751633987, 424.1830065359477], [1641.045751633987, 805.8823529411764], [1018.1699346405229, 805.8823529411764]] and tell me the word(s) you see there. ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the bounding box [[1047,540], [1592,457], [1598,560], [1050,638]], what goes in the blank to make the text complete? \"____中跨市TO1A\"",
+              "answer": "深"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one matches the text(s) inside [[1018, 424], [1641, 424], [1641, 806], [1018, 806]]? Options:\nA. 深圳市交通场站建设发展有限公司, 渘中跨市TO1A, Please queue up for the bus, （中山博览中心枢纽）\nB. 深中跨市TO1A, Please queue up for the bus, 深圳市交通场站建设发展有限公司, 请自觉擓队上车\nC. 请自觉排队上车, （中山博览中心枢纽）, 深圳市交通场站建设发展有限公司, Please queue up for the bus\nD. （中山博览中心枉纽）, 深圳市交通场站建设发展有限公司, Please queue up for the bus, 请自觉排队上车",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '深圳市交通场站建设发展有限公司, （中山博览中心枉纽）, Please queue up for the bus, 请自觉排队上车, 深中跨市TO1A' appears inside [[1018.1699346405229, 424.1830065359477], [1641.045751633987, 424.1830065359477], [1641.045751633987, 805.8823529411764], [1018.1699346405229, 805.8823529411764]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1025.669934640523, 432.9330065359477], [1643.858251633987, 432.9330065359477], [1643.858251633987, 811.5073529411764], [1025.669934640523, 811.5073529411764]] — what word(s) do you see? ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1383,817], [1687,793], [1690,829], [1385,852]] 所在区域的文本里，公司名称 \"深圳市交通____展有限公司\" 缺少了哪些字？请补全。",
+              "answer": "场站建设发"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options listed, which one contains the text(s) you can see in [[1026, 433], [1644, 433], [1644, 812], [1026, 812]]? Options:\nA. 请自觉擓队上车, Please queue up for the bus, 深中跨市TO1A, （中山博览中心枢纽）\nB. 深圳市交通场站建设发屒有限公司, （中山博览中心枢纽）, 深中跨市TO1A, Please queue up for the bus\nC. 深中跨市TO1A, 请自觉排队上车, 深圳市交通场站建设发展有限公司, Please queue up for the bus\nD. Please queue up for the bus, 深圳市交通场站建设发展有限公司, （中山博览中心枉纽）, 请自觉排队上车",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1025.669934640523, 432.9330065359477], [1643.858251633987, 432.9330065359477], [1643.858251633987, 811.5073529411764], [1025.669934640523, 811.5073529411764]] actually contain the label(s) '请自觉排队上车, 深中跨市TO1A, 深圳市交通场站建设发屒有限公司, （中山博览中心枢纽）, Please queue up for the bus'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and name the word(s) visible inside [[1025.669934640523, 432.9330065359477], [1647.3547551304905, 432.9330065359477], [1647.3547551304905, 813.6052550390785], [1025.669934640523, 813.6052550390785]]: ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[1156,658], [1605,592], [1608,669], [1156,729]] 中的名称还不完整，请把缺失的部分填进去：\"（中山博____中心枢纽）\"。",
+              "answer": "览"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option correctly captures the text(s) found within [[1026, 433], [1647, 433], [1647, 814], [1026, 814]]. Options:\nA. 请自觉擓队上车, 深圳市交通场站建设发展有限公司, Please queue up for the bus, （中山博览中心枢纽）\nB. 深圳市交通场站建设发展有限公司, 请自觉排队上车, 渘中跨市TO1A, Please queue up for the bus\nC. 讳自觉排队上车, 深圳市交通场站建设发展有限公司, Please queue up for the bus, 深中跨市TO1A\nD. 请自觉排队上车, （中山博览中心枢纽）, 深圳市交通场站建设发展有限公司, Please queue up for the bus",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Please queue up for the bus, 深圳市交通场站建设发展有限公司, 深中跨市TO1A, （中山博览中心枢纽）' can be found within region [[1025.669934640523, 432.9330065359477], [1647.3547551304905, 432.9330065359477], [1647.3547551304905, 813.6052550390785], [1025.669934640523, 813.6052550390785]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Just curious — what word(s) can you spot in [[1029.1664381370265, 437.12881073175197], [1650.851258626994, 437.12881073175197], [1650.851258626994, 817.8010592348828], [1029.1664381370265, 817.8010592348828]]? ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "画面中坐标 [[1137,658], [1587,593], [1590,669], [1137,729]] 处标注的是中山某中心的名称，其中有文字缺失，请填入正确内容：\"（中山博览____枢纽）\"。",
+              "answer": "中心"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan through Options:\nA. 请自觉排队上车, 渘中跨市TO1A, 深圳市交通场站建设发展有限公司, （中山博览中心枢纽）\nB. （中山博览中心枢纽）, 深中跨市TO1A, 深圳市交通场站建设发展有限公司, Rlease queue up for the bus\nC. 深中跨市TO1A, 请自觉擓队上车, 深圳市交通场站建设发展有限公司, Please queue up for the bus\nD. 深圳市交通场站建设发展有限公司, （中山博览中心枢纽）, 深中跨市TO1A, 请自觉排队上车 and pick the one that matches the text(s) in [[1029, 437], [1651, 437], [1651, 818], [1029, 818]].",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '（中山博览中心枢纽）, 请自觉排队上车, 渘中跨市TO1A, Please queue up for the bus, 深圳市交通场站建设发展有限公司' falls inside the box marked [[1029.1664381370265, 437.12881073175197], [1650.851258626994, 437.12881073175197], [1650.851258626994, 817.8010592348828], [1029.1664381370265, 817.8010592348828]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From what you can see in [[1034.760843731432, 437.82811143105266], [1656.4456642213995, 437.82811143105266], [1656.4456642213995, 818.5003599341835], [1034.760843731432, 818.5003599341835]], what word(s) are written there? ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察画面中坐标 [[1187,722], [1517,684], [1520,748], [1187,783]] 位置的内容，试着补出句子里缺失的词：\"请自觉____上车\"。",
+              "answer": "排队"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices provided, which best matches what's written in [[1035, 438], [1656, 438], [1656, 819], [1035, 819]]? Options:\nA. （中山博览中心枢纽）, 渘中跨市TO1A, 深圳市交通场站建设发展有限公司, 请自觉排队上车\nB. 深中跨市TO1A, （中山博览中心枢纽）, 深圳市交通场站建设发屒有限公司, 请自觉排队上车\nC. Please queue up for the bus, 深中跨市TO1A, 深圳市交通场站建设发展有限公司, （中山博览中心枢纽）\nD. （中山博览中心枢纽）, Rlease queue up for the bus, 请自觉排队上车, 深中跨市TO1A",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Please queue up for the bus, （中山博览中心枢纽）, 深中跨市TO1A, 请自觉排队上车, 深圳市交通场站建设发屒有限公司' sits within [[1034.760843731432, 437.82811143105266], [1656.4456642213995, 437.82811143105266], [1656.4456642213995, 818.5003599341835], [1034.760843731432, 818.5003599341835]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Within the region [[1035.4601444307327, 444.82111842405965], [1657.1449649207002, 444.82111842405965], [1657.1449649207002, 825.4933669271904], [1035.4601444307327, 825.4933669271904]], which word(s) can you make out? ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看 [[1101,631], [1537,566], [1541,646], [1101,702]] 处的文本，你能为\"中山博览中____枢纽\"填上缺失的字吗？",
+              "answer": "心"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text(s) in [[1035, 445], [1657, 445], [1657, 825], [1035, 825]] and pick the option that matches: Options:\nA. 深中跨市TO1A, 深圳市交通场站建设发展有限公司, 请自觉排队上车, （中山博览中心枉纽）\nB. （中山博览中心枢纽）, 请自觉排队上车, 深中跨市TO1A, Please queue up for the bus\nC. Please queue up for the bus, 深圳市交通场站建设发展有限公司, 请自觉排队上车, （中山博览中心枢经）\nD. 深中跨市TO1A, Please queue up for the bus, 请自觉排队上车, （中山博览中心枢组）",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Whether or not '（中山博览中心枢纽）, Please queue up for the bus, 请自觉排队上车, 深中跨市TO1A' falls within [[1035.4601444307327, 444.82111842405965], [1657.1449649207002, 444.82111842405965], [1657.1449649207002, 825.4933669271904], [1035.4601444307327, 825.4933669271904]] — what's your verdict?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Help me out — what word(s) does [[1037.5580465286348, 449.7162233191645], [1659.2428670186023, 449.7162233191645], [1659.2428670186023, 830.3884718222953], [1037.5580465286348, 830.3884718222953]] contain? ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1331,791], [1617,764], [1619,790], [1333,817]] 处显示了负责建设的单位名称，请补全缺失的部分：\"深圳市交通____建设发展有限公司\"。",
+              "answer": "场站"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[1038, 450], [1659, 450], [1659, 830], [1038, 830]] — which of the following options matches the text found there? Options:\nA. （中山博览中心枢纽）, Please queue up for the bus, 请自觉排队上车, 深中跨市TO1A\nB. Please queue up for the bus, 深圳市交通场站建设发屒有限公司, 请自觉排队上车, 深中跨市TO1A\nC. 深中跨市TO1A, 深圳市交通场站建设发展有限公司, 请自觉排队上车, （中山博览中心枉纽）\nD. 深圳市交通场站建设发展有限公司, Rlease queue up for the bus, 请自觉排队上车, 深中跨市TO1A",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1037.5580465286348, 449.7162233191645], [1659.2428670186023, 449.7162233191645], [1659.2428670186023, 830.3884718222953], [1037.5580465286348, 830.3884718222953]] contain the label(s) '深中跨市TO1A, 请自觉排队上车, 深圳市交通场站建设发展有限公司, Ploase queue up for the bus, （中山博览中心枢纽）'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the text visible inside [[1042.2247131953013, 453.7162233191645], [1663.9095336852688, 453.7162233191645], [1663.9095336852688, 834.3884718222953], [1042.2247131953013, 834.3884718222953]]? ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标 [[1007,560], [1526,479], [1531,584], [1008,658]] 的文字有部分被遮挡，请将其补充完整：\"深中跨市____\"。",
+              "answer": "TO1A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The area marked by [[1042, 454], [1664, 454], [1664, 834], [1042, 834]] shows some text — pick the option that correctly identifies it. Options:\nA. Please queue up for the bus, （中山博览中心枢纽）, 请自觉排队上车, 深圳市交通场站建设发展有限公司\nB. 请自觉排队上车, （中山博览中心枢纽）, Rlease queue up for the bus, 深圳市交通场站建设发展有限公司\nC. 深圳市交通场站建设发屒有限公司, Please queue up for the bus, （中山博览中心枢纽）, 请自觉排队上车\nD. （中山博览中心枢纽）, 深圳市交通场站建设发展有限公司, 深中跨市TO1A, Pleese queue up for the bus",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '深中跨市TO1A, 请自觉排队上车, （中山博览中心枢纽）, 深圳市交通场站建设发展有限公司' appear inside the bounding box [[1042.2247131953013, 453.7162233191645], [1663.9095336852688, 453.7162233191645], [1663.9095336852688, 834.3884718222953], [1042.2247131953013, 834.3884718222953]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text appears in the area [[1044.7247131953013, 457.4662233191645], [1666.4095336852688, 457.4662233191645], [1666.4095336852688, 838.1384718222953], [1044.7247131953013, 838.1384718222953]]. ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据边界框 [[994,571], [1474,489], [1478,592], [993,665]] 中的内容，把下面这段文字补充完整：\"深中____市TO1A\"。",
+              "answer": "跨"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, select the one that matches the text shown at [[1045, 457], [1666, 457], [1666, 838], [1045, 838]]. Options:\nA. 请自觉排队上车, 深圳市交通场站建设发展有限公司, 渘中跨市TO1A, Please queue up for the bus\nB. 深中跨市TO1A, （中山博览中心枢纽）, 深圳市交通场站建设发展有限公司, 讳自觉排队上车\nC. （中山博览中心枢纽）, Please queue up for the bus, 深中跨市TO1A, 深圳市交通场站建设发展有限公司\nD. Please queue up for the bus, 请自觉擓队上车, 深中跨市TO1A, （中山博览中心枢纽）",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '请自觉排队上车, 深中跨市TO1A, Please queue up for the bus, 深圳市交通场站建设发屒有限公司, （中山博览中心枢纽）' falls within the bounding box [[1044.7247131953013, 457.4662233191645], [1666.4095336852688, 457.4662233191645], [1666.4095336852688, 838.1384718222953], [1044.7247131953013, 838.1384718222953]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text at location [[1047.2563587649215, 456.83331192675945], [1668.941179254889, 456.83331192675945], [1668.941179254889, 837.5055604298902], [1047.2563587649215, 837.5055604298902]] and write it down. ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[992,660], [1399,597], [1400,669], [990,726]] 对应的文本里有个空缺，\"中山博览中心____\"里该填入什么？",
+              "answer": "枢纽"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly lists the text(s) found in region [[1047, 457], [1669, 457], [1669, 838], [1047, 838]]. Options:\nA. 深圳市交通场站建设发展有限公司, 深中跨市TO1A, 请自觉排队上车, Please queue up for the bus\nB. 渘圳市交通场站建设发展有限公司, 深中跨市TO1A, 请自觉排队上车, Please queue up for the bus\nC. 深中跨市TO1A, （中山博览中心枢纽）, Please queue up for the bus, 请自觉擓队上车\nD. Please queue up for the bus, 深中跨市TO1A, 请自觉排队上车, 深圳市交通场站建设发屒有限公司",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) '（中山博览中心枢纽）, Please queue up for the bus, 深圳市交通场站建设发展有限公司, 深中跨市TO1A' sit inside the bounding box [[1047.2563587649215, 456.83331192675945], [1668.941179254889, 456.83331192675945], [1668.941179254889, 837.5055604298902], [1047.2563587649215, 837.5055604298902]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0132/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0132/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify all words visible within [[1049.5552093396343, 460.85630043250654], [1671.2400298296018, 460.85630043250654], [1671.2400298296018, 841.5285489356373], [1049.5552093396343, 841.5285489356373]]. ________",
+              "answer": [
+                "深中跨市TO1A",
+                "（中山博览中心枢纽）",
+                "请自觉排队上车",
+                "Please queue up for the bus",
+                "深圳市交通场站建设发展有限公司"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1020,786], [1317,752], [1318,786], [1019,820]] reads \"Please ____ up for the bus\" — what's the missing word?",
+              "answer": "queue"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[1050, 461], [1671, 461], [1671, 842], [1050, 842]] and choose the option that best represents the text there. Options:\nA. （中山博览中心枢纽）, 深中跨市TO1A, 深圳市交通场站建设发屒有限公司, Please queue up for the bus\nB. 深中跨市TO1A, Please queue up for the bus, 请自觉排队上车, 深圳市交通场站建设发展有限公司\nC. （中山博览中心枢纽）, 渘中跨市TO1A, 深圳市交通场站建设发展有限公司, Please queue up for the bus\nD. Please queue up for the bus, 请自觉排队上车, 深圳市交通场站建设发展有限公司, （中山博览中心枉纽）",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'Please queue up for the bus, 请自觉排队上车, （中山博览中心枢纽）, 深中跨市TO1A' anywhere inside the bounding box [[1049.5552093396343, 460.85630043250654], [1671.2400298296018, 460.85630043250654], [1671.2400298296018, 841.5285489356373], [1049.5552093396343, 841.5285489356373]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0132"
+  }
+]

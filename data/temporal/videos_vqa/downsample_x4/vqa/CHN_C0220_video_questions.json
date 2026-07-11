@@ -1,0 +1,313 @@
+{
+  "video_id": "C0220",
+  "frames": 120,
+  "word": "专用车位\nRESERVED",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0220.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "mixed",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"专用车位\nRESERVED\" likely to be?\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information",
+      "q": "视频里有一段写着「专用车位\nRESERVED」的文字，这看起来像是哪类标牌？\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information",
+      "a": "D",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. event or poster information",
+        "B. address or street sign",
+        "C. storefront or brand sign",
+        "D. warning or prohibition sign",
+        "E. direction or navigation sign",
+        "F. general scene text",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里有一段写着「专用车位\nRESERVED」的文字，这看起来像是哪类标牌？\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"专用车位\nRESERVED\" appear in?\n Options:\nA. road or street\nB. restaurant or menu\nC. campus or office\nD. other public sign\nE. storefront\nF. warning / rule sign\nG. event poster or display\nH. transportation / station",
+      "q": "写着「专用车位\nRESERVED」的文字，是在什么样的场景下出现的？\n Options:\nA. road or street\nB. restaurant or menu\nC. campus or office\nD. other public sign\nE. storefront\nF. warning / rule sign\nG. event poster or display\nH. transportation / station",
+      "a": "A",
+      "a_text": "road or street",
+      "answer_key": "road or street",
+      "options": [
+        "A. road or street",
+        "B. restaurant or menu",
+        "C. campus or office",
+        "D. other public sign",
+        "E. storefront",
+        "F. warning / rule sign",
+        "G. event poster or display",
+        "H. transportation / station"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「专用车位\nRESERVED」的文字，是在什么样的场景下出现的？\n Options:\nA. road or street\nB. restaurant or menu\nC. campus or office\nD. other public sign\nE. storefront\nF. warning / rule sign\nG. event poster or display\nH. transportation / station"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"专用车位\nRESERVED\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-left (upper-left area)",
+      "q": "这段视频里，「专用车位\nRESERVED」主要出现在画面的哪个区域？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-left (upper-left area)",
+      "a": "C",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. bottom-right (lower-right area)",
+        "C. center (middle of the frame)",
+        "D. bottom-left (lower-left area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「专用车位\nRESERVED」主要出现在画面的哪个区域？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. bottom-left (lower-left area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"专用车位\nRESERVED\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "视频播完，「专用车位\nRESERVED」的位置移动幅度大吗？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播完，「专用车位\nRESERVED」的位置移动幅度大吗？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"专用车位\nRESERVED\" move?\n Options:\nA. changes direction partway\nB. moves up\nC. moves right\nD. moves diagonally\nE. moves down\nF. stays roughly in place\nG. moves left",
+      "q": "总体来看，「专用车位\nRESERVED」朝哪个方向运动？\n Options:\nA. changes direction partway\nB. moves up\nC. moves right\nD. moves diagonally\nE. moves down\nF. stays roughly in place\nG. moves left",
+      "a": "D",
+      "a_text": "moves diagonally",
+      "answer_key": "moves diagonally",
+      "options": [
+        "A. changes direction partway",
+        "B. moves up",
+        "C. moves right",
+        "D. moves diagonally",
+        "E. moves down",
+        "F. stays roughly in place",
+        "G. moves left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「专用车位\nRESERVED」朝哪个方向运动？\n Options:\nA. changes direction partway\nB. moves up\nC. moves right\nD. moves diagonally\nE. moves down\nF. stays roughly in place\nG. moves left"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"专用车位\nRESERVED\" at the beginning, the middle, and the end?\n Options:\nA. bottom-left -> center -> center\nB. center -> center -> center\nC. center -> bottom-right -> center\nD. center -> bottom-left -> center",
+      "q": "随着视频推进，「专用车位\nRESERVED」在前段、中段、后段各处于画面什么位置？\n Options:\nA. bottom-left -> center -> center\nB. center -> center -> center\nC. center -> bottom-right -> center\nD. center -> bottom-left -> center",
+      "a": "B",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. bottom-left -> center -> center",
+        "B. center -> center -> center",
+        "C. center -> bottom-right -> center",
+        "D. center -> bottom-left -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频推进，「专用车位\nRESERVED」在前段、中段、后段各处于画面什么位置？\n Options:\nA. bottom-left -> center -> center\nB. center -> center -> center\nC. center -> bottom-right -> center\nD. center -> bottom-left -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"专用车位\nRESERVED\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里，「专用车位\nRESERVED」的字体大小算什么级别——偏大、中等还是偏小？\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "D",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. large (a major part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里，「专用车位\nRESERVED」的字体大小算什么级别——偏大、中等还是偏小？\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"专用车位\nRESERVED\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "q": "看视频，「专用车位\nRESERVED」的大小有没有明显变化，还是基本稳定？\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. stays about the same size",
+        "C. size fluctuates (goes up and down)",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看视频，「专用车位\nRESERVED」的大小有没有明显变化，还是基本稳定？\n Options:\nA. gets larger\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"专用车位\nRESERVED\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "q": "「专用车位\nRESERVED」这段文字主要落在画面中央区域，还是靠近某侧边缘？\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. fully inside, away from the edges",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「专用车位\nRESERVED」这段文字主要落在画面中央区域，还是靠近某侧边缘？\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"专用车位\nRESERVED\" and how it appears in the video.",
+      "q": "能描述一下「专用车位\nRESERVED」在这段视频里的样子和呈现方式吗？",
+      "a": "A metal A-frame sign on a brick pavement displays the text \"专用车位 RESERVED\" beneath a blue parking symbol.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能描述一下「专用车位\nRESERVED」在这段视频里的样子和呈现方式吗？"
+    }
+  ],
+  "method": "downsample_x4"
+}

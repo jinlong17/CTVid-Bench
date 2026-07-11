@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the text visible inside [[1097.5375375375374, 303.1318872520589], [1500.3115799200734, 303.1318872520589], [1500.3115799200734, 349.02978514995675], [1097.5375375375374, 349.02978514995675]]. ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[1109,323], [1245,322], [1233,348], [1098,348]] shows part of a phrase — what word goes in place of CH____ to complete \"CH____ SOUTHERN\"?",
+              "answer": "INA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the answer that lists the text found in region [[1098, 303], [1500, 303], [1500, 349], [1098, 349]]. Options:\nA. 空航方南国串\nB. CHINA SOUTHERN\nC. 空舫方南国中\nD. 空舥方南国中",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: does bounding box [[1097.5375375375374, 303.1318872520589], [1500.3115799200734, 303.1318872520589], [1500.3115799200734, 349.02978514995675], [1097.5375375375374, 349.02978514995675]] show the label(s) '空航方南国中'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does the box [[1097.5375375375374, 302.7027027027027], [1501.8203589234206, 302.7027027027027], [1501.8203589234206, 348.60060060060056], [1097.5375375375374, 348.60060060060056]] enclose? ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area marked [[1144,328], [1280,328], [1268,353], [1133,354]], what word goes in the blank to form \"CHINA ____\"?",
+              "answer": "SOUTHERN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly captures the text inside [[1098, 322], [1245, 322], [1245, 348], [1098, 348]]? Options:\nA. 空航方南国中\nB. CNINA SOUTHERN\nC. CHINA SOUTHERN\nD. CNINA SOUTHERN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '空航方南国中' is the text contained in the region [[1097.5375375375374, 302.7027027027027], [1501.8203589234206, 302.7027027027027], [1501.8203589234206, 348.60060060060056], [1097.5375375375374, 348.60060060060056]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at [[1097.5375375375374, 302.7027027027027], [1500.2888070406848, 302.7027027027027], [1500.2888070406848, 348.60060060060056], [1097.5375375375374, 348.60060060060056]] — what word or words appear there? ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1179,327], [1315,326], [1302,352], [1167,352]], there's an airline name with a gap — what belongs in CHIN____ to make \"CHIN____ SOUTHERN\"?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[1098, 303], [1500, 303], [1500, 349], [1098, 349]] and match it to the correct option. Options:\nA. CNINA SOUTHERN\nB. CHINA SOUTHERN\nC. 空航方南国串\nD. 空舫方南国中",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '空航方南国串, CHINA SOUTHERN' is what's written inside the box at [[1097.5375375375374, 302.7027027027027], [1500.2888070406848, 302.7027027027027], [1500.2888070406848, 348.60060060060056], [1097.5375375375374, 348.60060060060056]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out the word(s) you see inside [[1103, 303], [1509, 303], [1509, 349], [1103, 349]]. ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the text visible at [[1373,317], [1583,309], [1565,349], [1353,355]], fill in the blank to complete: \"空航____南国中\".",
+              "answer": "方"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the answer that best represents the text inside [[1103, 303], [1509, 303], [1509, 349], [1103, 349]]. Options:\nA. 空舫方南国中\nB. CNINA SOUTHERN\nC. 空航方南国中\nD. 空航方南国串",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'CHINA SOUTHERN' present inside the region at [[1103.3514910259094, 302.7027027027027], [1508.8980578898895, 302.7027027027027], [1508.8980578898895, 348.60060060060056], [1103.3514910259094, 348.60060060060056]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down exactly what's written inside [[1106, 303], [1512, 303], [1512, 349], [1106, 349]]. ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The airline name \"CHI____ SOUTHERN\" has some letters missing — use the region marked by [[1189,330], [1324,329], [1312,355], [1177,356]] to figure out what goes in the blank.",
+              "answer": "NA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside the area [[1106, 303], [1512, 303], [1512, 349], [1106, 349]]? Select the matching answer. Options:\nA. CHINA SOUTHERN\nB. GHINA SOUTHERN\nC. CNINA SOUTHERN\nD. 空航方南国串",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '空航方南国串, CHINA SOUTHERN' inside the region defined by [[1106.1816797051547, 302.7027027027027], [1511.6566846168623, 302.7027027027027], [1511.6566846168623, 348.60060060060056], [1106.1816797051547, 348.60060060060056]]? True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read what's written inside the region [[1110, 303], [1515, 303], [1515, 349], [1110, 349]]? ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[1378,309], [1589,301], [1571,341], [1359,347]]处的文字，把\"空航方南____中\"中缺失的部分补上。",
+              "answer": "国"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that matches the text visible in [[1110, 303], [1515, 303], [1515, 349], [1110, 349]]. Options:\nA. CNINA SOUTHERN\nB. CHINA SOUTHERN\nC. GHINA SOUTHERN\nD. 空航方南国串",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '空航方南国中' found inside [[1109.6151561000045, 303.17196674304944], [1515.3854957157387, 303.17196674304944], [1515.3854957157387, 349.2067174470608], [1109.6151561000045, 349.2067174470608]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside [[1113, 306], [1520, 306], [1520, 352], [1113, 352]] and write it out. ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[1381,299], [1592,291], [1574,331], [1362,337]]位置的内容，完成填空：\"空航方南____中\"。",
+              "answer": "国"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[1113, 306], [1520, 306], [1520, 352], [1113, 352]], which answer choice correctly captures the text there? Options:\nA. CNINA SOUTHERN\nB. 空航方南国串\nC. 空舫方南国中\nD. 空航方南国中",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '空航方南国中, OHINA SOUTHERN' can be found within [[1112.7730508368466, 305.66633495930995], [1519.5240818715831, 305.66633495930995], [1519.5240818715831, 351.5642328572078], [1112.7730508368466, 351.5642328572078]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text that appears in the area marked [[1119, 306], [1522, 306], [1522, 351], [1119, 351]]. ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using what you can see at [[1181,294], [1317,293], [1304,319], [1169,319]], what letters complete the airline name \"CHINA ____\"?",
+              "answer": "SOUTHERN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in [[1119, 325], [1266, 325], [1266, 351], [1119, 351]], one answer choice correctly matches the text — which one? Options:\nA. CNINA SOUTHERN\nB. 空航方南国中\nC. CHINA SOUTHERN\nD. CNINA SOUTHERN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1118.7559568197526, 305.55949735247236], [1521.648190854973, 305.55949735247236], [1521.648190854973, 351.4573952503702], [1118.7559568197526, 351.4573952503702]] contain the label(s) 'CHINA SOUTHERN'? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you find inside [[1123, 307], [1526, 307], [1526, 353], [1123, 353]]. ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看[[1372,259], [1584,254], [1561,298], [1353,297]]所在区域，\"空航____国中\"里空缺的字是什么？",
+              "answer": "方南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at [[1123, 325], [1270, 325], [1270, 351], [1123, 351]] — which of these answer choices lists the text you see there? Options:\nA. CNINA SOUTHERN\nB. CNINA SOUTHERN\nC. CHINA SOUTHERN\nD. 空航方南国中",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether '空航方南国中, OHINA SOUTHERN' falls inside the box [[1123.0294610932567, 306.9483862413612], [1526.3508796778333, 306.9483862413612], [1526.3508796778333, 352.84628413925907], [1123.0294610932567, 352.84628413925907]]. True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word contained within the region [[1128, 308], [1531, 308], [1531, 354], [1128, 354]]. ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看[[1376,225], [1587,220], [1565,264], [1357,263]]区域，把\"空航方____中\"中缺少的文字填上。",
+              "answer": "南国"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of the options below contains all the text shown in [[1128, 328], [1276, 328], [1276, 354], [1128, 354]] — which is it? Options:\nA. 空航方南国中\nB. CHINA SOUTHERN\nC. CNINA SOUTHERN\nD. CNINA SOUTHERN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'CHINA SOUTHERN, 空航方南国串' appears inside [[1128.311151234102, 307.57106971059767], [1531.3518595679093, 307.57106971059767], [1531.3518595679093, 353.6778039752266], [1128.311151234102, 353.6778039752266]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Every word inside [[1133, 309], [1536, 309], [1536, 355], [1133, 355]] — what do you see? ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the gap in \"CH____ SOUTHERN\" — the clue is at [[1192,208], [1329,209], [1317,236], [1180,233]].",
+              "answer": "INA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text(s) inside [[1133, 328], [1280, 328], [1280, 354], [1133, 354]] and select the matching option. Options:\nA. CNINA SOUTHERN\nB. 空航方南国中\nC. CHINA SOUTHERN\nD. CNINA SOUTHERN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1132.574717125575, 309.4131749737556], [1536.1736649417144, 309.4131749737556], [1536.1736649417144, 355.31107287165344], [1132.574717125575, 355.31107287165344]] contain the label(s) 'CHINA SOUTHERN'? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0311/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0311/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible in region [[1135, 310], [1540, 310], [1540, 356], [1135, 356]] — what word(s) appear there? ________",
+              "answer": [
+                "空航方南国中",
+                "CHINA SOUTHERN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[1377,173], [1589,168], [1567,212], [1359,211]]处的文字，\"空航方____中\"中缺少的部分是什么？填写完整。",
+              "answer": "南国"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the text inside [[1135, 328], [1282, 328], [1282, 355], [1135, 355]] — which answer choice matches it? Options:\nA. CHINA SOUTHERN\nB. CNINA SOUTHERN\nC. 空航方南国中\nD. CNINA SOUTHERN",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'CHINA SOUTHERN' the text you'd find inside bounding box [[1134.9332076916128, 310.35657120017066], [1539.853560073504, 310.35657120017066], [1539.853560073504, 356.2544690980685], [1134.9332076916128, 356.2544690980685]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0311"
+  }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the text inside [[911, 617], [1490, 617], [1490, 932], [911, 932]], what word(s) do you see? It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's been obscured in \"capy____\" at coordinates [[921,748], [965,750], [955,932], [911,930]] — what's the missing part?",
+              "answer": "bara"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text visible in [[911, 691], [1490, 691], [1490, 932], [911, 932]], which option is the right match? Options:\nA. 禁止停, 此处\nB. 禁止停, 注意安\nC. 禁止偂, capybara\nD. 温馨提示, capybara",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Please verify whether the label(s) 'capybara, 温馨提示, 此处, 禁止停' sit within the bounding box [[911.0, 617.0], [1490.0709219858156, 617.0], [1490.0709219858156, 932.0], [911.0, 932.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[912, 618], [1493, 618], [1493, 937], [912, 937]] — what word(s) can you make out there? It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1129,599], [1287,584], [1291,632], [1133,647]], the text reads \"温馨提____：\" with something missing — what should fill the gap?",
+              "answer": "示"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on region [[1179, 618], [1493, 618], [1493, 843], [1179, 843]] in the image, which answer choice lists the text(s) you find there? Options:\nA. 注意安, 湿馨提示, 禁止停\nB. 注意安, 此处, 禁止停\nC. 注意安, 温馨提示, capybara\nD. 禁止偂, 注意安, 此处",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '禁止停, capybara, 注意安, 此处' are positioned inside the bounding box [[912.0, 618.0], [1493.0, 618.0], [1493.0, 937.0], [912.0, 937.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you look at the region [[909, 619], [1495, 619], [1495, 936], [909, 936]], what word(s) are written there? It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像坐标[[1313,563], [1423,557], [1427,626], [1317,632]]处有一段不完整的文字\"____处\"，缺失的内容是什么？",
+              "answer": "此"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options provided, which one accurately names the text(s) visible in [[909, 690], [1495, 690], [1495, 936], [909, 936]]? Options:\nA. oapybara, 注意安\nB. capybara, 禁止偂\nC. 禁止停, 注意安\nD. 此处, 注意安",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think '此处, 禁止停, 温馨提示, capybara' falls inside the bounding box marked as [[909.0, 619.0], [1494.871794871795, 619.0], [1494.871794871795, 936.0], [909.0, 936.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text you can read inside [[902, 736], [956, 736], [956, 920], [902, 920]]. It is ________.",
+              "answer": [
+                "capybara"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1257,740], [1425,720], [1433,791], [1264,809]]处的文字\"____安\"不完整，请问缺少的字符是什么？",
+              "answer": "注意"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[902, 600], [1492, 600], [1492, 920], [902, 920]], which of the following best matches the text(s) shown there? Options:\nA. 注意安, 温馨提示, 此处, 禁止停\nB. capybara, 温馨提示, 禁止偂, 注意安\nC. 注意安, capybara, 此处, 禁止偐\nD. capybara, 此处, 湿馨提示, 注意安",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'capybara, 温馨提示, 注意安, 此处' appear inside the bounding box [[902.0, 600.0], [1492.0, 600.0], [1492.0, 920.0], [902.0, 920.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read the text inside [[1167, 584], [1488, 584], [1488, 812], [1167, 812]]? It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[993,607], [1141,592], [1145,640], [997,655]]处出现的短语有字符缺失，请将\"温____示\"补充完整。",
+              "answer": "馨提"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly shows what's written inside [[893, 665], [1485, 665], [1485, 910], [893, 910]]? Options:\nA. oapybara, 禁止停\nB. 注意安, 禁止偂\nC. 此处, 注意安\nD. capybara, 注意安",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[893.0, 584.0], [1488.0, 584.0], [1488.0, 910.0], [893.0, 910.0]] actually contain the label(s) '此处, 禁止停, capybara, 注意安'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out at [[888, 577], [1481, 577], [1481, 902], [888, 902]]? It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[640,706], [690,708], [686,906], [636,904]], the phrase \"____bara\" has some characters missing — what should they be?",
+              "answer": "capy"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, which one matches the text visible in [[888, 658], [1478, 658], [1478, 902], [888, 902]]? Options:\nA. 禁止停, oapybara\nB. 注意安, 此处\nC. capybara, 注意安\nD. 注意安, oapybara",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'capybara, 禁止停, 注意安, 歱处, 温馨提示' the label(s) you'd find inside bounding box [[888.0, 577.0], [1481.0, 577.0], [1481.0, 902.0], [888.0, 902.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) visible inside [[883, 574], [1480, 574], [1480, 900], [883, 900]]. It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标[[1006,555], [1122,546], [1127,614], [1011,623]]区域，\"此____\"中缺失的字符是什么？",
+              "answer": "处"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option captures what's written in the area [[1157, 574], [1480, 574], [1480, 806], [1157, 806]]? Options:\nA. 禁止偂, 注意安, 温馨提示\nB. 注意安, 温馨提示, capybara\nC. 温馨提示, 禁止停, 此处\nD. 温馨提示, 注恴安, 禁止停",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '注意安, 禁止停, 温馨提示, 此处' sits inside the bounding box [[883.0, 574.0], [1480.0, 574.0], [1480.0, 900.0], [883.0, 900.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The region [[885, 578], [1483, 578], [1483, 898], [885, 898]] contains some text — what does it say? It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看[[853,547], [965,541], [969,608], [857,614]]坐标处的内容，\"此____\"里空缺的部分应该怎么填？",
+              "answer": "处"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[885, 650], [1483, 650], [1483, 898], [885, 898]] and pick the answer that matches the text there. Options:\nA. 禁止停, 此处\nB. 注意安, capybara\nC. 禁止停, oapybara\nD. 注恴安, capybara",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that '禁止停, 注恴安, 此处, capybara, 温馨提示' is enclosed by the bounding box [[885.0, 578.0], [1483.3333333333335, 578.0], [1483.3333333333335, 898.0], [885.0, 898.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you look at [[883, 566], [1485, 566], [1485, 892], [883, 892]], what word(s) do you see written there? It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "\"____处\"这个短语出现在[[748,527], [864,519], [869,588], [753,597]]坐标处，其中缺了哪些字？",
+              "answer": "此"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which one correctly reflects the text(s) you see in [[1157, 566], [1485, 566], [1485, 798], [1157, 798]]? Options:\nA. 此处, 温馨提示, capybara\nB. 此处, 温馨提示, 禁止停\nC. 禁止停, 注恴安, 温馨提示\nD. 歱处, 温馨提示, 注意安",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '此处, 温馨提示, 禁止停, capybara, 注意安' fall within the bounding box [[1157, 566], [1485, 566], [1485, 798], [1157, 798]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[872, 567], [1473, 567], [1473, 892], [872, 892]] and fill in the blank. It is ________.",
+              "answer": [
+                "此处",
+                "温馨提示：",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "短语\"温馨____\"位于[[443,533], [599,519], [603,569], [447,583]]坐标内，其中省略的部分是什么？",
+              "answer": "提示"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[1147, 567], [1473, 567], [1473, 796], [1147, 796]]? Select the matching option. Options:\nA. 温馨提示：, 注意安, 禁止偂\nB. 注意安, capybara, 温馨提示：\nC. 注意安, 湿馨提示：, 此处\nD. 温馨提示：, 注意安, 此处",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[872.0, 567.0], [1473.0, 567.0], [1473.0, 892.0], [872.0, 892.0]] actually contain the label(s) '禁止停, capybara, 注意安, 温馨提示：'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text shows up inside [[849, 570], [1453, 570], [1453, 898], [849, 898]]? ________",
+              "answer": [
+                "此处",
+                "温馨提示：",
+                "禁止停车",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at coordinates [[3,645], [51,647], [41,858], [0,856]], which character(s) complete the partial phrase \"cap____ra\"?",
+              "answer": "yba"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following best matches the text visible inside [[849, 649], [1453, 649], [1453, 898], [849, 898]]? Options:\nA. 注意安, capybara\nB. capybara, 禁止偂车\nC. oapybara, 注意安\nD. 此处, 禁止停车",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'capybara, 此处, 注意安, 温馨提示：' what's written inside bounding box [[849.0, 570.0], [1453.0, 570.0], [1453.0, 898.0], [849.0, 898.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0015/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0015/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the region [[846, 571], [1448, 571], [1448, 898], [846, 898]], what word(s) appear there? ________",
+              "answer": [
+                "此处",
+                "温馨提示",
+                "禁止停",
+                "capybara",
+                "注意安"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[410,580], [590,555], [601,638], [424,667]]处的文字有所缺失，请在\"禁____停\"中填入正确的字符。",
+              "answer": "止"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that shows the text found in region [[1123, 571], [1448, 571], [1448, 802], [1123, 802]]. Options:\nA. 注意安, 歱处, 禁止停\nB. capybara, 温馨提示, 禁止停\nC. 此处, 湿馨提示, 注意安\nD. 温馨提示, 此处, 禁止停",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '禁止停, 温馨提示, 此处, 注意安' is the content visible inside bounding box [[846.0, 571.0], [1447.887323943662, 571.0], [1447.887323943662, 898.0], [846.0, 898.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0015"
+  }
+]

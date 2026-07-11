@@ -1,0 +1,487 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[1275, 93], [1389, 93], [1389, 164], [1275, 164]], the text reads — it is ________.",
+              "answer": [
+                "懿峯"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像坐标 [[1406,641], [1568,641], [1568,744], [1406,744]] 处的文字里，如果第二个字是\"往\"，第一个字是\"请\"，那 ____ 往？",
+              "answer": "请"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "All options are listed below — which one matches the text you see in [[1275, 93], [1681, 93], [1681, 744], [1275, 744]]? Options:\nA. 出秜车, 懿峯, 请往, 无障碍通道\nB. 无障碍通道, 电椧, 出租车, 懿峯\nC. 懿峯, 无障碍通道, 出租车, 请往\nD. 讳往, 电梯, 出租车, 懿峯",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Your eyes on [[1275.0, 93.0], [1681.1965811965813, 93.0], [1681.1965811965813, 744.0], [1275.0, 744.0]] — do the label(s) '电梯, 讳往, 懿峯, 出租车, 无障碍通道' appear there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can read from [[1275, 93], [1681, 93], [1681, 744], [1275, 744]]. It is ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1379,248], [1545,248], [1545,357], [1379,357]] 处的文字里，\"____梯\" 这两个字符你能填出来吗？",
+              "answer": "电"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text visible in [[1275, 93], [1681, 93], [1681, 744], [1275, 744]]? Options:\nA. 电梯, 无障碍通遒, 请往, 懿峯\nB. 电梯, 懿峯, 无障碍過道, 请往\nC. 懿峯, 电梯, 出秜车, 无障碍通道\nD. 请往, 无障碍通道, 电梯, 懿峯",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label '无障碍通道, 懿崋, 请往, 出租车, 电梯' — does it appear inside [[1275.0, 93.0], [1681.1965811965813, 93.0], [1681.1965811965813, 744.0], [1275.0, 744.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text at [[1275, 101], [1681, 101], [1681, 755], [1275, 755]] and fill in the blank: it says ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "已知 [[1329,650], [1491,650], [1491,753], [1329,753]] 处文本的第三个字是\"往\"，第一个字是 \"____往\"，对吗？",
+              "answer": "请"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that accurately reflects the text shown in [[1275, 101], [1591, 101], [1591, 491], [1275, 491]]. Options:\nA. 电梯, 出租车\nB. 电椧, 懿峯\nC. 懿峯, 请往\nD. 出租车, 无障碍通道",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "All of these labels — '无障碍通道, 电梯, 懿峯, 请往' — do they sit inside [[1275.0, 101.33333333333334], [1681.1965811965813, 101.33333333333334], [1681.1965811965813, 755.4583333333333], [1275.0, 755.4583333333333]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you see at [[1275, 101], [1681, 101], [1681, 755], [1275, 755]]: ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在 [[1323,653], [1521,663], [1527,781], [1323,775]] 区域里，\"请\"字后面紧跟的两个字是什么？\"请____\"",
+              "answer": "往"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one captures the text inside [[1285, 383], [1681, 383], [1681, 755], [1285, 755]]? Options:\nA. 出租车, 无障碍通遒\nB. 出租车, 无障碍通道\nC. 无障碍通道, 出秜车\nD. 请往, 懿峯",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: do you find '出租车, 电梯, 请往' located inside [[1285, 248], [1681, 248], [1681, 755], [1285, 755]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The region [[1275, 101], [1681, 101], [1681, 755], [1275, 755]] contains some text — what does it say? ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "紧接在 [[1301,388], [1551,392], [1555,503], [1299,502]] 中\"车\"字前面的两个字是 \"____车\"，请填写。",
+              "answer": "出租"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that best represents the text visible at [[1275, 101], [1591, 101], [1591, 491], [1275, 491]]. Options:\nA. 懿峯, 电椧\nB. 请往, 懿峯\nC. 懿崋, 电梯\nD. 电梯, 懿峯",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that '请往, 电梯, 无障碍通道, 出租车' fall(s) within the area marked by [[1275.0, 101.33333333333334], [1681.1965811965813, 101.33333333333334], [1681.1965811965813, 755.4583333333333], [1275.0, 755.4583333333333]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the text found at location [[1275, 101], [1681, 101], [1681, 753], [1275, 753]]: ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请填写 [[1372,245], [1538,245], [1538,354], [1372,354]] 处文字中缺失的第一个字符：\"____梯\"。",
+              "answer": "电"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears at [[1275, 101], [1681, 101], [1681, 753], [1275, 753]]? Choose the matching option from: Options:\nA. 懿峯, 电梯, 出租车, 无障碍通道\nB. 出租车, 无障碍通道, 电椧, 请往\nC. 懿峯, 电梯, 无障碍通遒, 出租车\nD. 出租车, 无障碍通道, 懿崋, 电梯",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll see a bounding box at [[1275.0, 101.33333333333334], [1681.1965811965813, 101.33333333333334], [1681.1965811965813, 752.926687763713], [1275.0, 752.926687763713]] — is '电梯, 出租车, 请往, 懿峯' one of the labels it contains?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and name the word(s) visible at [[1280.7471264367816, 100.183908045977], [1394.7471264367816, 100.183908045977], [1394.7471264367816, 171.183908045977], [1280.7471264367816, 171.183908045977]] — the answer is ________.",
+              "answer": [
+                "懿峯"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "把 [[1359,371], [1608,375], [1612,486], [1356,484]] 处文字里第二个被遮住的字填出来：出____车。",
+              "answer": "租"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the following choices, which one correctly shows the text at [[1281, 100], [1681, 100], [1681, 753], [1281, 753]]? Options:\nA. 出租车, 请往, 无障碍通道, 懿崣\nB. 电椧, 出租车, 无障碍通道, 请往\nC. 出租车, 无障碍通道, 请往, 电梯\nD. 出租车, 无障碍通道, 电梯, 懿崋",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[1280.7471264367816, 100.183908045977], [1681.1965811965813, 100.183908045977], [1681.1965811965813, 752.926687763713], [1280.7471264367816, 752.926687763713]]: do the labels '电梯, 无障碍通道, 讳往, 懿峯, 出租车' appear there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can read inside [[1278.6637931034484, 99.14224137931035], [1681.1965811965813, 99.14224137931035], [1681.1965811965813, 752.926687763713], [1278.6637931034484, 752.926687763713]] — ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "\"碍\"字后面少了两个字，根据 [[1266,490], [1674,502], [1677,624], [1265,612]] 的文字内容，把它们补全：\"无障碍____\"。",
+              "answer": "通道"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[1285, 248], [1681, 248], [1681, 753], [1285, 753]] — what text does it contain? Options:\nA. 电梯, 出租车, 讳往\nB. 出租车, 无障碍通道, 请往\nC. 请往, 懿峯, 出租车\nD. 出租车, 无障碍通道, 讳往",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '懿峯, 请往, 无障碍通道, 出租车, 电棆' appearing inside the bounding box [[1278.6637931034484, 99.14224137931035], [1681.1965811965813, 99.14224137931035], [1681.1965811965813, 752.926687763713], [1278.6637931034484, 752.926687763713]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify the word(s) visible in [[1279.6875, 101.33333333333334], [1681.1965811965813, 101.33333333333334], [1681.1965811965813, 755.4583333333333], [1279.6875, 755.4583333333333]]? The word(s) is/are ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1294,355], [1543,359], [1547,470], [1291,469]] 对应的文字是\"出租车\"，但其中\"租\"字被遮住了，你能填上缺失部分吗：出____车？",
+              "answer": "租"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text found inside [[1280, 101], [1591, 101], [1591, 491], [1280, 491]] matches which of these options? Options:\nA. 电梯, 请往\nB. 电椧, 出租车\nC. 懿峯, 出秜车\nD. 电梯, 出租车",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '请往, 懿峯, 出秜车, 无障碍通道, 电梯' visible inside the bounding box [[1279.6875, 101.33333333333334], [1681.1965811965813, 101.33333333333334], [1681.1965811965813, 755.4583333333333], [1279.6875, 755.4583333333333]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) you can read in the region [[1279.6875, 101.33333333333334], [1681.1965811965813, 101.33333333333334], [1681.1965811965813, 755.4583333333333], [1279.6875, 755.4583333333333]]: ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于坐标 [[1311,215], [1477,215], [1477,324], [1311,324]] 的文字由两个字符组成，其中部分内容为\"____梯\"，第一个字符是什么？",
+              "answer": "电"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[1280, 101], [1681, 101], [1681, 755], [1280, 755]] and match it to the right option below. Options:\nA. 请往, 出秜车, 无障碍通道, 电梯\nB. 请往, 懿峯, 电棆, 无障碍通道\nC. 无障碍通道, 懿峯, 请往, 电椧\nD. 请往, 懿峯, 无障碍通道, 出租车",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1279.6875, 101.33333333333334], [1681.1965811965813, 101.33333333333334], [1681.1965811965813, 755.4583333333333], [1279.6875, 755.4583333333333]] actually contain '请往, 出租车, 电梯, 懿峯'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown in [[1275.4139957264958, 98.76923076923077], [1389.4139957264958, 98.76923076923077], [1389.4139957264958, 169.76923076923077], [1275.4139957264958, 169.76923076923077]] and write the word(s): ________.",
+              "answer": [
+                "懿峯"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1266,370], [1515,374], [1519,485], [1263,483]] 区域的文字是\"出租车\"，但最后一个字符被遮住了，请补全：出租____。",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[1275, 99], [1674, 99], [1674, 755], [1275, 755]] — which answer option correctly lists the text there? Options:\nA. 无障碍通道, 懿峯, 出租车, 电梯\nB. 无障碍通遒, 请往, 懿峯, 电梯\nC. 无障碍通道, 出租车, 讳往, 电梯\nD. 请往, 出租车, 无障碍通道, 电椧",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that '无障碍通道, 出租车, 电梯, 懿峯' falls within the bounding box [[1275.4139957264958, 98.76923076923077], [1674.3589743589746, 98.76923076923077], [1674.3589743589746, 755.4583333333333], [1275.4139957264958, 755.4583333333333]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0277/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0277/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) you can see in [[1271.247329059829, 97.72756410256412], [1674.3589743589746, 97.72756410256412], [1674.3589743589746, 755.4583333333333], [1271.247329059829, 755.4583333333333]]: ________.",
+              "answer": [
+                "懿峯",
+                "电梯",
+                "出租车",
+                "请往",
+                "无障碍通道"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "标识坐标在 [[1384,230], [1550,230], [1550,339], [1384,339]]，\"电\"字之后缺失一个字符，请填入：电____",
+              "answer": "梯"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the area [[1278, 247], [1674, 247], [1674, 755], [1278, 755]], what text do you see? Match it to an option. Options:\nA. 无障碍通道, 出租车, 请往\nB. 懿峯, 请往, 无障碍通道\nC. 请往, 电椧, 出租车\nD. 无障碍通道, 出秜车, 请往",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '无障碍通道, 出租车, 电梯, 请往' sits inside the bounding box [[1271.247329059829, 97.72756410256412], [1674.3589743589746, 97.72756410256412], [1674.3589743589746, 755.4583333333333], [1271.247329059829, 755.4583333333333]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0277"
+  }
+]

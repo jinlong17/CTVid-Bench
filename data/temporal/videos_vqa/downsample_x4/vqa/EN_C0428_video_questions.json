@@ -1,0 +1,313 @@
+{
+  "video_id": "C0428",
+  "frames": 120,
+  "word": "VALLCO PARK",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/EN_C0428.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"VALLCO PARK\" likely to be?\n Options:\nA. general scene text\nB. direction or navigation sign\nC. warning or prohibition sign\nD. address or street sign\nE. event or poster information\nF. menu or commercial information\nG. storefront or brand sign",
+      "q": "What type of sign would the text \"VALLCO PARK\" most likely belong to?\n Options:\nA. general scene text\nB. direction or navigation sign\nC. warning or prohibition sign\nD. address or street sign\nE. event or poster information\nF. menu or commercial information\nG. storefront or brand sign",
+      "a": "A",
+      "a_text": "general scene text",
+      "answer_key": "general scene text",
+      "options": [
+        "A. general scene text",
+        "B. direction or navigation sign",
+        "C. warning or prohibition sign",
+        "D. address or street sign",
+        "E. event or poster information",
+        "F. menu or commercial information",
+        "G. storefront or brand sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would the text \"VALLCO PARK\" most likely belong to?\n Options:\nA. general scene text\nB. direction or navigation sign\nC. warning or prohibition sign\nD. address or street sign\nE. event or poster information\nF. menu or commercial information\nG. storefront or brand sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"VALLCO PARK\" appear in?\n Options:\nA. event poster or display\nB. warning / rule sign\nC. storefront\nD. campus or office\nE. other public sign\nF. road or street\nG. transportation / station\nH. restaurant or menu",
+      "q": "The text \"VALLCO PARK\" — what kind of setting or environment does it appear in?\n Options:\nA. event poster or display\nB. warning / rule sign\nC. storefront\nD. campus or office\nE. other public sign\nF. road or street\nG. transportation / station\nH. restaurant or menu",
+      "a": "E",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. event poster or display",
+        "B. warning / rule sign",
+        "C. storefront",
+        "D. campus or office",
+        "E. other public sign",
+        "F. road or street",
+        "G. transportation / station",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text \"VALLCO PARK\" — what kind of setting or environment does it appear in?\n Options:\nA. event poster or display\nB. warning / rule sign\nC. storefront\nD. campus or office\nE. other public sign\nF. road or street\nG. transportation / station\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"VALLCO PARK\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "q": "In the frame, where does the text \"VALLCO PARK\" tend to sit for most of the clip?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-right (lower-right area)",
+        "C. top-left (upper-left area)",
+        "D. bottom-left (lower-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In the frame, where does the text \"VALLCO PARK\" tend to sit for most of the clip?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"VALLCO PARK\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "How much movement does the text \"VALLCO PARK\" show from start to finish?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "B",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much movement does the text \"VALLCO PARK\" show from start to finish?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"VALLCO PARK\" move?\n Options:\nA. moves up\nB. moves left\nC. moves diagonally\nD. changes direction partway\nE. stays roughly in place\nF. moves down\nG. moves right",
+      "q": "If you had to pick a direction, which way does the text \"VALLCO PARK\" generally drift over the clip?\n Options:\nA. moves up\nB. moves left\nC. moves diagonally\nD. changes direction partway\nE. stays roughly in place\nF. moves down\nG. moves right",
+      "a": "D",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves up",
+        "B. moves left",
+        "C. moves diagonally",
+        "D. changes direction partway",
+        "E. stays roughly in place",
+        "F. moves down",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "If you had to pick a direction, which way does the text \"VALLCO PARK\" generally drift over the clip?\n Options:\nA. moves up\nB. moves left\nC. moves diagonally\nD. changes direction partway\nE. stays roughly in place\nF. moves down\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"VALLCO PARK\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-right -> center\nB. bottom-left -> top-right -> center\nC. bottom-right -> top-right -> center\nD. center -> center -> center",
+      "q": "Can you describe where the text \"VALLCO PARK\" is positioned early on, then midway through, and finally near the end?\n Options:\nA. center -> top-right -> center\nB. bottom-left -> top-right -> center\nC. bottom-right -> top-right -> center\nD. center -> center -> center",
+      "a": "A",
+      "a_text": "center -> top-right -> center",
+      "answer_key": "center -> top-right -> center",
+      "options": [
+        "A. center -> top-right -> center",
+        "B. bottom-left -> top-right -> center",
+        "C. bottom-right -> top-right -> center",
+        "D. center -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you describe where the text \"VALLCO PARK\" is positioned early on, then midway through, and finally near the end?\n Options:\nA. center -> top-right -> center\nB. bottom-left -> top-right -> center\nC. bottom-right -> top-right -> center\nD. center -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"VALLCO PARK\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "Would you say the text \"VALLCO PARK\" takes up a large, medium, or small portion of the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "A",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. large (a major part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Would you say the text \"VALLCO PARK\" takes up a large, medium, or small portion of the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"VALLCO PARK\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "q": "Does the text \"VALLCO PARK\" grow bigger, shrink, or stay roughly the same size as the clip plays out?\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets larger",
+        "B. stays about the same size",
+        "C. gets smaller",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does the text \"VALLCO PARK\" grow bigger, shrink, or stay roughly the same size as the clip plays out?\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"VALLCO PARK\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "q": "Is the text \"VALLCO PARK\" comfortably inside the frame, or does it sit close to one of the edges?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. fully inside, away from the edges",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"VALLCO PARK\" comfortably inside the frame, or does it sit close to one of the edges?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"VALLCO PARK\" and how it appears in the video.",
+      "q": "Give a brief description of the text \"VALLCO PARK\" — what it looks like and how it behaves over the course of the video.",
+      "a": "The text \"VALLCO PARK\" is displayed in large, gold capital letters at the top of a dark informational plaque.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of the text \"VALLCO PARK\" — what it looks like and how it behaves over the course of the video."
+    }
+  ],
+  "method": "downsample_x4"
+}

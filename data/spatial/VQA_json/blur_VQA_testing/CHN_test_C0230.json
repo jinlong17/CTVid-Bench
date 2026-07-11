@@ -1,0 +1,471 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text visible inside [[82, 240], [1919, 240], [1919, 986], [82, 986]]. ________",
+              "answer": [
+                "上海别克",
+                "53",
+                "石岐区·",
+                "雪佛兰",
+                "凯迪拉克",
+                "拉"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中 [[896,264], [1543,240], [1550,423], [903,447]] 坐标处的标识缺少了\"别\"字，你能补全\"上海____克\"吗？",
+              "answer": "别"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option matches the text found in the region [[82, 240], [1572, 240], [1572, 986], [82, 986]]? Options:\nA. 石岐区·, 上海别克, 拉\nB. 上海别克, 53, 拉\nC. 上涕别克, 雪佛兰, 拉\nD. 凯迪拉克, 拉, 雪佛兰",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Pinpoint whether '拉, 雪佛兰, 凯迪拉克' falls inside the bounding box [[82, 240], [1572, 240], [1572, 986], [82, 986]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[80.9247311827957, 907.236559139785], [110.9247311827957, 907.236559139785], [110.9247311827957, 937.236559139785], [80.9247311827957, 937.236559139785]], what text is shown? ________",
+              "answer": [
+                "拉"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "查看 [[1692,355], [1900,355], [1900,453], [1692,453]] 坐标处的卡号，其中有数字缺失，请把\"53____\"补充完整。",
+              "answer": "卡"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly captures the text visible at [[885, 234], [1919, 234], [1919, 724], [885, 724]]? Options:\nA. 53, 雪佛兰, 上涕别克\nB. 石岐区·, 凯迪拉克, 上海别克\nC. 上海别克, 雪佛兰, 53\nD. 雪佛兰, 石岥区·, 53",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find the label(s) '石岐区·, 上海别克, 凯迪拉克, 53, 雪佛兰, 拉' inside [[885, 234], [1919, 234], [1919, 984], [885, 984]] — yes or no?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the text visible at [[76.0, 905.0], [110.0, 905.0], [110.0, 941.0], [76.0, 941.0]]. ________",
+              "answer": [
+                "拉"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中 [[1578,347], [1789,352], [1786,447], [1575,442]] 位置的文字不完整，请把\"5____卡\"里缺失的内容填上。",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one contains the text shown at [[76, 234], [1572, 234], [1572, 982], [76, 982]]? Options:\nA. 凯迪拉克, 53, 拉\nB. 拉, 雪佛兰, 凯迪拉克\nC. 拉, 雪伂兰, 上海别克\nD. 凯迪拉克, 石岐区·, 拉",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[875, 234], [1919, 234], [1919, 982], [875, 982]], is '上海别克, 53, 石岐区·, 凯迪拉克' one of the visible labels?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What exactly does the text say at [[74.0, 234.0], [1919.0, 234.0], [1919.0, 982.0], [74.0, 982.0]]? ________",
+              "answer": [
+                "上海别克",
+                "53",
+                "石岐区·悦",
+                "雪佛兰",
+                "凯迪拉克",
+                "拉"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[1476,366], [1683,379], [1676,474], [1469,461]] 区域，将\"____卡\"中空出的字符填入。",
+              "answer": "53"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately lists the text(s) inside [[884, 234], [1919, 234], [1919, 716], [884, 716]]. Options:\nA. 上海别克, 石岐区·悦, 雪佛兰\nB. 58, 上海别克, 雪佛兰\nC. 石岐区·悦, 雪佛兰, 凯迪拉克\nD. 上海别克, 雪伂兰, 53",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Point out whether '石岐区·悦, 雪佛兰, 上海别克, 拉, 53, 凯迪拉克' sits within the box at [[884, 234], [1919, 234], [1919, 982], [884, 982]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Transcribe the text at [[58.0, 901.0], [94.0, 901.0], [94.0, 937.0], [58.0, 937.0]] here: ________",
+              "answer": [
+                "拉"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察图中 [[477,534], [1172,544], [1175,761], [464,764]] 的位置，将\"雪____\"中缺少的文字补全。",
+              "answer": "佛兰"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text at [[868, 232], [1918, 232], [1918, 716], [868, 716]] — which answer choice correctly lists it? Options:\nA. 上海别克, 雪伂兰, 石岐区·悦\nB. 上海别克, 凯迪拉克, 雪佛兰\nC. 石岐区·悦, 上海别克, 雪佛兰\nD. 雪佛兰, 上海别克, 石岥区·悦",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '石岐区·悦, 凯迪拉克, 上海别克, 53, 拉, 雪佛兰' part of the text displayed within [[868, 232], [1918, 232], [1918, 980], [868, 980]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How does the text inside [[46.0, 901.0], [78.0, 901.0], [78.0, 943.0], [46.0, 943.0]] read? ________",
+              "answer": [
+                "拉"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "找到图中 [[415,248], [1124,278], [1112,492], [401,473]] 坐标所对应的文字，把\"上____别克\"里空着的地方填上。",
+              "answer": "海"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region at [[854, 232], [1918, 232], [1918, 978], [854, 978]], which option below matches the text that appears there? Options:\nA. 凯迪拉克, 石岐区·悦凯, 上涕别克, 53\nB. 53, 雪佛兰, 石岥区·悦凯, 上海别克\nC. 石岐区·悦凯, 雪佛兰, 上海别克, 凯迪拉克\nD. 拉, 53, 石岐区·悦凯, 上海别克",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '雪佛兰, 上海别克, 石岐区·悦凯' is enclosed within [[854, 232], [1918, 232], [1918, 718], [854, 718]]? True or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write out the text visible inside [[32.896039603960425, 892.5742574257425], [67.79702970297033, 892.5742574257425], [67.79702970297033, 930.980198019802], [32.896039603960425, 930.980198019802]]. ________",
+              "answer": [
+                "拉"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1262,518], [1492,521], [1490,573], [1262,566]] 所标注的区域内，地址\"石岐区·____路6号\"缺少了什么？请补全它。",
+              "answer": "悦凯"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[842, 232], [1916, 232], [1916, 976], [842, 976]] matches which option? Options:\nA. 拉, 上海别克, 雪佛兰, 凯迪拉克\nB. 雪伂兰, 石岐区·悦凯, 53, 凯迪拉克\nC. 凯迪拉克, 石岐区·悦凯, 雪佛兰, 上海别克\nD. 58, 雪佛兰, 上海别克, 凯迪拉克",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '拉, 凯迪拉克, 上海别克' fall within the bounding box [[33, 232], [1拉, 凯迪拉克, 上海别克2, 232], [1拉, 凯迪拉克, 上海别克2, 976], [33, 976]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify the word(s) found inside [[1738.0, 355.0], [1919.0, 355.0], [1919.0, 495.0], [1738.0, 495.0]]? Fill in: ________.",
+              "answer": [
+                "53",
+                "石城区·住教造"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1226,517], [1456,520], [1454,572], [1227,565]] 位置的文字里，\"石岐区·____凯路6号\"空缺处应填什么？",
+              "answer": "悦"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one matches the text(s) visible inside [[820, 227], [1529, 227], [1529, 978], [820, 978]]? Options:\nA. 上涕别克, 雪佛兰\nB. 雪佛兰, 凯迪拉克\nC. 上海别克, 雪伂兰\nD. 雪佛兰, 53",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[819.5238095238095, 226.90476190476187], [1919.0, 226.90476190476187], [1919.0, 978.0952380952381], [819.5238095238095, 978.0952380952381]] actually contain the label(s) '凯迪拉克, 53, 上海别克, 雪佛兰'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[1720.0, 355.0], [1919.0, 355.0], [1919.0, 453.0], [1720.0, 453.0]] and write out the word(s): ________.",
+              "answer": [
+                "53卡"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1182,511], [1412,514], [1410,566], [1183,559]] 处的地址写着\"石岐区·____凯路6号\"，缺少的字是什么？",
+              "answer": "悦"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text shown at [[789, 222], [1919, 222], [1919, 979], [789, 979]] — which answer choice correctly identifies it? Options:\nA. 凯迪拉克, 雪佛兰, 上涕别克\nB. 雪佛兰, 欢迎光临, 上海别克\nC. 雪佛兰, 凯迪拉克, 上涕别克\nD. 凯迪拉克, 53卡, 上海别克",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '上海别克, 53卥, 欢迎光临, 雪佛兰, 凯迪拉克' can be found inside [[148.0, 222.1428571428571], [1919.0, 222.1428571428571], [1919.0, 1068.0], [148.0, 1068.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you see within [[1699.0, 353.0], [1915.0, 353.0], [1915.0, 490.0], [1699.0, 490.0]]: ________.",
+              "answer": [
+                "53卡",
+                "石岐区·悦凯路6号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中 [[218,753], [954,773], [947,1017], [212,1004]] 坐标区域显示了一个车辆品牌，\"凯____拉克\"中空着的字该填什么？",
+              "answer": "迪"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears at [[789, 233], [1915, 233], [1915, 710], [789, 710]]? Choose the option that correctly names it. Options:\nA. 上海别克, 石岐区·悦凯路6号, 雪佛兰\nB. 雪佛兰, 53卡, 石岥区·悦凯路6号\nC. 凯迪拉克, 雪佛兰, 53卡\nD. 上海别克, 雪伂兰, 53卡",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '雪佛兰, 上海别克, 53卡, 凯迪拉克' appear inside the region [[789.0, 233.0], [1915.0, 233.0], [1915.0, 972.0], [789.0, 972.0]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[781.0, 231.0], [1910.0, 231.0], [1910.0, 970.0], [781.0, 970.0]], there is/are word(s) — what exactly? ________.",
+              "answer": [
+                "上海别克",
+                "53卡",
+                "石岐区·悦凯路6号",
+                "雪佛兰",
+                "凯迪拉克"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看坐标 [[1165,478], [1362,485], [1361,517], [1164,510]] 的内容，\"石岐区·____凯路6号\"里缺失的字应该是什么？",
+              "answer": "悦"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options provided, which one correctly captures the text(s) found at [[781, 231], [1910, 231], [1910, 708], [781, 708]]? Options:\nA. 53卡, 上海别克, 石岥区·悦凯路6号\nB. 凯迪拉克, 石岐区·悦凯路6号, 雪佛兰\nC. 53卡, 石岐区·悦凯路6号, 雪佛兰\nD. 53卡, 上海别克, 石岥区·悦凯路6号",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '石岥区·悦凯路6号, 53卡, 雪佛兰, 上海别克, 凯迪拉克' can be found as label(s) within [[781.0, 231.0], [1910.0, 231.0], [1910.0, 970.0], [781.0, 970.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0230/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0230/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) do you see at [[758.8095238095237, 231.0], [1900.0, 231.0], [1900.0, 984.047619047619], [758.8095238095237, 984.047619047619]]? ________.",
+              "answer": [
+                "上海别克",
+                "53卡",
+                "石岐区·悦凯路6号",
+                "雪佛兰",
+                "凯迪拉克"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1145,360], [1362,371], [1365,484], [1142,472]] 区域出现的文字中，\"____卡\"的空白处对应哪个字符？",
+              "answer": "53"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region [[759, 231], [1456, 231], [1456, 984], [759, 984]], which answer choice includes that text? Options:\nA. 凯迪拉克, 雪佛兰\nB. 上海别克, 53卡\nC. 雪伂兰, 凯迪拉克\nD. 上海别克, 雪伂兰",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think the label(s) '石岥区·悦凯路6号, 53卡, 雪佛兰, 凯迪拉克, 上海别克' sit inside the bounding box [[758.8095238095237, 231.0], [1900.0, 231.0], [1900.0, 984.047619047619], [758.8095238095237, 984.047619047619]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0230"
+  }
+]

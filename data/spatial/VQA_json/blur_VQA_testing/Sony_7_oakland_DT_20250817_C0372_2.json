@@ -1,0 +1,429 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Wherever [[817, 75], [1197, 75], [1197, 511], [817, 511]] is marked, what word(s) appear? ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pointing to region [[817, 75], [1197, 75], [1197, 511], [817, 511]], which answer option shows the correct text(s)? Options:\nA. CRAFT, HOUSEMAOE, LEMONADES, BEERS, COCKTAILS, 20+CRAFT\nB. 20+CRAFT, CRAFT, COCKTAILS, ON TAP, LEMONAOES, BEERS\nC. 20+CRAFT, COCKTAILS, LEMONADES, CRAFT, BEERS, HOUSFMADE\nD. COCKTAILS, HOUSEMADE, 20+CRAFT, CRAFT, LEMONADES, ON TAP",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Found within [[816.5223880597015, 74.70845481049564], [1197.0149253731342, 74.70845481049564], [1197.0149253731342, 511.39303482587064], [816.5223880597015, 511.39303482587064]] — do the labels 'COCKTAILS, BEERS, ON TAP, HOUSEMADE, CRAFT' actually appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The highlighted region [[846, 194], [1246, 194], [1246, 653], [846, 653]] contains some text — what word(s) do you see there? ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[846, 194], [1246, 194], [1246, 653], [846, 653]], which of the following options correctly lists the text shown there? Options:\nA. 20+CRAFT, COCKTAILS, LEMONADES, CRAFT, HOUSEMADE, BEERS\nB. HOUSEMAOE, LEMONADES, ON TAP, COCKTAILS, CRAFT, BEERS\nC. 20+CRAFT, CRAFT, HOUSEMADE, LEMONAOES, ON TAP, BEERS\nD. CRAFT, 20+CRAFT, LEMONADES, DN TAP, BEERS, HOUSEMADE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[845.6043956043956, 194.39560439560444], [1245.6275303643724, 194.39560439560444], [1245.6275303643724, 653.0701754385965], [845.6043956043956, 653.0701754385965]] actually contain the label(s) 'CRAFT, COCKTAILS, 20+CPAFT, HOUSEMADE, LEMONADES, BEERS, ON TAP'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[786.5859776616985, 57.64402894331786], [1197.1464436510682, 57.64402894331786], [1197.1464436510682, 534.3106525299904], [786.5859776616985, 534.3106525299904]] is partly obscured — which word(s) belong there? ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices below, which one matches the text visible in [[787, 58], [1162, 58], [1162, 371], [787, 371]]? Options:\nA. ON TAP, CRAFT, BEERS, 20+CRAFT\nB. 20+CRAFT, CRAFT, DN TAP, COCKTAILS\nC. 20+CRAFT, COCKTAILS, LEMONADES, CRAFT\nD. HOUSEMADE, BEERS, COCKTAILS, 20+CRAFT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'CRAFT, COCKTAILS, 20+CRAFT, BEERS, ON TAP, HOUSEMADE' appear(s) inside the area marked as [[787, 58], [1162, 58], [1162, 371], [787, 371]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[658.0, 50.0], [1069.0, 50.0], [1069.0, 525.0], [658.0, 525.0]], what word(s) can be read from that region? ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one accurately reflects the text in [[658, 50], [1030, 50], [1030, 364], [658, 364]]? Options:\nA. COCKTAILS, 20+CRAFT, HOUSEMADE, CRAFT\nB. COCKTAILS, ON TAP, CRAFT, LEMONADES\nC. ON TAP, BEERS, CRAFT, 20+CRAFT\nD. COOKTAILS, BEERS, ON TAP, CRAFT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that 'BEERS, CRAFT, 20+CRAFT, HOUSEMADE, ON TAP, LEMONADES, CDCKTAILS' is/are enclosed within [[658.0, 50.0], [1069.0, 50.0], [1069.0, 525.0], [658.0, 525.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Something's been left blank — what word(s) appear in [[761.0, 170.0], [1164.0, 170.0], [1164.0, 652.0], [761.0, 652.0]]? ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text visible at [[761, 170], [1142, 170], [1142, 489], [761, 489]], which answer option is correct? Options:\nA. COCKTAILS, CRAFT, 20+CRAFT, BEERS\nB. ON TAP, COOKTAILS, BEERS, 20+CRAFT\nC. COCKTAILS, 20+CRAFT, LEMONADES, BEERS\nD. CRAFT, HOUSEMADE, ON TAP, 20+CRAFT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'BEERS, CRAFT, 20+CRAFT, HOUSEMADE, COCKTAILS, ON TAP' — do they sit within the boundary defined by [[761, 170], [1142, 170], [1142, 489], [761, 489]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "There's a gap to fill: what text shows up in [[886.0, 226.0], [1290.0, 226.0], [1290.0, 695.0], [886.0, 695.0]]? ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best captures the text found at [[886, 226], [1261, 226], [1261, 534], [886, 534]]. Options:\nA. CRAFT, COCKTAILS, 20+CRAFT, BEERS\nB. ON TAP, 20+CRAFT, COCKTAILS, HOUSEMADE\nC. 20+CPAFT, BEERS, ON TAP, CRAFT\nD. CRAFT, BEERS, 20+CRAFT, COOKTAILS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think 'LEMONADES, CPAFT, COCKTAILS, HOUSEMADE, BEERS, ON TAP, 20+CRAFT' fall(s) inside the box at [[886.0, 226.0], [1290.0, 226.0], [1290.0, 695.0], [886.0, 695.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "A word or phrase has been omitted — what text does [[852.9949748743718, 175.0], [1270.0, 175.0], [1270.0, 665.0], [852.9949748743718, 665.0]] show? ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that matches what's written inside [[853, 175], [1270, 175], [1270, 665], [853, 665]]. Options:\nA. HOUSEMADE, COCKTAILS, LEMONADES, 20+CRAFT, CPAFT, ON TAP\nB. HOUSEMADE, CRAFT, ON TAP, 20+CRAFT, COOKTAILS, BEERS\nC. HOUSEMADE, LEMONADES, CRAFT, 20+CRAFT, COCKTAILS, ON TAP\nD. HOUSEMADE, CRAFT, BFERS, LEMONADES, ON TAP, 20+CRAFT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the image: are 'COCKTAILS, BEERS, HOUSEMADE, CRAFT, ON TAP' found inside the box [[852.9949748743718, 175.0], [1270.0, 175.0], [1270.0, 665.0], [852.9949748743718, 665.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The blank needs a word — what exactly is shown in [[822.0, 212.0], [1265.0, 212.0], [1265.0, 725.7421875], [822.0, 725.7421875]]? ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ONTAP",
+                "HOUSEHADE",
+                "LEHONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out which answer correctly names the text at [[822, 212], [1224, 212], [1224, 546], [822, 546]]. Options:\nA. BEERS, ONTAP, CRAFT, HOUSEHADE\nB. CRAFT, 20+CRAFT, COCKTAILS, BEERS\nC. 20+CRAFT, CRAFT, ONTAP, LEHONADES\nD. BEERS, COOKTAILS, 20+CRAFT, CRAFT",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[822.0, 212.0], [1265.0, 212.0], [1265.0, 725.7421875], [822.0, 725.7421875]] enclose the label(s) 'BEERS, ONTAP, 20+CRAFT, HOUSEHADE, LEHDNADES, CRAFT, COCKTAILS'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text from [[782.3591244958986, 247.2112692960839], [1244.086706018745, 247.2112692960839], [1244.086706018745, 777.9769941088124], [782.3591244958986, 777.9769941088124]] and complete the blank: ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these choices lists the text you see at [[782, 247], [1244, 247], [1244, 778], [782, 778]]? Options:\nA. HOUSEMADE, 20+CRAFT, COOKTAILS, ON TAP, BEERS, CRAFT\nB. LEMONADES, CRAFT, HOUSEMADE, BEERS, 20+CRAFT, ON TAP\nC. ON TAP, BEERS, CDCKTAILS, HOUSEMADE, 20+CRAFT, LEMONADES\nD. 20+CRAFT, COCKTAILS, HOUSEMAOE, ON TAP, LEMONADES, BEERS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'HOUSEMADE, ON TAP, BEERS, 20+CRAFT, LEMONADES' part of what's visible inside [[782.3591244958986, 247.2112692960839], [1244.086706018745, 247.2112692960839], [1244.086706018745, 777.9769941088124], [782.3591244958986, 777.9769941088124]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "To fill the gap, tell me what word(s) appear in [[741.4588284968855, 236.25075236649496], [1205.1117865598558, 236.25075236649496], [1205.1117865598558, 764.0186169070515], [741.4588284968855, 764.0186169070515]]. ________",
+              "answer": [
+                "CRAFT",
+                "COCKTAILS",
+                "20+CRAFT",
+                "BEERS",
+                "ON TAP",
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[741, 236], [1205, 236], [1205, 764], [741, 764]], which of the following options matches the text(s) found there? Options:\nA. CRAFT, DN TAP, 20+CRAFT, LEMONADES, HOUSEMADE, BEERS\nB. BEERS, HOUSEMADE, LEMONADES, COCKTAILS, CPAFT, ON TAP\nC. ON TAP, LEMONADES, 20+CRAFT, COCKTAILS, HOUSEMADE, CRAFT\nD. 20+CRAFT, COCKTAILS, LEMONADES, HOUSEMADE, CRAET, BEERS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[741.4588284968855, 236.25075236649496], [1205.1117865598558, 236.25075236649496], [1205.1117865598558, 764.0186169070515], [741.4588284968855, 764.0186169070515]] contain the label(s) 'COCKTAILS, LEMONADES, CRAFT, HOUSEMADE, ON TAP'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[733.3097564467304, 632.9648470446188], [1189.2039324811562, 632.9648470446188], [1189.2039324811562, 768.2744843647915], [733.3097564467304, 768.2744843647915]], what word(s) appear? Fill in the blank: ________.",
+              "answer": [
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly identifies the text(s) visible in [[726, 242], [1189, 242], [1189, 768], [726, 768]]? Options:\nA. HOUSEMADE, 20+CRAFT, COCKTAILS, ON TAP, LEMONADES, BFERS\nB. HOUSEMADE, BEEPS, ON TAP, CRAFT, COCKTAILS, LEMONADES\nC. BEERS, 20+CRAFT, CRAFT, COCKTAILS, LEMONADES, ON TAP\nD. 20+CRAFT, BEERS, HOUSEMADE, LEMONADES, CPAFT, ON TAP",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'CDCKTAILS, HOUSEMADE, CRAFT, 20+CRAFT, ON TAP, BEERS, LEMONADES' fall inside the bounding box [[725.9054771869327, 241.61448784952327], [1189.2039324811562, 241.61448784952327], [1189.2039324811562, 768.2744843647915], [725.9054771869327, 768.2744843647915]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0372_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0372_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The word(s) found inside [[616.2283689944715, 622.3529411764706], [1068.2352941176473, 622.3529411764706], [1068.2352941176473, 753.6488166884664], [616.2283689944715, 753.6488166884664]] complete this blank: ________.",
+              "answer": [
+                "HOUSEMADE",
+                "LEMONADES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the highlighted area [[610, 227], [1068, 227], [1068, 754], [610, 754]], pick the option that lists the text(s) shown there. Options:\nA. LEMONADES, 20+CRAFT, BEERS, CPAFT, HOUSEMADE, COCKTAILS\nB. BEERS, ON TAP, COCKTAILS, HOUSEMADE, 20+CRAFT, CRAFT\nC. LEMONADES, COCKTAILS, HOUSEMAOE, CRAFT, ON TAP, BEERS\nD. LEMONADES, HOUSEMADE, CRAFT, BEERS, 20+CRAFT, DN TAP",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In your view, do the label(s) 'HOUSEMADE, LFMONADES, BEERS, 20+CRAFT, ON TAP, CRAFT, COCKTAILS' appear inside the box [[609.7411764705881, 227.48235294117652], [1068.2352941176473, 227.48235294117652], [1068.2352941176473, 753.6488166884664], [609.7411764705881, 753.6488166884664]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0372_2"
+  }
+]

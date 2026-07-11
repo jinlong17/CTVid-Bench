@@ -1,0 +1,313 @@
+{
+  "video_id": "C0186",
+  "frames": 120,
+  "word": "RESERVED\nPARKING",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/EN_C0186.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"RESERVED\nPARKING\" likely to be?\n Options:\nA. address or street sign\nB. direction or navigation sign\nC. storefront or brand sign\nD. event or poster information\nE. warning or prohibition sign\nF. menu or commercial information\nG. general scene text",
+      "q": "What kind of sign would the text reading \"RESERVED\nPARKING\" be found on?\n Options:\nA. address or street sign\nB. direction or navigation sign\nC. storefront or brand sign\nD. event or poster information\nE. warning or prohibition sign\nF. menu or commercial information\nG. general scene text",
+      "a": "E",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. address or street sign",
+        "B. direction or navigation sign",
+        "C. storefront or brand sign",
+        "D. event or poster information",
+        "E. warning or prohibition sign",
+        "F. menu or commercial information",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of sign would the text reading \"RESERVED\nPARKING\" be found on?\n Options:\nA. address or street sign\nB. direction or navigation sign\nC. storefront or brand sign\nD. event or poster information\nE. warning or prohibition sign\nF. menu or commercial information\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"RESERVED\nPARKING\" appear in?\n Options:\nA. warning / rule sign\nB. campus or office\nC. transportation / station\nD. other public sign\nE. storefront\nF. road or street\nG. restaurant or menu\nH. event poster or display",
+      "q": "What sort of setting does the text \"RESERVED\nPARKING\" seem to belong to?\n Options:\nA. warning / rule sign\nB. campus or office\nC. transportation / station\nD. other public sign\nE. storefront\nF. road or street\nG. restaurant or menu\nH. event poster or display",
+      "a": "A",
+      "a_text": "warning / rule sign",
+      "answer_key": "warning / rule sign",
+      "options": [
+        "A. warning / rule sign",
+        "B. campus or office",
+        "C. transportation / station",
+        "D. other public sign",
+        "E. storefront",
+        "F. road or street",
+        "G. restaurant or menu",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What sort of setting does the text \"RESERVED\nPARKING\" seem to belong to?\n Options:\nA. warning / rule sign\nB. campus or office\nC. transportation / station\nD. other public sign\nE. storefront\nF. road or street\nG. restaurant or menu\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"RESERVED\nPARKING\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "q": "Looking at the clip, where in the frame does \"RESERVED\nPARKING\" tend to appear most of the time?\n Options:\nA. bottom-left (lower-left area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "a": "C",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. bottom-right (lower-right area)",
+        "C. center (middle of the frame)",
+        "D. top-right (upper-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Looking at the clip, where in the frame does \"RESERVED\nPARKING\" tend to appear most of the time?\n Options:\nA. bottom-left (lower-left area)\nB. bottom-right (lower-right area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"RESERVED\nPARKING\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "Over the clip, how far does \"RESERVED\nPARKING\" shift from its starting position?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Over the clip, how far does \"RESERVED\nPARKING\" shift from its starting position?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"RESERVED\nPARKING\" move?\n Options:\nA. moves down\nB. moves diagonally\nC. moves left\nD. changes direction partway\nE. moves right\nF. moves up\nG. stays roughly in place",
+      "q": "Which direction does the text \"RESERVED\nPARKING\" generally move?\n Options:\nA. moves down\nB. moves diagonally\nC. moves left\nD. changes direction partway\nE. moves right\nF. moves up\nG. stays roughly in place",
+      "a": "D",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves down",
+        "B. moves diagonally",
+        "C. moves left",
+        "D. changes direction partway",
+        "E. moves right",
+        "F. moves up",
+        "G. stays roughly in place"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does the text \"RESERVED\nPARKING\" generally move?\n Options:\nA. moves down\nB. moves diagonally\nC. moves left\nD. changes direction partway\nE. moves right\nF. moves up\nG. stays roughly in place"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"RESERVED\nPARKING\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-left -> bottom-left\nB. center -> top-left -> center\nC. center -> top-left -> top-left\nD. center -> center -> center",
+      "q": "Can you describe where \"RESERVED\nPARKING\" sits near the start, the middle, and the end of the video?\n Options:\nA. center -> top-left -> bottom-left\nB. center -> top-left -> center\nC. center -> top-left -> top-left\nD. center -> center -> center",
+      "a": "B",
+      "a_text": "center -> top-left -> center",
+      "answer_key": "center -> top-left -> center",
+      "options": [
+        "A. center -> top-left -> bottom-left",
+        "B. center -> top-left -> center",
+        "C. center -> top-left -> top-left",
+        "D. center -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you describe where \"RESERVED\nPARKING\" sits near the start, the middle, and the end of the video?\n Options:\nA. center -> top-left -> bottom-left\nB. center -> top-left -> center\nC. center -> top-left -> top-left\nD. center -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"RESERVED\nPARKING\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. large (a major part of the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)",
+      "q": "How big does \"RESERVED\nPARKING\" appear in the frame?\n Options:\nA. very large (dominates the frame)\nB. large (a major part of the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)",
+      "a": "C",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. large (a major part of the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How big does \"RESERVED\nPARKING\" appear in the frame?\n Options:\nA. very large (dominates the frame)\nB. large (a major part of the frame)\nC. medium (a noticeable block of the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"RESERVED\nPARKING\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "q": "Does \"RESERVED\nPARKING\" grow larger, shrink, or stay roughly the same size as the clip progresses?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "a": "D",
+      "a_text": "gets smaller",
+      "answer_key": "gets smaller",
+      "options": [
+        "A. gets larger",
+        "B. size fluctuates (goes up and down)",
+        "C. stays about the same size",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"RESERVED\nPARKING\" grow larger, shrink, or stay roughly the same size as the clip progresses?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"RESERVED\nPARKING\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "Is the text \"RESERVED\nPARKING\" sitting well inside the frame, or is it close to an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"RESERVED\nPARKING\" sitting well inside the frame, or is it close to an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"RESERVED\nPARKING\" and how it appears in the video.",
+      "q": "Give a quick description of \"RESERVED\nPARKING\" — what it looks like and how it moves throughout the clip.",
+      "a": "The text \"RESERVED PARKING\" appears in white capital letters on the red upper section of a parking regulation sign.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick description of \"RESERVED\nPARKING\" — what it looks like and how it moves throughout the clip."
+    }
+  ],
+  "method": "downsample_x4"
+}

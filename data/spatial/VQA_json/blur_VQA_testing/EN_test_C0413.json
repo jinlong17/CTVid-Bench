@@ -1,0 +1,512 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the word(s) you see inside [[1186, 411], [1616, 411], [1616, 937], [1186, 937]]. ________",
+              "answer": [
+                "Powered by Clean Natural Gas",
+                "ECONOMYPARKINGLOT#1",
+                "NORMANY.MINETA",
+                "SAN JOSE",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "CA303695"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A name inside [[1423,766], [1608,759], [1608,786], [1425,793]] is missing something — fill in the blank: NORMA____.MINETA.",
+              "answer": "NY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which one has the correct text from [[275, 378], [1536, 378], [1536, 613], [275, 613]]? Options:\nA. Pa, Powered by Clean Natural Gas, 4, ECONOMYPARKINGLOT#1, ge\nB. ge, ECONOMYPARKINGLOT#1, 58, 4, Ba\nC. NORMANY.MINETA, ge, Ba, 58, ECONOMYPARKINGLOT#1\nD. 4, go, Ba, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'SANIOSE, 58, INTERNATIONAL, AIRPORT, ge, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, SAN JOSE, 4, NORMANY.MINETA' sit within [[534, 411], [1616, 411], [1616, 937], [534, 937]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can see inside [[275, 378], [1616, 378], [1616, 937], [275, 937]]. ________",
+              "answer": [
+                "Powered by Clean Natural Gas",
+                "58",
+                "Ba",
+                "ECONOMYPARKINGLOT#1",
+                "NORMANY.MINETA",
+                "SAN JOSE",
+                "SANIOSE",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "CA303695",
+                "ge",
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1403,797], [1594,785], [1597,827], [1406,839]], the text reads S____ JOSE — what letters are missing?",
+              "answer": "AN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[275, 378], [1616, 378], [1616, 896], [275, 896]], which of these options contains the text shown there? Options:\nA. ge, Ba, Powered by Clean Natural Gas, SRN JOSE, ECONOMYPARKINGLOT#1, SANIOSE, 4, NORMANY.MINETA, 58, INTERNATIONAL\nB. NORMANY.MINETA, INTERNATIONAL, Powered by Clean Natural Gas, Ba, SANIOSE, CA303695, ECONOMYPARKINGLOT#1, 58, 4, ge\nC. SAN JOSE, Ba, 4, ge, INTERNATIONAL, NORMANY.MINETA, AIRPORT, Powered by Clean Natural Gas, SANIOSE, ECONOMYPARKINGLOT#1\nD. Powered by Clean Natural Gas, ECONOMYPARKINGLOT#1, Ba, AIRPORT, NOPMANY.MINETA, 4, SAN JOSE, SANIOSE, ge, INTERNATIONAL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'NORMANY.MINETA, CA303695, 4, INTERNATIONAL, ge, SAN JOSE, 58, ECONOMYPARKINGLOT#1, SANIOSE, Powered by Clean Natural Gas' appear inside the region [[274.6621621621622, 378.34459459459464], [1615.637254901961, 378.34459459459464], [1615.637254901961, 936.7548076923076], [274.6621621621622, 936.7548076923076]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the area marked [[275, 378], [295, 378], [295, 434], [275, 434]], what text do you see? ________",
+              "answer": [
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1132,755], [1313,746], [1314,772], [1133,781]] has a gap shown as \"NOR____.MINETA\" — what should fill it in?",
+              "answer": "MANY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text visible in [[1186, 411], [1616, 411], [1616, 937], [1186, 937]]. Options:\nA. ECONOMYPARKINGLOT#1, 58, Powered by Clean Natural Gas, CA303695, NORMANY.MINETA, AIRPORT\nB. AIRPORT, NORMANY.MINETA, SAN JOSE, INTERNATIONAL, Powerod by Clean Natural Gas, CA303695\nC. Powered by Clean Natural Gas, NORMANY.MINETA, INTERNATIONAL, AIRPORT, OA303695, ECONOMYPARKINGLOT#1\nD. NORMANY.MINETA, CA303695, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, AIRPORT, SAN JOSE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'CA303695, ECONOMYPARKINGLOT#1, SAN JOSE, Powered by Clean Natural Gas, NORMANY.MINETA, AIRPORT, INTERNATIONAL, Ba' sit inside the bounding box [[1186, 411], [1616, 411], [1616, 937], [1186, 937]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The partially shown label at [[1056,821], [1239,812], [1240,840], [1057,849]] reads: INT____NATIONAL? — can you complete it?",
+              "answer": "ER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[537, 414], [1616, 414], [1616, 939], [537, 939]] and tell me — which answer option captures what's written there? Options:\nA. Powered by Clean Natural Gas, ECONOMYPARKINGLOT#1, INTERNATIONAL, Pa, CA303695, SAN JOSE, ge, 58, NORMANY.MINETA, AIRPORT\nB. SAN JOSE, 58, AIRPORT, INTERNATIONAL, NORMANY.MINETA, Ba, 4, SANJOSE, CA303695, ge\nC. NORMANY.MINETA, INTERNATIONAL, AIRPORT, 58, Powered by Clean Natural Gas, SAN JOSE, SANJOSE, ge, CA303695, ECONOMYPARKINGLOT#1\nD. ge, CA303695, AIRPORT, INTEPNATIONAL, Ba, SANJOSE, ECONOMYPARKINGLOT#1, 58, Powered by Clean Natural Gas, NORMANY.MINETA",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'INTERNATIONAL, Powered by Clean Natural Gas, SAN JOSE, ECONOMYPARKINGLOT#1, CA303695' visible anywhere inside [[1187, 414], [1616, 414], [1616, 939], [1187, 939]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text found in the region [[536, 528], [1616, 528], [1616, 939], [536, 939]]. ________",
+              "answer": [
+                "58",
+                "Ba",
+                "ECONOMYPARKINGLOT#1",
+                "NORMANY.MINETA",
+                "SAN JOSE",
+                "SANJOSE",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "CA303695",
+                "ge"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Look at position [[106,583], [134,583], [133,600], [106,600]] — there's text with \"____\" missing. What goes there?",
+              "answer": "ge"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these answers contains the text visible in [[275, 378], [1537, 378], [1537, 616], [275, 616]]? Options:\nA. 4, 58, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, ge\nB. Ba, 58, Powered by Clean Natural Gas, ge, NORMANY.MINETA\nC. Ba, ECONOMYPARKINGLOT#1, 58, SAN JOSE, 4\nD. 58, ECONOMYPAPKINGLOT#1, Powered by Clean Natural Gas, ge, 4",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: are '4, AIRPORT, ge, NORMANY.MINETA, SAN JOSE, ECONOMYPARKINGLOT#1, CA303695, Powered by Clean Natural Gas, Ba, INTERNATIONAL' positioned inside [[536, 4, AIRPORT, ge, NORMANY.MINETA, SAN JOSE, ECONOMYPARKINGLOT#1, CA303695, Powered by Clean Natural Gas, Ba, INTERNATIONAL14, AIRPORT, ge, NORMANY.MINETA, SAN JOSE, ECONOMYPARKINGLOT#1, CA303695, Powered by Clean Natural Gas, Ba, INTERNATIONAL], [1616, 4, AIRPORT, ge, NORMANY.MINETA, SAN JOSE, ECONOMYPARKINGLOT#1, CA303695, Powered by Clean Natural Gas, Ba, INTERNATIONAL14, AIRPORT, ge, NORMANY.MINETA, SAN JOSE, ECONOMYPARKINGLOT#1, CA303695, Powered by Clean Natural Gas, Ba, INTERNATIONAL], [1616, 939], [536, 939]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[275, 378], [914, 378], [914, 864], [275, 864]] — what word(s) are written there? ________",
+              "answer": [
+                "58",
+                "Ba",
+                "SANJOSE",
+                "ge",
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the correct number(s) at position [[1735,459], [1757,459], [1757,496], [1735,496]]: ____.",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on what you see in [[536, 414], [1617, 414], [1617, 941], [536, 941]], select the answer that correctly lists the text there. Options:\nA. INTERNATIONAL, NOPMANY.MINETA, Powered by Clean Natural Gas, SAN JOSE, ge, Ba, CA303695, 58, ECONOMYPARKINGLOT#1, AIRPORT\nB. AIRPORT, NORMANY.MINETA, SAN JOSE, SANJOSE, Powered by Clean Natural Gas, CA303695, INTERNATIONAL, 4, Ba, ge\nC. Powered by Clean Natural Gas, 58, CA303695, INTERNATIONAL, NORMANY.MINETA, AIRPORT, SAN JOSE, ge, SANJOSE, ECONOMYPARKINGLOT#1\nD. ge, AIRPORT, SAN JOSE, 58, Ba, ECONOMYPARKINGLOT#1, INTERNATIONAL, SANJDSE, Powered by Clean Natural Gas, CA303695",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'CA303695, NORMANY.MINETA, 58, Ba, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, AIRPORT, ge, INTERNATIONAL' falls within the bounding box [[536, CA303695, NORMANY.MINETA, 58, Ba, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, AIRPORT, ge, INTERNATIONAL1CA303695, NORMANY.MINETA, 58, Ba, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, AIRPORT, ge, INTERNATIONAL], [1617, CA303695, NORMANY.MINETA, 58, Ba, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, AIRPORT, ge, INTERNATIONAL1CA303695, NORMANY.MINETA, 58, Ba, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, AIRPORT, ge, INTERNATIONAL], [1617, 9CA303695, NORMANY.MINETA, 58, Ba, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, AIRPORT, ge, INTERNATIONAL1], [536, 9CA303695, NORMANY.MINETA, 58, Ba, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, AIRPORT, ge, INTERNATIONAL1]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at the box [[276, 383], [1619, 383], [1619, 941], [276, 941]], what text can you make out? ________",
+              "answer": [
+                "Powered by Clean Natural Gas",
+                "58",
+                "Ba",
+                "ECONOMYPARKINGLOT#1",
+                "NORMANY.MINETA",
+                "SAN JOSE",
+                "SANJOSE",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "CA303695",
+                "ge",
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's blanked out in the text at [[1715,464], [1737,464], [1737,501], [1716,501]], shown as \"____\" — which digit(s) are missing?",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out which option captures the text in region [[276, 383], [1538, 383], [1538, 618], [276, 618]]. Options:\nA. ge, 4, Powered by Clean Natural Gas, 58, SAN JOSE\nB. 4, Powered by Clean Natural Gas, ECONOMYPARKINGLOT#1, Ba, 58\nC. 58, 0, Ba, ECONOMYPARKINGLOT#1, ge\nD. ECONOMYPARKINGLOT#1, 58, ge, NORMANY.MINETA, Ba",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'ge, Powered by Clean Natural Gas, 58, Ba' falls within [[275.7732732732733, 382.7890390390391], [1538.3099155180078, 382.7890390390391], [1538.3099155180078, 618.1433049003579], [275.7732732732733, 618.1433049003579]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text shows up within the highlighted region [[276, 383], [914, 383], [914, 872], [276, 872]]? ________",
+              "answer": [
+                "58",
+                "Ba",
+                "SANJOSE",
+                "ge",
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[255,540], [289,540], [289,568], [255,568]], a number sequence has a gap: 5____ — what's missing?",
+              "answer": "8"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly identifies the text(s) inside [[538, 417], [1619, 417], [1619, 941], [538, 941]]? Options:\nA. AIRPORT, SAN JOSE, 58, ECONOMYPARKINGLOT#1, Ba, ge, Powerod by Clean Natural Gas, INTERNATIONAL, SANJOSE, CA303695\nB. ge, INTERNATIONAL, AIRPORT, SANJOSE, 58, Ba, NORMANY.MINETA, CA303695, Powered by Clean Natural Gas, SRN JOSE\nC. 58, NORMANY.MINETA, SANJOSE, ge, INTERNATIONAL, CA303695, SAN JOSE, Powered by Clean Natural Gas, AIRPORT, Ba\nD. INTERNATIONAL, 58, CA303695, ge, AIRPORT, SANJOSE, ECONOMYPARKINGLOT#1, Ba, 4, SAN JOSE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) '58, INTERNATIONAL, AIRPORT, SAN JOSE, CA303695, Powered by Clean Natural Gas' appearing inside the bounding box [[880, 417], [1619, 417], [1619, 941], [880, 941]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the word(s) you can see inside [[273, 383], [911, 383], [911, 872], [273, 872]]. ________",
+              "answer": [
+                "58",
+                "Ba",
+                "SANJOSE",
+                "ge",
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The code \"CA30____5\" in the text area at [[526,946], [585,944], [585,960], [525,962]] has some characters missing — what are they?",
+              "answer": "369"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text(s) visible within [[1185, 417], [1613, 417], [1613, 941], [1185, 941]]. Options:\nA. INTEPNATIONAL, NORMANY.MINETA, SAN JOSE, CA303695, ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas\nB. INTERNATIONAL, SAN JOSE, CA303695, AIRPORT, Powered by Clean Natural Gas, NORMANY.MINETA\nC. NOPMANY.MINETA, INTERNATIONAL, ECONOMYPARKINGLOT#1, SAN JOSE, AIRPORT, Powered by Clean Natural Gas\nD. CA303695, INTERNATIONAL, SAN JOSE, AIRPORT, 58, Powered by Clean Natural Gas",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can the label(s) '58, Powered by Clean Natural Gas, AIRPORT, 4, ECONOMYPARKINGLOT#1, Ba, ge' be found within the bounding box [[273.0024924168501, 382.7890390390391], [1534.5124471635772, 382.7890390390391], [1534.5124471635772, 618.5150521122538], [273.0024924168501, 618.5150521122538]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) that appear inside [[267, 383], [287, 383], [287, 438], [267, 438]]. ________",
+              "answer": [
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[378,955], [437,953], [437,969], [377,971]], what digit(s) complete the text \"CA30____\"?",
+              "answer": "3695"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[1177, 417], [1608, 417], [1608, 942], [1177, 942]], which option below contains the text(s) shown there? Options:\nA. AIRPORT, CA303695, INTERNATIONAL, ECONOMYPARKINGLOT#1, Ba, SAN JOSE\nB. Powerod by Clean Natural Gas, INTERNATIONAL, SAN JOSE, CA303695, ECONOMYPARKINGLOT#1, AIRPORT\nC. CA303695, SAN JOSE, INTERNATIONAL, NORMANY.MINETA, Powered by Clean Natural Gas, AIRPORT\nD. ECONOMYPARKINGLOT#1, Powered by Clean Natural Gas, SAN JOSE, CA303695, INTERNATIONAL, 58",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'SANJOSE, ECONOMYPARKINGLOT#1, CA303695, Ba, INTERNATIONAL, AIRPORT, NORMANY.MINETA, ge, SAN JOSE, Powered by Clean Natural Gas' fall inside the bounding box [[529, 590], [1608, 590], [1608, 942], [529, 942]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible within [[259, 383], [1598, 383], [1598, 943], [259, 943]]. ________",
+              "answer": [
+                "Powered by Clean Natural Gas",
+                "58",
+                "Ba",
+                "ECONOMYPARKINGLOT#1",
+                "NORMANY.MINETA",
+                "SAN JOSE",
+                "SANJOSE",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "CA303695",
+                "ge",
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the coordinates [[164,563], [198,563], [198,591], [164,591]], the expression \"____\" is missing some number(s) — what are they?",
+              "answer": "58"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in [[520, 531], [1598, 531], [1598, 943], [520, 943]], which option captures the text(s) shown there? Options:\nA. Ba, NORMANY.MINETA, Powered by Clean Natural Gas, ge, 58, ECONOMYPARKINGLOT#1, AIRPORT, SANJOSE, INTERNATIONAL\nB. SANJOSE, AIRPORT, ge, ECONOMYPARKINGLOT#1, OA303695, SAN JOSE, INTERNATIONAL, NORMANY.MINETA, 58\nC. SAN JOSE, 58, NORMANY.MINETA, Ba, AIRPORT, CA303695, SANJDSE, ECONOMYPARKINGLOT#1, INTERNATIONAL\nD. CA303695, 58, NORMANY.MINETA, ECONOMYPARKINGLOT#1, Ba, ge, SANJOSE, AIRPORT, INTERNATIONAL",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[259, 383], [1598, 383], [1598, 903], [259, 903]] contain the label(s) 'INTERNATIONAL, Ba, ge, AIRPORT, SANJOSE, CA303695, 58, ECONOMYPARKINGLOT#1, NORMANY.MINETA, 4'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0413/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0413/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) that you can see inside [[238, 381], [1578, 381], [1578, 939], [238, 939]]. ________",
+              "answer": [
+                "Powered by Clean Natural Gas",
+                "58",
+                "Ba",
+                "NORMANY.MINETA",
+                "SAN JOSE",
+                "SANJOSE",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "CA303695",
+                "ge",
+                "4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's missing from the word(s) \"AIR____RT\" visible at [[963,897], [1150,888], [1149,917], [965,927]] — can you spot what characters are gone?",
+              "answer": "PO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that accurately reflects the text(s) within [[616, 764], [1578, 764], [1578, 939], [616, 939]]. Options:\nA. SAN JOSE, AIRPORT, SANJOSE, NOPMANY.MINETA, CA303695\nB. CA303695, SANJDSE, INTERNATIONAL, NORMANY.MINETA, SAN JOSE\nC. AIRPORT, Powered by Clean Natural Gas, SAN JOSE, CA303695, SANJOSE\nD. SANJOSE, NORMANY.MINETA, SAN JOSE, AIRPORT, INTERNATIONAL",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SAN JOSE, SANJDSE, ge, NORMANY.MINETA, CA303695, AIRPORT, Powered by Clean Natural Gas, 4, 58, Ba' among the label(s) you can find within the bounding box [[237.66844529265745, 381.1872083754235], [1577.6071126688619, 381.1872083754235], [1577.6071126688619, 939.2276656435574], [237.66844529265745, 939.2276656435574]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0413"
+  }
+]

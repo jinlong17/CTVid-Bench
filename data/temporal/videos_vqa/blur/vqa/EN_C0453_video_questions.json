@@ -1,0 +1,313 @@
+{
+  "video_id": "C0453",
+  "frames": 120,
+  "word": "10600\nN Tantau Avenue",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0453.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"10600\nN Tantau Avenue\" likely to be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. address or street sign\nD. warning or prohibition sign\nE. event or poster information\nF. direction or navigation sign\nG. general scene text",
+      "q": "What type of sign would you expect the text \"10600\nN Tantau Avenue\" to be displayed on?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. address or street sign\nD. warning or prohibition sign\nE. event or poster information\nF. direction or navigation sign\nG. general scene text",
+      "a": "C",
+      "a_text": "address or street sign",
+      "answer_key": "address or street sign",
+      "options": [
+        "A. menu or commercial information",
+        "B. storefront or brand sign",
+        "C. address or street sign",
+        "D. warning or prohibition sign",
+        "E. event or poster information",
+        "F. direction or navigation sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you expect the text \"10600\nN Tantau Avenue\" to be displayed on?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. address or street sign\nD. warning or prohibition sign\nE. event or poster information\nF. direction or navigation sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"10600\nN Tantau Avenue\" appear in?\n Options:\nA. storefront\nB. restaurant or menu\nC. warning / rule sign\nD. other public sign\nE. transportation / station\nF. campus or office\nG. road or street\nH. event poster or display",
+      "q": "Judging by its content, what kind of scene does the text \"10600\nN Tantau Avenue\" seem to belong to?\n Options:\nA. storefront\nB. restaurant or menu\nC. warning / rule sign\nD. other public sign\nE. transportation / station\nF. campus or office\nG. road or street\nH. event poster or display",
+      "a": "F",
+      "a_text": "campus or office",
+      "answer_key": "campus or office",
+      "options": [
+        "A. storefront",
+        "B. restaurant or menu",
+        "C. warning / rule sign",
+        "D. other public sign",
+        "E. transportation / station",
+        "F. campus or office",
+        "G. road or street",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Judging by its content, what kind of scene does the text \"10600\nN Tantau Avenue\" seem to belong to?\n Options:\nA. storefront\nB. restaurant or menu\nC. warning / rule sign\nD. other public sign\nE. transportation / station\nF. campus or office\nG. road or street\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"10600\nN Tantau Avenue\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-right (lower-right area)",
+      "q": "When watching the clip, whereabouts in the frame does the text \"10600\nN Tantau Avenue\" tend to appear most?\n Options:\nA. bottom-left (lower-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-right (lower-right area)",
+      "a": "E",
+      "a_text": "bottom-right (lower-right area)",
+      "answer_key": "bottom-right",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. top-right (upper-right area)",
+        "C. center (middle of the frame)",
+        "D. top-left (upper-left area)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "When watching the clip, whereabouts in the frame does the text \"10600\nN Tantau Avenue\" tend to appear most?\n Options:\nA. bottom-left (lower-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. top-left (upper-left area)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"10600\nN Tantau Avenue\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "How much does the text \"10600\nN Tantau Avenue\" shift around over the course of the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "A",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does the text \"10600\nN Tantau Avenue\" shift around over the course of the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"10600\nN Tantau Avenue\" move?\n Options:\nA. stays roughly in place\nB. moves up\nC. moves left\nD. changes direction partway\nE. moves right\nF. moves diagonally\nG. moves down",
+      "q": "Taking the clip as a whole, which direction does the text \"10600\nN Tantau Avenue\" move?\n Options:\nA. stays roughly in place\nB. moves up\nC. moves left\nD. changes direction partway\nE. moves right\nF. moves diagonally\nG. moves down",
+      "a": "D",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. stays roughly in place",
+        "B. moves up",
+        "C. moves left",
+        "D. changes direction partway",
+        "E. moves right",
+        "F. moves diagonally",
+        "G. moves down"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Taking the clip as a whole, which direction does the text \"10600\nN Tantau Avenue\" move?\n Options:\nA. stays roughly in place\nB. moves up\nC. moves left\nD. changes direction partway\nE. moves right\nF. moves diagonally\nG. moves down"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"10600\nN Tantau Avenue\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> bottom-right -> bottom-left\nB. bottom-right -> bottom-right -> bottom-right\nC. center -> bottom-right -> bottom-left\nD. top-right -> bottom-right -> bottom-left",
+      "q": "Can you describe where the text \"10600\nN Tantau Avenue\" sits at the beginning, midway through, and toward the end of the video?\n Options:\nA. bottom-right -> bottom-right -> bottom-left\nB. bottom-right -> bottom-right -> bottom-right\nC. center -> bottom-right -> bottom-left\nD. top-right -> bottom-right -> bottom-left",
+      "a": "A",
+      "a_text": "bottom-right -> bottom-right -> bottom-left",
+      "answer_key": "bottom-right -> bottom-right -> bottom-left",
+      "options": [
+        "A. bottom-right -> bottom-right -> bottom-left",
+        "B. bottom-right -> bottom-right -> bottom-right",
+        "C. center -> bottom-right -> bottom-left",
+        "D. top-right -> bottom-right -> bottom-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you describe where the text \"10600\nN Tantau Avenue\" sits at the beginning, midway through, and toward the end of the video?\n Options:\nA. bottom-right -> bottom-right -> bottom-left\nB. bottom-right -> bottom-right -> bottom-right\nC. center -> bottom-right -> bottom-left\nD. top-right -> bottom-right -> bottom-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"10600\nN Tantau Avenue\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "q": "How big does the text \"10600\nN Tantau Avenue\" appear relative to the rest of the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "a": "D",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How big does the text \"10600\nN Tantau Avenue\" appear relative to the rest of the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"10600\nN Tantau Avenue\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "q": "As you watch the text \"10600\nN Tantau Avenue\", does it grow larger, shrink, or hold roughly the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets smaller",
+        "B. stays about the same size",
+        "C. size fluctuates (goes up and down)",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "As you watch the text \"10600\nN Tantau Avenue\", does it grow larger, shrink, or hold roughly the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"10600\nN Tantau Avenue\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "Is the text \"10600\nN Tantau Avenue\" comfortably within the frame, or does it end up near one of the edges?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"10600\nN Tantau Avenue\" comfortably within the frame, or does it end up near one of the edges?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"10600\nN Tantau Avenue\" and how it appears in the video.",
+      "q": "In a sentence or two, describe the text \"10600\nN Tantau Avenue\" and how it appears and moves over the video.",
+      "a": "The address \"10600 N Tantau Avenue\" appears in white text at the bottom of a large black sign on a sidewalk.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In a sentence or two, describe the text \"10600\nN Tantau Avenue\" and how it appears and moves over the video."
+    }
+  ],
+  "method": "blur"
+}

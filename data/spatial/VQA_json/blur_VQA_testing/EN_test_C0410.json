@@ -1,0 +1,497 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Which word(s) show up inside the bounding box [[388, 359], [1174, 359], [1174, 899], [388, 899]]? ________",
+              "answer": [
+                "poweredbycleannaturalgas",
+                "NORMANYMINETA",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "SANJOSE",
+                "63",
+                "economyparkinglot1",
+                "ca303695"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[928,737], [1173,744], [1172,776], [927,769]], a historical name has some letters missing — fill in the blanks: NORMANYM____TA.",
+              "answer": "INE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at [[684, 359], [1174, 359], [1174, 899], [684, 899]] — which option matches the text found there? Options:\nA. poweredbycleannaturalgas, ca303695, NORMANYMINETA, AIRPORT, 63, INTERNATIONAL\nB. SANJOSE, poweredbycleannaturalgas, economyparkinglot1, AIRPORT, NORMANYMINETA, ca303695\nC. econemyparkinglot1, SANJOSE, AIRPORT, NORMANYMINETA, INTERNATIONAL, ca303695\nD. economyparkinglot1, INTERNATIONAL, SANJOSE, oa303695, NORMANYMINETA, poweredbycleannaturalgas",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[684, 737], [1174, 737], [1174, 899], [684, 899]] contain the label(s) 'ca303695, NORMANYMINETA, AIRPORT, SANJOSE, INTERNATIONAL, 63'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the word(s) inside [[393.1081081081082, 358.95953757225436], [1173.6318407960198, 358.95953757225436], [1173.6318407960198, 898.6179026065872], [393.1081081081082, 898.6179026065872]]? The word(s) is/are ________.",
+              "answer": [
+                "poweredbycleannaturalgas",
+                "NORMANYMINETA",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "economyparkinglot1",
+                "63",
+                "SANJOSE",
+                "ca303695"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[910,840], [1128,849], [1128,878], [908,868]] shows a partially hidden word — fill in what's missing: INTERN____NAL.",
+              "answer": "ATIO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option best captures the text inside [[685, 359], [1174, 359], [1174, 899], [685, 899]]? Options:\nA. AIRPORT, SANJOSE, INTERNATIONAL, econemyparkinglot1, poweredbycleannaturalgas, NORMANYMINETA\nB. poweredbycleannaturalgas, INTERNATIONAL, NORMANYMINETA, 63, AIRPORT, ca303695\nC. SANJOSE, ca303695, economyparkinglot1, INTERNATIONAL, poweredbycleannaturalgas, NORMANYMINETA\nD. INTERNATIONAL, poweredbycleannaturalgas, ca303695, AIRPORT, NOPMANYMINETA, economyparkinglot1",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'economyparkinglot1, AIRPORT, SANJOSE, 63, poweredbycleannaturalgas, NORMANYMINETA, INTERNATIONAL, oa303695' visible inside the region marked by [[393.1081081081082, 358.95953757225436], [1173.6318407960198, 358.95953757225436], [1173.6318407960198, 898.6179026065872], [393.1081081081082, 898.6179026065872]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[391.77279653540785, 358.95953757225436], [1119.5375722543351, 358.95953757225436], [1119.5375722543351, 568.5419080036603], [391.77279653540785, 568.5419080036603]] — what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "poweredbycleannaturalgas",
+                "economyparkinglot1",
+                "63"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is obscured in [[658,922], [711,924], [711,936], [657,935]] — what character(s) complete the sequence? ca30____5.",
+              "answer": "369"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices below, which one correctly names the text(s) visible in [[679, 359], [1173, 359], [1173, 897], [679, 897]]? Options:\nA. 63, economyparkinglot1, poweredbycleannaturalgas, SANJOSE, AIRPORT, ca303695\nB. NORMANYMINETA, AIRPORT, econemyparkinglot1, ca303695, SANJOSE, poweredbycleannaturalgas\nC. ca303695, poweredbycleonnaturalgas, AIRPORT, NORMANYMINETA, economyparkinglot1, INTERNATIONAL\nD. economyparkinglot1, SANJOSE, poweredbycleannaturalgas, ca303695, INTERNATIONAL, NORMANYMINETA",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false — the label(s) 'economyparkinglot1, ca303695, SANJOSE, INTERNATIONAL, AIPPORT, NORMANYMINETA, poweredbycleannaturalgas, 63' sit inside the box [[391.77279653540785, 358.95953757225436], [1172.6368159203978, 358.95953757225436], [1172.6368159203978, 897.1413925394731], [391.77279653540785, 897.1413925394731]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the region at [[388.0104202977841, 358.0116702736762], [1159.6974145665115, 358.0116702736762], [1159.6974145665115, 896.0628101049585], [388.0104202977841, 896.0628101049585]], what word(s) do you see? The word(s) is/are ________.",
+              "answer": [
+                "poweredbycleannaturalgas",
+                "NORMANYMINETA",
+                "INTERNATIONAL",
+                "AIRPORT",
+                "ca303695",
+                "SANJOSE",
+                "63",
+                "economyparkinglot1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a gap in the word(s) shown at [[897,886], [1078,896], [1077,920], [894,911]] — supply the missing letter(s): A____ORT.",
+              "answer": "IRP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches what's written inside [[672, 737], [1160, 737], [1160, 896], [672, 896]]. Options:\nA. SANJOSE, ca303695, INTERNATIONAL, AIPPORT\nB. INTERNATIONAL, AIRPORT, ca303695, SANJOSE\nC. ca303695, SANJOSE, AIPPORT, NORMANYMINETA\nD. INTERNATIONAL, poweredbycleannaturalgas, AIRPORT, ca303695",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '63, poweredbycleannaturalgas, economyparkinglot1, NORMANYMINETA, AIRPORT, INTERNATIONAL, oa303695, SANJOSE' falls within the bounding box [[388.0104202977841, 358.0116702736762], [1159.6974145665115, 358.0116702736762], [1159.6974145665115, 896.0628101049585], [388.0104202977841, 896.0628101049585]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on the area [[675.4014738514644, 358.0116702736762], [1096.7887570884582, 358.0116702736762], [1096.7887570884582, 404.8324795222311], [675.4014738514644, 404.8324795222311]], what word(s) can you make out? The word(s) is/are ________.",
+              "answer": [
+                "poweredbycleannaturalgas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of the phrase at [[1000,900], [1157,909], [1156,934], [999,925]] is hidden — what goes in the blank? INTER____IONAL",
+              "answer": "NAT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one lists the text(s) you'd find inside [[672, 737], [1160, 737], [1160, 895], [672, 895]]? Options:\nA. AIRPORT, NOPMANYMINETA, INTERNATIONAL, SANJOSE\nB. AIRPORT, SANJOSE, ca303695, INTERNATIONAL\nC. INTERNATIONAL, SANJOSE, 63, ca303695\nD. SANJOSE, NORMANYMINETA, AIRPORT, poweredbycleannaturalgas",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'economyparkinglot1, ca303695, AIRPORT, INTERNATIONAL, poweredbycleannaturalgas, SANJOSE, 83, NORMANYMINETA' appears within the bounding box [[389.7240065890938, 358.0116702736762], [1159.6974145665115, 358.0116702736762], [1159.6974145665115, 894.6532408807054], [389.7240065890938, 894.6532408807054]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible at [[399.0765245747053, 490.49693993353617], [429.1065546047353, 490.49693993353617], [429.1065546047353, 514.2206636572598], [399.0765245747053, 514.2206636572598]]. The word(s) is/are ________.",
+              "answer": [
+                "63"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the missing character(s) to complete the sequence shown at [[997,897], [1139,908], [1138,932], [995,919]]: INTER____TIONAL.",
+              "answer": "NA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option correctly captures the text(s) inside [[679, 363], [1150, 363], [1150, 894], [679, 894]]. Options:\nA. INTERNATIONAL, NOPMANYMINETA, economyparkinglot1, SANJOSE, ca303695, poweredbycleannaturalgas\nB. NORMANYMINETA, economyparkinglot1, INTERNATIONAL, SANJOSE, AIRPORT, ca303695\nC. AIRPORT, INTERNATIONAL, ca303695, 63, poweredbycleannaturalgas, NORMANYMINETA\nD. INTEPNATIONAL, ca303695, poweredbycleannaturalgas, economyparkinglot1, AIRPORT, NORMANYMINETA",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[399.0765245747053, 363.07465476980025], [1149.888000754521, 363.07465476980025], [1149.888000754521, 894.3703554493051], [399.0765245747053, 894.3703554493051]], would you find the label(s) 'economyparkinglot1, SANJOSE, ca303695, AIRPORT, NORMANYMINETA, 63' there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[409.5340409145746, 495.72569810347085], [439.5640709446046, 495.72569810347085], [439.5640709446046, 519.4494218271946], [409.5340409145746, 519.4494218271946]], what word(s) are displayed there? The word(s) is/are ________.",
+              "answer": [
+                "63"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "An energy-related phrase at [[939,584], [1141,572], [1142,595], [934,606]] has a missing element — can you fill it in? poweredbyclean____gas.",
+              "answer": "natural"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text(s) found at [[410, 496], [1145, 496], [1145, 897], [410, 897]]? Options:\nA. NORMANYMINETA, 63, AIPPORT, ca303695, INTERNATIONAL, economyparkinglot1\nB. INTERNATIONAL, AIRPORT, oa303695, economyparkinglot1, NORMANYMINETA, SANJOSE\nC. NORMANYMINETA, AIRPORT, economyparkinglot1, SANJOSE, ca303695, INTERNATIONAL\nD. economyparkinglot1, ca303695, poweredbycleannaturalgas, AIRPORT, SANJOSE, NORMANYMINETA",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[683, 743], [1145, 743], [1145, 897], [683, 897]] actually contain the label(s) 'SANJOSE, AIRPORT, NORMANYMINETA, INTERNATIONAL'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you read inside [[412.1484199995419, 380.759682224429], [1145.5675449300866, 380.759682224429], [1145.5675449300866, 902.3747598680472], [412.1484199995419, 902.3747598680472]]? The word(s) is/are ________.",
+              "answer": [
+                "AIRPORT",
+                "economyparkinglot1",
+                "63",
+                "SANJOSE",
+                "ca303695",
+                "NORMANYMINETA",
+                "INTERNATIONAL",
+                "poweredbycleannaturalgas"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the coordinates [[1110,903], [1202,912], [1202,930], [1107,921]], which term fits this description: A____ORT?",
+              "answer": "IRP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text found within [[680, 381], [1146, 381], [1146, 902], [680, 902]]? Options:\nA. econemyparkinglot1, INTERNATIONAL, SANJOSE, ca303695, NORMANYMINETA, poweredbycleannaturalgas\nB. AIRPORT, INTERNATIONAL, 63, ca303695, NORMANYMINETA, poweredbycleannaturalgas\nC. econemyparkinglot1, AIRPORT, poweredbycleannaturalgas, SANJOSE, NORMANYMINETA, INTERNATIONAL\nD. poweredbycleannaturalgas, SANJOSE, AIRPORT, ca303695, NORMANYMINETA, INTERNATIONAL",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that '63, poweredbycleannaturalgas, SANJOSE, economyparkinglot1, NORMANYMINETA, ca303695, INTERNATIONAL, AIPPORT' appears within the region [[412.1484199995419, 380.759682224429], [1145.5675449300866, 380.759682224429], [1145.5675449300866, 902.3747598680472], [412.1484199995419, 902.3747598680472]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[415.05539674372795, 510.83754387537135], [445.085426773758, 510.83754387537135], [445.085426773758, 534.5612675990949], [415.05539674372795, 534.5612675990949]]. The word(s) is/are ________.",
+              "answer": [
+                "63"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the spot defined by [[1878,643], [1904,643], [1906,666], [1880,667]], complete the missing portion of the number(s): ____3.",
+              "answer": "6"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text inside [[415, 511], [1138, 511], [1138, 909], [415, 909]]? Options:\nA. NORMANYMINETA, INTERNATIONAL, AIPPORT, SANJOSE, ca303695, 63\nB. INTERNATIONAL, AIRPORT, NORMANYMINETA, economyparkinglot1, SANJOSE, 63\nC. poweredbycleannaturalgas, SANJOSE, AIRPORT, INTERNATIONAL, NORMANYMINETA, ca303695\nD. 63, INTERNATIONAL, SANJDSE, economyparkinglot1, NORMANYMINETA, AIRPORT",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '63, INTERNATIONAL, SANJOSE, oa303695, NORMANYMINETA, poweredbycleannaturalgas, AIRPORT, economyparkinglot1' contained within the bounding box [[415.05539674372795, 390.8995423642892], [1138.2248875874293, 390.8995423642892], [1138.2248875874293, 908.5808174823767], [415.05539674372795, 908.5808174823767]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) appear within [[417.40833792019856, 398.761177584415], [1136.2831400146138, 398.761177584415], [1136.2831400146138, 914.5909355847552], [417.40833792019856, 914.5909355847552]]. The word(s) is/are ________.",
+              "answer": [
+                "AIRPORT",
+                "63",
+                "SANJOSE",
+                "ca303695",
+                "NORMANYMINETA",
+                "INTERNATIONAL",
+                "poweredbycleannaturalgas",
+                "economyparkinglot1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In [[91,472], [162,476], [160,509], [88,506]], there's a partially obscured transportation word — fill in the missing letter(s): b____",
+              "answer": "us"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately shows what's written in [[680, 580], [1136, 580], [1136, 915], [680, 915]]. Options:\nA. AIPPORT, INTERNATIONAL, SANJOSE, economyparkinglot1, ca303695\nB. NORMANYMINETA, SANJOSE, AIRPORT, poweredbycleannaturalgas, ca303695\nC. NORMANYMINETA, SANJOSE, INTERNATIONAL, economyparkinglot1, AIRPORT\nD. NORMANYMINETA, INTERNATIONAL, SANJOSE, 63, ca303695",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[417.40833792019856, 398.761177584415], [1136.2831400146138, 398.761177584415], [1136.2831400146138, 914.5909355847552], [417.40833792019856, 914.5909355847552]], do the label(s) 'poweredbycleannaturalgas, 83, AIRPORT, economyparkinglot1, SANJOSE, ca303695, INTERNATIONAL, NORMANYMINETA' appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the area marked as [[425.25717512950087, 406.31931711929866], [1136.2831400146138, 406.31931711929866], [1136.2831400146138, 918.6607030266157], [425.25717512950087, 918.6607030266157]], what word(s) do you find there? The word(s) is/are ________.",
+              "answer": [
+                "AIRPORT",
+                "63",
+                "SANJOSE",
+                "ca303695",
+                "NORMANYMINETA",
+                "INTERNATIONAL",
+                "poweredbycleannaturalgas",
+                "economyparkinglot1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Take a look at [[901,882], [964,889], [964,903], [899,896]] and complete the missing piece in this sequence: A____ORT?",
+              "answer": "IRP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the given options, which contains the text visible in [[683, 769], [1136, 769], [1136, 919], [683, 919]]? Options:\nA. ca303695, SANJDSE, NORMANYMINETA, AIRPORT\nB. SANJOSE, ca303695, NORMANYMINETA, AIRPORT\nC. SANJDSE, INTERNATIONAL, NORMANYMINETA, ca303695\nD. ca303695, AIRPORT, SANJOSE, 63",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '63, ca303695, economyparkinglot1, poweredbycleannaturalgas, INTERNATIONAL, SANJOSE' falls inside the region [[425.25717512950087, 406.31931711929866], [1136.2831400146138, 406.31931711929866], [1136.2831400146138, 918.6607030266157], [425.25717512950087, 918.6607030266157]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0410/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0410/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[426.8135953629639, 410.5409530032037], [1088.8470482736202, 410.5409530032037], [1088.8470482736202, 605.7886906792871], [426.8135953629639, 605.7886906792871]], which word(s) are visible? The word(s) is/are ________.",
+              "answer": [
+                "63",
+                "poweredbycleannaturalgas",
+                "economyparkinglot1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Here's an incomplete text at [[3,493], [68,497], [63,533], [-3.552713678800501e-15, 529.3379146157044]] — what letter(s) fill the gap? n____y.",
+              "answer": "l"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly captures the text in [[682, 411], [1133, 411], [1133, 920], [682, 920]]. Options:\nA. economyparkinglot1, SANJOSE, INTERNATIONAL, NORMANYMINETA, AIRPORT, 63\nB. NORMANYMINETA, poweredbycleannaturalgas, AIRPORT, SANJOSE, ca303695, economyparkinglot1\nC. AIPPORT, NORMANYMINETA, INTERNATIONAL, SANJOSE, poweredbycleannaturalgas, economyparkinglot1\nD. poweredbycleannaturalgas, economyparkinglot1, NORMANYMINETA, AIRPORT, oa303695, INTERNATIONAL",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[426.8135953629639, 410.5409530032037], [1132.727584459059, 410.5409530032037], [1132.727584459059, 920.3090546749673], [426.8135953629639, 920.3090546749673]], is it true that '63, AIRPORT, INTERNATIONAL, NORMANYMINETA, poweredbycleennaturalgas, economyparkinglot1, SANJOSE, ca303695' lies within it?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0410"
+  }
+]

@@ -1,0 +1,487 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) that appear within [[224.45045045045043, 626.0], [590.2522522522524, 626.0], [590.2522522522524, 844.1443889009636], [224.45045045045043, 844.1443889009636]]: ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[234,626], [590,667], [584,714], [228,673]], we see a phrase starting with \"DIS\" — what letter(s) go in \"DIS____VER OUR\"?",
+              "answer": "CO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options listed, which correctly identifies the text(s) at [[224, 626], [590, 626], [590, 844], [224, 844]]? Options:\nA. DISCOVER OUR, SHOPPINGCENTER, CARDENWALK\nB. GARDBNWALK, DISCOVER OUR, SHOPPINGCENTER\nC. STANFORD, GAPDENWALK, SHOPPINGCENTER\nD. STANFORD, SHOPPINGCENTER, DISCOVER OUR",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The labels 'DISCOVER OUR, STANFORD, GARDENWALK' — are they what you find inside bounding box [[224.45045045045043, 626.0], [590.2522522522524, 626.0], [590.2522522522524, 844.1443889009636], [224.45045045045043, 844.1443889009636]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out inside the region [[228, 616], [594, 616], [594, 829], [228, 829]]? ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the text area [[545,698], [682,715], [680,727], [543,710]], which word(s) complete \"SHO____NGCENTER\"?",
+              "answer": "PPI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on the text visible inside [[228, 616], [594, 616], [594, 829], [228, 829]], which answer is correct? Options:\nA. DISCOVER OUR, GARDENWALK, SHOPPINGCENTER\nB. GARDENWALK, STANFORO, SHOPPINGCENTER\nC. DISCOVER OUR, SHOPPINGCENTER, SIANFORD\nD. GARDENWALK, STANFORD, SHOPPINGCENIER",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Right inside box [[228.0, 616.0], [594.0, 616.0], [594.0, 829.4565064040236], [228.0, 829.4565064040236]], do you spot the label(s) 'STANFORD, SHOPPINGCENIER, GARDENWALK, DISCOVER OUR'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out whatever text appears at coordinates [[235, 540], [600, 540], [600, 755], [235, 755]]: ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the region [[729,585], [1072,645], [1064,691], [720,631]], what word(s) complete the phrase \"____COVER OUR\"?",
+              "answer": "DIS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that matches the text visible inside [[235, 540], [600, 540], [600, 755], [235, 755]]. Options:\nA. SHOPPINGCENTER, STANFORO, DISCOVER OUR\nB. STANFORD, DISCOVER OUR, GARDENWALK\nC. DISCCVER OUR, GARDENWALK, SHOPPINGCENTER\nD. GARDENWALK, SIANFORD, SHOPPINGCENTER",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'GARDENWALK, STANFORD, DISCOVFR OUR, SHOPPINGCENTER' appears inside the bounding box [[235.0, 540.0], [600.0, 540.0], [600.0, 754.679058332807], [235.0, 754.679058332807]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[244, 487], [610, 487], [610, 702], [244, 702]] — what word or words do you see? ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A gap appears in the text at [[1022,831], [1152,854], [1149,867], [1019,843]] — what letter(s) complete the sequence \"SHOP____CENTER\"?",
+              "answer": "PING"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly identifies the text found at [[244, 487], [610, 487], [610, 611], [244, 611]]? Options:\nA. GAPDENWALK\nB. DISCOVER OUR\nC. STANFORD\nD. GAPDENWALK",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'GARPENWALK, STANFORD, SHOPPINGCENTER, DISCOVER OUR' sits inside the bounding box [[244.0, 487.0], [610.0, 487.0], [610.0, 701.7378818622187], [244.0, 701.7378818622187]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[262, 447], [628, 447], [628, 663], [262, 663]], what word(s) can you make out? ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[874,466], [1243,522], [1236,570], [867,514]], the text reads \"DIS____VER OUR\" — what letters belong in the gap?",
+              "answer": "CO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that best captures what's written inside [[262, 447], [628, 447], [628, 663], [262, 663]]. Options:\nA. DISOOVER OUR, STANFORD, GARDENWALK\nB. GARDENWALK, DISCCVER OUR, SHOPPINGCENTER\nC. DISCOVER OUR, SHOPPINGCENIER, STANFORD\nD. DISCOVER OUR, GARDENWALK, STANFORD",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SHOPPINGCENTER, STANFORD, DISCOVER OUR' enclosed within the box at [[262.0, 447.0], [628.0, 447.0], [628.0, 662.5292487686936], [262.0, 662.5292487686936]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Taking a look at [[294, 413], [658, 413], [658, 629], [294, 629]], what word(s) appear there? ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the text shown at [[826,729], [913,736], [912,749], [824,741]], which letter(s) belong in the gap marked \"S____FORD\"?",
+              "answer": "TAN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text visible in [[294, 413], [658, 413], [658, 629], [294, 629]]? Options:\nA. GARDENWALK, DISCCVER OUR, SHOPPINGCENTER\nB. GARDENWALK, SHOPPINGCENTER, DISCOVER OUR\nC. CARDENWALK, DISCOVER OUR, SHOPPINGCENTER\nD. DISCOVER OUR, GAPDENWALK, STANFORD",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'DISCOVER OUR, STANFOPD, GARDENWALK, SHOPPINGCENTER' falling inside the bounding box [[293.96078431372547, 413.0], [657.9607843137255, 413.0], [657.9607843137255, 629.4357235888375], [293.96078431372547, 629.4357235888375]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you transcribe the text visible at [[334, 397], [696, 397], [696, 615], [334, 615]]? ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Hidden in the text at [[1010,547], [1453,573], [1450,620], [1007,595]] is a gap marked G____ENWALK — what letter(s) fill it?",
+              "answer": "ARD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[334, 397], [696, 397], [696, 615], [334, 615]] and tell me which option accurately represents the text there. Options:\nA. SHOPPINGCENIER, GARDENWALK, STANFORD\nB. SHOPPINGCENTER, DISCOVER OUR, GAPDENWALK\nC. SHOPPINGCENTER, DISCOVER OUR, GARDENWALK\nD. DISCCVER OUR, STANFORD, SHOPPINGCENTER",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the box at [[334.0, 397.0], [696.0, 397.0], [696.0, 614.5076660348807], [334.0, 614.5076660348807]], is 'STANFORD, SHOPPINGCENTER, DISCOVER OUR, GARPENWALK' contained within it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out the word(s) you can read inside region [[374, 401], [734, 401], [734, 622], [374, 622]]. ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[1277,431], [1729,466], [1725,519], [1273,485]] reads \"DI____VER OUR\" — what word(s) fill the gap?",
+              "answer": "SCO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option correctly lists the text content found at [[374, 401], [734, 401], [734, 532], [374, 532]]. Options:\nA. GAPDENWALK\nB. STANFORD\nC. GARDENWALK\nD. GAPDENWALK",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Examine bounding box [[374.0, 401.0], [734.0, 401.0], [734.0, 622.46360238739], [374.0, 622.46360238739]] — would you say 'SHOPPINGCENTER, GARDENWALK, STANFOPD, DISCOVER OUR' belongs inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word visible in the region [[401, 437], [761, 437], [761, 657], [401, 657]]. ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1365,465], [1784,508], [1779,557], [1360,515]], the text says \"____ OUR\" — can you work out what fills the gap?",
+              "answer": "DISCOVER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[401, 437], [761, 437], [761, 570], [401, 570]], which of the following options correctly lists the text(s) there? Options:\nA. GAPDENWALK\nB. DISCCVER OUR\nC. STANFORD\nD. DISCOVER OUR",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'SHOPPINGCENTER, STANFORD, DISCOVER OUR' appear inside the bounding box [[401.0, 437.0], [761.0, 437.0], [761.0, 657.2249242968146], [401.0, 657.2249242968146]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you see inside [[426, 471], [787, 471], [787, 692], [426, 692]]. ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"DIS____ OUR\" appears in the bounding box at [[1242,433], [1614,482], [1607,530], [1235,480]] — what word(s) are hiding under the blank?",
+              "answer": "COVER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text(s) visible at [[426, 471], [787, 471], [787, 692], [426, 692]]. Options:\nA. GARDENWALK, DISCOVER OUR, STANFORD\nB. STANFORO, DISCOVER OUR, SHOPPINGCENTER\nC. GAPDENWALK, DISCOVER OUR, STANFORD\nD. GARDENWALK, STANFORD, DISCCVER OUR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find the label(s) 'STANFORD, GARDENWALK, DISCOVER OUR' inside the bounding box [[426.0, 471.0], [787.0, 471.0], [787.0, 691.7895680962869], [426.0, 691.7895680962869]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text sitting inside the region [[456, 506], [817, 506], [817, 727], [456, 727]]. ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at coordinates [[969,503], [1299,539], [1295,581], [965,545]], you can see the word(s) \"GAR____WALK\" with certain letters dropped — fill in what's missing.",
+              "answer": "DEN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly captures the text(s) found within [[456, 506], [817, 506], [817, 727], [456, 727]]. Options:\nA. STANFORD, GARDENWALK, SHOPPINGCENTER\nB. STANFORO, SHOPPINGCENTER, DISCOVER OUR\nC. DISCCVER OUR, GARDENWALK, SHOPPINGCENTER\nD. SHOPPINGCENTER, DISCOVER OUR, GAPDENWALK",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[456.0, 506.0], [817.0, 506.0], [817.0, 726.5617503504835], [456.0, 726.5617503504835]], do the label(s) 'GARDENWALK, STANFORD, SHOPPINGCENTER, DISCOVFR OUR' appear within that bounding box?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0128/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0128/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out all the text visible in the area [[482, 538], [841, 538], [841, 759], [482, 759]]. ________",
+              "answer": [
+                "DISCOVER OUR",
+                "GARDENWALK",
+                "STANFORD",
+                "SHOPPINGCENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere inside [[899,535], [1207,569], [1203,611], [895,576]] you'll notice the phrase \"DIS____R OUR\" — which letter(s) are missing from it?",
+              "answer": "COVE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and tell me which one correctly represents the text(s) at [[482, 538], [841, 538], [841, 671], [482, 671]]. Options:\nA. SHOPPINGCENTER\nB. STANFORD\nC. DISCCVER OUR\nD. GARDENWALK",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scanning the bounding box [[482.0, 538.0], [841.0, 538.0], [841.0, 758.5590549326936], [482.0, 758.5590549326936]], do you see the label(s) 'GARDENWALK, SHOPPINGCENTER, STANFORD' there?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0128"
+  }
+]

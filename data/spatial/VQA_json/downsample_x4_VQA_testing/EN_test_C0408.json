@@ -1,0 +1,508 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify the word(s) visible inside [[839.3285371702638, 522.7467811158798], [1709.8159509202453, 522.7467811158798], [1709.8159509202453, 768.0674846625767], [839.3285371702638, 768.0674846625767]]? Fill in: ________",
+              "answer": [
+                "6",
+                "5",
+                "7",
+                "shuttleto",
+                "terminala",
+                "anddailylot4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the region [[1459,525], [1532,523], [1531,622], [1460,623]], the number shown as \"____\" — what is the complete value?",
+              "answer": "7"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text found inside [[839, 631], [1710, 631], [1710, 768], [839, 768]]? Options:\nA. 5, 6, terminala, sbuttleto\nB. shuttleto, 7, 6, 5\nC. tcrminala, 6, 5, shuttleto\nD. 6, anddailylot4, terminala, shuttleto",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'shuttleto, terminala, 7, 5' fall within the bounding box [[839.3285371702shuttleto, terminala, 7, 538, 522.74shuttleto, terminala, 7, 57811158798], [1709.8159509202453, 522.74shuttleto, terminala, 7, 57811158798], [1709.8159509202453, 7shuttleto, terminala, 7, 58.0shuttleto, terminala, 7, 57484shuttleto, terminala, 7, 5shuttleto, terminala, 7, 5257shuttleto, terminala, 7, 57], [839.3285371702shuttleto, terminala, 7, 538, 7shuttleto, terminala, 7, 58.0shuttleto, terminala, 7, 57484shuttleto, terminala, 7, 5shuttleto, terminala, 7, 5257shuttleto, terminala, 7, 57]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) you see inside [[834, 522], [1705, 522], [1705, 767], [834, 767]]. ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the region [[1333,721], [1627,718], [1628,768], [1331,770]], what letter(s) are missing from \"____dailylot4\"?",
+              "answer": "and"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best matches the text(s) visible in [[834, 631], [1705, 631], [1705, 767], [834, 767]]. Options:\nA. terminala, anddailylot4, shuttleto, 6\nB. b, shuttleto, anddailylot4, terminala\nC. 5, 7, terminala, shuttleto\nD. anddailylot4, 6, 5, sbuttleto",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it the case that the label(s) '6, anddailylat4, 7, 5, shuttleto, terminala' can be found inside the bounding box [[834.270171411509, 521.5907117517179], [1704.6, anddailylat4, 7, 5, shuttleto, terminala026, anddailylat4, 7, 5, shuttleto, terminala8077806, anddailylat4, 7, 5, shuttleto, terminala52, 521.5907117517179], [1704.6, anddailylat4, 7, 5, shuttleto, terminala026, anddailylat4, 7, 5, shuttleto, terminala8077806, anddailylat4, 7, 5, shuttleto, terminala52, 76, anddailylat4, 7, 5, shuttleto, terminala7.1196, anddailylat4, 7, 5, shuttleto, terminala1736, anddailylat4, 7, 5, shuttleto, terminala39985], [834.270171411509, 76, anddailylat4, 7, 5, shuttleto, terminala7.1196, anddailylat4, 7, 5, shuttleto, terminala1736, anddailylat4, 7, 5, shuttleto, terminala39985]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can read inside [[830, 523], [1699, 523], [1699, 766], [830, 766]]. ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How would you finish the sequence \"andd____ot4\" shown in the area of the image bounded by [[1224,720], [1519,718], [1520,767], [1223,770]]?",
+              "answer": "ailyl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that lists the text(s) shown inside [[1094, 523], [1699, 523], [1699, 766], [1094, 766]]. Options:\nA. 6, terminala, 5, anddailylot4\nB. b, 7, shuttleto, anddailylot4\nC. 5, tcrminala, shuttleto, 7\nD. 7, terminala, 5, anddailylot4",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[830.1035047448423, 523.1843372497259], [1anddailylot4, shuttleto, 7, 598.7744599191anddailylot4, shuttleto, 7, 597, 523.1843372497259], [1anddailylot4, shuttleto, 7, 598.7744599191anddailylot4, shuttleto, 7, 597, 7anddailylot4, shuttleto, 7, 55.892anddailylot4, shuttleto, 7, 5234989anddailylot4, shuttleto, 7, 577], [830.1035047448423, 7anddailylot4, shuttleto, 7, 55.892anddailylot4, shuttleto, 7, 5234989anddailylot4, shuttleto, 7, 577]] contain the label(s) 'anddailylot4, shuttleto, 7, 5'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[826, 523], [1699, 523], [1699, 766], [826, 766]], what word(s) can you make out? ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of a number in [[1265,541], [1324,539], [1323,632], [1263,633]] is obscured, showing only \"____\". What digit(s) are missing?",
+              "answer": "7"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one correctly names the text(s) inside [[826, 632], [1699, 632], [1699, 766], [826, 766]]? Options:\nA. anddailylot4, shuttleto, 7, terminala\nB. anddailylot4, 6, terminala, sbuttleto\nC. terminala, anddoilylot4, 5, 6\nD. anddailylot4, shuttleto, 6, 5",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '7, shuttleto, terminala, 6' appear within the bounding box [[827, shuttleto, terminala, 6.027, shuttleto, terminala, 677, shuttleto, terminala, 67, shuttleto, terminala, 61357295, 523.1843372497259], [17, shuttleto, terminala, 698.77445991917, shuttleto, terminala, 697, 523.1843372497259], [17, shuttleto, terminala, 698.77445991917, shuttleto, terminala, 697, 77, shuttleto, terminala, 65.8927, shuttleto, terminala, 62349897, shuttleto, terminala, 677], [827, shuttleto, terminala, 6.027, shuttleto, terminala, 677, shuttleto, terminala, 67, shuttleto, terminala, 61357295, 77, shuttleto, terminala, 65.8927, shuttleto, terminala, 62349897, shuttleto, terminala, 677]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the word(s) visible in the region [[819, 525], [1687, 525], [1687, 767], [819, 767]] and write them here: ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[779,664], [800,665], [799,686], [778,686]] in the image, a number appears as \"____\" with some digits cut off — what are the missing digit(s)?",
+              "answer": "6"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[1390, 525], [1687, 525], [1687, 767], [1390, 767]] matches which of the following options? Options:\nA. sbuttleto, anddailylot4, 7\nB. shuttleto, terminala, 0\nC. shuttleto, 6, terminala\nD. 7, shuttleto, anddailylot4",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'shuttleto, 7, 5, terminala, anddailylot4' sit inside the bounding box [[1390, shuttleto, 7, 5, terminala, anddailylot42shuttleto, 7, 5, terminala, anddailylot4], [1687, shuttleto, 7, 5, terminala, anddailylot42shuttleto, 7, 5, terminala, anddailylot4], [1687, 767], [1390, 767]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) you see within [[813, 525], [1681, 525], [1681, 768], [813, 768]]. ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown partially as \"and____ylot4\" within the area [[1455,716], [1741,711], [1742,759], [1454,763]], what character(s) complete the sequence?",
+              "answer": "dail"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and find the one that captures the text(s) in [[1384, 525], [1681, 525], [1681, 768], [1384, 768]]. Options:\nA. shuttleto, anddailylot4, 6\nB. shuttleto, terminala, 7\nC. shuttleto, 0, terminala\nD. shuttleto, terminala, 0",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) 'shuttleto, terminala, 7, 5' fall inside the bounding box [[812.7158317shuttleto, terminala, 7, 597shuttleto, terminala, 7, 557, 524.98shuttleto, terminala, 7, 58shuttleto, terminala, 7, 598shuttleto, terminala, 7, 599291], [1shuttleto, terminala, 7, 580.9237497shuttleto, terminala, 7, 580shuttleto, terminala, 7, 55, 524.98shuttleto, terminala, 7, 58shuttleto, terminala, 7, 598shuttleto, terminala, 7, 599291], [1shuttleto, terminala, 7, 580.9237497shuttleto, terminala, 7, 580shuttleto, terminala, 7, 55, 7shuttleto, terminala, 7, 57.7shuttleto, terminala, 7, 5shuttleto, terminala, 7, 5shuttleto, terminala, 7, 552454983shuttleto, terminala, 7, 5], [812.7158317shuttleto, terminala, 7, 597shuttleto, terminala, 7, 557, 7shuttleto, terminala, 7, 57.7shuttleto, terminala, 7, 5shuttleto, terminala, 7, 5shuttleto, terminala, 7, 552454983shuttleto, terminala, 7, 5]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can find inside [[1071, 526], [1670, 526], [1670, 768], [1071, 768]]. ________",
+              "answer": [
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sequence hidden at coordinates [[1094,681], [1114,681], [1113,703], [1091,703]] reads \"____\" — fill in the missing digit(s).",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[807, 632], [1670, 632], [1670, 768], [807, 768]] — which of these options shows the text found there? Options:\nA. sbuttleto, anddailylot4, terminala, 5\nB. anddailylot4, terminala, 5, shuttleto\nC. 6, 5, shuttleto, anddoilylot4\nD. shuttleto, terminala, 6, 7",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1373, 526], [1670, 526], [1670, 768], [1373, 768]] actually contain the label(s) '7, shuttleto, terminala, 6, anddailylot4'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text shown at [[795, 526], [1663, 526], [1663, 770], [795, 770]]. ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially obscured at [[1348,677], [1562,673], [1563,713], [1348,716]], a label reads \"te____nala\". Which letter(s) complete it?",
+              "answer": "rmi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text you can see inside [[795, 632], [1663, 632], [1663, 770], [795, 770]]. Options:\nA. 7, 6, shuttleto, 5\nB. tcrminala, anddailylot4, 5, shuttleto\nC. 5, 6, terminala, shuttleto\nD. shuttleto, 6, b, anddailylot4",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'torminala, 6, shuttleto, 5, anddailylot4, 7' one of the labels present within [[795.301583748torminala, 6, shuttleto, 5, anddailylot4, 7575, 525.torminala, 6, shuttleto, 5, anddailylot4, 7278955109548], [1torminala, 6, shuttleto, 5, anddailylot4, 7torminala, 6, shuttleto, 5, anddailylot4, 73.3453770218475, 525.torminala, 6, shuttleto, 5, anddailylot4, 7278955109548], [1torminala, 6, shuttleto, 5, anddailylot4, 7torminala, 6, shuttleto, 5, anddailylot4, 73.3453770218475, 7torminala, 6, shuttleto, 5, anddailylot4, 79.53343torminala, 6, shuttleto, 5, anddailylot4, 79072805], [795.301583748torminala, 6, shuttleto, 5, anddailylot4, 7575, 7torminala, 6, shuttleto, 5, anddailylot4, 79.53343torminala, 6, shuttleto, 5, anddailylot4, 79072805]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify all text visible inside the region [[1355, 527], [1652, 527], [1652, 768], [1355, 768]]. ________",
+              "answer": [
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[1271,518], [1331,516], [1330,609], [1270,610]], a number reading \"____\" has some digits hidden — can you figure out what they are?",
+              "answer": "7"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly lists the text visible at [[1050, 527], [1652, 527], [1652, 768], [1050, 768]]? Options:\nA. terminala, 0, shuttleto, anddailylot4\nB. 7, 5, shuttleto, terminala\nC. anddailylot4, shuttleto, 0, 5\nD. shuttleto, 6, 7, terminala",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you verify whether 'shuttloto, terminala, 7, anddailylot4, 6, 5' appears inside [[787.9shuttloto, terminala, 7, anddailylot4, 6, 582504153242, 52shuttloto, terminala, 7, anddailylot4, 6, 5.795210shuttloto, terminala, 7, anddailylot4, 6, 58shuttloto, terminala, 7, anddailylot4, 6, 50521], [1shuttloto, terminala, 7, anddailylot4, 6, 552.391313417shuttloto, terminala, 7, anddailylot4, 6, 5073, 52shuttloto, terminala, 7, anddailylot4, 6, 5.795210shuttloto, terminala, 7, anddailylot4, 6, 58shuttloto, terminala, 7, anddailylot4, 6, 50521], [1shuttloto, terminala, 7, anddailylot4, 6, 552.391313417shuttloto, terminala, 7, anddailylot4, 6, 5073, 7shuttloto, terminala, 7, anddailylot4, 6, 58.120009345443], [787.9shuttloto, terminala, 7, anddailylot4, 6, 582504153242, 7shuttloto, terminala, 7, anddailylot4, 6, 58.120009345443]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can find within [[777, 526], [1636, 526], [1636, 770], [777, 770]]. ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of a number sequence shows as \"____\" in the area [[796,660], [816,659], [815,681], [794,681]] — what goes in the blank?",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[777, 634], [1636, 634], [1636, 770], [777, 770]] and select the option that lists its text accurately. Options:\nA. shuttleto, 5, 7, anddailylot4\nB. anddailylot4, 5, 6, shuttleto\nC. shuttleto, terminala, anddailylot4, 6\nD. terminala, 6, sbuttleto, anddailylot4",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the coordinates [[777.17terminala, 5, shuttleto, 68835088494, 52terminala, 5, shuttleto, 6.08849terminala, 5, shuttleto, 69051333], [1terminala, 5, shuttleto, 635.7835395terminala, 5, shuttleto, 6terminala, 5, shuttleto, 60172, 52terminala, 5, shuttleto, 6.08849terminala, 5, shuttleto, 69051333], [1terminala, 5, shuttleto, 635.7835395terminala, 5, shuttleto, 6terminala, 5, shuttleto, 60172, 7terminala, 5, shuttleto, 69.88terminala, 5, shuttleto, 67937977399], [777.17terminala, 5, shuttleto, 68835088494, 7terminala, 5, shuttleto, 69.88terminala, 5, shuttleto, 67937977399]] enclose the label(s) 'terminala, 5, shuttleto, 6'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out at [[769, 526], [1628, 526], [1628, 770], [769, 770]]? ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word(s) in the region [[1060,698], [1346,693], [1347,741], [1059,745]] are partially hidden as \"and____ylot4\" — which letter(s) fill the gap?",
+              "answer": "dail"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options provided, which one captures the text at [[1331, 526], [1628, 526], [1628, 770], [1331, 770]]? Options:\nA. shuttleto, 6, terminala\nB. anddoilylot4, 7, terminala\nC. 5, shuttleto, 7\nD. terminala, anddailylot4, 7",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '0, terminala, 6, 5, anddailylot4, shuttleto' lie within [[70, terminala, 6, 5, anddailylot4, shuttleto8.0, terminala, 6, 5, anddailylot4, shuttleto0, terminala, 6, 5, anddailylot4, shuttleto20320237008, 520, terminala, 6, 5, anddailylot4, shuttleto.4090097250, terminala, 6, 5, anddailylot4, shuttleto40, terminala, 6, 5, anddailylot4, shuttleto1], [10, terminala, 6, 5, anddailylot4, shuttleto28.4117440, terminala, 6, 5, anddailylot4, shuttleto942225, 520, terminala, 6, 5, anddailylot4, shuttleto.4090097250, terminala, 6, 5, anddailylot4, shuttleto40, terminala, 6, 5, anddailylot4, shuttleto1], [10, terminala, 6, 5, anddailylot4, shuttleto28.4117440, terminala, 6, 5, anddailylot4, shuttleto942225, 770.207300, terminala, 6, 5, anddailylot4, shuttleto0, terminala, 6, 5, anddailylot4, shuttleto182527], [70, terminala, 6, 5, anddailylot4, shuttleto8.0, terminala, 6, 5, anddailylot4, shuttleto0, terminala, 6, 5, anddailylot4, shuttleto20320237008, 770.207300, terminala, 6, 5, anddailylot4, shuttleto0, terminala, 6, 5, anddailylot4, shuttleto182527]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0408/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0408/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible in the area defined by [[758, 527], [1621, 527], [1621, 771], [758, 771]]. ________",
+              "answer": [
+                "6",
+                "5",
+                "anddailylot4",
+                "terminala",
+                "shuttleto",
+                "7"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the outlined region [[1047,616], [1241,613], [1242,654], [1046,656]], the sequence \"shut____o\" has characters missing — what are they?",
+              "answer": "tlet"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[758, 634], [1621, 634], [1621, 771], [758, 771]], which answer option best matches the text there? Options:\nA. 7, terminala, 6, anddailylot4\nB. terminala, anddailylot4, 5, shuttleto\nC. shuttleto, anddailylot4, tcrminala, 6\nD. sbuttleto, 5, 6, anddailylot4",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'terminala, 6, anddailylot4, 5' can be found inside [[757.5509209125897, 527.4terminala, 6, anddailylot4, 590803970242], [1terminala, 6, anddailylot4, 520.terminala, 6, anddailylot4, 53789310411terminala, 6, anddailylot4, 55, 527.4terminala, 6, anddailylot4, 590803970242], [1terminala, 6, anddailylot4, 520.terminala, 6, anddailylot4, 53789310411terminala, 6, anddailylot4, 55, 770.5terminala, 6, anddailylot4, 50terminala, 6, anddailylot4, 5terminala, 6, anddailylot4, 53508712], [757.5509209125897, 770.5terminala, 6, anddailylot4, 50terminala, 6, anddailylot4, 5terminala, 6, anddailylot4, 53508712]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0408"
+  }
+]

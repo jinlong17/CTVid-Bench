@@ -1,0 +1,496 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text in [[924, 601], [1306, 601], [1306, 1027], [924, 1027]] and write it here: ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Focus on the area at [[924,601], [1302,606], [1298,818], [926,804]] and complete the missing digit(s) in: 19.____",
+              "answer": "9"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What does the text inside [[924, 601], [1306, 601], [1306, 1027], [924, 1027]] say? Pick the matching option. Options:\nA. 五, *图片仅供参考，仅指定商品可用, 春日焕活饮品包, 19.9\nB. 元, 19.9, 春日焕活饮品包, 茶饮套餐三选一\nC. 春日焕活饮品包, 茶饮套餐三选一, 云, 19.9\nD. 19d, 茶饮套餐三选一, *图片仅供参考，仅指定商品可用, 春日焕活饮品包",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Honestly, are the label(s) '五, 春日焕活饮品包, 19.9, 茶饮套餐三选一, *图片仅供参考，仅指定商品可用' found inside [[924.0, 601.0], [1305.689655172414, 601.0], [1305.689655172414, 1027.0], [924.0, 1027.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down whatever text you spot inside the region [[928, 601], [1306, 601], [1306, 1024], [928, 1024]]: ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像的四边形区域 [[1062,942], [1341,954], [1340,988], [1061,975]] 内含有部分文字，请将下方内容补全：图片仅供参____，仅指定商品可用。",
+              "answer": "考"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of all the choices here, which best represents the text you can see at [[928, 601], [1306, 601], [1306, 1024], [928, 1024]]? Options:\nA. 元, *图片仅供参考，仅指定商品可用, 荣饮套餐三选一, 春日焕活饮品包\nB. 元, 茶饮套餐三选一, 春日焕活饮品包, *图片仅供参考，仅指定商品可用\nC. 19d, 春日焕活饮品包, *图片仅供参考，仅指定商品可用, 元\nD. 茶饮套餐三选一, 元, 春日煥活饮品包, 19.9",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '元, 春日焕活饮品包, 19.9, 茶饮套餐三选一' sit inside the box at [[927.75, 601.0], [1305.689655172414, 601.0], [1305.689655172414, 1023.5034965034965], [927.75, 1023.5034965034965]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "At [[928, 592], [1317, 592], [1317, 1023], [928, 1023]], the word(s) you're looking for: ________",
+              "answer": [
+                "19.9",
+                "元",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察 [[1065,785], [1437,794], [1438,853], [1066,842]] 所圈定的四边形范围内的文字，把\"春____焕活饮品包\"中缺失的字填上。",
+              "answer": "日"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[961, 817], [1305, 817], [1305, 1023], [961, 1023]], which of the following options matches the text found there? Options:\nA. 19.9, 茶饮套餐三选一\nB. *图片仭供参考，仅指定商品可用, 茶饮套餐三选一\nC. *图片仭供参考，仅指定商品可用, 茶饮套餐三选一\nD. 春日焕活饮品包, *图片仅供参考，仅指定商品可用",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[928.1034482758621, 592.0], [1317.1839080459772, 592.0], [1317.1839080459772, 1023.0], [928.1034482758621, 1023.0]], is the label '19.9, 茶饮套餐三选一, 五, *图片仅供参考，仅指定商品可用, 春日焕活饮品包' visible?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text you see inside [[947, 596], [1330, 596], [1330, 1019], [947, 1019]] — what does it say? ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察图像中 [[1098,948], [1394,966], [1394,994], [1099,976]] 处的内容，将下列短语补充完整：图片仅____参考，仅指定商品可用",
+              "answer": "供"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text visible at [[975, 818], [1315, 818], [1315, 1019], [975, 1019]]? Options:\nA. 茶饮套餐三选一, *图片仅供参考，仅指定商品可用\nB. *图片仭供参考，仅指定商品可用, 春日焕活饮品包\nC. 19.9, *图片仅供参考，仅指定商品可用\nD. 荣饮套餐三选一, 春日焕活饮品包",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '元, *图片仅供参考，仅指定商品可用, 茶饮套餐三选一, 春日焕活饮品包' inside the region marked by [[946.5534188034189, 595.8717948717948], [1330.4759799587387, 595.8717948717948], [1330.4759799587387, 1019.2299922299923], [946.5534188034189, 1019.2299922299923]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can be found at [[960, 588], [1345, 588], [1345, 1013], [960, 1013]]? ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细辨认 [[1448,566], [1482,565], [1482,601], [1448,602]] 区域内的文字，将以下词语中缺失的部分填写完整：____",
+              "answer": "元"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text shown in [[986, 812], [1333, 812], [1333, 1013], [986, 1013]]. Options:\nA. 19.9, *图片仅供参考，仅指定商品可用\nB. *图片仭供参考，仅指定商品可用, 茶饮套餐三选一\nC. *图片仅供参考，仅指定商品可用, 春日焕活饮品包\nD. *图片仅供参考，仅指定商品可用, 春日煥活饮品包",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[960.3995726495727, 588.1794871794871], [1345.0913645741234, 588.1794871794871], [1345.0913645741234, 1013.0761460761462], [960.3995726495727, 1013.0761460761462]] — does it contain the label(s) '茶饮套餐三选一, *图片仅供参考，仅指定商品可用, 春日煥活饮品包, 19.9, 元'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text appearing inside [[971, 584], [1356, 584], [1356, 1008], [971, 1008]]: ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "依据 [[1074,761], [1473,768], [1476,834], [1076,827]] 范围内的文字信息，补全以下短语：春日焕____饮品包",
+              "answer": "活"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in [[971, 584], [1356, 584], [1356, 1008], [971, 1008]], which answer option lists the text found there? Options:\nA. 19.9, 茶饮套餐三选一, 元, *图片仭供参考，仅指定商品可用\nB. 茶饮套餐三选一, 19.9, 春日焕活饮品包, *图片仅倛参考，仅指定商品可用\nC. 茶饮套餐三选一, 元, 19.9, *图片仅供参考，仅指定商品可用\nD. 五, 茶饮套餐三选一, 春日焕活饮品包, 19.9",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside [[971.2522858278671, 583.5283243887894], [1355.9440777524178, 583.5283243887894], [1355.9440777524178, 1008.4249832854485], [971.2522858278671, 1008.4249832854485]], can you spot the label(s) '*图片仅供参考，仅指定商品可用, 春日焕活饮品包, 元, 茶饮套餐三选一'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the text that appears at [[978, 580], [1362, 580], [1362, 1005], [978, 1005]]: ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考 [[1074,873], [1424,885], [1425,942], [1074,930]] 所在区域的画面内容，补全下面的短语：____饮套餐三选一",
+              "answer": "茶"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, which one best represents the text you can see at [[978, 580], [1362, 580], [1362, 1005], [978, 1005]]? Options:\nA. 荣饮套餐三选一, *图片仅供参考，仅指定商品可用, 19.9, 春日焕活饮品包\nB. 春日煥活饮品包, 元, *图片仅供参考，仅指定商品可用, 茶饮套餐三选一\nC. 春日焕活饮品包, *图片仅供参考，仅指定商品可用, 茶饮套餐三选一, 五\nD. 茶饮套餐三选一, *图片仅供参考，仅指定商品可用, 春日焕活饮品包, 元",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "A quick check — does the label '茶饮套餐三选一, *图片仅供参考，仅指定商品可用, 春日焕活饮品包, 元, 19d' fall within the bounding box [[977.5022858278671, 579.7783243887894], [1362.1940777524178, 579.7783243887894], [1362.1940777524178, 1004.6749832854485], [977.5022858278671, 1004.6749832854485]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the text visible inside the region [[981, 575], [1366, 575], [1366, 1004], [981, 1004]]: ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像坐标 [[1376,492], [1413,492], [1414,532], [1377,533]] 处显示了哪些文字？据此填写空白：____",
+              "answer": "元"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the area at [[981, 575], [1366, 575], [1366, 868], [981, 868]], which answer choice matches the text there? Options:\nA. 茶饮套餐三选一, 元\nB. 元, 19d\nC. 19.9, *图片仅供参考，仅指定商品可用\nD. 春日焕活饮品包, 元",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '茶饮套餐三选一, 春日焕活饮品包, 元, 19.9' present within the region defined by [[981.2522858278671, 574.7783243887894], [1365.9440777524178, 574.7783243887894], [1365.9440777524178, 1003.5416666666666], [981.2522858278671, 1003.5416666666666]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible at [[981, 571], [1370, 571], [1370, 1002], [981, 1002]]: ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the content shown at [[945,505], [1392,496], [1399,724], [952,726]], complete the following by supplying the missing number: 19.____",
+              "answer": "9"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these answer choices contains the text found at [[1002, 796], [1356, 796], [1356, 1002], [1002, 1002]]? Pick the right one. Options:\nA. 春日焕活饮品包, *图片仅供参考，仅指定商品可用\nB. 19.9, *图片仅供参考，仅指定商品可用\nC. 春日煥活饮品包, 茶饮套餐三选一\nD. *图片仭供参考，仅指定商品可用, 茶饮套餐三选一",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '春日焕活饮品包, 茶饮套餐三选一, 19.9, 元, *图片仭供参考，仅指定商品可用' fall inside the bounding box [[981.2522858278671, 571.0283243887894], [1370.4026764785324, 571.0283243887894], [1370.4026764785324, 1001.7024946921443], [981.2522858278671, 1001.7024946921443]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears inside the region [[1037, 877], [1347, 877], [1347, 993], [1037, 993]]? ________",
+              "answer": [
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the text at coordinates [[920,518], [1367,509], [1374,736], [927,738]], fill in the missing decimal digit(s) in 19.____?.",
+              "answer": "9"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option matches the text found inside [[993, 562], [1382, 562], [1382, 993], [993, 993]]? Options:\nA. 茶饮套餐三选一, 19.9, *图片仭供参考，仅指定商品可用, 元\nB. 茶饮套餐三选一, 元, *图片仅供参考，仅指定商品可用, 春日焕活饮品包\nC. 19.9, *图片仅倛参考，仅指定商品可用, 元, 春日焕活饮品包\nD. 元, *图片仅供参考，仅指定商品可用, 春日焕活饮品包, 荣饮套餐三选一",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '19.9, 荣饮套餐三选一, 元, 春日焕活饮品包, *图片仅供参考，仅指定商品可用' appear(s) inside the box at [[992.5022858278671, 562.2783243887894], [1381.6526764785324, 562.2783243887894], [1381.6526764785324, 992.9524946921443], [992.5022858278671, 992.9524946921443]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text enclosed by [[1002, 558], [1391, 558], [1391, 988], [1002, 988]] and write it here: ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "After examining the text at [[926,513], [1374,510], [1379,745], [934,739]], what digit(s) complete ____9.9.?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one accurately represents the text visible in [[1002, 558], [1391, 558], [1391, 851], [1002, 851]]? Options:\nA. 19.9, 元\nB. 春日焕活饮品包, 五\nC. *图片仅供参考，仅指定商品可用, 春日焕活饮品包\nD. 茶饮套餐三选一, 春日焕活饮品包",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[1001.8772858278671, 557.5908243887894], [1391.0276764785324, 557.5908243887894], [1391.0276764785324, 988.2649946921443], [1001.8772858278671, 988.2649946921443]], do you see the label(s) '春日焕活饮品包, 茶饮套餐三选一, 19d, 元, *图片仅供参考，仅指定商品可用'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0041/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0041/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the text you can read inside the region [[1006, 555], [1396, 555], [1396, 989], [1006, 989]]: ________",
+              "answer": [
+                "19.9",
+                "春日焕活饮品包",
+                "茶饮套餐三选一",
+                "*图片仅供参考，仅指定商品可用",
+                "元"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请观察图像中 [[1013,865], [1373,880], [1374,945], [1013,928]] 位置的文字，将以下短语补充完整：茶饮套餐____选一",
+              "answer": "三"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[1006, 555], [1396, 555], [1396, 852], [1006, 852]] and select the answer that contains the text found there. Options:\nA. 元, 19.9\nB. 19.9, 春日煥活饮品包\nC. 春日焕活饮品包, 19d\nD. 19.9, 茶饮套餐三选一",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '元, *图片仅供参考，仅指定商品可用, 茶饮套餐三选一, 春日煥活饮品包, 19.9' appear within the region marked by [[1006.4926704432517, 554.5139013118663], [1395.643061093917, 554.5139013118663], [1395.643061093917, 989.0342254613751], [1006.4926704432517, 989.0342254613751]].",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0041"
+  }
+]

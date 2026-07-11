@@ -1,0 +1,462 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you describe the text inside [[978.7226456299859, 939.3381468110708], [1200.3832954494806, 939.3381468110708], [1200.3832954494806, 1022.731648616125], [978.7226456299859, 1022.731648616125]]? The word(s) is/are ________.",
+              "answer": [
+                "Cytosine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Read the text inside [[158,373], [489,375], [490,472], [161,470]] and supply the missing character(s): W____aaait",
+              "answer": "a"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly identifies the text found inside [[24, 28], [1209, 28], [1209, 579], [24, 579]]? Options:\nA. Adenine, a minute..., RNA, Waaeait\nB. RNA, Waaaait, Uracil, Guanine\nC. a minute..., Adenine, RNA, Waaaait\nD. Adenine, Waaaait, RNA, e minute...",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'RNA, Waaaait, Guanine, Uracil, a minute...' appears inside the bounding box [[24.0, 28.0], [1209.0252707581228, 28.0], [1209.0252707581228, 1022.731648616125], [24.0, 1022.731648616125]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) can be read inside [[24.0, 28.0], [532.1212121212121, 28.0], [532.1212121212121, 579.3939393939394], [24.0, 579.3939393939394]]. ________",
+              "answer": [
+                "RNA",
+                "Waaaait",
+                "a minute..."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Spot the missing letter(s) from the text in [[987,650], [1209,649], [1209,733], [988,732]]: Gu____ne",
+              "answer": "ani"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[24, 28], [1209, 28], [1209, 733], [24, 733]] and select the option that matches the text there. Options:\nA. Guanine, Adenine, Waaaait, PNA, a minute...\nB. Adenine, a minute..., Uracil, Cytosine, Waaaait\nC. PNA, Uracil, a minute..., Adenine, Waaaait\nD. Guanine, RNA, Adenine, Waaaait, Uracil",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Guanine, Adenine, Uracil, Cytosine, RNA' the text you'd find inside [[979, 123], [1209, 123], [1209, 1023], [979, 1023]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you read the text shown at [[24.0, 28.0], [1209.0252707581228, 28.0], [1209.0252707581228, 1022.731648616125], [24.0, 1022.731648616125]]? ________",
+              "answer": [
+                "RNA",
+                "Waaaait",
+                "a minute...",
+                "Adenine",
+                "Uracil",
+                "Guanine",
+                "Cytosine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Notice that the text in [[987,650], [1209,649], [1209,733], [988,732]] has a gap — what piece fits into '____ine'?",
+              "answer": "Guan"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[134, 373], [1209, 373], [1209, 1023], [134, 1023]] — which option lists the correct text from that region? Options:\nA. a minute..., Uracil, Guanine, Waaeait\nB. RNA, a minute..., Cytosine, Waaaait\nC. a minute..., Guanine, Cytosine, Waaaait\nD. Waaeait, Guanine, Cytosine, a minute...",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Waaaait, RNA, Adenine, Uracil, Cytosine, a minute...' when you look inside [[24, 28], [1209, 28], [1209, 579], [24, 579]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A chunk of the text at [[158,373], [489,375], [490,472], [161,470]] can't be made out — complete the phrase: Waaa____",
+              "answer": "ait"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one captures the text visible at [[979, 123], [1209, 123], [1209, 1023], [979, 1023]]? Options:\nA. Adenine, Uracil, Guonine\nB. Guanine, RNA, Adenine\nC. Uracil, Cytosine, Adenine\nD. Adenine, Cytasine, Guanine",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Cytosine, Uracil, Adenine, Guanine, RNA' is visible within the region [[979, 123], [1209, 123], [1209, 1023], [979, 1023]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you can see at [[24.0, 28.0], [1209.0252707581228, 28.0], [1209.0252707581228, 206.06498194945846], [24.0, 206.06498194945846]]: ________",
+              "answer": [
+                "RNA",
+                "Adenine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a blank in the text at [[986,123], [1208,123], [1208,206], [987,206]] — what letter(s) should replace it in 'Ade____'?",
+              "answer": "nine"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of the options matches the text at [[979, 123], [1209, 123], [1209, 1023], [979, 1023]] — which one is it? Options:\nA. Adenine, Uracil, Cytosine\nB. Uracil, Cytosine, Adonine\nC. Urecil, Guanine, Cytosine\nD. Cytosine, RNA, Uracil",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[134, 373], [1209, 373], [1209, 1023], [134, 1023]] actually contain the label(s) 'Guanine, Cytosine, Waaaait, Uracil'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) show up when you examine [[24.0, 28.0], [1209.0252707581228, 28.0], [1209.0252707581228, 1022.731648616125], [24.0, 1022.731648616125]]? ________",
+              "answer": [
+                "RNA",
+                "Waaaait",
+                "a minute...",
+                "Adenine",
+                "Uracil",
+                "Guanine",
+                "Cytosine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's missing in the text at [[979,940], [1200,939], [1200,1023], [979,1022]] — what completes the pattern 'Cy____ine'?",
+              "answer": "tos"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly names the text found at [[979, 123], [1209, 123], [1209, 1023], [979, 1023]]. Options:\nA. Uracil, Adonine, Cytosine\nB. Cytosine, Guanine, Adonine\nC. Cytosine, Uracil, Adenine\nD. Guanine, Cytosine, RNA",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'Waaaait, a minute..., Uracil, Guanine' is actually found in [[24, 28], [1209, 28], [1209, 733], [24, 733]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible inside [[978.7226456299859, 939.3381468110708], [1200.3832954494806, 939.3381468110708], [1200.3832954494806, 1022.731648616125], [978.7226456299859, 1022.731648616125]]. ________",
+              "answer": [
+                "Cytosine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[387,314], [511,314], [511,451], [387,451]], the text reads \"____!\" — what character(s) complete it?",
+              "answer": "U"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the content in [[979, 123], [1209, 123], [1209, 1023], [979, 1023]] and choose the option that best matches it. Options:\nA. Adenine, Uracil, RNA\nB. Adenine, Urecil, Guanine\nC. Guanine, Cytosine, Adenine\nD. Urecil, Guanine, Adenine",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Uracil, Guanine, Cytosine, a minute..., Adenine, Waaaait' appears inside the bounding box [[134, 373], [1209, 373], [1209, 1023], [134, 1023]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you read inside the region [[978.7226456299859, 939.3381468110708], [1200.3832954494806, 939.3381468110708], [1200.3832954494806, 1022.731648616125], [978.7226456299859, 1022.731648616125]]? ________",
+              "answer": [
+                "Cytosine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The bounding box [[24,28], [258,28], [258,139], [24,139]] contains a text fragment — what word or phrase completes the sequence \"____NA\"?",
+              "answer": "R"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on the text visible in [[24, 28], [1209, 28], [1209, 733], [24, 733]], which of these options is correct? Options:\nA. a minute..., Uracil, Adenine, Guanine, Waaaait\nB. Uracil, Cytosine, a minute..., Guanine, Waaaait\nC. Guanine, a minute..., Adenine, PNA, Waaaait\nD. Guanine, Uracil, Waaaait, Adenine, e minute...",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Uracil, Guanine, Waaaait, Cytosine, Adenine' actually present inside the box at [[979, 123], [1209, 123], [1209, 1023], [979, 1023]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) show up within the region [[978.7226456299859, 939.3381468110708], [1200.3832954494806, 939.3381468110708], [1200.3832954494806, 1022.731648616125], [978.7226456299859, 1022.731648616125]]? ________",
+              "answer": [
+                "Cytosine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What's the missing segment that belongs in \"____!\", based on the text at [[387,314], [511,314], [511,451], [387,451]]?",
+              "answer": "U"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[134, 373], [1209, 373], [1209, 1023], [134, 1023]] matches which of the following options? Options:\nA. Uracil, Waaeait, Cytosine, Guanine\nB. a minute..., Cytosine, Uracil, Guanine\nC. RNA, Cytosine, Uracil, a minute...\nD. e minute..., Guanine, Uracil, Cytosine",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Cytosine, Uracil, a minute..., Guanine, Waaaait, RNA' falls within the bounding box at [[134, 373], [1209, 373], [1209, 1023], [134, 1023]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the content from area [[24.0, 28.0], [1209.0252707581228, 28.0], [1209.0252707581228, 206.06498194945846], [24.0, 206.06498194945846]] — what word(s) do you see? ________",
+              "answer": [
+                "RNA",
+                "Adenine"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What goes in the blank to complete \"Cyt____ine\", given what's shown in the region [[979,940], [1200,939], [1200,1023], [979,1022]]?",
+              "answer": "os"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text found in [[979, 123], [1209, 123], [1209, 1023], [979, 1023]]? Options:\nA. Uracil, Cytosine, RNA\nB. Uracil, Guanine, Cytasine\nC. Cytosine, Adenine, Uracil\nD. Adenine, Cytasine, Uracil",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'a minute..., Cytosine, Uraoil, RNA, Adenine, Guanine, Waaaait' inside the bounding box [[24.0, 28.0], [1209.0252707581228, 28.0], [1209.0252707581228, 1022.731648616125], [24.0, 1022.731648616125]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify the word(s) contained in the bounding box [[24.0, 28.0], [532.1212121212121, 28.0], [532.1212121212121, 579.3939393939394], [24.0, 579.3939393939394]]? ________",
+              "answer": [
+                "RNA",
+                "Waaaait",
+                "a minute..."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the text from the box at [[387,314], [511,314], [511,451], [387,451]], what's missing from \"____!\"?",
+              "answer": "U"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly represents the text visible in [[24, 28], [1209, 28], [1209, 733], [24, 733]]. Options:\nA. a minute..., Uracil, Cytosine, RNA, Guanine\nB. a minute..., Waaaait, Guanine, RNA, Uracil\nC. Guonine, a minute..., Uracil, Adenine, Waaaait\nD. PNA, a minute..., Uracil, Waaaait, Adenine",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[134, 373], [1209, 373], [1209, 1023], [134, 1023]] — is 'Guanine, a minute..., Waaaait, Cytosine' one of the labels found there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_022_2/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_022_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What does the text in the region [[24.0, 28.0], [532.1212121212121, 28.0], [532.1212121212121, 579.3939393939394], [24.0, 579.3939393939394]] say? ________",
+              "answer": [
+                "RNA",
+                "Waaaait",
+                "a minute..."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What substring is missing from C____sine., according to the content in bounding box [[979,940], [1200,939], [1200,1023], [979,1022]]?",
+              "answer": "yto"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that includes the text found within [[979, 123], [1209, 123], [1209, 1023], [979, 1023]]. Options:\nA. Guanine, Adenine, Uracil\nB. Guanine, Cytosine, RNA\nC. Cytosine, Waaaait, Uracil\nD. Adenine, Guonine, Cytosine",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the label 'Waaaait, a minute..., Guanine, Cytosine' contained within the box region [[134, 373], [1209, 373], [1209, 1023], [134, 1023]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_022_2"
+  }
+]

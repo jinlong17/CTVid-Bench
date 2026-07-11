@@ -1,0 +1,313 @@
+{
+  "video_id": "C0101",
+  "frames": 120,
+  "word": "在前海 见世界",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0101.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"在前海 见世界\" likely to be?\n Options:\nA. general scene text\nB. warning or prohibition sign\nC. menu or commercial information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. event or poster information",
+      "q": "「在前海 见世界」这几个字，你觉得更像是哪种类型的标牌？\n Options:\nA. general scene text\nB. warning or prohibition sign\nC. menu or commercial information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. event or poster information",
+      "a": "E",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. general scene text",
+        "B. warning or prohibition sign",
+        "C. menu or commercial information",
+        "D. address or street sign",
+        "E. storefront or brand sign",
+        "F. direction or navigation sign",
+        "G. event or poster information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「在前海 见世界」这几个字，你觉得更像是哪种类型的标牌？\n Options:\nA. general scene text\nB. warning or prohibition sign\nC. menu or commercial information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. event or poster information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"在前海 见世界\" appear in?\n Options:\nA. transportation / station\nB. event poster or display\nC. storefront\nD. restaurant or menu\nE. campus or office\nF. other public sign\nG. road or street\nH. warning / rule sign",
+      "q": "写着「在前海 见世界」的那段文字，周围是什么场景？\n Options:\nA. transportation / station\nB. event poster or display\nC. storefront\nD. restaurant or menu\nE. campus or office\nF. other public sign\nG. road or street\nH. warning / rule sign",
+      "a": "G",
+      "a_text": "road or street",
+      "answer_key": "road or street",
+      "options": [
+        "A. transportation / station",
+        "B. event poster or display",
+        "C. storefront",
+        "D. restaurant or menu",
+        "E. campus or office",
+        "F. other public sign",
+        "G. road or street",
+        "H. warning / rule sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「在前海 见世界」的那段文字，周围是什么场景？\n Options:\nA. transportation / station\nB. event poster or display\nC. storefront\nD. restaurant or menu\nE. campus or office\nF. other public sign\nG. road or street\nH. warning / rule sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"在前海 见世界\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)",
+      "q": "看这段视频，「在前海 见世界」这行字大部分时间出现在画面的哪个区域？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)",
+      "a": "D",
+      "a_text": "bottom-left (lower-left area)",
+      "answer_key": "bottom-left",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. bottom-right (lower-right area)",
+        "C. top-left (upper-left area)",
+        "D. bottom-left (lower-left area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看这段视频，「在前海 见世界」这行字大部分时间出现在画面的哪个区域？\n Options:\nA. top-right (upper-right area)\nB. bottom-right (lower-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"在前海 见世界\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "视频播放期间，「在前海 见世界」位移有多大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "C",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播放期间，「在前海 见世界」位移有多大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"在前海 见世界\" move?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves up\nD. moves down\nE. moves right\nF. stays roughly in place\nG. moves left",
+      "q": "总体来看，「在前海 见世界」朝哪个方向运动的？\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves up\nD. moves down\nE. moves right\nF. stays roughly in place\nG. moves left",
+      "a": "E",
+      "a_text": "moves right",
+      "answer_key": "moves right",
+      "options": [
+        "A. moves diagonally",
+        "B. changes direction partway",
+        "C. moves up",
+        "D. moves down",
+        "E. moves right",
+        "F. stays roughly in place",
+        "G. moves left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「在前海 见世界」朝哪个方向运动的？\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves up\nD. moves down\nE. moves right\nF. stays roughly in place\nG. moves left"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"在前海 见世界\" at the beginning, the middle, and the end?\n Options:\nA. center -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> top-left -> bottom-left\nD. top-right -> bottom-left -> bottom-left",
+      "q": "片段开头、中段、片尾三个时间点，「在前海 见世界」分别在画面什么位置？\n Options:\nA. center -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> top-left -> bottom-left\nD. top-right -> bottom-left -> bottom-left",
+      "a": "B",
+      "a_text": "bottom-left -> bottom-left -> bottom-left",
+      "answer_key": "bottom-left -> bottom-left -> bottom-left",
+      "options": [
+        "A. center -> bottom-left -> bottom-left",
+        "B. bottom-left -> bottom-left -> bottom-left",
+        "C. bottom-left -> top-left -> bottom-left",
+        "D. top-right -> bottom-left -> bottom-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "片段开头、中段、片尾三个时间点，「在前海 见世界」分别在画面什么位置？\n Options:\nA. center -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> top-left -> bottom-left\nD. top-right -> bottom-left -> bottom-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"在前海 见世界\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里「在前海 见世界」这行字，整体看下来算大字还是小字？\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "D",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里「在前海 见世界」这行字，整体看下来算大字还是小字？\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"在前海 见世界\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)",
+      "q": "那行「在前海 见世界」，整个视频看下来，字有变大变小，还是一直差不多大？\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)",
+      "a": "C",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets smaller",
+        "B. gets larger",
+        "C. stays about the same size",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "那行「在前海 见世界」，整个视频看下来，字有变大变小，还是一直差不多大？\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"在前海 见世界\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "这段写着「在前海 见世界」的文字，是居于画面中间区域，还是靠近某条边缘？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段写着「在前海 见世界」的文字，是居于画面中间区域，还是靠近某条边缘？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"在前海 见世界\" and how it appears in the video.",
+      "q": "聊聊「在前海 见世界」在视频里的整体表现——位置、大小、怎么呈现的都可以说说。",
+      "a": "The text appears in large white characters on the glass facade of a modern office building.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "聊聊「在前海 见世界」在视频里的整体表现——位置、大小、怎么呈现的都可以说说。"
+    }
+  ],
+  "method": "downsample_x4"
+}

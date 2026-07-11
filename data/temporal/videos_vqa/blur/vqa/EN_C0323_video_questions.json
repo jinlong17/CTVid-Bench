@@ -1,0 +1,313 @@
+{
+  "video_id": "C0323",
+  "frames": 120,
+  "word": "COSTCO FOOD COURT",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0323.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"COSTCO FOOD COURT\" likely to be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. general scene text\nD. address or street sign\nE. direction or navigation sign\nF. warning or prohibition sign\nG. event or poster information",
+      "q": "What type of sign would you expect the text \"COSTCO FOOD COURT\" to be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. general scene text\nD. address or street sign\nE. direction or navigation sign\nF. warning or prohibition sign\nG. event or poster information",
+      "a": "A",
+      "a_text": "menu or commercial information",
+      "answer_key": "menu or commercial information",
+      "options": [
+        "A. menu or commercial information",
+        "B. storefront or brand sign",
+        "C. general scene text",
+        "D. address or street sign",
+        "E. direction or navigation sign",
+        "F. warning or prohibition sign",
+        "G. event or poster information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you expect the text \"COSTCO FOOD COURT\" to be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. general scene text\nD. address or street sign\nE. direction or navigation sign\nF. warning or prohibition sign\nG. event or poster information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"COSTCO FOOD COURT\" appear in?\n Options:\nA. storefront\nB. event poster or display\nC. transportation / station\nD. warning / rule sign\nE. road or street\nF. restaurant or menu\nG. campus or office\nH. other public sign",
+      "q": "\"COSTCO FOOD COURT\" — what kind of environment or setting does this text appear in?\n Options:\nA. storefront\nB. event poster or display\nC. transportation / station\nD. warning / rule sign\nE. road or street\nF. restaurant or menu\nG. campus or office\nH. other public sign",
+      "a": "F",
+      "a_text": "restaurant or menu",
+      "answer_key": "restaurant or menu",
+      "options": [
+        "A. storefront",
+        "B. event poster or display",
+        "C. transportation / station",
+        "D. warning / rule sign",
+        "E. road or street",
+        "F. restaurant or menu",
+        "G. campus or office",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "\"COSTCO FOOD COURT\" — what kind of environment or setting does this text appear in?\n Options:\nA. storefront\nB. event poster or display\nC. transportation / station\nD. warning / rule sign\nE. road or street\nF. restaurant or menu\nG. campus or office\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"COSTCO FOOD COURT\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. bottom-left (lower-left area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)",
+      "q": "Whereabouts in the frame does the text \"COSTCO FOOD COURT\" tend to sit?\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. bottom-left (lower-left area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. top-right (upper-right area)",
+        "C. bottom-left (lower-left area)",
+        "D. bottom-right (lower-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Whereabouts in the frame does the text \"COSTCO FOOD COURT\" tend to sit?\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. bottom-left (lower-left area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"COSTCO FOOD COURT\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "Roughly how far does the text \"COSTCO FOOD COURT\" travel during the clip — a lot, a little, or barely at all?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Roughly how far does the text \"COSTCO FOOD COURT\" travel during the clip — a lot, a little, or barely at all?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"COSTCO FOOD COURT\" move?\n Options:\nA. stays roughly in place\nB. moves left\nC. moves diagonally\nD. moves up\nE. moves right\nF. moves down\nG. changes direction partway",
+      "q": "Which direction does \"COSTCO FOOD COURT\" drift, if it moves at all?\n Options:\nA. stays roughly in place\nB. moves left\nC. moves diagonally\nD. moves up\nE. moves right\nF. moves down\nG. changes direction partway",
+      "a": "E",
+      "a_text": "moves right",
+      "answer_key": "moves right",
+      "options": [
+        "A. stays roughly in place",
+        "B. moves left",
+        "C. moves diagonally",
+        "D. moves up",
+        "E. moves right",
+        "F. moves down",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"COSTCO FOOD COURT\" drift, if it moves at all?\n Options:\nA. stays roughly in place\nB. moves left\nC. moves diagonally\nD. moves up\nE. moves right\nF. moves down\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"COSTCO FOOD COURT\" at the beginning, the middle, and the end?\n Options:\nA. top-left -> bottom-right -> center\nB. top-right -> center -> center\nC. center -> center -> center\nD. top-left -> center -> center",
+      "q": "Near the start, in the middle, and toward the end — where does \"COSTCO FOOD COURT\" sit each time?\n Options:\nA. top-left -> bottom-right -> center\nB. top-right -> center -> center\nC. center -> center -> center\nD. top-left -> center -> center",
+      "a": "D",
+      "a_text": "top-left -> center -> center",
+      "answer_key": "top-left -> center -> center",
+      "options": [
+        "A. top-left -> bottom-right -> center",
+        "B. top-right -> center -> center",
+        "C. center -> center -> center",
+        "D. top-left -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Near the start, in the middle, and toward the end — where does \"COSTCO FOOD COURT\" sit each time?\n Options:\nA. top-left -> bottom-right -> center\nB. top-right -> center -> center\nC. center -> center -> center\nD. top-left -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"COSTCO FOOD COURT\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. very large (dominates the frame)",
+      "q": "How big does the text \"COSTCO FOOD COURT\" look in the frame — tiny, moderate, or large?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. very large (dominates the frame)",
+      "a": "C",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. small (a minor part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How big does the text \"COSTCO FOOD COURT\" look in the frame — tiny, moderate, or large?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"COSTCO FOOD COURT\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. gets larger\nD. size fluctuates (goes up and down)",
+      "q": "Does the text \"COSTCO FOOD COURT\" grow larger, shrink, or hold roughly the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. gets larger\nD. size fluctuates (goes up and down)",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets smaller",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does the text \"COSTCO FOOD COURT\" grow larger, shrink, or hold roughly the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. gets larger\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"COSTCO FOOD COURT\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "Is the text \"COSTCO FOOD COURT\" positioned well within the frame, or does it crowd up against an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"COSTCO FOOD COURT\" positioned well within the frame, or does it crowd up against an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"COSTCO FOOD COURT\" and how it appears in the video.",
+      "q": "Give a quick rundown of how the text \"COSTCO FOOD COURT\" looks and behaves across the video.",
+      "a": "The text \"COSTCO FOOD COURT\" is displayed as a red and blue logo on a large pizza advertisement sign mounted on a wall.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick rundown of how the text \"COSTCO FOOD COURT\" looks and behaves across the video."
+    }
+  ],
+  "method": "blur"
+}

@@ -1,0 +1,573 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible inside [[598, 132], [1081, 132], [1081, 362], [598, 362]]: ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[738,1002], [829,1029], [824,1048], [733,1023]], a well-known fast-food brand with golden arches is shown — fill in the brand name: \"M____Donald's\"",
+              "answer": "c"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, which one correctly reflects the text at [[550, 474], [1072, 474], [1072, 1079], [550, 1079]]? Options:\nA. MOBILEDEVICE, *JUST PICK UP YOUR ORDER AND GO, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, McDonald's, *NO WAITING IN LINE, AVAILABLE, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, STAPTED, Palo Alto,CA94\nB. MOBILE, *JUST PICK UP YOUR ORDER AND GO, STARTED, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, McDonald's, AVAILABLE, *NO WAITING IN LINE, Palo Alto,CA94, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, NOW!!\nC. *NO WAITING IN LINE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, McDonald's, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, NOW!!, AVAILABLE, STARTED, MOBILEDEVICE, M, Palo Alto,CA94\nD. NOW!!, McDonald's, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, *NO WAITING IN LINE, 208 Stanford Shopping Cent, *JUST PICK UP YOUR ORDER AND GO, Palo Alto,CA94, STARTED, MOBILEDEVICE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[550, 474], [1072, 474], [1072, 1079], [550, 1079]] supposedly contains '*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, AVAILABLE, MOBILE, McDonald's, *NO WAITING IN LINE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, *JUST PICK UP YOUR ORDER AND GO, MOBILEDEVICE, 208 Stanford Shopping Cent, STARTED' — is that accurate?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) visible in the region [[550, 133], [1081, 133], [1081, 1079], [550, 1079]]: ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!",
+                "*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+                "MOBILEDEVICE",
+                "*NO WAITING IN LINE",
+                "*JUST PICK UP YOUR ORDER AND GO",
+                "TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+                "SIMPLY DOWNLOAD THE MCDONALDS APP AND GET",
+                "STARTED",
+                "McDonald's",
+                "208 Stanford Shopping Cente",
+                "Palo Alto,CA9"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Reading the message at [[657,745], [1001,833], [994,861], [650,773]], what word belongs in the blank: \"JUST PICK ____ YOUR ORDER AND GO\"?",
+              "answer": "UP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices given, which correctly lists the text(s) inside [[550, 133], [1081, 133], [1081, 1079], [550, 1079]]? Options:\nA. MOBILEDEVICE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, MOBILE, 208 Stanford Shopping Cente, M, NOW!!, *NO WAITING IN LINE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, McOonald's\nB. MOBILE, MOBILFDEVICE, AVAILABLE, *NO WAITING IN LINE, 208 Stanford Shopping Cente, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, NOW!!, M, McDonald's\nC. McDonald's, AVAILABLE, MOBILEDEVICE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, NOW!!, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, ORDERING, *JUST PICK UP YOUR ORDER AND GO, Palo Alto,CA9, STARTED\nD. NOW!!, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, MoDonald's, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, *NO WAITING IN LINE, MOBILEDEVICE, 208 Stanford Shopping Cente, M, MOBILE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'M, 208 Stanford Shopping Cente, ORDERING, *NO WAITING IN LINE, McDonald's, *JUST PICK UP YOUR ORDER AND GO, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, STARTED, MOBILE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET' are all present within [[550.0, 133.2820512820513], [1081.0, 133.2820512820513], [1081.0, 1079.0], [550.0, 1079.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Across the area marked [[603, 133], [1087, 133], [1087, 362], [603, 362]], what word(s) can you make out? ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[623,991], [855,1063], [850,1079], [615,1015]], a shopping center name begins with a missing word — what is it: \"____ Stanford Shopping Center\"?",
+              "answer": "208"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text visible at [[560, 642], [1077, 642], [1077, 1079], [560, 1079]], which answer choice matches it exactly? Options:\nA. Palo Alto,CA9, *FNJOY THE CONVENIENCE OF ORDERING FROM YOUR, *NO WAITING IN LINE, *JUST PICK UP YOUR ORDER AND GO, STARTED, MOBILEDEVICE, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, McDonald's, 208 Stanford Shopping Center\nB. STARTED, McDonald's, MOBILEDEVICE, Palo Alto,CA9, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, *NO WAITING IN LINE, 208 Stanford Shopping Center, *JUST PICK UP YOUR ORDER AND GO, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET\nC. STARTED, 208 Stanford Shopping Center, MOBILEDEVICE, *NO WAITING IN LINE, *JUST PICK UP YOUR ORDER AND GO, MOBILE, Palo Alto,CA9, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR\nD. McDonald's, *JUST PICK UP YOUR ORDER AND GO, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, M, Palo Alto,CA9, STARTED, MOBILEDEVICE, 208 Stanford Shopping Center, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the bounding box [[560.3896103896104, 133.2820512820513], [1087.493506493507, 133.2820512820513], [1087.493506493507, 1079.0], [560.3896103896104, 1079.0]], would you expect to find '*NO WAITING IN LINE, *JUST PICK UP YOUR ORDER AND GO, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, NOW!!, 208 Stanford Shopping Center, McDonald's, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, M, Palo Alto,CA9, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) visible inside [[605, 131], [1087, 131], [1087, 577], [605, 577]]. ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Thinking about everyday tech gadgets, what word(s) at [[679,674], [842,716], [834,744], [672,702]] fills in the phrase: \"M____DEVICE\"?",
+              "answer": "OBILE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text(s) found inside [[563, 637], [1079, 637], [1079, 1079], [563, 1079]]? Options:\nA. MOBILEDEVICE, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, *NO WAITING IN LINE, McDonald's, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, STAPTED, 208 Stanford Shopping Center, *JUST PICK UP YOUR ORDER AND GO, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR\nB. TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, *JUST PICK UP YOUR ORDER AND GO, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, MOBILEDEVICE, STARTED, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, Palo Alto,CA9430, 208 Stanford Shopping Center, *NO WAITING IN LINE\nC. Palo Alto,CA9430, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, M, MOBILEDEVICE, STARTED, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, *JUST PICK UP YOUR ORDER AND GO, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, McDonald's\nD. 208 Stenford Shopping Center, MOBILEDEVICE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, McDonald's, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, *JUST PICK UP YOUR ORDER AND GO, Palo Alto,CA9430, STARTED",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'MOBILE, *NO WAITING IN LINE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, *JUST PICK UP YOUR ORDER AND GO, STARTED, NOW!!, M, Palo Alto,CA9430, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, MOBILEDEVICE' sit inside the bounding box [[563.2467532467533, 130.71794871794873], [1087.493506493507, 130.71794871794873], [1087.493506493507, 1079.0], [563.2467532467533, 1079.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at region [[565, 121], [1090, 121], [1090, 1079], [565, 1079]], what word(s) can you make out? ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!",
+                "*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+                "MOBILEDEVICE",
+                "*NO WAITING IN LINE",
+                "*JUST PICK UP YOUR ORDER AND GO",
+                "TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+                "SIMPLY DOWNLOAD THE MCDONALDS APP AND GET",
+                "STARTED",
+                "McDonald's",
+                "208 Stanford Shopping Center",
+                "Palo Alto,CA94304"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You'd recognize those golden arches anywhere — at [[842,1030], [939,1060], [936,1079], [839,1050]], what famous restaurant name completes: \"____Donald's\"?",
+              "answer": "Mc"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately lists the text(s) shown inside [[565, 461], [1082, 461], [1082, 1079], [565, 1079]]. Options:\nA. McDonald's, MOBILEDEVICE, *JUST PICK UP YOUR ORDER AND GO, AVAILABLE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, NOW!!, Palo Alto,CA94304, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, STARTED, *NO WAITING IN LINE\nB. *NO WAITING IN LINE, AVAILABLE, STARTED, Palo Alto,CA94304, NOW!!, 208 Stenford Shopping Center, MOBILEDEVICE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, McDonald's\nC. STARTED, *JUST PICK UP YOUR ORDER AND GO, MOBILEDEVICE, AVAILABLE, Palo Alto,CA94304, NOW!!, *FNJOY THE CONVENIENCE OF ORDERING FROM YOUR, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, McDonald's, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET\nD. M, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, NOW!!, *JUST PICK UP YOUR ORDER AND GO, 208 Stanford Shopping Center, *NO WAITING IN LINE, McDonald's, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, Palo Alto,CA94304, AVAILABLE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Yes or no: do the label(s) 'Palo Alto,CA94304, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, NOW!!, *JUST PICK UP YOUR ORDER AND GO, AVAILABLE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, MOBILEDEVICE, STARTED, *NO WAITING IN LINE, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,' appear within the bounding box [[565, 461], [1082, 461], [1082, 1079], [565, 1079]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) you see inside [[568, 110], [1093, 110], [1093, 1076], [568, 1076]]. ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!",
+                "*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+                "MOBILEDEVICE",
+                "*NO WAITING IN LINE",
+                "*JUST PICK UP YOUR ORDER AND GO",
+                "TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+                "SIMPLY DOWNLOAD THE MCDONALDS APP AND GET",
+                "STARTED",
+                "McDonald's",
+                "208 Stanford Shopping Center",
+                "Palo Alto,CA94304"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[744,153], [954,194], [941,258], [731,217]], reconstruct the communication technology term by supplying the missing part: \"MO____LE\".",
+              "answer": "BI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that captures the text(s) found at [[568, 454], [1083, 454], [1083, 1076], [568, 1076]]. Options:\nA. TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, Palo Alto,CA94304, McDonald's, AVAILABLE, MOBILEDEVICE, NOW!!, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, *JUST PICK UP YOUR ORDER AND GO, *NO WAITING IN LINE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR\nB. *NO WAITING IN LINE, STARTED, M, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, *JUST PICK UP YOUR ORDER AND GO, AVAILABLE, NOW!!, MOBILEDEVICE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, 208 Stanford Shopping Center\nC. AVAILABLE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, *NO WAITING IN LINE, NOW!!, 208 Stanford Shopping Center, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, STARTED, MoDonald's, *JUST PICK UP YOUR ORDER AND GO, Palo Alto,CA94304\nD. AVAILABLE, *NO WAITING IN LINE, MOBILEDEVICE, *FNJOY THE CONVENIENCE OF ORDERING FROM YOUR, STARTED, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, Palo Alto,CA94304, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, NOW!!, 208 Stanford Shopping Center",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '*NO WAITING IN LINE, AVAILABLE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, STARTED, McDonald's, MOBILEDEVICE, *JUST PICK UP YOUR ORDER AND GO, 208 Stanford Shopping Center, Palo Alto,CA94304, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET' all fall inside the bounding box [[568, 454], [1083, 454], [1083, 1076], [568, 1076]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear in [[572, 101], [1093, 101], [1093, 1070], [572, 1070]]. ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!",
+                "*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+                "MOBILEDEVICE",
+                "*NO WAITING IN LINE",
+                "*JUST PICK UP YOUR ORDER AND GO",
+                "TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+                "SIMPLY DOWNLOAD THE MCDONALDS APP AND GET",
+                "STARTED",
+                "McDonald's",
+                "208 Stanford Shopping Center",
+                "Palo Alto,CA94304"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How does this popular digital instruction begin? At [[695,814], [1219,1049], [1203,1079], [679,847]], complete: \"SIM____ DOWNLOAD THEMCDONALDSAPP AND GET\".",
+              "answer": "PLY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the correct option listing the text(s) at [[572, 101], [1093, 101], [1093, 1070], [572, 1070]]. Options:\nA. M, STARTED, Palo Alto,CA94304, NOW!!, MOBILE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, McDonald's, 208 Stenford Shopping Center\nB. *NO WAITING IN LINE, MOBILEDEVICE, 208 Stanford Shopping Center, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, STARTED, M, *JUST PICK UP YOUR ORDER AND GO, NOW!!, ORDERING, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR\nC. STARTED, MOBILFDEVICE, NOW!!, MOBILE, M, Palo Alto,CA94304, 208 Stanford Shopping Center, McDonald's, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET\nD. STARTED, McDonald's, 208 Stanford Shopping Center, N, NOW!!, MOBILEDEVICE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, MOBILE, Palo Alto,CA94304",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it accurate that label(s) 'Palo Alto,CA94304, NOW!!, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, STARTED, MOBILEDEVICE, 208 Stanford Shopping Center, AVAILABLE, *JUST PICK UP YOUR ORDER AND GO, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, McDonald's' lie within [[572, 445], [1086, 445], [1086, 1070], [572, 1070]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) visible in [[572, 99], [1096, 99], [1096, 1065], [572, 1065]]. ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!",
+                "*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+                "MOBILEDEVICE",
+                "*NO WAITING IN LINE",
+                "*JUST PICK UP YOUR ORDER AND GO",
+                "TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+                "SIMPLY DOWNLOAD THE MCDONALDS APP AND GET",
+                "STARTED",
+                "McDonald's",
+                "208 Stanford Shopping Center",
+                "Palo Alto,CA94304"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The instruction at [[716,711], [1090,870], [1076,903], [702,744]] tells you what to do with your order — supply the missing word: \"JUST PICK ____ YOUR ORDER ANDGO\".",
+              "answer": "UP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one includes the text(s) at [[572, 99], [1096, 99], [1096, 1065], [572, 1065]]? Options:\nA. TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, NDW!!, MOBILEDEVICE, MOBILE, McDonald's, *JUST PICK UP YOUR ORDER AND GO, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, 208 Stanford Shopping Center, M\nB. MOBILEDEVICE, M, AVAILABLE, MOBILE, Palo Alto,CA94304, STARTED, *JUST PICK UP YOUR ORDER AND GO, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, ORDERING, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET\nC. MCBILE, *NO WAITING IN LINE, MOBILEDEVICE, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, NOW!!, McDonald's, *JUST PICK UP YOUR ORDER AND GO, M\nD. NOW!!, MOBILE, 208 Stanford Shopping Center, *NO WAITING IN LINE, *JUST PICK UP YOUR ORDER AND GO, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, McDonald's, M, *FNJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) '*JUST PICK UP YOUR ORDER AND GO, 208 Stanford Shopping Center, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, NOW!!, Palo Alto,CA94304, STARTED, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, MOBILEDEVICE, McDonald's' fall inside [[572, 440], [1087, 440], [1087, 1065], [572, 1065]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you spot in [[572, 96], [1097, 96], [1097, 1061], [572, 1061]]. ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!",
+                "*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+                "MOBILEDEVICE",
+                "*NO WAITING IN LINE",
+                "*JUST PICK UP YOUR ORDER AND GO",
+                "TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+                "SIMPLY DOWNLOAD THE MCDONALDS APP AND GET",
+                "STARTED",
+                "McDonald's",
+                "208 Stanford Shopping Center",
+                "Palo Alto,CA94304"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What device-related term do you get when you fill in the missing characters shown at [[811,709], [974,774], [961,807], [798,743]]: \"M____DEVICE\"?",
+              "answer": "OBILE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the options and tell me which one matches the text(s) in [[572, 440], [1089, 440], [1089, 1061], [572, 1061]]. Options:\nA. SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, AVAILABLE, *NO WAITING IN LINE, STARTED, MOBILEDEVICE, NOW!!, M, 208 Stanford Shopping Center, *JUST PICK UP YOUR ORDER AND GO, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR\nB. *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, Palo Alto,CA94304, 208 Stanford Shopping Center, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, STARTED, *JUST PICK UP YOUR ORDER AND GO, McDonald's, *NO WAITING IN LINE, MOBILEDEVICE, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,\nC. SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, Palo Alto,CA94304, AVAILABLE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, McDonald's, NOW!!, TQ BEGIN PLACING YOUR ONLINE ORDER TODAY,, STARTED, 208 Stanford Shopping Center, *JUST PICK UP YOUR ORDER AND GO\nD. NOW!!, 208 Stanford Shopping Center, *NO WAITING IN LINE, McDonald's, AVAILABLE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, MOBILE, STARTED, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, *JUST PICK UP YOUR ORDER AND GO, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, MOBILE, *NO WAITING IN LINE, NOW!!, McDonald's, STARTED, M, Palo Alto,CA94304' are all enclosed within [[571.5748031496064, 96.35962987144083], [1097.4281387903452, 96.35962987144083], [1097.4281387903452, 1061.3513513513515], [571.5748031496064, 1061.3513513513515]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) that appear inside [[572, 85], [1102, 85], [1102, 1061], [572, 1061]]. ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!",
+                "*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+                "MOBILEDEVICE",
+                "*NO WAITING IN LINE",
+                "*JUST PICK UP YOUR ORDER AND GO",
+                "TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+                "SIMPLY DOWNLOAD THE MCDONALDS APP AND GET",
+                "STARTED",
+                "McDonald's",
+                "208 Stanford Shopping Center",
+                "Palo Alto,CA94304"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[625,798], [1123,1023], [1107,1058], [609,833]], what word(s) complete the phrase \"TO ____ PLACING YOUR ONLINE ORDER TODAY,\"?",
+              "answer": "BEGIN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the following choices, which one correctly identifies the text found at [[572, 85], [1102, 85], [1102, 1061], [572, 1061]]? Options:\nA. 208 Stanford Shopping Center, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, N, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, MOBILEDEVICE, ORDERING, Palo Alto,CA94304, STARTED, *NO WAITING IN LINE\nB. AVAILABLE, *NO WAITING IN LINE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, NOW!!, M, MOBILEDEVICE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, STARTED, Palo Alto,CA94304\nC. MOBILEDEVICE, 208 Stanford Shopping Center, STARTED, OROERING, M, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, Palo Alto,CA94304, *NO WAITING IN LINE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET\nD. 208 Stenford Shopping Center, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, MOBILEDEVICE, *NO WAITING IN LINE, McDonald's, M, Palo Alto,CA94304, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, STARTED",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the labels '*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, McDonald's, Palo Alto,CA94304, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, MOBILEDEVICE, *NO WAITING IN LINE, *JUST PICK UP YOUR ORDER AND GO, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, NOW!!, 208 Stanford Shopping Center' all appear inside the bounding box [[572, 435], [1092, 435], [1092, 1061], [572, 1061]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text visible at [[572, 86], [1102, 86], [1102, 1063], [572, 1063]]. ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING",
+                "AVAILABLE",
+                "NOW!!",
+                "*ENJOY THE CONVENIENCE OF ORDERING FROM YOUR",
+                "MOBILEDEVICE",
+                "*NO WAITING IN LINE",
+                "*JUST PICK UP YOUR ORDER AND GO",
+                "TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+                "SIMPLY DOWNLOAD THE MCDONALDS APP AND GET",
+                "STARTED",
+                "McDonald's",
+                "208 Stanford Shopping Center",
+                "Palo Alto,CA94304"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[724,427], [944,500], [927,550], [707,477]] has some characters obscured — what should replace them to restore \"AVA____BLE\"?",
+              "answer": "IL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "In region [[572, 435], [1092, 435], [1092, 1063], [572, 1063]], which answer choice matches what's written there? Options:\nA. SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, *JUST PICK UP YOUR ORDER AND GO, NOW!!, 208 Stanford Shopping Center, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, AVAILABLE, MoDonald's, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, STARTED, MOBILEDEVICE\nB. M, AVAILABLE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, McDonald's, NOW!!, *NO WAITING IN LINE, MOBILEDEVICE, 208 Stanford Shopping Center, Palo Alto,CA94304, *JUST PICK UP YOUR ORDER AND GO\nC. AVAILABLE, *JUST PICK UP YOUR ORDER AND GO, STARTED, *NO WAITING IN LINE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, Palo Alto,CA94304, MOBILEDEVICE, McDonald's, NOW!!, 208 Stanford Shopping Center\nD. AVAILABLE, NOW!!, MOBILEDEVICE, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, STAPTED, *JUST PICK UP YOUR ORDER AND GO, *NO WAITING IN LINE, McDonald's, 208 Stanford Shopping Center, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, Palo Alto,CA94304, 208 Stanford Shopping Center, STARTED, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, *NO WAITING IN LINE, MOBILEDEVICE, McDonald's' actually present inside [[572, 604], [1092, 604], [1092, 1063], [572, 1063]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0099/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0099/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[611.9828281954267, 86.10321961503058], [1102.3076923076924, 86.10321961503058], [1102.3076923076924, 320.7692307692308], [611.9828281954267, 320.7692307692308]], which words or phrases stand out there? ________",
+              "answer": [
+                "M",
+                "MOBILE",
+                "ORDERING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phrase about a convenient ordering system appears at [[520,631], [1068,846], [1054,880], [506,665]] — what word(s) fill the gap in \"EN____ THE CONVENIENCE OF ORDERING FROM YOUR\"?",
+              "answer": "JOY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area marked [[572, 86], [1102, 86], [1102, 1066], [572, 1066]] — which of these options captures the text shown there? Options:\nA. NDW!!, MOBILEDEVICE, *JUST PICK UP YOUR ORDER AND GO, ORDERING, Palo Alto,CA94304, *NO WAITING IN LINE, 208 Stanford Shopping Center, M, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR\nB. MOBILEDEVICE, STARTED, *JUST PICK UP YOUR ORDER AND GO, NOW!!, ORDERING, 208 Stenford Shopping Center, Palo Alto,CA94304, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, *NO WAITING IN LINE\nC. *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, Palo Alto,CA94304, MOBILEDEVICE, M, *JUSI PICK UP YOUR ORDER AND GO, STARTED, 208 Stanford Shopping Center, *NO WAITING IN LINE, NOW!!\nD. *NO WAITING IN LINE, NOW!!, AVAILABLE, McDonald's, MOBILE, MOBILEDEVICE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET, STARTED, 208 Stanford Shopping Center",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '208 Stanford Shopping Center, TO BEGIN PLACING YOUR ONLINE ORDER TODAY,, *NO WAITING IN LINE, Palo Alto,CA94304, McDonald's, NOW!!, STARTED, AVAILABLE, *ENJOY THE CONVENIENCE OF ORDERING FROM YOUR, SIMPLY DOWNLOAD THE MCDONALDS APP AND GET' are all contained within [[572, 435], [1092, 435], [1092, 1066], [572, 1066]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0099"
+  }
+]

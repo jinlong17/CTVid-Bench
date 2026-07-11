@@ -1,0 +1,769 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify the word(s) shown in [[161.89999999999998, 876.0], [1726.7711444149154, 876.0], [1726.7711444149154, 1055.8000000000002], [161.89999999999998, 1055.8000000000002]]? ________",
+              "answer": [
+                "204",
+                "return initurl",
+                "205",
+                "那就是在中间件重定向之前，给新请求加上一个特殊的header",
+                "20",
+                "20",
+                "20",
+                "209"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The number(s) at [[91,7], [123,7], [123,33], [91,33]] have a gap — what character(s) complete 6____?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at [[84, 117], [1920, 117], [1920, 1056], [84, 1056]] and pick the option that matches the text there. Options:\nA. 188, 201, 181, 186, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 185, 194, 204, comst prevsub =headers.get(x-middleware-subrequest'), 169\nB. X-middl, headers.set(user-agent`，Next.js Middleware`), 201, 191, return${localhost？‘http’:‘https'}://${host}${initurl}, 193, const headers= new Headers(init.headers ?? {), bost?.startswith('localhost:'), 205, 196\nC. const prevsub =headers.get(x-middleware-subrequest'), 特, 20, File,, 168, 183, const initurl=isRequestLike(input)？input.url:input, 188, X-middl, 182\nD. 那就是在中间件重定向之前，给新请求加上一个特殊的header, 205, 168, const prevsub =headers.get(x-middleware-subrequest'), 198, 182, 181, 204, 183, 199",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[84.0, 7.409470752089131], [1920.0, 7.409470752089131], [1920.0, 1055.8000000000002], [84.0, 1055.8000000000002]] contain the label(s) 'const initurl=isRequestLike(input)？input.url:input, 202, const headers= new Headers(init.headers ?? {), return initurl, 201, 198, 183, 62, 20, 194'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the region [[161.89999999999998, 536.0], [1726.7711444149154, 536.0], [1726.7711444149154, 1055.8000000000002], [161.89999999999998, 1055.8000000000002]], what word(s) do you see? ________",
+              "answer": [
+                "193",
+                "194",
+                "function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{",
+                "195",
+                "const initurl=isRequestLike(input)？input.url:input",
+                "196",
+                "if(initurl.startswith(/')){",
+                "197",
+                "const host = headers.host?.tostring()",
+                "198",
+                "const localhost=",
+                "199",
+                "host===‘127.0.0.1′",
+                "200",
+                "host ===‘localhost′",
+                "201",
+                "host?.startswith('localhost:')",
+                "202",
+                "return${localhost？‘http’:‘https'}://${host}${initurl}",
+                "203",
+                "204",
+                "return initurl",
+                "205",
+                "那就是在中间件重定向之前，给新请求加上一个特殊的header",
+                "20",
+                "20",
+                "20",
+                "209"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[260,441], [748,441], [748,469], [260,469]], what goes in the blank to complete: headers.set(user-____，Next.js Middleware`)?",
+              "answer": "agent"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which option best captures the text inside [[158, 7], [1906, 7], [1906, 1056], [158, 1056]]? Options:\nA. 195, module.loaded=true, return module.exports, const value=prevsub.split(':').concat(middleware).join(':'), X-middle, 182, 202, 204, 194, 19l\nB. File,, return module.exports, FormData,, return headers, const value=prevsub.split(':').concat(middleware).join(':'), 186, process:{env:{...process.env}},, const prevsub =headers.get(x-middleware-subrequest'), 特, @@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){\nC. return module.exports, 181, 特, if(initurl.startswith(/')){, X-middle, 184, 62, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 189, 183\nD. function getFetchHeaders（middleware:string,init:RequestInit){, File,, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 199, if(initurl.startswith(/')){, 75, @@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){, 74, 192, 20",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'headers.set(x-middleware-subrequest,value), 191, const prevsub =headers.get(x-middleware-subrequest'), 200, headers.set(user-agent`，Next.js Middleware`), 181, 195, 188, 198, 187' all fall inside the bounding box [[162, 318], [1906, 318], [1906, 1056], [162, 1056]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[84, 7], [124, 7], [124, 250], [84, 250]], what word(s) can you make out? ________",
+              "answer": [
+                "62",
+                "63",
+                "168",
+                "169",
+                "170",
+                "61"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The code at [[260,195], [484,195], [484,220], [260,220]] has a gap — what text completes \"____ module.exports\"?",
+              "answer": "return"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly represents the text visible at [[158, 7], [1914, 7], [1914, 1056], [158, 1056]]. Options:\nA. 193, return initurl, process:{env:{...process.env}},, @@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){, 186, const localhost=, FormData,, 181, 62, host===‘127.0.0.1′\nB. 198, 203, 186, 20, 183, const host = headers.host?.tostring(), 189, host ===‘localhost′, 200, 75\nC. 189, return initurl, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, const value=prevsub.split(':').concat(middleware).join(':'), 197, 184, 195, headers.set(user-agent`，Next.js Middleware`), FormData,, return headers\nD. 75, 192, 191, 特殊, 204, 198, 186, 63, FormData,, 194",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'const headers= new Headers(init.headers ?? {), const localhost=, 63, 193, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 76, 198, function getFetchHeaders（middleware:string,init:RequestInit){, return${localhost？‘http’:‘https'}://${host}${initurl}, File,' can be found inside [[84.0, 7.409470752089131], [1913.9303482587063, 7.409470752089131], [1913.9303482587063, 1055.8000000000002], [84.0, 1055.8000000000002]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Pinpoint the word(s) inside [[84, 7], [1918, 7], [1918, 1056], [84, 1056]]. The answer is ________.",
+              "answer": [
+                "File,",
+                "62",
+                "75",
+                "FormData,",
+                "63",
+                "76",
+                "process:{env:{...process.env}},",
+                "@@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){",
+                "168",
+                "181",
+                "module.loaded=true",
+                "169",
+                "182",
+                "return module.exports",
+                "170",
+                "183",
+                "184",
+                "185",
+                "function getFetchHeaders（middleware:string,init:RequestInit){",
+                "186",
+                "const headers= new Headers(init.headers ?? {)",
+                "187",
+                "const prevsub =headers.get(x-middleware-subrequest')",
+                "188",
+                "const value=prevsub.split(':').concat(middleware).join(':')",
+                "189",
+                "headers.set(x-middleware-subrequest,value)",
+                "190",
+                "headers.set(user-agent`，Next.js Middleware`)",
+                "x-middlewar",
+                "191",
+                "return headers",
+                "192",
+                "193",
+                "194",
+                "function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{",
+                "195",
+                "const initurl=isRequestLike(input)？input.url:input",
+                "196",
+                "if(initurl.startswith(/')){",
+                "197",
+                "const host = headers.host?.tostring()",
+                "198",
+                "const localhost=",
+                "199",
+                "host===‘127.0.0.1′",
+                "200",
+                "host ===‘localhost′",
+                "201",
+                "host?.startswith('localhost:')",
+                "202",
+                "return${localhost？‘http’:‘https'}://${host}${initurl}",
+                "203",
+                "204",
+                "return initurl",
+                "205",
+                "那就是在中间件重定向之前，给新请求加上一个特殊的header",
+                "61",
+                "74",
+                "20",
+                "20",
+                "20",
+                "209",
+                "特殊h"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What completes the sequence shown in [[162,349], [196,349], [196,373], [162,373]]? 18____",
+              "answer": "7"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches what's written inside [[84, 161], [1918, 161], [1918, 1056], [84, 1056]]. Options:\nA. 185, 199, module.loaded=true, 107, 184, 209, 197, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 201, 168\nB. return headers, 20, 196, function getFetchHeaders（middleware:string,init:RequestInit){, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 20, 204, host ===‘localhost′, 特殊h, 186\nC. 187, 20, 196, 特殊h, 201, File,, host===‘127.0.0.1′, return headers, module.loaded=true, headers.set(user-agent`，Next.js Middleware`)\nD. return module.exports, return initurl, 203, 185, const prevsub =headers.get(x-middleware-subrequest'), const host = headers.host?.tostring(), 194, 170, 198, function getFetchHeaders（middleware:string,init:RequestInit){",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "标签'192, return${localhost？‘http’:‘https'}://${host}${initurl}, 那就是在中间件重定向之前，给新请求加上一个特殊的header, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, host?.startswith('localhost:'), 194, function getFetchHeaders（middleware:string,init:RequestInit){, 183, if(initurl.startswith(/')){, 205'是否都出现在边界框[[84, 117], [1918, 117], [1918, 1056], [84, 1056]]内？",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can spot in the region [[91, 7], [362, 7], [362, 36], [91, 36]]: ________.",
+              "answer": [
+                "File,",
+                "61",
+                "74"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What's missing from the sequence at [[170,69], [200,69], [200,95], [170,95]]? 7____",
+              "answer": "6"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly lists the text(s) found at [[84, 7], [1914, 7], [1914, 496], [84, 496]]? Options:\nA. 169, const value=prevsub.split(':').concat(middleware).join(':'), 182, 184, headers.set(user-agent`，Next.js Middleware`), 181, FormData,, File,, function getFetchHeaders（middleware:string,init:RequestInit){, 190\nB. 168, headers.set(x-middleware-subrequest,value), process:{env:{...process.env}},, 192, 188, 特殊he, 183, 76, 191, const prevsub =headers.get(x-middleware-subrequest')\nC. 168, 187, headers.set(user-agent`，Next.js Middleware`), x-middleware, 182, 61, 63, module.loaded=true, 183, 193\nD. module.loaded=true, 76, 186, 185, 189, 75, 107, 63, 190, x-middleware",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can the label(s) '63, module.loaded=true, return module.exports, 185, 196, 192, File,, 190, if(initurl.startswith(/')){, 182' be found within [[84, 7], [1914, 7], [1914, 840], [84, 840]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible in the area [[84, 7], [1914, 7], [1914, 1056], [84, 1056]]: ________.",
+              "answer": [
+                "File,",
+                "62",
+                "75",
+                "FormData,",
+                "63",
+                "76",
+                "process:{env:{...process.env}},",
+                "@@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){",
+                "168",
+                "181",
+                "module.loaded=true",
+                "169",
+                "182",
+                "return module.exports",
+                "170",
+                "183",
+                "184",
+                "185",
+                "function getFetchHeaders（middleware:string,init:RequestInit){",
+                "186",
+                "const headers= new Headers(init.headers ?? {)",
+                "187",
+                "const prevsub =headers.get(x-middleware-subrequest')",
+                "188",
+                "const value=prevsub.split(':').concat(middleware).join(':')",
+                "189",
+                "headers.set(x-middleware-subrequest,value)",
+                "190",
+                "headers.set(user-agent`，Next.js Middleware`)",
+                "x-middleware-s",
+                "191",
+                "return headers",
+                "192",
+                "193",
+                "194",
+                "function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{",
+                "195",
+                "const initurl=isRequestLike(input)？input.url:input",
+                "196",
+                "if(initurl.startswith(/')){",
+                "197",
+                "const host = headers.host?.tostring()",
+                "198",
+                "const localhost=",
+                "199",
+                "host===‘127.0.0.1′",
+                "200",
+                "host ===‘localhost′",
+                "201",
+                "host?.startswith('localhost:')",
+                "202",
+                "return${localhost？‘http’:‘https'}://${host}${initurl}",
+                "203",
+                "204",
+                "return initurl",
+                "205",
+                "那就是在中间件重定向之前，给新请求加上一个特殊的header",
+                "61",
+                "74",
+                "20",
+                "20",
+                "20",
+                "209",
+                "特殊hea"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the code expression at [[276,812], [890,812], [890,840], [276,840]], what goes in place of the blank? return${localhost？'http':'https'}://____}${initurl}",
+              "answer": "${host}"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text found at [[84, 195], [1914, 195], [1914, 1056], [84, 1056]]? Options:\nA. 199, if(initurl.startswith(/')){, 195, 209, x-middleware-s, 那就是在中间件重定向之前，给新请求加上一个特殊的header, 192, 196, headers.set(user-agent`，Next.js Middleware`), function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{\nB. 203, 182, 201, return${localhost？‘http’:‘https'}://${host}${initurl}, 209, 170, 169, 199, host?.startswith('localhost:'), 194\nC. 187, 184, function getFetchHeaders（middleware:string,init:RequestInit){, 62, if(initurl.startswith(/')){, 188, return headers, 189, headers.set(user-agent`，Next.js Middleware`), const prevsub =headers.get(x-middleware-subrequest')\nD. const host = headers.host?.tostring(), 那就是在中间件重定向之前，给新请求加上一个特殊的header, const prevsub =headers.get(x-middleware-subrequest'), File,, 195, 20, host?.startswith('localhost:'), return module.exports, 186, if(initurl.startswith(/')){",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '183, 20, 191, host===‘127.0.0.1′, 193, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 61, 75, const headers= new Headers(init.headers ?? {), 190' appearing inside the bounding box [[84.0, 7.409470752089131], [1913.9303482587065, 7.409470752089131], [1913.9303482587065, 1055.8000000000002], [84.0, 1055.8000000000002]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) visible inside [[84, 7], [1920, 7], [1920, 1056], [84, 1056]]: ________.",
+              "answer": [
+                "File,",
+                "62",
+                "75",
+                "FormData,",
+                "63",
+                "76",
+                "process:{env:{...process.env}},",
+                "@@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){",
+                "168",
+                "181",
+                "module.loaded=true",
+                "169",
+                "182",
+                "return module.exports",
+                "170",
+                "183",
+                "184",
+                "185",
+                "function getFetchHeaders（middleware:string,init:RequestInit){",
+                "186",
+                "const headers= new Headers(init.headers ?? {)",
+                "187",
+                "const prevsub =headers.get(x-middleware-subrequest')",
+                "188",
+                "const value=prevsub.split(':').concat(middleware).join(':')",
+                "189",
+                "headers.set(x-middleware-subrequest,value)",
+                "190",
+                "headers.set(user-agent`，Next.js Middleware`)",
+                "x-middleware-sub",
+                "191",
+                "return headers",
+                "192",
+                "193",
+                "194",
+                "function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{",
+                "195",
+                "const initurl=isRequestLike(input)？input.url:input",
+                "196",
+                "if(initurl.startswith(/')){",
+                "197",
+                "const host = headers.host?.tostring()",
+                "198",
+                "const localhost=",
+                "199",
+                "host===‘127.0.0.1′",
+                "200",
+                "host ===‘localhost′",
+                "201",
+                "host?.startswith('localhost:')",
+                "202",
+                "return${localhost？‘http’:‘https'}://${host}${initurl}",
+                "203",
+                "204",
+                "return initurl",
+                "205",
+                "那就是在中间件重定向之前，给新请求加上一个特殊的header",
+                "61",
+                "74",
+                "20",
+                "20",
+                "20",
+                "209",
+                "特殊head"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The condition shown at [[298,748], [514,751], [514,778], [298,776]] tests whether ____ === 'localhost' — what goes in the blank?",
+              "answer": "host"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best matches what's written at [[84, 7], [1920, 7], [1920, 931], [84, 931]]. Options:\nA. 185, headers.set(user-agent`，Next.js Middleware`), 198, 199, 76, return initurl, 190, 194, const value=prevsub.split(':').concat(middleware).join(':'), FormData,\nB. function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 190, x-middleware-sub, host===‘127.0.0.1′, module.loaded=true, 170, 186, 那就是在中间件重定向之前，给新请求加上一个特殊的header, host?.startswith('localhost:'), 168\nC. 特殊head, const value=prevsub.split(':').concat(middleware).join(':'), 169, headers.set(x-middleware-subrequest,value), return module.exports, function getFetchHeaders（middleware:string,init:RequestInit){, FormData,, 198, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, const localhost=\nD. 169, 61, 63, 168, headers.set(x-middleware-subrequest,value), 182, 82, 200, @@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){, 198",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '195, File,, const headers= new Headers(init.headers ?? {), function getFetchHeaders（middleware:string,init:RequestInit){, 202, process:{env:{...process.env}},, 184, 197, 209, 183' falls within the region marked by [[84, 40], [1920, 40], [1920, 1056], [84, 1056]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text sitting inside the box at [[91, 7], [686, 7], [686, 97], [91, 97]]: ________.",
+              "answer": [
+                "File,",
+                "62",
+                "75",
+                "FormData,",
+                "63",
+                "76",
+                "process:{env:{...process.env}},",
+                "61",
+                "74"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[258,161], [472,161], [472,187], [258,187]], what word or value completes this setting: module.____=true",
+              "answer": "loaded"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given what's visible at [[158, 7], [1915, 7], [1915, 1056], [158, 1056]], pick the answer that matches. Options:\nA. host ===‘localhost′, 20, host===‘127.0.0.1′, headers.set(x-middleware-subrequest,value), File,, 202, 198, roturn headers, 184, 181\nB. 193, 194, const headers= new Headers(init.headers ?? {), 74, 那就是在中间件重定向之前，给新请求加上一个特殊的header, 192, 197, 76, 183, 200\nC. 209, 196, 191, 190, return headers, const headers= new Headers(init.headers ?? {), 186, 204, eonst host = headers.host?.tostring(), 203\nD. 184, x-middleware-subr, function getFetchHeaders（middleware:string,init:RequestInit){, const value=prevsub.split(':').concat(middleware).join(':'), 200, 209, module.loaded=true, 62, headers.set(x-middleware-subrequest,value), 204",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '20, const initurl=isRequestLike(input)？input.url:input, 199, 182, headers.set(x-middleware-subrequest,value), const prevsub =headers.get(x-middleware-subrequest'), 62, 75, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 195' all appear within the region defined by [[84, 7], [1915, 7], [1915, 931], [84, 931]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word visible within [[162, 846], [1727, 846], [1727, 1056], [162, 1056]]: ________.",
+              "answer": [
+                "203",
+                "204",
+                "return initurl",
+                "205",
+                "那就是在中间件重定向之前，给新请求加上一个特殊的header",
+                "20",
+                "20",
+                "20",
+                "209"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What number(s) complete the expression at [[162,752], [198,752], [198,776], [162,776]]? 2____",
+              "answer": "00"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately captures the content displayed at [[158, 7], [1920, 7], [1920, 1056], [158, 1056]]. Options:\nA. 187, 194, 204, 196, 62, function getFetchHeaders（middleware:string,init:RequestInit){, return${localhost？‘http’:‘https'}://${host}${initurl}, 195, 特殊header, 193\nB. headers.set(user-agent`，Next.js Middleware`), return module.exports, 195, return initurl, 200, if(initurl.startswith(/')){, 183, module.loaded=true, function getFetchHeaders（middleware:string,init:RequestInit){, 209\nC. host===‘127.0.0.1′, const localhost=, 76, return initurl, 187, 188, return${localhost？‘http’:‘https'}://${host}${initurl}, @@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){, File,, 209\nD. 202, const initurl=isRequestLike(input)？input.url:input, 188, 187, 特殊header, module.loaded=true, roturn headers, 186, 184, 182",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[84, 7], [1920, 7], [1920, 778], [84, 778]], are all of these items present: '185, const value=prevsub.split(':').concat(middleware).join(':'), return module.exports, FormData,, host ==='localhost′, 191, if(initurl.startswith(/')){, 62, 187, 181'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you can see at [[91, 7], [1094, 7], [1094, 143], [91, 143]]: ________.",
+              "answer": [
+                "File,",
+                "62",
+                "75",
+                "FormData,",
+                "63",
+                "76",
+                "process:{env:{...process.env}},",
+                "@@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){",
+                "61",
+                "74"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the sequence shown at [[162,752], [198,752], [198,776], [162,776]], which digit(s) have been substituted? 2____",
+              "answer": "00"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region at [[158, 7], [1920, 7], [1920, 1056], [158, 1056]] — which option lists exactly what's written there? Options:\nA. 187, const prevsub =headers.get(x-middleware-subrequest'), const localhost=, const host = headers.host?.tostring(), function getFetchHeaders（middleware:string,init:RequestInit){, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, 特殊header, 62, 184, process:{env:{...process.env}},\nB. host===‘127.0.0.1′, 182, process:{env:{...process.env}},, 197, const value=prevsub.split(':').concat(middleware).join(':'), host ===‘localhost′, 76, const host = headers.host?.tostring(), return module.exports, 183\nC. host===‘127.0.0.1′, 196, 76, 203, 20, 75, 192, @@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){, if(initurl.startswith(/')){, 194\nD. 63, const value=prevsub.split(':').concat(middleware).join(':'), headers.set(user-agent`，Next.js Middleware`), if(initurl.startswith(/')){, 199, function getFetchHeaders（middleware:string,init:RequestInit){, 190, x-middleware-subrequ, const initurl=isRequestLike(input)？input.url:input, return${localhost？‘http’:‘https'}://${host}${initurl}",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '20, if(initurl.startswith(/')){, host?.startswith('localhost:'), 204, 191, 183, 203, 188, return headers, const host = headers.host?.tostring()' all fall inside [[84, 226], [1920, 226], [1920, 1056], [84, 1056]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text is enclosed by the box at [[162, 1032], [196, 1032], [196, 1056], [162, 1056]]? ________.",
+              "answer": [
+                "209"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The function signature at [[234,564], [1036,566], [1036,594], [234,598]] has a gap — what fills the blank here: function getFetchuRL(input:____,headers:NodeHeaders = {):string{",
+              "answer": "RequestInfo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text at [[158, 7], [1902, 7], [1902, 1056], [158, 1056]]? Options:\nA. return${localhost？‘http’:‘https'}://${host}${initurl}, const initurl=isRequestLike(input)？input.url:input, 186, 205, 192, 74, function getFetchHeaders（middleware:string,init:RequestInit){, 200, 185, 特殊header\nB. 184, 200, 198, 201, 20, 76, const localhost=, 195, z-middleware-subreque, FormData,\nC. 187, function getFetchHeaders（middleware:string,init:RequestInit){, FormData,, 20, 198, 20, 62, 195, host ===‘localhost′, File,\nD. 193, return module.exports, 203, 188, const headers= new Headers(init.headers ?? {), 185, if(initurl.startswith(/')){, 20, 182, 特殊header",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'const initurl=isRequestLike(input)？input.url:input, 那就是在中间件重定向之前，给新请求加上一个特殊的header, 204, 169, if(initurl.startswith(/')){, 182, module.loaded=true, 195, const localhost=, 205' are all visible inside [[158, 7], [1902, 7], [1902, 1056], [158, 1056]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030_1/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word that appears inside [[84, 7], [1910, 7], [1910, 1056], [84, 1056]]: ________.",
+              "answer": [
+                "File,",
+                "62",
+                "75",
+                "FormData,",
+                "63",
+                "76",
+                "process:{env:{...process.env}},",
+                "@@-168,3 +181,29 @@ function sandboxRequire(referrer:string,specifier:string){",
+                "168",
+                "181",
+                "module.loaded=true",
+                "169",
+                "182",
+                "return module.exports",
+                "170",
+                "183",
+                "184",
+                "185",
+                "function getFetchHeaders（middleware:string,init:RequestInit){",
+                "186",
+                "const headers= new Headers(init.headers ?? {)",
+                "187",
+                "const prevsub =headers.get(x-middleware-subrequest')",
+                "188",
+                "const value=prevsub.split(':').concat(middleware).join(':')",
+                "189",
+                "headers.set(x-middleware-subrequest,value)",
+                "190",
+                "headers.set(user-agent`，Next.js Middleware`)",
+                "x-middleware-subrequet",
+                "191",
+                "return headers",
+                "192",
+                "193",
+                "194",
+                "function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{",
+                "195",
+                "const initurl=isRequestLike(input)？input.url:input",
+                "196",
+                "if(initurl.startswith(/')){",
+                "197",
+                "const host = headers.host?.tostring()",
+                "198",
+                "const localhost=",
+                "199",
+                "host===‘127.0.0.1′",
+                "200",
+                "host ===‘localhost′",
+                "201",
+                "host?.startswith('localhost:')",
+                "202",
+                "return${localhost？‘http’:‘https'}://${host}${initurl}",
+                "203",
+                "204",
+                "return initurl",
+                "205",
+                "那就是在中间件重定向之前，给新请求加上一个特殊的header",
+                "61",
+                "74",
+                "20",
+                "20",
+                "20",
+                "209",
+                "特殊header"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sequence at [[162,941], [184,941], [184,959], [163,959]] starts with \"2\" — what comes next to finish it? 2____?",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[84, 7], [1910, 7], [1910, 623], [84, 623]], which answer choice matches the text shown there? Options:\nA. 192, function getFetchHeaders（middleware:string,init:RequestInit){, process:{env:{...process.env}},, 189, function getFetchuRL(input:RequestInfo,headers:NodeHeaders = {):string{, const headers= new Headers(init.headers ?? {), FormData,, 194, 188, module.loaded=true\nB. 62, 192, 183, x-middleware-subrequet, 特殊header, 61, 182, 196, function getFetchHeaders（middleware:string,init:RequestInit){, const initurl=isRequestLike(input)？input.url:input\nC. 牿殊header, 184, 63, 190, 61, 75, 194, 181, 195, 191\nD. 186, 特殊header, 193, 189, 194, const initurl=isRequestLike(input)？input.url:input, 195, 70, x-middleware-subrequet, 170",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[160, 256], [1910, 256], [1910, 1056], [160, 1056]], can we find the label(s) '186, 193, 192, const initurl=isRequestLike(input)？input.url:input, return initurl, 187, 199, const host = headers.host?.tostring(), 205, function getFetchHeaders（middleware:string,init:RequestInit){'? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_030_1"
+  }
+]

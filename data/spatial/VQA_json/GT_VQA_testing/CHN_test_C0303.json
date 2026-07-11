@@ -1,0 +1,472 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the bounding box [[243, 186], [1344, 186], [1344, 660], [243, 660]] — what text do you see there? ________",
+              "answer": [
+                "岭南夏韵",
+                "温顺随和",
+                "和平团结",
+                "（手工彩绘）（双面雕刻）",
+                "ALEGANT UPS",
+                "GLASS ART"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word(s) at [[249,509], [483,498], [486,555], [253,564]] are partially obscured — fill in the missing characters: 和____团结,.",
+              "answer": "平"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly captures the text shown in [[243, 435], [761, 435], [761, 660], [243, 660]]? Options:\nA. 和平团结, GLASS ART, ALEOANT UPS, （手工彩绘）（双面雕刻）\nB. （手工彩绘）（双面雕刻）, GLASS ART, ALEGANT UPS, 岭南夏韵\nC. ALEGANT UPS, GLASS ART, 和平团结, （手工彩绘）（双面雕刻）\nD. 和平团结, 温顺随和, GLASS ART, ALEOANT UPS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '和平团结, GLASS ART, 温顺随和, ALEGANT UPS, （手工彩绘）（双面雕刻）' sit within the box defined by [[243, 435], [489, 435], [489, 660], [243, 660]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "There's text in the region [[238.83703844793345, 180.40559440559434], [1341.2027972027972, 180.40559440559434], [1341.2027972027972, 654.4055944055943], [238.83703844793345, 654.4055944055943]] — what does it say? The answer is ________.",
+              "answer": [
+                "岭南夏韵",
+                "温顺随和",
+                "和平团结",
+                "（手工彩绘）（双面雕刻）",
+                "ALEGANT UPS",
+                "GLASS ART"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word appears incomplete in the region [[591,614], [775,610], [776,642], [592,646]] — the phrase reads \"GLA____ ART\". What letters are missing?",
+              "answer": "SS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area marked by [[239, 430], [758, 430], [758, 654], [239, 654]], which of the following options matches the text(s) you see there? Options:\nA. GLASS ART, 和平团结, 温顺随和, ALEGANT UPS\nB. GLASS ART, （手工彩绘）（双面雕刻）, 湿顺随和, 和平团结\nC. （手工彩绘）（双面雕刻）, GLASS ART, 岭南夏韵, ALEGANT UPS\nD. ALEOANT UPS, GLASS ART, 温顺随和, （手工彩绘）（双面雕刻）",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "I want to check: are 'ALEGANT UPS, 和平团结, （手工彩绘）（双面雕刻）, GLASS ART, 温顺随和, 岭南夏韵' actually visible inside [[239, 430], [758, 430], [758, 654], [239, 654]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看图中 [[286,519], [520,510], [523,570], [290,576]] 区域，\"和平____\" 里空缺的字是什么？",
+              "answer": "团结"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[240, 431], [757, 431], [757, 655], [240, 655]], which answer choice correctly lists the text found there? Options:\nA. GLASS ART, ALEGANT UPS, 岭南夏韵, 和平团结\nB. GLASS ART, 和平团结, ALEGANT UPS, 温顺随和\nC. OLASS ART, （手工彩绘）（双面雕刻）, 温顺随和, 和平团结\nD. 和平团结, ALEOANT UPS, （手工彩绘）（双面雕刻）, GLASS ART",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — do the label(s) '和平团结, 温顺随和, GLASS ART, ALEGANT UPS, 岭南夏韵, （手工彩绘）（双面雕刻）' appear inside the box at [[240, 431], [757, 431], [757, 655], [240, 655]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text visible in [[239.82561278349866, 181.10489510489504], [1341.2027972027972, 181.10489510489504], [1341.2027972027972, 655.104895104895], [239.82561278349866, 655.104895104895]] and fill in the blank — The word(s) is/are ________.",
+              "answer": [
+                "岭南夏韵",
+                "温顺随和",
+                "和平团结",
+                "（手工彩绘）（双面雕刻）",
+                "ALEGANT UPS",
+                "GLASS ART"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[351,573], [585,565], [589,625], [355,630]] 框内的词语不完整，\"和平____\" 缺少的字是什么？",
+              "answer": "团结"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one lists the text(s) you can find in [[240, 431], [760, 431], [760, 655], [240, 655]]? Options:\nA. GLASS ART, （手工彩绘）（双面雕刻）, 和平团结, 温顺随和\nB. 和平団结, （手工彩绘）（双面雕刻）, GLASS ART, ALEGANT UPS\nC. 湿顺随和, ALEGANT UPS, （手工彩绘）（双面雕刻）, 和平团结\nD. （手工彩绘）（双面雕刻）, 温顺随和, 岭南夏韵, ALEGANT UPS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Honestly, do you see '和平团结, ALEGANT UPS, GLASS ART, （手工彩绘）（双面雕刻）' anywhere inside [[240, 431], [760, 431], [760, 655], [240, 655]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box at [[1257.0051442810063, 178.93063258580491], [1332.523961661342, 178.93063258580491], [1332.523961661342, 315.9744408945687], [1257.0051442810063, 315.9744408945687]] contains some text — what word(s) can you make out? The word(s) is/are ________.",
+              "answer": [
+                "岭南夏"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[754,734], [943,729], [945,761], [755,766]], a phrase appears as \"GLA____ ART\" — what word or letters should fill the blank?",
+              "answer": "SS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[239, 428], [762, 428], [762, 652], [239, 652]] and select the answer that accurately captures its text. Options:\nA. （手工彩绘）（双面雕刻）, 温顺随和, 岭南夏, GLASS ART\nB. ALEGANT UPS, 温顺随和, OLASS ART, （手工彩绘）（双面雕刻）\nC. GLASS ART, ALEGANT UPS, 湿顺随和, 和平团结\nD. 和平团结, ALEGANT UPS, （手工彩绘）（双面雕刻）, 温顺随和",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[239, 428], [762, 428], [762, 652], [239, 652]] — are the label(s) 'ALEGANT UPS, （手工彩绘）（双面雕刻）, GLASS ART, 和平团结' found inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up when you look at [[1257.0051442810063, 178.93063258580491], [1332.523961661342, 178.93063258580491], [1332.523961661342, 315.9744408945687], [1257.0051442810063, 315.9744408945687]]? The word(s) is/are ________.",
+              "answer": [
+                "岭南夏"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[518,819], [761,815], [762,849], [519,852]], a partially hidden phrase reads \"ALE____ANT UPS\". What word or letters belong in the blank?",
+              "answer": "G"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focus on [[242, 428], [761, 428], [761, 652], [242, 652]] — which of the options below correctly identifies the text(s) there? Options:\nA. ALEGANT UPS, （手工彩绘）（双面雕刻）, GLASS ART, 湿顺随和\nB. 岭南夏, GLASS ART, ALEGANT UPS, （手工彩绘）（双面雕刻）\nC. OLASS ART, （手工彩绘）（双面雕刻）, ALEGANT UPS, 和平团结\nD. 和平团结, （手工彩绘）（双面雕刻）, ALEGANT UPS, GLASS ART",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify for me — are '温顺随和, 岭南夏, ALEGANT UPS, 和平团结, GLASS ART, （手工彩绘）（双面雕刻）' present inside the box defined by [[242, 428], [761, 428], [761, 652], [242, 652]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you zoom in on [[241.1888856138983, 175.63392928910162], [1329.2272583646386, 175.63392928910162], [1329.2272583646386, 652.2313318865042], [241.1888856138983, 652.2313318865042]], what word(s) do you find? The word(s) is/are ________.",
+              "answer": [
+                "温顺随和",
+                "和平团结",
+                "（手工彩绘）（双面雕刻）",
+                "ALEGANT UPS",
+                "GLASS ART",
+                "岭南夏"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中 [[1482,388], [1534,384], [1540,470], [1489,474]] 坐标区域有个词语不完整，\"岭____\" 空白处应该填什么？",
+              "answer": "南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of all the answer choices, which one matches the text(s) visible in [[241, 428], [760, 428], [760, 652], [241, 652]]? Options:\nA. （手工彯绘）（双面雕刻）, GLASS ART, 温顺随和, ALEGANT UPS\nB. ALEGANT UPS, 岭南夏, 温顺随和, GLASS ART\nC. GLASS ART, 温顺随和, 和平团结, （手工彩绘）（双面雕刻）\nD. （手工彩绘）（双面雕刻）, ALEGANT UPS, 湿顺随和, GLASS ART",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is simple: do '湿顺随和, ALEGANT UPS, 和平团结, 岭南夏, （手工彩绘）（双面雕刻）, GLASS ART' appear anywhere inside the area [[241.1888856138983, 175.63392928910162], [1329.2272583646386, 175.63392928910162], [1329.2272583646386, 652.2313318865042], [241.1888856138983, 652.2313318865042]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Cast your eye over [[242.36694657724215, 175.11036907967753], [1331.3214992023345, 175.11036907967753], [1331.3214992023345, 651.7077716770801], [242.36694657724215, 651.7077716770801]] — which word(s) can be seen there? The word(s) is/are ________.",
+              "answer": [
+                "温顺随和",
+                "和平团结",
+                "（手工彩绘）（双面雕刻）",
+                "ALEGANT UPS",
+                "GLASS ART",
+                "岭南夏"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[570,682], [819,689], [818,749], [569,742]] 范围内的文字不完整，\"和平团____\" 中到底少了什么内容？",
+              "answer": "结"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[242, 428], [765, 428], [765, 652], [242, 652]] — pick the answer that correctly lists the text(s) found there. Options:\nA. ALEGANT UPS, OLASS ART, （手工彩绘）（双面雕刻）, 和平团结\nB. ALEGANT UPS, （手工彩绘）（双面雕刻）, GLASS ART, 和平团结\nC. （手工彩绘）（双面雕刻）, 岭南夏, 和平团结, 温顺随和\nD. ALEOANT UPS, GLASS ART, 温顺随和, （手工彩绘）（双面雕刻）",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'GLASS ART, （手工彩绘）（双面雕刻）, ALEGANT UPS, 和平团结' appear inside the bounding box [[242.36694657724215, 175.11036907967753], [1331.3214992023345, 175.11036907967753], [1331.3214992023345, 651.7077716770801], [242.36694657724215, 651.7077716770801]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you tell me what text appears inside [[1258.599884619202, 175.11036907967753], [1334.1187019995373, 175.11036907967753], [1334.1187019995373, 312.1541773884412], [1258.599884619202, 312.1541773884412]]? The word(s) is/are ________.",
+              "answer": [
+                "岭南夏"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The area at [[528,718], [774,724], [774,764], [528,759]] shows the phrase \"ALEG____ UPS\" — what letters go in the blank?",
+              "answer": "ANT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly lists the text visible inside [[245, 428], [768, 428], [768, 652], [245, 652]]? Options:\nA. 岭南夏, 和平团结, ALEGANT UPS, 温顺随和\nB. 和平团结, （手工彯绘）（双面雕刻）, ALEGANT UPS, GLASS ART\nC. 温顺随和, GLASS ART, 和平团结, （手工彩绘）（双面雕刻）\nD. 温顺随和, 和平団结, （手工彩绘）（双面雕刻）, GLASS ART",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'ALEGANT UPS, 和平团结, 温顺随和, GLASS ART' contained within the region marked by [[245, 428], [768, 428], [768, 652], [245, 652]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside the box at [[246.92612833072255, 177.2609067140861], [1335.7316052253436, 177.2609067140861], [1335.7316052253436, 653.8583093114887], [246.92612833072255, 653.8583093114887]] and fill in: ________.",
+              "answer": [
+                "温顺随和",
+                "和平团结",
+                "（手工彩绘）（双面雕刻）",
+                "ALEGANT UPS",
+                "GLASS ART",
+                "岭南夏"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在 [[1406,237], [1457,233], [1464,319], [1412,324]] 区域内，\"____南\" 里空白处应填入什么内容？",
+              "answer": "岭"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices provided, select the one that matches the text found at [[247, 430], [773, 430], [773, 654], [247, 654]]. Options:\nA. 岭南夏, ALEGANT UPS, （手工彩绘）（双面雕刻）, 温顺随和\nB. 温顺随和, ALEGANT UPS, （手工彯绘）（双面雕刻）, 和平团结\nC. 和平团结, ALEGANT UPS, 温顺随和, （手工彩绘）（双面雕刻）\nD. 温顺随和, （手工彯绘）（双面雕刻）, ALEGANT UPS, GLASS ART",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'ALEGANT UPS, 岭南夏, 温顺随和, GLASS ART, （手工彯绘）（双面雕刻）, 和平团结' sits inside the bounding box [[246.92612833072255, 177.2609067140861], [1335.7316052253436, 177.2609067140861], [1335.7316052253436, 653.8583093114887], [246.92612833072255, 653.8583093114887]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text visible within [[1259.691954511675, 173.6150733807528], [1335.2107718920104, 173.6150733807528], [1335.2107718920104, 310.6588816895165], [1259.691954511675, 310.6588816895165]] reads: ________.",
+              "answer": [
+                "岭南夏"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1378,205], [1429,202], [1432,248], [1381,251]] 处显示的词语是\"____\"，请补全其中的空缺部分。",
+              "answer": "岭"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the right answer — which option captures the text at [[251, 430], [776, 430], [776, 660], [251, 660]]? Options:\nA. ALEGANT UPS, GLASS ART, 和平团结, 温顺随和\nB. GLASS ART, 岭南夏, （手工彩绘）（双面雕刻）, 温顺随和\nC. 和平团结, GLASS ART, （手工彩绘）（双面雕刻）, ALEOANT UPS\nD. （手工彩绘）（双面雕刻）, 温顺随和, OLASS ART, 和平团结",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'GLASS ART, ALEOANT UPS, 岭南夏, 和平团结, 温顺随和, （手工彩绘）（双面雕刻）' appears within the region [[250.55030156620327, 173.6150733807528], [1335.2107718920104, 173.6150733807528], [1335.2107718920104, 659.8591549295775], [250.55030156620327, 659.8591549295775]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0303/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0303/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word or words show up inside the box [[1259.691954511675, 177.86035639962068], [1335.2107718920104, 177.86035639962068], [1335.2107718920104, 314.90416470838437], [1259.691954511675, 314.90416470838437]]? ________.",
+              "answer": [
+                "岭南夏"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[773,605], [978,608], [978,642], [773,641]], the phrase reads \"GLASS ____\" — what completes it?",
+              "answer": "ART"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option correctly represents the text shown at [[251, 435], [776, 435], [776, 664], [251, 664]]. Options:\nA. （手工彩绘）（双面雕刻）, ALEOANT UPS, GLASS ART, 温顺随和\nB. （手工彩绘）（双面雕刻）, 温顺随和, GLASS ART, ALEGANT UPS\nC. ALEGANT UPS, 岭南夏, 温顺随和, （手工彩绘）（双面雕刻）\nD. 温顺随和, ALEGANT UPS, （手工彯绘）（双面雕刻）, GLASS ART",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '温顺随和, ALEGANT UPS, （手工彩绘）（双面雕刻）, GLASS ART' falls inside the bounding box defined by [[251, 435], [776, 435], [776, 664], [251, 664]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0303"
+  }
+]

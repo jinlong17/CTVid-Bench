@@ -1,0 +1,451 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text within [[121, 56], [1531, 56], [1531, 507], [121, 507]]: what word(s) are there? The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet",
+                "\"0.1Million\""
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[836,136], [1156,137], [1156,194], [836,192]], what goes in the blank of the phrase \"on the int____et\"?",
+              "answer": "ern"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best captures the text(s) found in the area [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]. Options:\nA. en the internet, ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute\nB. simplilearn, ©Simplilearn.All rights reserved., \"0.1Million\"\nC. Let's have a look at the data generated per minute, ©Simplilearn.All rights reserved., \"0.1Million\"\nD. en the internet, ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '©Simplilearn.All rights reserved., Let's have a look at the data generated per minute, \"0.1Million\"' are located within the bounding box [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the word(s) inside [[441, 56], [1531, 56], [1531, 194], [441, 194]] — what are they? The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What characters are missing in \"s____lilearn\" within the text box at [[1774,1036], [1894,1036], [1894,1070], [1774,1070]]?",
+              "answer": "imp"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the whole image and pick the option that includes the text(s) at [[20, 443], [1894, 443], [1894, 1070], [20, 1070]]. Options:\nA. \"0.1Million\", ©Simplileern.All rights reserved.\nB. on the internet, simplilearn\nC. Let's have a look at the data generated per minute, ©Simplilearn.All rights reserved.\nD. simplilearn, ©Simplilearn.All rights reserved.",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'Let's have a look at the data generated per minute, on the internet, simplilearn, \"0.1Million\"' are inside the bounding box [[121, 56], [1531, 56], [1531, 507], [121, 507]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[20, 56], [1894, 56], [1894, 1070], [20, 1070]], what word(s) can be read? The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet",
+                "\"0.1Million\"",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"on the int____\" appears near [[836,136], [1156,137], [1156,194], [836,192]] — what fills the blank?",
+              "answer": "ernet"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text(s) found in region [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]. Options:\nA. Let's have a look at the data generated per minute, ©Simplileern.All rights reserved., on the internet\nB. \"0.1Million\", ©Simplilearn.All rights reserved., on the internet\nC. ©Simplilearn.All rights reserved., on the internet, simplilearn\nD. \"0.1Million\", Lct's have a look at the data generated per minute, ©Simplilearn.All rights reserved.",
+              "answer": "B"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the area [[441, 56], [1531, 56], [1531, 194], [441, 194]], what word(s) do you see? The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The term \"sim____learn\" has a missing section — which letter(s) fill it, based on the area [[1774,1036], [1894,1036], [1894,1070], [1774,1070]]?",
+              "answer": "pli"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the choices provided, which one contains the text(s) from area [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]? Options:\nA. on the internet, \"0.1Millien\", Let's have a look at the data generated per minute\nB. \"0.1Million\", simplilearn, Let's have a look at the data generated per minute\nC. on the internet, ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute\nD. \"0.1Million\", Lct's have a look at the data generated per minute, ©Simplilearn.All rights reserved.",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) '\"0.1Million\", ©Simplilearn.All rights reserved., on the internet, simplilearn' are found within the bounding box [[20, 443], [1894, 443], [1894, 1070], [20, 1070]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you read the word(s) in [[1774, 1036], [1894, 1036], [1894, 1070], [1774, 1070]]? The answer is ________.",
+              "answer": [
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[836,136], [1156,137], [1156,194], [836,192]] you'll find text completing \"on the ____net\" — what is it?",
+              "answer": "inter"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the area [[20, 56], [1531, 56], [1531, 1066], [20, 1066]], which option correctly captures the text(s) shown? Options:\nA. on the internet, ©Simplileern.All rights reserved., Let's have a look at the data generated per minute\nB. Let's have a look at the data generated per minute, ©Simplilearn.All rights reserved., simplilearn\nC. \"0.2Million\", ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute\nD. on the internet, Lct's have a look at the data generated per minute, ©Simplilearn.All rights reserved.",
+              "answer": "C"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "A quick look at [[20, 56], [1531, 56], [1531, 1066], [20, 1066]] — what word(s) are present there? The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet",
+                "\"0.2Million\"",
+                "©Simplilearn.All rights reserved."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "With reference to the text at bounding box [[121,443], [479,443], [478,507], [121,506]], which character(s) make \"2.1Mil____n\" complete?",
+              "answer": "lio"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text visible in [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]. Options:\nA. on the internet, ©Simplilearn.All rights reserved., Lct's have a look at the data generated per minute\nB. \"0.2Million\", on the internet, ©Simplilearn.All rights reserved.\nC. on the internet, simplilearn, ©Simplilearn.All rights reserved.\nD. Lct's have a look at the data generated per minute, ©Simplilearn.All rights reserved., on the internet",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether the text '\"0.2Million\", simplilearn, ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute, on the internet' appears in the region [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside the region [[20, 1032], [1894, 1032], [1894, 1070], [20, 1070]] — what word(s) do you see? The answer is ________.",
+              "answer": [
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word fills the blank in \"on the in____net\" as shown in the region [[836,136], [1156,137], [1156,194], [836,192]]?",
+              "answer": "ter"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one has the text found in [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]? Options:\nA. ©Simplilearn.All rights reserved., simplilearn, \"0.2Million\"\nB. \"0.2Million\", on the internet, ©Simplilearn.All rights reserved.\nC. ©Simplilearn.All rights reserved., on the internet, \"0.2Millien\"\nD. \"0.2Million\", on the internet, ©Simplileern.All rights reserved.",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the text 'Let's have a look at the data generated per minute, on the internet, ©Simplilearn.All rights reserved.' visible inside the bounding box [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[441, 56], [1531, 56], [1531, 194], [441, 194]] — what word(s) appear there? The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the location [[121,443], [479,443], [478,507], [121,506]], which number(s) should replace 2.1M____on?",
+              "answer": "illi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly identifies the text inside [[121, 56], [1531, 56], [1531, 507], [121, 507]]. Options:\nA. Let's have a look at the data generated per minute, en the internet\nB. ©Simplilearn.All rights reserved., on the internet\nC. simplilearn, Let's have a look at the data generated per minute\nD. Let's have a look at the data generated per minute, \"0.3Million\"",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can the label '©Simplilearn.All rights reserved., \"0.3Million\"' be seen inside the region marked by [[20, 443], [1894, 443], [1894, 1070], [20, 1070]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text in [[441, 56], [1531, 56], [1531, 194], [441, 194]] reads what exactly? The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"on the inter____et\" appears in the region [[836,136], [1156,137], [1156,194], [836,192]] — what word belongs in the blank?",
+              "answer": "n"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which of these options matches what's written in the area [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]. Options:\nA. \"0.3Million\", Lct's have a look at the data generated per minute, on the internet\nB. simplilearn, Let's have a look at the data generated per minute, \"0.3Million\"\nC. \"0.3Millien\", ©Simplilearn.All rights reserved., on the internet\nD. ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute, on the internet",
+              "answer": "D"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written inside [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]? The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet",
+                "\"0.4Million\"",
+                "©Simplilearn.All rights reserved."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the phrase \"on the ____ernet\" visible in [[836,136], [1156,137], [1156,194], [836,192]], what word should fill the blank?",
+              "answer": "int"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[20, 56], [1531, 56], [1531, 1066], [20, 1066]], which option best captures the text shown there? Options:\nA. Lct's have a look at the data generated per minute, \"0.4Million\", ©Simplilearn.All rights reserved.\nB. \"0.4Million\", simplilearn, ©Simplilearn.All rights reserved.\nC. on the internet, ©Simplilearn.All rights reserved., \"0.4Million\"\nD. \"0.4Million\", Lct's have a look at the data generated per minute, ©Simplilearn.All rights reserved.",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the text '©Simplilearn.All rights reserved., \"0.4Million\", Let's have a look at the data generated per minute' is present within the bounding box [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[20, 1032], [1894, 1032], [1894, 1070], [20, 1070]] — what word(s) can you find there? The answer is ________.",
+              "answer": [
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the region [[20,1032], [384,1032], [384,1066], [20,1066]], which word belongs in the blank: \"©Simplilearn.All ____ reserved.\"?",
+              "answer": "rights"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options lists the text visible at [[121, 56], [1531, 56], [1531, 507], [121, 507]]? Options:\nA. \"0.4Millien\", Let's have a look at the data generated per minute\nB. ©Simplilearn.All rights reserved., \"0.4Million\"\nC. Let's have a look at the data generated per minute, \"0.4Million\"\nD. on the internet, \"0.4Millien\"",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The text '\"0.4Million\", on the internet, simplilearn, Let's have a look at the data generated per minute, ©Simplilearn.All rights reserved.' — is it inside the bounding box [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_005/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_005/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can read within [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]. The answer is ________.",
+              "answer": [
+                "Let's have a look at the data generated per minute",
+                "on the internet",
+                "\"0.5Million\"",
+                "©Simplilearn.All rights reserved."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The bounding box [[441,56], [1531,64], [1531,133], [441,124]] shows the sentence \"Let's have a l____ at the data generated per minute\" — what word goes in l____?",
+              "answer": "ook"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify which option matches the text shown in [[121, 56], [1531, 56], [1531, 507], [121, 507]]. Options:\nA. en the internet, \"0.5Million\"\nB. on the internet, \"0.5Million\"\nC. Lct's have a look at the data generated per minute, \"0.5Million\"\nD. ©Simplilearn.All rights reserved., Let's have a look at the data generated per minute",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the text '©Simplilearn.All rights reserved., simplilearn, \"0.5Million\", Let's have a look at the data generated per minute, on the internet' within the area described by [[20, 56], [1531, 56], [1531, 1066], [20, 1066]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_005"
+  }
+]

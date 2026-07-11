@@ -1,0 +1,312 @@
+{
+  "video_id": "C0183",
+  "frames": 120,
+  "word": "福匠家电维修 福匠专业家电维修",
+  "video_path": "temporal/videos_vqa/GT/videos/CHN_C0183.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"福匠家电维修 福匠专业家电维修\" likely to be?\n Options:\nA. address or street sign\nB. warning or prohibition sign\nC. direction or navigation sign\nD. event or poster information\nE. general scene text\nF. storefront or brand sign\nG. menu or commercial information",
+      "q": "「福匠家电维修 福匠专业家电维修」这段文字，你觉得是哪种类型的招牌？\n Options:\nA. address or street sign\nB. warning or prohibition sign\nC. direction or navigation sign\nD. event or poster information\nE. general scene text\nF. storefront or brand sign\nG. menu or commercial information",
+      "a": "F",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. address or street sign",
+        "B. warning or prohibition sign",
+        "C. direction or navigation sign",
+        "D. event or poster information",
+        "E. general scene text",
+        "F. storefront or brand sign",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「福匠家电维修 福匠专业家电维修」这段文字，你觉得是哪种类型的招牌？\n Options:\nA. address or street sign\nB. warning or prohibition sign\nC. direction or navigation sign\nD. event or poster information\nE. general scene text\nF. storefront or brand sign\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"福匠家电维修 福匠专业家电维修\" appear in?\n Options:\nA. event poster or display\nB. storefront\nC. warning / rule sign\nD. road or street\nE. restaurant or menu\nF. campus or office\nG. transportation / station\nH. other public sign",
+      "q": "写着「福匠家电维修 福匠专业家电维修」的这段文字，出现在什么样的场景里？\n Options:\nA. event poster or display\nB. storefront\nC. warning / rule sign\nD. road or street\nE. restaurant or menu\nF. campus or office\nG. transportation / station\nH. other public sign",
+      "a": "B",
+      "a_text": "storefront",
+      "answer_key": "storefront",
+      "options": [
+        "A. event poster or display",
+        "B. storefront",
+        "C. warning / rule sign",
+        "D. road or street",
+        "E. restaurant or menu",
+        "F. campus or office",
+        "G. transportation / station",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「福匠家电维修 福匠专业家电维修」的这段文字，出现在什么样的场景里？\n Options:\nA. event poster or display\nB. storefront\nC. warning / rule sign\nD. road or street\nE. restaurant or menu\nF. campus or office\nG. transportation / station\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"福匠家电维修 福匠专业家电维修\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "q": "这段标注着「福匠家电维修 福匠专业家电维修」的文字，在画面里主要落在哪个区域？\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "a": "B",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. center (middle of the frame)",
+        "C. bottom-right (lower-right area)",
+        "D. bottom-left (lower-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段标注着「福匠家电维修 福匠专业家电维修」的文字，在画面里主要落在哪个区域？\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"福匠家电维修 福匠专业家电维修\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "视频播放下来，「福匠家电维修 福匠专业家电维修」这段文字的位置变动幅度大不大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "C",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播放下来，「福匠家电维修 福匠专业家电维修」这段文字的位置变动幅度大不大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"福匠家电维修 福匠专业家电维修\" move?\n Options:\nA. moves diagonally\nB. moves up\nC. moves left\nD. stays roughly in place\nE. moves down\nF. changes direction partway\nG. moves right",
+      "q": "看这段视频，「福匠家电维修 福匠专业家电维修」整体上是朝哪个方向移动的？\n Options:\nA. moves diagonally\nB. moves up\nC. moves left\nD. stays roughly in place\nE. moves down\nF. changes direction partway\nG. moves right",
+      "a": "E",
+      "a_text": "moves down",
+      "answer_key": "moves down",
+      "options": [
+        "A. moves diagonally",
+        "B. moves up",
+        "C. moves left",
+        "D. stays roughly in place",
+        "E. moves down",
+        "F. changes direction partway",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看这段视频，「福匠家电维修 福匠专业家电维修」整体上是朝哪个方向移动的？\n Options:\nA. moves diagonally\nB. moves up\nC. moves left\nD. stays roughly in place\nE. moves down\nF. changes direction partway\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"福匠家电维修 福匠专业家电维修\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> center\nB. bottom-left -> center -> center\nC. top-right -> center -> center\nD. bottom-right -> center -> center",
+      "q": "从片段前段到中段再到后段，「福匠家电维修 福匠专业家电维修」分别处于画面的什么位置？\n Options:\nA. center -> center -> center\nB. bottom-left -> center -> center\nC. top-right -> center -> center\nD. bottom-right -> center -> center",
+      "a": "C",
+      "a_text": "top-right -> center -> center",
+      "answer_key": "top-right -> center -> center",
+      "options": [
+        "A. center -> center -> center",
+        "B. bottom-left -> center -> center",
+        "C. top-right -> center -> center",
+        "D. bottom-right -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从片段前段到中段再到后段，「福匠家电维修 福匠专业家电维修」分别处于画面的什么位置？\n Options:\nA. center -> center -> center\nB. bottom-left -> center -> center\nC. top-right -> center -> center\nD. bottom-right -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"福匠家电维修 福匠专业家电维修\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "q": "在画面里，那处写着「福匠家电维修 福匠专业家电维修」的文字大概占多大的比例？\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "a": "C",
+      "a_text": "very large (dominates the frame)",
+      "answer_key": "very large",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在画面里，那处写着「福匠家电维修 福匠专业家电维修」的文字大概占多大的比例？\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"福匠家电维修 福匠专业家电维修\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "q": "随着视频播放，「福匠家电维修 福匠专业家电维修」是越来越大、越来越小，还是大小基本没变？\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "a": "D",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. gets smaller",
+        "B. stays about the same size",
+        "C. size fluctuates (goes up and down)",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「福匠家电维修 福匠专业家电维修」是越来越大、越来越小，还是大小基本没变？\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"福匠家电维修 福匠专业家电维修\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "q": "视频里，「福匠家电维修 福匠专业家电维修」是稳稳处于画面内部，还是偏向某条边缘？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. fully inside, away from the edges",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里，「福匠家电维修 福匠专业家电维修」是稳稳处于画面内部，还是偏向某条边缘？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"福匠家电维修 福匠专业家电维修\" and how it appears in the video.",
+      "q": "帮忙简单说说视频里「福匠家电维修 福匠专业家电维修」是什么样的，以及它在画面中的呈现方式。",
+      "a": "The target text is prominently displayed in blue characters on a white poster featuring a man's portrait.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "帮忙简单说说视频里「福匠家电维修 福匠专业家电维修」是什么样的，以及它在画面中的呈现方式。"
+    }
+  ]
+}

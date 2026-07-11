@@ -1,0 +1,481 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read the word(s) visible inside [[937, 435], [1310, 435], [1310, 731], [937, 731]]? It is ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "句子 \"____梯\" 中有缺失的字符，请根据坐标 [[937,436], [993,435], [993,464], [937,465]] 处的内容将其补全。",
+              "answer": "电"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[937, 435], [1019, 435], [1019, 491], [937, 491]]? Identify it from the options. Options:\nA. 2F\nB. Elevator\nC. Elevater\nD. 1F",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Elevator, 1F, 电梯, 2E' is the correct label for the content inside [[936.7799281194474, 434.7977454913848], [1310.3521126760563, 434.7977454913848], [1310.3521126760563, 730.6338028169015], [936.7799281194474, 730.6338028169015]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The text appearing in the region [[933, 433], [1309, 433], [1309, 729], [933, 729]] reads ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察坐标 [[1261,616], [1283,615], [1283,636], [1262,636]] 处的文字，\"2____\" 中缺失的部分是什么？",
+              "answer": "F"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[933, 433], [1016, 433], [1016, 484], [933, 484]] and match it to the right answer. Options:\nA. 1F\nB. 电梯\nC. 2F\nD. Elevater",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '电梯, 1E, Elevator, 2F' the label you'd find if you looked inside [[933.453488372093, 433.0], [1308.6091932860782, 433.0], [1308.6091932860782, 729.3266132744178], [933.453488372093, 729.3266132744178]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the content enclosed by [[1280, 627], [1306, 627], [1306, 725], [1280, 725]] — it is ________.",
+              "answer": [
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A gap appears in the word(s) at [[918,451], [1000,449], [1000,470], [919,473]] — what letter(s) are needed to complete El____tor.?",
+              "answer": "eva"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the following choices, which one matches the text visible at [[927, 426], [1012, 426], [1012, 482], [927, 482]]? Options:\nA. Elevater\nB. 电梯\nC. 1F\nD. 2F",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '电梯, Elevator, 1E, 2F' accurately describes what's inside the box at [[927.2906976744187, 426.0], [1305.5003849959226, 426.0], [1305.5003849959226, 725.4406029117234], [927.2906976744187, 725.4406029117234]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at the area marked [[925, 424], [1015, 424], [1015, 487], [925, 487]], the word(s) you see there is ________.",
+              "answer": [
+                "电梯",
+                "Elevator"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a gap in the text at [[900,447], [980,444], [981,466], [902,468]] — fill in what's missing to complete Ele____or..",
+              "answer": "vat"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices given, identify the one that contains the text inside [[925, 424], [1298, 424], [1298, 647], [925, 647]]. Options:\nA. 2E, 电梯\nB. Elevator, 电梯\nC. 1F, 电梯\nD. 电梯, Elevater",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '1F, 电梯, 2F' shows up inside the region at [[925.0, 424.26385224274406], [1303.1241473721602, 424.26385224274406], [1303.1241473721602, 725.044563307763], [925.0, 725.044563307763]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focus on the bounding box [[923, 427], [1300, 427], [1300, 722], [923, 722]] — the word(s) shown there is ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something has been left out in \"Elev____or\" — use the text at [[886,461], [964,461], [964,482], [886,482]] to figure out what's missing.",
+              "answer": "at"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text you can see at [[923, 427], [1009, 427], [1009, 483], [923, 483]]? Options:\nA. 电梯\nB. 2F\nC. 电棆\nD. 1F",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: does [[923.4388489208633, 427.0], [1009.0, 427.0], [1009.0, 483.0], [923.4388489208633, 483.0]] enclose the label(s) 'Elevator, 电梯, 1F'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you zoom into the area at [[921, 425], [1297, 425], [1297, 722], [921, 722]], what word(s) do you see? It is ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考坐标 [[1256,757], [1277,757], [1277,776], [1257,776]] 处的文字，补全以下句子中的空缺：\"____F\"。",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in the region marked [[921, 425], [1004, 425], [1004, 476], [921, 476]], what text do you see? Identify the matching answer. Options:\nA. 电棆\nB. Elevater\nC. 电梯\nD. 2F",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm whether 'Elevater, 2F, 电梯, 1F' is found inside [[920.6410256410256, 425.0], [1297.0410613187478, 425.0], [1297.0410613187478, 721.6321003997512], [920.6410256410256, 721.6321003997512]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read the text inside [[917, 416], [1295, 416], [1295, 718], [917, 718]]? It is ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word(s) at [[918,493], [1004,493], [1004,521], [918,521]] have a gap — fill it in: Elevat____",
+              "answer": "or"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[917, 416], [1005, 416], [1005, 481], [917, 481]]? Choose the matching option. Options:\nA. 1F\nB. 2F\nC. Elevator\nD. Elevater",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[917.0, 416.0], [1294.8351789658066, 416.0], [1294.8351789658066, 718.2007278507315], [917.0, 718.2007278507315]], can you confirm whether the label(s) '电梯, 2F, 1F' are present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what's written in the region [[920, 421], [1293, 421], [1293, 717], [920, 717]]. It is ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于 [[925,445], [981,443], [982,472], [926,473]] 的文字中有一处空缺，请将 \"____梯\" 补充完整。",
+              "answer": "电"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "I need you to identify the text in [[920, 421], [1004, 421], [1004, 474], [920, 474]] — which of these options matches? Options:\nA. 2F\nB. 电棆\nC. Elevater\nD. 电梯",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Elevator, 电梯, 2E, 1F' the text you'd find inside [[919.5250544662309, 421.0], [1293.0366178147276, 421.0], [1293.0366178147276, 717.4813033902999], [919.5250544662309, 717.4813033902999]]? True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the area marked [[912, 416], [1291, 416], [1291, 716], [912, 716]], what word(s) appear there? It is ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请找出 [[1215,691], [1236,691], [1236,709], [1216,710]] 处的文字，并补充 \"____F\" 中缺失的字符。",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Checking the region [[912, 416], [1002, 416], [1002, 474], [912, 474]], which answer choice correctly reflects the text found there? Options:\nA. Elevater\nB. Elevater\nC. Elevator\nD. 2F",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '2F, 1F, 电梯, Elevater' accurately describes the text found in [[912.4388489208633, 415.67865707434055], [1290.925799872775, 415.67865707434055], [1290.925799872775, 715.8981899338355], [912.4388489208633, 715.8981899338355]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on the bounding box [[913, 414], [1289, 414], [1289, 715], [913, 715]], what word(s) can you make out? It is ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1151,655], [1172,655], [1172,674], [1152,674]] 处标有楼层信息，请据此填写 \"____F\" 中的缺失字符。",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options listed, which one matches the text visible in [[913, 414], [998, 414], [998, 472], [913, 472]]? Options:\nA. 电棆\nB. 2F\nC. Elevator\nD. 电棆",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot-check: does [[912.9184652278177, 414.1582733812949], [998.0, 414.1582733812949], [998.0, 472.0], [912.9184652278177, 472.0]] really display the label(s) 'Elevator'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[1261, 615], [1288, 615], [1288, 714], [1261, 714]], what word(s) do you see there? It is ________.",
+              "answer": [
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a blank in the text at [[768,324], [828,324], [828,353], [768,353]] — what goes in it? ____梯.",
+              "answer": "电"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in [[913, 417], [996, 417], [996, 469], [913, 469]], what text do you see? Choose the correct option from these. Options:\nA. 电棆\nB. 电棆\nC. 2F\nD. 电梯",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the text '电梯' appears within [[913.0385756676558, 417.0], [996.0, 417.0], [996.0, 469.0], [913.0385756676558, 469.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0297/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0297/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inspect the marked region [[908, 412], [1286, 412], [1286, 713], [908, 713]] — what word(s) show up there? It is ________.",
+              "answer": [
+                "电梯",
+                "Elevator",
+                "2F",
+                "1F"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1073,582], [1094,581], [1094,600], [1074,600]] 位置的楼层标识有所缺失，请补全 \"1____\" 中的空缺。",
+              "answer": "F"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Just by reading [[908, 412], [992, 412], [992, 469], [908, 469]], which of the following options do you think is correct? Options:\nA. Elevater\nB. 2F\nC. Elevator\nD. 电棆",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '2F, 1F, Elevator' is what's written inside [[908.0791366906475, 411.8201438848921], [1286.1215210251107, 411.8201438848921], [1286.1215210251107, 712.7209936995565], [908.0791366906475, 712.7209936995565]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0297"
+  }
+]

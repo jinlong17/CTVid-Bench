@@ -1,0 +1,378 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "In [[202, 555], [1869, 555], [1869, 808], [202, 808]], what text is there? The answer is ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the option that correctly represents the text(s) in [[202, 563], [1195, 563], [1195, 680], [202, 680]]. Options:\nA. CENTER FOR THE\nB. PERFORMING ARTS\nC. CENIER FOR THE\nD. CENIER FOR THE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'PERFDRMING ARTS, CENTER FOR THE' sit inside the bounding box [[201.8018018018018, 554.6846846846846], [1869.3693693693692, 554.6846846846846], [1869.3693693693692, 808.018018018018], [201.8018018018018, 808.018018018018]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "From the bounding box [[162, 532], [1818, 532], [1818, 785], [162, 785]], write down the word(s) you see: ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option best captures the text(s) found within [[162, 544], [1156, 544], [1156, 661], [162, 661]]? Options:\nA. PERFORMING ARTS\nB. CENTER FOR THE\nC. CENIER FOR THE\nD. CENIER FOR THE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the region [[162.04276565722336, 531.7931184196243], [1817.5621404537064, 531.7931184196243], [1817.5621404537064, 785.1264517529577], [162.04276565722336, 785.1264517529577]], do the label(s) 'PERFORMING ARTS, CENTFR FOR THE' actually appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Fill in the blank: the text you'd find inside [[72.88613915119919, 430.58829914251646], [1728.4055139476823, 430.58829914251646], [1728.4055139476823, 683.9216324758498], [72.88613915119919, 683.9216324758498]] is ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears in the region [[73, 431], [1728, 431], [1728, 684], [73, 684]]? Select the matching option. Options:\nA. CENTFR FOR THE\nB. CFNTER FOR THE\nC. PERFORMING ARTS\nD. CENIER FOR THE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "That bounding box [[72.88613915119919, 430.58829914251646], [1728.4055139476823, 430.58829914251646], [1728.4055139476823, 683.9216324758498], [72.88613915119919, 683.9216324758498]] — does it hold the label(s) 'CENTER FOR THE'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[76.2650602409637, 330.5882991425165], [1740.4537067187664, 330.5882991425165], [1740.4537067187664, 583.9216324758498], [76.2650602409637, 583.9216324758498]]: ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following matches the text found inside [[76, 341], [1091, 341], [1091, 486], [76, 486]]? Options:\nA. PERFORMING ARTS\nB. CENTER FOR THE\nC. CENIER FOR THE\nD. CENIER FOR THE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'PERFDRMING ARTS, CENTER FOR THE' appears as the label(s) inside [[76.2650602409637, 330.5882991425165], [1740.4537067187664, 330.5882991425165], [1740.4537067187664, 583.9216324758498], [76.2650602409637, 583.9216324758498]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) you can see within [[103.97590361445778, 300.4678172148056], [1768.1645500922605, 300.4678172148056], [1768.1645500922605, 553.801150548139], [103.97590361445778, 553.801150548139]]: ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the given options, which accurately lists the text(s) in [[104, 311], [1118, 311], [1118, 456], [104, 456]]? Options:\nA. CENIER FOR THE\nB. CENIER FOR THE\nC. PERFORMING ARTS\nD. CENTER FOR THE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — are 'PERFORMING ARTS, CENTFR FOR THE' the label(s) you'd find inside [[103.97590361445778, 300.4678172148056], [1768.1645500922605, 300.4678172148056], [1768.1645500922605, 553.801150548139], [103.97590361445778, 553.801150548139]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you see in [[106.38554216867483, 295.64854010637185], [1770.5741886464775, 295.64854010637185], [1770.5741886464775, 548.9818734397052], [106.38554216867483, 548.9818734397052]]: ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options given, which one has the text(s) that appear in [[106, 306], [1121, 306], [1121, 451], [106, 451]]? Options:\nA. PERFORMING ARTS\nB. CENIER FOR THE\nC. CENTER FOR THE\nD. CENIER FOR THE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is: do the label(s) 'PERFORMING ARTS' sit inside the box [[106.38554216867483, 295.64854010637185], [1770.5741886464775, 295.64854010637185], [1770.5741886464775, 548.9818734397052], [106.38554216867483, 548.9818734397052]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[143.7349397590362, 212.51600998588992], [1807.923586236839, 212.51600998588992], [1807.923586236839, 465.84934331922295], [143.7349397590362, 465.84934331922295]] — the word(s) you'll find there is/are ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text(s) found in [[144, 223], [1158, 223], [1158, 368], [144, 368]], which answer option is right? Options:\nA. PERFORMING ARTS\nB. CENIER FOR THE\nC. CENTER FOR THE\nD. CENIER FOR THE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot check: do you find 'PERFORMING ARTS' as the label(s) in the bounding box [[143.7349397590362, 212.51600998588992], [1807.923586236839, 212.51600998588992], [1807.923586236839, 465.84934331922295], [143.7349397590362, 465.84934331922295]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[152.1686746987952, 166.73287745576948], [1816.357321176598, 166.73287745576948], [1816.357321176598, 420.0662107891025], [152.1686746987952, 420.0662107891025]], the word(s) you'd read is/are ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that lists the text(s) present in [[152, 177], [1167, 177], [1167, 322], [152, 322]]. Options:\nA. CENIER FOR THE\nB. CENIER FOR THE\nC. PERFORMING ARTS\nD. CENTER FOR THE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are we looking at 'PERFORMING ARTS, CENTFR FOR THE' as the label(s) inside [[152.1686746987952, 166.73287745576948], [1816.357321176598, 166.73287745576948], [1816.357321176598, 420.0662107891025], [152.1686746987952, 420.0662107891025]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text you'd read inside [[146.14457831325302, 147.45576902203456], [1810.3332247910557, 147.45576902203456], [1810.3332247910557, 400.7891023553676], [146.14457831325302, 400.7891023553676]] is ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices, which one captures the text(s) in [[146, 158], [1161, 158], [1161, 303], [146, 303]]? Options:\nA. CENTER FOR THE\nB. PERFORMING ARTS\nC. CENIER FOR THE\nD. CENIER FOR THE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Here's a true/false: the label(s) 'PERFORMING ARTS, CENTFR FOR THE' can be found inside [[146.14457831325302, 147.45576902203456], [1810.3332247910557, 147.45576902203456], [1810.3332247910557, 400.7891023553676], [146.14457831325302, 400.7891023553676]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the bounding box [[146.14457831325302, 112.51600998588995], [1810.3332247910557, 112.51600998588995], [1810.3332247910557, 365.8493433192234], [146.14457831325302, 365.8493433192234]], what word(s) do you see? ________.",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that matches the text(s) in [[146, 123], [1161, 123], [1161, 268], [146, 268]]. Options:\nA. CENIER FOR THE\nB. PERFORMING ARTS\nC. CENTER FOR THE\nD. CENIER FOR THE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Right or wrong: 'CENTFR FOR THE, PERFORMING ARTS' shows up as the label(s) within [[146.14457831325302, 112.51600998588995], [1810.3332247910557, 112.51600998588995], [1810.3332247910557, 365.8493433192234], [146.14457831325302, 365.8493433192234]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[187.10843373493987, 348.660588299143], [1860.9356344296102, 348.660588299143], [1860.9356344296102, 601.9939216324764], [187.10843373493987, 601.9939216324764]] — what word(s) appear there? ________",
+              "answer": [
+                "CENTER FOR THE",
+                "PERFORMING ARTS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text found in [[187, 349], [1861, 349], [1861, 602], [187, 602]]? Options:\nA. CFNTER FOR THE\nB. PERFORMING ARTS\nC. CENTFR FOR THE\nD. CENIER FOR THE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'PERFDRMING ARTS, CENTER FOR THE' — do they appear inside [[187.10843373493987, 348.660588299143], [1860.9356344296102, 348.660588299143], [1860.9356344296102, 601.9939216324764], [187.10843373493987, 601.9939216324764]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0591_1/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0591_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area [[202.77108433734935, 613.4939759036142], [1217.228915662651, 613.4939759036142], [1217.228915662651, 758.0722891566265], [202.77108433734935, 758.0722891566265]], what text can you read there? ________",
+              "answer": [
+                "CENTER FOR THE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the following options, which one accurately captures the text in [[203, 606], [1877, 606], [1877, 860], [203, 860]]? Options:\nA. CENTER FOR THE\nB. CENTFR FOR THE\nC. CENIER FOR THE\nD. PEPFORMING ARTS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find 'CENTER FOR THE' inside [[202.77108433734935, 606.4919136003476], [1876.59828503202, 606.4919136003476], [1876.59828503202, 859.8252469336812], [202.77108433734935, 859.8252469336812]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0591_1"
+  }
+]

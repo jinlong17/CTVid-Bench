@@ -1,0 +1,475 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[253, 389], [755, 389], [755, 613], [253, 613]], what text can you make out? ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[270,501], [723,453], [732,508], [282,554]], a phrase reads \"this ____us uses\" — what word belongs in the blank?",
+              "answer": "camp"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the bounding box [[253, 389], [755, 389], [755, 613], [253, 613]], which answer option matches the text shown there? Options:\nA. recyoled water., To conserve water,\nB. recycled water., Io conserve water,\nC. recycled water., To conserve water,\nD. recycled water., Te conserve water,",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[252.70270270270268, 389.09909909909913], [754.5045045045044, 389.09909909909913], [754.5045045045044, 612.972972972973], [252.70270270270268, 612.972972972973]], do you see the text 'this campus uses, To conserve water,, recyclod water.'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text shown in [[259, 383], [761, 383], [761, 607], [259, 607]]. ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[383,533], [799,490], [811,550], [398,592]] reads \"r____cled water\" — what goes in the blank?",
+              "answer": "ecy"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately reflects what's written inside [[259, 383], [761, 383], [761, 607], [259, 607]]. Options:\nA. recyoled water., this campus uses\nB. this campus uses, Io conserve water,\nC. To conserve water,, recyclod water.\nD. this campus uses, To conserve water,",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'tbis campus uses, To conserve water,, recycled water.' is the correct reading of the text at [[259.05190905190904, 382.74989274989275], [760.8537108537098, 382.74989274989275], [760.8537108537098, 606.6237666237664], [259.05190905190904, 606.6237666237664]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[276, 370], [778, 370], [778, 594], [276, 594]], there's some text — what does it say? ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Based on what's visible at [[551,318], [1120,286], [1124,362], [561,397]], what word completes the instruction \"____ conserve water\"?",
+              "answer": "To"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text shown in [[276, 370], [778, 370], [778, 594], [276, 594]]. Options:\nA. this campus uses, Io conserve water,\nB. this campus uses, recycled water.\nC. recycled water., tbis campus uses\nD. To conserve water,, recyoled water.",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'this campus uses, To conserve water,' appear anywhere within the region bounded by [[276.2116723655185, 370.32385724693415], [778.0134741673193, 370.32385724693415], [778.0134741673193, 594.1977311208082], [276.2116723655185, 594.1977311208082]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the text you see at [[283, 359], [802, 359], [802, 587], [283, 587]]. ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text at [[749,461], [1195,439], [1199,507], [756,529]] showing \"____led water\", what adjective or label fills that blank?",
+              "answer": "recyc"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one captures the text found at [[283, 359], [802, 359], [802, 587], [283, 587]]? Options:\nA. tbis campus uses, recycled water.\nB. this campus uses, Io conserve water,\nC. recycled water., Te conserve water,\nD. recycled water., To conserve water,",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify this — is the text at [[283.3333333333333, 359.0860215053764], [801.6129032258065, 359.0860215053764], [801.6129032258065, 587.0081886371479], [283.3333333333333, 587.0081886371479]] equal to 'this campus uses, Io conserve water,, recycled water.'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[295, 348], [814, 348], [814, 576], [295, 576]], what word or words appear there? ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word belongs in \"re____ed water\", given what's printed at [[934,486], [1380,464], [1384,533], [940,554]]?",
+              "answer": "cycl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[295, 348], [814, 348], [814, 576], [295, 576]] and pick the option that matches its text. Options:\nA. recyclod water., To conserve water,\nB. recyoled water., this campus uses\nC. To conserve water,, this campus uses\nD. Io conserve water,, recycled water.",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In your view, does [[295.23809523809524, 347.9749103942653], [813.5176651305684, 347.9749103942653], [813.5176651305684, 575.8970775260361], [295.23809523809524, 575.8970775260361]] display the text 'recycled water., To conserve water,'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Across the area at [[307, 339], [825, 339], [825, 567], [307, 567]], what words are written? ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region at [[1048,466], [1494,444], [1498,512], [1055,534]] shows \"rec____ed water\" — what letter(s) fill the gap?",
+              "answer": "ycl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area marked by [[307, 339], [825, 339], [825, 567], [307, 567]], which of the following options matches the text you see there? Options:\nA. recycled water., tbis campus uses\nB. thls campus uses, recycled water.\nC. this campus uses, Io conserve water,\nD. this campus uses, To conserve water,",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'To conserve water,, this campus uses' inside the region defined by [[306.7488866050017, 338.62239240865375], [825.0284564974748, 338.62239240865375], [825.0284564974748, 566.5445595404248], [306.7488866050017, 566.5445595404248]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and write out whatever text appears inside [[312, 336], [854, 336], [854, 566], [312, 566]]. ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1103,437], [1547,427], [1548,491], [1106,504]] the text reads \"re____led water\" — what's the missing word or letters that complete it?",
+              "answer": "cyc"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one accurately captures the text found in [[312, 336], [854, 336], [854, 566], [312, 566]]? Options:\nA. To conserve water,, this campus uses\nB. Ta conserve water,, this campus uses\nC. Te conserve water,, recycled water.\nD. Io conserve water,, this campus uses",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'To conserve water,, tbis campus uses, recycled water.' among the labels you can spot within [[312.30444216055724, 336.094674556213], [853.9473684210526, 336.094674556213], [853.9473684210526, 565.750908746774], [312.30444216055724, 565.750908746774]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Copy down the text visible inside [[312, 336], [854, 336], [854, 566], [312, 566]]. ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[1108,365], [1570,358], [1571,413], [1109,421]] reads \"this camp____ uses\" — what word belongs in the blank?",
+              "answer": "us"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches what's written inside [[312, 336], [854, 336], [854, 566], [312, 566]]. Options:\nA. To conserve water,, recyoled water.\nB. Io conserve water,, this campus uses\nC. To conserve water,, tbis campus uses\nD. this campus uses, recycled water.",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'To conserve water,, recycled water.' falls within the bounding box [[312.30444216055724, 336.094674556213], [853.9473684210526, 336.094674556213], [853.9473684210526, 565.750908746774], [312.30444216055724, 565.750908746774]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down all the text you can read inside [[334, 353], [876, 353], [876, 589], [334, 589]]. ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1046,352], [1450,349], [1452,402], [1047,407]], the text says \"t____ campus uses\" — what's the missing piece?",
+              "answer": "his"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices listed, which one reflects the text inside [[334, 353], [876, 353], [876, 589], [334, 589]]? Options:\nA. recycled water., Te conserve water,\nB. tbis campus uses, recycled water.\nC. recycled water., this campus uses\nD. this campus uses, Io conserve water,",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the region [[333.9296704229537, 353.267030224144], [875.5725966834491, 353.267030224144], [875.5725966834491, 589.1179546801925], [333.9296704229537, 589.1179546801925]] — are the label(s) 'To conserve water,, this campus uses' visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text shows up inside [[342, 360], [884, 360], [884, 596], [342, 596]]? ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Zoom into [[953,275], [1320,270], [1321,324], [955,331]] — the phrase reads \"this cam____ uses\"; fill in what's missing.",
+              "answer": "pus"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice best represents the text found at [[342, 360], [884, 360], [884, 596], [342, 596]]? Options:\nA. this campus uses, To conserve water,\nB. To conserve water,, tbis campus uses\nC. this campus uses, Io conserve water,\nD. Te conserve water,, this campus uses",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[342.21369409159263, 360.36762194012033], [883.856620352088, 360.36762194012033], [883.856620352088, 596.2185463961687], [342.21369409159263, 596.2185463961687]], are the label(s) 'Io conserve water,, recycled water., this campus uses' present in that region?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text that sits within [[352, 353], [896, 353], [896, 592], [352, 592]] and write it here. ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You can see \"To con____ water\" at [[864,193], [1240,181], [1242,228], [866,241]] — what goes in the blank?",
+              "answer": "serve"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[352, 353], [896, 353], [896, 592], [352, 592]] and select the option that correctly lists the text found there. Options:\nA. this campus uses, Ta conserve water,\nB. Te conserve water,, recycled water.\nC. recycled water., Io conserve water,\nD. this campus uses, recycled water.",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the area [[352.1505376344086, 353.17807945646024], [895.621326234441, 353.17807945646024], [895.621326234441, 592.4193548387098], [352.1505376344086, 592.4193548387098]], is 'To conserve water,, this campus uses' one of the labels present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0442/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0442/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can make out inside [[364, 347], [908, 347], [908, 586], [364, 586]]. ________",
+              "answer": [
+                "To conserve water,",
+                "this campus uses",
+                "recycled water."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The statement at [[884,321], [1195,310], [1197,356], [886,366]] — \"this ____mpus uses\" — has a gap; what fills it?",
+              "answer": "ca"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[364, 347], [908, 347], [908, 586], [364, 586]], which answer choice matches the text found there? Options:\nA. this campus uses, recyoled water.\nB. tbis campus uses, recycled water.\nC. recycled water., thls campus uses\nD. To conserve water,, this campus uses",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'this campus uses, To conserve water,' appears inside the bounding box [[364.0552995391705, 346.8288731072539], [907.5260881392029, 346.8288731072539], [907.5260881392029, 586.070148489503], [364.0552995391705, 586.070148489503]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0442"
+  }
+]

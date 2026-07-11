@@ -1,0 +1,312 @@
+{
+  "video_id": "C0142",
+  "frames": 120,
+  "word": "Apple Intelligence is here.",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0142.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Apple Intelligence is here.\" likely to be?\n Options:\nA. storefront or brand sign\nB. address or street sign\nC. direction or navigation sign\nD. menu or commercial information\nE. warning or prohibition sign\nF. general scene text\nG. event or poster information",
+      "q": "Based on its content, what kind of sign or notice is the text \"Apple Intelligence is here.\" most likely to be?\n Options:\nA. storefront or brand sign\nB. address or street sign\nC. direction or navigation sign\nD. menu or commercial information\nE. warning or prohibition sign\nF. general scene text\nG. event or poster information",
+      "a": "D",
+      "a_text": "menu or commercial information",
+      "answer_key": "menu or commercial information",
+      "options": [
+        "A. storefront or brand sign",
+        "B. address or street sign",
+        "C. direction or navigation sign",
+        "D. menu or commercial information",
+        "E. warning or prohibition sign",
+        "F. general scene text",
+        "G. event or poster information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Based on its content, what kind of sign or notice is the text \"Apple Intelligence is here.\" most likely to be?\n Options:\nA. storefront or brand sign\nB. address or street sign\nC. direction or navigation sign\nD. menu or commercial information\nE. warning or prohibition sign\nF. general scene text\nG. event or poster information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Apple Intelligence is here.\" appear in?\n Options:\nA. other public sign\nB. campus or office\nC. transportation / station\nD. road or street\nE. storefront\nF. restaurant or menu\nG. warning / rule sign\nH. event poster or display",
+      "q": "The text \"Apple Intelligence is here.\" — what kind of environment or setting does it appear in?\n Options:\nA. other public sign\nB. campus or office\nC. transportation / station\nD. road or street\nE. storefront\nF. restaurant or menu\nG. warning / rule sign\nH. event poster or display",
+      "a": "E",
+      "a_text": "storefront",
+      "answer_key": "storefront",
+      "options": [
+        "A. other public sign",
+        "B. campus or office",
+        "C. transportation / station",
+        "D. road or street",
+        "E. storefront",
+        "F. restaurant or menu",
+        "G. warning / rule sign",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text \"Apple Intelligence is here.\" — what kind of environment or setting does it appear in?\n Options:\nA. other public sign\nB. campus or office\nC. transportation / station\nD. road or street\nE. storefront\nF. restaurant or menu\nG. warning / rule sign\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Apple Intelligence is here.\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-right (upper-right area)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)",
+      "q": "Where does \"Apple Intelligence is here.\" sit in the frame for most of the clip?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-right (upper-right area)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. bottom-right (lower-right area)",
+        "C. top-right (upper-right area)",
+        "D. top-left (upper-left area)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Where does \"Apple Intelligence is here.\" sit in the frame for most of the clip?\n Options:\nA. center (middle of the frame)\nB. bottom-right (lower-right area)\nC. top-right (upper-right area)\nD. top-left (upper-left area)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Apple Intelligence is here.\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "Across the whole video, does the text \"Apple Intelligence is here.\" shift noticeably or barely move at all?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Across the whole video, does the text \"Apple Intelligence is here.\" shift noticeably or barely move at all?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Apple Intelligence is here.\" move?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves left\nD. moves down\nE. moves right\nF. stays roughly in place\nG. moves up",
+      "q": "\"Apple Intelligence is here.\" — does it drift left, right, upward, downward, or stay put overall?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves left\nD. moves down\nE. moves right\nF. stays roughly in place\nG. moves up",
+      "a": "E",
+      "a_text": "moves right",
+      "answer_key": "moves right",
+      "options": [
+        "A. moves diagonally",
+        "B. changes direction partway",
+        "C. moves left",
+        "D. moves down",
+        "E. moves right",
+        "F. stays roughly in place",
+        "G. moves up"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "\"Apple Intelligence is here.\" — does it drift left, right, upward, downward, or stay put overall?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. moves left\nD. moves down\nE. moves right\nF. stays roughly in place\nG. moves up"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Apple Intelligence is here.\" at the beginning, the middle, and the end?\n Options:\nA. bottom-left -> center -> top-right\nB. top-left -> center -> top-right\nC. center -> top-right -> top-right\nD. center -> center -> top-right",
+      "q": "Can you trace where \"Apple Intelligence is here.\" sits near the start, around the midpoint, and toward the end of the clip?\n Options:\nA. bottom-left -> center -> top-right\nB. top-left -> center -> top-right\nC. center -> top-right -> top-right\nD. center -> center -> top-right",
+      "a": "D",
+      "a_text": "center -> center -> top-right",
+      "answer_key": "center -> center -> top-right",
+      "options": [
+        "A. bottom-left -> center -> top-right",
+        "B. top-left -> center -> top-right",
+        "C. center -> top-right -> top-right",
+        "D. center -> center -> top-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you trace where \"Apple Intelligence is here.\" sits near the start, around the midpoint, and toward the end of the clip?\n Options:\nA. bottom-left -> center -> top-right\nB. top-left -> center -> top-right\nC. center -> top-right -> top-right\nD. center -> center -> top-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Apple Intelligence is here.\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "q": "Relative to the frame, how large would you describe the text \"Apple Intelligence is here.\"?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "a": "C",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Relative to the frame, how large would you describe the text \"Apple Intelligence is here.\"?\n Options:\nA. medium (a noticeable block of the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Apple Intelligence is here.\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "q": "Throughout the video, does \"Apple Intelligence is here.\" grow bigger, shrink, or hold roughly the same size?\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. gets smaller",
+        "C. size fluctuates (goes up and down)",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Throughout the video, does \"Apple Intelligence is here.\" grow bigger, shrink, or hold roughly the same size?\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Apple Intelligence is here.\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "Does \"Apple Intelligence is here.\" stay comfortably inside the frame, or is it close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"Apple Intelligence is here.\" stay comfortably inside the frame, or is it close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Apple Intelligence is here.\" and how it appears in the video.",
+      "q": "Describe briefly how \"Apple Intelligence is here.\" appears and behaves throughout the clip.",
+      "a": "The target text is displayed in large white letters on a colorful gradient promotional sign resting on a wooden table.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Describe briefly how \"Apple Intelligence is here.\" appears and behaves throughout the clip."
+    }
+  ]
+}

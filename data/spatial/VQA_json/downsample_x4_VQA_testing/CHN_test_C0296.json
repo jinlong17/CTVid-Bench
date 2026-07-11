@@ -1,0 +1,487 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[414, 50], [1848, 50], [1848, 447], [414, 447]] — the word(s) there is/are ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在[[478,379], [538,379], [538,429], [478,429]]处的文字里，第二个字符正好是____，你能确认吗？",
+              "answer": "磨"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following best matches the text visible at [[414, 50], [1335, 50], [1335, 447], [414, 447]]? Options:\nA. 现磨现蒸才姄吃, 三两粉R\nB. 现磨现蒸才好吃, 三两粉R\nC. 磨, 现磨现蒸才姄吃\nD. 磨, 湖南手工米",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot '磨, 湖南手工米, 现磨现蒸才好吃, 三襾粉R' inside the bounding box [[413.7974683544303, 50.12658227848103], [1847.7707006369426, 50.12658227848103], [1847.7707006369426, 447.2139303482587], [413.7974683544303, 447.2139303482587]]? Yes or no.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at the region [[419, 50], [1848, 50], [1848, 447], [419, 447]] — the word(s) you'll find there is/are ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[628,357], [1081,369], [1080,429], [628,418]]处的文本有缺失，缺少的内容正是\"现磨____蒸才好吃\"，请将其补全。",
+              "answer": "现"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written inside [[419, 50], [1848, 50], [1848, 317], [419, 317]]? Pick the answer that matches. Options:\nA. 三两粉R\nB. 三襾粉R\nC. 磨\nD. 三襾粉R",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '湖南手工米, 现磨现蒸才好吃, 磨' contained inside the bounding box at [[418.8607594936709, 50.12658227848103], [1847.7707006369426, 50.12658227848103], [1847.7707006369426, 447.2139303482587], [418.8607594936709, 447.2139303482587]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at [[439, 48], [1858, 48], [1858, 445], [439, 445]] — what text is written there? The word(s) is/are ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看[[1458,172], [1859,191], [1856,286], [1454,272]]处的文字，把\"湖____手工\"中空缺的字填上。",
+              "answer": "南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[439, 48], [1858, 48], [1858, 445], [439, 445]] matches which of the options below? Options:\nA. 三襾粉R, 现磨现蒸才好吃, 磨\nB. 现磨现蒸才好吃, 磿, 湖南手工米\nC. 磨, 现磨现蒸才姄吃, 三两粉R\nD. 湖南手工米, 磨, 现磨现蒸才好吃",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[439.11392405063293, 47.59493670886078], [1857.8972829154236, 47.59493670886078], [1857.8972829154236, 445.4798263020159], [439.11392405063293, 445.4798263020159]] enclose '湖南手工米, 三两粉R, 磨'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text visible at [[435, 50], [1863, 50], [1863, 444], [435, 444]]; the word(s) is/are ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[729,342], [1181,354], [1180,414], [729,402]]中的文字不完整，缺失的部分是\"现磨____蒸才好吃\"，请补上。",
+              "answer": "现"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices provided, which one reflects the text at [[435, 50], [1357, 50], [1357, 444], [435, 444]]? Options:\nA. 磿, 三两粉R\nB. 湖南手工米, 现磨现蒸才好吃\nC. 三两粉R, 现磨现蒸才好吃\nD. 三两粉R, 现磨现蒸才姄吃",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '现磨现蒸才好吃, 湖南手工米, 三襾粉R, 磨' appears inside [[435.3164556962023, 50.12658227848103], [1862.9605740546642, 50.12658227848103], [1862.9605740546642, 443.59303384918576], [435.3164556962023, 443.59303384918576]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Zero in on the area [[439, 47], [1871, 47], [1871, 444], [439, 444]] — what word(s) do you see? The word(s) is/are ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1576,148], [1884,164], [1883,258], [1572,245]]范围内的文本有遗漏，遗漏的内容是\"湖____手\"，请指出。",
+              "answer": "南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Only one option correctly lists the text inside [[439, 47], [1871, 47], [1871, 317], [439, 317]] — which is it? Options:\nA. 磨\nB. 三襾粉R\nC. 湖南手工米\nD. 三襾粉R",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '三两粉R, 磨, 湖南手工米' sits within [[438.66561181434577, 47.00158227848103], [1870.555510763525, 47.00158227848103], [1870.555510763525, 443.59303384918576], [438.66561181434577, 443.59303384918576]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the region [[449, 41], [1873, 41], [1873, 439], [449, 439]] and report the text — the word(s) is/are ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[672,7], [1601,24], [1600,239], [671,209]]这个区域里的文字有缺失，补全后应该是\"____两粉R\"，缺少的是哪个字符？",
+              "answer": "三"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) visible in [[449, 41], [1873, 41], [1873, 317], [449, 317]]? Options:\nA. 现磨现蒸才好吃\nB. 三襾粉R\nC. 三两粉R\nD. 磨",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) '三两粉R, 现磨现蒸才好吃, 湖南手工米' appearing inside [[449.2405063291137, 41.26582278481015], [1873.1196133276276, 41.26582278481015], [1873.1196133276276, 438.8561917439226], [449.2405063291137, 438.8561917439226]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The word(s) written at [[449, 37], [1878, 37], [1878, 439], [449, 439]] is/are — ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据坐标[[868,296], [1321,308], [1320,368], [868,357]]处的文字，把下面的字符串补充完整：\"现磨____蒸才好吃\"。",
+              "answer": "现"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text(s) appear inside [[449, 37], [1370, 37], [1370, 439], [449, 439]]? Select the matching option. Options:\nA. 三两粉R, 磿\nB. 磨, 湖南手工米\nC. 三两粉R, 磨\nD. 磿, 三两粉R",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '现磨现蒸才好吃, 湖南手工米, 三两粉R' fall inside [[448.65851884184474, 36.900916630292464], [1878.182904466868, 36.900916630292464], [1878.182904466868, 438.8561917439226], [448.65851884184474, 438.8561917439226]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible at [[453, 41], [1883, 41], [1883, 436], [453, 436]]: ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看坐标[[900,278], [1352,291], [1351,351], [900,339]]内的文字，填入空白让\"现____现蒸才好吃\"变得完整。",
+              "answer": "磨"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[453, 41], [1374, 41], [1374, 436], [453, 436]], which answer option captures what's written there? Options:\nA. 现磨现蒸才姄吃, 磨\nB. 湖南手工米, 现磨现蒸才好吃\nC. 三两粉R, 磨\nD. 磿, 三两粉R",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inspect [[452.81381856540077, 40.6724683544304], [1883.2461956061084, 40.6724683544304], [1883.2461956061084, 436.0260030646773], [452.81381856540077, 436.0260030646773]] — does it contain the label(s) '磨, 湖南手工米, 三两粉R'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over at [[453, 34], [1888, 34], [1888, 436], [453, 436]], what text do you see written there? ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "结合坐标[[925,261], [1378,274], [1377,333], [925,322]]中的内容，你能补全下面这句话吗？\"现磨____才好吃\"",
+              "answer": "现蒸"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you focus on [[453, 34], [1375, 34], [1375, 436], [453, 436]], which of these options matches the text inside? Options:\nA. 三两粉R, 磨\nB. 磿, 现磨现蒸才好吃\nC. 三两粉R, 磿\nD. 湖南手工米, 磨",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[453.07043167802647, 33.67088607594939], [1888.309486745349, 33.67088607594939], [1888.309486745349, 303.1460130613562], [453.07043167802647, 303.1460130613562]], would you expect to find the label(s) '三两粉R' there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type in whatever word(s) you see at location [[467, 33], [1893, 33], [1893, 429], [467, 429]]: ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察文本框 [[1750,57], [1858,59], [1856,155], [1749,151]] 里的文字，把\"____\"中缺失的字符填写出来。",
+              "answer": "湖"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that correctly reflects the text(s) shown in [[467, 33], [1893, 33], [1893, 303], [467, 303]]. Options:\nA. 三襾粉R\nB. 现磨现蒸才好吃\nC. 湖南手工米\nD. 磨",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the region [[467.0405259542732, 32.89569227749978], [1893.3727778845894, 32.89569227749978], [1893.3727778845894, 429.1883962270704], [467.0405259542732, 429.1883962270704]] — are the label(s) '三两粉R, 磨, 现磨现蒸才姄吃, 湖南手工米' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) found at [[466, 29], [1902, 29], [1902, 429], [466, 429]]: ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "从[[852,230], [912,230], [912,280], [852,280]]坐标范围内的文本里，找到空缺的字符，将\"____\"补全。",
+              "answer": "磨"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options matches the text(s) found at [[466, 29], [1388, 29], [1388, 429], [466, 429]] — which one? Options:\nA. 三两粉R, 湖南手工米\nB. 磿, 现磨现蒸才好吃\nC. 磨, 现磨现蒸才姄吃\nD. 磨, 三两粉R",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '现磨现蒸才好吃, 湖南手工米, 三两粉R, 磿' shows up as a label inside [[466.07486746727216, 29.397381802445118], [1902.2335373782603, 29.397381802445118], [1902.2335373782603, 429.1883962270704], [466.07486746727216, 429.1883962270704]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0296/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0296/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Just by reading [[472, 23], [1904, 23], [1904, 424], [472, 424]], what word(s) do you see? ________.",
+              "answer": [
+                "三两粉R",
+                "湖南手工米",
+                "磨",
+                "现磨现蒸才好吃"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "依据[[876,214], [936,214], [936,264], [876,264]]位置显示的文字，把缺失部分填入\"____\"中使词语完整。",
+              "answer": "磨"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[472, 23], [1904, 23], [1904, 292], [472, 292]] and select the option that matches what's written there. Options:\nA. 三襾粉R\nB. 现磨现蒸才好吃\nC. 磨\nD. 湖南手工米",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[471.5770042194089, 23.25421940928276], [1904.3168707115935, 23.25421940928276], [1904.3168707115935, 423.9800628937371], [471.5770042194089, 423.9800628937371]] actually contain the label(s) '现磨现蒸才好吃, 湖南手工米, 三两粉R'?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0296"
+  }
+]

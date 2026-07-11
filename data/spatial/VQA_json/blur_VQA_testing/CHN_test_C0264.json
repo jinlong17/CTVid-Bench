@@ -1,0 +1,451 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly identifies the text found inside [[374.2937083980433, 655.6962025316456], [726.1924425752586, 655.6962025316456], [726.1924425752586, 744.3037974683544], [374.2937083980433, 744.3037974683544]]: ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察图像区域[[374,656], [722,668], [726,744], [377,737]]中的文字，将缺失的字符填入空白处：\"孙中____故居\"。",
+              "answer": "山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options accurately captures the text shown in [[374, 656], [726, 656], [726, 744], [374, 744]]? Options:\nA. 孙中山敬居\nB. 孙中山故居\nC. 孙中山故屠\nD. 孙串山故居",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at bounding box [[374.2937083980433, 655.6962025316456], [726.1924425752586, 655.6962025316456], [726.1924425752586, 744.3037974683544], [374.2937083980433, 744.3037974683544]] — do the label(s) '孙中山故居' appear inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible in region [[371.8513450336152, 655.6962025316456], [723.7500792108303, 655.6962025316456], [723.7500792108303, 744.3037974683544], [371.8513450336152, 744.3037974683544]] and pick the matching option: ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "找出坐标[[360,613], [708,625], [712,701], [363,694]]处文本的缺失部分，并填写完整：\"孙中山____\"。",
+              "answer": "故居"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears in the region [[372, 656], [724, 656], [724, 744], [372, 744]]? Pick the option that matches. Options:\nA. 孙中山故屠\nB. 孙中山故居\nC. 孙串山故居\nD. 孙中山敬居",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find bounding box [[371.8513450336152, 655.6962025316456], [723.7500792108303, 655.6962025316456], [723.7500792108303, 744.3037974683544], [371.8513450336152, 744.3037974683544]] in the image — is the label '孙中山故居' located there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can read inside the area [[367, 652], [719, 652], [719, 741], [367, 741]]: ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据[[388,528], [736,540], [740,617], [391,609]]位置的文字内容，将以下名称补充完整：\"孙____故居\"。",
+              "answer": "中山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[367, 652], [719, 652], [719, 741], [367, 741]], which answer option matches the text found there? Options:\nA. 孙中山故屠\nB. 孙中山敬居\nC. 孙中山故居\nD. 孙串山故居",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether the label(s) '孙中山敬居' sit inside the bounding box [[366.93721064075095, 652.2479266695766], [718.835944817966, 652.2479266695766], [718.835944817966, 740.8555216062855], [366.93721064075095, 740.8555216062855]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text within [[358, 650], [710, 650], [710, 738], [358, 738]] and write it down here: ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察[[386,546], [734,558], [738,634], [389,627]]处的文字，补全下列词语中缺失的字符：\"____中山故居\"。",
+              "answer": "孙"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, which one accurately reflects the text inside [[358, 650], [710, 650], [710, 738], [358, 738]]? Options:\nA. 孙中山故居\nB. 孙中山故屠\nC. 孙串山故居\nD. 孙中山敬居",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false — the bounding box [[358.40024517231654, 649.7639523106022], [710.2989793495317, 649.7639523106022], [710.2989793495317, 738.3715472473111], [358.40024517231654, 738.3715472473111]] contains the label(s) '孙中山故居'.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in region [[354, 650], [706, 650], [706, 738], [354, 738]], there's some text — write it out: ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[480,549], [827,561], [831,637], [482,630]]的文本中有字符缺失，请将其填写完整：\"孙____故居\"。",
+              "answer": "中山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Every option below claims to show text from [[354, 650], [706, 650], [706, 738], [354, 738]] — which one is actually correct? Options:\nA. 孙中山敬居\nB. 孙中山故屠\nC. 孙串山故居\nD. 孙中山故居",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the bounding box [[353.67862620291373, 649.7009613516575], [705.577360380129, 649.7009613516575], [705.577360380129, 738.3085562883664], [353.67862620291373, 738.3085562883664]], are the label(s) '孙中山故居' inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the word(s) you see inside the region [[348, 646], [700, 646], [700, 734], [348, 734]]. ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据坐标[[581,494], [929,506], [933,582], [584,575]]所在区域的文字，将名称补充完整：\"孙中____故居\"。",
+              "answer": "山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text(s) found inside [[348, 646], [700, 646], [700, 734], [348, 734]]? Options:\nA. 孙中山故屠\nB. 孙中山敬居\nC. 孙中山故居\nD. 孙串山故居",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[347.88089864728096, 645.6201055995338], [699.779632824496, 645.6201055995338], [699.779632824496, 734.2277005362427], [347.88089864728096, 734.2277005362427]], do you find the label(s) '孙中山敬居'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible inside the region [[351, 640], [703, 640], [703, 728], [351, 728]]. ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[683,457], [1031,469], [1035,546], [686,538]]处显示的是一个地名，其中有部分字符缺失，请将其补全：\"孙中山____\"。",
+              "answer": "故居"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text(s) shown in [[351, 640], [703, 640], [703, 728], [351, 728]]. Options:\nA. 孙中山故屠\nB. 孙中山敬居\nC. 孙串山故居\nD. 孙中山故居",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[351.31848744481334, 639.5018338745012], [703.2172216220285, 639.5018338745012], [703.2172216220285, 728.1094288112101], [351.31848744481334, 728.1094288112101]]: do the label(s) '孙中山敬居' appear within that region?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out inside the bounding box [[348, 634], [700, 634], [700, 723], [348, 723]]? ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标[[763,401], [1108,409], [1115,490], [768,489]]对应的文本有部分内容缺失，请填写完整该名称：\"孙中____故居\"。",
+              "answer": "山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options given, which correctly represents the text(s) inside [[348, 634], [700, 634], [700, 723], [348, 723]]? Options:\nA. 孙中山故屠\nB. 孙串山故居\nC. 孙中山故居\nD. 孙中山敬居",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At region [[348.04473516786754, 633.8932439666643], [699.9434693450828, 633.8932439666643], [699.9434693450828, 722.5008389033732], [348.04473516786754, 722.5008389033732]], is '孙中山敬居' one of the label(s) present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you see in the area bounded by [[349, 627], [701, 627], [701, 715], [349, 715]]. ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "给定坐标[[827,363], [1173,370], [1179,452], [832,451]]区域内的建筑名称有字符缺失，请将其补全：\"孙____故居\"。",
+              "answer": "中山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices provided, which one contains the text(s) visible at [[349, 627], [701, 627], [701, 715], [349, 715]]? Options:\nA. 孙串山故居\nB. 孙中山故居\nC. 孙中山敬居\nD. 孙中山故屠",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Bounding box [[348.72094949757536, 626.5817034797684], [700.6196836747904, 626.5817034797684], [700.6196836747904, 715.1892984164773], [348.72094949757536, 715.1892984164773]] — does it contain the label(s) '孙中山敬居'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) that appear within the region [[350, 623], [702, 623], [702, 712], [350, 712]]. ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请观察坐标[[842,319], [1187,326], [1193,407], [847,403]]处的文字，并填入缺少的部分以还原建筑名称：\"孙中山____\"。",
+              "answer": "故居"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option below captures the text(s) found inside [[350, 623], [702, 623], [702, 712], [350, 712]]. Options:\nA. 孙中山故居\nB. 孙中山故屠\nC. 孙串山故居\nD. 孙中山敬居",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the region marked as [[350.3908135056898, 623.3629041116799], [702.2895476829049, 623.3629041116799], [702.2895476829049, 711.9704990483888], [350.3908135056898, 711.9704990483888]], can you find the label(s) '孙中山故居'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible in the area defined by [[360, 613], [712, 613], [712, 701], [360, 701]]. ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[714,291], [1061,306], [1067,387], [719,376]]的区域内有文字缺失，请找出并填入缺少的部分：\"孙中____故居\"。",
+              "answer": "山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on the text(s) you see inside [[360, 613], [712, 613], [712, 701], [360, 701]], which answer choice is correct? Options:\nA. 孙中山敬居\nB. 孙中山故屠\nC. 孙中山故居\nD. 孙串山故居",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given bounding box [[360.39355173975963, 612.8442213624579], [712.2922859169748, 612.8442213624579], [712.2922859169748, 701.4518162991668], [360.39355173975963, 701.4518162991668]], verify whether the label(s) '孙中山故居' fall inside it — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0264/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0264/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you see inside [[363, 602], [715, 602], [715, 691], [363, 691]]. ________",
+              "answer": [
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[563,297], [908,313], [911,395], [565,385]]范围内的文字写了什么？请补全：\"孙____故居\"。",
+              "answer": "中山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[363, 602], [715, 602], [715, 691], [363, 691]], which answer choice matches the text shown there? Options:\nA. 孙中山故屠\nB. 孙串山故居\nC. 孙中山故居\nD. 孙中山敬居",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[362.68054338316057, 602.4150368131017], [714.5792775603758, 602.4150368131017], [714.5792775603758, 691.0226317498106], [362.68054338316057, 691.0226317498106]], do you actually see the label(s) '孙中山敬居'?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0264"
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[958, 11], [1283, 11], [1283, 693], [958, 693]], what word(s) can you read? ________",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The coordinates [[989,632], [1228,590], [1230,658], [990,693]] highlight a street sign — what goes in the blank to complete \"Jin____ St\"?",
+              "answer": "rong"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text(s) visible inside [[997, 11], [1283, 11], [1283, 357], [997, 357]]. Options:\nA. 桂湾五路, 金 融 街, 东人\nB. 桂湾五路, 东人, E\nC. Guiwen 5th Rd, 东人, E\nD. E, 东人, Guiwen 5th Rd",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[997, 11], [1283, 11], [1283, 357], [997, 357]] actually contain the label(s) '东人, E, Guiwan 5th Rd'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you tell me what text appears inside [[958, 11], [1283, 11], [1283, 696], [958, 696]]? ________",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1236,33], [1277,23], [1278,74], [1237,82]] 处标注了一段文字，请补全其中 \"东____\" 缺失的内容。",
+              "answer": "人"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[997, 11], [1283, 11], [1283, 357], [997, 357]], which of the following options correctly lists the text(s) there? Options:\nA. Guiwan 5th Rd, F, 东人\nB. 东人, Guiwan 5th Rd, E\nC. F, Guiwan 5th Rd, 东人\nD. 桂湾五路, 金 融 街, Guiwan 5th Rd",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it correct that the label(s) '桂湾五路, Guiwan 5th Rd, E' can be found within [[997, 11], [1283, 11], [1283, 357], [997, 357]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[957.6495726495727, 10.918114143920596], [1283.2905982905984, 10.918114143920596], [1283.2905982905984, 693.1034482758621], [957.6495726495727, 693.1034482758621]], what word(s) can you make out? ________",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中 [[1034,178], [1316,93], [1320,215], [1037,288]] 位置标注的文字里，\"桂湾____路\" 里缺少了什么？请补全。",
+              "answer": "五"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area marked by [[997, 11], [1283, 11], [1283, 357], [997, 357]] and select the option that accurately names the text(s) there. Options:\nA. E, Guiwen 5th Rd, 东人\nB. 东人, 金 融 街, Guiwan 5th Rd\nC. E, 东人, 桂湾五路\nD. Jinrong St, E, 东人",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[957.6495726495727, 10.918114143920596], [1283.2905982905984, 10.918114143920596], [1283.2905982905984, 693.1034482758621], [957.6495726495727, 693.1034482758621]], would you find the label(s) '东个, Jinrong St, E, 金 融 街, Guiwan 5th Rd, 桂湾五路'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text is visible inside the region [[958.931623931624, 456.83760683760687], [1258.931623931624, 456.83760683760687], [1258.931623931624, 691.25], [958.931623931624, 691.25]]? ________",
+              "answer": [
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据坐标 [[1309,11], [1351,1], [1352,52], [1310,61]] 所示的文本，把短语 \"东____\" 补充完整。",
+              "answer": "人"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text(s) visible in [[997, 11], [1283, 11], [1283, 357], [997, 357]], which answer below is correct? Options:\nA. 东人, Guiwen 5th Rd, E\nB. E, 金 融 街, 桂湾五路\nC. 东人, 桂湾五路, Guiwen 5th Rd\nD. 桂湾五路, E, Guiwan 5th Rd",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '桂湾五路, E, 金 融 街, Guiwan 5th Rd, 东人, Jinreng St' actually appear within [[958.931623931624, 10.918114143920596], [1283.2905982905984, 10.918114143920596], [1283.2905982905984, 691.25], [958.931623931624, 691.25]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the area at [[967.1594720328899, 7.75355718189528], [1291.5184463918642, 7.75355718189528], [1291.5184463918642, 688.8888888888889], [967.1594720328899, 688.8888888888889]], which word(s) do you see there? ________",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[1141,275], [1406,207], [1408,267], [1140,330]] is part of a street name — fill in the missing bit: \"Guiwan ____ Rd\".",
+              "answer": "5th"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that matches the text(s) you can see in [[967, 8], [1292, 8], [1292, 689], [967, 689]]. Options:\nA. 金 融 街, Guiwan 5th Rd, Jinrong St, 桂湾五路, E\nB. 桂湾五路, Guiwan 5th Rd, 金 融 街, E, 东个\nC. 桂湾五路, 东人, F, Jinrong St, 金 融 街\nD. 东人, E, 桂湾五路, Jinrang St, 金 融 街",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'Jinrong St, 金 融 街, Guiwan 5th Rd, F, 东人, 桂湾五路' appearing inside the box marked [[967.1594720328899, 7.75355718189528], [1291.5184463918642, 7.75355718189528], [1291.5184463918642, 688.8888888888889], [967.1594720328899, 688.8888888888889]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[972.1274207508386, 1.50355718189528], [1297.7684463918642, 1.50355718189528], [1297.7684463918642, 683.7478362003679], [972.1274207508386, 683.7478362003679]], what word(s) appear in that region? ________",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the text found at coordinates [[1184,275], [1450,207], [1451,267], [1184,330]], fill in the missing part to complete the street name: \"Guiwan ____ Rd\".",
+              "answer": "5th"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options provided, which one best captures the text(s) visible at [[972, 94], [1298, 94], [1298, 684], [972, 684]]? Options:\nA. Jinrong St, 金 融 街, 桂湾五路\nB. Guiwan 5th Rd, 桂渧五路, 金 融 街\nC. 桂湾五路, Guiwen 5th Rd, Jinrong St\nD. Jinrong St, 金 融 街, E",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[972.1274207508386, 1.50355718189528], [1297.7684463918642, 1.50355718189528], [1297.7684463918642, 683.7478362003679], [972.1274207508386, 683.7478362003679]] — is 'Jinrong St, E, Guiwan 5th Rd, 东人' among the label(s) shown there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Check the box at [[974.6274207508386, 448.6730498755816], [1275.9094720328899, 448.6730498755816], [1275.9094720328899, 684.9978362003679], [974.6274207508386, 684.9978362003679]] and write down the word(s) you find there. ________",
+              "answer": [
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What letter(s) are missing from \"Jinro____ St\" in the area marked by [[1205,601], [1446,558], [1448,626], [1206,662]]?",
+              "answer": "ng"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[975, 95], [1300, 95], [1300, 685], [975, 685]], which option best matches the text(s) shown there? Options:\nA. 釜 融 街, Jinrong St, Guiwan 5th Rd\nB. Guiwan 5th Rd, 金 融 街, Jinrong St\nC. Jinrong St, Guiwan 5th Rd, 东人\nD. Jinrong St, 金 融 街, E",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the area defined by [[974.6274207508386, 2.75355718189528], [1300.2684463918642, 2.75355718189528], [1300.2684463918642, 684.9978362003679], [974.6274207508386, 684.9978362003679]] contain the label(s) '桂湾五路, E, 东人, Guiwan 5th Rd'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the text inside [[973.3774207508386, 2.75355718189528], [1299.0184463918642, 2.75355718189528], [1299.0184463918642, 684.9978362003679], [973.3774207508386, 684.9978362003679]]? The word(s) there is/are ________.",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text visible at [[1260,616], [1501,573], [1503,641], [1261,677]], what fills in the blank to complete \"Jin____ St\"?",
+              "answer": "rong"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches what's written in the region [[1013, 3], [1299, 3], [1299, 349], [1013, 349]]. Options:\nA. Guiwan 5th Rd, 桂湾五路, 金 融 街\nB. E, 桂渧五路, 东人\nC. 桂湾五路, F, Guiwan 5th Rd\nD. 桂湾五路, 东人, Guiwan 5th Rd",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Guiwen 5th Rd, 桂湾五路, 金 融 街, Jinrong St, E, 东人' can be found inside [[973.3774207508386, 2.75355718189528], [1299.0184463918642, 2.75355718189528], [1299.0184463918642, 684.9978362003679], [973.3774207508386, 684.9978362003679]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the box [[975.8774207508386, 1.50355718189528], [1301.5184463918642, 1.50355718189528], [1301.5184463918642, 683.7478362003679], [975.8774207508386, 683.7478362003679]], what word(s) appear? The word(s) is/are ________.",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text visible at [[1569,31], [1590,23], [1590,56], [1570,62]], what letter(s) should go in the blank to complete \"____\"?",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options lists the text(s) you see in [[1016, 2], [1302, 2], [1302, 347], [1016, 347]]? Options:\nA. 桂渧五路, E, 东人\nB. E, 东人, Guiwen 5th Rd\nC. 东人, Guiwan 5th Rd, E\nD. 金 融 街, 桂湾五路, 东人",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'E, Guiwan 5th Rd, Jinrong St, 东人' among the labels visible within [[975.8774207508386, 1.50355718189528], [1301.5184463918642, 1.50355718189528], [1301.5184463918642, 683.7478362003679], [975.8774207508386, 683.7478362003679]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[975.8774207508386, 1.50355718189528], [1301.5184463918642, 1.50355718189528], [1301.5184463918642, 683.7478362003679], [975.8774207508386, 683.7478362003679]] — the word(s) found there is/are ________.",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请观察坐标 [[1317,207], [1599,122], [1603,245], [1320,318]] 范围内的文字，\"桂湾五____\" 中缺失的内容是什么？",
+              "answer": "路"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[976, 2], [1302, 2], [1302, 684], [976, 684]] — which answer choice correctly identifies the text(s) there? Options:\nA. Guiwan 5th Rd, 东人, 金 融 街, 桂湾五路, Jinrong St\nB. Guiwan 5th Rd, Jinrong St, 桂渧五路, 金 融 街, E\nC. Jinrong St, F, 金 融 街, 桂湾五路, Guiwan 5th Rd\nD. Guiwan 5th Rd, Jinrang St, 桂湾五路, 金 融 街, 东人",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot the label(s) '桂湾五路, E, Guiwan 5th Rd' anywhere inside [[1016, 2], [1302, 2], [1302, 347], [1016, 347]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does [[977.1274207508386, 5.25355718189528], [1302.7684463918642, 5.25355718189528], [1302.7684463918642, 687.4978362003679], [977.1274207508386, 687.4978362003679]] contain? The word(s) is/are ________.",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at coordinates [[1581,54], [1602,47], [1603,80], [1582,86]], the text has a gap — which letter(s) complete \"____\"?",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that correctly reflects the text(s) in [[1017, 5], [1303, 5], [1303, 351], [1017, 351]]. Options:\nA. 东个, E, Guiwan 5th Rd\nB. 金 融 街, Guiwan 5th Rd, 桂湾五路\nC. 桂湾五路, Guiwan 5th Rd, 东人\nD. E, 桂湾五路, Guiwen 5th Rd",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[977.1274207508386, 5.25355718189528], [1302.7684463918642, 5.25355718189528], [1302.7684463918642, 687.4978362003679], [977.1274207508386, 687.4978362003679]], do you see the label(s) 'E, 东人, 桂湇五路, 金 融 街, Jinrong St, Guiwan 5th Rd'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0122/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0122/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) visible inside [[975.8774207508386, 7.75355718189528], [1306.5184463918642, 7.75355718189528], [1306.5184463918642, 683.7478362003679], [975.8774207508386, 683.7478362003679]] — the word(s) is/are ________.",
+              "answer": [
+                "E",
+                "东人",
+                "桂湾五路",
+                "Guiwan 5th Rd",
+                "金 融 街",
+                "Jinrong St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1316,233], [1599,147], [1602,270], [1319,343]] 所框定的区域中有一段文字，\"桂湾____路\" 里空缺的是哪个字符？",
+              "answer": "五"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly names the text(s) visible in [[976, 8], [1307, 8], [1307, 684], [976, 684]]? Options:\nA. Ouiwan 5th Rd, E, 东人, Jinrong St, 桂湾五路\nB. 东人, 桂湾五路, Guiwen 5th Rd, Jinrong St, 金 融 街\nC. Guiwan 5th Rd, E, 金 融 街, 东人, 桂湾五路\nD. Jinrang St, 东人, 金 融 街, E, Guiwan 5th Rd",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '金 融 街, 桂湾五路, Jinrong St, E' appears as a label inside the area [[975.8774207508386, 7.75355718189528], [1306.5184463918642, 7.75355718189528], [1306.5184463918642, 683.7478362003679], [975.8774207508386, 683.7478362003679]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0122"
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the bounding box [[270, 668], [1510, 668], [1510, 899], [270, 899]] and name the word(s) you see. ________.",
+              "answer": [
+                "EV Charging Stations",
+                "DO NOT ENTER",
+                "ENTER HERE",
+                "CLEARANCE 8'2＂",
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Spotted at [[957,796], [1049,797], [1050,811], [955,811]] is the text \"CLEARANCE 8'____\" — what character(s) complete it?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices listed, pick the one that correctly reflects what's written in [[867, 668], [1510, 668], [1510, 899], [867, 899]]. Options:\nA. ADVERTENCIA, ENIER HERE, CLEARANCE 8'2＂\nB. ADVERTENCIA, ENTER HERE, EV Charging Stations\nC. ENIER HERE, ADVERTENCIA, EV Charging Stations\nD. ADVERTENCIA, ENTER HERE, DO NOT ENTER",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that 'ADVERTENCIA, CLEARANCE 8'2＂, EV Charging Stations, ENTER HERE' are all present within the bounding box [[270.0, 668.4705882352941], [1509.5614035087722, 668.4705882352941], [1509.5614035087722, 899.1228070175437], [270.0, 899.1228070175437]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focus on the bounding box [[858, 667], [1501, 667], [1501, 899], [858, 899]] — what word(s) does it contain? ________.",
+              "answer": [
+                "EV Charging Stations",
+                "ENTER HERE",
+                "CLEARANCE 8'2＂",
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A warning at [[220,732], [500,735], [500,770], [220,768]] reads \"DO NOT ____\" — what word(s) complete that directive?",
+              "answer": "ENTER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option best describes the text(s) found within [[266, 667], [1128, 667], [1128, 810], [266, 810]]? Options:\nA. EV Charging Stations, DO NOT ENTER, ADVERTENCIA\nB. DO NOT ENTER, ENTER HERE, CLEARANCE 8'2＂\nC. ENTER HERE, OO NOT ENTER, EV Charging Stations\nD. EV Charging Stations, ENIER HERE, DO NOT ENTER",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'CLEARANCE 8'2＂, DO NOT ENTER, EV Charging Stations, AOVERTENCIA, ENTER HERE' are all contained within the bounding box [[265.56962025316454, 667.2941176470588], [1500.826463749736, 667.2941176470588], [1500.826463749736, 898.5203973789895], [265.56962025316454, 898.5203973789895]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible within [[259.14705882352945, 660.8834951456311], [1495.3520111949913, 660.8834951456311], [1495.3520111949913, 897.060543364391], [259.14705882352945, 897.060543364391]]. The answer is ________.",
+              "answer": [
+                "EV Charging Stations",
+                "DO NOT ENTER",
+                "ENTER HERE",
+                "CLEARANCE 8'2＂",
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[782,725], [1032,725], [1032,764], [782,764]], the sign reads \"E____ER HERE\" — what word fills the blank?",
+              "answer": "NT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[259, 744], [1495, 744], [1495, 897], [259, 897]], which answer option correctly lists the text(s) shown there? Options:\nA. EV Charging Stations, DO NOT ENTER, CLEARANCE 8'2＂\nB. ADVEPTENCIA, CLEARANCE 8'2＂, DO NOT ENTER\nC. DO NOT ENTER, CLEARANCE 8'2＂, ADVERTENCIA\nD. ENIER HERE, DO NOT ENTER, CLEARANCE 8'2＂",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[259, 661], [1120, 661], [1120, 809], [259, 809]], are the label(s) 'ENTER HERE, ADVERTENCIA, CLEARANCE 8'2＂, DO NOT ENTER, EV Charging Stations' visible?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[1421.0869566667789, 876.53738863071], [1489.9466057895859, 876.53738863071], [1489.9466057895859, 892.7927927927929], [1421.0869566667789, 892.7927927927929]]. The answer is ________.",
+              "answer": [
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"E____ Charging Stations\" appears at coordinates [[762,631], [1005,633], [1004,666], [762,663]]. What word(s) belong in the blank?",
+              "answer": "V"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that matches the text(s) found at [[844, 659], [1490, 659], [1490, 893], [844, 893]]. Options:\nA. ENTER HERE, ADVERTENCIA, DO NOT ENTER\nB. ADVERTENCIA, ENTER HERE, CLEARAWCE 8'2＂\nC. ENIER HERE, ADVERTENCIA, CLEARANCE 8'2＂\nD. ADVERTENCIA, EV Charging Stations, CLEARANCE 8'2＂",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At location [[254.0, 659.0], [1489.9466057895859, 659.0], [1489.9466057895859, 892.7927927927929], [254.0, 892.7927927927929]], are the label(s) 'ADVERTENCIA, EV Charging Stations, CLEARANCE 8'2＂, DO NOT ENTER' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can find inside [[1417.7057356608482, 875.2905058376925], [1486.5336658354117, 875.2905058376925], [1486.5336658354117, 891.5459099997754], [1417.7057356608482, 891.5459099997754]]. The answer is ________.",
+              "answer": [
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A directive reading \"DO NOT E____\" sits at coordinates [[286,733], [560,733], [560,766], [286,766]] — what word(s) go in the blank?",
+              "answer": "NTER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one correctly captures the text(s) seen at [[840, 661], [1487, 661], [1487, 892], [840, 892]]? Options:\nA. CLEARANCE 8'2＂, ENTER HERE, EV Charging Stations\nB. DO NOT ENTER, EV Charging Stations, ENTER HERE\nC. CLEARAWCE 8'2＂, ADVERTENCIA, EV Charging Stations\nD. ADVERTENCIA, EV Charging Stations, CLEARAWCE 8'2＂",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'EV Charging Stations, CLEARANCE 8'2＂, ADVERTENCIA' fall within the bounding box [[840, 661], [1487, 661], [1487, 892], [840, 892]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) that appear within the box [[1414.702732657845, 873.7890043361909], [1483.5306628324086, 873.7890043361909], [1483.5306628324086, 890.0444084982738], [1414.702732657845, 890.0444084982738]]. The answer is ________.",
+              "answer": [
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Displayed at coordinates [[217,253], [271,257], [245,654], [191,651]] is \"P____K\" — what are the missing character(s)?",
+              "answer": "AR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options lists the text(s) found at [[244, 655], [1108, 655], [1108, 778], [244, 778]]? Select the right one. Options:\nA. DO NOT ENTER, CLEARANCE 8'2＂\nB. EV Charging Stations, DO NOT ENTER\nC. EV Charging Stations, OO NOT ENTER\nD. ENTER HERE, FV Charging Stations",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the bounding box [[244, 655], [1108, 655], [1108, 805], [244, 805]], are the label(s) 'ENTER HERE, DO NOT ENTER, EV Charging Stations' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the word(s) found at [[240.0, 657.0], [1479.5217541464397, 657.0], [1479.5217541464397, 888.0399541552894], [240.0, 888.0399541552894]]. The answer is ________.",
+              "answer": [
+                "EV Charging Stations",
+                "DO NOT ENTER",
+                "ENTER HERE",
+                "CLEARANCE 8'2＂",
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Sign at [[1152,685], [1401,679], [1402,712], [1153,719]] reads \"____ Charging Stations\" — what word(s) fill the blank?",
+              "answer": "EV"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[240, 657], [1103, 657], [1103, 803], [240, 803]] and select the option that contains those text(s). Options:\nA. EV Charging Stations, DO NOT ENTER, CLEARANCE 8'2＂\nB. CLEARAWCE 8'2＂, EV Charging Stations, DO NOT ENTER\nC. ENIER HERE, CLEARANCE 8'2＂, EV Charging Stations\nD. EV Charging Stations, ENTER HERE, ADVERTENCIA",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over at bounding box [[240.0, 657.0], [1479.5217541464397, 657.0], [1479.5217541464397, 888.0399541552894], [240.0, 888.0399541552894]], are the label(s) 'DO NOT ENTER, ENTER HERE, EV Charging Stations, CLEARANCE 8'2＂, AOVERTENCIA' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) that sit inside [[237.18446601941756, 655.0], [1473.7860932985593, 655.0], [1473.7860932985593, 886.0449416864615], [237.18446601941756, 886.0449416864615]]. The answer is ________.",
+              "answer": [
+                "EV Charging Stations",
+                "DO NOT ENTER",
+                "ENTER HERE",
+                "CLEARANCE 8'2＂",
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What characters are missing to complete \"PA____\" at bounding box [[287,202], [341,204], [319,634], [265,631]]?",
+              "answer": "RK"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Whatever text(s) appear at [[237, 739], [1474, 739], [1474, 886], [237, 886]] — which option matches? Options:\nA. DO NOT ENTER, CLEARANCE 8'2＂, ADVEPTENCIA\nB. ENTER HERE, ADVERTENCIA, CLEARANCE 8'2＂\nC. CLEARANCE 8'2＂, ADVERTENCIA, OO NOT ENTER\nD. EV Charging Stations, DO NOT ENTER, ENTER HERE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "All four of these labels — 'ENTER HERE, CLEARANCE 8'2＂, EV Charging Stations, ADVERTENCIA, DO NOT ENTER' — are they each found within the bounding box [[237, 655], [1098, 655], [1098, 801], [237, 801]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever word(s) appear inside the bounding box [[1400, 867], [1469, 867], [1469, 883], [1400, 883]]. The answer is ________.",
+              "answer": [
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Pinpoint the missing letter(s) in \"ADV____\" as shown at coordinates [[1876,872], [1919,872], [1919,888], [1876,888]].",
+              "answer": "ERT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options listed, which one accurately includes the text(s) visible at [[230, 735], [1469, 735], [1469, 883], [230, 883]]? Options:\nA. ENTER HERE, ADVEPTENCIA, CLEARANCE 8'2＂\nB. ADVERTENCIA, DO NOT ENTER, ENTER HERE\nC. ADVEPTENCIA, DO NOT ENTER, CLEARANCE 8'2＂\nD. ADVERTENCIA, EV Charging Stations, DO NOT ENTER",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the region [[230, 655], [1094, 655], [1094, 798], [230, 798]], do you see the label(s) 'EV Charging Stations, DO NOT ENTER, ENTER HERE' appearing inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown inside the bounding box [[1398, 866], [1467, 866], [1467, 883], [1398, 883]]: ________",
+              "answer": [
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at coordinates [[1165,714], [1449,699], [1451,739], [1167,754]] reads \"EV Charg____ Stations\" — what word fills the gap?",
+              "answer": "ing"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text found inside [[818, 649], [1467, 649], [1467, 883], [818, 883]]? Options:\nA. EV Charging Stations, ADVERTENCIA, CLEARAWCE 8'2＂\nB. ENTER HERE, ADVERTENCIA, CLEARANCE 8'2＂\nC. ENTER HERE, CLEARANCE 8'2＂, FV Charging Stations\nD. EV Charging Stations, DO NOT ENTER, CLEARANCE 8'2＂",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region defined by [[228.0, 649.0], [1466.889161864115, 649.0], [1466.889161864115, 882.7348550618835], [228.0, 882.7348550618835]], do the label(s) 'EV Charging Stations, DO NOT ENTER, ADVERTENCIA, CLEARANCE 8'2＂' actually appear?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside the bounding box [[1393, 866], [1462, 866], [1462, 882], [1393, 882]] and write it down: ________",
+              "answer": [
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region at [[136,939], [188,940], [188,955], [135,954]] shows a partially obscured word: \"WA____NG.\" — what are the missing letter(s)?",
+              "answer": "RNI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly identifies the text(s) in [[220, 732], [1462, 732], [1462, 882], [220, 882]]? Options:\nA. CLEARANCE 8'2＂, ENTER HERE, DO NOT ENTER\nB. ENTER HERE, ADVERTENCIA, EV Charging Stations\nC. CLEARANCE 8'2＂, ENIER HERE, ADVERTENCIA\nD. ENTER HERE, ADVEPTENCIA, DO NOT ENTER",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area marked by [[220.0, 654.2967032967033], [1462.1074570824103, 654.2967032967033], [1462.1074570824103, 881.9032542302828], [220.0, 881.9032542302828]], are the label(s) 'EV Charging Stations, ENIER HERE, CLEARANCE 8'2＂, DO NOT ENTER, ADVERTENCIA' visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0094/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0094/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) can you spot inside [[216.0, 653.9304029304029], [1456.2578749097083, 653.9304029304029], [1456.2578749097083, 879.1177389099486], [216.0, 879.1177389099486]]? ________",
+              "answer": [
+                "EV Charging Stations",
+                "DO NOT ENTER",
+                "ENTER HERE",
+                "CLEARANCE 8'2＂",
+                "ADVERTENCIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1152,800], [1440,797], [1440,838], [1152,842]] reads \"EN____ HERE\" — what word comes before HERE?",
+              "answer": "TER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches what's written inside [[216, 733], [1456, 733], [1456, 879], [216, 879]]. Options:\nA. CLEARANCE 8'2＂, EV Charging Stations, ADVERTENCIA\nB. CLEARANCE 8'2＂, DO NOT ENTER, ENTER HERE\nC. ENTER HERE, ADVERTENCIA, OO NOT ENTER\nD. OO NOT ENTER, ADVERTENCIA, CLEARANCE 8'2＂",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'EV Charging Stations, CLEARANCE 8'2＂, ADVERTENCIA' fall within the area indicated by [[812, 654], [1456, 654], [1456, 879], [812, 879]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0094"
+  }
+]

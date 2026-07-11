@@ -1,0 +1,312 @@
+{
+  "video_id": "C0316",
+  "frames": 120,
+  "word": "PRESCRIPTION PICK-UP",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0316.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"PRESCRIPTION PICK-UP\" likely to be?\n Options:\nA. address or street sign\nB. general scene text\nC. warning or prohibition sign\nD. direction or navigation sign\nE. storefront or brand sign\nF. event or poster information\nG. menu or commercial information",
+      "q": "What type of sign would you say the text \"PRESCRIPTION PICK-UP\" belongs to?\n Options:\nA. address or street sign\nB. general scene text\nC. warning or prohibition sign\nD. direction or navigation sign\nE. storefront or brand sign\nF. event or poster information\nG. menu or commercial information",
+      "a": "D",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. address or street sign",
+        "B. general scene text",
+        "C. warning or prohibition sign",
+        "D. direction or navigation sign",
+        "E. storefront or brand sign",
+        "F. event or poster information",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you say the text \"PRESCRIPTION PICK-UP\" belongs to?\n Options:\nA. address or street sign\nB. general scene text\nC. warning or prohibition sign\nD. direction or navigation sign\nE. storefront or brand sign\nF. event or poster information\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"PRESCRIPTION PICK-UP\" appear in?\n Options:\nA. storefront\nB. transportation / station\nC. event poster or display\nD. road or street\nE. restaurant or menu\nF. other public sign\nG. warning / rule sign\nH. campus or office",
+      "q": "What setting does the label \"PRESCRIPTION PICK-UP\" suggest the video is filmed in?\n Options:\nA. storefront\nB. transportation / station\nC. event poster or display\nD. road or street\nE. restaurant or menu\nF. other public sign\nG. warning / rule sign\nH. campus or office",
+      "a": "A",
+      "a_text": "storefront",
+      "answer_key": "storefront",
+      "options": [
+        "A. storefront",
+        "B. transportation / station",
+        "C. event poster or display",
+        "D. road or street",
+        "E. restaurant or menu",
+        "F. other public sign",
+        "G. warning / rule sign",
+        "H. campus or office"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What setting does the label \"PRESCRIPTION PICK-UP\" suggest the video is filmed in?\n Options:\nA. storefront\nB. transportation / station\nC. event poster or display\nD. road or street\nE. restaurant or menu\nF. other public sign\nG. warning / rule sign\nH. campus or office"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"PRESCRIPTION PICK-UP\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)",
+      "q": "Across the clip, which area of the screen does \"PRESCRIPTION PICK-UP\" tend to occupy?\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. top-right (upper-right area)",
+        "C. top-left (upper-left area)",
+        "D. bottom-left (lower-left area)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Across the clip, which area of the screen does \"PRESCRIPTION PICK-UP\" tend to occupy?\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"PRESCRIPTION PICK-UP\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "Roughly how far does the text \"PRESCRIPTION PICK-UP\" shift from where it starts to where it ends?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Roughly how far does the text \"PRESCRIPTION PICK-UP\" shift from where it starts to where it ends?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"PRESCRIPTION PICK-UP\" move?\n Options:\nA. moves down\nB. moves right\nC. changes direction partway\nD. moves up\nE. moves left\nF. stays roughly in place\nG. moves diagonally",
+      "q": "Which direction does \"PRESCRIPTION PICK-UP\" generally travel over the video?\n Options:\nA. moves down\nB. moves right\nC. changes direction partway\nD. moves up\nE. moves left\nF. stays roughly in place\nG. moves diagonally",
+      "a": "A",
+      "a_text": "moves down",
+      "answer_key": "moves down",
+      "options": [
+        "A. moves down",
+        "B. moves right",
+        "C. changes direction partway",
+        "D. moves up",
+        "E. moves left",
+        "F. stays roughly in place",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"PRESCRIPTION PICK-UP\" generally travel over the video?\n Options:\nA. moves down\nB. moves right\nC. changes direction partway\nD. moves up\nE. moves left\nF. stays roughly in place\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"PRESCRIPTION PICK-UP\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-right -> bottom-right\nB. bottom-left -> center -> bottom-right\nC. center -> center -> top-left\nD. center -> center -> bottom-right",
+      "q": "Can you describe where \"PRESCRIPTION PICK-UP\" sits near the start, in the middle, and toward the end of the clip?\n Options:\nA. center -> top-right -> bottom-right\nB. bottom-left -> center -> bottom-right\nC. center -> center -> top-left\nD. center -> center -> bottom-right",
+      "a": "D",
+      "a_text": "center -> center -> bottom-right",
+      "answer_key": "center -> center -> bottom-right",
+      "options": [
+        "A. center -> top-right -> bottom-right",
+        "B. bottom-left -> center -> bottom-right",
+        "C. center -> center -> top-left",
+        "D. center -> center -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you describe where \"PRESCRIPTION PICK-UP\" sits near the start, in the middle, and toward the end of the clip?\n Options:\nA. center -> top-right -> bottom-right\nB. bottom-left -> center -> bottom-right\nC. center -> center -> top-left\nD. center -> center -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"PRESCRIPTION PICK-UP\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)",
+      "q": "How big does \"PRESCRIPTION PICK-UP\" appear relative to the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)",
+      "a": "D",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. very large (dominates the frame)",
+        "C. large (a major part of the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How big does \"PRESCRIPTION PICK-UP\" appear relative to the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"PRESCRIPTION PICK-UP\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "q": "Does the text \"PRESCRIPTION PICK-UP\" grow, shrink, or hold roughly the same size as the video runs?\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. gets smaller",
+        "C. size fluctuates (goes up and down)",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does the text \"PRESCRIPTION PICK-UP\" grow, shrink, or hold roughly the same size as the video runs?\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"PRESCRIPTION PICK-UP\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "q": "Is \"PRESCRIPTION PICK-UP\" tucked well within the frame, or does it sit close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. fully inside, away from the edges",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"PRESCRIPTION PICK-UP\" tucked well within the frame, or does it sit close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"PRESCRIPTION PICK-UP\" and how it appears in the video.",
+      "q": "Give a brief description of \"PRESCRIPTION PICK-UP\" — what it looks like and how it behaves in the video.",
+      "a": "The text appears in red capital letters on a white rectangular sign above a pharmacy counter.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of \"PRESCRIPTION PICK-UP\" — what it looks like and how it behaves in the video."
+    }
+  ]
+}

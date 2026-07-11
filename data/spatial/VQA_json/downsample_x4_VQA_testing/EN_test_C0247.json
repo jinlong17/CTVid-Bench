@@ -1,0 +1,528 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text enclosed by [[275, 306], [545, 306], [545, 758], [275, 758]] and write it here: ________.",
+              "answer": [
+                "MATERIALS",
+                "RETURN",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in LU____ARNEWYEAR. to name the occasion shown in the region bounded by [947.7619047619048, 563.936507936508], [1159.7619047619048, 550.936507936508], [1161.7619047619048, 578.936507936508], [949.7619047619048, 591.936507936508]].",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At [[275, 277], [1434, 277], [1434, 592], [275, 592]], which answer option correctly captures the text? Options:\nA. PayFines·Renewals, RETURN, MATERIALS, WAIT, PayFines·Renewals, CHECKOUT\nB. MATERIALS, PayFines·Renewals, HERE, RETURN, LUNARNEWYEAR, CHECKOUT\nC. PayFines·Renewals, PayFines·Renewals, CHECKOUT, RETUPN, MATERIALS, LUNARNEWYEAR\nD. LUNARNEWYEAR, PayFines·Renewals, PayFines·Renewals, MATERIALS, RETURN",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'WAIT, RETUPN, PayFines·Renewals, MATERIALS, PayFines·Renewals, CHECKOUT, CHECKOUT, LUNARNEWYEAR, HERE' appear within [[275.0, 277.4391534391534], [1433.9325842696628, 277.4391534391534], [1433.9325842696628, 757.9120879120879], [275.0, 757.9120879120879]]? Yes or no.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[512.2270300279215, 552.9607843137255], [1153.4705882352941, 552.9607843137255], [1153.4705882352941, 755.5346733504236], [512.2270300279215, 755.5346733504236]]. ________",
+              "answer": [
+                "LUNARNEWYEAR",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[448,728], [474,727], [475,736], [448,737]] has a gap — write the missing word(s): H____E",
+              "answer": "ER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one accurately reflects the text in [[269, 276], [1432, 276], [1432, 386], [269, 386]]? Options:\nA. CHECKOUT, MATERIALS, RETURN, CHECKOUT\nB. RETURN, CHECKOUT, PoyFines·Renewals, CHECKOUT, MATERIALS\nC. LUNARNEWYEAR, PayFines·Renewals, MATERIALS, CHECKOUT, RETURN\nD. CHECKOUT, MATERIALS, CHECKOUT, RETURN, PoyFines·Renewals",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm or deny: the label(s) 'PayFines·Renewals, LUNARNEWYEAR, PayFines·Renewals' are contained within [[943, 282], [1432, 282], [1432, 592], [943, 592]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[938, 280], [1428, 280], [1428, 590], [938, 590]], what text is written? Answer: ________.",
+              "answer": [
+                "CHECKOUT",
+                "CHECKOUT",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1323,325], [1405,348], [1404,371], [1322,352]], the text reads \"PayF____nes·Renewals\" with a portion missing — provide what belongs there.",
+              "answer": "i"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, pick the answer that correctly names the text inside [[938, 280], [1428, 280], [1428, 590], [938, 590]]. Options:\nA. CHECKOUT, CHECKOUT, PayFines·Renewals, PayFines·Renewals\nB. CHECKOUT, PayFines·Renewals, LUNAPNEWYEAR, CHECKOUT\nC. LUNARNEWYEAR, MATERIALS, PayFines·Renewals, CHECKOUT\nD. CNECKOUT, PayFines·Renewals, LUNARNEWYEAR, PayFines·Renewals",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'CHECKOUT, CHECKOUT, RETURN' fall inside the region [[261, 282], [1428, 282], [1428, 384], [261, 384]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can see in the area [[255.0, 273.68794326241135], [1423.8463613306392, 273.68794326241135], [1423.8463613306392, 750.0030240190715], [255.0, 750.0030240190715]]. ________",
+              "answer": [
+                "CHECKOUT",
+                "MATERIALS",
+                "CHECKOUT",
+                "RETURN",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Tucked inside [[1230,741], [1256,741], [1256,749], [1230,749]] is text reading \"H____\" — fill in the letters that are missing.",
+              "answer": "ERE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[255, 274], [1424, 274], [1424, 378], [255, 378]], which of these options correctly lists the text(s) visible there? Options:\nA. LUNARNEWYEAR, PayFines·Renewals, RETURN, CHECKOUT, MATERIALS\nB. CHECKOUT, MATERIALS, CHECKOUT, RETURN, PoyFines·Renewals\nC. PayFines·Renewals, PayFines·Renewals, RETURN, CHECKOUT, CHECKOUT\nD. MATERIALS, RETURN, PayFines·Renewals, CNECKOUT, PayFines·Renewals",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'RETURN, CHECKOUT, CHECKOUT' appear inside the bounding box [[255, 275], [1424, 275], [1424, 378], [255, 378]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) visible inside [[245.0, 268.0], [1417.4154931634366, 268.0], [1417.4154931634366, 746.7736253553743], [245.0, 746.7736253553743]]. ________",
+              "answer": [
+                "CHECKOUT",
+                "MATERIALS",
+                "CHECKOUT",
+                "RETURN",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[90,242], [300,278], [294,311], [84,276]], something's missing from \"M____LS\" — which character(s) should fill the gap?",
+              "answer": "ATERIA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately captures the text(s) inside [[245, 268], [1417, 268], [1417, 372], [245, 372]]? Options:\nA. CHECKOUT, MATERIALS, CHECKOUT, RETURN, LUNARNEWYEAR\nB. RETURN, PayFines·Renewals, PayFines·Renewals, MATERIALS\nC. MATEPIALS, PayFines·Renewals, CHECKOUT, CHECKOUT, PayFines·Renewals\nD. CHECKOUT, PayFines·Renewals, WAIT, MATERIALS, PayFines·Renewals",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[927, 272], [1417, 272], [1417, 582], [927, 582]] — are the label(s) 'CHECKOUT, CHECKOUT, LUNARNEWYEAR' visible within it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text written within the region [[237.0, 266.0], [1411.2930441838448, 266.0], [1411.2930441838448, 744.1942602760092], [237.0, 744.1942602760092]]. ________",
+              "answer": [
+                "CHECKOUT",
+                "MATERIALS",
+                "CHECKOUT",
+                "RETURN",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals",
+                "WAIT",
+                "HERE",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1184,795], [1213,795], [1213,805], [1184,805]] has a blank spot: \"H____\" — which letter(s) belong there?",
+              "answer": "ERE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text(s) you can read within [[237, 284], [512, 284], [512, 744], [237, 744]]. Options:\nA. HERE, RETURN, WAIT, MATERIALS, CHECKOUT\nB. RETURN, WAIT, WAIT, MATERIALS\nC. MATERIALS, RETURN, WAII, HERE, HERE\nD. HERE, WAIT, HERE, RETUPN, MATERIALS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within bounding box [[237.0, 266.0], [1411.2930441838448, 266.0], [1411.2930441838448, 744.1942602760092], [237.0, 744.1942602760092]], do you see the label(s) 'HERE, MATERIALS, WAIT, WAIT, HERE, LUNARNEWYEAR, RETURN'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What words appear inside the boundary [[227.0, 265.7042253521127], [1405.5052628333626, 265.7042253521127], [1405.5052628333626, 743.0055529951771], [227.0, 743.0055529951771]]? ________",
+              "answer": [
+                "CHECKOUT",
+                "MATERIALS",
+                "CHECKOUT",
+                "RETURN",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Glancing at the region [[1211,770], [1240,769], [1239,779], [1211,779]], supply the missing letter(s) needed to finish \"H____\".",
+              "answer": "ERE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, which correctly identifies what's written inside [[914, 266], [1406, 266], [1406, 579], [914, 579]]? Options:\nA. PayFines·Renewals, CHECKOUT, CHECKOUT, MATERIALS\nB. LUNARNEWYEAR, PayFines·Renewals, RETURN, CHECKOUT\nC. PayFines·Renewals, PayFines·Renewals, CNECKOUT, LUNARNEWYEAR\nD. PayFines·Renewals, CHECKOUT, CHECKOUT, PayFines·Renewals",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[227.0, 265.7042253521127], [1405.5052628333626, 265.7042253521127], [1405.5052628333626, 743.0055529951771], [227.0, 743.0055529951771]] — does it contain the label(s) 'HERE, CHECKOUT, MATFRIALS, CHECKOUT, PayFines·Renewals, RETURN, PayFines·Renewals, WAIT, LUNARNEWYEAR'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) that can be seen within [[219.0, 262.0], [1399.7379912663755, 262.0], [1399.7379912663755, 741.5641115537358], [219.0, 741.5641115537358]]. ________",
+              "answer": [
+                "CHECKOUT",
+                "MATERIALS",
+                "CHECKOUT",
+                "RETURN",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "After the letter \"W\" in the text at [[1315,794], [1344,794], [1343,804], [1315,805]], what character(s) should complete W____.?",
+              "answer": "AIT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to the region [[906, 262], [1400, 262], [1400, 574], [906, 574]], select the answer that lists the text(s) found there. Options:\nA. CNECKOUT, PayFines·Renewals, PayFines·Renewals, LUNARNEWYEAR\nB. LUNARNEWYEAR, CHECKOUT, CHECKOUT\nC. LUNARNEWYEAR, CHECKOUT, PoyFines·Renewals, CHECKOUT\nD. CHECKOUT, LUNARNEWYEAR, CHECKOUT, MATERIALS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are 'PayFines·Renewals, RETURN, CHECKOUT, CHECKOUT, PayFines·Renewals, LUNARNEWYEAR' among the labels found inside bounding box [[906, 266], [1400, 266], [1400, 574], [906, 574]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the text found at [[211.0, 261.3227513227513], [1394.7115362399204, 261.3227513227513], [1394.7115362399204, 739.9446783553551], [211.0, 739.9446783553551]]. ________",
+              "answer": [
+                "CHECKOUT",
+                "MATERIALS",
+                "CHECKOUT",
+                "RETURN",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the missing letter(s) of \"WAI____\" as it appears in the region [[345,751], [379,750], [379,761], [345,762]].",
+              "answer": "T"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the given choices, which one contains the text(s) present in [[211, 261], [1395, 261], [1395, 576], [211, 576]]? Options:\nA. HERE, PayFines·Renewals, CHECKOUT, PayFines·Renewals, LUNARNEWYEAR, CHECKOUT\nB. RETURN, MATEPIALS, PayFines·Renewals, LUNARNEWYEAR, CHECKOUT, CHECKOUT\nC. RETURN, PayFines·Renewals, CHECKOUT, CHECKOUT, PayFines·Renewals, MATERIALS\nD. CHECKOUT, LUNARNEWYEAR, PayFines·Renewals, RETURN, WAIT, PayFines·Renewals",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the region [[211.0, 261.3227513227513], [1394.7115362399204, 261.3227513227513], [1394.7115362399204, 739.9446783553551], [211.0, 739.9446783553551]], are the label(s) 'PayFines·Renewals, WAIT, MATERIALS, PayFines·Renewals, HERE, LUNARNEWYEAR' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write down the word(s) shown inside [[454.364336851986, 538.0], [1108.0, 538.0], [1108.0, 738.4446783553551], [454.364336851986, 738.4446783553551]]. ________",
+              "answer": [
+                "LUNARNEWYEAR",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the word(s) \"WA____\" found inside [[342,796], [377,796], [377,806], [343,807]], what letter(s) make up the latter portion?",
+              "answer": "IT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[454, 261], [1391, 261], [1391, 738], [454, 738]] — which option correctly names the text(s) shown? Options:\nA. CHECKOUT, HERE, PayFines·Renewals, PayFines·Renewals, CHECKOUT, LUNARNEWYEAR\nB. CHECKOUT, LUNAPNEWYEAR, HERE, CHECKOUT, WAIT, PayFines·Renewals\nC. HERE, MATERIALS, WAIT, PayFines·Renewals, CHECKOUT, CHECKOUT\nD. PayFines·Renewals, PayFines·Renewals, LUNARNEWYEAR, HERE, WAIT, RETURN",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'CHECKOUT, LUNARNEWYEAR, PayFines·Renewals, MATERIALS, PayFines·Renewals, WAIT, RETURN, HEPE, CHECKOUT' appearing inside the bounding box [[203.0, 260.64308681672026], [1391.496102156319, 260.64308681672026], [1391.496102156319, 738.4446783553551], [203.0, 738.4446783553551]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) can you read inside the region [[194.0, 260.2127659574468], [1386.8861730783049, 260.2127659574468], [1386.8861730783049, 737.144678355355], [194.0, 737.144678355355]]? ________",
+              "answer": [
+                "MATERIALS",
+                "CHECKOUT",
+                "CHECKOUT",
+                "RETURN",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the text inside [[5,294], [192,319], [187,355], [0,330]], what character(s) belong in the blank of \"RET____N\"?",
+              "answer": "UR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text inside [[890, 260], [1387, 260], [1387, 572], [890, 572]]. Options:\nA. PayFines·Renewals, PayFines·Renewals, MATERIALS, LUNARNEWYEAR\nB. LUNARNEWYEAR, CHECKOUT, CHECKOUT\nC. CHECKOUT, PoyFines·Renewals, CHECKOUT, LUNARNEWYEAR\nD. CHECKOUT, CHECKOUT, RETURN, PayFines·Renewals",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[194.0, 260.2127659574468], [1386.8861730783049, 260.2127659574468], [1386.8861730783049, 737.144678355355], [194.0, 737.144678355355]], do you find the label(s) 'CHECKDUT, PayFines·Renewals, PayFines·Renewals, LUNARNEWYEAR, WAIT, MATERIALS, RETURN, HERE'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0247/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0247/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the content of [[184.0, 256.0], [1381.7414785445428, 256.0], [1381.7414785445428, 736.944678355355], [184.0, 736.944678355355]], what word(s) appear there? ________",
+              "answer": [
+                "MATERIALS",
+                "CHECKOUT",
+                "CHECKOUT",
+                "RETURN",
+                "PayFines·Renewals",
+                "LUNARNEWYEAR",
+                "PayFines·Renewals",
+                "WAIT",
+                "HERE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text shown at [[1421,180], [1522,216], [1525,254], [1423,221]], what letter(s) should replace the blank in \"CH____KOUT\"?",
+              "answer": "EC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one contains the text found at [[886, 256], [1382, 256], [1382, 572], [886, 572]]? Options:\nA. LUNARNEWYEAR, PayFines·Renewals, PayFines·Renewals, CNECKOUT\nB. CHECKOUT, CHECKOUT, LUNARNEWYEAR\nC. LUNARNEWYEAR, PoyFines·Renewals, CHECKOUT, CHECKOUT\nD. MATERIALS, LUNARNEWYEAR, CHECKOUT, PayFines·Renewals",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'CHECKOUT, LUNARNEWYEAR, CHECKOUT, RETURN' — do they appear inside [[184, 261], [1382, 261], [1382, 572], [184, 572]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0247"
+  }
+]

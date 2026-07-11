@@ -1,0 +1,545 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the text contained in region [[822.8828828828828, 310.8108108108108], [1422.7627627627628, 310.8108108108108], [1422.7627627627628, 699.6996996996996], [822.8828828828828, 699.6996996996996]]. The word(s) is/are ________.",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[1236,492], [1415,508], [1418,542], [1239,528]] names a road — what's the missing part? Bai____ Rd.",
+              "answer": "shi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[823, 382], [1423, 382], [1423, 700], [823, 700]]? Select the right answer. Options:\nA. Yuelai, 白石, 北, Baishi Rd., Yuexiu St., 悦亲南, 悦秀街\nB. 悦亲南, Baishi Rd.S.(W.), Yuolai, 白石南路（西）, Yuexiu St., 白石, 悦秀街\nC. Baishi Rd.S.(W.), Yuelai, Yuexiu St., 白石南路（西）, Baishi Rd., 悦秀街, 悦亲南\nD. 白石南路（西）, 悦秀街, 悦亲南, Yuexiu St., Baisbi Rd.S.(W.), Baishi Rd., 白石",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[822.8828828828828, 310.8108108108108], [1422.7627627627628, 310.8108108108108], [1422.7627627627628, 699.6996996996996], [822.8828828828828, 699.6996996996996]] actually contain the label(s) '悦亲南, 悦秀街, 白石南路（西）, Baishi Rd., 北, Yuexiu St., Yuelai'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[822.8828828828828, 310.8108108108108], [1422.7627627627628, 310.8108108108108], [1422.7627627627628, 699.6996996996996], [822.8828828828828, 699.6996996996996]] — what does it say? The answer is ________.",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[832,551], [1039,569], [1040,641], [834,628]] 处标志上的文字有缺失，请补全：「悦____街」。",
+              "answer": "秀"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which answer choice matches the text visible at [[823, 311], [1142, 311], [1142, 678], [823, 678]]? Options:\nA. Yuexiu St., 白石南路（西）, Baishi Rd.S.(W.), 悅秀街\nB. Baishi Rd.S.(W.), 悦秀街, 白石南路（西）, 白石\nC. 悦秀街, Baishi Rd.S.(W.), 北, Yuexiu St.\nD. Yuexiu St., 悦秀街, 白石南路（西）, Baisbi Rd.S.(W.)",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '悦秀街, 白石, 悦亲南, Baishi Rd., 北, 白石南路（西）, Yuelai, Yucxiu St., Baishi Rd.S.(W.)' enclosed by the bounding box [[822.8828828828828, 310.8108108108108], [1422.7627627627628, 310.8108108108108], [1422.7627627627628, 699.6996996996996], [822.8828828828828, 699.6996996996996]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The region [[820, 311], [1418, 311], [1418, 700], [820, 700]] contains some text — what does it read? ________",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign sits at [[753,463], [1041,488], [1043,524], [755,503]]. What goes in the blank to complete the text? Bais____ Rd.S.(W.)",
+              "answer": "hi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text found in [[820, 382], [1418, 382], [1418, 700], [820, 700]] matches which of the following options? Options:\nA. 白石南路（西）, 悦秀街, 白磨, Yuelai, Yuexiu St., Baishi Rd.S.(W.), 悦亲南\nB. Baishi Rd., Baishi Rd.S.(W.), 悦亲南, Yuexiu St., 白石, 北, Yuelai\nC. 白石南路（西）, Baishi Rd., 悦亲南, Yuexiu St., 白石, 悦秀街, Baisbi Rd.S.(W.)\nD. 白石, 白石南路（西）, 悦亲南, 悦秀街, Yuexiu St., Baishi Rd., Yuelai",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'Yuelai, Yuexiu St., Baishi Rd., 白石南路（西）, 悦亲南, Baishi Rd.S.(W.), 北' sit inside the box defined by [[819.9992841675764, 310.8108108108108], [1417.5604506240345, 310.8108108108108], [1417.5604506240345, 700.2777343817805], [819.9992841675764, 700.2777343817805]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text is visible in the region [[820, 382], [1418, 382], [1418, 700], [820, 700]]. ________",
+              "answer": [
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is missing from the street name shown at [[1178,661], [1297,670], [1301,702], [1182,694]] — fill it in: Yue____.",
+              "answer": "lai"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "I need you to identify what's written at [[820, 311], [1138, 311], [1138, 678], [820, 678]] and pick the matching option. Options:\nA. 北, 悦秀街, 白石南踞（西）, Yuexiu St.\nB. Yuexiu St., Baishi Rd.S.(W.), 悦秀街, 玌\nC. Baishi Rd.S.(W.), 白石, 北, 悦秀街\nD. 白石南路（西）, 悦秀街, Baishi Rd.S.(W.), 北",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '白石南路（西）, Yuexiu St., 北, 白石, Baishi Rd.S.(W.), Yuelai, 悦亲南' falls inside [[819.9992841675764, 310.8108108108108], [1417.5604506240345, 310.8108108108108], [1417.5604506240345, 700.2777343817805], [819.9992841675764, 700.2777343817805]]? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at [[815, 311], [1413, 311], [1413, 700], [815, 700]] — what text do you see there? ________",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1159,576], [1222,581], [1227,648], [1165,646]] 处有段文字不完整，请把缺少的内容填上：「悦____南」。",
+              "answer": "亲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one correctly captures the text at [[815, 382], [1413, 382], [1413, 700], [815, 700]]? Options:\nA. Yuelai, 悦秀街, 悅亲南, 白石南路（西）, Baishi Rd., Yuexiu St., Baishi Rd.S.(W.)\nB. 悦亲南, Baishi Rd.S.(W.), Yuelai, 白石, Yuexiu St., Baishi Rd., 悦秀街\nC. Baishi Rd.S.(W.), 白石南路（西）, Yuexiu St., 悦秀街, Yuelai, 白石, 北\nD. 悦亲南, 悦秀街, Yuelai, Baisbi Rd.S.(W.), 白石南路（西）, 白石, Yuexiu St.",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false — the label(s) 'Yuelei, Yuexiu St., 北, 悦亲南, Baishi Rd., Baishi Rd.S.(W.), 白石南路（西）, 白石, 悦秀街' appear inside [[814.9992841675764, 310.8108108108108], [1412.5604506240345, 310.8108108108108], [1412.5604506240345, 700.2777343817805], [814.9992841675764, 700.2777343817805]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the text you see in [[812, 311], [1412, 311], [1412, 700], [812, 700]]. ________",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign at [[1192,648], [1311,657], [1315,689], [1196,681]] has a name with part of it cut off — what's missing? \"Yue____\"",
+              "answer": "lai"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on what you can read at [[812, 311], [1131, 311], [1131, 678], [812, 678]], which answer option is correct? Options:\nA. Baisbi Rd.S.(W.), 白石南路（西）, 悦秀街, 北\nB. 北, Yuexiu St., Baishi Rd.S.(W.), 悦秀街\nC. 北, Yuexiu St., 悅秀街, 白石南路（西）\nD. 北, Yuexiu St., 悦秀街, 白石",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[812, 382], [1412, 382], [1412, 700], [812, 700]] — does it contain the label(s) 'Yuexiu St., Baishi Rd.S.(W.), 北, Baishi Rd., 白石, 白石南路（西）, Yuelai, 悦秀街, 悦亲南'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text you find in the area [[813, 312], [1413, 312], [1413, 701], [813, 701]]. ________",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The street sign at [[764,641], [948,655], [949,694], [766,682]] is partially obscured — supply the missing characters: Y____iu St.",
+              "answer": "uex"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text visible in [[813, 383], [1413, 383], [1413, 701], [813, 701]]? Options:\nA. Baisbi Rd.S.(W.), Baishi Rd., 悦秀街, Yuexiu St., 悦亲南, Yuelai, 白石\nB. 白石, 白石南路（西）, Yuelai, Baishi Rd., Baishi Rd.S.(W.), Yuexiu St., 悦秀街\nC. 悦秀街, Yuoxiu St., Baishi Rd., Yuelai, Baishi Rd.S.(W.), 白石南路（西）, 悦亲南\nD. Yuelai, Yuexiu St., 白石, 悦秀街, 悦亲南, 北, Baishi Rd.S.(W.)",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '悦亲南, 悦秀街, Baishi Rd.S.(W.), 白石南路（西）, Baishi Rd., Yuexiu St.' appears inside the bounding box [[813, 383], [1413, 383], [1413, 701], [813, 701]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text found at [[813, 312], [1413, 312], [1413, 701], [813, 701]] — what does it say? It is ________.",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请将坐标[[723,592], [930,610], [931,682], [725,669]]标志上的空白处补充完整：\"悦____街\"。",
+              "answer": "秀"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The area marked by [[813, 312], [1131, 312], [1131, 678], [813, 678]] contains certain text — which answer choice matches it? Options:\nA. 悦秀街, 玌, Baishi Rd.S.(W.), Yuexiu St.\nB. Baisbi Rd.S.(W.), 悦秀街, 白石南路（西）, 北\nC. 北, Yuexiu St., Baishi Rd.S.(W.), 悦秀街\nD. 白石, Yuexiu St., 白石南路（西）, 北",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '白石, Baishi Rd.S.(W.), 北, Baishi Rd., 悦亲南, Yuelai, Yuexiu St.' falls inside the box defined by [[813.1718639500689, 311.5150361629235], [1412.631764583742, 311.5150361629235], [1412.631764583742, 700.9819597338933], [813.1718639500689, 700.9819597338933]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text sitting inside the region [[813, 312], [1413, 312], [1413, 701], [813, 701]]. It is ________.",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A street sign at [[1053,558], [1232,574], [1236,608], [1057,594]] is partially obscured — complete the name: Bai____ Rd.",
+              "answer": "shi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, pick the option that matches the text visible at [[813, 312], [1131, 312], [1131, 678], [813, 678]]. Options:\nA. Yuexiu St., Baishi Rd.S.(W.), 白石, 北\nB. Baishi Rd.S.(W.), Yuoxiu St., 白石南路（西）, 悦秀街\nC. 北, 悦秀街, Yuexiu St., 白石南路（西）\nD. Yuexiu St., 北, 悅秀街, 白石南路（西）",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Yuexiu St., Baishi Rd.S.(W.), 悦亲南, Yuelai, 悦秀街, 北, 白石南路（西）' one of the labels you can find inside [[813.1718639500689, 311.5150361629235], [1412.631764583742, 311.5150361629235], [1412.631764583742, 700.9819597338933], [813.1718639500689, 700.9819597338933]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible at [[809, 312], [1409, 312], [1409, 701], [809, 701]]. It is ________.",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1007,493], [1116,503], [1121,564], [1010,555]]处的牌子上有空缺，请把\"____石\"中缺失的内容填入。",
+              "answer": "白"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking across the full image, which of the following options holds the text at [[809, 312], [1128, 312], [1128, 678], [809, 678]]? Options:\nA. Baishi Rd.S.(W.), 北, 悦秀街, 白石南路（西）\nB. 悦秀街, Yuexiu St., 北, Baishi Rd.\nC. Yuoxiu St., 白石南路（西）, 北, Baishi Rd.S.(W.)\nD. 悦秀街, 北, 白石南路（西）, 白石",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '白石, Baishi Rd.S.(W.), Baishi Rd., 白石南路（西）, 悦亲南, Yuexiu St., Yuelai' appearing inside the bounding box [[809.3743955956386, 311.5150361629235], [1408.8342962293118, 311.5150361629235], [1408.8342962293118, 700.9819597338933], [809.3743955956386, 700.9819597338933]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "There's text in the region [[805, 387], [1404, 387], [1404, 704], [805, 704]] — can you tell what it reads? It is ________.",
+              "answer": [
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标[[610,590], [817,608], [818,679], [612,666]]处有一块街道标志，其名称不完整，请补全：\"悦____街\"。",
+              "answer": "秀"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best matches the text you can read at [[805, 315], [1123, 315], [1123, 682], [805, 682]] in the image? Options:\nA. 白石南路（西）, Yuexiu St., 北, Baishi Rd.S.(W.)\nB. 白石南路（西）, 玌, Yuexiu St., Baishi Rd.S.(W.)\nC. Baishi Rd., 悦秀街, Yuexiu St., Baishi Rd.S.(W.)\nD. Baishi Rd.S.(W.), 悦秀街, 白石南路（西）, 白石",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[804.7766944462132, 314.96331202499243], [1404.2365950798865, 314.96331202499243], [1404.2365950798865, 704.4302355959621], [804.7766944462132, 704.4302355959621]] — is '悦秀街, 北, 白石, Baisbi Rd.S.(W.), Baishi Rd., 悦亲南, Yuexiu St., Yuelai, 白石南路（西）' situated there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0175/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0175/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and read the text found inside [[799, 316], [1399, 316], [1399, 706], [799, 706]]. It is ________.",
+              "answer": [
+                "北",
+                "白石南路（西）",
+                "Baishi Rd.S.(W.)",
+                "白石",
+                "Baishi Rd.",
+                "悦亲南",
+                "Yuelai",
+                "悦秀街",
+                "Yuexiu St."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据[[1015,627], [1077,632], [1082,699], [1020,697]]处标志上的内容，还原街道名称中被遮盖的部分：\"悦____南\"。",
+              "answer": "亲"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, which one correctly captures the text at [[799, 388], [1399, 388], [1399, 706], [799, 706]]? Options:\nA. 悦亲南, Yuelai, 白石, Baishi Rd.S.(W.), Baishi Rd., 白石南路（西）, 悅秀街\nB. Baishi Rd.S.(W.), Yuelai, 北, Baishi Rd., Yuexiu St., 悦亲南, 白石\nC. 悦秀街, 白石南路（西）, 白石, Yuoxiu St., Yuelai, Baishi Rd., Baishi Rd.S.(W.)\nD. Yuexiu St., Baishi Rd.S.(W.), 白石, Baishi Rd., 悦亲南, 悦秀街, 白石南路（西）",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[799.1163170877227, 316.3784063646151], [1398.576217721396, 316.3784063646151], [1398.576217721396, 705.8453299355849], [799.1163170877227, 705.8453299355849]], can you verify that '白石, 北, Yucxiu St., Baishi Rd.S.(W.), 悦亲南, Baishi Rd., Yuelai, 悦秀街, 白石南路（西）' is contained within it?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0175"
+  }
+]

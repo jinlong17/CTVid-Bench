@@ -1,0 +1,492 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text visible at [[1021.2171837708831, 926.0143198090691], [1919.0, 926.0143198090691], [1919.0, 1013.3], [1021.2171837708831, 1013.3]] — the word(s) there is/are ________.",
+              "answer": [
+                "卓悦",
+                "桂湾",
+                "TOW",
+                "3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "标识\"美食地图 F____D MAP\"出现在坐标[[410,766], [598,764], [597,796], [408,797]]处，空缺的字符是什么？",
+              "answer": "OO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, which one lists the text found at [[214, 377], [678, 377], [678, 797], [214, 797]]? Options:\nA. CITY CENTER, 微风峡谷, 美食地图 FOOD MAP, 华润前海中心\nB. 卓悦, 华润前海中心, 微风峡谷, CITY CENTER\nC. 美養地图 FOOD MAP, Breeze Valley, 微风峡谷, CITY CENTER\nD. 美養地图 FOOD MAP, 微风峡谷, CITY CENTER, Breeze Valley",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scan [[214, 377], [1744, 377], [1744, 1013], [214, 1013]] — do you see the label(s) '3, CITY CENTER, Breeze Valley, 华润前海中心, 桂湾, TOW, 卓悦, 美食地图 FOOD MAP, 微风峡谷' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the text appearing at [[214, 377], [1917, 377], [1917, 1013], [214, 1013]]. ________",
+              "answer": [
+                "CITY CENTER",
+                "华润前海中心",
+                "微风峡谷",
+                "Breeze Valley",
+                "美食地图 FOOD MAP",
+                "卓悦",
+                "TOW",
+                "3",
+                "桂湾"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[426,760], [619,759], [618,791], [424,790]]位置的文字是\"美食地图 ____ MAP\"，你认为空缺处填什么词？",
+              "answer": "FOOD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the full image, which answer option correctly identifies the text at [[408, 764], [1917, 764], [1917, 1013], [408, 1013]]? Options:\nA. 3, 卓悦, 桂湇, 美食地图 FOOD MAP\nB. CITY CENTER, 美食地图 FOOD MAP, 卓悦, 3\nC. 3, 卓悅, 桂湾, 美食地图 FOOD MAP\nD. TOW, 桂湾, 美食地图 FOOD MAP, 卓悦",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '美食地图 FOOD MAP, 微风峡谷, CITY CENTER, Breeze Valley' — are they present inside [[214, 377], [1055, 377], [1055, 953], [214, 953]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[220.52083333333331, 481.71023965141615], [326.8872549019607, 481.71023965141615], [326.8872549019607, 556.9166666666666], [220.52083333333331, 556.9166666666666]], what word(s) can you make out? The word(s) is/are ________.",
+              "answer": [
+                "微风峡谷",
+                "Breeze Valley"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[435,402], [732,380], [731,448], [431,463]]区域内的文本有一处空缺，请将\"华润____海中心\"补充完整。",
+              "answer": "前"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on area [[417, 759], [1915, 759], [1915, 1010], [417, 1010]], pick the answer that correctly captures the text there. Options:\nA. 美食地图 FOOD MAP, IOW, 3, 卓悦\nB. 卓悦, 桂湇, TOW, 美食地图 FOOD MAP\nC. CITY CENTER, 3, 卓悦, 美食地图 FOOD MAP\nD. 桂湾, 3, TOW, 美食地图 FOOD MAP",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For region [[221, 372], [1053, 372], [1053, 948], [221, 948]], do the label(s) 'Breeze Valley, 微风峡谷, 美食地图 FOOD MAP, CITY CENTER' show up?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the text you can read at [[220.09164878397712, 367.2775310724652], [1919.0, 367.2775310724652], [1919.0, 1008.7922393023645], [220.09164878397712, 1008.7922393023645]]. The word(s) is/are ________.",
+              "answer": [
+                "CITY CENTER",
+                "华润前海中心",
+                "微风峡谷",
+                "Breeze Valley",
+                "美食地图 FOOD MAP",
+                "卓悦",
+                "TOW",
+                "3",
+                "桂湾大"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[543,344], [800,321], [799,367], [540,388]]处有\"C____ CENTER\"字样，空缺部分应该填哪个词或字母？",
+              "answer": "ITY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the answer that accurately reflects the text at [[220, 367], [693, 367], [693, 789], [220, 789]]. Options:\nA. CITY CENTER, Breeze Valley, 华润前海中心, 卓悦\nB. Breeze Valley, 美食地图 FOOD MAP, 微风峡谷, 华润前海中心\nC. 华润前海中心, Breeze Valley, 美養地图 FOOD MAP, CITY CENTER\nD. 华润前海中心, 徴风峡谷, CITY CENTER, 美食地图 FOOD MAP",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '卓悦, 华润前海中心, TOW, Breeze Valley, 美食地图 FOOD MAP, 3' are present within [[220, 卓悦, 华润前海中心, TOW, Breeze Valley, 美食地图 FOOD MAP, 367], [1720, 卓悦, 华润前海中心, TOW, Breeze Valley, 美食地图 FOOD MAP, 367], [1720, 1009], [220, 1009]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text sits inside [[1850.977264447178, 972.4421003329871], [1908.735244519393, 972.4421003329871], [1908.735244519393, 995.4468802698145], [1850.977264447178, 995.4468802698145]]? The word(s) is/are ________.",
+              "answer": [
+                "桂湾大"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[290,507], [412,500], [411,542], [287,548]]处有文字\"微风峡谷\"，其中缺失了\"____峡谷\"，你能把它补上吗？",
+              "answer": "微风"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pointing at [[213, 366], [687, 366], [687, 789], [213, 789]], which of the given choices correctly lists the text there? Options:\nA. 华涧前海中心, 美食地图 FOOD MAP, 微风峡谷, Breeze Valley\nB. 华润前海中心, Breeze Valley, 美食地图 FOOD MAP, CITY CENTER\nC. Breeze Valley, 卓悦, 微风峡谷, CITY CENTER\nD. CIIY CENTER, 华润前海中心, 美食地图 FOOD MAP, 微风峡谷",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[213, 366], [1025, 366], [1025, 946], [213, 946]] — do the label(s) '华润前海中心, 微风峡谷, 卓悦, 美食地图 FOOD MAP' appear in that area?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text you see at [[205.9357167504951, 364.60841071913427], [679.512723917436, 364.60841071913427], [679.512723917436, 550.7759082893289], [205.9357167504951, 550.7759082893289]]. The word(s) is/are ________.",
+              "answer": [
+                "CITY CENTER",
+                "华润前海中心",
+                "微风峡谷",
+                "Breeze Valley"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[615,420], [900,397], [899,444], [612,464]], the phrase reads \"C____ CENTER\" — what letter(s) belong in the blank?",
+              "answer": "ITY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches what's written at [[206, 365], [1008, 365], [1008, 947], [206, 947]]? Options:\nA. 华润前海中心, 卓悦, Breeze Valley, TOW, CITY CENTER\nB. 微风峡谷, 卓悦, CITY CENTER, 美食地图 FOOD MAP, Breeze Valley\nC. 美食地图 FOOD MAP, CITY CENTER, Breeze Valley, 微风峡谷, 华涧前海中心\nD. 华润前海中心, Breeze Valley, CITY CENTER, 美食地图 FOOD MAP, 徴风峡谷",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[206, 365], [1008, 365], [1008, 947], [206, 947]], do you see the label(s) '华润前海中心, 微风峡谷, 美食地图 FOOD MAP, Breeze Valley, CITY CENTER, 3, 卓悦' appearing there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[955.5776341535206, 920.6528338631812], [1900.809050921035, 920.6528338631812], [1900.809050921035, 1012.8990810850923], [955.5776341535206, 1012.8990810850923]] — what word or words appear there? ________",
+              "answer": [
+                "卓悦",
+                "桂湾大街",
+                "3",
+                "TOW"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看[[299,531], [434,524], [432,564], [296,572]]位置的文字，\"____峡谷\"这句话里缺少什么词才能完整？",
+              "answer": "微风"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text visible in [[206, 365], [998, 365], [998, 948], [206, 948]]? Options:\nA. 华润前海中心, 微风峡谷, 美食地图 FOOD MAP, 卓悦, CITY CENTER\nB. Breeze Valley, 美食地图 FOOD MAP, 卓悦, 微风峡谷, 桂湾大街\nC. Brecze Valley, 华润前海中心, CITY CENTER, 卓悦, 微风峡谷\nD. CITY CENTER, Breeze Valley, 美養地图 FOOD MAP, 微风峡谷, 卓悦",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'CITY CENTER, 美食地图 FOOD MAP, 微风峡谷, 华润前海中心' — do they appear inside the region marked by [[206, 365], [680, 365], [680, 790], [206, 790]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible at [[950.9799330040953, 920.6528338631812], [1897.7415662584583, 920.6528338631812], [1897.7415662584583, 1013.8193264838654], [950.9799330040953, 1013.8193264838654]]: ________",
+              "answer": [
+                "卓悦",
+                "桂湾大街",
+                "3",
+                "TOW"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[313,534], [463,527], [462,569], [312,577]]坐标处的标记，\"微风____\"中空缺的内容是什么？",
+              "answer": "峡谷"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[210, 364], [1668, 364], [1668, 1014], [210, 1014]]? Pick the option that correctly reflects it. Options:\nA. CITY CENTER, TOW, 微风峡谷, Breeze Valley, 卓悦, 华润前海中心, 美食地图 FOOD MAP\nB. CITY CENTER, 微风峡谷, 华润前海中心, TOW, 美食地图 FOOD MAP, Breeze Valley, 桂湾大街\nC. 卓悦, Breeze Valley, 美食地图 FOOD MAP, 华润前海中心, 8, CITY CENTER, 微风峡谷\nD. 华润前海中心, 卓悦, Breeze Valley, 徴风峡谷, CITY CENTER, 3, 美食地图 FOOD MAP",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[414, 759], [1898, 759], [1898, 1014], [414, 1014]] — is '3, 微风峡谷, TOW, 卓悦, 美食地图 FOOD MAP, 桂湾大街' one of the labels you find there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you can see inside [[217.0092088540501, 363.8758099865335], [697.9032258064517, 363.8758099865335], [697.9032258064517, 550.0691856841945], [217.0092088540501, 550.0691856841945]]: ________",
+              "answer": [
+                "CITY CENTER",
+                "华润前海中心",
+                "微风峡谷",
+                "Breeze Valley"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[685,470], [1099,440], [1098,518], [681,537]]位置有个标志，其中\"华润前____中心\"里缺了哪个字符？",
+              "answer": "海"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that accurately captures the text found at [[217, 364], [989, 364], [989, 948], [217, 948]]. Options:\nA. 卓悦, CITY CENTER, 微风峡谷, 华润前海中心, Brecze Valley\nB. 美食地图 FOOD MAP, 华润前海中心, 微风峡谷, 卓悦, Breeze Valley\nC. 卓悦, Breeze Valley, 华润前海中心, 美食地图 FOOD MAP, 桂湾大街\nD. 微风峡谷, 华润前海中心, Brecze Valley, CITY CENTER, 卓悦",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '华润前海中心, TOW, 卓悦, CITY CENTER, 微风峡谷, Breeze Valley, 美食地图 FOOD MAP' sit inside the region [[217, 364], [989, 364], [989, 948], [217, 948]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you see at [[220.43928800972293, 361.9961107384132], [704.6936974430614, 361.9961107384132], [704.6936974430614, 548.7499244704742], [220.43928800972293, 548.7499244704742]]: ________",
+              "answer": [
+                "CITY CENTER",
+                "华润前海中心",
+                "微风峡谷",
+                "Breeze Valley"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[285,655], [456,648], [457,682], [286,689]], a phrase reads \"Br____ Valley\" — what word fills the gap?",
+              "answer": "eeze"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text inside [[220, 362], [705, 362], [705, 791], [220, 791]], which answer choice correctly reproduces it? Options:\nA. 微风峡谷, CITY CENTER, 美食地图 FOOD MAP, 华涧前海中心\nB. Breeze Valley, 微风峡谷, CITY CENTER, 华润前海中心\nC. CITY CENTER, 微风峡谷, Brecze Valley, 华润前海中心\nD. 卓悦, 美食地图 FOOD MAP, 华润前海中心, Breeze Valley",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: do the label(s) 'CITY CENTER, 华润前海中心, 微风峡谷, 美食地图 FOOD MAP' fall inside [[220, 362], [981, 362], [981, 948], [220, 948]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over at [[217.8077090623545, 360.59750933981184], [702.246144995509, 360.59750933981184], [702.246144995509, 545.3288718388952], [217.8077090623545, 545.3288718388952]], what word(s) are written there? ________",
+              "answer": [
+                "CITY CENTER",
+                "华润前海中心",
+                "微风峡谷",
+                "Breeze Valley"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere at [[363,619], [534,612], [535,646], [364,653]] you'll find the phrase \"____ Valley\" — what fills the blank?",
+              "answer": "Breeze"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Find the text shown at [[424, 759], [1870, 759], [1870, 1014], [424, 1014]] and pick the matching answer. Options:\nA. 3, 美食地图 FOOD MAP, TOWE, 卓悦\nB. 3, 桂湾大街, 卓悦, 美養地图 FOOD MAP\nC. 美食地图 FOOD MAP, 3, TOWE, 卓悅\nD. 3, 美食地图 FOOD MAP, TOWE, CITY CENTER",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '3, 卓悦, 华润前海中心, Breeze Valley, 微风峡谷, 美食地图 FOOD MAP, CITY CENTER' visible inside the region defined by [[218, 361], [966, 361], [966, 946], [218, 946]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0087/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0087/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What words can you make out inside [[907.7759574298198, 918.4619194726596], [1855.369439443941, 918.4619194726596], [1855.369439443941, 1014.7565331594394], [907.7759574298198, 1014.7565331594394]]? ________",
+              "answer": [
+                "卓悦",
+                "3",
+                "桂湾大街",
+                "TOWE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[288,584], [470,580], [470,636], [289,642]]坐标下的标识写着\"微风____谷\"，补全它需要哪两个字符？",
+              "answer": "峡"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the text at [[211, 359], [950, 359], [950, 946], [211, 946]] and select the option that matches it. Options:\nA. 华润前海中心, 美食地图 FOOD MAP, 微风峡谷, Breeze Valley, 卓悦\nB. 美養地图 FOOD MAP, 华润前海中心, CITY CENTER, Breeze Valley, 微风峡谷\nC. 微风峡谷, 华润前海中心, CITY CENTER, Breeze Valley, 美養地图 FOOD MAP\nD. 卓悦, 3, 微风峡谷, CITY CENTER, 华润前海中心",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[211, 359], [698, 359], [698, 789], [211, 789]] contain the label(s) '华润前海中心, 3, 美食地图 FOOD MAP, CITY CENTER, Breeze Valley, 微风峡谷'?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0087"
+  }
+]

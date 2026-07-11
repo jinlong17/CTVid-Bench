@@ -1,0 +1,536 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you see inside [[0, 66], [1157, 66], [1157, 441], [0, 441]]. The answer is ________.",
+              "answer": [
+                "旧机高价收",
+                "超省换新机",
+                "北上催泪祖孙情",
+                "更新至18集",
+                "老狗暴力开打",
+                "每月16日",
+                "宠粉会员日",
+                "多重大礼好运派送",
+                "影视VIP",
+                "影视VIP",
+                "影视VIP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[481,414], [558,413], [554,439], [484,439]]位置的文字，帮我把\"影视V____P\"的空缺部分填完整。",
+              "answer": "I"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the region [[0, 66], [1157, 66], [1157, 441], [0, 441]], which answer choice matches the text(s) found there? Options:\nA. 旧机高价收, 北上催泪祖孙情, 多重大礼好运派送, 更新至18集, 进店咨询更多回收详情, 影视VIP, 宠粉会员日, 影视VIP, 超省换新机, 老狗暴力开打\nB. 超省换新机, 宠粉侌员日, 影视VIP, 旧机高价收, 影视VIP, 每月16日, 影视VIP, 北上催泪祖孙情, 老狗暴力开打, 多重大礼好运派送\nC. 前海卓越华为店, 影视VIP, 超省换新机, 宠粉会员日, 多重大礼好运派送, 影视VIP, 更新至18集, 旧机高价收, 影视VIP, 北上催泪祖孙情\nD. 旧机高价收, 超省换新机, 多重大礼好运派送, 影视VIP, 影视VIP, 每月16日, 更新至18集, 宠粉会员日, 影视VIP, 北上催泪祖孙情",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '旧机高价收, 北上催泪祖孙情, 影视VIP, 影视VIP, 多重大礼好运派送, 宠粉会员日, 更新至18集, 超省换新机, 每月16日, 前海卓越华为店' visible inside the region marked by [[0, 66], [1157, 66], [1157, 941], [0, 941]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the region [[818, 893], [1106, 893], [1106, 983], [818, 983]], what text appears there? The word(s) is/are ________.",
+              "answer": [
+                "前海卓越华为店",
+                "进店咨询更多回收详情"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据[[828,875], [1088,880], [1088,919], [828,915]]区域内的内容，补全下列空白：前海卓____华为店",
+              "answer": "越"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly captures the text(s) found in the [[0, 161], [558, 161], [558, 439], [0, 439]] area? Options:\nA. 老狗暴力开打, 宠粉会员日, 北上催泪祖孙情, 旧机高价收, 每月16日, 影视VIP, 影视VIP, 更新至18集\nB. 影视VIP, 毒月16日, 北上催泪祖孙情, 宠粉会员日, 影视VIP, 多重大礼好运派送, 更新至18集, 老狗暴力开打\nC. 北上催泪祖孙情, 宠粉会员日, 多重大礼好运派送, 更新至18集, 老狗暴力开打, 每月16日\nD. 影视VIP, 北上催沺祖孙情, 影视VIP, 更新至18集, 多重大礼好运派送, 每月16日, 影视VIP, 老狗暴力开打",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '影视VIP, 更新至18集, 影视VIP, 进店咨询更多回收详情, 旧机高价收, 超省换新机, 影视VIP' falls inside the bounding box [[198, 64], [1159, 64], [1159, 983], [198, 983]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the [[814.0, 891.0], [1104.0, 891.0], [1104.0, 981.0], [814.0, 981.0]] region of the image, what word(s) do you see there? The word(s) is/are ________.",
+              "answer": [
+                "前海卓越华为店",
+                "进店咨询更多回收详情"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框[[693,89], [1125,66], [1129,156], [697,178]]内藏有一段文字，请填写其中的空缺：旧机高____收。",
+              "answer": "价"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to the text visible in [[0, 161], [558, 161], [558, 439], [0, 439]], which answer option is correct? Options:\nA. 每月16日, 更新至18集, 北上催泪祖孙情, 宠粉会员日, 彯视VIP, 老狗暴力开打, 多重大礼好运派送\nB. 影视VIP, 更新至18集, 每月16日, 多重大礼好运派送, 宠粉会员日, 北上催泪祖孙情, 旧机高价收, 影视VIP\nC. 更斲至18集, 影视VIP, 影视VIP, 老狗暴力开打, 多重大礼好运派送, 每月16日, 北上催泪祖孙情, 影视VIP\nD. 影视VIP, 北上催泪祖孙情, 老狗暴力开打, 每月16日, 多重大礼好运派送, 宠粉会员日, 影视VIP, 影视VIP",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false — '更新至18集, 旧机高价收, 进店咨询更多回收详情, 每月16日, 影视VIP, 影视VIP, 前海卓越华为店, 北上催泪祖孙情, 影视VIP, 超省换新机' appears inside the box at [[0.47619047619044963, 62.0], [1155.0, 62.0], [1155.0, 981.0], [0.47619047619044963, 981.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on the bounding box [[1, 155], [148, 155], [148, 346], [1, 346]], what text is written there? The word(s) is/are ________.",
+              "answer": [
+                "老狗暴力开打",
+                "宠粉会员日",
+                "每月16日",
+                "多重大礼好运派送"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[236,345], [377,343], [377,372], [237,370]]位置的文字，将短语中的空白补全：\"北上催泪____孙情\"。",
+              "answer": "祖"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify which option correctly lists the text(s) found inside [[1, 60], [1155, 60], [1155, 437], [1, 437]]. Options:\nA. 多重大礼好运派送, 老狗暴力开打, 影视VIP, 超省换新机, 旧杋高价收, 宠粉会员日, 影视VIP, 每月16日, 北上催泪祖孙情, 更新至18集\nB. 影视VIP, 更新至18集, 北上催泪祖孙情, 多重大礼好运派送, 超省换新机, 影视VIP, 影视VIP, 宠粉会员日, 旧机高价收, 老狗暴力开打\nC. 更新至18集, 超省换新机, 宠粉会员日, 影视VIP, 多重大礼好运派送, 影视VIP, 每月16日, 旧机高价收, 老狗暴力开打, 前海卓越华为店\nD. 多重大礼好运派送, 影视VIP, 超省换新机, 宠粉会员日, 旧机高价收, 进店咨询更多回收详情, 北上催泪祖孙情, 每月16日, 影视VIP, 更新至18集",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[1.279403327596068, 60.0], [1155.0, 60.0], [1155.0, 977.0], [1.279403327596068, 977.0]], is the label '迚店咨询更多回收详情, 多重大礼好运派送, 宠粉会员日, 更新至18集, 影视VIP, 每月16日, 影视VIP, 前海卓越华为店, 旧机高价收, 超省换新机' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the region [[-3.552713678800501e-15, 51.25], [1163.75, 51.25], [1163.75, 977.0], [-3.552713678800501e-15, 977.0]], what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "旧机高价收",
+                "超省换新机",
+                "前海卓越华为店",
+                "进店咨询更多回收详情",
+                "老狗暴力开打",
+                "宠粉会员日",
+                "每月16日",
+                "多重大礼好运派送",
+                "北上催泪祖孙情",
+                "更新至18集",
+                "影视VIP",
+                "影视VIP",
+                "影视VIP"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[216,345], [356,342], [356,371], [216,369]]处的短语有一处空缺，请将其填写完整：\"北上催泪____孙情\"",
+              "answer": "祖"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options given, which one matches the text(s) visible inside [[0, 51], [1164, 51], [1164, 432], [0, 432]]? Options:\nA. 老狗暴力开打, 影视VIP, 多重大礼好运派送, 影视VIP, 每月16日, 更新至18集, 影视VIP, 宠粉会员日, 北上催泪祖孙情, 超省换新机\nB. 每月16日, 影视VIP, 更新至18集, 北上催泪祖孙情, 老狗暴力开打, 多重大礼好运派送, 前海卓越华为店, 影视VIP, 影视VIP, 旧机高价收\nC. 宠粉会员日, 影视VIP, 老狗暴力开打, 旧杋高价收, 多重大礼好运派送, 影视VIP, 超省换新机, 北上催泪祖孙情, 更新至18集, 影视VIP\nD. 北上催泪祖孙情, 每月16日, 宠粉会员日, 彯视VIP, 旧机高价收, 老狗暴力开打, 多重大礼好运派送, 超省换新机, 更新至18集",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[0, 51], [1164, 51], [1164, 432], [0, 432]] in the image — is '多重大礼好运派送, 超省换新机, 北上催泪祖孙情, 更新至18集, 每月16日, 老狗暴力开打, 旧机高价收' one of the labels visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "In the bounding box [[0, 56], [1153, 56], [1153, 973], [0, 973]], what word(s) can you read? The word(s) is/are ________.",
+              "answer": [
+                "旧机高价收",
+                "超省换新机",
+                "前海卓越华为店",
+                "进店咨询更多回收详情",
+                "影视VIP",
+                "影视VIP",
+                "北上催泪祖孙情",
+                "更新至18集",
+                "影视VIP",
+                "宠粉会员日",
+                "多重大礼好运派送",
+                "每月16日",
+                "老狗暴力开打"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中[[615,196], [1056,180], [1059,267], [618,283]]位置标注了某产品促销名称，请补全其缺失内容：\"超省____新机\"。",
+              "answer": "换"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text(s) inside [[0, 151], [554, 151], [554, 432], [0, 432]] match which of the following options? Options:\nA. 北上催泪祖孙情, 更新至18集, 旧机高价收, 多重大礼好运派送, 每月16日, 影视VIP, 影视VIP, 老狗暴力开打\nB. 宠粉会员日, 北上催沺祖孙情, 影视VIP, 每月16日, 影视VIP, 更新至18集, 影视VIP, 老狗暴力开打\nC. 多重大礼好运派送, 影视VIP, 影视VIP, 每月16日, 老狗暴力开打, 宠粉会员日, 影视VIP, 北上催泪祖孙情\nD. 更新至18集, 每月16日, 彯视VIP, 多重大礼好运派送, 北上催泪祖孙情, 老狗暴力开打, 宠粉会员日",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In your view, does '旧机高价收, 影视VIP, 老狗暴力开打, 更新至18集, 北上催泪祖孙情, 影视VIP, 每月16日, 多重大礼好运派送, 影视VIP, 宠粉会员日' appear within the bounding box [[0, 151], [541, 151], [541, 364], [0, 364]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at the bounding box [[0, 54], [1153, 54], [1153, 359], [0, 359]], what word(s) do you find there? The word(s) is/are ________.",
+              "answer": [
+                "旧机高价收",
+                "超省换新机",
+                "北上催泪祖孙情",
+                "更新至18集",
+                "影视VIP",
+                "宠粉会员日",
+                "多重大礼好运派送",
+                "每月16日",
+                "老狗暴力开打"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细辨认[[685,891], [952,898], [951,939], [684,933]]范围内的商店名称，将空缺部分填写完整：前海卓____华为店",
+              "answer": "越"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on what's written inside [[0, 54], [1153, 54], [1153, 428], [0, 428]], which option below is accurate? Options:\nA. 旧机高价收, 超省换新机, 影视VIP, 多重大礼好运派送, 影视VIP, 更新至18集, 每月16日, 老狗暴力开打, 影视VIP, 前海卓越华为店\nB. 多重大礼好运派送, 更新至18集, 北上催泪祖孙情, 每月16日, 宠粉会员日, 老狗暴力开打, 超省换新机, 彯视VIP, 旧机高价收\nC. 北上催泪祖孙情, 超省换新机, 旧机高价收, 宠粉会员日, 彯视VIP, 更新至18集, 老狗暴力开打, 多重大礼好运派送, 每月16日\nD. 北上催泪祖孙情, 旧机高价收, 影视VIP, 多重大礼好运派送, 影视VIP, 老狗暴力开打, 宠粉会员日, 更新至18集, 每月16日, 影视VIP",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '每月16日, 更新至18集, 超省换新机, 宠粉会员日, 北上催泪祖孙情, 影视VIP, 多重大礼好运派送, 旧机高价收, 老狗暴力开打' can be found inside the bounding box at [[0, 54], [1153, 54], [1153, 359], [0, 359]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text visible in the region [[0, 52], [1153, 52], [1153, 969], [0, 969]]. The word(s) is/are ________.",
+              "answer": [
+                "旧机高价收",
+                "超省换新机",
+                "前海卓越华为店",
+                "进店咨询更多回收详情",
+                "影视VIP",
+                "影视VIP",
+                "更新至18集",
+                "北上催泪祖孙情",
+                "影视VIP",
+                "宠粉会员日",
+                "多重大礼好运派送",
+                "每月16日",
+                "老狗暴力开打"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中[[308,409], [384,405], [384,430], [310,432]]区域内有一段文字，请补全其中缺失的字符：\"影视V____P\"。",
+              "answer": "I"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options contains the text found at [[0, 146], [554, 146], [554, 428], [0, 428]]? Options:\nA. 影视VIP, 北上催泪祖孙情, 多重大礼好运派送, 影视VIP, 宠粉会员日, 每月16日, 老狗暴力开打, 影视VIP\nB. 老狗暴力开打, 更新至18集, 北上催泪祖孙情, 影视VIP, 每月16日, 旧机高价收, 多重大礼好运派送, 影视VIP\nC. 北上催泪祖孙情, 每月16日, 宠粉会员日, 更新至18集, 多重大礼好运派送, 彯视VIP, 老狗暴力开打\nD. 北上催泪祖孙情, 多重大礼好运派送, 每月16日, 影视VIP, 更新至18集, 宠粉侌员日, 影视VIP, 老狗暴力开打",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '多重大礼好运派送, 更新至18集, 宠粉会员日, 老狗暴力开打, 北上催泪祖孙情, 影视VIP, 超省换新机, 旧机高价收, 每月16日' the text appearing inside region [[0, 52], [1153, 52], [1153, 359], [0, 359]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the text inside [[0, 50], [1153, 50], [1153, 967], [0, 967]], what word or words appear there? The word(s) is/are ________.",
+              "answer": [
+                "旧机高价收",
+                "超省换新机",
+                "前海卓越华为店",
+                "进店咨询更多回收详情",
+                "影视VIP",
+                "影视VIP",
+                "更新至18集",
+                "北上催泪祖孙情",
+                "影视VIP",
+                "宠粉会员日",
+                "多重大礼好运派送",
+                "每月16日",
+                "老狗暴力开打"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察图像中[[87,343], [228,340], [228,369], [87,367]]范围内的标语，请填入缺失的内容：\"北上催泪____孙情\"。",
+              "answer": "祖"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text visible at [[0, 50], [1153, 50], [1153, 428], [0, 428]]. Options:\nA. 旧机高价收, 老狗暴力开打, 每月16日, 更新至18集, 彯视VIP, 多重大礼好运派送, 超省换新机, 北上催泪祖孙情, 宠粉会员日\nB. 影视VIP, 北上催泪祖孙情, 前海卓越华为店, 超省换新机, 多重大礼好运派送, 宠粉会员日, 影视VIP, 旧机高价收, 每月16日, 更新至18集\nC. 影视VIP, 多重大礼好运派送, 影视VIP, 超省换新机, 进店咨询更多回收详情, 旧机高价收, 老狗暴力开打, 每月16日, 北上催泪祖孙情, 宠粉会员日\nD. 影视VIP, 北上催泪祖孙情, 每月16日, 多重大礼好运派送, 旧机高价收, 宠粉会员日, 影视VIP, 更新至18集, 影视VIP, 老狗暴力开打",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '每月16日, 超省换新机, 宠粉会员日, 北上催泪祖孙情, 多重大礼好运派送, 老狗暴力开打, 旧机高价收' as the text shown in the bounding box [[0, 50], [1153, 50], [1153, 359], [0, 359]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[816.0, 875.0], [1104.0, 875.0], [1104.0, 965.0], [816.0, 965.0]] and complete the blank. The word(s) is/are ________.",
+              "answer": [
+                "前海卓越华为店",
+                "进店咨询更多回收详情"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位置[[166,345], [269,343], [269,368], [166,370]]中显示了一段路径信息，请识别并填入其中缺失的部分：\"更新至____集\"。",
+              "answer": "18"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the given options, select the one that correctly shows the text at [[0, 146], [554, 146], [554, 428], [0, 428]]. Options:\nA. 北上催泪祖孙情, 影视VIP, 宠粉会员日, 影视VIP, 多重大礼好运派送, 超省换新机, 更新至18集, 老狗暴力开打\nB. 影视VIP, 更新至18集, 影视VIP, 老狗暴力开打, 北上催泪祖孙情, 每月16日, 多重大礼好运派送, 宠粉侌员日\nC. 宠粉会员日, 北上催泪祖孙情, 老狗暴力开打, 影视VIP, 旧机高价收, 每月16日, 影视VIP, 多重大礼好运派送\nD. 老狗暴力开打, 宠粉会员日, 多重大礼好运派送, 北上催泪祖孙情, 更新至18集, 每月16日",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at the coordinates [[-3.552713678800501e-15, 48.0], [1157.0, 48.0], [1157.0, 965.0], [-3.552713678800501e-15, 965.0]], is '影视VIP, 宠粉会员日, 北上催泪祖孙情, 旧机高价收, 老狗暴力开打, 更新至18集, 影视VIP, 前海卓越华为店, 每月16日, 进店咨询更多回收详情' present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you see inside [[0, 46], [1155, 46], [1155, 963], [0, 963]]. The word(s) is/are ________.",
+              "answer": [
+                "旧机高价收",
+                "超省换新机",
+                "前海卓越华为店",
+                "进店咨询更多回收详情",
+                "影视VIP",
+                "影视VIP",
+                "更新至18集",
+                "北上催泪祖孙情",
+                "影视VIP",
+                "宠粉会员日",
+                "多重大礼好运派送",
+                "每月16日",
+                "老狗暴力开打"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像[[133,346], [236,345], [237,370], [133,371]]处可以看到一个短语，请将其填写完整：更新至____集",
+              "answer": "18"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to the text shown at [[0, 46], [1155, 46], [1155, 422], [0, 422]], which answer is correct? Options:\nA. 每月16日, 旧机高价收, 北上催泪祖孙情, 老狗暴力开打, 超省换新机, 多重大礼好运派送, 进店咨询更多回收详情, 宠粉会员日, 更新至18集, 影视VIP\nB. 前海卓越华为店, 影视VIP, 旧机高价收, 老狗暴力开打, 超省换新机, 每月16日, 宠粉会员日, 多重大礼好运派送, 影视VIP, 北上催泪祖孙情\nC. 宠粉会员日, 每月16日, 影视VIP, 超省换新机, 影视VIP, 老狗暴力开打, 多重大礼好运派送, 北上催泪祖孙情, 更新至18集, 影视VIP\nD. 旧机高价收, 宠粉侌员日, 影视VIP, 更新至18集, 老狗暴力开打, 多重大礼好运派送, 超省换新机, 北上催泪祖孙情, 影视VIP, 每月16日",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the area at [[0, 46], [1155, 46], [1155, 352], [0, 352]], is '进店咨询更多回收详情, 宠粉会员日, 更新至18集, 旧机高价收, 北上催泪祖孙情, 每月16日, 多重大礼好运派送, 超省换新机, 老狗暴力开打' present there as the label?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0065/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0065/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan the area marked by [[816, 875], [1106, 875], [1106, 963], [816, 963]] and read the text there. The word(s) is/are ________.",
+              "answer": [
+                "前海卓越华为店",
+                "进店咨询更多回收详情"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[409,71], [851,52], [855,142], [413,160]]对应的图像区域中有一段不完整的短语，请补全它：\"旧机____价收\"",
+              "answer": "高"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears at [[0, 46], [1155, 46], [1155, 422], [0, 422]]? Pick the option that matches it correctly. Options:\nA. 影视VIP, 每月16日, 旧机高价收, 影视VIP, 超省换新机, 影视VIP, 老狗暴力开打, 前海卓越华为店, 多重大礼好运派送, 宠粉会员日\nB. 宠粉会员日, 更新至18集, 影视VIP, 影视VIP, 超省换新机, 旧机高价收, 每月16日, 老狗暴力开打, 影视VIP, 北上催泪祖孙情\nC. 超省换新机, 多重大礼好运派送, 影视VIP, 老狗暴力开打, 影视VIP, 每月16日, 影视VIP, 更新至18集, 宠粉侌员日, 北上催泪祖孙情\nD. 旧机高价收, 每月16日, 宠粉会员日, 影视VIP, 多重大礼好运泛送, 老狗暴力开打, 影视VIP, 北上催泪祖孙情, 超省换新机, 更新至18集",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the coordinates [[-3.552713678800501e-15, 46.0], [1155.0, 46.0], [1155.0, 963.0], [-3.552713678800501e-15, 963.0]], is '影视VIP, 老狗暴力开打, 前海卓越华为店, 多重大礼好运派送, 更新至18集, 旧机高价收, 超省换新机, 影视VIP, 北上催沺祖孙情, 宠粉会员日' the text present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0065"
+  }
+]

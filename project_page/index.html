@@ -41,10 +41,10 @@
       <a class="btn btn-primary" href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank">
         <i class="fas fa-file-alt"></i> Paper
       </a>
-      <a class="btn" href="https://github.com/CTVid/CTVid-Bench" target="_blank">
+      <a class="btn" href="https://github.com/jinlong17/CTVid-Bench" target="_blank">
         <i class="fab fa-github"></i> Code
       </a>
-      <a class="btn" href="https://huggingface.co/datasets/CTVid/CTVid-Bench" target="_blank">
+      <a class="btn" href="https://huggingface.co/datasets/jinlong17/CTVid-Bench" target="_blank">
         <i class="fas fa-database"></i> Dataset
       </a>
       <a class="btn" href="#leaderboard">
@@ -146,6 +146,12 @@
         <div class="stat-label">Languages (ZH / EN)</div>
       </div>
     </div>
+
+    <p class="section-subtitle">
+      Public data is released in one Hugging Face repository with separate spatial,
+      temporal, and training folders. Testing QA uses QA-v2 annotations; refined
+      training QA is maintained internally until the next public upload.
+    </p>
 
     <div class="quality-regimes">
       <h3>Three Quality Regimes</h3>
@@ -312,18 +318,18 @@
 <section class="section bg-light" id="download">
   <div class="container narrow">
     <h2 class="section-title">Download</h2>
-    <p>Annotation JSONs are included in this repository. Images and videos are hosted on HuggingFace.</p>
+    <p>The public dataset is hosted on Hugging Face with separate spatial, temporal, and training folders.</p>
     <pre class="code-block">
 # Clone the repository (includes all annotation JSONs)
-git clone https://github.com/CTVid/CTVid-Bench.git
+git clone https://github.com/jinlong17/CTVid-Bench.git
 cd CTVid-Bench
 
 # Download images and videos from HuggingFace
 python tools/download_data.py --variants GT blur downsample_x4</pre>
 
     <div class="download-sizes">
-      <div class="size-item"><strong>Spatial QA annotations</strong>: ~33 MB (in repo)</div>
-      <div class="size-item"><strong>Temporal QA annotations</strong>: ~2.4 MB (in repo)</div>
+      <div class="size-item"><strong>Spatial QA-v2 annotations</strong>: included under data/spatial/VQA_json (389 clips x 3 methods)</div>
+      <div class="size-item"><strong>Temporal QA-v2 annotations</strong>: included under data/temporal/videos_vqa (97 clips x 3 methods)</div>
       <div class="size-item"><strong>Spatial QA images</strong>: 18.8 GB (HuggingFace)</div>
       <div class="size-item"><strong>Temporal QA images</strong>: 54.8 GB (HuggingFace)</div>
       <div class="size-item"><strong>Temporal QA videos</strong>: 663 MB (HuggingFace)</div>
@@ -354,7 +360,7 @@ python tools/download_data.py --variants GT blur downsample_x4</pre>
   <div class="container">
     <p>
       CTVid-Bench · CVPR 2026 ·
-      Code: <a href="https://github.com/CTVid/CTVid-Bench">MIT License</a> ·
+      Code: <a href="https://github.com/jinlong17/CTVid-Bench">MIT License</a> ·
       Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
     </p>
     <p style="font-size:0.8rem;color:#aaa;margin-top:0.5rem;">

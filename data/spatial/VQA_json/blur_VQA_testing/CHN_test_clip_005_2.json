@@ -1,0 +1,494 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you see inside [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]]: ________",
+              "answer": [
+                "www.fireship.io",
+                "172.16.254.1",
+                "SUB-DOMAIN",
+                "TOP-LEVEL",
+                "DOMAIN (TLD)",
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[1424,1651], [2020,1651], [2022,1746], [1424,1746]] there's a web address — which top-level domain contains the letter(s) \"DO____N\"?",
+              "answer": "MAI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that correctly reflects the text at [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]]. Options:\nA. 172.16.254.1, www.fireship.io, TOP-LEVEL, SUB-DOMAIN, DDMAIN (TLD)\nB. TOP-LEVEL, 172.16.254.1, DNS是一种堿名转换为IP地址的服务, www.fireship.io, SUB-DOMAIN\nC. DOMAIN (TLD), www.fireship.io, DNS是一种域名转换为IP地址的服务, TOP-LEVEL, SUB-DOMAIN\nD. www.fireship.io, DNS是一种域名转换为IP地址的服务, DOMAIN, SUB-DOMAIN, TOP-LEVEL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You can see the region at [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]] — is '172.16.254.1, DOMAIN (TLD), www.fireship.io, DNS是一种域名转换为IP地址的服务' one of the labels there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look inside [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 1343.9252336448596], [263.235294117647, 1343.9252336448596]] and fill in: The word(s) is/are ________.",
+              "answer": [
+                "DOMAIN",
+                "www.fireship.io",
+                "172.16.254.1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[280,1558], [869,1557], [868,1651], [280,1649]], what is the missing portion of the word(s) SU____MAIN??",
+              "answer": "B-DO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text(s) visible in [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]]? Options:\nA. www.fireship.io, DOMAIN (TLD), SUB-DOMAIN, TOP-LEVEL, DNS是一种域名转换为IP地址的服务\nB. TOP-LEVEL, DDMAIN (TLD), SUB-DOMAIN, DNS是一种域名转换为IP地址的服务, www.fireship.io\nC. www.fireship.io, 172.16.254.1, TOP-LEVEL, SUP-DOMAIN, DNS是一种域名转换为IP地址的服务\nD. TOP-LEVEL, www.fireship.io, 172.16.254.1, DOMAIN (TLD), DOMAIN",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "If I look at [[263, 818], [3536, 818], [3536, 1746], [263, 1746]], will I find the label(s) 'SUB-DOMAIN, DOMAIN, TOP-LEVEL, 172.16.254.1'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can find inside [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]. ________",
+              "answer": [
+                "DOMAIN",
+                "www.fireship.io",
+                "172.16.254.1",
+                "SUB-DOMAIN",
+                "TOP-LEVEL",
+                "DOMAIN (TLD)",
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text shows \"TOP-____\" at [[1522,1558], [2018,1558], [2018,1644], [1522,1643]] — what's the full word once the obscured part is filled in?",
+              "answer": "LEVEL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that lists the text(s) visible at [[263, 818], [3536, 818], [3536, 1746], [263, 1746]]. Options:\nA. 172.16.254.1, SUP-DOMAIN, DOMAIN (TLD), www.fireship.io, TOP-LEVEL\nB. www.fireship.io, DOMAIN, DNS是一种域名转换为IP地址的服务, SUB-DOMAIN, 172.16.254.1\nC. DOMAIN (TLD), TOP-LEVEL, www.fireship.io, 172.16.254.1, DOMAIN\nD. DOMAIN (TLD), TOP-LEVEL, 172.16.254.1, DOMAIN, www.fireship.io",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'DOMAIN (TLD), DNS是一种域名转换为IP地址的服务, www.fireship.io, 172.16.254.1' shows up inside [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the word(s) sitting inside [[678.7407407407406, 1844.0740740740741], [3171.851851851852, 1844.0740740740741], [3171.851851851852, 2016.6666666666665], [678.7407407407406, 2016.6666666666665]] and fill in: ________",
+              "answer": [
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's an incomplete IP address \"172.____.254.1\" at [[2462,1139], [3535,1138], [3536,1305], [2465,1306]] — fill in the missing digit(s).",
+              "answer": "16"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that correctly shows what's written at [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]]. Options:\nA. DNS是一种堿名转换为IP地址的服务, DOMAIN (TLD), SUB-DOMAIN, www.fireship.io, TOP-LEVEL\nB. SUB-DOMAIN, www.fireship.io, DOMAIN (TLD), 172.16.254.1, TOP-LEVEL\nC. DNS是一种域名转换为IP地址的服务, www.fireship.io, SUP-DOMAIN, 172.16.254.1, TOP-LEVEL\nD. DOMAIN, www.fireship.io, 172.16.254.1, DOMAIN (TLD), SUB-DOMAIN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'DNS是一种域名转换为IP地址的服务, DOMAIN, TOP-LEVEL, 172.16.254.1, DOMAIN (TLD), SUB-DOMAIN, wuw.fireship.io' appear as text inside the region [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) you see at [[1052.0, 818.0], [1392.0, 818.0], [1392.0, 913.0], [1052.0, 913.0]]: ________",
+              "answer": [
+                "DOMAIN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[1052,818], [1392,818], [1392,913], [1052,913]], the text \"DO____IN\" has a gap — what letter(s) go there?",
+              "answer": "MA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which correctly identifies the text(s) at [[280, 1557], [3172, 1557], [3172, 2017], [280, 2017]]? Options:\nA. DOMAIN (TLD), DNS是一种域名转换为IP地址的服务, DOMAIN\nB. SUB-DOMAIN, DNS是一种域名转换为IP地址的服务, DOMAIN (TLD)\nC. DNS是一种域名转换为IP地址的服务, SUP-DOMAIN, DOMAIN (TLD)\nD. DOMAIN (TLD), DNS是一种域名转换为IP地址的服务, IOP-LEVEL",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]] — do you see the label(s) 'DNS是一种域名转换为IP地址的服务, 172.16.254.1, SUB-DOMAIN, wuw.fireship.io, DOMAIN (TLD), TOP-LEVEL, DOMAIN' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) found at [[678.7407407407406, 1844.0740740740741], [3171.851851851852, 1844.0740740740741], [3171.851851851852, 2016.6666666666665], [678.7407407407406, 2016.6666666666665]]: ________",
+              "answer": [
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Buried in [[263,1100], [1812,1101], [1813,1344], [268,1341]] is a URL that reads \"____.fireship.io\" — what subdomain is hidden there?",
+              "answer": "www"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option captures all the text(s) visible at [[263, 818], [3536, 818], [3536, 2017], [263, 2017]]. Options:\nA. TOP-LEVEL, DOMAIN, DDMAIN (TLD), SUB-DOMAIN, DNS是一种域名转换为IP地址的服务, www.fireship.io\nB. 172.16.254.1, DNS是一种域名转换为IP地址的服务, DOMAIN, www.fireship.io, DOMAIN (TLD), TOP-LEVEL\nC. 172.16.254.1, DNS是一种域名转换为IP地址的服务, DOMAIN, www.fireship.io, TOP-LEVEL, SUP-DOMAIN\nD. 172.16.254.1, DDMAIN, TOP-LEVEL, DNS是一种域名转换为IP地址的服务, DOMAIN (TLD), www.fireship.io",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[280, 1557], [3172, 1557], [3172, 2017], [280, 2017]], can the label(s) 'SUB-DOMAIN, DOMAIN (TLD), TOP-LEVEL' be found there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text do you read at [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]? ________",
+              "answer": [
+                "DOMAIN",
+                "www.fireship.io",
+                "172.16.254.1",
+                "SUB-DOMAIN",
+                "TOP-LEVEL",
+                "DOMAIN (TLD)",
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[679,1844], [3170,1844], [3172,2017], [681,2017]] 区域内有一个与IP地址转换相关的服务，它的完整名称 \"DNS是____域名转换为IP地址的服务\" 是什么？",
+              "answer": "一种"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]] and choose the option that matches the text(s) you see there. Options:\nA. www.fireship.io, 172.16.254.1, DDMAIN (TLD), SUB-DOMAIN, TOP-LEVEL\nB. DOMAIN (TLD), SUB-DOMAIN, www.fireship.io, IOP-LEVEL, 172.16.254.1\nC. TOP-LEVEL, DNS是一种域名转换为IP地址的服务, SUB-DOMAIN, DOMAIN (TLD), www.fireship.io\nD. www.fireship.io, 172.16.254.1, DOMAIN (TLD), TOP-LEVEL, DOMAIN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: is 'www.fireship.io, DNS是一种域名转换为IP地址的服务, TOP-LEVEL, 172.16.254.1, OOMAIN, SUB-DOMAIN, DOMAIN (TLD)' present inside the region marked by [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write out the word(s) visible at [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]: ________",
+              "answer": [
+                "DOMAIN",
+                "www.fireship.io",
+                "172.16.254.1",
+                "SUB-DOMAIN",
+                "TOP-LEVEL",
+                "DOMAIN (TLD)",
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere at [[2462,1139], [3535,1138], [3536,1305], [2465,1306]] you can spot the sequence \"____.16.254.1\" — which number(s) complete it?",
+              "answer": "172"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[263, 818], [3536, 818], [3536, 1746], [263, 1746]], which of these options matches the text shown there? Options:\nA. DOMAIN, 172.16.254.1, SUB-DOMAIN, DOMAIN (TLD), TOP-LEVEL\nB. DOMAIN (TLD), DNS是一种域名转换为IP地址的服务, SUB-DOMAIN, 172.16.254.1, DOMAIN\nC. SUB-DOMAIN, IOP-LEVEL, www.fireship.io, DOMAIN, DOMAIN (TLD)\nD. SUP-DOMAIN, DOMAIN, DOMAIN (TLD), 172.16.254.1, www.fireship.io",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '172.16.254.1, DOMAIN, www.fireship.io, DNS是一种域名转换为IP地址的服务, SUB-DOMAIN, TOP-LEVEL, DOMAIN (TLD)' appearing inside the box at [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears inside [[1052, 818], [1392, 818], [1392, 913], [1052, 913]]. ________",
+              "answer": [
+                "DOMAIN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word completes the sequence \"172.16.____.1\" shown inside the box at [[2462,1139], [3535,1138], [3536,1305], [2465,1306]]?",
+              "answer": "254"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly shows the text visible within [[263, 818], [3536, 818], [3536, 2017], [263, 2017]]. Options:\nA. 172.16.254.1, wuw.fireship.io, TOP-LEVEL, DOMAIN (TLD), SUB-DOMAIN, DNS是一种域名转换为IP地址的服务\nB. www.fireship.io, DNS是一种域名转换为IP地址的服务, DDMAIN (TLD), TOP-LEVEL, SUB-DOMAIN, DOMAIN\nC. DOMAIN (TLD), TOP-LEVEL, 172.16.254.1, SUB-DOMAIN, DNS是一种域名转换为IP地址的服务, DOMAIN\nD. TOP-LEVEL, www.fireship.io, SUB-DOMAIN, DNS是一种域名转换为IP地址的服务, DOMAIN (TLD), DDMAIN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[263, 1100], [3536, 1100], [3536, 2017], [263, 2017]] actually contain 'SUB-DOMAIN, www.fireship.io, TOP-LEVEL, DOMAIN (TLD), DOMAIN, 172.16.254.1, DNS是一种域名转换为IP地址的服务'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the word(s) shown inside [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]? ________",
+              "answer": [
+                "DOMAIN",
+                "www.fireship.io",
+                "172.16.254.1",
+                "SUB-DOMAIN",
+                "TOP-LEVEL",
+                "DOMAIN (TLD)",
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[2556,430], [3331,430], [3333,560], [2556,563]] shows a networking term — what word fills the blank in \"IP ____\"?",
+              "answer": "ADDRESS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From [[263, 818], [3536, 818], [3536, 2017], [263, 2017]], which answer choice matches what's written there? Options:\nA. DNS是一种域名转换为IP地址的服务, SUB-DOMAIN, 172.16.254.1, DOMAIN, www.fireship.io, DOMAIN (TLD)\nB. DOMAIN (TLD), www.fireship.io, IOP-LEVEL, DOMAIN, 172.16.254.1, DNS是一种域名转换为IP地址的服务\nC. DCMAIN (TLD), SUB-DOMAIN, DOMAIN, TOP-LEVEL, www.fireship.io, DNS是一种域名转换为IP地址的服务\nD. DDMAIN (TLD), DOMAIN, TOP-LEVEL, 172.16.254.1, www.fireship.io, DNS是一种域名转换为IP地址的服务",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'DOMAIN (TLD), SUB-DOMAIN, DOMAIN, 172.16.254.1, DNS是一种域名转换为IP地址的服务' can be found inside [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text do you read inside the box [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]? ________",
+              "answer": [
+                "DOMAIN",
+                "www.fireship.io",
+                "172.16.254.1",
+                "SUB-DOMAIN",
+                "TOP-LEVEL",
+                "DOMAIN (TLD)",
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How would you fill in the blank to complete \"DO____\" — the text visible at [[1052,818], [1392,818], [1392,913], [1052,913]]?",
+              "answer": "MAIN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that lists the text you see within [[280, 1557], [3172, 1557], [3172, 2017], [280, 2017]]. Options:\nA. DOMAIN (TLD), DNS是一种堿名转换为IP地址的服务, SUB-DOMAIN\nB. SUB-DOMAIN, DOMAIN, TOP-LEVEL\nC. DOMAIN (TLD), DNS是一种域名转换为IP地址的服务, TOP-LEVEL\nD. DNS是一种域名转换为IP地址的服务, TOP-LEVEL, SUP-DOMAIN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'SUB-DOMAIN, DOMAIN (TLD), DNS是一种域名转换为IP地址的服务, 172.16.254.1, TOP-LEVEL, DOMAIN, www.fireship.io' falls within [[263, 818], [3536, 818], [3536, 1746], [263, 1746]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/clip_005_2/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_005_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write out the word(s) you can see inside [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]]. ________",
+              "answer": [
+                "DOMAIN",
+                "www.fireship.io",
+                "172.16.254.1",
+                "SUB-DOMAIN",
+                "TOP-LEVEL",
+                "DOMAIN (TLD)",
+                "DNS是一种域名转换为IP地址的服务"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What subdomain is missing from \"____.fireship.io\", the text located at [[263,1100], [1812,1101], [1813,1344], [268,1341]]?",
+              "answer": "www"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text inside [[263, 818], [3536, 818], [3536, 2017], [263, 2017]], which of the following options is correct? Options:\nA. TOP-LEVEL, DOMAIN, DOMAIN (TLD), SUB-DOMAIN, 172.16.254.1, DNS是一种域名转换为IP地址的服务\nB. www.fireship.io, IOP-LEVEL, DNS是一种域名转换为IP地址的服务, DOMAIN, 172.16.254.1, SUB-DOMAIN\nC. 172.16.254.1, DNS是一种域名转换为IP地址的服务, DOMAIN, DOMAIN (TLD), SUB-DOMAIN, wuw.fireship.io\nD. DOMAIN, TOP-LEVEL, DNS是一种域名转换为IP地址的服务, SUB-DOMAIN, 172.16.254.1, www.fireship.io",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the box at [[263.235294117647, 818.0], [3536.0, 818.0], [3536.0, 2016.6666666666665], [263.235294117647, 2016.6666666666665]] — is '172.16.254.1, DOMAIN, DOMAIN (TLD), DNS是一种域名转换为IP地址的服务, www.fireship.io' the text you find there?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_005_2"
+  }
+]

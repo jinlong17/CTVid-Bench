@@ -1,0 +1,438 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears in the bounding box [[840, 440], [1071, 440], [1071, 515], [840, 515]]? ________",
+              "answer": [
+                "3rd Ave",
+                "Kehoe Ave",
+                "416",
+                "415",
+                "3/4"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one matches the text you see in [[428, 424], [658, 424], [658, 530], [428, 530]]? Options:\nA. TO Broadway, 3rd Ave, TOLL, TO, FASTRAK REQUIRED, 0.50, ONLY\nB. FASTRAK REQUIRED, TO, TOLL, EXPRESS LANE, TO Broadway, 100, 0.50\nC. 100, TO Broadway, FASTRAK REQUIRED, TO, ONLY, TOLL, EXPRESS LANE\nD. TO, TOLL, TO Broadway, 0.50, Kehoe Ave, EXPRESS LANE, 100",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'ONLY, TO, 0.50, TOLL, 100, TO Broadway' appear anywhere within [[428, 424], [658, 424], [658, 530], [428, 530]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region marked [[334.2275888349105, 489.7893152050583], [1013.823009711832, 489.7893152050583], [1013.823009711832, 598.5942870721949], [334.2275888349105, 598.5942870721949]], the text inside reads: ________.",
+              "answer": [
+                "0.50",
+                "100",
+                "FASTRAK REQUIRED",
+                "ONLY",
+                "TOLL",
+                "EXPRESS LANE",
+                "TO Broadway",
+                "TO",
+                "380",
+                "3rd Ave",
+                "Kehoe Ave",
+                "416",
+                "415",
+                "3/4 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the entire image, which option correctly captures the text present in [[334, 507], [1014, 507], [1014, 599], [334, 599]]? Options:\nA. TO, TOLL, 0.50, TO Broadway, EXPRESS LANE, 415, 100, 416, 380, ONLY\nB. TO Broadway, 3/4 MILE, IOLL, 416, ONLY, 415, 0.50, Kehoe Ave, 3rd Ave, FASTRAK REQUIRED\nC. Kehoe Ave, TO Broadway, 415, 0.50, TOLL, TO, 3rd Ave, 380, 3/4 MILE, 100\nD. 3rd Ave, 3/4 MILE, FASTRAK REQUIRED, TOLL, 0.50, TO Broadway, 418, TO, ONLY, 380",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) '100, 416, 0.50, Kehoe Ave, 3/4 MILE, 415, TO, 380, IO Broadway, EXPRESS LANE' fall inside the region [[334.2275888349105, 489.7893152050583], [1013.823009711832, 489.7893152050583], [1013.823009711832, 598.5942870721949], [334.2275888349105, 598.5942870721949]] — is that correct?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Within the region [[823.433826187648, 465.57862822998857], [1080.4864333691287, 465.57862822998857], [1080.4864333691287, 558.2884994108263], [823.433826187648, 558.2884994108263]], the word(s) you should see is/are ________.",
+              "answer": [
+                "3rd Ave",
+                "Kehoe Ave",
+                "416",
+                "415",
+                "3/4 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that best matches the text found in region [[357, 469], [616, 469], [616, 593], [357, 593]]. Options:\nA. TO Broadway, FASTRAK REQUIRED, 0.50, TOLL, 3rd Ave, TO, 100, EXPRESS LANE\nB. 100, ONLY, IOLL, TO Broadway, FASTRAK REQUIRED, 380, 0.50, TO\nC. EXPRESS LANE, TO, FASTRAK REQUIRED, ONLY, TOLL, TO Broadway, 100, 300\nD. FASTRAK REQUIRED, EXPRESS LANE, TO Broadway, 0.50, 380, ONLY, TOLL, TO",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[357, 469], [616, 469], [616, 593], [357, 593]], are the label(s) 'ONLY, TOLL, 380, 100, EXPRESS LANE, TO, FASTRAK REQUIRED, TO Broadway, 0.50, 415' located within it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text inside [[263.83322362654474, 599.4840895439157], [1038.4357354510935, 599.4840895439157], [1038.4357354510935, 728.1187748427114], [263.83322362654474, 728.1187748427114]], you would fill in: ________.",
+              "answer": [
+                "0.50",
+                "100",
+                "FASTRAK REQUIRED",
+                "ONLY",
+                "TOLL",
+                "EXPRESS LANE",
+                "TO Broadway",
+                "TO",
+                "380",
+                "3rd Ave",
+                "Kehoe Ave",
+                "EXIT 416",
+                "EXIT 415",
+                "3/4 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "In the area [[264, 599], [544, 599], [544, 728], [264, 728]], the text matches which of the following options? Options:\nA. TO Broadway, EXPRESS LANE, DNLY, TOLL, 100, FASTRAK REQUIRED, 0.50, TO\nB. FASTRAK REQUIRED, 100, TO Broadway, 3rd Ave, ONLY, 380, 0.50, EXPRESS LANE\nC. TO, 110, ONLY, TO Broadway, FASTRAK REQUIRED, 0.50, EXPRESS LANE, 380\nD. 0.50, TO Broadway, TOLL, TO, FASTRAK REQUIRED, 380, EXPRESS LANE, ONLY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just to confirm — are the label(s) '0.50, EXIT 416, Kehoe Ave, FASTRAK REQUIRED, ONLY, EXIT 415, TO Broadway, 380, 100, TOLL' within the box [[263.83322362654474, 599.4840895439157], [1038.4357354510935, 599.4840895439157], [1038.4357354510935, 728.1187748427114], [263.83322362654474, 728.1187748427114]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you read the text in area [[906.6448147648973, 432.6700178038988], [1049.4874751933778, 432.6700178038988], [1049.4874751933778, 491.1388415794712], [906.6448147648973, 491.1388415794712]], the answer would be ________.",
+              "answer": [
+                "Kehoe Ave",
+                "EXIT 415"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[215, 400], [514, 400], [514, 533], [215, 533]], select the option that shows what's written there. Options:\nA. 100, ONLY, 0.50, TO Broadway, 380, TO, IOLL, EXPRESS LANE\nB. EXPRESS LANE, FASTRAK REQUIRED, 100, TOLL, 380, ONLY, TO Broadway, TO\nC. FASTRAK REQUIRED, TOLL, TO, 380, DNLY, 100, 0.50, TO Broadway\nD. TO, 3rd Ave, FASTRAK REQUIRED, 380, 100, TOLL, ONLY, EXPRESS LANE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[214.6537419520139, 400.0], [1049.4874751933778, 400.0], [1049.4874751933778, 533.3734939759037], [214.6537419520139, 533.3734939759037]], are the label(s) '0.50, FASTRAK REQUIRED, 100, TO Broadway, EXIT 416, TO, TOLL, 3vd Ave, Kehoe Ave, 380' present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Every word visible in area [[113.7629808331532, 512.183647104758], [1018.3039941842908, 512.183647104758], [1018.3039941842908, 654.087225698535], [113.7629808331532, 654.087225698535]] reads: ________.",
+              "answer": [
+                "0.50",
+                "100",
+                "FASTRAK REQUIRED",
+                "ONLY",
+                "TOLL",
+                "EXPRESS LANE",
+                "TO Broadway",
+                "TO",
+                "380",
+                "3rd Ave",
+                "Kehoe Ave",
+                "EXIT 416",
+                "EXIT 415",
+                "3/4 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and pick whichever one correctly shows the text in [[114, 512], [1018, 512], [1018, 620], [114, 620]]. Options:\nA. 380, 100, TO, TO Broadway, EXIT 416, TOLL, EXPRESS LANE, Kehoe Ave, EXIT 415, 0.50\nB. TO Broadway, 0.50, Kehoe Ave, TO, EXIT 416, 3rd Ave, 380, EXPRESS LANE, EXIT 415, 100\nC. FXIT 416, TO Broadway, 100, TO, EXPRESS LANE, 380, TOLL, EXIT 415, Kehoe Ave, ONLY\nD. EXIT 415, 100, EXPRESS LANE, ONLY, 0.50, 3rd Ave, FASTRAK REQUIRED, TO Broadway, 380, EXIT 416",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'TO, 3/4 MILE, 3rd Ave, TOLL, 110, EXIT 416, ONLY, FASTRAK REQUIRED, EXIT 415, 0.50' actually inside the region marked by [[113.7629808331532, 512.183647104758], [1018.3039941842908, 512.183647104758], [1018.3039941842908, 654.087225698535], [113.7629808331532, 654.087225698535]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on the area [[891.4985751229175, 490.7528375302795], [1055.7512138482052, 490.7528375302795], [1055.7512138482052, 556.6551322027279], [891.4985751229175, 556.6551322027279]], what word(s) do you see? The answer is ________.",
+              "answer": [
+                "Kehoe Ave",
+                "EXIT 415"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) inside [[73, 474], [1056, 474], [1056, 605], [73, 605]]? Options:\nA. EXIT 416, ONLY, 380, TO Broadway, FASTRAK, TO, 0.50, EXIT 415, TOLL, 100\nB. ONLY, TO Broadway, EXIT 415, EXPRESS LANE, FASTRAK, 3/4 MILE, Kehoe Ave, 380, TOLL, 100\nC. TOLL, TO, ONLY, EXIT 416, FASTRAK, FASTRAK REQUIRED, 3/4 MILF, 3rd Ave, EXIT 415, 380\nD. ONLY, TO Broadway, 3/4 MILE, EXIT 415, FASTRAK REQUIRED, TOLL, 3rd Ave, Keboe Ave, FASTRAK, EXIT 416",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Kehoe Ave, 0.50, FASTRAK REQUIRED, TO, ONLY, TOLL, EXRRESS LANE, 3/4 MILE, EXIT 415, 3rd Ave' fall(s) inside the box [[72.99951563897253, 449.7303283604535], [1055.7512138482052, 449.7303283604535], [1055.7512138482052, 604.6052419857184], [72.99951563897253, 604.6052419857184]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "In the area marked [[748.7590352766647, 471.4047901721849], [1126.8868875290889, 471.4047901721849], [1126.8868875290889, 586.0331363973394], [748.7590352766647, 586.0331363973394]], what text appears there? The answer is ________.",
+              "answer": [
+                "3rd Ave",
+                "Kehoe Ave",
+                "EXIT 416",
+                "EXIT 415",
+                "3/4 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text you'd find inside [[46, 429], [435, 429], [435, 600], [46, 600]]. Options:\nA. TO, ONLY, EXPRESS LANE, 100, IO Broadway, 380, TOLL, FASTRAK REQUIRED, FASTRAK\nB. 0.50, FASTRAK, FASTRAK REQUIRED, 380, 100, TO, TO Broadway, EXPRESS LANE, TOLL\nC. ONLY, TOLL, 100, TO Broadway, EXPRESS LANE, TO, 0.50, FASTRAK REQUIRED, 3rd Ave\nD. FASTRAK REQUIRED, EXPRESS LANE, FASTRAK, TOLL, IO, 100, 0.50, ONLY, TO Broadway",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The text 'TOLL, 100, EXIT 416, ONLY, FASTRAK, EXIT 415, 3rd Ave, EXPRESS LANE, 3/4 MILE, Kehoe Ave' — is it contained within [[45.560709396520565, 429.32392903209546], [1126.8868875290889, 429.32392903209546], [1126.8868875290889, 600.2844332542352], [45.560709396520565, 600.2844332542352]]? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the content of [[754.7824625990975, 455.47084150474046], [1176.7912772585669, 455.47084150474046], [1176.7912772585669, 577.5699345692162], [754.7824625990975, 577.5699345692162]], what word(s) are written there? The answer is ________.",
+              "answer": [
+                "3rd Ave",
+                "Kehoe Ave",
+                "EXIT 416",
+                "EXIT 415",
+                "3/4 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one has the text found in [[10, 408], [904, 408], [904, 597], [10, 597]]? Options:\nA. 3rd Ave, FASTRAK, 100, EXIT 416, FASTRAK REQUIRED, EXPRESS LANE, TOLL, Broadway, ONLY, 380\nB. 3rd Ave, 100, 3/4 MILE, FASTRAK, EXPRESS LANE, TOLL, ONLY, 0.50, FASTPAK REQUIRED, 380\nC. 0.50, 3rd Ave, Broadway, 380, 3/4 MILE, EXPRESS LANE, FASTRAK, DNLY, 100, EXIT 416\nD. Kehoe Ave, EXPRESS LANE, ONLY, FASTRAK, FASTRAK REQUIRED, 380, EXIT 416, 100, 3rd Ave, TOLL",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[9.777777777777775, 408.0397022332506], [1176.7912772585669, 408.0397022332506], [1176.7912772585669, 597.319007623747], [9.777777777777775, 597.319007623747]], would you find the label(s) 'TOLL, EXIT 416, EXPRESS LANE, FASTRAK, 100, 0.50, 3rd Ave, Kehoe Ave, ONLY, EXIT 415'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Zooming in on [[1028.7236363075353, 397.92609845049265], [1253.0981617462696, 397.92609845049265], [1253.0981617462696, 485.67921592852684], [1028.7236363075353, 485.67921592852684]], what word(s) can you read? The answer is ________.",
+              "answer": [
+                "Kehoe Ave",
+                "EXIT 415"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the region [[0, 380], [1253, 380], [1253, 555], [0, 555]], select the option that accurately shows the text inside it. Options:\nA. Kehoe Ave, 3rd Ave, 100, 0.50, TOLL, FXIT 416, ONLY, K, ASTRAK REQUIRED, 3/4 MILE\nB. 3/4 MILE, EXIT 416, EXPRESS LANE, 0.50, EXIT 415, ASTRAK REQUIRED, ONLY, 100, 3rd Ave, Kehoe Ave\nC. adway, EXIT 415, ONLY, K, ASTRAK REQUIRED, 3rd Ave, 100, Kehoe Ave, TOLL, 3/4 MILE\nD. ASTRAK REQUIRED, 3rd Ave, 100, K, EXIT 416, 3/4 MILE, TOLL, 0.50, EXIT 415, DNLY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just glancing at [[0.0, 346.87991819677234], [1253.0981617462696, 346.87991819677234], [1253.0981617462696, 555.0760269611092], [0.0, 555.0760269611092]], would you say '3/4 MILF, TOLL, EXIT 415, adway, 100, ONLY, EXPRESS LANE, 3rd Ave, EXIT 416, Kehoe Ave' sits inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over the area [[0.0, 354.90095670305413], [328.14381097362127, 354.90095670305413], [328.14381097362127, 594.2096382373018], [0.0, 594.2096382373018]], what word(s) are present? The answer is ________.",
+              "answer": [
+                "0.50",
+                "100",
+                "K REQUIRED",
+                "TOLL",
+                "RESS LANE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of all the options, which one matches the text visible in [[13, 393], [1318, 393], [1318, 594], [13, 594]]? Options:\nA. EXIT 415, Kehoe Ave, 3/4 MILE, EXIT 416, 0.50, 100, 3rd Ave, TOLL\nB. 3/4 MILE, IOLL, Kehoe Ave, 0.50, 3rd Ave, 100, EXIT 416, EXIT 415\nC. 3/4 MILE, RESS LANE, 100, EXIT 416, 3rd Ave, EXIT 415, TOLL, K REQUIRED\nD. FXIT 415, TOLL, K REQUIRED, 3/4 MILE, 0.50, 100, 3rd Ave, Kehoe Ave",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'TOLL, K REQUIRED, RESS LANE, 0.50' appear inside the bounding box [[0.0, 354.90095670305413], [328.14381097362127, 354.90095670305413], [328.14381097362127, 594.2096382373018], [0.0, 594.2096382373018]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0488_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0488_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the region [[0.0, 207.18525464699502], [1412.4444444444443, 207.18525464699502], [1412.4444444444443, 480.3888888888889], [0.0, 480.3888888888889]], what word(s) can you make out? The answer is ________.",
+              "answer": [
+                "0.50",
+                "100",
+                "UIRED",
+                "TOLL",
+                "ANE",
+                "3rd Ave",
+                "Kehoe Ave",
+                "EXIT 416",
+                "EXIT 415",
+                "3/4 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that reflects the text inside [[7, 252], [1412, 252], [1412, 480], [7, 480]]. Options:\nA. TOLL, 100, Kehoe Ave, 3/4 MILE, UIPED, EXIT 416, 0.50, EXIT 415\nB. 3rd Ave, 3/4 MILE, 100, Kehoe Ave, UIRED, EXIT 415, 0.50, IOLL\nC. 100, EXIT 415, 0.50, UIRED, 3/4 MILE, 3rd Ave, EXIT 416, ANE\nD. TOLL, 100, 0.50, EXIT 415, Kehoe Ave, UIRED, 3/4 MILE, 3rd Ave",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "When you check [[0.0, 207.18525464699502], [257.3333333333333, 207.18525464699502], [257.3333333333333, 480.3888888888889], [0.0, 480.3888888888889]], would you find the label(s) '100, UIRED, 3/4 MILE, TOLL, ANE, 0.50' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0488_2"
+  }
+]

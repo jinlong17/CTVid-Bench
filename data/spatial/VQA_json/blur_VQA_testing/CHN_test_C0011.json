@@ -1,0 +1,343 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像坐标 [[640,304], [917,304], [916,372], [638,372]] 处的文本读作\"空港礼____\"，请填写缺失内容。",
+              "answer": "程"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does the region [[1143, 630], [1485, 630], [1485, 712], [1143, 712]] contain? Pick the option that matches. Options:\nA. Gates, 登杋口\nB. GIFT, Gates\nC. 363-378, 空港礼程\nD. Gates, 363-378",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[638, 304], [1485, 304], [1485, 712], [638, 712]] contain the label(s) 'Gates, 363-378, GIFT, 登机口'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at location [[1395,669], [1457,668], [1458,697], [1396,696]], what fills in the blank in \"G____es\"?",
+              "answer": "at"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that correctly captures the text at [[1143, 625], [1488, 625], [1488, 705], [1143, 705]]. Options:\nA. 登机口, 空港礼程\nB. 363-378, Oates\nC. Gates, 363-378\nD. 363-378, 登杋口",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '363-370, 登机口, 空港礼程, Gates, GIFT' sits inside the box defined by [[640, 303], [1488, 303], [1488, 705], [640, 705]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[1362,644], [1441,641], [1441,675], [1361,677]]所在区域显示的文字为\"登机____\"，请补全空缺处。",
+              "answer": "口"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text visible at [[1146, 420], [1919, 420], [1919, 705], [1146, 705]]. Options:\nA. Oates, 季榴莲, 登机口\nB. Gates, 空港礼程, 363-378\nC. 363-378, GIFT, 登机口\nD. 363-378, Gates, 季榴莲",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '空港礼程, GIFT, Gates, 登机口' appears inside the bounding box [[641, 296], [1489, 296], [1489, 705], [641, 705]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at coordinates [[1065,672], [1320,659], [1320,730], [1069,742]] reads \"36____-378\" — what digit(s) are missing?",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[641, 296], [1489, 296], [1489, 705], [641, 705]] and pick the option that lists its text correctly. Options:\nA. 363-378, 空港礼程, 登机口, Oates\nB. 363-370, GIFT, 空港礼程, 登机口\nC. 空港礼程, 登机口, 季榴莲, Gates\nD. GIFT, 登机口, Gates, 空港礼程",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '空港礼程, Gates, 363-378, 登杋口, GIFT, 季榴莲' falls inside the bounding box [[641, 296], [1919, 296], [1919, 705], [641, 705]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看坐标[[1721,475], [1790,474], [1790,500], [1721,500]]处，文本呈现为\"季____莲\"，请填上缺少的内容。",
+              "answer": "榴"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Going by what's written inside [[639, 299], [1917, 299], [1917, 445], [639, 445]], which answer option is correct? Options:\nA. GIFT, 季榴莲\nB. 季槢莲, GIFT\nC. 季榴莲, OIFT\nD. 363-378, 空港礼程",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '登机口, 季榴莲, 空港礼程, GIFT' are contained within [[638.8134730226774, 298.9573730903236], [1916.6653696498054, 298.9573730903236], [1916.6653696498054, 444.7674418604651], [638.8134730226774, 444.7674418604651]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据坐标[[1682,490], [1751,489], [1751,515], [1682,515]]中的文本\"____榴莲\"，请将缺失部分补充完整。",
+              "answer": "季"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one correctly lists the text inside [[639, 299], [1483, 299], [1483, 705], [639, 705]]? Options:\nA. 空港礼程, OIFT, Gates, 363-378\nB. Gates, 363-378, 登机口, 季榴莲\nC. 空港礼程, OIFT, 363-378, Gates\nD. 空港礼程, GIFT, 登机口, Gates",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think 'GIFT, Gates, 登机口, 363-378' is within the bounds of [[639, 299], [1483, 299], [1483, 705], [639, 705]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请补全坐标[[950,711], [1205,698], [1205,769], [953,781]]处文本\"3____-378\"中缺失的内容。",
+              "answer": "63"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[639, 301], [1912, 301], [1912, 446], [639, 446]] — which of the following options has the right text? Options:\nA. GIFT, 空港礼程\nB. GIFT, 空滼礼程\nC. OIFT, 季榴莲\nD. GIFT, 363-378",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[639, 301], [1912, 301], [1912, 705], [639, 705]], is '季榴莲, GIFT, 空港礼程, Gates, 363-378, 登杋口' actually present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[864,718], [1119,705], [1119,777], [868,788]], something is missing — fill in the blank in \"363-37____\".",
+              "answer": "8"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the region [[639, 301], [1482, 301], [1482, 710], [639, 710]], which answer choice accurately reflects the text there? Options:\nA. Gates, 登机口, 363-370, GIFT\nB. 363-378, Gates, 登机口, 空港礼程\nC. 363-378, 登机口, GIFT, 季榴莲\nD. 363-378, OIFT, 登机口, 空港礼程",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just looking at [[639, 301], [1482, 301], [1482, 710], [639, 710]], can you confirm 'Gates, 登机口, 季榴莲, GIFT, 空港礼程, 363-378' is inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of the text at [[784,729], [1037,707], [1041,775], [786,796]] has been masked: \"36____-378\". What are the missing digit(s)?",
+              "answer": "3"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[639, 301], [1912, 301], [1912, 448], [639, 448]] — which of these options matches the text you see there? Options:\nA. GIFT, 季榴莲\nB. GIFT, 季槢莲\nC. 空滼礼程, 季榴莲\nD. 空港礼程, 363-378",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[639, 301], [1912, 301], [1912, 710], [639, 710]] contain the label(s) '空港礼程, 363-378, GIFT, 季槢莲, Gates, 登机口'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请问坐标[[202,399], [496,400], [494,467], [197,472]]范围内，残缺词语\"空港____程\"中空白处应填什么字？",
+              "answer": "礼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you pick the option that shows the text appearing inside [[635, 304], [1479, 304], [1479, 710], [635, 710]]? Options:\nA. 登机口, GIFT, Oates, 空港礼程\nB. 空港礼程, 363-378, GIFT, 登杋口\nC. 季榴莲, GIFT, 363-378, 登机口\nD. 空港礼程, 登机口, 363-378, Gates",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — do you spot the label(s) '363-378, GIFT, 登机口, Gates, 季榴莲, 空港礼程' inside the bounding box [[635, 304], [1479, 304], [1479, 710], [635, 710]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What character(s) are missing from \"3____-378\" in the region shown at [[649,750], [909,727], [913,795], [651,816]]?",
+              "answer": "63"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[1134, 427], [1905, 427], [1905, 710], [1134, 710]] and select the option that correctly lists the text(s) there. Options:\nA. 登机口, 季榴莲, 363-370\nB. Gates, 空港礼程, 季榴莲\nC. Gates, 363-378, 登杋口\nD. 登机口, Gates, 季榴莲",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) '季榴莲, 登机口, Gates' appear inside [[1134, 427], [1905, 427], [1905, 710], [1134, 710]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0011/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0011/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word(s) at [[439,450], [529,448], [525,482], [439,484]] read \"GI____\" — what's been left out?",
+              "answer": "FT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one captures all the text visible in [[624, 306], [1900, 306], [1900, 456], [624, 456]]? Options:\nA. 季榴莲, GIFT\nB. OIFT, 季榴莲\nC. GIFT, 季槢莲\nD. 363-378, GIFT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '登机口, 季榴莲, GIFT, 空港礼程' are enclosed by the bounding box [[624, 306], [1900, 306], [1900, 711], [624, 711]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0011"
+  }
+]

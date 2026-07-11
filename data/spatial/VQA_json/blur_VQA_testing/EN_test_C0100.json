@@ -1,0 +1,510 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text you see inside [[818, 208], [1160, 208], [1160, 491], [818, 491]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A company name shows up at [[820,328], [972,328], [972,377], [820,377]] but with letters missing — complete \"Ma____'s\" with the right word(s).",
+              "answer": "cy"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text visible at [[820, 208], [1160, 208], [1160, 377], [820, 377]]. Options:\nA. RH, Bleomingdale's\nB. Bloomingdale's, Macy's\nC. Bloomingdale's, Neiman\nD. RH, Maoy's",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[818.0, 208.0], [1160.0, 208.0], [1160.0, 491.0], [818.0, 491.0]] — are 'Macy's, RH, Marcus, Nordstrom, Bloomingdale's, Neimen' all present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can spot at [[817, 206], [1160, 206], [1160, 491], [817, 491]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label inside [[820,256], [890,256], [890,304], [820,304]] is partially hidden — what are the missing character(s) that belong in \"____H\"?",
+              "answer": "R"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Considering the whole image, which option correctly captures what's written inside [[817, 323], [1150, 323], [1150, 491], [817, 491]]? Options:\nA. Nordstrom, Neiman, Marcus\nB. Nordstrem, Neiman, Marcus\nC. Neiman, Marcus, Bloomingdale's\nD. RH, Marcus, Neiman",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[817.0, 206.0], [1160.0, 206.0], [1160.0, 491.0], [817.0, 491.0]] — are 'Marcus, Bloomingdale's, Macy's, Neiman' the texts found there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside the region [[817, 204], [1160, 204], [1160, 489], [817, 489]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[847,190], [1162,197], [1161,245], [846,238]] a store name reads \"Bl____dale's\" — what letters are missing?",
+              "answer": "ooming"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which best represents the text shown at [[817, 204], [1160, 204], [1160, 489], [817, 489]]? Options:\nA. Neiman, RH, Marcus, Nordstrom, Bleomingdale's\nB. RH, Neiman, Macy's, Bloomingdale's, Nordstrom\nC. Bloomingdale's, Maoy's, Neiman, Marcus, RH\nD. RH, Neiman, Macy's, Bloemingdale's, Marcus",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'Marcus, Bloomingdale's, Nordstrom, RH, Neimen, Macy's' are all contained within [[817.0, 204.0], [1160.0, 204.0], [1160.0, 489.0], [817.0, 489.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify all readable text inside [[820, 204], [1163, 204], [1163, 490], [820, 490]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A familiar store name at [[804,310], [958,310], [958,359], [804,359]] has some letters hidden — restore \"Ma____'s\" by providing the missing part.",
+              "answer": "cy"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area [[820, 204], [1163, 204], [1163, 490], [820, 490]], which of the following options correctly lists the text(s) shown there? Options:\nA. PH, Bloomingdale's, Macy's, Marcus, Nordstrom\nB. Marcus, Maoy's, Nordstrom, Neiman, RH\nC. Bloomingdale's, Macy's, Marous, Neiman, RH\nD. RH, Marcus, Bloomingdale's, Nordstrom, Macy's",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Somewhere inside [[820.4782608695652, 203.73913043478262], [1162.608695652174, 203.73913043478262], [1162.608695652174, 490.4782608695652], [820.4782608695652, 490.4782608695652]], do any of these labels appear: 'Macy's, RH, Nordstrom, Bloomingdalo's, Marcus, Neiman'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text visible inside [[816, 204], [1163, 204], [1163, 489], [816, 489]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The name at [[1033,349], [1189,349], [1189,385], [1033,385]] appears partially as \"Ma____s\" — what's the missing part?",
+              "answer": "rcu"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) visible at [[816, 204], [1163, 204], [1163, 489], [816, 489]]? Options:\nA. Neiman, Bloomingdale's, Marcus, Nordstrom, Macy's\nB. RH, Neiman, Bloemingdale's, Macy's, Marcus\nC. Neiman, Macy's, Bloomingdale's, Marous, Nordstrom\nD. Bleomingdale's, RH, Marcus, Nordstrom, Macy's",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you spot the label(s) 'Nordstrom, RH, Marcus, Macy's' anywhere inside the box at [[816.0526315789474, 204.10526315789474], [1163.157894736842, 204.10526315789474], [1163.157894736842, 489.2105263157895], [816.0526315789474, 489.2105263157895]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify all the text(s) that appear within the region [[818, 200], [1160, 200], [1160, 488], [818, 488]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown at [[1042,395], [1272,395], [1272,435], [1042,435]] is a partially visible name: \"Nordst____\". Which letter(s) are missing?",
+              "answer": "rom"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options given, which one accurately captures the text(s) inside [[818, 200], [1160, 200], [1160, 429], [818, 429]]? Options:\nA. Neiman, Marcus, RH, Macy's\nB. Marous, RH, Bloomingdale's, Neiman\nC. PH, Bloomingdale's, Marcus, Macy's\nD. RH, Marcus, Bloomingdale's, Nordstrom",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside [[817.8571428571429, 200.0], [1160.0, 200.0], [1160.0, 487.76190476190476], [817.8571428571429, 487.76190476190476]], can you spot 'Nordstrom, Marcus, Macy's and RH'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Which word(s) can you make out inside the box at [[816, 198], [1161, 198], [1161, 483], [816, 483]]? ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[425,0], [499,0], [504,93], [428,93]], the word(s) appear incompletely as \"u____\" — what's been left out?",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly identifies the text(s) appearing in region [[816, 198], [1161, 198], [1161, 369], [816, 369]]. Options:\nA. Bloomingdale's, Marcus\nB. RH, Macy's\nC. Bloomingdale's, Maoy's\nD. Neiman, Macy's",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounds of [[816.0, 198.0], [1160.78125, 198.0], [1160.78125, 483.125], [816.0, 483.125]], do any of these labels appear: 'Macy's, Nordstrom, Marcus, RH'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out every word found in the area [[817, 201], [1158, 201], [1158, 486], [817, 486]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters are obscured in the name shown at [[1388,463], [1608,463], [1608,502], [1388,502]] as \"____strom\" — which ones?",
+              "answer": "Nord"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice lists all the text(s) you can find inside [[817, 201], [1158, 201], [1158, 486], [817, 486]]? Options:\nA. Marcus, Nordstrom, RH, Neiman, Bleomingdale's\nB. Macy's, Marous, RH, Neiman, Bloomingdale's\nC. RH, Nordstrom, Neiman, Macy's, Marcus\nD. Nordstrem, RH, Bloomingdale's, Neiman, Marcus",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The labels 'Nordstrom, Macy's, Bloomingdale's, Marcus, Neimen, RH' — are any of them present inside [[816.5641025641025, 201.2051282051282], [1158.0, 201.2051282051282], [1158.0, 486.20512820512823], [816.5641025641025, 486.20512820512823]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside the area marked by [[816, 198], [1160, 198], [1160, 484], [816, 484]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the text at [[1384,131], [1676,131], [1676,173], [1384,173]], what letter(s) are hidden behind \"Bl____dale's\"?",
+              "answer": "ooming"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option below that best matches the text(s) shown in region [[816, 198], [1160, 198], [1160, 484], [816, 484]]. Options:\nA. Bleomingdale's, Marcus, Neiman, Macy's, Nordstrom\nB. Marcus, Maoy's, Neiman, RH, Nordstrom\nC. RH, Marcus, Macy's, Nordstrom, Bloomingdale's\nD. Bloomingdale's, Marcus, Nordstrom, Macy's, Neimen",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the region [[816.4975124378109, 198.0], [1160.0, 198.0], [1160.0, 484.48258706467664], [816.4975124378109, 484.48258706467664]], do the labels 'Nordstrom, Macy's, Neiman, and RH' show up there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "List every word visible within the box at [[817, 197], [1160, 197], [1160, 478], [817, 478]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus",
+                "Nordstrom"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A gap in the word \"Mar____\" is visible at [[1341,305], [1488,303], [1488,343], [1341,346]] — which letter(s) belong there?",
+              "answer": "cus"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices provided, which one correctly captures the text(s) found at [[817, 197], [1160, 197], [1160, 478], [817, 478]]? Options:\nA. Neiman, Nordstrom, Maoy's, RH, Bloomingdale's\nB. RH, Neiman, Bloomingdale's, Nordstrom, Macy's\nC. Neiman, Marcus, Nordstrom, Macy's, Bloemingdale's\nD. RH, Bleomingdale's, Nordstrom, Marcus, Macy's",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region marked by [[817.4418604651163, 197.1627906976744], [1159.744186046512, 197.1627906976744], [1159.744186046512, 478.0], [817.4418604651163, 478.0]], do 'Macy's, Nordstrom, Neiman, Bloomingdale's' appear?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What words appear inside the region [[817, 199], [1161, 199], [1161, 420], [817, 420]]? ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Marcus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1002,181], [1280,181], [1280,222], [1002,222]], the text reads \"Bloo____dale's\" — what goes in the blank?",
+              "answer": "ming"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option best matches the text visible inside [[817, 256], [1148, 256], [1148, 476], [817, 476]]? Options:\nA. RH, Neiman, Nordstrom, Marcus\nB. Nordstrom, Marous, RH, Macy's\nC. Neiman, RH, Nordstrem, Macy's\nD. Macy's, Bloomingdale's, Nordstrom, Marcus",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "All these labels — 'Neiman, Bloomingdale's, PH, Marcus, Macy's, Nordstrom' — are they present within [[817.418439716312, 198.8368794326241], [1160.7092198581558, 198.8368794326241], [1160.7092198581558, 476.0], [817.418439716312, 476.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0100/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0100/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word you can read inside [[814, 196], [1160, 196], [1160, 476], [814, 476]]. ________",
+              "answer": [
+                "Bloomingdale's",
+                "RH",
+                "Macy's",
+                "Neiman",
+                "Nordstrom",
+                "Marcus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A store name at [[928,349], [1077,348], [1078,387], [928,388]] appears as \"Mar____\" — which letters are absent?",
+              "answer": "cus"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which one correctly captures the text found at [[814, 316], [1147, 316], [1147, 476], [814, 476]]? Options:\nA. Neiman, Marcus, RH\nB. Neiman, Nordstrom, Macy's\nC. Nordstrom, Neiman, Marous\nD. Macy's, Bloomingdale's, Nordstrom",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'Bloomingdale's, Macy's, Nordstrom, Marcus' all appear inside [[814.0, 196.0], [1160.0, 196.0], [1160.0, 476.0], [814.0, 476.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0100"
+  }
+]

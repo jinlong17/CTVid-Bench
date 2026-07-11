@@ -1,0 +1,491 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[578, 516], [1410, 516], [1410, 766], [578, 766]] — what word(s) do you see? ________",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the text at [[579,714], [772,719], [771,759], [578,754]], what letter(s) complete the phrase \"EXIT O____L\"?",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly identifies the text(s) at [[578, 714], [1410, 714], [1410, 766], [578, 766]]. Options:\nA. EXIT ONL, ENIER, CLEARANCE610\nB. ENTER, MAXIMUMVEHICLFLOAD, EXIT ONL\nC. CLEARANCE610, EXIT ONL, MAXIMUMVEHICLELOAD\nD. EXIT ONL, COSTCO PARK, ENTER",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'EXIT ONL, CLEARANCE610, ENTER, MAXIMUMVEHICLELOAD' are inside the bounding box [[578.0, 516.0], [1410.4175365344468, 516.0], [1410.4175365344468, 765.7620041753653], [578.0, 765.7620041753653]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can find at [[574, 516], [1406, 516], [1406, 768], [574, 768]]. ________",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the phrase \"MAXIMUM____HICLELOAD\" shown at [[1235,766], [1386,769], [1386,784], [1234,780]], what's the missing segment?",
+              "answer": "VE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that captures all the text(s) visible at [[574, 718], [1406, 718], [1406, 768], [574, 768]]. Options:\nA. FXIT ONL, ENTER, CLEARANCE610\nB. EXIT ONL, CLEARANCE610, ENTER\nC. FXIT ONL, MAXIMUMVEHICLELOAD, CLEARANCE610\nD. ENTER, EXIT ONL, COSTCO PARK",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'EXIT ONL, CLEARANCE610, ENTER, COSTCO PARK' sit inside the bounding box [[574.0, 516.0], [1406.4592032011135, 516.0], [1406.4592032011135, 768.0536708420319], [574.0, 768.0536708420319]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[568.0, 518.0], [1400.2241912107058, 518.0], [1400.2241912107058, 769.0], [568.0, 769.0]], what word(s) can you make out? The word(s) is/are ________.",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Provided the coordinates [[1299,781], [1451,784], [1450,798], [1298,795]], fill in the missing portion of \"MAXI____VEHICLELOAD\".",
+              "answer": "MUM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one correctly lists the text(s) found at [[568, 716], [1400, 716], [1400, 769], [568, 769]]? Options:\nA. CLEARANCE610, FXIT ONL, MAXIMUMVEHICLELOAD\nB. MAXIMUMVEHICLELOAD, EXIT ONL, CLEARANCE610\nC. FXIT ONL, ENTER, MAXIMUMVEHICLELOAD\nD. CLEARANCE610, COSTCO PARK, ENTER",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) 'EXIT ONL, MAXIMUMVEHICLELOAD, ENTER, CLEARANCE610, COSICO PARK' appear inside the bounding box [[568.0, 518.0], [1400.2241912107058, 518.0], [1400.2241912107058, 769.0], [568.0, 769.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[568, 520], [1396, 520], [1396, 770], [568, 770]] — what word or phrase is written there? ________",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1270,766], [1396,766], [1396,800], [1270,800]] reads \"EN____R\" — which word(s) belong in the blank?",
+              "answer": "TE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[568, 723], [1396, 723], [1396, 770], [568, 770]], select the option that matches the text(s) visible there. Options:\nA. CLEARANCE610, FXIT ONL, ENTER\nB. ENTER, EXIT ONL, MAXIMUMVEHICLELOAD\nC. FXIT ONL, CLEARANCE610, ENTER\nD. MAXIMUMVEHICLELOAD, COSTCO PARK, CLEARANCE610",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[568.0, 520.0], [1395.9827833572454, 520.0], [1395.9827833572454, 769.9274659236138], [568.0, 769.9274659236138]] actually contain the label(s) 'CLEAPANCE610, COSTCO PARK, EXIT ONL, ENTER, MAXIMUMVEHICLELOAD'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible at [[906.0, 522.0], [1088.0, 522.0], [1088.0, 564.0], [906.0, 564.0]] and select the best match. The word(s) is/are ________.",
+              "answer": [
+                "COSTCO PARK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1405,789], [1519,792], [1519,805], [1405,803]] you'll find the phrase \"CLEAR____610\" — what word(s) belong in the gap?",
+              "answer": "ANCE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking over the choices, which one has the text(s) shown at [[560, 720], [1392, 720], [1392, 772], [560, 772]]? Options:\nA. MAXIMUMVEHICLELOAD, CLEARANCE610, EXIT ONL\nB. MAXIMUMVEHICLELOAD, CLEARANCE610, ENIER\nC. EXIT ONL, ENTER, CLFARANCE610\nD. COSTCO PARK, EXIT ONL, ENTER",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'CLEARANCE610, EXIT ONL, MAXIMUMVEHICLELOAD' falls inside the bounding box [[560, 720], [1392, 720], [1392, 772], [560, 772]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point to the option that names the word(s) found at [[558.0, 522.0], [1387.2888943605026, 522.0], [1387.2888943605026, 774.8783923888093], [558.0, 774.8783923888093]]. The word(s) is/are ________.",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text at [[1360,1018], [1515,1021], [1514,1035], [1359,1033]], complete the phrase \"MAXIMUM____CLELOAD\" — what's missing?",
+              "answer": "VEHI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[558, 724], [1387, 724], [1387, 775], [558, 775]] — which of these options shows the text found there? Options:\nA. ENTER, CLEARANCE610, EXIT ONL\nB. EXIT ONL, CLFARANCE610, ENTER\nC. EXIT ONL, CLFARANCE610, ENTER\nD. CLEARANCE610, EXIT ONL, COSTCO PARK",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'EXIT ONL, MAXIMUMVEHICLELOAD, ENTER, CLEARANCE610, COSTCO PARK' appear in the area marked by [[558, 724], [1387, 724], [1387, 775], [558, 775]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you read inside the region [[552, 528], [1383, 528], [1383, 777], [552, 777]]? ________",
+              "answer": [
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD",
+                "COSTCO PARK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the area at [[1216,1011], [1342,1011], [1342,1044], [1216,1044]], what letters complete the partial word(s) \"E____R\"?",
+              "answer": "NTE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text visible at [[552, 726], [1383, 726], [1383, 777], [552, 777]]? Options:\nA. EXIT ONL, CLEARANCE610, ENTER\nB. ENTER, EXIT ONL, COSTCO PARK\nC. ENTER, CLEARANCE610, MAXIMUMVEHICLFLOAD\nD. MAXIMUMVEHICLELOAD, CLEARANCE610, FXIT ONL",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over at [[552.0, 527.6034482758621], [1383.1494608093042, 527.6034482758621], [1383.1494608093042, 777.2749065500293], [552.0, 777.2749065500293]], is 'EXIT ONL, COSTCO PARK, CLEARANCE610, ENTER' the label shown?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[550.0, 530.0], [1382.9514410073239, 530.0], [1382.9514410073239, 778.2650055599303], [550.0, 778.2650055599303]] — what word(s) do you see there? ________",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What letter(s) are missing to complete \"C____RANCE610\" in the region at [[1363,987], [1477,988], [1477,1001], [1362,1000]]?",
+              "answer": "LEA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Picking the right answer for [[550, 728], [1383, 728], [1383, 778], [550, 778]] — which option shows the text? Options:\nA. ENTER, EXIT ONL, CLEARANCE610\nB. CLEARANCE610, ENTER, FXIT ONL\nC. CLEARANCE610, ENTER, MAXIMUMVEHICLFLOAD\nD. EXIT ONL, COSTCO PARK, CLEARANCE610",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The box at [[898, 530], [1383, 530], [1383, 778], [898, 778]] — does it contain the text 'COSTCO PARK, MAXIMUMVEHICLELOAD, EXIT ONL, ENTER, CLEARANCE610'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) shown inside [[554.0, 530.0], [1382.7116328538466, 530.0], [1382.7116328538466, 781.142703401657], [554.0, 781.142703401657]]. ________",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What missing letter(s) would make \"E____ER\" complete, based on the text at [[1242,975], [1370,975], [1370,1009], [1242,1009]]?",
+              "answer": "NT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[554, 735], [1383, 735], [1383, 781], [554, 781]], which answer choice reflects the text found there? Options:\nA. COSTCO PARK, MAXIMUMVEHICLELOAD, ENTER\nB. CLEARANCE610, ENTER, MAXIMUMVEHICLFLOAD\nC. EXIT ONL, CLEARANCE610, ENIER\nD. CLEARANCE610, MAXIMUMVEHICLELOAD, EXIT ONL",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'EXIT ONL, COSTCO PARK, CLEARANCE610, MAXIMUMVEHICLELOAD, ENIER' the text you'd find inside the box defined by [[554.0, 530.0], [1382.7116328538466, 530.0], [1382.7116328538466, 781.142703401657], [554.0, 781.142703401657]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) appear at [[554.0, 534.0], [1383.7017318637477, 534.0], [1383.7017318637477, 783.0], [554.0, 783.0]]. ________",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The gap in \"EN____\" at [[1242,878], [1370,878], [1370,911], [1242,911]] — what letter(s) complete the word(s)?",
+              "answer": "TER"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer matches the text that appears inside [[898, 534], [1384, 534], [1384, 783], [898, 783]]? Options:\nA. MAXIMUMVEHICLELOAD, COSTCO PARK, ENTER\nB. CLFARANCE610, COSTCO PARK, ENTER\nC. ENTER, CDSTCO PARK, CLEARANCE610\nD. EXIT ONL, CLEARANCE610, COSTCO PARK",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focusing on [[898, 534], [1384, 534], [1384, 783], [898, 783]], would you say 'CLEARANCE610, MAXIMUMVEHICLELOAD, COSTCO PARK' is the text shown there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you read the text visible at [[556, 534], [1386, 534], [1386, 784], [556, 784]]? ________",
+              "answer": [
+                "COSTCO PARK",
+                "EXIT ONL",
+                "ENTER",
+                "CLEARANCE610",
+                "MAXIMUMVEHICLELOAD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Pinpointing coordinates [[1377,758], [1491,759], [1491,772], [1377,771]], which letters complete the partial text \"CLEARA____\"?",
+              "answer": "NCE610"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the area at [[900, 534], [1386, 534], [1386, 784], [900, 784]], select the option that correctly lists the text. Options:\nA. COSTCO PARK, MAXIMUMVEHICLELOAD, EXIT ONL\nB. COSTCO PARK, ENTER, MAXIMUMVEHICLELOAD\nC. CDSTCO PARK, ENTER, CLEARANCE610\nD. MAXIMUMVEHICLFLOAD, ENTER, COSTCO PARK",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Taking a look at [[556, 734], [1386, 734], [1386, 784], [556, 784]], is the text there 'MAXIMUMVEHICLELOAD, ENTER, EXIT ONL'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0328/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0328/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[904.0, 536.0], [1086.0, 536.0], [1086.0, 578.0], [904.0, 578.0]], what word(s) can be read? ________",
+              "answer": [
+                "COSTCO PARK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[698,715], [884,715], [884,750], [698,750]] has a gap — what completes \"EX____ ONL\"?",
+              "answer": "IT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[558, 734], [1391, 734], [1391, 785], [558, 785]] — which of the following options has the right text? Options:\nA. CLEARANCE610, MAXIMUMVEHICLELOAD, FXIT ONL\nB. EXIT ONL, MAXIMUMVEHICLELOAD, CLEARANCE610\nC. CLEARANCE610, ENTER, FXIT ONL\nD. COSTCO PARK, EXIT ONL, CLEARANCE610",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at region [[558.0, 536.0], [1390.7250212372194, 536.0], [1390.7250212372194, 785.0], [558.0, 785.0]], do 'MAXIMUMVEHICLELOAD, ENTER, EXIT ONL, CLEARANCE610' appear inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0328"
+  }
+]

@@ -1,0 +1,535 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) visible in the bounded area [[143, 466], [1278, 466], [1278, 692], [143, 692]]: ________.",
+              "answer": [
+                "Children's",
+                "Celebrate Lunar New Year",
+                "Create a",
+                "Information",
+                "Year ofthe Snake",
+                "Lantern",
+                "Wednesday,Jan.29",
+                "4 to 5p.m.",
+                "Library Program Room",
+                "Registration required",
+                "ForGrades1 to 5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A day and date are shown at [[1105,581], [1234,561], [1237,583], [1108,602]], but some characters are missing — complete the text: Wed____,Jan.29",
+              "answer": "nesday"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options given, find the one matching the text inside [[1062, 466], [1278, 466], [1278, 692], [1062, 692]]. Options:\nA. ForGrades1 to 5, Library Program Room, Year ofthe Snake, Celebrate Lunar New Year, Lantern, 4 to 5p.m., Wednesday,Jan.29, Creete a\nB. Wednesday,Jan.29, Library Program Room, Year ofthe Snake, Celebrate Lunar New Year, Registration required, Children's, 4 to 5p.m., Create a\nC. 4 to 5p.m., Library Program Room, ForGrades1 to 5, Celehrate Lunar New Year, Registration required, Wednesday,Jan.29, Lantern, Year ofthe Snake\nD. Lantern, Registration required, Year ofthe Snake, Library Program Room, Wednesday,Jan.29, ForGrades1 to 5, 4 to 5p.m., Create a",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[143.4250764525994, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 692.0], [143.4250764525994, 692.0]], do you see the label(s) 'Create a, Wednesday,Jan.29, 4 to 5p.m., Lantern, Ohildren's, Information, Year ofthe Snake, Library Program Room, Registration required, Celebrate Lunar New Year' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you find inside [[143.4250764525994, 493.211009174312], [382.8746177370032, 493.211009174312], [382.8746177370032, 623.7920489296636], [143.4250764525994, 623.7920489296636]]: ________.",
+              "answer": [
+                "Children's",
+                "Information"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1103,641], [1242,624], [1245,643], [1106,661]], the text reads \"Re____tration required\" — what letters fill the blank?",
+              "answer": "gis"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the choice that matches what's written in the region [[1062, 466], [1278, 466], [1278, 692], [1062, 692]]. Options:\nA. Create a, Children's, ForGrades1 to 5, Registration required, Celebrate Lunar New Year, Library Program Room, Wednesday,Jan.29, 4 to 5p.m.\nB. Registration required, Create a, Celebrate Lunar New Year, Wednesday,Jan.29, Lantern, 4 to 5p.m., Library Program Room, ForGrades1 to 5\nC. Year ofthe Snake, Celebrate Lunar New Year, Wednesday,Jan.29, Create a, 4 to 5p.m., Information, ForGrades1 to 5, Lantern\nD. 4 te 5p.m., ForGrades1 to 5, Year ofthe Snake, Create a, Lantern, Celebrate Lunar New Year, Library Program Room, Wednesday,Jan.29",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'Year ofthe Snake, Registration required, Lantern, ForGrades1 to 5, Create a, Library Program Room, 4 to 5p.m.' can be found at [[1062, 466], [1278, 466], [1278, 692], [1062, 692]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the text inside [[143.4250764525994, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [143.4250764525994, 689.7777777777778]] — the word(s) is/are ________.",
+              "answer": [
+                "Children's",
+                "Celebrate Lunar New Year",
+                "Create a",
+                "Information",
+                "Year ofthe Snake",
+                "Lantern",
+                "Wednesday,Jan.29",
+                "4 to 5p.m.",
+                "Library Program Room",
+                "Registration required",
+                "ForGrades1 to 5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign visible at [[1091,601], [1236,582], [1239,603], [1094,623]] reads \"Libr____ Program Room.\" — fill in what's missing.",
+              "answer": "ary"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text shown in [[143, 466], [1278, 466], [1278, 690], [143, 690]]. Options:\nA. Wednesday,Jan.29, ForGrades1 to 5, Celebrate Lunar New Year, Registration required, Creete a, Lantern, 4 to 5p.m., Year ofthe Snake, Children's, Library Program Room\nB. Library Program Room, Children's, 4 to 5p.m., Celebrate Lunar New Year, Information, ForGrades1 to 5, Wednesday,Jan.29, Create a, Registration required, Year ofthe Snake\nC. Create a, ForGrades1 to 5, Information, Librery Program Room, Children's, 4 to 5p.m., Wednesday,Jan.29, Year ofthe Snake, Lantern, Registration required\nD. Lantern, Yoar ofthe Snake, Wednesday,Jan.29, Children's, Celebrate Lunar New Year, ForGrades1 to 5, Library Program Room, Registration required, Create a, 4 to 5p.m.",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label 'Information, Library Program Room, Year ofthe Snake, ForGrades1 to 5, Lantern, Wednesday,Jan.29, Create a, Registration required, Children's' is visible inside bounding box [[143.4250764525994, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [143.4250764525994, 689.7777777777778]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the region [[143.4250764525994, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [143.4250764525994, 689.7777777777778]] — which word(s) appear there? ________",
+              "answer": [
+                "Children's",
+                "Celebrate Lunar New Year",
+                "Create a",
+                "Information",
+                "Year ofthe Snake",
+                "Lantern",
+                "Wednesday,Jan.29",
+                "4 to 5p.m.",
+                "Library Program Room",
+                "Registration required",
+                "ForGrades1 to 5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The time range shown at [[1072,533], [1146,526], [1148,548], [1074,555]] is \"4 to ____ p.m.\" — fill in the missing hour.",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one captures the text visible in [[143, 466], [1278, 466], [1278, 690], [143, 690]]? Options:\nA. 4 to 5p.m., Cbildren's, Year ofthe Snake, Information, ForGrades1 to 5, Registration required, Library Program Room, Wednesday,Jan.29, Lantern, Create a\nB. Year ofthe Snake, ForGrades1 to 5, Information, Celebrate Lunar New Year, Wednesday,Jan.29, Library Program Room, Lantern, Create a, Children's, Registration required\nC. Create a, Wednesday,Jan.29, ForGrades1 to 5, Registration required, Informatian, Year ofthe Snake, Children's, Lantern, Library Program Room, Celebrate Lunar New Year\nD. ForGrades1 to 5, Create a, Information, Wednesdoy,Jan.29, Children's, Year ofthe Snake, 4 to 5p.m., Registration required, Library Program Room, Lantern",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Create a, Library Program Room, 4 to 5p.m., Celebrate Lunar New Year, Year ofthe Snake, Registration required, Wedncsday,Jan.29, Lantern, Information, ForGrades1 to 5' can be found inside the bounding box [[143.4250764525994, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [143.4250764525994, 689.7777777777778]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at region [[143.4250764525994, 493.211009174312], [382.8746177370032, 493.211009174312], [382.8746177370032, 623.7920489296636], [143.4250764525994, 623.7920489296636]], the word(s) you see there is/are ________.",
+              "answer": [
+                "Children's",
+                "Information"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1035,417], [1108,406], [1111,427], [1038,437]] has a gap — complete it: Cr____ a",
+              "answer": "eate"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly reproduces the text inside [[143, 466], [1278, 466], [1278, 690], [143, 690]]. Options:\nA. ForGrades1 to 5, Wednesday,Jan.29, 4 to 5p.m., Information, Create a, Registration required, Year ofthe Snake, Lantern, Children's, Celebrate Lunar New Year\nB. Library Program Room, Children's, 4 to 5p.m., Create a, Information, Lantern, Registratian required, Wednesday,Jan.29, Celebrate Lunar New Year, Year ofthe Snake\nC. Wednesday,Jan.29, ForGrades1 to 5, Children's, Year ofthe Snake, Celebrate Lunar New Year, Registration required, 4 to 5p.m., Lentern, Create a, Library Program Room\nD. Year ofthe Snake, Wednesday,Jan.29, Celebrate Lunar New Year, Registration required, 4 to 5p.m., Create a, Lantern, ForOrades1 to 5, Children's, Library Program Room",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Registration required, Library Program Room, Wednesday,Jan.29, Celebrate Lunar New Year, Lantern, 4 to 5p.m., Year ofthe Snake, Create a, Information, ForGrades1 to 5' the text that appears inside [[1062, 466], [1278, 466], [1278, 690], [1062, 690]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[143.4250764525994, 493.211009174312], [382.8746177370032, 493.211009174312], [382.8746177370032, 623.7920489296636], [143.4250764525994, 623.7920489296636]] and name the word(s) you find there. ________",
+              "answer": [
+                "Children's",
+                "Information"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[947,574], [1052,560], [1055,582], [950,596]], you'll see the phrase \"____Grades1 to 5\" — fill in the blank.",
+              "answer": "For"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the option that matches what's written inside [[1062, 466], [1278, 466], [1278, 690], [1062, 690]]. Options:\nA. Year ofthe Snake, Wednesday,Jan.29, 4 to 5p.m., Registration required, ForOrades1 to 5, Lantern, Library Program Room, Celebrate Lunar New Year\nB. Celebrate Lunar New Year, Children's, Lantern, ForGrades1 to 5, 4 to 5p.m., Create a, Wednesday,Jan.29, Registration required\nC. Celebrate Lunar New Year, Lentern, Library Program Room, Year ofthe Snake, Create a, Wednesday,Jan.29, 4 to 5p.m., ForGrades1 to 5\nD. Wednesday,Jan.29, Library Program Room, Create a, Year ofthe Snake, 4 to 5p.m., Registration required, ForGrades1 to 5, Lantern",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Registration required, Year ofthe Snake, Lantern, Create a, Information, 4 to 5p.m., Library Program Room, Wednesday,Jan.29, ForGrades1 to 5, Ohildren's' appears as the text shown in bounding box [[143.4250764525994, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [143.4250764525994, 689.7777777777778]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) you can read inside [[143.4250764525994, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [143.4250764525994, 689.7777777777778]]. ________",
+              "answer": [
+                "Children's",
+                "Celebrate Lunar New Year",
+                "Create a",
+                "Information",
+                "Year ofthe Snake",
+                "Lantern",
+                "Wednesday,Jan.29",
+                "4 to 5p.m.",
+                "Library Program Room",
+                "Registration required",
+                "ForGrades1 to 5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Bounding box [[885,550], [1030,531], [1033,552], [888,572]] shows a sign reading \"Lib____ Program Room.\" — supply the missing word(s).",
+              "answer": "rary"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options listed, which one shows the exact text found in [[143, 466], [1278, 466], [1278, 690], [143, 690]]? Options:\nA. 4 to 5p.m., Information, Year ofthe Snake, Celebrate Lunar New Year, Registration required, Create a, Wednesdoy,Jan.29, Children's, Lantern, Library Program Room\nB. Create a, Wednesday,Jan.29, Children's, Registratian required, 4 to 5p.m., Lantern, Year ofthe Snake, Celebrate Lunar New Year, ForGrades1 to 5, Library Program Room\nC. Year ofthe Snake, Lantern, ForGrades1 to 5, Children's, Create a, Registration required, Library Program Room, Wednesday,Jan.29, Information, 4 to 5p.m.\nD. ForGrades1 to 5, Registration required, 4 to 5p.m., Library Program Room, Celehrate Lunar New Year, Children's, Wednesday,Jan.29, Create a, Lantern, Information",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check bounding box [[1062, 466], [1278, 466], [1278, 690], [1062, 690]] — does it contain the label 'Wednesday,Jan.29, Registration required, Celebrate Lunar New Year, Lantern, 4 to 5p.m., ForGrades1 to 5, Create a'? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focus on [[152.3803003331964, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [152.3803003331964, 689.7777777777778]] — write out the word(s) visible there. ________",
+              "answer": [
+                "Children's",
+                "Celebrate Lunar New Year",
+                "Create a",
+                "Information",
+                "Year ofthe Snake",
+                "Lantern",
+                "Wednesday,Jan.29",
+                "4 to 5p.m.",
+                "Library Program Room",
+                "Registration required",
+                "ForGrades1 to 5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The date shown at [[867,490], [996,470], [999,492], [870,511]] is incomplete — fill in what's missing: We____day,Jan.29",
+              "answer": "dnes"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify which answer choice accurately reflects the text visible in [[152, 466], [1278, 466], [1278, 690], [152, 690]]. Options:\nA. ForOrades1 to 5, Information, Registration required, Create a, 4 to 5p.m., Library Program Room, Celebrate Lunar New Year, Wednesday,Jan.29, Year ofthe Snake, Children's\nB. Lantern, Year ofthe Snake, Librery Program Room, ForGrades1 to 5, Children's, Create a, Celebrate Lunar New Year, Information, Wednesday,Jan.29, Registration required\nC. Information, Year ofthe Snake, Registration required, Celebrate Lunar New Year, Lantern, Create a, Wednesday,Jan.29, Library Program Room, 4 to 5p.m., Children's\nD. Wednesday,Jan.29, Year ofthe Snake, Children's, Information, Lantern, ForGrades1 to 5, 4 te 5p.m., Library Program Room, Celebrate Lunar New Year, Create a",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside bounding box [[152.3803003331964, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [152.3803003331964, 689.7777777777778]], is the text 'Information, Year ofthe Snake, Registration required, ForGrades1 to 5, 4 to 5p.m., Lantern, Children's, Library Program Room, Wednesday,Jan.29' present? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you see inside [[152.3803003331964, 466.1525423728813], [1278.0, 466.1525423728813], [1278.0, 689.7777777777778], [152.3803003331964, 689.7777777777778]]. ________",
+              "answer": [
+                "Children's",
+                "Celebrate Lunar New Year",
+                "Create a",
+                "Information",
+                "Year ofthe Snake",
+                "Lantern",
+                "Wednesday,Jan.29",
+                "4 to 5p.m.",
+                "Library Program Room",
+                "Registration required",
+                "ForGrades1 to 5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the text in [[918,580], [1057,563], [1060,582], [921,600]], fill in what's missing: ____tration required.",
+              "answer": "Regis"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text(s) shown in [[1062, 466], [1278, 466], [1278, 690], [1062, 690]]. Options:\nA. Year ofthe Snake, Celebrate Lunar New Year, Registration required, Library Program Room, 4 to 5p.m., Wednesday,Jan.29, ForGrades1 to 5, Lantern\nB. Library Program Room, Year ofthe Snake, Lantern, Create a, 4 to 5p.m., Celebrate Lunar New Year, ForOrades1 to 5, Registration required\nC. Lantern, Celebrate Lunar New Year, Yoar ofthe Snake, Library Program Room, ForGrades1 to 5, Wednesday,Jan.29, Create a, 4 to 5p.m.\nD. Registration required, ForGrades1 to 5, Year ofthe Snake, Lantern, Children's, 4 to 5p.m., Wednesday,Jan.29, Celebrate Lunar New Year",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '4 to 5p.m., Celebrate Lunar New Year, Year ofthe Snake, Wednesday,Jan.29, Library Program Room, ForGrades1 to 5, Registration required' appear inside the bounding box [[1062, 466], [1278, 466], [1278, 690], [1062, 690]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) you can read inside [[152.3803003331964, 466.1525423728813], [1275.007481296758, 466.1525423728813], [1275.007481296758, 689.2790246605708], [152.3803003331964, 689.2790246605708]]. ________",
+              "answer": [
+                "Children's",
+                "Celebrate Lunar New Year",
+                "Create a",
+                "Information",
+                "Year ofthe Snake",
+                "Lantern",
+                "Wednesday,Jan.29",
+                "4 to 5p.m.",
+                "Library Program Room",
+                "Registration required",
+                "ForGrades1 to 5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at coordinates [[2,508], [189,532], [187,569], [2,545]] has a missing piece — fill it in: ____mation",
+              "answer": "or"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly lists the text(s) found at [[152, 466], [1275, 466], [1275, 689], [152, 689]]. Options:\nA. Library Program Room, 4 to 5p.m., Celebrate Lunar New Year, Information, Lantern, ForGrades1 to 5, Registration required, Children's, Year ofthe Snake, Create a\nB. Cbildren's, Information, ForGrades1 to 5, Wednesday,Jan.29, Year ofthe Snake, Registration required, 4 to 5p.m., Lantern, Celebrate Lunar New Year, Library Program Room\nC. Children's, Lantern, Create a, 4 to 5p.m., Information, Wednesday,Jan.29, Celehrate Lunar New Year, Library Program Room, Registration required, Year ofthe Snake\nD. Registration required, Children's, Create a, Lantern, Information, Year ofthe Snake, Library Program Room, ForGrades1 to 5, 4 te 5p.m., Celebrate Lunar New Year",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the bounding box [[1059, 466], [1275, 466], [1275, 689], [1059, 689]], do you see the label(s) '4 to 5p.m., ForGrades1 to 5, Library Program Room, Create a, Children's, Lantern, Celebrate Lunar New Year, Wednesday,Jan.29, Registration required, Year ofthe Snake'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside the region [[146.0739940268901, 466.1525423728813], [1273.8141638743236, 466.1525423728813], [1273.8141638743236, 688.0857072381365], [146.0739940268901, 688.0857072381365]]. ________",
+              "answer": [
+                "Children's",
+                "Celebrate Lunar New Year",
+                "Create a",
+                "Information",
+                "Year ofthe Snake",
+                "Lantern",
+                "Wednesday,Jan.29",
+                "4 to 5p.m.",
+                "Library Program Room",
+                "Registration required",
+                "ForGrades1 to 5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Coordinates [[1,413], [183,446], [179,492], [1,457]] point to some text with missing character(s) — fill them in: ____ren's",
+              "answer": "hild"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one captures the text(s) visible in [[146, 466], [1274, 466], [1274, 688], [146, 688]]? Options:\nA. 4 to 5p.m., Children's, Wednesdoy,Jan.29, Registration required, Library Program Room, Lantern, Celebrate Lunar New Year, ForGrades1 to 5, Create a, Year ofthe Snake\nB. Lantern, Wednesday,Jan.29, Librery Program Room, 4 to 5p.m., Year ofthe Snake, Create a, ForGrades1 to 5, Information, Registration required, Celebrate Lunar New Year\nC. Wednesday,Jan.29, ForGrades1 to 5, Celebrate Lunar New Year, Create a, 4 to 5p.m., Lantern, Children's, Library Program Room, Registration required, Information\nD. Wcdnesday,Jan.29, Information, Year ofthe Snake, Celebrate Lunar New Year, Registration required, 4 to 5p.m., Create a, ForGrades1 to 5, Lantern, Library Program Room",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'Create a, Year ofthe Snake, Celebrate Lunar New Year, ForGrades1 to 5, Registration required, Information, Wednesday,Jan.29, Library Program Room, 4 to 5p.m., Lantern' fall within the bounding box [[1058, 466], [1274, 466], [1274, 688], [1058, 688]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0219/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0219/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[146.0739940268901, 492.7134967365011], [385.52353531129404, 492.7134967365011], [385.52353531129404, 618.3194121137432], [146.0739940268901, 618.3194121137432]] — what word(s) do you find? ________",
+              "answer": [
+                "Children's",
+                "Information"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[975,500], [1104,480], [1107,502], [978,521]], the text is incomplete — supply the missing character(s): ____esday,Jan.29",
+              "answer": "Wedn"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options accurately reflects the text(s) at [[1057, 463], [1273, 463], [1273, 686], [1057, 686]]? Options:\nA. Wednesday,Jan.29, Library Program Room, 4 to 5p.m., Year ofthe Snake, Children's, Celebrate Lunar New Year, Create a, Lantern\nB. Celebrate Lunar New Year, Yoar ofthe Snake, Create a, Registration required, Wednesday,Jan.29, Library Program Room, ForGrades1 to 5, 4 to 5p.m.\nC. Year ofthe Snake, 4 to 5p.m., Lantern, Wednesday,Jan.29, Library Program Room, Creete a, Celebrate Lunar New Year, ForGrades1 to 5\nD. ForGrades1 to 5, Year ofthe Snake, Library Program Room, Create a, Celebrate Lunar New Year, Registration required, 4 to 5p.m., Lantern",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the bounding box [[1057, 463], [1273, 463], [1273, 686], [1057, 686]], are the label(s) 'Celebrate Lunar New Year, Lantern, 4 to 5p.m., Year ofthe Snake, Library Program Room, Wednesday,Jan.29, Create a, ForGrades1 to 5, Children's, Registration required' actually present?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0219"
+  }
+]

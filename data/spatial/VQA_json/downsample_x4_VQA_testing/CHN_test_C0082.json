@@ -1,0 +1,467 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[1032,397], [1274,397], [1274,482], [1032,482]] shows a name with letters obscured: \"GA____EN\". What are the two missing letters in the middle?",
+              "answer": "RD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that correctly shows the text at [[191, 486], [1335, 486], [1335, 749], [191, 749]]. Options:\nA. QIANHAI MIXC, 花庰之叙\nB. O THE SPRING, OIANHAI MIXC\nC. QIANHAI MIXC, GARDEN\nD. O THE SPRING, QIANHAI MIXC",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focusing on [[191.0, 397.0], [1335.0, 397.0], [1335.0, 749.0], [191.0, 749.0]] — does that area contain the label(s) 'O THE SPRING, QIANHAI MIXC, GARDEN'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the text visible at [[191.0, 632.0], [439.0, 632.0], [439.0, 690.0], [191.0, 690.0]]. The answer is ________.",
+              "answer": [
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看图中 [[1051,591], [1286,581], [1292,723], [1058,743]] 处的文字，\"花____之叙\" 中缺失的部分是什么？",
+              "answer": "庭"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options correctly describes the text found at [[191, 486], [1335, 486], [1335, 749], [191, 749]] — which is it? Options:\nA. 花庭之叙, QIANHAI MIXC\nB. 花庰之叙, O THE SPRING\nC. O THE SPRING, GARDEN\nD. OIANHAI MIXC, 花庭之叙",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[967, 397], [1335, 397], [1335, 749], [967, 749]] in the image — are the label(s) 'GARDEN, O THE SPRING' situated inside that region?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text in region [[191.0, 632.0], [439.0, 632.0], [439.0, 690.0], [191.0, 690.0]] and complete: The missing word(s) is/are ________.",
+              "answer": [
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is hidden at the start of the text at [[224,646], [469,628], [472,668], [227,687]], which reads \"QIAN____ MIXC\". Fill in the missing part.",
+              "answer": "HAI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options provided, which one correctly reflects the text at [[191, 486], [1335, 486], [1335, 749], [191, 749]]? Choose the correct answer. Options:\nA. QIANHAI MIXC, 花庰之叙\nB. D THE SPRING, QIANHAI MIXC\nC. 花庭之叙, GARDEN\nD. QIANHAI MIXC, 花庭之叙",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "See if you can spot 'O THE SPRING, GARDEN, 花庭之叙, QIANHAI MIXC' inside [[967, 397], [1335, 397], [1335, 749], [967, 749]] — is that label truly there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text at [[191.0, 397.0], [1335.0, 397.0], [1335.0, 749.0], [191.0, 749.0]] and complete: The missing word(s) is/are ________.",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙",
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Filling in the blank: \"QIANHAI M____\" is visible at [[209,649], [454,631], [457,671], [212,690]] — what completes the phrase?",
+              "answer": "IXC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Narrow it down: which option has the text that's inside [[967, 397], [1335, 397], [1335, 749], [967, 749]]? Choose the correct answer. Options:\nA. 花庭之叙, D THE SPRING\nB. QIANHAI MIXC, O THE SPRING\nC. 花庭之叙, O THE SPRING\nD. D THE SPRING, GARDEN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'O THE SPRING, 花庭之叙, GARDEN' is positioned within [[191.0, 397.0], [1335.0, 397.0], [1335.0, 749.0], [191.0, 749.0]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Find the text at [[191.0, 397.0], [1335.0, 397.0], [1335.0, 749.0], [191.0, 749.0]] and fill in: The missing word(s) is/are ________.",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙",
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[169,653], [414,635], [417,675], [172,694]], the visible phrase reads \"QIANHAI M____\" — what letter(s) fill the gap?",
+              "answer": "IXC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[967, 397], [1335, 397], [1335, 749], [967, 749]] matches one of these options — go ahead and pick it. Options:\nA. O THE SPRING, 花庭之叙\nB. O THE SPRING, QIANHAI MIXC\nC. D THE SPRING, 花庭之叙\nD. 花庭之叙, D THE SPRING",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'QIANHAI MIXC, 花庰之叙, GARDEN, O THE SPRING' appearing anywhere inside [[191.0, 397.0], [1335.0, 397.0], [1335.0, 749.0], [191.0, 749.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Looking at the region [[967, 397], [1335, 397], [1335, 749], [967, 749]], write down the text you see: ________",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[993,372], [1236,377], [1238,464], [994,462]], the text appears as \"GA____EN\" — what's missing to complete it?",
+              "answer": "RD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that matches the text at [[967, 397], [1335, 397], [1335, 749], [967, 749]]. Options:\nA. QIANHAI MIXC, 花庭之叙\nB. 花庭之叙, GAPDEN\nC. 花庰之叙, GARDEN\nD. 花庭之叙, GARDEN",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot check: does 'O THE SPRING, 花庭之叙, QIANHAI MIXC' show up inside the area [[191.0, 397.0], [1335.0, 397.0], [1335.0, 749.0], [191.0, 749.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading the text at [[191, 397], [1335, 397], [1335, 749], [191, 749]], fill in what it says: ________",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙",
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看[[1009,573], [1244,563], [1249,705], [1016,725]]处的文字，\"花____之叙\"中空缺的部分是什么？",
+              "answer": "庭"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[967, 397], [1335, 397], [1335, 749], [967, 749]] and match it to the right answer below. Options:\nA. QIANHAI MIXC, O THE SPRING\nB. GAPDEN, 花庭之叙\nC. D THE SPRING, 花庭之叙\nD. 花庭之叙, O THE SPRING",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is whether '花庭之叙, GARDEN, O THE SPRING' can be found inside [[191.0, 397.0], [1335.0, 397.0], [1335.0, 749.0], [191.0, 749.0]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the text visible at [[966, 390], [1339, 390], [1339, 743], [966, 743]]: ________",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Glancing at [[101,611], [346,593], [349,633], [104,652]], the sign reads \"QIA____ MIXC\" — what letter(s) go in the blank?",
+              "answer": "NHAI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these options matches the text shown at [[966, 390], [1339, 390], [1339, 743], [966, 743]] — which is it? Options:\nA. D THE SPRING, GARDEN\nB. O THE SPRING, GARDEN\nC. GARDEN, D THE SPRING\nD. QIANHAI MIXC, GARDEN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find 'O THE SPRING, GARDEN' inside [[966, 390], [1339, 390], [1339, 743], [966, 743]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the text you see at [[198, 390], [1339, 390], [1339, 743], [198, 743]]: ________",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙",
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Right at [[83,611], [328,593], [331,633], [86,652]], it reads \"QIANHA____ MIXC\" — which letters belong in the blank?",
+              "answer": "I"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text visible at [[966, 390], [1339, 390], [1339, 743], [966, 743]], select the matching answer below. Options:\nA. 花庰之叙, O THE SPRING\nB. GARDEN, O THE SPRING\nC. GAPDEN, 花庭之叙\nD. QIANHAI MIXC, O THE SPRING",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'O THE SPRING, 花庭之叙' appear inside [[966, 390], [1339, 390], [1339, 743], [966, 743]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and write out the text you spot at [[198, 390], [1339, 390], [1339, 743], [198, 743]]: ________",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙",
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's missing in \"GA____EN\" at [[922,362], [1165,367], [1167,454], [923,452]] — what is it?",
+              "answer": "RD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, find the one that reflects the text visible at [[198, 390], [1339, 390], [1339, 743], [198, 743]]. Options:\nA. QIANHAI MIXC, 花庰之叙, GARDEN\nB. OIANHAI MIXC, GARDEN, 花庭之叙\nC. QIANHAI MIXC, GAPDEN, 花庭之叙\nD. O THE SPRING, 花庭之叙, GARDEN",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Honestly, is 'O THE SPRING, QIANHAI MIXC, GARDEN, 花庰之叙' showing up inside [[197.95652173913044, 389.8405049545268], [1339.2307692307693, 389.8405049545268], [1339.2307692307693, 743.3018867924527], [197.95652173913044, 743.3018867924527]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the text sitting in the region [[198, 390], [1339, 390], [1339, 743], [198, 743]]: ________",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙",
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[932,558], [1167,547], [1172,689], [939,710]]区域内的文字显示为\"花____之叙\"，缺失的字符是什么？",
+              "answer": "庭"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[966, 390], [1339, 390], [1339, 743], [966, 743]], which of the following options matches the text visible there? Options:\nA. 花庰之叙, GARDEN\nB. GAPDEN, O THE SPRING\nC. O THE SPRING, 花庭之叙\nD. GARDEN, QIANHAI MIXC",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'QIRNHAI MIXC, O THE SPRING, 花庭之叙, GARDEN' appearing inside [[197.95652173913044, 389.8405049545268], [1339.2307692307693, 389.8405049545268], [1339.2307692307693, 743.3018867924527], [197.95652173913044, 743.3018867924527]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0082/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0082/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can see inside [[205, 390], [1347, 390], [1347, 743], [205, 743]]: ________",
+              "answer": [
+                "GARDEN",
+                "O THE SPRING",
+                "花庭之叙",
+                "QIANHAI MIXC"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"____ THE SPRING\" appears at [[836,445], [1205,439], [1209,534], [840,547]] — what word goes in the blank?",
+              "answer": "O"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly lists the text found at [[974, 390], [1347, 390], [1347, 743], [974, 743]]? Options:\nA. D THE SPRING, 花庭之叙\nB. O THE SPRING, QIANHAI MIXC\nC. GARDEN, O THE SPRING\nD. GAPDEN, O THE SPRING",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over in the area [[205.45652173913044, 389.8405049545268], [1346.7307692307693, 389.8405049545268], [1346.7307692307693, 743.3018867924527], [205.45652173913044, 743.3018867924527]], do you spot the label(s) '花庭之叙, O THE SPRING, GARDEN'?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0082"
+  }
+]

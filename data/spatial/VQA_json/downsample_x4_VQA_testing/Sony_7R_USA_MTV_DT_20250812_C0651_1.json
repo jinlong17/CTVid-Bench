@@ -1,0 +1,410 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "At location [[951, 678], [1069, 678], [1069, 749], [951, 749]], the text reads: ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the answer that matches the text shown at [[951, 697], [1057, 697], [1057, 749], [951, 749]]. Options:\nA. San Antonio, 400C\nB. Sen Antonio, EAIT ONLY\nC. San Antonio, Road\nD. FAIT ONLY, San Antonio",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'EAIT ONLY, San Antonio, 400C' represents the text shown in [[951.2396254544923, 677.7279521674141], [1069.0433482810165, 677.7279521674141], [1069.0433482810165, 748.6544671689988], [951.2396254544923, 748.6544671689988]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you observe in [[945, 682], [1067, 682], [1067, 754], [945, 754]]: ________",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the following options, which one contains the text found in [[945, 703], [1051, 703], [1051, 754], [945, 754]]? Options:\nA. FAIT ONLY, Road\nB. EAIT ONLY, 400C\nC. EAIT ONLY, Road\nD. Read, San Antonio",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "When you look at [[944.6570051671957, 681.6701073819934], [1066.5544204232244, 681.6701073819934], [1066.5544204232244, 753.7648167393827], [944.6570051671957, 753.7648167393827]], does the text match '400C, Road, EAIT ONLY'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[917, 674], [1042, 674], [1042, 749], [917, 749]] — what text is there? ________",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that reflects the text in [[917, 696], [1026, 696], [1026, 749], [917, 749]]. Options:\nA. San Antonio, FAIT ONLY\nB. Sen Antonio, Road\nC. San Antonio, EAIT ONLY\nD. San Antonio, 400C",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[916.6134598206372, 673.6842105263157], [1042.0802005012529, 673.6842105263157], [1042.0802005012529, 748.8581850789975], [916.6134598206372, 748.8581850789975]] — does it contain the label(s) 'EAIT ONLY, Road, 400C'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[911.7314643935448, 631.9323189040036], [1039.4877530149217, 631.9323189040036], [1039.4877530149217, 707.4026065693212], [911.7314643935448, 707.4026065693212]], what word or words appear there? The answer is ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the following choices, which one matches the text found in [[912, 632], [1039, 632], [1039, 707], [912, 707]]? Options:\nA. 400C, Read, San Antonio\nB. EAIT ONLY, Road, 400O\nC. 400C, Road, EAIT ONLY\nD. San Antonio, EAIT ONLY, 400G",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Road, EAIT ONLY, San Antonio' appearing in the region [[911.7314643935448, 631.9323189040036], [1039.4877530149217, 631.9323189040036], [1039.4877530149217, 707.4026065693212], [911.7314643935448, 707.4026065693212]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on [[917, 635], [1050, 635], [1050, 713], [917, 713]], which word or words show up there? It is ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which correctly captures the text visible in [[917, 635], [1050, 635], [1050, 713], [917, 713]]? Options:\nA. 400C, EAIT ONLY, Road\nB. Sen Antonio, 400C, EAIT ONLY\nC. San Antonio, Read, 400C\nD. EAIT ONLY, San Antonio, 400O",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[917.1691425364779, 635.4458565474298], [1049.928863385372, 635.4458565474298], [1049.928863385372, 713.3033417148889], [917.1691425364779, 713.3033417148889]] contain the label(s) 'EAIT ONLY, 400C, Road'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at [[920, 625], [1059, 625], [1059, 705], [920, 705]], the text there reads ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C",
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, pick the one that reflects the text visible in [[920, 625], [1059, 625], [1059, 705], [920, 705]]. Options:\nA. San Antonio, Road, EAIT ONLY, 400O\nB. EAIT ONLY, EXIT, 400C, San Antonio\nC. FAIT ONLY, 400C, San Antonio, Road\nD. Road, Sen Antonio, 400C, EAIT ONLY",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'EAIT ONLY, FXIT, 400C, Road, San Antonio' falls within the bounding box [[920.0277585642451, 625.0210005754705], [1058.6782349692753, 625.0210005754705], [1058.6782349692753, 704.902930928008], [920.0277585642451, 704.902930928008]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[906, 612], [1048, 612], [1048, 697], [906, 697]] — the word(s) you find there is/are ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C",
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that best matches what is written in [[906, 612], [1048, 612], [1048, 660], [906, 660]]. Options:\nA. Road, 400C\nB. 400C, EXIT\nC. San Antonio, EAIT ONLY\nD. Sen Antonio, 400C",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Road, 400C, EXIT, EAIT ONLY' among the text visible inside [[905.772509677712, 611.9612813354571], [1048.4257911293034, 611.9612813354571], [1048.4257911293034, 696.9393526154756], [905.772509677712, 696.9393526154756]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you read the text at [[898, 603], [1052, 603], [1052, 694], [898, 694]]? It is ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "EXIT",
+                "400C"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately represents the text shown in [[898, 603], [1052, 603], [1052, 694], [898, 694]]. Options:\nA. FXIT, San Antonio, 400C, EAIT ONLY\nB. EAIT ONLY, EXIT, San Antonio, Road\nC. EXIT, 400C, Sen Antonio, EAIT ONLY\nD. EAIT ONLY, 400O, EXIT, San Antonio",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '400C, EAIT ONLY, FXIT, San Antonio, Road' appears within the boxed region [[897.5023898523394, 602.9487639333406], [1052.1457689548615, 602.9487639333406], [1052.1457689548615, 693.8929548843649], [897.5023898523394, 693.8929548843649]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you look at [[902, 607], [1063, 607], [1063, 701], [902, 701]], what word or words do you see? It is ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C",
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options correctly lists the text found at [[902, 607], [1063, 607], [1063, 701], [902, 701]]? Options:\nA. FXIT, Road, San Antonio, EAIT ONLY\nB. EXIT, EAIT ONLY, 400C, San Antonio\nC. 400C, BXIT, Road, San Antonio\nD. San Antonio, 400O, EXIT, Road",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region marked as [[902.1488819569392, 606.6288832484335], [1062.5031307343447, 606.6288832484335], [1062.5031307343447, 700.9181359789509], [902.1488819569392, 700.9181359789509]] show the label(s) 'EAIT ONLY, Sen Antonio, EXIT, 400C, Road'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Somewhere in [[878, 626], [1048, 626], [1048, 724], [878, 724]], certain text appears — it is ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C",
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text you see in [[878, 626], [1048, 626], [1048, 724], [878, 724]]. Options:\nA. Read, EAIT ONLY, EXIT, 400C\nB. Sen Antonio, EXIT, Road, 400C\nC. San Antonio, Road, 400C, EXIT\nD. EXIT, San Antonio, 400O, Road",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the area [[877.9663023060019, 625.5292260927899], [1047.7910629872936, 625.5292260927899], [1047.7910629872936, 723.8758029978587], [877.9663023060019, 723.8758029978587]], would 'Road, 400C, San Antonio, EAIT ONLY' be found there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The text showing in [[846, 620], [1023, 620], [1023, 724], [846, 724]] — what does it say? It is ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C",
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and find the one that matches the text at [[846, 620], [1023, 620], [1023, 724], [846, 724]]. Options:\nA. EAIT ONLY, Read, 400C, EXIT\nB. 400C, FXIT, Road, San Antonio\nC. EXIT, San Antonio, EAIT ONLY, Poad\nD. 400C, EAIT ONLY, EXIT, Road",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the region [[846.3015128020437, 619.7993569897593], [1023.4946564658252, 619.7993569897593], [1023.4946564658252, 723.6146180001227], [846.3015128020437, 723.6146180001227]], can 'San Antonio, EXIT, Road, 400C' be found?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0651_1/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0651_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Pinpoint the word(s) visible at [[831, 585], [1019, 585], [1019, 694], [831, 694]] — it is ________.",
+              "answer": [
+                "San Antonio",
+                "Road",
+                "EAIT ONLY",
+                "400C",
+                "EXIT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly lists the text(s) found inside [[831, 617], [999, 617], [999, 694], [831, 694]]? Options:\nA. Road, Sen Antonio\nB. San Antonio, 400C\nC. Road, EAIT ONLY\nD. Sen Antonio, Road",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'EAIT ONLY, 400C, San Antonio, Road' appear within the region [[830.506485345389, 585.1835275538069], [1019.2191883338141, 585.1835275538069], [1019.2191883338141, 694.3098180936881], [830.506485345389, 694.3098180936881]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0651_1"
+  }
+]

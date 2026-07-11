@@ -1,0 +1,457 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the bounding box [[460, 67], [1513, 67], [1513, 302], [460, 302]], the visible text reads: ________",
+              "answer": [
+                "HEYTEA 喜茶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察边框 [[1386,919], [1471,924], [1469,954], [1384,949]] 所圈出的区域，将 纤____瓶 中缺失的内容补充完整。",
+              "answer": "体"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that matches the text visible in [[460, 67], [1884, 67], [1884, 996], [460, 996]]. Options:\nA. 扫码下单, 100%, HEYTEA 喜荣, 体验更佳\nB. 体验更佳, 100%, 50, 扫码下单\nC. 扫码下单, 纤体瓶, HEYTEA 喜茶, 体验更佳\nD. 扫码下单, HEYTEA 喜茶, 100%, 10",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '100%, 扫码下单, HEYTEA 喜茶, 50, 纤体瓶, 10' falls within the bounding box [[229, 67], [1513, 67], [1513, 996], [229, 996]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region marked by [[223.4167736414206, 691.3200684638424], [249.51005562687206, 691.3200684638424], [249.51005562687206, 729.6555412922548], [223.4167736414206, 729.6555412922548]] — what word(s) does it contain? ________",
+              "answer": [
+                "10",
+                "50"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边框 [[1718,643], [1819,644], [1819,664], [1718,664]] 里有一段不完整的文字，请将 扫____下单 填写完整。",
+              "answer": "码"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box [[459, 65], [1880, 65], [1880, 994], [459, 994]] contains some text — which answer option matches it? Options:\nA. 扫码下单, HEYTEA 喜茶, 100%, 体验更佳\nB. HEYTEA 喜茶, 体验更佳, 10, 纤体瓶\nC. 50, HEYTEA 喜茶, 扫码下单, 100%\nD. 僆验更佳, 纤体瓶, 100%, HEYTEA 喜茶",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '100%, 50, 体验更佳, 扫码下单, 10, 纤体瓶, HEYTEA 喜茶' sit inside the bounding box [[223, 642], [1880, 642], [1880, 994], [223, 994]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on area [[457.1021245589814, 64.97967479674797], [1509.260291595197, 64.97967479674797], [1509.260291595197, 299.9390243902439], [457.1021245589814, 299.9390243902439]], what words do you see written there? ________",
+              "answer": [
+                "HEYTEA 喜茶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看边框 [[1661,630], [1761,632], [1762,652], [1661,652]] 处的内容，试着把短语 \"扫____下单\" 补充完整。",
+              "answer": "码"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the text inside [[218, 65], [1509, 65], [1509, 993], [218, 993]] and pick the answer that matches. Options:\nA. 50, 纤体瓶, 100%, 1O\nB. 纤体瓶, 10, 100%, HEYTEA 喜茶\nC. 扫码下单, 纤体瓶, HEYTEA 喜茶, 100%\nD. 100%, HEYTEA 喜茶, 50, 纤体瓶",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[218, 65], [1509, 65], [1509, 993], [218, 993]] enclose the label(s) '50, 100%, 纤体瓶, HEYTEA 喜茶, 体验更佳, 10'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) visible inside the area [[454.4618634500935, 63.789198606271796], [1506.6200304863094, 63.789198606271796], [1506.6200304863094, 298.7485481997677], [454.4618634500935, 298.7485481997677]]. The answer is ________",
+              "answer": [
+                "HEYTEA 喜茶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "找到图中 [[299,124], [1347,57], [1351,235], [299,292]] 标注的位置，把 \"HEYT____喜茶\" 里的空白处补全。",
+              "answer": "EA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one correctly captures the text found in [[215, 642], [1869, 642], [1869, 994], [215, 994]]? Options:\nA. 扫码下单, 纤体瓶, 体验更佳, 50, 10\nB. 10, 体验更佳, 100%, 纤体瓶, HEYTEA 喜茶\nC. 10, 100%, 纸体瓶, 体验更佳, 50\nD. 纸体瓶, 50, 扫码下单, 100%, 体验更佳",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'HEYTEA 喜茶, 50, 纤体瓶, 100%' can be found within the bounds of [[215, 64], [1507, 64], [1507, 994], [215, 994]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the area [[1361.3336893684843, 917.7004037903549], [1452.993484019607, 917.7004037903549], [1452.993484019607, 994.0885438664326], [1361.3336893684843, 994.0885438664326]], what text is displayed there? ________",
+              "answer": [
+                "纤体瓶",
+                "100%"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请将 \"1____%\" 中缺失的字填入，参考位置为边框 [[1169,953], [1214,956], [1212,979], [1168,975]]。",
+              "answer": "00"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices provided, which one reflects what's written in [[211, 64], [1866, 64], [1866, 730], [211, 730]]? Options:\nA. 扫码下单, 10, 50, 体验更佳\nB. 10, 体验更佳, 扫码下单, 纤体瓶\nC. 扫砀下单, 体验更佳, 50, HEYTEA 喜茶\nD. 体验更佳, HEYTEA 喜茶, 扫码下单, 10",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '10, 100%, 50, 扫码下单, HEYTEA 喜茶, 纤体瓶' appears within the bounding box [[211, 64], [1500, 64], [1500, 994], [211, 994]]? Answer yes or no.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) enclosed in bounding box [[1758, 642], [1860, 642], [1860, 687], [1758, 687]]: ________",
+              "answer": [
+                "扫码下单",
+                "体验更佳"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中 [[1157,898], [1201,902], [1199,924], [1155,920]] 区域里有一些数字字符——请找出缺失的那个，把 \"10____%\" 补全。",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears in the area marked [[207, 64], [1493, 64], [1493, 994], [207, 994]]? Pick the matching option. Options:\nA. 10, 50, 纤体瓶, HEYTEA 喜荣\nB. 10, 纤体瓶, 体验更佳, 50\nC. 10, 50, 纤体瓶, HEYTEA 喜茶\nD. 纤体瓶, 50, 10, 扫码下单",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '100%, 纤体瓶, 体验更佳, HEYTEA 喜茶' appear inside the region [[441, 64], [1860, 64], [1860, 994], [441, 994]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text you can read in region [[434.4584017544383, 63.65400566991168], [1486.6165687906537, 63.65400566991168], [1486.6165687906537, 298.6133552634076], [434.4584017544383, 298.6133552634076]] — the word(s) there is/are ________.",
+              "answer": [
+                "HEYTEA 喜茶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察 [[1519,533], [1620,534], [1620,555], [1519,554]] 处的图像内容，将缺失的文字填入：\"____码下单\"。",
+              "answer": "扫"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[434, 64], [1487, 64], [1487, 994], [434, 994]] contains some text — which answer choice matches it? Options:\nA. 10, HEYTEA 喜茶\nB. 100%, 纤体瓶\nC. HEYTEA 喜茶, 50\nD. HEYTEA 喜茶, 纸体瓶",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find label(s) '纤体瓶, 50, 10' inside [[200, 691], [1441, 691], [1441, 994], [200, 994]] — agree or disagree?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible in the [[191.72488240734955, 64.35823102202436], [1484.2510938899677, 64.35823102202436], [1484.2510938899677, 730.1470719372635], [191.72488240734955, 730.1470719372635]] area — the answer is ________.",
+              "answer": [
+                "HEYTEA 喜茶",
+                "10",
+                "50"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "短语 \"体____佳\" 有缺失部分，请结合 [[1527,552], [1628,553], [1628,575], [1527,574]] 处的内容将其补充完整。",
+              "answer": "验更"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[192, 690], [218, 690], [218, 730], [192, 730]] and select the answer that matches. Options:\nA. 10\nB. HEYTEA 喜茶\nC. 1O\nD. 1O",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just checking — do the label(s) 'HEYTEA 喜茶, 50, 10' fall within [[192, 690], [218, 690], [218, 730], [192, 730]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the [[420.5295879860094, 65.95285624462433], [1472.687755022225, 65.95285624462433], [1472.687755022225, 300.9122058381202], [420.5295879860094, 300.9122058381202]] region carefully, fill in: the word(s) is/are ________.",
+              "answer": [
+                "HEYTEA 喜茶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "结合上下文，推断并写出 [[216,62], [912,11], [917,165], [217,214]] 处完整的名称：\"HEY____\"。",
+              "answer": "TEA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What does the text in [[184, 689], [210, 689], [210, 728], [184, 728]] say? Choose the option that correctly lists it. Options:\nA. HEYTEA 喜茶\nB. 10\nC. 1O\nD. 1O",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[184, 689], [210, 689], [210, 728], [184, 728]] — does it actually contain the label(s) '50, HEYTEA 喜茶, 10'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Check the [[409.10265717923374, 65.95285624462433], [1461.2608242154495, 65.95285624462433], [1461.2608242154495, 300.9122058381202], [409.10265717923374, 300.9122058381202]] region — what word(s) can be found there? The word(s) is/are ________.",
+              "answer": [
+                "HEYTEA 喜茶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看图中 [[1547,625], [1649,626], [1649,648], [1548,647]] 的区域，帮我把这个词组补完整：\"体____更佳\"。",
+              "answer": "验"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately captures the text found at [[409, 66], [1461, 66], [1461, 301], [409, 301]]? Options:\nA. HEYTEA 喜茶\nB. HEYTEA 嗇茶\nC. HEYTEA 喜荣\nD. HEYTEA 啬茶",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My claim is that 'HEYTEA 喜荣' can be seen as label(s) within the area [[409.10265717923374, 65.95285624462433], [1461.2608242154495, 65.95285624462433], [1461.2608242154495, 300.9122058381202], [409.10265717923374, 300.9122058381202]] — right or wrong?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region at [[401.8023785323774, 67.82067233657837], [1453.9605455685928, 67.82067233657837], [1453.9605455685928, 302.78002193007427], [401.8023785323774, 302.78002193007427]] — which word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "HEYTEA 喜茶"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "辨认 [[270,127], [1321,63], [1322,226], [272,278]] 处的文字，把 \"HEY____ 喜茶\" 中缺少的部分补上。",
+              "answer": "TEA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[168, 68], [1454, 68], [1454, 993], [168, 993]] — which of the following options lists the text shown there? Options:\nA. 10, 100%, 纤体瓶, HEYTEA 喜茶\nB. 50, 纤体瓶, 100%, 1O\nC. HEYTEA 喜荣, 纤体瓶, 10, 100%\nD. 50, 扫码下单, 纤体瓶, 10",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "If someone said '50, 纤体瓶, HEYTEA 喜茶, 扫码下单, 10, 100%' is/are the label(s) at [[168, 68], [1454, 68], [1454, 993], [168, 993]], would they be correct?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0314/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0314/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the text sitting in the [[161.7302867449147, 686.0217436845369], [187.15181044988466, 686.0217436845369], [187.15181044988466, 725.4064801403906], [161.7302867449147, 725.4064801403906]] zone — the word(s) is/are ________.",
+              "answer": [
+                "10",
+                "50"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边框 [[1627,644], [1728,645], [1728,666], [1627,665]] 里的短语 \"____码下单\" 不完整，你能找出缺失的字填进去吗？",
+              "answer": "扫"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option correctly identifies the text(s) visible inside [[162, 61], [1816, 61], [1816, 725], [162, 725]]? Options:\nA. 体验更佳, 50, 10, 100%\nB. 扫码下单, HEYTEA 喜茶, 50, 体验更佳\nC. 50, 扫码下单, 10, 纤体瓶\nD. HEYTEA 喜荣, 体验更佳, 10, 50",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '100%, 体验更佳, HEYTEA 喜茶, 扫码下单' actually appear(s) inside the box defined by [[399, 61], [1816, 61], [1816, 993], [399, 993]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0314"
+  }
+]

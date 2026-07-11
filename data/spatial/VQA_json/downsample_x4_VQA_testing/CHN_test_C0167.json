@@ -1,0 +1,547 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[545, 81], [1486, 81], [1486, 835], [545, 835]] and write out what word(s) you find there. ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中 [[665,551], [775,537], [768,562], [658,578]] 区域内的文字，哪个字符被遮挡？急停按____，你能填出空缺的部分吗？",
+              "answer": "钮"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects what's written in the region [[545, 347], [1486, 347], [1486, 835], [545, 835]]. Options:\nA. STOP, A1-1, 电梯编号, 急停按钮, 禁止推车乘扶梯，推车请换乘直梯。\nB. 0181268, 急停按钮, 电梯编号, 急停, A1-1\nC. 电梯编号, 禁止推车乘扶梯，推车请换乘直梯。, 老个、儿童及行动不便者乘扶梯需有人搀扶, 0181268, 急停按钮\nD. 0181268, 电梯编号, A1-1, 老人、儿童及行动不便者乘扶梯需有人搀扶, 急停按钮",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area [[545, 347], [1486, 347], [1486, 835], [545, 835]] — is '急停按钮, A1-1, 0181268, 老人、儿童及行动不便者乘扶梯需有人搀扶, 禁止推车乘扶梯，推车请换乘直梯。, STOP, 电梯编号' part of the text displayed there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the word(s) inside [[544.7695167286245, 80.98859315589354], [1485.9259259259259, 80.98859315589354], [1485.9259259259259, 834.5724907063197], [544.7695167286245, 834.5724907063197]] and note them below. ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位置 [[647,566], [757,551], [750,576], [640,592]] 处的文字出现了\"急停按____\"这样的字符，缺失的部分是什么？",
+              "answer": "钮"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scroll to region [[545, 347], [1486, 347], [1486, 835], [545, 835]] — which option below correctly matches the text there? Options:\nA. 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268, 急停, 禁止推车乘扶梯，推车请换乘直梯。, 电梯编号\nB. A1-1, 禁止推车乘扶梯，推车请换乘直梯。, 0181268, 急停按铇, 老人、儿童及行动不便者乘扶梯需有人搀扶\nC. 禁止推车乘扶梯，推车请换乘直梯。, A1-1, 老个、儿童及行动不便者乘扶梯需有人搀扶, 0181268, 急停按钮\nD. 急停按钮, 电梯编号, 禁止推车乘扶梯，推车请换乘直梯。, A1-1, 0181268",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "That bounding box [[544.7695167286245, 80.98859315589354], [1485.9259259259259, 80.98859315589354], [1485.9259259259259, 834.5724907063197], [544.7695167286245, 834.5724907063197]] — does it actually contain the label 'STOP, 电梯编号, 急停按钮, 急停, 禁止推车乘扶梯，推车请换乘直梯。, 0181268, 老人、儿童及行动不便者乘扶梯需有人搀扶'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at area [[539.7695167286245, 87.23859315589354], [1480.9259259259259, 87.23859315589354], [1480.9259259259259, 840.8224907063197], [539.7695167286245, 840.8224907063197]], what word(s) appear there? ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[652,458], [684,450], [712,511], [679,521]] 坐标内的文字，\"A____-1\"中空缺的部分该填入什么内容？",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text visible at [[540, 87], [1481, 87], [1481, 841], [540, 841]], which answer choice is the right match? Options:\nA. 小, 电梯编号, 禁止推车乘扶梯，推车请换乘直梯。, STOP, 老人、儿童及行动不便者乘扶梯需有人搀扶, A1-1, 急停按铇, 0181268\nB. STOP, 小, A1-1, 电椧编号, 禁止推车乘扶梯，推车请换乘直梯。, 急停按钮, 0181268, 急停\nC. 禁止推车乘扶梯，推车请换乘直梯。, 急停, 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268, STOP, 小, 电梯编号, 急停按钮\nD. 急停, 禁止推车乘扶梯，推车请换乘直梯。, A1-1, 0181268, SIOP, 急停按钮, 小, 老人、儿童及行动不便者乘扶梯需有人搀扶",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'A1-1, STOP, 急停按铌, 老人、儿童及行动不便者乘扶梯需有人搀扶, 急停, 禁止推车乘扶梯，推车请换乘直梯。, 小, 电梯编号, 0181268' falls inside the box marked [[539.7695167286245, 87.23859315589354], [1480.9259259259259, 87.23859315589354], [1480.9259259259259, 840.8224907063197], [539.7695167286245, 840.8224907063197]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) visible in the region [[539, 88], [1480, 88], [1480, 842], [539, 842]]. ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[609,507], [719,492], [712,517], [602,533]] 区域内的文本里，\"急停____\"这个词还不完整，缺失的字符是什么？",
+              "answer": "按钮"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices given, which one lists the text shown at [[539, 88], [1480, 88], [1480, 842], [539, 842]]? Options:\nA. 禁止推车乘抉梯，推车请换乘直梯。, 0181268, 急停按钮, 急停, 老人、儿童及行动不便者乘扶梯需有人搀扶, STOP, 小, 电梯编号\nB. 禁止推车乘扶梯，推车请换乘直梯。, A1-1, 老人、儿童及行动不便者乘扶梯需有人搀扶, 急停按钮, 电梯编号, 0181288, 急停, 小\nC. 急停按铇, A1-1, 急停, 电梯编号, 禁止推车乘扶梯，推车请换乘直梯。, 0181268, 老人、儿童及行动不便者乘扶梯需有人搀扶, 小\nD. A1-1, 急停, 0181268, 老人、儿童及行动不便者乘扶梯需有人搀扶, 电梯编号, 禁止推车乘扶梯，推车请换乘直梯。, 小, 急停按钮",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label '老人、儿童及行动不便者乘扶梯需有人搀扶, 急停, 0181268, 小, 急停按钮, 电梯编号, STOP, R1-1, 禁止推车乘扶梯，推车请换乘直梯。' — does it show up anywhere inside [[538.5195167286245, 88.48859315589354], [1479.6759259259259, 88.48859315589354], [1479.6759259259259, 842.0724907063197], [538.5195167286245, 842.0724907063197]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) you can read inside region [[536.2206661539119, 89.06330579957171], [1477.3770753512133, 89.06330579957171], [1477.3770753512133, 842.6472033499979], [536.2206661539119, 842.6472033499979]]. ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[629,384], [661,377], [689,437], [656,447]] 处有一段文字\"____-1\"，其中的空白应填入什么？",
+              "answer": "A1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Somewhere in [[536, 353], [1477, 353], [1477, 843], [536, 843]] there's text — which answer option correctly captures it? Options:\nA. 禁止推车乘扶梯，推车请换乘直梯。, 急停按铇, 老人、儿童及行动不便者乘扶梯需有人搀扶, 电梯编号, 0181268\nB. 禁止推车乘扶梯，推车请换乘直梯。, 电梯编号, 0181268, 急停按钮, 急停\nC. 老人、儿童及行动不便者乘扶梯需有人搀扶, 电椧编号, 禁止推车乘扶梯，推车请换乘直梯。, 0181268, 急停按钮\nD. 禁止推车乘扶梯，推车请换乘直梯。, 老人、儿童及行动不便者乘扶梯需有人搀扶, A1-1, 急停按钮, 电梯编号",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify this: does the label '急停, A1-1, 小, 禁止推车乘扶梯，推车请换乘直梯。, 电梯编号, 老人、儿童及行动不便者乘扶梯需有人搀扶, STOP' actually appear inside box [[536.2206661539119, 89.06330579957171], [1477.3770753512133, 89.06330579957171], [1477.3770753512133, 842.6472033499979], [536.2206661539119, 842.6472033499979]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the area marked by [[534, 90], [1475, 90], [1475, 844], [534, 844]] — what word or phrase appears there? ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[610,363], [642,355], [670,416], [637,425]] 所示区域的文字中，\"A____-1\"里空缺的内容是什么？",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text shown at [[534, 355], [1475, 355], [1475, 844], [534, 844]]? Options:\nA. 急停按钮, 急停, A1-1, 电梯编号, 老人、儿童及行动不便者乘扶梯需有人搀扶\nB. A1-1, 禁止推车乘扶梯，推车请换乘直梯。, 急停按钮, 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268\nC. 电梯编号, 老个、儿童及行动不便者乘扶梯需有人搀扶, 禁止推车乘扶梯，推车请换乘直梯。, A1-1, 急停按钮\nD. 急停按钮, 0181268, 电梯编号, 老个、儿童及行动不便者乘扶梯需有人搀扶, A1-1",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The region [[682, 90], [968, 90], [968, 530], [682, 530]] — does it actually contain the label(s) 'STOP, 电梯编号, 急停, 小'? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Peer at the area marked [[533, 92], [1474, 92], [1474, 846], [533, 846]] — what's written there? ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察 [[588,341], [620,333], [647,394], [614,404]] 区域内的文字，\"A1-____\"中空缺的是什么？",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly identifies what's written at [[533, 356], [1474, 356], [1474, 846], [533, 846]]. Options:\nA. 急停按钮, 0181268, 急停, 禁止推车乘扶梯，推车请换乘直梯。, 电梯编号\nB. A1-1, 急停按钮, 电梯编号, 0181268, 禁止推车乘扶梯，推车请换乘直梯。\nC. 禁止推车乘扶梯，推车请换乘直梯。, 急停按钮, 0181268, A1-1, 电椧编号\nD. 老人、儿童及行动不便者乘扶梯需有人搀扶, A1-1, 0181288, 禁止推车乘扶梯，推车请换乘直梯。, 急停按钮",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: are the label(s) '急停按钮, 禁止推车乘扶梯，推车请换乘直梯。, 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268, 电梯编号, STOP, 小, R1-1, 急停' actually present at [[532.7387314219773, 92.20287456414047], [1473.8951406192784, 92.20287456414047], [1473.8951406192784, 845.7867721145666], [532.7387314219773, 845.7867721145666]]? Yes or no.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you fill this in — the text visible at [[531, 93], [1473, 93], [1473, 847], [531, 847]] reads ________?",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "区域 [[492,530], [1255,408], [1265,468], [504,600]] 里有一段文字，其中\"禁止推车乘____梯，推车请换乘直梯。\"——空缺处应填什么？",
+              "answer": "扶"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at [[531, 356], [1473, 356], [1473, 847], [531, 847]] and identify the text there — which answer choice matches? Options:\nA. 电梯编号, 老人、儿童及行动不便者乘扶梯需有人搀扶, 禁止推车乘扶梯，推车请换乘直梯。, A1-1, 0181288\nB. 禁止推车乘扶梯，推车请换乘直梯。, 0181268, 急停按钮, 老人、儿童及行动不便者乘扶梯需有人搀扶, 急停\nC. 0181268, 禁止推车乘扶梯，推车请换乘直梯。, 急停按钮, 电梯编号, A1-1\nD. 急停按钮, A1-1, 禁止推车乘扶梯，推车请换乘直梯。, 0181288, 老人、儿童及行动不便者乘扶梯需有人搀扶",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Regarding [[531.472908637167, 93.4686973489506], [1472.629317834468, 93.4686973489506], [1472.629317834468, 847.0525948993767], [531.472908637167, 847.0525948993767]]: would you say '禁止推车乘扶梯，推车请换乘直梯。, STOP, 老人、儿童及行动不便者乘扶梯需有人搀扶, 电棆编号, A1-1, 0181268, 小, 急停按钮, 急停' is/are among the labels found there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What exactly can you read from the area [[529, 95], [1470, 95], [1470, 848], [529, 848]]? ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看 [[694,164], [724,158], [767,238], [734,248]] 所在区域的文字，试着补全其中缺失的内容：\"电梯____号\"。",
+              "answer": "编"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the following options, which one correctly lists the text at [[529, 357], [1470, 357], [1470, 848], [529, 848]]? Options:\nA. A1-1, 急停按钮, 急停, 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268\nB. 电梯编号, 0181268, R1-1, 急停按钮, 老人、儿童及行动不便者乘扶梯需有人搀扶\nC. 电梯编号, 急停按钮, 0181268, 禁止推车乘抉梯，推车请换乘直梯。, 老人、儿童及行动不便者乘扶梯需有人搀扶\nD. A1-1, 禁止推车乘扶梯，推车请换乘直梯。, 0181268, 老人、儿童及行动不便者乘扶梯需有人搀扶, 电梯编号",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Fact-check this: the label(s) '小, 老人、儿童及行动不便者乘扶梯需有人搀扶, A1-1, STOP, 急停, 急停按钮, 电梯编号, 0181288, 禁止推车乘扶梯，推车请换乘直梯。' appear inside [[528.972908637167, 94.7186973489506], [1470.129317834468, 94.7186973489506], [1470.129317834468, 848.3025948993767], [528.972908637167, 848.3025948993767]]. True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focus on [[527, 93], [1468, 93], [1468, 847], [527, 847]] — what word or words do you find there? ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "细看 [[641,111], [667,106], [710,189], [681,198]] 所在区域，编号\"01____68\"中缺失的内容是什么？",
+              "answer": "812"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The area [[527, 93], [1468, 93], [1468, 847], [527, 847]] contains some text — which of these options captures it correctly? Options:\nA. 禁止推车乘扶梯，推车请换乘直梯。, 急停按钮, 急停, 忄, 0181268, 老人、儿童及行动不便者乘扶梯需有人搀扶, A1-1, STOP\nB. 小, 急停, 0181288, 禁止推车乘扶梯，推车请换乘直梯。, STOP, 急停按钮, 老人、儿童及行动不便者乘扶梯需有人搀扶, 电梯编号\nC. 电梯编号, 急停, 老人、儿童及行动不便者乘扶梯需有人搀扶, STOP, 禁止推车乘扶梯，推车请换乘直梯。, A1-1, 急停按铇, 小\nD. STOP, 老人、儿童及行动不便者乘扶梯需有人搀扶, 急停, A1-1, 0181268, 电梯编号, 小, 禁止推车乘扶梯，推车请换乘直梯。",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[526.8895753038337, 93.1561973489506], [1468.0459845011346, 93.1561973489506], [1468.0459845011346, 846.7400948993767], [526.8895753038337, 846.7400948993767]]: is/are '急停按钮, 禁止推车乘抉梯，推车请换乘直梯。, 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268, A1-1, 急停, STOP, 小, 电梯编号' listed among the labels visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word or phrase you can see at [[526, 95], [1468, 95], [1468, 849], [526, 849]]: ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "给定坐标 [[415,393], [1178,271], [1188,332], [428,463]] 内有段文字写着\"禁止推____乘扶梯，推车请换乘直梯。\"，空白处原本应该是什么？",
+              "answer": "车"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[526, 95], [1468, 95], [1468, 849], [526, 849]] — which answer choice correctly reflects the text there? Options:\nA. 小, 老人、儿童及行动不便者乘扶梯需有人搀扶, SIOP, 0181268, 电梯编号, 急停, 急停按钮, 禁止推车乘扶梯，推车请换乘直梯。\nB. 小, STOP, 急停按钮, 急停, 禁止推车乘扶梯，推车请换乘直梯。, 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268, 电梯编号\nC. 0181268, 老个、儿童及行动不便者乘扶梯需有人搀扶, 禁止推车乘扶梯，推车请换乘直梯。, A1-1, 急停, STOP, 急停按钮, 电梯编号\nD. 怱停, 电梯编号, STOP, A1-1, 0181268, 老人、儿童及行动不便者乘扶梯需有人搀扶, 禁止推车乘扶梯，推车请换乘直梯。, 小",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect '禁止推车乘扶梯，推车请换乘直梯。, 0181268, 小, 急停按钮, A1-1, 电梯编号, 老人、儿童及行动不便者乘扶梯需有人搀扶' to be inside [[526, 357], [1468, 357], [1468, 849], [526, 849]] — is that actually the case?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0167/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0167/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word or phrase visible inside [[526, 95], [1468, 95], [1468, 849], [526, 849]]: ________",
+              "answer": [
+                "急停",
+                "STOP",
+                "急停按钮",
+                "禁止推车乘扶梯，推车请换乘直梯。",
+                "老人、儿童及行动不便者乘扶梯需有人搀扶",
+                "小",
+                "A1-1",
+                "0181268",
+                "电梯编号"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中 [[332,456], [1262,295], [1273,360], [346,525]] 区域的文字提到了\"老人、儿____及行动不便者乘扶梯需有人搀扶\"，这段话的缺失部分是什么？",
+              "answer": "童"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[526, 358], [1468, 358], [1468, 849], [526, 849]]? Select the matching option. Options:\nA. 急停, 电梯编号, 急停按钮, 禁止推车乘扶梯，推车请换乘直梯。, 老人、儿童及行动不便者乘扶梯需有人搀扶\nB. A1-1, 电梯编号, 禁止推车乘扶梯，推车请换乘直梯。, 0181288, 老人、儿童及行动不便者乘扶梯需有人搀扶\nC. 禁止推车乘扶梯，推车请换乘直梯。, 0181268, 急停按钮, 电梯编号, A1-1\nD. 电梯编号, 禁止推车乘扶梯，推车请换乘直梯。, R1-1, 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it the case that '电梯编号, 老人、儿童及行动不便者乘扶梯需有人搀扶, 0181268, 禁止推车乘扶梯，推车请换乘直梯。, 急停按钮, A1-1, 小' falls within the bounding box [[526, 358], [1468, 358], [1468, 849], [526, 849]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0167"
+  }
+]

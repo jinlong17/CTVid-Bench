@@ -1,0 +1,547 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word or words visible inside the box at [[154, 349], [831, 349], [831, 833], [154, 833]]. ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The item at coordinates [[610,656], [724,659], [723,724], [610,720]] has a gap — complete it: Che____",
+              "answer": "ese"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[507, 386], [831, 386], [831, 833], [507, 833]] — which option best describes the text there? Options:\nA. Cbeese, PIZZA!, TASTE OUR QUALITY, Phone-In Orders Welcome, 18″Whole Pizza, Pepperoni\nB. IASTE OUR QUALITY, Phone-In Orders Welcome, Cheese, PIZZA!, 18″Whole Pizza, Pepperoni\nC. 510-493-2967, PIZZA!, TASTE OUR QUALITY, Cheese, Phone-In Orders Welcome, Pepperoni\nD. TASTE OUR QUALITY, Cheese, Pepperoni, COSTCO, Phone-In Orders Welcome, 18″Whole Pizza",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'TASTE OUR QUALITY, COSTCO, EFOOD COURT, 510-493-2967, PIZZA!, Choese, 18″Whole Pizza, Phone-In Orders Welcome, Pepperoni' is the label found inside [[154.0, 349.0], [831.4102564102564, 349.0], [831.4102564102564, 833.2435897435897], [154.0, 833.2435897435897]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that names the word(s) visible at [[132.0, 349.6666666666667], [809.4102564102562, 349.6666666666667], [809.4102564102562, 833.9102564102564], [132.0, 833.9102564102564]]. ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters are missing from the text at [[433,428], [746,462], [744,533], [428,502]] — supply them: PIZZ____!",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking across the whole image, which option captures what's written inside [[132, 350], [809, 350], [809, 725], [132, 725]]? Options:\nA. 18″Whole Pizza, COSTCO, Pepperoni, Cbeese, TASTE OUR QUALITY, EFOOD COURT\nB. TASTE OUR QUALITY, 18″Whole Pizza, Cbeese, COSTCO, PIZZA!, Pepperoni\nC. COSTCO, 18″Whole Pizza, Pepperoni, Cheese, TASTE OUR QUALITY, PIZZA!\nD. Cheese, 18″Whole Pizza, TASTE OUR QUALITY, Phone-In Orders Welcome, PIZZA!, Pepperoni",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the region [[132.0, 349.6666666666667], [809.4102564102562, 349.6666666666667], [809.4102564102562, 833.9102564102564], [132.0, 833.9102564102564]] — is 'EFOOD COURT, 18″Whole Pizza, Cheese, Phone-In Orders Welcome, 510-493-2967, COSTCO, PIZZA!' what you find there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can read inside [[112.670701883101, 348.24822695035465], [790.0809582933565, 348.24822695035465], [790.0809582933565, 832.4918166939444], [112.670701883101, 832.4918166939444]]. ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Only part of the brand name is showing at [[143,363], [447,402], [439,469], [135,430]] — what's the full version: CO____CO",
+              "answer": "ST"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on region [[466, 385], [790, 385], [790, 832], [466, 832]], which answer option correctly lists the text present there? Options:\nA. 18″Whole Pizza, 510-493-2967, Pepperoni, TASTE OUR QUALITY, Cheese, Phone-In Orders Welcome\nB. COSTCO, 510-493-2967, Cheese, 18″Whole Pizza, TASTE OUR QUALITY, Pepperoni\nC. Cheese, 18″Mhole Pizza, Pepperoni, 510-493-2967, TASTE OUR QUALITY, PIZZA!\nD. 18″Mhole Pizza, Pepperoni, 510-493-2967, PIZZA!, Phone-In Orders Welcome, TASTE OUR QUALITY",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'PIZZA!, Phone-In Orders Welcome, COSTCO, EEOOD COURT, 18″Whole Pizza, Pepperoni, 510-493-2967, Cheese, TASTE OUR QUALITY' when you look inside the bounding box [[112.670701883101, 348.24822695035465], [790.0809582933565, 348.24822695035465], [790.0809582933565, 832.4918166939444], [112.670701883101, 832.4918166939444]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and read the text inside [[95, 347], [772, 347], [772, 832], [95, 832]] — what word(s) are there? ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label at [[403,379], [707,418], [699,485], [395,446]] isn't fully visible — how would you complete it: CO____O?",
+              "answer": "STC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly identifies the text in [[95, 347], [772, 347], [772, 720], [95, 720]]? Options:\nA. TASTE OUR QUALITY, EFOOD COURT, PIZZA!, Cheese, Phone-In Orders Welcome, COSTCO\nB. EFOOD COURT, Pepperoni, COSTCO, 18″Whole Pizza, IASTE OUR QUALITY, PIZZA!\nC. EFOOD COURT, Cheese, 510-493-2967, COSTCO, Pepperoni, PIZZA!\nD. PIZZA!, Pepperoni, EFOOD COURT, TASTE OUR QUALITY, Cheese, COSTCO",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is whether 'IASTE OUR QUALITY, EFOOD COURT, 18″Whole Pizza, Pepperoni, 510-493-2967, Cheese, PIZZA!, COSTCO, Phone-In Orders Welcome' sits inside the bounding box [[94.701951883101, 347.46697695035465], [772.1122082933565, 347.46697695035465], [772.1122082933565, 831.7105666939444], [94.701951883101, 831.7105666939444]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible in the area [[78.13390454582287, 349.24212487934875], [755.5441609560784, 349.24212487934875], [755.5441609560784, 833.4857146229384], [78.13390454582287, 833.4857146229384]] and choose the correct option. ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The flavor name at [[1137,621], [1297,634], [1296,697], [1134,686]] has a missing portion — fill it in: Pep____ni?",
+              "answer": "pero"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[431, 386], [756, 386], [756, 833], [431, 833]], which option correctly lists the text(s) found there? Options:\nA. PIZZA!, Pepperoni, 510-493-2967, Phone-In Orders Welcome, Cheese, 18″Mhole Pizza\nB. 510-493-2967, COSTCO, Phone-In Orders Welcome, PIZZA!, Cheese, TASTE OUR QUALITY\nC. Cheese, 18″Whole Pizza, Phone-In Orders Welcome, TASTE OUR QUALITY, Pepperoni, PIZZA!\nD. 510-493-2967, Cheese, TASTE OUR QUALITY, PIZZA!, Phone-In Orders Welcome, 18″Mhole Pizza",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '18″Whole Pizza, 510-493-2967, PIZZA!, Phone-In Orders Welcome, TASTE OUR QUALITY, COSTCO, Pepperoni' appear inside the bounding box [[78.13390454582287, 349.24212487934875], [755.5441609560784, 349.24212487934875], [755.5441609560784, 833.4857146229384], [78.13390454582287, 833.4857146229384]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the region [[69.71285191424391, 350.8210722477698], [747.1231083244993, 350.8210722477698], [747.1231083244993, 835.0646619913595], [69.71285191424391, 835.0646619913595]] — what word(s) appear there? ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is missing from the sequence shown at [[1098,803], [1393,814], [1391,856], [1098,847]] — fill it in: 5____-493-2967",
+              "answer": "10"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these answers correctly captures the text(s) at [[70, 351], [747, 351], [747, 724], [70, 724]]? Options:\nA. Cheese, COSTCO, RIZZA!, TASTE OUR QUALITY, EFOOD COURT, Pepperoni\nB. Pepperoni, EFOOD COURT, Phone-In Orders Welcome, COSTCO, PIZZA!, Cheese\nC. EFOOD COURT, PIZZA!, Pepperoni, IASTE OUR QUALITY, COSTCO, Cheese\nD. EFOOD COURT, 18″Whole Pizza, Cheese, COSTCO, PIZZA!, TASTE OUR QUALITY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the box at [[69.71285191424391, 350.8210722477698], [747.1231083244993, 350.8210722477698], [747.1231083244993, 835.0646619913595], [69.71285191424391, 835.0646619913595]], are the label(s) '510-493-2997, EFOOD COURT, Pepperoni, 18″Whole Pizza, COSTCO, Cheese, TASTE OUR QUALITY, Phone-In Orders Welcome, PIZZA!' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[65.06168912354627, 353.1466536431186], [742.4719455338017, 353.1466536431186], [742.4719455338017, 837.3902433867083], [65.06168912354627, 837.3902433867083]], what word(s) can you make out? ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sequence at [[1104,784], [1399,795], [1397,837], [1105,828]] has a gap in the middle — what number(s) go there? 51____67?",
+              "answer": "0-493-29"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, select the option that matches the text(s) in [[418, 390], [742, 390], [742, 837], [418, 837]]. Options:\nA. 18″Whole Pizza, 510-493-2967, Phone-In Orders Welcome, PIZZA!, Pepperoni, Cheese\nB. Pepperoni, 18″Whole Pizza, Phone-In Orders Welcome, EFOOD COURT, Cheese, TASTE OUR QUALITY\nC. Pepperoni, Cheese, Phone-In Orders Welcome, COSTCO, TASTE OUR QUALITY, 510-493-2967\nD. 510-493-2967, Rhone-In Orders Welcome, Pepperoni, Cheese, TASTE OUR QUALITY, 18″Whole Pizza",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '18″Whole Pizza, COSTCO, Cheese, Pepperoni, EFOOD COURT, Phone-In Orders Welcome, 510-493-2967' fall inside the box [[65.06168912354627, 353.1466536431186], [742.4719455338017, 353.1466536431186], [742.4719455338017, 837.3902433867083], [65.06168912354627, 837.3902433867083]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) you find at [[65.06168912354627, 353.1466536431186], [742.4719455338017, 353.1466536431186], [742.4719455338017, 837.3902433867083], [65.06168912354627, 837.3902433867083]]. ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Spot the missing letter(s) at [[935,433], [1115,447], [1113,474], [932,461]] to complete this venue name: E____D COURT.",
+              "answer": "FOO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text(s) visible at [[418, 390], [742, 390], [742, 837], [418, 837]], pick the option that gets it right. Options:\nA. 510-493-2967, Pepporoni, TASTE OUR QUALITY, Phone-In Orders Welcome, 18″Whole Pizza, PIZZA!\nB. Cheese, 18″Whole Pizza, Pepperoni, COSTCO, TASTE OUR QUALITY, 510-493-2967\nC. 18″Whole Pizza, Pepperoni, Cheese, EFOOD COURT, PIZZA!, TASTE OUR QUALITY\nD. Cheese, TASTE OUR QUALITY, Phone-In Orders Welcome, PIZZA!, Pepperoni, 510-493-2967",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Right at [[65.06168912354627, 353.1466536431186], [742.4719455338017, 353.1466536431186], [742.4719455338017, 837.3902433867083], [65.06168912354627, 837.3902433867083]], do the label(s) 'Phone-In Orders Welcome, Pepperoni, COSTCO, Cheese, EFOOD COURT, TASTE OUR QUALITY, 510-493-2967' actually show up?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focus on [[67.69326807091471, 357.3571799589081], [745.1035244811701, 357.3571799589081], [745.1035244811701, 841.6007697024979], [67.69326807091471, 841.6007697024979]] — which word(s) appear in that area? ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A segment of the word(s) at [[1397,597], [1560,602], [1561,666], [1398,665]] is missing — what belongs there? Pepper____?",
+              "answer": "oni"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly represents the text(s) at [[68, 357], [745, 357], [745, 730], [68, 730]]? Options:\nA. EFOOD COURT, Cheese, Pepperoni, COSTCO, 18″Whole Pizza, TASTE OUR QUALITY\nB. COSTCO, EFOOD COURT, Phone-In Orders Welcome, TASTE OUR QUALITY, 18″Whole Pizza, Pepperoni\nC. 18″Whole Pizza, Cheese, COSTCO, Pepperoni, IASTE OUR QUALITY, EFOOD COURT\nD. 510-493-2967, Pepperoni, Cheese, TASTE OUR QUALITY, PIZZA!, EFOOD COURT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just looking at [[67.69326807091471, 357.3571799589081], [745.1035244811701, 357.3571799589081], [745.1035244811701, 841.6007697024979], [67.69326807091471, 841.6007697024979]], are the label(s) 'PIZZA!, 18″Whole Pizza, TASTE OUR QUALITY, EFOOD COURT, Phone-In Orders Welcome, 510-493-2967, COSTCO' present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text do you see when you look at the area [[67.69326807091471, 357.3571799589081], [745.1035244811701, 357.3571799589081], [745.1035244811701, 841.6007697024979], [67.69326807091471, 841.6007697024979]]? ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters in the name at [[1103,452], [1410,468], [1408,535], [1102,518]] are hidden — how would you complete it? CO____O.",
+              "answer": "STC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text(s) visible in [[68, 357], [745, 357], [745, 730], [68, 730]], which answer choice is correct? Options:\nA. COSTCO, EFOOD COURT, TASTE OUR QUALITY, 18″Whole Pizza, PIZZA!, Pepperoni\nB. Cheese, PIZZA!, Pepperoni, 18″Mhole Pizza, TASTE OUR QUALITY, COSTCO\nC. Cheese, COSTCO, EFOOD COURT, TASTE OUR QUALITY, 18″Whole Pizza, Pepporoni\nD. 18″Whole Pizza, EFOOD COURT, Pepperoni, TASTE OUR QUALITY, Phone-In Orders Welcome, COSTCO",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot the label(s) 'TASTE OUR QUALITY, 510-493-2967, Phone-In Orders Welcome, COSTCO, EFOOD COURT, Pepperoni, PIZZA!' inside [[67.69326807091471, 357.3571799589081], [745.1035244811701, 357.3571799589081], [745.1035244811701, 841.6007697024979], [67.69326807091471, 841.6007697024979]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you read the word(s) shown at [[73.98956436721102, 358.8386614403896], [751.3998207774664, 358.8386614403896], [751.3998207774664, 843.0822511839795], [73.98956436721102, 843.0822511839795]]? ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the digit(s) missing from the sequence at [[1509,867], [1819,875], [1818,919], [1509,913]]: 510-____-2967?",
+              "answer": "493"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text(s) found at [[74, 359], [751, 359], [751, 732], [74, 732]]. Options:\nA. EFOOD COURT, Pepperoni, COSTCO, TASTE OUR QUALITY, Cbeese, PIZZA!\nB. Phone-In Orders Welcome, PIZZA!, Pepperoni, EFOOD COURT, Cheese, TASTE OUR QUALITY\nC. EFOOD COURT, IASTE OUR QUALITY, Cheese, PIZZA!, Pepperoni, 18″Whole Pizza\nD. 18″Whole Pizza, EFOOD COURT, Cheese, PIZZA!, COSTCO, TASTE OUR QUALITY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'Pepperoni, 510-493-2967, Phone-In Orders Welcome, EFOOD COURT, 18″Whole Pizza, COSTCO, Cheese' appear inside the region marked by [[73.98956436721102, 358.8386614403896], [751.3998207774664, 358.8386614403896], [751.3998207774664, 843.0822511839795], [73.98956436721102, 843.0822511839795]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0323/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0323/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) you see inside [[75.28266781548683, 360.1317648886655], [752.6929242257422, 360.1317648886655], [752.6929242257422, 844.3753546322553], [75.28266781548683, 844.3753546322553]]. ________",
+              "answer": [
+                "COSTCO",
+                "TASTE OUR QUALITY",
+                "EFOOD COURT",
+                "PIZZA!",
+                "18″Whole Pizza",
+                "Pepperoni",
+                "Cheese",
+                "Phone-In Orders Welcome",
+                "510-493-2967"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1431,549], [1762,566], [1761,603], [1432,587]], part of the phrase reads ____ OUR QUALITY — what fills the gap?",
+              "answer": "TASTE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text found at [[75, 360], [753, 360], [753, 733], [75, 733]]? Options:\nA. IASTE OUR QUALITY, 18″Whole Pizza, PIZZA!, COSTCO, Cheese, EFOOD COURT\nB. Cheese, PIZZA!, IASTE OUR QUALITY, COSTCO, 18″Whole Pizza, EFOOD COURT\nC. EFOOD COURT, PIZZA!, TASTE OUR QUALITY, 18″Whole Pizza, Pepperoni, COSTCO\nD. Pepperoni, TASTE OUR QUALITY, EFOOD COURT, Phone-In Orders Welcome, 18″Whole Pizza, COSTCO",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[75.28266781548683, 360.1317648886655], [752.6929242257422, 360.1317648886655], [752.6929242257422, 844.3753546322553], [75.28266781548683, 844.3753546322553]], would you say '18″Whole Pizza, Choese, TASTE OUR QUALITY, COSTCO, EFOOD COURT, PIZZA!, Phone-In Orders Welcome, 510-493-2967, Pepperoni' is/are visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0323"
+  }
+]

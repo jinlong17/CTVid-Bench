@@ -1,0 +1,519 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the text you see inside box [[10, 355], [1538, 355], [1538, 679], [10, 679]]. The answer is ________.",
+              "answer": [
+                "公正",
+                "诚信",
+                "和谐",
+                "法治",
+                "友善",
+                "自由",
+                "爱国",
+                "平等",
+                "敬业",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[1014,490], [1178,490], [1178,580], [1014,580]]处有一处文字，请将缺失的字补全：爱____",
+              "answer": "国"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[10, 359], [1180, 359], [1180, 679], [10, 679]] and tell me which option matches the text there. Options:\nA. 文明, 和谐, 平等, 敬业, 法治, 自田, 爱国\nB. 文明, 和谣, 自由, 爱国, 法治, 公正, 平等\nC. 敬业, 法治, 公正, 爱国, 诚信, 和谐, 自由\nD. 平等, 和谐, 文明, 自由, 法治, 爱国, 敬业",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the box at [[10, 359], [826, 359], [826, 671], [10, 671]] contain the label(s) '公正, 和谐, 自由, 文明'? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at [[16, 356], [1544, 356], [1544, 680], [16, 680]] — what text appears there? The answer is ________.",
+              "answer": [
+                "公正",
+                "诚信",
+                "和谐",
+                "法治",
+                "友善",
+                "自由",
+                "爱国",
+                "平等",
+                "敬业",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[66,451], [218,451], [218,536], [66,536]]的文字有部分缺失，请根据图像内容填写：和____",
+              "answer": "谐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on the region [[16, 360], [832, 360], [832, 672], [16, 672]], which answer choice correctly captures the text shown there? Options:\nA. 诚信, 自由, 法治, 平等, 文明\nB. 自由, 平等, 和谐, 法治, 公正\nC. 和谣, 文明, 自由, 法治, 平等\nD. 公正, 友善, 文明, 法治, 平等",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '友善, 自由, 爱国, 法治, 诚信, 公正' appear inside [[342, 356], [1544, 356], [1544, 680], [342, 680]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you make out the text sitting in [[21, 358], [1549, 358], [1549, 682], [21, 682]]? The answer is ________.",
+              "answer": [
+                "公正",
+                "诚信",
+                "和谐",
+                "法治",
+                "友善",
+                "自由",
+                "爱国",
+                "平等",
+                "敬业",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "从图像[[1120,476], [1284,476], [1284,566], [1120,566]]位置的文字中，找出空缺并补全：\"____国\"",
+              "answer": "爱"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of the options below matches the text at [[23, 456], [1549, 456], [1549, 682], [23, 682]] — which is it? Options:\nA. 和谐, 敬业, 自由, 公正, 法治, 友善\nB. 爱国, 自由, 平筓, 和谐, 敬业, 友善\nC. 自由, 敬业, 平等, 友善, 和谐, 法治\nD. 友善, 爱国, 和谐, 平等, 故业, 法治",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "If you check [[21.166666666666657, 357.5], [1549.25, 357.5], [1549.25, 681.5], [21.166666666666657, 681.5]], do you see the label(s) '爱国, 诚信, 和谐, 敬业, 自由, 法治, 文明, 平等' inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text you can see in box [[30, 362], [846, 362], [846, 674], [30, 674]]. The answer is ________.",
+              "answer": [
+                "公正",
+                "和谐",
+                "法治",
+                "自由",
+                "平等",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[518,480], [670,480], [670,566], [518,566]]处的文字，将缺少的部分填入下方：\"自____\"",
+              "answer": "由"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does [[30, 358], [1558, 358], [1558, 580], [30, 580]] contain, and which answer choice reflects that? Options:\nA. 友善, 法治, 诚信, 公正, 和谐, 文明, 爱国\nB. 爱国, 诚信, 自由, 友善, 和谐, 法治, 平等\nC. 爰国, 自由, 法治, 和谐, 公正, 友善, 诚信\nD. 文明, 友善, 法治, 和谐, 自田, 公正, 爱国",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '法治, 爱国, 诚信, 平等, 和谐, 文明, 公正, 敬业' can be found within the region [[29.916666666666657, 357.5], [1558.0, 357.5], [1558.0, 681.5], [29.916666666666657, 681.5]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the entire image, what text can you find in the area [[32.41666666666666, 361.6666666666667], [186.5, 361.6666666666667], [186.5, 542.5], [32.41666666666666, 542.5]]? The answer is ________.",
+              "answer": [
+                "和谐",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像[[1621,442], [1793,442], [1793,532], [1621,532]]区域里有一个不完整的词，请把它补全：友____",
+              "answer": "善"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option matches the text you can read inside [[32, 362], [848, 362], [848, 674], [32, 674]]? Options:\nA. 公歪, 和谐, 平等, 文明, 法治\nB. 和谐, 诚信, 法治, 公正, 自由\nC. 自由, 文明, 平等, 和谣, 公正\nD. 自由, 平等, 文明, 公正, 和谐",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the bounding box [[32, 362], [1202, 362], [1202, 682], [32, 682]], do the label(s) '文明, 自由, 法治, 敬业, 平等, 和谐' appear inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Fill in the blank — what text appears in the region [[38.66666666666666, 360.4166666666667], [192.75, 360.4166666666667], [192.75, 541.25], [38.66666666666666, 541.25]]? The answer is ________.",
+              "answer": [
+                "和谐",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[333,452], [485,452], [485,537], [333,537]]处的文字有部分缺失，请根据上下文将其补充完整：\"和____\"",
+              "answer": "谐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that accurately reflects what's written at [[39, 355], [1567, 355], [1567, 582], [39, 582]]. Options:\nA. 文明, 自由, 平等, 诚信, 法治, 爱国, 友善\nB. 文明, 自由, 友善, 和谐, 法治, 公歪, 爱国\nC. 法治, 爱国, 自由, 诚信, 文明, 友善, 公正\nD. 自由, 文明, 和谐, 公正, 敬业, 诚信, 法治",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[39, 359], [851, 359], [851, 672], [39, 672]], can you find the label(s) '公正, 文明, 法治, 平等, 自由, 和谐, 敬业'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside bounding box [[46, 363], [524, 363], [524, 673], [46, 673]] and fill in the blank. The answer is ________.",
+              "answer": [
+                "文明",
+                "和谐",
+                "自由",
+                "平等"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请补全坐标[[1720,432], [1892,432], [1892,521], [1720,521]]处那个残缺的词语：\"友____\"",
+              "answer": "善"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly shows the text found within [[46, 353], [1570, 353], [1570, 582], [46, 582]]. Options:\nA. 法治, 诚信, 文明, 公正, 友善, 自田, 和谐\nB. 诚信, 公正, 自由, 友善, 法治, 和谐, 爱国\nC. 法治, 文明, 友善, 平等, 和谐, 诚信, 爱国\nD. 自由, 公正, 爱国, 法治, 友善, 和谐, 诚倍",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[46.0, 353.0], [1570.0, 353.0], [1570.0, 677.0], [46.0, 677.0]] — does it contain the label(s) '和谐, 自由, 法治, 文明, 平等, 敬业, 爱国, 诚信'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible in the area [[1402, 356], [1574, 356], [1574, 545], [1402, 545]]. The answer is ________.",
+              "answer": [
+                "诚信",
+                "友善"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察坐标[[1759,308], [1855,308], [1855,405], [1759,404]]处的文字，将缺失的字符填写完整：____",
+              "answer": "诚"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the area marked [[46, 356], [1574, 356], [1574, 581], [46, 581]], which option correctly captures the text shown? Options:\nA. 文明, 法治, 友善, 爱国, 诚信, 和谣, 公正\nB. 爱国, 文明, 法治, 诚信, 友善, 自由, 和谐\nC. 友善, 法治, 自由, 爰国, 诚信, 公正, 文明\nD. 爱国, 文明, 平等, 和谐, 诚信, 友善, 法治",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at the bounding box [[46, 360], [862, 360], [862, 672], [46, 672]], are the label(s) '法治, 公正, 文明, 和谐, 自由, 友善, 平等' visible inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out in the region [[56, 351], [1579, 351], [1579, 675], [56, 675]]? The answer is ________.",
+              "answer": [
+                "公正",
+                "诚信",
+                "和谐",
+                "法治",
+                "友善",
+                "自由",
+                "爱国",
+                "平等",
+                "敬业",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标[[179,615], [179,531], [318,530], [318,615]]处，那里有个词尚不完整，试着把它补全：\"民____\"",
+              "answer": "主"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[57, 449], [1579, 449], [1579, 675], [57, 675]] and choose the option that matches. Options:\nA. 和谐, 自由, 法治, 友善, 平筓, 敬业\nB. 公正, 爱国, 法治, 敬业, 和谐, 自由\nC. 敬业, 爰国, 和谐, 自由, 平等, 法治\nD. 敬业, 平等, 法治, 和谐, 自由, 爱国",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '敬业, 平等, 公正, 法治, 文明, 友善, 诚信, 自由, 爱国' fall inside the bounding box [[378, 351], [1579, 351], [1579, 675], [378, 675]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at area [[382, 348], [1583, 348], [1583, 672], [382, 672]] and tell me the word(s) there. The answer is ________.",
+              "answer": [
+                "公正",
+                "诚信",
+                "法治",
+                "友善",
+                "自由",
+                "爱国",
+                "平等",
+                "敬业"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[487,282], [639,282], [639,367], [487,367]]区域的词有些地方看不清，试着把缺失部分写出来：\"文____\"",
+              "answer": "明"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At [[60, 352], [1223, 352], [1223, 672], [60, 672]], which option captures the text shown there? Options:\nA. 诚信, 爱国, 公正, 和谐, 敬业, 自由, 平等\nB. 爱国, 平等, 敬业, 公正, 文明, 自由, 和谣\nC. 自由, 公正, 法治, 爱国, 平等, 文明, 敬业\nD. 和谐, 公正, 文昀, 平等, 敬业, 自由, 爱国",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over at bounding box [[709, 348], [1583, 348], [1583, 672], [709, 672]], do you spot the label(s) '公正, 爱国, 法治, 敬业' there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spot the text in area [[65, 352], [876, 352], [876, 664], [65, 664]] and complete the answer. The answer is ________.",
+              "answer": [
+                "公正",
+                "和谐",
+                "法治",
+                "自由",
+                "平等",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[1144,261], [1302,261], [1302,345], [1144,345]]位置的文字有残缺，请将完整内容填入：\"公____\"",
+              "answer": "正"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at region [[65, 348], [1588, 348], [1588, 572], [65, 572]] — which option correctly lists the text(s) visible there? Options:\nA. 平等, 公正, 和谐, 自由, 爱国, 文明, 友善\nB. 爱国, 诚信, 和谐, 文明, 自由, 友善, 公正\nC. 诚信, 文明, 自田, 法治, 友善, 和谐, 公正\nD. 友善, 公正, 自田, 诚信, 文明, 爱国, 和谐",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[64.91666666666666, 347.5], [1588.0, 347.5], [1588.0, 671.5], [64.91666666666666, 671.5]], can we find the label(s) '友善, 平等, 自由, 敬业, 爱国, 文明, 诚信, 公正, 法治, 和谣'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0263/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0263/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Looking at the area [[69, 348], [1592, 348], [1592, 672], [69, 672]], write down the word(s) you see there: ________.",
+              "answer": [
+                "公正",
+                "诚信",
+                "和谐",
+                "法治",
+                "友善",
+                "自由",
+                "爱国",
+                "平等",
+                "敬业",
+                "文明"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中[[550,252], [702,252], [702,337], [550,337]]坐标处有部分文字被遮挡，请补全以下词语：\"文____\"",
+              "answer": "明"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text inside [[391, 348], [1592, 348], [1592, 672], [391, 672]], which of the following options matches what's written there? Options:\nA. 友善, 诚信, 自由, 法治, 敬业, 公正, 爱国\nB. 自由, 爱国, 公正, 友善, 法治, 敬业, 平筓\nC. 友善, 公正, 诚信, 和谐, 自由, 敬业, 爱国\nD. 敬业, 自由, 公正, 友善, 诚倍, 平等, 法治",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '文明, 公正, 平等, 自由, 法治, 敬业, 和谐' — are they inside the bounding box [[69, 352], [880, 352], [880, 664], [69, 664]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0263"
+  }
+]

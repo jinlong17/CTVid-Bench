@@ -1,0 +1,457 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text you can see at [[556, 732], [1042, 732], [1042, 870], [556, 870]]: ________",
+              "answer": [
+                "经济中最"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[799,383], [1175,354], [1224,531], [838,576]]区域的图像中，\"信贷\"一词存在缺失字符，请将其补全：\"____贷\"。",
+              "answer": "信"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text visible at [[799, 354], [1224, 354], [1224, 576], [799, 576]] matches which of the following? Options:\nA. 倍贷\nB. 倍贷\nC. 信贷\nD. 经济中最",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[798.8888888888888, 353.5353535353535], [1224.141414141414, 353.5353535353535], [1224.141414141414, 575.5244755244755], [798.8888888888888, 575.5244755244755]] contain the label(s) '信贷, 经济中最'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in what text appears in the area [[556, 354], [1224, 354], [1224, 870], [556, 870]]: ________",
+              "answer": [
+                "信贷",
+                "经济中最"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看[[515,712], [1382,732], [1374,883], [507,862]]位置，以下句子有字符缺失，试着把它补充完整：\"经济中____要的\"。",
+              "answer": "最重"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the image and tell me: which answer choice correctly captures what's written in [[556, 354], [1224, 354], [1224, 870], [556, 870]]? Options:\nA. 偣贷\nB. 经济中最\nC. 组济中最\nD. 倍贷",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you confirm that '组济中最, 信贷' shows up inside the box at [[556.376811594203, 353.5353535353535], [1224.141414141414, 353.5353535353535], [1224.141414141414, 869.5652173913043], [556.376811594203, 869.5652173913043]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Written in [[556, 354], [1224, 354], [1224, 870], [556, 870]] is: ________.",
+              "answer": [
+                "信贷",
+                "经济中最"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "补充[[827,310], [1207,273], [1225,452], [845,489]]处图像文本中空白的内容：\"信____\"。",
+              "answer": "贷"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the answer that matches the text you see at [[799, 354], [1224, 354], [1224, 576], [799, 576]]. Options:\nA. 倍贷\nB. 倍贷\nC. 经济中最\nD. 信贷",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '信贷, 经济中最' part of the text you'd find inside [[798.8888888888888, 353.5353535353535], [1224.141414141414, 353.5353535353535], [1224.141414141414, 575.5244755244755], [798.8888888888888, 575.5244755244755]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spot the text at [[552, 354], [1296, 354], [1296, 891], [552, 891]] and write it down: ________",
+              "answer": [
+                "信贷",
+                "经济中最重要"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看[[309,718], [1626,726], [1624,867], [304,865]]这个位置，将文本的空白处补上：\"经济中____重要的组成部分\"。",
+              "answer": "最"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text at [[552, 354], [1296, 354], [1296, 891], [552, 891]], which of these options is accurate? Options:\nA. 经济中最重要\nB. 经済中最重要\nC. 组济中最重要\nD. 纽济中最重要",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '经济中最重要, 信贷' appears within the bounding box at [[798.8888888888888, 353.5353535353535], [1224.141414141414, 353.5353535353535], [1224.141414141414, 575.5244755244755], [798.8888888888888, 575.5244755244755]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What can you read at [[555, 354], [1293, 354], [1293, 865], [555, 865]]? ________",
+              "answer": [
+                "信贷",
+                "经济中最重要"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像在[[309,718], [1626,726], [1624,867], [304,865]]位置的文字有缺口，请补完：\"经济中____重要的组成部分\"。",
+              "answer": "最"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select which option correctly lists the text visible in [[555, 354], [1293, 354], [1293, 865], [555, 865]]. Options:\nA. 纽济中最重要\nB. 信贷\nC. 组济中最重要\nD. 倍贷",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[798.8888888888888, 353.5353535353535], [1224.141414141414, 353.5353535353535], [1224.141414141414, 575.5244755244755], [798.8888888888888, 575.5244755244755]], would you find the label(s) '信贷'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text visible inside [[554, 354], [1291, 354], [1291, 865], [554, 865]]. ________",
+              "answer": [
+                "信贷",
+                "经济中最重要"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据[[309,718], [1626,726], [1624,867], [304,865]]位置的文本内容，将\"经济中最重要的____部分\"补充完整。",
+              "answer": "组成"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly captures the text shown in [[554, 354], [1291, 354], [1291, 865], [554, 865]]? Options:\nA. 信贷\nB. 倍贷\nC. 纽济中最重要\nD. 组济中最重要",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '经济中最重要' — do they appear inside the area [[554.464620630861, 353.5353535353535], [1291.1764705882351, 353.5353535353535], [1291.1764705882351, 865.3676470588235], [554.464620630861, 865.3676470588235]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text appears in the region [[560, 705], [1297, 705], [1297, 860], [560, 860]]. ________",
+              "answer": [
+                "经济中最重要"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "结合[[672,305], [1034,215], [1078,386], [716,476]]处的文字，补全这个词语：\"信____\"。",
+              "answer": "贷"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text found at [[560, 705], [1297, 705], [1297, 860], [560, 860]]. Options:\nA. 经済中最重要\nB. 纽济中最重要\nC. 经济中最重要\nD. 组济中最重要",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '组济中最重要' falls within the bounding area [[560.447526613767, 704.740507574267], [1297.1593765711416, 704.740507574267], [1297.1593765711416, 860.2394419306183], [560.447526613767, 860.2394419306183]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out at [[559, 694], [1274, 694], [1274, 872], [559, 872]]? ________",
+              "answer": [
+                "经济中最重要"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[672,305], [1034,215], [1078,386], [716,476]]区域的文本，填入缺失的字：\"信____\"。",
+              "answer": "贷"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which one reflects the text at [[559, 694], [1274, 694], [1274, 872], [559, 872]]? Options:\nA. 经済中最重要\nB. 组济中最重要\nC. 纽济中最重要\nD. 经济中最重要",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect '组济中最重要' to sit inside [[559.0, 694.308943089431], [1274.0, 694.308943089431], [1274.0, 872.0], [559.0, 872.0]] — is that actually the case?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) shown at location [[556, 715], [1262, 715], [1262, 865], [556, 865]]. ________",
+              "answer": [
+                "经济中最重要"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[309,718], [1626,726], [1624,867], [304,865]]坐标内的文字，把\"经济中____重要的组成部分\"缺失的部分写出来。",
+              "answer": "最"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option whose text matches what appears in [[556, 715], [1262, 715], [1262, 865], [556, 865]]. Options:\nA. 经済中最重要\nB. 纽济中最重要\nC. 组济中最重要\nD. 经济中最重要",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the area marked [[556.0, 715.0], [1262.0, 715.0], [1262.0, 865.0], [556.0, 865.0]], is the label '经济中最重要' present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text that occupies [[534, 716], [1409, 716], [1409, 887], [534, 887]]. ________",
+              "answer": [
+                "经济中最重要的"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看[[672,305], [1034,215], [1078,386], [716,476]]位置的内容，完整写出\"信____\"。",
+              "answer": "贷"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these best represents the text visible in [[561, 0], [1695, 0], [1695, 420], [561, 420]]? Options:\nA. 经济中最重要的\nB. 倍贷\nC. 倍贷\nD. 信贷",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does '经济中最重要的, 信贷' lie within the coordinates at [[561.0, 0.0], [1695.0, 0.0], [1695.0, 420.0], [561.0, 420.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What's written inside [[658, 8], [1559, 8], [1559, 457], [658, 457]]? ________",
+              "answer": [
+                "信贷"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[309,718], [1626,726], [1624,867], [304,865]]处的文本里，\"经济中最____的组成部分\"少了哪个字？请填入。",
+              "answer": "重要"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across all the options, which one contains the text that [[658, 8], [1559, 8], [1559, 457], [658, 457]] shows? Options:\nA. 信贷\nB. 倍贷\nC. 经济中最重要的\nD. 倍贷",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Situated at [[658.148148148148, 7.901234567901302], [1559.3827160493825, 7.901234567901302], [1559.3827160493825, 457.28395061728395], [658.148148148148, 457.28395061728395]], is the label '信贷' visible there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_030/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_030/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) appear inside [[484, 67], [1609, 67], [1609, 892], [484, 892]]. ________",
+              "answer": [
+                "信贷",
+                "经济中最重要的组成"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请补全[[309,718], [1626,726], [1624,867], [304,865]]区域内短语\"经济中最重____的组成部分\"中缺少的字符。",
+              "answer": "要"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text visible in [[484, 67], [1609, 67], [1609, 892], [484, 892]]? Options:\nA. 倍贷\nB. 经济中最重要的组成\nC. 信贠\nD. 偣贷",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does '经济中最重要的组成, 倍贷' appear inside the region [[484.07407407407396, 67.16049382716054], [1608.7654320987654, 67.16049382716054], [1608.7654320987654, 891.8518518518517], [484.07407407407396, 891.8518518518517]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_030"
+  }
+]

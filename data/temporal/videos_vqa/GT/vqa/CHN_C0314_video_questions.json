@@ -1,0 +1,312 @@
+{
+  "video_id": "C0314",
+  "frames": 120,
+  "word": "HEYTEA 喜茶",
+  "video_path": "temporal/videos_vqa/GT/videos/CHN_C0314.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "mixed",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"HEYTEA 喜茶\" likely to be?\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. general scene text\nD. address or street sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information",
+      "q": "写着「HEYTEA 喜茶」的那段文字，看起来像是哪种类型的标牌？\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. general scene text\nD. address or street sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information",
+      "a": "F",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. event or poster information",
+        "B. direction or navigation sign",
+        "C. general scene text",
+        "D. address or street sign",
+        "E. warning or prohibition sign",
+        "F. storefront or brand sign",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「HEYTEA 喜茶」的那段文字，看起来像是哪种类型的标牌？\n Options:\nA. event or poster information\nB. direction or navigation sign\nC. general scene text\nD. address or street sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"HEYTEA 喜茶\" appear in?\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. transportation / station\nE. warning / rule sign\nF. event poster or display\nG. other public sign\nH. road or street",
+      "q": "「HEYTEA 喜茶」这几个字是出现在什么样的场景中的？\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. transportation / station\nE. warning / rule sign\nF. event poster or display\nG. other public sign\nH. road or street",
+      "a": "C",
+      "a_text": "storefront",
+      "answer_key": "storefront",
+      "options": [
+        "A. campus or office",
+        "B. restaurant or menu",
+        "C. storefront",
+        "D. transportation / station",
+        "E. warning / rule sign",
+        "F. event poster or display",
+        "G. other public sign",
+        "H. road or street"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「HEYTEA 喜茶」这几个字是出现在什么样的场景中的？\n Options:\nA. campus or office\nB. restaurant or menu\nC. storefront\nD. transportation / station\nE. warning / rule sign\nF. event poster or display\nG. other public sign\nH. road or street"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"HEYTEA 喜茶\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. top-right (upper-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)",
+      "q": "视频里，「HEYTEA 喜茶」整体来说出现在画面的哪个位置？\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. top-right (upper-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)",
+      "a": "B",
+      "a_text": "top-left (upper-left area)",
+      "answer_key": "top-left",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. top-left (upper-left area)",
+        "C. top-right (upper-right area)",
+        "D. center (middle of the frame)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里，「HEYTEA 喜茶」整体来说出现在画面的哪个位置？\n Options:\nA. bottom-right (lower-right area)\nB. top-left (upper-left area)\nC. top-right (upper-right area)\nD. center (middle of the frame)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"HEYTEA 喜茶\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "这段视频里，「HEYTEA 喜茶」的位置总共移动了多大幅度？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "A",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「HEYTEA 喜茶」的位置总共移动了多大幅度？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"HEYTEA 喜茶\" move?\n Options:\nA. moves right\nB. moves down\nC. moves diagonally\nD. stays roughly in place\nE. moves left\nF. moves up\nG. changes direction partway",
+      "q": "总体来看，「HEYTEA 喜茶」是朝哪个方向运动的？\n Options:\nA. moves right\nB. moves down\nC. moves diagonally\nD. stays roughly in place\nE. moves left\nF. moves up\nG. changes direction partway",
+      "a": "G",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. moves right",
+        "B. moves down",
+        "C. moves diagonally",
+        "D. stays roughly in place",
+        "E. moves left",
+        "F. moves up",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「HEYTEA 喜茶」是朝哪个方向运动的？\n Options:\nA. moves right\nB. moves down\nC. moves diagonally\nD. stays roughly in place\nE. moves left\nF. moves up\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"HEYTEA 喜茶\" at the beginning, the middle, and the end?\n Options:\nA. top-left -> bottom-right -> top-left\nB. top-left -> top-left -> bottom-left\nC. top-left -> top-left -> top-left\nD. center -> top-left -> top-left",
+      "q": "从刚开始播到最后，「HEYTEA 喜茶」在视频早段、中段、末段各自处于画面哪里？\n Options:\nA. top-left -> bottom-right -> top-left\nB. top-left -> top-left -> bottom-left\nC. top-left -> top-left -> top-left\nD. center -> top-left -> top-left",
+      "a": "C",
+      "a_text": "top-left -> top-left -> top-left",
+      "answer_key": "top-left -> top-left -> top-left",
+      "options": [
+        "A. top-left -> bottom-right -> top-left",
+        "B. top-left -> top-left -> bottom-left",
+        "C. top-left -> top-left -> top-left",
+        "D. center -> top-left -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从刚开始播到最后，「HEYTEA 喜茶」在视频早段、中段、末段各自处于画面哪里？\n Options:\nA. top-left -> bottom-right -> top-left\nB. top-left -> top-left -> bottom-left\nC. top-left -> top-left -> top-left\nD. center -> top-left -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"HEYTEA 喜茶\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "q": "画面中，「HEYTEA 喜茶」显示出来的字体大小大概属于哪个档次？\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "a": "A",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面中，「HEYTEA 喜茶」显示出来的字体大小大概属于哪个档次？\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"HEYTEA 喜茶\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "q": "随着视频播放，「HEYTEA 喜茶」的字体大小有变化吗——是越来越大、越来越小，还是基本保持不变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「HEYTEA 喜茶」的字体大小有变化吗——是越来越大、越来越小，还是基本保持不变？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"HEYTEA 喜茶\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "q": "在这段视频里，「HEYTEA 喜茶」是完整地落在画面内，还是靠近某条边缘？\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "a": "B",
+      "a_text": "touches or runs off an edge",
+      "answer_key": "touches or runs off an edge",
+      "options": [
+        "A. comes close to an edge",
+        "B. touches or runs off an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在这段视频里，「HEYTEA 喜茶」是完整地落在画面内，还是靠近某条边缘？\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"HEYTEA 喜茶\" and how it appears in the video.",
+      "q": "能简单描述一下「HEYTEA 喜茶」这段文字在视频中的外观和动态吗？",
+      "a": "The text is part of a large, illuminated sign above the entrance of a tea shop.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能简单描述一下「HEYTEA 喜茶」这段文字在视频中的外观和动态吗？"
+    }
+  ]
+}

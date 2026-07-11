@@ -1,0 +1,368 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on the bounding box [[182, 185], [1758, 185], [1758, 959], [182, 959]], what word(s) can you make out? ________",
+              "answer": [
+                "SHOP",
+                "alot"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[182, 185], [1758, 185], [1758, 959], [182, 959]], which option best represents the text(s) found there? Options:\nA. alet\nB. SHOP\nC. SHDP\nD. elot",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it accurate that the label(s) 'alot, SHDP' fall within the bounding box [[182.28915662650613, 184.57831325301214], [1758.192771084337, 184.57831325301214], [1758.192771084337, 959.2771084337347], [182.28915662650613, 959.2771084337347]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The word(s) visible inside [[199.15662650602414, 197.8313253012049], [1775.060240963856, 197.8313253012049], [1775.060240963856, 973.7349397590359], [199.15662650602414, 973.7349397590359]] — what are they? ________",
+              "answer": [
+                "SHOP",
+                "alot"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which option correctly captures the text(s) within [[199, 198], [1775, 198], [1775, 974], [199, 974]]? Options:\nA. alet\nB. SHCP\nC. alot\nD. SHDP",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'SHOP, alet' are contained within [[199.15662650602414, 197.8313253012049], [1775.060240963856, 197.8313253012049], [1775.060240963856, 973.7349397590359], [199.15662650602414, 973.7349397590359]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately names the text(s) visible in [[199, 198], [1775, 198], [1775, 974], [199, 974]]? Options:\nA. alet\nB. SHOP\nC. SHDP\nD. elot",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[199.15662650602414, 197.8313253012049], [1775.060240963856, 197.8313253012049], [1775.060240963856, 973.7349397590359], [199.15662650602414, 973.7349397590359]] — is the label 'SHOP, alet' positioned inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text within [[209.99999999999997, 206.26506024096403], [1785.9036144578317, 206.26506024096403], [1785.9036144578317, 980.9638554216865], [209.99999999999997, 980.9638554216865]] — what word(s) appear there? ________",
+              "answer": [
+                "SHOP",
+                "alot"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the given options, which one correctly describes the text(s) inside [[210, 206], [1786, 206], [1786, 981], [210, 981]]? Options:\nA. alet\nB. SHDP\nC. SHCP\nD. alot",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'alot' sit within the area defined by [[209.99999999999997, 206.26506024096403], [1785.9036144578317, 206.26506024096403], [1785.9036144578317, 980.9638554216865], [209.99999999999997, 980.9638554216865]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the region [[3.552713678800501e-15, 214.69879518072304], [1799.1566265060244, 214.69879518072304], [1799.1566265060244, 994.2168674698793], [3.552713678800501e-15, 994.2168674698793]], what word(s) are visible? ________",
+              "answer": [
+                "SHOP",
+                "alot",
+                "S,"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, which one gives the correct text(s) for the region [[0, 215], [1799, 215], [1799, 994], [0, 994]]? Options:\nA. s,, SHOP\nB. D,, SHOP\nC. alot, S,\nD. S,, alet",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[223, 215], [1799, 215], [1799, 994], [223, 994]] contain the label(s) 'S,, alot, SHOP'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at the area [[8.48389026663103, 645.1848473140972], [32.424410712727706, 645.1848473140972], [32.424410712727706, 682.1728236152123], [8.48389026663103, 682.1728236152123]] — which word(s) can you find there? ________",
+              "answer": [
+                "S,"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice most accurately captures the text(s) visible in [[8, 221], [1808, 221], [1808, 1000], [8, 1000]]? Options:\nA. S,, alot\nB. SHCP, S,\nC. alot, SHDP\nD. D,, alot",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are 'alot, S,' actually the label(s) shown within the bounding box [[8.48389026663103, 220.7228915662651], [1807.5903614457834, 220.7228915662651], [1807.5903614457834, 1000.2409638554215], [8.48389026663103, 1000.2409638554215]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you read from the area [[12.619173294313805, 220.7228915662651], [1807.5903614457834, 220.7228915662651], [1807.5903614457834, 1000.2409638554215], [12.619173294313805, 1000.2409638554215]]? ________",
+              "answer": [
+                "SHOP",
+                "alot",
+                "S,"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given these choices, which one lists the text(s) that appear in [[232, 221], [1808, 221], [1808, 1000], [232, 1000]]? Options:\nA. alot\nB. S,\nC. SHDP\nD. alet",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "According to the image, are 'SHOP' the label(s) found within [[232, 221], [1808, 221], [1808, 1000], [232, 1000]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) show up in the region [[11.087276268230733, 640.8221235103707], [35.027796714327394, 640.8221235103707], [35.027796714327394, 677.8100998114859], [11.087276268230733, 677.8100998114859]]? ________",
+              "answer": [
+                "S,"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly reflects the text(s) present in [[11, 191], [1808, 191], [1808, 986], [11, 986]]. Options:\nA. alot, S,\nB. SHOP, alet\nC. alot, SHDP\nD. S,, SHCP",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'SHOP' actually appears inside the region marked [[232, 191], [1808, 191], [1808, 986], [232, 986]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) can you read in the area [[0.0, 451.73745173745175], [73.44260293623904, 451.73745173745175], [73.44260293623904, 678.7306183804901], [0.0, 678.7306183804901]]? The answer is ________.",
+              "answer": [
+                "ERS,",
+                "T"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options given, which one matches the text found in [[0, 452], [73, 452], [73, 679], [0, 679]]? Options:\nA. T\nB. EPS,\nC. I\nD. SHOP",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You're looking at [[0.0, 451.73745173745175], [73.44260293623904, 451.73745173745175], [73.44260293623904, 678.7306183804901], [0.0, 678.7306183804901]] — is 'SHOP, ERS,, T' actually there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the area marked [[344.0963855421684, 196.6265060240965], [1920.0, 196.6265060240965], [1920.0, 991.0422642952761], [344.0963855421684, 991.0422642952761]], what text appears there? The answer is ________.",
+              "answer": [
+                "SHOP",
+                "alot"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[0, 457], [175, 457], [175, 912], [0, 912]] — which answer option gets it right? Options:\nA. D MORE, GS,OFFERS,, eld, ESTFIELDVF, OET\nB. GET, D MORE, GS,OFFERS,, old, ESTFIELDVF\nC. GS,OFFERS,, GET, IAL, eld, ESTFIELDVF\nD. GS,OFFERS,, GET, eld, SHOP, ESTFIELDVF",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'D MORE, GS,OFFERS,, eld, GET' the text that appears inside the box [[0, 457], [175, 457], [175, 912], [0, 912]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the region [[352.5301204819274, 195.4216867469881], [1920.0000000000005, 195.4216867469881], [1920.0000000000005, 978.5542168674696], [352.5301204819274, 978.5542168674696]], what word(s) are shown there? The answer is ________.",
+              "answer": [
+                "SHOP",
+                "alot"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best captures the text visible in [[0, 455], [177, 455], [177, 909], [0, 909]]. Options:\nA. D MORE, eld, SHOP, GET, ESTFIELDVF\nB. GS,OFFERS,, ESTFIELDVF, eld, O MORE, GET\nC. IAL, GET, O MORE, ESTFIELDVF, eld\nD. GS,OFFERS,, D MORE, eld, IAL, GET",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[0, 455], [177, 455], [177, 909], [0, 909]], do you find the label(s) 'ESTFIELDVF, alot, GET, IAL, D MORE, GS,OFFERS,, eld'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0035_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0035_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the area [[0.0, 639.9721890857155], [62.98001437194324, 639.9721890857155], [62.98001437194324, 677.629227588244], [0.0, 677.629227588244]], what is the text shown? The answer is ________.",
+              "answer": [
+                "ERS,"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly identifies the text inside [[0, 189], [1824, 189], [1824, 981], [0, 981]]. Options:\nA. alot, EPS,\nB. alot, SHOP\nC. SHOP, alet\nD. SHOP, FRS,",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'SHOP' falls within the bounding box [[256, 189], [1824, 189], [1824, 981], [256, 981]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0035_2"
+  }
+]

@@ -1,9 +1,15 @@
 # Temporal QA Test Set Review Report
 
 **Dataset**: Text-Centric VideoQA for Temporal Understanding  
-**Location**: `data/temporal_qa/annotations/` (GT / blur / downsample_x4)  
+**Current release location**: `data/temporal/videos_vqa/<method>/vqa/` (GT / blur / downsample_x4)
 **Review Date**: 2026-05-22  
 **Reviewed By**: Automated audit + manual inspection
+
+> Status note, 2026-07-07: this report describes the legacy 28-question
+> temporal QA set. The current public release uses QA-v2 with 10 questions per
+> clip, 97 clip JSONs per method, and `q_natural` populated for compatibility.
+> Keep this file as historical review context; do not use its category counts as
+> the current release schema.
 
 ---
 
@@ -13,14 +19,14 @@
 |--------|-------|
 | Methods (open-source) | GT · blur · downsample_x4 |
 | Video clips (per method) | **97** |
-| Questions per clip | **28** |
-| Total QA pairs (per method) | **2,716** |
+| Questions per clip | **10** in the current QA-v2 release |
+| Total QA pairs (per method) | **970** in the current QA-v2 release |
 | Video length | 120 frames per clip |
 | Language split | CHN: 47 clips · EN: 50 clips |
 | Video data (NFS) | GT: 332 MB · blur: 278 MB · downsample_x4: 53 MB |
 | Image data (NFS) | GT: 31 GB · blur: 21 GB · downsample_x4: 2.8 GB |
 
-**Question category breakdown (per method, 2,716 total):**
+**Legacy question category breakdown (per method, 2,716 total):**
 
 | Category | Q-types | Count | % |
 |----------|---------|-------|---|
@@ -172,7 +178,9 @@ integer, not multiple choice). With 120 possible values, random baseline is esse
 **Impact**: Public users will not have access to `/nfs.auto/...`. The evaluation script must
 override `video_path` using the configured `video_root` from `configs/default.yaml`.
 
-**Status**: Already handled in `evaluation/temporal/run_eval.py` via `find_video_path()`.
+**Status**: Resolved for the current public QA-v2 release. Released JSONs use
+relative paths such as `temporal/videos_vqa/GT/videos/CHN_C0011.mp4`, and
+`evaluation/temporal/run_eval.py` still resolves media via `configs/default.yaml`.
 
 **Recommendation**: Before release, strip `video_path` from the released JSONs or replace with
 a relative placeholder like `"videos/CHN_C0011.mp4"`.

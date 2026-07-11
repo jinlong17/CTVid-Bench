@@ -1,0 +1,563 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Cast your eye over [[488, 95], [1424, 95], [1424, 350], [488, 350]] — what word(s) appear there? ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像区域 [[1284,239], [1399,245], [1396,307], [1281,301]] 里显示了什么文字？请补全：轴____。",
+              "answer": "突"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer below matches the text you can see inside [[488, 95], [1424, 95], [1424, 165], [488, 165]]? Options:\nA. Machine Learning, 未来, 渘度學習, Deep Learning, 機器學習, 人工智慧, AI\nB. Deep Learning, 機器學習, 深度學習, Future, Machine Learning, RI, 未来\nC. Machine Learning, Deep Learning, Future, 未来, AI, 深度學習, 機器學習\nD. Deep Learning, 深度學習, Future, 未来, Machine Learning, 人工智慧, 樹突",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The region [[488.0, 95.0], [1424.0, 95.0], [1424.0, 349.80066445182723], [488.0, 349.80066445182723]] — do you see '末来, 人工智慧, 樹突, Future, Machine Learning, 轴突, Deep Learning, 機器學習, AI, 神經元' anywhere within it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at region [[488, 95], [1424, 95], [1424, 350], [488, 350]], what word(s) do you read there? ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "区域 [[488,99], [608,99], [608,133], [488,133]] 中有词汇被遮挡，你能辨认出来吗？请补全：人____智慧？",
+              "answer": "工"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[488, 95], [1424, 95], [1424, 165], [488, 165]] — which of the following options correctly captures its text? Options:\nA. 人工智慧, Future, 機器學習, 樹突, 未来, 深度學習, AI\nB. 未来, 人工智慧, 深度學習, AI, Future, 機器學習, 轴突\nC. Future, Deep Learning, 深度學習, 人工智慧, 未来, AI, 機器學習\nD. 人工智慧, 未来, Deep Learning, 深度學習, AI, Machine Learning, Futuro",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '深度學習, 樹突, 神經元, 未来, 機器學習, Future, AI, Deep Learning, 轴突' are visible inside [[488.0, 95.0], [1424.0, 95.0], [1424.0, 349.80066445182723], [488.0, 349.80066445182723]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and read [[488, 95], [1424, 95], [1424, 350], [488, 350]] — what word(s) is/are written there? ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[760,97], [886,97], [886,133], [760,133]] 所示区域，将以下内容补充完整：機____學習。",
+              "answer": "器"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices below, which one matches what's written inside [[488, 95], [1162, 95], [1162, 350], [488, 350]]? Options:\nA. AI, 未来, 神經元, Machine Learning, 機器學習, Deep Learning, 深度學習\nB. Deep Learning, 深度學習, AI, 人工智慧, 機器學習, 樹突, Future\nC. Machine Learning, Deop Learning, 人工智慧, 神經元, 機器學習, AI, 樹突\nD. Deep Learning, 機器學習, 深度學習, Machine Learning, 神經元, AI, 樹突",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[488.0, 95.0], [1424.0, 95.0], [1424.0, 349.80066445182723], [488.0, 349.80066445182723]] — is 'Future, 機器學習, 轴突, Deep Learning, 人工智慧, 深度學習, 樹突, 未来, AI' actually inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) show up when you examine [[488, 95], [1424, 95], [1424, 350], [488, 350]]? ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据 [[760,97], [886,97], [886,133], [760,133]] 所标注的区域，你能补全这个术语吗：\"____器學習\"。",
+              "answer": "機"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the text inside [[488, 95], [1424, 95], [1424, 165], [488, 165]] and pick the option that matches. Options:\nA. Deep Learning, 深度學習, 未来, 人工智慧, Future, AI, 轴突\nB. 樹突, 機器學習, Machine Learning, 未来, Future, AI, 人工智慧\nC. AI, Deep Learning, 深度學習, 機器學習, 人工智慧, Machine Learning, Future\nD. 人工智慧, 深度學習, Futuro, AI, 機器學習, Machine Learning, 未来",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over in [[488.0, 95.0], [1424.0, 95.0], [1424.0, 349.80066445182723], [488.0, 349.80066445182723]], can you confirm whether '機器學習, 樹突, 神經元, AI, Machine Learning, Deep Learning, 末来, 轴突, 深度學習, 人工智慧' appears there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Carefully examine [[488, 95], [1424, 95], [1424, 350], [488, 350]] — what word(s) can you make out? ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What's hidden in [[1360,137], [1420,137], [1420,165], [1360,165]]? Complete the sequence: ____ture.",
+              "answer": "Fu"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one captures the text visible in [[488, 95], [1424, 95], [1424, 165], [488, 165]]? Options:\nA. 人工智慧, 深度學習, Future, 轴突, 機器學習, 未来, Deep Learning\nB. AI, 人工智慧, Future, 深度學習, Machine Learning, 機器學習, Deep Learning\nC. 機器學習, AI, 深度學習, 樹突, 人工智慧, Deep Learning, Future\nD. 人工智憃, 深度學習, Machine Learning, Deep Learning, AI, 機器學習, 未来",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — do you find the label(s) 'AI, 未来, 人工智慧, 神經元, Deep Learning, Maohine Learning, Future, 深度學習, 轴突, 機器學習' sitting inside [[488.0, 95.0], [1424.0, 95.0], [1424.0, 349.80066445182723], [488.0, 349.80066445182723]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you see inside [[488, 95], [1424, 95], [1424, 347], [488, 347]]: ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "That region [[1360,137], [1420,137], [1420,165], [1360,165]] holds a clue — what word(s) complete this: Fu____e.",
+              "answer": "tur"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[747, 95], [1424, 95], [1424, 347], [747, 347]], which of the following options contains the text(s) shown there? Options:\nA. Deep Learning, Machine Learning, Future, 深度學習, 神經元, 未来, 機器孯習\nB. 神經元, Machine Learning, Future, 未来, Deop Learning, 機器學習, 轴突\nC. Deep Learning, 未来, Future, 轴突, Machine Learning, 神經元, 深度學習\nD. Future, 神經元, Deep Learning, 未来, 人工智慧, 深度學習, Machine Learning",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the box marked [[488.0, 95.0], [1424.0, 95.0], [1424.0, 347.1124924088165], [488.0, 347.1124924088165]], would you find the label(s) '樹突, AI, Deep Learning, Machine Learning, 人工智慧, 未来, 神經元, Future, 深度學習'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly names the text in [[488, 95], [1424, 95], [1424, 350], [488, 350]]: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中 [[488,99], [608,99], [608,133], [488,133]] 区域里有什么文字？请把缺失的部分补上：人____智慧",
+              "answer": "工"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices below, which one contains the text(s) visible inside [[747, 95], [1424, 95], [1424, 350], [747, 350]]? Options:\nA. 機器學習, 深度學習, Machine Learning, 人工智慧, 轴突, 未来, Deep Learning\nB. 神經元, 機器學習, 深度學習, 末来, 轴突, Deep Learning, Machine Learning\nC. 機器學習, Machine Learning, Future, 未来, 轴突, 深度學習, Deep Learning\nD. 機器學習, 未来, 樹突, Deep Learning, Machine Learning, 神經元, Future",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box at [[488, 95], [1162, 95], [1162, 350], [488, 350]] — does it contain the label(s) '轴突, Machine Learning, 神經元, AI, 樹突, 人工智慧, 機器學習, 深度學習, Deep Learning'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Choose the answer that matches the word(s) you see inside [[494, 239], [1400, 239], [1400, 350], [494, 350]]: ________.",
+              "answer": [
+                "樹突",
+                "神經元",
+                "轴突"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Piece together the word at [[1037,135], [1162,139], [1161,167], [1036,162]] by supplying the missing character(s): Deep____ing.",
+              "answer": "Learn"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[747, 95], [1424, 95], [1424, 350], [747, 350]] — which option correctly lists the text(s) found there? Options:\nA. AI, 深度學習, Machine Learning, 神經元, 機器學習, Deep Learning, 未来\nB. Deep Learning, 機器學習, 神經元, Machine Learning, 轴突, Future, 深度學習\nC. 轴穾, Machine Learning, 深度學習, 神經元, Deep Learning, 機器學習, Future\nD. 神經元, 未来, Machine Learning, 人工智慧, 轴突, Deep Learning, Future",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the box at [[747, 95], [1424, 95], [1424, 350], [747, 350]], are the label(s) '未来, Future, Deep Learning, 轴突, 神經元, 深度學習, 樹突, 機器學習, Machine Learning' inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) visible inside the box [[488, 95], [1424, 95], [1424, 350], [488, 350]]: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察图中 [[488,99], [608,99], [608,133], [488,133]] 区域，请把这个词语补充完整：人____智慧。",
+              "answer": "工"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[488, 95], [1424, 95], [1424, 165], [488, 165]] — which of the following options has the text(s) found there? Options:\nA. 未来, 人工智慧, Future, 樹突, Machine Learning, AI, 深度學習\nB. 機器學習, 人工智慧, AI, Future, Deep Learning, Machine Learning, 未来\nC. AI, Maohine Learning, 未来, Future, 深度學習, Deep Learning, 機器學習\nD. Machine Learning, AI, 未来, 人工智慧, 機器學習, 深度學習, Deop Learning",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is about the box at [[488.0, 95.0], [1424.0, 95.0], [1424.0, 349.80066445182723], [488.0, 349.80066445182723]]: do the label(s) 'Deep Learning, 機器學習, 轴突, 深度學習, AI, Machine Learning, 人工智慧, 樹突, 神經元' appear inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible in the area [[488, 95], [1424, 95], [1424, 350], [488, 350]] and select the matching option: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1358,101], [1424,101], [1424,135], [1358,135]] 区域里的词语残缺了，请补上缺失的字：未____",
+              "answer": "來"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options provided, pick the one that lists the text(s) inside [[488, 95], [1424, 95], [1424, 165], [488, 165]]. Options:\nA. 機器學習, 渘度學習, Deep Learning, AI, Machine Learning, 人工智慧, Future\nB. Future, 深度學習, 人工智慧, Machine Learning, 機器孯習, 未来, AI\nC. AI, 未来, Future, 深度學習, 人工智慧, 機器學習, Machine Learning\nD. Machine Learning, Deep Learning, 深度學習, Future, 人工智慧, 樹突, 未来",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the bounding box [[488.0, 95.0], [1424.0, 95.0], [1424.0, 349.80066445182723], [488.0, 349.80066445182723]], we expect to find the label(s) 'AI, 深度學習, 轴突, 機器學習, 神經元, 未来, 人工智慧, 樹突, Maohine Learning, Future' — agree or disagree?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside the region [[488, 95], [1424, 95], [1424, 350], [488, 350]] and complete the statement: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "你能看清图中 [[1034,951], [1194,951], [1194,993], [1034,993]] 区域里的文字吗？请把残缺的部分填上：激____函數。",
+              "answer": "活"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice accurately captures the text(s) visible within [[488, 95], [1424, 95], [1424, 165], [488, 165]]? Options:\nA. Future, 人工智慧, Deep Learning, 未来, 轴突, 機器學習, Machine Learning\nB. AI, Machine Learning, 人工智慧, Futuro, 未来, Deep Learning, 深度學習\nC. 未来, 樹突, Deep Learning, 人工智慧, Future, Machine Learning, 深度學習\nD. 未来, 機器學習, 深度學習, Deep Learning, 人工智慧, Future, Machine Learning",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether the label(s) '未来, 人工智慧, Machine Learning, 深度學習, Deep Learning, AI' fall inside the bounding box [[488, 95], [1424, 95], [1424, 165], [488, 165]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_068/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_068/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you complete this: the text showing in [[488, 95], [1424, 95], [1424, 350], [488, 350]] is ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "樹突",
+                "轴突",
+                "神經元",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[722,794], [760,794], [760,820], [722,820]] there's a partially hidden word — what goes in the blank? ____",
+              "answer": "W"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text visible in [[488, 95], [1424, 95], [1424, 165], [488, 165]], which option below is correct? Options:\nA. 人工智慧, AI, Machine Learning, Future, 深度學習, 末来, 機器學習\nB. Deep Learning, Future, 機器學習, Machine Learning, 未来, 深度學習, AI\nC. Machine Learning, 機器孯習, 深度學習, Deep Learning, AI, Future, 人工智慧\nD. 深度學習, Machine Learning, 機器學習, Future, Deep Learning, 樹突, 未来",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the region [[488, 95], [1162, 95], [1162, 350], [488, 350]], are the label(s) 'Machine Learning, 神經元, 深度學習, AI, 樹突, Deep Learning, 人工智慧, 機器學習, 轴突' visible there?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_068"
+  }
+]

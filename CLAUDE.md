@@ -53,16 +53,16 @@ If a user asks "why only 3 methods?" the answer is: licensing / paper scope. Oth
 ## Part D — Data Layout
 
 ### What ships in the repo
-- `data/spatial_qa/annotations/` — JSON QA pairs for 3 methods (~33 MB, committed)
-- `data/temporal_qa/annotations/` — JSON QA pairs for 3 methods (~2.4 MB, committed)
-- `data/spatial_qa/images/` and `data/temporal_qa/{images,videos_vqa}/` — **symlinks** into NFS (~74 GB of actual data, not in repo)
+- `data/spatial/VQA_json/` — QA-v2 ImageQA JSONs for the public methods
+- `data/temporal/videos_vqa/` — public temporal videos plus QA-v2 JSONs under each method's `vqa/`
+- `data/spatial/VQA_img/` and `data/temporal/images/` — media after download or NFS symlink setup
 
 ### Where images/videos live
 On NFS machines: symlinks resolve to `/nfs/.../CTVid-Bench-Research/open_source/`.
 On other machines: external users run `python tools/download_data.py` to pull from HuggingFace into `data/`.
 
 ### HuggingFace dataset
-`<your-hf-org>/CTVid-Bench` (upload deferred — see `DATA.md`). Total open-source payload: ~74.3 GB.
+`jinlong17/CTVid-Bench` (see `DATA.md`). Total open-source payload: ~74.3 GB.
 - Spatial images: 18.8 GB (GT 9.0 + blur 8.7 + downsample_x4 1.1)
 - Temporal images: 54.8 GB (GT 31 + blur 21 + downsample_x4 2.8)
 - Temporal videos: 663 MB (GT 332 + blur 278 + downsample_x4 53)
@@ -77,7 +77,7 @@ Anything larger than annotations stays on HuggingFace — do not commit binaries
 |---|---|
 | Model weights (`*.bin`, `*.safetensors`, `*.pt`, `*.pth`) | Never commit. Users download via `huggingface_hub` at runtime. |
 | `outputs/`, `results/`, `logs/` | Gitignored. Never commit. |
-| `data/spatial_qa/images/`, `data/temporal_qa/{images,videos_vqa}/` contents | Symlinks only — never replace with copies or commit the resolved bytes. |
+| `data/spatial/VQA_img/`, `data/temporal/{images,videos_vqa}/` media contents | Symlinks or downloaded payloads — never replace with copies or commit large resolved bytes. |
 | Internal NFS paths in JSONs (`video_path: /nfs.auto/...`) | Strip or override at eval time. See `evaluation/temporal/run_eval.py:find_video_path()`. |
 | Hardcoded `/nfs/...` paths anywhere in Python | Use `configs/default.yaml` instead. The whole point of this repo is reproducibility off-NFS. |
 
@@ -95,7 +95,7 @@ evaluation/temporal/run_eval.py   →  metrics.py   # ±2 frame tolerance, Jacca
 ### Naming gotchas
 
 - Spatial annotation folders: **UPPERCASE** — `GT_VQA_testing/`, `blur_VQA_testing/`, `downsample_x4_VQA_testing/`
-- Temporal annotation folders: **lowercase** — `GT_vqa_testing/`, `blur_vqa_testing/`, `downsample_x4_vqa_testing/`
+- Temporal QA-v2 annotation folders live inside each method — `GT/vqa/`, `blur/vqa/`, `downsample_x4/vqa/`
 - The dataset → folder mapping lives in `configs/default.yaml`. Always read it; never assume.
 
 ### Multi-select and tolerance (already implemented — don't break)
@@ -113,8 +113,8 @@ evaluation/temporal/run_eval.py   →  metrics.py   # ±2 frame tolerance, Jacca
 python tools/download_data.py --variants GT blur downsample_x4
 
 # 2. Verify data access (NFS users — should list 3 methods)
-ls data/spatial_qa/images/
-ls data/temporal_qa/images/
+ls data/spatial/VQA_img/
+ls data/temporal/images/
 
 # 3. Run spatial QA evaluation
 python evaluation/spatial/run_eval.py --dataset GT --config configs/default.yaml

@@ -1,0 +1,453 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[801.0, 789.6551724137931], [1163.16091954023, 789.6551724137931], [1163.16091954023, 952.8735632183908], [801.0, 952.8735632183908]], what word(s) would you find there? ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of the text at [[899,796], [1041,790], [1044,840], [902,846]] is hidden — fill in what's missing: 中____",
+              "answer": "山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one matches the text(s) shown inside [[801, 790], [1163, 790], [1163, 953], [801, 953]]? Options:\nA. P12555\nB. 串山\nC. 中山\nD. E12555",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that '中山' appear(s) inside the bounding box [[801.0, 789.6551724137931], [1163.16091954023, 789.6551724137931], [1163.16091954023, 952.8735632183908], [801.0, 952.8735632183908]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you read inside [[801.0, 789.6551724137931], [1163.16091954023, 789.6551724137931], [1163.16091954023, 952.8735632183908], [801.0, 952.8735632183908]]? ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The box at [[912,825], [1053,818], [1057,868], [914,875]] shows a partially visible word — what character(s) complete it? ____山?",
+              "answer": "中"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best matches the text(s) visible in [[801, 790], [1163, 790], [1163, 953], [801, 953]]. Options:\nA. 中山\nB. E12555\nC. P12555\nD. 串山",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[801.0, 789.6551724137931], [1163.16091954023, 789.6551724137931], [1163.16091954023, 952.8735632183908], [801.0, 952.8735632183908]], do you see the label(s) 'F12555'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The bounding box [[933,796], [1074,790], [1078,840], [935,846]] contains a word with missing characters — what goes in the blank: 中____?",
+              "answer": "山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, which one correctly names the text(s) visible at [[801, 790], [1163, 790], [1163, 953], [801, 953]]? Options:\nA. E12555\nB. 丰山\nC. 串山\nD. 中山",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you find the label(s) '中山, E12555' inside the area marked by [[801.0, 789.6551724137931], [1163.16091954023, 789.6551724137931], [1163.16091954023, 952.8735632183908], [801.0, 952.8735632183908]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside the region [[800, 796], [1162, 796], [1162, 959], [800, 959]] and write it down: ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phrase at [[913,702], [1040,692], [1045,742], [918,753]] has a gap in it — fill in the missing part: 中____",
+              "answer": "山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text(s) you see at [[800, 796], [1162, 796], [1162, 959], [800, 959]]. Options:\nA. F12555\nB. 串山\nC. E12555\nD. 丰山",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '中山, E12555' — are they found inside [[799.75, 795.9051724137931], [1161.91091954023, 795.9051724137931], [1161.91091954023, 959.1235632183908], [799.75, 959.1235632183908]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown in [[804, 801], [1166, 801], [1166, 964], [804, 964]]: ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's an incomplete sequence inside [[775,757], [1098,727], [1109,817], [784,849]] — what fills in the missing part? F12____5",
+              "answer": "55"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text at [[804, 801], [1166, 801], [1166, 964], [804, 964]] and choose the option that contains it. Options:\nA. F12555\nB. 丰山\nC. 串山\nD. 丨山",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the region [[803.5, 800.9051724137931], [1165.66091954023, 800.9051724137931], [1165.66091954023, 964.1235632183908], [803.5, 964.1235632183908]], are '中山' among the labels present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down whatever text appears inside [[807, 808], [1169, 808], [1169, 972], [807, 972]]: ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[693,829], [999,796], [1008,884], [700,913]], a sequence has missing digits — what are they? F1____5",
+              "answer": "255"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The area at [[807, 808], [1169, 808], [1169, 972], [807, 972]] contains some text — which of these options matches it? Options:\nA. P12555\nB. 串山\nC. F12555\nD. E12555",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Thinking about the region [[807.25, 808.4051724137931], [1169.41091954023, 808.4051724137931], [1169.41091954023, 971.6235632183908], [807.25, 971.6235632183908]], do the label(s) '中山' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) can you make out inside [[806, 815], [1168, 815], [1168, 978], [806, 978]]? ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of the label at coordinates [[667,922], [973,888], [983,976], [674,1006]] is missing — what fills the gap? ____555",
+              "answer": "F12"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that lists the text(s) you see at [[806, 815], [1168, 815], [1168, 978], [806, 978]]. Options:\nA. P12555\nB. 串山\nC. E12555\nD. F12555",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside the bounding box [[806.0, 814.6551724137931], [1168.16091954023, 814.6551724137931], [1168.16091954023, 977.8735632183908], [806.0, 977.8735632183908]], are the label(s) '串山, F12555' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can see inside [[807, 822], [1169, 822], [1169, 985], [807, 985]]. ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[729,827], [856,817], [860,867], [733,878]] shows a partially obscured word — what character(s) complete the term 中____??",
+              "answer": "山"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you spot which option matches the text visible in [[807, 822], [1169, 822], [1169, 985], [807, 985]]? Options:\nA. E12555\nB. 丰山\nC. 串山\nD. F12555",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[807.25, 822.1551724137931], [1169.41091954023, 822.1551724137931], [1169.41091954023, 985.3735632183908], [807.25, 985.3735632183908]] contain the label(s) 'F12555'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text shown in the box [[807, 822], [1169, 822], [1169, 985], [807, 985]]. ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The box [[629,873], [934,839], [944,927], [636,957]] shows an incomplete label — what fills the gap in F12____?",
+              "answer": "555"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and choose the option that accurately lists everything written inside [[807, 822], [1169, 822], [1169, 985], [807, 985]]. Options:\nA. 中山\nB. 串山\nC. E12555\nD. P12555",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '中山' appears inside [[807.25, 822.1551724137931], [1169.41091954023, 822.1551724137931], [1169.41091954023, 985.3735632183908], [807.25, 985.3735632183908]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text falls inside [[807, 822], [1169, 822], [1169, 985], [807, 985]]. ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[792,911], [920,901], [924,951], [797,961]], a phrase is cut off — fill in the missing word to complete ____山.",
+              "answer": "中"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Your job here is to match the text inside [[807, 822], [1169, 822], [1169, 985], [807, 985]] to the right option. Options:\nA. 串山\nB. E12555\nC. 中山\nD. P12555",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'F12555' fall inside [[807.25, 822.1551724137931], [1169.41091954023, 822.1551724137931], [1169.41091954023, 985.3735632183908], [807.25, 985.3735632183908]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) visible inside [[814, 818], [1176, 818], [1176, 982], [814, 982]]. ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the region [[787,989], [1094,977], [1099,1061], [792,1071]], what goes in the missing spot to finish F12____?",
+              "answer": "555"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[814, 818], [1176, 818], [1176, 982], [814, 982]] — which option has the right text? Options:\nA. 丨山\nB. 中山\nC. 丰山\nD. 串山",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '中山, E12555' show up within the region marked by [[813.5, 818.4051724137931], [1175.66091954023, 818.4051724137931], [1175.66091954023, 981.6235632183908], [813.5, 981.6235632183908]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0235/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0235/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text contained in [[815, 812], [1177, 812], [1177, 975], [815, 975]]. ________",
+              "answer": [
+                "F12555",
+                "中山"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the area at [[810,916], [1122,889], [1129,976], [818,998]], what word or characters belong in the blank of F12____5.?",
+              "answer": "55"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[815, 812], [1177, 812], [1177, 975], [815, 975]] matches exactly one of the options below — which is it? Options:\nA. P12555\nB. 串山\nC. E12555\nD. F12555",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'F12555' can be found in [[814.75, 812.1551724137931], [1176.91091954023, 812.1551724137931], [1176.91091954023, 975.3735632183908], [814.75, 975.3735632183908]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0235"
+  }
+]

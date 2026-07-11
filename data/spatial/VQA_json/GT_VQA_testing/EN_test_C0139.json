@@ -1,0 +1,521 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text at [[758, 41], [1321, 41], [1321, 377], [758, 377]] — what word(s) appear there? ________",
+              "answer": [
+                "UNE",
+                "LUNAR",
+                "NEW",
+                "i"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Hidden by ____ in the label at [[1107,453], [1202,458], [1201,488], [1106,483]] — what character(s) complete F____16?",
+              "answer": "EB"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of these options, which one accurately reflects the text(s) shown at [[758, 259], [1387, 259], [1387, 974], [758, 974]]? Options:\nA. JAN 17, CALIFORNIA, VisitDlsneyland.com, DisNEy, UNE, LUNAR, yEAR, forspecialoffers., NEW, FEB16\nB. FEB16, ADVENTURE, JAN 17, CALIFORNIA, yEAR, DisNEy, LUNAR, RFID, NEW, VisitDisneyland.com\nC. RFID, JAN 17, yEAR, CALIFORNIA, LUNAR, forspecialoffers., i, DisNEy, ADVENTURE, FEB16\nD. LUNAR, UNF, CALIFORNIA, yEAR, NEW, VisitDisneyland.com, FEB16, DisNEy, ADVENTURE, RFID",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'DisNEy, LUNAR, i, NEW, forspecialoffers., FEB16, ADVENTURE, yEAR, CALIFORNIA, JAN 17' the text you'd find inside [[758, 259], [1256, 259], [1256, 974], [758, 974]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible at [[756, 41], [1391, 41], [1391, 641], [756, 641]]. ________",
+              "answer": [
+                "LUNAR",
+                "NEW",
+                "yEAR",
+                "JAN 17",
+                "FEB16",
+                "UNE",
+                "i",
+                "VisitDisneyland.com",
+                "forspecialoffers.",
+                "RFID"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1142,415], [1238,415], [1238,443], [1142,443]], the label has a gap marked FEB____ — which character(s) belong there to complete it?",
+              "answer": "16"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which option correctly captures the text(s) at [[756, 41], [1323, 41], [1323, 549], [756, 549]]? Options:\nA. FFB16, LUNAR, NEW, UNE, forspecialoffers., JAN 17, VisitDisneyland.com, yEAR\nB. UNE, yEAR, i, FEB16, NEW, VisitDisneyland.com, ADVENTURE, forspecialoffers.\nC. JAN 17, VisitDisneyland.com, RFID, yEAR, LUNAR, NEW, i, FEB16\nD. yEAR, VisitDisneyland.com, UNE, LUNAR, forspecialoffers., JAN 17, NEW, i",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'i, JAN 17, PFID, VisitDisneyland.com, forspecialoffers., yEAR, CALIFORNIA, LUNAR, NEW, FEB16' sit inside the bounding box at [[755.7085735051295, 41.18878384284498], [1390.9527113523025, 41.18878384284498], [1390.9527113523025, 982.2], [755.7085735051295, 982.2]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) you can see at [[759, 42], [1397, 42], [1397, 986], [759, 986]]. ________",
+              "answer": [
+                "LUNAR",
+                "NEW",
+                "yEAR",
+                "JAN 17",
+                "FEB16",
+                "ADVENTURE",
+                "UNE",
+                "i",
+                "VisitDisneyland.com",
+                "forspecialoffers.",
+                "RFID",
+                "DisNEy",
+                "CALIFORNIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "JAN ____ appears in the bounding box at [[993,422], [1091,422], [1091,450], [993,450]] — what numerals does ____ represent?",
+              "answer": "17"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that matches the text(s) at [[978, 42], [1397, 42], [1397, 986], [978, 986]]. Options:\nA. yEAR, ADVENTURE, RFID, forspecialoffers., i, VisitDisneyland.com, UNE, CALIFORNIA, LUNAR, DisNEy\nB. ADVENTURE, i, FFB16, VisitDisneyland.com, CALIFORNIA, forspecialoffers., RFID, yEAR, JAN 17, DisNEy\nC. DisNEy, yEAR, FEB16, forspecialoffers., VisitDisneyland.com, ADVENTURE, JAN 17, NEW, i, RFID\nD. forspecialoffers., LUNAR, i, ADVENTURE, VisitDlsneyland.com, DisNEy, JAN 17, RFID, yEAR, NEW",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[759, 42], [1397, 42], [1397, 642], [759, 642]], do the label(s) 'i, UNE, CALIFORNIA, FEB16, NEW, yEAR, forspecialoffers., JAN 17, RFID, LUNAR' fall inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) found at [[760, 42], [1402, 42], [1402, 987], [760, 987]]. ________",
+              "answer": [
+                "LUNAR",
+                "NEW",
+                "yEAR",
+                "JAN 17",
+                "FEB16",
+                "ADVENTURE",
+                "UNE",
+                "i",
+                "VisitDisneyland.com",
+                "forspecialoffers.",
+                "RFID",
+                "DisNEy",
+                "CALIFORNIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[841,289], [1045,289], [1045,346], [841,346]], what text goes where N____ appears in that label?",
+              "answer": "EW"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer choice that contains the text(s) visible at [[983, 42], [1402, 42], [1402, 987], [983, 987]]. Options:\nA. JAN 17, NEW, CALIFORNIA, RFID, yEAR, LUNAR, i, ADVENTURE, DisNEy, VisitDisneyland.com\nB. CALIFOPNIA, ADVENTURE, forspecialoffers., yEAR, NEW, LUNAR, JAN 17, RFID, DisNEy, VisitDisneyland.com\nC. FEB16, CALIFORNIA, VisitDisneyland.com, forspecialoffers., LUNAR, yEAR, NEW, DisNEy, i, UNE\nD. JAN 17, FEB16, DisNFy, CALIFORNIA, yEAR, RFID, ADVENTURE, i, NEW, forspecialoffers.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "So — are the label(s) 'NEW, VisitDisneyland.com, LUNAR, DisNEy, yEAR, forspecialoffers., CALIFORNIA, JAN 17, FEB16, i' actually located inside [[760, 264], [1402, 264], [1402, 987], [760, 987]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you read at [[988, 884], [1267, 884], [1267, 983], [988, 983]]? ________",
+              "answer": [
+                "ADVENTURE",
+                "DisNEy",
+                "CALIFORNIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A partial text segment at [[962,360], [1058,360], [1058,388], [962,388]] reads \"FE____\" — which letter(s) does ____ represent?",
+              "answer": "B16"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option below contains the text(s) you'd find at [[988, 35], [1408, 35], [1408, 983], [988, 983]]. Options:\nA. VisitDisneyland.com, CALIFORNIA, RFID, ADVENTURE, yEAR, LUNRR, JAN17-FEB16, NEW, forspecialoffers., i\nB. yEAR, CALIFORNIA, ADVENTURE, i, DisNEy, UNE, forspecialoffers., LUNAR, RFID, JAN17-FEB16\nC. JAN17-FEB16, CALIFORNIA, forspecialoffers., VisitDisneyland.com, yFAR, DisNEy, LUNAR, ADVENTURE, NEW, RFID\nD. CALIFORNIA, yEAR, LUNAR, ADVENTURE, NEW, forspecialoffers., JAN17-FEB16, i, RFID, VisitDisneyland.com",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'yEAR, RFID, i, NEW, VisitDisneyland.com, JAN17-FEB16, forspecialoffers.' appear inside the region marked by [[761, 35], [1408, 35], [1408, 640], [761, 640]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the area [[764, 26], [1344, 26], [1344, 310], [764, 310]] and write down every word you see there. ________",
+              "answer": [
+                "LUNAR",
+                "UNE",
+                "i"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[808,881], [1101,883], [1100,939], [807,935]], the text shows \"CAL____IA\" — what goes in the gap?",
+              "answer": "IFORN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option matches the text found at [[764, 250], [1278, 250], [1278, 978], [764, 978]]? Options:\nA. i, LUNAR, UNE, yEAR, ADVENTURE, VisitDisneyland.com, CALIFORNIA, JAN 17-FEB16, NEW\nB. yEAR, JAN 17-FEB16, CALIFORNIA, LUNAR, NEW, forspecialoffers., DisNEy, ADVENTURE, VisitDisneyland.com\nC. LUNAR, DisNEy, RFID, forspecialoffers., ADVENTURE, JAN 17-FEB16, CALIFORNIA, yEAR, UNE\nD. DisNEy, forspecialoffers., UNE, VisitDlsneyland.com, ADVENTURE, NEW, LUNAR, JAN 17-FEB16, CALIFORNIA",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'ADVENTURE, UNE, yEAR, NEW, JAN 17-FEB16, LUNAR, DisNEy, CALIFORNIA, VisitDisneyland.com, RFID' — are they found within the area defined by [[764, 250], [1278, 250], [1278, 978], [764, 978]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out all text visible at [[995, 873], [1280, 873], [1280, 972], [995, 972]]. ________",
+              "answer": [
+                "ADVENTURE",
+                "DisNEy",
+                "CALIFORNIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A gap appears in the phrase at [[1176,605], [1219,605], [1218,626], [1175,625]]: \"R____D\". What fills it?",
+              "answer": "FI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly shows what appears at [[995, 17], [1418, 17], [1418, 972], [995, 972]]. Options:\nA. NEW, CALIFORNIA, VisitDlsneyland.com, FEB16, yEAR, forspecialoffers., LUNAR, RFID, ADVENTURE, JAN 17\nB. NEW, VisitDisneyland.com, DisNEy, LUNAR, forspecialeffers., FEB16, ADVENTURE, yEAR, RFID, i\nC. CALIFORNIA, JAN 17, ADVENTURE, VisitDisneyland.com, LUNAR, yEAR, forspecialoffers., FEB16, RFID, DisNEy\nD. VisitDisneyland.com, UNEL, JAN 17, FEB16, NEW, RFID, CALIFORNIA, LUNAR, DisNEy, yEAR",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Regarding [[766, 243], [1418, 243], [1418, 972], [766, 972]], do the label(s) 'VisitDisneyland.com, JAN 17, FEB16, RFID, yEAR, ADVENTURE, LUNAR, NEW, UNEL, forspecialoffers.' fall inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can be read at the location [[999, 866], [1284, 866], [1284, 965], [999, 965]]? ________",
+              "answer": [
+                "ADVENTURE",
+                "DisNEy",
+                "CALIFORNIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the blank: what letters complete the label shown as \"____EW\" at [[748,309], [952,309], [952,368], [748,366]]?",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[765, 234], [1284, 234], [1284, 965], [765, 965]], which answer option correctly lists the text there? Options:\nA. JAN 17, ADVENTURE, yEAR, UNEL, NEW, FEB16, CALIFORNIA, DisNEy, LUNRR, VisitDisneyland.com\nB. VisitDisneyland.com, DisNEy, FEB16, ADVENTURE, i, yEAR, UNEL, CALIFORNIA, JAN 17, forspecialoffers.\nC. VisitDisneyland.com, DisNEy, yEAR, UNEL, NEW, ADVENTURE, JAN 17, LUNAR, CALIFOPNIA, forspecialoffers.\nD. UNEL, NEW, yEAR, VisitDisneyland.com, CALIFORNIA, FEB16, LUNAR, ADVENTURE, JAN 17, DisNEy",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'NEW, LUNAR, VisitDisneyland.com, yEAR, DisNEy, RFID, FEB16, CALIFORNIA, forspecialoffers., i' falls inside the bounding box [[998, 5], [1423, 5], [1423, 965], [998, 965]]. True or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word appearing inside the box [[1002, 861], [1287, 861], [1287, 961], [1002, 961]]. ________",
+              "answer": [
+                "ADVENTURE",
+                "DisNEy",
+                "CALIFORNIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How would you complete \"forspecial____\" given the text at [[682,515], [844,515], [843,537], [681,537]]?",
+              "answer": "offers"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among these choices, which one correctly shows the text at [[765, 0], [1427, 0], [1427, 610], [765, 610]]? Options:\nA. JAN 17, RFID, FEB16, NEW, yEAR, VisitDisneyland.com, UNEL, forspecialoffers., LUNAR\nB. forspecialoffers., NEW, i, ADVENTURE, LUNAR, RFID, FEB16, JAN 17, UNEL\nC. i, FEB16, JAN 17, VisitDisneyland.com, NEW, LUNAR, forspecialoffers., RFID, yFAR\nD. yFAR, JAN 17, forspecialoffers., LUNAR, FEB16, i, UNEL, RFID, NEW",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the coordinates [[765, 228], [1427, 228], [1427, 961], [765, 961]], do the label(s) 'JAN 17, VisitDisneyland.com, yEAR, RFID, ADVENTURE, UNEL, CALIFORNIA, FEB16, DisNEy, forspecialoffers.' sit inside that area?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) you see at [[767, 219], [1430, 219], [1430, 955], [767, 955]]. ________",
+              "answer": [
+                "LUNAR",
+                "NEW",
+                "yEAR",
+                "JAN 17",
+                "FEB16",
+                "ADVENTURE",
+                "UNEL",
+                "VisitDisneyland.com",
+                "forspecialoffers.",
+                "DisNEy",
+                "CALIFORNIA",
+                "RFID"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[589,455], [785,454], [785,475], [588,478]], the URL reads \"Visit____.com\" — what portion is missing?",
+              "answer": "Disneyland"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text at [[1003, 219], [1430, 219], [1430, 955], [1003, 955]], pick the option that gets it right. Options:\nA. yEAR, ADVENTURE, JAN 17, VisitDisneyland.com, CALIFORNIA, forspecialoffers., DisNEy, RFID, FEB16, LUNAR\nB. VisitDisneyland.com, RFID, UNEL, LUNAR, FEB16, NEW, CALIFORNIA, yEAR, DisNEy, JAN 17\nC. CALIFORNIA, FEB16, forspecialoffers., VisitDisneyland.com, NEW, ADVENIURE, yEAR, JAN 17, LUNAR, RFID\nD. JAN 17, NEW, ADVENTURE, VisitDisneyland.com, CALIFORNIA, RFID, yFAR, LUNAR, forspecialoffers., FEB16",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At the location [[766.753204971683, 218.77428180574555], [1430.1545314921636, 218.77428180574555], [1430.1545314921636, 954.8696411039598], [766.753204971683, 954.8696411039598]], are the label(s) 'RFID, CALIFORNIA, ADVENTURE, FEB16, NEW, UNEL, VisitDisneyland.com, JAN 17, yEAR, LUNRR' enclosed in that box?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) shown at position [[1008, 854], [1294, 854], [1294, 952], [1008, 952]]. ________",
+              "answer": [
+                "ADVENTURE",
+                "DisNEy",
+                "CALIFORNIA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Considering the text \"forspecial____\" at [[586,472], [748,472], [747,494], [585,493]], what goes in the blank?",
+              "answer": "offers"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's the correct answer for the text visible at [[768, 213], [1430, 213], [1430, 604], [768, 604]]? Options:\nA. LUNAR, ADVENTURE, JAN 17, FEB16, NEW, VisitDisneyland.com, yEAR, RFID\nB. forspecialoffers., LUNAR, FEB16, NEW, RFID, yFAR, JAN 17, VisitDisneyland.com\nC. LUNAR, VisitDisneyland.com, FEB16, RFID, yEAR, UNEL, JAN 17, forspecialeffers.\nD. NEW, UNEL, yEAR, JAN 17, VisitDisneyland.com, FEB16, forspecialoffers., LUNAR",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Judging by [[768, 213], [1430, 213], [1430, 604], [768, 604]], are the label(s) 'JAN 17, LUNAR, FEB16, UNEL, VisitDisneyland.com, NEW, forspecialoffers.' contained within that region?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0139/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0139/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text shown in [[772, 210], [1436, 210], [1436, 950], [772, 950]] — what word or words appear there? ________",
+              "answer": [
+                "LUNAR",
+                "NEW",
+                "yEAR",
+                "JAN 17",
+                "FEB16",
+                "ADVENTURE",
+                "UNEL",
+                "VisitDisneyland.com",
+                "forspecialoffers.",
+                "DisNEy",
+                "CALIFORNIA",
+                "RFID"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Glancing at [[598,205], [802,205], [802,264], [598,262]], you can see \"N____\" — but some letters are cut off. Which ones belong there?",
+              "answer": "EW"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text you can see inside [[772, 210], [1296, 210], [1296, 503], [772, 503]]? Options:\nA. FEB16, LUNAR, JAN 17, ADVENTURE, forspecialoffers., UNEL, VisitDisneyland.com\nB. JAN 17, NEW, UNEL, LUNRR, forspecialoffers., VisitDisneyland.com, yEAR\nC. VisitDisneyland.com, LUNAR, FFB16, yEAR, NEW, forspecialoffers., UNEL\nD. VisitDisneyland.com, LUNAR, yEAR, JAN 17, NEW, FEB16, UNEL",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label 'FEB16, NEW, VisitDisneyland.com, yEAR, UNEL, LUNAR, JAN 17, CALIFORNIA, forspecialoffers.' appears inside the region defined by [[772, 210], [1296, 210], [1296, 503], [772, 503]].",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0139"
+  }
+]

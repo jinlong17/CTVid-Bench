@@ -1,0 +1,502 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the word(s) inside [[294.0, 42.08333333333331], [1707.085201793722, 42.08333333333331], [1707.085201793722, 762.0], [294.0, 762.0]] and fill in what they are: ________.",
+              "answer": [
+                "浪會有時",
+                "推",
+                "PUSH",
+                "消防通道禁止堵塞",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED",
+                "FIRE ESCAPE DO NOT BLOCK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "標籤 [[1272,680], [1706,678], [1707,733], [1271,737]] 上，常閉式防火門中某個字符被遮蓋，請依據上下文填寫缺失的字符：「常闭式防____门」。",
+              "answer": "火"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inspect [[294, 477], [1707, 477], [1707, 762], [294, 762]] and select the option that correctly lists the text(s) shown there. Options:\nA. 推, FIRE DOOR KEEP CLOSED, 常闭式防火门, FIRE ESCAPE DO NOT BLOCK, 浪會有時\nB. 推, 消防通道禁止堵塞, FIRE DOOR KEEP CLOSED, PUSH, FIRE ESCAPE DO NOT BLOCK\nC. 常闭式防火门, FIPE DOOR KEEP CLOSED, FIRE ESCAPE DO NOT BLOCK, PUSH, 推\nD. 推, FIRE ESCAPE DO NOT BLOCK, 消防通道禁止堵塞, PUSH, 常闭弎防火门",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does '浪會有時, PUSH, 消防通道禁止堵塞, FIRE DOOR KEEP CLOSED, FIRE ESCAPE DO NOT BLOCK' appear as the label at [[294.0, 42.08333333333331], [1707.085201793722, 42.08333333333331], [1707.085201793722, 762.0], [294.0, 762.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Scan region [[294, 42], [1707, 42], [1707, 762], [294, 762]] and write the word(s) you see: ________",
+              "answer": [
+                "浪會有時",
+                "推",
+                "PUSH",
+                "消防通道禁止堵塞",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED",
+                "FIRE ESCAPE DO NOT BLOCK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially obscured at [[1320,722], [1630,720], [1630,745], [1320,747]], the sign reads \"FIRE DOOR ____ CLOSED\" — which word is hidden?",
+              "answer": "KEEP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text at [[294, 678], [1707, 678], [1707, 762], [294, 762]], which answer choice is correct? Options:\nA. 常闭式防火门, 消防通遒禁止堵塞, FIRE ESCAPE DO NOT BLOCK\nB. FIRE ESCAPE DO NOT BLOCK, 浪會有時, FIRE DOOR KEEP CLOSED\nC. 推, FIRE ESCAPE DO NOT BLOCK, 常闭式防火门\nD. FIRE ESCAPE DO NOT BLOCK, 常闭式防火门, 消防通道禁止堵塞",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '常闭式防火门, FIRE ESCAPE DO NOT BLOCK, FIRE DOOR KEEP CLOSED, 推, 消防通道禁止堵塞' is the label visible at [[294, 678], [1707, 678], [1707, 762], [294, 762]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over at [[294, 678], [1707, 678], [1707, 762], [294, 762]], what word(s) can you make out? ________",
+              "answer": [
+                "消防通道禁止堵塞",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED",
+                "FIRE ESCAPE DO NOT BLOCK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "圖中 [[901,445], [989,445], [989,527], [901,527]] 位置的文字有缺損，「____」裡缺少的字符是什麼？",
+              "answer": "推"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that correctly identifies the text(s) at [[294, 477], [1013, 477], [1013, 760], [294, 760]]. Options:\nA. 消防通道禁止堵塞, FIRE ESCAPE DO NOT BLOCK, 常闭式防火门\nB. 摌, 消防通道禁止堵塞, PUSH\nC. 浪會有時, PUSH, 推\nD. 推, 消防通道禁止堵塞, PUSH",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[294.0, 42.08333333333331], [1707.085201793722, 42.08333333333331], [1707.085201793722, 762.0], [294.0, 762.0]], would you say '消防通道禁止堵塞, 浪會有時, 常闭式防火门, FIRE ESCAPE DO NOT BLOCK, PUSH' is the label there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside region [[1268.285767234989, 42.08333333333331], [1703.92730705688, 42.08333333333331], [1703.92730705688, 762.0], [1268.285767234989, 762.0]], what word(s) can you see? The answer is ________.",
+              "answer": [
+                "浪會有時",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "标语「浪會____」位于 [[1288,4], [1361,4], [1362,330], [1288,329]] 区域，其中缺失了部分字符，你能把它补全吗？",
+              "answer": "有時"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears at [[291, 477], [1704, 477], [1704, 762], [291, 762]]? Choose the matching answer: Options:\nA. PUSH, 常闭式防火门, 消防通道禁止堵塞, 推, 浪會有時\nB. 消防通道禁止堵塞, FIRE DOOR KEEP CLOSED, FIRE ESCAPE DO NOT BLOCK, 常闭式防火门, PUSH\nC. 消防通遒禁止堵塞, 推, PUSH, FIRE ESCAPE DO NOT BLOCK, FIRE DOOR KEEP CLOSED\nD. 推, FIRE DOOR KEEP CLOSED, 消防通道禁止堵塞, 常闭弎防火门, FIRE ESCAPE DO NOT BLOCK",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '常闭式防火门, PUSH, 推, FIRE ESCAPE DO NOT BLOCK, 浪會有時' sits inside the box marked [[290.8421052631579, 42.08333333333331], [1703.92730705688, 42.08333333333331], [1703.92730705688, 762.0], [290.8421052631579, 762.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Fill in the blank — what word(s) sit inside [[1334.092105263158, 38.33333333333331], [1407.9879385964914, 38.33333333333331], [1407.9879385964914, 363.8541666666667], [1334.092105263158, 363.8541666666667]]? ________",
+              "answer": [
+                "浪會有時"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Coordinates [[859,502], [946,500], [946,531], [859,534]] contain text with a gap — what word fills \"PUS____\"?",
+              "answer": "H"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[292, 474], [1705, 474], [1705, 759], [292, 759]], which answer choice matches the text shown there? Options:\nA. 推, 常闭式防火门, FIRE DOOR KEEP CLOSED, PUSH, 消防通道禁止堵塞\nB. FIRE DOOR KEEP CLOSED, PUSH, 常闭式防火门, 消防通道禁止堵塞, FIPE ESCAPE DO NOT BLOCK\nC. FIRE ESCAPE DO NOT BLOCK, PUSH, 常闭式防火门, FIRE DOOR KEEP CLOSED, 摌\nD. 常闭式防火门, 消防通道禁止堵塞, 浪會有時, FIRE DOOR KEEP CLOSED, FIRE ESCAPE DO NOT BLOCK",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'FIRE DOOR KEEP CLOSED, 常闭式防火门, 消防通道禁止堵塞, PUSH, FIRE ESCAPE DO NOT BLOCK' — do they appear inside [[292, 676], [1705, 676], [1705, 759], [292, 759]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[1268.285767234989, 38.33333333333331], [1703.92730705688, 38.33333333333331], [1703.92730705688, 758.882911392405], [1268.285767234989, 758.882911392405]] — what word(s) appear there? ________",
+              "answer": [
+                "浪會有時",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "請看 [[1325,58], [1398,58], [1402,326], [1328,327]] 位置的文字，其中 \"____有時\" 缺少的部分是什麼？",
+              "answer": "會"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the area marked [[921, 38], [1704, 38], [1704, 759], [921, 759]], which of the following options captures the text visible there? Options:\nA. 消防通道禁止堵塞, PUSH, 常闭式防火门, FIRE DOOR KEEP CLOSED\nB. 常闭式防火门, 浪會有時, PUSH, 推\nC. 推, 常闭式防火门, FIRE DOOR KEEP CLOSED, 浤會有時\nD. 推, FIRE DOOR KEEP CLOSED, 常闭弎防火门, PUSH",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Regarding [[290.8421052631579, 38.33333333333331], [1703.92730705688, 38.33333333333331], [1703.92730705688, 758.882911392405], [290.8421052631579, 758.882911392405]], would you say the label(s) '浪會有時, 推, PUSH, 常闭式防火门, FIRE ESCAPE DO NOT BLOCK' fall inside that region? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible in the region [[290.8421052631579, 38.33333333333331], [1703.92730705688, 38.33333333333331], [1703.92730705688, 758.882911392405], [290.8421052631579, 758.882911392405]]. The answer is: ________",
+              "answer": [
+                "浪會有時",
+                "推",
+                "PUSH",
+                "消防通道禁止堵塞",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED",
+                "FIRE ESCAPE DO NOT BLOCK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1335,641], [1640,636], [1641,661], [1335,666]], a sign reads \"FIRE DOOR ____ CLOSED\" — what word(s) fill the gap?",
+              "answer": "KEEP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[291, 474], [1010, 474], [1010, 757], [291, 757]]? Select the option that matches. Options:\nA. PUSH, 浪會有時, 推\nB. PUSH, 常闭式防火门, FIRE ESCAPE DO NOT BLOCK\nC. 消防通道禁止堵塞, 摌, PUSH\nD. FIRE ESCAPE DO NOT BLOCK, 推, 消防通道禁止堵塞",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find '消防通道禁止堵塞, PUSH, 推' somewhere in the image — but specifically, does it sit within [[291, 474], [1010, 474], [1010, 757], [291, 757]]? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Up close at [[1265.785767234989, 35.83333333333331], [1701.42730705688, 35.83333333333331], [1701.42730705688, 756.382911392405], [1265.785767234989, 756.382911392405]], what word(s) do you make out? ________",
+              "answer": [
+                "浪會有時",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at coordinates [[373,624], [710,623], [710,643], [374,645]] reads \"FIRE ____ DO NOT BLOCK\" — which word belongs in the blank?",
+              "answer": "ESCAPE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options below, which one lists the text you can read inside [[288, 471], [1007, 471], [1007, 754], [288, 754]]? Options:\nA. RUSH, 消防通道禁止堵塞, FIRE ESCAPE DO NOT BLOCK\nB. 浪會有時, PUSH, 消防通道禁止堵塞\nC. FIRE ESCAPE DO NOT BLOCK, 推, RUSH\nD. 消防通道禁止堵塞, PUSH, 推",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Spot the label(s) '消防通道禁止堵塞, PUSH, 推' — do they sit inside the box at [[288, 471], [1007, 471], [1007, 754], [288, 754]]? State true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) visible at location [[288.3421052631579, 35.83333333333331], [1701.42730705688, 35.83333333333331], [1701.42730705688, 756.382911392405], [288.3421052631579, 756.382911392405]]. They are: ________",
+              "answer": [
+                "浪會有時",
+                "推",
+                "PUSH",
+                "消防通道禁止堵塞",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED",
+                "FIRE ESCAPE DO NOT BLOCK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the missing word in \"FIRE DOOR ____ CLOSED\" at location [[1332,615], [1659,608], [1659,635], [1332,641]].",
+              "answer": "KEEP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[288, 674], [1701, 674], [1701, 756], [288, 756]] and match the text you find to one of these choices: Options:\nA. FIRE DOOR KEEP CLOSED, 常闭式防火门, FIRE ESCAPE DO NOT BLOCK\nB. 消防通道禁止堵塞, FIPE DOOR KEEP CLOSED, 常闭式防火门\nC. FIRE ESCAPE DO NOT BLOCK, FIRE DOOR KEEP CLOSED, 浪會有時\nD. 消防通道禁止堵塞, FIRE DOOR KEEP CLOSED, 常闭弎防火门",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Here's a quick check: label(s) '推, 常闭式防火门, PUSH, FIRE ESCAPE DO NOT BLOCK, FIRE DOOR KEEP CLOSED' — are they contained within the bounding box at [[288.3421052631579, 35.83333333333331], [1701.42730705688, 35.83333333333331], [1701.42730705688, 756.382911392405], [288.3421052631579, 756.382911392405]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) that appear inside [[286.94350386455653, 36.33648871453743], [1700.0287056582786, 36.33648871453743], [1700.0287056582786, 750.7885057979994], [286.94350386455653, 750.7885057979994]]. ________",
+              "answer": [
+                "浪會有時",
+                "推",
+                "PUSH",
+                "消防通道禁止堵塞",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED",
+                "FIRE ESCAPE DO NOT BLOCK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1315,68], [1392,69], [1391,245], [1314,243]] 处的文字中有一处空白，\"有____\" 里该填什么？",
+              "answer": "時"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices provided, which one accurately lists the text inside [[287, 466], [1006, 466], [1006, 749], [287, 749]]? Options:\nA. FIPE ESCAPE DO NOT BLOCK, 消防通道禁止堵塞, 推\nB. 消防通道禁止堵塞, FIRE ESCAPE DO NOT BLOCK, RUSH\nC. PUSH, 推, 浪會有時\nD. 推, 消防通道禁止堵塞, FIRE ESCAPE DO NOT BLOCK",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[287, 466], [1006, 466], [1006, 749], [287, 749]] — the label(s) '推, 消防通道禁止堵塞, FIRE ESCAPE DO NOT BLOCK', are they located in that region? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focus on the area [[284.3393371978898, 32.69065538120406], [1697.4245389916118, 32.69065538120406], [1697.4245389916118, 747.142672464666], [284.3393371978898, 747.142672464666]] and read the text there. The word(s) you see: ________",
+              "answer": [
+                "浪會有時",
+                "推",
+                "PUSH",
+                "消防通道禁止堵塞",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED",
+                "FIRE ESCAPE DO NOT BLOCK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位置 [[177,555], [812,553], [813,617], [179,616]] 处有一段不完整的文字，\"消防通____禁止堵塞\" 中缺了什么内容？",
+              "answer": "道"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[915, 33], [1697, 33], [1697, 747], [915, 747]] matches one of the options below — which is it? Options:\nA. 推, FIRE DOOR KEEP CLOSED, 常闭式防火门, PUSH\nB. 推, 常闭式防火门, 浪會有時, FIRE ESCAPE DO NOT BLOCK\nC. RUSH, 推, 常闭式防火门, FIRE DOOR KEEP CLOSED\nD. PUSH, FIRE DOOR KEEP CLOSED, 浪會有時, 消防通道禁止堵塞",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'PUSH, 推, 浪會有時, 消防通道禁止堵塞, FIRE DOOR KEEP CLOSED' visible inside the region marked by [[284.3393371978898, 32.69065538120406], [1697.4245389916118, 32.69065538120406], [1697.4245389916118, 747.142672464666], [284.3393371978898, 747.142672464666]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0158/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0158/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text appearing inside [[284.3393371978898, 28.94065538120406], [1697.4245389916118, 28.94065538120406], [1697.4245389916118, 743.392672464666], [284.3393371978898, 743.392672464666]] — what word(s) do you see there? ________",
+              "answer": [
+                "浪會有時",
+                "推",
+                "PUSH",
+                "消防通道禁止堵塞",
+                "常闭式防火门",
+                "FIRE DOOR KEEP CLOSED",
+                "FIRE ESCAPE DO NOT BLOCK"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1342,578], [1702,576], [1702,603], [1342,606]], the phrase reads \"FIRE DOOR K____ CLOSED\" — what word goes in the blank?",
+              "answer": "EEP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option correctly lists the text found inside [[284, 661], [1697, 661], [1697, 743], [284, 743]]? Options:\nA. 消防通遒禁止堵塞, FIRE DOOR KEEP CLOSED, 常闭式防火门\nB. FIRE DOOR KEEP CLOSED, 浪會有時, 消防通道禁止堵塞\nC. FIPE ESCAPE DO NOT BLOCK, 常闭式防火门, FIRE DOOR KEEP CLOSED\nD. FIRE ESCAPE DO NOT BLOCK, FIRE DOOR KEEP CLOSED, 消防通道禁止堵塞",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at bounding box [[915, 29], [1697, 29], [1697, 743], [915, 743]], would you say 'FIRE DOOR KEEP CLOSED, 浪會有時, PUSH, 常闭式防火门' is among the text shown there?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0158"
+  }
+]

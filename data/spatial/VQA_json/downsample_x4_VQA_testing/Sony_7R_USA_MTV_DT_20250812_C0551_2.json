@@ -1,0 +1,397 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on bounding box [[261, 0], [1577, 0], [1577, 604], [261, 604]], fill in the word(s) you see: ________",
+              "answer": [
+                "Savvy Cellar",
+                "Wine Bar Wine Shop",
+                "CENTENNIAL",
+                "PLAZ"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For area [[336, 0], [1577, 0], [1577, 239], [336, 239]], pick the answer that correctly lists the text(s) found there. Options:\nA. CFNTENNIAL\nB. Savvy Cellar\nC. CENTENNIAL\nD. Wine Bar Wine Shop",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Savvy Cellar, PLAZ, CENIENNIAL, Wine Bar Wine Shop' fall within the region [[260.5700712589074, -4.440892098500626e-15], [1576.6355140186915, -4.440892098500626e-15], [1576.6355140186915, 603.7767220902613], [260.5700712589074, 603.7767220902613]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning region [[272.1460962439499, 38.79242276620801], [1589.0797992191103, 38.79242276620801], [1589.0797992191103, 642.7381456398992], [272.1460962439499, 642.7381456398992]], fill in the word(s) that appear: ________",
+              "answer": [
+                "Savvy Cellar",
+                "Wine Bar Wine Shop",
+                "CENTENNIAL",
+                "PLAZ"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option best captures the text(s) inside [[272, 39], [1190, 39], [1190, 643], [272, 643]]? Options:\nA. PLAZ, Savvy Cellar\nB. Savvy Cellar, Wino Bar Wine Shop\nC. Savvy Cellar, CENTENNIAL\nD. Wino Bar Wine Shop, CENTENNIAL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm or deny: the label(s) 'Savvy Cellar, PLAZ, CENTENNIAL, Wine Bar Wine Shop' appear within [[272, 39], [1190, 39], [1190, 643], [272, 643]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "In area [[359.82723399639974, 120.13051637407222], [1585.251885266838, 120.13051637407222], [1585.251885266838, 367.924634021131], [359.82723399639974, 367.924634021131]], jot down the word(s) you notice: ________",
+              "answer": [
+                "CENTENNIAL",
+                "PLAZ"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among Options:\nA. CFNTENNIAL, Wine Bar Wine Shop\nB. Savvy Cellar, CENTENNIAL\nC. Wine Bar Wine Shop, PLAZ\nD. Wino Bar Wine Shop, Savvy Cellar, which correctly lists the text(s) shown in region [[274, 120], [1201, 120], [1201, 720], [274, 720]]?",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just checking: is 'Wine Bar Wine Shop, Savvy Cellar' located inside the bounding box [[274, 120], [1201, 120], [1201, 720], [274, 720]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "In region [[220.32994821156768, 226.54693129060013], [1535.4856735409062, 226.54693129060013], [1535.4856735409062, 823.0395293291425], [220.32994821156768, 823.0395293291425]], what word(s) is/are visible? The word(s) is/are ________.",
+              "answer": [
+                "Savvy Cellar",
+                "Wine Bar Wine Shop",
+                "CENTENNIAL",
+                "PLAZ"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text(s) found in area [[220, 227], [1149, 227], [1149, 823], [220, 823]]. Options:\nA. Wino Bar Wine Shop, Savvy Cellar\nB. PLAZ, Savvy Cellar\nC. Sevvy Cellar, Wine Bar Wine Shop\nD. Wine Bar Wine Shop, CENTENNIAL",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'PLAZ, CENTENNIAL, Savvy Cellar' appears inside the bounding box [[220.32994821156768, 226.54693129060013], [1535.4856735409062, 226.54693129060013], [1535.4856735409062, 823.0395293291425], [220.32994821156768, 823.0395293291425]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[190.1123595505618, 292.34281401181335], [1523.4239986537534, 292.34281401181335], [1523.4239986537534, 874.2507645259939], [190.1123595505618, 874.2507645259939]], what word(s) can be seen? The word(s) is/are ________.",
+              "answer": [
+                "Savvy Cellar",
+                "CENTENNIAL",
+                "PLAZ",
+                "Wine Bar Wine Shop"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options accurately captures the text(s) within area [[297, 292], [1523, 292], [1523, 533], [297, 533]]? Options:\nA. CFNTENNIAL\nB. Savvy Cellar\nC. CENTENNIAL\nD. CFNTENNIAL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Sevvy Cellar, PLAZ, Wine Bar Wine Shop, CENTENNIAL' is/are situated inside the bounding box [[190.1123595505618, 292.34281401181335], [1523.4239986537534, 292.34281401181335], [1523.4239986537534, 874.2507645259939], [190.1123595505618, 874.2507645259939]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Somewhere inside [[193.50938350427475, 360.3260050761408], [1513.7093807916883, 360.3260050761408], [1513.7093807916883, 944.6998121032931], [193.50938350427475, 944.6998121032931]], you'll find the word(s): ________.",
+              "answer": [
+                "Savvy Cellar",
+                "CENTENNIAL",
+                "PLAZ",
+                "Wine Bar Wine Shop"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options provided, which correctly identifies the text(s) in area [[194, 360], [1113, 360], [1113, 945], [194, 945]]? Options:\nA. Wino Bar Wine Shop, CENTENNIAL\nB. Wine Bar Wine Shop, CENTENNIAL\nC. CENTENNIAL, Sevvy Cellar\nD. Savvy Cellar, PLAZ",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Savvy Cellar, PLAZ, CENTENNIAL' inside the bounding box [[301.67275283440205, 360.3260050761408], [1513.7093807916883, 360.3260050761408], [1513.7093807916883, 600.9599531721561], [301.67275283440205, 600.9599531721561]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in region [[202, 363], [1527, 363], [1527, 931], [202, 931]], what word(s) appear? The answer is ________.",
+              "answer": [
+                "Savvy Cellar",
+                "CENTENNIAL",
+                "PLAZ",
+                "Wine Bar Wine Shop"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that lists the text(s) appearing in area [[202, 363], [1113, 363], [1113, 931], [202, 931]]. Options:\nA. Sevvy Cellar, Wine Bar Wine Shop\nB. Wine Bar Wine Shop, PLAZ\nC. Sevvy Cellar, CENTENNIAL\nD. CENTENNIAL, Wine Bar Wine Shop",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[202.4088295487164, 362.8346456692913], [1527.429782934169, 362.8346456692913], [1527.429782934169, 931.1439001714323], [202.4088295487164, 931.1439001714323]], is/are 'Savvy Cellar, Wine Bar Wine Shop, CENTENNIAL, RLAZ' among the visible labels?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank — the text shown in bounding box [[268, 343], [1586, 343], [1586, 909], [268, 909]] is: ________.",
+              "answer": [
+                "Savvy Cellar",
+                "CENTENNIAL",
+                "PLAZ",
+                "Wine Bar Wine Shop"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For area [[293, 343], [1586, 343], [1586, 844], [293, 844]], pick the option that correctly lists the text(s) contained there. Options:\nA. PLAZ, Sevvy Cellar\nB. RLAZ, CENTENNIAL\nC. PLAZ, Wine Bar Wine Shop\nD. CENTENNIAL, PLAZ",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'Wino Bar Wine Shop, PLAZ, Savvy Cellar, CENTENNIAL' can be found inside the bounding box [[268.04179224028843, 342.91224566801776], [1585.7378925747007, 342.91224566801776], [1585.7378925747007, 909.1174721767941], [268.04179224028843, 909.1174721767941]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Area [[387, 809], [569, 809], [569, 904], [387, 904]] contains what word(s)? The answer is ________.",
+              "answer": [
+                "Savvy Cellar",
+                "Wine Bar Wine Shop"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly names the text(s) in area [[408, 341], [1714, 341], [1714, 841], [408, 841]]. Options:\nA. CENTENNIAL, Sevvy Cellar\nB. Savvy Cellar, CFNTENNIAL\nC. PLAZ, Wine Bar Wine Shop\nD. CENTENNIAL, Savvy Cellar",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking bounding box [[387.3212661464461, 340.7634162365797], [1713.6270128396113, 340.7634162365797], [1713.6270128396113, 903.58287393577], [387.3212661464461, 903.58287393577]] — is/are 'Sevvy Cellar, Wine Bar Wine Shop, CENTENNIAL, PLAZ' among the labels present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Region [[488, 343], [1825, 343], [1825, 904], [488, 904]] — what word(s) is/are shown there? The answer is ________.",
+              "answer": [
+                "Savvy Cellar",
+                "CENTENNIAL",
+                "PLAZ",
+                "Wine Bar Wine Shop"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across Options:\nA. Wine Bar Wine Shop, Savvy Cellar\nB. Savvy Cellar, CFNTENNIAL\nC. Savvy Cellar, PLAZ\nD. CFNTENNIAL, Savvy Cellar, find the one that correctly identifies the text(s) in area [[488, 343], [1392, 343], [1392, 904], [488, 904]].",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Based on bounding box [[488, 343], [1392, 343], [1392, 904], [488, 904]], does 'CENTENNIAL, Savvy Cellar, PLAZ, Wine Bar Wine Shop' show up inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Bounding box [[526, 327], [1868, 327], [1868, 886], [526, 886]] contains which word(s)? Fill in: ________.",
+              "answer": [
+                "Savvy Cellar",
+                "CENTENNIAL",
+                "PLAZ",
+                "Wine Bar Wine Shop"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Matching text(s) to area [[547, 327], [1868, 327], [1868, 824], [547, 824]]: which option is correct? Options:\nA. CENTENNIAL, Savvy Cellar\nB. CFNTENNIAL, Savvy Cellar\nC. Sevvy Cellar, PLAZ\nD. Wine Bar Wine Shop, PLAZ",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Wine Bar Wine Shop, CENTENNIAL, Savvy Cellar' visible somewhere inside the region marked by [[526.4384527555327, 327.03828173518457], [1867.9463677184106, 327.03828173518457], [1867.9463677184106, 885.7747326102827], [526.4384527555327, 885.7747326102827]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0551_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0551_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you fill in the blank — what text appears inside [[592, 319], [1824, 319], [1824, 543], [592, 543]]? ________",
+              "answer": [
+                "CENTENNIAL",
+                "PLAZ"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text found in [[487, 319], [1387, 319], [1387, 879], [487, 879]]? Options:\nA. CFNTENNIAL, Wine Bar Wine Shop\nB. CENTENNIAL, Savvy Cellar\nC. Savvy Cellar, Wino Bar Wine Shop\nD. Savvy Cellar, PLAZ",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the text 'Savvy Cellar, Wine Bar Wine Shop, PLAZ, CENTENNIAL' actually contained within the box defined by [[510, 319], [1824, 319], [1824, 818], [510, 818]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0551_2"
+  }
+]

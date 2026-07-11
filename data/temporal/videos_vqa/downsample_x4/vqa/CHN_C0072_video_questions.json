@@ -1,0 +1,313 @@
+{
+  "video_id": "C0072",
+  "frames": 120,
+  "word": "味鲜美·汤鲜浓·肉鲜嫩",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0072.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" likely to be?\n Options:\nA. warning or prohibition sign\nB. direction or navigation sign\nC. event or poster information\nD. storefront or brand sign\nE. menu or commercial information\nF. address or street sign\nG. general scene text",
+      "q": "「味鲜美·汤鲜浓·肉鲜嫩」这几个字，你觉得是什么类型的招牌？\n Options:\nA. warning or prohibition sign\nB. direction or navigation sign\nC. event or poster information\nD. storefront or brand sign\nE. menu or commercial information\nF. address or street sign\nG. general scene text",
+      "a": "E",
+      "a_text": "menu or commercial information",
+      "answer_key": "menu or commercial information",
+      "options": [
+        "A. warning or prohibition sign",
+        "B. direction or navigation sign",
+        "C. event or poster information",
+        "D. storefront or brand sign",
+        "E. menu or commercial information",
+        "F. address or street sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「味鲜美·汤鲜浓·肉鲜嫩」这几个字，你觉得是什么类型的招牌？\n Options:\nA. warning or prohibition sign\nB. direction or navigation sign\nC. event or poster information\nD. storefront or brand sign\nE. menu or commercial information\nF. address or street sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" appear in?\n Options:\nA. warning / rule sign\nB. other public sign\nC. restaurant or menu\nD. road or street\nE. transportation / station\nF. campus or office\nG. storefront\nH. event poster or display",
+      "q": "写着「味鲜美·汤鲜浓·肉鲜嫩」的文字出现在什么样的场景里？\n Options:\nA. warning / rule sign\nB. other public sign\nC. restaurant or menu\nD. road or street\nE. transportation / station\nF. campus or office\nG. storefront\nH. event poster or display",
+      "a": "C",
+      "a_text": "restaurant or menu",
+      "answer_key": "restaurant or menu",
+      "options": [
+        "A. warning / rule sign",
+        "B. other public sign",
+        "C. restaurant or menu",
+        "D. road or street",
+        "E. transportation / station",
+        "F. campus or office",
+        "G. storefront",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「味鲜美·汤鲜浓·肉鲜嫩」的文字出现在什么样的场景里？\n Options:\nA. warning / rule sign\nB. other public sign\nC. restaurant or menu\nD. road or street\nE. transportation / station\nF. campus or office\nG. storefront\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. bottom-right (lower-right area)",
+      "q": "整个视频看下来，「味鲜美·汤鲜浓·肉鲜嫩」这段文字大多出现在画面哪个位置？\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. bottom-right (lower-right area)",
+      "a": "E",
+      "a_text": "bottom-right (lower-right area)",
+      "answer_key": "bottom-right",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. top-left (upper-left area)",
+        "C. bottom-left (lower-left area)",
+        "D. top-right (upper-right area)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整个视频看下来，「味鲜美·汤鲜浓·肉鲜嫩」这段文字大多出现在画面哪个位置？\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. top-right (upper-right area)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "这段视频里，「味鲜美·汤鲜浓·肉鲜嫩」的位置变动幅度大不大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「味鲜美·汤鲜浓·肉鲜嫩」的位置变动幅度大不大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" move?\n Options:\nA. moves right\nB. stays roughly in place\nC. moves down\nD. moves left\nE. moves up\nF. changes direction partway\nG. moves diagonally",
+      "q": "「味鲜美·汤鲜浓·肉鲜嫩」总体上朝哪个方向移动的？\n Options:\nA. moves right\nB. stays roughly in place\nC. moves down\nD. moves left\nE. moves up\nF. changes direction partway\nG. moves diagonally",
+      "a": "G",
+      "a_text": "moves diagonally",
+      "answer_key": "moves diagonally",
+      "options": [
+        "A. moves right",
+        "B. stays roughly in place",
+        "C. moves down",
+        "D. moves left",
+        "E. moves up",
+        "F. changes direction partway",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「味鲜美·汤鲜浓·肉鲜嫩」总体上朝哪个方向移动的？\n Options:\nA. moves right\nB. stays roughly in place\nC. moves down\nD. moves left\nE. moves up\nF. changes direction partway\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> bottom-right -> bottom-right\nB. bottom-right -> bottom-right -> top-right\nC. bottom-right -> top-left -> bottom-right\nD. top-right -> bottom-right -> bottom-right",
+      "q": "从片头到结尾，「味鲜美·汤鲜浓·肉鲜嫩」在前段、中段、末段分别在画面哪里？\n Options:\nA. bottom-right -> bottom-right -> bottom-right\nB. bottom-right -> bottom-right -> top-right\nC. bottom-right -> top-left -> bottom-right\nD. top-right -> bottom-right -> bottom-right",
+      "a": "A",
+      "a_text": "bottom-right -> bottom-right -> bottom-right",
+      "answer_key": "bottom-right -> bottom-right -> bottom-right",
+      "options": [
+        "A. bottom-right -> bottom-right -> bottom-right",
+        "B. bottom-right -> bottom-right -> top-right",
+        "C. bottom-right -> top-left -> bottom-right",
+        "D. top-right -> bottom-right -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从片头到结尾，「味鲜美·汤鲜浓·肉鲜嫩」在前段、中段、末段分别在画面哪里？\n Options:\nA. bottom-right -> bottom-right -> bottom-right\nB. bottom-right -> bottom-right -> top-right\nC. bottom-right -> top-left -> bottom-right\nD. top-right -> bottom-right -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "q": "画面里，「味鲜美·汤鲜浓·肉鲜嫩」这段文字算大还是小？\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)",
+      "a": "B",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. large (a major part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里，「味鲜美·汤鲜浓·肉鲜嫩」这段文字算大还是小？\n Options:\nA. small (a minor part of the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)",
+      "q": "播放过程中，「味鲜美·汤鲜浓·肉鲜嫩」的字体大小有没有明显变化，是变大、缩小，还是基本维持原样？\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)",
+      "a": "C",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets smaller",
+        "B. gets larger",
+        "C. stays about the same size",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "播放过程中，「味鲜美·汤鲜浓·肉鲜嫩」的字体大小有没有明显变化，是变大、缩小，还是基本维持原样？\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "看这段视频，「味鲜美·汤鲜浓·肉鲜嫩」是稳稳待在画面中央区域，还是靠近某条边缘？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看这段视频，「味鲜美·汤鲜浓·肉鲜嫩」是稳稳待在画面中央区域，还是靠近某条边缘？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"味鲜美·汤鲜浓·肉鲜嫩\" and how it appears in the video.",
+      "q": "能不能简单说说「味鲜美·汤鲜浓·肉鲜嫩」这段文字在视频里是怎么呈现的？",
+      "a": "The text appears in white Chinese characters on a reddish-brown band at the bottom of a food advertisement poster.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能不能简单说说「味鲜美·汤鲜浓·肉鲜嫩」这段文字在视频里是怎么呈现的？"
+    }
+  ],
+  "method": "downsample_x4"
+}

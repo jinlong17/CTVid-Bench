@@ -1,0 +1,579 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you zoom in on [[1628, 256], [1814, 256], [1814, 397], [1628, 397]], what word(s) would you read there? ________",
+              "answer": [
+                "apm",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1245,289], [1351,297], [1354,333], [1247,325]] is partially visible as \"T____sfer\" — what is the full word?",
+              "answer": "ran"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside the region [[626, 55], [1431, 55], [1431, 369], [626, 369]]? Options:\nA. 转国际, 航班取消通道, Baggage Claim, 行李提取, International, Transfor, Arrivals Exit, Cancelled Flight Channel, Toilets, 洗手间\nB. 航班取消通道, Cancelled Flight Channel, 洗手间, International, Toilets, 行李提取, 到达出口, 转国际, Counter, Arrivals Exit\nC. Arrivals Exit, 中转柜台, Beggage Claim, 洗手间, 行李提取, Transfer, Counter, Toilets, International, 航班取消通道\nD. 中转柜台, 行李提取, Transfer, Baggage Claim, 到达出口, 洗手间, Arrivals Exit, Toilets, apm, Counter",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '洗手间, Arrivals Exit, Transfer, 中转柜台, 航班取消通道, Baggage Claim, International, 转国际, 行李提取, Counter' fall inside the bounding box [[625.7243816254418, 54.77031802120141], [1813.6290322580646, 54.77031802120141], [1813.6290322580646, 397.1774193548387], [625.7243816254418, 397.1774193548387]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down whatever words appear in the area marked [[626, 55], [1431, 55], [1431, 369], [626, 369]]. ________",
+              "answer": [
+                "到达出口",
+                "行李提取",
+                "Arrivals Exit",
+                "航班取消通道",
+                "Baggage Claim",
+                "Cancelled Flight Channel",
+                "转国际",
+                "中转柜台",
+                "International",
+                "洗手间",
+                "Transfer",
+                "Transfer",
+                "Toilets",
+                "Counter"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[625,114], [781,127], [782,162], [625,151]] reads \"Ar____als Exit\" — what word fills the blank?",
+              "answer": "riv"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the answer that captures the text(s) found in [[626, 55], [1431, 55], [1431, 369], [626, 369]]. Options:\nA. Baggage Claim, 刯达出口, Cancelled Flight Channel, International, Counter, Transfer, 中转柜台, 行李提取, Transfer, 转国际\nB. 行李提取, apm, 到达出口, Cancelled Flight Channel, Baggage Claim, International, Counter, 转国际, 航班取消通道, Toilets\nC. Transfer, 到达出口, Countor, Arrivals Exit, Cancelled Flight Channel, Transfer, 中转柜台, 行李提取, International, 航班取消通道\nD. 中转柜台, Arrivals Exit, Counter, Cancelled Flight Channel, International, Transfer, 到达出口, Transfer, Toilets, 行李提取",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that '转国际, International, Arrivals Exit, 到达出口, 行李提取, apm, Counter, Transfer, 中转柜台, 航班取消通道' appears within [[626, 55], [1431, 55], [1431, 369], [626, 369]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text shows up inside [[622, 55], [1810, 55], [1810, 397], [622, 397]]. ________",
+              "answer": [
+                "到达出口",
+                "行李提取",
+                "Arrivals Exit",
+                "航班取消通道",
+                "Baggage Claim",
+                "Cancelled Flight Channel",
+                "转国际",
+                "中转柜台",
+                "International",
+                "洗手间",
+                "Transfer",
+                "Transfer",
+                "Toilets",
+                "apm",
+                "Counter",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "\"Baggage ____\" — that's what's written at [[898,133], [1075,150], [1076,191], [899,175]]. What goes in the blank?",
+              "answer": "Claim"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately lists the text(s) shown in [[622, 55], [1810, 55], [1810, 397], [622, 397]]. Options:\nA. 洗手间, International, apm, Transfor, 转国际, 中转柜台, MONACO, Arrivals Exit, 到达出口\nB. Arrivals Exit, 中转柜台, 洗手间, 到达出口, 转图际, Transfer, apm, MONACO, International\nC. Arrivals Exit, 洗手间, apm, 到达出口, Transfer, 中转柜台, 转国际, MDNACO, International\nD. MONACO, 中转柜台, Arrivals Exit, Baggage Claim, 洗手间, 转国际, Toilets, Cancelled Flight Channel, International, Transfer",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[621.9743816254418, 54.77031802120141], [1809.8790322580646, 54.77031802120141], [1809.8790322580646, 397.1774193548387], [621.9743816254418, 397.1774193548387]] contain the label(s) '行李提取, Counter, 到达出口, 中转柜台, Arrivals Exit, apm, 航班取消通道, International, Transfer, Transfer'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text you can read in the area [[619.4743816254418, 56.02031802120141], [832.9019434628976, 56.02031802120141], [832.9019434628976, 344.35954063604237], [619.4743816254418, 344.35954063604237]]. ________",
+              "answer": [
+                "到达出口",
+                "Arrivals Exit",
+                "转国际",
+                "International",
+                "Transfer"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Text at [[1101,148], [1376,175], [1378,212], [1102,187]] forms part of the phrase \"Can____led Flight Channel\" — what fills Can____led?",
+              "answer": "cel"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that matches the text(s) visible inside [[619, 56], [1807, 56], [1807, 398], [619, 398]]. Options:\nA. apm, Toilets, 到达出口, Arrivals Exit, 洗手间, International, MONACO, Baggage Claim, Transfer, 航班取消通道\nB. 洗手间, 到达出口, MONACO, International, Transfer, Cancellod Flight Channel, apm, 中转柜台, Transfer\nC. 到达出口, Cancelled Flight Channel, apm, Arrivals Exit, Internatianal, 洗手间, Transfer, MONACO, Transfer\nD. Transfer, Cancelled Flight Channel, Transfer, 洗手间, MONACO, apm, International, 中转柜台, Arrivels Exit",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) '转国际, Transfer, Baggage Claim, 中转柜台, MONACO, Toilets, 洗手间, 行李提取, 到达出口, apm' sit inside [[619.4743816254418, 56.02031802120141], [1807.3790322580646, 56.02031802120141], [1807.3790322580646, 398.4274193548387], [619.4743816254418, 398.4274193548387]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text you see within [[617, 54], [1805, 54], [1805, 396], [617, 396]]. ________",
+              "answer": [
+                "到达出口",
+                "行李提取",
+                "Arrivals Exit",
+                "航班取消通道",
+                "Baggage Claim",
+                "Cancelled Flight Channel",
+                "转国际",
+                "中转柜台",
+                "International",
+                "洗手间",
+                "Transfer",
+                "Transfer",
+                "Toilets",
+                "apm",
+                "Counter",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[617,287], [754,293], [756,330], [619,324]], you can partially read \"Tr____fer\" — what's the full text there?",
+              "answer": "ans"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that lists all text(s) found in [[617, 54], [1805, 54], [1805, 396], [617, 396]]. Options:\nA. Toilets, Baggage Claim, 航班取消通道, Transfer, MONACO, apm, Transfer, Counter, Arrivals Exit, 中转柜台\nB. apm, 行李捉取, MONACO, Toilets, Transfer, 转国际, 洗手间, Baggage Claim, Transfer\nC. MDNACO, 洗手间, Transfer, apm, 行李提取, Baggage Claim, Toilets, 航班取消通道, Transfer\nD. Transfer, Transfer, Beggage Claim, 航班取消通道, 转国际, Toilets, 洗手间, apm, 行李提取",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '行李提取, apm, 中转柜台, 转囼际, 洗手间, Counter, Baggage Claim, 航班取消通道, Transfer, MONACO' can be found within the region [[616.9743816254418, 53.52031802120141], [1804.8790322580646, 53.52031802120141], [1804.8790322580646, 395.9274193548387], [616.9743816254418, 395.9274193548387]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name every word visible inside [[1615.5, 254.7983870967742], [1801.1290322580646, 254.7983870967742], [1801.1290322580646, 395.9274193548387], [1615.5, 395.9274193548387]]. ________",
+              "answer": [
+                "apm",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[1631,280], [1806,242], [1817,332], [1640,364]], a sequence shows \"____m\" — which letters are missing from it?",
+              "answer": "ap"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in [[613, 54], [1801, 54], [1801, 396], [613, 396]], which answer choice matches what's written there? Options:\nA. 航班取消通道, MONACO, International, apm, 到达出口, 洗手间, Cancellod Flight Channel, 转国际, Transfer\nB. Baggage Claim, Cancelled Flight Channel, 到达出口, 行李提取, 航班取消通道, Toilets, Transfer, 中转柜台, 洗手间, Transfer\nC. 洗手间, Cancelled Flight Channel, 行李捉取, 转国际, 到达出口, International, apm, Transfer, 航班取消通道\nD. 洗手间, International, 行李提取, Cancelled Flight Channel, 刯达出口, Transfer, 转国际, apm, 航班取消通道",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '到达出口, 洗手间, Toilets, International, Transfer, MONACO, 航班取消通遒, 转国际, Counter, Arrivals Exit' is visible inside the box [[613.2243816254418, 53.66868597372366], [1801.1290322580646, 53.66868597372366], [1801.1290322580646, 395.9274193548387], [613.2243816254418, 395.9274193548387]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Transcribe whatever words appear in [[614.4743816254418, 53.85050670044671], [1802.3790322580646, 53.85050670044671], [1802.3790322580646, 393.4274193548387], [614.4743816254418, 393.4274193548387]]. ________",
+              "answer": [
+                "到达出口",
+                "行李提取",
+                "Arrivals Exit",
+                "航班取消通道",
+                "Baggage Claim",
+                "Cancelled Flight Channel",
+                "转国际",
+                "中转柜台",
+                "International",
+                "洗手间",
+                "Transfer",
+                "Transfer",
+                "Toilets",
+                "apm",
+                "Counter",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[1224,223], [1361,233], [1364,282], [1227,273]]处的文字有部分被遮挡，请补全\"中____柜台\"中缺失的内容。",
+              "answer": "转"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text found inside [[614, 54], [1419, 54], [1419, 366], [614, 366]] — which answer choice is correct? Options:\nA. 航班取消通道, 行李提取, Transfer, Arrivals Exit, 转国际, 中转柜台, Transfer, Counter, 洗手间, International\nB. 洗手间, apm, Baggage Claim, 中转柜台, International, Arrivals Exit, 行李提取, Counter, 转国际, Cancelled Flight Channel\nC. Toilets, 行李提取, Arrivals Exit, Baggage Claim, 中转柜台, 洗手间, MONACO, 到达出口, International, 转国际\nD. Transfer, 到达出口, Arrivals Exit, 航班取消通道, Baggage Claim, 洗手间, International, Counter, Ioilets, Cancelled Flight Channel",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Toilets, International, Arrivals Exit, 转国际, 中转柜台, Cancelled Flight Channel, MONACO, 洗手间, 行李提取, Transfer' inside the region defined by [[614.4743816254418, 53.85050670044671], [1802.3790322580646, 53.85050670044671], [1802.3790322580646, 393.4274193548387], [614.4743816254418, 393.4274193548387]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[614.4743816254418, 54.77031802120141], [1802.3790322580646, 54.77031802120141], [1802.3790322580646, 397.1774193548387], [614.4743816254418, 397.1774193548387]]? ________",
+              "answer": [
+                "到达出口",
+                "行李提取",
+                "Arrivals Exit",
+                "航班取消通道",
+                "Baggage Claim",
+                "Cancelled Flight Channel",
+                "转国际",
+                "中转柜台",
+                "International",
+                "洗手间",
+                "Transfer",
+                "Transfer",
+                "Toilets",
+                "apm",
+                "Counter",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1269,287], [1378,293], [1381,328], [1272,322]], what letters are needed to complete \"Coun____\"?",
+              "answer": "ter"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[614, 55], [1419, 55], [1419, 369], [614, 369]] and select the matching option. Options:\nA. Toilets, Counter, Cancelled Flight Channel, 转国际, Arrivals Exit, 到达出口, International, Transfer, 航班取消通道, 中转柜台\nB. 行李提取, 洗手间, Cancelled Flight Channel, 中转柜台, 到达出口, apm, Transfer, 转国际, Baggage Claim, Toilets\nC. International, 中转柜台, 到达出口, Transfer, Arrivals Exit, Counter, Toilets, Cancellod Flight Channel, Baggage Claim, 洗手间\nD. Transfor, 洗手间, Counter, Toilets, 转国际, Arrivals Exit, International, 航班取消通道, Cancelled Flight Channel, 中转柜台",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Cancelled Flight Channel, Toilets, 转国际, International, 行李提取, apm, MONACO, Transfer, Transfer, Baggage Claim' visible within the bounding box [[614.4743816254418, 54.77031802120141], [1802.3790322580646, 54.77031802120141], [1802.3790322580646, 397.1774193548387], [614.4743816254418, 397.1774193548387]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown in the area [[611.9743816254418, 55.701690570221025], [1799.8790322580646, 55.701690570221025], [1799.8790322580646, 394.6774193548387], [611.9743816254418, 394.6774193548387]]. ________",
+              "answer": [
+                "到达出口",
+                "行李提取",
+                "Arrivals Exit",
+                "航班取消通道",
+                "Baggage Claim",
+                "Cancelled Flight Channel",
+                "转国际",
+                "中转柜台",
+                "International",
+                "洗手间",
+                "Transfer",
+                "Transfer",
+                "Toilets",
+                "apm",
+                "Counter",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Coordinates [[945,95], [1122,113], [1123,153], [947,138]] reveal a \"B____ Claim\" — what's the missing part?",
+              "answer": "aggage"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify what's written inside [[914, 82], [1800, 82], [1800, 395], [914, 395]] and pick the right answer. Options:\nA. Baggage Claim, Toilets, 行李提取, Arrivals Exit, 洗手间, Transfer, MONACO, 中转柜台, 航班取消通道, Cancelled Flight Channel\nB. 航班取消通道, 中转柜台, 行李提取, Cancelled Flight Channel, Baggage Claim, MONACO, Toilets, Transfer, Counter, 洗手间\nC. Baggage Claim, 到达出口, 行李提取, 中转柜台, Toilets, MONACO, Counter, Cancelled Flight Channel, 洗手间, 航班取消通道\nD. 中转柜台, 洗手间, Counter, 行李提取, MDNACO, Toilets, Transfer, apm, 航班取消通道, Baggage Claim",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[611.9743816254418, 55.701690570221025], [1799.8790322580646, 55.701690570221025], [1799.8790322580646, 394.6774193548387], [611.9743816254418, 394.6774193548387]] contain the label(s) '航班取消通道, Iransfer, Toilets, 到达出口, Counter, Baggage Claim, International, 转国际, apm, Arrivals Exit'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears in the region [[612, 56], [1799, 56], [1799, 397], [612, 397]]. ________",
+              "answer": [
+                "到达出口",
+                "行李提取",
+                "Arrivals Exit",
+                "航班取消通道",
+                "Baggage Claim",
+                "Cancelled Flight Channel",
+                "转国际",
+                "中转柜台",
+                "International",
+                "洗手间",
+                "Transfer",
+                "Transfer",
+                "Toilets",
+                "apm",
+                "Counter",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the missing letter(s) in \"C____nter\", which appears at [[1244,292], [1353,298], [1355,334], [1247,327]].",
+              "answer": "ou"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text you can see inside [[612, 56], [1799, 56], [1799, 397], [612, 397]]. Options:\nA. 到达出口, 行李提取, 转国际, Transfer, 航班取消通道, Cancelled Flight Channel, Transfer, apm, Countor\nB. apm, Transfer, Cancelled Flight Channel, 航班取消通道, Transfer, Ceunter, MONACO, 转国际, 到达出口\nC. 行李捉取, 转国际, 到达出口, Transfer, apm, Counter, Cancelled Flight Channel, 航班取消通道, MONACO\nD. Baggage Claim, 行李提取, 洗手间, MONACO, Cancelled Flight Channel, Transfer, International, Counter, Arrivals Exit, 转国际",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '行李提取, Cancelled Flight Channel, 洗手间, Transfer, 转国际, 到达出口, 中转柜台, Toilots, Arrivals Exit, Baggage Claim' falls within the bounding box [[611.9743816254418, 56.21833782318162], [1799.179731558764, 56.21833782318162], [1799.179731558764, 397.0288179562373], [611.9743816254418, 397.0288179562373]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the text found inside [[612, 56], [824, 56], [824, 344], [612, 344]]. ________",
+              "answer": [
+                "到达出口",
+                "Arrivals Exit",
+                "转国际",
+                "International",
+                "Transfer"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the text \"Inter____onal\" visible at [[595,220], [800,233], [803,272], [597,261]], what letter(s) complete the blank?",
+              "answer": "nati"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[612, 56], [1799, 56], [1799, 396], [612, 396]] — which answer lists what's written there? Options:\nA. 行李提取, MONACO, Toilets, apm, Counter, 转国际, 航班取消通遒, International, Cancelled Flight Channel\nB. Toilets, MDNACO, Cancelled Flight Channel, 行李提取, International, 航班取消通道, 转国际, Counter, Arrivals Exit\nC. Baggage Claim, Counter, 到达出口, Transfer, 航班取消通道, 洗手间, Toilets, Cancelled Flight Channel, International, Arrivals Exit\nD. 航班取消通道, apm, MONACO, 行李提取, International, 转国际, Toilets, Arrivels Exit, Counter",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can 'Arrivals Exit, Cancelled Flight Channel, 转国际, 行李提取, International, Transfer, Transfer, 航班取消通道, Baggage Claim, 洗手间' be found within the region marked by [[611.9743816254418, 56.02031802120141], [1798.8986401012019, 56.02031802120141], [1798.8986401012019, 395.97643896268187], [611.9743816254418, 395.97643896268187]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0298/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0298/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the text visible inside [[608, 56], [1799, 56], [1799, 396], [608, 396]]. ________",
+              "answer": [
+                "到达出口",
+                "行李提取",
+                "Arrivals Exit",
+                "航班取消通道",
+                "Baggage Claim",
+                "Cancelled Flight Channel",
+                "转国际",
+                "中转柜台",
+                "International",
+                "洗手间",
+                "Transfer",
+                "Transfer",
+                "Toilets",
+                "apm",
+                "Counter",
+                "MONACO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[584,228], [789,240], [791,279], [586,268]], the text shows \"Inte____onal\" with a gap — what's missing?",
+              "answer": "rnati"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[608, 56], [1415, 56], [1415, 369], [608, 369]], what's written? Choose the matching option. Options:\nA. International, Baggage Claim, Cancelled Flight Channel, 到达出口, Transfer, Transfer, Toilets, 中转柜台, 洗手间, Arrivals Exit\nB. Ioilets, International, Transfer, 转国际, 到达出口, Transfer, Baggage Claim, 行李提取, 航班取消通道, 中转柜台\nC. 到达出口, apm, Arrivals Exit, Baggage Claim, Counter, International, 中转柜台, Transfer, 航班取消通道, 洗手间\nD. 行李提取, Toilets, Transfer, Cancelled Flight Channel, Transfer, International, Arrivals Exit, 中转柜台, 转图际, 到达出口",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[608.1769132710114, 55.550805321606795], [1798.8986401012019, 55.550805321606795], [1798.8986401012019, 395.97643896268187], [608.1769132710114, 395.97643896268187]], do the label(s) 'International, Transfer, MONACO, apm, Baggage Claim, Toilets, 洗手间, Arrivals Exit, Cancelled Flight Channel, 转囼际' actually appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0298"
+  }
+]

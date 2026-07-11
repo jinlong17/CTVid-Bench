@@ -1,0 +1,540 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible in [[1253, 436], [1526, 436], [1526, 917], [1253, 917]]. The answer is ________.",
+              "answer": [
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1306,667], [1479,683], [1473,756], [1301,738]], what word completes \"Fo____\" once you insert the missing letter(s) 'od'?",
+              "answer": "od"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options best represents the text(s) inside area [[1253, 436], [1526, 436], [1526, 917], [1253, 917]]? Options:\nA. Please, on bus, or Drink, Food, Bring\nB. or Drink, 7, on bus, Please, Do Not\nC. Foed, Please, or Drink, Do Not, on bus\nD. er Drink, Do Not, Please, Food, Bring",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7' sit within the bounding box [[554.2, 1Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 79.465Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7629382304], [16Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 72.Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 712854Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 75Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 793, 1Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 79.465Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7629382304], [16Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 72.Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 712854Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 75Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 793, 91Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7.09401Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 709401Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 72], [554.2, 91Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 7.09401Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 709401Terminal A, 6, Bring, Shuttle to, Do Not, Please, Food, and Daily Lot 4, 72]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan region [[556, 224], [571, 224], [571, 243], [556, 243]] — what word(s) appear there? The answer is ________.",
+              "answer": [
+                "6"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How does \"Do ____\" read in full, given the coordinates [[1310,518], [1550,529], [1546,609], [1307,594]]?",
+              "answer": "Not"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that matches the text(s) visible in area [[1255, 181], [1674, 181], [1674, 923], [1255, 923]]. Options:\nA. Bring, Terminal A, Food, or Drink, Do Not, 7, Shuttle to, Please, on bus\nB. 7, Bring, Rlease, on bus, Shuttle to, or Drink, Terminal A, Food, and Daily Lot 4\nC. Terminal A, 6, and Daily Lot 4, Bring, Food, 7, Do Not, Please, or Drink\nD. end Daily Lot 4, Food, on bus, or Drink, Shuttle to, 7, Bring, Terminal A, Please",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the region bounded by [[1255, 181], [166, Terminal A, or Drink, and Daily Lot 4, Bring, Food, Shuttle to, 7, Do Not, Please4, 181], [166, Terminal A, or Drink, and Daily Lot 4, Bring, Food, Shuttle to, 7, Do Not, Please4, 923], [1255, 923]], are the label(s) '6, Terminal A, or Drink, and Daily Lot 4, Bring, Food, Shuttle to, 7, Do Not, Please' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[1258, 179], [1677, 179], [1677, 921], [1258, 921]], what word(s) do you see? The answer is ________.",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"and D____ot 4\" at [[1535,301], [1685,300], [1685,325], [1535,325]] — what does \"aily L\" fill in to complete it?",
+              "answer": "aily L"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly lists the text(s) inside [[1258, 179], [1677, 179], [1677, 921], [1258, 921]]. Options:\nA. 7, Terminal A, Do Not, Please, Shuttle to, on bus, or Drink, Food, Bring\nB. Do Not, Food, 6, Bring, and Daily Lot 4, Terminal A, on bus, 7, Please\nC. and Daily Lot 4, Food, Please, Shuttle to, Bring, 7, Oo Not, or Drink, on bus\nD. Please, or Drink, Oo Not, Bring, 7, Food, Shuttle to, on bus, and Daily Lot 4",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[1258, 179], [1Food, Bring, on bus, and Daily Lot 4, Please, Shuttle to, Do Not, or Drink77, 179], [1Food, Bring, on bus, and Daily Lot 4, Please, Shuttle to, Do Not, or Drink77, 921], [1258, 921]], can the label(s) 'Food, Bring, on bus, and Daily Lot 4, Please, Shuttle to, Do Not, or Drink' be found?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at [[561, 181], [1680, 181], [1680, 923], [561, 923]] — what word(s) are visible there? The answer is ________.",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus",
+                "6"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the location [[543,257], [558,257], [558,276], [543,276]], what value does \"____\" represent?",
+              "answer": "6"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text visible inside [[1260, 438], [1533, 438], [1533, 923], [1260, 923]]. Options:\nA. or Drink, Please, on bus, Food, Bring\nB. Please, Food, en bus, Do Not, or Drink\nC. on bus, Bring, Oo Not, Food, Please\nD. or Drink, on bus, Food, Please, 7",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food' fall inside the bounding box [[561.1345404Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food01032, 180.8266Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food29Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food89Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, FoodDo Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food88], [16Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food9.Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food05825945896, 180.8266Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food29Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food89Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, FoodDo Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food88], [16Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food9.Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food05825945896, 922.6Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food530Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food0Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food6Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food636], [561.1345404Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food01032, 922.6Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food530Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food0Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food6Do Not, Please, or Drink, and Daily Lot 4, 6, Shuttle to, on bus, Bring, Food636]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Fill in the blank: the text visible inside [[563, 180], [1682, 180], [1682, 922], [563, 922]] is ________.",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus",
+                "6"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Hidden within \"Fo____\" at [[1229,715], [1399,734], [1392,804], [1223,783]] are some letters — can you tell which ones?",
+              "answer": "od"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that contains the text(s) shown in [[1262, 437], [1535, 437], [1535, 922], [1262, 922]]. Options:\nA. 7, on bus, Do Not, or Drink, Food\nB. or Drink, on bus, Pring, Food, Please\nC. Do Not, or Drink, Bring, Please, on bus\nD. or Drink, Oo Not, Food, Please, Bring",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Bring, or Drink, on bus, Do Not, and Daily Lot 4, Please, Food' sit within the region [[1262, 437], [1535, 437], [1535, 922], [1262, 922]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) can be found in [[1264, 181], [1684, 181], [1684, 923], [1264, 923]]? Answer: ________.",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region at [[1190,714], [1360,734], [1353,803], [1183,783]] shows text with \"F____\" covering part of it — what word(s) are hidden?",
+              "answer": "ood"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one lists the text(s) you see in [[1264, 181], [1684, 181], [1684, 923], [1264, 923]]? Options:\nA. or Drink, Terminal A, 7, Please, Bring, Food, on bus, Shuttle to, and Daily Lot 4\nB. and Daily Lot 4, on bus, 6, Please, Shuttle to, 7, Terminal A, Do Not, Bring\nC. Bring, Foed, Terminal A, Please, 7, on bus, Do Not, Shuttle to, or Drink\nD. Rlease, on bus, Terminal A, or Drink, Bring, and Daily Lot 4, Shuttle to, 7, Do Not",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'Food, Bring, on bus, Do Not' lie within the bounding box [[12Food, Bring, on bus, Do Not4, 438], [153Food, Bring, on bus, Do Not, 438], [153Food, Bring, on bus, Do Not, 923], [12Food, Bring, on bus, Do Not4, 923]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text shows up inside [[1267, 182], [1686, 182], [1686, 923], [1267, 923]]? ________.",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Check out [[1400,298], [1519,298], [1519,320], [1400,319]]: the text reads \"Term____ A\" — what character(s) are missing?",
+              "answer": "inal"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly identifies the text(s) inside [[1267, 182], [1686, 182], [1686, 923], [1267, 923]]. Options:\nA. 6, Terminal A, or Drink, 7, and Daily Lot 4, Shuttle to, Please, Bring, Food\nB. on bus, Food, Oo Not, Please, Bring, or Drink, Terminal A, and Daily Lot 4, 7\nC. on bus, Do Not, or Drink, Terminal A, 7, Shuttle to, Please, Food, Bring\nD. Food, Do Not, end Daily Lot 4, or Drink, on bus, Terminal A, Shuttle to, Please, 7",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given [[1267, 438], [1539, 438], [1539, 923], [1267, 923]], do the label(s) 'Food, Do Not, on bus, Bring' appear there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text in [[1270, 182], [1689, 182], [1689, 924], [1270, 924]] and complete this: ________.",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You'll find a phrase ending in \"to\" at [[1372,284], [1476,284], [1476,307], [1372,307]] — what letter(s) belong in \"Sh____\"?",
+              "answer": "uttle"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[1270, 182], [1689, 182], [1689, 924], [1270, 924]] for text and tell me which option matches it. Options:\nA. on bus, and Daily Lot 4, Please, Do Not, Terminal A, or Drink, 6, Bring, Shuttle to\nB. 7, or Drink, Do Not, Food, Terminal A, on bus, and Daily Lot 4, Please, Bring\nC. or Drink, Bring, 7, Terminal A, Food, end Daily Lot 4, Do Not, Please, on bus\nD. en bus, 7, or Drink, Food, Shuttle to, Terminal A, Bring, Do Not, Please",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 4' sit inside the bounding box [[5or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 40.8038021535358, 181.8258246246536], [1689.3or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 4508or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 4629328, 181.8258246246536], [1689.3or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 4508or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 4629328, 923.6or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 44458or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 4224389], [5or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 40.8038021535358, 923.6or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 44458or Drink, Shuttle to, Do Not, 7, 6, Please, Bring, Terminal A, and Daily Lot 4224389]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in [[1275, 181], [1694, 181], [1694, 923], [1275, 923]], what word(s) can you make out? ________.",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Buried in the sequence \"____\" at coordinates [[648,297], [659,297], [659,311], [648,311]] are some digits — which ones?",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of the options below lists the text inside [[1275, 438], [1547, 438], [1547, 923], [1275, 923]] — which is it? Options:\nA. Food, on bus, Bring, Do Not, or Drink\nB. on bus, or Drink, Bring, Please, Foed\nC. on bus, er Drink, Do Not, Please, Food\nD. 7, Please, or Drink, Bring, on bus",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me if the label(s) 'Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 6' are contained within the bounding box [[5Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 63.5509849095951, 181.2899653Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 66495Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 6], [1694.418Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 6213248435, 181.2899653Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 66495Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 6], [1694.418Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 6213248435, 923.1385994Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 642Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 698], [5Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 63.5509849095951, 923.1385994Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 642Terminal A, on bus, or Drink, Shuttle to, Please, Do Not, 7, Food, 698]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the word(s) inside [[1276, 182], [1696, 182], [1696, 923], [1276, 923]] and write your answer here: ________.",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How would you complete the partially visible term \"Foo____\" seen at [[1069,704], [1239,723], [1232,793], [1062,772]]?",
+              "answer": "d"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among Options:\nA. on bus, Please, Bring, 7, Food\nB. Food, Do Not, Bring, or Drink, Shuttle to\nC. on bus, Do Not, or Drink, Food, Please\nD. Food, er Drink, Please, Bring, Do Not, which one contains the text(s) visible inside [[1276, 438], [1548, 438], [1548, 923], [1276, 923]]?",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Considering [[1276, 182], [1696, 182], [1696, 923], [1276, 923]], do the label(s) '7, Bring, Terminal A, Food, Do Not, Please, on bus, or Drink' fall within that bounding box?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[576, 182], [1697, 182], [1697, 924], [576, 924]] — what word(s) appear there? ________",
+              "answer": [
+                "7",
+                "Shuttle to",
+                "Terminal A",
+                "and Daily Lot 4",
+                "Please",
+                "Do Not",
+                "Bring",
+                "Food",
+                "or Drink",
+                "on bus",
+                "6"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[908,514], [1150,534], [1144,613], [903,590]], how does the phrase \"Do ____\" finish?",
+              "answer": "Not"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text(s) visible in [[1278, 439], [1550, 439], [1550, 924], [1278, 924]]. Options:\nA. on bus, Food, Do Not, Bring, or Drink\nB. Shuttle to, Bring, or Drink, Do Not, on bus\nC. Do Not, on bus, 7, Please, Bring\nD. Bring, on bus, Do Not, Foed, Please",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[1278, 182], [1and Daily Lot 4, or Drink, Please, 6, on bus, Do Not, Terminal A, Bring, 7, Shuttle to97, 182], [1and Daily Lot 4, or Drink, Please, 6, on bus, Do Not, Terminal A, Bring, 7, Shuttle to97, 924], [1278, 924]], are the label(s) 'and Daily Lot 4, or Drink, Please, 6, on bus, Do Not, Terminal A, Bring, 7, Shuttle to' actually present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0405/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0405/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[577, 229], [592, 229], [592, 248], [577, 248]] — which word(s) show up there? ________",
+              "answer": [
+                "6"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"on b____\" — what word fills that blank in the area at [[701,792], [925,822], [918,893], [693,859]]?",
+              "answer": "us"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text(s) inside [[1279, 184], [1698, 184], [1698, 926], [1279, 926]] and select the matching option. Options:\nA. on bus, Terminal A, Food, Please, Do Not, Bring, and Daily Lot 4, er Drink, 7\nB. 6, Food, or Drink, and Daily Lot 4, Do Not, Please, Bring, Terminal A, 7\nC. or Drink, Bring, Shuttle to, and Daily Lot 4, Terminal A, Food, on bus, Do Not, Please\nD. on bus, 7, Terminal A, or Drink, Shuttle to, Do Not, end Daily Lot 4, Food, Please",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Food, Do Not, Please, on bus' as the label(s) inside the bounding box [[1279, 441], [1551, 441], [1551, 926], [1279, 926]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0405"
+  }
+]

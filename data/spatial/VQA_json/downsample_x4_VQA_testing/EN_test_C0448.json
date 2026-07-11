@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the text you can see inside [[421, 595], [707, 595], [707, 720], [421, 720]]. ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the coordinates [[424,652], [707,672], [704,720], [421,700]], the sign reads \"Vis____ Center\" — what building does this identify?",
+              "answer": "itor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly lists the text visible inside [[421, 595], [707, 595], [707, 720], [421, 720]]? Options:\nA. AppleDark\nB. Visitor Center\nC. Visitar Center\nD. Vlsitor Center",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'ApplePark' the text that appears inside bounding box [[421.0, 595.0], [707.0, 595.0], [707.0, 720.0], [421.0, 720.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text visible in [[449, 605], [733, 605], [733, 729], [449, 729]]. ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What is the missing text that completes the phrase shown in [[584,636], [819,648], [816,706], [581,694]]: \"Appl____\"?",
+              "answer": "ePark"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly captures the text within [[449, 605], [733, 605], [733, 729], [449, 729]]? Options:\nA. Visitar Center\nB. Vlsitor Center\nC. AppleDark\nD. Visitor Center",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label 'ApplePark' — does it fall within [[449.0, 605.0], [733.0, 605.0], [733.0, 729.0], [449.0, 729.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and write down whatever text appears in [[469, 611], [755, 611], [755, 731], [469, 731]]. ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[499,673], [810,679], [809,727], [498,720]] reads \"____ Center\" — what word fills the blank?",
+              "answer": "Visitor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text found in [[469, 611], [755, 611], [755, 731], [469, 731]]. Options:\nA. AppleDark\nB. ApplePark\nC. ApplePork\nD. App1ePark",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[469.0, 611.0], [755.0, 611.0], [755.0, 731.0], [469.0, 731.0]], do you see the label(s) 'ApplePark'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How does the text inside [[489, 615], [773, 615], [773, 735], [489, 735]] read? ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign at [[492,727], [826,727], [826,774], [492,774]] partially reads \"V____tor Center\" — what's the word that completes it?",
+              "answer": "isi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text visible at [[489, 615], [773, 615], [773, 735], [489, 735]]? Options:\nA. ApplePork\nB. Visitar Center\nC. AppleDark\nD. ApplePark",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Visitor Center, AppleRark' show up within [[489.0, 615.0], [773.0, 615.0], [773.0, 735.0], [489.0, 735.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you find within [[511, 617], [795, 617], [795, 739], [511, 739]]. ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The bounding box [[540,685], [897,679], [898,732], [541,739]] shows text that reads \"Vis____ Center\" — what word goes in the blank?",
+              "answer": "itor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[511, 617], [795, 617], [795, 739], [511, 739]], which answer best captures the text there? Options:\nA. Vlsitor Center\nB. AppleDark\nC. Visitar Center\nD. ApplePark",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[511.0, 617.0], [795.0, 617.0], [795.0, 739.0], [511.0, 739.0]] enclose the label(s) 'ApplePark'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside [[529, 618], [813, 618], [813, 741], [529, 741]]. ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At region [[807,699], [1175,688], [1177,742], [809,753]], the text appears as \"V____ Center\" — fill in what's missing.",
+              "answer": "isitor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text shown in [[529, 618], [813, 618], [813, 741], [529, 741]], which of the following options is correct? Options:\nA. Visitor Center\nB. Visitar Center\nC. AppleDark\nD. ApplePork",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'ApplePark' is the label visible inside [[529.0, 618.0], [813.0, 618.0], [813.0, 741.0], [529.0, 741.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out within [[539, 620], [825, 620], [825, 741], [539, 741]]? ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text in [[1076,731], [1467,724], [1468,778], [1077,784]] reads \"Vis____ Center\" — what word or characters fill in the blank?",
+              "answer": "itor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text found inside [[539, 620], [825, 620], [825, 741], [539, 741]]? Options:\nA. Visitar Center\nB. ApplePark\nC. AppleDark\nD. ApplePork",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[539.0, 620.0], [825.0, 620.0], [825.0, 741.0], [539.0, 741.0]] contain the label(s) 'AppleRark, Visitor Center'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you make out the text inside [[549, 622], [837, 622], [837, 747], [549, 747]]? ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1283,599], [1619,581], [1623,648], [1287,666]], you can see \"Apple____\" with some characters missing — what are they?",
+              "answer": "Park"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text visible in [[549, 622], [837, 622], [837, 747], [549, 747]]? Options:\nA. VisitOr Center\nB. Vlsitor Center\nC. Visitor Center\nD. Visitar Center",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'ApplePark' the correct label for what appears inside [[549.0, 622.0], [837.0, 622.0], [837.0, 747.0], [549.0, 747.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Decode the text visible in the region [[551, 624], [841, 624], [841, 747], [551, 747]]. ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In [[1409,656], [1859,643], [1861,702], [1411,715]], the sign reads \"Vis____ Center\" — which letter(s) are missing?",
+              "answer": "itor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best represents the text shown within [[551, 624], [841, 624], [841, 747], [551, 747]]. Options:\nA. AppleDark\nB. ApplePork\nC. Visitor Center\nD. Visitar Center",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say that 'ApplePark' correctly describes the content inside bounding box [[551.0, 624.0], [841.0, 624.0], [841.0, 747.0], [551.0, 747.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down every word visible inside [[551, 633], [843, 633], [843, 753], [551, 753]]. ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given that the text in bounding box [[1346,643], [1774,643], [1774,697], [1346,697]] reads \"Vis____ Center\", what fills the blank?",
+              "answer": "itor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which correctly captures the text in [[551, 633], [843, 633], [843, 753], [551, 753]]? Options:\nA. Visitar Center\nB. ApplePork\nC. ApplePark\nD. AppleDark",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'ApplePark, Visiter Center' appear within [[551.0, 633.0], [843.0, 633.0], [843.0, 753.0], [551.0, 753.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word you can see inside [[552, 636], [844, 636], [844, 755], [552, 755]]. ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially visible in [[1298,558], [1718,554], [1718,609], [1298,614]] is the phrase \"Vis____ Center\" — can you supply the missing part?",
+              "answer": "itor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on what's visible in [[552, 636], [844, 636], [844, 755], [552, 755]], which of the following options is correct? Options:\nA. AppleDark\nB. ApplePork\nC. Visitar Center\nD. Visitor Center",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'ApplePark' is the right label for the content inside [[552.0, 636.0], [844.0, 636.0], [844.0, 755.0], [552.0, 755.0]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0448/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0448/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you transcribe the text found inside [[547, 641], [843, 641], [843, 759], [547, 759]]? ________",
+              "answer": [
+                "ApplePark",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over in [[993,609], [1300,614], [1299,675], [992,671]], the text shows \"AppleP____\" but a segment is cut off — what is it?",
+              "answer": "ark"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which option accurately reflects the text inside [[547, 641], [843, 641], [843, 759], [547, 759]]? Options:\nA. Visitar Center\nB. Vlsitor Center\nC. ApplePark\nD. AppleDark",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'ApplePark' fall within the area marked by [[547.0, 641.0], [843.0, 641.0], [843.0, 759.0], [547.0, 759.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0448"
+  }
+]

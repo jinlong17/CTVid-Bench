@@ -1,9 +1,13 @@
 # Spatial QA Test Set Review Report
 
 **Dataset**: Text-Centric VideoQA for Spatial Understanding  
-**Location**: `data/spatial_qa/annotations/` (GT / blur / downsample_x4)  
+**Current release location**: `data/spatial/VQA_json/` (GT / blur / downsample_x4)
 **Review Date**: 2026-05-22  
 **Reviewed By**: Automated audit + manual inspection  
+
+> Status note, 2026-07-07: this report was written before the QA-v2 release
+> freeze. The current public release has 389 official clip JSON files per method;
+> `all_true_false.json` is no longer in the public per-clip annotation folders.
 
 ---
 
@@ -12,7 +16,7 @@
 | Metric | Value |
 |--------|-------|
 | Methods (open-source) | GT · blur · downsample_x4 |
-| Video clips (per method) | GT: 390 files · blur: 389 · downsample_x4: 389 |
+| Video clips (per method) | 389 official clip JSON files |
 | Total QA pairs (per method) | **14,770** |
 | Question types | fill_in_blank · fill_in · multiple_choice · true_false |
 | Languages | Chinese (CHN) · English (EN) · Hardcase |
@@ -81,15 +85,18 @@ or (b) merge into one type with a unified list-based evaluator. Update metric la
 
 ### 🟡 MEDIUM — GT has 390 annotation files vs 389 for blur/downsample_x4
 
-**Finding**: `GT_VQA_testing/` contains one extra file: `all_true_false.json` (3,713 entries,
-flat list aggregating all GT true/false QA pairs).
+**Historical finding**: `GT_VQA_testing/` contained one extra file:
+`all_true_false.json` (3,713 entries, flat list aggregating all GT true/false QA
+pairs).
 
 **Impact**: This file is a utility aggregation artifact, NOT an additional test clip. However,
 if evaluation scripts glob `*.json` from the annotation directory, they will accidentally load
 this file and double-count all true/false questions for GT.
 
-**Recommendation**: Move `all_true_false.json` out of the annotation directory (e.g., to
-`data/spatial_qa/utils/`) before public release to avoid confusion.
+**Current status**: Resolved in the 2026-07-07 release freeze and public repo
+copy. `all_true_false.json` is preserved only under the internal
+`legacy_aggregates/spatial_true_false/` archive and is not part of
+`data/spatial/VQA_json/*_VQA_testing/`.
 
 ---
 
@@ -119,7 +126,7 @@ have exactly 4 options and that the correct answer key is always among A–D.
 
 ```python
 import json, glob
-for f in glob.glob("data/spatial_qa/annotations/GT_VQA_testing/*.json"):
+for f in glob.glob("data/spatial/VQA_json/GT_VQA_testing/*.json"):
     data = json.load(open(f))
     for clip in data:
         for qf in clip.get("questions", []):
@@ -165,7 +172,7 @@ the paper's reported numbers on the GT set:
 ## 4. Release Checklist
 
 - [ ] Decide and document `fill_in` evaluation policy (any-match vs first-match vs set-match)
-- [ ] Move `all_true_false.json` out of `GT_VQA_testing/` annotation directory
+- [x] Move `all_true_false.json` out of `GT_VQA_testing/` annotation directory
 - [ ] Add validation script output to README (confirm 0 errors)
 - [ ] Add `data/spatial_qa/README.md` with: question type definitions, answer format spec, evaluation policy
 - [ ] Upload images to HuggingFace: GT (9.0 GB) · blur (8.7 GB) · downsample_x4 (1.1 GB)

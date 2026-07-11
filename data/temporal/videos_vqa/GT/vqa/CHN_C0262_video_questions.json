@@ -1,0 +1,312 @@
+{
+  "video_id": "C0262",
+  "frames": 120,
+  "word": "花木共赏 人人呵护",
+  "video_path": "temporal/videos_vqa/GT/videos/CHN_C0262.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"花木共赏 人人呵护\" likely to be?\n Options:\nA. storefront or brand sign\nB. menu or commercial information\nC. general scene text\nD. event or poster information\nE. warning or prohibition sign\nF. address or street sign\nG. direction or navigation sign",
+      "q": "写着「花木共赏 人人呵护」的那段文字，猜猜看是哪种类型的标牌？\n Options:\nA. storefront or brand sign\nB. menu or commercial information\nC. general scene text\nD. event or poster information\nE. warning or prohibition sign\nF. address or street sign\nG. direction or navigation sign",
+      "a": "E",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. storefront or brand sign",
+        "B. menu or commercial information",
+        "C. general scene text",
+        "D. event or poster information",
+        "E. warning or prohibition sign",
+        "F. address or street sign",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「花木共赏 人人呵护」的那段文字，猜猜看是哪种类型的标牌？\n Options:\nA. storefront or brand sign\nB. menu or commercial information\nC. general scene text\nD. event or poster information\nE. warning or prohibition sign\nF. address or street sign\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"花木共赏 人人呵护\" appear in?\n Options:\nA. warning / rule sign\nB. other public sign\nC. event poster or display\nD. restaurant or menu\nE. campus or office\nF. transportation / station\nG. storefront\nH. road or street",
+      "q": "你觉得「花木共赏 人人呵护」这段文字，是出现在什么样的场景里？\n Options:\nA. warning / rule sign\nB. other public sign\nC. event poster or display\nD. restaurant or menu\nE. campus or office\nF. transportation / station\nG. storefront\nH. road or street",
+      "a": "A",
+      "a_text": "warning / rule sign",
+      "answer_key": "warning / rule sign",
+      "options": [
+        "A. warning / rule sign",
+        "B. other public sign",
+        "C. event poster or display",
+        "D. restaurant or menu",
+        "E. campus or office",
+        "F. transportation / station",
+        "G. storefront",
+        "H. road or street"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你觉得「花木共赏 人人呵护」这段文字，是出现在什么样的场景里？\n Options:\nA. warning / rule sign\nB. other public sign\nC. event poster or display\nD. restaurant or menu\nE. campus or office\nF. transportation / station\nG. storefront\nH. road or street"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"花木共赏 人人呵护\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)",
+      "q": "纵观整段视频，「花木共赏 人人呵护」这段文字主要在画面哪个位置出现？\n Options:\nA. bottom-left (lower-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)",
+      "a": "C",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. top-right (upper-right area)",
+        "C. center (middle of the frame)",
+        "D. bottom-right (lower-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "纵观整段视频，「花木共赏 人人呵护」这段文字主要在画面哪个位置出现？\n Options:\nA. bottom-left (lower-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"花木共赏 人人呵护\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "前前后后看下来，「花木共赏 人人呵护」的位置移动了多大幅度？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "B",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "前前后后看下来，「花木共赏 人人呵护」的位置移动了多大幅度？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"花木共赏 人人呵护\" move?\n Options:\nA. moves diagonally\nB. moves up\nC. moves down\nD. stays roughly in place\nE. moves right\nF. moves left\nG. changes direction partway",
+      "q": "总体来看，「花木共赏 人人呵护」是朝哪个方向运动的？\n Options:\nA. moves diagonally\nB. moves up\nC. moves down\nD. stays roughly in place\nE. moves right\nF. moves left\nG. changes direction partway",
+      "a": "A",
+      "a_text": "moves diagonally",
+      "answer_key": "moves diagonally",
+      "options": [
+        "A. moves diagonally",
+        "B. moves up",
+        "C. moves down",
+        "D. stays roughly in place",
+        "E. moves right",
+        "F. moves left",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「花木共赏 人人呵护」是朝哪个方向运动的？\n Options:\nA. moves diagonally\nB. moves up\nC. moves down\nD. stays roughly in place\nE. moves right\nF. moves left\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"花木共赏 人人呵护\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-left -> bottom-right\nB. center -> top-right -> bottom-right\nC. center -> center -> bottom-right\nD. center -> center -> bottom-left",
+      "q": "注意看「花木共赏 人人呵护」这段文字——它在视频开头、中段、尾声时，分别停在画面哪里？\n Options:\nA. center -> top-left -> bottom-right\nB. center -> top-right -> bottom-right\nC. center -> center -> bottom-right\nD. center -> center -> bottom-left",
+      "a": "C",
+      "a_text": "center -> center -> bottom-right",
+      "answer_key": "center -> center -> bottom-right",
+      "options": [
+        "A. center -> top-left -> bottom-right",
+        "B. center -> top-right -> bottom-right",
+        "C. center -> center -> bottom-right",
+        "D. center -> center -> bottom-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "注意看「花木共赏 人人呵护」这段文字——它在视频开头、中段、尾声时，分别停在画面哪里？\n Options:\nA. center -> top-left -> bottom-right\nB. center -> top-right -> bottom-right\nC. center -> center -> bottom-right\nD. center -> center -> bottom-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"花木共赏 人人呵护\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "相对画面来说，「花木共赏 人人呵护」的字体尺寸算大的还是小的？\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "B",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. small (a minor part of the frame)",
+        "C. large (a major part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "相对画面来说，「花木共赏 人人呵护」的字体尺寸算大的还是小的？\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. large (a major part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"花木共赏 人人呵护\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "q": "看视频的时候，「花木共赏 人人呵护」这段文字的大小有明显变化吗？是增大、缩小，还是差不多一直这么大？\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. gets smaller",
+        "C. size fluctuates (goes up and down)",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看视频的时候，「花木共赏 人人呵护」这段文字的大小有明显变化吗？是增大、缩小，还是差不多一直这么大？\n Options:\nA. stays about the same size\nB. gets smaller\nC. size fluctuates (goes up and down)\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"花木共赏 人人呵护\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "q": "视频里，写着「花木共赏 人人呵护」的文字，是靠近画面边缘，还是在画面内部区域？\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. touches or runs off an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里，写着「花木共赏 人人呵护」的文字，是靠近画面边缘，还是在画面内部区域？\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"花木共赏 人人呵护\" and how it appears in the video.",
+      "q": "简单描述一下「花木共赏 人人呵护」这段文字，以及它在视频中是怎么出现和呈现的。",
+      "a": "The text is written in black Chinese characters at the top of a white rectangular warning sign positioned in front of a large tree.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "简单描述一下「花木共赏 人人呵护」这段文字，以及它在视频中是怎么出现和呈现的。"
+    }
+  ]
+}

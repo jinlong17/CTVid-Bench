@@ -1,0 +1,313 @@
+{
+  "video_id": "C0107",
+  "frames": 120,
+  "word": "STANFORD ATHLETICS | THE HOME OF CHAMPIONS",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/EN_C0107.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" likely to be?\n Options:\nA. address or street sign\nB. menu or commercial information\nC. event or poster information\nD. direction or navigation sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. general scene text",
+      "q": "Looking at the text that says \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\", what type of sign does it appear to be?\n Options:\nA. address or street sign\nB. menu or commercial information\nC. event or poster information\nD. direction or navigation sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. general scene text",
+      "a": "C",
+      "a_text": "event or poster information",
+      "answer_key": "event or poster information",
+      "options": [
+        "A. address or street sign",
+        "B. menu or commercial information",
+        "C. event or poster information",
+        "D. direction or navigation sign",
+        "E. warning or prohibition sign",
+        "F. storefront or brand sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Looking at the text that says \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\", what type of sign does it appear to be?\n Options:\nA. address or street sign\nB. menu or commercial information\nC. event or poster information\nD. direction or navigation sign\nE. warning or prohibition sign\nF. storefront or brand sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" appear in?\n Options:\nA. road or street\nB. other public sign\nC. campus or office\nD. restaurant or menu\nE. storefront\nF. transportation / station\nG. warning / rule sign\nH. event poster or display",
+      "q": "The text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" — what kind of scene or setting does it appear in?\n Options:\nA. road or street\nB. other public sign\nC. campus or office\nD. restaurant or menu\nE. storefront\nF. transportation / station\nG. warning / rule sign\nH. event poster or display",
+      "a": "H",
+      "a_text": "event poster or display",
+      "answer_key": "event poster or display",
+      "options": [
+        "A. road or street",
+        "B. other public sign",
+        "C. campus or office",
+        "D. restaurant or menu",
+        "E. storefront",
+        "F. transportation / station",
+        "G. warning / rule sign",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" — what kind of scene or setting does it appear in?\n Options:\nA. road or street\nB. other public sign\nC. campus or office\nD. restaurant or menu\nE. storefront\nF. transportation / station\nG. warning / rule sign\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. bottom-right (lower-right area)",
+      "q": "Thinking about the video overall, whereabouts in the frame does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" tend to sit?\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. bottom-right (lower-right area)",
+      "a": "C",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. bottom-left (lower-left area)",
+        "C. center (middle of the frame)",
+        "D. top-right (upper-right area)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Thinking about the video overall, whereabouts in the frame does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" tend to sit?\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "How much does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" shift around as the clip plays?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" shift around as the clip plays?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" move?\n Options:\nA. moves right\nB. moves up\nC. moves diagonally\nD. changes direction partway\nE. stays roughly in place\nF. moves down\nG. moves left",
+      "q": "If you had to pick a direction, which way does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" generally move through the video?\n Options:\nA. moves right\nB. moves up\nC. moves diagonally\nD. changes direction partway\nE. stays roughly in place\nF. moves down\nG. moves left",
+      "a": "B",
+      "a_text": "moves up",
+      "answer_key": "moves up",
+      "options": [
+        "A. moves right",
+        "B. moves up",
+        "C. moves diagonally",
+        "D. changes direction partway",
+        "E. stays roughly in place",
+        "F. moves down",
+        "G. moves left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "If you had to pick a direction, which way does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" generally move through the video?\n Options:\nA. moves right\nB. moves up\nC. moves diagonally\nD. changes direction partway\nE. stays roughly in place\nF. moves down\nG. moves left"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> center -> center\nB. top-left -> center -> center\nC. bottom-right -> center -> center\nD. center -> center -> center",
+      "q": "Can you describe where the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" is positioned near the start, midway through, and toward the end of the clip?\n Options:\nA. top-right -> center -> center\nB. top-left -> center -> center\nC. bottom-right -> center -> center\nD. center -> center -> center",
+      "a": "C",
+      "a_text": "bottom-right -> center -> center",
+      "answer_key": "bottom-right -> center -> center",
+      "options": [
+        "A. top-right -> center -> center",
+        "B. top-left -> center -> center",
+        "C. bottom-right -> center -> center",
+        "D. center -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you describe where the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" is positioned near the start, midway through, and toward the end of the clip?\n Options:\nA. top-right -> center -> center\nB. top-left -> center -> center\nC. bottom-right -> center -> center\nD. center -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)",
+      "q": "On screen, how big does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" appear?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)",
+      "a": "A",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. very large (dominates the frame)",
+        "C. small (a minor part of the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "On screen, how big does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" appear?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "q": "As the video plays, does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" grow larger, shrink, or stay roughly the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "a": "A",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. gets larger",
+        "B. stays about the same size",
+        "C. gets smaller",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "As the video plays, does the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" grow larger, shrink, or stay roughly the same size?\n Options:\nA. gets larger\nB. stays about the same size\nC. gets smaller\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "q": "Is the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" comfortably within the frame, or does it sit close to an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. fully inside, away from the edges",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" comfortably within the frame, or does it sit close to an edge?\n Options:\nA. comes close to an edge\nB. fully inside, away from the edges\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" and how it appears in the video.",
+      "q": "Give a brief description of the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" — what it looks like and how it behaves throughout the video.",
+      "a": "The text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" is displayed in white capital letters on a red illuminated poster featuring several athletes.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of the text \"STANFORD ATHLETICS | THE HOME OF CHAMPIONS\" — what it looks like and how it behaves throughout the video."
+    }
+  ],
+  "method": "downsample_x4"
+}

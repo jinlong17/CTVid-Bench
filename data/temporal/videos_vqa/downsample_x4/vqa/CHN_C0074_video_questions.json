@@ -1,0 +1,313 @@
+{
+  "video_id": "C0074",
+  "frames": 120,
+  "word": "小心台阶\nMIND YOUR STEPS",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0074.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "mixed",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"小心台阶\nMIND YOUR STEPS\" likely to be?\n Options:\nA. direction or navigation sign\nB. general scene text\nC. warning or prohibition sign\nD. address or street sign\nE. event or poster information\nF. storefront or brand sign\nG. menu or commercial information",
+      "q": "写着「小心台阶\nMIND YOUR STEPS」的文字，看起来像是哪类标识？\n Options:\nA. direction or navigation sign\nB. general scene text\nC. warning or prohibition sign\nD. address or street sign\nE. event or poster information\nF. storefront or brand sign\nG. menu or commercial information",
+      "a": "C",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. direction or navigation sign",
+        "B. general scene text",
+        "C. warning or prohibition sign",
+        "D. address or street sign",
+        "E. event or poster information",
+        "F. storefront or brand sign",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「小心台阶\nMIND YOUR STEPS」的文字，看起来像是哪类标识？\n Options:\nA. direction or navigation sign\nB. general scene text\nC. warning or prohibition sign\nD. address or street sign\nE. event or poster information\nF. storefront or brand sign\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"小心台阶\nMIND YOUR STEPS\" appear in?\n Options:\nA. event poster or display\nB. transportation / station\nC. storefront\nD. warning / rule sign\nE. road or street\nF. other public sign\nG. campus or office\nH. restaurant or menu",
+      "q": "这段视频里，「小心台阶\nMIND YOUR STEPS」出现在什么样的场合里？\n Options:\nA. event poster or display\nB. transportation / station\nC. storefront\nD. warning / rule sign\nE. road or street\nF. other public sign\nG. campus or office\nH. restaurant or menu",
+      "a": "D",
+      "a_text": "warning / rule sign",
+      "answer_key": "warning / rule sign",
+      "options": [
+        "A. event poster or display",
+        "B. transportation / station",
+        "C. storefront",
+        "D. warning / rule sign",
+        "E. road or street",
+        "F. other public sign",
+        "G. campus or office",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「小心台阶\nMIND YOUR STEPS」出现在什么样的场合里？\n Options:\nA. event poster or display\nB. transportation / station\nC. storefront\nD. warning / rule sign\nE. road or street\nF. other public sign\nG. campus or office\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"小心台阶\nMIND YOUR STEPS\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)",
+      "q": "在整个视频中，「小心台阶\nMIND YOUR STEPS」主要停在画面哪个位置？\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)",
+      "a": "C",
+      "a_text": "bottom-right (lower-right area)",
+      "answer_key": "bottom-right",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. top-left (upper-left area)",
+        "C. bottom-right (lower-right area)",
+        "D. bottom-left (lower-left area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在整个视频中，「小心台阶\nMIND YOUR STEPS」主要停在画面哪个位置？\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"小心台阶\nMIND YOUR STEPS\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "片段播完之后，「小心台阶\nMIND YOUR STEPS」这段文字前后位移了多少？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "C",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "片段播完之后，「小心台阶\nMIND YOUR STEPS」这段文字前后位移了多少？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"小心台阶\nMIND YOUR STEPS\" move?\n Options:\nA. moves up\nB. moves right\nC. changes direction partway\nD. stays roughly in place\nE. moves down\nF. moves diagonally\nG. moves left",
+      "q": "观看这段视频，「小心台阶\nMIND YOUR STEPS」整体上是往哪个方向移动的？\n Options:\nA. moves up\nB. moves right\nC. changes direction partway\nD. stays roughly in place\nE. moves down\nF. moves diagonally\nG. moves left",
+      "a": "A",
+      "a_text": "moves up",
+      "answer_key": "moves up",
+      "options": [
+        "A. moves up",
+        "B. moves right",
+        "C. changes direction partway",
+        "D. stays roughly in place",
+        "E. moves down",
+        "F. moves diagonally",
+        "G. moves left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "观看这段视频，「小心台阶\nMIND YOUR STEPS」整体上是往哪个方向移动的？\n Options:\nA. moves up\nB. moves right\nC. changes direction partway\nD. stays roughly in place\nE. moves down\nF. moves diagonally\nG. moves left"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"小心台阶\nMIND YOUR STEPS\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> bottom-right -> top-right\nB. center -> bottom-right -> bottom-right\nC. top-right -> bottom-right -> bottom-right\nD. bottom-right -> bottom-right -> bottom-right",
+      "q": "从片头到片尾，「小心台阶\nMIND YOUR STEPS」的位置有什么变化？开头、中段、结尾各在哪里？\n Options:\nA. bottom-right -> bottom-right -> top-right\nB. center -> bottom-right -> bottom-right\nC. top-right -> bottom-right -> bottom-right\nD. bottom-right -> bottom-right -> bottom-right",
+      "a": "D",
+      "a_text": "bottom-right -> bottom-right -> bottom-right",
+      "answer_key": "bottom-right -> bottom-right -> bottom-right",
+      "options": [
+        "A. bottom-right -> bottom-right -> top-right",
+        "B. center -> bottom-right -> bottom-right",
+        "C. top-right -> bottom-right -> bottom-right",
+        "D. bottom-right -> bottom-right -> bottom-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从片头到片尾，「小心台阶\nMIND YOUR STEPS」的位置有什么变化？开头、中段、结尾各在哪里？\n Options:\nA. bottom-right -> bottom-right -> top-right\nB. center -> bottom-right -> bottom-right\nC. top-right -> bottom-right -> bottom-right\nD. bottom-right -> bottom-right -> bottom-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"小心台阶\nMIND YOUR STEPS\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "q": "「小心台阶\nMIND YOUR STEPS」这几个字在画面里算大字还是小字？\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "a": "C",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. small (a minor part of the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「小心台阶\nMIND YOUR STEPS」这几个字在画面里算大字还是小字？\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"小心台阶\nMIND YOUR STEPS\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. gets larger\nC. size fluctuates (goes up and down)\nD. stays about the same size",
+      "q": "视频播放过程中，「小心台阶\nMIND YOUR STEPS」的大小有没有明显变化——变大了、变小了，还是差不多一直这么大？\n Options:\nA. gets smaller\nB. gets larger\nC. size fluctuates (goes up and down)\nD. stays about the same size",
+      "a": "B",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. gets smaller",
+        "B. gets larger",
+        "C. size fluctuates (goes up and down)",
+        "D. stays about the same size"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播放过程中，「小心台阶\nMIND YOUR STEPS」的大小有没有明显变化——变大了、变小了，还是差不多一直这么大？\n Options:\nA. gets smaller\nB. gets larger\nC. size fluctuates (goes up and down)\nD. stays about the same size"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"小心台阶\nMIND YOUR STEPS\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "那段写着「小心台阶\nMIND YOUR STEPS」的文字，它离画面边缘近吗，还是基本待在画面里面？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "那段写着「小心台阶\nMIND YOUR STEPS」的文字，它离画面边缘近吗，还是基本待在画面里面？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"小心台阶\nMIND YOUR STEPS\" and how it appears in the video.",
+      "q": "能说说「小心台阶\nMIND YOUR STEPS」这段文字在视频里的整体表现吗？比如它看起来怎么样、大概在哪里出现？",
+      "a": "A dark rectangular warning sign on a stone stair riser displays the target text next to a staircase icon.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能说说「小心台阶\nMIND YOUR STEPS」这段文字在视频里的整体表现吗？比如它看起来怎么样、大概在哪里出现？"
+    }
+  ],
+  "method": "downsample_x4"
+}

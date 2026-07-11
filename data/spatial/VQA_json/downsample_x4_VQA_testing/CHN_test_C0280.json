@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you describe the word(s) visible at [[790.5759162303663, 176.9109947643979], [1302.0942408376961, 176.9109947643979], [1302.0942408376961, 300.0], [790.5759162303663, 300.0]]? Fill in: ________.",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the bounding box at [[863,256], [1238,268], [1237,300], [862,288]] you can make out a place name connected with dining and travel, but part of it is hidden: \"TE____ALRESTAURANT\". What's the missing piece?",
+              "answer": "RMIN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[791, 177], [1302, 177], [1302, 300], [791, 300]], which answer correctly captures the text shown there? Options:\nA. 侯机楼餐厅\nB. 倏机楼餐厅\nC. 候机楼餐厅\nD. 偰机楼餐厅",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'TERMINALRESTAURANT' is contained within the bounding box [[790.5759162303663, 176.9109947643979], [1302.0942408376961, 176.9109947643979], [1302.0942408376961, 300.0], [790.5759162303663, 300.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and write the word(s) you see in [[791, 178], [1302, 178], [1302, 303], [791, 303]]: ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "框出坐标 [[800,173], [1301,197], [1302,272], [791,252]] 的那段文字里有一处残缺，残缺内容标为\"候机楼____厅\"，你能把它补全吗？",
+              "answer": "餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you read at [[791, 178], [1302, 178], [1302, 303], [791, 303]]? Pick the option that matches. Options:\nA. TERMINALRBSTAURANT\nB. TERMINALRESIAURANT\nC. 倏机楼餐厅\nD. TERMINALRESTAURANT",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can I confirm that '候机楼餐厅' falls inside the region marked by [[790.5759162303663, 177.68618856284752], [1302.0942408376961, 177.68618856284752], [1302.0942408376961, 303.1007751937985], [790.5759162303663, 303.1007751937985]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears inside the region [[790, 178], [1302, 178], [1302, 304], [790, 304]]. ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "框选区域[[802,173], [1303,197], [1304,272], [792,252]]内的文字\"候机楼____厅\"，请补全其中缺失的内容。",
+              "answer": "餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area bounded by [[790, 178], [1302, 178], [1302, 304], [790, 304]], which answer correctly lists the text visible there? Options:\nA. TERMINALRESIAURANT\nB. 偰机楼餐厅\nC. 候机楼餐厅\nD. 倏机楼餐厅",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '倏机楼餐厅, TERMINALRESTAURANT' actually visible inside the box region [[790.1660801647926, 178.41188554520107], [1301.6844047721224, 178.41188554520107], [1301.6844047721224, 303.73771786895776], [790.1660801647926, 303.73771786895776]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text found in region [[791, 179], [1302, 179], [1302, 305], [791, 305]] and write it here: ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[869,250], [1244,262], [1243,294], [868,282]] reads \"TERM____LRESTAURANT\" — what characters are missing from it?",
+              "answer": "INA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[791, 179], [1302, 179], [1302, 305], [791, 305]] contains certain text — which answer matches it? Options:\nA. 候机楼餐厅\nB. 倏机楼餐厅\nC. 偰机楼餐厅\nD. TERMINALRESIAURANT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[790.965021288732, 179.31448170518067], [1302.483345896062, 179.31448170518067], [1302.483345896062, 304.51291166740737], [790.965021288732, 304.51291166740737]] contain the label(s) 'TERMINALPESTAURANT, 候机楼餐厅'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the words inside [[789.9978815482854, 177.98072852823907], [1301.5162061556152, 177.98072852823907], [1301.5162061556152, 304.51291166740737], [789.9978815482854, 304.51291166740737]] and fill in your answer: ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[782,137], [1283,161], [1284,236], [772,216]]坐标范围内的文字\"候机楼____厅\"，缺少了哪些字符？",
+              "answer": "餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text does region [[790, 178], [1302, 178], [1302, 305], [790, 305]] contain, and which answer choice reflects it? Options:\nA. 偰机楼餐厅\nB. 倏机楼餐厅\nC. 候机楼餐厅\nD. TERMINALRESIAURANT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '候机楼餐厅, TERMINALPESTAURANT' sit inside the bounding box [[789.9978815482854, 177.98072852823907], [1301.5162061556152, 177.98072852823907], [1301.5162061556152, 304.51291166740737], [789.9978815482854, 304.51291166740737]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out whatever text you can read inside [[791, 173], [1303, 173], [1303, 302], [791, 302]]: ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Look at what's written in [[831,192], [1206,204], [1205,236], [830,224]] — what's the missing piece in \"TERMINALREST____ANT\"?",
+              "answer": "AUR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Exactly one of these options matches the text in [[791, 173], [1303, 173], [1303, 302], [791, 302]] — find it. Options:\nA. 倏机楼餐厅\nB. TERMINALRESIAURANT\nC. 候机楼餐厅\nD. 偰机楼餐厅",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '倏机楼餐厅, TERMINALRESTAURANT' falls within the bounding box region [[791.2273897450067, 173.06269574135382], [1302.7457143523366, 173.06269574135382], [1302.7457143523366, 301.89511062028697], [791.2273897450067, 301.89511062028697]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify and write down the text contained in the region [[790, 174], [1302, 174], [1302, 302], [790, 302]]: ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框[[713,95], [1214,119], [1215,194], [703,174]]中出现的文字\"候机楼____厅\"，其中空白处应填入什么？",
+              "answer": "餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the answer that accurately reflects the text visible in [[790, 174], [1302, 174], [1302, 302], [790, 302]]. Options:\nA. 偰机楼餐厅\nB. TERMINALRESIAURANT\nC. 倏机楼餐厅\nD. 候机楼餐厅",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the box at [[790.4718151975745, 174.1892593339263], [1301.9901398049044, 174.1892593339263], [1301.9901398049044, 301.89511062028697], [790.4718151975745, 301.89511062028697]] — is 'TERMINALRESTAURANT' one of the labels shown there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[791, 175], [1303, 175], [1303, 302], [791, 302]], what text can you make out? ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请观察边界框[[646,79], [1147,103], [1148,177], [636,158]]内的内容，补全文字\"候机楼____\"中缺失的字符。",
+              "answer": "餐厅"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Only one answer correctly captures the text in [[791, 175], [1303, 175], [1303, 302], [791, 302]] — which is it? Options:\nA. TERMINALRESIAURANT\nB. TERMINALRESTAURANI\nC. TERMINALRESTAURANT\nD. TERMINALRBSTAURANT",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[791.285435196354, 174.5472521333893], [1302.803759803684, 174.5472521333893], [1302.803759803684, 301.89511062028697], [791.285435196354, 301.89511062028697]] — do you see the label(s) 'TERMINALRESTAURANT' inside?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[791, 173], [1302, 173], [1302, 300], [791, 300]] and write it down: ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框[[586,87], [1087,111], [1088,185], [577,166]]内的文字中，\"候机楼____厅\"里缺失了什么内容？",
+              "answer": "餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text shown inside [[791, 173], [1302, 173], [1302, 300], [791, 300]]. Options:\nA. 倏机楼餐厅\nB. TERMINALRESTAURANT\nC. TERMINALRESIAURANT\nD. 偰机楼餐厅",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[790.5787214154352, 173.13382457155186], [1302.0970460227652, 173.13382457155186], [1302.0970460227652, 300.4816830584495], [790.5787214154352, 300.4816830584495]] contain the label(s) 'TERMINALRESTAURANT, 倏机楼餐厅'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Look at the region marked by [[791, 173], [1302, 173], [1302, 300], [791, 300]] — what word(s) appear there? ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看[[541,89], [1042,113], [1043,188], [531,168]]区域里，\"____厅\"缺少了哪个字，把地点名称补充完整。",
+              "answer": "候机楼餐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text visible in [[791, 173], [1302, 173], [1302, 300], [791, 300]] and pick the option that matches it. Options:\nA. TERMINALRESIAURANT\nB. TERMINALRESTAURANT\nC. 倏机楼餐厅\nD. TERMINALRBSTAURANT",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'TERMINALRESTAURANT, 倏机楼餐厅' appears inside the bounding box [[790.5787214154352, 173.13382457155186], [1302.0970460227652, 173.13382457155186], [1302.0970460227652, 300.4816830584495], [790.5787214154352, 300.4816830584495]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word visible inside [[791, 173], [1302, 173], [1302, 300], [791, 300]]: ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看[[501,99], [1002,123], [1003,198], [492,178]]范围内的文字，\"候机楼____\"中空缺的是什么？",
+              "answer": "餐厅"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[791, 173], [1302, 173], [1302, 300], [791, 300]] matches one of the options below — which one is it? Options:\nA. TERMINALRESIAURANT\nB. TERMINALRESTAURANT\nC. 倏机楼餐厅\nD. 偰机楼餐厅",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '倏机楼餐厅, TERMINALRESTAURANT' the text that appears inside the bounding box [[790.5787214154352, 173.13382457155186], [1302.0970460227652, 173.13382457155186], [1302.0970460227652, 300.4816830584495], [790.5787214154352, 300.4816830584495]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0280/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0280/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area bounded by [[790.5787214154352, 173.13382457155186], [1302.0970460227652, 173.13382457155186], [1302.0970460227652, 300.4816830584495], [790.5787214154352, 300.4816830584495]], what word(s) do you see there? ________",
+              "answer": [
+                "TERMINALRESTAURANT",
+                "候机楼餐厅"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text region [[489,179], [880,194], [880,224], [487,209]] has a gap — what goes in place of \"____RESTAURANT\"?",
+              "answer": "TERMINAL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and choose the option that correctly shows the text found in [[791, 173], [1302, 173], [1302, 300], [791, 300]]. Options:\nA. TERMINALRESTAURANI\nB. TERMINALRESIAURANT\nC. TERMINALRBSTAURANT\nD. TERMINALRESTAURANT",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '候机楼餐厅, TERMINALPESTAURANT' inside the bounding box [[790.5787214154352, 173.13382457155186], [1302.0970460227652, 173.13382457155186], [1302.0970460227652, 300.4816830584495], [790.5787214154352, 300.4816830584495]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0280"
+  }
+]

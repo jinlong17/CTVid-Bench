@@ -1,0 +1,313 @@
+{
+  "video_id": "C0261",
+  "frames": 120,
+  "word": "孙中山故居\nThe Former Residence of Dr. Sun Yat-sen",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0261.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "mixed",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" likely to be?\n Options:\nA. event or poster information\nB. menu or commercial information\nC. storefront or brand sign\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. direction or navigation sign",
+      "q": "写着「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的这块文字，看起来像是什么类型的标牌？\n Options:\nA. event or poster information\nB. menu or commercial information\nC. storefront or brand sign\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. direction or navigation sign",
+      "a": "G",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. event or poster information",
+        "B. menu or commercial information",
+        "C. storefront or brand sign",
+        "D. general scene text",
+        "E. warning or prohibition sign",
+        "F. address or street sign",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的这块文字，看起来像是什么类型的标牌？\n Options:\nA. event or poster information\nB. menu or commercial information\nC. storefront or brand sign\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" appear in?\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. event poster or display\nE. restaurant or menu\nF. transportation / station\nG. road or street\nH. warning / rule sign",
+      "q": "「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这段文字出现在什么样的场景当中？\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. event poster or display\nE. restaurant or menu\nF. transportation / station\nG. road or street\nH. warning / rule sign",
+      "a": "A",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. other public sign",
+        "B. storefront",
+        "C. campus or office",
+        "D. event poster or display",
+        "E. restaurant or menu",
+        "F. transportation / station",
+        "G. road or street",
+        "H. warning / rule sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这段文字出现在什么样的场景当中？\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. event poster or display\nE. restaurant or menu\nF. transportation / station\nG. road or street\nH. warning / rule sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)",
+      "q": "视频播放时，写有「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的文字大多出现在画面哪个位置？\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)",
+      "a": "A",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. bottom-left (lower-left area)",
+        "C. top-left (upper-left area)",
+        "D. bottom-right (lower-right area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频播放时，写有「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的文字大多出现在画面哪个位置？\n Options:\nA. top-right (upper-right area)\nB. bottom-left (lower-left area)\nC. top-left (upper-left area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "整段视频看下来，「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这行文字的位置变动幅度大不大？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "C",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整段视频看下来，「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这行文字的位置变动幅度大不大？\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" move?\n Options:\nA. moves down\nB. moves up\nC. stays roughly in place\nD. moves diagonally\nE. moves right\nF. moves left\nG. changes direction partway",
+      "q": "注意一下写着「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的那段文字，它总体上朝哪个方向移动？\n Options:\nA. moves down\nB. moves up\nC. stays roughly in place\nD. moves diagonally\nE. moves right\nF. moves left\nG. changes direction partway",
+      "a": "E",
+      "a_text": "moves right",
+      "answer_key": "moves right",
+      "options": [
+        "A. moves down",
+        "B. moves up",
+        "C. stays roughly in place",
+        "D. moves diagonally",
+        "E. moves right",
+        "F. moves left",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "注意一下写着「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的那段文字，它总体上朝哪个方向移动？\n Options:\nA. moves down\nB. moves up\nC. stays roughly in place\nD. moves diagonally\nE. moves right\nF. moves left\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> top-right\nB. center -> top-right -> top-right\nC. center -> top-right -> bottom-left\nD. center -> top-right -> top-left",
+      "q": "从起始到结束，「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这段文字在初段、中段、末段各落在画面哪里？\n Options:\nA. center -> center -> top-right\nB. center -> top-right -> top-right\nC. center -> top-right -> bottom-left\nD. center -> top-right -> top-left",
+      "a": "B",
+      "a_text": "center -> top-right -> top-right",
+      "answer_key": "center -> top-right -> top-right",
+      "options": [
+        "A. center -> center -> top-right",
+        "B. center -> top-right -> top-right",
+        "C. center -> top-right -> bottom-left",
+        "D. center -> top-right -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从起始到结束，「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这段文字在初段、中段、末段各落在画面哪里？\n Options:\nA. center -> center -> top-right\nB. center -> top-right -> top-right\nC. center -> top-right -> bottom-left\nD. center -> top-right -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" in the frame?\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)",
+      "q": "在画面里，「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这段文字显示的尺寸属于哪个级别？\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)",
+      "a": "A",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. medium (a noticeable block of the frame)",
+        "B. very large (dominates the frame)",
+        "C. small (a minor part of the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在画面里，「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这段文字显示的尺寸属于哪个级别？\n Options:\nA. medium (a noticeable block of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. gets larger\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "q": "观看视频时，留意写着「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的那行字，它有没有明显放大或缩小？\n Options:\nA. stays about the same size\nB. gets larger\nC. gets smaller\nD. size fluctuates (goes up and down)",
+      "a": "B",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. stays about the same size",
+        "B. gets larger",
+        "C. gets smaller",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "观看视频时，留意写着「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的那行字，它有没有明显放大或缩小？\n Options:\nA. stays about the same size\nB. gets larger\nC. gets smaller\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "那段写有「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的文字，是嵌在画面中央区域，还是贴近某一条边缘？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "那段写有「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」的文字，是嵌在画面中央区域，还是贴近某一条边缘？\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"孙中山故居\nThe Former Residence of Dr. Sun Yat-sen\" and how it appears in the video.",
+      "q": "你能简单描述一下「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这段文字在视频里的样子和动态吗？",
+      "a": "The text is written in red on a light blue sign with a red arrow pointing to the left.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你能简单描述一下「孙中山故居\nThe Former Residence of Dr. Sun Yat-sen」这段文字在视频里的样子和动态吗？"
+    }
+  ],
+  "method": "downsample_x4"
+}

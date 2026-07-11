@@ -1,0 +1,313 @@
+{
+  "video_id": "C0213",
+  "frames": 120,
+  "word": "创业办公",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0213.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"创业办公\" likely to be?\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information",
+      "q": "「创业办公」这几个字，感觉像是什么性质的标牌？\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information",
+      "a": "C",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. event or poster information",
+        "B. address or street sign",
+        "C. storefront or brand sign",
+        "D. warning or prohibition sign",
+        "E. direction or navigation sign",
+        "F. general scene text",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「创业办公」这几个字，感觉像是什么性质的标牌？\n Options:\nA. event or poster information\nB. address or street sign\nC. storefront or brand sign\nD. warning or prohibition sign\nE. direction or navigation sign\nF. general scene text\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"创业办公\" appear in?\n Options:\nA. transportation / station\nB. warning / rule sign\nC. road or street\nD. event poster or display\nE. other public sign\nF. campus or office\nG. storefront\nH. restaurant or menu",
+      "q": "写着「创业办公」的文字，出现在什么样的场景里？\n Options:\nA. transportation / station\nB. warning / rule sign\nC. road or street\nD. event poster or display\nE. other public sign\nF. campus or office\nG. storefront\nH. restaurant or menu",
+      "a": "G",
+      "a_text": "storefront",
+      "answer_key": "storefront",
+      "options": [
+        "A. transportation / station",
+        "B. warning / rule sign",
+        "C. road or street",
+        "D. event poster or display",
+        "E. other public sign",
+        "F. campus or office",
+        "G. storefront",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「创业办公」的文字，出现在什么样的场景里？\n Options:\nA. transportation / station\nB. warning / rule sign\nC. road or street\nD. event poster or display\nE. other public sign\nF. campus or office\nG. storefront\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"创业办公\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)",
+      "q": "视频中，「创业办公」这几个字通常出现在画面哪个区域？\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. top-right (upper-right area)",
+        "C. top-left (upper-left area)",
+        "D. bottom-left (lower-left area)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频中，「创业办公」这几个字通常出现在画面哪个区域？\n Options:\nA. center (middle of the frame)\nB. top-right (upper-right area)\nC. top-left (upper-left area)\nD. bottom-left (lower-left area)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"创业办公\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "这段视频里，「创业办公」的位置发生了多大程度的偏移？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "A",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「创业办公」的位置发生了多大程度的偏移？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"创业办公\" move?\n Options:\nA. stays roughly in place\nB. moves down\nC. moves left\nD. moves right\nE. moves up\nF. changes direction partway\nG. moves diagonally",
+      "q": "整体来看，「创业办公」是朝哪个方向运动的？\n Options:\nA. stays roughly in place\nB. moves down\nC. moves left\nD. moves right\nE. moves up\nF. changes direction partway\nG. moves diagonally",
+      "a": "C",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. stays roughly in place",
+        "B. moves down",
+        "C. moves left",
+        "D. moves right",
+        "E. moves up",
+        "F. changes direction partway",
+        "G. moves diagonally"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整体来看，「创业办公」是朝哪个方向运动的？\n Options:\nA. stays roughly in place\nB. moves down\nC. moves left\nD. moves right\nE. moves up\nF. changes direction partway\nG. moves diagonally"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"创业办公\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-right\nC. center -> top-right -> center\nD. bottom-right -> center -> center",
+      "q": "「创业办公」在视频前期、中期、后期分别落在画面什么位置？\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-right\nC. center -> top-right -> center\nD. bottom-right -> center -> center",
+      "a": "A",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> center -> center",
+        "B. center -> center -> bottom-right",
+        "C. center -> top-right -> center",
+        "D. bottom-right -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「创业办公」在视频前期、中期、后期分别落在画面什么位置？\n Options:\nA. center -> center -> center\nB. center -> center -> bottom-right\nC. center -> top-right -> center\nD. bottom-right -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"创业办公\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里的「创业办公」字样，看起来尺寸大不大？\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "A",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. large (a major part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里的「创业办公」字样，看起来尺寸大不大？\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"创业办公\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)",
+      "q": "随着视频播放，「创业办公」的显示大小是变大、变小，还是大致保持不变？\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)",
+      "a": "A",
+      "a_text": "gets smaller",
+      "answer_key": "gets smaller",
+      "options": [
+        "A. gets smaller",
+        "B. gets larger",
+        "C. stays about the same size",
+        "D. size fluctuates (goes up and down)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「创业办公」的显示大小是变大、变小，还是大致保持不变？\n Options:\nA. gets smaller\nB. gets larger\nC. stays about the same size\nD. size fluctuates (goes up and down)"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"创业办公\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "q": "「创业办公」是出现在画面靠边的地方，还是比较居中？\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. touches or runs off an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「创业办公」是出现在画面靠边的地方，还是比较居中？\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"创业办公\" and how it appears in the video.",
+      "q": "简单说说「创业办公」在视频里的外观和出现方式。",
+      "a": "The text is printed in black on a white rounded rectangular sticker attached to a glass window.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "简单说说「创业办公」在视频里的外观和出现方式。"
+    }
+  ],
+  "method": "downsample_x4"
+}

@@ -1,0 +1,312 @@
+{
+  "video_id": "C0353",
+  "frames": 120,
+  "word": "SLOW DOWN",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0353.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"SLOW DOWN\" likely to be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. address or street sign\nD. warning or prohibition sign\nE. general scene text\nF. event or poster information\nG. direction or navigation sign",
+      "q": "What type of sign would a text reading \"SLOW DOWN\" most likely be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. address or street sign\nD. warning or prohibition sign\nE. general scene text\nF. event or poster information\nG. direction or navigation sign",
+      "a": "D",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. menu or commercial information",
+        "B. storefront or brand sign",
+        "C. address or street sign",
+        "D. warning or prohibition sign",
+        "E. general scene text",
+        "F. event or poster information",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would a text reading \"SLOW DOWN\" most likely be?\n Options:\nA. menu or commercial information\nB. storefront or brand sign\nC. address or street sign\nD. warning or prohibition sign\nE. general scene text\nF. event or poster information\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"SLOW DOWN\" appear in?\n Options:\nA. warning / rule sign\nB. other public sign\nC. event poster or display\nD. campus or office\nE. storefront\nF. transportation / station\nG. restaurant or menu\nH. road or street",
+      "q": "What kind of setting does the text \"SLOW DOWN\" appear to belong to?\n Options:\nA. warning / rule sign\nB. other public sign\nC. event poster or display\nD. campus or office\nE. storefront\nF. transportation / station\nG. restaurant or menu\nH. road or street",
+      "a": "H",
+      "a_text": "road or street",
+      "answer_key": "road or street",
+      "options": [
+        "A. warning / rule sign",
+        "B. other public sign",
+        "C. event poster or display",
+        "D. campus or office",
+        "E. storefront",
+        "F. transportation / station",
+        "G. restaurant or menu",
+        "H. road or street"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of setting does the text \"SLOW DOWN\" appear to belong to?\n Options:\nA. warning / rule sign\nB. other public sign\nC. event poster or display\nD. campus or office\nE. storefront\nF. transportation / station\nG. restaurant or menu\nH. road or street"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"SLOW DOWN\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. bottom-right (lower-right area)\nE. top-right (upper-right area)",
+      "q": "In which part of the frame does the text \"SLOW DOWN\" tend to appear most of the time?\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. bottom-right (lower-right area)\nE. top-right (upper-right area)",
+      "a": "C",
+      "a_text": "bottom-left (lower-left area)",
+      "answer_key": "bottom-left",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. top-left (upper-left area)",
+        "C. bottom-left (lower-left area)",
+        "D. bottom-right (lower-right area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "In which part of the frame does the text \"SLOW DOWN\" tend to appear most of the time?\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. bottom-right (lower-right area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"SLOW DOWN\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "How much does the text \"SLOW DOWN\" shift in position over the course of the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does the text \"SLOW DOWN\" shift in position over the course of the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"SLOW DOWN\" move?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. stays roughly in place\nD. moves right\nE. moves down\nF. moves up\nG. moves left",
+      "q": "On balance, which direction does the text \"SLOW DOWN\" move across the video?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. stays roughly in place\nD. moves right\nE. moves down\nF. moves up\nG. moves left",
+      "a": "G",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves diagonally",
+        "B. changes direction partway",
+        "C. stays roughly in place",
+        "D. moves right",
+        "E. moves down",
+        "F. moves up",
+        "G. moves left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "On balance, which direction does the text \"SLOW DOWN\" move across the video?\n Options:\nA. moves diagonally\nB. changes direction partway\nC. stays roughly in place\nD. moves right\nE. moves down\nF. moves up\nG. moves left"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"SLOW DOWN\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> bottom-right -> bottom-left\nB. bottom-right -> center -> bottom-left\nC. bottom-right -> bottom-left -> bottom-left\nD. bottom-right -> bottom-left -> top-left",
+      "q": "Near the start, middle, and end of the clip, where is the text \"SLOW DOWN\" positioned each time?\n Options:\nA. bottom-right -> bottom-right -> bottom-left\nB. bottom-right -> center -> bottom-left\nC. bottom-right -> bottom-left -> bottom-left\nD. bottom-right -> bottom-left -> top-left",
+      "a": "C",
+      "a_text": "bottom-right -> bottom-left -> bottom-left",
+      "answer_key": "bottom-right -> bottom-left -> bottom-left",
+      "options": [
+        "A. bottom-right -> bottom-right -> bottom-left",
+        "B. bottom-right -> center -> bottom-left",
+        "C. bottom-right -> bottom-left -> bottom-left",
+        "D. bottom-right -> bottom-left -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Near the start, middle, and end of the clip, where is the text \"SLOW DOWN\" positioned each time?\n Options:\nA. bottom-right -> bottom-right -> bottom-left\nB. bottom-right -> center -> bottom-left\nC. bottom-right -> bottom-left -> bottom-left\nD. bottom-right -> bottom-left -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"SLOW DOWN\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "q": "How big does the text \"SLOW DOWN\" appear within the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "a": "C",
+      "a_text": "medium (a noticeable block of the frame)",
+      "answer_key": "medium",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. small (a minor part of the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How big does the text \"SLOW DOWN\" appear within the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"SLOW DOWN\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "q": "Over the clip, does the text \"SLOW DOWN\" grow larger, shrink, or stay roughly the same size?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. size fluctuates (goes up and down)",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Over the clip, does the text \"SLOW DOWN\" grow larger, shrink, or stay roughly the same size?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"SLOW DOWN\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "Is the text \"SLOW DOWN\" sitting comfortably within the frame, or is it close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is the text \"SLOW DOWN\" sitting comfortably within the frame, or is it close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"SLOW DOWN\" and how it appears in the video.",
+      "q": "Give a brief description of the text \"SLOW DOWN\" — what it looks like and how it moves through the video.",
+      "a": "The text 'SLOW DOWN' appears in large black capital letters on a yellow traffic warning sign.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of the text \"SLOW DOWN\" — what it looks like and how it moves through the video."
+    }
+  ]
+}

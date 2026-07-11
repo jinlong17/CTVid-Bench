@@ -1,0 +1,474 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spot the word(s) inside [[736, 308], [1437, 308], [1437, 716], [736, 716]] and write them here: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something's missing from the text at [[875,309], [1437,308], [1436,453], [876,453]] — supply the character(s) to complete: Sta____rd",
+              "answer": "nfo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices given, identify which one captures the text(s) inside [[736, 308], [1437, 308], [1437, 716], [736, 716]]. Options:\nA. Stonford, Children's Health\nB. MEDICINE, Stanford\nC. Children's Health, MEOICINE\nD. Cbildren's Health, Stanford",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Over at [[736.3636363636363, 307.6923076923077], [1437.2189349112425, 307.6923076923077], [1437.2189349112425, 716.3636363636363], [736.3636363636363, 716.3636363636363]], are the label(s) 'Stanford, MFDICINE, Children's Health' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible at [[734, 308], [1437, 308], [1437, 719], [734, 719]] — write down every word you see: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word at [[798,458], [1358,461], [1357,545], [798,544]] has some letters obscured. Complete it: MED____NE",
+              "answer": "ICI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[734, 308], [1437, 308], [1437, 719], [734, 719]], which of the following options matches the text shown there? Options:\nA. Children's Health, Stanford\nB. Stanford, Cbildren's Health\nC. Stonford, Children's Health\nD. MEOICINE, Stanford",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'MFDICINE, Children's Health, Stanford' the text you'd find inside [[733.982683982684, 307.6923076923077], [1437.2189349112425, 307.6923076923077], [1437.2189349112425, 718.7445887445886], [733.982683982684, 718.7445887445886]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) written inside [[863, 316], [1428, 316], [1428, 561], [863, 561]]: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[681,613], [1372,609], [1373,699], [684,704]], a portion of the phrase is missing. What belongs in the blank? Child____'s Health",
+              "answer": "ren"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly captures the text at [[725, 316], [1428, 316], [1428, 729], [725, 729]]. Options:\nA. MEOICINE, Children's Health\nB. MEDICINE, Cbildren's Health\nC. Stonford, MEDICINE\nD. Stanford, MEDICINE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Children's Health, Stanford' can be seen inside [[725.3495904575041, 316.46253728724344], [1427.9856115107914, 316.46253728724344], [1427.9856115107914, 729.4964028776978], [725.3495904575041, 729.4964028776978]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) shown at [[711, 316], [1413, 316], [1413, 729], [711, 729]]: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word at [[887,483], [1407,474], [1409,553], [888,561]] is incomplete — which letter(s) go in the gap? M____ICINE?",
+              "answer": "ED"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text found at [[848, 316], [1413, 316], [1413, 561], [848, 561]]? Options:\nA. Stanford\nB. Children's Health\nC. Stonford\nD. MEOICINE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that 'Cbildren's Health, MEDICINE, Stanford' all appear within [[710.7864836613876, 316.46253728724344], [1413.422504714675, 316.46253728724344], [1413.422504714675, 729.4964028776978], [710.7864836613876, 729.4964028776978]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out whatever text you can read at [[700, 314], [1403, 314], [1403, 727], [700, 727]]: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters in the text at [[787,576], [1383,576], [1385,658], [788,661]] are hidden. Restore the complete word: ____ildren's Health",
+              "answer": "Ch"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that matches what's written at [[700, 314], [1403, 314], [1403, 727], [700, 727]]. Options:\nA. Stonford, MEDICINE\nB. MEOICINE, Stanford\nC. Stanferd, Children's Health\nD. MEDICINE, Stanford",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Stanford, Children's Health, MEDICINE' appearing inside [[838, 314], [1403, 314], [1403, 559], [838, 559]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) you see at [[691, 314], [1394, 314], [1394, 727], [691, 727]]: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A part of the text at [[731,563], [1299,570], [1299,639], [730,630]] is blanked out — type in the missing letter(s): C____ren's Health",
+              "answer": "hild"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text at [[691, 314], [1394, 314], [1394, 727], [691, 727]] matches exactly one of these options — which is it? Options:\nA. MEDICINE, Stonford\nB. Stanford, MEOICINE\nC. Children's Health, Stanferd\nD. Children's Health, Stanford",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[690.9452138201177, 314.0815849062911], [1393.581234873405, 314.0815849062911], [1393.581234873405, 727.1154504967453], [690.9452138201177, 727.1154504967453]], can you spot the label 'MEDICINE, Children's Health'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the text visible at [[681, 314], [1384, 314], [1384, 727], [681, 727]]: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "One or more words at [[821,367], [1276,362], [1276,481], [821,489]] have gaps. Supply the missing letters: ____nford",
+              "answer": "Sta"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at [[681, 314], [1384, 314], [1384, 727], [681, 727]] and then pick the option that contains the same text. Options:\nA. MEDICINE, Children's Health\nB. Cbildren's Health, Stanford\nC. MEOICINE, Stanford\nD. MEDICINE, Childron's Health",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[681.4214042963083, 314.0815849062911], [1384.0574253495956, 314.0815849062911], [1384.0574253495956, 727.1154504967453], [681.4214042963083, 727.1154504967453]] — does it contain the text 'Stanford, MFDICINE, Children's Health'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Look at [[672, 312], [1374, 312], [1374, 725], [672, 725]] and record every word written there: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Look at the region [[802,481], [1260,476], [1260,540], [802,543]] — some letters are hidden. Can you identify what belongs in the blank? MEDI____",
+              "answer": "CINE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[672, 312], [1374, 312], [1374, 725], [672, 725]] — which option below matches it? Options:\nA. Stanfard, MEDICINE\nB. Stanford, MEDICINE\nC. Stonford, MEDICINE\nD. MEDICINE, Stanferd",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'MEDICINE, Children's Health' appears inside the bounding box [[671.7722814892909, 312.32719894137875], [1374.4083025425782, 312.32719894137875], [1374.4083025425782, 725.361064531833], [671.7722814892909, 725.361064531833]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text shown in region [[670, 308], [1372, 308], [1372, 721], [670, 721]] and write it out: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[697,622], [1273,620], [1274,689], [697,690]], there's a gap in the text. What word completes Childr____'s Health?",
+              "answer": "en"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text inside [[670, 308], [1372, 308], [1372, 721], [670, 721]]. Options:\nA. Children's Health, Stonford\nB. MEDICINE, Cbildren's Health\nC. MEDICINE, Stanferd\nD. MEDICINE, Children's Health",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'Stanford, Children's Health' visible anywhere within the bounding box [[669.6140081079959, 308.01065217878875], [1372.2500291612832, 308.01065217878875], [1372.2500291612832, 721.0445177692429], [669.6140081079959, 721.0445177692429]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text you can see inside the region [[667, 305], [1366, 305], [1366, 713], [667, 713]]: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters have been obscured in the word(s) at [[810,386], [1266,381], [1265,500], [811,508]]. What letter(s) restore the hidden portion? St____ord",
+              "answer": "anf"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that matches the text found within [[801, 305], [1366, 305], [1366, 547], [801, 547]]. Options:\nA. Children's Health\nB. Stonford\nC. Stonford\nD. Stanford",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Stanford, Children's Health' inside the bounding box [[666.5359477124182, 305.37907323142036], [1366.1096782840903, 305.37907323142036], [1366.1096782840903, 713.0718954248366], [666.5359477124182, 713.0718954248366]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text that appears within region [[663, 304], [1362, 304], [1362, 706], [663, 706]]: ________.",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There are missing letters in the word(s) at [[824,393], [1280,388], [1280,507], [825,515]]. Which letter(s) complete the expression? Sta____d",
+              "answer": "nfor"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly captures the text displayed within [[663, 304], [1362, 304], [1362, 706], [663, 706]]? Options:\nA. MEDICINE, Children's Health\nB. MEOICINE, Children's Health\nC. Stonford, Children's Health\nD. Stanford, MEPICINE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'Stenford, Children's Health, MEDICINE' falls inside the bounding box [[662.5676937441642, 303.79177164411874], [1362.1414243158363, 303.79177164411874], [1362.1414243158363, 706.2698412698413], [662.5676937441642, 706.2698412698413]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0167/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0167/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text do you find when you look at the region [[662, 299], [1359, 299], [1359, 703], [662, 703]]? ________",
+              "answer": [
+                "Stanford",
+                "MEDICINE",
+                "Children's Health"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word at [[854,486], [1312,472], [1312,542], [855,554]] has one or more letters missing. What letter(s) would make M____INE? complete?",
+              "answer": "EDIC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options listed, which one correctly represents the text found within [[662, 299], [1359, 299], [1359, 703], [662, 703]]? Options:\nA. MEDICINE, Stonford\nB. MEDICINE, Cbildren's Health\nC. Stanferd, MEDICINE\nD. Stanford, Children's Health",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'MEDICINE, Stanford, Cbildren's Health' is found within the bounding box [[662.3655913978495, 299.40860215053766], [1359.1397849462364, 299.40860215053766], [1359.1397849462364, 703.1720430107526], [662.3655913978495, 703.1720430107526]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0167"
+  }
+]

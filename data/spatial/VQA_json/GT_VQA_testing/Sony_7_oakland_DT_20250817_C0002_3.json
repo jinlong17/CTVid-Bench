@@ -1,0 +1,376 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Somewhere in [[1662, 412], [1794, 412], [1794, 667], [1662, 667]] there's text — what does it read? ________",
+              "answer": [
+                "1",
+                "Yellow"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "At location [[387, 151], [1794, 151], [1794, 1013], [387, 1013]], what text appears? Pick the matching option. Options:\nA. PAY ST, Shops, 1\nB. i, Shops, Yellow\nC. BAY ST, Shops, 1\nD. l, Yellow, BAY ST",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'Shops' sit within the bounding box [[387.Shops084337349398, Shops50.84337349397592], [Shops463.0Shops2048Shops927709, Shops50.84337349397592], [Shops463.0Shops2048Shops927709, Shops0Shops3.4939759036Shops42], [387.Shops084337349398, Shops0Shops3.4939759036Shops42]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Could you read out the text shown in [[409, 141], [1820, 141], [1820, 1005], [409, 1005]]? ________",
+              "answer": [
+                "1",
+                "Yellow",
+                "Shops",
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best captures the text(s) shown in [[409, 141], [1820, 141], [1820, 1005], [409, 1005]]. Options:\nA. 1, BAY ST, Yellew\nB. BAY ST, Shops, Yellow\nC. Shops, PAY ST, 1\nD. BAY ST, 1, Sbops",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are the label(s) 'Yellow, Shops, 1, PAY ST' enclosed within the region [[408.795Yellow, Shops, 1, PAY ST8072289Yellow, Shops, 1, PAY ST64, Yellow, Shops, 1, PAY ST4Yellow, Shops, 1, PAY ST.2048Yellow, Shops, 1, PAY ST9277Yellow, Shops, 1, PAY ST085], [Yellow, Shops, 1, PAY ST8Yellow, Shops, 1, PAY ST9.6385542Yellow, Shops, 1, PAY ST6868, Yellow, Shops, 1, PAY ST4Yellow, Shops, 1, PAY ST.2048Yellow, Shops, 1, PAY ST9277Yellow, Shops, 1, PAY ST085], [Yellow, Shops, 1, PAY ST8Yellow, Shops, 1, PAY ST9.6385542Yellow, Shops, 1, PAY ST6868, Yellow, Shops, 1, PAY ST005.0602409638552], [408.795Yellow, Shops, 1, PAY ST8072289Yellow, Shops, 1, PAY ST64, Yellow, Shops, 1, PAY ST005.0602409638552]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Something in [[456, 130], [1875, 130], [1875, 991], [456, 991]] is written — what is it? ________",
+              "answer": [
+                "1",
+                "Yellow",
+                "Shops",
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the choices, which one accurately reflects the text(s) in [[456, 130], [1875, 130], [1875, 991], [456, 991]]? Options:\nA. Shops, Yellew, 1\nB. BAY ST, Yellow, i\nC. l, Shops, Yellow\nD. Shops, BAY ST, 1",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[455.783Shops, 1, PAY ST, Yellow32530Shops, 1, PAY ST, Yellow2055, Shops, 1, PAY ST, Yellow30.36Shops, 1, PAY ST, Yellow445783Shops, 1, PAY ST, Yellow326], [Shops, 1, PAY ST, Yellow875.2Shops, 1, PAY ST, Yellow9696Shops, 1, PAY ST, Yellow760Shops, 1, PAY ST, Yellow05, Shops, 1, PAY ST, Yellow30.36Shops, 1, PAY ST, Yellow445783Shops, 1, PAY ST, Yellow326], [Shops, 1, PAY ST, Yellow875.2Shops, 1, PAY ST, Yellow9696Shops, 1, PAY ST, Yellow760Shops, 1, PAY ST, Yellow05, 990.602409638554], [455.783Shops, 1, PAY ST, Yellow32530Shops, 1, PAY ST, Yellow2055, 990.602409638554]] — do 'Shops, 1, PAY ST, Yellow' actually appear as labels there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Reading [[620, 126], [1709, 126], [1709, 987], [620, 987]], what text do you see there? ________",
+              "answer": [
+                "Shops",
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From Options:\nA. PAY ST\nB. Shops\nC. PAY ST\nD. BAY ST, which one correctly names the text(s) shown in [[620, 126], [981, 126], [981, 971], [620, 971]]?",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm whether 'Shops' appears within the bounding box [[619.6385542168675, 125.54216867469893], [1708.7951807228926, 125.54216867469893], [1708.7951807228926, 986.9879518072289], [619.6385542168675, 986.9879518072289]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears inside [[877, 127], [1920, 127], [1920, 987], [877, 987]]? ________",
+              "answer": [
+                "Shop",
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and select the option that correctly lists the text(s) in [[877, 127], [1227, 127], [1227, 965], [877, 965]]. Options:\nA. Shop\nB. PAY ST\nC. BAY ST\nD. PAY ST",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is whether 'PAY ST, Shop' falls within the region [[876.6265060240929, 126.7469879518072], [1920.0, 126.7469879518072], [1920.0, 986.9879518072289], [876.6265060240929, 986.9879518072289]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[1101, 124], [1441, 124], [1441, 965], [1101, 965]], what words show up? ________",
+              "answer": [
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among Options:\nA. BAY ST\nB. BRY ST\nC. BHY ST\nD. PAY ST, which matches what's actually written in [[1101, 124], [1441, 124], [1441, 965], [1101, 965]]?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At [[1100.7228915662615, 124.33734939759026], [1441.3253012048192, 124.33734939759026], [1441.3253012048192, 965.3012048192766], [1100.7228915662615, 965.3012048192766]], are 'PAY ST' among the visible labels?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Please read any text you can see in [[1172, 98], [1509, 98], [1509, 941], [1172, 941]]. ________",
+              "answer": [
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking over Options:\nA. BAY ST\nB. PAY ST\nC. BRY ST\nD. BHY ST, which best describes the text inside [[1172, 98], [1509, 98], [1509, 941], [1172, 941]]?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the area [[1171.8072289156592, 97.831325301205], [1508.7951807228915, 97.831325301205], [1508.7951807228915, 941.2048192771086], [1171.8072289156592, 941.2048192771086]], would you say 'PAY ST' is listed there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Any words showing up inside [[1178, 82], [1515, 82], [1515, 935], [1178, 935]]? Write what you see. ________",
+              "answer": [
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text at [[1178, 82], [1515, 82], [1515, 935], [1178, 935]] — which option in Options:\nA. BAY ST\nB. BRY ST\nC. BHY ST\nD. PAY ST names it correctly?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "'PAY ST' — is that label actually present within [[1177.831325301201, 82.16867469879537], [1514.8192771084332, 82.16867469879537], [1514.8192771084332, 935.1807228915667], [1177.831325301201, 935.1807228915667]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Words in [[1184, 154], [1521, 154], [1521, 1007], [1184, 1007]] — what are they? ________",
+              "answer": [
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the area [[1184, 154], [1521, 154], [1521, 1007], [1184, 1007]], which of these options lists the correct text? Options:\nA. BHY ST\nB. BRY ST\nC. BAY ST\nD. PAY ST",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the region [[1183.8554216867437, 154.45783132530158], [1520.8433734939758, 154.45783132530158], [1520.8433734939758, 1007.469879518073], [1183.8554216867437, 1007.469879518073]]: do 'PAY ST' show up as labels there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text appears in [[1203, 126], [1553, 126], [1553, 982], [1203, 982]]. ________",
+              "answer": [
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option from Options:\nA. PAY ST\nB. BHY ST\nC. BRY ST\nD. BAY ST that matches what's written in [[1203, 126], [1553, 126], [1553, 982], [1203, 982]].",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You're looking at [[1202.7710843373493, 125.54216867469894], [1553.3734939759033, 125.54216867469894], [1553.3734939759033, 982.1686746987951], [1202.7710843373493, 982.1686746987951]] — can you confirm 'PAY ST' is there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What's written inside [[1128, 63], [1474, 63], [1474, 940], [1128, 940]]? ________",
+              "answer": [
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick out from Options:\nA. BRY ST\nB. BHY ST\nC. PAY ST\nD. BAY ST the answer that correctly names the text at [[1128, 63], [1474, 63], [1474, 940], [1128, 940]].",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[1128.0722891566263, 62.89156626506036], [1473.855421686746, 62.89156626506036], [1473.855421686746, 940.0000000000002], [1128.0722891566263, 940.0000000000002]], is it true that 'BAY ST' can be found?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0002_3/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_oakland_DT_20250817/C0002_3/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you read in the region [[1103, 6], [1464, 6], [1464, 933], [1103, 933]]? ________",
+              "answer": [
+                "BAY ST"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options correctly captures the text shown in [[1103, 6], [1464, 6], [1464, 933], [1103, 933]]? Options:\nA. BRY ST\nB. BAY ST\nC. BHY ST\nD. PAY ST",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you think 'PAY ST' is actually the text shown in [[1102.771084337349, 6.2650602409639475], [1464.2168674698794, 6.2650602409639475], [1464.2168674698794, 932.7710843373493], [1102.771084337349, 932.7710843373493]]? True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0002_3"
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible in [[250, 456], [412, 456], [412, 770], [250, 770]]. ________",
+              "answer": [
+                "FREEWAY",
+                "ENTRANCE",
+                "SOUTH",
+                "US",
+                "101",
+                "RUBZl"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that contains the text shown in [[250, 456], [412, 456], [412, 770], [250, 770]]. Options:\nA. SOUTH, FPEEWAY, ENTRANCE, 101, US\nB. 101, SOUTH, FREEWAY, RUBZl, US\nC. SOUTH, 101, FREEWAY, PUBZl, ENTRANCE\nD. SOUIH, 101, RUBZl, FREEWAY, US",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Somewhere in [[249.73260073260076, 456.46520146520146], [411.73260073260076, 456.46520146520146], [411.73260073260076, 769.9633699633699], [249.73260073260076, 769.9633699633699]], can the label(s) 'ENTRANCE, US, FREEWAY, RUBZl, 101, SOUIH' be found?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Looking at [[288, 440], [459, 440], [459, 776], [288, 776]], what word(s) do you find? ________",
+              "answer": [
+                "FREEWAY",
+                "ENTRANCE",
+                "SOUTH",
+                "US",
+                "101",
+                "RUBZl"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the given choices, which one has the text from [[288, 440], [459, 440], [459, 776], [288, 776]]? Options:\nA. ENTRANCE, SOUIH, FREEWAY, 101, US\nB. FREEWAY, SOUTH, US, ENTRANCE, 101\nC. FREEWAY, SOUTH, RUBZl, ENTRANCE, VS\nD. ENTRANCE, 101, SOUTH, US, PUBZl",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would 'FPEEWAY, ENTRANCE, 101, SOUTH, RUBZl, US' be the correct reading of what's in [[287.905282331512, 440.36915249003414], [458.9435336976322, 440.36915249003414], [458.9435336976322, 775.5074705003584], [287.905282331512, 775.5074705003584]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) are shown in the area [[379, 373], [567, 373], [567, 749], [379, 749]]? ________",
+              "answer": [
+                "FREEWAY",
+                "ENTRANCE",
+                "SOUTH",
+                "US",
+                "101",
+                "RUBZl"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following reflects the text visible in [[379, 373], [567, 373], [567, 611], [379, 611]]? Options:\nA. US, SOUTH\nB. SOUTH, FPEEWAY\nC. FREEWAY, ENTRANCE\nD. FPEEWAY, ENTRANCE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[378.9473684210526, 372.89473684210526], [566.5861704251779, 372.89473684210526], [566.5861704251779, 748.5526315789474], [378.9473684210526, 748.5526315789474]], does the label '101, FREEWAY, RUBZl, US' actually appear?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear in [[541, 354], [742, 354], [742, 775], [541, 775]]. ________",
+              "answer": [
+                "FREEWAY",
+                "ENTRANCE",
+                "SOUTH",
+                "US",
+                "101",
+                "RUBZl"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that matches what you read in [[541, 354], [742, 354], [742, 620], [541, 620]] — which is it? Options:\nA. SOUTH, ENTRANCE\nB. FPEEWAY, ENTRANCE\nC. SOUIH, FREEWAY\nD. FREEWAY, US",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Appearing in [[559, 535], [715, 535], [715, 775], [559, 775]], is 'US, 101, RUBZl' what you see?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out the word(s) found in [[787, 312], [989, 312], [989, 786], [787, 786]]. ________",
+              "answer": [
+                "FREEWAY",
+                "ENTRANCE",
+                "SOUTH",
+                "US",
+                "101",
+                "RUBZl"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the correct answer: which option lists the text seen in [[787, 312], [989, 312], [989, 786], [787, 786]]? Options:\nA. VS, ENTRANCE, FREEWAY, SOUTH, 101\nB. SOUIH, US, RUBZl, FREEWAY, ENTRANCE\nC. US, SOUTH, RUBZl, ENTRANCE, FREEWAY\nD. US, RUBZl, FREEWAY, ENIRANCE, 101",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the labels 'ENTRANCE, US, FREEWAY, SOUTH' sit within [[787.0590449553832, 312.5], [988.5714285714287, 312.5], [988.5714285714287, 785.6450548999898], [787.0590449553832, 785.6450548999898]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you see in [[1101, 286], [1317, 286], [1317, 830], [1101, 830]]. ________",
+              "answer": [
+                "FREEWAY",
+                "ENTRANCE",
+                "SOUTH",
+                "US",
+                "101",
+                "RUBZl"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[1101, 286], [1317, 286], [1317, 830], [1101, 830]], which of the following options correctly lists the text(s) shown there? Options:\nA. YS, FREEWAY, ENTRANCE, SOUTH, 101\nB. SOUTH, 101, US, FREEWAY, RUBZl\nC. ENTRANCE, VS, FREEWAY, SOUTH, 101\nD. FREEWAY, PUBZl, US, 101, SOUTH",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'ENTRANCE, RUBZl, US, 101, FREEWAY, SOUIH' appear inside the bounding box [[1101.3157894736842, 286.05263157894734], [1317.2382375375769, 286.05263157894734], [1317.2382375375769, 830.2195658068662], [1101.3157894736842, 830.2195658068662]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) you see within [[1539, 184], [1755, 184], [1755, 824], [1539, 824]]. ________",
+              "answer": [
+                "FREEWAY",
+                "ENTRANCE",
+                "SOUTH",
+                "US",
+                "101",
+                "RUBZl"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, pick the one that matches the text(s) visible in [[1539, 184], [1755, 184], [1755, 824], [1539, 824]]. Options:\nA. FREFWAY, RUBZl, SOUTH, US, ENTRANCE\nB. ENTRANCE, US, SOUTH, FPEEWAY, RUBZl\nC. FBEEWAY, US, SOUTH, RUBZl, ENTRANCE\nD. US, 101, RUBZl, ENTRANCE, FREEWAY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[1538.850460666194, 184.4035754270279], [1754.9002924066695, 184.4035754270279], [1754.9002924066695, 824.1334113285624], [1538.850460666194, 824.1334113285624]] contain the label(s) '10l, RUBZl, ENTRANCE, FREEWAY, SOUTH, US'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible in [[50, 540], [83, 540], [83, 560], [50, 560]]. ________",
+              "answer": [
+                "LEF"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices provided, which one captures the text(s) found in [[50, 540], [83, 540], [83, 560], [50, 560]]? Options:\nA. LEE\nB. LBF\nC. LEF\nD. LFF",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'LEF' among the text(s) found inside [[50.27322404371584, 539.5901639344262], [83.33333333333333, 539.5901639344262], [83.33333333333333, 560.3551912568306], [50.27322404371584, 560.3551912568306]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The region [[87, 519], [134, 519], [134, 564], [87, 564]] contains some text — what word(s) are there? ________",
+              "answer": [
+                "LANE",
+                "LEFT"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text(s) appearing in [[89, 519], [131, 519], [131, 540], [89, 540]]. Options:\nA. LEFT\nB. LFFT\nC. LANE\nD. LFFT",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'LANE' fall within [[87.38620280255688, 518.5260322357095], [133.7925580667515, 518.5260322357095], [133.7925580667515, 564.021527731205], [87.38620280255688, 564.021527731205]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can read in [[51, 562], [80, 562], [80, 601], [51, 601]]. ________",
+              "answer": [
+                "2"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the options and find the one that lists the text(s) from [[51, 562], [80, 562], [80, 601], [51, 601]]. Options:\nA. 2\nB. Z\nC. z\nD. 7",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does 'Z' appear inside the bounding box [[51.495016611Z9568, 561.76079734Z19Z6], [80.06644518Z7Z4Z5, 561.76079734Z19Z6], [80.06644518Z7Z4Z5, 600.631ZZ9Z358803], [51.495016611Z9568, 600.631ZZ9Z358803]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) does the region [[187, 531], [265, 531], [265, 685], [187, 685]] contain? ________",
+              "answer": [
+                "HOV",
+                "24 HO",
+                "M"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options listed, which correctly names the text(s) seen in [[192, 531], [265, 531], [265, 605], [192, 605]]? Options:\nA. N\nB. HDV\nC. M\nD. 24 HO",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can we find the label(s) 'M, HDV, 24 HO' within the bounds of [[187.4671888546743, 530.6459086968221], [265.13468265120105, 530.6459086968221], [265.13468265120105, 685.4819277108434], [187.4671888546743, 685.4819277108434]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0434_1/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_PA_DT_20250812/C0434_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear in [[328, 440], [454, 440], [454, 687], [328, 687]]. ________",
+              "answer": [
+                "LEFT",
+                "LANE",
+                "HOV",
+                "24 HOURS",
+                "2 OR MO",
+                "ONLY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text(s) in region [[328, 440], [454, 440], [454, 687], [328, 687]] match which of the following options? Options:\nA. 24 HOURS, 2 OR MO, LEFT, LRNE, HOV\nB. ONLY, 2 OR MO, LFFT, LANE, 24 HOURS\nC. 24 HOURS, LEFT, HDV, 2 OR MO, LANE\nD. ONLY, 2 OR MO, LANE, LEFT, HOV",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '2 OR MO, LEFT, LANE, HOV, ONLY, 24 HDURS' are enclosed by [[328.1176470588236, 440.46658233185747], [453.89542483660136, 440.46658233185747], [453.89542483660136, 687.1468479865063], [328.1176470588236, 687.1468479865063]].",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0434_1"
+  }
+]

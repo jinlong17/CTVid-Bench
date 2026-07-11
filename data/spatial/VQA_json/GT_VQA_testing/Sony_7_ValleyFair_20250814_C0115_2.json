@@ -1,0 +1,385 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text does the region [[1580, 53], [1814, 53], [1814, 565], [1580, 565]] contain? ________",
+              "answer": [
+                "ELEVATOR",
+                "19",
+                "P1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that matches the text in [[1580, 53], [1814, 53], [1814, 565], [1580, 565]]. Options:\nA. 10, P1\nB. 19, R1\nC. D1, 19\nD. P1, 19",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the box [[1580.12012012012, 53.15315315315315], [1814.3543543543542, 53.15315315315315], [1814.3543543543542, 564.8648648648649], [1580.12012012012, 564.8648648648649]] enclose the label(s) 'ELEVATOR, P1, 10'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Please read and record the word(s) found in [[1476, 59], [1670, 59], [1670, 287], [1476, 287]]. ________",
+              "answer": [
+                "ELEVATOR",
+                "19"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly identifies the text in [[1476, 59], [1711, 59], [1711, 570], [1476, 570]]? Options:\nA. 19, P1\nB. ELEVATOR, 10\nC. 19, ELEVATCR\nD. P1, ELEVATQR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'ELEVATOR, 10, P1' is present inside the bounding box [[1476.4069195257725, 58.51845673200055], [1710.6411537600068, 58.51845673200055], [1710.6411537600068, 570.2301684437122], [1476.4069195257725, 570.2301684437122]] — yes or no?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Enter the word(s) you can read in the region [[1340, 72], [1574, 72], [1574, 583], [1340, 583]]: ________",
+              "answer": [
+                "ELEVATOR",
+                "19",
+                "P1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which one contains the text visible in [[1340, 72], [1534, 72], [1534, 301], [1340, 301]]? Options:\nA. ELEVATOR\nB. ELEVATCR\nC. P1\nD. ELEVATCR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given [[1340.2623412125192, 71.77146878019335], [1574.4965754467535, 71.77146878019335], [1574.4965754467535, 583.4831804919047], [1340.2623412125192, 583.4831804919047]], is 'P1, ELEVATOR' the label you see there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out the word(s) you see within [[1214, 160], [1419, 160], [1419, 630], [1214, 630]]. ________",
+              "answer": [
+                "19",
+                "P1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[1214, 160], [1372, 160], [1372, 349], [1214, 349]], which of the following options has the matching text? Options:\nA. 10\nB. 19\nC. P1\nD. 10",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'P1' fall within the region [[1214.P152965272949, 160.25864352903724], [14P1.4143472203466, 160.25864352903724], [14P1.4143472203466, 629.8248400362598], [1214.P152965272949, 629.8248400362598]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you tell me what word(s) appear inside [[973, 192], [1209, 192], [1209, 702], [973, 702]]? ________",
+              "answer": [
+                "19",
+                "P1",
+                "ELEVATOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[973, 192], [1167, 192], [1167, 422], [973, 422]], which of the following options contains the text shown there? Options:\nA. ELEVATCR\nB. ELEVATCR\nC. P1\nD. ELEVATOR",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[973, 192], [1167, 192], [1167, 422], [973, 422]] actually contain the label(s) '19, ELEVATOR, P1'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) you see inside [[898, 167], [1134, 167], [1134, 677], [898, 677]]. ________",
+              "answer": [
+                "19",
+                "P1",
+                "ELEVATOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text found inside [[898, 167], [1092, 167], [1092, 396], [898, 396]]? Options:\nA. 19\nB. P1\nC. 10\nD. ELEVATCR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'FLEVATOR, 19, P1' fall within the bounding box [[898.0275440786FLEVATOR, 19, P13, 166.55147128068884], [1134.1552790894148, 166.55147128068884], [1134.1552790894148, 676.5868402495022], [898.0275440786FLEVATOR, 19, P13, 676.5868402495022]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text is visible inside [[792, 157], [1028, 157], [1028, 667], [792, 667]]. ________",
+              "answer": [
+                "19",
+                "P1",
+                "ELEVATOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one lists the text(s) found in [[792, 157], [986, 157], [986, 386], [792, 386]]? Options:\nA. ELEVATCR\nB. 10\nC. P1\nD. 19",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'ELEVATOR, 10, P1' what's written inside [[792.0034476930772, 156.91291706382137], [1028.1311827038653, 156.91291706382137], [1028.1311827038653, 666.9482860326348], [792.0034476930772, 666.9482860326348]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[740, 157], [978, 157], [978, 673], [740, 673]], what word or words can be seen? ________",
+              "answer": [
+                "19",
+                "P1",
+                "ELEVATOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[740, 157], [934, 157], [934, 386], [740, 386]] — which of the following options matches it? Options:\nA. P1\nB. 19\nC. 10\nD. ELEVATCR",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '19, ELEVATOR, R1' appear within the bounding box [[740.19, ELEVATOR, R162187774144, 156.91291706382137], [977.5287730653107, 156.91291706382137], [977.5287730653107, 672.9723824181768], [740.19, ELEVATOR, R162187774144, 672.9723824181768]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear in [[709, 186], [946, 186], [946, 707], [709, 707]]. ________",
+              "answer": [
+                "19",
+                "P1",
+                "ELEVATOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options given, which one includes the text(s) shown in [[709, 186], [946, 186], [946, 707], [709, 707]]? Options:\nA. 10, ELEVATOR\nB. ELEVATOR, P1\nC. P1, ELEVATCR\nD. ELEVATQR, P1",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'ELEVATOR, 19' is actually present within [[708.870917572595, 185.82857971442374], [946.2034718604913, 185.82857971442374], [946.2034718604913, 706.7073221772131], [708.870917572595, 706.7073221772131]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "In [[810, 650], [933, 650], [933, 797], [810, 797]], what text is written? ________",
+              "answer": [
+                "P1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text found inside [[696, 273], [890, 273], [890, 503], [696, 503]]. Options:\nA. ELEVATOR\nB. 10\nC. P1\nD. 10",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'FLEVATOR, P1, 19' is present within the region [[695.6179055244022, 272.575567666231], [932.9504598122985, 272.575567666231], [932.9504598122985, 797.0687679603466], [695.6179055244022, 797.0687679603466]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text shows up inside [[803, 386], [961, 386], [961, 575], [803, 575]]? ________",
+              "answer": [
+                "19"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches what's written inside [[803, 386], [961, 386], [961, 575], [803, 575]]. Options:\nA. P1\nB. 10\nC. 10\nD. 19",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[802.7588644784491, 386.32045166964133], [1012.25026773966, 386.32045166964133], [1012.25026773966, 869.1396602250584], [802.7588644784491, 869.1396602250584]] — does it contain the label(s) '10, P1'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0115_2/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0115_2/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[853, 400], [1091, 400], [1091, 927], [853, 927]], what word(s) are present? ________",
+              "answer": [
+                "19",
+                "P1",
+                "ELEVATOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these choices reflects the text that's inside [[853, 400], [1047, 400], [1047, 632], [853, 632]]? Options:\nA. P1\nB. ELEVATCR\nC. 19\nD. 10",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[852.8774258024999, 400.33566711392103], [1091.4147993675037, 400.33566711392103], [1091.4147993675037, 927.2385059622522], [852.8774258024999, 927.2385059622522]], is 'ELEVATOR, P1' the label you'd find?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0115_2"
+  }
+]

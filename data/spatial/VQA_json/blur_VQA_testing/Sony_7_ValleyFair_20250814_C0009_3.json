@@ -1,0 +1,441 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears inside [[1430, 107], [1793, 107], [1793, 751], [1430, 751]]? ________",
+              "answer": [
+                "VORTEX",
+                "DOOR",
+                "SERVICE",
+                "(408)588-0890",
+                "(831)466-9143",
+                "PULL",
+                "VORTEX",
+                "DOOR",
+                "SERVICE",
+                "(408)588-0890",
+                "(831)466-9143",
+                "PULL"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text visible in [[1430, 114], [1551, 114], [1551, 749], [1430, 749]]? Options:\nA. SERVICE, (831)466-9143, DOOR, VORTEX, PULL\nB. DOOR, (408)588-0890, SERVICE, (831)466-9143, PULL\nC. VORTEX, RULL, (831)466-9143, DOOR, (408)588-0890\nD. (831)466-9143, VORTEX, DOOR, VORTEX, PULL",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[1430.173359624779, 114.19213973799127], [1551.0638297872342, 114.19213973799127], [1551.0638297872342, 748.7854251012145], [1430.173359624779, 748.7854251012145]], does the text there match '(408)588-0890, DOOR, VORTEX, SERVICE, PULL, (831)466-9143'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The area [[1484, 86], [1847, 86], [1847, 736], [1484, 736]] contains some text — what does it say? ________",
+              "answer": [
+                "VORTEX",
+                "DOOR",
+                "SERVICE",
+                "PULL",
+                "VORTEX",
+                "DOOR",
+                "SERVICE",
+                "PULL",
+                "(831)466-9143",
+                "(408)588-0890",
+                "(831)466-9143",
+                "(408)588-0890"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly captures the text shown in [[1486, 86], [1847, 86], [1847, 680], [1486, 680]]. Options:\nA. VORTEX, PULL, DOOR, VORTEX, PULL, DOOR\nB. DOOR, DOOR, SERVICE, SERVICE, VORTEX, RULL, VORTEX\nC. PULL, VORTEX, PULL, (831)466-9143, SERVICE, VORTEX, DOOR\nD. (408)588-0890, SERVICE, PULL, DOOR, PULL, SERVICE, VORTEX",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the area marked by [[1483.5162242986744, 86.27226718834496], [1847.210160742568, 86.27226718834496], [1847.210160742568, 736.2593363905733], [1483.5162242986744, 736.2593363905733]] actually contain the label(s) '(831)466-9143, DOOR, SERVICE, DOOR, VORTEX, (408)588-0890, (408)588-0890, VORTEX, RULL'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text within [[1390, 127], [1749, 127], [1749, 659], [1390, 659]] and record it here: ________",
+              "answer": [
+                "DOOR",
+                "PULL",
+                "DOOR",
+                "PULL"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one contains the text from [[1390, 130], [1508, 130], [1508, 658], [1390, 658]]? Options:\nA. DOOR\nB. RULL\nC. DOOR\nD. RULL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'PULL, PULL, OOOR' is the text shown within [[1389.696471860063, 126.6493194981075], [1748.994717427929, 126.6493194981075], [1748.994717427929, 658.9320629926317], [1389.696471860063, 658.9320629926317]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What's written in the [[1062, 151], [1421, 151], [1421, 642], [1062, 642]] region of the image? ________",
+              "answer": [
+                "PULL",
+                "PULL"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that corresponds to the text found in region [[1062, 151], [1421, 151], [1421, 642], [1062, 642]]. Options:\nA. PVLL\nB. RULL\nC. DULL\nD. ",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[1061.6952119183356, 154.82891091951797], [1180.268066976328, 154.82891091951797], [1180.268066976328, 641.4263555001825], [1061.6952119183356, 641.4263555001825]], does it contain the label(s) 'PULL'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[733, 186], [1101, 186], [1101, 714], [733, 714]] — what word(s) do you see? ________",
+              "answer": [
+                "PULL",
+                "PULL",
+                "DOOR",
+                "DOOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Going by the text in [[733, 186], [1101, 186], [1101, 714], [733, 714]], which option is correct? Options:\nA. DOOR, DOOR, RULL\nB. DOOR, DOOR, DULL\nC. DOOR, PVLL, DOOR\nD. DOOR, DOOR",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'DOOR' is the text that appears inside [[732.5631939522796, 186.03047392830996], [866.8769194424756, 186.03047392830996], [866.8769194424756, 710.214995702764], [732.5631939522796, 710.214995702764]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the text that's shown inside [[549, 189], [918, 189], [918, 717], [549, 717]]. ________",
+              "answer": [
+                "PULL",
+                "PULL",
+                "DOOR",
+                "DOOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on what's in [[549, 189], [684, 189], [684, 713], [549, 713]], which option below has the right text? Options:\nA. RULL\nB. PULL\nC. DOOR\nD. PULL",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[549.4751830609179, 188.71411583717708], [918.1026340413109, 188.71411583717708], [918.1026340413109, 717.1518630692361], [549.4751830609179, 717.1518630692361]], is 'DOOR, DOOR' what's actually written there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on [[401, 193], [763, 193], [763, 724], [401, 724]], what text do you find there? ________",
+              "answer": [
+                "PULL",
+                "PULL",
+                "DOOR",
+                "DOOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options provided, which one matches the text in [[401, 193], [763, 193], [763, 724], [401, 724]]? Options:\nA. DOOR, DOOR\nB. PULL, PULL, OOOR\nC. PULL, DODR, PULL\nD. RULL, DOOR, DOOR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'OOOR, PULL, PULL' the text that shows up inside [[401.19860051641047, 192.98601126201362], [762.6960784313724, 192.98601126201362], [762.6960784313724, 723.9989218927657], [401.19860051641047, 723.9989218927657]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Examine the region [[245, 147], [607, 147], [607, 736], [245, 736]] — what text does it contain? ________",
+              "answer": [
+                "PULL",
+                "PULL",
+                "DOOR",
+                "DOOR",
+                "VORTEX",
+                "SERVICE",
+                "SERVICE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Judging by the region [[245, 184], [607, 184], [607, 736], [245, 736]], which option correctly names the text there? Options:\nA. PULL, PULL, DOOR, DOOR\nB. DOOR, PULL, DOOR, SEPVICE, PULL\nC. PULL, DOOR, SERVICE, VORTEX, SERVICE\nD. SERVICE, SERVICE, DOOR, DOOR, RULL",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "For the bounding box [[245.40847392143735, 146.6492562944108], [606.9059518363988, 146.6492562944108], [606.9059518363988, 735.7733184565648], [245.40847392143735, 735.7733184565648]], does it hold the label(s) 'PULL, SERVICE, PULL, SERVICE, VORTEX, OOOR'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text shown in [[216, 208], [577, 208], [577, 851], [216, 851]]. ________",
+              "answer": [
+                "PULL",
+                "PULL",
+                "DOOR",
+                "DOOR",
+                "VORTEX",
+                "SERVICE",
+                "SERVICE",
+                "(831)466-9143",
+                "(408)588-0890",
+                "(831)466-9143",
+                "(408)588-0890"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches what's written in [[452, 208], [577, 208], [577, 851], [452, 851]]? Options:\nA. SERVICE, VORTEX, PULL, DOOR, DOOR\nB. (408)588-0890, VORTEX, (831)466-9143, PULL, SERVICE\nC. VORTEX, DOOR, (831)466-9143, (408)588-0890, SERVICE\nD. SERVICE, DOOR, VORTEX, (408)588-0890, PULL",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[215.59314197233667, 208.15728900730224], [577.0906198873004, 208.15728900730224], [577.0906198873004, 850.8479222310553], [215.59314197233667, 850.8479222310553]] contain the label(s) 'DOOR, (831)466-9143, (408)588-0890, (408)588-0890, VORTEX, DOOR, (831)466-9143'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text that appears in [[231, 324], [593, 324], [593, 960], [231, 960]]. ________",
+              "answer": [
+                "PULL",
+                "PULL",
+                "DOOR",
+                "DOOR",
+                "VORTEX",
+                "SERVICE",
+                "SERVICE",
+                "(831)466-9143",
+                "(408)588-0890",
+                "(831)466-9143",
+                "(408)588-0890",
+                "VORTEX"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the area [[231, 360], [593, 360], [593, 960], [231, 960]], which answer choice captures the text there? Options:\nA. SERVICE, (408)588-0890, DOOR, (831)466-9143, DOOR, SERVICE, (831)466-9143, (408)588-0890\nB. VORTEX, PULL, (408)588-0890, PULL, (831)466-9143, SERVICE, (831)466-9143, DOOR, SERVICE\nC. (831)466-9143, (408)588-0890, SERVICE, DOOR, DOOR, (408)588-0890, SERVICE, (831)466-9143, RULL\nD. (408)588-0890, DOOR, (408)588-0890, PULL, PULL, DOOR, (831)466-9143, SERVICE, SERVICE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '(408)588-0890, SERVICE, PULL, (408)588-0890, (831)466-9143, OOOR, SERVICE, VORTEX, PULL' appears as a label within [[231.32492776725903, 324.04957505113265], [592.8224056822224, 324.04957505113265], [592.8224056822224, 960.4008230678666], [231.32492776725903, 960.4008230678666]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The region [[227, 393], [588, 393], [588, 1025], [227, 1025]] shows some text — what does it say? ________",
+              "answer": [
+                "PULL",
+                "PULL",
+                "DOOR",
+                "DOOR",
+                "VORTEX",
+                "SERVICE",
+                "SERVICE",
+                "(831)466-9143",
+                "(408)588-0890",
+                "(831)466-9143",
+                "(408)588-0890",
+                "VORTEX"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately reflects what's written in [[227, 393], [353, 393], [353, 1020], [227, 1020]]? Options:\nA. (831)466-9143, VORTEX, (408)588-0890, PULL, SERVICE\nB. VORTEX, DOOR, (831)466-9143, PULL, SERVICE\nC. SEPVICE, DOOR, (831)466-9143, PULL, (408)588-0890\nD. DOOR, SERVICE, DOOR, (408)588-0890, (831)466-9143",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'SERVICE, (831)466-9143, (408)588-0890, VDRTEX, PULL, DOOR, DOOR, (408)588-0890, PULL' can be found in region [[226.93989822833342, 392.84889741468373], [588.4373761432971, 392.84889741468373], [588.4373761432971, 1024.7744557822757], [226.93989822833342, 1024.7744557822757]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0009_3/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7_ValleyFair_20250814/C0009_3/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text do you see printed in [[278, 393], [404, 393], [404, 908], [278, 908]]? ________",
+              "answer": [
+                "PULL",
+                "DOOR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best lists the text visible in [[278, 393], [640, 393], [640, 909], [278, 909]]. Options:\nA. DOOR, DOOR\nB. DOOR, DOOR, RULL\nC. PULL, OOOR, PULL\nD. PULL, PULL, DODR",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'DOOR, DOOR' among the labels shown in [[278.1316702981869, 392.9669569246451], [639.6291482131508, 392.9669569246451], [639.6291482131508, 908.6671188115437], [278.1316702981869, 908.6671188115437]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0009_3"
+  }
+]

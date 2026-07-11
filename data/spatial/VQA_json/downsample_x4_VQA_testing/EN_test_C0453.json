@@ -1,0 +1,491 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down whatever text is enclosed in [[744, 472], [1347, 472], [1347, 798], [744, 798]]. ________",
+              "answer": [
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A sign within [[1198,580], [1345,585], [1347,606], [1198,599]] displays \"FIRE LANE - NO P____ING\" — fill in what's missing.",
+              "answer": "ARK"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text(s) found inside [[744, 472], [992, 472], [992, 798], [744, 798]]? Options:\nA. FIRE LANE - NO PARKING, Visitor Center\nB. 10600, Visitor Center\nC. 36.5, Visitor Center\nD. N Tantau Avenue, 10600",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Visitor Center, FIRE LANE - NO PARKING, 10600, N Tantau Avenue' appear inside the region marked by [[745, 580], [1347, 580], [1347, 798], [745, 798]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible inside [[764, 326], [1529, 326], [1529, 794], [764, 794]]. ________",
+              "answer": [
+                "36.5",
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the text at [[1784,392], [1817,390], [1821,439], [1783,435]], which digit(s) are being hidden in the sequence \"3____\"?",
+              "answer": "6.5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly captures the text(s) inside [[764, 326], [1529, 326], [1529, 605], [764, 605]]? Options:\nA. FIRE LANE - NO PARKING, 10600\nB. 36.5, Visitor Center\nC. 36.5, Visiter Center\nD. Visitor Center, N Tantau Avenue",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm: is the label(s) '10600, N Tantau Avenue, Visitor Center, 36.5' inside the bounding box [[764.0, 325.7142857142857], [1529.047619047619, 325.7142857142857], [1529.047619047619, 794.0], [764.0, 794.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can see in the area [[790, 333], [1558, 333], [1558, 800], [790, 800]]. ________",
+              "answer": [
+                "36.5",
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[1158,780], [1335,787], [1332,842], [1155,835]], the middle digit(s) of \"1____00\" are obscured — what are they?",
+              "answer": "06"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that best describes the text(s) inside [[790, 472], [1398, 472], [1398, 800], [790, 800]]. Options:\nA. FIRE LANE - NO PARKING, N Tantau Avenue, 10600\nB. FIPE LANE - NO PARKING, 10600, Visitor Center\nC. 10600, FIRE LANE - NO PARKING, N Tantau Avenue\nD. Visitor Center, 36.5, N Tantau Avenue",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[790.0, 332.85714285714283], [1557.6190476190477, 332.85714285714283], [1557.6190476190477, 800.0], [790.0, 800.0]] enclose the label(s) 'Visitor Center, N Tantau Avenue, FIRE LANE - NO PARKING, 10600'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the word(s) shown in the region [[818, 480], [1427, 480], [1427, 808], [818, 808]]. ________",
+              "answer": [
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Hidden somewhere in the middle of the sequence \"10____0\" at [[1232,791], [1411,799], [1408,854], [1229,847]] are some digits — which ones?",
+              "answer": "60"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accounts for all text(s) visible in [[818, 480], [1070, 480], [1070, 808], [818, 808]]. Options:\nA. N Tantau Avenue, 10600\nB. 36.5, 10600\nC. Visitor Center, N Tantau Avenue\nD. N Tantau Avenue, Visiter Center",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether the label(s) '10600, Visitor Center, 36.5, FIPE LANE - NO PARKING, N Tantau Avenue' fall inside the bounding box [[818.0, 336.42857142857144], [1592.142857142857, 336.42857142857144], [1592.142857142857, 808.0], [818.0, 808.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you transcribe the word(s) inside [[847, 726], [1098, 726], [1098, 816], [847, 816]]? ________",
+              "answer": [
+                "10600",
+                "N Tantau Avenue"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"Visitor ____\" at [[1288,502], [1512,502], [1512,536], [1288,536]] is missing something — what's been hidden?",
+              "answer": "Center"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly lists the text(s) visible inside [[846, 490], [1456, 490], [1456, 816], [846, 816]]? Options:\nA. H Tantau Avenue, Visitor Center, 10600\nB. N Tantau Avenue, FIRE LANE - NO PARKING, Visitor Center\nC. 36.5, 10600, N Tantau Avenue\nD. FIRE LANE - NO PARKING, 10600, N Tantau Avenue",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'N Tantau Avenue, 36.5, FIRE LANE - NO PARKING, Visitor Center' are visible within [[846, 344], [1623, 344], [1623, 624], [846, 624]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[868, 353], [1656, 353], [1656, 832], [868, 832]], what word(s) appear? ________",
+              "answer": [
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "36.5",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given that the phrase at [[1853,643], [1916,647], [1915,664], [1852,659]] reads \"FIRE ____\", which character(s) in the middle are missing?",
+              "answer": "LAN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects what's written inside [[868, 496], [1126, 496], [1126, 832], [868, 832]]. Options:\nA. 36.5, 10600\nB. 10600, Visitor Center\nC. 10600, H Tantau Avenue\nD. Visiter Center, N Tantau Avenue",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '36.5, FIRE LANE - NO PARKING, Visitor Center, 10600' sit inside the bounding box [[868.0, 353.0952380952381], [1656.4285714285713, 353.0952380952381], [1656.4285714285713, 832.0], [868.0, 832.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[896, 361], [1687, 361], [1687, 844], [896, 844]], there is/are some word(s) — what do they say? ________",
+              "answer": [
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "36.5",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[1313,837], [1591,850], [1589,884], [1311,871]], the address \"____ Tantau Avenue\" is cut off at the start — what character(s) are missing?",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you had to pick one option that captures the text(s) inside [[896, 361], [1687, 361], [1687, 646], [896, 646]], which would it be? Options:\nA. FIPE LANE - NO PARKING, Visitor Center\nB. Visitor Center, FIRE LANE - NO PARKING\nC. FIRE LANE - NO PARKING, 10600\nD. 30.5, Visitor Center",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '36.5, Visitor Center, FIRE LANE - NO PARKING, 10600, N Tantau Avenue' appear anywhere within the region marked by [[896.0, 361.42857142857144], [1687.3809523809523, 361.42857142857144], [1687.3809523809523, 844.0], [896.0, 844.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you identify the word(s) visible in [[922, 372], [1722, 372], [1722, 552], [922, 552]]? ________",
+              "answer": [
+                "Visitor Center",
+                "36.5"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The digit(s) shown at [[1192,734], [1371,743], [1368,801], [1189,791]] have a gap — \"10____0\" — what should fill it in?",
+              "answer": "60"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options matches the text(s) you can see at [[922, 518], [1547, 518], [1547, 856], [922, 856]]? Options:\nA. 10600, Visitor Center, N Tantau Avenue\nB. 36.5, Visitor Center, N Tantau Avenue\nC. 10600, N Tantau Avenue, Visitor Center\nD. 10600, FIRE LANE - NO PARKING, Visitor Center",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[922.0, 372.14285714285717], [1721.9047619047617, 372.14285714285717], [1721.9047619047617, 856.0], [922.0, 856.0]] actually contain the label(s) 'N Tantau Avenue, FIRE LANE - NO PARKING, 10600, Visitor Center, 30.5'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and fill in the word(s) found inside [[952, 379], [1758, 379], [1758, 866], [952, 866]]: ________",
+              "answer": [
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "36.5",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[788,783], [965,778], [966,835], [789,840]], part of a number has been obscured — what's the missing piece in \"10____\"?",
+              "answer": "600"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately reflects the text(s) found at [[952, 528], [1580, 528], [1580, 866], [952, 866]]. Options:\nA. FIRE LANE - NO PARKING, N Tantau Avenue, 10600\nB. 10600, FIPE LANE - NO PARKING, N Tantau Avenue\nC. 10600, Visitor Center, FIPE LANE - NO PARKING\nD. 36.5, N Tantau Avenue, 10600",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'Visitor Center, 36.5' is/are among the label(s) you'd find inside [[952, 379], [1758, 379], [1758, 665], [952, 665]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[977, 388], [1795, 388], [1795, 876], [977, 876]] — what word(s) do you find there? ________",
+              "answer": [
+                "FIRE LANE - NO PARKING",
+                "36.5",
+                "N Tantau Avenue",
+                "10600",
+                "Visitor Center"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Based on the text visible at [[461,842], [741,827], [743,863], [463,878]], what letter(s) should replace the blank in \"____ Tantau Avenue\"?",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that captures the text(s) at [[977, 388], [1795, 388], [1795, 675], [977, 675]]. Options:\nA. Visitor Center, FIPE LANE - NO PARKING\nB. 30.5, Visitor Center\nC. N Tantau Avenue, 36.5\nD. Visitor Center, FIRE LANE - NO PARKING",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it the case that 'FIRE LANE - NO PARKING, 36.5, Visitor Center, 10600, N Tantau Avenue' appears as a label within [[977, 533], [1618, 533], [1618, 876], [977, 876]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[1000, 390], [1821, 390], [1821, 878], [1000, 878]], which word(s) can be read? ________",
+              "answer": [
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "36.5",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[1126,344], [1167,345], [1166,394], [1125,391]], a number appears incomplete — restore the missing digits in \"36.____\".",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text(s) at [[1000, 538], [1258, 538], [1258, 878], [1000, 878]] match which of the following options? Options:\nA. FIRE LANE - NO PARKING, 10600\nB. Visitor Center, 36.5\nC. N Tantau Avenue, 10600\nD. N Tantau Avenue, Visiter Center",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'N Tantau Avenue, Visitor Center, FIRE LANE - NO PARKING, 36.5' fall(s) inside [[1000.0, 390.00000000000006], [1820.7142857142849, 390.00000000000006], [1820.7142857142849, 878.0], [1000.0, 878.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0453/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0453/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) contained in the area [[1014, 389], [1846, 389], [1846, 876], [1014, 876]]: ________",
+              "answer": [
+                "Visitor Center",
+                "10600",
+                "N Tantau Avenue",
+                "36.5",
+                "FIRE LANE - NO PARKING"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sequence \"36.____\" at [[1098,312], [1139,313], [1138,362], [1097,359]] has a missing decimal — can you fill it in?",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one includes the text(s) visible at [[1018, 649], [1656, 649], [1656, 876], [1018, 876]]? Options:\nA. Visitor Center, N Tantau Avenue\nB. H Tantau Avenue, 10600\nC. FIPE LANE - NO PARKING, 10600\nD. FIRE LANE - NO PARKING, N Tantau Avenue",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '10600, Visitor Center, 36.5, N Tantau Avenue' appear within [[1014.0, 388.8095238095239], [1845.7142857142849, 388.8095238095239], [1845.7142857142849, 876.0], [1014.0, 876.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0453"
+  }
+]

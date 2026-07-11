@@ -1,0 +1,569 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible in [[353, 501], [957, 501], [957, 933], [353, 933]]: ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "corporationbetween1968and1971toformacorporate",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[363,776], [956,769], [957,804], [362,809]], the text reads \"campusandvallcofas____onparkopenedonasouthern\" — what letters go in the blank?",
+              "answer": "hi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of these answers shows the exact text inside [[353, 501], [957, 501], [957, 859], [353, 859]] — which one is it? Options:\nA. parcelofthevallcolandin1976, farmsincupertinotodevelopvallcobusinessand, industrialparknamedfortheprincipalfamiliesinvolved, campusandvallcofashionparkopenedonasouthern, cityof, VALLCOPARK, corporationbetween1968and1971toformacorporate, in1964varianassociatespurchasedseveralfamily, hewlettpackardpurchased96acresfromvallcoland\nB. parcelofthevallcolandin1976, campusandvallcofashionparkopenedonasouthern, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, corporationbetween1968and1971toformacorporate, cityof, farmsincupertinotodevelopvallcobusinessand, im1964varianassociatespurchasedseveralfamily, inthesaleleonardlestercraftandorlando\nC. inthesaleleonardlestercraftandorlando, cupertino, cityof, in1964varianassociatespurchasedseveralfamily, VALLCOPARK, industrialparknamedfortheprincipalfamiliesinvolved, campusandvallcofashionparkopenedonasouthern, hewlettpackardpurchased96acresfromvallcoland, parcelofthevallcolandin1976\nD. industrialparknamedfortheprincipalfamiliesinvolved, in1964varianassociatespurchasedseveralfamily, VALLCOPARK, campusandvallcofashionparkopenedonasouthern, hewleftpackardpurchased96acresfromvallcoland, corporationbetween1968and1971toformacorporate, farmsincupertinotodevelopvallcobusinessand, cityof, parcelofthevallcolandin1976",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm that the text 'cityof, industrialparknamedfortheprincipalfamiliesinvolved, VALLCOPARK, corporationbetween1968and1971toformacorporate, parcelofthevallcolandin1976, inthesaleleonardlestercraftandorlando, hewlettpackardpurchased96acresfromvallcoland, in1964varianassociatespurchasedseveralfamily, campusandvallcofashionparkopenedonasouthern, oupertino' appears inside the box [[352.5581395348837, 500.5633802816901], [956.7441860465117, 500.5633802816901], [956.7441860465117, 932.7725971697321], [352.5581395348837, 932.7725971697321]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you see inside the bounding box [[370, 495], [970, 495], [970, 928], [370, 928]]: ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "corporationbetween1968and1971toformacorporate",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Supply the missing letters to complete \"corporationbetween____and1971toformacorporate\", found at [[504,779], [1090,782], [1091,824], [502,822]].",
+              "answer": "1968"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which correctly identifies the text enclosed by [[370, 495], [970, 495], [970, 853], [370, 853]]? Options:\nA. in1964varianassociatespurchasedseveralfamily, VALLCOPARK, corporationbetween1968and1971toformacorporate, farmsincupertinotodevelopvallcobusinessand, campusandvallcofashionparkopenedonasouthern, parcelofthevallcolandin1976, cupertino, hewlettpackardpurchased96acresfromvallcoland, inthesaleleonardlestercraftandorlando\nB. farmsincupertinotodevelopvallcobusinessand, in1964varianassociatespurchasedseveralfamily, hewlettpackardpurchased96acresfromvallcoland, VALLCOPARK, oityof, parcelofthevallcolandin1976, inthesaleleonardlestercraftandorlando, industrialparknamedfortheprincipalfamiliesinvolved, campusandvallcofashionparkopenedonasouthern\nC. campusandvallcofashionparkopenedonasouthern, parcelofthevallcolandin1976, VALLCOPARK, in1964varianassociatespurchasedseveralfamily, corporationbetween1968and1971toformacorporate, hewlettpackardpurchased96acresfromvallcoland, industrialparknamedfortheprincipalfamiliesinvolved, inthesaleleonardlestercraftandorlando, farmsincupertinotodevelopvallcobusinessand\nD. cityof, parcelofthevallcolandin1976, VALLCOPARK, im1964varianassociatespurchasedseveralfamily, inthesaleleonardlestercraftandorlando, corporationbetween1968and1971toformacorporate, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, campusandvallcofashionparkopenedonasouthern",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[370.3925344393423, 495.46783888041625], [970.3925344393423, 495.46783888041625], [970.3925344393423, 927.5797188314532], [370.3925344393423, 927.5797188314532]], do you see the label 'cityof, in1964varianassociatespurchasedseveralfamily, industrialparknamedfortheprincipalfamiliesinvolved, farmsincupertinotodevelopvallcobusinessand, VALLCOPARK, inthesaleleonardlestercraftandorlando, parcelofthevallcolandin1976, hewlettpackardpurchased96acresfromvallcoland, corporationbetween1968and1971toformacorporate'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Peer at [[376, 493], [979, 493], [979, 926], [376, 926]] and write out the word(s) you see: ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "corporationbetween1968and1971toformacorporate",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the blank to complete \"____of\", the text located at [[940,906], [987,907], [987,919], [940,919]].",
+              "answer": "city"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the area defined by [[376, 493], [979, 493], [979, 926], [376, 926]], which option captures the text correctly? Options:\nA. farmsincupertinotodevelopvallcobusinessand, industrialparknamedfortheprincipalfamiliesinvolved, inthesaleleonardlestercraftandorlando, parcelofthevallcolandin1976, hewlettpackardpurchased96acresfromvallcoland, VALLCOPARK, cupertino, cempusandvallcofashionparkopenedonasouthern, in1964varianassociatespurchasedseveralfamily, corporationbetween1968and1971toformacorporate\nB. parcelofthevallcolandin1976, cityof, in1964varianassociatespurchasedseveralfamily, industrialparknamedfortheprincipalfamiliesinvolved, inthesaleleonardlestercraftandorlando, hewleftpackardpurchased96acresfromvallcoland, campusandvallcofashionparkopenedonasouthern, cupertino, VALLCOPARK, corporationbetween1968and1971toformacorporate\nC. parcelofthevallcolandin1976, farmsincupertinotodevelopvallcobusinessand, VALLCOPARK, cupertino, in1964varianassociatespurchasedseveralfamily, cityof, corporationbetween1968and1971toformacorporate, hewlettpackardpurchased96acresfromvallcoland, inthesaleleonardlestercraftandorlando, campusandvallcofashionparkopenedonasouthern\nD. corporationbetween1968and1971toformacorporate, farmsincupertinotodevelopvallcobusinessand, industrialparknamedfortheprincipalfamiliesinvolved, in1964varianassociatespurchasedseveralfamily, campusandvallcofashionparkopenedonasouthern, hewlettpackardpurchased96acresfromvallcoland, parcelofthevallcolandin1976, cupertino, VALLCOPARK, oityof",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'parcelofthevallcolandin1976, campusandvallcofashionparkopenedonasouthern, cupertino, farmsincupertinotOdevelopvallcobusinessand, in1964varianassociatespurchasedseveralfamily, cityof, hewlettpackardpurchased96acresfromvallcoland, inthesaleleonardlestercraftandorlando, industrialparknamedfortheprincipalfamiliesinvolved, corporationbetween1968and1971toformacorporate' appears as text within the bounding box [[375.5948465780706, 492.57766547001154], [978.7096067120863, 492.57766547001154], [978.7096067120863, 925.7993034011862], [375.5948465780706, 925.7993034011862]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) you can spot inside the box [[397, 493], [1002, 493], [1002, 927], [397, 927]]: ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "corporationbetween1968and1971toformacorporate",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the region [[783,632], [1319,640], [1318,673], [780,665]], what letter(s) are missing from the end of \"farmsincupertinoto____vallcobusinessand\"?",
+              "answer": "develop"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option matches the text found inside [[397, 493], [1002, 493], [1002, 835], [397, 835]]? Options:\nA. in1964varianassociatespurchasedseveralfamily, campusandvallcofashionparkopenedonasouthern, parcelofthevallcolandin1976, VALLCOPARK, hewlettpackardpurchased96acresfromvallcoland, industrialparknamedfortheprincipalfamiliesinvolved, cityof, inthesaleleonardlestercraftandorlando\nB. farmsincupertinotodevelopvallcobusinessand, VALLCOPARK, cupertino, inthesaleleonardlestercraftandorlando, corporationbetween1968and1971toformacorporate, campusandvallcofashionparkopenedonasouthern, hewlettpackardpurchased96acresfromvallcoland, parcelofthevallcolandin1976\nC. parcelefthevallcolandin1976, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, in1964varianassociatespurchasedseveralfamily, campusandvallcofashionparkopenedonasouthern, inthesaleleonardlestercraftandorlando, farmsincupertinotodevelopvallcobusinessand, VALLCOPARK\nD. hewlettpackardpurchased96acresfromvallcoland, farmsincupertinotodevelopvallcobusinessand, in1964varianassociatespurchasedseveralfamily, parcelofthevallcolandin1976, industrialparknamedfortheprincipalfamiliesinvolved, corporationbetween1968and1971toformacorporate, campusandvallcofashionparkopenedonasouthern, VALLCOPARK",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'industrialparknamedfortheprincipalfamiliesinvolved, corporationbetween1968and1971toformacorporate, cityof, campusandvallcofashionparkopenedonasouthern, VALLCOPARK, parcelofthevallcolandin1976, hewlettpackardpurchased96acresfromvallcoland, farmsincupertinotodevelopvallcobusinessand' the text you see inside the region [[397, 493], [1002, 493], [1002, 853], [397, 853]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out all the text you can see inside [[411, 494], [1022, 494], [1022, 838], [411, 838]]. ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "corporationbetween1968and1971toformacorporate",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[854,750], [1474,761], [1475,799], [852,789]], the text reads \"corp____ionbetween1968and1971toformacorporate\" — what character(s) fill the gap?",
+              "answer": "orat"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly shows the text inside [[411, 494], [1022, 494], [1022, 857], [411, 857]]. Options:\nA. parcelofthevallcolandin1976, inthesaleleonardlestercraftandorlando, cityof, industrialparknamedfortheprincipalfamiliesinvolved, VALLCOPARK, farmsincupertinotodevelopvallcobusinessand, corporationbetween1968and1971toformacorporate, in1964varianassociatespurchasedseveralfamily, hewlettpackardpurchased96acresfromvallcoland\nB. corporationbetween1968and1971toformacorporate, cityof, farmsincupertinotodevelopvallcobusinessand, inoustrialparknamedfortheprincipalfamiliesinvolved, VALLCOPARK, parcelofthevallcolandin1976, campusandvallcofashionparkopenedonasouthern, inthesaleleonardlestercraftandorlando, hewlettpackardpurchased96acresfromvallcoland\nC. hewlettpackardpurchased96acresfromvallcoland, inthesaleleonardlestercraftandorlando, parcelofthevallcolandin1976, industrialparknamedfortheprincipalfamiliesinvolved, VALLCOPARK, farmsincupertinotodevelopvallcobusinessand, cupertino, campusandvallcofashionparkopenedonasouthern, corporationbetween1968and1971toformacorporate\nD. in1964varianassociatespurchasedseveralfamily, corporationbetween1968and1971toformacorporate, cityof, ihthesaleleonardlestercraftandorlando, industrialparknamedfortheprincipalfamiliesinvolved, campusandvallcofashionparkopenedonasouthern, farmsincupertinotodevelopvallcobusinessand, VALLCOPARK, hewlettpackardpurchased96acresfromvallcoland",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'farmsincupertinotodevelopvallcobusinessand, inthesaleleonardlestercraftandorlando, in1964varianassociatespurchasedseveralfamily, oityof, campusandvallcofashionparkopenedonasouthern, cupertino, corporationbetween1968and1971toformacorporate, parcelofthevallcolandin1976, industrialparknamedfortheprincipalfamiliesinvolved, VALLCOPARK' written inside the area marked [[411.0941393644921, 494.2944036674364], [1021.7845048495711, 494.2944036674364], [1021.7845048495711, 930.1142334795953], [411.0941393644921, 930.1142334795953]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word visible within [[428, 503], [1035, 503], [1035, 935], [428, 935]]. ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "corporationbetween1968and1971toformacorporate",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1118,526], [1770,524], [1770,567], [1117,566]] shows \"____4varianassociatespurchasedseveralfamily\" — what character(s) belong where the blank is?",
+              "answer": "in196"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text inside [[428, 503], [1035, 503], [1035, 935], [428, 935]], which of these options is the right answer? Options:\nA. parcelofthevallcolandin1976, in1964varianassociatespurchasedseveralfamily, farmsincupertinotodevelopvallcobusinessand, campusandvallcofashionparkopenedonasouthern, inthesaleleonardlestercraftandorlando, VALLCOPARK, industrialparknamedfortheprincipalfamiliesinvolved, cupertino, hewlettpackardpurchased96acresfromvallcoland, corparationbetween1968and1971toformacorporate\nB. VALLCOPARK, cityof, parcelofthevallcolandin1976, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, campusandvallcofashionparkopenedonasouthern, inthesaleleonardlestercraftandorlando, farmsincupertinotodevelopvallcobusinessand, corporationbetween1968and1971toformacorporate, in1964varianassociatespurchasedseveralfamily\nC. campusandvallcofashionparkopenedonasouthern, hewlettpackardpurchased96acresfromvallcoland, VALLCORARK, corporationbetween1968and1971toformacorporate, parcelofthevallcolandin1976, farmsincupertinotodevelopvallcobusinessand, in1964varianassociatespurchasedseveralfamily, cupertino, industrialparknamedfortheprincipalfamiliesinvolved, cityof\nD. in1964varianassociatespurchasedseveralfamily, corporationbetween1968and1971toformacorporate, cupertino, farmsincupertinotodevelopvallcobusinessand, VALLCOPARK, parcelefthevallcolandin1976, inthesaleleonardlestercraftandorlando, campusandvallcofashionparkopenedonasouthern, cityof, industrialparknamedfortheprincipalfamiliesinvolved",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, cityof, parcelofthevallcolandin1976, farmsincupertinotodevelopvallcobusinessand, inthesaleleonardlestercraftandorlando, VALLCOPARK, campusandvallcofashionparkopenedonasouthern, cupertino' is what's written in the box at [[428.05685328350046, 502.9649238986502], [1035.3715960118907, 502.9649238986502], [1035.3715960118907, 935.016194263909], [428.05685328350046, 935.016194263909]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you find inside [[438, 514], [1041, 514], [1041, 947], [438, 947]]. ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "corporationbetween1968and1971toformacorporate",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "To complete \"farmsincupertinotode____vallcobusinessand\" as it appears at [[1201,547], [1864,551], [1863,590], [1198,585]], what letter(s) should replace the blank?",
+              "answer": "velop"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that best captures what's written at [[438, 514], [1041, 514], [1041, 947], [438, 947]]. Options:\nA. cityof, corporationbetween1968and1971toformacorporate, campusandvallcofashionparkopenedonasouthern, hewlettpackardpurchased96acresfromvallcoland, VALLCOPARK, im1964varianassociatespurchasedseveralfamily, industrialparknamedfortheprincipalfamiliesinvolved, parcelofthevallcolandin1976, cupertino, farmsincupertinotodevelopvallcobusinessand\nB. in1964varianassociatespurchasedseveralfamily, inthesaleleonardlestercraftandorlando, corporationbetween1968and1971toformacorporate, cityof, industrialparknamedfortheprincipalfamiliesinvolved, parcelofthevallcolandin1976, farmsincupertinotodevelopvallcobusinessand, hewlettpackardpurchased96acresfromvallcoland, cupertino, VALLCOPARK\nC. hewlettpackardpurchased96acresfromvallcoland, campusandvallcofashionparkopenedonasouthern, in1964varianassociatespurchasedseveralfamily, industrialparknamedfortheprincipalfamiliesinvolved, parcelofthevallcolandin1976, corparationbetween1968and1971toformacorporate, cupertino, farmsincupertinotodevelopvallcobusinessand, VALLCOPARK, cityof\nD. farmsincupertinotodevelopvallcobusinessand, industrialparknamedfortheprincipalfamiliesinvolved, ln1964varianassociatespurchasedseveralfamily, cupertino, hewlettpackardpurchased96acresfromvallcoland, inthesaleleonardlestercraftandorlando, corporationbetween1968and1971toformacorporate, campusandvallcofashionparkopenedonasouthern, cityof, VALLCOPARK",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Fair to say that 'hewlettpackardpurchased96acresfromvallcoland, farmsincupertinotodevelopvallcobusinessand, corporationbetween1968and1971toformacorporate, parcelofthevallcolandin1976, inthesaleleonardlestercraftandorlando, VALLCOPARK, cityof, in1964varianassociatespurchasedseveralfamily, cupertino, industrialparknamedfortheprincipalfamiliesinvolved' is visible inside [[438, 579], [1041, 579], [1041, 947], [438, 947]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text is visible inside the region [[449, 523], [1049, 523], [1049, 956], [449, 956]]? ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "corporationbetween1968and1971toformacorporate",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in \"parcelofthe____landin1976\" at [[1083,786], [1526,800], [1524,842], [1081,828]] there's a blank — what fills it?",
+              "answer": "vallco"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, which one includes the text visible at [[449, 523], [1049, 523], [1049, 883], [449, 883]]? Options:\nA. industrialparknamedfortheprincipalfamiliesinvolved, farmsincupertinotodevelopvallcobusinessand, in1964varianassociatespurchasedseveralfamily, cityof, VALLCOPARK, parcelofthevallcolandin1976, campusandvallcofashionparkopenedonasouthern, inthesaleleonardlestercraftandorlando, cupertino\nB. inthesaleleonardlestercraftandorlando, VALLCOPARK, farmsincupertinotodevelopvallcobusinessand, industrialparknamedfortheprincipalfamiliesinvolved, hewleftpackardpurchased96acresfromvallcoland, corporationbetween1968and1971toformacorporate, cityof, parcelofthevallcolandin1976, in1964varianassociatespurchasedseveralfamily\nC. in1964varianassociatespurchasedseveralfamily, corporationbetween1968and1971toformacorporate, VALLCOPARK, farmsincupertinotodevelopvallcobusinessand, campusandvallcofashionparkopenedonasouthern, cityof, inthesaleleonardlestercraftandorlando, hewlettpackardpurchased96acresfromvallcoland, parcelofthevallcolandin1976\nD. VALLCOPARK, campusandvallcofashionparkopenedonasouthern, parcelofthevallcolandin1976, cityof, farmsincupertinotodevelopvallcobusinessand, inoustrialparknamedfortheprincipalfamiliesinvolved, inthesaleleonardlestercraftandorlando, corporationbetween1968and1971toformacorporate, hewlettpackardpurchased96acresfromvallcoland",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area at [[448.53228054922226, 523.2559306394843], [1048.9287614013747, 523.2559306394843], [1048.9287614013747, 956.4526056215802], [448.53228054922226, 956.4526056215802]], is the text there 'industrialparknamedfortheprincipalfamiliesinvolved, cityof, VALLCOPARK, cupertino, inthesaleleonardlestercraftandorlando, parcelofthevallcolandin1976, hewlettpackardpurchased96acresfromvallcoland, farmsincupertinotodevelopvallcobusinessand, in1964varianassociatespurchasedseveralfamily, eorporationbetween1968and1971toformacorporate'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the word(s) shown inside [[464, 530], [1072, 530], [1072, 965], [464, 965]]. ________",
+              "answer": [
+                "VALLCOPARK",
+                "in1964varianassociatespurchasedseveralfamily",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "inthesaleleonardlestercraftandorlando",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "campusandvallcofashionparkopenedonasouthern",
+                "parcelofthevallcolandin1976",
+                "corporationbetween1968and1971toformacorporate",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A few characters are missing from \"parcelofthe____andin1976\" at [[710,822], [1096,814], [1097,852], [710,860]] — what should fill the blank?",
+              "answer": "vallcol"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options below, which correctly represents the text found at [[464, 530], [1072, 530], [1072, 891], [464, 891]]? Options:\nA. VALLCOPARK, parcelofthevallcolandin1976, corporationbetween1968and1971toformacorporate, campusandvallcofashionparkopenedonasouthern, industrialparknamedfortheprincipalfamiliesinvolved, inthesaleleonardlestercraftandorlando, farmsincupertinotodevelopvallcobusinessand, hewlettpackardpurchased96acresfromvallcoland, cityof\nB. farmsincupertinotodevelopvallcobusinessand, corporationbetween1968and1971toformacorporate, hewlettpackardpurchased96acresfromvallcoland, parcelofthevallcolandin1976, VALLCORARK, in1964varianassociatespurchasedseveralfamily, cityof, industrialparknamedfortheprincipalfamiliesinvolved, campusandvallcofashionparkopenedonasouthern\nC. in1964varianassociatespurchasedseveralfamily, VALLCOPARK, parcelofthevallcolandin1976, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, corporationbetween1968and1971toformacorporate, farmsincupertinotodevelopvallcobusinessand, oityof, inthesaleleonardlestercraftandorlando\nD. industrialparknamedfortheprincipalfamiliesinvolved, campusandvallcofashionparkopenedonasouthern, corporationbetween1968and1971toformacorporate, farmsincupertinotodevelopvallcobusinessand, in1964varianassociatespurchasedseveralfamily, hewlettpackardpurchased96acresfromvallcoland, VALLCOPARK, parcelofthevallcolandin1976, cupertino",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glancing at [[463.80113803211805, 530.1923468244554], [1072.2317025145385, 530.1923468244554], [1072.2317025145385, 965.057946867871], [463.80113803211805, 965.057946867871]], is 'in1964varianassociatespurchasedseveralfamily, inthesaleleonardlestercraftandorlando, campusandvallcofashionparkopenedonasouthern, corporationbetween1968and1971toformacorporate, hewlottpackardpurchased96acresfromvallcoland, cityof, parcelofthevallcolandin1976, VALLCOPARK, cupertino, farmsincupertinotodevelopvallcobusinessand' the text shown there? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "List the word(s) that appear within [[490, 539], [1080, 539], [1080, 976], [490, 976]]. ________",
+              "answer": [
+                "VALLCOPARK",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "parcelofthevallcolandin1976",
+                "corporationbetween1968and1971toformacorporate",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "in1964varianassociatespurchasedseveralfamily",
+                "inthesaleleonardlestercraftandorlando",
+                "campusandvallcofashionparkopenedonasouthern",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the sequence \"campusandvallcofa____ionparkopenedonasouthern\" shown at [[336,825], [967,797], [968,838], [333,864]], which character(s) should replace the blank?",
+              "answer": "sh"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text shown inside [[490, 539], [1080, 539], [1080, 976], [490, 976]]? Options:\nA. cupertino, cityof, inthesaleleonardlestercraftandorlando, industrialparknamedfortheprincipalfamiliesinvolved, parcelofthevallcolandin1976, VALLCOPARK, campusandvallcofashionparkopenedonasouthern, in1964varianassociatespurchasedseveralfamily, hewlettpackardpurchased96acresfromvallcoland, farmsincupertinotodevelopvallcobusinessand\nB. VALLCOPARK, inthesaleleonardlestercraftandorlando, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, corparationbetween1968and1971toformacorporate, campusandvallcofashionparkopenedonasouthern, farmsincupertinotodevelopvallcobusinessand, cupertino, cityof, parcelofthevallcolandin1976\nC. in1964varianassociatespurchasedseveralfamily, farmsincupertinotodevelopvallcobusinessand, inthesaleleonardlestercraftandorlando, corporationbetween1968and1971toformacorporate, parcelofthevallcolandin1976, industrialparknamedfortheprincipalfamiliesinvolved, VALLCOPARK, oityof, hewlettpackardpurchased96acresfromvallcoland, cupertino\nD. farmsincupertinotodevelopvallcobusinessand, corporationbetween1968and1971toformacorporate, parcelofthevallcolandin1976, industrialparknamedfortheprincipalfamiliesinvolved, cityof, ihthesaleleonardlestercraftandorlando, hewlettpackardpurchased96acresfromvallcoland, campusandvallcofashionparkopenedonasouthern, cupertino, VALLCOPARK",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the bounding box [[489.8039215686274, 539.3948008121854], [1079.8660927785754, 539.3948008121854], [1079.8660927785754, 975.6095056208686], [489.8039215686274, 975.6095056208686]], is 'farmsincupertinotodevelopvallcobusinessand, hewlettpackardpurchased96acresfromvallcoland, parcelofthevallcolandin1976, eampusandvallcofashionparkopenedonasouthern, inthesaleleonardlestercraftandorlando, cupertino, VALLCOPARK, cityof, industrialparknamedfortheprincipalfamiliesinvolved, corporationbetween1968and1971toformacorporate' the text you see there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the region [[502, 551], [1091, 551], [1091, 983], [502, 983]], what word(s) appear? ________",
+              "answer": [
+                "VALLCOPARK",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "parcelofthevallcolandin1976",
+                "corporationbetween1968and1971toformacorporate",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "in1964varianassociatespurchasedseveralfamily",
+                "inthesaleleonardlestercraftandorlando",
+                "campusandvallcofashionparkopenedonasouthern",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[291,715], [828,701], [829,738], [290,751]], which character(s) complete the partial text \"inthesaleleonar____rcraftandorlando\"?",
+              "answer": "dleste"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text visible at [[502, 551], [1091, 551], [1091, 909], [502, 909]]. Options:\nA. inthesaleleonardlestercraftandorlando, hewlettpackardpurchased96acresfromvallcoland, campusandvallcofashionparkopenedonasouthern, industrialparknamedfortheprincipalfamiliesinvolved, in1964varianassociatespurchasedseveralfamily, cupertino, farmsincupertinotodevelopvallcobusinessand, corporationbetween1968and1971toformacorporate, cityof\nB. farmsincupertinotodevelopvallcobusinessand, industrialparknamedfortheprincipalfamiliesinvolved, cityof, hewlettpackardpurchased96acresfromvallcoland, ihthesaleleonardlestercraftandorlando, in1964varianassociatespurchasedseveralfamily, corporationbetween1968and1971toformacorporate, VALLCOPARK, parcelofthevallcolandin1976\nC. inthesaleleonardlestercraftandorlando, farmsincupertinotodevelopvallcobusinessand, parcelofthevallcolandin1976, in1964varianassociatespurchasedseveralfamily, corporationbetween1968and1971toformacorporate, campusandvallcofashionparkopenedonasouthern, VALLCOPARK, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland\nD. farmsincupertinotodevelopvallcobusinessand, VALLCOPARK, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, cityof, parcelofthevallcolandin1976, campusandvallcofashionparkopenedonasouthern, corporationbetween1968and1971toformacorporate, ihthesaleleonardlestercraftandorlando",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'corporationbetween1968and1971toformacorporate, campusandvallcofashionparkopenedonasouthern, cupertino, inthesaleleonardlestercraftandorlando, parcelofthevallcolandin1976, farmsincupertinotodevelopvallcobusinessand, cityof, hewlettpackardpurchased96acresfromvallcoland, in1964varianassociatespurchasedseveralfamily' the text that appears within the bounding box [[502.19671608480775, 550.9554944538039], [1090.977203889688, 550.9554944538039], [1090.977203889688, 983.1342580961161], [502.19671608480775, 983.1342580961161]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0428/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0428/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type the word(s) you can read inside [[521, 552], [1111, 552], [1111, 988], [521, 988]]. ________",
+              "answer": [
+                "VALLCOPARK",
+                "hewlettpackardpurchased96acresfromvallcoland",
+                "parcelofthevallcolandin1976",
+                "corporationbetween1968and1971toformacorporate",
+                "industrialparknamedfortheprincipalfamiliesinvolved",
+                "farmsincupertinotodevelopvallcobusinessand",
+                "in1964varianassociatespurchasedseveralfamily",
+                "inthesaleleonardlestercraftandorlando",
+                "campusandvallcofashionparkopenedonasouthern",
+                "cityof",
+                "cupertino"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[434,888], [830,868], [833,905], [440,929]] has a gap — what character(s) go in \"parcelofthev____landin1976\"?",
+              "answer": "allco"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one contains the text found at [[521, 552], [1111, 552], [1111, 988], [521, 988]]? Options:\nA. in1964varianassociatespurchasedseveralfamily, industrialparknamedfortheprincipalfamiliesinvolved, parcelofthevallcolandin1976, hewlettpackardpurchased96acresfromvallcoland, campusandvallcofashionparkopenedonasouthern, farmsincupertinotodevelopvallcobusinessahd, corporationbetween1968and1971toformacorporate, cityof, inthesaleleonardlestercraftandorlando, VALLCOPARK\nB. cityof, cupertino, corporationbetween1968and1971toformacorporate, parcelofthevallcolandin1976, farmsincupertinotodevelopvallcobusinessand, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, im1964varianassociatespurchasedseveralfamily, inthesaleleonardlestercraftandorlando, campusandvallcofashionparkopenedonasouthern\nC. corparationbetween1968and1971toformacorporate, hewlettpackardpurchased96acresfromvallcoland, farmsincupertinotodevelopvallcobusinessand, industrialparknamedfortheprincipalfamiliesinvolved, campusandvallcofashionparkopenedonasouthern, parcelofthevallcolandin1976, VALLCOPARK, cupertino, cityof, in1964varianassociatespurchasedseveralfamily\nD. cupertino, cityof, corporationbetween1968and1971toformacorporate, in1964varianassociatespurchasedseveralfamily, campusandvallcofashionparkopenedonasouthern, VALLCOPARK, industrialparknamedfortheprincipalfamiliesinvolved, hewlettpackardpurchased96acresfromvallcoland, farmsincupertinotodevelopvallcobusinessand, parcelofthevallcolandin1976",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the box region [[521.3354720656689, 551.8138635525164], [1110.5104710677467, 551.8138635525164], [1110.5104710677467, 987.630660973814], [521.3354720656689, 987.630660973814]], do you see 'oupertino, hewlettpackardpurchased96acresfromvallcoland, inthesaleleonardlestercraftandorlando, corporationbetween1968and1971toformacorporate, in1964varianassociatespurchasedseveralfamily, cityof, parcelofthevallcolandin1976, VALLCOPARK, campusandvallcofashionparkopenedonasouthern, farmsincupertinotodevelopvallcobusinessand'?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0428"
+  }
+]

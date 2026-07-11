@@ -1,0 +1,312 @@
+{
+  "video_id": "C0167",
+  "frames": 120,
+  "word": "Stanford MEDICINE\nChildren's Health",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0167.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Stanford MEDICINE\nChildren's Health\" likely to be?\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. event or poster information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text",
+      "q": "The label \"Stanford MEDICINE\nChildren's Health\" — what kind of sign would you say it belongs to?\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. event or poster information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text",
+      "a": "E",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. warning or prohibition sign",
+        "B. menu or commercial information",
+        "C. event or poster information",
+        "D. address or street sign",
+        "E. storefront or brand sign",
+        "F. direction or navigation sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The label \"Stanford MEDICINE\nChildren's Health\" — what kind of sign would you say it belongs to?\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. event or poster information\nD. address or street sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Stanford MEDICINE\nChildren's Health\" appear in?\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. restaurant or menu\nE. road or street\nF. warning / rule sign\nG. event poster or display\nH. transportation / station",
+      "q": "What setting is suggested by the presence of \"Stanford MEDICINE\nChildren's Health\" in the video?\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. restaurant or menu\nE. road or street\nF. warning / rule sign\nG. event poster or display\nH. transportation / station",
+      "a": "C",
+      "a_text": "campus or office",
+      "answer_key": "campus or office",
+      "options": [
+        "A. other public sign",
+        "B. storefront",
+        "C. campus or office",
+        "D. restaurant or menu",
+        "E. road or street",
+        "F. warning / rule sign",
+        "G. event poster or display",
+        "H. transportation / station"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What setting is suggested by the presence of \"Stanford MEDICINE\nChildren's Health\" in the video?\n Options:\nA. other public sign\nB. storefront\nC. campus or office\nD. restaurant or menu\nE. road or street\nF. warning / rule sign\nG. event poster or display\nH. transportation / station"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Stanford MEDICINE\nChildren's Health\" mostly appear?\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. center (middle of the frame)\nE. bottom-right (lower-right area)",
+      "q": "Mostly, where does \"Stanford MEDICINE\nChildren's Health\" sit within the frame?\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. center (middle of the frame)\nE. bottom-right (lower-right area)",
+      "a": "D",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-right (upper-right area)",
+        "B. top-left (upper-left area)",
+        "C. bottom-left (lower-left area)",
+        "D. center (middle of the frame)",
+        "E. bottom-right (lower-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Mostly, where does \"Stanford MEDICINE\nChildren's Health\" sit within the frame?\n Options:\nA. top-right (upper-right area)\nB. top-left (upper-left area)\nC. bottom-left (lower-left area)\nD. center (middle of the frame)\nE. bottom-right (lower-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Stanford MEDICINE\nChildren's Health\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "To what extent does \"Stanford MEDICINE\nChildren's Health\" shift position during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "A",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "To what extent does \"Stanford MEDICINE\nChildren's Health\" shift position during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Stanford MEDICINE\nChildren's Health\" move?\n Options:\nA. stays roughly in place\nB. changes direction partway\nC. moves up\nD. moves right\nE. moves left\nF. moves diagonally\nG. moves down",
+      "q": "Which direction does \"Stanford MEDICINE\nChildren's Health\" generally move — left, right, up, down, or does it stay put?\n Options:\nA. stays roughly in place\nB. changes direction partway\nC. moves up\nD. moves right\nE. moves left\nF. moves diagonally\nG. moves down",
+      "a": "A",
+      "a_text": "stays roughly in place",
+      "answer_key": "stays roughly in place",
+      "options": [
+        "A. stays roughly in place",
+        "B. changes direction partway",
+        "C. moves up",
+        "D. moves right",
+        "E. moves left",
+        "F. moves diagonally",
+        "G. moves down"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"Stanford MEDICINE\nChildren's Health\" generally move — left, right, up, down, or does it stay put?\n Options:\nA. stays roughly in place\nB. changes direction partway\nC. moves up\nD. moves right\nE. moves left\nF. moves diagonally\nG. moves down"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Stanford MEDICINE\nChildren's Health\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> center\nB. center -> center -> top-left\nC. center -> bottom-right -> center\nD. bottom-right -> center -> center",
+      "q": "At the start, middle, and end of the clip, where does \"Stanford MEDICINE\nChildren's Health\" appear in the frame?\n Options:\nA. center -> center -> center\nB. center -> center -> top-left\nC. center -> bottom-right -> center\nD. bottom-right -> center -> center",
+      "a": "A",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> center -> center",
+        "B. center -> center -> top-left",
+        "C. center -> bottom-right -> center",
+        "D. bottom-right -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "At the start, middle, and end of the clip, where does \"Stanford MEDICINE\nChildren's Health\" appear in the frame?\n Options:\nA. center -> center -> center\nB. center -> center -> top-left\nC. center -> bottom-right -> center\nD. bottom-right -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Stanford MEDICINE\nChildren's Health\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)",
+      "q": "Relative to the frame, how big does \"Stanford MEDICINE\nChildren's Health\" appear?\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)",
+      "a": "A",
+      "a_text": "very large (dominates the frame)",
+      "answer_key": "very large",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. large (a major part of the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Relative to the frame, how big does \"Stanford MEDICINE\nChildren's Health\" appear?\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. large (a major part of the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Stanford MEDICINE\nChildren's Health\" get larger, smaller, or stay about the same size?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "q": "\"Stanford MEDICINE\nChildren's Health\" — does it grow larger, shrink, or hold roughly the same size throughout the clip?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller",
+      "a": "D",
+      "a_text": "gets smaller",
+      "answer_key": "gets smaller",
+      "options": [
+        "A. gets larger",
+        "B. size fluctuates (goes up and down)",
+        "C. stays about the same size",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "\"Stanford MEDICINE\nChildren's Health\" — does it grow larger, shrink, or hold roughly the same size throughout the clip?\n Options:\nA. gets larger\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Stanford MEDICINE\nChildren's Health\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "Is \"Stanford MEDICINE\nChildren's Health\" centered comfortably in the frame, or does it sit close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"Stanford MEDICINE\nChildren's Health\" centered comfortably in the frame, or does it sit close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Stanford MEDICINE\nChildren's Health\" and how it appears in the video.",
+      "q": "Give a brief description of \"Stanford MEDICINE\nChildren's Health\" — what it looks like and how it behaves in the video.",
+      "a": "The text \"Stanford MEDICINE Children's Health\" appears in red and white lettering on the glass entrance door of a medical facility.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a brief description of \"Stanford MEDICINE\nChildren's Health\" — what it looks like and how it behaves in the video."
+    }
+  ]
+}

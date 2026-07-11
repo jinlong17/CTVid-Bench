@@ -1,0 +1,536 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down every word visible at [[505, 422], [1531, 422], [1531, 752], [505, 752]]. ________",
+              "answer": [
+                "FedEx",
+                "FedEx",
+                "Ground",
+                "FedEx",
+                "fedex.com",
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[735,422], [1212,465], [1197,683], [716,652]], a familiar service name appears with some characters hidden as F____Ex. — what are the missing characters?",
+              "answer": "ed"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick whichever option correctly captures what's written inside [[0, 387], [1531, 387], [1531, 721], [0, 721]]. Options:\nA. RET, THE, fedex.com, FedEx, FACP, INSIDE, NORTH, Ground, FedEx\nB. THE, fedex.com, FodEx, Ground, RET, NORTH, FACE, INSIDE, FACP\nC. RET, THE, NORTH, INSIDE, Ground, FACE, fedex.com, FodEx, FACP\nD. fedex.com, 203608, FedEx, FACE, THE, INSIDE, RET, NORTH, FedEx",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is simple: does '203608, FedEx, FACP, Ground, FedEx, fedex.com, RET, THE, INSIDE, FedEx' sit inside the bounding box [[0, 387], [1387, 387], [1387, 782], [0, 782]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every piece of text you can read within the coordinates [[0, 389], [611, 389], [611, 782], [0, 782]]. ________",
+              "answer": [
+                "RET",
+                "FedEx",
+                "203608",
+                "FedEx",
+                "FACP",
+                "INSIDE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the region [[39,731], [85,732], [85,747], [38,746]], the text appears partially as \"I____IDE\" — what letter(s) are missing?",
+              "answer": "NS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box at [[0, 389], [1530, 389], [1530, 725], [0, 725]] contains some text — pick the option that matches it. Options:\nA. THE, FACE, NORTH, RET, Ground, FACP, fedex.com, INSIDE, FodEx\nB. FedEx, FedEx, RET, FACE, INSIDE, Ground, FACP, fedex.com, THE\nC. FedEx, RET, fedex.com, NORTH, FedEx, Ground, FedEx, FACE, INSIDE\nD. FedEx, INSIDE, FedEx, Ground, NORTH, FACE, THE, 203608, FACP",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'FedEx, 203608, fedex.com, FedEx, FACP, INSIDE, RET' appear inside the region [[0.0, 389.0], [611.0, 389.0], [611.0, 782.0], [0.0, 782.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside [[0, 395], [292, 395], [292, 790], [0, 790]] and write it out: ________",
+              "answer": [
+                "RET",
+                "203608",
+                "FACP",
+                "INSIDE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[71,707], [108,708], [108,723], [71,722]], the label shows \"F____P\" with some characters hidden — which letter(s) are absent?",
+              "answer": "AC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the answer choices, which one correctly names the text found at [[0, 395], [610, 395], [610, 790], [0, 790]]? Options:\nA. EACP, INSIDE, 203608, FedEx, RET\nB. RET, INSIDE, FedEx, 203608, FedEx\nC. FedEx, 203608, FedEx, FedEx, INSIDE\nD. FedEx, 203608, FACP, RET, Ground",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'RET, FedEx, Ground, NOPTH, FACP, FedEx, THE, fedex.com, 203608, FedEx' visible inside the bounding box at [[0.0, 395.0], [1529.2, 395.0], [1529.2, 790.0], [0.0, 790.0]]? Yes or no.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word visible inside the region [[0, 403], [1530, 403], [1530, 800], [0, 800]]: ________",
+              "answer": [
+                "RET",
+                "FedEx",
+                "FedEx",
+                "Ground",
+                "203608",
+                "FedEx",
+                "fedex.com",
+                "FACP",
+                "INSIDE",
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the crop at [[786,692], [912,700], [910,748], [784,742]] which reveals \"Gr____d\", how would you complete the word(s)?",
+              "answer": "oun"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region [[0, 403], [1383, 403], [1383, 800], [0, 800]], select the answer that matches all the text found there. Options:\nA. FedEx, FedEx, 203608, Ground, FedEx, FACP, RET, INSIDE\nB. fedex.com, Ground, RET, FACP, INSIDE, FodEx, 203608\nC. FedEx, fedex.com, THE, 203608, Ground, INSIDE, FACP, RET\nD. Ground, RET, INSIDE, fedex.com, FedEx, NORTH, FedEx, FACP",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: do you see 'NORTH, Ground, INSIDE, RET, THE, FedEx, EACP, FedEx, FedEx, 203608' within the box at [[0.0, 403.0], [1529.7268907563025, 403.0], [1529.7268907563025, 800.2941176470587], [0.0, 800.2941176470587]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside [[0, 405], [1219, 405], [1219, 800], [0, 800]]: ________",
+              "answer": [
+                "RET",
+                "FedEx",
+                "FedEx",
+                "Ground",
+                "203608",
+                "FACP",
+                "INSIDE",
+                "FedEx"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You can make out \"F____x\" at position [[22,515], [140,508], [141,568], [23,575]], but some characters are obscured — what's missing?",
+              "answer": "edE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that best captures what's written inside [[0, 405], [1529, 405], [1529, 744], [0, 744]]. Options:\nA. fedex.com, THE, FedEx, FACP, NORTH, Ground, INSIOE, FACE, FedEx\nB. Ground, fedex.com, INSIDE, FACE, RET, THE, FACP, NORTH\nC. NORTH, FodEx, FACP, RET, THE, Ground, INSIDE, FACE, fedex.com\nD. NORTH, THE, FACE, INSIDE, FedEx, FedEx, 203608, RET, Ground",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'Ground, FedEx, NORTH, INSIDE, RET, FedEx, FedEx, fedex.com, 203608, FACP' falls inside the bounding box [[0, 405], [1383, 405], [1383, 800], [0, 800]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you read from inside [[28, 423], [1526, 423], [1526, 804], [28, 804]]? ________",
+              "answer": [
+                "ET",
+                "FedEx",
+                "FedEx",
+                "Ground",
+                "203608",
+                "FACP",
+                "INSIDE",
+                "FedEx",
+                "fedex.com",
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[5,541], [46,537], [48,585], [9,590]] the characters read \"____x\" — can you figure out which character(s) are still hidden?",
+              "answer": "x"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following choices matches the text inside [[499, 438], [1526, 438], [1526, 772], [499, 772]]? Options:\nA. FedEx, FedEx, FACE, THE, fedex.com, FedEx, Ground\nB. fedex.com, NORTH, ET, THE, FedEx, Ground, FACE\nC. fedex.com, FACE, FedEx, Ground, FedEx, FedEx, IHE\nD. fedex.com, FodEx, FACE, Ground, NORTH, THE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'INSIDE, Ground, THE, ET, FedEx, FedEx, 203608, fedex.com, FACP, FedEx' sits within the bounding box [[28, 423], [1381, 423], [1381, 804], [28, 804]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Copy down all text visible within the region [[500, 441], [1527, 441], [1527, 776], [500, 776]]: ________",
+              "answer": [
+                "FedEx",
+                "FedEx",
+                "Ground",
+                "FedEx",
+                "fedex.com",
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Those coordinates [[-8.881784197001252e-16, 551.6262425286623], [33,550], [35,595], [0,597]] frame a section showing \"____\" — which letter(s) are needed to complete it?",
+              "answer": "x"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[500, 441], [1527, 441], [1527, 776], [500, 776]] and tell me: which answer correctly names the text there? Options:\nA. ET, FedEx, FedEx, fedex.com, Ground, THE, FedEx\nB. Ground, THE, FACE, NORTH, fedex.com\nC. NORTH, FACE, FedEx, IHE, FedEx, fedex.com, FedEx\nD. Ground, FedEx, fedox.com, NORTH, THE, FACE, FedEx",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just to confirm — does 'FedEx, 203608, THE, INSIDE, NORTH, FACE, FedEx, FACP, fedex.com, ET' appear within [[28.279079916922903, 422.1760221760222], [1527.3578346330098, 422.1760221760222], [1527.3578346330098, 803.7406483790523], [28.279079916922903, 803.7406483790523]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down every word that appears inside [[27, 422], [1526, 422], [1526, 807], [27, 807]]: ________",
+              "answer": [
+                "ET",
+                "FedEx",
+                "FedEx",
+                "Ground",
+                "203608",
+                "FACP",
+                "INSIDE",
+                "FedEx",
+                "fedex.com",
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Seeing the partial sequence \"ANTH____LOCI\" at [[1829,434], [1920,466], [1918,492], [1823,460]], which character(s) need to be added to finish the word(s)?",
+              "answer": "ROPO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[27, 422], [1526, 422], [1526, 744], [27, 744]], which of the following options matches the text(s) shown there? Options:\nA. Ground, INSIOE, FedEx, fedex.com, FACP, NORTH, ET, FACE, THE\nB. FACE, Ground, FedEx, NORTH, FACP, FedEx, THE, ET, INSIDE\nC. FedEx, THE, FACP, Ground, ET, 203608, NORTH, fedex.com, INSIDE\nD. FACE, THE, fedex.com, NORTH, FedEx, FACP, INSIDE, FedEx, Ground",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'THE, fedex.com, Ground, FACE, FACP, FedEx, NORTH, INSIDE, 203608, ET' — are they actually inside the bounding box [[27.096647484490475, 422.1760221760222], [1526.3148662877322, 422.1760221760222], [1526.3148662877322, 807.2670967417728], [27.096647484490475, 807.2670967417728]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[1488, 563], [1526, 563], [1526, 610], [1488, 610]] and write down what it says. ________",
+              "answer": [
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the bounding box [[167,768], [206,770], [205,785], [165,784]], there's a sequence that reads \"____CP\". What character(s) go in the blank to complete it?",
+              "answer": "FA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one correctly lists the text(s) visible in [[26, 426], [1526, 426], [1526, 746], [26, 746]]? Options:\nA. FACP, ET, THE, NORTH, fedox.com, FACE, FedEx, INSIDE, FedEx\nB. THE, ET, FedEx, FACP, FedEx, INSIDE, fedex.com, FACE, FedEx\nC. FedEx, THE, ET, NORTH, 203608, FedEx, fedex.com, FACP, Ground\nD. NORTH, FedEx, Ground, INSIDE, FACP, fedex.com, FedEx, THE, FACE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[25.623652394474107, 425.71584518487174], [1526.1976101437158, 425.71584518487174], [1526.1976101437158, 809.531247685169], [25.623652394474107, 809.531247685169]], can you find the label(s) 'NORTH, fedex.com, FedEx, FACP, THE, FedEx, INSIDE, FACE, 203608, ET'? True or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out all the text you can see inside [[29, 426], [1529, 426], [1529, 811], [29, 811]]. ________",
+              "answer": [
+                "ET",
+                "FedEx",
+                "FedEx",
+                "Ground",
+                "203608",
+                "FACP",
+                "INSIDE",
+                "FedEx",
+                "fedex.com",
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A web address reading \"____.com\" appears in the region [[1520,615], [1590,621], [1590,643], [1520,639]]. What portion has been left out?",
+              "answer": "fedex"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area marked by [[29, 426], [1529, 426], [1529, 748], [29, 748]] — which answer choice matches the text found there? Options:\nA. FedEx, THE, FedEx, Ground, FACP, INSIDE, NORTH, FACE, fedex.com\nB. FedEx, THE, Ground, FACP, FT, fedex.com, NORTH, INSIDE, FACE\nC. fedex.com, Ground, 203608, FACE, ET, NORTH, FedEx, THE, FACP\nD. FedEx, Ground, fedex.com, FedEx, FACP, ET, NORTH, FACE, INSIDE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at the bounding box [[28.544375621177863, 425.71584518487174], [1529.3064184338714, 425.71584518487174], [1529.3064184338714, 811.0372717815545], [28.544375621177863, 811.0372717815545]]: does it contain the label(s) 'THE, INSIDE, fedex.com, FedEx, FedEx, FACE, Ground, FACP, NORTH, 203608'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type in the word(s) that appear inside the box at [[508, 455], [1538, 455], [1538, 785], [508, 785]]. ________",
+              "answer": [
+                "FedEx",
+                "FedEx",
+                "Ground",
+                "FedEx",
+                "fedex.com",
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A brand name at [[738,533], [844,523], [848,582], [742,592]] is partially hidden; what's visible reads \"____Ex\". Which character(s) complete it?",
+              "answer": "Fed"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best captures the text(s) shown in [[0, 419], [615, 419], [615, 813], [0, 813]]. Options:\nA. FedEx, FACP, FedEx, 203608, FedEx\nB. 203608, INSIDE, PET, FACP, FedEx\nC. FedEx, FedEx, INSIDE, RET, FACP\nD. FACP, INSIDE, 203608, RET, FodEx",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Here's the question: do the label(s) 'RET, FedEx, fedex.com, FedEx, FACP, THE, Ground, NORTH, 203608, INSIDE' fall inside [[0.0, 419.42446043165467], [1538.384248120455, 419.42446043165467], [1538.384248120455, 813.3704735376045], [0.0, 813.3704735376045]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0088/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0088/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word visible inside the region [[1331, 570], [1546, 570], [1546, 622], [1331, 622]]. ________",
+              "answer": [
+                "fedex.com",
+                "THE",
+                "NORTH",
+                "FACE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[1835,575], [1873,580], [1872,595], [1834,592]], a place name is partially shown as \"N____\". Which characters fill the gap?",
+              "answer": "ORTH"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Regarding the text in [[0, 422], [1546, 422], [1546, 753], [0, 753]], which of the listed options is the right match? Options:\nA. FACE, THE, 203608, fedex.com, FedEx, INSIDE, Ground, FedEx, RET\nB. RET, FedEx, FedEx, FACE, Ground, THE, NORTH, fedex.com, INSIDE\nC. THE, fedex.com, FACE, Ground, FodEx, RET, NORTH, INSIDE, FACP\nD. FACP, FedEx, THE, fedex.com, FACE, FedEx, RET, INSIDE, Ground",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'RET, INSIDE, fedex.com, 203608, Ground' appears as a label within the bounding box [[0, 422], [1402, 422], [1402, 815], [0, 815]]. True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0088"
+  }
+]

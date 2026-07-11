@@ -1,0 +1,497 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify what's written inside [[899, 196], [1360, 196], [1360, 438], [899, 438]] — the answer is ________.",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[900,276], [959,266], [962,330], [903,345]] 处的文字中出现了\"____\"这一表达，请填入缺失的字符以使内容完整：南",
+              "answer": "南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that matches the text visible inside [[899, 217], [1276, 217], [1276, 438], [899, 438]]. Options:\nA. 桂湾大街, N, S\nB. Guiwan St, 南, S\nC. 南, 北, 桂湾大街\nD. Guiwan St, 卖, S",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'N, 桂湾大街, 北, Guiwan St' appearing inside the region marked by [[899.2857142857143, 195.9523809523809], [1360.0, 195.9523809523809], [1360.0, 437.61904761904765], [899.2857142857143, 437.61904761904765]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text you can read inside [[899, 196], [1360, 196], [1360, 438], [899, 438]]. ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[899, 196], [1360, 196], [1360, 438], [899, 438]], which of these options contains the text shown there? Options:\nA. N, 桂湾大街, Guiwan St, 北, 卖\nB. N, Guiwan St, 南, S, 桂湾大街\nC. 桂湾大街, 玌, Guiwan St, N, S\nD. S, 北, 南, 桂渧大街, Guiwan St",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '桂湾大街, 南, Guiwen St, 北, N, S' — are they sitting inside the box at [[899.2857142857143, 195.9523809523809], [1360.0, 195.9523809523809], [1360.0, 437.61904761904765], [899.2857142857143, 437.61904761904765]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text inside [[899, 196], [1360, 196], [1360, 438], [899, 438]] and fill in your answer: ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that captures the text appearing in [[899, 196], [1360, 196], [1360, 438], [899, 438]]. Options:\nA. 桂湾大街, Guiwan St, 卖, S, 北\nB. S, N, 北, 桂湾大街, Guiwan St\nC. Guiwan St, 桂渧大街, 北, 南, N\nD. 北, Guiwan St, 南, N, 桂湇大街",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[899.2857142857143, 195.9523809523809], [1360.0, 195.9523809523809], [1360.0, 437.61904761904765], [899.2857142857143, 437.61904761904765]] — does it contain the label(s) '桂湾大街, S, Guiwan St, N, 玌, 南'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What word(s) show up inside [[899, 196], [1360, 196], [1360, 438], [899, 438]]? Fill in: ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标 [[960,352], [1018,339], [1024,392], [962,403]] 所在区域，补全以下内容：____",
+              "answer": "S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[899, 196], [1360, 196], [1360, 438], [899, 438]], which answer choice matches the text there? Options:\nA. N, S, 南, 玌, 桂湾大街\nB. S, 卖, N, 北, Guiwan St\nC. S, Guiwan St, 桂渧大街, 南, 北\nD. N, 桂湾大街, 北, 南, S",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You see 'S, 桂湾大街, Guiwan St, N' — would that fall inside the bounding box [[899.2857142857143, 195.9523809523809], [1360.0, 195.9523809523809], [1360.0, 437.61904761904765], [899.2857142857143, 437.61904761904765]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and name the word(s) you see inside [[899, 196], [1360, 196], [1360, 438], [899, 438]]. ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[993,234], [1052,225], [1055,289], [996,303]] 里缺少的字符是什么？请补全：____",
+              "answer": "南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices listed, which one correctly names the text inside [[899, 213], [1274, 213], [1274, 438], [899, 438]]? Options:\nA. Guiwan St, 南, 桂渧大街\nB. 北, S, 桂湾大街\nC. 南, 桂湾大街, Guiwan St\nD. Guiwan St, 桂渧大街, S",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just checking — does 'S, 桂湾大街, 北, 南' actually appear inside [[899.2857142857143, 195.9523809523809], [1360.0, 195.9523809523809], [1360.0, 437.61904761904765], [899.2857142857143, 437.61904761904765]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[899, 196], [1360, 196], [1360, 438], [899, 438]] and write it here: ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Missing a few characters at [[1018,316], [1062,315], [1059,363], [1017,364]] — what fills the gap in \"____\"?",
+              "answer": "S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Match the text inside [[899, 196], [1360, 196], [1360, 438], [899, 438]] to the right answer choice. Options:\nA. S, 桂湾大街, 北, Guiwan St, H\nB. N, 卖, 桂湾大街, 北, Guiwan St\nC. D, 北, 南, 桂湾大街, N\nD. N, Guiwan St, S, 南, 北",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the box at [[899.2857142857143, 195.9523809523809], [1360.0, 195.9523809523809], [1360.0, 437.61904761904765], [899.2857142857143, 437.61904761904765]] contain the label(s) '南, Guiwan St, 桂湾大街, D, 北, N'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[896, 200], [1356, 200], [1356, 441], [896, 441]] — what word(s) are written there? ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1110,279], [1323,252], [1335,316], [1116,338]], a street name is partially obscured — supply the missing part: \"G____ St\".",
+              "answer": "uiwan"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer best describes the text you can see at [[956, 200], [1356, 200], [1356, 432], [956, 432]]? Options:\nA. 南, Guiwan St, 北\nB. 北, H, Guiwan St\nC. 桂湾大街, Guiwan St, N\nD. 玌, 桂湾大街, N",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Take a look at [[895.7142857142859, 199.52380952380952], [1356.4285714285716, 199.52380952380952], [1356.4285714285716, 441.19047619047626], [895.7142857142859, 441.19047619047626]] — is 'N, Guiwan St, 桂湇大街, 北, 南, S' one of the labels showing up there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible in [[896, 200], [1356, 200], [1356, 441], [896, 441]]: ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看边界框 [[1387,223], [1465,205], [1471,284], [1390,302]] 里的内容，字符串 \"____\" 中缺少了哪个字符？请填写：____",
+              "answer": "N"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at region [[896, 200], [1356, 200], [1356, 441], [896, 441]] — which of the following choices correctly lists what's written there? Options:\nA. 桂湾大街, N, 南, 北, S\nB. 桂湾大街, 南, 北, H, S\nC. 桂湾大街, 南, S, Ouiwan St, N\nD. N, 桂湾大街, 南, Guiwon St, 北",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Glance at [[895.7142857142859, 199.52380952380952], [1356.4285714285716, 199.52380952380952], [1356.4285714285716, 441.19047619047626], [895.7142857142859, 441.19047619047626]] — the label(s) 'Guiwan St, 桂湾大街, N, S' should be visible there, right?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what text you see inside region [[902, 212], [1335, 212], [1335, 433], [902, 433]]. ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[1024,270], [1068,269], [1065,316], [1023,317]] 区域内的文字，\"____\" 中缺少的字母是什么？",
+              "answer": "S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[961, 212], [1335, 212], [1335, 427], [961, 427]] and pick the answer that matches what's written there. Options:\nA. 北, Ouiwan St, 桂湾大街\nB. Guiwan St, N, 桂湾大街\nC. N, S, 北\nD. Guiwan St, 南, 桂湾大街",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll find '南, 北, 桂湾大街, Guiwan St' inside [[901.6666666666666, 211.58218125960067], [1334.9078341013824, 211.58218125960067], [1334.9078341013824, 432.85714285714283], [901.6666666666666, 432.85714285714283]] — is that right?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text at [[902, 212], [1335, 212], [1335, 433], [902, 433]], what word(s) appear there? ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region at [[1025,263], [1070,261], [1066,309], [1024,310]] shows \"____\" with a gap — what character(s) should fill it?",
+              "answer": "S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible at [[902, 212], [1335, 212], [1335, 433], [902, 433]] and select the matching option below. Options:\nA. S, 桂湾大街, 北, 南, N\nB. Guiwan St, 南, S, 玌, 桂湾大街\nC. 南, 玭, N, 桂湾大街, S\nD. 桂湾大街, S, N, 南, Ouiwan St",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At [[901.6666666666666, 211.58218125960067], [1334.9078341013824, 211.58218125960067], [1334.9078341013824, 432.85714285714283], [901.6666666666666, 432.85714285714283]], do you see '南, Guiwan St, S, 北' as the label(s) shown?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Jot down the text you see at [[902, 212], [1335, 212], [1335, 433], [902, 433]]: ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察 [[1411,95], [1466,91], [1468,160], [1412,159]] 区域，\"____\" 中少了哪个字符？请补全。",
+              "answer": "北"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices listed, which one accurately captures the text at [[902, 217], [1276, 217], [1276, 433], [902, 433]]? Options:\nA. 桂湾大街, S, 卖\nB. Ouiwan St, 桂湾大街, S\nC. 桂湾大街, 南, S\nD. 桂湾大街, Guiwan St, 北",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Taking a look at [[901.6666666666666, 211.58218125960067], [1334.9078341013824, 211.58218125960067], [1334.9078341013824, 432.85714285714283], [901.6666666666666, 432.85714285714283]], do you see the label(s) '北, 桂湾大街, N, S'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0090/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0090/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text visible at coordinates [[899, 196], [1353, 196], [1353, 438], [899, 438]] reads: ________",
+              "answer": [
+                "北",
+                "桂湾大街",
+                "南",
+                "N",
+                "S",
+                "Guiwan St"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[1010,152], [1068,142], [1072,207], [1012,221]] 的文字里藏着一个空缺——填入哪个字符才能让 \"____\" 完整？",
+              "answer": "南"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written at [[899, 196], [1353, 196], [1353, 438], [899, 438]]? Pick the option that matches. Options:\nA. N, 南, 桂湾大街, 北, Guiwan St\nB. H, S, 南, Guiwan St, 桂湾大街\nC. Guiwan St, 北, N, 南, 桂渧大街\nD. S, 南, N, Ouiwan St, 北",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[899.2857142857143, 195.9523809523809], [1352.857142857143, 195.9523809523809], [1352.857142857143, 437.61904761904765], [899.2857142857143, 437.61904761904765]] — does it contain 'S, Guiwan St, 桂湾大街, 南, 北, H'?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0090"
+  }
+]

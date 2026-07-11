@@ -1,0 +1,483 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you tell me what word(s) appear inside [[204, 32], [1754, 32], [1754, 236], [204, 236]]? The answer is ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "SUGAR-PHOSPHATE",
+                "THIS PART",
+                "BACKBONE",
+                "ONE LONG CHAIN",
+                "POLYMER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The first character(s) has been removed — complete the word in [[933,901], [1001,901], [1001,953], [933,953]]: \"____D\".",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text(s) found inside [[122, 32], [1260, 32], [1260, 1005], [122, 1005]]? Options:\nA. THE STRUCTURE OF DNA, POLYMER, IHIS PART, 'DOUBLE HELIX', 2D\nB. 'DOUBLE HELIX', THE STRUCTURE OF DNA, DIAGRAM, POLYMER, THIS PART\nC. THIS PART, 2D, THE STRUCTURE OF DNA, SUGAR-PHOSPHATE, DIAGRAM\nD. 'DOUBLE HELIX', DIAGRAM, 2O, POLYMER, THIS PART",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'THE STRUCTURE OF DNA, POLYMER, BACKBONE, ONE LONG CHAIN' is/are among the labels visible in [[204, 32], [1754, 32], [1754, 236], [204, 236]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the region [[122, 32], [1754, 32], [1754, 1005], [122, 1005]], which word(s) show up? The answer is ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "SUGAR-PHOSPHATE",
+                "THIS PART",
+                "BACKBONE",
+                "ONE LONG CHAIN",
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM",
+                "POLYMER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The box [[204,66], [416,66], [416,111], [205,112]] contains a partial phrase — restore the missing letter(s): \"TH____ PART.\"",
+              "answer": "IS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the whole image, which answer choice correctly captures the text(s) inside [[692, 32], [1754, 32], [1754, 1005], [692, 1005]]? Options:\nA. THE STRUCTURE OF DNA, DIAGPAM, POLYMER, 2D, BACKBONE, SUGAR-PHOSPHATE\nB. DIAGRAM, IHE STRUCTURE OF DNA, POLYMER, SUGAR-PHOSPHATE, ONE LONG CHAIN, BACKBONE\nC. BACKBONE, POLYMER, DIAGRAM, 2D, ONE LONG CHAIN, THE STRUCTURE OF DNA\nD. 2D, SUGAR-PHOSPHATE, BACKBONE, THIS PART, POLYMER, ONE LONG CHAIN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are SUGAR-PHOSPHATE, ONE LONG CHAIN, THE STRUCTURE OF DNA, and BACKBONE all visible inside [[204, 32], [1754, 32], [1754, 236], [204, 236]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) present in [[121.76923076923077, 901.0], [1054.9865229110512, 901.0], [1054.9865229110512, 1005.3638814016173], [121.76923076923077, 1005.3638814016173]]. The word(s) is/are ________.",
+              "answer": [
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A letter or letters is missing from a phrase in [[692,33], [1259,32], [1260,85], [693,85]] — complete it: \"THE ____E OF DNA.\"",
+              "answer": "STRUCTUR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at region [[692, 32], [1754, 32], [1754, 1005], [692, 1005]] — which of these options correctly names the text(s) there? Options:\nA. THE STRUCTURE OF DNA, BACKBONE, DIAGRAM, 2D, ONE LONG CHAIN, THIS PART\nB. DIAGRAM, THE STRUCTURE OF DNA, SUGAR-PHOSPHATE, 2D, 'DOUBLE HELIX', BACKBONE\nC. 2D, SUGAR-PHOSPHATE, BACKBONE, POLYMER, THE STRUCTURE OF DNA, DIAGRAM\nD. 2D, SUGAR-PHOSPHATE, THE STRUCTURE OF DNA, POLYMER, DNE LONG CHAIN, DIAGRAM",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '2D, SUGAR-PHOSPHATE, BACKBONE, THE STRUCTURE OF DNA, THIS PART, ONE LONG CHAIN, POLYMER' appear(s) as label(s) inside the bounding box [[204, 32], [1754, 32], [1754, 236], [204, 236]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The area [[121.76923076923077, 901.0], [1054.9865229110512, 901.0], [1054.9865229110512, 1005.3638814016173], [121.76923076923077, 1005.3638814016173]] contains certain word(s) — what are they? The word(s) is/are ________.",
+              "answer": [
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Complete the phrase found at [[1298,141], [1592,143], [1592,183], [1298,181]]: \"ONE ____ CHAIN.\" — what goes in the blank?",
+              "answer": "LONG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one accurately reflects the text(s) in [[204, 32], [1754, 32], [1754, 236], [204, 236]]? Options:\nA. DNE LONG CHAIN, BACKBONE, THE STRUCTURE OF DNA, SUGAR-PHOSPHATE, THIS PART\nB. POLYMER, SUGAR-PHOSPHATE, BACKBONE, THIS PART, ONE LONG CHAIN\nC. SUGAR-PHOSPHATE, THIS PART, DNE LONG CHAIN, POLYMER, BACKBONE\nD. THE STRUCTURE OF DNA, POLYMER, SUGAR-PHOSPHATE, 2D, BACKBONE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the labels 'THE STRUCTURE OF DNA, 'DOUBLE HELIX', DIAGRAM, THIS PART' all show up within [[122, 32], [1260, 32], [1260, 1005], [122, 1005]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What's written in the area marked [[204.1860465116279, 32.27513227513227], [1754.0, 32.27513227513227], [1754.0, 117.0], [204.1860465116279, 117.0]]? The word(s) is/are ________.",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "SUGAR-PHOSPHATE",
+                "THIS PART",
+                "BACKBONE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letter(s) have been removed from the text at [[1496,83], [1674,83], [1674,117], [1496,117]] — restore them in \"BA____NE\".",
+              "answer": "CKBO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options provided, which one gives a correct listing of the text(s) at [[204, 32], [1754, 32], [1754, 236], [204, 236]]? Options:\nA. THE STRUCTURE OF DNA, 2D, ONE LONG CHAIN, SUGAR-PHOSPHATE, THIS PART\nB. POLYMER, THE STRUCTURE OF DNA, 'DOUBLE HELIX', BACKBONE, ONE LONG CHAIN\nC. BACKBONE, THIS PART, DNE LONG CHAIN, SUGAR-PHOSPHATE, THE STRUCTURE OF DNA\nD. ONE LONG CHAIN, POLYMER, THE STRUCTURE OF DNA, THIS PART, SUGAR-PHOSPHATE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[692, 32], [1754, 32], [1754, 1005], [692, 1005]] — does it contain the label(s) 'POLYMER, ONE LONG CHAIN, DIAGRAM, SUGAR-PHOSPHATE, THE STRUCTURE OF DNA, BACKBONE, 2D, THIS PART'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you read the text inside [[121.76923076923077, 65.96511627906976], [484.2307692307692, 65.96511627906976], [484.2307692307692, 977.8461538461538], [121.76923076923077, 977.8461538461538]], what word(s) do you find? The word(s) is/are ________.",
+              "answer": [
+                "THIS PART",
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Characters are missing from \"PO____ER\" in [[852,182], [1089,182], [1088,236], [853,235]] — can you restore them?",
+              "answer": "LYM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best matches what's written inside [[204, 32], [1754, 32], [1754, 236], [204, 236]]. Options:\nA. POLYMER, DNE LONG CHAIN, BACKBONE, THIS PART, THE STRUCTURE OF DNA\nB. POLYMER, THE STRUCTURE OF DNA, BACKBONE, SUOAR-PHOSPHATE, ONE LONG CHAIN\nC. THIS PART, SUGAR-PHOSPHATE, BACKBONE, ONE LONG CHAIN, POLYMER\nD. THE STRUCTURE OF DNA, 2D, BACKBONE, POLYMER, SUGAR-PHOSPHATE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'THIS PART, ONE LONG CHAIN, SUGAR-PHOSPHATE, THE STRUCTURE OF DNA' can be found as label(s) inside [[204, 32], [1754, 32], [1754, 236], [204, 236]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify the word(s) shown in the area [[1298.0, 44.0], [1754.0, 44.0], [1754.0, 183.0], [1298.0, 183.0]]? The word(s) is/are ________.",
+              "answer": [
+                "SUGAR-PHOSPHATE",
+                "BACKBONE",
+                "ONE LONG CHAIN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word or phrase should go in the blank? Complete the text from box [[1416,44], [1754,44], [1754,83], [1416,83]]: \"SUGA____PHATE\".",
+              "answer": "R-PHOS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) visible in region [[692, 32], [1754, 32], [1754, 1005], [692, 1005]]? Options:\nA. SUGAR-PHOSPHATE, ONE LONG CHAIN, BACKBONE, 'DOUBLE HELIX', POLYMER, DIAGRAM\nB. POLYMFR, BACKBONE, ONE LONG CHAIN, 2D, SUGAR-PHOSPHATE, DIAGRAM\nC. POLYMER, 2D, THE STRUCTURE OF DNA, BACKBONE, ONE LONG CHAIN, DIAGRAM\nD. SUGAR-PHOSPHATE, ONE LONG CHAIN, 2D, DIAGRAM, POLYMER, THIS PART",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '2D, BACKBONE, POLYMER, ONE LONG CHAIN, SUGAR-PHOSPHATE, THE STRUCTURE OF DNA, THIS PART' appear(s) inside the bounding box [[204, 32], [1754, 32], [1754, 236], [204, 236]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown in area [[1298.0, 44.0], [1754.0, 44.0], [1754.0, 183.0], [1298.0, 183.0]] — what word(s) appear(s) there? The word(s) is/are ________.",
+              "answer": [
+                "SUGAR-PHOSPHATE",
+                "BACKBONE",
+                "ONE LONG CHAIN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Referring to the section outlined by [[204,66], [416,66], [416,111], [205,112]], which word(s) belong(s) in the blank: \"T____ PART\"?",
+              "answer": "HIS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly names the text(s) visible in the area [[204, 32], [1754, 32], [1754, 236], [204, 236]]. Options:\nA. THE STRUCTURE OF DNA, BACKBONE, DNE LONG CHAIN, POLYMER, THIS PART\nB. THIS PART, 2D, POLYMER, SUGAR-PHOSPHATE, THE STRUCTURE OF DNA\nC. THE STRUCTURE OF DNA, ONE LONG CHAIN, BACKBONE, THIS PART, SUGAR-PHOSPHATE\nD. SUGAR-PHOSPHATE, THIS PART, BACKBONE, DNE LONG CHAIN, THE STRUCTURE OF DNA",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[121.76923076923077, 32.27513227513227], [1754.0, 32.27513227513227], [1754.0, 1005.3638814016173], [121.76923076923077, 1005.3638814016173]], do you see the label(s) 'ONE LONG CHAIN, THIS PART, THE STRUCTURE OF DNA, DIAGRAM, 'DOUBLE HELIX', SUGAR-PHOSPHATE, BACKBONE'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at the region [[121.76923076923077, 65.96511627906976], [484.2307692307692, 65.96511627906976], [484.2307692307692, 977.8461538461538], [121.76923076923077, 977.8461538461538]] — which word(s) can be found there? The word(s) is/are ________.",
+              "answer": [
+                "THIS PART",
+                "'DOUBLE HELIX'"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[692,33], [1259,32], [1260,85], [693,85]] contains the phrase \"THE STR____URE OF DNA\" — can you fill in the blank?",
+              "answer": "UCT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on what's visible in area [[204, 32], [1754, 32], [1754, 236], [204, 236]], which of the following matches the text(s) there? Options:\nA. SUGAR-PHOSPHATE, BACKBONE, THE STRUCTURE OF DNA, 2D, ONE LONG CHAIN\nB. ONE LONG CHAIN, POLYMER, THIS PART, IHE STRUCTURE OF DNA, BACKBONE\nC. POLYMER, THIS PART, DNE LONG CHAIN, THE STRUCTURE OF DNA, SUGAR-PHOSPHATE\nD. BACKBONE, THE STRUCTURE OF DNA, POLYMER, THIS PART, SUGAR-PHOSPHATE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'ONE LONG CHAIN, POLYMER, BACKBONE, THE STRUCTURE OF DNA' can be found inside the bounding box [[204, 32], [1754, 32], [1754, 236], [204, 236]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) appear(s) inside the area [[121.76923076923077, 901.0], [1054.9865229110512, 901.0], [1054.9865229110512, 1005.3638814016173], [121.76923076923077, 1005.3638814016173]]? The word(s) is/are ________.",
+              "answer": [
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over in bounding box [[204,66], [416,66], [416,111], [205,112]], what word(s) complete(s) the phrase \"TH____ PART\"?",
+              "answer": "IS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice best describes the text(s) you see in region [[692, 32], [1754, 32], [1754, 1005], [692, 1005]]? Options:\nA. POLYMER, ONE LONG CHAIN, BACKBONE, THE STRUCTURE OF DNA, SUGAR-PHOSPHATE, 2D\nB. BACKBONE, DIAGPAM, POLYMER, SUGAR-PHOSPHATE, THE STRUCTURE OF DNA, ONE LONG CHAIN\nC. 2O, BACKBONE, THE STRUCTURE OF DNA, POLYMER, ONE LONG CHAIN, DIAGRAM\nD. SUGAR-PHOSPHATE, THE STRUCTURE OF DNA, 2D, THIS PART, DIAGRAM, BACKBONE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'ONE LONG CHAIN, THE STRUCTURE OF DNA, BACKBONE, POLYMER' fall within the boundaries of [[204, 32], [1754, 32], [1754, 236], [204, 236]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) you see in the area [[1298.0, 44.0], [1754.0, 44.0], [1754.0, 183.0], [1298.0, 183.0]]. The word(s) is/are ________.",
+              "answer": [
+                "SUGAR-PHOSPHATE",
+                "BACKBONE",
+                "ONE LONG CHAIN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What goes in the blank to complete \"DOU____ HELIX\" — as labeled in the region [[122,930], [484,930], [484,978], [122,978]]?",
+              "answer": "BLE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately lists the text(s) appearing in area [[204, 32], [1754, 32], [1754, 236], [204, 236]]. Options:\nA. POLYMER, DNE LONG CHAIN, THE STRUCTURE OF DNA, SUGAR-PHOSPHATE, THIS PART\nB. THE STRUCTURE OF DNA, SUOAR-PHOSPHATE, POLYMER, BACKBONE, THIS PART\nC. SUGAR-PHOSPHATE, POLYMER, ONE LONG CHAIN, BACKBONE, 2D\nD. THIS PART, ONE LONG CHAIN, SUGAR-PHOSPHATE, POLYMER, THE STRUCTURE OF DNA",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'THE STRUCTURE OF DNA, SUGAR-PHOSPHATE, BACKBONE, ONE LONG CHAIN, THIS PART, 2D, POLYMER' sit(s) inside the bounding box [[204, 32], [1754, 32], [1754, 236], [204, 236]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_021/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_021/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[121.76923076923077, 901.0], [1054.9865229110512, 901.0], [1054.9865229110512, 1005.3638814016173], [121.76923076923077, 1005.3638814016173]] and name the word(s) you find. The word(s) is/are ________.",
+              "answer": [
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How should the blank be filled in \"ONE ____ CHAIN,\" according to what's shown at [[1298,141], [1592,143], [1592,183], [1298,181]]?",
+              "answer": "LONG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Going by what's visible in area [[692, 32], [1754, 32], [1754, 1005], [692, 1005]], which answer correctly captures the text(s) there? Options:\nA. BACKBONE, POLYMER, DIAGRAM, SUGAR-PHOSPHATE, 2D, THE STRUCTURE OF DNA\nB. BACKBONE, THIS PART, ONE LONG CHAIN, THE STRUCTURE OF DNA, 2D, DIAGRAM\nC. BACKBONE, POLYMER, THE STRUCTURE OF DNA, ONE LONG CHAIN, 2D, 'DOUBLE HELIX'\nD. THE STRUCTURE OF DNA, DIAGRAM, 2D, BACKBCNE, ONE LONG CHAIN, SUGAR-PHOSPHATE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[122, 32], [1260, 32], [1260, 1005], [122, 1005]] — are the label(s) '2D, THE STRUCTURE OF DNA, POLYMER, THIS PART' present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_021"
+  }
+]

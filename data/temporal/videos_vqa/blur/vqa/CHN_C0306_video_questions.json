@@ -1,0 +1,313 @@
+{
+  "video_id": "C0306",
+  "frames": 120,
+  "word": "华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁",
+  "video_path": "temporal/videos_vqa/blur/videos/CHN_C0306.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "mixed",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" likely to be?\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. direction or navigation sign\nD. event or poster information\nE. address or street sign\nF. storefront or brand sign\nG. general scene text",
+      "q": "写着「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」的这段文字，你觉得是哪种类型的标识？\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. direction or navigation sign\nD. event or poster information\nE. address or street sign\nF. storefront or brand sign\nG. general scene text",
+      "a": "D",
+      "a_text": "event or poster information",
+      "answer_key": "event or poster information",
+      "options": [
+        "A. warning or prohibition sign",
+        "B. menu or commercial information",
+        "C. direction or navigation sign",
+        "D. event or poster information",
+        "E. address or street sign",
+        "F. storefront or brand sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」的这段文字，你觉得是哪种类型的标识？\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. direction or navigation sign\nD. event or poster information\nE. address or street sign\nF. storefront or brand sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" appear in?\n Options:\nA. event poster or display\nB. storefront\nC. road or street\nD. other public sign\nE. campus or office\nF. warning / rule sign\nG. transportation / station\nH. restaurant or menu",
+      "q": "「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」这段文字，是出现在什么样的场景里的？\n Options:\nA. event poster or display\nB. storefront\nC. road or street\nD. other public sign\nE. campus or office\nF. warning / rule sign\nG. transportation / station\nH. restaurant or menu",
+      "a": "G",
+      "a_text": "transportation / station",
+      "answer_key": "transportation / station",
+      "options": [
+        "A. event poster or display",
+        "B. storefront",
+        "C. road or street",
+        "D. other public sign",
+        "E. campus or office",
+        "F. warning / rule sign",
+        "G. transportation / station",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」这段文字，是出现在什么样的场景里的？\n Options:\nA. event poster or display\nB. storefront\nC. road or street\nD. other public sign\nE. campus or office\nF. warning / rule sign\nG. transportation / station\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. bottom-right (lower-right area)\nE. bottom-left (lower-left area)",
+      "q": "看这段视频，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」这段文字大多数时候出现在画面的哪个区域？\n Options:\nA. top-left (upper-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. bottom-right (lower-right area)\nE. bottom-left (lower-left area)",
+      "a": "E",
+      "a_text": "bottom-left (lower-left area)",
+      "answer_key": "bottom-left",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. top-right (upper-right area)",
+        "C. center (middle of the frame)",
+        "D. bottom-right (lower-right area)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看这段视频，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」这段文字大多数时候出现在画面的哪个区域？\n Options:\nA. top-left (upper-left area)\nB. top-right (upper-right area)\nC. center (middle of the frame)\nD. bottom-right (lower-right area)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "这段视频里，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」的位置大概移动了多远？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "A",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频里，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」的位置大概移动了多远？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. moves a large distance (shifts across much of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" move?\n Options:\nA. moves diagonally\nB. moves left\nC. changes direction partway\nD. moves down\nE. moves up\nF. stays roughly in place\nG. moves right",
+      "q": "总体来看，写着「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」的文字是朝哪个方向运动的？\n Options:\nA. moves diagonally\nB. moves left\nC. changes direction partway\nD. moves down\nE. moves up\nF. stays roughly in place\nG. moves right",
+      "a": "B",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves diagonally",
+        "B. moves left",
+        "C. changes direction partway",
+        "D. moves down",
+        "E. moves up",
+        "F. stays roughly in place",
+        "G. moves right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，写着「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」的文字是朝哪个方向运动的？\n Options:\nA. moves diagonally\nB. moves left\nC. changes direction partway\nD. moves down\nE. moves up\nF. stays roughly in place\nG. moves right"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" at the beginning, the middle, and the end?\n Options:\nA. bottom-left -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> center\nC. top-right -> bottom-left -> bottom-left\nD. bottom-left -> top-right -> bottom-left",
+      "q": "起初、播到中段、临近片尾，写着「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」的那段文字分别停在画面的哪个位置？\n Options:\nA. bottom-left -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> center\nC. top-right -> bottom-left -> bottom-left\nD. bottom-left -> top-right -> bottom-left",
+      "a": "A",
+      "a_text": "bottom-left -> bottom-left -> bottom-left",
+      "answer_key": "bottom-left -> bottom-left -> bottom-left",
+      "options": [
+        "A. bottom-left -> bottom-left -> bottom-left",
+        "B. bottom-left -> bottom-left -> center",
+        "C. top-right -> bottom-left -> bottom-left",
+        "D. bottom-left -> top-right -> bottom-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "起初、播到中段、临近片尾，写着「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」的那段文字分别停在画面的哪个位置？\n Options:\nA. bottom-left -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> center\nC. top-right -> bottom-left -> bottom-left\nD. bottom-left -> top-right -> bottom-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」这段文字看起来占多大的比例？\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "C",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. small (a minor part of the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」这段文字看起来占多大的比例？\n Options:\nA. large (a major part of the frame)\nB. very large (dominates the frame)\nC. small (a minor part of the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger",
+      "q": "随着视频播放，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」有没有明显变大或缩小，还是大小基本没什么变化？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger",
+      "a": "D",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」有没有明显变大或缩小，还是大小基本没什么变化？\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "q": "在这段视频中，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」是贴近画面边缘出现的，还是距边缘有一定距离？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "a": "B",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. fully inside, away from the edges",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在这段视频中，「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」是贴近画面边缘出现的，还是距边缘有一定距离？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁\" and how it appears in the video.",
+      "q": "简单说说「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」这段文字在视频里的呈现方式和变化情况。",
+      "a": "The target text appears as small black text in the bottom left corner of a large advertising poster.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "简单说说「华为臻选店·广州白云国际机场  \n广州白云国际机场T2航站楼B279登机口旁」这段文字在视频里的呈现方式和变化情况。"
+    }
+  ],
+  "method": "blur"
+}

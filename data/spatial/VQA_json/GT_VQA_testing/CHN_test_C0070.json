@@ -1,0 +1,466 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Pinpoint the text inside [[385, 126], [904, 126], [904, 367], [385, 367]] and write it here: ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请补全[[389,126], [761,140], [757,247], [385,233]]边界区域内的文字：肉____拌饭。",
+              "answer": "汤"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[385, 126], [904, 126], [904, 367], [385, 367]] and select the option that accurately reflects its text. Options:\nA. 砂锅鱿鱼\nB. 砂锦鱿鱼\nC. 砂锣鱿鱼\nD. 砂锡鱿鱼",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the bounding box [[385.0, 126.0], [904.0, 126.0], [904.0, 367.0], [385.0, 367.0]], is '砂锅鱿鱼' the text it contains?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down whatever text appears inside [[385, 126], [904, 126], [904, 365], [385, 365]]: ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据边界坐标[[383,154], [745,168], [741,273], [379,259]]内的文字，填写完整的名称：肉____拌饭。",
+              "answer": "汤"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options given, which one matches the text you can see at [[385, 126], [761, 126], [761, 243], [385, 243]]? Options:\nA. 肉汤拌饭\nB. 肉泻拌饭\nC. 肉泻拌饭\nD. 砂锅鱿鱼",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '肉汤拌饭, 砂锡鱿鱼' appear(s) inside the bounding box [[385.0, 126.0], [904.0, 126.0], [904.0, 365.0], [385.0, 365.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text visible inside [[385, 122], [904, 122], [904, 363], [385, 363]]. ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中坐标 [[509,308], [877,327], [873,420], [505,402]] 的方框里藏着哪些字符？请填入：砂锅____鱼。",
+              "answer": "鱿"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the answer choice that matches the text inside [[385, 122], [904, 122], [904, 363], [385, 363]]. Options:\nA. 肉汤拌饭\nB. 肉涌拌饭\nC. 砂锣鱿鱼\nD. 肉泻拌饭",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '肉汤拌饭, 砂锡鱿鱼' sits inside the box defined by [[385.0, 122.0], [904.0, 122.0], [904.0, 363.0], [385.0, 363.0]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text that appears in the region [[387, 122], [903, 122], [903, 361], [387, 361]] and write it below. ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察图像中 [[627,923], [812,970], [812,1017], [634,976]] 所框定的位置，将缺失字符填入：\"鱼你____一起\"。",
+              "answer": "在"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[387, 122], [763, 122], [763, 241], [387, 241]] matches which of these options? Options:\nA. 肉汤拌饭\nB. 砂锅鱿鱼\nC. 肉泻拌饭\nD. 肉泻拌饭",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '砂锅鱿鱼' fall(s) inside the bounding box [[387.0, 122.0], [903.0, 122.0], [903.0, 361.0], [387.0, 361.0]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out every word you see inside the region [[387, 126], [904, 126], [904, 365], [387, 365]]. ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据坐标 [[495,362], [859,380], [855,472], [491,453]] 内的图像内容，请补充缺失的字符：\"砂锅____\"。",
+              "answer": "鱿鱼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Going by what's written inside [[387, 126], [763, 126], [763, 243], [387, 243]], which answer is correct? Options:\nA. 砂锅鱿鱼\nB. 肉泻拌饭\nC. 肉汤拌饭\nD. 肉泻拌饭",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "I'd like to know — do '肉汤拌饭' actually appear inside [[387.0, 126.0], [904.0, 126.0], [904.0, 365.0], [387.0, 365.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the text shown inside the region [[387, 130], [904, 130], [904, 371], [387, 371]]. ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请仔细观察 [[362,315], [715,324], [712,424], [359,414]] 对应的图像区域，补出\"肉____拌饭\"中缺失的字符。",
+              "answer": "汤"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on the content at [[387, 130], [904, 130], [904, 371], [387, 371]], which choice correctly represents the text there? Options:\nA. 砂锦鱿鱼\nB. 砂锡鱿鱼\nC. 砂锅鱿鱼\nD. 砂锣鱿鱼",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '砂锡鱿鱼, 肉汤拌饭' is/are inside the bounding box [[387.0, 130.0], [904.0, 130.0], [904.0, 371.0], [387.0, 371.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify and record the word(s) that appear in the box [[385, 138], [900, 138], [900, 377], [385, 377]]. ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像 [[510,492], [875,503], [872,594], [507,583]] 框选区域中的文字应该是什么？请将\"砂锅____\"补充完整。",
+              "answer": "鱿鱼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[385, 138], [900, 138], [900, 377], [385, 377]]? Select the matching answer. Options:\nA. 肉泻拌饭\nB. 肉汤拌饭\nC. 砂锦鱿鱼\nD. 砂锣鱿鱼",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Just looking at [[385.0, 138.0], [900.0, 138.0], [900.0, 377.0], [385.0, 377.0]] — is '砂锡鱿鱼, 肉汤拌饭' actually inside that box?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Based on the image, what text can you read from inside [[381, 144], [896, 144], [896, 381], [381, 381]]? ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "结合 [[523,565], [889,579], [885,676], [519,662]] 区域内的视觉内容，推断并填写\"砂锅鱿____\"中缺失的部分。",
+              "answer": "鱼"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the text at [[381, 144], [896, 144], [896, 381], [381, 381]], which answer choice is right? Options:\nA. 肉泻拌饭\nB. 砂锣鱿鱼\nC. 肉汤拌饭\nD. 肉涌拌饭",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '砂锅鱿鱼' fall(s) within the region bounded by [[381.0, 144.0], [896.0, 144.0], [896.0, 381.0], [381.0, 381.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text you see inside [[381, 146], [892, 146], [892, 385], [381, 385]]. ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于 [[524,716], [807,733], [804,777], [521,760]] 的文字中，\"新品上____ 重磅推荐\"缺少了哪个词？请补全。",
+              "answer": "市"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text visible in [[381, 146], [892, 146], [892, 385], [381, 385]]. Options:\nA. 砂锅鱿鱼\nB. 肉泻拌饭\nC. 肉涌拌饭\nD. 砂锣鱿鱼",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '砂锅鱿鱼' the text that appears inside [[381.0, 146.0], [892.0, 146.0], [892.0, 385.0], [381.0, 385.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can read in the region [[643, 895], [836, 895], [836, 990], [643, 990]]. ________",
+              "answer": [
+                "鱼你在一起"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[524,760], [809,775], [806,817], [521,801]] 处的短语写着\"新品上市 重磅推____\"，横线上应填什么？",
+              "answer": "荐"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[381, 150], [890, 150], [890, 990], [381, 990]], select the option that accurately reflects what's written there. Options:\nA. 鱼你在一起, 肉泻拌饭\nB. 肉汤拌饭, 鱼伲在一起\nC. 鱼你在一起, 肉汤拌饭\nD. 鱼你在一起, 肉涌拌饭",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[381, 150], [890, 150], [890, 389], [381, 389]] contain the text '肉汤拌饭'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text visible inside the box [[379, 154], [886, 154], [886, 990], [379, 990]] and write it below. ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼",
+                "新品上市 重磅推荐",
+                "鱼你在一起"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看 [[391,579], [738,584], [737,683], [390,679]] 处的文字，\"肉____拌饭\"里少了哪个字？",
+              "answer": "汤"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on the text inside [[379, 154], [886, 154], [886, 442], [379, 442]], which answer option is correct? Options:\nA. 砂锅鱿鱼, 肉泻拌饭\nB. 肉泻拌饭, 新品上市 重磅推荐\nC. 新品上市 重磅推荐, 鱼你在一起\nD. 肉汤拌饭, 新品上市 重磅推荐",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Written inside [[379, 154], [886, 154], [886, 442], [379, 442]] — is it '砂锅鱿鱼, 肉汤拌饭'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0070/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0070/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out what is written in the region [[379, 160], [884, 160], [884, 998], [379, 998]]. ________",
+              "answer": [
+                "肉汤拌饭",
+                "砂锅鱿鱼",
+                "新品上市 重磅推荐",
+                "鱼你在一起"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中 [[352,590], [700,590], [700,687], [352,687]] 位置的短语是\"____汤拌饭\"，请填入缺失的文字。",
+              "answer": "肉"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text in [[379, 160], [884, 160], [884, 998], [379, 998]] matches which of these options? Options:\nA. 砂锣鱿鱼, 肉汤拌饭, 新品上市 重磅推荐\nB. 肉汤拌饭, 鱼伲在一起, 砂锅鱿鱼\nC. 肉汤拌饭, 新品上帝 重磅推荐, 鱼你在一起\nD. 肉汤拌饭, 鱼你在一起, 砂锅鱿鱼",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the bounding box [[379, 160], [884, 160], [884, 446], [379, 446]], is the text '肉汤拌饭, 砂锅鱿鱼' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0070"
+  }
+]

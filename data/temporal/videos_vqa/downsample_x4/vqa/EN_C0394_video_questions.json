@@ -1,0 +1,313 @@
+{
+  "video_id": "C0394",
+  "frames": 120,
+  "word": "Airlines and Terminal Information",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/EN_C0394.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"Airlines and Terminal Information\" likely to be?\n Options:\nA. address or street sign\nB. storefront or brand sign\nC. warning or prohibition sign\nD. general scene text\nE. menu or commercial information\nF. event or poster information\nG. direction or navigation sign",
+      "q": "What type of sign would you say the text \"Airlines and Terminal Information\" is?\n Options:\nA. address or street sign\nB. storefront or brand sign\nC. warning or prohibition sign\nD. general scene text\nE. menu or commercial information\nF. event or poster information\nG. direction or navigation sign",
+      "a": "G",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. address or street sign",
+        "B. storefront or brand sign",
+        "C. warning or prohibition sign",
+        "D. general scene text",
+        "E. menu or commercial information",
+        "F. event or poster information",
+        "G. direction or navigation sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you say the text \"Airlines and Terminal Information\" is?\n Options:\nA. address or street sign\nB. storefront or brand sign\nC. warning or prohibition sign\nD. general scene text\nE. menu or commercial information\nF. event or poster information\nG. direction or navigation sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"Airlines and Terminal Information\" appear in?\n Options:\nA. transportation / station\nB. storefront\nC. campus or office\nD. other public sign\nE. event poster or display\nF. road or street\nG. restaurant or menu\nH. warning / rule sign",
+      "q": "Based on the text \"Airlines and Terminal Information\" appearing on screen, what kind of location or environment does this video seem to be set in?\n Options:\nA. transportation / station\nB. storefront\nC. campus or office\nD. other public sign\nE. event poster or display\nF. road or street\nG. restaurant or menu\nH. warning / rule sign",
+      "a": "A",
+      "a_text": "transportation / station",
+      "answer_key": "transportation / station",
+      "options": [
+        "A. transportation / station",
+        "B. storefront",
+        "C. campus or office",
+        "D. other public sign",
+        "E. event poster or display",
+        "F. road or street",
+        "G. restaurant or menu",
+        "H. warning / rule sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Based on the text \"Airlines and Terminal Information\" appearing on screen, what kind of location or environment does this video seem to be set in?\n Options:\nA. transportation / station\nB. storefront\nC. campus or office\nD. other public sign\nE. event poster or display\nF. road or street\nG. restaurant or menu\nH. warning / rule sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"Airlines and Terminal Information\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)",
+      "q": "Which area of the frame does \"Airlines and Terminal Information\" spend most of its time in?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)",
+      "a": "B",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. center (middle of the frame)",
+        "C. top-right (upper-right area)",
+        "D. bottom-right (lower-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which area of the frame does \"Airlines and Terminal Information\" spend most of its time in?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"Airlines and Terminal Information\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "How much does the position of \"Airlines and Terminal Information\" change over the course of the clip — a lot, a little, or barely at all?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does the position of \"Airlines and Terminal Information\" change over the course of the clip — a lot, a little, or barely at all?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a moderate amount (shifts across part of the frame)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"Airlines and Terminal Information\" move?\n Options:\nA. moves diagonally\nB. moves down\nC. stays roughly in place\nD. moves right\nE. changes direction partway\nF. moves left\nG. moves up",
+      "q": "Overall, which direction would you say \"Airlines and Terminal Information\" is moving on screen?\n Options:\nA. moves diagonally\nB. moves down\nC. stays roughly in place\nD. moves right\nE. changes direction partway\nF. moves left\nG. moves up",
+      "a": "F",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves diagonally",
+        "B. moves down",
+        "C. stays roughly in place",
+        "D. moves right",
+        "E. changes direction partway",
+        "F. moves left",
+        "G. moves up"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Overall, which direction would you say \"Airlines and Terminal Information\" is moving on screen?\n Options:\nA. moves diagonally\nB. moves down\nC. stays roughly in place\nD. moves right\nE. changes direction partway\nF. moves left\nG. moves up"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"Airlines and Terminal Information\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> center -> center\nB. center -> center -> center\nC. center -> top-left -> center\nD. center -> bottom-left -> center",
+      "q": "At the beginning, in the middle, and near the end of the clip, where does \"Airlines and Terminal Information\" appear in the frame?\n Options:\nA. bottom-right -> center -> center\nB. center -> center -> center\nC. center -> top-left -> center\nD. center -> bottom-left -> center",
+      "a": "B",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. bottom-right -> center -> center",
+        "B. center -> center -> center",
+        "C. center -> top-left -> center",
+        "D. center -> bottom-left -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "At the beginning, in the middle, and near the end of the clip, where does \"Airlines and Terminal Information\" appear in the frame?\n Options:\nA. bottom-right -> center -> center\nB. center -> center -> center\nC. center -> top-left -> center\nD. center -> bottom-left -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"Airlines and Terminal Information\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "How large does \"Airlines and Terminal Information\" look relative to the rest of the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "B",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. large (a major part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How large does \"Airlines and Terminal Information\" look relative to the rest of the frame?\n Options:\nA. small (a minor part of the frame)\nB. large (a major part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"Airlines and Terminal Information\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. gets smaller\nD. stays about the same size",
+      "q": "Does \"Airlines and Terminal Information\" grow bigger, shrink, or hold roughly the same size as the clip progresses?\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. gets smaller\nD. stays about the same size",
+      "a": "D",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. gets larger",
+        "C. gets smaller",
+        "D. stays about the same size"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"Airlines and Terminal Information\" grow bigger, shrink, or hold roughly the same size as the clip progresses?\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. gets smaller\nD. stays about the same size"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"Airlines and Terminal Information\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "q": "Is \"Airlines and Terminal Information\" sitting comfortably inside the frame, or does it run close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge",
+      "a": "A",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. comes close to an edge",
+        "C. touches or runs off an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"Airlines and Terminal Information\" sitting comfortably inside the frame, or does it run close to one of the edges?\n Options:\nA. fully inside, away from the edges\nB. comes close to an edge\nC. touches or runs off an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"Airlines and Terminal Information\" and how it appears in the video.",
+      "q": "Give a quick rundown of \"Airlines and Terminal Information\" — what it looks like and how it behaves over the clip.",
+      "a": "The text is printed in white letters on the orange upper half of an indoor airport directional sign.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick rundown of \"Airlines and Terminal Information\" — what it looks like and how it behaves over the clip."
+    }
+  ],
+  "method": "downsample_x4"
+}

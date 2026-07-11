@@ -1,0 +1,564 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What words can you make out at [[544, 252], [688, 252], [688, 280], [544, 280]]? ________",
+              "answer": [
+                "FRESHSUSHI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[1402,940], [1704,936], [1703,1005], [1404,1009]] reads \"SP____ED LIMIT\" with letters obscured — fill in what's missing.",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option best captures the text(s) you see at [[1248, 82], [1709, 82], [1709, 1080], [1248, 1080]]. Options:\nA. TOWED AT VEHICLE, FOR, SREED LIMIT, SLOW, 3-HOUR PARKING ONLY, MISSION SQUARE, CALLFPD（510）790-6760, ANESE, OWNER'SEXPENSE, CVC22658(A)\nB. TOWED AT VEHICLE, CALLFPD（510）790-6760, CUSTOMERS, 5 MPH, DOWN, CVC22658(A), SLOW, VIOLATORS WILL BE, MISSION SQUARE, FOR\nC. ANESE, CVC22658(A), SPEED LIMIT, 5 MPH, DOWN, FRESHSUSHI, TOWED AT VEHICLE, VIOLATORS WILL BE, MISSION SQUARE, SLOW\nD. CVC22658(A), FOR, CUSTOMERS, VIOLATOPS WILL BE, 5 MPH, DOWN, MISSION SQUARE, SPEED LIMIT, ANESE, SLOW",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[544, 82], [1709, 82], [1709, 464], [544, 464]] — is 'CALLFPD（510）790-6760, VIOLATORS WILL BE, FRESHSUSHI, 3-HOUR PARKING ONLY, CUSTOMERS, MISSION SQUARE, OWNER'SEXPENSE, CVC22658(A), FOR' what's written there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down whatever text you can read at [[553, 82], [1716, 82], [1716, 1080], [553, 1080]]. ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "ANESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760",
+                "SLOW",
+                "DOWN",
+                "SPEED LIMIT",
+                "5 MPH"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region at [[1458,273], [1692,270], [1693,304], [1458,307]] shows the incomplete message \"VIO____RS WILL BE\" — what's missing?",
+              "answer": "LATO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option correctly lists the text(s) found at [[553, 82], [1716, 82], [1716, 464], [553, 464]]? Options:\nA. TOWED AT VEHICLE, CVC22658(A), 3-HOUR PARKING ONLY, FOR, ANESE, MISSION SQUARE, CALLFPD（510）790-6760, VIOLATORS WILL BE, FBESHSUSHI, CUSTOMERS\nB. TOWED AT VEHICLE, FRESHSUSHI, CVC22658(A), VIOLATORS WILL BE, OWNER'SEXPENSE, CALLFPD（510）790-6760, 3-HOUR PARKING ONLY, CUSTOMERS, FOR, ANESE\nC. 3-HOUR PARKING ONLY, VIOLATORS WILL BE, TOWED AT VEHICLE, CVC22658(A), CALLFPD（510）790-6760, ANESE, SLOW, MISSION SQUARE, FRESHSUSHI, CUSTOMERS\nD. VIOLATORS WILL BE, CALLFPD（510）790-6760, DOWN, FOR, ANESE, CVC22658(A), 3-HOUR PARKING ONLY, FRESHSUSHI, TOWED AT VEHICLE, OWNER'SEXPENSE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check if the labels 'TOWED AT VEHICLE, 3-HOUR PARKING ONLY, CVC22658(A), VIOLATORS WILL BE, CUSTOMERS, ANESE, OWNER'SEXPENSE, CALLFPD（510）790-6760, FOR' all appear inside the region [[553, 82], [1716, 82], [1716, 464], [553, 464]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off every word you can find inside [[563, 82], [1723, 82], [1723, 464], [563, 464]]. ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "NESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[1416,347], [1635,342], [1636,378], [1417,382]] contains a partially visible phrase — what goes in the gap to complete \"OWNER'S____ENSE\"?",
+              "answer": "EXP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches all the text visible in [[563, 82], [1723, 82], [1723, 464], [563, 464]]. Options:\nA. MISSION SQUARE, TOWED AT VEHICLE, FRESHSUSHI, 3-HOUR PARKING ONLY, CVC22658(A), EOR, CUSTOMERS, OWNER'SEXPENSE, NESE, VIOLATORS WILL BE\nB. MISSION SQUARE, 3-HOUR PARKING ONLY, NESE, FRESHSUSHI, TOWED AT VEHICLE, FOR, SLOW, CALLFPD（510）790-6760, VIOLATORS WILL BE, CVC22658(A)\nC. MISSION SQUARE, CVC22658(A), TOWED AT VEHICLE, CUSTOMERS, VIOLATORS WILL BE, FRESHSUSHI, NESE, CALLFPD（510）790-6760, FOR, 3-HOUR PARKING ONLY\nD. 3-HOUR PARKING ONLY, CVC22658(A), MISSIDN SQUARE, TOWED AT VEHICLE, CUSTOMERS, FOR, FRESHSUSHI, VIOLATORS WILL BE, NESE, OWNER'SEXPENSE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'CVC22658(A), FRESHSUSHI, 3-HOUR PARKING ONLY, MISSION SQUARE, CALLFPD（510）790-6760, FOR, CUSTOMERS, NESE, 5 MPH, TOWED AT VEHICLE' inside the box marked by [[563, 82], [1723, 82], [1723, 464], [563, 464]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "List every word visible inside the region [[1418, 613], [1720, 613], [1720, 1080], [1418, 1080]]. ________",
+              "answer": [
+                "SLOW",
+                "DOWN",
+                "SPEED LIMIT",
+                "5 MPH"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The box at [[1139,232], [1177,233], [1176,255], [1139,254]] shows a sequence with something cut off — what fills the gap: \"____SE\"?",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer choice that correctly lists the text found in [[1282, 82], [1728, 82], [1728, 1080], [1282, 1080]]. Options:\nA. TOWED AT VEHICLE, CUSTOMERS, CALLFPD（510）790-6760, MISSION SQUARE, OWNER'SEXPENSE, 3-HOUR PARKING ONLY, SLOW, CVC22658(A), 5 MPH, SPEED LIMIT\nB. CUSTOMFRS, 5 MPH, SPEED LIMIT, TOWED AT VEHICLE, FOR, CALLFPD（510）790-6760, DOWN, CVC22658(A), MISSION SQUARE, VIOLATORS WILL BE\nC. 3-HOUR PARKING ONLY, CALLFPO（510）790-6760, 5 MPH, SPEED LIMIT, MISSION SQUARE, VIOLATORS WILL BE, OWNER'SEXPENSE, TOWED AT VEHICLE, DOWN, SLOW\nD. CUSTOMERS, FRESHSUSHI, CALLFPD（510）790-6760, SPEED LIMIT, 3-HOUR PARKING ONLY, OWNER'SEXPENSE, MISSION SQUARE, TOWED AT VEHICLE, VIOLATORS WILL BE, CVC22658(A)",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "All of these labels — 'CUSTOMERS, CALLFPD（510）790-6760, OWNER'SEXPENSE, VIOLATORS WILL BE, FOR, MISSION SQUARE, FRESHSUSHI, TOWED AT VEHICLE, DOWN, CVC22658(A)' — are they found inside [[564, 82], [1728, 82], [1728, 464], [564, 464]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word or words that appear in the area [[570, 82], [1734, 82], [1734, 464], [570, 464]]. ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "NESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a phrase starting with \"5\" in the region [[1023,971], [1303,967], [1303,1056], [1022,1056]] — what number or text completes \"5 ____H\"?",
+              "answer": "MP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one captures all the text shown in [[570, 82], [1734, 82], [1734, 464], [570, 464]]? Options:\nA. 3-HOUR PARKING ONLY, OWNER'SEXPENSE, FRESHSUSHI, FOR, VIOLATORS WILL BE, CALLFPD（510）790-6760, TOWED AT VEHICLE, SLOW, MISSION SQUARE, CVC22658(A)\nB. CALLFPD（510）790-6760, CVC22658(A), OWNER'SEXPENSE, NESE, TOWED AT VEHICLE, FRESHSUSHI, VIOLATORS WILL BE, CUSTOMERS, 3-HOUR PARKING ONLY, FOR\nC. 3-HOUR PARKING ONLY, CALLFPD（510）790-6760, CUSTOMERS, MISSION SQUARE, FOR, FRESHSUSHI, NESE, CVO22658(A), TOWED AT VEHICLE, OWNER'SEXPENSE\nD. TOWED AT VEHICLE, CALLFPD（510）790-6760, VIOLATOPS WILL BE, FRESHSUSHI, 3-HOUR PARKING ONLY, NESE, OWNER'SEXPENSE, CUSTOMERS, CVC22658(A), FOR",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the labels 'CALLFPD（510）790-6760, FRESHSUSHI, MISSION SQUARE, OWNER'SEXPENSE, 3-HOUR PARKING ONLY, TOWED AT VEHICLE, DOWN, NESE, FOR, SPEED LIMIT' all fall within the region [[1286, 82], [1734, 82], [1734, 1080], [1286, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you read from the area bounded by [[574, 82], [1738, 82], [1738, 464], [574, 464]]? ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "NESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The area [[970,350], [1124,348], [1124,382], [970,383]] shows a partially hidden sequence — what goes in the blank to form \"CVC22____(A)\"?",
+              "answer": "658"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which answer choice correctly identifies the text visible inside [[574, 133], [1730, 133], [1730, 1080], [574, 1080]]. Options:\nA. FRESHSUSHI, SLOW, CUSTOMERS, 3-HOUR PARKING ONLY, VIOLATORS WILL BE, MISSION SQUARE, OWNER'SEXPENSE, CVC22658(A), FOR, SPEED LIMIT\nB. TOWED AT VEHICLE, SPEED LIMIT, 5 MPH, FRESHSUSHI, SLOW, NESE, VIOLATORS WILL BE, FOR, CUSTOMERS, OWNFR'SEXPENSE\nC. FRESHSUSHI, CVC22658(A), VIOLATORS WILL BE, CUSTOMERS, OWNER'SEXPENSE, TOWED AT VEHICLE, SLOW, CALLFPD（510）790-6760, MISSION SQUARE, NESE\nD. VIOLATOPS WILL BE, OWNER'SEXPENSE, SPEED LIMIT, DOWN, MISSION SQUARE, SLOW, FOR, TOWED AT VEHICLE, CVC22658(A), CALLFPD（510）790-6760",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[574, 82], [1738, 82], [1738, 464], [574, 464]] — does it contain the label(s) 'CUSTOMERS, VIOLATORS WILL BE, CVC22658(A), NESE, MISSION SQUARE, 3-HOUR PARKING ONLY, CALLFPD（510）790-6760, 5 MPH, FRESHSUSHI, TOWED AT VEHICLE'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[576, 82], [1739, 82], [1739, 1080], [576, 1080]] and write down any words you find there. ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "NESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760",
+                "SLOW",
+                "DOWN",
+                "SPEED LIMIT",
+                "5 MPH"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Part of the text inside [[792,258], [1027,254], [1027,289], [792,292]] is cut off — what word or phrase fills in \"VI____S WILL BE\"?",
+              "answer": "OLATOR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options best describes the text content found in [[576, 82], [1739, 82], [1739, 464], [576, 464]]? Options:\nA. NESE, CVC22658(A), MISSION SQUARE, OWNER'SEXPENSE, CUSTOMERS, SLOW, FOR, TOWED AT VEHICLE, CALLFPD（510）790-6760, FRESHSUSHI\nB. FOR, MISSION SQUARE, TOWED AT VEHICLE, NESE, OWNFR'SEXPENSE, FRESHSUSHI, CVC22658(A), CUSTOMERS, 3-HOUR PARKING ONLY, CALLFPD（510）790-6760\nC. 3-HOUR PARKING ONLY, FRESHSUSHI, FOR, CUSTOMERS, OWNER'SEXPENSE, CVC22658(A), MISSION SQUARE, VIOLATORS WILL BE, NESE, TOWED AT VEHICLE\nD. CUSTOMERS, VIOLATORS WILL BE, OWNER'SEXPENSE, CVC22658(A), CALLFPD（510）790-6760, FOR, TOWED AT VEHICLE, FRESHSUSHI, NFSE, 3-HOUR PARKING ONLY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'TOWED AT VEHICLE, CVC22658(A), VIOLATORS WILL BE, MISSION SQUARE, OWNER'SEXPENSE, 3-HOUR PARKING ONLY, CUSTOMERS, NESE, CALLFPD（510）790-6760, SLOW' are all present inside the box [[576, 82], [1739, 82], [1739, 464], [576, 464]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside the box [[576, 82], [1739, 82], [1739, 1080], [576, 1080]]. ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "NESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760",
+                "SLOW",
+                "DOWN",
+                "SPEED LIMIT",
+                "5 MPH"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the text at [[707,390], [861,388], [861,422], [707,423]], what fills in the gap to make \"CVC22____(A)\" a complete sequence?",
+              "answer": "658"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one accounts for all the text you see in [[576, 82], [1739, 82], [1739, 464], [576, 464]]? Options:\nA. OWNER'SEXPENSE, 3-HOUR PARKING ONLY, NESE, CVC22658(A), MISSION SQUARE, CUSTOMERS, VIOLATORS WILL BE, FBESHSUSHI, CALLFPD（510）790-6760, FOR\nB. FOR, CALLFPD（510）790-6760, VIOLATORS WILL BE, FRESHSUSHI, 3-HOUR PARKING ONLY, MISSION SQUARE, CUSTOMERS, OWNER'SEXPENSE, CVO22658(A), NESE\nC. FRESHSUSHI, NESE, OWNER'SEXPENSE, MISSION SQUARE, FOR, TOWED AT VEHICLE, VIOLATORS WILL BE, CVC22658(A), 3-HOUR PARKING ONLY, CUSTOMERS\nD. CVC22658(A), 3-HOUR PARKING ONLY, CALLFPD（510）790-6760, CUSTOMERS, FRESHSUSHI, OWNER'SEXPENSE, SLOW, VIOLATORS WILL BE, MISSION SQUARE, NESE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Both '5 MPH, SPEED LIMIT, CVC22658(A), CALLFPD（510）790-6760, NESE, SLOW, TOWED AT VEHICLE, OWNER'SEXPENSE, DOWN' — are they actually inside the bounding box [[1430, 312], [1731, 312], [1731, 1080], [1430, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text visible inside [[576, 82], [1739, 82], [1739, 464], [576, 464]]. ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "NESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[571,728], [863,720], [867,853], [575,861]] contains a word with a gap — fill it in: \"D____N\"",
+              "answer": "OW"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text inside [[576, 82], [1739, 82], [1739, 464], [576, 464]]. Options:\nA. OWNER'SEXPENSE, FRESHSUSHI, NESE, FOR, CUSTOMERS, TOWED AT VEHICLE, 3-HOUR PARKING ONLY, CALLFPO（510）790-6760, MISSION SQUARE, CVC22658(A)\nB. NESE, VIOLATORS WILL BE, MISSION SQUARE, TOWED AT VEHICLE, CVC22658(A), 3-HOUR PARKING ONLY, FRESHSUSHI, FOR, SLOW, CALLFPD（510）790-6760\nC. FOR, OWNER'SEXPENSE, NESE, CUSTOMERS, FRESHSUSHI, VIOLATORS WILL BE, DOWN, 3-HOUR PARKING ONLY, MISSION SQUARE, CALLFPD（510）790-6760\nD. 3-HOUR PARKING ONLY, CALLFPD（510）790-6760, CVC22658(A), TOWED AT VEHICLE, OWNER'SEXPENSE, CUSTOMERS, MISSION SQUARE, NESE, VIOLATORS WILL BE, FRESHSUSHI",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[575.9810299960076, 82.26519337016575], [1739.2309200208622, 82.26519337016575], [1739.2309200208622, 1079.9999999999998], [575.9810299960076, 1079.9999999999998]] contain the label(s) 'CUSTOMERS, NESE, DOWN, MISSION SQUARE, SLOW, VIOLATDRS WILL BE, FRESHSUSHI, CALLFPD（510）790-6760, 5 MPH, OWNER'SEXPENSE'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out what's written inside the region [[575, 254], [719, 254], [719, 282], [575, 282]]. ________",
+              "answer": [
+                "FRESHSUSHI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[514,116], [754,118], [752,162], [515,160]] reads \"MI____ON SQUARE\" — what word fills the blank?",
+              "answer": "SSI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one correctly identifies the text at [[575, 86], [1739, 86], [1739, 464], [575, 464]]? Options:\nA. CALLFPD（510）790-6760, SLOW, CUSTOMERS, FOR, NESE, FRESHSUSHI, VIOLATORS WILL BE, MISSION SQUARE, CVC22658(A), 3-HOUR PARKING ONLY\nB. 3-HOUR PARKING ONLY, CUSTOMERS, FRESHSUSHI, NESE, FOR, CVC22658(A), OWNER'SEXPENSE, TOWED AT VEHICLE, MISSION SQUARE, VIOLATOPS WILL BE\nC. MISSION SQUARE, FRESHSUSHI, FOR, VIOLATORS WILL BE, OWNER'SEXPENSE, CUSTOMERS, TOWED AT VEHICLE, CVC22658(A), NFSE, CALLFPD（510）790-6760\nD. CUSTOMERS, TOWED AT VEHICLE, VIOLATORS WILL BE, OWNER'SEXPENSE, FOR, NESE, FRESHSUSHI, 3-HOUR PARKING ONLY, CALLFPD（510）790-6760, CVC22658(A)",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "All these labels — '5 MPH, OWNER'SEXPENSE, CUSTOMERS, VIOLATORS WILL BE, NESE, CALLFPD（510）790-6760, TOWED AT VEHICLE, 3-HOUR PARKING ONLY, MISSION SQUARE, FOR' — are they present in [[575, 86], [1739, 86], [1739, 464], [575, 464]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you read inside [[571, 86], [1734, 86], [1734, 1080], [571, 1080]]? ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "NESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760",
+                "SLOW",
+                "DOWN",
+                "SPEED LIMIT",
+                "5 MPH"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[407,372], [672,370], [672,408], [407,409]], what completes the phone-number string \"CALLFPD（510）____-6760\"?",
+              "answer": "790"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best describes the text found inside [[1286, 86], [1734, 86], [1734, 1080], [1286, 1080]]. Options:\nA. FOR, MISSION SQUARE, 5 MPH, TOWED AT VEHICLE, CALLFPD（510）790-6760, DOWN, VIOLATOPS WILL BE, CUSTOMERS, SPEED LIMIT, CVC22658(A)\nB. CVO22658(A), OWNER'SEXPENSE, CALLFPD（510）790-6760, SLOW, TOWED AT VEHICLE, DOWN, SPEED LIMIT, CUSTOMERS, VIOLATORS WILL BE, NESE\nC. CUSTOMERS, FRESHSUSHI, MISSION SQUARE, SPEED LIMIT, CALLFPD（510）790-6760, SLOW, 5 MPH, OWNER'SEXPENSE, 3-HOUR PARKING ONLY, DOWN\nD. VIOLATORS WILL BE, TOWED AT VEHICLE, MISSION SQUARE, SPEED LIMIT, CUSTOMERS, OWNER'SEXPENSE, FOR, 5 MPH, CALLFPD（510）790-6760, SLOW",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether [[571, 86], [1734, 86], [1734, 464], [571, 464]] holds the labels 'FOR, VIOLATORS WILL BE, TOWED AT VEHICLE, DOWN, 3-HOUR PARKING ONLY, CALLFPD（510）790-6760, MISSION SQUARE, OWNER'SEXPENSE, NESE, CUSTOMERS'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0353/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0353/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you see inside [[563, 86], [1726, 86], [1726, 1080], [563, 1080]]. ________",
+              "answer": [
+                "3-HOUR PARKING ONLY",
+                "FOR",
+                "MISSION SQUARE",
+                "CUSTOMERS",
+                "FRESHSUSHI",
+                "NESE",
+                "VIOLATORS WILL BE",
+                "TOWED AT VEHICLE",
+                "OWNER'SEXPENSE",
+                "CVC22658(A)",
+                "CALLFPD（510）790-6760",
+                "SLOW",
+                "DOWN",
+                "SPEED LIMIT",
+                "5 MPH"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the speed value at [[311,961], [587,946], [585,1041], [311,1054]] to complete \"____ MPH\".",
+              "answer": "5"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which of the following choices matches the text visible at [[1282, 86], [1726, 86], [1726, 1080], [1282, 1080]]. Options:\nA. FOR, 3-HOUR PARKING ONLY, MISSION SQUARE, VIOLATORS WILL BE, SLOW, DOWN, NESE, OWNER'SEXPENSE, IOWED AT VEHICLE, 5 MPH\nB. 3-HOUR PARKING ONLY, CUSTOMERS, CVC22658(A), FOR, OWNER'SEXPENSE, SLOW, TOWED AT VEHICLE, DOWN, CALLFPD（510）790-6760, FRESHSUSHI\nC. 5 MPH, SLOW, SPEED LIMIT, MISSION SQUARE, VIOLATORS WILL BE, 3-HOUR PARKING ONLY, NESE, CUSTOMERS, DOWN, EOR\nD. SPEED LIMIT, DOWN, OWNER'SEXPENSE, CALLFPD（510）790-6760, CVC22658(A), TOWED AT VEHICLE, NESE, CUSTOMERS, 5 MPH, 3-HOUR PARKING ONLY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: all of 'OWNER'SEXPENSE, TOWED AT VEHICLE, 5 MPH, FOR, DOWN, MISSION SQUARE, CVC22658(A), CALLFPD（510）790-6760, SPEED LIMIT, 3-HOUR PARKING ONLY' appear inside [[562.6568337301338, 86.45367504555855], [1725.9067237549884, 86.45367504555855], [1725.9067237549884, 1080.0], [562.6568337301338, 1080.0]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0353"
+  }
+]

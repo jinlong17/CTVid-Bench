@@ -1,0 +1,489 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "List all the word(s) you see in [[27, 386], [1041, 386], [1041, 960], [27, 960]]. ________",
+              "answer": [
+                "JB",
+                "biographies",
+                "ifyoucan",
+                "dreamityou",
+                "candoit",
+                "waltdisney",
+                "please",
+                "DONOTOPEN",
+                "DOOR",
+                "alarmwillsound",
+                "thankyou",
+                "EMERGENCYEXITONLY",
+                "PUSHTOOPENANDSOUNDALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partially visible as \"pl____e\" at [[184,600], [277,597], [277,622], [184,625]] — what word(s) is being shown?",
+              "answer": "eas"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Match the text(s) at [[122, 65], [1661, 65], [1661, 816], [122, 816]] to the right option below. Options:\nA. ifyoucan, jbbiographies, biographies, dreamityou, candoit, thankyou, JB, alarmwillsound, please, DONOTOPEN\nB. DOOR, ifyoucan, thankyou, dreamityou, please, weltdisney, jbbiographies, JB, biographies, DONOTOPEN\nC. jbbiographies, candoit, DONOTOPEN, dreamityou, EMERGENCYEXITONLY, biographies, DOOR, ifyoucan, alarmwillsound, waltdisney\nD. JB, jbbiographies, alarmwillsound, ploase, dreamityou, DOOR, waltdisney, thankyou, ifyoucan, DONOTOPEN",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'alarmwillsound, DOOR, PUSHTOOPENANDSOUNDALARM, EMERGENCYEXITONLY, DONOTOPEN' among the label(s) visible inside [[26.5151515151515, 597.2972972972973], [397.7272727272727, 597.2972972972973], [397.7272727272727, 959.6969696969696], [26.5151515151515, 959.6969696969696]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown in [[26.5151515151515, 855.1515151515151], [397.7272727272727, 855.1515151515151], [397.7272727272727, 959.6969696969696], [26.5151515151515, 959.6969696969696]] — what word(s) do you see? ________",
+              "answer": [
+                "EMERGENCYEXITONLY",
+                "PUSHTOOPENANDSOUNDALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word shown at [[902,750], [990,742], [991,767], [902,776]] appears as \"can____t\" — which letter(s) are obscured?",
+              "answer": "doi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text visible inside [[27, 386], [1041, 386], [1041, 960], [27, 960]]? Options:\nA. oandoit, ifyoucan, EMERGENCYEXITONLY, thankyou, JB, PUSHTOOPENANDSOUNDALARM, waltdisney, please, biographies, alarmwillsound\nB. DONOTOPEN, alarmwillsound, EMERGENCYEXITONLY, thankyou, JB, biographies, DOOR, waltdisney, dreamityou, PUSHTOOPENANDSOUNDALARM\nC. EMERGENCYEXITONLY, JB, dreamityou, waltdisney, candoit, ifyoucan, jbbiographies, please, DOOR, thankyou\nD. candoit, thankyou, EMERGENCYEXITONLY, dreamityou, DONOTOPEN, ifyoucan, waltdisney, DOOR, ploase, biographies",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'DONOTOPEN, ifyoucan, candoit, please, JB, alarmwillsound, biographies, DOOR, thankyou, PUSHTOOPENANDSOUNDALARM' appear inside [[27, 386], [1041, 386], [1041, 960], [27, 960]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[1444.313725490196, 65.359477124183], [1661.3071895424837, 65.359477124183], [1661.3071895424837, 179.73856209150327], [1444.313725490196, 179.73856209150327]], what word(s) can you make out? ________",
+              "answer": [
+                "jbbiographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At position [[190,687], [288,682], [287,701], [191,706]], the text reads \"thank____\" — fill in the missing part.",
+              "answer": "you"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly captures the text inside [[19, 386], [1041, 386], [1041, 960], [19, 960]]? Options:\nA. please, dreamityou, EMERGENCYEXITONLY, waltdisney, jbbiographies, PUSHTOOPENANDSOUNDALARM, thankyou, DOOR, alarmwillsound, candoit\nB. alarmwillsound, DOOR, JP, ifyoucan, please, PUSHTOOPENANDSOUNDALARM, dreamityou, DONOTOPEN, thankyou, waltdisney\nC. PUSHTOOPENANDSOUNDALARM, thankyou, EMERGENCYEXITONLY, candoit, DOOR, please, JB, waltdisney, ifyoucan, alarmwillsound\nD. DOOR, dreamityou, ifyoucan, thankyou, biographies, EMERGENCYFXITONLY, alarmwillsound, please, candoit, DONOTOPEN",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the label 'candoit, waltdisney, dreamityou, DONOTOPEN, please, ifyoucan, biographies, jbbiographies, JB, thankyou' actually present inside the region [[122, 65], [1661, 65], [1661, 816], [122, 816]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) appear inside [[1444.313725490196, 65.359477124183], [1661.3071895424837, 65.359477124183], [1661.3071895424837, 179.73856209150327], [1444.313725490196, 179.73856209150327]]. ________",
+              "answer": [
+                "jbbiographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase at [[900,711], [993,705], [995,732], [902,738]] reads \"if ____ can\" — what belongs in the blank?",
+              "answer": "you"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly lists the text found in [[19, 596], [398, 596], [398, 960], [19, 960]]? Options:\nA. please, DONOTOPEN, PUSHTOOPENANDSOUNDALARM, DOOR, alarmwillsound, thankyou\nB. PUSHTOOPENANPSOUNDALARM, please, DOOR, EMERGENCYEXITONLY, DONOTOPEN, alarmwillsound\nC. PUSHTOOPENANDSOUNDALARM, jbbiographies, thankyou, DOOR, alarmwillsound, DONOTOPEN\nD. PUSHTOOPENANDSOUNDALARM, JB, DOOR, EMERGENCYEXITONLY, DONOTOPEN, please",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) 'thankyou, EMERGENCYEXITONLY, PUSHTOOPENANDSOUNDALARM, alarmwillsound, please' — are they sitting within the bounds of [[19.09465681550489, 595.7408770638342], [397.7272727272727, 595.7408770638342], [397.7272727272727, 959.6969696969696], [19.09465681550489, 959.6969696969696]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in the region [[18.426916221033892, 595.7408770638342], [389.63903743315507, 595.7408770638342], [389.63903743315507, 958.5940285204991], [18.426916221033892, 958.5940285204991]], what word(s) are written there? ________",
+              "answer": [
+                "please",
+                "DONOTOPEN",
+                "DOOR",
+                "alarmwillsound",
+                "thankyou",
+                "EMERGENCYEXITONLY",
+                "PUSHTOOPENANDSOUNDALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[854,384], [943,386], [941,451], [852,450]], the word appears as \"J____\" — which letter(s) are missing?",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text visible in [[18, 596], [1018, 596], [1018, 959], [18, 959]]. Options:\nA. please, alarmwillsound, EMERGENCYEXITONLY, candoit, PUSHTOOPENANDSOUNDALARM, JB, dreamityou, waltdisney, DOOR, ifyoucan\nB. thankyou, jbbiographies, please, EMERGENCYEXITONLY, ifyoucan, alarmwillsound, waltdisney, candoit, DONOTOPEN, DOOR\nC. DOOR, candoit, EMERGENCYEXITONLY, DONOTOPEN, waltdisney, thankyou, PUSHTOOPENANDSOUNDALARM, alarmwillsound, please, dreamityou\nD. alarmwillsound, thankyou, OOOR, waltdisney, EMERGENCYEXITONLY, ifyoucan, candoit, DONOTOPEN, PUSHTOOPENANDSOUNDALARM, dreamityou",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'jbbiographies, biographies, EMERGENCYEXITONLY, dreamityou, ifyoucan, thankyou, PUSHTOOPENANDSOUNDALARM, JB, please, alarmwillsound' falls within the bounding box [[18, 383], [1038, 383], [1038, 959], [18, 959]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text spotted inside [[12.868975881652744, 58.55319440166991], [1655.0244670293946, 58.55319440166991], [1655.0244670293946, 958.5940285204991], [12.868975881652744, 958.5940285204991]] — write it out: ________",
+              "answer": [
+                "jbbiographies",
+                "JB",
+                "biographies",
+                "ifyoucan",
+                "dreamityou",
+                "candoit",
+                "waltdisney",
+                "please",
+                "DONOTOPEN",
+                "DOOR",
+                "alarmwillsound",
+                "thankyou",
+                "EMERGENCYEXITONLY",
+                "PUSHTOOPENANDSOUNDALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[719,432], [1010,447], [1012,522], [714,514]] has a gap: \"b____raphies\" — what fills it in?",
+              "answer": "iog"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches what's written inside [[13, 383], [1038, 383], [1038, 959], [13, 959]]? Options:\nA. JB, PUSHTOOPENANDSOUNDALARM, ifyoucan, jbbiographies, EMERGENCYEXITONLY, please, candoit, alarmwillsound, waltdisney, DONOTOPEN\nB. dreamityou, waltdisney, candoit, alarmwillseund, ifyoucan, thankyou, EMERGENCYEXITONLY, PUSHTOOPENANDSOUNDALARM, JB, please\nC. biographies, dreamityou, DOOR, candoit, PUSHTOOPENANDSOUNDALARM, JB, waltdisney, thankyou, alarmwillsound, EMERGENCYEXITONLY\nD. EMERGENCYEXITONLY, DOOR, dreamityou, oandoit, JB, waltdisney, please, ifyoucan, alarmwillsound, biographies",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'thankyou, EMERGENCYEXITONLY, please, dreamityou, DOOR, DONOTOPEN, waltdisney, PUSHTOOPENANDSOUNDALARM, jbbiographies, ifyoucan' can be found within [[13, 383], [1038, 383], [1038, 959], [13, 959]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Just by looking at [[1438.031002977107, 58.55319440166991], [1655.0244670293946, 58.55319440166991], [1655.0244670293946, 172.93227936899018], [1438.031002977107, 172.93227936899018]], what word(s) do you find? ________",
+              "answer": [
+                "jbbiographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within the region [[10,920], [329,896], [330,923], [9,949]], the word \"HTO____NANDSOUNDALARM\" has a portion obscured — what is it?",
+              "answer": "OPE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and select the answer that contains the text from [[10, 594], [382, 594], [382, 958], [10, 958]]. Options:\nA. jbbiographies, DONOTOPEN, alarmwillsound, thankyou, please, PUSHTOOPENANDSOUNDALARM\nB. tbankyou, please, PUSHTOOPENANDSOUNDALARM, DOOR, EMERGENCYEXITONLY, DONOTOPEN\nC. DOOR, EMERGENCYEXITONLY, alarmwillseund, PUSHTOOPENANDSOUNDALARM, thankyou, DONOTOPEN\nD. PUSHTOOPENANDSOUNDALARM, EMERGENCYEXITONLY, DOOR, please, DONOTOPEN, alarmwillsound",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'EMERGENCYEXITONLY, DONOTOPEN, PUSHTOOPENANDSOUNDALARM, DOOR, alarmwillsound, thankyou, please, ifyoucan' is enclosed within [[9.71979221047981, 593.8939113646259], [381.80836982104654, 593.8939113646259], [381.80836982104654, 958.066324035011], [9.71979221047981, 958.066324035011]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The coordinates [[1.4210854715202004e-14, 593.8224118360165], [371.2121212121212, 593.8224118360165], [371.2121212121212, 961.2342925469018], [1.4210854715202004e-14, 961.2342925469018]] mark a region — what word(s) appear there? ________",
+              "answer": [
+                "please",
+                "DONOTOPEN",
+                "DOOR",
+                "alarmwillsound",
+                "thankyou",
+                "EMERGENCYEXITONLY",
+                "PUSHTOOPENANDSOUNDALARM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The blank \"jb____ographies\" appears at [[1641,50], [1883,102], [1882,162], [1636,118]] — which letter(s) belong there?",
+              "answer": "bi"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly identifies the text(s) found inside [[0, 594], [371, 594], [371, 961], [0, 961]]? Options:\nA. alarmwillsound, please, EMERGENCYEXITONLY, thankyou, jbbiographies, DOOR\nB. alarmwillsound, tbankyou, PUSHTOOPENANDSOUNDALARM, DOOR, DONOTOPEN, please\nC. alarmwillsound, thankyou, EMERGENCYFXITONLY, DOOR, PUSHTOOPENANDSOUNDALARM, DONOTOPEN\nD. alarmwillsound, DOOR, EMERGENCYEXITONLY, PUSHTOOPENANDSOUNDALARM, DONOTOPEN, thankyou",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'biographies, alarmwillsound, JB, DONOTOPEN, DOOR, PUSHTOOPENANDSOUNDALARM, dreamityou, jbbiographies, thankyou, please' appearing inside the bounding box [[101, 53], [1645, 53], [1645, 813], [101, 813]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the region [[1428.253225199329, 53.219861068336584], [1645.2466892516168, 53.219861068336584], [1645.2466892516168, 167.59894603565672], [1428.253225199329, 167.59894603565672]] — what word(s) appear there? ________",
+              "answer": [
+                "jbbiographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the short label \"J____\" at [[865,362], [955,364], [952,429], [863,428]], which letter(s) are needed to make it complete?",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that matches the text(s) inside [[0, 381], [1020, 381], [1020, 963], [0, 963]]. Options:\nA. JP, please, candoit, EMERGENCYEXITONLY, dreamityou, biographies, DONOTOPEN, waltdisney, thankyou, alarmwillsound\nB. JB, DONOTOPEN, please, jbbiographies, candoit, EMERGENCYEXITONLY, waltdisney, alarmwillsound, dreamityou, biographies\nC. PUSHTOOPENANDSOUNDALARM, JB, OOOR, waltdisney, dreamityou, ifyoucan, DONOTOPEN, please, alarmwillsound, candoit\nD. JB, DOOR, waltdisney, dreamityou, thankyou, please, alarmwillsound, PUSHTOOPENANDSOUNDALARM, EMERGENCYEXITONLY, ifyoucan",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'candoit, alarmwillsound, EMERGENCYEXITONLY, PUSHTOOPENANDSOUNDALARM, thankyou, jbbiographies, biographies, please, DONOTOPEN, dreamityou' the label you'd find within the bounding box [[0, 381], [1020, 381], [1020, 963], [0, 963]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[1452.5389394850433, 55.600813449288964], [1669.532403537331, 55.600813449288964], [1669.532403537331, 169.9798984166091], [1452.5389394850433, 169.9798984166091]], what word(s) can you make out? ________",
+              "answer": [
+                "jbbiographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A gap appears in \"bi____raphies\" shown at [[752,411], [1043,425], [1045,500], [747,493]] — fill in the missing segment.",
+              "answer": "og"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the region [[0, 381], [1020, 381], [1020, 963], [0, 963]], which listed option accurately covers its text(s)? Options:\nA. alarmwillsound, DOOR, dreamityou, biographies, ifyoucan, PUSHTOOPENANDSOUNDALARM, candoit, please, EMERGENCYFXITONLY, JB\nB. EMERGENCYEXITONLY, JB, DOOR, ifyoucan, waltdisney, PUSHTOOPENANDSOUNDALARM, thankyou, please, dreamityou, candoit\nC. biographies, please, PUSHTOOPENANDSOUNDALARM, candoit, ifyoucan, alarmwillsound, thankyou, DOOR, DONOTOREN, JB\nD. jbbiographies, please, JB, waltdisney, candoit, biographies, DONOTOPEN, alarmwillsound, PUSHTOOPENANDSOUNDALARM, EMERGENCYEXITONLY",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'ifyoucan, please, DONOTOPEN, waltdisney, thankyou, candoit, DOOR, JB, alarmwillsound, PUSHTOOPENANDSOUNDALARM' is contained within the bounding box [[0, 594], [1015, 594], [1015, 963], [0, 963]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[1456.0892353430315, 50.86708563863807], [1673.0826993953192, 50.86708563863807], [1673.0826993953192, 165.24617060595824], [1456.0892353430315, 165.24617060595824]], what word(s) do you see? ________",
+              "answer": [
+                "jbbiographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within coordinates [[123,700], [221,695], [220,714], [124,719]], the text reads \"tha____ou\" — what's the missing part?",
+              "answer": "nky"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that best reflects the text(s) visible in [[8, 596], [381, 596], [381, 961], [8, 961]]. Options:\nA. DONOTOPEN, DOOR, alarmwillsound, jbbiographies, PUSHTOOPENANDSOUNDALARM, please\nB. DONOTOREN, please, EMERGENCYEXITONLY, PUSHTOOPENANDSOUNDALARM, DOOR, thankyou\nC. PUSHTOOPENANDSOUNDALARM, alarmwillseund, thankyou, DOOR, please, DONOTOPEN\nD. thankyou, please, PUSHTOOPENANDSOUNDALARM, alarmwillsound, DONOTOPEN, EMERGENCYEXITONLY",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'jbbiographies, JB, candoit, EMERGENCYEXITONLY, please, DONOTOPEN, waltdisney, biographies, thankyou, PUSHTOOPENANDSOUNDALARM' can be found inside the bounding box [[8, 380], [1034, 380], [1034, 961], [8, 961]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0213/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0213/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over at [[1456.0892353430315, 50.86708563863807], [1673.0826993953192, 50.86708563863807], [1673.0826993953192, 165.24617060595824], [1456.0892353430315, 165.24617060595824]], some text is written — what word(s) are there? ________",
+              "answer": [
+                "jbbiographies"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The word \"alarmwills____\" at [[86,683], [256,674], [256,701], [86,710]] is incomplete — which letter(s) fill the gap?",
+              "answer": "ound"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one correctly lists the text(s) inside [[8, 599], [381, 599], [381, 961], [8, 961]]? Options:\nA. alarmwillsound, thankyou, DONOTOPEN, ploase, DOOR, EMERGENCYEXITONLY\nB. thankyou, alarmwillsound, PUSHTOOPENANPSOUNDALARM, please, DOOR, EMERGENCYEXITONLY\nC. DONOTOPEN, EMERGENCYEXITONLY, alarmwillsound, thankyou, DOOR, please\nD. EMERGENCYEXITONLY, alarmwillsound, jbbiographies, PUSHTOOPENANDSOUNDALARM, DOOR, please",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'DONOTOPEN, DOOR, PUSHTOOPENANDSOUNDALARM, dreamityou, candoit, ifyoucan, JB, thankyou, please, waltdisney' fall within the bounding box [[8, 380], [1034, 380], [1034, 961], [8, 961]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0213"
+  }
+]

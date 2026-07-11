@@ -1,0 +1,466 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears inside the box [[237, 374], [297, 374], [297, 409], [237, 409]]? ________",
+              "answer": [
+                "SMS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Complete the expression \"B____g Data\" visible at [[260,670], [512,669], [511,760], [258,760]], where B____g is a term commonly used to describe very large datasets.",
+              "answer": "i"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text(s) you see at [[20, 374], [512, 374], [512, 1062], [20, 1062]]. Options:\nA. ©Simplilearn.All rights reserved., simplilearn\nB. SMS, Big Data\nC. ©Simplilearn.All rights reserved., Pig Data\nD. Pig Data, SMS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'Big Data, ©Simplilearn.All rights reserved.' can be found inside [[20, 669], [1892, 669], [1892, 1071], [20, 1071]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible within the region [[20, 374], [1892, 374], [1892, 1071], [20, 1071]]: ________",
+              "answer": [
+                "SMS",
+                "Big Data",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[1458,524], [1602,525], [1601,579], [1458,577]], a sequence of text contains a gap — what word(s) fit into \"H____rric\"?",
+              "answer": "u"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which answer option includes the text(s) inside [[20, 669], [1892, 669], [1892, 1071], [20, 1071]]? Options:\nA. SMS, ©Simplilearn.All rights reserved.\nB. ©Simplilcarn.All rights reserved., simplilearn\nC. ©Simplilearn.All rights reserved., simplileorn\nD. ©Simplilearn.All rights reserved., Big Data",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'simplilearn, ©Simplilearn.All rights reserved., Big Data, SMS' are located inside [[20, 374], [512, 374], [512, 1062], [20, 1062]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can make out within [[20, 374], [512, 374], [512, 1062], [20, 1062]]: ________",
+              "answer": [
+                "SMS",
+                "Big Data",
+                "©Simplilearn.All rights reserved."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Within [[20,1036], [382,1036], [382,1062], [20,1062]], a phrase ends with \"rights reserved.\" — what word begins it? \"©Simplilearn.____ rights reserved.\"",
+              "answer": "All"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text can you see inside [[20, 524], [1892, 524], [1892, 1071], [20, 1071]]? Pick the right answer. Options:\nA. SMS, ©Simplilearn.All rights reserved., H\nB. ©Simplilearn.All rights reserved., Big Data, simplilearn\nC. ©Simplilearn.All rights reserved., Big Data, simplileorn\nD. Pig Data, ©Simplilearn.All rights reserved., H",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[20, 374], [512, 374], [512, 1062], [20, 1062]] contain the label(s) 'SMS, Big Data'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[236.66666666666666, 374.0656851642129], [297.22222222222223, 374.0656851642129], [297.22222222222223, 409.44444444444446], [236.66666666666666, 409.44444444444446]] holds some text — identify the word(s) present there. The word(s) is/are ________.",
+              "answer": [
+                "SMS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The area at [[1557,595], [1692,596], [1691,658], [1558,657]] contains a phrase ending in '2O' — what goes in ____?",
+              "answer": "in"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options matches the text visible in [[237, 374], [1527, 374], [1527, 760], [237, 760]]? Options:\nA. Pig Data, SMS\nB. SMS, ©Simplilearn.All rights reserved.\nC. Big Data, SMS\nD. Nu, Big Data",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you find the label(s) 'Big Data, SMS' inside the bounding box [[237, 374], [1527, 374], [1527, 760], [237, 760]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see in the region [[1459, 524], [1892, 524], [1892, 1071], [1459, 1071]]. ________",
+              "answer": [
+                "simplilearn",
+                "Hu"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the coordinates [[240,374], [297,381], [293,409], [237,402]], a well-known messaging service is abbreviated — what does S____S stand for?",
+              "answer": "M"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[237, 374], [1527, 374], [1527, 760], [237, 760]] and select which answer lists the text found there. Options:\nA. Hu, ©Simplilearn.All rights reserved.\nB. Big Data, SMS\nC. SNS, Hu\nD. SNS, Hu",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SMS, ©Simplilearn.All rights reserved.' among the labels visible inside [[20, 374], [512, 374], [512, 1062], [20, 1062]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the bounding box [[1459.9542334096109, 521.9571865443424], [1892.0, 521.9571865443424], [1892.0, 1070.955882352941], [1459.9542334096109, 1070.955882352941]], what word(s) can be read? The word(s) is/are ________.",
+              "answer": [
+                "simplilearn",
+                "Hur"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The box at [[20,1036], [382,1036], [382,1062], [20,1062]] shows a rights notice — what word fills ©Simplilearn.A____ in \"©Simplilearn.A____ rights reserved.\"?",
+              "answer": "ll"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[237, 374], [1546, 374], [1546, 760], [237, 760]], which answer correctly captures the text shown there? Options:\nA. SMS, Big Data\nB. SMS, Nur\nC. Hur, ©Simplilearn.All rights reserved.\nD. Big Data, Nur",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'simplilearn, Big Data, SMS, ©Simplilearn.All rights reserved.' appear within the region defined by [[20, 374], [512, 374], [512, 1062], [20, 1062]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you describe the text visible in [[1776.0, 1038.0], [1892.0, 1038.0], [1892.0, 1070.955882352941], [1776.0, 1070.955882352941]]? The word(s) is/are ________.",
+              "answer": [
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[252,395], [505,394], [503,485], [251,485]], there's a tech buzzword for massive datasets — what completes the phrase \"B____g Data\"?",
+              "answer": "i"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these answers names the text found at [[20, 523], [1892, 523], [1892, 1071], [20, 1071]]? Options:\nA. ©Simplilcarn.All rights reserved., simplilearn, Big Data\nB. Big Data, ©Simplilearn.All rights reserved., simplilearn\nC. Big Data, ©Simplilearn.All rights reserved., SMS\nD. Hurr, simplileorn, Big Data",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Big Data, SMS' fall within the box at [[20, 374], [512, 374], [512, 1062], [20, 1062]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can see inside [[237, 374], [1578, 374], [1578, 577], [237, 577]]. ________",
+              "answer": [
+                "SMS",
+                "Hurr"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Coordinates [[234,100], [291,107], [286,135], [230,128]] show an abbreviation for a communication method — what does ____MS expand to?",
+              "answer": "S"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, the text inside [[20, 669], [1892, 669], [1892, 1071], [20, 1071]] matches which option below? Options:\nA. simplileorn, Big Data\nB. Big Data, SMS\nC. Big Data, ©Simplilcarn.All rights reserved.\nD. simplilearn, ©Simplilearn.All rights reserved.",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'SMS, ©Simplilearn.All rights reserved., simplilearn, Big Data' are contained within the bounding box [[20, 374], [512, 374], [512, 1062], [20, 1062]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word present in the area [[20, 374], [1892, 374], [1892, 1071], [20, 1071]]. ________",
+              "answer": [
+                "SMS",
+                "Big Data",
+                "©Simplilearn.All rights reserved.",
+                "simplilearn",
+                "Hurr"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The coordinates [[1550,320], [1742,318], [1740,380], [1550,381]] reveal a partial string ending in '2O12' — what fills ____?",
+              "answer": "in"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices below, which one correctly names the text at [[20, 374], [512, 374], [512, 1062], [20, 1062]]? Options:\nA. simplilearn, ©Simplilearn.All rights reserved.\nB. ©Simplilcarn.All rights reserved., SMS\nC. Big Data, ©Simplilearn.All rights reserved.\nD. SNS, Big Data",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[20, 374], [512, 374], [512, 1062], [20, 1062]] contain the label(s) 'SMS, Big Data'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you identify the word(s) visible inside [[1458, 522], [1892, 522], [1892, 1071], [1458, 1071]]? ________",
+              "answer": [
+                "simplilearn",
+                "Hurri"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1550,320], [1742,318], [1740,380], [1550,381]] has some letters missing — what completes the sequence \"____ 2O12\"?",
+              "answer": "in"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside the region [[20, 374], [512, 374], [512, 1062], [20, 1062]]? Pick the right answer. Options:\nA. SMS, ©Simplilearn.All rights reserved.\nB. ©Simplilcarn.All rights reserved., SMS\nC. ©Simplilcarn.All rights reserved., SMS\nD. SMS, simplilearn",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SMS, Big Data' among the labels you can find inside [[237, 374], [1576, 374], [1576, 760], [237, 760]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Which word(s) show up in the area marked by [[20, 1036], [1892, 1036], [1892, 1071], [20, 1071]]? ________",
+              "answer": [
+                "©Simplilearn.All rights reserved.",
+                "simplilearn"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A term for extensive data sets appears at [[252,395], [505,394], [503,485], [251,485]] with some letters absent — complete \"B____g Data\".",
+              "answer": "i"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text found at [[20, 374], [512, 374], [512, 1062], [20, 1062]]? Options:\nA. Big Data, ©Simplilearn.All rights reserved.\nB. Pig Data, ©Simplilearn.All rights reserved.\nC. ©Simplilearn.All rights reserved., SNS\nD. Big Data, simplilearn",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'Hurric, Big Data, simplilearn, ©Simplilearn.All rights reserved., SMS' fall inside the bounding box [[20, 524], [1892, 524], [1892, 1071], [20, 1071]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/clip_031/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_031/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) you see inside [[1458, 524], [1892, 524], [1892, 1071], [1458, 1071]]. ________",
+              "answer": [
+                "simplilearn",
+                "Hurrica"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Near the region at [[20,1036], [382,1036], [382,1062], [20,1062]], a phrase reads \"@Simplilearn.____ rights reserved.\" What three-letter word belongs in the blank?",
+              "answer": "All"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options below, which correctly lists the text(s) found at [[20, 374], [512, 374], [512, 1062], [20, 1062]]? Options:\nA. SMS, simplilearn\nB. SMS, Big Data\nC. ©Simplilearn.All rights reserved., SNS\nD. ©Simplilcarn.All rights reserved., SMS",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'Hurrica, Big Data, ©Simplilearn.All rights reserved.' fall within the bounding box [[20, 524], [1892, 524], [1892, 1071], [20, 1071]].",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_031"
+  }
+]

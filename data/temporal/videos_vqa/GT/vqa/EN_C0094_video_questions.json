@@ -1,0 +1,312 @@
+{
+  "video_id": "C0094",
+  "frames": 120,
+  "word": "DO NOT ENTER",
+  "video_path": "temporal/videos_vqa/GT/videos/EN_C0094.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"DO NOT ENTER\" likely to be?\n Options:\nA. storefront or brand sign\nB. general scene text\nC. address or street sign\nD. direction or navigation sign\nE. event or poster information\nF. warning or prohibition sign\nG. menu or commercial information",
+      "q": "What type of sign would the text \"DO NOT ENTER\" most likely appear on?\n Options:\nA. storefront or brand sign\nB. general scene text\nC. address or street sign\nD. direction or navigation sign\nE. event or poster information\nF. warning or prohibition sign\nG. menu or commercial information",
+      "a": "F",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. storefront or brand sign",
+        "B. general scene text",
+        "C. address or street sign",
+        "D. direction or navigation sign",
+        "E. event or poster information",
+        "F. warning or prohibition sign",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would the text \"DO NOT ENTER\" most likely appear on?\n Options:\nA. storefront or brand sign\nB. general scene text\nC. address or street sign\nD. direction or navigation sign\nE. event or poster information\nF. warning or prohibition sign\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"DO NOT ENTER\" appear in?\n Options:\nA. other public sign\nB. event poster or display\nC. campus or office\nD. storefront\nE. restaurant or menu\nF. transportation / station\nG. road or street\nH. warning / rule sign",
+      "q": "Judging from context, what kind of scene or setting does the text \"DO NOT ENTER\" seem to belong to?\n Options:\nA. other public sign\nB. event poster or display\nC. campus or office\nD. storefront\nE. restaurant or menu\nF. transportation / station\nG. road or street\nH. warning / rule sign",
+      "a": "A",
+      "a_text": "other public sign",
+      "answer_key": "other public sign",
+      "options": [
+        "A. other public sign",
+        "B. event poster or display",
+        "C. campus or office",
+        "D. storefront",
+        "E. restaurant or menu",
+        "F. transportation / station",
+        "G. road or street",
+        "H. warning / rule sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Judging from context, what kind of scene or setting does the text \"DO NOT ENTER\" seem to belong to?\n Options:\nA. other public sign\nB. event poster or display\nC. campus or office\nD. storefront\nE. restaurant or menu\nF. transportation / station\nG. road or street\nH. warning / rule sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"DO NOT ENTER\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)",
+      "q": "Watching the clip, where in the frame does \"DO NOT ENTER\" mostly sit?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)",
+      "a": "A",
+      "a_text": "bottom-left (lower-left area)",
+      "answer_key": "bottom-left",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. center (middle of the frame)",
+        "C. bottom-right (lower-right area)",
+        "D. top-left (upper-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Watching the clip, where in the frame does \"DO NOT ENTER\" mostly sit?\n Options:\nA. bottom-left (lower-left area)\nB. center (middle of the frame)\nC. bottom-right (lower-right area)\nD. top-left (upper-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"DO NOT ENTER\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "As the video plays, how far does \"DO NOT ENTER\" move from where it starts?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "B",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "As the video plays, how far does \"DO NOT ENTER\" move from where it starts?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"DO NOT ENTER\" move?\n Options:\nA. changes direction partway\nB. moves down\nC. moves right\nD. moves diagonally\nE. moves left\nF. stays roughly in place\nG. moves up",
+      "q": "Taking the clip as a whole, in what direction does \"DO NOT ENTER\" tend to drift?\n Options:\nA. changes direction partway\nB. moves down\nC. moves right\nD. moves diagonally\nE. moves left\nF. stays roughly in place\nG. moves up",
+      "a": "A",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. changes direction partway",
+        "B. moves down",
+        "C. moves right",
+        "D. moves diagonally",
+        "E. moves left",
+        "F. stays roughly in place",
+        "G. moves up"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Taking the clip as a whole, in what direction does \"DO NOT ENTER\" tend to drift?\n Options:\nA. changes direction partway\nB. moves down\nC. moves right\nD. moves diagonally\nE. moves left\nF. stays roughly in place\nG. moves up"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"DO NOT ENTER\" at the beginning, the middle, and the end?\n Options:\nA. bottom-right -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> bottom-left -> bottom-right\nD. bottom-left -> bottom-left -> top-left",
+      "q": "Can you track where \"DO NOT ENTER\" is positioned at the start, the midpoint, and toward the end of the clip?\n Options:\nA. bottom-right -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> bottom-left -> bottom-right\nD. bottom-left -> bottom-left -> top-left",
+      "a": "B",
+      "a_text": "bottom-left -> bottom-left -> bottom-left",
+      "answer_key": "bottom-left -> bottom-left -> bottom-left",
+      "options": [
+        "A. bottom-right -> bottom-left -> bottom-left",
+        "B. bottom-left -> bottom-left -> bottom-left",
+        "C. bottom-left -> bottom-left -> bottom-right",
+        "D. bottom-left -> bottom-left -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you track where \"DO NOT ENTER\" is positioned at the start, the midpoint, and toward the end of the clip?\n Options:\nA. bottom-right -> bottom-left -> bottom-left\nB. bottom-left -> bottom-left -> bottom-left\nC. bottom-left -> bottom-left -> bottom-right\nD. bottom-left -> bottom-left -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"DO NOT ENTER\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "q": "How large does \"DO NOT ENTER\" look within the frame overall?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)",
+      "a": "D",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. very large (dominates the frame)",
+        "D. small (a minor part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How large does \"DO NOT ENTER\" look within the frame overall?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. very large (dominates the frame)\nD. small (a minor part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"DO NOT ENTER\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "q": "Over the course of the clip, does \"DO NOT ENTER\" grow bigger, shrink, or stay roughly the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller",
+      "a": "C",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. stays about the same size",
+        "C. gets larger",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Over the course of the clip, does \"DO NOT ENTER\" grow bigger, shrink, or stay roughly the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. stays about the same size\nC. gets larger\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"DO NOT ENTER\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "Is \"DO NOT ENTER\" sitting comfortably inside the frame, or does it end up close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"DO NOT ENTER\" sitting comfortably inside the frame, or does it end up close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"DO NOT ENTER\" and how it appears in the video.",
+      "q": "Give a quick description of \"DO NOT ENTER\" — what it looks like and how it behaves as the clip plays.",
+      "a": "A white sign with red text reading \"DO NOT ENTER\" is mounted above the entrance to a parking garage.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick description of \"DO NOT ENTER\" — what it looks like and how it behaves as the clip plays."
+    }
+  ]
+}

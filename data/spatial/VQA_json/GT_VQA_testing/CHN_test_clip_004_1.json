@@ -1,0 +1,486 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The bounding box [[544, 518], [2940, 518], [2940, 1595], [544, 1595]] contains some text — write out the word(s): ________.",
+              "answer": [
+                "arena.lmsys.org",
+                "请完成以下操作，验证",
+                "确认您是真人",
+                "CLOUDFLARE",
+                "人。",
+                "继续之前，arena.lmsys.org 需要先检查您的连接的安全性。"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What characters are needed to make \"C____DFLARE\" a complete label, given the region [[1332,1071], [1632,1070], [1632,1110], [1333,1109]]?",
+              "answer": "LOU"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one has the text you see inside [[544, 1042], [2940, 1042], [2940, 2035], [544, 2035]]? Options:\nA. 我们访问一些网站的时候, 确认您是真人, CLOUDFLAPE\nB. 我们访问一些网站的时候, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 硧认您是真人\nC. arena.lmsys.org, 我们访问一些网站的时候, CLOUDFLARE\nD. 确认您是真人, CLOUDFLARE, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[551, 518], [1868, 518], [1868, 1116], [551, 1116]] contain the label(s) '我们访问一些网站的时候, CLOUDFLARE, 人。, 请完成以下操作，验证, 确认您是真人, arena.lmsys.org'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside box [[1040, 1823], [2805, 1823], [2805, 2035], [1040, 2035]] — what word(s) do you see? ________",
+              "answer": [
+                "我们访问一些网站的时候"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label shown at [[1733,721], [1866,721], [1868,825], [1736,824]] has a gap — complete it: \"____。\"",
+              "answer": "人"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text visible at [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]. Options:\nA. 请完成以下操作，验证, 我们访问一些网站的时候, CLOUDFLARE, 人。\nB. 硧认您是真人, CLOUDFLARE, arena.lmsys.org, 请完成以下操作，验证\nC. arena.lmsys.org, 人。, 确认您是真人, CLOUDFLARE\nD. 请完成以下操作，验证, CLOUDFLAPE, arena.lmsys.org, 人。",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot 'CLOUDFLARE, 确认您是真人, 人。, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 我们访问一些网站的时候' inside the box [[544.1860465116279, 518.2716049382716], [2939.5348837209303, 518.2716049382716], [2939.5348837209303, 2034.6511627906978], [544.1860465116279, 2034.6511627906978]]? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what text appears inside [[544, 1042], [2940, 1042], [2940, 2035], [544, 2035]]: ________.",
+              "answer": [
+                "确认您是真人",
+                "CLOUDFLARE",
+                "我们访问一些网站的时候",
+                "继续之前，arena.lmsys.org 需要先检查您的连接的安全性。"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请补全[[742,1042], [1079,1044], [1079,1116], [744,1116]]范围内文字中缺失的内容：\"____您是真人\"",
+              "answer": "确认"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these choices correctly lists what's written inside [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]? Pick one. Options:\nA. 请完成以下操作，验证, 确认您是真人, 人。, CLOUDFLARE\nB. arona.lmsys.org, 人。, 请完成以下操作，验证, CLOUDFLARE\nC. 我们访问一些网站的时候, CLOUDFLARE, 人。, arena.lmsys.org\nD. arona.lmsys.org, 人。, 请完成以下操作，验证, CLOUDFLARE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, CLOUDFLARE, 请完成以下操作，验证, 确认您是真人, arena.lmsys.org, 人。' visible somewhere inside the region [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Looking at the box [[544, 518], [2940, 518], [2940, 2035], [544, 2035]], what word or words are written there? ________.",
+              "answer": [
+                "arena.lmsys.org",
+                "请完成以下操作，验证",
+                "确认您是真人",
+                "CLOUDFLARE",
+                "人。",
+                "我们访问一些网站的时候",
+                "继续之前，arena.lmsys.org 需要先检查您的连接的安全性。"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "找出[[1733,721], [1866,721], [1868,825], [1736,824]]区域内文字里空缺的字符，把它填进来：\"____。\"",
+              "answer": "人"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text at [[551, 518], [1868, 518], [1868, 1116], [551, 1116]] matches which of the following options? Options:\nA. CLOUDFLARE, 个。, arena.lmsys.org, 确认您是真人\nB. 请完成以下操作，验证, 我们访问一些网站的时候, CLOUDFLARE, 确认您是真人\nC. arena.lmsys.org, 确认您是真人, CLOUDFLARE, 人。\nD. 确认您是真人, 请完戍以下操作，验证, 人。, CLOUDFLARE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '人。, 请完成以下操作，验证, arena.lmsys.org, CLOUDFLARE' falls inside the bounding box [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Fill in the blank: the word(s) found at [[1039.5348837209303, 1823.0232558139535], [2804.6511627906975, 1823.0232558139535], [2804.6511627906975, 2034.6511627906978], [1039.5348837209303, 2034.6511627906978]] is/are ________.",
+              "answer": [
+                "我们访问一些网站的时候"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "将[[742,1042], [1079,1044], [1079,1116], [744,1116]]框内被遮住的文字还原出来：\"确认____是真人\"",
+              "answer": "您"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice contains the text you can read at [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]? Options:\nA. 我们访问一些网站的时候, 请完成以下操作，验证, CLOUDFLARE, 确认您是真人\nB. 请完成以下操作，验证, CLOUDFLARE, 个。, 确认您是真人\nC. 请完成以下操作，验证, arena.lmsys.org, CLOUDFLARE, 确认您是真人\nD. 硧认您是真人, 人。, arena.lmsys.org, CLOUDFLARE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '人。, CLOUDFLARE, arena.lmsys.org, 确认您是真人' inside box [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text is present at location [[544.1860465116279, 518.2716049382716], [2939.5348837209303, 518.2716049382716], [2939.5348837209303, 2034.6511627906978], [544.1860465116279, 2034.6511627906978]]? The answer is ________.",
+              "answer": [
+                "arena.lmsys.org",
+                "请完成以下操作，验证",
+                "确认您是真人",
+                "CLOUDFLARE",
+                "人。",
+                "我们访问一些网站的时候",
+                "继续之前，arena.lmsys.org 需要先检查您的连接的安全性。"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a hidden portion in \"arena.____.org\" — use the text at [[700,520], [1838,518], [1838,702], [704,703]] to work out what it is.",
+              "answer": "lmsys"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that accurately captures the text visible inside [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]. Options:\nA. 我们访问一些网站的时候, arena.lmsys.org, 请完成以下操作，验证, 确认您是真人\nB. arona.lmsys.org, 确认您是真人, 请完成以下操作，验证, CLOUDFLARE\nC. 确认您是真人, CLOUDFLARE, 人。, 请完成以下操作，验证\nD. 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, CLOUDFLARE, 确认您是真人, 请完成以下操作，验证",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether '继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 确认您是真人, CLOUDFLARE' sits within the region defined by [[544, 1042], [2940, 1042], [2940, 2035], [544, 2035]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What does the text at [[544.1860465116279, 1469.5348837209303], [2939.5348837209303, 1469.5348837209303], [2939.5348837209303, 2034.6511627906978], [544.1860465116279, 2034.6511627906978]] say? Fill in: ________.",
+              "answer": [
+                "我们访问一些网站的时候",
+                "继续之前，arena.lmsys.org 需要先检查您的连接的安全性。"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"CL____\" has a gap — use the content at [[1332,1071], [1632,1070], [1632,1110], [1333,1109]] to fill it in correctly.",
+              "answer": "OUDFLARE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that best reflects what's written at [[544, 518], [2940, 518], [2940, 2035], [544, 2035]]. Options:\nA. 确认您是真人, 请完成以下操作，验证, 人。, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 我们访问一些网站的时候, CLOUDFLARE\nB. 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, arena.lmsys.org, 硧认您是真人, 人。, 我们访问一些网站的时候, 请完成以下操作，验证\nC. 我仢访问一些网站的时候, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 人。, arena.lmsys.org, 确认您是真人, CLOUDFLARE\nD. 请完戍以下操作，验证, 我们访问一些网站的时候, arena.lmsys.org, CLOUDFLARE, 确认您是真人, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '确认您是真人, 请完成以下操作，验证, 人。, CLOUDFLARE' can be found inside [[551, 518], [1868, 518], [1868, 1116], [551, 1116]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the text visible in the region [[544.1860465116279, 518.2716049382716], [2939.5348837209303, 518.2716049382716], [2939.5348837209303, 2034.6511627906978], [544.1860465116279, 2034.6511627906978]]? The missing word(s) is/are ________.",
+              "answer": [
+                "arena.lmsys.org",
+                "请完成以下操作，验证",
+                "确认您是真人",
+                "CLOUDFLARE",
+                "人。",
+                "我们访问一些网站的时候",
+                "继续之前，arena.lmsys.org 需要先检查您的连接的安全性。"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The coordinates [[1332,1071], [1632,1070], [1632,1110], [1333,1109]] contain some text — which letter(s) are needed to complete \"CLOU____E\" in this context?",
+              "answer": "DFLAR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[544, 1042], [2940, 1042], [2940, 2035], [544, 2035]]? Pick the option that matches. Options:\nA. arena.lmsys.org, 我们访问一些网站的时候, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。\nB. 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 请完成以下操作，验证, 确认您是真人\nC. 硧认您是真人, CLOUDFLARE, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。\nD. 确认您是真人, CLOUDFLARE, 我们访问一些网站的时候",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[544, 518], [2940, 518], [2940, 1595], [544, 1595]] actually contain the label(s) 'CLOUDFLARE, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, arena.lmsys.org, 请完成以下操作，验证, 确认您是真人, 我们访问一些网站的时候, 人。'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what's written inside [[1039.5348837209303, 1823.0232558139535], [2804.6511627906975, 1823.0232558139535], [2804.6511627906975, 2034.6511627906978], [1039.5348837209303, 2034.6511627906978]] — the missing word(s) is/are ________.",
+              "answer": [
+                "我们访问一些网站的时候"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What's the missing piece in \"arena.____.org\" — look at the text inside [[700,520], [1838,518], [1838,702], [704,703]] to figure it out.",
+              "answer": "lmsys"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these choices correctly captures the text shown in [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]? Options:\nA. 确认您是真人, 人。, CLOUDFLAPE, 请完成以下操作，验证\nB. 我们访问一些网站的时候, 请完成以下操作，验证, 确认您是真人, CLOUDFLARE\nC. 请完成以下操作，验证, CLOUDFLAPE, 确认您是真人, 人。\nD. 确认您是真人, 请完成以下操作，验证, 人。, arena.lmsys.org",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '我们访问一些网站的时候, CLOUDFLARE, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。' can be found inside the bounding box [[544, 1042], [2940, 1042], [2940, 2035], [544, 2035]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text enclosed by [[551, 518], [1868, 518], [1868, 827], [551, 827]] and fill in the blank: The word(s) is/are ________.",
+              "answer": [
+                "arena.lmsys.org",
+                "请完成以下操作，验证",
+                "人。"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标[[742,1042], [1079,1044], [1079,1116], [744,1116]]内的文字，短语\"确认____是真人\"里缺失的内容是什么？",
+              "answer": "您"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at the region [[544, 518], [2940, 518], [2940, 2035], [544, 2035]] — which answer option reflects the text there? Options:\nA. 个。, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, arena.lmsys.org, 请完成以下操作，验证, CLOUDFLARE, 确认您是真人\nB. 确认您是真人, 请完成以下操作，验证, arena.lmsys.org, CLOUDFLARE, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 我们访问一些网站的时候\nC. 请完成以下操作，验证, 我们访问一些网站的时候, 确认您是真人, arena.lmsys.org, CLOUDFLARE, 继缑之前，arena.lmsys.org 需要先检查您的连接的安全性。\nD. 继绬之前，arena.lmsys.org 需要先检查您的连接的安全性。, arena.lmsys.org, 请完成以下操作，验证, 确认您是真人, 我们访问一些网站的时候, 人。",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'arena.lmsys.org, CLOUDFLARE, 确认您是真人, 请完成以下操作，验证' appears within the bounds of [[551, 518], [1868, 518], [1868, 1116], [551, 1116]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "I need you to identify the text in [[544.1860465116279, 518.2716049382716], [2939.5348837209303, 518.2716049382716], [2939.5348837209303, 2034.6511627906978], [544.1860465116279, 2034.6511627906978]] — the missing word(s) is/are ________.",
+              "answer": [
+                "arena.lmsys.org",
+                "请完成以下操作，验证",
+                "确认您是真人",
+                "CLOUDFLARE",
+                "人。",
+                "我们访问一些网站的时候",
+                "继续之前，arena.lmsys.org 需要先检查您的连接的安全性。"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察边界框 [[544,1470], [2939,1471], [2940,1590], [545,1595]] 里的内容，将短语补充完整：继续之前，____.lmsys.org 需要先检查您的连接的安全性。",
+              "answer": "arena"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[544, 518], [2940, 518], [2940, 2035], [544, 2035]] — which answer correctly lists the text visible there? Options:\nA. arena.lmsys.org, 继绬之前，arena.lmsys.org 需要先检查您的连接的安全性。, 人。, 确认您是真人, 请完成以下操作，验证, CLOUDFLARE\nB. 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, CLOUDFLARE, 确认您是真人, 人。, arena.lmsys.org, 请完成以下操作，验证\nC. arena.lmsys.org, 人。, CLOUDFLARE, 我仢访问一些网站的时候, 请完成以下操作，验证, 确认您是真人\nD. 我们访问一些网站的时候, 请完戍以下操作，验证, 确认您是真人, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 人。, arena.lmsys.org",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[544, 1042], [2940, 1042], [2940, 2035], [544, 2035]] — would you say 'arena.lmsys.org, 我们访问一些网站的时候, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, 确认您是真人, CLOUDFLARE' is among the labels there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_004_1/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_004_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out what you see in [[1040, 1823], [2805, 1823], [2805, 2035], [1040, 2035]]: The word(s) is/are ________.",
+              "answer": [
+                "我们访问一些网站的时候"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看边界框坐标[[551,710], [1871,710], [1871,831], [552,827]]中显示的文字，把这句话补完整：\"请完成____操作，验证您是真人。\"",
+              "answer": "以下"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text within [[551, 518], [1868, 518], [1868, 1116], [551, 1116]] and select the matching option: Options:\nA. arena.lmsys.org, 人。, CLOUDFLARE, 我们访问一些网站的时候\nB. 请完成以下操作，验证, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, CLOUDFLARE, 人。\nC. 确认您是真人, CLOUDFLARE, 请完成以下操作，验证, 人。\nD. 请完成以下操作，验证, CLOUDFLARE, 人。, arona.lmsys.org",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '请完成以下操作，验证, CLOUDFLARE, 人。, 确认您是真人, 我们访问一些网站的时候, 继续之前，arena.lmsys.org 需要先检查您的连接的安全性。, arena.lmsys.org' is visible inside [[544, 518], [2940, 518], [2940, 1595], [544, 1595]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_004_1"
+  }
+]

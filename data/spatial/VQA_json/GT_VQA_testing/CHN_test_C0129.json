@@ -1,0 +1,489 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[854.9999999999999, 379.99999999999994], [1458.5714285714284, 379.99999999999994], [1458.5714285714284, 885.5714285714286], [854.9999999999999, 885.5714285714286]] and tell me: the word(s) shown there is/are ________.",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察坐标 [[868,751], [1456,739], [1459,871], [870,886]] 处的文字，\"核载4____人\" 中少了哪些字符？请填写完整。",
+              "answer": "8"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look at [[855, 380], [1459, 380], [1459, 886], [855, 886]] — which option correctly lists the text(s) found there? Options:\nA. 桋载48人, 深圳公交传媒发布, 深圳巴士集团, Produced by Shenzhen Public Transport Media Co.,Ltd\nB. 深圳巴士集团, 深圳公交传媒发布, SNENZHEN BUS, Produced by Shenzhen Public Transport Media Co.,Ltd\nC. 栨载48人, 深圳巴士集团, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布\nD. Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布, 深圳巴士集团, 核载48人",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[854.9999999999999, 379.99999999999994], [1458.5714285714284, 379.99999999999994], [1458.5714285714284, 885.5714285714286], [854.9999999999999, 885.5714285714286]] actually contain the label(s) '核载48人, SHENZHEN BUS, 深圳巴士集团, 深圳公交传媒发布'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify the word(s) inside [[854.9999999999999, 379.99999999999994], [1458.5714285714284, 379.99999999999994], [1458.5714285714284, 885.5714285714286], [854.9999999999999, 885.5714285714286]]? The word(s) is/are ________.",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看[[848,409], [1397,398], [1398,465], [850,481]]这个位置，请填写完整的品牌名称：\"深圳巴士____团\"。",
+              "answer": "集"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option matches the text(s) visible inside [[855, 380], [1459, 380], [1459, 886], [855, 886]]. Options:\nA. 核载48人, SHENZHEN BUS, 滌圳巴士集团, 深圳公交传媒发布\nB. SHENZHEN BUS, 渘圳巴士集团, Produced by Shenzhen Public Transport Media Co.,Ltd, 核载48人\nC. SHENZHEN BUS, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团, 深圳公交传媒发布\nD. Produced by Shenzhen Public Transport Media Co.,Ltd, SHENZHEN BUS, 深圳公交传媒发布, 涤圳巴士集团",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布, 深圳巴士集团, 核载48人' can be found inside the region marked by [[854.9999999999999, 379.99999999999994], [1458.5714285714284, 379.99999999999994], [1458.5714285714284, 885.5714285714286], [854.9999999999999, 885.5714285714286]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see inside [[857, 384], [1407, 384], [1407, 512], [857, 512]]. ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[955,568], [1352,559], [1354,600], [956,610]]对应的文字区域里，短语应该怎么补全？\"深圳公____传媒发布\"。",
+              "answer": "交"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at the region [[857, 384], [1461, 384], [1461, 889], [857, 889]], which of the following options captures the text(s) there? Options:\nA. Produced by Shenzhen Public Transport Media Co.,Ltd, SHENZHFN BUS, 深圳巴士集团, 核载48人\nB. 深圳公交传媒发布, 深圳巴士集团, 核载48人, SHENZHEN BUS\nC. 深圳公交传媒发布, SHENZHEN BUS, Produoed by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团\nD. 深圳巴士集团, SNENZHEN BUS, 深圳公交传媒发布, Produced by Shenzhen Public Transport Media Co.,Ltd",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[857, 384], [1407, 384], [1407, 680], [857, 680]], do you see the label(s) '深圳公交传媒发布, 深圳巴士集团, Produced by Shenzhen Public Transport Media Co.,Ltd'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the word(s) inside [[859, 386], [1463, 386], [1463, 891], [859, 891]] and fill in the blank. ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "文本区域[[825,366], [1372,353], [1372,421], [827,435]]有缺失内容，请你补全它：\"深圳巴____集团\"。",
+              "answer": "士"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that accurately reflects the text(s) shown at [[859, 386], [1463, 386], [1463, 891], [859, 891]]. Options:\nA. Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布, 深圳巴士集团, 桋载48人\nB. 深圳巴士集团, SHENZHEN BUS, Produoed by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布\nC. Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团, 核载48人, SNENZHEN BUS\nD. 深圳公交传媒发布, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团, SHENZHEN BUS",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布, 深圳巴士集团, SHENZHEN BUS, 桢载48人' appear inside the bounding box [[859.3691588785044, 385.6191588785046], [1462.940587449933, 385.6191588785046], [1462.940587449933, 891.1905874499332], [859.3691588785044, 891.1905874499332]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank with the word(s) you can read at [[864, 390], [1467, 390], [1467, 895], [864, 895]]. ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[803,615], [1312,607], [1314,639], [804,647]]处的文字，补全下面这句话中空缺的内容：\"Produced by Shenzhen ____ Transport Media Co.,Ltd\"。",
+              "answer": "Public"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[864, 390], [1467, 390], [1467, 895], [864, 895]] — which answer choice correctly identifies the text(s) there? Options:\nA. SHENZHEN BUS, Produced by Shenzhen Public Transport Media Co.,Ltd, 核载48人, 深圳巴士集团\nB. SHENZHEN BUS, 深圳公交传媒发布, 渘圳巴士集团, Produced by Shenzhen Public Transport Media Co.,Ltd\nC. SHENZHEN BUS, 深圳巴士集团, 深圳公交传媒发布, Produoed by Shenzhen Public Transport Media Co.,Ltd\nD. Produced by Shenzhen Public Transport Media Co.,Ltd, 核载48人, 深圳公交传媣发布, SHENZHEN BUS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '核载48人, 深圳公交传媒发布, 深圳巴士集团, SHENZHEN BUS' sit inside the bounding box [[863.6064470140979, 389.8564470140978], [1467.1778755855264, 389.8564470140978], [1467.1778755855264, 895.4278755855263], [863.6064470140979, 895.4278755855263]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) do you see when you look at [[865, 393], [1462, 393], [1462, 899], [865, 899]]? ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察[[698,711], [1303,708], [1302,868], [696,869]]的文字内容，然后填入短语中缺失的部分：核载____人。",
+              "answer": "48"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the option that matches the text(s) you see at [[865, 393], [1462, 393], [1462, 899], [865, 899]]. Options:\nA. SHENZHEN BUS, 深圳巴士集团, 深圳公交传媒发布, 核载48人\nB. 深圳巴士集团, 深圳公交传媣发布, SHENZHEN BUS, Produced by Shenzhen Public Transport Media Co.,Ltd\nC. 深圳公交传媒发布, Produced by Shenzhen Public Transport Media Co.,Ltd, 桋载48人, SHENZHEN BUS\nD. SHENZHEN BUS, Produoed by Shenzhen Public Transport Media Co.,Ltd, 核载48人, 深圳巴士集团",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[865.0050484126992, 393.35295051060126], [1462.2827706904216, 393.35295051060126], [1462.2827706904216, 898.9243790820298], [865.0050484126992, 898.9243790820298]] — does it contain the label(s) 'Produced by Shenzhen Public Transport Media Co.,Ltd, 桢载48人, 深圳巴士集团, 深圳公交传媒发布, SHENZHEN BUS'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on [[869, 753], [1460, 753], [1460, 899], [869, 899]], write down the word(s) you can see there. ________",
+              "answer": [
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考[[658,618], [1167,620], [1168,655], [658,654]]区域的文字，将以下句子中隐去的出版社信息填写完整：\"Produced ____ Shenzhen Public Transport Media Co.,Ltd\"。",
+              "answer": "by"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one includes all the text(s) found at [[863, 393], [1460, 393], [1460, 899], [863, 899]]? Options:\nA. SHENZHEN BUS, Produced by Shenzhen Public Transport Media Co.,Ltd, 渘圳巴士集团, 核载48人\nB. 深圳公交传媒发布, SHENZHEN BUS, 核载48人, Produced by Shenzhen Public Transport Media Co.,Ltd\nC. SHENZHEN BUS, 深圳公交传媒发布, Produoed by Shenzhen Public Transport Media Co.,Ltd, 核载48人\nD. SNENZHEN BUS, 核载48人, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do 'Produced by Shenzhen Public Transport Media Co.,Ltd, SHENZHEN BUS, 核载48人, 深圳公交传媒发布' appear inside the region marked by [[862.6973561050069, 393.35295051060126], [1459.9750783827292, 393.35295051060126], [1459.9750783827292, 898.9243790820298], [862.6973561050069, 898.9243790820298]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read the text shown inside [[859, 395], [1456, 395], [1456, 900], [859, 900]]? ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[617,723], [1222,720], [1221,880], [615,881]]区域内有一段文字，请将短语\"核载____人\"补充完整。",
+              "answer": "48"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[859, 395], [1409, 395], [1409, 689], [859, 689]], which of the following options matches the text there? Options:\nA. SHENZHEN BUS, 深圳巴士集团, 深圳公交传媣发布\nB. 深圳巴士集团, SHENZHEN BUS, 深圳公交传媒发布\nC. SHENZHEN BUS, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媣发布\nD. 核载48人, 深圳公交传媒发布, 深圳巴士集团",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[858.851202258853, 394.8914120490628], [1456.1289245365754, 394.8914120490628], [1456.1289245365754, 900.4628406204913], [858.851202258853, 900.4628406204913]] contain the label(s) '核载48人, 深圳巴士集团, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside the box at [[855, 397], [1452, 397], [1452, 903], [855, 903]]. ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "定位框[[811,604], [1320,607], [1321,641], [811,640]]中有一段文字，请补全：\"Produced by Shenzhen ____ Transport Media Co.,Ltd\"。",
+              "answer": "Public"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[855, 397], [1452, 397], [1452, 903], [855, 903]] — which answer choice matches it? Options:\nA. SHENZHEN BUS, Proauced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布, 核载48人\nB. 深圳公交传媣发布, 核载48人, SHENZHEN BUS, Produced by Shenzhen Public Transport Media Co.,Ltd\nC. Produoed by Shenzhen Public Transport Media Co.,Ltd, SHENZHEN BUS, 核载48人, 深圳巴士集团\nD. Produced by Shenzhen Public Transport Media Co.,Ltd, SHENZHEN BUS, 深圳公交传媒发布, 深圳巴士集团",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SNENZHEN BUS, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团, 核载48人, 深圳公交传媒发布' one of the labels found inside the bounding box [[855.0050484126992, 397.19910435675513], [1452.2827706904216, 397.19910435675513], [1452.2827706904216, 902.7705329281835], [855.0050484126992, 902.7705329281835]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you make out in the region [[851, 397], [1448, 397], [1448, 903], [851, 903]]? ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看[[865,407], [1412,407], [1412,465], [868,463]]位置的文字，\"____ZHEN BUS\"中缺少了哪个词？请填入。",
+              "answer": "SHEN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text appearing at [[851, 397], [1401, 397], [1401, 691], [851, 691]]. Options:\nA. 深圳巴士集团, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媣发布\nB. 深圳公交传媒发布, SHENZHEN BUS, 深圳巴士集团\nC. 深圳巴士集团, 深圳公交传媒发布, 核载48人\nD. 深圳公交传媒发布, SNENZHEN BUS, 深圳巴士集团",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the region [[851, 397], [1401, 397], [1401, 691], [851, 691]], can you find the label(s) 'Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团, SHENZHEN BUS, 核载48人, 深圳公交传媒发布'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see in the area bounded by [[848, 398], [1398, 398], [1398, 526], [848, 526]]. ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[952,363], [1505,367], [1506,438], [952,432]]中藏着一段短语，你能把\"深圳巴士____\"里缺失的内容填上吗？",
+              "answer": "集团"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches what's written inside [[848, 398], [1398, 398], [1398, 627], [848, 627]]? Options:\nA. 深圳公交传媒发布, SHENZHEN BUS\nB. Produced by Shenzhen Public Transport Media Co.,Ltd, SHENZHEN BUS\nC. 渘圳巴士集团, 深圳公交传媒发布\nD. 深圳巴士集团, SNENZHEN BUS",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[848.0120414196923, 397.8984050560558], [1445.2897636974146, 397.8984050560558], [1445.2897636974146, 903.4698336274841], [848.0120414196923, 903.4698336274841]] — does it include the label(s) 'Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团, SNENZHEN BUS, 核载48人, 深圳公交传媒发布'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0129/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0129/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) are written inside the box [[844, 397], [1442, 397], [1442, 903], [844, 903]]. ________",
+              "answer": [
+                "深圳巴士集团",
+                "SHENZHEN BUS",
+                "深圳公交传媒发布",
+                "Produced by Shenzhen Public Transport Media Co.,Ltd",
+                "核载48人"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请将[[1032,461], [1579,461], [1579,520], [1035,517]]处\"SHEN____ BUS\"的空白部分填写完整。",
+              "answer": "ZHEN"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option matches the text visible in region [[844, 397], [1394, 397], [1394, 691], [844, 691]]? Options:\nA. Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳巴士集团, 深圳公交传媣发布\nB. 深圳巴士集团, 核载48人, Produced by Shenzhen Public Transport Media Co.,Ltd\nC. 深圳公交传媒发布, 渘圳巴士集团, SHENZHEN BUS\nD. 深圳巴士集团, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Found within bounding box [[844.273723662683, 396.9638256168035], [1441.5514459404053, 396.9638256168035], [1441.5514459404053, 902.5352541882319], [844.273723662683, 902.5352541882319]] — are the label(s) '深圳巴士集团, 桢载48人, Produced by Shenzhen Public Transport Media Co.,Ltd, 深圳公交传媒发布, SHENZHEN BUS' present?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0129"
+  }
+]

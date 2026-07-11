@@ -1,0 +1,313 @@
+{
+  "video_id": "C0088",
+  "frames": 120,
+  "word": "欢迎光临华润前海中心",
+  "video_path": "temporal/videos_vqa/blur/videos/CHN_C0088.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"欢迎光临华润前海中心\" likely to be?\n Options:\nA. address or street sign\nB. menu or commercial information\nC. general scene text\nD. warning or prohibition sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. event or poster information",
+      "q": "写着「欢迎光临华润前海中心」的这行字，你觉得它更像哪种类型的标识牌？\n Options:\nA. address or street sign\nB. menu or commercial information\nC. general scene text\nD. warning or prohibition sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. event or poster information",
+      "a": "D",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. address or street sign",
+        "B. menu or commercial information",
+        "C. general scene text",
+        "D. warning or prohibition sign",
+        "E. storefront or brand sign",
+        "F. direction or navigation sign",
+        "G. event or poster information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「欢迎光临华润前海中心」的这行字，你觉得它更像哪种类型的标识牌？\n Options:\nA. address or street sign\nB. menu or commercial information\nC. general scene text\nD. warning or prohibition sign\nE. storefront or brand sign\nF. direction or navigation sign\nG. event or poster information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"欢迎光临华润前海中心\" appear in?\n Options:\nA. warning / rule sign\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. road or street\nF. campus or office\nG. other public sign\nH. event poster or display",
+      "q": "「欢迎光临华润前海中心」出现在什么样的场景背景下？\n Options:\nA. warning / rule sign\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. road or street\nF. campus or office\nG. other public sign\nH. event poster or display",
+      "a": "A",
+      "a_text": "warning / rule sign",
+      "answer_key": "warning / rule sign",
+      "options": [
+        "A. warning / rule sign",
+        "B. storefront",
+        "C. restaurant or menu",
+        "D. transportation / station",
+        "E. road or street",
+        "F. campus or office",
+        "G. other public sign",
+        "H. event poster or display"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「欢迎光临华润前海中心」出现在什么样的场景背景下？\n Options:\nA. warning / rule sign\nB. storefront\nC. restaurant or menu\nD. transportation / station\nE. road or street\nF. campus or office\nG. other public sign\nH. event poster or display"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"欢迎光临华润前海中心\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. bottom-left (lower-left area)",
+      "q": "视频里，「欢迎光临华润前海中心」这段文字大多数时候出现在画面哪个区域？\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. bottom-left (lower-left area)",
+      "a": "A",
+      "a_text": "top-left (upper-left area)",
+      "answer_key": "top-left",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. center (middle of the frame)",
+        "C. top-right (upper-right area)",
+        "D. bottom-right (lower-right area)",
+        "E. bottom-left (lower-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "视频里，「欢迎光临华润前海中心」这段文字大多数时候出现在画面哪个区域？\n Options:\nA. top-left (upper-left area)\nB. center (middle of the frame)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. bottom-left (lower-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"欢迎光临华润前海中心\" move during the clip?\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "q": "这段视频放完，「欢迎光临华润前海中心」大概移动了多大距离？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)",
+      "a": "A",
+      "a_text": "moves a moderate amount (shifts across part of the frame)",
+      "answer_key": "moves a moderate amount",
+      "options": [
+        "A. moves a moderate amount (shifts across part of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a large distance (shifts across much of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这段视频放完，「欢迎光临华润前海中心」大概移动了多大距离？\n Options:\nA. moves a moderate amount (shifts across part of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a large distance (shifts across much of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"欢迎光临华润前海中心\" move?\n Options:\nA. moves up\nB. moves diagonally\nC. moves right\nD. stays roughly in place\nE. moves down\nF. moves left\nG. changes direction partway",
+      "q": "看完整段视频，「欢迎光临华润前海中心」总体上是往哪个方向运动的？\n Options:\nA. moves up\nB. moves diagonally\nC. moves right\nD. stays roughly in place\nE. moves down\nF. moves left\nG. changes direction partway",
+      "a": "E",
+      "a_text": "moves down",
+      "answer_key": "moves down",
+      "options": [
+        "A. moves up",
+        "B. moves diagonally",
+        "C. moves right",
+        "D. stays roughly in place",
+        "E. moves down",
+        "F. moves left",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看完整段视频，「欢迎光临华润前海中心」总体上是往哪个方向运动的？\n Options:\nA. moves up\nB. moves diagonally\nC. moves right\nD. stays roughly in place\nE. moves down\nF. moves left\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"欢迎光临华润前海中心\" at the beginning, the middle, and the end?\n Options:\nA. bottom-left -> top-left -> top-left\nB. bottom-right -> top-left -> top-left\nC. top-left -> top-right -> top-left\nD. top-left -> top-left -> top-left",
+      "q": "在片子开头、中段、结尾这三个时间点，「欢迎光临华润前海中心」分别在画面什么位置？\n Options:\nA. bottom-left -> top-left -> top-left\nB. bottom-right -> top-left -> top-left\nC. top-left -> top-right -> top-left\nD. top-left -> top-left -> top-left",
+      "a": "D",
+      "a_text": "top-left -> top-left -> top-left",
+      "answer_key": "top-left -> top-left -> top-left",
+      "options": [
+        "A. bottom-left -> top-left -> top-left",
+        "B. bottom-right -> top-left -> top-left",
+        "C. top-left -> top-right -> top-left",
+        "D. top-left -> top-left -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在片子开头、中段、结尾这三个时间点，「欢迎光临华润前海中心」分别在画面什么位置？\n Options:\nA. bottom-left -> top-left -> top-left\nB. bottom-right -> top-left -> top-left\nC. top-left -> top-right -> top-left\nD. top-left -> top-left -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"欢迎光临华润前海中心\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "q": "画面里，「欢迎光临华润前海中心」的字算大还是小？\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)",
+      "a": "B",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. small (a minor part of the frame)",
+        "C. very large (dominates the frame)",
+        "D. medium (a noticeable block of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里，「欢迎光临华润前海中心」的字算大还是小？\n Options:\nA. large (a major part of the frame)\nB. small (a minor part of the frame)\nC. very large (dominates the frame)\nD. medium (a noticeable block of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"欢迎光临华润前海中心\" get larger, smaller, or stay about the same size?\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "q": "这行写着「欢迎光临华润前海中心」的字，在视频里是会变大、变小，还是大小一直差不多？\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger",
+      "a": "A",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. stays about the same size",
+        "B. size fluctuates (goes up and down)",
+        "C. gets smaller",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "这行写着「欢迎光临华润前海中心」的字，在视频里是会变大、变小，还是大小一直差不多？\n Options:\nA. stays about the same size\nB. size fluctuates (goes up and down)\nC. gets smaller\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"欢迎光临华润前海中心\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "q": "就整段视频来看，「欢迎光临华润前海中心」是偏向画面中央区域，还是靠近某条边缘？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge",
+      "a": "C",
+      "a_text": "comes close to an edge",
+      "answer_key": "comes close to an edge",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. fully inside, away from the edges",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "就整段视频来看，「欢迎光临华润前海中心」是偏向画面中央区域，还是靠近某条边缘？\n Options:\nA. touches or runs off an edge\nB. fully inside, away from the edges\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"欢迎光临华润前海中心\" and how it appears in the video.",
+      "q": "能简单说说「欢迎光临华润前海中心」在这段视频里是怎样出现和呈现的吗？",
+      "a": "The target text is written in small white characters on the top left corner of a brown warning sign above a dark entrance.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "能简单说说「欢迎光临华润前海中心」在这段视频里是怎样出现和呈现的吗？"
+    }
+  ],
+  "method": "blur"
+}

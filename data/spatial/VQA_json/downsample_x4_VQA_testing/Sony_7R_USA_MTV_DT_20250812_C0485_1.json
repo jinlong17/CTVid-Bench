@@ -1,0 +1,454 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can you see inside [[174, 638], [1050, 638], [1050, 695], [174, 695]]? ________",
+              "answer": [
+                "LEFT",
+                "LANE",
+                "ONLY",
+                "JUNCTION",
+                "Kehoe Ave",
+                "3rd Ave",
+                "1/2",
+                "11/2",
+                "2",
+                "San Mateo Brldge",
+                "414B",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these choices lists the text(s) you'd find in [[174, 637], [1920, 637], [1920, 723], [174, 723]]? Options:\nA. San Mateo Brldge, 2, PROD, 11/2, 1/2, LANE, Kehoe Ave, CAR, CALL 511, ASSIST\nB. San Mateo Brldge, FREEWAY, ASSIST, Kehoe Ave, DNLY, 3rd Ave, 1/2, 2, CAR, CALL 511\nC. CALL 511, 2, 11/2, 1/2, San Mateo Brldge, ONLY, FREEWAY, JUNCTION, CAR, LFFT\nD. ONLY, ADOPT, CAR, Kehoe Ave, CALL 511, 3rd Ave, JUNCTION, San Mateo Brldge, LEFT, ASSIST",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'JUNCTION, FREEWAY, ASSIST, ONLY, 3rd Ave, LEFT, Kehoe Ave, 2, San Mateo Brldge, ADOPT' appears inside the bounding box [[174, 638], [1333, 638], [1333, 7JUNCTION, FREEWAY, ASSIST, ONLY, 3rd Ave, LEFT, Kehoe Ave, 2, San Mateo Brldge, ADOPT3], [174, 7JUNCTION, FREEWAY, ASSIST, ONLY, 3rd Ave, LEFT, Kehoe Ave, 2, San Mateo Brldge, ADOPT3]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Whatever text appears in [[75, 635], [1401, 635], [1401, 737], [75, 737]] goes here: ________.",
+              "answer": [
+                "LEFT",
+                "LANE",
+                "ONLY",
+                "JUNCTION",
+                "Kehoe Ave",
+                "3rd Ave",
+                "1/2",
+                "11/2",
+                "2",
+                "San Mateo Brldge",
+                "414B",
+                "1/2",
+                "FREEWAY",
+                "ASSIST",
+                "CALL 511"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which answer option correctly identifies the text(s) inside [[869, 666], [1401, 666], [1401, 737], [869, 737]]? Options:\nA. ASSIST, 2, 414B, 3rd Ave, 11/2, Kehoe Ave, 1/2, FREEWAY, San Mateo Brldge, JUNCTION\nB. Kehoe Ave, LEFT, San Mateo Brldge, 2, 414B, 11/2, CALL 511, 1/2, FREEWAY, 3rd Ave\nC. 1/2, 3rd Ave, CALL 511, JUNCTION, ASSIST, Kehoe Ave, San Mateo Brldge, 1/2, Z, FREEWAY\nD. Kehoe Ave, CALL 511, 11/2, FREEWAY, JUNCIION, ASSIST, 3rd Ave, 2, San Mateo Brldge, 414B",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In the area defined by [[75.42443756157454, 634.5365643840137], [1401.1436536015071, 634.5365643840137], [1401.1436536015071, 736.530703239643], [75.42443756157454, 736.530703239643]], would you find the label(s) 'CALL 511, LEFT, 1/2, 2, LANE, ONLY, 414B, San Mateo Brldge, Kehoe Ave'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you complete this — the word(s) inside [[1400.4635126038434, 710.4031764341754], [1453.2463308915367, 710.4031764341754], [1453.2463308915367, 751.9788521098511], [1400.4635126038434, 751.9788521098511]]: ________",
+              "answer": [
+                "FREEWAY",
+                "ASSIST",
+                "CALL 511"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area marked [[869, 681], [1096, 681], [1096, 722], [869, 722]] — which option below captures all the text(s) there? Options:\nA. 1/2 MILE, 3rd Ave, 2, 1/2, San Mateo Brldge, JUNCTION, 11/2, 414B\nB. 3rd Ave, 2, 1/2 MILE, 414B, San Mateo Brldge, 11/2, Kehoe Ave, FREEWAY\nC. 1/2, Kehoe Ave, 2, JUNCTION, 414G, 3rd Ave, 1/2 MILE, San Mateo Brldge\nD. 1/2 MILE, 3rd Ave, 11/2, 2, Kehoe Ave, 1/2, San Mateo Brldge, JUNCTION",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At the location marked [[869.3225803383441, 681.4548547561636], [1453.2463308915367, 681.4548547561636], [1453.2463308915367, 751.9788521098511], [869.3225803383441, 751.9788521098511]], do the label(s) '2, 1/2, 1/2 MILF, CALL 511, 414B, San Mateo Brldge, 3rd Ave, JUNCTION, ASSIST, Kehoe Ave' appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Within [[860.1376854098338, 694.9474624412402], [1510.6309137052226, 694.9474624412402], [1510.6309137052226, 767.3128052378277], [860.1376854098338, 767.3128052378277]], what word(s) do you find? ________",
+              "answer": [
+                "JUNCTION",
+                "Kehoe Ave",
+                "3rd Ave",
+                "1/2",
+                "11/2",
+                "2",
+                "San Mateo Brldge",
+                "414B",
+                "1/2 MILE",
+                "FREEWAY",
+                "ASSIST",
+                "CALL 511"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options given, which one includes the text(s) found in [[860, 695], [1099, 695], [1099, 738], [860, 738]]? Options:\nA. FREEWAY, 414B, Kehoe Ave, 11/2, 2, JUNCTION, San Mateo Brldge, 1/2\nB. Kehoe Ave, JUNCTION, 1/2 MILE, 414B, San Mateo Brldge, 11/2, 2, 1/2\nC. 2, JUNCTION, Kehoe Ave, 1/2, 11/2, 414B, 3rd Ave, San Mateo Brldge\nD. 1/2, JUNCIION, 1/2 MILE, 2, San Mateo Brldge, 414B, Kehoe Ave, 11/2",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[860, 695], [1099, 695], [1099, 738], [860, 738]], is 'Kehoe Ave, 2, FREEWAY, 1/2, 1/2 MILE, 3rd Ave, San Mateo Brldge, 414B, 11/2, JUNCTION' among the text(s) shown?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The word(s) inside [[858.2429822063276, 688.4812347814498], [1588.0713216278752, 688.4812347814498], [1588.0713216278752, 758.7600381107935], [858.2429822063276, 758.7600381107935]] are — fill in the blank: ________.",
+              "answer": [
+                "JUNCTION",
+                "Kehoe Ave",
+                "3rd Ave",
+                "1/2",
+                "11/2",
+                "2",
+                "San Mateo Brldge",
+                "414B",
+                "1/2 MILE",
+                "FREEWAY",
+                "ASSIST",
+                "CALL 511"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Match the text(s) in [[858, 688], [1107, 688], [1107, 733], [858, 733]] to the right answer below. Options:\nA. 11/2, 1/2, 2, 1/2 MILE, Kehoe Ave, 3rd Ave, JUNCTION, San Mateo Brldge\nB. 1/2, 1/2 MILE, Kehoe Ave, 3rd Ave, JUNCIION, 414B, 11/2, 2\nC. San Mateo Brldge, 11/2, Kehoe Ave, 2, 414B, 1/2 MILF, 3rd Ave, 1/2\nD. 414B, FREEWAY, 1/2, 3rd Ave, JUNCTION, 11/2, 1/2 MILE, San Mateo Brldge",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'JUNCTION, OALL 511, San Mateo Brldge, 3rd Ave, FREEWAY, 11/2, 1/2, ASSIST, 1/2 MILE, 414B' actually inside the region marked by [[858.2429822063276, 688.4812347814498], [1588.0713216278752, 688.4812347814498], [1588.0713216278752, 758.7600381107935], [858.2429822063276, 758.7600381107935]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside the bounding box [[1617.9284930456586, 727.8504259535947], [1695.213940276392, 727.8504259535947], [1695.213940276392, 789.0306532696688], [1617.9284930456586, 789.0306532696688]]? ________",
+              "answer": [
+                "FREEWAY",
+                "ASSIST",
+                "CALL 511"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For region [[858, 721], [1695, 721], [1695, 789], [858, 789]], which of the following options correctly lists the text found there? Options:\nA. 1/2 MILE, 2, 414B, 11/2, JUNCTION, San Mateo Brldge, FRFEWAY, 1/2, CALL 511\nB. 414B, 11/2, 1/2, RSSIST, 2, San Mateo Brldge, 1/2 MILE, JUNCTION, CALL 511\nC. 2, Kehoe Ave, 1/2, JUNCTION, 414B, 1/2 MILE, CALL 511, FREEWAY, San Mateo Brldge, 11/2\nD. 414B, 1/2, ASSIST, 11/2, JUNCIION, FREEWAY, San Mateo Brldge, 2, CALL 511",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[858, 7414B, 11/2, ASSIST, 2, San Mateo Brldge, 1/2, JUNCTION, Kehoe Ave, 3rd Ave, 1/2 MILE1], [11414B, 11/2, ASSIST, 2, San Mateo Brldge, 1/2, JUNCTION, Kehoe Ave, 3rd Ave, 1/2 MILE4, 7414B, 11/2, ASSIST, 2, San Mateo Brldge, 1/2, JUNCTION, Kehoe Ave, 3rd Ave, 1/2 MILE1], [11414B, 11/2, ASSIST, 2, San Mateo Brldge, 1/2, JUNCTION, Kehoe Ave, 3rd Ave, 1/2 MILE4, 769], [858, 769]], would you say '414B, 11/2, ASSIST, 2, San Mateo Brldge, 1/2, JUNCTION, Kehoe Ave, 3rd Ave, 1/2 MILE' is among the visible labels?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which words or characters can be found inside [[1750.168918918919, 757.5675675675676], [1847.1283783783783, 757.5675675675676], [1847.1283783783783, 830.8783783783784], [1750.168918918919, 830.8783783783784]]? ________",
+              "answer": [
+                "FREEWAY",
+                "ASSIST",
+                "CALL 511"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text found in [[858, 769], [1142, 769], [1142, 818], [858, 818]]? Options:\nA. 1/2, Kehoe Ave, JUNCTION, 2, 414G, 1/2 MILE, 11/2, 3rd Ave\nB. 11/2, 414B, San Mateo Brldge, 3rd Ave, 2, 1/2 MILE, 1/2, Kehoe Ave\nC. JUNCTION, San Mateo Brldge, 2, FREEWAY, 1/2 MILE, Kehoe Ave, 11/2, 3rd Ave\nD. San Mateo Brldge, Kehoe Ave, 11/2, 1/2, 1/2 MILE, 3rd Ave, 2, 414B",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '1/2 MILE, ASSIST, 11/2, CALL 511, JUNCTION, 414B, 1/2, 3vd Ave, 2, FREEWAY' falls inside the bounding box [[858.452193655695, 757.5675675675676], [1847.1283783783783, 757.5675675675676], [1847.1283783783783, 830.8783783783784], [858.452193655695, 830.8783783783784]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[863.5402601177385, 806.7634470600751], [1164.4270962229061, 806.7634470600751], [1164.4270962229061, 859.0931828778715], [863.5402601177385, 859.0931828778715]], what word(s) can you make out there? ________",
+              "answer": [
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "3rd Ave",
+                "1/2",
+                "11/2",
+                "2",
+                "San Mateo Brldge",
+                "414B",
+                "1/2 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the options listed, which one accurately captures the text visible in [[969, 807], [1164, 807], [1164, 859], [969, 859]]? Options:\nA. 414B, JUNCTION 92, 1/2 MILE, 11/2, 1/2\nB. 1/2 MILE, 414G, 2, 11/2, San Mateo Brldge\nC. 1/2, 1/2 MILE, San Mateo Brldge, 414B, 11/2\nD. 1/2, 1/2 MILE, 414B, Z, 11/2",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Confirm whether '1/2 MILF, 3rd Ave, Kehoe Ave, 11/2, JUNCTION 92, San Mateo Brldge, 1/2, 2, 414B' is located inside [[863.5402601177385, 806.7634470600751], [1164.4270962229061, 806.7634470600751], [1164.4270962229061, 859.0931828778715], [863.5402601177385, 859.0931828778715]] — yes or no.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[836.8499534118199, 809.531980513634], [1158.9299442119093, 809.531980513634], [1158.9299442119093, 865.7859230732456], [836.8499534118199, 865.7859230732456]] — which word(s) are there? ________",
+              "answer": [
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "3rd Ave",
+                "1/2",
+                "11/2",
+                "2",
+                "San Mateo Brldge",
+                "414B",
+                "1/2 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the answer that includes the text(s) located in [[837, 810], [1159, 810], [1159, 866], [837, 866]]. Options:\nA. 1/2, San Mateo Brldge, 414B, 1/2 MILE, 11/2, 3vd Ave, JUNCTION 92, Kehoe Ave\nB. 2, 414B, JUNCTION 92, 1/2 MILF, San Mateo Brldge, 11/2, Kehoe Ave, 3rd Ave\nC. 2, 414B, 11/2, 1/2, Keboe Ave, San Mateo Brldge, 1/2 MILE, JUNCTION 92\nD. 1/2 MILE, 11/2, Kehoe Ave, 1/2, 414B, 2, JUNCTION 92, San Mateo Brldge",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'JUNCTION 92, 414B, 1/2 MILE, Kehoe Ave, San Mateo Brldge, 1/2, 3rd Ave' is present inside the bounding box [[836.8499534118199, 809.531980513634], [1158.9299442119093, 809.531980513634], [1158.9299442119093, 865.7859230732456], [836.8499534118199, 865.7859230732456]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "How would you describe the text content of [[812.2716287684196, 812.6126591547004], [1159.1581173065838, 812.6126591547004], [1159.1581173065838, 873.3956276300227], [812.2716287684196, 873.3956276300227]]? ________",
+              "answer": [
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "3rd Ave",
+                "1/2",
+                "11/2",
+                "2",
+                "San Mateo Brldge",
+                "414B",
+                "1/2 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly identifies the text(s) inside [[812, 813], [1159, 813], [1159, 873], [812, 873]]. Options:\nA. 3rd Ave, 1/2, 11/2, San Mateo Brldge, 1/2 MILE, Kehoe Ave, 2, 414B\nB. 2, 414B, 3rd Ave, Keboe Ave, 1/2, 1/2 MILE, JUNCTION 92, 11/2\nC. 11/2, 1/2, 3rd Ave, San Mateo Brldge, 414B, 1/2 MILF, JUNCTION 92, Kehoe Ave\nD. 414B, 3rd Ave, JUNCTION 92, Kehoe Ave, 1/2 MILE, 11/2, San Mateo Brldge, 2",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '3rd Ave, San Mateo Brldge, 414B, 1/2 MILE, 1/2, 2, Kehoe Ave' appear within the region defined by [[812.2716287684196, 812.6126591547004], [1159.1581173065838, 812.6126591547004], [1159.1581173065838, 873.3956276300227], [812.2716287684196, 873.3956276300227]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[802.1272764033235, 829.4430010234781], [1156.7342342342342, 829.4430010234781], [1156.7342342342342, 896.2854568433647], [802.1272764033235, 896.2854568433647]]. ________",
+              "answer": [
+                "NCTION 92",
+                "hoe Ave",
+                "d Ave",
+                "1/2",
+                "11/2",
+                "2",
+                "San Mateo Brldge",
+                "EXIT 414B",
+                "1/2 MILE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the provided choices, which option matches all text(s) found in [[913, 829], [1157, 829], [1157, 894], [913, 894]]? Options:\nA. 2, FXIT 414B, San Mateo Brldge, 1/2, 11/2\nB. EXIT 414B, 1/2, 2, NCTION 92, 1/2 MILE\nC. 1/2 MILE, 1/2, 2, FXIT 414B, San Mateo Brldge\nD. 1/2 MILE, 11/2, 1/2, EXIT 414B, 2",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Considering the region [[802.1272764033235, 829.4430010234781], [1156.7342342342342, 829.4430010234781], [1156.7342342342342, 896.2854568433647], [802.1272764033235, 896.2854568433647]], is 'd Ave, San Mateo Brldge, 1/2 MILE, NCTION 92, EXIT 414B, hoe Ave, 2' among the text labels present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/Hardcase/C0485_1/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0485_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What do you read inside the area [[776.3253532741919, 953.9629075859242], [862.4937133311518, 953.9629075859242], [862.4937133311518, 1014.8943183332908], [776.3253532741919, 1014.8943183332908]]? ________",
+              "answer": [
+                "CTION 92",
+                "oe Ave",
+                "Ave"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that lists every piece of text visible in [[884, 938], [1152, 938], [1152, 1011], [884, 1011]]. Options:\nA. CTION 92, 1/2 MILE, 11/2, 1/2, EXIT 414B\nB. EXIT 414B, San Mateo Brldge, 2, 1/2, 11/2\nC. EXIT 414B, 11/2, San Mateo Brldge, 1/2 MILE, 1/2\nD. 1/2 MILF, 1/2, 11/2, 2, San Mateo Brldge",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In your view, is 'CTICN 92, Ave, 1/2, 11/2, oe Ave, 1/2 MILE, 2, EXIT 414B, San Mateo Brldge' contained within [[776.3253532741919, 937.9652605459056], [1151.8114143920595, 937.9652605459056], [1151.8114143920595, 1014.8943183332908], [776.3253532741919, 1014.8943183332908]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0485_1"
+  }
+]

@@ -1,0 +1,501 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down exactly what appears in [[545, 469], [978, 469], [978, 983], [545, 983]]. ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "杨殷故居",
+                "TheFormerResidenceofYangYin",
+                "翠亨民居展示区",
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于 [[547,681], [978,668], [978,739], [545,748]] 的铭牌标题写作\"翠亨民____展示区\"，其中缺失的字符是什么？",
+              "answer": "居"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area at [[545, 469], [978, 469], [978, 983], [545, 983]] and select the option that matches the text there. Options:\nA. 孙中山故居, TheFormerResidenceofYangYin, TheFormerResidenceofDrSunYatsen, 杨殷故居, 翠亨民居屒示区\nB. 翠亨民居展示区, TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea, 杨殷故居, 孙中山故居\nC. CuihengFolkHousesExhibitionArea, 孙中山故居, TheFormerResidenceofYangYin, 杩殷故居, 翠亨民居展示区\nD. TheFormerResidenceofDrSunYatsen, 孙中山故居, 杛殷故居, CuihengFolkHousesExhibitionArea, TheFormerResidenceofYangYin",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea, 孙中山故居, TheFormerResidenceofDrSunYatsen, 翠亨民居展示区, 杛殷故居' appearing within [[544.5859872611464, 468.66242038216564], [978.343949044586, 468.66242038216564], [978.343949044586, 983.0], [544.5859872611464, 983.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "[[552, 478], [990, 478], [990, 992], [552, 992]] contains some text — what does it say? ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "杨殷故居",
+                "TheFormerResidenceofYangYin",
+                "翠亨民居展示区",
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Focusing on the text at [[704,798], [1016,791], [1016,825], [704,831]], what letter(s) are missing from \"Cuihen____esExhibitionArea\"?",
+              "answer": "gFolkHous"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Referring to [[552, 679], [990, 679], [990, 992], [552, 992]], which answer option accurately captures the text shown there? Options:\nA. CuihengFolkHousesExhibitionArea, 杨殷故居, TheFormerResidenceofDrSunYatsen\nB. 杨殷故居, 翠亨民居展示区, CuihengFolkHousesExbibitionArea\nC. TheFormerResidenceofYangYin, 翠亨民居展示区, CuihengFolkHousesExhibitionArea\nD. 杩殷故居, CuihengFolkHousesExhibitionArea, TheFormerResidenceofYangYin",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '翠亨民居展示区, TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea, 杨殷故居' fall inside bounding box [[552.1875, 478.4], [989.6875, 478.4], [989.6875, 992.375], [552.1875, 992.375]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Carefully examine [[550, 484], [1000, 484], [1000, 1000], [550, 1000]] and tell me: what word(s) are there? ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "TheFormerResidenceofYangYin",
+                "孙中山故居",
+                "翠亨民居展示区",
+                "杨殷故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请仔细看 [[732,463], [1099,449], [1104,526], [729,540]] 处的文字，\"孙中山____居\"中遗漏的部分是什么？",
+              "answer": "故"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at the text inside [[550, 484], [1000, 484], [1000, 1000], [550, 1000]] and pick the right answer. Options:\nA. 翠亨民居展示区, CuihengFolkHousesExhibitionArea, 杨殷故居, 孙中山故居, TheFormerResidenceofYangYin\nB. TheFormerResidenceofYangYin, TheFormerResidenceofDrSunYatsen, 孙中山故居, CuihengFolkHousesExbibitionArea, 翠亨民居展示区\nC. TheFormerResidenceofYangYin, 翠亨民居展示区, CuihengFolkHousesExhihitionArea, 孙中山故居, 杨殷故居\nD. 孙中山敬居, 翠亨民居展示区, 杨殷故居, TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '翠亨民居展示区, 杨殷故居, 孙中山故居, TheFormerResidenceofYangYin' are visible within [[550.2369668246446, 484.3127962085308], [999.526066350711, 484.3127962085308], [999.526066350711, 1000.1875], [550.2369668246446, 1000.1875]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you look at [[568, 487], [1004, 487], [1004, 804], [568, 804]], what text can you make out? ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "翠亨民居展示区",
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图中[[819,679], [1275,664], [1278,739], [820,754]]区域显示的文字可以帮你补全下面的短语，请填入空白处：\"翠亨____展示区\"。",
+              "answer": "民居"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text(s) found inside [[568, 487], [1004, 487], [1004, 804], [568, 804]] — which answer choice matches? Options:\nA. CuihengFolkHousesExhibitionArea, 翠亨民居展示区, TheFormerResidenceofDrSunYatsen\nB. 翠亨民居展示区, 孙中山故居, CuihengFolkHousesExbibitionArea\nC. CuihengFolkHousesExhibitionArea, TheFormerResidenceofDrSunYatsen, 杨殷故居\nD. 翠亨民居展示区, 孙中山故居, TheFormerResidonceofDrSunYatsen",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do '杨殷故居, 孙中山故居, CuihengFolkHousosExhibitionArea, TheFormerResidenceofDrSunYatsen, 翠亨民居展示区, TheFormerResidenceofYangYin' appear inside the region defined by [[567.8125, 487.03018751287857], [1003.75, 487.03018751287857], [1003.75, 1006.4375], [567.8125, 1006.4375]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text visible inside [[576, 492], [1012, 492], [1012, 1010], [576, 1010]]. ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "杨殷故居",
+                "TheFormerResidenceofYangYin",
+                "翠亨民居展示区",
+                "孙中山故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[915,678], [1391,674], [1392,746], [910,752]]处的文字透露了答案——把\"____居展示区\"补完整吧。",
+              "answer": "翠亨民"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the answer that contains the text shown at [[576, 492], [1012, 492], [1012, 1010], [576, 1010]]. Options:\nA. 孙中山故居, 翠亨民居展示区, TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea, 杨殷故居\nB. 翠亨民居屒示区, 杨殷故居, TheFormerResidenceofYangYin, TheFormerResidenceofDrSunYatsen, 孙中山故居\nC. TheFormerResidenceofYangYin, CuihengFolkHousesExbibitionArea, TheFormerResidenceofDrSunYatsen, 翠亨民居展示区, 孙中山故居\nD. CuihengFolkHousesExhibitionArea, 翠亨民居展示区, 孙中山敬居, TheFormerResidenceofYangYin, TheFormerResidenceofDrSunYatsen",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '杨殷故居, 孙中山故居, TheFormerResidenceofDrSunYatsen, CuihengFolkHousesExhibitionArea, IheFormerResidenceofYangYin, 翠亨民居展示区' fall within the bounding box [[576.3291309012876, 492.18040210515323], [1012.2666309012876, 492.18040210515323], [1012.2666309012876, 1009.5625], [576.3291309012876, 1009.5625]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text found at position [[585, 492], [1021, 492], [1021, 1013], [585, 1013]]. ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "TheFormerResidenceofYangYin",
+                "翠亨民居展示区",
+                "孙中山故居",
+                "杨殷故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看[[995,644], [1470,637], [1470,722], [996,720]]位置显示的文字，把短语\"翠亨____展示区\"补充完整。",
+              "answer": "民居"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region at [[585, 492], [1021, 492], [1021, 1013], [585, 1013]] — which answer correctly lists its text? Options:\nA. 翠亨民屠展示区, 孙中山故居, TheFormerResidenceofYangYin, TheFormerResidenceofDrSunYatsen, CuihengFolkHousesExhibitionArea\nB. 孙中山故居, TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea, 翠亨民居屒示区, TheFormerResidenceofDrSunYatsen\nC. 孙中山故居, 杨殷故居, CuihengFolkHousesExhibitionArea, TheFormerResidenceofYangYin, TheFormerResidenceofDrSunYatsen\nD. 杨殷故居, CuihengFolkHousesExhibitionArea, 翠亨民居展示区, TheFormerResidenceofDrSunYatsen, 孙中山敬居",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '翠亨民居展示区, CuihengFolkHousesExhibitionArea, TheFormerResidenceofDrSunYatsen, 孙中山故居, IheFormerResidenceofYangYin, 杨殷故居' can be found inside the box marked [[585.0, 492.18040210515323], [1020.9375, 492.18040210515323], [1020.9375, 1012.6875], [585.0, 1012.6875]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down all text visible inside the region [[594, 501], [1030, 501], [1030, 1020], [594, 1020]]. ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "TheFormerResidenceofYangYin",
+                "翠亨民居展示区",
+                "孙中山故居",
+                "杨殷故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What's missing from \"TheFormerResidenceofDrSun____en\"? Check the text shown at [[1143,499], [1524,492], [1526,520], [1142,527]].",
+              "answer": "Yats"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option whose text matches what appears at [[594, 699], [1030, 699], [1030, 1020], [594, 1020]]. Options:\nA. TheFormerResidenceofDrSunYatsen, TheFormerResidenceofYangYin, 翠亨民居展示区\nB. 杨殷故居, TheFormerResidenceofYangYin, 孙中山故居\nC. 翠亨民居屒示区, TheFormerResidenceofYangYin, 杨殷故居\nD. CuihengFolkHousesExhibitionArea, TheFormerResidenceofYangYin, 杨殷故居",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does '杨殷故居, TheFormerResidenceofDrSunYatsen, 孙中山敬居, TheFormerResidenceofYangYin, 翠亨民居展示区, CuihengFolkHousesExhibitionArea' sit inside the area bounded by [[594.375, 500.93750000000006], [1030.3125, 500.93750000000006], [1030.3125, 1020.5], [594.375, 1020.5]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word you can see inside [[604, 507], [1040, 507], [1040, 1030], [604, 1030]]. ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "TheFormerResidenceofYangYin",
+                "翠亨民居展示区",
+                "孙中山故居",
+                "杨殷故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察[[1140,617], [1630,621], [1633,701], [1138,698]]坐标范围内的文字，你能补全\"翠亨民居____区\"这个短语吗？",
+              "answer": "展示"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the bounding box [[604, 507], [1040, 507], [1040, 1030], [604, 1030]], which answer option matches its text? Options:\nA. TheFormerResidenceofDrSunYatsen, 杨殷故居, 孙中山故居, 翠亨民居屒示区, TheFormerResidenceofYangYin\nB. TheFormerResidenceofDrSunYatsen, 孙中山敬居, 杨殷故居, CuihengFolkHousesExhibitionArea, TheFormerResidenceofYangYin\nC. TheFormerResidenceofDrSunYatsen, TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea, 孙中山故居, 杨殷故居\nD. TheFormerResidonceofDrSunYatsen, 杨殷故居, TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea, 翠亨民居展示区",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'TheFormerResidenceofDrSunYatsen, CuihengFolkHousesExhibitionArea, 孙中山故居, 翠亨民居展示区' contained within the bounding box [[603.75, 507.18750000000006], [1039.6875, 507.18750000000006], [1039.6875, 1029.875], [603.75, 1029.875]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the text that appears within the region [[615, 513], [1051, 513], [1051, 1035], [615, 1035]]. ________",
+              "answer": [
+                "TheFormerResidenceofDrSunYatsen",
+                "CuihengFolkHousesExhibitionArea",
+                "TheFormerResidenceofYangYin",
+                "翠亨民居展示区",
+                "孙中山故居",
+                "杨殷故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Using the text visible at [[1194,476], [1599,470], [1601,499], [1191,504]], figure out what completes \"TheFor____ResidenceofDrSunYatsen\".",
+              "answer": "mer"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "One of the options below matches the text inside [[615, 513], [1051, 513], [1051, 832], [615, 832]] — which one is it? Options:\nA. 翠亨民居展示区, TheFormerResidenceofDrSunYatsen, CuihengFolkHousesExhibitionArea\nB. CuihengFolkHousesExbibitionArea, 孙中山故居, TheFormerResidenceofDrSunYatsen\nC. CuihengFolkHousesExhibitionArea, TheFormerResidenceofYangYin, 翠亨民居展示区\nD. 杨殷故居, CuihengFolkHousesExhibitionArea, TheFormerResidenceofDrSunYatsen",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) '孙中山故居, TheFormerResidenceofYangYin, 杨殷故居, TheFormerResidenceofDrSunYatsen' appear within [[614.7539893617021, 513.4375], [1050.6914893617018, 513.4375], [1050.6914893617018, 1034.5625], [614.7539893617021, 1034.5625]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "State the word(s) you find inside [[701, 923], [997, 923], [997, 1036], [701, 1036]]. ________",
+              "answer": [
+                "TheFormerResidenceofYangYin",
+                "杨殷故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[1185,374], [1585,365], [1587,448], [1187,451]]处的文字是关键——用它来填完\"____中山故居\"里缺少的部分。",
+              "answer": "孙"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you identify which option holds the text(s) found in [[629, 712], [1065, 712], [1065, 1036], [629, 1036]]? Options:\nA. CuihengFolkHousesExbibitionArea, TheFormerResidenceofYangYin, 翠亨民居展示区\nB. 杨殷故居, TheFormerResidenceofYangYin, CuihengFolkHousesExhibitionArea\nC. TheFormerResidenceofYangYin, 孙中山故居, 杨殷故居\nD. IheFormerResidenceofYangYin, 杨殷故居, 翠亨民居展示区",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[628.75, 512.1182387862797], [1064.6875, 512.1182387862797], [1064.6875, 1036.125], [628.75, 1036.125]] contain the label(s) '孙中山故居, TheFormerResidenceofDrSunYatsen, 杨殷故居, CuihengFolkHousesExhibitionArea'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[639, 506], [1083, 506], [1083, 1031], [639, 1031]] — what word(s) do you see? ________",
+              "answer": [
+                "CuihengFolkHousesExhibitionArea",
+                "TheFormerResidenceofYangYin",
+                "孙中山故居",
+                "TheFormerResidenceofDrSunYatsen",
+                "翠亨民居展示区",
+                "杨殷故居"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "圖片座標[[1221,358], [1621,349], [1623,431], [1223,435]]裡有一段文字，\"____中山故居\"空缺的地方應填入什麼？",
+              "answer": "孙"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the option that matches the text(s) in region [[639, 506], [1083, 506], [1083, 1031], [639, 1031]]. Options:\nA. TheFormerResidenceofYangYin, TheFormerResidenceofDrSunYatsen, CuihengFolkHousesExhibitionArea, 翠亨民居屒示区, 杨殷故居\nB. 杨殷故居, 翠亨民居展示区, CuihengFolkHousesExhibitionArea, TheFormerResidenceofDrSunYatson, TheFormerResidenceofYangYin\nC. 孙中山故居, 翠亨民居展示区, TheFormerResidenceofYangYin, TheFormerResidenceofDrSunYatsen, CuihengFolkHousesExhibitionArea\nD. CuihengFolkHousesExhibitionArea, TheFormerResidenceofYangYin, TheFormerResidonceofDrSunYatsen, 杨殷故居, 孙中山故居",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Whether 'CuihengFolkHousesExhibitionArea, 翠亨民居展示区, 杨殷故居' actually appears inside [[639, 709], [1083, 709], [1083, 1031], [639, 1031]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0261/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0261/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you can read within [[687, 507], [1046, 507], [1046, 622], [687, 622]]. ________",
+              "answer": [
+                "孙中山故居",
+                "TheFormerResidenceofDrSunYatsen"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"The____ResidenceofDrSunYatsen\" appears at [[1240,426], [1644,420], [1646,449], [1237,454]] — what word(s) fill in the missing part?",
+              "answer": "Former"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Seeing the text inside [[649, 507], [1093, 507], [1093, 1033], [649, 1033]], which answer option is correct? Options:\nA. 翠亨民居展示区, TheFormerRosidenceofYangYin, TheFormerResidenceofDrSunYatsen, CuihengFolkHousesExhibitionArea, 杨殷故居\nB. TheFormerResidenceofDrSunYatsen, CuihengFolkHousesExhibitionArea, 翠亨民居展示区, IheFormerResidenceofYangYin, 杨殷故居\nC. 杨殷故居, TheFormerResidonceofDrSunYatsen, TheFormerResidenceofYangYin, 孙中山故居, CuihengFolkHousesExhibitionArea\nD. 翠亨民居展示区, TheFormerResidenceofDrSunYatsen, TheFormerResidenceofYangYin, 孙中山故居, CuihengFolkHousesExhibitionArea",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: do the label(s) '翠亨民居展示区, TheFormerResidenceofDrSunYatsen, 杨殷故居, CuihengFolkHousesExhibitionArea' appear inside [[648.9310225645581, 507.18750000000006], [1092.8800671505455, 507.18750000000006], [1092.8800671505455, 1032.9961089494163], [648.9310225645581, 1032.9961089494163]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0261"
+  }
+]

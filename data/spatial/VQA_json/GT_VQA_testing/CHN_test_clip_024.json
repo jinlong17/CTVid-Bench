@@ -1,0 +1,565 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at [[470, 98], [716, 98], [716, 645], [470, 645]] and write out what you see there: ________",
+              "answer": [
+                "人工智慧",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[472,596], [592,595], [592,645], [472,645]] shows a number with a gap: \"1____\" — fill in what's missing.",
+              "answer": "000"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears at [[485, 95], [1424, 95], [1424, 164], [485, 164]]? Select the matching option below. Options:\nA. 深度學習, 未來, Future, Machine Learning, AI, 人工智慧, Deep Learning\nB. AI, Deep Learning, 機器學習, 深度學習, 未來, Future, 2000\nC. 機器學習, 總價 (萬), 深度學習, Deep Learning, 人工智慧, Future, 未來\nD. Deep Learning, 未來, 人工智憃, 機器學習, 深度學習, Machine Learning, AI",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the box at [[485, 95], [1424, 95], [1424, 164], [485, 164]] — does it contain the label(s) 'AI, Machine Learning, 總價 (萬), Deep Learning, 機器學習, 深度學習, Future, 人工智慧, 未來'? Yes or no.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "If you look at the region [[470, 95], [1448, 95], [1448, 842], [470, 842]], what word(s) does it display? ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未來",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "坪數",
+                "10",
+                "20",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[1037,98], [1159,98], [1159,134], [1037,134]], the text shows \"深度學____\" with some characters missing — what should they be?",
+              "answer": "習"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which answer correctly captures the text inside [[470, 95], [898, 95], [898, 841], [470, 841]]? Options:\nA. 機器學習, AI, 10, 深度學習, 2000, Machine Learning, 人工智慧\nB. 2000, AI, 總價 (萬), 機器學習, 1000, Machine Learning, 人工智慧\nC. 2000, 人工智慧, 機器學習, 總價 (萬), 1000, Machine Learning, 10\nD. Machine Learning, 2000, 總價 (萬), 人工智慧, 10, 機器學習, RI",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'Future, 未來, AI, Machine Learning, 機器學習, 深度學習' is actually present within [[485, 95], [1424, 95], [1424, 164], [485, 164]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text you can read inside [[470, 95], [1448, 95], [1448, 842], [470, 842]]: ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未來",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "坪數",
+                "10",
+                "20",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "把 [[1356,97], [1424,97], [1424,137], [1356,137]] 框内文本的空缺部分填完整：\"未____\"。",
+              "answer": "來"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the answer that best matches the text visible at [[485, 95], [1424, 95], [1424, 337], [485, 337]]. Options:\nA. 人工智慧, Machine Learning, 未來, Euture, 總價 (萬), AI, 機器學習, Deep Learning\nB. 人工智慧, Future, Deep Learning, 機器學習, AI, Machine Learning, 總價 (萬), 未來\nC. 2000, Machine Learning, 總價 (萬), 深度學習, 人工智慧, AI, Deep Learning, 機器學習\nD. Deep Learning, AI, Euture, Machine Learning, 未來, 人工智慧, 總價 (萬), 機器學習",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[470, 95], [1424, 95], [1424, 510], [470, 510]] actually contain the label(s) '總價 (萬), 坪數, Deep Learning, 機器學習, AI, 2000, 深度學習, Future, Machine Learning, 人工智慧'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[470, 95], [1448, 95], [1448, 842], [470, 842]] and write it down: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未來",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "坪數",
+                "10",
+                "20",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A number at [[470,459], [592,459], [592,510], [470,510]] has missing digit(s) — complete \"2____0\".",
+              "answer": "00"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these choices matches the text you can see inside [[470, 95], [1160, 95], [1160, 842], [470, 842]]? Options:\nA. 人工智慧, AI, 10, 深度學習, 總價 (萬), 2000, Machine Learning, 20, Deep Learning, 1000\nB. 1000, AI, 人工智慧, 機器學習, Deep Learning, 總價 (萬), Machine Learning, 深度學習, 2000, 未來\nC. AI, Deep Learning, 1000, 機器學習, 人工智慧, 深度學習, Machine Learning, 20, 2000, 總價 (萬)\nD. Machine Learning, 人工智慧, 20, 2000, 渘度學習, Deep Learning, 10, 機器學習, 1000, 總價 (萬)",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '1000, 總價 (萬), AI, 機器學習, 10, 人工智慧, 2000, 未來, Deep Learning, 深度學習' is the text shown inside region [[470.0, 95.0], [1448.4516129032259, 95.0], [1448.4516129032259, 842.0], [470.0, 842.0]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the blank — what word(s) does region [[470, 95], [1448, 95], [1448, 842], [470, 842]] show? ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未來",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "坪數",
+                "10",
+                "20",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Half of a word is visible at [[749,137], [898,137], [898,163], [749,163]] — what fills the gap in \"Machine ____\"?",
+              "answer": "Learning"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that correctly names the text found at [[470, 95], [1160, 95], [1160, 842], [470, 842]]. Options:\nA. 總價 (萬), 10, Machine Learning, AI, 20, 深度學習, 人工智慧, Deop Learning, 1000, 機器學習\nB. 人工智慧, 20, 10, 1000, 深度學習, 總價 (萬), 2000, Future, Deep Learning, Machine Learning\nC. AI, 10, 深度學習, Machine Learning, 20, 2000, 機器學習, 1000, 總價 (萬), Deep Learning\nD. 2000, 機器學習, 深度學習, 10, 未來, 1000, 總價 (萬), Machine Learning, 人工智慧, AI",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Future, 總價 (萬), 機器學習, Deep Learning, Machine Learning, 坪數, AI, 未來, 深度學習, 人工智慧' written inside the box at [[485, 95], [1424, 95], [1424, 337], [485, 337]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) you see at [[1328, 97], [1448, 97], [1448, 802], [1328, 802]]: ________.",
+              "answer": [
+                "未來",
+                "Future",
+                "坪數"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请补全 [[1356,97], [1424,97], [1424,137], [1356,137]] 区域内显示不完整的词语：\"未____\"",
+              "answer": "來"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option matches the text visible inside [[470, 95], [1424, 95], [1424, 645], [470, 645]]? Options:\nA. AI, 1000, 深度學習, Deep Learning, 機器孯習, 總價 (萬), 人工智慧, Future, 未來, Machine Learning\nB. 1000, Future, Deep Learning, 總價 (萬), 2000, 人工智慧, Machine Learning, 未來, 機器學習, 深度學習\nC. 未來, 1000, AI, 坪數, 2000, 機器學習, Future, Deep Learning, 人工智慧, Machine Learning\nD. 未來, Future, Machine Learning, 2000, 1000, 總價 (萬), 10, 深度學習, AI, Deep Learning",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "When you examine [[470, 95], [1424, 95], [1424, 645], [470, 645]], do you see the label '深度學習, Machine Learning, 1000, 機器學習, 人工智慧, AI, 總價 (萬), 2000, Future, 20' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Looking at the area [[470, 95], [1448, 95], [1448, 842], [470, 842]], write the word(s) you see: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未來",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "坪數",
+                "10",
+                "20",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1038,138], [1160,138], [1160,164], [1038,163]] is partially hidden — fill in the missing part: \"Deep Le____g\".",
+              "answer": "arnin"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the choice that best reflects the text at region [[485, 95], [1424, 95], [1424, 337], [485, 337]]. Options:\nA. 未來, 總價 (萬), 2000, 深度學習, Machine Learning, 機器學習, 人工智慧, AI\nB. 總價 (萬), 人工智憃, 深度學習, 未來, Machine Learning, AI, Deep Learning, Future\nC. Future, 深度學習, 末來, 總價 (萬), 人工智慧, AI, Deep Learning, 機器學習\nD. 深度學習, 總價 (萬), Deep Learning, AI, Machine Learning, 機器學習, 人工智慧, 未來",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '1000, 總價 (萬), 人工智慧, 機器學習, 深度學習, Deep Learning, Machine Learning, AI, 2000, Future' appears inside the bounding box [[470, 95], [1424, 95], [1424, 510], [470, 510]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) that appear inside [[470, 95], [1160, 95], [1160, 842], [470, 842]]: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "Machine Learning",
+                "Deep Learning",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "10",
+                "20",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "To complete the number at [[1066,794], [1130,794], [1130,842], [1066,842]], supply the missing digit(s): \"2____\".",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one accurately captures the text at [[470, 95], [1424, 95], [1424, 510], [470, 510]]? Options:\nA. AI, Deep Learning, 渘度學習, 人工智慧, 機器學習, 未來, 總價 (萬), Future, 2000\nB. AI, 未來, 機器學習, 總價 (萬), Future, Deep Learning, 深度學習, 人工智慧, Machine Learning\nC. 2000, 人工智慧, 未來, 總價 (萬), Machine Learning, 深度學習, RI, Future, 機器學習\nD. 1000, 2000, AI, 人工智慧, 機器學習, Deep Learning, Future, 未來, Machine Learning",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "How about '未來, Machine Learning, Deep Learning, 深度學習, 機器學習, 總價 (萬), AI, Future, 人工智慧' — does that appear anywhere inside [[485, 95], [1424, 95], [1424, 164], [485, 164]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) visible at area [[470, 95], [1448, 95], [1448, 842], [470, 842]]: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未來",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "坪數",
+                "10",
+                "20",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The number at [[1066,794], [1130,794], [1130,842], [1066,842]] has a gap — restore the missing digit(s) to complete \"2____\".",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which choice contains the text shown at [[470, 95], [1160, 95], [1160, 842], [470, 842]]. Options:\nA. 2000, 機器學習, AI, 總價 (萬), 人工智慧, 20, 10, 深度學習, Machine Learning, 1000\nB. 人工智慧, Deep Learning, 深度學習, 10, Machine Learning, 100O, 總價 (萬), 20, 2000, AI\nC. 深度學習, 1000, 總價 (萬), 機器學習, 未來, 20, 10, Deep Learning, 人工智慧, AI\nD. 人工智慧, 機器學習, 1O, Machine Learning, 2000, 20, AI, Deep Learning, 總價 (萬), 深度學習",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '機器學習, AI, Deep Learning, Future, 深度學習, 人工智慧, 未來' what's written inside the box [[485, 95], [1424, 95], [1424, 337], [485, 337]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) you can read inside the box [[470, 459], [1448, 459], [1448, 842], [470, 842]]. ________",
+              "answer": [
+                "2000",
+                "1000",
+                "坪數",
+                "10",
+                "20"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "框选区域 [[1282,420], [1480,420], [1480,475], [1282,475]] 里有一个短语，写的是 \"____ 萬/坪\"——空白处应该填什么？",
+              "answer": "100"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at region [[485, 95], [1424, 95], [1424, 337], [485, 337]] — which of the following options matches the text there? Options:\nA. 機器學習, Future, 深度學習, Deep Learning, 人工智慧, 總價 (萬), 末來, AI\nB. Machine Learning, Deep Learning, 2000, 總價 (萬), 未來, Future, 深度學習, 機器學習\nC. 未來, Future, 1000, Machine Learning, 總價 (萬), AI, 深度學習, Deep Learning\nD. Machine Learning, Future, 總價 (萬), 人工智慧, 機器學習, 未來, 深度學習, AI",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[470.0, 95.0], [1448.4516129032259, 95.0], [1448.4516129032259, 842.0], [470.0, 842.0]] actually contain the label(s) '未來, 深度學習, 2000, 20, 機器學習, 坪數, Future, 1O, 人工智慧, Machine Learning'? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text enclosed in [[472, 595], [1448, 595], [1448, 842], [472, 842]] and write it out: ________.",
+              "answer": [
+                "1000",
+                "坪數",
+                "10",
+                "20"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At the position [[1360,138], [1420,138], [1420,160], [1360,160]], a partial string reads \"Fut____\" — what characters are needed to complete it?",
+              "answer": "ure"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box [[470, 95], [1160, 95], [1160, 842], [470, 842]] highlights some text — which answer choice captures it correctly? Options:\nA. AI, 機器學習, 總價 (萬), 2000, 人工智慧, 20, Deep Learning, 10, 1000, Machine Learning\nB. 10, AI, Machine Learning, 2000, 100O, 人工智慧, 20, 總價 (萬), 深度學習, Deep Learning\nC. AI, 未來, 深度學習, Machine Learning, 總價 (萬), 10, 機器學習, Deep Learning, 人工智慧, 1000\nD. Machine Learning, Deep Learning, 深度學習, Future, AI, 總價 (萬), 2000, 1000, 20, 10",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the text label(s) 'Machine Learning, 人工智慧, AI, 2000, 1000, 總價 (萬)' fall inside the bounding box [[470, 95], [898, 95], [898, 841], [470, 841]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_024/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_024/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible inside [[470, 95], [1448, 95], [1448, 842], [470, 842]]: ________.",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未來",
+                "Machine Learning",
+                "Deep Learning",
+                "Future",
+                "總價 (萬)",
+                "2000",
+                "1000",
+                "坪數",
+                "10",
+                "20",
+                "AI"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside the box [[470,459], [592,459], [592,510], [470,510]], a sequence appears as \"2____0\" — which number fills the gap?",
+              "answer": "00"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[470, 95], [1160, 95], [1160, 842], [470, 842]] and pick the answer that lists the text you find there. Options:\nA. 10, 20, 未來, Deep Learning, 2000, 總價 (萬), 機器學習, 深度學習, 人工智慧, Machine Learning\nB. 人工智慧, 機器學習, 20, 總價 (萬), 10, 深度學習, AI, 2000, Deep Learning, 1000\nC. 深度學習, Machine Learning, 10, 人工智慧, AI, 2000, 總價 (萬), 機器孯習, Deep Learning, 1000\nD. 1000, Machine Learning, 20, 1O, 總價 (萬), 2000, 深度學習, Deep Learning, 人工智慧, 機器學習",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '1000, Deep Learning, Machine Learning, Future, 20, 機器學習, 人工智慧, AI, 2000, 總價 (萬)' is/are found within the boundaries of [[470.0, 95.0], [1448.4516129032259, 95.0], [1448.4516129032259, 842.0], [470.0, 842.0]]? Yes or no.",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_024"
+  }
+]

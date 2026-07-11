@@ -1,0 +1,452 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the text that appears inside [[200.0, 30.434782608695652], [1258.641304347826, 30.434782608695652], [1258.641304347826, 109.0], [200.0, 109.0]]. ________",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "2 STRANDS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[930,899], [1004,899], [1004,957], [930,957]], what text does the placeholder \"____D\" stand in for?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options lists the text(s) you can read at [[692, 30], [1259, 30], [1259, 1007], [692, 1007]]? Options:\nA. THE STRUCTURE OF DNA, 2O\nB. DIAGRAM, THE STRUCTURE OF DNA\nC. 2 STRANDS, THE STRUCTURE OF DNA\nD. IHE STRUCTURE OF DNA, DIAGRAM",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) '2D, DIAGRAM' sit inside the bounding box [[124, 899], [1056, 899], [1056, 1007], [124, 1007]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off the word(s) visible inside [[200.0, 30.434782608695652], [1258.641304347826, 30.434782608695652], [1258.641304347826, 109.0], [200.0, 109.0]]. ________",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "2 STRANDS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[874,965], [1056,965], [1056,1007], [874,1007]], there's a gap in \"____GRAM\" — what substring fills it?",
+              "answer": "DIA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text inside [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]. Options:\nA. THE STRUCTURE OF DNA, 2D\nB. 2D, DIAGRAM\nC. 'DOUBLE HELIX', 2O\nD. 2O, DIAGRAM",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[124, 899], [1056, 899], [1056, 1007], [124, 1007]] actually contain 'DIAGRAM, 2D'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text sits inside [[200, 30], [1259, 30], [1259, 109], [200, 109]]. ________",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "2 STRANDS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[124,929], [485,931], [485,979], [124,977]] reads \"D____BLE HELIX\" — what letter(s) are missing?",
+              "answer": "OU"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options best describes the text you see at [[692, 30], [1259, 30], [1259, 1007], [692, 1007]]? Options:\nA. THE STRUCTURE OF DNA, DIAORAM\nB. THE STRUCTURE OF DNA, 'DOUBLE HELIX'\nC. DIAGRAM, 2D\nD. 2 STRANDS, DIAGRAM",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '2D, DIAGRAM' appear(s) inside the box at [[124, 899], [1056, 899], [1056, 1007], [124, 1007]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Shown at [[930,899], [1004,899], [1004,957], [930,957]] is \"____D\" — what's the full sequence?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one reflects the text visible in [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]? Options:\nA. DIAORAM, 2D\nB. 'DOUBLE HELIX', 2D\nC. THE STRUCTURE OF DNA, 2D\nD. 'DDUBLE HELIX', DIAGRAM",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Inside [[124, 899], [1056, 899], [1056, 1007], [124, 1007]], are the label(s) '2D, 2 STRANDS, 'DOUBLE HELIX', DIAGRAM' visible?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "\"THE ____RUCTURE OF DNA.\" appears at [[692,31], [1259,30], [1259,82], [692,84]] — which letter(s) belong in the gap?",
+              "answer": "ST"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[692, 30], [1259, 30], [1259, 1007], [692, 1007]] and choose which option lists its text correctly. Options:\nA. THE STRUCTURE OF DNA, DIAORAM\nB. DIAGRAM, 2O\nC. 2D, THE STRUCTURE OF DNA\nD. 2 STRANDS, DIAGRAM",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '2D, DIAGRAM' can be seen inside [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you see in the region [[200, 30], [1259, 30], [1259, 109], [200, 109]]. ________",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "2 STRANDS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[874,965], [1056,965], [1056,1007], [874,1007]] shows \"DIAG____\" with a gap — supply the missing letter(s).",
+              "answer": "RAM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately names the text found at [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]. Options:\nA. 2D, 2 STRANDS\nB. 2O, 'DOUBLE HELIX'\nC. 'DOUBLE HELIX', DIAGRAM\nD. THE STRUCTURE OF DNA, 2D",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you find 'DIAGRAM, 2D, 2 STRANDS, 'DOUBLE HELIX'' inside the area at [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text you see inside [[124, 30], [1259, 30], [1259, 1007], [124, 1007]]: ________",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "2 STRANDS",
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The area [[200,62], [430,62], [430,109], [200,109]] shows the partial text \"2 S____NDS\" — complete it.",
+              "answer": "TRA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option accounts for all the text found at [[692, 30], [1259, 30], [1259, 1007], [692, 1007]]. Options:\nA. 2 STRANDS, DIAGRAM\nB. THE STRUCTURE OF DNA, DIAORAM\nC. THE STRUCTURE OF DNA, 2D\nD. IHE STRUCTURE OF DNA, DIAGRAM",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'DIAGRAM, 'DOUBLE HELIX'' actually present inside the box at [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "How would you read the text at [[692, 30], [1259, 30], [1259, 1007], [692, 1007]]? ________",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "2D",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[930,899], [1004,899], [1004,957], [930,957]] a term appears as \"2____\" — what does it say in full?",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the given options, which one captures the text visible inside [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]? Options:\nA. 2D, 'DDUBLE HELIX'\nB. THE STRUCTURE OF DNA, DIAGRAM\nC. 2D, 'DDUBLE HELIX'\nD. DIAGRAM, 2D",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is the label 'THE STRUCTURE OF DNA, 'DOUBLE HELIX', DIAGRAM, 2D' contained inside the region [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text appears inside [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]: ________",
+              "answer": [
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[124,929], [485,931], [485,979], [124,977]], a phrase reads \"____OUBLE HELIX\" — what word belongs in the blank?",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text visible inside [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]? Options:\nA. 'DOUBLE HELIX', DIAORAM\nB. DIAORAM, 'DOUBLE HELIX'\nC. DIAGRAM, THE STRUCTURE OF DNA\nD. 'DOUBLE HELIX', DIAGRAM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the labels '2D, THE STRUCTURE OF DNA, 2 STRANDS, 'DOUBLE HELIX', DIAGPAM' appear inside the bounding box [[124.0, 30.434782608695652], [1258.641304347826, 30.434782608695652], [1258.641304347826, 1007.0], [124.0, 1007.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[124, 30], [1259, 30], [1259, 1007], [124, 1007]] and write it here: ________",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "2 STRANDS",
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The segment \"2 ____\" appears at [[200,62], [430,62], [430,109], [200,109]] — fill in the missing piece.",
+              "answer": "STRANDS"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that lists the text found in area [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]. Options:\nA. 'DOUBLE HELIX', THE STRUCTURE OF DNA\nB. DIAGRAM, 'DDUBLE HELIX'\nC. DIAGRAM, 'DDUBLE HELIX'\nD. 2D, DIAGRAM",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[692, 30], [1259, 30], [1259, 1007], [692, 1007]] actually contain the label(s) 'DIAGRAM, 2D'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[200, 30], [1259, 30], [1259, 109], [200, 109]], there's some text — write it out: ________",
+              "answer": [
+                "THE STRUCTURE OF DNA",
+                "2 STRANDS"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A caption at [[692,31], [1259,30], [1259,82], [692,84]] reads \"THE ____URE OF DNA\" — what word goes in the blank?",
+              "answer": "STRUCT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text is visible somewhere in [[692, 30], [1259, 30], [1259, 1007], [692, 1007]] — which answer choice correctly names it? Options:\nA. DIAGRAM, IHE STRUCTURE OF DNA\nB. 2D, THE STRUCTURE OF DNA\nC. THE STRUCTURE OF DNA, 2O\nD. 2 STRANDS, THE STRUCTURE OF DNA",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the labels ''DOUBLE HELIX', DIAGRAM' sit inside the bounding box [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/clip_006_3/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_006_3/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The box at [[124, 899], [1056, 899], [1056, 1007], [124, 1007]] contains the following text: ________",
+              "answer": [
+                "2D",
+                "'DOUBLE HELIX'",
+                "DIAGRAM"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[692,31], [1259,30], [1259,82], [692,84]], the caption \"THE STRUC____E OF DNA\" has a word missing — what is it?",
+              "answer": "TUR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options given, which one correctly identifies the text inside [[692, 30], [1259, 30], [1259, 1007], [692, 1007]]? Options:\nA. 2 STRANDS, DIAGRAM\nB. DIAGRAM, 'DOUBLE HELIX'\nC. THE STRUCTURE OF DNA, DIAORAM\nD. THE STRUCTURE OF DNA, 2D",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Both 2D and 'DOUBLE HELIX' — are they present inside the bounding box [[124, 899], [1056, 899], [1056, 1007], [124, 1007]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_006_3"
+  }
+]

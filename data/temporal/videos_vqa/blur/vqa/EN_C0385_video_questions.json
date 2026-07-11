@@ -1,0 +1,313 @@
+{
+  "video_id": "C0385",
+  "frames": 120,
+  "word": "45258 Tom Blalock Street",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0385.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"45258 Tom Blalock Street\" likely to be?\n Options:\nA. menu or commercial information\nB. event or poster information\nC. general scene text\nD. storefront or brand sign\nE. direction or navigation sign\nF. warning or prohibition sign\nG. address or street sign",
+      "q": "What type of sign would you expect \"45258 Tom Blalock Street\" to be?\n Options:\nA. menu or commercial information\nB. event or poster information\nC. general scene text\nD. storefront or brand sign\nE. direction or navigation sign\nF. warning or prohibition sign\nG. address or street sign",
+      "a": "G",
+      "a_text": "address or street sign",
+      "answer_key": "address or street sign",
+      "options": [
+        "A. menu or commercial information",
+        "B. event or poster information",
+        "C. general scene text",
+        "D. storefront or brand sign",
+        "E. direction or navigation sign",
+        "F. warning or prohibition sign",
+        "G. address or street sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you expect \"45258 Tom Blalock Street\" to be?\n Options:\nA. menu or commercial information\nB. event or poster information\nC. general scene text\nD. storefront or brand sign\nE. direction or navigation sign\nF. warning or prohibition sign\nG. address or street sign"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"45258 Tom Blalock Street\" appear in?\n Options:\nA. storefront\nB. event poster or display\nC. transportation / station\nD. road or street\nE. campus or office\nF. restaurant or menu\nG. other public sign\nH. warning / rule sign",
+      "q": "What kind of setting does the text \"45258 Tom Blalock Street\" seem to be part of?\n Options:\nA. storefront\nB. event poster or display\nC. transportation / station\nD. road or street\nE. campus or office\nF. restaurant or menu\nG. other public sign\nH. warning / rule sign",
+      "a": "E",
+      "a_text": "campus or office",
+      "answer_key": "campus or office",
+      "options": [
+        "A. storefront",
+        "B. event poster or display",
+        "C. transportation / station",
+        "D. road or street",
+        "E. campus or office",
+        "F. restaurant or menu",
+        "G. other public sign",
+        "H. warning / rule sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What kind of setting does the text \"45258 Tom Blalock Street\" seem to be part of?\n Options:\nA. storefront\nB. event poster or display\nC. transportation / station\nD. road or street\nE. campus or office\nF. restaurant or menu\nG. other public sign\nH. warning / rule sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"45258 Tom Blalock Street\" mostly appear?\n Options:\nA. bottom-right (lower-right area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "q": "Where in the frame does \"45258 Tom Blalock Street\" spend most of its time?\n Options:\nA. bottom-right (lower-right area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. top-left (upper-left area)",
+      "a": "D",
+      "a_text": "top-right (upper-right area)",
+      "answer_key": "top-right",
+      "options": [
+        "A. bottom-right (lower-right area)",
+        "B. bottom-left (lower-left area)",
+        "C. center (middle of the frame)",
+        "D. top-right (upper-right area)",
+        "E. top-left (upper-left area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Where in the frame does \"45258 Tom Blalock Street\" spend most of its time?\n Options:\nA. bottom-right (lower-right area)\nB. bottom-left (lower-left area)\nC. center (middle of the frame)\nD. top-right (upper-right area)\nE. top-left (upper-left area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"45258 Tom Blalock Street\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "How much does \"45258 Tom Blalock Street\" shift position over the course of the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How much does \"45258 Tom Blalock Street\" shift position over the course of the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"45258 Tom Blalock Street\" move?\n Options:\nA. stays roughly in place\nB. moves right\nC. moves down\nD. moves left\nE. moves diagonally\nF. changes direction partway\nG. moves up",
+      "q": "Which direction does \"45258 Tom Blalock Street\" tend to move overall?\n Options:\nA. stays roughly in place\nB. moves right\nC. moves down\nD. moves left\nE. moves diagonally\nF. changes direction partway\nG. moves up",
+      "a": "D",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. stays roughly in place",
+        "B. moves right",
+        "C. moves down",
+        "D. moves left",
+        "E. moves diagonally",
+        "F. changes direction partway",
+        "G. moves up"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Which direction does \"45258 Tom Blalock Street\" tend to move overall?\n Options:\nA. stays roughly in place\nB. moves right\nC. moves down\nD. moves left\nE. moves diagonally\nF. changes direction partway\nG. moves up"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"45258 Tom Blalock Street\" at the beginning, the middle, and the end?\n Options:\nA. top-right -> center -> top-left\nB. top-right -> top-left -> top-left\nC. top-right -> center -> center\nD. top-right -> top-right -> top-left",
+      "q": "Near the start, through the middle, and toward the end — where is \"45258 Tom Blalock Street\" positioned each time?\n Options:\nA. top-right -> center -> top-left\nB. top-right -> top-left -> top-left\nC. top-right -> center -> center\nD. top-right -> top-right -> top-left",
+      "a": "A",
+      "a_text": "top-right -> center -> top-left",
+      "answer_key": "top-right -> center -> top-left",
+      "options": [
+        "A. top-right -> center -> top-left",
+        "B. top-right -> top-left -> top-left",
+        "C. top-right -> center -> center",
+        "D. top-right -> top-right -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Near the start, through the middle, and toward the end — where is \"45258 Tom Blalock Street\" positioned each time?\n Options:\nA. top-right -> center -> top-left\nB. top-right -> top-left -> top-left\nC. top-right -> center -> center\nD. top-right -> top-right -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"45258 Tom Blalock Street\" in the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. very large (dominates the frame)",
+      "q": "\"45258 Tom Blalock Street\" — would you say it's a large, medium, or small piece of text within the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. very large (dominates the frame)",
+      "a": "C",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. large (a major part of the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. small (a minor part of the frame)",
+        "D. very large (dominates the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "\"45258 Tom Blalock Street\" — would you say it's a large, medium, or small piece of text within the frame?\n Options:\nA. large (a major part of the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. very large (dominates the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"45258 Tom Blalock Street\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. stays about the same size\nD. gets smaller",
+      "q": "Does \"45258 Tom Blalock Street\" grow bigger, shrink, or stay roughly the same size as the clip goes on?\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. stays about the same size\nD. gets smaller",
+      "a": "D",
+      "a_text": "gets smaller",
+      "answer_key": "gets smaller",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. gets larger",
+        "C. stays about the same size",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Does \"45258 Tom Blalock Street\" grow bigger, shrink, or stay roughly the same size as the clip goes on?\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. stays about the same size\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"45258 Tom Blalock Street\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "Is \"45258 Tom Blalock Street\" sitting comfortably within the frame, or is it close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"45258 Tom Blalock Street\" sitting comfortably within the frame, or is it close to one of the edges?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"45258 Tom Blalock Street\" and how it appears in the video.",
+      "q": "Give a quick description of \"45258 Tom Blalock Street\" — what it looks like and how it presents itself in the video.",
+      "a": "The address is printed in black text on a white rectangular strip within a blue emergency assistance sign on a wall.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick description of \"45258 Tom Blalock Street\" — what it looks like and how it presents itself in the video."
+    }
+  ],
+  "method": "blur"
+}

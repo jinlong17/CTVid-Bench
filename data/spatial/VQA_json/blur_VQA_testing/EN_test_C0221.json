@@ -1,0 +1,478 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) you can see inside the bounding box [[132, 355], [1050, 355], [1050, 657], [132, 657]]. ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[140,491], [537,448], [541,629], [132,657]] a description of an age group has a gap — can you fill it in: T____N?",
+              "answer": "EE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the text(s) visible at [[810, 355], [1050, 355], [1050, 579], [810, 579]], which answer option is correct? Options:\nA. googleplay, appstore\nB. newsplmobileapp, googloplay\nC. TEEN, appstore\nD. appstore, googloplay",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'appstore, newsplmobileapp' appear inside the bounding box [[810, 355], [1050, 355], [1050, 579], [810, 579]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[131.74603174603175, 355.4450261780105], [1050.261780104712, 355.4450261780105], [1050.261780104712, 657.063492063492], [131.74603174603175, 657.063492063492]] — which word(s) appear there? ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "How would you complete the text at [[936,561], [990,557], [991,574], [938,578]] where a section is missing: apps____?",
+              "answer": "tore"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the entire image, which option correctly identifies the text(s) inside [[132, 448], [1029, 448], [1029, 657], [132, 657]]? Options:\nA. TEEN, appstore\nB. TEEN, googloplay\nC. IEEN, appstore\nD. newsplmobileapp, appstore",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether the label(s) 'IEEN, appstore, googleplay, newsplmobileapp' are contained within the bounding box [[131.74603174603175, 355.4450261780105], [1050.261780104712, 355.4450261780105], [1050.261780104712, 657.063492063492], [131.74603174603175, 657.063492063492]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you make out the word(s) in the area [[146.77493348013576, 355.4450261780105], [1050.261780104712, 355.4450261780105], [1050.261780104712, 654.1733186530873], [146.77493348013576, 654.1733186530873]]? ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A phrase at coordinates [[876,407], [1109,374], [1115,427], [880,455]] has a letter or two missing — fill it in: \"n____splmobileapp\"",
+              "answer": "ew"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at region [[147, 445], [1036, 445], [1036, 654], [147, 654]], which option contains the text(s) found there? Options:\nA. newsplmobileapp, appstore\nB. googloplay, appstore\nC. appstore, googloplay\nD. appstore, googleplay",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label 'newsplmobileapp, googleplay, appstore, TEEN' — is it actually inside bounding box [[810, 355], [1050, 355], [1050, 575], [810, 575]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read off whatever text appears inside [[146.77493348013576, 348.6882694212538], [1066.0275458704773, 348.6882694212538], [1066.0275458704773, 654.1733186530873], [146.77493348013576, 654.1733186530873]]: ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Coordinates [[1074,602], [1127,599], [1128,616], [1075,620]] contain a partially visible entry — fill in the missing part: apps____e?",
+              "answer": "tore"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the answer choices, which one correctly names the text(s) visible in region [[147, 445], [1040, 445], [1040, 654], [147, 654]]? Options:\nA. googloplay, appstore\nB. appstare, TEEN\nC. TEEN, googleplay\nD. newsplmobileapp, appstore",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether 'googleplay, newsplmobileapp, TEEN' falls inside the bounding box [[146.77493348013576, 348.6882694212538], [1066.0275458704773, 348.6882694212538], [1066.0275458704773, 654.1733186530873], [146.77493348013576, 654.1733186530873]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you can see at [[146.77493348013576, 348.6882694212538], [1066.0275458704773, 348.6882694212538], [1066.0275458704773, 654.1733186530873], [146.77493348013576, 654.1733186530873]]: ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A platform name at [[1195,561], [1248,557], [1250,576], [1196,578]] appears only partially — the text reads \"g____lay\". What's the complete name?",
+              "answer": "ooglep"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that accurately captures the text shown in [[826, 349], [1066, 349], [1066, 572], [826, 572]]. Options:\nA. appstore, newsplmobileapp\nB. appstore, newsplmabileapp\nC. TEEN, newsplmobileapp\nD. googloplay, appstore",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is simple: do the label(s) 'newsplmobileapp, googleplay, appstore' appear within [[146.77493348013576, 348.6882694212538], [1066.0275458704773, 348.6882694212538], [1066.0275458704773, 654.1733186530873], [146.77493348013576, 654.1733186530873]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write down whatever text you find inside [[155.77967281662865, 441.8059072335431], [565.3034823404379, 441.8059072335431], [565.3034823404379, 651.3297167573527], [155.77967281662865, 651.3297167573527]]: ________",
+              "answer": [
+                "TEEN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something seems cut off in the text at [[1164,555], [1218,551], [1219,570], [1166,572]] — complete go____lay? to identify the platform.",
+              "answer": "oglep"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select whichever answer correctly identifies the text(s) inside [[156, 442], [1050, 442], [1050, 651], [156, 651]]. Options:\nA. googloplay, appstore\nB. googleplay, appstore\nC. appstore, newsplmobileapp\nD. googleplay, IEEN",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — are 'newsplmobileapp, TEEN, appstore, googleplay' the label(s) you'd find inside the bounding box [[826, 349], [1066, 349], [1066, 572], [826, 572]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Jot down the word(s) visible in [[155.77967281662865, 341.8819866987407], [1085.9228338285923, 341.8819866987407], [1085.9228338285923, 651.3297167573527], [155.77967281662865, 651.3297167573527]]: ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A portion of the text at [[986,373], [1263,325], [1271,374], [991,416]] is missing — supply what belongs there: newsplmo____eapp?",
+              "answer": "bil"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Going by what's written inside [[156, 442], [1058, 442], [1058, 651], [156, 651]], which answer option matches the text(s)? Options:\nA. appstore, googleplay\nB. googloplay, appstore\nC. TEEN, newsplmobileapp\nD. googloplay, appstore",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll notice a bounding box at [[155.77967281662865, 341.8819866987407], [1085.9228338285923, 341.8819866987407], [1085.9228338285923, 651.3297167573527], [155.77967281662865, 651.3297167573527]] — do the label(s) 'googleplay, appstore, IEEN, newsplmobileapp' fall inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name every word enclosed in [[155.77967281662865, 441.8059072335431], [565.3034823404379, 441.8059072335431], [565.3034823404379, 651.3297167573527], [155.77967281662865, 651.3297167573527]]: ________",
+              "answer": [
+                "TEEN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the partial text \"go____eplay\" visible at [[1151,533], [1221,525], [1224,549], [1156,556]], which digital platform does this refer to?",
+              "answer": "ogl"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[846, 342], [1086, 342], [1086, 569], [846, 569]] for text, then pick the option that lists exactly what you see. Options:\nA. appstore, newsplmabileapp\nB. googleplay, appstare\nC. TEEN, googleplay\nD. newsplmobileapp, appstore",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the region [[155.77967281662865, 341.8819866987407], [1085.9228338285923, 341.8819866987407], [1085.9228338285923, 651.3297167573527], [155.77967281662865, 651.3297167573527]]: are the label(s) 'newsplmobileapp, TEEN, googleplay' present inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "List any word(s) that appear within [[155.77967281662865, 341.8819866987407], [1085.9228338285923, 341.8819866987407], [1085.9228338285923, 651.3297167573527], [155.77967281662865, 651.3297167573527]]: ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside bounding box [[958,335], [1235,287], [1243,336], [963,378]], the label reads \"newspl____app\" — what portion has been left out?",
+              "answer": "mobile"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Based on the text(s) visible in [[156, 442], [1067, 442], [1067, 651], [156, 651]], which option below is the right answer? Options:\nA. googleplay, newsplmobileapp\nB. TEEN, appstare\nC. appstore, IEEN\nD. appstore, googleplay",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'googleplay, TEEN, appstore, newsplmobileapp' appearing inside [[846, 342], [1086, 342], [1086, 569], [846, 569]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) appear inside the region [[155.77967281662865, 341.8819866987407], [1085.9228338285923, 341.8819866987407], [1085.9228338285923, 651.3297167573527], [155.77967281662865, 651.3297167573527]]? ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over the region at [[288,530], [685,487], [689,668], [280,696]], what word(s) complete the observable text \"T____N\"?",
+              "answer": "EE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) visible in [[846, 342], [1086, 342], [1086, 572], [846, 572]]? Options:\nA. TEEN, newsplmobileapp\nB. appstore, googleplay\nC. appstare, newsplmobileapp\nD. appstore, newsplmabileapp",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the area at [[155.77967281662865, 341.8819866987407], [1085.9228338285923, 341.8819866987407], [1085.9228338285923, 651.3297167573527], [155.77967281662865, 651.3297167573527]], would you find the label(s) 'TEEN, googloplay, appstore, newsplmobileapp' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) you can find inside the bounding box [[155.77967281662865, 441.8059072335431], [565.3034823404379, 441.8059072335431], [565.3034823404379, 651.3297167573527], [155.77967281662865, 651.3297167573527]]. ________",
+              "answer": [
+                "TEEN"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the text \"app____re\" visible at coordinates [[1087,584], [1148,576], [1150,597], [1090,605]], what word(s) complete it?",
+              "answer": "sto"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly lists the text(s) found inside [[156, 442], [1070, 442], [1070, 651], [156, 651]]. Options:\nA. googleplay, appstore\nB. googleplay, newsplmobileapp\nC. appstare, googleplay\nD. IEEN, googleplay",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounds of [[155.77967281662865, 348.7489394884403], [1092.3606020689356, 348.7489394884403], [1092.3606020689356, 651.3297167573527], [155.77967281662865, 651.3297167573527]], do the label(s) 'appstere, TEEN, googleplay, newsplmobileapp' appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0221/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0221/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible inside [[169.15546899497258, 356.9011134014838], [1092.3606020689356, 356.9011134014838], [1092.3606020689356, 657.6991435089451], [169.15546899497258, 657.6991435089451]]. ________",
+              "answer": [
+                "TEEN",
+                "newsplmobileapp",
+                "appstore",
+                "googleplay"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[1010,364], [1287,316], [1295,366], [1015,407]] reads \"news____bileapp\" with a portion missing — what word(s) belong there?",
+              "answer": "plmo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text(s) seen inside [[853, 357], [1092, 357], [1092, 586], [853, 586]]. Options:\nA. appstore, googloplay\nB. appstore, TEEN\nC. googleplay, newsplmabileapp\nD. appstore, googleplay",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[169.15546899497258, 356.9011134014838], [1092.3606020689356, 356.9011134014838], [1092.3606020689356, 657.6991435089451], [169.15546899497258, 657.6991435089451]], are the label(s) 'TEEN, newsplmobileapp, appstore' visible within that region?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0221"
+  }
+]

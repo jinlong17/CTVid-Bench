@@ -1,0 +1,557 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you can see inside [[389, 571], [743, 571], [743, 835], [389, 835]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[389,668], [743,675], [743,712], [389,701]] reads \"AT THE CHILDREN'S ____\" — what word belongs in the blank?",
+              "answer": "DESK"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following matches what's written inside the region [[1072, 118], [1402, 118], [1402, 443], [1072, 443]]? Options:\nA. 入内請不要脱鞋, WE ARE SO GLAD, CUARTO., PLEASE KEEP, THIS ROOM., POR FAVOR MANTENGA, YOU'RE HERE!, SUS ZAPATOS EN ESTE\nB. WAIT, 入内請不要脫鞋, SUS ZAPATOS EN ESTE, YOU'RE HERE!, CUARTO., WE ARE SO GLAD, PLEASE KEEP, THIS ROOM.\nC. WE ARE SO GLAD, 入内請不要脫鞋, CUARTO., POR FAVOR MANTENGA, YOU'RE HERE!, THIS ROOM., YOUR SHOES ON IN, SUS ZAPATOS EN ESTE\nD. PLEASE KEEP, SUS ZAPATOS EN ESTE, WE ARE SO GLAD, ROR FAVOR MANTENGA, CUARTO., 入内請不要脫鞋, YOU'RE HERE!, THIS ROOM.",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether the label(s) 'CUARTO., IHANK YOU!, SUS ZAPATOS EN ESTE, AT THE CHILDREN'S DESK, YOUR SHOES ON IN, THIS ROOM., WAIT, WE ARE SO GLAD, YOU'RE HERE!, POR FAVOR MANTENGA' appear inside the bounding box [[389.10447761194035, 118.37606837606839], [1401.6666666666667, 118.37606837606839], [1401.6666666666667, 835.0746268656716], [389.10447761194035, 835.0746268656716]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the text visible in the region [[392, 115], [1405, 115], [1405, 832], [392, 832]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!",
+                "WE ARE SO GLAD",
+                "YOU'RE HERE!",
+                "PLEASE KEEP",
+                "YOUR SHOES ON IN",
+                "THIS ROOM.",
+                "入内請不要脫鞋",
+                "POR FAVOR MANTENGA",
+                "SUS ZAPATOS EN ESTE",
+                "CUARTO."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The sign at [[459,637], [683,642], [683,671], [459,665]] says \"PL____ SIGN IN.\" — what word is missing?",
+              "answer": "EASE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the region [[1075, 115], [1405, 115], [1405, 439], [1075, 439]] and select the option that accurately lists the text found there. Options:\nA. THIS ROOM., WE ARE SO GLAD, 入内請不要脫鞋, RLEASE KEEP, CUARTO., YOUR SHOES ON IN, POR FAVOR MANTENGA, YOU'RE HERE!\nB. PLEASE KEEP, SVS ZAPATOS EN ESTE, CUARTO., YOUR SHOES ON IN, 入内請不要脫鞋, THIS ROOM., WE ARE SO GLAD, POR FAVOR MANTENGA\nC. CUARTO., 入内請不要脫鞋, YOU'RE HERE!, PLEASE KEEP, THIS ROOM., YOUR SHOES ON IN, POR FAVOR MANTENGA, WE ARE SO GLAD\nD. CUARTO., YOUR SHOES ON IN, WE ARE SO GLAD, POR FAVOR MANTENGA, 入内請不要脫鞋, WAIT, THIS ROOM., SUS ZAPATOS EN ESTE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[392.0114543561263, 114.88769628304513], [1404.573643410853, 114.88769628304513], [1404.573643410853, 831.5862547726483], [392.0114543561263, 831.5862547726483]] contain the label(s) 'AT THE CHILDREN'S DESK, PLEASE SIGN IN, THIS ROOM., POR FAVOR MANTENGA, BEFORE ENTERING, WAIT, YOU'RE HERE!, IHANK YOU!, 入内請不要脫鞋, SUS ZAPATOS EN ESTE'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Type out whatever text appears within the boundaries of [[392, 565], [746, 565], [746, 829], [392, 829]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "¿Qué término falta en la frase \"____ MANTENGA\", visible en el área [[1157,389], [1470,401], [1470,426], [1157,412]]?",
+              "answer": "POR FAVOR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at the area [[1075, 112], [1405, 112], [1405, 437], [1075, 437]] — which answer choice reflects the text shown there? Options:\nA. 入内請不要脫鞋, WAIT, PLEASE KEEP, CUARTO., YOUR SHOES ON IN, SUS ZAPATOS EN ESTE, POR FAVOR MANTENGA, WE ARE SO GLAD\nB. PLEASE KEEP, YOUR SHOES ON IN, WE ARE SO GLAD, THIS ROOM., SVS ZAPATOS EN ESTE, YOU'RE HERE!, CUARTO., 入内請不要脫鞋\nC. YOUR SHOES ON IN, WE ARE SO GLAD, PLEASE KEEP, THIS ROOM., POR FAVOR MANTENGA, YOU'RE HERE!, CUARTD., SUS ZAPATOS EN ESTE\nD. 入内請不要脫鞋, POR FAVOR MANTENGA, PLEASE KEEP, SUS ZAPATOS EN ESTE, CUARTO., THIS ROOM., YOU'RE HERE!, YOUR SHOES ON IN",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'THANK YOU!, SUS ZAPATOS EN ESTE, THIS ROOM., YOU'RE HERE!, 入内請不要脫鞋, BEFORE ENTERING, AT THE CHILDREN'S DESK, RLEASE SIGN IN, WE ARE SO GLAD, PLEASE KEEP' inside the bounding box [[392.0114543561263, 112.3103766954163], [1404.573643410853, 112.3103766954163], [1404.573643410853, 829.0089351850197], [392.0114543561263, 829.0089351850197]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word or words shown inside [[392, 112], [1405, 112], [1405, 828], [392, 828]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!",
+                "WE ARE SO GLAD",
+                "YOU'RE HERE!",
+                "PLEASE KEEP",
+                "YOUR SHOES ON IN",
+                "THIS ROOM.",
+                "入内請不要脫鞋",
+                "POR FAVOR MANTENGA",
+                "SUS ZAPATOS EN ESTE",
+                "CUARTO."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A partir del texto en [[1187,395], [1504,414], [1501,442], [1186,424]], ¿cuál es la palabra que ocupa el lugar de \"POR F____R MANTENGA\"?",
+              "answer": "AVO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the answer that best captures the text visible within [[1075, 112], [1405, 112], [1405, 436], [1075, 436]]. Options:\nA. 入内請不要脫鞋, WE ARE SO GLAD, YOUR SHOES ON IN, SUS ZAPATOS EN ESTE, PLEASE KEEP, THIS ROOM., CUARTO., POR FAVOR MANTENGA\nB. YOU'RE HERE!, THIS ROOM., WE ARE SO GLAD, CUARTO., SUS ZAPATOS EN ESTE, PLEASE KEEP, PLEASE SIGN IN, YOUR SHOES ON IN\nC. 入内請不要脫鞋, YOU'RE HERE!, CUARTO., WE ARE SO GLAD, SUS ZAPATOS EN ESTE, THIS ROOM., YOUR SHOES ON IN, WAIT\nD. 入内請不要脫鞋, YOUR SHOES ON IN, PLEASE KEEP, IHIS ROOM., YOU'RE HERE!, SUS ZAPATOS EN ESTE, POR FAVOR MANTENGA, CUARTO.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that the label(s) 'SUS ZAPATOS EN ESTE, AT THE CHILDREN'S DESK, POR FAVOR MANTENGA, PLEASE KEEP, 入内請不要脫鞋, BEFORE ENTERING, YOU'RE HERE!, THANK YOU!, PLEASE SIGN IN, YOUR SHOES ON IN' all fall within the bounding box [[392, 112], [1405, 112], [1405, 739], [392, 739]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Transcribe the text you can make out inside [[386, 112], [1399, 112], [1399, 829], [386, 829]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!",
+                "WE ARE SO GLAD",
+                "YOU'RE HERE!",
+                "PLEASE KEEP",
+                "YOUR SHOES ON IN",
+                "THIS ROOM.",
+                "入内請不要脫鞋",
+                "POR FAVOR MANTENGA",
+                "SUS ZAPATOS EN ESTE",
+                "CUARTO."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"____U'RE HERE!\" appears at [[1214,168], [1499,180], [1495,221], [1211,206]] — can you complete it?",
+              "answer": "YO"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[386, 201], [1371, 201], [1371, 829], [386, 829]] contains some text — which option below matches it? Options:\nA. PLEASE KEEP, CUARTO., THANK YOU!, WE ARE SO GLAD, THIS ROOM., 入内請不要脫鞋, YOUR SHOES ON IN, BEFORE ENTERING, SUS ZAPATOS EN ESTE, POR FAVOR MANTENGA\nB. BEFORE ENTERING, WAIT, AT THE CHILDREN'S DESK, CUARTO., 入内請不要脱鞋, SUS ZAPATOS EN ESTE, POR FAVOR MANTENGA, THIS ROOM., PLEASE SIGN IN, THANK YOU!\nC. POR FAVOR MANTENGA, THIS ROOM., SUS ZAPATOS EN ESTE, CUARTO., 入内請不要脫鞋, THANK YOU!, AT THE CHILDREN'S DESK, WAIT, BEFORE ENTERING, PLEASE KEEP\nD. PLEASE KEEP, SUS ZAPATOS EN ESTE, 入内請不要脫鞋, POR FAVOR MANTENGA, YOUR SHOES ON IN, AT THE CHILDREN'S DESK, WAIT, BEFORE ENTERING, PLEASE SIGN IN, IHIS ROOM.",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[1069, 112], [1399, 112], [1399, 437], [1069, 437]] — are the label(s) 'YOU'RE HERE!, WE ARE SO GLAD, CUARTO., SUS ZAPATOS EN ESTE, POR FAVOR MANTENGA, THIS ROOM., YOUR SHOES ON IN, 入内請不要脫鞋, PLEASE SIGN IN, PLEASE KEEP' all present there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word you can spot within the boxed region [[1065, 113], [1395, 113], [1395, 438], [1065, 438]]. ________",
+              "answer": [
+                "WE ARE SO GLAD",
+                "YOU'RE HERE!",
+                "PLEASE KEEP",
+                "YOUR SHOES ON IN",
+                "THIS ROOM.",
+                "入内請不要脫鞋",
+                "POR FAVOR MANTENGA",
+                "SUS ZAPATOS EN ESTE",
+                "CUARTO."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "¿Qué palabra inicia la frase \"P____ FAVOR MANTENGA\" en el área indicada por [[1149,383], [1480,404], [1477,435], [1148,412]]?",
+              "answer": "OR"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the answer that correctly identifies the text in the area marked [[1065, 113], [1395, 113], [1395, 438], [1065, 438]]. Options:\nA. PLEASE KEEP, CUARTO., 入内請不要脫鞋, YOU'RE HERE!, SUS ZAPATOS EN ESTE, POR FAVOR MANTENGA, THIS ROOM., YOUR SHOES ON IN\nB. POR FAVOR MANTENGA, WE ARE SO GLAD, 入内請不要脫鞋, THIS ROOM., SUS ZAPATOS EN ESTE, PLEASE KEEP, PLEASE SIGN IN, CUARTO.\nC. POR FAVOR MANTENGA, THIS ROOM., CUARTO., 入内請不要脱鞋, WE ARE SO GLAD, YOUR SHOES ON IN, YOU'RE HERE!, SUS ZAPATOS EN ESTE\nD. SUS ZAPATOS EN ESTE, 入内請不要脫鞋, POR FAVOR MANTENGA, PLEASE KEEP, WE ARE SO GLAD, WAIT, CUARTO., THIS ROOM.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'POR FAVOR MANTENGA, WAIT, AT THE CHILDREN'S DESK, BFFORE ENTERING, WE ARE SO GLAD, 入内請不要脫鞋, SUS ZAPATOS EN ESTE, YOUR SHOES ON IN, YOU'RE HERE!, THANK YOU!' are positioned inside the bounding box [[382.0114543561263, 113.15755277515055], [1394.573643410853, 113.15755277515055], [1394.573643410853, 829.856111264754], [382.0114543561263, 829.856111264754]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down any text you find enclosed in [[376, 113], [1389, 113], [1389, 832], [376, 832]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!",
+                "WE ARE SO GLAD",
+                "YOU'RE HERE!",
+                "PLEASE KEEP",
+                "YOUR SHOES ON IN",
+                "THIS ROOM.",
+                "入内請不要脫鞋",
+                "POR FAVOR MANTENGA",
+                "SUS ZAPATOS EN ESTE",
+                "CUARTO."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Hidden somewhere in the phrase \"PL____ SIGN IN.\" — using [[493,625], [717,647], [714,684], [492,661]] to locate it, what word fills the blank?",
+              "answer": "EASE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options contains the text(s) visible inside [[1059, 113], [1389, 113], [1389, 437], [1059, 437]]? Options:\nA. WE ARE SO GLAD, CUARTO., 入内請不要脫鞋, THIS ROOM., POR FAVOR MANTENGA, YOUR SHOES ON IN, SUS ZAPATOS EN ESTE, PLEASE KEEP\nB. WE ARE SO GLAD, PLEASE KEEP, THIS ROOM., YOUR SHOES ON IN, WAIT, POR FAVOR MANTENGA, SUS ZAPATOS EN ESTE, YOU'RE HERE!\nC. YOU'RE HERE!, SUS ZAPATOS EN ESTE, THIS ROOM., 入内請不要脫鞋, WE ARE SO GLAD, YOUR SHOES ON IN, RLEASE KEEP, POR FAVOR MANTENGA\nD. YOUR SHOES ON IN, 入内請不要脫鞋, CUARTO., POR FAVOR MANTENGA, YOU'RE HERE!, PLEASE SIGN IN, SUS ZAPATOS EN ESTE, THIS ROOM.",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the labels 'CUARTO., PLEASE KEEP, YOUR SHOES ON IN, WE ARE SO GLAD, THIS ROOM., POR FAVOR MANTENGA, YOU'RE HERE!, 入内請不要脫鞋, WAIT, SUS ZAPATOS EN ESTE' all fall inside the bounding box [[1059, 113], [1389, 113], [1389, 437], [1059, 437]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read out the word(s) that appear inside [[1059, 113], [1389, 113], [1389, 437], [1059, 437]]? ________",
+              "answer": [
+                "WE ARE SO GLAD",
+                "YOU'RE HERE!",
+                "PLEASE KEEP",
+                "YOUR SHOES ON IN",
+                "THIS ROOM.",
+                "入内請不要脫鞋",
+                "POR FAVOR MANTENGA",
+                "SUS ZAPATOS EN ESTE",
+                "CUARTO."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "¿Qué caracteres completan la secuencia \"入内請不要\" en la frase \"入内請不要____鞋\", que se encuentra en la región [[1123,320], [1429,336], [1425,384], [1120,368]]?",
+              "answer": "脫"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that matches the text(s) you see in the area [[1059, 113], [1389, 113], [1389, 437], [1059, 437]]. Options:\nA. 入内請不要脫鞋, CUARTO., SUS ZAPATOS EN ESTE, WAIT, YOU'RE HERE!, PLEASE KEEP, THIS ROOM., YOUR SHOES ON IN\nB. SUS ZAPATOS EN ESTE, THIS ROOM., YOUR SHOES ON IN, YOU'RE HERE!, PLEASE SIGN IN, POR FAVOR MANTENGA, CUARTO., PLEASE KEEP\nC. YOUR SHOES ON IN, POR FAVOR MANTENGA, THIS ROOM., RLEASE KEEP, WE ARE SO GLAD, SUS ZAPATOS EN ESTE, 入内請不要脫鞋, CUARTO.\nD. PLEASE KEEP, THIS ROOM., SUS ZAPATOS EN ESTE, YOUR SHOES ON IN, POR FAVOR MANTENGA, YOU'RE HERE!, WE ARE SO GLAD, 入内請不要脫鞋",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Are all of 'WAIT, RLEASE SIGN IN, YOU'RE HERE!, PLEASE KEEP, THANK YOU!, THIS ROOM., SUS ZAPATOS EN ESTE, YOUR SHOES ON IN, 入内請不要脫鞋, BEFORE ENTERING' visible inside [[376.2971686418405, 112.68136229896007], [1388.8593576965673, 112.68136229896007], [1388.8593576965673, 831.9440233526661], [376.2971686418405, 831.9440233526661]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) found inside the region [[381, 115], [1393, 115], [1393, 837], [381, 837]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!",
+                "WE ARE SO GLAD",
+                "YOU'RE HERE!",
+                "PLEASE KEEP",
+                "YOUR SHOES ON IN",
+                "THIS ROOM.",
+                "入内請不要脫鞋",
+                "POR FAVOR MANTENGA",
+                "SUS ZAPATOS EN ESTE",
+                "CUARTO."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is hidden in the phrase \"AT THE ____REN'S DESK\" at location [[481,653], [808,695], [806,729], [479,687]] — what should go in the blank?",
+              "answer": "CHILD"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that correctly lists the text(s) appearing in [[1064, 115], [1393, 115], [1393, 442], [1064, 442]]. Options:\nA. WE ARE SO GLAD, YOU'RE HERE!, SUS ZAPATOS EN ESTE, CUARTO., 入内請不要脫鞋, YOUR SHOES ON IN, WAIT, THIS ROOM.\nB. WE ARE SO GLAD, PLEASE KEEP, POR FAVOR MANTENGA, THIS ROOM., CUARTO., SUS ZAPATOS EN ESTE, 入内請不要脫鞋, YOUR SHOES ON IN\nC. 入内請不要脫鞋, PLEASE KEEP, SUS ZAPATOS EN ESTE, PLEASE SIGN IN, YOUR SHOES ON IN, THIS ROOM., CUARTO., POR FAVOR MANTENGA\nD. WE ARE SO GLAD, PLEASE KEEP, YOU'RE HERE!, THIS ROOM., YOUR SHOES ON IN, ROR FAVOR MANTENGA, CUARTO., SUS ZAPATOS EN ESTE",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[381, 115], [1393, 115], [1393, 745], [381, 745]] contain all of 'THIS ROOM., WAIT, WE ARE SO GLAD, AT THE CHILDREN'S DESK, BEFORE ENTERING, YOUR SHOES ON IN, YOU'RE HERE!, PLEASE SIGN IN, PLEASE KEEP, POR FAVOR MANTENGA'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that lie within the region marked by [[541, 819], [615, 819], [615, 838], [541, 838]]. ________",
+              "answer": [
+                "THANK YOU!"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1225,237], [1461,250], [1458,279], [1224,268]], the text reads \"PL____ASE KEEP\" — what character(s) fill the gap?",
+              "answer": "E"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, identify the one that matches what's written inside [[1076, 117], [1405, 117], [1405, 445], [1076, 445]]. Options:\nA. 入内請不要脫鞋, IHIS ROOM., PLEASE KEEP, POR FAVOR MANTENGA, YOU'RE HERE!, CUARTO., WE ARE SO GLAD, YOUR SHOES ON IN\nB. CUARTO., PLEASE KEEP, THIS ROOM., WE ARE SO GLAD, 入内請不要脫鞋, YOUR SHOES ON IN, SUS ZAPATOS EN ESTE, YOU'RE HERE!\nC. WAIT, WE ARE SO GLAD, THIS ROOM., CUARTO., YOU'RE HERE!, YOUR SHOES ON IN, PLEASE KEEP, 入内請不要脫鞋\nD. POR FAVOR MANTENGA, CUARTO., THIS ROOM., SVS ZAPATOS EN ESTE, YOUR SHOES ON IN, WE ARE SO GLAD, PLEASE KEEP, 入内請不要脫鞋",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify that 'SUS ZAPATOS EN ESTE, PLEASE KEEP, CUARTO., YOU'RE HERE!, POR FAVOR MANTENGA, 入内請不要脫鞋, AT THE CHILDREN'S DESK, YOUR SHOES ON IN, WE ARE SO GLAD, THIS ROOM.' are all present within [[1076, 117], [1405, 117], [1405, 445], [1076, 445]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the word(s) that appear within [[399, 572], [753, 572], [753, 837], [399, 837]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A portion of \"YOU'RE ____!\" is obscured at [[1213,171], [1521,186], [1519,226], [1211,208]] — what fills the blank?",
+              "answer": "HERE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[1082, 117], [1412, 117], [1412, 444], [1082, 444]] and choose the answer that accounts for all the text(s) there. Options:\nA. WE ARE SO GLAD, YOU'RE HERE!, CUARTO., 入内請不要脫鞋, POR FAVOR MANTENGA, WAIT, THIS ROOM., SUS ZAPATOS EN ESTE\nB. PLEASE KEEP, THIS ROOM., 入内請不要脫鞋, YOUR SHOES ON IN, CUARTO., WE ARE SO GLAD, POR FAVOR MANTENGA, SUS ZAPATOS EN ESTE\nC. YOUR SHOES ON IN, PLEASE SIGN IN, 入内請不要脫鞋, YOU'RE HERE!, SUS ZAPATOS EN ESTE, THIS ROOM., WE ARE SO GLAD, POR FAVOR MANTENGA\nD. YOUR SHOES ON IN, POR FAVOR MANTENGA, PLEASE KEEP, SUS ZAPATOS EN ESTE, WE ARE SO GLAD, YOU'RE HERE!, IHIS ROOM., CUARTO.",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the labels 'YOU'RE HERE!, WE ARE SO GLAD, PLEASE KEEP, THIS ROOM., CUARTO., SUS ZAPATOS EN ESTE, YOUR SHOES ON IN, AT THE CHILDREN'S DESK, 入内請不要脫鞋, POR FAVOR MANTENGA' all fall within the bounding box [[483, 117], [1412, 117], [1412, 627], [483, 627]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0287/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0287/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify every word visible inside [[410, 120], [1422, 120], [1422, 838], [410, 838]]. ________",
+              "answer": [
+                "WAIT",
+                "PLEASE SIGN IN",
+                "AT THE CHILDREN'S DESK",
+                "BEFORE ENTERING",
+                "THANK YOU!",
+                "WE ARE SO GLAD",
+                "YOU'RE HERE!",
+                "PLEASE KEEP",
+                "YOUR SHOES ON IN",
+                "THIS ROOM.",
+                "入内請不要脫鞋",
+                "POR FAVOR MANTENGA",
+                "SUS ZAPATOS EN ESTE",
+                "CUARTO."
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At location [[1225,164], [1533,180], [1531,220], [1223,201]], the text reads \"YOU'RE H____!\" — what letter(s) are missing?",
+              "answer": "ERE"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me which option correctly captures the text(s) shown in [[410, 306], [1394, 306], [1394, 838], [410, 838]]. Options:\nA. WAIT, THANK YOU!, SUS ZAPATOS EN ESTE, WE ARE SO GLAD, AT THE CHILDREN'S DESK, 入内請不要脫鞋, POR FAVOR MANTENGA, PLEASE SIGN IN\nB. 入内請不要脫鞋, SUS ZAPATOS EN ESTE, BEFORE ENTERING, POR FAVOR MANTENGA, PLEASE SIGN IN, CUARTO., YOU'RE HERE!, AT THE CHILDREN'S DESK\nC. AT THE CHILDREN'S DESK, WAIT, RLEASE SIGN IN, POR FAVOR MANTENGA, THANK YOU!, 入内請不要脫鞋, BEFORE ENTERING, SUS ZAPATOS EN ESTE\nD. THANK YOU!, AT THE CHILDREN'S DESK, WAIT, PLEASE SIGN IN, POR FAVOR MANTENGA, CUARTO., BEFORE ENTERING, SUS ZAPATOS EN ESTE",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Every one of 'POR FAVOR MANTENGA, PLEASE SIGN IN, 入内請不要脫鞋, SUS ZAPATOS EN ESTE, THIS ROOM., AT THE CHILDREN'S DESK, WAIT, THANK YOU!, WE ARE SO GLAD, BEFORE ENTERING' — are they all found within [[410.4693320533261, 119.57569230018379], [1421.8596461080529, 119.57569230018379], [1421.8596461080529, 837.8907917066003], [410.4693320533261, 837.8907917066003]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0287"
+  }
+]

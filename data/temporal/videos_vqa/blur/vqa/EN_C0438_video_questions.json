@@ -1,0 +1,313 @@
+{
+  "video_id": "C0438",
+  "frames": 120,
+  "word": "AUTHORIZED VEHICLES ONLY",
+  "video_path": "temporal/videos_vqa/blur/videos/EN_C0438.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "latin",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"AUTHORIZED VEHICLES ONLY\" likely to be?\n Options:\nA. storefront or brand sign\nB. direction or navigation sign\nC. event or poster information\nD. menu or commercial information\nE. warning or prohibition sign\nF. address or street sign\nG. general scene text",
+      "q": "What type of sign would you expect the text \"AUTHORIZED VEHICLES ONLY\" to belong to?\n Options:\nA. storefront or brand sign\nB. direction or navigation sign\nC. event or poster information\nD. menu or commercial information\nE. warning or prohibition sign\nF. address or street sign\nG. general scene text",
+      "a": "E",
+      "a_text": "warning or prohibition sign",
+      "answer_key": "warning or prohibition sign",
+      "options": [
+        "A. storefront or brand sign",
+        "B. direction or navigation sign",
+        "C. event or poster information",
+        "D. menu or commercial information",
+        "E. warning or prohibition sign",
+        "F. address or street sign",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "What type of sign would you expect the text \"AUTHORIZED VEHICLES ONLY\" to belong to?\n Options:\nA. storefront or brand sign\nB. direction or navigation sign\nC. event or poster information\nD. menu or commercial information\nE. warning or prohibition sign\nF. address or street sign\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"AUTHORIZED VEHICLES ONLY\" appear in?\n Options:\nA. campus or office\nB. transportation / station\nC. restaurant or menu\nD. other public sign\nE. event poster or display\nF. road or street\nG. storefront\nH. warning / rule sign",
+      "q": "The text \"AUTHORIZED VEHICLES ONLY\" — what kind of setting or scene is it part of?\n Options:\nA. campus or office\nB. transportation / station\nC. restaurant or menu\nD. other public sign\nE. event poster or display\nF. road or street\nG. storefront\nH. warning / rule sign",
+      "a": "A",
+      "a_text": "campus or office",
+      "answer_key": "campus or office",
+      "options": [
+        "A. campus or office",
+        "B. transportation / station",
+        "C. restaurant or menu",
+        "D. other public sign",
+        "E. event poster or display",
+        "F. road or street",
+        "G. storefront",
+        "H. warning / rule sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "The text \"AUTHORIZED VEHICLES ONLY\" — what kind of setting or scene is it part of?\n Options:\nA. campus or office\nB. transportation / station\nC. restaurant or menu\nD. other public sign\nE. event poster or display\nF. road or street\nG. storefront\nH. warning / rule sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"AUTHORIZED VEHICLES ONLY\" mostly appear?\n Options:\nA. bottom-left (lower-left area)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. top-right (upper-right area)\nE. center (middle of the frame)",
+      "q": "Where does \"AUTHORIZED VEHICLES ONLY\" tend to sit in the frame for most of the clip?\n Options:\nA. bottom-left (lower-left area)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. top-right (upper-right area)\nE. center (middle of the frame)",
+      "a": "E",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. bottom-left (lower-left area)",
+        "B. top-left (upper-left area)",
+        "C. bottom-right (lower-right area)",
+        "D. top-right (upper-right area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Where does \"AUTHORIZED VEHICLES ONLY\" tend to sit in the frame for most of the clip?\n Options:\nA. bottom-left (lower-left area)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. top-right (upper-right area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"AUTHORIZED VEHICLES ONLY\" move during the clip?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "How far does \"AUTHORIZED VEHICLES ONLY\" shift from where it starts to where it ends up?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "A",
+      "a_text": "stays in roughly the same place (barely shifts)",
+      "answer_key": "stays in roughly the same place",
+      "options": [
+        "A. stays in roughly the same place (barely shifts)",
+        "B. moves a large distance (shifts across much of the frame)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How far does \"AUTHORIZED VEHICLES ONLY\" shift from where it starts to where it ends up?\n Options:\nA. stays in roughly the same place (barely shifts)\nB. moves a large distance (shifts across much of the frame)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"AUTHORIZED VEHICLES ONLY\" move?\n Options:\nA. stays roughly in place\nB. moves diagonally\nC. moves left\nD. moves up\nE. moves right\nF. changes direction partway\nG. moves down",
+      "q": "If you had to pick a direction, which way does \"AUTHORIZED VEHICLES ONLY\" generally drift?\n Options:\nA. stays roughly in place\nB. moves diagonally\nC. moves left\nD. moves up\nE. moves right\nF. changes direction partway\nG. moves down",
+      "a": "F",
+      "a_text": "changes direction partway",
+      "answer_key": "changes direction partway",
+      "options": [
+        "A. stays roughly in place",
+        "B. moves diagonally",
+        "C. moves left",
+        "D. moves up",
+        "E. moves right",
+        "F. changes direction partway",
+        "G. moves down"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "If you had to pick a direction, which way does \"AUTHORIZED VEHICLES ONLY\" generally drift?\n Options:\nA. stays roughly in place\nB. moves diagonally\nC. moves left\nD. moves up\nE. moves right\nF. changes direction partway\nG. moves down"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"AUTHORIZED VEHICLES ONLY\" at the beginning, the middle, and the end?\n Options:\nA. center -> center -> center\nB. center -> center -> top-right\nC. center -> top-left -> center\nD. top-left -> center -> center",
+      "q": "Can you trace where \"AUTHORIZED VEHICLES ONLY\" sits near the start, then midway through, then toward the end?\n Options:\nA. center -> center -> center\nB. center -> center -> top-right\nC. center -> top-left -> center\nD. top-left -> center -> center",
+      "a": "A",
+      "a_text": "center -> center -> center",
+      "answer_key": "center -> center -> center",
+      "options": [
+        "A. center -> center -> center",
+        "B. center -> center -> top-right",
+        "C. center -> top-left -> center",
+        "D. top-left -> center -> center"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Can you trace where \"AUTHORIZED VEHICLES ONLY\" sits near the start, then midway through, then toward the end?\n Options:\nA. center -> center -> center\nB. center -> center -> top-right\nC. center -> top-left -> center\nD. top-left -> center -> center"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"AUTHORIZED VEHICLES ONLY\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)",
+      "q": "How big does \"AUTHORIZED VEHICLES ONLY\" appear relative to the frame overall?\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)",
+      "a": "D",
+      "a_text": "large (a major part of the frame)",
+      "answer_key": "large",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. medium (a noticeable block of the frame)",
+        "C. small (a minor part of the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "How big does \"AUTHORIZED VEHICLES ONLY\" appear relative to the frame overall?\n Options:\nA. very large (dominates the frame)\nB. medium (a noticeable block of the frame)\nC. small (a minor part of the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"AUTHORIZED VEHICLES ONLY\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets larger",
+      "q": "Keeping an eye on \"AUTHORIZED VEHICLES ONLY\" — does it appear to grow, shrink, or hold roughly the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets larger",
+      "a": "C",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets smaller",
+        "B. size fluctuates (goes up and down)",
+        "C. stays about the same size",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Keeping an eye on \"AUTHORIZED VEHICLES ONLY\" — does it appear to grow, shrink, or hold roughly the same size?\n Options:\nA. gets smaller\nB. size fluctuates (goes up and down)\nC. stays about the same size\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"AUTHORIZED VEHICLES ONLY\" well inside the frame or near an edge?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "q": "Is \"AUTHORIZED VEHICLES ONLY\" comfortably within the frame, or does it sit close to one of the edges?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. comes close to an edge",
+        "B. touches or runs off an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Is \"AUTHORIZED VEHICLES ONLY\" comfortably within the frame, or does it sit close to one of the edges?\n Options:\nA. comes close to an edge\nB. touches or runs off an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"AUTHORIZED VEHICLES ONLY\" and how it appears in the video.",
+      "q": "Give a quick description of \"AUTHORIZED VEHICLES ONLY\" — what it looks like and how it behaves in the clip.",
+      "a": "A white rectangular sign on a metal pole displays \"AUTHORIZED VEHICLES ONLY\" in black uppercase letters near a campus entrance.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "en",
+        "status": "ok"
+      },
+      "q_natural": "Give a quick description of \"AUTHORIZED VEHICLES ONLY\" — what it looks like and how it behaves in the clip."
+    }
+  ],
+  "method": "blur"
+}

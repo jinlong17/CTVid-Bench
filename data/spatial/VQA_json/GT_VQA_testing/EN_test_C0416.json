@@ -1,0 +1,470 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you name the word(s) found inside [[630.8178438661711, 610.5947955390335], [644.7583643122678, 610.5947955390335], [644.7583643122678, 624.7211895910781], [630.8178438661711, 624.7211895910781]]? ________",
+              "answer": [
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What numeral fills the gap in the label \"____\" shown at the coordinates [[1680,181], [1768,181], [1768,302], [1680,302]]?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one lists the text(s) that appear inside [[1073, 174], [1768, 174], [1768, 327], [1073, 327]]? Options:\nA. offairportrentalcar, peertopeercarshare\nB. 1, peertopeercarshare\nC. offairportrentalcar, peertepeercarshare\nD. offairportrentaloar, 2",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) '1, 2, offairportrentalcar, peertopeercarshare' are inside the bounding box [[1073, 174], [1768, 174], [1768, 327], [1073, 327]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at the bounding box [[632, 174], [1768, 174], [1768, 628], [632, 628]] — what word(s) can you read there? ________",
+              "answer": [
+                "2",
+                "offairportrentalcar",
+                "peertopeercarshare",
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "For the label \"peertope____carshare\" at coordinates [[1091,290], [1589,278], [1589,335], [1090,347]], which character(s) are missing?",
+              "answer": "er"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that captures the text(s) visible in region [[1073, 174], [1768, 174], [1768, 327], [1073, 327]]. Options:\nA. 2, 1\nB. 2, peertepeercarshare\nC. 2, offairportrentalcar\nD. 2, offairportrentaloar",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can 'peertopeercarshare, 2, offairportrentalcar, 1' be found inside the bounding box [[peertopeercarshare, 2, offairportrentalcar, 1073, peertopeercarshare, 2, offairportrentalcar, 174], [peertopeercarshare, 2, offairportrentalcar, 1768, peertopeercarshare, 2, offairportrentalcar, 174], [peertopeercarshare, 2, offairportrentalcar, 1768, 327], [peertopeercarshare, 2, offairportrentalcar, 1073, 327]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "In the region [[632, 178], [1768, 178], [1768, 630], [632, 630]], what word(s) can you make out? ________",
+              "answer": [
+                "2",
+                "offairportrentalcar",
+                "peertopeercarshare",
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1099,332], [1598,319], [1598,377], [1098,389]], there's a label with a gap in it — what fills in \"peertop____carshare\"?",
+              "answer": "eer"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[1080, 178], [1768, 178], [1768, 327], [1080, 327]] and select the option that matches the text shown there. Options:\nA. peertopeercarshare, 2\nB. offairportrentalcar, peertepeercarshare\nC. offairportrentalcar, 1\nD. offairportrentaloar, peertopeercarshare",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '2, offairportrentalcar, peertopeercarshare' actually inside the bounding box [[632, offairportrentalcar, peertopeercarshare.2, offairportrentalcar, peertopeercarshare2, offairportrentalcar, peertopeercarshare72, offairportrentalcar, peertopeercarshare568968051, 177.592, offairportrentalcar, peertopeercarshare042, offairportrentalcar, peertopeercarshare90996198], [1768.0, 177.592, offairportrentalcar, peertopeercarshare042, offairportrentalcar, peertopeercarshare90996198], [1768.0, 630.32, offairportrentalcar, peertopeercarshare1378393011], [632, offairportrentalcar, peertopeercarshare.2, offairportrentalcar, peertopeercarshare2, offairportrentalcar, peertopeercarshare72, offairportrentalcar, peertopeercarshare568968051, 630.32, offairportrentalcar, peertopeercarshare1378393011]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible inside the bounding box [[1080, 184], [1768, 184], [1768, 327], [1080, 327]]. ________",
+              "answer": [
+                "2",
+                "offairportrentalcar",
+                "peertopeercarshare"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The label at [[1717,354], [1805,354], [1805,475], [1717,475]] has missing characters — what should go in place of \"____\"?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[1080, 184], [1768, 184], [1768, 327], [1080, 327]], which of the following options correctly lists the text found there? Options:\nA. peertopeercarshare, offairportrentaloar\nB. offairportrentalcar, 2\nC. Z, offairportrentalcar\nD. 2, 1",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'offairportrentalcar, peertopeercarshare' inside the region [[1080, 184], [1768, 184], [1768, 327], [1080, 327]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text contained within the area [[635, 187], [1768, 187], [1768, 636], [635, 636]] and write it below. ________",
+              "answer": [
+                "2",
+                "offairportrentalcar",
+                "peertopeercarshare",
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is obscured in the label at [[1169,436], [1665,421], [1666,480], [1167,494]] — fill in what belongs where \"off____rtrentalcar\" appears.",
+              "answer": "airpo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices given, which one matches the text visible in [[1078, 187], [1768, 187], [1768, 339], [1078, 339]]? Options:\nA. offairportrentaloar, peertopeercarshare\nB. peertopeercarshare, offairportrentaloar\nC. peertopeercarshare, 1\nD. offairportrentalcar, 2",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "'1, 2, peertopeercarshare, offairportrentalcar' — is that label sitting inside the bounding box [[1078, 187], [1768, 187], [1768, 339], [1078, 339]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) you see in the bounding box [[636, 625], [650, 625], [650, 639], [636, 639]]. ________",
+              "answer": [
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What number(s) complete the sequence \"____\" in the area bounded by [[771,831], [784,831], [784,845], [770,844]]?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[1075, 190], [1768, 190], [1768, 338], [1075, 338]] and match it to the right answer choice. Options:\nA. 2, 1\nB. peertepeercarshare, 2\nC. offairportrentalcar, peertepeercarshare\nD. peertopeercarshare, 2",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: can you spot 'peertopeercarshare, 1' somewhere within [[636, 190], [1580, 190], [1580, 639], [636, 639]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the word(s) visible in the area [[636.0720184876901, 626.0518117518351], [650.0125389337868, 626.0518117518351], [650.0125389337868, 640.1782058038797], [636.0720184876901, 640.1782058038797]]. ________",
+              "answer": [
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Fill in the missing character(s) in \"____\" — the label is located at [[730,806], [744,806], [743,820], [730,819]].",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one correctly captures the text you see in [[1075, 190], [1770, 190], [1770, 338], [1075, 338]]? Options:\nA. offairportrentaloar, peertopeercarshare\nB. peertopeercarshare, 1\nC. offairportrentalcar, peertopeercarshare\nD. offairportrentalcar, peertepeercarshare",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me: is 'peertopeercarshare, 1, 2' found within the bounding box [[636.07peertopeercarshare, 1, 20184876901, 190.3033368516peertopeercarshare, 1, 2peertopeercarshare, 1, 24], [1769.8peertopeercarshare, 1, 24817518peertopeercarshare, 1, 248peertopeercarshare, 1, 2, 190.3033368516peertopeercarshare, 1, 2peertopeercarshare, 1, 24], [1769.8peertopeercarshare, 1, 24817518peertopeercarshare, 1, 248peertopeercarshare, 1, 2, 640.178peertopeercarshare, 1, 2058038797], [636.07peertopeercarshare, 1, 20184876901, 640.178peertopeercarshare, 1, 2058038797]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) do you see when you look at the area [[637.0458729351294, 195.63667018495573], [1772.8949929568446, 195.63667018495573], [1772.8949929568446, 642.1127071515886], [637.0458729351294, 642.1127071515886]]? ________",
+              "answer": [
+                "2",
+                "offairportrentalcar",
+                "peertopeercarshare",
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Given the label at [[1749,430], [1844,428], [1841,560], [1745,559]], what character(s) fit into the gap shown as \"____\"?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and pick the option that best represents the text you find at [[1076, 196], [1773, 196], [1773, 347], [1076, 347]]. Options:\nA. 1, offairportrentalcar\nB. offairportrentalcar, peertepeercarshare\nC. peertopeercarshare, 2\nD. peertepeercarshare, offairportrentalcar",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether 'peertopeercarshare, 1' falls inside the bounding box [[637, peertopeercarshare, 196], [peertopeercarshare, 1589, peertopeercarshare, 196], [peertopeercarshare, 1589, 642], [637, 642]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you see inside [[638, 631], [652, 631], [652, 645], [638, 645]]. ________",
+              "answer": [
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the text region [[1743,430], [1838,428], [1835,560], [1738,559]], what digit(s) fills in the partial label \"____\"?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box [[1076, 196], [1773, 196], [1773, 347], [1076, 347]] contains some text — which answer option matches it? Options:\nA. peertopeercarshare, Z\nB. peertopeercarshare, 1\nC. offairportrentalcar, 2\nD. offairportrentalcar, Z",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether '1, peertopeercarshare, offairportrentalcar, 2' appears inside the region [[1076, 196], [1773, 196], [1773, 347], [1076, 347]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text visible inside [[638, 200], [1781, 200], [1781, 647], [638, 647]]. ________",
+              "answer": [
+                "2",
+                "offairportrentalcar",
+                "peertopeercarshare",
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A gap appears in the label at [[1002,402], [1499,400], [1501,465], [1001,466]] — complete the partial text: \"offair____entalcar\".",
+              "answer": "port"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[638, 200], [1589, 200], [1589, 647], [638, 647]], which of the following options matches what's written there? Options:\nA. peertepeercarshare, offairportrentalcar\nB. offairportrentalcar, 1\nC. peertopeercarshare, 2\nD. offairportrentaloar, 1",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'peertopeercarshare, 2' the text shown inside the bounding box [[1085, 200], [1781, 200], [1781, 347], [1085, 347]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Take a look at [[639, 635], [653, 635], [653, 649], [639, 649]] — what word or words appear there? ________",
+              "answer": [
+                "1"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[1644,1032], [1718,1034], [1718,1059], [1642,1057]], the label reads \"st____n\" with missing letters — what goes in the gap?",
+              "answer": "atio"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[1080, 203], [1776, 203], [1776, 347], [1080, 347]] and tell me which option below matches it. Options:\nA. offairportrentalcar, peertepeercarshare\nB. offairportrentaloar, peertopeercarshare\nC. offairportrentalcar, peertopeercarshare\nD. 1, 2",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) 'peertopeercarshare, offairportrentalcar' fall within the box [[1080, peertopeercarshare, offairportrentalcar03], [1776, peertopeercarshare, offairportrentalcar03], [1776, 347], [1080, 347]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/C0416/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0416/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Cast your eye over [[1082, 206], [1776, 206], [1776, 356], [1082, 356]] and write down the word(s) you find. ________",
+              "answer": [
+                "2",
+                "offairportrentalcar",
+                "peertopeercarshare"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Partial digits appear in the text at [[1184,409], [1279,407], [1276,539], [1179,539]]: \"____\" — what fills the blank?",
+              "answer": "2"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options listed, which one matches the text found in [[1082, 206], [1776, 206], [1776, 356], [1082, 356]]? Options:\nA. peertopeercarshare, Z\nB. peertopeercarshare, offairportrentaloar\nC. offairportrentalcar, 1\nD. 2, peertopeercarshare",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether 'offairportrentalcar, 1, peertopeercarshare' is the text found inside the bounding box [[639.73343offairportrentalcar, 1, peertopeercarshare7104711, offairportrentalcar, 1, peertopeercarshare05.891offairportrentalcar, 1, peertopeercarshareoffairportrentalcar, 1, peertopeercarshare3619offairportrentalcar, 1, peertopeercarshare3offairportrentalcar, 1, peertopeercarshare65], [1776.4348159656943, offairportrentalcar, 1, peertopeercarshare05.891offairportrentalcar, 1, peertopeercarshareoffairportrentalcar, 1, peertopeercarshare3619offairportrentalcar, 1, peertopeercarshare3offairportrentalcar, 1, peertopeercarshare65], [1776.4348159656943, 653.8469893offairportrentalcar, 1, peertopeercarshare88187], [639.73343offairportrentalcar, 1, peertopeercarshare7104711, 653.8469893offairportrentalcar, 1, peertopeercarshare88187]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0416"
+  }
+]

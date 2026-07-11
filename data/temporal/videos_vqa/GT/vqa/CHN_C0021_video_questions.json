@@ -1,0 +1,312 @@
+{
+  "video_id": "C0021",
+  "frames": 120,
+  "word": "九华街(迎仙桥站)",
+  "video_path": "temporal/videos_vqa/GT/videos/CHN_C0021.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"九华街(迎仙桥站)\" likely to be?\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. storefront or brand sign\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. menu or commercial information",
+      "q": "写着「九华街(迎仙桥站)」的这段文字，看起来像是哪种类型的标牌？\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. storefront or brand sign\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. menu or commercial information",
+      "a": "A",
+      "a_text": "direction or navigation sign",
+      "answer_key": "direction or navigation sign",
+      "options": [
+        "A. direction or navigation sign",
+        "B. event or poster information",
+        "C. storefront or brand sign",
+        "D. general scene text",
+        "E. warning or prohibition sign",
+        "F. address or street sign",
+        "G. menu or commercial information"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「九华街(迎仙桥站)」的这段文字，看起来像是哪种类型的标牌？\n Options:\nA. direction or navigation sign\nB. event or poster information\nC. storefront or brand sign\nD. general scene text\nE. warning or prohibition sign\nF. address or street sign\nG. menu or commercial information"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"九华街(迎仙桥站)\" appear in?\n Options:\nA. transportation / station\nB. campus or office\nC. event poster or display\nD. warning / rule sign\nE. storefront\nF. road or street\nG. other public sign\nH. restaurant or menu",
+      "q": "画面里出现「九华街(迎仙桥站)」的地方，周围是什么样的场景环境？\n Options:\nA. transportation / station\nB. campus or office\nC. event poster or display\nD. warning / rule sign\nE. storefront\nF. road or street\nG. other public sign\nH. restaurant or menu",
+      "a": "A",
+      "a_text": "transportation / station",
+      "answer_key": "transportation / station",
+      "options": [
+        "A. transportation / station",
+        "B. campus or office",
+        "C. event poster or display",
+        "D. warning / rule sign",
+        "E. storefront",
+        "F. road or street",
+        "G. other public sign",
+        "H. restaurant or menu"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "画面里出现「九华街(迎仙桥站)」的地方，周围是什么样的场景环境？\n Options:\nA. transportation / station\nB. campus or office\nC. event poster or display\nD. warning / rule sign\nE. storefront\nF. road or street\nG. other public sign\nH. restaurant or menu"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"九华街(迎仙桥站)\" mostly appear?\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "q": "在视频播放过程中，「九华街(迎仙桥站)」这行字大多数时候出现在画面的哪个位置？\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)",
+      "a": "A",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. center (middle of the frame)",
+        "B. top-left (upper-left area)",
+        "C. bottom-right (lower-right area)",
+        "D. bottom-left (lower-left area)",
+        "E. top-right (upper-right area)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在视频播放过程中，「九华街(迎仙桥站)」这行字大多数时候出现在画面的哪个位置？\n Options:\nA. center (middle of the frame)\nB. top-left (upper-left area)\nC. bottom-right (lower-right area)\nD. bottom-left (lower-left area)\nE. top-right (upper-right area)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"九华街(迎仙桥站)\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "q": "整段视频里，「九华街(迎仙桥站)」这行字的位置变动幅度大不大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. stays in roughly the same place (barely shifts)",
+        "C. moves a moderate amount (shifts across part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "整段视频里，「九华街(迎仙桥站)」这行字的位置变动幅度大不大？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. stays in roughly the same place (barely shifts)\nC. moves a moderate amount (shifts across part of the frame)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"九华街(迎仙桥站)\" move?\n Options:\nA. moves left\nB. stays roughly in place\nC. moves up\nD. moves diagonally\nE. moves right\nF. moves down\nG. changes direction partway",
+      "q": "「九华街(迎仙桥站)」这段文字整体上是朝哪个方向移动的？\n Options:\nA. moves left\nB. stays roughly in place\nC. moves up\nD. moves diagonally\nE. moves right\nF. moves down\nG. changes direction partway",
+      "a": "A",
+      "a_text": "moves left",
+      "answer_key": "moves left",
+      "options": [
+        "A. moves left",
+        "B. stays roughly in place",
+        "C. moves up",
+        "D. moves diagonally",
+        "E. moves right",
+        "F. moves down",
+        "G. changes direction partway"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「九华街(迎仙桥站)」这段文字整体上是朝哪个方向移动的？\n Options:\nA. moves left\nB. stays roughly in place\nC. moves up\nD. moves diagonally\nE. moves right\nF. moves down\nG. changes direction partway"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"九华街(迎仙桥站)\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-left -> bottom-left\nB. center -> center -> bottom-left\nC. center -> center -> center\nD. center -> center -> top-left",
+      "q": "从片头到片中再到片尾，「九华街(迎仙桥站)」在画面里分别处于哪个位置？\n Options:\nA. center -> top-left -> bottom-left\nB. center -> center -> bottom-left\nC. center -> center -> center\nD. center -> center -> top-left",
+      "a": "B",
+      "a_text": "center -> center -> bottom-left",
+      "answer_key": "center -> center -> bottom-left",
+      "options": [
+        "A. center -> top-left -> bottom-left",
+        "B. center -> center -> bottom-left",
+        "C. center -> center -> center",
+        "D. center -> center -> top-left"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "从片头到片中再到片尾，「九华街(迎仙桥站)」在画面里分别处于哪个位置？\n Options:\nA. center -> top-left -> bottom-left\nB. center -> center -> bottom-left\nC. center -> center -> center\nD. center -> center -> top-left"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"九华街(迎仙桥站)\" in the frame?\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "q": "你觉得「九华街(迎仙桥站)」这行字在画面里占的面积大还是小？\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "a": "A",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. small (a minor part of the frame)",
+        "B. very large (dominates the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "你觉得「九华街(迎仙桥站)」这行字在画面里占的面积大还是小？\n Options:\nA. small (a minor part of the frame)\nB. very large (dominates the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"九华街(迎仙桥站)\" get larger, smaller, or stay about the same size?\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "q": "随着视频播放，「九华街(迎仙桥站)」这行字的大小有没有明显变化？\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger",
+      "a": "B",
+      "a_text": "stays about the same size",
+      "answer_key": "stays about the same size",
+      "options": [
+        "A. gets smaller",
+        "B. stays about the same size",
+        "C. size fluctuates (goes up and down)",
+        "D. gets larger"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "随着视频播放，「九华街(迎仙桥站)」这行字的大小有没有明显变化？\n Options:\nA. gets smaller\nB. stays about the same size\nC. size fluctuates (goes up and down)\nD. gets larger"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"九华街(迎仙桥站)\" well inside the frame or near an edge?\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "q": "观察一下「九华街(迎仙桥站)」这段文字，它是处于画面的中央区域，还是靠近某条边缘？\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge",
+      "a": "C",
+      "a_text": "comes close to an edge",
+      "answer_key": "comes close to an edge",
+      "options": [
+        "A. fully inside, away from the edges",
+        "B. touches or runs off an edge",
+        "C. comes close to an edge"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "观察一下「九华街(迎仙桥站)」这段文字，它是处于画面的中央区域，还是靠近某条边缘？\n Options:\nA. fully inside, away from the edges\nB. touches or runs off an edge\nC. comes close to an edge"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"九华街(迎仙桥站)\" and how it appears in the video.",
+      "q": "简单说说「九华街(迎仙桥站)」这行文字的样子，以及它在视频里是怎么呈现的？",
+      "a": "The text appears in white characters on a large brown informational sign displaying passenger schedules.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "简单说说「九华街(迎仙桥站)」这行文字的样子，以及它在视频里是怎么呈现的？"
+    }
+  ]
+}

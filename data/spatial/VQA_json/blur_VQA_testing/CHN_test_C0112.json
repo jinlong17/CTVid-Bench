@@ -1,0 +1,473 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Reading the region marked by [[1159.927797833935, 153.71841155234654], [1501.0, 153.71841155234654], [1501.0, 1011.480144404332], [1159.927797833935, 1011.480144404332]], what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "HEYTEAGO",
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Look at the text at [[1212,154], [1501,198], [1497,269], [1208,214]] and complete the missing part: HEY____GO.",
+              "answer": "TEA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that matches the text found in [[1160, 154], [1501, 154], [1501, 1011], [1160, 1011]]. Options:\nA. HEYTEAGO, 扫码下单, 无霌下载\nB. 无需下载, 下单免排队, HEYTEAGO\nC. 扫码下单, HEYTEAGO, 下单免擓队\nD. HEYTEAGO, 无霄下载, 下单免排队",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[1159.927797833935, 153.71841155234654], [1501.0, 153.71841155234654], [1501.0, 1011.480144404332], [1159.927797833935, 1011.480144404332]], do you see the label(s) '无需下载, HEYTEAGO, 扫码下单' there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the text visible inside [[1206.5436368685464, 157.21491504885012], [1499.6013986013984, 157.21491504885012], [1499.6013986013984, 269.1282724495722], [1206.5436368685464, 269.1282724495722]] — what word(s) show up? The word(s) is/are ________.",
+              "answer": [
+                "HEYTEAGO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像区域 [[1170,874], [1268,923], [1265,960], [1168,912]] 中有一个不完整的词，请补全它：\"____需下载\"。",
+              "answer": "无"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that matches what's written in [[1159, 157], [1500, 157], [1500, 1015], [1159, 1015]]. Options:\nA. HEYTEAGO, 下单免擓队, 无需下载\nB. 无需下载, 下单免攊队, 扫码下单\nC. 扫码下单, HEYIEAGO, 无需下载\nD. 扫码下单, 下单免排队, 无需下载",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The region [[1159, 729], [1459, 729], [1459, 1015], [1159, 1015]] — does it contain the label(s) '扫码下单, 无需下载, 下单免排队, HEYTEAGO'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) appear inside [[1158, 732], [1459, 732], [1459, 1017], [1158, 1017]]. The answer is ________.",
+              "answer": [
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a gap in the text at [[1196,190], [1490,240], [1482,308], [1192,255]] — fill it in to complete the label: H____TEAGO.",
+              "answer": "EY"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[1158, 155], [1500, 155], [1500, 1017], [1158, 1017]] and match what you see to one of the options. Options:\nA. 扫码下单, HEYTEAGO, 无霌下载\nB. HEYTEAGO, 无霄下载, 下单免排队\nC. 无需下载, 扫码下单, HEYIEAGO\nD. 扫码下单, HEYTEAGO, 无需下载",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd find '扫码下单, 下单免排队' inside [[1158, 732], [1459, 732], [1459, 1017], [1158, 1017]], right? True or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) visible at [[1157, 736], [1457, 736], [1457, 1018], [1157, 1018]]. The answer is ________.",
+              "answer": [
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1154,790], [1445,912], [1432,1020], [1144,892]] 处的文字有缺失，请填入正确内容使其完整：____码下单。",
+              "answer": "扫"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What does the text in [[1157, 158], [1499, 158], [1499, 1018], [1157, 1018]] say? Pick the matching option. Options:\nA. 扫码下单, HEYTEAGO, 下单免擓队\nB. 下单免攊队, HEYTEAGO, 无需下载\nC. 扫码下单, HEYTEAGO, 无霄下载\nD. 扫码下单, 下单免排队, 无需下载",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the bounding box [[1157, 736], [1457, 736], [1457, 1018], [1157, 1018]] — is '下单免排队, 扫码下单' the text shown there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[1155, 737], [1456, 737], [1456, 1020], [1155, 1020]] and write what it says. The answer is ________.",
+              "answer": [
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请将 [[1108,783], [1398,906], [1386,1014], [1098,886]] 区域内文字的缺失部分补充完整：\"扫____下单\"。",
+              "answer": "码"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the given options, which one accurately represents the text seen at [[1155, 159], [1498, 159], [1498, 1020], [1155, 1020]]? Options:\nA. 下单免排队, 扫码下单, 无需下载\nB. 无霄下载, 扫码下单, 下单免排队\nC. 下单免攊队, 无需下载, HEYTEAGO\nD. 无需下载, HEYTEAGO, 下单免擓队",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "If you look at [[1155, 737], [1456, 737], [1456, 1020], [1155, 1020]], does it show the label(s) '无需下载, 下单免排队'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on the region [[1201, 159], [1498, 159], [1498, 277], [1201, 277]], what word(s) can you make out? The answer is ________.",
+              "answer": [
+                "HEYTEAGO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "找到 [[1212,955], [1341,1020], [1337,1062], [1209,1002]] 对应的文字，把空缺处填上，让短语完整：____单免排队。",
+              "answer": "下"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Each of these options claims to be the text at [[1155, 159], [1498, 159], [1498, 1020], [1155, 1020]] — pick the right one. Options:\nA. 下单免排队, 无需下载, HEYIEAGO\nB. HEYTEAGO, 扫码下单, 下单免擓队\nC. HEYTEAGO, 下单免排队, 无需下载\nD. 无霄下载, 下单免排队, HEYTEAGO",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Fact check: do the label(s) '无需下载, 扫码下单, 下单免排队, HEYIEAGO' appear within the area [[1154.930058504299, 158.6206896551724], [1498.3513986013984, 158.6206896551724], [1498.3513986013984, 1020.4048789072835], [1154.930058504299, 1020.4048789072835]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[1154.930058504299, 158.6206896551724], [1498.3513986013984, 158.6206896551724], [1498.3513986013984, 1020.4048789072835], [1154.930058504299, 1020.4048789072835]], what text can you read there? The word(s) is/are ________.",
+              "answer": [
+                "HEYTEAGO",
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What's missing from the text at [[1088,220], [1377,270], [1374,338], [1084,285]]? Fill in the gap: HEY____GO",
+              "answer": "TEA"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glance at region [[1155, 737], [1456, 737], [1456, 1020], [1155, 1020]] — which of these options matches what's written there? Options:\nA. 下单免擓队, 扫码下单\nB. 扫砀下单, 下单免排队\nC. HEYTEAGO, 扫码下单\nD. 下单免排队, 扫码下单",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) 'HEYTEAGO, 下单免排队, 无需下载, 扫码下单' appearing inside the bounding box [[1155, 737], [1456, 737], [1456, 1020], [1155, 1020]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) you can read inside the region [[1152, 162], [1496, 162], [1496, 1024], [1152, 1024]]: ________.",
+              "answer": [
+                "HEYTEAGO",
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at [[1057,230], [1347,280], [1343,348], [1053,295]], something is missing — fill in the blank to complete the phrase: HEYTE____O.",
+              "answer": "AG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, pick the one that accurately represents the text found in [[1152, 162], [1496, 162], [1496, 1024], [1152, 1024]]. Options:\nA. 扫码下单, 无需下载, HEYTEAGO\nB. 无需下载, HEYTEAGO, 下单免攊队\nC. 下单免擓队, HEYTEAGO, 无需下载\nD. 扫码下单, 无霄下载, HEYTEAGO",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Those label(s) '扫码下单, 无需下载, 下单免排队' — are they actually inside the bounding box [[1152.430058504299, 162.3706896551724], [1495.8513986013984, 162.3706896551724], [1495.8513986013984, 1024.1548789072835], [1152.430058504299, 1024.1548789072835]]? Yes or no.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out the word(s) visible in region [[1152, 746], [1453, 746], [1453, 1029], [1152, 1029]]: ________.",
+              "answer": [
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Here's a partial text from [[1020,232], [1309,282], [1306,350], [1016,297]] — what character(s) should go in the gap? HEYT____O.",
+              "answer": "EAG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the bounding box at [[1152, 746], [1453, 746], [1453, 1029], [1152, 1029]] and tell me — which answer choice has the right text? Options:\nA. HEYTEAGO, 扫码下单\nB. 下单免排队, 无需下载\nC. 下单免擓队, 扫码下单\nD. 下单免排队, 扫砀下单",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'HEYTEAGO, 无需下载, 扫码下单, 下单免排队' the label shown inside the bounding box [[1152, 746], [1453, 746], [1453, 1029], [1152, 1029]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text inside [[1152, 170], [1496, 170], [1496, 1032], [1152, 1032]] carefully — what word(s) do you find? ________.",
+              "answer": [
+                "HEYTEAGO",
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "边界框 [[1087,966], [1216,1031], [1212,1073], [1084,1013]] 里的文本有一处空白，请补全：\"下单____排队\"。",
+              "answer": "免"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears at [[1152, 748], [1453, 748], [1453, 1032], [1152, 1032]]? Pick the option that matches. Options:\nA. 扫码下单, 无霄下载\nB. 扫码下单, HEYTEAGO\nC. 无霄下载, 下单免排队\nD. 下单免排队, 扫码下单",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question is simple: do '无需下载, HEYTEAGO, 下单免排队, 扫码下单' appear as labels inside [[1152, 748], [1453, 748], [1453, 1032], [1152, 1032]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you see inside the box at [[1151, 752], [1452, 752], [1452, 1035], [1151, 1035]]: ________.",
+              "answer": [
+                "扫码下单",
+                "无需下载",
+                "下单免排队"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看 [[898,780], [1189,902], [1176,1010], [888,882]] 框内的文字，缺失的字符是什么？请补充完整：\"扫码____\"",
+              "answer": "下单"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the bounding box [[1151, 174], [1495, 174], [1495, 1035], [1151, 1035]], which answer best captures the text shown there? Options:\nA. 下单免排队, 扫码下单, 无霌下载\nB. 下单免排队, 扫码下单, 无霄下载\nC. 扫码下单, 下单免擓队, 无需下载\nD. 下单免排队, HEYTEAGO, 扫码下单",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'll see some text in [[1151, 752], [1452, 752], [1452, 1035], [1151, 1035]] — is '扫码下单, 下单免排队' what's labeled there? True or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/CHN/C0112/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0112/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[1197, 177], [1495, 177], [1495, 295], [1197, 295]], there's some text — type out the word(s) you see: ________.",
+              "answer": [
+                "HEYTEAGO"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看坐标 [[982,952], [1111,1017], [1107,1059], [978,998]] 范围内的文字，\"下单免____\" 中缺少了什么，填入补全。",
+              "answer": "排队"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Carefully examine [[1151, 756], [1452, 756], [1452, 1039], [1151, 1039]] and select the option that lists the text you see. Options:\nA. 下单免擓队, 扫码下单\nB. 无需下载, 下单免排队\nC. 无需下载, 下单免擓队\nD. 无需下载, HEYTEAGO",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Focusing on the region [[1151, 756], [1452, 756], [1452, 1039], [1151, 1039]], would you say '扫码下单, HEYTEAGO, 无需下载, 下单免排队' is/are the label(s) present?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0112"
+  }
+]

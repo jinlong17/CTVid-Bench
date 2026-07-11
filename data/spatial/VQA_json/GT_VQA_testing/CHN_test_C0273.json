@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go ahead and read what's inside [[552.8301886792452, 549.9056603773585], [1386.7924528301887, 549.9056603773585], [1386.7924528301887, 745.188679245283], [552.8301886792452, 745.188679245283]] — what words do you see? The word(s) is/are ________.",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图片坐标 [[555,550], [1387,592], [1381,688], [557,628]] 处显示的是什么文字？请将\"广州旅游信息咨询中____\"填写完整。",
+              "answer": "心"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options provided, which one captures the exact text shown at [[553, 550], [1387, 550], [1387, 745], [553, 745]]? Options:\nA. GuangzhouTouristInformationCentre\nB. 广州旅游信恖咨询中心\nC. GuangzhouTouristInformatianCentre\nD. 广州旅游信息咨诩中心",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'GuangzhouTouristInformationCentre' appearing inside the box at [[552.8301886792452, 549.9056603773585], [1386.7924528301887, 549.9056603773585], [1386.7924528301887, 745.188679245283], [552.8301886792452, 745.188679245283]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Identify the word(s) visible in region [[552.8301886792452, 549.9056603773585], [1386.7924528301887, 549.9056603773585], [1386.7924528301887, 745.188679245283], [552.8301886792452, 745.188679245283]]. The word(s) is/are ________.",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像坐标[[537,563], [1369,605], [1364,701], [539,641]]处的标志有些文字模糊，请补全缺失的汉字：\"广州旅游信息____心\"。",
+              "answer": "咨询中"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text(s) visible at [[553, 550], [1387, 550], [1387, 745], [553, 745]]? Options:\nA. GuangzhouTeuristInformationCentre\nB. 广州旅游信恖咨询中心\nC. GuangzhouTouristInformationCentre\nD. GuangzhouTouristInformatianCentre",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '广州旅游信息咨询中心' actually inside the bounding box [[552.8301886792452, 549.9056603773585], [1386.7924528301887, 549.9056603773585], [1386.7924528301887, 745.188679245283], [552.8301886792452, 745.188679245283]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spell out the word(s) you can read in the area [[552.8301886792452, 549.9056603773585], [1386.7924528301887, 549.9056603773585], [1386.7924528301887, 745.188679245283], [552.8301886792452, 745.188679245283]]. The word(s) is/are ________.",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位置[[489,636], [1325,685], [1323,743], [485,693]]的图像里有个不完整的词组，请把缺少的字补上：\"____TouristInformationCentre\"。",
+              "answer": "Guangzhou"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one correctly names the text(s) you see at [[553, 550], [1387, 550], [1387, 745], [553, 745]]? Options:\nA. GuangzhouTouristInformationOentre\nB. GuangzhouTouristInformatianCentre\nC. GuangzhouTouristInformationCentre\nD. GuangzhouTeuristInformationCentre",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'GuangzhouTouristInformationCentre, 广州旅游信恖咨询中心' sits inside the bounding box at [[552.8301886792452, 549.9056603773585], [1386.7924528301887, 549.9056603773585], [1386.7924528301887, 745.188679245283], [552.8301886792452, 745.188679245283]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[554.3926886792452, 551.4681603773585], [1389.9174528301887, 551.4681603773585], [1389.9174528301887, 748.313679245283], [554.3926886792452, 748.313679245283]] and note what word(s) appear there. The word(s) is/are ________.",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看图像[[494,557], [1315,590], [1312,682], [491,640]]坐标处的标志，缺失的那个字是什么？请填入：\"广州旅游信____咨询中心\"。",
+              "answer": "息"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best matches what's written in region [[554, 551], [1390, 551], [1390, 748], [554, 748]]. Options:\nA. GuangzhouTouristInformatianCentre\nB. GuangzhouTouristInformationOentre\nC. 广州旅游信息咨询中心\nD. GuangzhouTeuristInformationCentre",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "In your view, does the label 'GuangzhouTouristInformationCentre' appear inside [[554.3926886792452, 551.4681603773585], [1389.9174528301887, 551.4681603773585], [1389.9174528301887, 748.313679245283], [554.3926886792452, 748.313679245283]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read and write down the word(s) you see inside [[564, 555], [1398, 555], [1398, 751], [564, 751]]. ________",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像[[503,548], [1323,580], [1320,673], [499,630]]处有个词只显示了一部分，你能填出缺失的字吗？\"广州旅游____息咨询中心\"",
+              "answer": "信"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that correctly lists what's written in region [[564, 555], [1398, 555], [1398, 751], [564, 751]]. Options:\nA. 广州旅游信恖咨询中心\nB. GuangzhouTouristInformatianCentre\nC. 广州旅游信息咨诩中心\nD. 广州旅游信息咨询中心",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot '广州旅游信息咨询中心' anywhere inside the bounding box [[563.7676886792452, 554.5931603773585], [1397.7299528301887, 554.5931603773585], [1397.7299528301887, 751.438679245283], [563.7676886792452, 751.438679245283]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Fill in the word(s) you can read at [[561, 558], [1393, 558], [1393, 753], [561, 753]]. ________",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "把图像[[514,595], [1350,643], [1347,701], [509,651]]处那个残缺的词语补完整：\"GuangzhouTou____InformationCentre\"。",
+              "answer": "rist"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following options names the text(s) you can read at [[561, 558], [1393, 558], [1393, 753], [561, 753]]? Options:\nA. 广州旅游信息咨询中心\nB. GuangzhouTeuristInformationCentre\nC. GuangzhouTouristInformatianCentre\nD. 广州旅游信恖咨询中心",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether 'GuangzhouTouristInformationCentre' sits inside the marked region [[560.6426886792452, 557.7181603773585], [1393.0424528301887, 557.7181603773585], [1393.0424528301887, 753.001179245283], [560.6426886792452, 753.001179245283]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write the word(s) that appear inside the region [[559, 561], [1393, 561], [1393, 755], [559, 755]]. ________",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[467,530], [1331,574], [1329,671], [464,618]]标注的位置藏着一个地名，请把缺失的字补全：\"广州旅游信____询中心\"。",
+              "answer": "息咨"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the correct option for the text(s) visible at [[559, 561], [1393, 561], [1393, 755], [559, 755]]. Options:\nA. 广州旅游信恖咨询中心\nB. 广州旅游信息咨询中心\nC. 广州旅游信息咨诩中心\nD. 广州旍游信息咨询中心",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[559.4044811320755, 560.8431603773585], [1392.6886792452829, 560.8431603773585], [1392.6886792452829, 754.563679245283], [559.4044811320755, 754.563679245283]] actually contain the label(s) '广州旅游信息咨询中心'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you see inside [[562, 561], [1396, 561], [1396, 755], [562, 755]]. ________",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "图像中[[473,561], [1337,604], [1335,702], [470,649]]位置的文字能帮你找到答案，请填写\"____州旅游信息咨询中心\"。",
+              "answer": "广"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that matches the text visible in [[562, 561], [1396, 561], [1396, 755], [562, 755]]. Options:\nA. 广州旍游信息咨询中心\nB. 广州旅游信恖咨询中心\nC. 广州旅游信息咨诩中心\nD. 广州旅游信息咨询中心",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see '广州旅游信息咨询中心, GuangzhouTouristInformationCentrc' appearing anywhere in the region [[562.2051886792452, 560.8431603773585], [1396.1674528301887, 560.8431603773585], [1396.1674528301887, 754.563679245283], [562.2051886792452, 754.563679245283]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text appears in [[559, 566], [1395, 566], [1395, 759], [559, 759]]. ________",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细观察图像坐标[[465,575], [1360,628], [1354,732], [461,668]]的区域，试着把\"广州旅____信息咨询中心\"补充完整。",
+              "answer": "游"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these options lists the text found inside [[559, 566], [1395, 566], [1395, 759], [559, 759]]? Options:\nA. 广州旅游信息咨诩中心\nB. 广州旅游信恖咨询中心\nC. 广州旅游信息咨询中心\nD. GuangzhouTouristInformatianCentre",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The label(s) '广州旅游信息咨询中心, GuangzhouTouristInformationCentrc' — do they show up in [[559.0801886792452, 565.5306603773585], [1394.6049528301887, 565.5306603773585], [1394.6049528301887, 759.251179245283], [559.0801886792452, 759.251179245283]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) visible in [[556, 564], [1390, 564], [1390, 759], [556, 759]]. ________",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标[[452,587], [1348,640], [1341,744], [449,679]]的文字可以作为提示，请补全\"广州旅游信息咨询____\"。",
+              "answer": "中心"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options provided, which one accurately reflects what's written in [[556, 564], [1390, 564], [1390, 759], [556, 759]]? Options:\nA. 广州旅游信息咨询中心\nB. GuangzhouTouristInformatianCentre\nC. 广州旅游信恖咨询中心\nD. GuangzhouTeuristInformationCentre",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scan [[555.9551886792452, 563.9681603773585], [1389.9174528301887, 563.9681603773585], [1389.9174528301887, 759.251179245283], [555.9551886792452, 759.251179245283]] — can you spot the label(s) 'GuangzhouTouristInformationCentre, 广州旅游信恖咨询中心' there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and type out the text shown in [[537, 563], [1383, 563], [1383, 759], [537, 759]]. ________",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请看图像坐标[[439,608], [1335,661], [1329,765], [436,700]]处的文字，帮我填出\"广州____信息咨询中心\"中缺少的字符。",
+              "answer": "旅游"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that best describes the text visible in [[537, 563], [1383, 563], [1383, 759], [537, 759]]. Options:\nA. 广州旅游信息咨询中心\nB. 广州旅游信恖咨询中心\nC. GuangzhouTouristInformatianCentre\nD. GuangzhouTeuristInformationCentre",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You'd expect to find 'GuangzhouTouristInformationCentrc, 广州旅游信息咨询中心' inside [[537.0872641509434, 563.0247641509433], [1383.3136792452829, 563.0247641509433], [1383.3136792452829, 759.251179245283], [537.0872641509434, 759.251179245283]] — is that actually the case?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/C0273/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0273/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text can be read from the area [[537, 563], [1369, 563], [1369, 760], [537, 760]]? ________",
+              "answer": [
+                "广州旅游信息咨询中心",
+                "GuangzhouTouristInformationCentre"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[432,663], [1372,715], [1372,783], [425,724]]坐标区域的图像信息，请将\"GuangzhouTouristInform____onCentre\"补充完整。",
+              "answer": "ati"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options below, which one correctly captures the text inside [[537, 563], [1369, 563], [1369, 760], [537, 760]]? Options:\nA. 广州旅游信恖咨询中心\nB. 广州旅游信息咨询中心\nC. GuangzhouTeuristInformationCentre\nD. GuangzhouTouristInformatianCentre",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[537.0872641509434, 563.0247641509433], [1369.1627358490566, 563.0247641509433], [1369.1627358490566, 759.8881219204422], [537.0872641509434, 759.8881219204422]]: does it contain the label(s) 'GuangzhouTouristInformationCentre, 广州旅游信恖咨询中心'?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0273"
+  }
+]

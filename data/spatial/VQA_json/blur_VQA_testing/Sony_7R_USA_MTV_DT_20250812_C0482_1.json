@@ -1,0 +1,427 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over in [[806, 632], [1190, 632], [1190, 716], [806, 716]], what exactly is written? ________",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3",
+                "AMERICAN ARRA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that matches the text you see in [[917, 632], [1190, 632], [1190, 715], [917, 715]]. Options:\nA. 11/4, Hlllsdale Blvd, 3\nB. AMERICAN ARRA, Z, 11/4\nC. AMERICAN ARRA, 2, 11/4\nD. 2, 3, 11/4I",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the words in bounding box [[806.2395543175487, 631.9463087248322], [1190.3355704697985, 631.9463087248322], [1190.3355704697985, 716.016713091922], [806.2395543175487, 716.016713091922]] match the label(s) 'JUNCTION 92, 11/4, Kehoe Ave, Hl1lsdale Blvd, AMERICAN ARRA, 2, 3'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) does the bounding box [[820, 616], [1332, 616], [1332, 701], [820, 701]] contain? ________",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3",
+                "ERICA",
+                "ARR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Across the whole image, which option correctly identifies the text in [[820, 650], [971, 650], [971, 701], [820, 701]]? Options:\nA. JUNCTION 92, ERICA, Kehoe Ave, 11/4, 2\nB. 3, Hlllsdale Blvd, ARR, Kehoe Ave, JUNCTION 92\nC. 11/4, JUNCTION 92, 3, 2, Hlllsdale Blvd\nD. 3, JUNCTION 92, Z, 11/4, Hlllsdale Blvd",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "At [[820.200431864185, 615.6641604010025], [1331.8045112781954, 615.6641604010025], [1331.8045112781954, 701.2403100775193], [820.200431864185, 701.2403100775193]], does the text read as 'ARR, Hlllsdale Blvd, Kehoe Ave, ERICA, 11/4, 3'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focusing on [[837, 617], [1513, 617], [1513, 709], [837, 709]], write down the word(s) you can read there. ________",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3",
+                "AMERICAN ARRAY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[837, 655], [997, 655], [997, 709], [837, 709]], which of the following options correctly lists the text(s) shown there? Options:\nA. 2, Hlllsdale Blvd, JUNCTION 92, Kehoe Ave, AMERICAN ARRAY\nB. 2, 3, 11/4I, JUNCTION 92, Hlllsdale Blvd\nC. 3, 2, Hlllsdale Blvd, Keboe Ave, JUNCTION 92\nD. JUNCTION 92, 2, Hlllsdale Blvd, 11/4, Kehoe Ave",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[837, 655], [997, 655], [997, 709], [837, 709]], would you find the label(s) 'Kehoe Ave, 11/4, 3, 2'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The text visible inside [[827, 676], [1676, 676], [1676, 774], [827, 774]] reads: ________.",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3",
+                "AMERICAN ARRAY"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text(s) found inside [[827, 676], [1676, 676], [1676, 753], [827, 753]]? Options:\nA. 11/4, Hlllsdale Blvd, JUNCTION 92, 2\nB. Hlllsdale Blvd, 11/4I, JUNCTION 92, 2\nC. Hlllsdale Blvd, Kehoe Ave, 2, AMERICAN ARRAY\nD. 3, 2, AMERICAN ARRAY, 11/4",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '3, 11/4, 2' among the text(s) visible inside the bounding box [[963, 676], [1676, 676], [1676, 770], [963, 770]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the area marked [[1745.4655021595602, 644.9505428364356], [1838.4458390942084, 644.9505428364356], [1838.4458390942084, 685.1485548975292], [1745.4655021595602, 685.1485548975292]], what word(s) can be read? ________",
+              "answer": [
+                "AMERICAN AR"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that correctly identifies the text(s) inside [[822, 645], [1838, 645], [1838, 730], [822, 730]]. Options:\nA. Kehoe Ave, AMERICAN AR, 11/4, Hlllsdale Blvd\nB. AMERICAN AR, 2, 11/4, Hlllsdale Blvd\nC. AMERICAN AR, 11/4, Hlllsdale Blvd, Z\nD. 11/4, 2, AMFRICAN AR, JUNCTION 92",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that 'JUNCTION 92, Hlllsdale Blvd, 11/4, AMERICAN AR, Keboe Ave, 2, 3' can be found within [[821.9840533123311, 644.9505428364356], [1838.4458390942084, 644.9505428364356], [1838.4458390942084, 751.5346721902102], [821.9840533123311, 751.5346721902102]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What word(s) appear at [[811, 678], [1018, 678], [1018, 747], [811, 747]]? ________",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches what's written inside [[811, 678], [958, 678], [958, 747], [811, 747]]? Options:\nA. JUNCTION 92, 11/4\nB. Hlllsdole Blvd, JUNCTION 92\nC. JUNCTION 92, Kehoe Ave\nD. JUNCIION 92, Kehoe Ave",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[811.09357984358, 677.8441085015046], [1017.5124987624988, 677.8441085015046], [1017.5124987624988, 747.1621310727472], [811.09357984358, 747.1621310727472]] actually contain the label(s) 'JUNCTION 92, 3, 11/4, 2, Keboe Ave, Hlllsdale Blvd'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Across the bounding box [[797, 661], [1024, 661], [1024, 738], [797, 738]], the readable word(s) is/are ________.",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options, which one lists the text(s) you'd find at [[797, 661], [960, 661], [960, 738], [797, 738]]? Options:\nA. JUNCTION 92, Hlllsdale Blvd\nB. JUNCIION 92, Hlllsdale Blvd\nC. 11/4, Kehoe Ave\nD. Kehoe Ave, JUNCIION 92",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would the label(s) '2, 11/4, Hlllsdale Blvd, 3' be inside the box defined by [[797.4525103274458, 661.1463630456495], [1024.3169398907103, 661.1463630456495], [1024.3169398907103, 738.4972677595628], [797.4525103274458, 738.4972677595628]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown in the region [[769, 708], [1017, 708], [1017, 792], [769, 792]]: ________.",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the answer that best represents the text(s) visible at [[769, 742], [985, 742], [985, 792], [769, 792]]. Options:\nA. Hlllsdale Blvd, 3, JUNCTION 92\nB. Kehoe Ave, 2, JUNCTION 92\nC. 3, 2, Keboe Ave\nD. JUNCTION 92, Z, Kehoe Ave",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the bounding box [[768.9110903431543, 708.3366031093085], [1016.9291677731786, 708.3366031093085], [1016.9291677731786, 792.4499073093755], [768.9110903431543, 792.4499073093755]] — does it actually contain the label(s) '3, Kehoe Ave, 2, 11/4, Hl1lsdale Blvd, JUNCTION 92'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "At [[745, 628], [1029, 628], [1029, 723], [745, 723]], what text is written there? ________",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[745, 630], [948, 630], [948, 723], [745, 723]] and pick the option listing its text(s). Options:\nA. Hlllsdole Blvd, Kehoe Ave\nB. Hlllsdole Blvd, JUNCTION 92\nC. Hlllsdale Blvd, JUNCTION 92\nD. Kehoe Ave, 11/4",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'Hl1lsdale Blvd, JUNCTION 92, 11/4, 2, Kehoe Ave, 3' inside the bounding box [[744.9871326789668, 627.7368019921363], [1029.0211327198713, 627.7368019921363], [1029.0211327198713, 722.7913395612568], [744.9871326789668, 722.7913395612568]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the text contained in [[721, 697], [1044, 697], [1044, 808], [721, 808]]: ________.",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that matches the text(s) you see at [[722, 697], [1044, 697], [1044, 771], [722, 771]]. Options:\nA. JUNCTION 92, 2, Hlllsdale Blvd\nB. 2, Hlllsdole Blvd, 11/4\nC. 2, Hlllsdale Blvd, Kehoe Ave\nD. 11/4I, Hlllsdale Blvd, JUNCTION 92",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify whether '11/4, Z, 3, Hlllsdale Blvd, JUNCTION 92, Kehoe Ave' falls inside the bounding box [[721.0534730396009, 697.064785373609], [1043.5976417594065, 697.064785373609], [1043.5976417594065, 808.3598304186538], [721.0534730396009, 808.3598304186538]].",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Over at [[689, 691], [1068, 691], [1068, 817], [689, 817]], what word(s) can you make out? ________",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out which option reflects the text(s) visible within [[689, 693], [960, 693], [960, 817], [689, 817]]. Options:\nA. JUNCIION 92, Hlllsdale Blvd\nB. Hlllsdale Blvd, JUNCTION 92\nC. Kehoe Ave, JUNCIION 92\nD. Kehoe Ave, 11/4",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it true that '11/4, 3, Kehoe Ave, 2' appear(s) inside the bounding box [[688.7873174409385, 691.2623097964654], [1067.857845822743, 691.2623097964654], [1067.857845822743, 816.9517279052384], [688.7873174409385, 816.9517279052384]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/Hardcase/C0482_1/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0482_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "The text found inside [[656, 595], [1110, 595], [1110, 743], [656, 743]] — what is it? ________.",
+              "answer": [
+                "Hlllsdale Blvd",
+                "11/4",
+                "JUNCTION 92",
+                "Kehoe Ave",
+                "2",
+                "3"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text(s) visible within [[657, 595], [1110, 595], [1110, 694], [657, 694]]? Options:\nA. 11/4, 2, JUNCTION 92\nB. 2, 11/4, Kehoe Ave\nC. 2, 3, 11/4\nD. 2, JUNCTION 92, Hlllsdole Blvd",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[656.4079211039905, 594.9108275782239], [1110.3397288767742, 594.9108275782239], [1110.3397288767742, 743.3497536945812], [656.4079211039905, 743.3497536945812]], do the label(s) 'Hlllsdale Blvd, 11/4, Z, JUNCTION 92, Kehoe Ave, 3' appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0482_1"
+  }
+]

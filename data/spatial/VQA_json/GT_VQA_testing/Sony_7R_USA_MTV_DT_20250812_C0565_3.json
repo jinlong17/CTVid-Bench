@@ -1,0 +1,432 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_001.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside the region [[293, 128], [953, 128], [953, 492], [293, 492]], what word(s) do you see? ________",
+              "answer": [
+                "Molly Magees",
+                "PUB",
+                "IRISb"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice matches the text found in area [[24, 652], [1334, 652], [1334, 1054], [24, 1054]]? Options:\nA. OLLY, MAGE, OLLY, RLE, LUB, 241, MAGEES, OPBr, Hours, AL\nB. OLLY, OPBr, LUB, Hours, MAOEES, 241B, 241, AL, ALE, MAGE\nC. MAGEES, MAGE, ALE, OPBr, 241, 241B, LUB, Hours, AL\nD. Molly Magees, 241, LUB, 241B, AL, OLLY, ALE, MAGEES, MAGE, OLLY",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'MAGEES, OLLY, MAGE, 241B, ALE, OPBr, LUB, Hours, OLLY' appears inside [[24, 652], [1334, 652], [1334, 1054], [24, 1054]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_011.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[87.90664263017874, 181.43511317538398], [1383.1855101714632, 181.43511317538398], [1383.1855101714632, 1078.5672916121453], [87.90664263017874, 1078.5672916121453]], what word or words do you find there? The word(s) is/are ________.",
+              "answer": [
+                "241B",
+                "Molly Magees",
+                "IRISb",
+                "OLLY",
+                "MAGE",
+                "OLLY",
+                "AL",
+                "ALE",
+                "241",
+                "MAGEES",
+                "PUB"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly lists the text(s) in [[88, 697], [1383, 697], [1383, 1079], [88, 1079]]? Options:\nA. OLLY, MAGE, AL, OLLY, 241, 241B, ALE\nB. IRISb, MAGEES, AL, OLLY, 241, MAGE, 241B\nC. OLLY, Molly Magees, MAGEES, ALE, 241B, MAGE, 241\nD. OLLY, 241B, MAGE, OLLY, 24l, ALE, AL",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '241, MAGEES, MAGE, Molly Magees, PUB' sits inside the box defined by [[88, 181], [1005, 181], [1005, 1065], [88, 1065]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_021.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[0.0, 101.27450980392159], [1031.1155502955394, 101.27450980392159], [1031.1155502955394, 591.2593167826217], [0.0, 591.2593167826217]] contains some text — what word(s) are written there? The word(s) is/are ________.",
+              "answer": [
+                "IRISb",
+                "PUB",
+                "Molly Magees",
+                "HARD",
+                "IHM",
+                "LAW"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one correctly captures the text(s) shown in [[0, 101], [1198, 101], [1198, 1074], [0, 1074]]? Options:\nA. Molly Magees, IHM, O, IRISb, 241, PUB, OLLY, OLLY, Hours, HAPD\nB. MAOE, IRISb, Molly Magees, Hours, LAW, 241B, OLLY, IHM, HARD, O\nC. 241B, HARD, LAW, PUB, IRISb, Hours, Molly Magees, AL, O, OLLY\nD. IRISb, Molly Magees, MAGEE, PUB, HARD, 241, OLLY, LAW, IHM, Hours",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[0.0, 101.27450980392159], [1427.736661265082, 101.27450980392159], [1427.736661265082, 1074.0277777777783], [0.0, 1074.0277777777783]], would 'Molly Magees, LAW, 241B, IRISb, OLLY, 241, MAGE, O, HARD, PUB' be found inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_031.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you zoom into [[1376.4248864427352, 951.6965638626567], [1448.2485943162087, 951.6965638626567], [1448.2485943162087, 1073.5260409110695], [1376.4248864427352, 1073.5260409110695]], what word(s) appear? The word(s) is/are ________.",
+              "answer": [
+                "AL",
+                "ALE"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that lists all the text(s) you can find in [[8, 50], [1217, 50], [1217, 1060], [8, 1060]]. Options:\nA. MAGE, 241, CLAW, OPE, Molly Magees, MAGEES, OLLY, Hours, HARD, PUB\nB. PUB, HARD, IRISb, OPE, 241B, IHM, DLLY, MAGEES, Molly Magees, CLAW\nC. PUB, MAGEES, MAGE, Hours, OLLY, 241, AL, IHM, OLLY, CLAW\nD. IRISb, 241, OLLY, PUB, CLAW, IHM, HARD, ALE, Molly Magees, OPE",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[7.930161332342081, 49.53679538599464], [1448.2485943162087, 49.53679538599464], [1448.2485943162087, 1073.5260409110695], [7.930161332342081, 1073.5260409110695]] contain the label(s) 'CLAW, OPE, Molly Magees, IHM, OLLY, MAGE, MAGEES, 241, ALE, 241B'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_041.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you spot in the region [[214, 628], [1499, 628], [1499, 1025], [214, 1025]]. ________",
+              "answer": [
+                "241B",
+                "OLLY",
+                "MAGE",
+                "OLLY",
+                "AL",
+                "241",
+                "MAGEES",
+                "OPE",
+                "ALE",
+                "LUB"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Focusing on [[214, 628], [1499, 628], [1499, 1025], [214, 1025]], which answer choice accounts for all the text(s) there? Options:\nA. OLLY, OPE, OLLY, 241B, ALE, MAGEES, IRISb, LUB, AL\nB. LUB, MAOEES, OLLY, MAGE, OLLY, 241B, 241, AL, OPE\nC. AL, MAGE, OPE, MAGEES, ALE, 241B, 241, LUB\nD. MAGEES, ALE, AL, LUB, OLLY, 241, 241G, MAGE, OPE",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[214, 628], [1499, 628], [1499, 1025], [214, 1025]], is 'OLLY, LUB, OPE, 241B, OLLY, MAGEES, 241, AL' one of the labels you find?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_051.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Point out the word(s) visible in [[176.408839468742, 189.55295616630912], [1364.6071180359663, 189.55295616630912], [1364.6071180359663, 1080.0000000000016], [176.408839468742, 1080.0000000000016]]. The word(s) is/are ________.",
+              "answer": [
+                "241B",
+                "IRISb",
+                "LLY",
+                "MAGE",
+                "OLLY",
+                "241",
+                "MAGE",
+                "PUB",
+                "Molly Magees",
+                "IHM",
+                "CLAW",
+                "OPEN",
+                "HARD"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that properly covers the text(s) in [[313, 786], [1365, 786], [1365, 1080], [313, 1080]]. Options:\nA. 241B, 241, LLY, OLLY, OPEN\nB. OLLY, LLV, 241B, MAGE, 241, OPEN\nC. 241B, OPEN, LLY, MAGE, IRISb, 241\nD. OPEN, 241G, MAGE, OLLY, MAGE, 241",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is it accurate to say that 'LLY, IHM, OPEN, OLLY, MAGE, 241, 241B, MAGE' is located inside [[313, 786], [1365, 786], [1365, 1080], [313, 1080]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_061.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over in region [[245.8110845321841, 198.95614768750204], [1521.6527696376156, 198.95614768750204], [1521.6527696376156, 988.1117060701254], [245.8110845321841, 988.1117060701254]], which word(s) are written there? The word(s) is/are ________.",
+              "answer": [
+                "241B",
+                "IRISb",
+                "OLLY",
+                "OLLY",
+                "241",
+                "MAGE",
+                "PUB",
+                "Molly Magees",
+                "AL"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following correctly represents the text(s) inside [[246, 669], [1522, 669], [1522, 988], [246, 988]]? Options:\nA. 241, OLLY, MAGE, OLLY, 241B\nB. IRISb, AL, MAGE, 241B, OLLY\nC. 241B, OLLY, OLLY, MAOE, AL\nD. PUB, OLLY, OLLY, 241B, 241",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[246, 669], [1522, 669], [1522, 977], [246, 977]], do you find 'AL, MAGE, 241' among the labels present there?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_071.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Name the word(s) that show up within the area [[367.4911886107459, 230.49156578119562], [998.5401369289877, 230.49156578119562], [998.5401369289877, 586.9935541598356], [367.4911886107459, 586.9935541598356]]. The word(s) is/are ________.",
+              "answer": [
+                "IRISb",
+                "PUB",
+                "Molly Magees"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the given options, which one matches the text(s) you see in [[93, 230], [1155, 230], [1155, 1071], [93, 1071]]? Options:\nA. OPEN, OLLY, OLLY, IRISb, MAGE, AL, 241, MAGEES, PUB\nB. IRISb, PUB, Molly Magees, MAGEES, 241, MAGE, OPEN, 241B\nC. IRISb, MAOE, 241, OPEN, MAGEES, Molly Magees, OLLY, PUB, OLLY\nD. MAGEES, OLLY, MAGE, PUB, IRISb, ALE, Molly Magees, OPEN, 241B",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The box [[93.01726491861706, 230.49156578119562], [1378.7687564372027, 230.49156578119562], [1378.7687564372027, 1075.6477240597283], [93.01726491861706, 1075.6477240597283]] — does it contain 'OPEN, RUB, AL, 241, Molly Magees, MAGEES, 241B, MAGE, OLLY, ALE'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_081.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside the region [[0.0, 234.25086517694473], [1225.8260961508902, 234.25086517694473], [1225.8260961508902, 1080.0], [0.0, 1080.0]], what word or words appear? The word(s) is/are ________.",
+              "answer": [
+                "241B",
+                "IRISb",
+                "OLLY",
+                "OLLY",
+                "PUB",
+                "Molly Magees",
+                "AL",
+                "ALE",
+                "MAGE",
+                "OPEN",
+                "MAGEES"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer correctly captures the text found in [[0, 234], [1010, 234], [1010, 1080], [0, 1080]]? Options:\nA. OLLY, MAGEES, OLLY, Molly Magees, IRISb, OPEN, 241B, MAGE\nB. OLLY, OPEN, Melly Magees, IRISb, MAGE, OLLY, PUB, 241B\nC. MAGE, MAGEES, Molly Magees, OLLY, IRISb, AL, OPEN, 241B\nD. MAGEES, PUB, OLLY, OPEN, Molly Magees, MAGE, IRISh, OLLY",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you confirm whether 'IRISb, RUB, AL, Molly Magees, ALE, MAGEES, OPEN, 241B, OLLY, OLLY' appears inside the bounding box [[0.0, 234.25086517694473], [1225.8260961508902, 234.25086517694473], [1225.8260961508902, 1080.0], [0.0, 1080.0]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_091.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at [[1108.525787021306, 935.2220347541729], [1180.3469519105597, 935.2220347541729], [1180.3469519105597, 1075.8936484490398], [1108.525787021306, 1075.8936484490398]], what word(s) show up there? The word(s) is/are ________.",
+              "answer": [
+                "AL",
+                "ALE",
+                "LUB"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) in [[8, 206], [961, 206], [961, 1056], [8, 1056]]? Options:\nA. Y, MAGE, 241B, Melly Magees, OPEN, IRISb, PUB, MAGEES\nB. AL, PUB, Y, OPEN, 241B, OLLY, Molly Magees, MAGE\nC. Molly Magees, Y, DLLY, PUB, IRISb, MAGE, MAGEES, OPEN\nD. PUB, Molly Magees, MAGE, OLLY, OPEN, Y, 241B, IRISb",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'OLLY, MAGE, AL, V, OPEN, MAGEES, LUB, IRISb, 241B, ALE' the text that appears inside [[8.115942028985508, 206.30331928420952], [1180.3469519105597, 206.30331928420952], [1180.3469519105597, 1075.8936484490398], [8.115942028985508, 1075.8936484490398]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_101.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The area marked as [[214.87380928426307, 153.66413693878857], [845.9227576025062, 153.66413693878857], [845.9227576025062, 511.94305796966677], [214.87380928426307, 511.94305796966677]] contains certain text — what word(s) is it? The word(s) is/are ________.",
+              "answer": [
+                "IRISb",
+                "PUB",
+                "Molly Magees"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that accurately reflects the text(s) shown in [[9, 154], [846, 154], [846, 1010], [9, 1010]]. Options:\nA. MAGEES, OLLY, Molly Magees, OLLY, 241B, MAGE\nB. OLLY, PUB, Molly Magees, OLLY, MAGEES, AL\nC. OLLY, Molly Magees, MAGE, IRISb, OLLY, MAOEES\nD. Molly Magees, OLLY, PUB, MAGE, OLLY, IRISb",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say 'IRISb, 241B, OLLY, MAGEES, OLLY, ALE, AL, MAGE, OPEN, LUB' falls inside the region [[93, 633], [1232, 633], [1232, 1030], [93, 1030]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/Hardcase/C0565_3/frame_111.png",
+        "relative_path": "test_batch_1/Sony_7R_USA_MTV_DT_20250812/C0565_3/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Given the bounding box [[291.74372178357567, 183.32729470713892], [922.7926701018193, 183.32729470713892], [922.7926701018193, 540.1661728576644], [291.74372178357567, 540.1661728576644]], what word or words can be read there? The word(s) is/are ________.",
+              "answer": [
+                "IRISb",
+                "PUB",
+                "Molly Magees"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that best represents the text(s) contained in [[11, 183], [923, 183], [923, 1030], [11, 1030]]. Options:\nA. Hours, MAGE, IRISb, 241, OLLY, MAGEES, OLLY, PUB\nB. PUB, Hours, Molly Magees, MAOE, OLLY, MAGEES, 241, IRISb\nC. Molly Magees, RUB, OLLY, Hours, MAGE, 241, MAGEES, IRISb\nD. Molly Magees, PUB, IRISb, OLLY, MAGE, Hours, 241, 241B",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Your job here is to verify: does 'LUB, AL, 241B, Hours, 241, OLLY, IRISb, MAGE, ALE, OLLY' appear inside [[11, 660], [1307, 660], [1307, 1056], [11, 1056]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0565_3"
+  }
+]

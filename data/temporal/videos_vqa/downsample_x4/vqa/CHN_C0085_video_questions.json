@@ -1,0 +1,313 @@
+{
+  "video_id": "C0085",
+  "frames": 120,
+  "word": "朝日啤酒",
+  "video_path": "temporal/videos_vqa/downsample_x4/videos/CHN_C0085.mp4",
+  "generator_version": "temporal_qa_v2",
+  "question_set": "ctvid_videoqa_v2_10",
+  "lang_hint": "cjk",
+  "questions": [
+    {
+      "question_type": "text_role",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of sign is the text that reads \"朝日啤酒\" likely to be?\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. direction or navigation sign\nD. storefront or brand sign\nE. address or street sign\nF. event or poster information\nG. general scene text",
+      "q": "「朝日啤酒」这几个字，看起来像是哪种类型的标识？\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. direction or navigation sign\nD. storefront or brand sign\nE. address or street sign\nF. event or poster information\nG. general scene text",
+      "a": "D",
+      "a_text": "storefront or brand sign",
+      "answer_key": "storefront or brand sign",
+      "options": [
+        "A. warning or prohibition sign",
+        "B. menu or commercial information",
+        "C. direction or navigation sign",
+        "D. storefront or brand sign",
+        "E. address or street sign",
+        "F. event or poster information",
+        "G. general scene text"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "「朝日啤酒」这几个字，看起来像是哪种类型的标识？\n Options:\nA. warning or prohibition sign\nB. menu or commercial information\nC. direction or navigation sign\nD. storefront or brand sign\nE. address or street sign\nF. event or poster information\nG. general scene text"
+    },
+    {
+      "question_type": "scene_context",
+      "skill": "scene_text_semantics",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "What kind of scene does the text that reads \"朝日啤酒\" appear in?\n Options:\nA. restaurant or menu\nB. event poster or display\nC. road or street\nD. transportation / station\nE. storefront\nF. campus or office\nG. warning / rule sign\nH. other public sign",
+      "q": "出现「朝日啤酒」字样的画面，大概是什么场景？\n Options:\nA. restaurant or menu\nB. event poster or display\nC. road or street\nD. transportation / station\nE. storefront\nF. campus or office\nG. warning / rule sign\nH. other public sign",
+      "a": "A",
+      "a_text": "restaurant or menu",
+      "answer_key": "restaurant or menu",
+      "options": [
+        "A. restaurant or menu",
+        "B. event poster or display",
+        "C. road or street",
+        "D. transportation / station",
+        "E. storefront",
+        "F. campus or office",
+        "G. warning / rule sign",
+        "H. other public sign"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "出现「朝日啤酒」字样的画面，大概是什么场景？\n Options:\nA. restaurant or menu\nB. event poster or display\nC. road or street\nD. transportation / station\nE. storefront\nF. campus or office\nG. warning / rule sign\nH. other public sign"
+    },
+    {
+      "question_type": "dominant_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where in the frame does the text that reads \"朝日啤酒\" mostly appear?\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)",
+      "q": "片子里，写着「朝日啤酒」的文字大多出现在画面哪个位置？\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)",
+      "a": "E",
+      "a_text": "center (middle of the frame)",
+      "answer_key": "center",
+      "options": [
+        "A. top-left (upper-left area)",
+        "B. bottom-left (lower-left area)",
+        "C. top-right (upper-right area)",
+        "D. bottom-right (lower-right area)",
+        "E. center (middle of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "片子里，写着「朝日啤酒」的文字大多出现在画面哪个位置？\n Options:\nA. top-left (upper-left area)\nB. bottom-left (lower-left area)\nC. top-right (upper-right area)\nD. bottom-right (lower-right area)\nE. center (middle of the frame)"
+    },
+    {
+      "question_type": "position_change_amount",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How much does the text that reads \"朝日啤酒\" move during the clip?\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "q": "播放过程中，「朝日啤酒」这段文字移动了多大幅度？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)",
+      "a": "A",
+      "a_text": "moves a large distance (shifts across much of the frame)",
+      "answer_key": "moves a large distance",
+      "options": [
+        "A. moves a large distance (shifts across much of the frame)",
+        "B. moves a moderate amount (shifts across part of the frame)",
+        "C. stays in roughly the same place (barely shifts)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "temporal_plain",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "播放过程中，「朝日啤酒」这段文字移动了多大幅度？\n Options:\nA. moves a large distance (shifts across much of the frame)\nB. moves a moderate amount (shifts across part of the frame)\nC. stays in roughly the same place (barely shifts)"
+    },
+    {
+      "question_type": "overall_motion_direction",
+      "skill": "coarse_text_motion",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Overall, which way does the text that reads \"朝日啤酒\" move?\n Options:\nA. moves diagonally\nB. moves right\nC. moves up\nD. stays roughly in place\nE. changes direction partway\nF. moves left\nG. moves down",
+      "q": "总体来看，「朝日啤酒」是朝哪个方向移动的？\n Options:\nA. moves diagonally\nB. moves right\nC. moves up\nD. stays roughly in place\nE. changes direction partway\nF. moves left\nG. moves down",
+      "a": "A",
+      "a_text": "moves diagonally",
+      "answer_key": "moves diagonally",
+      "options": [
+        "A. moves diagonally",
+        "B. moves right",
+        "C. moves up",
+        "D. stays roughly in place",
+        "E. changes direction partway",
+        "F. moves left",
+        "G. moves down"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "casual_direct",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "总体来看，「朝日啤酒」是朝哪个方向移动的？\n Options:\nA. moves diagonally\nB. moves right\nC. moves up\nD. stays roughly in place\nE. changes direction partway\nF. moves left\nG. moves down"
+    },
+    {
+      "question_type": "start_middle_end_position",
+      "skill": "coarse_text_position",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Where is the text that reads \"朝日啤酒\" at the beginning, the middle, and the end?\n Options:\nA. center -> top-left -> top-right\nB. top-left -> center -> top-right\nC. center -> center -> bottom-left\nD. center -> center -> top-right",
+      "q": "片子刚开始、播到一半、快结束这三个时间点，「朝日啤酒」分别在画面哪里？\n Options:\nA. center -> top-left -> top-right\nB. top-left -> center -> top-right\nC. center -> center -> bottom-left\nD. center -> center -> top-right",
+      "a": "D",
+      "a_text": "center -> center -> top-right",
+      "answer_key": "center -> center -> top-right",
+      "options": [
+        "A. center -> top-left -> top-right",
+        "B. top-left -> center -> top-right",
+        "C. center -> center -> bottom-left",
+        "D. center -> center -> top-right"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "natural_choice",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "片子刚开始、播到一半、快结束这三个时间点，「朝日啤酒」分别在画面哪里？\n Options:\nA. center -> top-left -> top-right\nB. top-left -> center -> top-right\nC. center -> center -> bottom-left\nD. center -> center -> top-right"
+    },
+    {
+      "question_type": "text_size_level",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "How large is the text that reads \"朝日啤酒\" in the frame?\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "q": "看视频时，「朝日啤酒」在画面里呈现出来的字体大小大概是什么量级？\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)",
+      "a": "B",
+      "a_text": "small (a minor part of the frame)",
+      "answer_key": "small",
+      "options": [
+        "A. very large (dominates the frame)",
+        "B. small (a minor part of the frame)",
+        "C. medium (a noticeable block of the frame)",
+        "D. large (a major part of the frame)"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "viewer_observation",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "看视频时，「朝日啤酒」在画面里呈现出来的字体大小大概是什么量级？\n Options:\nA. very large (dominates the frame)\nB. small (a minor part of the frame)\nC. medium (a noticeable block of the frame)\nD. large (a major part of the frame)"
+    },
+    {
+      "question_type": "scale_change",
+      "skill": "text_scale",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Does the text that reads \"朝日啤酒\" get larger, smaller, or stay about the same size?\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. stays about the same size\nD. gets smaller",
+      "q": "在这段视频里，「朝日啤酒」的字有没有大小变化——是变大、变小，还是基本没变？\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. stays about the same size\nD. gets smaller",
+      "a": "B",
+      "a_text": "gets larger",
+      "answer_key": "gets larger",
+      "options": [
+        "A. size fluctuates (goes up and down)",
+        "B. gets larger",
+        "C. stays about the same size",
+        "D. gets smaller"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_conversational",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "在这段视频里，「朝日啤酒」的字有没有大小变化——是变大、变小，还是基本没变？\n Options:\nA. size fluctuates (goes up and down)\nB. gets larger\nC. stays about the same size\nD. gets smaller"
+    },
+    {
+      "question_type": "edge_relation",
+      "skill": "text_framing",
+      "evidence": {
+        "source": "bbox_track",
+        "confidence": "high"
+      },
+      "q_canonical": "Is the text that reads \"朝日啤酒\" well inside the frame or near an edge?\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "q": "写着「朝日啤酒」的文字，是处于画面中央区域，还是靠近某条边缘？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges",
+      "a": "C",
+      "a_text": "fully inside, away from the edges",
+      "answer_key": "fully inside, away from the edges",
+      "options": [
+        "A. touches or runs off an edge",
+        "B. comes close to an edge",
+        "C. fully inside, away from the edges"
+      ],
+      "answer_type": "mcq",
+      "scored": true,
+      "scored_by": "rule_letter",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "scene_aware",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "写着「朝日啤酒」的文字，是处于画面中央区域，还是靠近某条边缘？\n Options:\nA. touches or runs off an edge\nB. comes close to an edge\nC. fully inside, away from the edges"
+    },
+    {
+      "question_type": "video_text_summary",
+      "skill": "holistic",
+      "evidence": {
+        "source": "vision_or_keyword",
+        "confidence": "medium"
+      },
+      "q_canonical": "Briefly describe the text that reads \"朝日啤酒\" and how it appears in the video.",
+      "q": "聊聊「朝日啤酒」在视频里是什么样子的——它怎么出现，位置和大小大概怎样？",
+      "a": "The text is printed in black on a white sticker affixed to the front of a silver beer dispenser.",
+      "answer_type": "open",
+      "scored": false,
+      "scored_by": "llm_judge",
+      "rewrite": {
+        "backend": "claude",
+        "model": "sonnet",
+        "style": "cn_viewer",
+        "language": "zh",
+        "status": "ok"
+      },
+      "q_natural": "聊聊「朝日啤酒」在视频里是什么样子的——它怎么出现，位置和大小大概怎样？"
+    }
+  ],
+  "method": "downsample_x4"
+}

@@ -1,0 +1,463 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which word(s) can you find inside [[46, 37], [1896, 37], [1896, 682], [46, 682]]? ________",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "+"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The box at [[1628,38], [1896,37], [1896,78], [1628,79]] shows part of a web domain — what's the missing portion in \"ByteBy____eGo.com\"?",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which option correctly captures the text from the area [[46, 37], [1896, 37], [1896, 93], [46, 93]]? Options:\nA. +\nB. BytoByteGo.com\nC. ByteByteGo.com\nD. BytoByteGo.com",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "You see a bounding box at [[46, 37], [1896, 37], [1896, 93], [46, 93]] — is 'ByteByteGo.com' written inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the text inside [[46, 37], [1896, 37], [1896, 682], [46, 682]]? The answer is ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "+"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "What word is missing from \"ByteB____Go.com\" in the region marked by [[1628,38], [1896,37], [1896,78], [1628,79]]?",
+              "answer": "yte"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the choices below, which one matches the text visible in [[46, 37], [1896, 37], [1896, 93], [46, 93]]? Options:\nA. Haw ChatGPT Works Technically\nB. BytoByteGo.com\nC. +\nD. How ChatGPT Works Technically",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify if 'ByteByteGo.com' falls within the box at [[46, 37], [1896, 37], [1896, 93], [46, 93]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read what's written in the region [[1628, 37], [1896, 37], [1896, 79], [1628, 79]] — the answer is ________.",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the title \"How C____GPT Works Technically\" at [[47,45], [657,48], [658,93], [46,92]], what word has been blurred out?",
+              "answer": "hat"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the text inside [[46, 45], [1105, 45], [1105, 682], [46, 682]] and pick the matching option. Options:\nA. ByteByteGo.com\nB. +\nC. Haw ChatGPT Works Technically\nD. Haw ChatGPT Works Technically",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '+' is contained within [[819, 37], [1896, 37], [1896, 682], [819, 682]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[46, 45], [1105, 45], [1105, 682], [46, 682]] reads — your answer is ________.",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "+"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "You can see \"Byte____o.com\" at [[1628,38], [1896,37], [1896,78], [1628,79]] — what word belongs in the missing spot?",
+              "answer": "ByteG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Have a look at [[46, 45], [1105, 45], [1105, 682], [46, 682]] — which answer choice matches the text there? Options:\nA. ByteByteGo.com\nB. +\nC. Haw ChatGPT Works Technically\nD. +",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'How ChatGPT Works Technically, ByteByteGo.com, +' visible within the area described by [[46, 45], [1105, 45], [1105, 682], [46, 682]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) you see inside [[46, 37], [1896, 37], [1896, 93], [46, 93]]. The answer is ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere in [[1628,38], [1896,37], [1896,78], [1628,79]] the URL reads \"ByteBy____o.com\" — what characters complete it?",
+              "answer": "teG"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which best describes the text you can read at [[46, 37], [1896, 37], [1896, 93], [46, 93]]? Options:\nA. ByteByteGo.com\nB. BytoByteGo.com\nC. +\nD. BytoByteGo.com",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check [[46, 45], [1105, 45], [1105, 682], [46, 682]] — does it contain the label(s) 'How ChatGPT Works Technically, ByteByteGo.com, +'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Inside [[819, 394], [1105, 394], [1105, 682], [819, 682]], what word(s) can you make out? The answer is ________.",
+              "answer": [
+                "+"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[880,524], [1033,527], [1033,560], [880,557]], the phrase reads \"User pro____\" — what letters are missing?",
+              "answer": "mp"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of these answers reflects what's written inside [[46, 37], [1896, 37], [1896, 93], [46, 93]]? Options:\nA. How ChatGPT Works Technically\nB. BytoByteGo.com\nC. +\nD. BytoByteGo.com",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Whether '+, ByteByteGo.com, How ChatGPT Works Technically' sits inside [[819, 37], [1896, 37], [1896, 682], [819, 682]] — true or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan the area [[46, 37], [1896, 37], [1896, 682], [46, 682]] and tell me what word(s) you see. The answer is ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "+"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word in the heading \"How Cha____ Works Technically\" at [[47,45], [657,48], [658,93], [46,92]] is obscured — what should it say?",
+              "answer": "tGPT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at what's inside [[46, 45], [1105, 45], [1105, 682], [46, 682]] and select the option that matches. Options:\nA. +\nB. ByteByteGo.com\nC. How ChatGPT Works Technically\nD. Haw ChatGPT Works Technically",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "My question: is 'How ChatGPT Works Technically' positioned somewhere within [[46, 45], [1105, 45], [1105, 682], [46, 682]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Anything readable at [[1628, 37], [1896, 37], [1896, 79], [1628, 79]]? Write down what you see — the answer is ________.",
+              "answer": [
+                "ByteByteGo.com"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The phrase \"How Ch____ Works Technically\" appears at [[47,45], [657,48], [658,93], [46,92]] — what word belongs in the gap?",
+              "answer": "atGPT"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Over at [[46, 37], [1896, 37], [1896, 93], [46, 93]], what text can you make out? Pick the right answer from Options:\nA. BytoByteGo.com\nB. ByteByteGo.com\nC. +\nD. BytoByteGo.com",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[46, 45], [1105, 45], [1105, 682], [46, 682]] actually contain 'How ChatGPT Works Technically'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Can you read the text inside [[46, 45], [1105, 45], [1105, 682], [46, 682]]? The answer is ________.",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "+"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "That web address at [[1628,38], [1896,37], [1896,78], [1628,79]] reads \"____ByteGo.com\" — what's missing from it?",
+              "answer": "Byte"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Text visible at [[46, 45], [1105, 45], [1105, 682], [46, 682]] — which of these options names it correctly? Options:\nA. ByteByteGo.com\nB. Haw ChatGPT Works Technically\nC. +\nD. +",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'ByteByteGo.com, Haw ChatGPT Works Technically, +' inside the bounding box [[46.38946606588378, 36.87539936102237], [1896.0, 36.87539936102237], [1896.0, 681.8085106382979], [46.38946606588378, 681.8085106382979]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Read the text shown in region [[46, 45], [658, 45], [658, 93], [46, 93]]. The answer is ________.",
+              "answer": [
+                "How ChatGPT Works Technically"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Coordinates [[899,637], [1027,637], [1027,665], [899,665]] show \"E____uator\" with a hidden portion — what fills the gap?",
+              "answer": "val"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which choice correctly identifies the text found at [[46, 45], [1105, 45], [1105, 682], [46, 682]]? Options:\nA. +\nB. ByteByteGo.com\nC. +\nD. +",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '+, How ChatGPT Works Technically, ByteByteGo.com' is captured within [[46, 37], [1896, 37], [1896, 93], [46, 93]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What can you read in the box at [[46, 45], [1105, 45], [1105, 682], [46, 682]]? The answer is ________.",
+              "answer": [
+                "How ChatGPT Works Technically",
+                "+"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[880,438], [1042,438], [1042,472], [880,472]], the phrase reads \"User pr____\" — what's the missing word?",
+              "answer": "ompt"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "For the text appearing at [[46, 45], [1105, 45], [1105, 682], [46, 682]], select the matching option. Options:\nA. How ChatGPT Works Technically\nB. ByteByteGo.com\nC. Haw ChatGPT Works Technically\nD. Haw ChatGPT Works Technically",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '+, ByteByteGo.com, How ChatGPT Works Technically' the text you'd find inside [[46, 37], [1896, 37], [1896, 93], [46, 93]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/EN/clip_024_1/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/clip_024_1/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Write down the text visible in [[46, 37], [1896, 37], [1896, 682], [46, 682]]. The answer is ________.",
+              "answer": [
+                "ByteByteGo.com",
+                "How ChatGPT Works Technically",
+                "+"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "With letters missing, the word(s) \"E____uator\" at [[898,637], [1027,637], [1027,665], [899,665]] — can you complete it?",
+              "answer": "val"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[46, 37], [1896, 37], [1896, 93], [46, 93]] and pick the option that names the text there. Options:\nA. Haw ChatGPT Works Technically\nB. How ChatGPT Works Technically\nC. BytoByteGo.com\nD. +",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking [[46, 37], [1896, 37], [1896, 93], [46, 93]] — is 'ByteByteGo.com, +, How ChatGPT Works Technically' what's written there?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_024_1"
+  }
+]

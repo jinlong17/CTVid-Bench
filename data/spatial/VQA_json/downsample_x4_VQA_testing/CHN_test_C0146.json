@@ -1,0 +1,526 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Peer at the box [[753, 305], [1468, 305], [1468, 1008], [753, 1008]] — what word(s) appear there? The word(s) is/are ________.",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Something is partially hidden in the region [[1143,782], [1181,782], [1181,820], [1143,820]] — what completes the symbol \"P____\"?",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that accurately reflects the text you see in [[753, 305], [1468, 305], [1468, 681], [753, 681]]. Options:\nA. T R A I N, 發財, 这是一家\nB. 可以, 健身, T R A I N\nC. 發財, 变美, 健身\nD. 这是一家, 發賭, T R A I N",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: are '这是一家, T R A I N, 变美, 發財, 健身' found within the region [[753.4210526315788, 305.0], [1468.139534883721, 305.0], [1468.139534883721, 680.7777777777778], [753.4210526315788, 680.7777777777778]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word present in the area marked [[753, 305], [1468, 305], [1468, 1008], [753, 1008]]. The answer is ________.",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the area at [[768,480], [855,480], [855,609], [768,608]], a character is missing — what goes in \"發____\" to make it whole?",
+              "answer": "財"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the options below, which one lists the text that appears inside [[753, 305], [1468, 305], [1468, 681], [753, 681]]? Options:\nA. 發財, 健身, 这是一宸\nB. 健身, 这是一家, 可以\nC. T R A I N, 变美, 健身\nD. 健身, 这是一家, T R A I N",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me whether '变美, 健身, T R A I N, Pt, 可以' lands inside the box [[1079, 305], [1468, 305], [1468, 1008], [1079, 1008]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focus on [[1079, 305], [1468, 305], [1468, 1008], [1079, 1008]] and tell me what text is there. The word(s) is/are ________.",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "在[[1118,316], [1504,321], [1502,499], [1115,495]]坐标范围内，某个字符不完整，你能还原\"____身\"的完整写法吗？",
+              "answer": "健"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go through the choices and find which one covers the text in [[753, 305], [1468, 305], [1468, 902], [753, 902]]. Options:\nA. 的咖啡馆, 發財, 这是一家, Pt, 变美, 健身\nB. 健身, Pt, 变美, 發財, I R A I N, 这是一家\nC. Pt, 健身, 發財, 变美, T R A I N, 这是一家\nD. Pt, 受美, 發財, 可以, 健身, T R A I N",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the box [[1079, 305], [1468, 305], [1468, 1008], [1079, 1008]], are the label(s) 'T R A I N, Pt, 健身, 这是一家, 可以, 变美, 發財, 的咖啡馆' enclosed inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read the text visible in [[757, 477], [845, 477], [845, 606], [757, 606]]? Fill in: ________.",
+              "answer": [
+                "發財"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标区域 [[1215,898], [1580,899], [1579,993], [1213,993]] 里有什么文字？补全短语 \\\"____咖啡馆\\\" 中缺失的内容。",
+              "answer": "的"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[757, 306], [1469, 306], [1469, 682], [757, 682]] contains certain text — which of the following options matches it? Options:\nA. 变美, 發財, 健身\nB. 可以, T R A I N, 健身\nC. 这是一家, 健身, T R A I N\nD. 这是一家, 發財, I R A I N",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within [[757.4140320084985, 306.1627906976744], [1469.3023255813953, 306.1627906976744], [1469.3023255813953, 1009.6072351421188], [757.4140320084985, 1009.6072351421188]], do the label(s) '变美, T R A I N, 这是一家, 健身, 的咖啡馆, 發賭, 可以, Pt' appear?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text enclosed by [[1087, 309], [1476, 309], [1476, 1012], [1087, 1012]] and write it below: ________.",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[1323,742], [1361,742], [1361,780], [1322,780]], which chemical element has the symbol \\\"P____\\\"?",
+              "answer": "t"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which one captures the text appearing in [[1087, 309], [1476, 309], [1476, 1012], [1087, 1012]]? Options:\nA. 的咖啡馆, T R A I N, Pt, 健身, 这是一家, 变美\nB. 这是一宸, 健身, T R A I N, Pt, 的咖啡馆, 变美\nC. 这是一宸, 变美, 可以, T R A I N, Pt, 健身\nD. 健身, 这是一家, 發財, 的咖啡馆, Pt, 可以",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Somewhere inside bounding box [[761.5768503222602, 308.95999349487727], [1476.2953325744022, 308.95999349487727], [1476.2953325744022, 1012.4044379393217], [761.5768503222602, 1012.4044379393217]], can you spot the label(s) '健身, T R A I N, 受美, 發財, Pt, 可以, 这是一家, 的咖啡馆'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down whatever text appears inside the bounding box [[762, 309], [1476, 309], [1476, 1012], [762, 1012]]. ________",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看边界框[[1288,227], [1677,231], [1675,413], [1284,412]]里的内容，帮我把 \\\"____身\\\" 补充完整。",
+              "answer": "健"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly lists the text(s) visible in [[1087, 309], [1476, 309], [1476, 1012], [1087, 1012]]? Options:\nA. 的呬啡馆, 可以, 这是一家, T R A I N, 健身, Pt\nB. 可以, T R A I N, 的咖啡馆, 变美, 这是一家, Pt\nC. 發財, 健身, 的咖啡馆, Pt, 这是一家, 变美\nD. 的咖啡馆, 变美, 这是一家, 可以, 俦身, Pt",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[761.5768503222602, 308.95999349487727], [1476.2953325744022, 308.95999349487727], [1476.2953325744022, 1012.4044379393217], [761.5768503222602, 1012.4044379393217]] — does it contain the label(s) '司以, 变美, 的咖啡馆, 这是一家, T R A I N, 健身, 發財, Pt'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name every word you can see inside the bounding box [[763, 310], [1478, 310], [1478, 1014], [763, 1014]]. ________",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Inside [[1350,688], [1389,689], [1388,726], [1350,726]], what abbreviation starts with the letter(s) shown as \\\"____t\\\"?",
+              "answer": "P"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Spot the option that matches the text(s) inside [[763, 310], [1478, 310], [1478, 686], [763, 686]] and mark it. Options:\nA. 發財, 这是一家, T R A I N\nB. 变美, 这是一家, T R A I N\nC. 發財, T R A I N, 可以\nD. 健身, 这是一家, 發賭",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: can '健身, I R A I N, 变美, 可以, Pt, 这是一家, 發財, 的咖啡馆' be found inside the bounding box [[762.8268503222602, 310.20999349487727], [1477.5453325744022, 310.20999349487727], [1477.5453325744022, 1013.6544379393217], [762.8268503222602, 1013.6544379393217]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me the word(s) you see in the region [[765, 310], [1480, 310], [1480, 1014], [765, 1014]]. ________",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "位于[[1257,174], [1645,177], [1643,360], [1253,359]]坐标的文字能帮你补全 \\\"健____\\\" 中缺失的内容，请填写。",
+              "answer": "身"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices, pick the one that accurately reflects the text(s) within [[1091, 310], [1480, 310], [1480, 1014], [1091, 1014]]. Options:\nA. 变美, 的咖啡馆, 健身, Pt, 这是一家, 可以\nB. 發財, 健身, 可以, 这是一家, Pt, 的咖啡馆\nC. 这是一家, Pt, 的咖啡馆, 受美, 健身, 可以\nD. 变美, 可以, I R A I N, 的咖啡馆, Pt, 健身",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) '的咖啡馆, 变美, 这是一家, 發財, T R A I N, Pt, 健身, 司以' fall inside the boundary defined by [[765.125700896973, 310.20999349487727], [1479.844183149115, 310.20999349487727], [1479.844183149115, 1013.6544379393217], [765.125700896973, 1013.6544379393217]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at area [[765, 310], [1480, 310], [1480, 1014], [765, 1014]] and jot down the text you find there. ________",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据坐标 [[1232,429], [1606,425], [1607,525], [1233,527]] 处的视觉内容，填写 \\\"____一家\\\" 中空缺的字。",
+              "answer": "这是"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Your task: find the option that lists the text(s) appearing inside [[1091, 310], [1480, 310], [1480, 1014], [1091, 1014]]. Options:\nA. 可以, T R A I N, Pt, 發財, 的咖啡馆, 这是一家\nB. 的咖啡馆, 可以, 这是一家, 健身, 变美, T R A I N\nC. T R A I N, 可以, Rt, 健身, 的咖啡馆, 变美\nD. 这是一家, 健身, 变美, Rt, 可以, 的咖啡馆",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at [[765.125700896973, 310.20999349487727], [1479.844183149115, 310.20999349487727], [1479.844183149115, 1013.6544379393217], [765.125700896973, 1013.6544379393217]], would you say the label(s) '这是一家, 的咖啡馆, 發財, T R A I N, Rt, 变美, 可以, 健身' are enclosed within it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify and write down each word visible in the area [[767, 310], [1480, 310], [1480, 1014], [767, 1014]]. ________",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "区域 [[1217,399], [1591,395], [1592,495], [1218,497]] 中显示了一个短语，请补全其中缺失的内容以完成 \"这____家\"。",
+              "answer": "是一"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the full image, which answer option correctly lists the text(s) visible within [[1091, 310], [1480, 310], [1480, 1014], [1091, 1014]]? Options:\nA. 可以, 受美, 健身, Pt, 这是一家, T R A I N\nB. 健身, 变美, 这是一家, 可以, 的呬啡馆, T R A I N\nC. 健身, Pt, 可以, 这是一家, 的咖啡馆, T R A I N\nD. 健身, 可以, 的咖啡馆, T R A I N, 变美, 發財",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can the label(s) '發財, 变美, T R A I N, 的呬啡馆, 这是一家, 健身, Pt, 可以' be spotted inside the region [[766.688200896973, 310.20999349487727], [1479.844183149115, 310.20999349487727], [1479.844183149115, 1013.6544379393217], [766.688200896973, 1013.6544379393217]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible in region [[768, 310], [1483, 310], [1483, 1014], [768, 1014]] and write it here: ________",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "坐标 [[1229,904], [1607,897], [1610,1080], [1231,1080]] 所在区域中有一段短语，请将 \"____啡\" 补充完整。",
+              "answer": "咖"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the given options, pick the one that accurately reflects what's written inside [[1094, 310], [1483, 310], [1483, 1014], [1094, 1014]]. Options:\nA. 这是一家, Pt, 可以, 变美, 的咖啡馆, 發財\nB. 健身, Pt, 可以, 的咖啡馆, T R A I N, 变美\nC. Rt, 健身, 变美, 的咖啡馆, 可以, T R A I N\nD. 变美, 可以, 俦身, 这是一家, T R A I N, 的咖啡馆",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see the label(s) '發財, 这是一家, 可以, 变美, Pt, 健身' appearing inside [[767.9992641153636, 310.20999349487727], [1482.7177463675057, 310.20999349487727], [1482.7177463675057, 1013.6544379393217], [767.9992641153636, 1013.6544379393217]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/CHN/C0146/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/C0146/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the text shown in [[770, 311], [1480, 311], [1480, 1014], [770, 1014]] and fill in the blank: ________",
+              "answer": [
+                "健身",
+                "T R A I N",
+                "这是一家",
+                "可以",
+                "变美",
+                "的咖啡馆",
+                "發財",
+                "Pt"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察坐标 [[1199,342], [1573,338], [1574,438], [1200,440]] 处的内容，尝试推断并填写 这____家 中缺失的文字。",
+              "answer": "是一"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The box [[770, 311], [1480, 311], [1480, 908], [770, 908]] contains some text — which of the following options matches it? Options:\nA. 司以, Pt, 这是一家, 健身, 發財, 变美\nB. 健身, Pt, T R A I N, 这是一家, 可以, 受美\nC. Pt, 發財, 健身, 可以, 这是一家, T R A I N\nD. 健身, 的咖啡馆, 發財, 可以, 这是一家, Pt",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check whether the label(s) 'Pt, 的咖啡馆, 發財, 健身, 变美, 可以' appear within [[769.5978218076713, 310.97922426410804], [1480.4100540598133, 310.97922426410804], [1480.4100540598133, 1014.4236687085524], [769.5978218076713, 1014.4236687085524]] — yes or no?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0146"
+  }
+]

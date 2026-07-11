@@ -1,0 +1,497 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_001.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down every word you can see inside [[510, 912], [1415, 912], [1415, 973], [510, 973]]: ________",
+              "answer": [
+                "最近鄰居法（K-Nearest Neighbors，KNN）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看 [[1037,98], [1159,98], [1159,134], [1037,134]] 这个位置，把缺失的部分填上：你能填寫缺失的字符母以完成詞語嗎？深度學____",
+              "answer": "習"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the answer that lists the text(s) found inside [[412, 97], [1424, 97], [1424, 424], [412, 424]]. Options:\nA. 人工智慧, AI, 機器學習, Deep Learning, 1（獨立）, 投票, 0 (左派), 未來, 深度學習\nB. 投票, Future, Deep Learning, AI, 人工智慧, Machine Learning, 深度學習, 0 (統一), 未來\nC. AI, Deep Learning, 人工智慧, Machine Learning, 深度學習, 投票, Future, 未來, 1（獨立）\nD. 人工智憃, Future, 投票, 未來, 1（獨立）, Deep Learning, 深度學習, Machine Learning, AI",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[409.6688741721854, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [409.6688741721854, 972.5490196078431]], do you find the label(s) '機器學習, 人工智慧, 最近鄰居法（K-Nearest Neighbors，KNN）, 深度學習, 未來, Future, AI, 0 (統一), 投票, 1 (右派)'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_011.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read out the text inside [[410, 97], [1424, 97], [1424, 784], [410, 784]] — what word(s) appear there? ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "投票",
+                "1（獨立）",
+                "0 (統一)",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请根据 [[890,278], [1004,278], [1004,347], [890,347]] 区域中的内容，完成下面的填空：____票。",
+              "answer": "投"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly captures the text(s) visible inside [[410, 97], [1424, 97], [1424, 973], [410, 973]]? Options:\nA. 1（獨立）, 1 (右派), 最近鄰居法（K-Nearest Neighbors，KNN）, Future, AI, 深度學習, Machine Learning, 0 (統一), Doep Learning\nB. 0 (統一), 1（獨立）, Maohine Learning, AI, 人工智慧, 最近鄰居法（K-Nearest Neighbors，KNN）, Future, Deep Learning, 1 (右派)\nC. 最近鄰居法（K-Nearest Neighbors，KNN）, 未來, 0 (左派), Future, 0 (統一), 人工智慧, 機器學習, Machine Learning, 1 (右派), 深度學習\nD. Machine Learning, 0 (統一), AI, 人工智慧, 1 (右派), 1（獨立）, 深度學習, Deop Learning, 最近鄰居法（K-Nearest Neighbors，KNN）",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]] — does it actually contain the label(s) '人工智慧, Machine Learning, Future, 未來, 機器學習, AI'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_021.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spell out whatever text sits inside [[410, 97], [1424, 97], [1424, 973], [410, 973]]. ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "投票",
+                "1（獨立）",
+                "0 (統一)",
+                "0 (左派)",
+                "1 (右派)",
+                "最近鄰居法（K-Nearest Neighbors，KNN）",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "观察[[1193,801], [1371,801], [1371,857], [1193,857]]处的内容，用合适的数字字符补全这个词：1 (右____)",
+              "answer": "派"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the choices below, which one matches the text(s) found in region [[412, 97], [1424, 97], [1424, 424], [412, 424]]? Options:\nA. 未來, 投票, 深度學習, Future, Machine Learning, 機器學習, AI, 1（獨立）, 人工智憃\nB. AI, 投票, Deep Learning, 未來, 深度學習, 機器學習, Machine Learning, 0 (統一), 人工智慧\nC. 1（獨立）, Deep Learning, 深度學習, 機器學習, AI, 未來, Future, 投票, Machine Learning\nD. 人工智慧, Deep Learning, 機器學習, Machine Learning, 投票, 未來, Future, 渘度學習, AI",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Tell me — are the label(s) 'Machine Learning, 1（獨立）, 0 (統一), Deep Learning, 機器學習, Future, 投票, AI, 未來, 人工智慧' inside the bounding box [[412, 97], [1424, 97], [1424, 424], [412, 424]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_031.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) that appear inside [[412, 97], [1424, 97], [1424, 424], [412, 424]]. ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "投票",
+                "1（獨立）",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "参考坐标 [[484,98], [607,98], [607,134], [485,134]] 处的文字，将合适的内容填入句子中：____工智慧",
+              "answer": "人"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Taking the whole image into account, select the answer that contains the text(s) found at [[410, 97], [1424, 97], [1424, 858], [410, 858]]. Options:\nA. 0 (統一), 投票, 機器學習, Deep Learning, 1（獨立）, 最近鄰居法（K-Nearest Neighbors，KNN）, Future, Machine Learning, 未來, 0 (左派)\nB. 人工智慧, AI, Machine Learning, Future, 投票, 深度學習, 0 (左泛), 機器學習, 未來, 0 (統一)\nC. 0 (統一), 投票, 人工智慧, AI, 0 (左派), Future, 機器學習, 未來, Machine Learning, 深度學習\nD. 人工智慧, 1 (右派), 未來, Deep Learning, 1（獨立）, 0 (左派), 0 (統一), 报票, Future, 深度學習",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the image — are the label(s) '人工智慧, 0 (統一), Future, AI, 機器學習, 1（獨立）, 深度學習, 未來, Machine Learning, 最近鄰居法（K-Nearest Neighbors，KNN）' enclosed by the bounding box [[409.6688741721854, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [409.6688741721854, 972.5490196078431]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_041.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write down the text you see inside [[510, 801], [1415, 801], [1415, 973], [510, 973]]. ________",
+              "answer": [
+                "0 (左派)",
+                "1 (右派)",
+                "最近鄰居法（K-Nearest Neighbors，KNN）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据[[410,729], [594,729], [594,784], [410,784]]中显示的内容，补全这个词语的缺失部分：____ (統一)",
+              "answer": "0"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the options listed, which one correctly represents the text(s) visible in area [[412, 97], [1424, 97], [1424, 424], [412, 424]]? Options:\nA. 投票, 人工智慧, AI, Machine Learning, Deep Learning, 機器學習, 深度學習, 未來, 1（猬立）\nB. 深度學習, 1（獨立）, 未來, AI, 機器學習, 投票, Future, 人工智慧, Deep Learning\nC. 人工智慧, 0 (統一), 機器學習, 深度學習, 未來, 投票, Deep Learning, AI, Future\nD. 深度學習, 機器學習, Machine Learning, Future, 投票, 未來, Deop Learning, 1（獨立）, 人工智慧",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Given the bounding box [[409.6688741721854, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [409.6688741721854, 972.5490196078431]], are the label(s) 'AI, 1 (右派), 0 (左派), Future, 1（獨立）, 深度學習, 投票, 人工智慧, 0 (綂一), 機器學習' found within it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_051.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[409.6688741721854, 728.6688741721854], [1414.6568627450981, 728.6688741721854], [1414.6568627450981, 972.5490196078431], [409.6688741721854, 972.5490196078431]] — what text does it contain? The missing word(s) is/are ________.",
+              "answer": [
+                "0 (統一)",
+                "0 (左派)",
+                "1 (右派)",
+                "最近鄰居法（K-Nearest Neighbors，KNN）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "仔细看[[889,275], [1005,275], [1005,344], [889,344]]位置的内容，把空白处填完整：投____",
+              "answer": "票"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following answers holds the text(s) found at [[410, 97], [1424, 97], [1424, 858], [410, 858]]? Options:\nA. 0 (統一), 报票, 1 (右派), 0 (左派), 深度學習, 機器學習, Machine Learning, Future, Deep Learning, 人工智慧\nB. 投票, 最近鄰居法（K-Nearest Neighbors，KNN）, Future, 深度學習, 1（獨立）, Deep Learning, 機器學習, 人工智慧, 0 (統一), 未來\nC. 深度學習, Machine Learning, 投票, 0 (統一), AI, 1（獨立）, Future, 0 (左派), Deep Learning, 人工智慧\nD. 0 (左派), 渘度學習, 1 (右派), 未來, 1（獨立）, 人工智慧, Machine Learning, Future, 機器學習, 0 (統一)",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify: do the label(s) 'Future, AI, Deep Learning, 人工智慧, 機器學習, 未來' appear within the bounding box [[484, 97], [1424, 97], [1424, 163], [484, 163]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_061.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Jot down the word(s) you can read inside [[410, 729], [1415, 729], [1415, 973], [410, 973]]. ________",
+              "answer": [
+                "0 (統一)",
+                "0 (左派)",
+                "1 (右派)",
+                "最近鄰居法（K-Nearest Neighbors，KNN）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请观察[[536,140], [555,139], [555,157], [536,157]] 框内的图像，补充缺少的字母来完成这一科技领域缩写：A____",
+              "answer": "I"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Go with the option that best matches the text(s) you see inside [[410, 97], [1424, 97], [1424, 973], [410, 973]]. Options:\nA. Future, 人工智慧, 未來, 投票, 0 (統一), 最近鄰居法（K-Nearest Neighbors，KNN）, 0 (左派), Deep Learning, Machine Learning, 機器學習\nB. 0 (統一), Deep Learning, 深度學習, RI, 1（獨立）, 最近鄰居法（K-Nearest Neighbors，KNN）, 機器學習, 投票, Machine Learning\nC. 0 (統一), Deep Learning, 深度學習, 1（猬立）, AI, 未來, 最近鄰居法（K-Nearest Neighbors，KNN）, Machine Learning, 機器學習\nD. 投票, 深度學習, AI, 0 (統一), Deep Learning, 1（獨立）, 最近鄰居法（K-Nearest Neighbors，KNN）, 機器孯習, Machine Learning",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Can you spot the label(s) '1（獨立）, 1 (右派), Deep Learning, 0 (統一), 機器孯習, 深度學習, 人工智慧, AI, Machine Learning, Future' somewhere inside the region [[409.6688741721854, 97.0], [1424.0, 97.0], [1424.0, 972.5490196078431], [409.6688741721854, 972.5490196078431]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_071.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Tell me what word(s) you can read inside the region [[412, 97], [1424, 97], [1424, 424], [412, 424]]. ________",
+              "answer": [
+                "人工智慧",
+                "深度學習",
+                "未來",
+                "Deep Learning",
+                "Future",
+                "投票",
+                "1（獨立）",
+                "AI",
+                "機器學習",
+                "Machine Learning"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "看看 [[410,729], [594,729], [594,784], [410,784]] 处的区域，把缺少的字符填入这个词语：0 (統____)",
+              "answer": "一"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following choices matches the text visible in [[410, 97], [1424, 97], [1424, 973], [410, 973]]? Options:\nA. Machine Learning, 投票, Future, 深度學習, 0 (左派), 1（獨立）, 未來, Deep Learning, AI, 0 (統一)\nB. 最近鄰居法（K-Nearest Neighbors，KNN）, 0 (統一), Future, 投票, Deop Learning, 人工智慧, 0 (左派), 深度學習, AI\nC. 0 (統一), 人工智慧, 機器學習, Deep Learning, RI, 0 (左派), 投票, 深度學習, 最近鄰居法（K-Nearest Neighbors，KNN）\nD. 人工智慧, Future, Deep Learning, 深度學習, 機器學習, AI, 0 (統一), 0 (左泛), 投票",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does [[412, 97], [1424, 97], [1424, 424], [412, 424]] actually contain the label(s) '0 (左派), Deep Learning, 人工智慧, 未來, 投票, 機器學習, AI, Machine Learning, Future, 深度學習'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_081.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "[[761,98], [884,98], [884,134], [762,134]] 框内有个术语不完整，请把缺失的部分补上：____習",
+              "answer": "機器學"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Looking at the region [[412, 97], [1424, 97], [1424, 424], [412, 424]], which answer option correctly captures the text shown there? Options:\nA. AI, 投票, 深度學習, Future, 0 (統一), 1（獨立）, Machine Learning, 機器學習, Deep Learning\nB. Deep Learning, 人工智慧, 末來, 機器學習, 深度學習, 投票, 1（獨立）, Future, Machine Learning\nC. Machine Learning, 投票, AI, 深度學習, 機器學習, 未來, Future, Deep Learning, 1（獨立）\nD. 未來, 人工智慧, Future, Deep Learning, Machine Learning, 機器學習, 投票, 1（獨立）, 0 (左派)",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The bounding box [[410, 97], [1424, 97], [1424, 784], [410, 784]] — does it actually contain '1（獨立）, 人工智慧, Machine Learning, AI, Deep Learning, 0 (統一), 機器學習, Future, 1 (右派), 投票'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_091.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "请补全 [[1544,793], [1803,794], [1803,831], [1544,830]] 区域中不完整的词语：票____的赢票少的輸。",
+              "answer": "多"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "What text appears inside [[410, 97], [1424, 97], [1424, 973], [410, 973]]? Pick the answer that matches it. Options:\nA. Future, 最近鄰居法（K-Nearest Neighbors，KNN）, 機器學習, 1 (右泛), AI, Deep Learning, 人工智慧, 1（獨立）, 深度學習\nB. Future, 0 (統一), 未來, Machine Learning, Deep Learning, AI, 最近鄰居法（K-Nearest Neighbors，KNN）, 機器學習, 投票, 0 (左派)\nC. 人工智憃, 1（獨立）, 最近鄰居法（K-Nearest Neighbors，KNN）, 1 (右派), 未來, Deep Learning, AI, Future, 深度學習\nD. Future, 深度學習, RI, 1 (右派), 機器學習, 最近鄰居法（K-Nearest Neighbors，KNN）, 人工智慧, Deep Learning, 1（獨立）",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say '未來, Machine Learning, 深度學習, 投票, 最近鄰居法（K-Nearest Neighbors，KNN）, AI, Deep Learning, 1（獨立）, Future, 機器學習' is/are the correct label(s) for what's shown in [[412, 97], [1424, 97], [1424, 424], [412, 424]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_101.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible inside [[410, 91], [1424, 91], [1424, 965], [410, 965]] and write it below. ________",
+              "answer": [
+                "人工智慧",
+                "機器學習",
+                "深度學習",
+                "未来",
+                "MachineLearning",
+                "Deep Learning",
+                "Future",
+                "投票",
+                "（獨立）",
+                "0 (统一)",
+                "0 (左派)",
+                "1 (右派)",
+                "最近粼居法(K-NearestNeighbors，KNN)"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "这道题考查机器学习算法名称，请看 [[510,912], [1414,912], [1415,973], [511,966]] 区域并填写空白：最近鄰居法（____ Neighbors，KNN）",
+              "answer": "K-Nearest"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one correctly lists the text found in [[410, 91], [1424, 91], [1424, 858], [410, 858]]? Options:\nA. 投票, Future, 0 (统一), 1 (右派), 0 (左派), 人工智慧, 未来, （猬立）, MachineLearning, 深度學習\nB. 0 (统一), 深度學習, 0 (左派), Future, 人工智慧, MachineLoarning, 未来, 1 (右派), 機器學習, Deep Learning\nC. 1 (右派), MachineLearning, 未来, 人工智慧, Deep Learning, Future, 0 (统一), 機器學習, （獨立）, 投票\nD. 人工智慧, Future, （獨立）, MachineLearning, 投票, 深度學習, 最近粼居法(K-NearestNeighbors，KNN), 0 (统一), Deep Learning, 1 (右派)",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is [[486, 91], [1424, 91], [1424, 167], [486, 167]] the region that holds the label(s) 'Future, MachineLearning, Deep Learning, 人工智慧, 機器學習'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/GT/CHN/clip_039/frame_111.png",
+        "relative_path": "test_batch_1/CHN_test/clip_039/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you identify the word(s) shown inside [[410, 729], [1415, 729], [1415, 973], [410, 973]]? ________",
+              "answer": [
+                "0 (統一)",
+                "0 (左派)",
+                "1 (右派)",
+                "最近鄰居法（K-Nearest Neighbors，KNN）"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "根据画面中 [[560,802], [736,802], [736,858], [560,858]] 位置显示的内容，把空格补全：0 (左____)",
+              "answer": "派"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[412, 97], [1424, 97], [1424, 424], [412, 424]] — which answer option matches the text you see there? Options:\nA. 深度學習, AI, 機器學習, 未來, 人工智慧, 1（獨立）, 投票, Machine Learning, Future\nB. 人工智慧, 深度學習, Machine Learning, 0 (統一), Future, 投票, Deep Learning, AI, 機器學習\nC. 深度學習, 人工智慧, 機器學習, Future, 1（猬立）, 未來, AI, Machine Learning, Deep Learning\nD. Machine Learning, 深度學習, 機器學習, AI, Deep Learning, Future, 未來, 投票, 人工智憃",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: '深度學習, 0 (左派), Future, 0 (統一), 人工智慧, 投票, 1（獨立）, 最近鄰居法（K-Nearest Neighbors，KNN）, 1 (右派), Deep Learning' can be found as label(s) within the box [[410, 97], [1424, 97], [1424, 858], [410, 858]].",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "clip_039"
+  }
+]

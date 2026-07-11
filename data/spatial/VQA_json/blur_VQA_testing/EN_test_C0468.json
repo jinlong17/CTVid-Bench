@@ -1,0 +1,571 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Peek inside [[336, 386], [856, 386], [856, 751], [336, 751]] — what word(s) do you see there? ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Somewhere around [[746,609], [826,609], [826,655], [746,655]] there's a partially shown label '/____B' — can you work out the missing character(s)?",
+              "answer": "L"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select from Options:\nA. FARM (ON SALE), SPECIALS, USA, REG $ 10.99/LB, SAVE $ 1.00, 99 RANCH MARKET\nB. FARM (ON SALE), 9.99, SAVE $ 1.00, 99 RANCH MARKET, REG $ 10.99/LB, /LP\nC. 99 RANCH MARKET, 9.99, REG $ 10.99/LB, FARM (ON SALE), SAVE $ 1.00, /LB\nD. /LB, REG $ 10.99/LB, FARM (ON SALE), 9.99, 99 RANCH MARKET, USR the answer that correctly identifies the text within [[337, 601], [856, 601], [856, 751], [337, 751]].",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[335.79545454545456, 386.42857142857144], [856.0, 386.42857142857144], [856.0, 751.0795454545454], [335.79545454545456, 751.0795454545454]] contain the label(s) '/LB, FARM (ON SALE), SAVE $ 1.00, LIVETILAPIA FISH, REG $ 10.99/LB, USA, （年年有餘）（魚）（ONSALE), 99 RANCH MARKET, 9.99'?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "What text appears inside the box at [[319, 383], [839, 383], [839, 747], [319, 747]]? ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Complete the label \"/____B\" found at coordinates [[641,595], [734,593], [733,641], [642,644]] — what characters are missing?",
+              "answer": "L"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scanning the full image, which option correctly identifies the text within [[319, 383], [809, 383], [809, 670], [319, 670]]? Options:\nA. SAVE $ 1.00, 美國養殖游水吴郭鱼（大减特减）, （年年肴餘）（魚）（ONSALE), LIVETILAPIA FISH, /LB, SPECIALS\nB. 美國養殖游水吴郭鱼（大减特减）, LIVETILAPIA FISH, 9.99, FARM (ON SALE), /LB, SAVE $ 1.00\nC. LIVETILAPIA FISH, SPECIALS, （年年有餘）（魚）（ONSALE), SAVE $ 1.00, 9.99, /LB\nD. SAVE $ 1.00, LIVETILAPIA FISH, 9.99, 美國養殑游水吴郭鱼（大减特减）, /LB, SPECIALS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Within the bounding box [[318.5911534701857, 382.66513056835635], [838.795698924732, 382.66513056835635], [838.795698924732, 747.3161045943305], [318.5911534701857, 747.3161045943305]], are the label(s) '美國養殖游水吴郭鱼（大减特减）, SAVE $ 1.00, （年年有餘）（魚）（ONSALE), FARM (ON SALE), 9.99, SPECIALS, 99 RANCH MARKET, LIVETILAPIA FISH, REG $ 10.99/LB' present?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Name the word(s) that appear inside [[300, 381], [820, 381], [820, 745], [300, 745]]. ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[270,378], [730,376], [729,456], [270,452]], the label shows \"SPE____S\" — what part is missing?",
+              "answer": "CIAL"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The region [[300, 381], [790, 381], [790, 668], [300, 668]] contains some text — which of these answers matches it? Options:\nA. /LB, 9.99, （年年肴餘）（魚）（ONSALE), 美國養殖游水吴郭鱼（大减特减）, LIVETILAPIA FISH, SPECIALS\nB. （年年有餘）（魚）（ONSALE), LIVETILAPIA FISH, 9.99, /LB, SAVE $ 1.00, SPECIALS\nC. SRECIALS, LIVETILAPIA FISH, 9.99, /LB, 美國養殖游水吴郭鱼（大减特减）, （年年有餘）（魚）（ONSALE)\nD. 美國養殖游水吴郭鱼（大减特减）, （年年有餘）（魚）（ONSALE), /LB, SPECIALS, FARM (ON SALE), 9.99",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the bounding box [[299.77394916911044, 380.5145929339477], [819.9784946236578, 380.5145929339477], [819.9784946236578, 745.165566959922], [299.77394916911044, 745.165566959922]] actually contain the label(s) 'LIVETILAPIA FISH, /LB, （年年有餘）（魚）（ONSALE), USA, REG $ 10.99/LB, 美國養殖游水吴郭鱼（大减特减）, 99 RANCH MARKET, SPECIALS, SRVE $ 1.00, 9.99'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you identify the word(s) visible inside [[281, 377], [802, 377], [802, 742], [281, 742]]? ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A label at [[414,384], [875,383], [874,463], [414,458]] has some letters missing — complete the sequence: \"SP____IALS\".",
+              "answer": "EC"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the options below, which one captures all the text found inside [[281, 377], [802, 377], [802, 742], [281, 742]]? Options:\nA. REG $ 10.99/LB, LIVETILAPIA FISH, SPECIALS, USA, /LB, （年年有餘）（魚）（ONSALE), 99 RANCH MARKET, 9.99, 美國養殖游水吴郭鱼（大减特减）, SRVE $ 1.00\nB. 美國養殖游水吴郭鱼（大减特减）, REG $ 10.99/LB, 99 RANCH MARKET, LIVETILAPIA FISH, USA, /LB, （年年有餘）（魚）（ONSALE), FARM (ON SALE), 9.99, SPECIALS\nC. FARM (ON SALE), USA, 99 RANCH MARKET, 美國養殖游水吴郭鱼（大减特减）, 9.99, SPECIALS, REG $ 10.99/LB, （年年有餘）（魚）（ONSALE), SAVE $ 1.00, LIVETILARIA FISH\nD. 9.99, SAVE $ 1.00, （年年有餘）（魚）（ONSALE), /LB, 99 PANCH MARKET, REG $ 10.99/LB, LIVETILAPIA FISH, SPECIALS, FARM (ON SALE), 美國養殖游水吴郭鱼（大减特减）",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '（年年有餘）（魚）（ONSALE), SPECIALS, /LB, FARM (ON SALE), USA, 美國養殖游水吴郭鱼（大减特减）, REG $ 10.99/LB, 99 RANCH MARKET, 9.99' among the labels you can find within [[281.49437927663735, 377.28878648233484], [802.1505376344086, 377.28878648233484], [802.1505376344086, 741.9397605083093], [281.49437927663735, 741.9397605083093]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Write out the word(s) that appear inside the region [[260, 378], [787, 378], [787, 742], [260, 742]]. ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[992,639], [1085,638], [1084,685], [993,688]], something's been cut off — what's the missing part in \"/____B\"?",
+              "answer": "L"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the answer that accurately lists the text(s) you see in [[266, 378], [756, 378], [756, 666], [266, 666]]. Options:\nA. （年年有餘）（魚）（ONSALE), 美國養殑游水吴郭鱼（大减特减）, 9.99, /LB, SPECIALS, SAVE $ 1.00\nB. SAVE $ 1.00, SPECIALS, （年年有餘）（魚）（ONSALE), 9.99, LIVETILAPIA FISH, /LB\nC. /LB, SPECIALS, 9.99, FARM (ON SALE), 美國養殖游水吴郭鱼（大减特减）, （年年有餘）（魚）（ONSALE)\nD. 美國養殖游水吴郭鱼（大减特减）, 9.99, LIVETILARIA FISH, （年年有餘）（魚）（ONSALE), SAVE $ 1.00, /LB",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) '/LB, REG $ 10.99/LB, （年年有餘）（魚）（ONSALE), FARM (ON SALE), 9.99, 美國養殖游水吴郭鱼（大减特减）, 99 RANCH MARKET, LIVETILAPIA FISH, USA' fall within the area marked by [[259.6774193548387, 378.36405529953913], [786.5591397849471, 378.36405529953913], [786.5591397849471, 742.4193548387096], [259.6774193548387, 742.4193548387096]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Inside [[244, 376], [771, 376], [771, 740], [244, 740]], there's some text — what does it say? ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Figure out the missing digit(s) in the label at [[951,635], [1129,632], [1129,694], [954,701]]: \"9.____9\".",
+              "answer": "9"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which choice below correctly represents the text(s) visible in [[244, 376], [771, 376], [771, 740], [244, 740]]? Options:\nA. REG $ 10.99/LB, LIVETILAPIA FISH, 美國養殖游水吴郭鱼（大减特减）, 9.99, USA, 99 RANCH MARKET, SPECIALS, FAPM (ON SALE), SAVE $ 1.00, （年年有餘）（魚）（ONSALE)\nB. /LB, LIVETILAPIA FISH, SAVE $ 1.00, USA, （年年有餘）（魚）（ONSALE), 9.99, SRECIALS, 美國養殖游水吴郭鱼（大减特减）, 99 RANCH MARKET, REG $ 10.99/LB\nC. 9.99, USA, 美國養殖游水吴郭鱼（大减特减）, （年年有餘）（魚）（ONSALE), SPECIALS, REG $ 10.99/LB, /LB, 99 RANCH MARKET, FARM (ON SALE), SAVE $ 1.00\nD. REG $ 10.99/LB, SAVE $ 1.00, 美國養殖游水吴郭鱼（大减特减）, （年年有餘）（魚）（ONSALE), LIVETILAPIA FISH, FARM (ON SALE), /LP, USA, 9.99, SPECIALS",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'SAVE $ 1.00, USA, 美國養殖游水吴郭鱼（大减特减）, SPECIALS, LIVETILAPIA FISH, /LB, 99 RANCH MARKET, 9.99, （年年有餘）（魚）（ONSALE)' as the label(s) present within [[243.70108799389197, 375.99719139421364], [770.5828084240007, 375.99719139421364], [770.5828084240007, 740.0524909333842], [243.70108799389197, 740.0524909333842]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and name the word(s) that appear in [[227, 377], [754, 377], [754, 741], [227, 741]]. ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At [[933,661], [1060,662], [1059,684], [931,686]], there's a savings label — how much is being saved? Complete: \"SAVE $ ____\".",
+              "answer": "1.00"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Out of the choices given, which one includes all text(s) found in [[227, 377], [754, 377], [754, 741], [227, 741]]? Options:\nA. LIVETILAPIA FISH, USA, 美國養殖游水吴郭鱼（大减特减）, SPECIALS, REG $ 10.99/LB, 99 RANCH MARKET, （年年有餘）（魚）（ONSALE), /LB, FARM (ON SALE), 9.99\nB. /LB, （年年有餘）（魚）（ONSALE), REG $ 10.99/LB, SRECIALS, 美國養殖游水吴郭鱼（大减特减）, USA, 99 RANCH MARKET, LIVETILAPIA FISH, SAVE $ 1.00, FARM (ON SALE)\nC. /LB, SAVE $ 1.00, REG $ 10.99/LB, FARM (ON SALE), （年年有餘）（魚）（ONSALE), LIVETILAPIA FISH, USA, 美國養殖游水吴郭鱼（大减特减）, 9.99, 99 PANCH MARKET\nD. （年年有餘）（魚）（ONSALE), /LB, SPECIALS, LIVETILAPIA FISH, SAVE $ 1.00, FARM (ON SALE), REG $ 10.99/LB, 99 RANCH MARKET, 美國養殑游水吴郭鱼（大减特减）, USA",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would you say the label(s) 'LIVETILAPIA FISH, USA, SPECIALS, /LB, 美國養殖游水吴郭鱼（大减特减）, 9.99, SAVE $ 1.00, （年年有餘）（魚）（ONSALE), 99 PANCH MARKET, FARM (ON SALE)' are contained within the region at [[227.13304065661384, 376.58890737054503], [754.014761086723, 376.58890737054503], [754.014761086723, 740.6442069097155], [227.13304065661384, 740.6442069097155]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Focus on the region [[218, 376], [745, 376], [745, 740], [218, 740]] and type out any word(s) you find there. ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a price tag at [[1080,650], [1206,651], [1206,673], [1077,675]] — what number goes in \"SAVE $ ____.00\"?",
+              "answer": "1"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Select the option that best accounts for the text(s) shown in [[224, 376], [714, 376], [714, 664], [224, 664]]. Options:\nA. SRVE $ 1.00, （年年有餘）（魚）（ONSALE), 美國養殖游水吴郭鱼（大减特减）, 9.99, /LB, LIVETILAPIA FISH\nB. （年年有餘）（魚）（ONSALE), SAVE $ 1.00, /LB, FARM (ON SALE), LIVETILAPIA FISH, 9.99\nC. 美國養殖游水吴郭鱼（大减特减）, （年年有餘）（魚）（ONSALE), /LB, SAVE $ 1.00, SPECIALS, 9.99\nD. /LB, SAVE $ 1.00, REG $ 10.99/LB, 9.99, SPECIALS, 美國養殖游水吴郭鱼（大减特减）",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Check the area at [[217.9932557103773, 376.0512729619429], [744.8749761404868, 376.0512729619429], [744.8749761404868, 740.1065725011133], [217.9932557103773, 740.1065725011133]] — are the label(s) 'USA, /LB, （年年有餘）（魚）（ONSALE), REG $ 10.99/LB, SPECIALS, 99 RANCH MARKET, LIVETILAPIA FISH, 9.99, SAVE $ 1.00, FAPM (ON SALE)' actually there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text visible inside [[218, 376], [745, 376], [745, 740], [218, 740]] — what word(s) do you see? ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "An on-sale label at [[1288,726], [1440,722], [1440,745], [1288,748]] reads \"____ (ON SALE)\" — what word(s) fill in the blank?",
+              "answer": "FARM"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Among the answers provided, which correctly captures what's written in [[218, 591], [745, 591], [745, 740], [218, 740]]? Options:\nA. REG $ 10.99/LB, 9.99, 99 RANCH MARKET, SAVE $ 1.00, /LB, FARM (ON SALE)\nB. 99 RANCH MARKET, SPECIALS, FARM (ON SALE), USA, 9.99, /LB\nC. PEG $ 10.99/LB, 9.99, USA, 99 RANCH MARKET, /LB, SAVE $ 1.00\nD. FARM (ON SALE), 9.99, /LB, LIVETILAPIA FISH, REG $ 10.99/LB, 99 RANCH MARKET",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Does the region [[217.9932557103773, 376.0512729619429], [744.8749761404868, 376.0512729619429], [744.8749761404868, 740.1065725011133], [217.9932557103773, 740.1065725011133]] contain the label(s) 'USA, SPECIALS, 99 RANCH MARKET, /LB, PEG $ 10.99/LB, 9.99, LIVETILAPIA FISH, SAVE $ 1.00, 美國養殖游水吴郭鱼（大减特减）, FARM (ON SALE)'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Can you read the text inside [[201, 374], [722, 374], [722, 740], [201, 740]]? ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The price marker at [[1240,665], [1367,666], [1366,688], [1238,690]] reads \"SAVE $ ____\" — what's the missing number?",
+              "answer": "1.00"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Buried somewhere in these options is the text from [[201, 374], [722, 374], [722, 740], [201, 740]] — can you spot it? Options:\nA. FARM (ON SALE), 9.99, /LB, REG $ 10.99/LB, SPECIALS, SAVE $ 1.00, LIVETILAPIA FISH, （年年有餘）（魚）（ONSALE), 美國養殖游水吴郭鱼（大减特减）, 99 RANCH MARKET\nB. REG $ 10.99/LB, USA, SPECIALS, SAVE $ 1.00, 9.99, LIVETILAPIA FISH, /LB, FARM (ON SALE), 99 PANCH MARKET, 美國養殖游水吴郭鱼（大减特减）\nC. SAVE $ 1.00, /LB, 9.99, 99 RANCH MARKET, SPECIALS, （年年有餘）（魚）（ONSALE), USA, LIVETILARIA FISH, 美國養殖游水吴郭鱼（大减特减）, FARM (ON SALE)\nD. 美國養殑游水吴郭鱼（大减特减）, 9.99, REG $ 10.99/LB, SPECIALS, /LB, （年年有餘）（魚）（ONSALE), FARM (ON SALE), 99 RANCH MARKET, LIVETILAPIA FISH, SAVE $ 1.00",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is '（年年有餘）（魚）（ONSALE), 99 RANCH MARKET, LIVETILAPIA FISH, SRECIALS, 9.99, REG $ 10.99/LB, /LB, USA, 美國養殖游水吴郭鱼（大减特减）, FARM (ON SALE)' among the labels visible inside [[201.1005382128211, 373.60215053763443], [721.7566965705946, 373.60215053763443], [721.7566965705946, 739.7311827956989], [201.1005382128211, 739.7311827956989]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text found inside [[207, 374], [735, 374], [735, 742], [207, 742]] and write it out. ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "In the snippet at [[1602,690], [1732,685], [1733,713], [1604,716]], \"REG $ ____/LB\" is incomplete — what value fills the gap?",
+              "answer": "10.99"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer option matches what's written inside [[207, 591], [735, 591], [735, 742], [207, 742]]? Options:\nA. SPECIALS, 99 RANCH MARKET, /LB, FARM (ON SALE), USA, SAVE $ 1.00\nB. FAPM (ON SALE), 99 RANCH MARKET, SAVE $ 1.00, REG $ 10.99/LB, USA, /LB\nC. SAVE $ 1.00, /LB, USA, 99 RANCH MARKET, FARM (ON SALE), 9.99\nD. 99 RANCH MARKET, LIVETILAPIA FISH, /LB, FARM (ON SALE), 9.99, SAVE $ 1.00",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'SAVE $ 1.00, LIVETILAPIA FISH, （年年有餘）（魚）（ONSALE), 美國養殖游水吴郭鱼（大减特减）, /LB, 9.90, REG $ 10.99/LB, USA, SPECIALS, FARM (ON SALE)' anywhere inside the region [[207.24056753833435, 373.60215053763443], [734.7744480498843, 373.60215053763443], [734.7744480498843, 742.0980467010244], [207.24056753833435, 742.0980467010244]]?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/blur/EN/C0468/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0468/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me what word(s) appear inside [[207.24056753833435, 373.60215053763443], [734.7744480498843, 373.60215053763443], [734.7744480498843, 742.0980467010244], [207.24056753833435, 742.0980467010244]]. ________",
+              "answer": [
+                "SPECIALS",
+                "LIVETILAPIA FISH",
+                "美國養殖游水吴郭鱼（大减特减）",
+                "（年年有餘）（魚）（ONSALE)",
+                "9.99",
+                "/LB",
+                "FARM (ON SALE)",
+                "REG $ 10.99/LB",
+                "99 RANCH MARKET",
+                "SAVE $ 1.00",
+                "USA"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Price label \"REG $ ____/LB\" appears at [[1607,668], [1738,663], [1738,691], [1609,694]] — what's the full amount shown?",
+              "answer": "10.99"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Of the given choices, which one contains the text shown in [[207, 591], [735, 591], [735, 742], [207, 742]]? Options:\nA. REG $ 10.99/LB, 99 RANCH MARKET, SAVE $ 1.00, SPECIALS, USA, /LB\nB. 9.90, 99 RANCH MARKET, USA, FARM (ON SALE), REG $ 10.99/LB, /LB\nC. USA, /LB, SAVE $ 1.00, 99 RANCH MARKET, 9.90, REG $ 10.99/LB\nD. 9.99, FARM (ON SALE), SAVE $ 1.00, 99 RANCH MARKET, REG $ 10.99/LB, /LB",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Verify that 'SAVE $ 1.00, （年年有餘）（魚）（ONSALE), 9.99, FARM (ON SALE), 99 RANCH MARKET, USA, /LB, SPECIALS, REG $ 10.99/LB' shows up within the region [[207.24056753833435, 373.60215053763443], [734.7744480498843, 373.60215053763443], [734.7744480498843, 742.0980467010244], [207.24056753833435, 742.0980467010244]] — true or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0468"
+  }
+]

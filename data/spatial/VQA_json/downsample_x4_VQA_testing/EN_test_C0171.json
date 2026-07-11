@@ -1,0 +1,554 @@
+[
+  {
+    "questions": [
+      {
+        "frame": "frame_001.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_001.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_001.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Just by looking at [[659, 437], [1109, 437], [1109, 860], [659, 860]], what word(s) can you read? ________",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER",
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a word at [[833,824], [898,825], [898,855], [833,855]] with a gap in it — complete it: Al____",
+              "answer": "to"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which of the following best represents the text inside [[659, 437], [1109, 437], [1109, 860], [659, 860]]? Options:\nA. Thank, Alto, You, CENTER, City of Palo, Smoking, SHOPPING, Code:9.14.050, Not, For\nB. Not, A1to, Thank, City of Palo, STANFORD, CENTER, SHOPPING, Smoking, You, For\nC. You, Code:9.14.050, SHOPPING, For, Smoking, CENTER, Thank, Net, City of Palo, STANFORD\nD. CENTER, Thank, For, SHORPING, Smoking, You, Alto, STANFORD, Code:9.14.050, City of Palo",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Scanning the bounding box [[659.3333333333334, 436.78787878787875], [1108.592592592593, 436.78787878787875], [1108.592592592593, 859.8518518518518], [659.3333333333334, 859.8518518518518]], do the label(s) 'STANFORD, Code:9.14.050, Alto, Thank, CENTER, Net, City of Palo, Smoking, For, You' appear inside it?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_002.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_011.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_002.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glancing at region [[659, 705], [1109, 705], [1109, 860], [659, 860]], what word(s) do you make out? ________",
+              "answer": [
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "At coordinates [[833,825], [898,827], [898,857], [833,856]], the text starts with something missing — what beginning letter(s) complete ____lto?",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches the text visible in [[659, 437], [1109, 437], [1109, 860], [659, 860]]? Options:\nA. Code:9.14.050, Thank, A1to, STANFORD, CENTER, You, Smoking, SHOPPING, City of Palo, Not\nB. Not, Oity of Palo, Alto, Code:9.14.050, Thank, Smoking, CENTER, You, For, SHOPPING\nC. Thank, City of Palo, Smoking, Not, For, Code:9.14.050, STANFORD, You, CENTER, Alto\nD. For, You, Alto, CENTER, Code:9.14.050, SHOPPING, City of Palo, STANFORD, Ihank, Not",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Looking at the box [[659.3333333333334, 436.78787878787875], [1108.592592592593, 436.78787878787875], [1108.592592592593, 859.8518518518518], [659.3333333333334, 859.8518518518518]], do you think the label(s) 'STANFORD, SHOPPING, Alto, Thank, City of Palo, CENTER, Code:9.14.050, For, You' belong inside it?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_003.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_021.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_003.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read off the text you see inside [[659, 438], [1109, 438], [1109, 860], [659, 860]] — it is ________.",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER",
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Looking at the text at [[835,828], [900,830], [900,860], [834,860]], how would you fill in the gap here: A____o?",
+              "answer": "lt"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Take a look at [[659, 705], [1109, 705], [1109, 860], [659, 860]] — which of the following matches the text you find there? Options:\nA. Alto, For, City of Palo, STANFORD, Smoking, Thank, Code:9.14.050\nB. Thank, Not, You, Smoking, For, City of Palo, Code:9.14.050\nC. Alto, City of Palo, You, Code:9.14.050, Smoking, Ihank, Not\nD. Not, Alto, Smoking, Thank, For, City of Palo, Yeu",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "The text region [[659.3333333333334, 437.56608890461024], [1108.592592592593, 437.56608890461024], [1108.592592592593, 859.8518518518518], [659.3333333333334, 859.8518518518518]] — would you say it contains the label(s) 'Alto, For, STANFORD, You, Cede:9.14.050, SHOPPING, Smoking, CENTER, City of Palo, Not'?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_004.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_031.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_004.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Glance at [[659, 438], [1109, 438], [1109, 860], [659, 860]] and tell me: the text there is ________.",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER",
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The text at [[721,517], [945,520], [945,553], [722,550]] has a gap — try completing it: S____PING.",
+              "answer": "HOP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, which one matches what's written at [[659, 705], [1109, 705], [1109, 860], [659, 860]]? Options:\nA. Code:9.14.050, Alto, Not, Ihank, For, City of Palo, You\nB. For, Alto, Not, Smoking, You, Code:9.14.050, Ihank\nC. STANFORD, Thank, You, Code:9.14.050, Smoking, Not, City of Palo\nD. Smoking, For, Thank, Not, You, Alto, Code:9.14.050",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Is 'SHOPPING, Alto, City of Palo, Not, Thank, STANFORD, Smeking, Code:9.14.050, CENTER, For' the correct reading of what's inside [[659.3333333333334, 437.56608890461024], [1109.3120170530246, 437.56608890461024], [1109.3120170530246, 859.8518518518518], [659.3333333333334, 859.8518518518518]]? True or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_005.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_041.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_005.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Spot the text at [[659, 438], [1109, 438], [1109, 860], [659, 860]] and write it out: ________.",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER",
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word is cut off in the text at [[766,497], [990,501], [990,533], [767,530]] — can you supply what's missing? SH____NG",
+              "answer": "OPPI"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "If you zoom in on [[659, 438], [1109, 438], [1109, 860], [659, 860]], which of these options best represents the text you see? Options:\nA. SHOPPING, Thank, For, Alto, Code:9.14.050, CENTER, Oity of Palo, STANFORD, Not, You\nB. Smoking, Thank, Alto, STANFORD, For, Yeu, CENTER, Code:9.14.050, SHOPPING, City of Palo\nC. CENTER, SHOPPING, Thank, Code:9.14.050, City of Palo, For, Not, STANFORD, Alto, You\nD. STANFORD, Smoking, Not, Alto, You, CENTER, City of Palo, For, SHOPPING, Cede:9.14.050",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Would 'You, For, SHOPPING, Thank, Not, Code:9.14.050, Smoking, CENTER, STANFORD' be an accurate description of the label(s) positioned in [[659.3333333333334, 437.56608890461024], [1109.3120170530246, 437.56608890461024], [1109.3120170530246, 859.8518518518518], [659.3333333333334, 859.8518518518518]]?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_006.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_051.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_006.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Describe the text visible at [[659, 705], [1109, 705], [1109, 860], [659, 860]]: ________",
+              "answer": [
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The region [[752,740], [902,732], [902,763], [752,773]] shows an incomplete phrase — finish it: City of P____",
+              "answer": "alo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Look carefully at [[659, 705], [1109, 705], [1109, 860], [659, 860]] and pick the option that matches the text shown there. Options:\nA. Thank, Smoking, STANFORD, For, Code:9.14.050, Alto, Not\nB. Smoking, Thank, Yeu, For, Not, Alto, Code:9.14.050\nC. For, Not, Alto, Code:9.14.050, City of Palo, You, Smoking\nD. Smeking, Code:9.14.050, For, Alto, You, City of Palo, Not",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Checking the region [[659, 705], [1109, 705], [1109, 860], [659, 860]], is 'For, Alto, Code:9.14.050, Not, Thank, Smoking, You, City of Palo, SHOPPING' the label you see there?",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_007.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_061.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_007.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Go ahead and transcribe the text found within [[659, 438], [1109, 438], [1109, 860], [659, 860]]: ________",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER",
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "The name shown at [[856,372], [1045,360], [1048,383], [857,398]] seems incomplete — what letter(s) are missing? S____ORD",
+              "answer": "TANF"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Scan [[659, 704], [1109, 704], [1109, 860], [659, 860]] and select the option that accurately captures its text. Options:\nA. Smoking, Not, Fer, Code:9.14.050, Alto, Thank, You\nB. Not, Alto, STANFORD, City of Palo, Thank, Smoking, You\nC. Thank, Smoking, City of Palo, Alto, You, Not, For\nD. City of Palo, Smoking, Code:9.14.050, Thank, You, Not, A1to",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: the label(s) 'STANFORD, Alto, For, Code:9.14.050, City of Palo, CENTER, You, Smoking, SHOPPING' appear inside [[659.3333333333334, 438.2996950529284], [1109.3120170530246, 438.2996950529284], [1109.3120170530246, 859.8518518518518], [659.3333333333334, 859.8518518518518]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_008.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_071.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_008.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Have a look at [[658, 706], [1109, 706], [1109, 860], [658, 860]] — the text there reads ________.",
+              "answer": [
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Some letters are obscured in the text at [[922,521], [983,515], [986,548], [924,553]] — restore the complete word(s): N____",
+              "answer": "ot"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Which answer choice correctly identifies the text inside [[658, 439], [1109, 439], [1109, 860], [658, 860]]? Options:\nA. Code:9.14.050, Not, Alto, STANFORD, Thank, CENTER, City of Palo, Yeu, For, SHOPPING\nB. For, STANFORD, City of Palo, SHOPPING, Code:9.14.050, Thank, Alto, Not, Smoking, You\nC. Fer, Not, Alto, SHOPPING, Smoking, Thank, STANFORD, CENTER, Code:9.14.050, City of Palo\nD. City of Palo, Code:9.14.050, SHOPPING, For, Thank, Not, Alto, CENTER, STANFORD, Smeking",
+              "answer": "B"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do the label(s) 'Not, STANFORD, Thank, You, A1to, City of Palo, CENTER, Code:9.14.050, For, Smoking' match what's shown in [[658.1614583333334, 438.7288796022847], [1109.3120170530246, 438.7288796022847], [1109.3120170530246, 859.8518518518518], [658.1614583333334, 859.8518518518518]]? Answer true or false.",
+              "answer": "False"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_009.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_081.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_009.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "You can see some text at [[658, 439], [1109, 439], [1109, 860], [658, 860]] — jot it down: ________",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER",
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Look at the region [[917,365], [1056,358], [1057,383], [917,392]] — a word appears partially obscured. Supply the missing letter(s) to complete: S____PING",
+              "answer": "HOP"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "The text inside [[658, 439], [1109, 439], [1109, 860], [658, 860]] matches one of the options below — which one? Options:\nA. SHORPING, Smoking, Alto, CENTER, STANFORD, Thank, Code:9.14.050, For, You, Not\nB. Code:9.14.050, For, Net, You, SHOPPING, Thank, City of Palo, Alto, CENTER, STANFORD\nC. Smoking, You, CENTER, Alto, Thank, STANFORD, Code:9.14.050, City of Palo, For, SHOPPING\nD. SHOPPING, You, Smoking, Thank, Fer, Not, STANFORD, Code:9.14.050, CENTER, City of Palo",
+              "answer": "C"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "True or false: 'CENTER, City of Palo, Thank, For, SHOPPING, STANFORD, You, Not, Smoking' appears inside the bounding box [[658.1614583333334, 438.7288796022847], [1109.3120170530246, 438.7288796022847], [1109.3120170530246, 859.8518518518518], [658.1614583333334, 859.8518518518518]].",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_010.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_091.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_010.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Read the text visible in region [[658, 439], [1109, 439], [1109, 860], [658, 860]]. It is ________.",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER",
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "A word at [[1056,495], [1131,488], [1133,522], [1059,530]] has a gap in it. What letter(s) belong where indicated in ____ou?",
+              "answer": "Y"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Pick the option that accurately reflects the text found in [[658, 439], [1109, 439], [1109, 860], [658, 860]]. Options:\nA. You, Alto, Code:9.14.050, SHOPPING, Not, Smoking, Thank, City of Palo, STANFOPD, CENTER\nB. City of Palo, Alto, You, For, SHOPPING, Cede:9.14.050, Smoking, Thank, Not, STANFORD\nC. CENTER, You, SHOPPING, Smoking, Alto, Code:9.14.050, Net, STANFORD, Thank, For\nD. You, City of Palo, Smoking, Thank, For, Not, Alto, SHOPPING, STANFORD, Code:9.14.050",
+              "answer": "D"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "I'd like to know: is 'Code:9.14.050, Thank, CENTER, SHOPPING, City of Palo, Alto, STANFORD, Smoking, Not' actually visible inside [[658.1614583333334, 438.7288796022847], [1109.3120170530246, 438.7288796022847], [1109.3120170530246, 859.8518518518518], [658.1614583333334, 859.8518518518518]]? True or false?",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_011.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_101.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_011.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Tell me the word(s) shown inside [[698.2105957143621, 439.31027495112187], [1093.8518518518522, 439.31027495112187], [1093.8518518518522, 511.11111111111114], [698.2105957143621, 511.11111111111114]]. ________",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "There's a word at [[1056,601], [1094,598], [1095,618], [1058,622]] with its beginning cut off — how should ____to? start?",
+              "answer": "Al"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "Glancing at [[658, 439], [1109, 439], [1109, 860], [658, 860]], which of these choices matches the text there? Options:\nA. Code:9.14.050, Thank, CENTER, STANFORD, Alto, City of Palo, Smoking, You, SHOPPING, Not\nB. SHOPPING, CENTER, City of Palo, You, For, Thank, Not, STANFOPD, Alto, Code:9.14.050\nC. Fer, Not, Thank, Smoking, Code:9.14.050, City of Palo, You, SHOPPING, CENTER, STANFORD\nD. Ihank, Smoking, SHOPPING, City of Palo, CENTER, For, Alto, STANFORD, Not, Code:9.14.050",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Do you see 'For, Not, Thank, SHOPPING, City of Palo, Smoking, Code:9.14.050, Alto, You' inside the bounding box [[658.1614583333334, 439.31027495112187], [1109.021319378606, 439.31027495112187], [1109.021319378606, 859.8518518518518], [658.1614583333334, 859.8518518518518]]? Answer true or false.",
+              "answer": "True"
+            }
+          }
+        ]
+      },
+      {
+        "frame": "frame_012.png",
+        "frame_path": "spatial/VQA_img/downsample_x4/EN/C0171/frame_111.png",
+        "relative_path": "test_batch_1/EN_test/C0171/frame_012.png",
+        "qa_pairs": [
+          {
+            "question": {
+              "question_type": "fill_in",
+              "question": "Identify the word(s) shown in the region [[658, 439], [1109, 439], [1109, 865], [658, 865]]. ________",
+              "answer": [
+                "STANFORD",
+                "SHOPPING",
+                "CENTER",
+                "Thank",
+                "You",
+                "For",
+                "Not",
+                "Smoking",
+                "City of Palo",
+                "Alto",
+                "Code:9.14.050"
+              ]
+            }
+          },
+          {
+            "question": {
+              "question_type": "fill_in_blank",
+              "question": "Over at [[1099,625], [1230,610], [1232,647], [1101,659]], complete this partially shown term: S____king.",
+              "answer": "mo"
+            }
+          },
+          {
+            "question": {
+              "question_type": "multiple_choice",
+              "question": "From the choices below, select the one that matches the text inside [[658, 706], [1109, 706], [1109, 865], [658, 865]]. Options:\nA. Code:9.14.050, Alto, Thank, You, City of Palo, For, Smoking\nB. For, STANFORD, Smoking, City of Palo, Not, Code:9.14.050, Alto\nC. City of Palo, Not, Alto, You, Ihank, Smoking, For\nD. Code:9.14.050, Oity of Palo, Alto, Smoking, For, Thank, You",
+              "answer": "A"
+            }
+          },
+          {
+            "question": {
+              "question_type": "true_false",
+              "question": "Fact-check this: 'CENTER, Oity of Palo, Alto, STANFORD, Code:9.14.050, Smoking, SHOPPING, Thank, For, Not' falls within [[657.9435934095861, 439.31027495112187], [1109.021319378606, 439.31027495112187], [1109.021319378606, 865.2984749455337], [657.9435934095861, 865.2984749455337]]. True or false?",
+              "answer": "False"
+            }
+          }
+        ]
+      }
+    ],
+    "video_clip": "C0171"
+  }
+]
