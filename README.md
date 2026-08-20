@@ -8,7 +8,7 @@
 **ClearText-Video (CTVid)** is the first large-scale, scene-text-aware video QA benchmark
 for studying the effect of video quality on text-centric multimodal reasoning.
 
-> 📄 [Paper](https://arxiv.org/abs/XXXX.XXXXX) | 🌐 [Project Page](https://CTVid.github.io) | 🤗 [Dataset](https://huggingface.co/datasets/jinlong17/CTVid-Bench) | 🏆 [Leaderboard](https://CTVid.github.io/#leaderboard)
+> 📄 [Paper](https://arxiv.org/abs/XXXX.XXXXX) | 🌐 [Project Page](https://jinlong17.github.io/CTVid-Bench/) | 🤗 [Dataset](https://huggingface.co/datasets/jinlong17/CTVid-Bench) | 🏆 [Leaderboard](https://jinlong17.github.io/CTVid-Bench/#leaderboard)
 
 ![CTVid benchmark overview](project_page/static/images/main_figure.png)
 
