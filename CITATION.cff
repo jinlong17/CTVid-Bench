@@ -1,0 +1,82 @@
+cff-version: 1.2.0
+message: "If you use ClearText-Video, please cite the ECCV 2026 paper."
+type: dataset
+title: "ClearText-Video: A Large-Scale Text-Centric Video Dataset Bridging Video Restoration and Scene-Text Enhancement"
+abstract: >-
+  ClearText-Video is a large-scale, scene-text-aware benchmark for studying
+  text-centric video understanding under controlled quality variation. It
+  contains 4,639 real-world text-rich videos, 550K+ frames, 1.6M human-verified
+  annotations, and 220K+ spatial and temporal question-answer pairs in Chinese
+  and English.
+authors:
+  - family-names: Li
+    given-names: Jinlong
+    orcid: "https://orcid.org/0000-0002-7784-8363"
+  - family-names: Ding
+    given-names: Jiaming
+    orcid: "https://orcid.org/0009-0004-0023-6248"
+  - family-names: Lu
+    given-names: Dingfu
+    orcid: "https://orcid.org/0009-0000-1006-4372"
+  - family-names: Hsiu
+    given-names: Malcolm
+  - family-names: Ke
+    given-names: Chuang
+    orcid: "https://orcid.org/0009-0004-3616-5509"
+  - family-names: Yang
+    given-names: Kangning
+    orcid: "https://orcid.org/0000-0002-7106-0022"
+  - family-names: Guan
+    given-names: Bochen
+    orcid: "https://orcid.org/0000-0003-1726-7214"
+  - family-names: Fu
+    given-names: Lan
+    orcid: "https://orcid.org/0000-0003-2743-3116"
+  - family-names: Cai
+    given-names: Jie
+    orcid: "https://orcid.org/0000-0001-6221-0319"
+  - family-names: Sun
+    given-names: Huiming
+    orcid: "https://orcid.org/0000-0002-4329-7495"
+  - family-names: Meng
+    given-names: Zibo
+    orcid: "https://orcid.org/0000-0001-7299-7290"
+date-released: 2026-08-25
+license: MIT
+repository-code: "https://github.com/jinlong17/CTVid-Bench"
+url: "https://jinlong17.github.io/CTVid-Bench/"
+keywords:
+  - text-centric video
+  - video restoration
+  - scene text
+  - multimodal large language models
+  - video question answering
+preferred-citation:
+  type: conference-paper
+  title: "ClearText-Video: A Large-Scale Text-Centric Video Dataset Bridging Video Restoration and Scene-Text Enhancement"
+  authors:
+    - family-names: Li
+      given-names: Jinlong
+    - family-names: Ding
+      given-names: Jiaming
+    - family-names: Lu
+      given-names: Dingfu
+    - family-names: Hsiu
+      given-names: Malcolm
+    - family-names: Ke
+      given-names: Chuang
+    - family-names: Yang
+      given-names: Kangning
+    - family-names: Guan
+      given-names: Bochen
+    - family-names: Fu
+      given-names: Lan
+    - family-names: Cai
+      given-names: Jie
+    - family-names: Sun
+      given-names: Huiming
+    - family-names: Meng
+      given-names: Zibo
+  conference:
+    name: "European Conference on Computer Vision"
+  year: 2026

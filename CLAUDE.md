@@ -25,7 +25,7 @@ Transform tasks into verifiable goals with explicit success criteria. Loop until
 
 ## Part B — Project Orientation
 
-**Purpose:** Public open-source release of the ClearText-Video (CTVid) benchmark — CVPR 2026.
+**Purpose:** Public open-source release of the ClearText-Video (CTVid) benchmark — ECCV 2026.
 Evaluation scripts + annotation JSONs + project page + HuggingFace data link.
 
 **Sister repo:** [CTVid-Research](https://github.com/jinlong17/CTVid-Research) — private full-pipeline codebase with all 6 methods and training code.
@@ -67,7 +67,9 @@ On other machines: external users run `python tools/download_data.py` to pull fr
 - Temporal images: 54.8 GB (GT 31 + blur 21 + downsample_x4 2.8)
 - Temporal videos: 663 MB (GT 332 + blur 278 + downsample_x4 53)
 
-Anything larger than annotations stays on HuggingFace — do not commit binaries.
+Dataset payloads larger than annotations stay on HuggingFace. The lightweight,
+versioned paper and figure assets under `project_page/static/` are the only
+intentional publication-asset exception.
 
 ---
 
@@ -127,4 +129,4 @@ python evaluation/temporal/metrics.py --results_dir outputs/temporal/ --dataset 
 
 ---
 
-**These guidelines are working if:** the repo stays clone-and-run on a fresh non-NFS machine, no binaries leak into git, and the 3-method scope holds firm.
+**These guidelines are working if:** the repo stays clone-and-run on a fresh non-NFS machine, no dataset or model binaries leak into git, and the 3-method scope holds firm.

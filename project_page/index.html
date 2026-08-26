@@ -1,375 +1,401 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ClearText-Video (CTVid) Benchmark</title>
-  <meta name="description" content="ClearText-Video (CTVid): A Large-Scale Text-Centric Video Dataset for Evaluating MLLMs under Quality Variation. CVPR 2026.">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
-  <!-- Font Awesome icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b5d45">
+  <meta name="description" content="ClearText-Video is a large-scale text-centric video benchmark for restoration-aware, quality-robust multimodal reasoning.">
+  <meta property="og:title" content="ClearText-Video — ECCV 2026">
+  <meta property="og:description" content="4,639 text-rich videos, 1.6M human-verified annotations, and 220K+ bilingual QA pairs across matched quality conditions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jinlong17.github.io/CTVid-Bench/">
+  <meta property="og:image" content="https://jinlong17.github.io/CTVid-Bench/static/images/20260825/main-figure.webp">
+  <link rel="canonical" href="https://jinlong17.github.io/CTVid-Bench/">
+  <link rel="icon" type="image/png" href="static/images/20260825/cleartext-oppo-logo.png">
   <link rel="stylesheet" href="static/css/style.css">
+  <title>ClearText-Video — ECCV 2026</title>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<!-- ====================================================================== -->
-<!-- HEADER / HERO                                                           -->
-<!-- ====================================================================== -->
-<section class="hero">
-  <div class="container">
-    <h1 class="title">ClearText-Video</h1>
-    <h2 class="subtitle">A Large-Scale Text-Centric Video Benchmark<br>Bridging Video Restoration and Scene-Text Enhancement</h2>
-
-    <div class="venue-badge">CVPR 2026</div>
-
-    <div class="authors">
-      <!-- TODO: Replace with actual author names and links -->
-      <span class="author">Author One<sup>1</sup></span>,
-      <span class="author">Author Two<sup>1</sup></span>,
-      <span class="author">Author Three<sup>2</sup></span>
-    </div>
-    <div class="affiliations">
-      <span><sup>1</sup>Institution A</span> &nbsp;
-      <span><sup>2</sup>Institution B</span>
-    </div>
-
-    <!-- Action buttons -->
-    <div class="links">
-      <a class="btn btn-primary" href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank">
-        <i class="fas fa-file-alt"></i> Paper
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="ClearText-Video home">
+        <img src="static/images/20260825/cleartext-oppo-logo.png" alt="" width="46" height="53">
+        <span>ClearText-Video</span>
       </a>
-      <a class="btn" href="https://github.com/jinlong17/CTVid-Bench" target="_blank">
-        <i class="fab fa-github"></i> Code
-      </a>
-      <a class="btn" href="https://huggingface.co/datasets/jinlong17/CTVid-Bench" target="_blank">
-        <i class="fas fa-database"></i> Dataset
-      </a>
-      <a class="btn" href="#leaderboard">
-        <i class="fas fa-trophy"></i> Leaderboard
-      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#dataset">Dataset</a>
+        <a href="#benchmark">Benchmark</a>
+        <a href="#findings">Findings</a>
+        <a href="#resources">Resources</a>
+      </nav>
     </div>
-  </div>
-</section>
+  </header>
 
-<!-- ====================================================================== -->
-<!-- TEASER                                                                  -->
-<!-- ====================================================================== -->
-<section class="section" id="teaser">
-  <div class="container">
-    <figure class="paper-figure">
-      <img src="static/images/main_figure.png" alt="CTVid benchmark overview"
-           style="width:100%;max-width:1100px;display:block;margin:0 auto;">
-      <figcaption>
-        <strong>Figure 1.</strong> Overview of the ClearText-Video (CTVid) benchmark — text-rich
-        egocentric video clips evaluated across High-Quality, Degraded-Quality, and Restored-Quality
-        regimes for spatial / temporal scene-text understanding.
-      </figcaption>
-    </figure>
-  </div>
-</section>
-
-<!-- ====================================================================== -->
-<!-- ABSTRACT                                                                -->
-<!-- ====================================================================== -->
-<section class="section bg-light" id="abstract">
-  <div class="container narrow">
-    <h2 class="section-title">Abstract</h2>
-    <p class="abstract-text">
-      Multimodal Large Language Models (MLLMs) have recently demonstrated strong progress in
-      visual–linguistic understanding, yet their performance on text-centric video reasoning
-      remains highly sensitive to input quality. Real-world user-provided videos frequently contain
-      motion blur, compression artifacts, noise, and low-resolution text, substantially impairing
-      reliable text reading and downstream reasoning. Whether MLLMs can robustly read and reason
-      over in-the-wild text under diverse quality conditions remains an unanswered fundamental question.
-    </p>
-    <p class="abstract-text">
-      To bridge this gap, we present <strong>ClearText-Video (CTVid)</strong>, a large-scale benchmark
-      designed to evaluate text-centric video understanding under controlled quality variation. CTVid
-      comprises more than 4.6K real-world text-rich egocentric videos, 550K+ frames, and 1.6M
-      scene-text annotations, enabling comprehensive evaluation across three regimes: High-Quality,
-      Degraded-Quality, and Restored-Quality. We comprehensively evaluate 18 representative
-      restoration methods and 16 state-of-the-art MLLMs on our test set.
-    </p>
-  </div>
-</section>
-
-<!-- ====================================================================== -->
-<!-- ANNOTATION PIPELINE                                                     -->
-<!-- ====================================================================== -->
-<section class="section" id="pipeline">
-  <div class="container">
-    <h2 class="section-title">Annotation Pipeline</h2>
-    <p class="section-subtitle">Multi-stage hybrid pipeline combining automated detection with human verification.</p>
-    <figure class="paper-figure">
-      <img src="static/images/annotation_process.png" alt="Annotation process"
-           style="width:100%;max-width:1000px;display:block;margin:0 auto;">
-      <figcaption>
-        <strong>Figure 2.</strong> Annotation workflow — scene-text detection, tracking,
-        bounding-box refinement, and QA-pair generation.
-      </figcaption>
-    </figure>
-  </div>
-</section>
-
-<!-- ====================================================================== -->
-<!-- DATASET STATS                                                           -->
-<!-- ====================================================================== -->
-<section class="section" id="dataset">
-  <div class="container">
-    <h2 class="section-title">Dataset at a Glance</h2>
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-number">4,639</div>
-        <div class="stat-label">Text-rich Videos</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">550K+</div>
-        <div class="stat-label">Frames</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">1.6M</div>
-        <div class="stat-label">Text Annotations</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">220K+</div>
-        <div class="stat-label">QA Pairs</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">3</div>
-        <div class="stat-label">Quality Regimes</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">2</div>
-        <div class="stat-label">Languages (ZH / EN)</div>
-      </div>
-    </div>
-
-    <p class="section-subtitle">
-      Public data is released in one Hugging Face repository with separate spatial,
-      temporal, and training folders. Testing QA uses QA-v2 annotations; refined
-      training QA is maintained internally until the next public upload.
-    </p>
-
-    <div class="quality-regimes">
-      <h3>Three Quality Regimes</h3>
-      <div class="regime-grid">
-        <div class="regime-card hq">
-          <div class="regime-icon">🎥</div>
-          <div class="regime-name">High-Quality (HQ)</div>
-          <div class="regime-desc">Original Sony A7R V recordings, 4K resolution</div>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <div class="venue-row">
+            <span class="venue-badge">ECCV 2026</span>
+            <span class="release-note">Release · 25 Aug 2026</span>
+          </div>
+          <h1>ClearText-<span>Video</span></h1>
+          <p class="hero-subtitle">A Large-Scale Text-Centric Video Dataset Bridging Video Restoration and Scene-Text Enhancement</p>
+          <p class="hero-summary">A quality-controlled benchmark that connects video restoration with the harder question: can multimodal models still read and reason about the same text when video quality changes?</p>
+          <div class="action-row" aria-label="Project resources">
+            <a class="button button-primary" href="static/paper/ClearText_Video_arXiv_20260825.pdf">Paper PDF <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="https://huggingface.co/datasets/jinlong17/CTVid-Bench" target="_blank" rel="noreferrer">Dataset <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="https://github.com/jinlong17/CTVid-Bench" target="_blank" rel="noreferrer">Code <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <div class="regime-card dq">
-          <div class="regime-icon">🌫</div>
-          <div class="regime-name">Degraded-Quality (DQ)</div>
-          <div class="regime-desc">4× bicubic downsampling · local motion blur synthesis</div>
+
+        <figure class="paper-figure hero-figure">
+          <div class="figure-kicker"><span>01</span> Benchmark overview</div>
+          <a href="static/images/20260825/main-figure.webp" target="_blank" aria-label="Open the full benchmark overview figure">
+            <img src="static/images/20260825/main-figure.webp" alt="Overview of the ClearText-Video benchmark linking restoration evaluation, high-quality video QA, degraded-quality video QA, and restored-quality video QA." width="2600" height="1362" fetchpriority="high">
+          </a>
+          <figcaption>One content instance, matched across high-quality, degraded and restored video evidence.</figcaption>
+        </figure>
+      </div>
+
+      <div class="shell stat-rail" aria-label="Dataset headline statistics">
+        <div><strong>4,639</strong><span>text-rich videos</span></div>
+        <div><strong>550K+</strong><span>video frames</span></div>
+        <div><strong>1.6M</strong><span>verified annotations</span></div>
+        <div><strong>220K+</strong><span>spatial &amp; temporal QA</span></div>
+      </div>
+    </section>
+
+    <section class="section overview" id="overview">
+      <div class="shell split-intro">
+        <div>
+          <p class="eyebrow">Why ClearText-Video</p>
+          <h2>Video quality changes the evidence—not only the pixels.</h2>
         </div>
-        <div class="regime-card rq">
-          <div class="regime-icon">✨</div>
-          <div class="regime-name">Restored-Quality (RQ)</div>
-          <div class="regime-desc">18 restoration methods applied to DQ videos</div>
+        <div class="lead-copy">
+          <p>Real-world videos contain motion blur, compression, noise and low-resolution text. ClearText-Video makes those changes measurable by pairing every high-quality source with content-matched degraded and restored variants.</p>
+          <p>It unifies two task families—<strong>Text-Centric Video Restoration</strong> and <strong>Multi-Quality VideoQA</strong>—so perceptual enhancement can be evaluated alongside text fidelity and downstream reasoning.</p>
         </div>
       </div>
-    </div>
 
-    <figure class="paper-figure" style="margin-top:3rem;">
-      <img src="static/images/videoclips.png" alt="Sample video clips"
-           style="width:100%;max-width:1000px;display:block;margin:0 auto;">
-      <figcaption>
-        <strong>Figure 3.</strong> Representative video clips from CTVid covering diverse scenes,
-        languages (Chinese / English), and text carriers.
-      </figcaption>
-    </figure>
-
-    <figure class="paper-figure" style="margin-top:2rem;">
-      <img src="static/images/attributes.png" alt="Dataset attributes"
-           style="width:100%;max-width:900px;display:block;margin:0 auto;">
-      <figcaption>
-        <strong>Figure 4.</strong> Dataset attribute distribution — scene type, text carrier,
-        font, and language coverage.
-      </figcaption>
-    </figure>
-  </div>
-</section>
-
-<!-- ====================================================================== -->
-<!-- TASKS                                                                   -->
-<!-- ====================================================================== -->
-<section class="section bg-light" id="tasks">
-  <div class="container">
-    <h2 class="section-title">Benchmark Tasks</h2>
-    <div class="tasks-grid">
-      <div class="task-card">
-        <div class="task-number">Task 1</div>
-        <h3>Spatial QA</h3>
-        <p>Text recognition within bounding boxes. Three question types: fill-in-blank, multiple-choice, true/false.</p>
-        <div class="task-metrics">Acc · UAcc · OC Ratio</div>
+      <div class="shell research-question">
+        <span class="question-mark" aria-hidden="true">?</span>
+        <p>Does a video that looks better also preserve the textual evidence a multimodal model needs?</p>
       </div>
-      <div class="task-card">
-        <div class="task-number">Task 2</div>
-        <h3>Temporal QA</h3>
-        <p>Text motion, visibility, and dynamics across 120-frame clips. Five categories: presence, localization, motion, size, boundary.</p>
-        <div class="task-metrics">Category Accuracy (±2 frame tolerance)</div>
+    </section>
+
+    <section class="section section-tint" id="dataset">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Dataset &amp; tasks</p>
+          <h2>Built for text in motion,<br><span>not text in isolation.</span></h2>
+          <p>Chinese and English scene text captured in real indoor and outdoor environments, with aligned quality variants and two rounds of expert verification.</p>
+        </div>
+
+        <div class="pipeline" aria-label="Dataset construction pipeline">
+          <article>
+            <span class="step-number">1</span>
+            <h3>Source videos</h3>
+            <p>Real-world, text-rich egocentric clips from offline and online sources.</p>
+          </article>
+          <span class="step-arrow" aria-hidden="true">→</span>
+          <article>
+            <span class="step-number">2</span>
+            <h3>Human verification</h3>
+            <p>Text boxes, transcripts, captions and QA reviewed in two rounds.</p>
+          </article>
+          <span class="step-arrow" aria-hidden="true">→</span>
+          <article>
+            <span class="step-number">3</span>
+            <h3>Matched quality</h3>
+            <p>HQ originals paired with controlled degradations and restored outputs.</p>
+          </article>
+          <span class="step-arrow" aria-hidden="true">→</span>
+          <article>
+            <span class="step-number">4</span>
+            <h3>VideoQA</h3>
+            <p>Spatial and temporal questions test reading, grounding and reasoning.</p>
+          </article>
+        </div>
+
+        <div class="quality-panel">
+          <div class="panel-label">Content-matched quality regimes</div>
+          <div class="quality-grid">
+            <div class="quality-group quality-hq">
+              <span class="quality-code">HQ</span>
+              <div><strong>High quality</strong><small>Original evidence</small></div>
+            </div>
+            <div class="quality-group quality-dq">
+              <span class="quality-code">DQ</span>
+              <div><strong>Low resolution</strong><small>Bicubic ×4</small></div>
+            </div>
+            <div class="quality-group quality-dq">
+              <span class="quality-code">DQ</span>
+              <div><strong>Blur</strong><small>Locally variant blur</small></div>
+            </div>
+            <div class="quality-group quality-rq">
+              <span class="quality-code">RQ</span>
+              <div><strong>DOVE</strong><small>Restored evidence</small></div>
+            </div>
+            <div class="quality-group quality-rq">
+              <span class="quality-code">RQ</span>
+              <div><strong>MIMO</strong><small>Restored evidence</small></div>
+            </div>
+            <div class="quality-group quality-rq">
+              <span class="quality-code">RQ</span>
+              <div><strong>S3DIFF</strong><small>Restored evidence</small></div>
+            </div>
+          </div>
+          <p class="scope-note"><strong>Public release scope:</strong> the Hugging Face release currently provides GT, blur and downsample_x4. Full-paper RQ variants are evaluation conditions reported in the paper.</p>
+        </div>
+
+        <figure class="paper-figure sample-strip">
+          <div class="figure-kicker"><span>02</span> Bilingual real-world scenes</div>
+          <a href="static/images/20260825/video-clips.webp" target="_blank" aria-label="Open the full video sample figure">
+            <img src="static/images/20260825/video-clips.webp" alt="Twelve English and Chinese scene-text examples from trucks, signs, transport, airports and storefronts." width="2600" height="750" loading="lazy">
+          </a>
+          <figcaption>Text appears on vehicles, directional signs, storefronts, billboards and other everyday carriers.</figcaption>
+        </figure>
+
+        <div class="annotation-grid">
+          <figure class="paper-figure">
+            <div class="figure-kicker"><span>03</span> Two-round annotation</div>
+            <a href="static/images/20260825/annotation-process.webp" target="_blank" aria-label="Open the full annotation process figure">
+              <img src="static/images/20260825/annotation-process.webp" alt="Collection, labeling, mixed-expert QA processing, inspection and human correction pipeline." width="2299" height="622" loading="lazy">
+            </a>
+          </figure>
+          <aside class="annotation-stats" aria-label="Annotation statistics">
+            <div><strong>6.4K+</strong><span>candidate videos collected</span></div>
+            <div><strong>16</strong><span>annotators</span></div>
+            <div><strong>2</strong><span>verification rounds</span></div>
+            <div><strong>1080p</strong><span>30 FPS source format</span></div>
+          </aside>
+        </div>
+
+        <div class="split-details">
+          <div class="split-card">
+            <span>Training</span>
+            <strong>4,327 videos</strong>
+            <p>Large-scale supervision for restoration-aware and quality-robust model development.</p>
+          </div>
+          <div class="split-card">
+            <span>Testing</span>
+            <strong>312 videos</strong>
+            <p>74% offline / 26% online, with balanced Chinese and English coverage by source.</p>
+          </div>
+          <div class="split-card">
+            <span>Difficulty</span>
+            <strong>46 / 37 / 17%</strong>
+            <p>Easy, medium and hard questions for controlled difficulty analysis.</p>
+          </div>
+        </div>
+
+        <figure class="paper-figure distributions">
+          <div class="figure-kicker"><span>04</span> Captions, text and scene coverage</div>
+          <img src="static/images/20260825/dataset-distributions.webp" alt="Word clouds and distributions of caption language, scene text, scene categories and text carrier types." width="2400" height="644" loading="lazy">
+        </figure>
       </div>
-      <div class="task-card">
-        <div class="task-number">Task 3</div>
-        <h3>Text Detection</h3>
-        <p>Evaluate restoration methods on scene-text detection quality (precision, recall, F1).</p>
-        <div class="task-metrics">P · R · F1</div>
+    </section>
+
+    <section class="section" id="benchmark">
+      <span id="leaderboard" class="anchor-target" aria-hidden="true"></span>
+      <div class="shell">
+        <div class="section-heading benchmark-heading">
+          <p class="eyebrow">Benchmark</p>
+          <h2>Restoration improves pixels—<br><span>not always the evidence.</span></h2>
+          <p>ClearText-Video evaluates visual quality, text fidelity and multimodal reasoning together instead of treating restoration as an endpoint.</p>
+        </div>
+
+        <div class="benchmark-counts" aria-label="Benchmark scale">
+          <div><strong>18</strong><span>restoration methods</span></div>
+          <div><strong>16</strong><span>multimodal LLMs</span></div>
+          <div><strong>6</strong><span>spatial quality regimes</span></div>
+          <div><strong>4</strong><span>spatial metrics</span></div>
+        </div>
+
+        <div class="result-layout" id="findings">
+          <figure class="paper-figure radar-card">
+            <div class="figure-kicker"><span>05</span> Accuracy across quality regimes</div>
+            <a href="static/images/20260825/radar-acc-uacc.webp" target="_blank" aria-label="Open the full accuracy and unbiased accuracy radar chart">
+              <img src="static/images/20260825/radar-acc-uacc.webp" alt="Radar charts comparing accuracy and unbiased accuracy of sixteen multimodal models across HQ, degraded and restored quality conditions." width="2200" height="918" loading="lazy">
+            </a>
+            <figcaption><strong>Metrics:</strong> Accuracy (Acc), Unbiased Accuracy (UAcc), Overconfidence (OC) and Answer Abstention (Abs).</figcaption>
+          </figure>
+
+          <div class="finding-list">
+            <article>
+              <span class="finding-index">01</span>
+              <div>
+                <h3>Blur is the harder degradation</h3>
+                <p>Across 16 MLLMs, spatial accuracy drops <strong>6.05 points</strong> under blur versus <strong>3.14 points</strong> under low resolution.</p>
+              </div>
+            </article>
+            <article>
+              <span class="finding-index">02</span>
+              <div>
+                <h3>Best spatial HQ · 71.67%</h3>
+                <p>Gemini-2.5-pro leads high-quality spatial VideoQA and also leads DQ-Low_res and RQ-S3DIFF.</p>
+              </div>
+            </article>
+            <article>
+              <span class="finding-index">03</span>
+              <div>
+                <h3>Best temporal HQ · 60.02%</h3>
+                <p>Claude-Sonnet-4.6 ranks first across all five temporal quality conditions.</p>
+              </div>
+            </article>
+            <article>
+              <span class="finding-index">04</span>
+              <div>
+                <h3>Fine-tuning helps—but shifts reliability</h3>
+                <p>Qwen2.5-VL-7B-SFT gains 6.31–10.11 points over its base model, while accuracy and uncertainty-aware reliability do not always move together.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="results-tables">
+          <div class="table-card">
+            <div class="table-title">
+              <div><span>Spatial VideoQA</span><h3>Best accuracy by condition</h3></div>
+              <small>Final paper results (%)</small>
+            </div>
+            <div class="table-scroll" tabindex="0">
+              <table>
+                <thead><tr><th>Condition</th><th>Best model</th><th>Acc</th></tr></thead>
+                <tbody>
+                  <tr><td>HQ</td><td>Gemini-2.5-pro</td><td><strong>71.67</strong></td></tr>
+                  <tr><td>DQ-Low_res</td><td>Gemini-2.5-pro</td><td><strong>65.00</strong></td></tr>
+                  <tr><td>DQ-Blur</td><td>Claude-Sonnet-4.6</td><td><strong>60.00</strong></td></tr>
+                  <tr><td>RQ-DOVE</td><td>Gemini-2.5-flash</td><td><strong>66.67</strong></td></tr>
+                  <tr><td>RQ-MIMO</td><td>Claude-Sonnet-4.6</td><td><strong>70.00</strong></td></tr>
+                  <tr><td>RQ-S3DIFF</td><td>Gemini-2.5-pro</td><td><strong>70.00</strong></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="table-card">
+            <div class="table-title">
+              <div><span>Temporal VideoQA</span><h3>Claude-Sonnet-4.6</h3></div>
+              <small>Best across all conditions (%)</small>
+            </div>
+            <div class="table-scroll" tabindex="0">
+              <table>
+                <thead><tr><th>Condition</th><th>Accuracy</th></tr></thead>
+                <tbody>
+                  <tr><td>HQ</td><td><strong>60.02</strong></td></tr>
+                  <tr><td>DQ-Blur</td><td><strong>59.45</strong></td></tr>
+                  <tr><td>RQ-MIMO</td><td><strong>59.34</strong></td></tr>
+                  <tr><td>RQ-S3DIFF</td><td><strong>58.88</strong></td></tr>
+                  <tr><td>RQ-DOVE</td><td><strong>60.37</strong></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <figure class="paper-figure failure-card">
+          <div class="failure-copy">
+            <p class="eyebrow">Failure modes</p>
+            <h3>Restored outputs can alter text.</h3>
+            <p>Perceptual enhancement can introduce residual character errors or hallucinations that change the evidence used for downstream answers.</p>
+          </div>
+          <a href="static/images/20260825/rq-failure-modes.webp" target="_blank" aria-label="Open the full restored-quality failure-mode figure">
+            <img src="static/images/20260825/rq-failure-modes.webp" alt="Examples of text hallucination, character distortion, localization bias, reasoning errors and temporal aggregation errors after restoration." width="922" height="453" loading="lazy">
+          </a>
+        </figure>
+
+        <div class="qualitative-heading">
+          <p class="eyebrow">Qualitative restoration</p>
+          <h3>Read the details that global image metrics miss.</h3>
+        </div>
+        <div class="qualitative-grid">
+          <figure class="paper-figure">
+            <div class="figure-kicker"><span>ZH</span> Chinese scene text</div>
+            <a href="static/images/20260825/qualitative-zh.webp" target="_blank"><img src="static/images/20260825/qualitative-zh.webp" alt="Chinese scene-text restoration comparison across high-quality, low-resolution and restored outputs." width="2200" height="709" loading="lazy"></a>
+          </figure>
+          <figure class="paper-figure">
+            <div class="figure-kicker"><span>EN</span> English scene text</div>
+            <a href="static/images/20260825/qualitative-en.webp" target="_blank"><img src="static/images/20260825/qualitative-en.webp" alt="English scene-text restoration comparison across high-quality, low-resolution and restored outputs." width="2200" height="709" loading="lazy"></a>
+          </figure>
+        </div>
       </div>
-      <div class="task-card">
-        <div class="task-number">Task 4</div>
-        <h3>Text Recognition</h3>
-        <p>Character-level recognition accuracy after restoration. Measures end-to-end text fidelity.</p>
-        <div class="task-metrics">Acc_rec · NED_rec</div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ====================================================================== -->
-<!-- QUALITATIVE RESULTS                                                     -->
-<!-- ====================================================================== -->
-<section class="section" id="qualitative">
-  <div class="container">
-    <h2 class="section-title">Qualitative Results</h2>
-    <p class="section-subtitle">Side-by-side comparison of restoration methods on degraded text-rich frames.</p>
+    <section class="section section-dark" id="resources">
+      <div class="shell">
+        <div class="resource-heading">
+          <p class="eyebrow">Resources</p>
+          <h2>Start with the benchmark.</h2>
+          <p>Paper, public data and reproducible evaluation code are collected here.</p>
+        </div>
 
-    <figure class="paper-figure">
-      <img src="static/images/qualitative_chn.png" alt="Qualitative comparison (Chinese)"
-           style="width:100%;max-width:1100px;display:block;margin:0 auto;">
-      <figcaption><strong>Figure 5.</strong> Chinese text restoration — original vs degraded vs multiple restoration methods.</figcaption>
-    </figure>
+        <div class="resource-grid">
+          <a href="static/paper/ClearText_Video_arXiv_20260825.pdf">
+            <span>01 · Paper</span><strong>Read the 42-page release</strong><small>PDF · 25 Aug 2026</small>
+          </a>
+          <a href="https://huggingface.co/datasets/jinlong17/CTVid-Bench" target="_blank" rel="noreferrer">
+            <span>02 · Dataset</span><strong>Download from Hugging Face</strong><small>GT · blur · downsample_x4</small>
+          </a>
+          <a href="https://github.com/jinlong17/CTVid-Bench" target="_blank" rel="noreferrer">
+            <span>03 · Code</span><strong>Run the public benchmark</strong><small>Spatial &amp; temporal evaluation</small>
+          </a>
+          <a href="https://github.com/jinlong17/CTVid-Bench/blob/main/DATA.md" target="_blank" rel="noreferrer">
+            <span>04 · Data guide</span><strong>Review the release layout</strong><small>Splits · paths · download commands</small>
+          </a>
+        </div>
 
-    <figure class="paper-figure" style="margin-top:2rem;">
-      <img src="static/images/qualitative_en.png" alt="Qualitative comparison (English)"
-           style="width:100%;max-width:1100px;display:block;margin:0 auto;">
-      <figcaption><strong>Figure 6.</strong> English text restoration — comparison across restoration backbones.</figcaption>
-    </figure>
-  </div>
-</section>
-
-<!-- ====================================================================== -->
-<!-- MLLM PERFORMANCE                                                        -->
-<!-- ====================================================================== -->
-<section class="section bg-light" id="results">
-  <div class="container">
-    <h2 class="section-title">MLLM Performance Analysis</h2>
-    <p class="section-subtitle">Accuracy and uncertainty profiles across 16 evaluated MLLMs.</p>
-    <figure class="paper-figure">
-      <img src="static/images/radar_results.png" alt="Accuracy / uncertainty radar"
-           style="width:100%;max-width:900px;display:block;margin:0 auto;">
-      <figcaption>
-        <strong>Figure 7.</strong> Per-model accuracy and uncertainty radar across CTVid evaluation
-        dimensions (presence / localization / motion / size / boundary).
-      </figcaption>
-    </figure>
-  </div>
-</section>
-
-<!-- ====================================================================== -->
-<!-- LEADERBOARD                                                             -->
-<!-- ====================================================================== -->
-<section class="section" id="leaderboard">
-  <div class="container">
-    <h2 class="section-title">Leaderboard</h2>
-    <p class="section-subtitle">Results on the HQ test set. Submit your model: open a GitHub Issue.</p>
-
-    <table class="leaderboard-table">
-      <thead>
-        <tr>
-          <th>Rank</th>
-          <th>Model</th>
-          <th>Type</th>
-          <th>Spatial Acc (HQ)</th>
-          <th>Temporal Acc (HQ)</th>
-          <th>Spatial Acc (DQ-blur)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="gold">
-          <td>🥇</td><td>Gemini-2.5-flash</td><td>Closed</td><td>57.14%</td><td>40.12%</td><td>49.31%</td>
-        </tr>
-        <tr class="silver">
-          <td>🥈</td><td>Gemini-2.5-pro</td><td>Closed</td><td>55.83%</td><td>42.19%</td><td>47.82%</td>
-        </tr>
-        <tr>
-          <td>3</td><td>Qwen2.5-VL-7B</td><td>Open</td><td>51.21%</td><td>35.67%</td><td>44.17%</td>
-        </tr>
-        <tr>
-          <td>4</td><td>Kimi-VL-16B</td><td>Open</td><td>49.38%</td><td>38.31%</td><td>42.95%</td>
-        </tr>
-        <tr class="baseline">
-          <td>—</td><td>blur (DQ baseline)</td><td>—</td><td>—</td><td>—</td><td>—</td>
-        </tr>
-      </tbody>
-    </table>
-    <p style="font-size:0.85rem;color:#888;text-align:center;margin-top:1rem;">
-      Full results in Table 2 of the paper. Numbers are approximate; see paper for full details.
-    </p>
-  </div>
-</section>
-
-<!-- ====================================================================== -->
-<!-- DOWNLOAD                                                                -->
-<!-- ====================================================================== -->
-<section class="section bg-light" id="download">
-  <div class="container narrow">
-    <h2 class="section-title">Download</h2>
-    <p>The public dataset is hosted on Hugging Face with separate spatial, temporal, and training folders.</p>
-    <pre class="code-block">
-# Clone the repository (includes all annotation JSONs)
-git clone https://github.com/jinlong17/CTVid-Bench.git
-cd CTVid-Bench
-
-# Download images and videos from HuggingFace
-python tools/download_data.py --variants GT blur downsample_x4</pre>
-
-    <div class="download-sizes">
-      <div class="size-item"><strong>Spatial QA-v2 annotations</strong>: included under data/spatial/VQA_json (389 clips x 3 methods)</div>
-      <div class="size-item"><strong>Temporal QA-v2 annotations</strong>: included under data/temporal/videos_vqa (97 clips x 3 methods)</div>
-      <div class="size-item"><strong>Spatial QA images</strong>: 18.8 GB (HuggingFace)</div>
-      <div class="size-item"><strong>Temporal QA images</strong>: 54.8 GB (HuggingFace)</div>
-      <div class="size-item"><strong>Temporal QA videos</strong>: 663 MB (HuggingFace)</div>
-    </div>
-  </div>
-</section>
-
-<!-- ====================================================================== -->
-<!-- BIBTEX                                                                  -->
-<!-- ====================================================================== -->
-<section class="section" id="bibtex">
-  <div class="container narrow">
-    <h2 class="section-title">Citation</h2>
-    <pre class="code-block">
-@inproceedings{ctvid2026,
+        <div class="citation-block">
+          <div>
+            <p class="eyebrow">Citation</p>
+            <h3>If this benchmark supports your research, please cite:</h3>
+          </div>
+          <pre><code>@inproceedings{li2026cleartextvideo,
   title     = {ClearText-Video: A Large-Scale Text-Centric Video Dataset
                Bridging Video Restoration and Scene-Text Enhancement},
-  booktitle = {CVPR},
-  year      = {2026},
-}</pre>
-  </div>
-</section>
+  author    = {Li, Jinlong and Ding, Jiaming and Lu, Dingfu and Hsiu, Malcolm
+               and Ke, Chuang and Yang, Kangning and Guan, Bochen and Fu, Lan
+               and Cai, Jie and Sun, Huiming and Meng, Zibo},
+  booktitle = {European Conference on Computer Vision},
+  year      = {2026}
+}</code></pre>
+        </div>
 
-<!-- ====================================================================== -->
-<!-- FOOTER                                                                  -->
-<!-- ====================================================================== -->
-<footer>
-  <div class="container">
-    <p>
-      CTVid-Bench · CVPR 2026 ·
-      Code: <a href="https://github.com/jinlong17/CTVid-Bench">MIT License</a> ·
-      Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-    </p>
-    <p style="font-size:0.8rem;color:#aaa;margin-top:0.5rem;">
-      Page template adapted from
-      <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" style="color:#aaa;">
-        Academic-project-page-template</a>.
-    </p>
-  </div>
-</footer>
+        <div class="authors-block">
+          <p class="eyebrow">Authors</p>
+          <p class="author-list">
+            <a href="https://orcid.org/0000-0002-7784-8363">Jinlong Li</a><sup>*†</sup>,
+            <a href="https://orcid.org/0009-0004-0023-6248">Jiaming Ding</a><sup>*</sup>,
+            <a href="https://orcid.org/0009-0000-1006-4372">Dingfu Lu</a><sup>‡</sup>,
+            Malcolm Hsiu<sup>‡</sup>,
+            <a href="https://orcid.org/0009-0004-3616-5509">Chuang Ke</a>,
+            <a href="https://orcid.org/0000-0002-7106-0022">Kangning Yang</a>,
+            <a href="https://orcid.org/0000-0003-1726-7214">Bochen Guan</a>,
+            <a href="https://orcid.org/0000-0003-2743-3116">Lan Fu</a>,
+            <a href="https://orcid.org/0000-0001-6221-0319">Jie Cai</a>,
+            <a href="https://orcid.org/0000-0002-4329-7495">Huiming Sun</a>,
+            <a href="https://orcid.org/0000-0001-7299-7290">Zibo Meng</a>
+          </p>
+          <p class="affiliations">OPPO US AI Center · University of Wisconsin–Madison · University of California San Diego</p>
+          <p class="author-notes"><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author · <sup>‡</sup> Work done during internships at OPPO US AI Center</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand">
+        <img src="static/images/20260825/cleartext-oppo-logo.png" alt="ClearText-Video" width="64" height="73">
+        <div><strong>ClearText-Video</strong><span>ECCV 2026</span></div>
+      </div>
+      <p>Built from the final 25 Aug 2026 release source. Code under MIT; public data under CC BY 4.0.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
 </body>
 </html>

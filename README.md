@@ -1,50 +1,120 @@
-# CTVid-Bench: ClearText-Video Benchmark
+<div align="center">
+  <img src="project_page/static/images/20260825/cleartext-oppo-logo.png" alt="ClearText-Video logo" width="150">
 
-[![Paper](https://img.shields.io/badge/CVPR_2026-Paper-red)](https://arxiv.org/abs/XXXX.XXXXX)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/jinlong17/CTVid-Bench)
-[![License: MIT](https://img.shields.io/badge/Code_License-MIT-blue)](LICENSE)
-[![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
+  <h1>ClearText-Video</h1>
+  <p><strong>A Large-Scale Text-Centric Video Dataset Bridging<br>Video Restoration and Scene-Text Enhancement</strong></p>
+  <p>ECCV 2026</p>
 
-**ClearText-Video (CTVid)** is the first large-scale, scene-text-aware video QA benchmark
-for studying the effect of video quality on text-centric multimodal reasoning.
+  <a href="https://jinlong17.github.io/CTVid-Bench/static/paper/ClearText_Video_arXiv_20260825.pdf"><img src="https://img.shields.io/badge/ECCV_2026-Paper-0b5d45?style=flat-square" alt="Paper"></a>
+  <a href="https://jinlong17.github.io/CTVid-Bench/"><img src="https://img.shields.io/badge/Project-Page-168463?style=flat-square" alt="Project page"></a>
+  <a href="https://huggingface.co/datasets/jinlong17/CTVid-Bench"><img src="https://img.shields.io/badge/🤗_Hugging_Face-Dataset-f0b429?style=flat-square" alt="Hugging Face dataset"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/Code-MIT-2968a8?style=flat-square" alt="MIT license"></a>
 
-> 📄 [Paper](https://arxiv.org/abs/XXXX.XXXXX) | 🌐 [Project Page](https://jinlong17.github.io/CTVid-Bench/) | 🤗 [Dataset](https://huggingface.co/datasets/jinlong17/CTVid-Bench) | 🏆 [Leaderboard](https://jinlong17.github.io/CTVid-Bench/#leaderboard)
-
-![CTVid benchmark overview](project_page/static/images/main_figure.png)
-
----
-
-## Highlights
-
-- **4,639** real-world text-rich videos · **550K+** frames · **1.6M** scene-text annotations · **220K+** QA pairs
-- **Three quality regimes**: High-Quality (HQ), Degraded-Quality (DQ: blur & low-res), Restored-Quality (RQ)
-- **Four evaluation tasks**: Spatial QA, Temporal QA, text detection, text recognition
-- **Bilingual**: Chinese + English scene text
-- Comprehensive evaluation of **18 restoration methods** and **16 state-of-the-art MLLMs**
+  <p>
+    <a href="https://jinlong17.github.io/CTVid-Bench/"><strong>Project Page</strong></a> ·
+    <a href="https://jinlong17.github.io/CTVid-Bench/static/paper/ClearText_Video_arXiv_20260825.pdf"><strong>Paper PDF</strong></a> ·
+    <a href="https://huggingface.co/datasets/jinlong17/CTVid-Bench"><strong>Dataset</strong></a> ·
+    <a href="#quick-start"><strong>Quick Start</strong></a> ·
+    <a href="#benchmark-results"><strong>Results</strong></a>
+  </p>
+</div>
 
 ---
 
-## Dataset Statistics
+## Overview
 
-| Split | Videos | Frames | Text Annotations | QA Pairs |
-|-------|--------|--------|-----------------|----------|
-| Train | 4,327  | ~511K  | ~1.5M           | ~207K    |
-| Test  | 312    | ~37K   | ~120K           | ~13K     |
-| **Total** | **4,639** | **550K+** | **1.6M** | **220K+** |
+**ClearText-Video (CTVid)** is a large-scale, scene-text-aware benchmark for studying text-centric video understanding under controlled quality variation. It pairs every high-quality source with content-matched degraded and restored variants, connecting **Text-Centric Video Restoration** with **Multi-Quality VideoQA**.
 
-**Open-source test set** (this repo) covers 3 quality variants: GT · blur · downsample_x4
+The central question is simple: **does a video that looks better also preserve the textual evidence a multimodal model needs?**
 
-**Current public release status.** The Hugging Face dataset uses one repository
-with top-level `spatial/`, `temporal/`, and `training/` folders. Testing ImageQA
-and VideoQA are available as QA-v2 annotations for the public variants. Training
-source frames and OCR JSON are available; refined training QA has been prepared
-internally but is not uploaded to the public dataset yet.
+<p align="center">
+  <img src="project_page/static/images/20260825/main-figure.webp" alt="ClearText-Video benchmark overview" width="100%">
+</p>
 
----
+### At a glance
 
-## Quick Start
+| Videos | Frames | Human-verified annotations | Spatial & temporal QA | Languages |
+|:--:|:--:|:--:|:--:|:--:|
+| **4,639** | **550K+** | **1.6M** | **220K+** | **Chinese + English** |
 
-### Installation
+- **4,327 training videos** and **312 testing videos**.
+- Quality-controlled **HQ**, **DQ-Low_res**, **DQ-Blur**, **RQ-DOVE**, **RQ-MIMO**, and **RQ-S3DIFF** conditions in the full benchmark.
+- Evaluation of **18 restoration methods** and **16 multimodal LLMs**.
+- Two rounds of annotation and correction by **16 annotators**, starting from **6.4K+ candidate videos**.
+
+> [!IMPORTANT]
+> The current public Hugging Face release contains **GT**, **blur**, and **downsample_x4**. DOVE, MIMO and S3DIFF are full-paper evaluation conditions and are not part of the current public download.
+
+## Authors
+
+Jinlong Li<sup>*†</sup>, Jiaming Ding<sup>*</sup>, Dingfu Lu<sup>‡</sup>, Malcolm Hsiu<sup>‡</sup>, Chuang Ke, Kangning Yang, Bochen Guan, Lan Fu, Jie Cai, Huiming Sun, Zibo Meng
+
+OPPO US AI Center · University of Wisconsin–Madison · University of California San Diego
+
+<sub><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author · <sup>‡</sup> Work done during internships at OPPO US AI Center</sub>
+
+## Dataset
+
+### Quality regimes
+
+| Regime | Conditions | Purpose |
+|---|---|---|
+| **HQ** | Original high-quality video | Reference textual evidence |
+| **DQ** | Low resolution, locally variant blur | Controlled robustness testing |
+| **RQ** | DOVE, MIMO, S3DIFF | Test whether restoration preserves or changes evidence |
+
+### Benchmark tasks
+
+1. **Text-Centric Video Restoration** — image super-resolution, video super-resolution and video deblurring, evaluated with visual-quality and text-fidelity metrics.
+2. **Spatial VideoQA** — text recognition and grounding within frame-level context, evaluated with Accuracy (Acc), Unbiased Accuracy (UAcc), Overconfidence (OC) and Answer Abstention (Abs).
+3. **Temporal VideoQA** — text presence, localization, motion, scale and boundary reasoning across video frames.
+
+<p align="center">
+  <img src="project_page/static/images/20260825/video-clips.webp" alt="Bilingual real-world ClearText-Video samples" width="100%">
+</p>
+
+<details>
+<summary><strong>Dataset split and annotation details</strong></summary>
+
+| Split | Videos | Notes |
+|---|---:|---|
+| Train | 4,327 | Large-scale training supervision |
+| Test | 312 | 74% offline / 26% online; balanced Chinese and English coverage by source |
+
+Question difficulty is distributed as **46% easy**, **37% medium**, and **17% hard**.
+
+<br>
+
+<img src="project_page/static/images/20260825/annotation-process.webp" alt="ClearText-Video annotation process" width="100%">
+</details>
+
+## Benchmark results
+
+The final paper shows that visual enhancement does **not** guarantee textual fidelity or downstream reasoning gains.
+
+- Across 16 MLLMs, low resolution reduces spatial QA accuracy by **3.14 points** from HQ, while blur reduces it by **6.05 points**.
+- **Gemini-2.5-pro** reaches the best spatial HQ accuracy at **71.67%**.
+- **Claude-Sonnet-4.6** ranks first across all five temporal quality conditions, reaching **60.02%** on HQ and **60.37%** on RQ-DOVE.
+- **Qwen2.5-VL-7B-SFT** is the strongest open-source model by accuracy across all six spatial quality conditions, improving **6.31–10.11 points** over its base model.
+
+### Best spatial accuracy by condition
+
+| Condition | Best model | Accuracy (%) |
+|---|---|---:|
+| HQ | Gemini-2.5-pro | **71.67** |
+| DQ-Low_res | Gemini-2.5-pro | **65.00** |
+| DQ-Blur | Claude-Sonnet-4.6 | **60.00** |
+| RQ-DOVE | Gemini-2.5-flash | **66.67** |
+| RQ-MIMO | Claude-Sonnet-4.6 | **70.00** |
+| RQ-S3DIFF | Gemini-2.5-pro | **70.00** |
+
+<p align="center">
+  <img src="project_page/static/images/20260825/radar-acc-uacc.webp" alt="Accuracy and unbiased accuracy across six quality conditions" width="88%">
+</p>
+
+## Quick start
+
+### 1. Install
 
 ```bash
 git clone https://github.com/jinlong17/CTVid-Bench.git
@@ -52,147 +122,80 @@ cd CTVid-Bench
 pip install -r requirements.txt
 ```
 
-### Download Images & Videos
+### 2. Download the public test variants
 
 ```bash
-python tools/download_data.py --split test --variants GT blur downsample_x4
+python tools/download_data.py \
+  --split test \
+  --variants GT blur downsample_x4
 ```
 
-Or manually from HuggingFace: see [DATA.md](DATA.md)
+See [DATA.md](DATA.md) for the Hugging Face layout, paths and manual download options.
 
-### Run Spatial QA Evaluation
+### 3. Run spatial VideoQA
 
 ```bash
-# Evaluate GT videos with Qwen2.5-7B text-only baseline
 python evaluation/spatial/run_eval.py \
-    --dataset GT \
-    --config configs/default.yaml \
-    --output_dir outputs/spatial/
+  --dataset GT \
+  --config configs/default.yaml \
+  --output_dir outputs/spatial/
 
-# Compute metrics
 python evaluation/spatial/metrics.py \
-    --results_dir outputs/spatial/ \
-    --dataset GT
+  --results_dir outputs/spatial/ \
+  --dataset GT
 ```
 
-### Run Temporal QA Evaluation
+### 4. Run temporal VideoQA
 
 ```bash
 python evaluation/temporal/run_eval.py \
-    --dataset GT \
-    --config configs/default.yaml \
-    --output_dir outputs/temporal/
+  --dataset GT \
+  --config configs/default.yaml \
+  --output_dir outputs/temporal/
 
 python evaluation/temporal/metrics.py \
-    --results_dir outputs/temporal/ \
-    --dataset GT
+  --results_dir outputs/temporal/ \
+  --dataset GT
 ```
 
----
+## Repository layout
 
-## Dataset Visualizations
-
-### Annotation Pipeline
-![Annotation process](project_page/static/images/annotation_process.png)
-
-### Sample Video Clips
-![Sample clips](project_page/static/images/videoclips.png)
-
-### Qualitative Restoration Results
-| Chinese | English |
-|:--:|:--:|
-| ![CHN comparison](project_page/static/images/qualitative_chn.png) | ![EN comparison](project_page/static/images/qualitative_en.png) |
-
-### MLLM Performance Radar
-<img src="project_page/static/images/radar_results.png" alt="Radar" width="600">
-
----
-
-## Repository Structure
-
-```
+```text
 CTVid-Bench/
-├── data/
-│   ├── spatial/VQA_img/              # Spatial QA frames after download
-│   ├── spatial/VQA_json/             # QA-v2 ImageQA JSONs, 389 clips x 3 public methods
-│   ├── temporal/images/              # Temporal extracted frames after download
-│   └── temporal/videos_vqa/          # Temporal videos + QA-v2 JSONs, 97 clips x 3 public methods
+├── configs/default.yaml
+├── docs/
+│   ├── review_spatial_qa.md
+│   └── review_temporal_qa.md
 ├── evaluation/
-│   ├── spatial/                       # Spatial QA eval scripts
-│   └── temporal/                      # Temporal QA eval scripts
-├── tools/
-│   ├── download_data.py               # HuggingFace dataset downloader
-│   └── visualize.py                   # Visualize QA examples
-├── project_page/                      # GitHub Pages project website
-├── examples/                          # Demo notebooks
-├── configs/default.yaml               # Path configuration
-├── requirements.txt
-├── DATA.md                            # Detailed data download instructions
-└── LICENSE
+│   ├── spatial/
+│   └── temporal/
+├── project_page/                 # GitHub Pages source
+├── tools/download_data.py
+├── DATA.md                       # Public data release guide
+└── requirements.txt
 ```
-
----
-
-## Evaluation Tasks
-
-### Task 1 — Text-Centric VideoQA for Spatial Understanding
-
-Evaluates scene-text recognition within spatial context per video frame.
-
-| Question Type | Description | Example |
-|--------------|-------------|---------|
-| Fill-in-blank | Identify missing characters in a bounding box | `"capy____"` → `"bara"` |
-| Multiple-choice | Select the text in a given region | `A/B/C/D` |
-| True/False | Verify text presence in a region | `Yes/No` |
-
-**Metrics**: Accuracy (Acc), Uncertainty-aware Accuracy (UAcc), Over-confidence Ratio (OC)
-
-### Task 2 — Text-Centric VideoQA for Temporal Understanding
-
-Evaluates text motion, visibility, and dynamics across 120-frame video clips.
-
-| Category | Questions | Example |
-|---------|-----------|---------|
-| Presence | 6 | "In how many frames is X visible?" |
-| Localization | 6 | "Which region does X spend most time in?" |
-| Motion | 9 | "What is the main motion direction of X?" |
-| Size | 6 | "In which frame does X have the largest area?" |
-| Boundary | 1 | "Does X touch the screen edge?" |
-
-**Metrics**: Category-level accuracy with ±2-frame tolerance for numeric answers
-
----
-
-## Leaderboard
-
-Results on the test set (HQ / DQ-blur / DQ-low_res):
-
-| Model | Spatial Acc (HQ) | Temporal Acc (HQ) |
-|-------|-----------------|------------------|
-| Gemini-2.5-flash | 57.14% | 40.12% |
-| Gemini-2.5-pro | 55.83% | 42.19% |
-| Qwen2.5-VL-7B | 51.21% | 35.67% |
-| Kimi-VL-16B | 49.38% | 38.31% |
-| *more in paper* | | |
-
-Submit results: open a GitHub Issue with your model card.
-
----
 
 ## Citation
 
 ```bibtex
-@inproceedings{ctvid2026,
+@inproceedings{li2026cleartextvideo,
   title     = {ClearText-Video: A Large-Scale Text-Centric Video Dataset
                Bridging Video Restoration and Scene-Text Enhancement},
-  booktitle = {CVPR},
-  year      = {2026},
+  author    = {Li, Jinlong and Ding, Jiaming and Lu, Dingfu and Hsiu, Malcolm
+               and Ke, Chuang and Yang, Kangning and Guan, Bochen and Fu, Lan
+               and Cai, Jie and Sun, Huiming and Meng, Zibo},
+  booktitle = {European Conference on Computer Vision},
+  year      = {2026}
 }
 ```
 
----
-
 ## License
 
-- **Code**: MIT License
-- **Data**: CC BY 4.0
+- **Code:** [MIT License](LICENSE)
+- **Public data:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+<div align="center">
+  <sub>Website, figures and metadata synchronized with the final 25 August 2026 release source.</sub>
+</div>
