@@ -5,14 +5,15 @@
   <p><strong>A Large-Scale Text-Centric Video Dataset Bridging<br>Video Restoration and Scene-Text Enhancement</strong></p>
   <p>ECCV 2026</p>
 
-  <a href="https://jinlong17.github.io/CTVid-Bench/static/paper/ClearText_Video_arXiv_20260825.pdf"><img src="https://img.shields.io/badge/ECCV_2026-Paper-0b5d45?style=flat-square" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2608.28784"><img src="https://img.shields.io/badge/arXiv-2608.28784-b31b1b?style=flat-square" alt="arXiv paper"></a>
+  <img src="https://img.shields.io/badge/ECCV-2026-0b5d45?style=flat-square" alt="ECCV 2026">
   <a href="https://jinlong17.github.io/CTVid-Bench/"><img src="https://img.shields.io/badge/Project-Page-168463?style=flat-square" alt="Project page"></a>
   <a href="https://huggingface.co/datasets/jinlong17/CTVid-Bench"><img src="https://img.shields.io/badge/🤗_Hugging_Face-Dataset-f0b429?style=flat-square" alt="Hugging Face dataset"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Code-MIT-2968a8?style=flat-square" alt="MIT license"></a>
 
   <p>
     <a href="https://jinlong17.github.io/CTVid-Bench/"><strong>Project Page</strong></a> ·
-    <a href="https://jinlong17.github.io/CTVid-Bench/static/paper/ClearText_Video_arXiv_20260825.pdf"><strong>Paper PDF</strong></a> ·
+    <a href="https://arxiv.org/abs/2608.28784"><strong>arXiv Paper</strong></a> ·
     <a href="https://huggingface.co/datasets/jinlong17/CTVid-Bench"><strong>Dataset</strong></a> ·
     <a href="#quick-start"><strong>Quick Start</strong></a> ·
     <a href="#benchmark-results"><strong>Results</strong></a>
@@ -185,6 +186,10 @@ CTVid-Bench/
                and Ke, Chuang and Yang, Kangning and Guan, Bochen and Fu, Lan
                and Cai, Jie and Sun, Huiming and Meng, Zibo},
   booktitle = {European Conference on Computer Vision},
+  eprint    = {2608.28784},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url       = {https://arxiv.org/abs/2608.28784},
   year      = {2026}
 }
 ```
@@ -197,5 +202,5 @@ CTVid-Bench/
 ---
 
 <div align="center">
-  <sub>Website, figures and metadata synchronized with the final 25 August 2026 release source.</sub>
+  <sub>Paper available as <a href="https://arxiv.org/abs/2608.28784">arXiv:2608.28784</a> · submitted 28 August 2026.</sub>
 </div>
