@@ -52,30 +52,57 @@
 
   <main id="main">
     <section class="hero" id="top">
-      <div class="shell hero-grid">
+      <div class="shell hero-intro">
         <div class="hero-copy">
-          <div class="venue-row">
-            <span class="venue-badge">ECCV 2026</span>
-            <span class="release-note">arXiv v1 · 28 Aug 2026</span>
+          <p class="paper-title">A Large-Scale Text-Centric Video Dataset Bridging Video Restoration and Scene-Text Enhancement</p>
+          <div class="hero-lockup">
+            <img class="hero-project-mark" src="static/images/20260825/cleartext-oppo-logo.png" alt="" width="72" height="83">
+            <h1>ClearText-<span>Video</span></h1>
           </div>
-          <h1>ClearText-<span>Video</span></h1>
-          <p class="hero-subtitle">A Large-Scale Text-Centric Video Dataset Bridging Video Restoration and Scene-Text Enhancement</p>
           <p class="hero-summary">A quality-controlled benchmark that connects video restoration with the harder question: can multimodal models still read and reason about the same text when video quality changes?</p>
           <div class="action-row" aria-label="Project resources">
-            <a class="button button-primary" href="https://arxiv.org/abs/2608.28784" target="_blank" rel="noreferrer">arXiv Paper <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="https://arxiv.org/abs/2608.28784" target="_blank" rel="noreferrer">ECCV Paper <span aria-hidden="true">↗</span></a>
             <a class="button button-secondary" href="https://huggingface.co/datasets/jinlong17/CTVid-Bench" target="_blank" rel="noreferrer">Dataset <span aria-hidden="true">↗</span></a>
             <a class="button button-secondary" href="https://github.com/jinlong17/CTVid-Bench" target="_blank" rel="noreferrer">Code <span aria-hidden="true">↗</span></a>
           </div>
+
+          <div class="institution-strip" aria-label="Participating institutions">
+            <span class="institution-label">From</span>
+            <a href="https://www.oppo.com/en/" target="_blank" rel="noreferrer" aria-label="OPPO">
+              <img class="logo-oppo" src="static/images/brands/oppo-black.svg" alt="OPPO" width="116" height="30">
+            </a>
+            <a href="https://www.wisc.edu/" target="_blank" rel="noreferrer" aria-label="University of Wisconsin–Madison">
+              <img class="logo-wisconsin" src="static/images/brands/uw-madison.svg" alt="University of Wisconsin–Madison" width="204" height="46">
+            </a>
+            <a href="https://ucsd.edu/" target="_blank" rel="noreferrer" aria-label="University of California San Diego">
+              <img class="logo-ucsd" src="static/images/brands/uc-san-diego.svg" alt="UC San Diego" width="190" height="32">
+            </a>
+          </div>
         </div>
 
-        <figure class="paper-figure hero-figure">
-          <div class="figure-kicker"><span>01</span> Benchmark overview</div>
-          <a href="static/images/20260825/main-figure.webp" target="_blank" aria-label="Open the full benchmark overview figure">
-            <img src="static/images/20260825/main-figure.webp" alt="Overview of the ClearText-Video benchmark linking restoration evaluation, high-quality video QA, degraded-quality video QA, and restored-quality video QA." width="2600" height="1362" fetchpriority="high">
-          </a>
-          <figcaption>One content instance, matched across high-quality, degraded and restored video evidence.</figcaption>
-        </figure>
+        <a class="conference-card" href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noreferrer" aria-label="ECCV 2026 official conference website">
+          <div class="conference-art">
+            <img src="static/images/brands/eccv-2026-malmo.jpg" alt="Malmö skyline, host city of ECCV 2026" width="800" height="290">
+          </div>
+          <div class="conference-content">
+            <img class="conference-logo" src="static/images/brands/eccv-2026.svg" alt="ECCV 2026 Malmö" width="430" height="189">
+            <p>The 19th European Conference<br>on Computer Vision</p>
+            <dl class="conference-meta">
+              <div><dt>Date</dt><dd>8–12 September 2026</dd></div>
+              <div><dt>Place</dt><dd>Malmö, Sweden</dd></div>
+              <div><dt>Venue</dt><dd>Malmö Arena &amp; Malmömässan</dd></div>
+            </dl>
+          </div>
+        </a>
       </div>
+
+      <figure class="shell paper-figure hero-figure">
+        <div class="figure-kicker"><span>01</span> Benchmark overview</div>
+        <a href="static/images/20260825/main-figure.webp" target="_blank" aria-label="Open the full benchmark overview figure">
+          <img src="static/images/20260825/main-figure.webp" alt="Overview of the ClearText-Video benchmark linking restoration evaluation, high-quality video QA, degraded-quality video QA, and restored-quality video QA." width="2600" height="1362" fetchpriority="high">
+        </a>
+        <figcaption>One content instance, matched across high-quality, degraded and restored video evidence.</figcaption>
+      </figure>
 
       <div class="shell stat-rail" aria-label="Dataset headline statistics">
         <div><strong>4,639</strong><span>text-rich videos</span></div>
@@ -351,8 +378,8 @@
         </div>
 
         <div class="resource-grid">
-          <a href="https://arxiv.org/abs/2608.28784" target="_blank" rel="noreferrer">
-            <span>01 · Paper</span><strong>Read the paper on arXiv</strong><small>arXiv:2608.28784 · 28 Aug 2026</small>
+          <a class="resource-primary" href="https://arxiv.org/abs/2608.28784" target="_blank" rel="noreferrer">
+            <span>01 · ECCV Paper</span><strong>Read the paper</strong><small>Full paper · Methods · Results</small>
           </a>
           <a href="https://huggingface.co/datasets/jinlong17/CTVid-Bench" target="_blank" rel="noreferrer">
             <span>02 · Dataset</span><strong>Download from Hugging Face</strong><small>GT · blur · downsample_x4</small>
@@ -366,21 +393,22 @@
         </div>
 
         <div class="citation-block">
-          <div>
+          <div class="citation-copy">
             <p class="eyebrow">Citation</p>
             <h3>If this benchmark supports your research, please cite:</h3>
+            <button class="copy-citation" type="button" data-copy-target="bibtex-citation" aria-live="polite">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="2"></rect><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"></path></svg>
+              <span>Copy BibTeX</span>
+            </button>
           </div>
-          <pre><code>@inproceedings{li2026cleartextvideo,
+          <pre><code id="bibtex-citation">@inproceedings{li2026cleartextvideo,
   title     = {ClearText-Video: A Large-Scale Text-Centric Video Dataset
                Bridging Video Restoration and Scene-Text Enhancement},
   author    = {Li, Jinlong and Ding, Jiaming and Lu, Dingfu and Hsiu, Malcolm
                and Ke, Chuang and Yang, Kangning and Guan, Bochen and Fu, Lan
                and Cai, Jie and Sun, Huiming and Meng, Zibo},
   booktitle = {European Conference on Computer Vision},
-  eprint    = {2608.28784},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url       = {https://arxiv.org/abs/2608.28784},
+  url       = {https://jinlong17.github.io/CTVid-Bench/},
   year      = {2026}
 }</code></pre>
         </div>
@@ -388,10 +416,10 @@
         <div class="authors-block">
           <p class="eyebrow">Authors</p>
           <p class="author-list">
-            <a href="https://orcid.org/0000-0002-7784-8363">Jinlong Li</a><sup>*†</sup>,
-            <a href="https://orcid.org/0009-0004-0023-6248">Jiaming Ding</a><sup>*</sup>,
-            <a href="https://orcid.org/0009-0000-1006-4372">Dingfu Lu</a><sup>‡</sup>,
-            Malcolm Hsiu<sup>‡</sup>,
+            <a href="https://orcid.org/0000-0002-7784-8363">Jinlong Li</a>,
+            <a href="https://orcid.org/0009-0004-0023-6248">Jiaming Ding</a>,
+            <a href="https://orcid.org/0009-0000-1006-4372">Dingfu Lu</a>,
+            Malcolm Hsiu,
             <a href="https://orcid.org/0009-0004-3616-5509">Chuang Ke</a>,
             <a href="https://orcid.org/0000-0002-7106-0022">Kangning Yang</a>,
             <a href="https://orcid.org/0000-0003-1726-7214">Bochen Guan</a>,
@@ -401,7 +429,6 @@
             <a href="https://orcid.org/0000-0001-7299-7290">Zibo Meng</a>
           </p>
           <p class="affiliations">OPPO US AI Center · University of Wisconsin–Madison · University of California San Diego</p>
-          <p class="author-notes"><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author · <sup>‡</sup> Work done during internships at OPPO US AI Center</p>
         </div>
       </div>
     </section>
@@ -413,9 +440,44 @@
         <img src="static/images/20260825/cleartext-oppo-logo.png" alt="ClearText-Video" width="64" height="73">
         <div><strong>ClearText-Video</strong><span>ECCV 2026</span></div>
       </div>
-      <p>Built from the final 25 Aug 2026 release source. Code under MIT; public data under CC BY 4.0.</p>
+      <p>Code under MIT · Public data under CC BY 4.0</p>
       <a href="#top">Back to top ↑</a>
     </div>
   </footer>
+  <script>
+    (() => {
+      const button = document.querySelector("[data-copy-target]");
+      if (!button) return;
+
+      const label = button.querySelector("span");
+      const source = document.getElementById(button.dataset.copyTarget);
+      const setStatus = (message) => {
+        label.textContent = message;
+        window.setTimeout(() => { label.textContent = "Copy BibTeX"; }, 1800);
+      };
+
+      button.addEventListener("click", async () => {
+        const text = source.textContent;
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(text);
+          } else {
+            const area = document.createElement("textarea");
+            area.value = text;
+            area.setAttribute("readonly", "");
+            area.style.position = "fixed";
+            area.style.opacity = "0";
+            document.body.appendChild(area);
+            area.select();
+            if (!document.execCommand("copy")) throw new Error("Copy unavailable");
+            area.remove();
+          }
+          setStatus("Copied");
+        } catch (error) {
+          setStatus("Copy failed");
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
