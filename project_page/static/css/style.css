@@ -154,7 +154,7 @@ a {
 
 .hero {
   position: relative;
-  padding: clamp(54px, 6vw, 92px) 0 48px;
+  padding: clamp(32px, 4vw, 58px) 0 48px;
   overflow: hidden;
 }
 
@@ -181,11 +181,21 @@ a {
   right: -20px;
 }
 
+.hero-cover {
+  background: var(--paper-strong);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
 .hero-intro {
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(330px, 0.65fr);
   align-items: stretch;
   gap: clamp(36px, 5vw, 76px);
+  padding: clamp(34px, 4vw, 58px);
+  padding-bottom: clamp(26px, 3vw, 40px);
 }
 
 .hero-copy {
@@ -353,7 +363,7 @@ a {
   background: var(--paper-strong);
   border: 1px solid var(--line);
   border-radius: 14px;
-  box-shadow: var(--shadow);
+  box-shadow: none;
   overflow: hidden;
   text-decoration: none;
   transition: transform 180ms ease, box-shadow 180ms ease;
@@ -361,8 +371,8 @@ a {
 
 .conference-card:hover,
 .conference-card:focus-visible {
-  box-shadow: 0 24px 58px rgba(6, 47, 36, 0.14);
-  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(6, 47, 36, 0.1);
+  transform: none;
 }
 
 .conference-art {
@@ -481,25 +491,26 @@ a {
 }
 
 .hero-figure {
-  margin-top: clamp(48px, 6vw, 82px);
-  padding: 10px;
+  margin: 0;
+  padding: 0 clamp(10px, 1.2vw, 16px) clamp(10px, 1.2vw, 16px);
+  background: var(--paper-strong);
+  transform: none;
 }
 
-.hero-figure .figure-kicker,
-.hero-figure figcaption {
-  margin-inline: -10px;
+.hero-figure a {
+  display: block;
+  line-height: 0;
 }
 
-.hero-figure .figure-kicker {
-  margin-top: -10px;
-}
-
-.hero-figure figcaption {
-  margin-bottom: -10px;
+.hero-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: none;
 }
 
 .stat-rail {
-  margin-top: clamp(48px, 6vw, 88px);
+  margin-top: clamp(38px, 4vw, 58px);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid var(--line);
@@ -1361,6 +1372,7 @@ pre {
 @media (max-width: 1120px) {
   .hero-intro {
     grid-template-columns: 1fr;
+    padding: clamp(30px, 5vw, 48px);
   }
 
   .hero-copy {
@@ -1476,7 +1488,11 @@ pre {
   }
 
   .hero {
-    padding-top: 62px;
+    padding-top: 30px;
+  }
+
+  .hero-cover {
+    border-radius: 13px;
   }
 
   .hero h1 {
@@ -1649,7 +1665,15 @@ pre {
   }
 
   .hero {
-    padding-top: 48px;
+    padding-top: 20px;
+  }
+
+  .hero-cover {
+    border-radius: 10px;
+  }
+
+  .hero-intro {
+    padding: 22px 18px 24px;
   }
 
   .paper-title {
