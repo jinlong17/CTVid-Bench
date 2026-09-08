@@ -192,7 +192,7 @@ a {
 .hero-intro {
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(330px, 0.65fr);
-  align-items: stretch;
+  align-items: center;
   gap: clamp(36px, 5vw, 76px);
   padding: clamp(34px, 4vw, 58px);
   padding-bottom: clamp(26px, 3vw, 40px);
@@ -209,10 +209,10 @@ a {
   max-width: 920px;
   margin: 0 0 24px;
   color: var(--green-700);
-  font-size: clamp(0.92rem, 1.35vw, 1.16rem);
-  font-weight: 780;
-  line-height: 1.5;
-  letter-spacing: 0.025em;
+  font-size: clamp(1rem, 1.4vw, 1.24rem);
+  font-weight: 800;
+  line-height: 1.42;
+  letter-spacing: 0.015em;
 }
 
 .hero-lockup {
@@ -223,7 +223,7 @@ a {
 }
 
 .hero-project-mark {
-  width: clamp(48px, 5vw, 70px);
+  width: clamp(66px, 6vw, 90px);
   flex: 0 0 auto;
   filter: drop-shadow(0 10px 18px rgba(6, 47, 36, 0.12));
 }
@@ -232,7 +232,7 @@ a {
   margin: 0;
   color: var(--green-900);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(3.8rem, 6.1vw, 6.65rem);
+  font-size: clamp(4.25rem, 6.65vw, 7.3rem);
   font-weight: 700;
   line-height: 0.94;
   letter-spacing: -0.065em;
@@ -253,11 +253,28 @@ a {
   letter-spacing: -0.025em;
 }
 
-.hero-summary {
-  max-width: 760px;
-  margin: 28px 0 0;
+.hero-statement {
+  max-width: 780px;
+  margin-top: 30px;
+  padding-left: 20px;
+  border-left: 3px solid var(--green-500);
+}
+
+.hero-statement p {
+  margin: 0;
   color: var(--muted);
-  font-size: 1.03rem;
+  font-size: 0.92rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+.hero-statement strong {
+  display: block;
+  margin-top: 5px;
+  color: var(--green-900);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.12rem, 1.35vw, 1.3rem);
+  line-height: 1.42;
 }
 
 .action-row {
@@ -308,55 +325,55 @@ a {
 }
 
 .institution-strip {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 0.8fr 1.28fr 1.05fr;
   align-self: flex-start;
-  flex-wrap: wrap;
-  gap: 18px 28px;
+  width: min(100%, 690px);
   margin-top: 34px;
-  padding: 16px 22px;
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  box-shadow: 0 12px 34px rgba(6, 47, 36, 0.055);
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .institution-strip a {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  min-height: 36px;
+  justify-content: center;
+  min-width: 0;
+  min-height: 52px;
+  padding: 4px 18px;
+  border-right: 1px solid var(--line);
   text-decoration: none;
+}
+
+.institution-strip a:last-child {
+  border-right: 0;
 }
 
 .institution-strip img {
   width: auto;
-  max-height: 35px;
+  max-height: 42px;
   object-fit: contain;
 }
 
 .institution-strip .logo-oppo {
-  width: 104px;
+  width: 122px;
   height: auto;
 }
 
 .institution-strip .logo-wisconsin {
-  width: 176px;
+  width: 194px;
 }
 
 .institution-strip .logo-ucsd {
-  width: 154px;
-}
-
-.institution-label {
-  color: var(--muted);
-  font-size: 0.7rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  width: 174px;
 }
 
 .conference-card {
   display: flex;
+  align-self: center;
+  width: 100%;
+  max-width: 330px;
   min-width: 0;
   flex-direction: column;
   color: var(--ink);
@@ -376,7 +393,7 @@ a {
 }
 
 .conference-art {
-  height: 125px;
+  height: 88px;
   background: #d8eff4;
   overflow: hidden;
 }
@@ -389,23 +406,23 @@ a {
 
 .conference-content {
   display: flex;
-  padding: 24px 26px 26px;
+  padding: 16px 20px 18px;
   flex: 1;
   flex-direction: column;
 }
 
 .conference-logo {
-  width: min(208px, 76%);
-  height: 92px;
+  width: min(170px, 72%);
+  height: 66px;
   object-fit: contain;
   object-position: left center;
 }
 
 .conference-content > p {
-  margin: 17px 0 22px;
+  margin: 8px 0 13px;
   color: var(--green-900);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.05rem;
+  font-size: 0.92rem;
   font-weight: 700;
   line-height: 1.35;
 }
@@ -418,7 +435,7 @@ a {
   display: grid;
   grid-template-columns: 48px 1fr;
   gap: 10px;
-  padding: 8px 0;
+  padding: 5px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -437,7 +454,7 @@ a {
 
 .conference-meta dd {
   color: #34433c;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 650;
 }
 
@@ -1380,21 +1397,23 @@ pre {
   }
 
   .hero h1 {
-    font-size: clamp(4.3rem, 10vw, 6.65rem);
+    font-size: clamp(4.3rem, 10vw, 7rem);
   }
 
   .conference-card {
     display: grid;
-    grid-template-columns: minmax(260px, 0.72fr) 1fr;
+    grid-template-columns: 180px 1fr;
+    justify-self: start;
+    max-width: 680px;
   }
 
   .conference-art {
     height: 100%;
-    min-height: 270px;
+    min-height: 184px;
   }
 
   .conference-content {
-    padding: 24px 30px 26px;
+    padding: 16px 22px 18px;
   }
 
   .section-heading,
@@ -1496,16 +1515,16 @@ pre {
   }
 
   .hero h1 {
-    font-size: clamp(3.75rem, 13vw, 6.2rem);
+    font-size: clamp(3.7rem, 12.5vw, 6.2rem);
     letter-spacing: -0.065em;
   }
 
   .institution-strip {
-    gap: 15px 22px;
+    width: min(100%, 690px);
   }
 
   .conference-logo {
-    height: 82px;
+    height: 64px;
   }
 
   .stat-rail {
@@ -1678,28 +1697,36 @@ pre {
 
   .paper-title {
     margin-bottom: 19px;
-    font-size: 0.84rem;
+    font-size: 0.88rem;
   }
 
   .hero h1 {
-    font-size: clamp(2.05rem, 10.65vw, 3.75rem);
+    font-size: clamp(2.05rem, 10.3vw, 3.75rem);
     letter-spacing: -0.06em;
   }
 
   .hero-project-mark {
-    width: clamp(38px, 11vw, 48px);
+    width: clamp(44px, 12vw, 54px);
   }
 
   .hero-lockup {
     gap: 11px;
   }
 
-  .hero-summary {
-    margin-top: 22px;
+  .hero-statement {
+    margin-top: 24px;
+    padding-left: 14px;
   }
 
-  .hero-summary {
-    font-size: 0.94rem;
+  .hero-statement p {
+    font-size: 0.84rem;
+    line-height: 1.5;
+  }
+
+  .hero-statement strong {
+    margin-top: 7px;
+    font-size: 1.08rem;
+    line-height: 1.4;
   }
 
   .action-row {
@@ -1712,25 +1739,35 @@ pre {
   }
 
   .institution-strip {
+    grid-template-columns: 0.85fr 1.15fr;
     width: 100%;
-    gap: 14px 18px;
-    padding: 15px 16px;
+    padding: 8px 0;
   }
 
-  .institution-label {
-    width: 100%;
+  .institution-strip a {
+    min-height: 54px;
+    padding: 6px 12px;
+  }
+
+  .institution-strip a:nth-child(2) {
+    border-right: 0;
+  }
+
+  .institution-strip a:last-child {
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--line);
   }
 
   .institution-strip .logo-oppo {
-    width: 88px;
+    width: 104px;
   }
 
   .institution-strip .logo-wisconsin {
-    width: 142px;
+    width: 148px;
   }
 
   .institution-strip .logo-ucsd {
-    width: 132px;
+    width: 146px;
   }
 
   .conference-card {
@@ -1738,17 +1775,17 @@ pre {
   }
 
   .conference-art {
-    height: 112px;
+    height: 88px;
     min-height: 0;
   }
 
   .conference-content {
-    padding: 22px;
+    padding: 16px 18px 18px;
   }
 
   .conference-logo {
-    width: 190px;
-    height: 82px;
+    width: 168px;
+    height: 66px;
   }
 
   .conference-meta div {
