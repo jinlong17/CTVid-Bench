@@ -203,6 +203,7 @@ a {
   min-width: 0;
   flex-direction: column;
   justify-content: center;
+  container-type: inline-size;
 }
 
 .paper-title {
@@ -241,6 +242,14 @@ a {
 
 .hero h1 span {
   color: var(--green-600);
+}
+
+@supports (font-size: 1cqw) {
+  @media (min-width: 1121px) {
+    .hero h1 {
+      font-size: clamp(4.25rem, min(6.65vw, calc((100cqw - 116px) / 6.1)), 7.3rem);
+    }
+  }
 }
 
 .hero-subtitle {
@@ -1384,6 +1393,29 @@ pre {
 :focus-visible {
   outline: 3px solid #e2a756;
   outline-offset: 3px;
+}
+
+@media (min-width: 1121px) and (max-width: 1480px) {
+  .hero-intro {
+    grid-template-columns: minmax(0, 1.55fr) minmax(300px, 0.6fr);
+    gap: clamp(32px, 3vw, 46px);
+  }
+
+  .hero-lockup {
+    gap: clamp(16px, 1.25vw, 20px);
+  }
+
+  .hero-project-mark {
+    width: clamp(72px, 5.3vw, 80px);
+  }
+
+  .hero h1 {
+    font-size: clamp(4.5rem, 5.6vw, 5.25rem);
+  }
+
+  .conference-card {
+    max-width: 310px;
+  }
 }
 
 @media (max-width: 1120px) {
